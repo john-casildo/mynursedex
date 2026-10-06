@@ -34,7 +34,6 @@ export function setSoundOn(on: boolean) {
     localStorage.setItem(KEY, on ? "on" : "off");
   } catch {}
   listeners.forEach((l) => l());
-  if (on) playHeal();
 }
 
 function tone(c: AudioContext, freq: number, start: number, dur: number, type: OscillatorType, volume: number) {
