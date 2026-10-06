@@ -1,55 +1,103 @@
 {
   "id": "npo",
   "category": "abbreviations",
+  "areas": [],
   "es": {
-    "term": "Nada por vía oral (NPO)",
+    "term": "NPO / NVO (nada por vía oral)",
     "aliases": [
       "npo",
-      "nil per os",
+      "nvo",
+      "nada por vía oral",
       "nada por boca",
-      "sin alimentos ni líquidos",
-      "sin tomar"
+      "ayuno",
+      "nil per os"
     ],
-    "summary": "NPO (Nada por vía oral) indica que el paciente no debe ingerir alimentos ni líquidos. Se utiliza frecuentemente antes de cirugías o procedimientos diagnósticos.",
+    "summary": "Indicación de no ingerir alimentos ni líquidos por la boca, generalmente antes de una cirugía, un procedimiento con sedación o cuando hay riesgo de aspiración. En Costa Rica también se escribe NVO.",
     "key_points": [
-      "Confirmar con el médico si se permiten medicamentos con sorbos de agua",
-      "Ajustar la dosis de insulina en pacientes diabéticos bajo NPO",
-      "Mantener el ayuno según el tiempo prescrito, usualmente 6‑8 h antes de la anestesia"
+      "Viene del latín nil per os: nada por la boca.",
+      "Objetivo principal: evitar la aspiración del contenido gástrico durante la anestesia o la sedación.",
+      "Aclarar con el médico si se permiten los medicamentos orales habituales con un sorbo de agua.",
+      "En pacientes con diabetes: vigilar la glucosa y ajustar la insulina según orden.",
+      "Un ayuno prolongado requiere hidratación IV."
     ],
     "sections": {
+      "usage": [
+        "Antes de cirugía, endoscopías o procedimientos con sedación, según el tiempo de ayuno indicado.",
+        "Con riesgo de aspiración: alteración de la conciencia o de la deglución.",
+        "En algunas condiciones digestivas (obstrucción intestinal, pancreatitis) según orden.",
+        "Ejemplo de orden: \"NVO a partir de las 00:00\"."
+      ],
       "nursing_care": [
-        "Colocar señal de NPO y retirar el dispensador de agua",
-        "Proveer cuidados bucales cada 2‑4 h para evitar sequedad",
-        "Documentar cumplimiento del ayuno y notificar cualquier ingesta accidental",
-        "Evaluar signos de hipoglucemia en pacientes con diabetes"
+        "Colocar un aviso de NPO/NVO y retirar agua y alimentos de la unidad.",
+        "Explicar al paciente y la familia el motivo y la duración.",
+        "Higiene bucal frecuente para el confort.",
+        "Vigilar hidratación, glucosa y signos vitales; mantener la vía IV indicada.",
+        "Documentar la hora de inicio y avisar si hubo ingesta accidental."
       ]
     },
     "care_plans": []
   },
   "en": {
-    "term": "NPO",
+    "term": "NPO (nothing by mouth)",
     "aliases": [
+      "npo",
       "nil per os",
-      "nothing by mouth"
+      "nothing by mouth",
+      "fasting",
+      "nvo"
     ],
-    "summary": "Nothing by mouth (Latin: nil per os). No food or drink, often before surgery or procedures.",
+    "summary": "Order not to take food or fluids by mouth, usually before surgery, a procedure with sedation, or when there's a risk of aspiration. In Costa Rica it's also written NVO.",
     "key_points": [
-      "Clarify with the provider whether oral meds are allowed with sips of water",
-      "Diabetic patients on NPO may need insulin dose adjustments"
+      "From the Latin nil per os: nothing by mouth.",
+      "Main goal: prevent aspiration of stomach contents during anesthesia or sedation.",
+      "Clarify with the provider whether usual oral medications are allowed with a sip of water.",
+      "In patients with diabetes: monitor glucose and adjust insulin as ordered.",
+      "Prolonged fasting requires IV hydration."
     ],
     "sections": {
+      "usage": [
+        "Before surgery, endoscopy or procedures with sedation, for the ordered fasting time.",
+        "With aspiration risk: altered consciousness or swallowing.",
+        "In some digestive conditions (bowel obstruction, pancreatitis) as ordered.",
+        "Example order: \"NPO after midnight\"."
+      ],
       "nursing_care": [
-        "Post an NPO sign and remove the water pitcher",
-        "Provide mouth care for comfort"
+        "Post an NPO sign and remove water and food from the room.",
+        "Explain the reason and duration to the patient and family.",
+        "Frequent mouth care for comfort.",
+        "Monitor hydration, glucose and vital signs; keep the ordered IV running.",
+        "Document the start time and report any accidental intake."
       ]
     },
     "care_plans": []
   },
   "related": [
     "rights-of-medication-administration",
-    "blood-glucose"
+    "blood-glucose",
+    "hyperemesis-gravidarum"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "Clinical Nursing Skills: Administering Oral Medications",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-1-administering-oral-medications",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: The Medication Administration Process",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/11-3-the-medication-administration-process",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"
