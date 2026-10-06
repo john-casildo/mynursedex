@@ -1,8 +1,52 @@
-# Topics for `npm run import` (scripts/import.mts). One per line:  category: term
+# Topics for `npm run etl -- run` (scripts/etl/). One per line:  category: term
 # Categories: pharmacology, conditions, labs, fundamentals, abbreviations
 # Topics that already exist are skipped (use --force to redo them).
+# A [area] line tags the topics below it (areas: src/lib/areas.json); [] clears it.
 # Swap these for topics from her syllabus.
 
+[obstetrics]
+conditions: preeclampsia
+conditions: eclampsia
+conditions: HELLP syndrome
+conditions: gestational diabetes
+conditions: placenta previa
+conditions: placental abruption
+conditions: postpartum hemorrhage
+conditions: ectopic pregnancy
+conditions: hyperemesis gravidarum
+conditions: preterm labor
+conditions: premature rupture of membranes
+conditions: spontaneous abortion
+conditions: mastitis
+conditions: postpartum infection
+conditions: pelvic inflammatory disease
+conditions: neonatal jaundice
+pharmacology: oxytocin
+pharmacology: magnesium sulfate
+pharmacology: methylergonovine
+pharmacology: misoprostol
+pharmacology: nifedipine
+pharmacology: betamethasone
+pharmacology: Rho(D) immune globulin
+pharmacology: folic acid
+labs: human chorionic gonadotropin
+labs: blood type and Rh factor
+labs: group B streptococcus screening
+fundamentals: stages of labor
+fundamentals: Leopold maneuvers
+fundamentals: fetal heart rate monitoring
+fundamentals: APGAR score
+fundamentals: Naegele's rule
+fundamentals: fundal height
+fundamentals: postpartum assessment
+fundamentals: lochia
+fundamentals: breastfeeding
+fundamentals: Bishop score
+abbreviations: gravida para
+abbreviations: FUM
+abbreviations: FPP
+
+[]
 pharmacology: furosemide
 pharmacology: amlodipine
 pharmacology: atorvastatin

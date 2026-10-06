@@ -115,6 +115,7 @@ export async function extract(job: Job): Promise<RawRecord> {
   const raw: RawRecord = {
     id: job.id,
     category: job.category,
+    areas: job.areas,
     term: job.term,
     fetched_at: today(),
     drug_class: parts.find((p) => p.drug_class)?.drug_class,

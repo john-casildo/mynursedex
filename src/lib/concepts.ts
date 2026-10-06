@@ -17,7 +17,10 @@ function loadAll(): Concept[] {
     const dir = path.join(DATA_DIR, category);
     return readdirSync(dir)
       .filter((f) => f.endsWith(".json"))
-      .map((f) => JSON.parse(readFileSync(path.join(dir, f), "utf8")) as Concept);
+      .map((f) => {
+        const c = JSON.parse(readFileSync(path.join(dir, f), "utf8")) as Concept;
+        return { ...c, areas: c.areas ?? [] };
+      });
   });
 }
 
@@ -49,6 +52,7 @@ export function toSearchItem(e: DexEntry): SearchItem {
     id: e.id,
     number: e.number,
     category: e.category,
+    areas: e.areas,
     es: slim(e.es),
     en: slim(e.en),
   };

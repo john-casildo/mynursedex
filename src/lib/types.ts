@@ -8,6 +8,12 @@ export const CATEGORIES = [
 
 export type Category = (typeof CATEGORIES)[number];
 
+// Subject areas (courses) that cut across categories, e.g. oxytocin is a drug in obstetrics.
+// Labels live in areas.json.
+export const AREAS = ["obstetrics"] as const;
+
+export type Area = (typeof AREAS)[number];
+
 export type Lang = "en" | "es";
 
 // A nursing care plan built on a NANDA-I diagnosis, with NOC outcomes and NIC interventions.
@@ -46,6 +52,7 @@ export type Source = {
 export type Concept = {
   id: string;
   category: Category;
+  areas: Area[];
   es: Localized;
   en: Localized;
   related: string[];
@@ -65,7 +72,7 @@ type SearchText = Pick<Localized, "term" | "aliases" | "summary"> & {
 };
 
 // The slim version of an entry sent to the browser for search and cards.
-export type SearchItem = Pick<DexEntry, "id" | "number" | "category"> & {
+export type SearchItem = Pick<DexEntry, "id" | "number" | "category" | "areas"> & {
   es: SearchText;
   en: SearchText;
 };

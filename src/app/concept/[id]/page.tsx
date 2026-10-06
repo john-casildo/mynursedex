@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import DexCard from "@/components/DexCard";
 import L from "@/components/L";
-import { CATEGORY_STYLES, SECTIONS, formatNumber } from "@/lib/categories";
+import { AREA_LABELS, CATEGORY_STYLES, SECTIONS, formatNumber } from "@/lib/categories";
 import { entries, getEntry, toSearchItem } from "@/lib/concepts";
 import type { CarePlan, DexEntry, Lang, Localized, Source } from "@/lib/types";
 
@@ -222,6 +222,15 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
                 <span className={`h-2.5 w-2.5 ${cat.dot}`} />
                 {cat.label[lang]}
               </span>
+              {entry.areas.map((a) => (
+                <Link
+                  key={a}
+                  href={`/?a=${a}`}
+                  className="rounded-sm border border-line px-1.5 py-0.5 text-xs hover:border-scrubs hover:text-ink"
+                >
+                  {lang === "es" ? AREA_LABELS[a].es : AREA_LABELS[a].en}
+                </Link>
+              ))}
             </p>
             <h1 className="font-pixel mt-2 text-4xl leading-[1.1] text-ink sm:text-5xl">{text.term}</h1>
             {otherTerm !== text.term && (

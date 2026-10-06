@@ -1,5 +1,11 @@
+import areasJson from "./areas.json";
 import sectionsJson from "./sections.json";
-import type { Category, Lang } from "./types";
+import type { Area, Category, Lang } from "./types";
+
+export const AREA_LABELS = areasJson as Record<
+  Area,
+  { es: string; en: string; short_es: string; short_en: string }
+>;
 
 type SectionDef = { id: string; es: string; en: string; hint?: string };
 

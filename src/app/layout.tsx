@@ -7,7 +7,7 @@ import LangToggle from "@/components/LangToggle";
 import PixelNurse from "@/components/PixelNurse";
 import ThemeToggle from "@/components/ThemeToggle";
 import { entries } from "@/lib/concepts";
-import { CATEGORIES, type Category } from "@/lib/types";
+import { AREAS, CATEGORIES, type Area, type Category } from "@/lib/types";
 import "./globals.css";
 
 const body = Atkinson_Hyperlegible({
@@ -34,6 +34,10 @@ const counts = Object.fromEntries([
   ["all", entries.length],
   ...CATEGORIES.map((c) => [c, entries.filter((e) => e.category === c).length]),
 ]) as Record<Category | "all", number>;
+
+const areaCounts = Object.fromEntries(
+  AREAS.map((a) => [a, entries.filter((e) => e.areas.includes(a)).length]),
+) as Record<Area, number>;
 
 function Brand({ size }: { size: number }) {
   return (
@@ -92,7 +96,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             </div>
           </div>
           <nav className="mt-8" aria-label="Categorías">
-            <CategoryNav counts={counts} />
+            <CategoryNav counts={counts} areaCounts={areaCounts} />
           </nav>
           <div className="mt-auto space-y-4 px-2">
             <div className="flex items-center gap-1">

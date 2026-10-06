@@ -7,7 +7,7 @@
 
 import { readdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
-import { CATEGORIES, DATA_DIR, NANDA, SECTIONS, norm, nandaByEs, readJson, type Concept, type Localized } from "./lib.mts";
+import { AREAS, CATEGORIES, DATA_DIR, NANDA, SECTIONS, norm, nandaByEs, readJson, type Concept, type Localized } from "./lib.mts";
 
 type Problem = { file: string; message: string };
 
@@ -45,6 +45,9 @@ export function checkEntry(e: Concept, category: string, fileId: string): { erro
   if (e.id !== fileId) err(`id "${e.id}" doesn't match the file name`);
   if (e.category !== category) err(`category "${e.category}" doesn't match the folder "${category}"`);
   if (typeof e.verified !== "boolean") err(`"verified" must be true or false`);
+  for (const a of e.areas ?? []) {
+    if (!AREAS[a]) err(`area "${a}" isn't defined in src/lib/areas.json`);
+  }
   if (!Array.isArray(e.sources)) err(`"sources" must be a list`);
   else {
     for (const s of e.sources) {

@@ -4,6 +4,7 @@
 // under Groq's free 8,000 tokens/minute), then cleaned and checked against the NANDA list.
 
 import {
+  AREAS,
   NANDA,
   SECTIONS,
   clip,
@@ -58,7 +59,9 @@ async function chatJson(system: string, user: string, effort: "low" | "medium"):
   });
   const choice = data.choices[0];
   if (choice.finish_reason === "length") throw new Error("response was cut off (too long)");
-  return JSON.parse(choice.message.content);
+  const parsed = JSON.parse(choice.message.content);
+  // Sometimes the model wraps the object in a one-item list.
+  return Array.isArray(parsed) && parsed.length === 1 ? parsed[0] : parsed;
 }
 
 // ---------- Prompts ----------
@@ -193,6 +196,7 @@ export async function transform(raw: RawRecord): Promise<Concept> {
   const user = [
     `Category: ${raw.category}`,
     `Topic: ${raw.term}`,
+    ...(raw.areas ?? []).map((a) => `Area: ${AREAS[a]?.prompt ?? a}. Focus the content and care plans on this context.`),
     raw.drug_class ? `FDA drug class: ${raw.drug_class}` : "",
     sourcesForPrompt(raw),
   ]
@@ -200,6 +204,7 @@ export async function transform(raw: RawRecord): Promise<Concept> {
     .join("\n\n");
 
   const esRaw = await chatJson(draftPrompt(raw.category), user, "medium");
+  if (process.env.ETL_DEBUG) console.log(JSON.stringify(esRaw).slice(0, 1500));
   const es = cleanLocalized(esRaw, raw.category, raw.term, raw.aliases);
   es.care_plans = enforceNanda(es.care_plans);
   console.log(`  es: ${es.term} (${Object.keys(es.sections).length} sections, ${es.care_plans.length} care plans)`);
@@ -223,6 +228,7 @@ export async function transform(raw: RawRecord): Promise<Concept> {
   return {
     id: raw.id,
     category: raw.category,
+    areas: raw.areas ?? [],
     es,
     en,
     related: strings(esRaw.related).map(slugify).filter((r) => r && r !== raw.id),

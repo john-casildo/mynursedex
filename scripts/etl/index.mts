@@ -37,7 +37,12 @@ async function jobs(): Promise<Job[]> {
   if (UPGRADE || command === "transform") {
     list = existing
       .filter((e) => FORCE || command === "transform" || !isFull(e))
-      .map((e) => ({ id: e.id, category: e.category, term: e.en.term.replace(/\s*\(.*?\)/g, "") }));
+      .map((e) => ({
+        id: e.id,
+        category: e.category,
+        term: e.en.term.replace(/\s*\(.*?\)/g, ""),
+        areas: e.areas ?? [],
+      }));
   } else {
     list = (await readTopics()).filter((t) => FORCE || !byId.has(t.id));
   }

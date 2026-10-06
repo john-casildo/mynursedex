@@ -5,10 +5,10 @@ import Fuse from "fuse.js";
 import DexCard from "./DexCard";
 import L from "./L";
 import PixelNurse from "./PixelNurse";
-import { CATEGORY_STYLES } from "@/lib/categories";
-import { setCategory, useCategory } from "@/lib/category";
+import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
+import { setFilters, useFilters } from "@/lib/category";
 import { useLang } from "@/lib/lang";
-import { CATEGORIES, type Category, type SearchItem } from "@/lib/types";
+import { AREAS, CATEGORIES, type Area, type Category, type SearchItem } from "@/lib/types";
 
 // Cards rendered at once; more load on demand so thousands of entries stay fast.
 const PAGE_SIZE = 50;
@@ -18,12 +18,17 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const [query, setQuery] = useState("");
   const [limit, setLimit] = useState(PAGE_SIZE);
 
-  // Shared with the desktop sidebar and kept in the URL (?c=labs).
-  const category = useCategory();
+  // Shared with the desktop sidebar and kept in the URL (?c=labs&a=obstetrics).
+  const { category, area } = useFilters();
 
   function selectCategory(next: Category | "all") {
     setLimit(PAGE_SIZE);
-    setCategory(next);
+    setFilters({ category: next });
+  }
+
+  function toggleArea(next: Area) {
+    setLimit(PAGE_SIZE);
+    setFilters({ area: area === next ? "all" : next });
   }
 
   // Both languages are always searched, so "potasio" and "potassium" both work.
@@ -51,8 +56,10 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const results = useMemo(() => {
     const q = query.trim();
     const matched = q ? fuse.search(q).map((r) => r.item) : items;
-    return category === "all" ? matched : matched.filter((e) => e.category === category);
-  }, [query, category, fuse, items]);
+    return matched.filter(
+      (e) => (category === "all" || e.category === category) && (area === "all" || e.areas.includes(area)),
+    );
+  }, [query, category, area, fuse, items]);
 
   return (
     <div className="max-w-5xl">
@@ -105,6 +112,19 @@ export default function Search({ items }: { items: SearchItem[] }) {
             </button>
           );
         })}
+        <span aria-hidden className="mx-1 w-px shrink-0 bg-line" />
+        {AREAS.map((id) => (
+          <button
+            key={id}
+            onClick={() => toggleArea(id)}
+            aria-pressed={area === id}
+            className={`shrink-0 rounded border-2 px-3 py-1.5 text-sm font-semibold ${
+              area === id ? "border-navy bg-navy text-white dark:border-ceil dark:bg-ceil dark:text-navy" : "border-line bg-card text-ink"
+            }`}
+          >
+            <L en={AREA_LABELS[id].short_en} es={AREA_LABELS[id].short_es} />
+          </button>
+        ))}
       </div>
 
       <h1 className="font-pixel mb-2 mt-8 text-xl text-ink">
@@ -112,6 +132,12 @@ export default function Search({ items }: { items: SearchItem[] }) {
           <L en="All entries" es="Todas las entradas" />
         ) : (
           <L en={CATEGORY_STYLES[category].label.en} es={CATEGORY_STYLES[category].label.es} />
+        )}
+        {area !== "all" && (
+          <>
+            {" · "}
+            <L en={AREA_LABELS[area].short_en} es={AREA_LABELS[area].short_es} />
+          </>
         )}{" "}
         <span className="text-muted">({results.length})</span>
       </h1>

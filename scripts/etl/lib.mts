@@ -22,6 +22,7 @@ export type Source = {
 export type RawRecord = {
   id: string;
   category: string;
+  areas: string[];
   term: string;
   fetched_at: string;
   drug_class?: string;
@@ -50,6 +51,7 @@ export type Localized = {
 export type Concept = {
   id: string;
   category: string;
+  areas: string[];
   es: Localized;
   en: Localized;
   related: string[];
@@ -59,13 +61,18 @@ export type Concept = {
   updated: string;
 };
 
-export type Job = { id: string; category: string; term: string };
+export type Job = { id: string; category: string; term: string; areas: string[] };
 
 // ---------- Shared config files ----------
 
 type SectionDef = { id: string; es: string; en: string; hint?: string };
 export const SECTIONS: Record<string, { care_plans: number; sections: SectionDef[] }> = JSON.parse(
   await readFile(new URL("../../src/lib/sections.json", import.meta.url), "utf8"),
+);
+
+// Subject areas (courses), shared with the website (src/lib/areas.json).
+export const AREAS: Record<string, { es: string; en: string; prompt: string }> = JSON.parse(
+  await readFile(new URL("../../src/lib/areas.json", import.meta.url), "utf8"),
 );
 
 // Allowed NANDA-I labels (data/nanda.json). Models invent plausible-sounding diagnoses,
@@ -154,19 +161,29 @@ export async function loadEntries(): Promise<Concept[]> {
   return all;
 }
 
+// topics.txt: "category: term" lines. A "[area]" line (e.g. "[obstetrics]") tags the lines
+// below it with that area until the next "[...]" line; "[]" clears it.
 export async function readTopics(): Promise<Job[]> {
-  return (await readFile(new URL("topics.txt", DATA_DIR), "utf8"))
-    .split("\n")
-    .map((l) => l.trim())
-    .filter((l) => l && !l.startsWith("#"))
-    .flatMap((l) => {
-      const [category, ...rest] = l.split(":");
-      const c = category.trim().toLowerCase();
-      const term = rest.join(":").trim();
-      if (!CATEGORIES.includes(c) || !term) {
-        console.warn(`Skipping bad line in topics.txt: "${l}"`);
-        return [];
-      }
-      return [{ id: slugify(term), category: c, term }];
-    });
+  let areas: string[] = [];
+  const jobs: Job[] = [];
+  for (const raw of (await readFile(new URL("topics.txt", DATA_DIR), "utf8")).split("\n")) {
+    const l = raw.trim();
+    if (!l || l.startsWith("#")) continue;
+    const header = l.match(/^\[(.*)\]$/);
+    if (header) {
+      const a = header[1].trim();
+      if (a && !AREAS[a]) console.warn(`Unknown area "[${a}]" in topics.txt (add it to src/lib/areas.json)`);
+      areas = a && AREAS[a] ? [a] : [];
+      continue;
+    }
+    const [category, ...rest] = l.split(":");
+    const c = category.trim().toLowerCase();
+    const term = rest.join(":").trim();
+    if (!CATEGORIES.includes(c) || !term) {
+      console.warn(`Skipping bad line in topics.txt: "${l}"`);
+      continue;
+    }
+    jobs.push({ id: slugify(term), category: c, term, areas });
+  }
+  return jobs;
 }

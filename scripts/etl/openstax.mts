@@ -9,6 +9,7 @@ const BOOKS = [
   { uuid: "cede1974-4a2e-47e9-bf60-8ab91962bb1f", slug: "medical-surgical-nursing", title: "Medical-Surgical Nursing" },
   { uuid: "4738cffb-5d2b-49c0-8368-47cb6dafdaa6", slug: "fundamentals-nursing", title: "Fundamentals of Nursing" },
   { uuid: "75dc0490-e1d0-4c96-b05a-d59274e287cc", slug: "clinical-nursing-skills", title: "Clinical Nursing Skills" },
+  { uuid: "63229ab9-f9ed-4be4-9d2b-ad5035a02f72", slug: "maternal-newborn-nursing", title: "Maternal-Newborn Nursing" },
 ];
 
 const LICENSE = {
