@@ -152,7 +152,7 @@ async function main() {
         else {
           await writeJson(entryUrl(entry.category, entry.id), entry);
           if (job.issue) {
-            const comment = `Agregado a MyNurseDex: [${entry.es.term}](${process.env.SITE_URL ?? "https://nursedex.vercel.app"}/concept/${entry.id}). Estará disponible en unos minutos.`;
+            const comment = `Agregado a MyNurseDex: [${entry.es.term}](${process.env.SITE_URL ?? "https://mynursedex.vercel.app"}/concept/${entry.id}). Estará disponible en unos minutos.`;
             // In CI, requests are closed only after the new entries are pushed (see close-issues).
             if (process.env.CLOSE_LATER_FILE) {
               await appendFile(process.env.CLOSE_LATER_FILE, JSON.stringify({ issue: job.issue, comment }) + "\n");

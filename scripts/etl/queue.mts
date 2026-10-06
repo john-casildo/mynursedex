@@ -10,7 +10,7 @@ import { AREAS, CATEGORIES, norm, readTopics, slugify, type Concept, type Job } 
 import { TRANSLATE_MODEL, groq } from "./transform.mts";
 
 const REPO = process.env.GITHUB_REPOSITORY ?? "john-casildo/nursedex";
-const SITE = process.env.SITE_URL ?? "https://nursedex.vercel.app";
+const SITE = process.env.SITE_URL ?? "https://mynursedex.vercel.app";
 const LABEL = "solicitud";
 
 export type QueueItem = Job & { issue?: number };
