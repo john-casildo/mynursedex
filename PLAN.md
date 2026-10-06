@@ -108,6 +108,8 @@ TRANSFORM transform.mts raw → Spanish draft (Groq) → English translation →
 VALIDATE  validate.mts  every entry checked; errors stop `npm run build` (prebuild), so bad data never deploys
 LOAD                    data/<category>/<id>.json
 ```
+Free-plan budget: Groq allows ~200,000 tokens/day **per model**. Drafts use `gpt-oss-120b` (~7k tokens/entry), translations use `gpt-oss-20b` (~6k), so about 25 entries/day. Faster option: Cerebras free plan (same model, ~1M tokens/day) via the same OpenAI-compatible API.
+
 Commands:
 - `npm run etl -- sync-books` one-time download of OpenStax books into `data/raw/openstax/` (git-ignored, ~15 MB)
 - `npm run etl -- run` new topics from `data/topics.txt` (`--upgrade`, `--force`, `--only <id>`, `--dry-run`)

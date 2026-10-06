@@ -20,7 +20,11 @@ import {
 } from "./lib.mts";
 
 const GROQ_URL = "https://api.groq.com/openai/v1";
+// Groq's free plan allows ~200,000 tokens/day PER MODEL. Drafting (the medical content) uses
+// the large model; translating uses a smaller one with its own daily budget, which roughly
+// doubles how many entries fit in a day.
 export const MODEL = process.env.GROQ_MODEL ?? "openai/gpt-oss-120b";
+export const TRANSLATE_MODEL = process.env.GROQ_TRANSLATE_MODEL ?? "openai/gpt-oss-20b";
 const MAX_SOURCE_CHARS = 4500;
 const MAX_OUTPUT_TOKENS = 4500;
 
@@ -45,9 +49,9 @@ export async function groq(path: string, body?: unknown): Promise<any> {
   throw new Error("Groq: still rate limited after 6 tries (daily limit reached? try again later)");
 }
 
-async function chatJson(system: string, user: string, effort: "low" | "medium"): Promise<any> {
+async function chatJson(system: string, user: string, effort: "low" | "medium", model = MODEL): Promise<any> {
   const data = await groq("/chat/completions", {
-    model: MODEL,
+    model,
     temperature: 0.2,
     max_completion_tokens: MAX_OUTPUT_TOKENS,
     reasoning_effort: effort,
@@ -209,7 +213,7 @@ export async function transform(raw: RawRecord): Promise<Concept> {
   es.care_plans = enforceNanda(es.care_plans);
   console.log(`  es: ${es.term} (${Object.keys(es.sections).length} sections, ${es.care_plans.length} care plans)`);
 
-  const enRaw = await chatJson(TRANSLATE_PROMPT, JSON.stringify(es), "low");
+  const enRaw = await chatJson(TRANSLATE_PROMPT, JSON.stringify(es), "low", TRANSLATE_MODEL);
   const en = cleanLocalized(enRaw, raw.category, raw.term, raw.aliases);
   // Use the official English label from nanda.json rather than the model's translation.
   if (en.care_plans.length === es.care_plans.length) {

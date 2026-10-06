@@ -10,13 +10,13 @@
 //
 // Options: --only <id>   limit to one entry   |   --dry-run   print instead of saving
 //
-// Groq free plan: ~8,000 tokens/minute and 1,000 requests/day. Each entry uses 2 requests and
-// about a minute. Every step saves as it goes and skips finished work, so it's safe to stop and re-run.
+// Groq free plan: ~8,000 tokens/minute and ~200,000 tokens/day per model. Each entry uses about
+// 7k tokens on the drafting model and 6k on the translation model, so roughly 25 entries/day. Every step saves as it goes and skips finished work, so it's safe to stop and re-run.
 
 import { entryUrl, loadEntries, rawUrl, readJson, readTopics, writeJson, type Concept, type Job, type RawRecord } from "./lib.mts";
 import { extract } from "./extract.mts";
 import { hasOpenStax, syncOpenStax } from "./openstax.mts";
-import { MODEL, groq, transform } from "./transform.mts";
+import { MODEL, TRANSLATE_MODEL, groq, transform } from "./transform.mts";
 import { checkEntry, printReport, validate } from "./validate.mts";
 
 const args = process.argv.slice(2);
@@ -72,9 +72,11 @@ async function checkGroq() {
     process.exit(1);
   }
   const ids: string[] = (await groq("/models")).data.map((m: { id: string }) => m.id);
-  if (!ids.includes(MODEL)) {
-    console.error(`Model "${MODEL}" isn't available on Groq. Set GROQ_MODEL in .env.local to one of:\n  ${ids.join("\n  ")}`);
-    process.exit(1);
+  for (const [name, model] of [["GROQ_MODEL", MODEL], ["GROQ_TRANSLATE_MODEL", TRANSLATE_MODEL]]) {
+    if (!ids.includes(model)) {
+      console.error(`Model "${model}" isn't available on Groq. Set ${name} in .env.local to one of:\n  ${ids.join("\n  ")}`);
+      process.exit(1);
+    }
   }
 }
 
