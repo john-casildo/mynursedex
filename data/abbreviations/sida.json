@@ -1,0 +1,189 @@
+{
+  "id": "sida",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "SIDA (síndrome de inmunodeficiencia adquirida)",
+    "aliases": [
+      "sida",
+      "vih",
+      "síndrome de inmunodeficiencia adquirida",
+      "virus de inmunodeficiencia humana",
+      "aids",
+      "hiv",
+      "transmisión vertical",
+      "vih y embarazo"
+    ],
+    "summary": "Etapa avanzada de la infección por VIH, cuando el sistema inmune está muy debilitado. En obstetricia lo central es detectar el VIH en el embarazo y prevenir la transmisión al bebé.",
+    "key_points": [
+      "El SIDA se define por un conteo de CD4 menor de 200 células/µL o por una enfermedad definitoria de SIDA.",
+      "El VIH puede pasar al bebé durante el embarazo, el parto (sobre todo vaginal) y la lactancia materna.",
+      "La terapia antirretroviral (TAR) busca una carga viral indetectable: es lo que más protege al bebé.",
+      "Con carga viral alta (más de 1 000 copias/mL) se ofrece cesárea programada a las 38 semanas con zidovudina IV.",
+      "El RN recibe antirretrovirales lo antes posible después del nacer, durante 4 a 6 semanas."
+    ],
+    "sections": {
+      "usage": [
+        "Se anota en antecedentes y diagnósticos: «G2P1, VIH positiva en TAR, carga viral indetectable».",
+        "VIH es el virus; SIDA es la etapa avanzada. No son sinónimos.",
+        "Las pruebas de VIH forman parte de los laboratorios del control prenatal."
+      ],
+      "nursing_care": [
+        "Ofrecer la prueba de VIH lo antes posible en el embarazo, con consejería y confidencialidad.",
+        "Reforzar la toma diaria de la TAR: la adherencia es clave para la carga viral.",
+        "Aplicar precauciones estándar con todas las pacientes en el parto.",
+        "Seguir el protocolo institucional de alimentación del RN: donde hay fórmula segura, se indica en lugar de lactancia materna.",
+        "Coordinar el seguimiento del RN con pruebas de VIH en los primeros meses."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "AIDS (SIDA, acquired immunodeficiency syndrome)",
+    "aliases": [
+      "aids",
+      "hiv",
+      "sida",
+      "vih",
+      "acquired immunodeficiency syndrome",
+      "human immunodeficiency virus",
+      "perinatal hiv transmission",
+      "hiv in pregnancy"
+    ],
+    "summary": "Late-stage HIV infection, when the immune system is severely weakened (SIDA in Spanish). In obstetrics, the focus is testing for HIV in pregnancy and preventing transmission to the baby.",
+    "key_points": [
+      "AIDS is defined as a CD4 count < 200 cells/microL or the presence of any AIDS-defining condition.",
+      "HIV can pass to the baby during pregnancy, during childbirth (especially vaginal birth) and during breastfeeding.",
+      "Antiretroviral therapy (ART) aims for an undetectable viral load, the best way to protect the baby.",
+      "With a viral load > 1,000 copies/mL, an elective C-section is offered at 38 weeks with intravenous zidovudine.",
+      "The baby gets HIV medicines as soon as possible after birth and takes them for 4 to 6 weeks."
+    ],
+    "sections": {
+      "usage": [
+        "Charted in history and diagnoses: \"G2P1, HIV positive on ART, undetectable viral load\".",
+        "HIV is the virus; AIDS is the late stage. They are not synonyms.",
+        "HIV testing is part of the routine prenatal labs."
+      ],
+      "nursing_care": [
+        "Offer HIV testing as early as possible in pregnancy, with counseling and confidentiality.",
+        "Reinforce taking ART every day: adherence is key to the viral load.",
+        "Use standard precautions with every patient during birth.",
+        "Follow the facility's infant feeding protocol: where safe formula is available, it is recommended instead of breastfeeding.",
+        "Coordinate the baby's follow-up with several HIV tests over the first months."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "rn",
+    "ago",
+    "breastfeeding",
+    "pap-test"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Sexually Transmitted Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/7-1-sexually-transmitted-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "MedlinePlus: HIV and Pregnancy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hivandpregnancy.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: VIH y el embarazo",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hivandpregnancy.html",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 5,
+      "contradicted": 0,
+      "total": 15
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "AIDS is defined as a CD4 count < 200 cells/microL or the presence of any AIDS-defining conditions, which include the following: bacterial infections, multiple or recurrent candidiasis of bronchi, trachea, or lungs candidiasis of esophagus cervical cancer, invasive coccidioidomycosis, disseminated or extrapulmonary cryptococcosis, extrapulmonary cryptosporidiosi",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "It can happen in three ways: During pregnancy During childbirth, especially if it is vaginal childbirth During breastfeeding",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Having an undetectable viral load is the best thing you can do to stay healthy and prevent your baby from getting HIV.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Patients with a viral load > 1,000 copies/mL should be offered an elective C-section at 38 weeks with intravenous zidovudine (Retrovir) given 3 hours preoperatively (ACOG, 2024).",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Your baby will need to take medicines for 4 to 6 weeks.",
+        "source": 1
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "supported",
+        "quote": "Late-stage HIV is known as acquired immunodeficiency syndrome ( AIDS ) and is fatal (CDC, 2021a).",
+        "source": 0
+      },
+      "sections.usage.2": {
+        "status": "supported",
+        "quote": "Pregnant patients should be tested at the first prenatal visit and again in the third trimester.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "If you are pregnant or planning to get pregnant, it's important to get tested for HIV as soon as possible.",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "So the Centers for Disease Control and Prevention and the American Academy of Pediatrics recommend that if you have HIV, you should feed your baby formula instead of breastfeeding.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "He or she will get several HIV tests over the first few months.",
+        "source": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "id": "rnt",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "RNT (recién nacido a término)",
+    "aliases": [
+      "rnt",
+      "recién nacido término",
+      "recién nacido a término",
+      "a término",
+      "término",
+      "rn término",
+      "term newborn"
+    ],
+    "summary": "Recién nacido entre las 37 semanas y antes de cumplir las 42 semanas de gestación (37 0/7 a 41 6/7). Es el rango esperado y el de menor riesgo.",
+    "key_points": [
+      "Término: desde las 37 semanas hasta antes de las 42 semanas de gestación.",
+      "Antes de 37 semanas es pretérmino (RNP); desde las 42 semanas, postérmino (RN post).",
+      "La combinación más frecuente en las notas es RNTAEG: término y adecuado para la edad gestacional.",
+      "Un RNT AEG suele pesar entre 2 500 y 4 000 g."
+    ],
+    "sections": {
+      "usage": [
+        "Ejemplo: «RNTAEG femenino, 39 semanas por FUR, peso 3 300 g, Apgar 9/9».",
+        "La edad gestacional se confirma tras el nacimiento con Ballard o Capurro."
+      ],
+      "nursing_care": [
+        "Realizar la valoración inmediata (Apgar) y el examen físico completo.",
+        "Graficar peso, talla y perímetro cefálico para clasificar en PEG, AEG o GEG.",
+        "Favorecer el alojamiento conjunto y la lactancia materna exclusiva."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "Term newborn (RNT)",
+    "aliases": [
+      "term newborn",
+      "rnt",
+      "full-term infant",
+      "full term",
+      "term baby",
+      "rntaeg"
+    ],
+    "summary": "A newborn born from 37 weeks up to before 42 weeks of gestation (37 0/7 to 41 6/7; RNT in Spanish). This is the expected range with the lowest risk.",
+    "key_points": [
+      "Full term: from 37 weeks up to before 42 weeks of gestation.",
+      "Before 37 weeks is preterm (RNP); from 42 weeks it is postterm (RN post).",
+      "The most common combination in notes is RNTAEG: term and appropriate for gestational age.",
+      "A term AGA newborn usually weighs between 2,500 and 4,000 grams."
+    ],
+    "sections": {
+      "usage": [
+        "Example: \"RNTAEG female, 39 weeks by LMP, weight 3,300 g, Apgar 9/9\".",
+        "Gestational age is confirmed after birth with the Ballard or Capurro score."
+      ],
+      "nursing_care": [
+        "Perform the immediate assessment (Apgar) and a full physical exam.",
+        "Plot weight, length and head circumference to classify as SGA, AGA or LGA.",
+        "Encourage rooming-in and exclusive breastfeeding."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "rn",
+    "aeg",
+    "eg",
+    "apgar-score",
+    "breastfeeding"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Gestational age",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/002367.htm",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus: Premature infant",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/001562.htm",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Edad gestacional",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/ency/article/002367.htm",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 8,
+      "contradicted": 0,
+      "total": 11
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Premature (less than 37 weeks gestation) Full term (37 to 42 weeks gestation) Post term (born after 42 weeks gestation)",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The weight for full-term infants that are born AGA will most often be between 2,500 grams (about 5.5 pounds [lbs] or 2.5 kilograms [kg]) and 4,000 grams (about 8.8 lbs or 4 kg).",
+        "source": 0
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "After birth, gestational age can be measured by looking at the baby's weight, length, head circumference , vital signs, reflexes , muscle tone, posture, and the condition of the skin and hair.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

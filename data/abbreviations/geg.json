@@ -1,0 +1,155 @@
+{
+  "id": "geg",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "GEG (grande para la edad gestacional)",
+    "aliases": [
+      "geg",
+      "grande para la edad gestacional",
+      "rntgeg",
+      "macrosomía",
+      "macrosómico",
+      "lga",
+      "grande para edad gestacional"
+    ],
+    "summary": "RN cuyo peso está por encima del percentil 90 para su edad gestacional. La causa más frecuente es la diabetes materna.",
+    "key_points": [
+      "GEG: peso al nacer sobre el percentil 90.",
+      "Causas comunes: diabetes gestacional (DMG), obesidad materna y ganancia excesiva de peso en el embarazo.",
+      "Riesgo de trauma al nacer, como la distocia de hombros.",
+      "Si la madre es diabética, hay riesgo de hipoglucemia después del parto."
+    ],
+    "sections": {
+      "usage": [
+        "Ejemplo: «RNTGEG, 39 semanas, peso 4 300 g, hijo de madre con DMG».",
+        "Macrosomía se refiere al peso alto (por lo general más de 4 000 g), sin importar la edad gestacional."
+      ],
+      "nursing_care": [
+        "Controlar la glucemia del RN en las primeras horas, sobre todo si la madre tiene DMG.",
+        "Valorar lesiones del parto: clavícula, plexo braquial y cefalohematoma.",
+        "Alimentar temprano y vigilar signos de hipoglucemia (temblor, letargo, mala succión)."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "LGA (GEG, large for gestational age)",
+    "aliases": [
+      "lga",
+      "geg",
+      "large for gestational age",
+      "macrosomia",
+      "big baby",
+      "rntgeg"
+    ],
+    "summary": "A newborn whose weight is above the 90th percentile for gestational age (GEG in Spanish). The most common cause is maternal diabetes.",
+    "key_points": [
+      "LGA can include infants with a birth weight above the 90th percentile.",
+      "Common causes: gestational diabetes, obese pregnant mother and excessive weight gain during pregnancy.",
+      "A baby that is LGA has a higher risk for birth injury, such as shoulder dystocia.",
+      "There is a risk of low blood sugar after delivery if the mother has diabetes."
+    ],
+    "sections": {
+      "usage": [
+        "Example: \"RNTGEG, 39 weeks, weight 4,300 g, infant of a mother with GDM\".",
+        "Macrosomia refers to high birth weight (usually over 4,000 g), regardless of gestational age."
+      ],
+      "nursing_care": [
+        "Check the newborn's blood glucose in the first hours, especially if the mother has GDM.",
+        "Assess for birth injuries: clavicle, brachial plexus and cephalohematoma.",
+        "Feed early and watch for signs of hypoglycemia (jitteriness, lethargy, poor suck)."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "gestational-diabetes",
+    "aeg",
+    "peg",
+    "rn",
+    "blood-glucose"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Estimation of Gestational Age of the Newborn and Newborn Behavioral Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/23-2-estimation-of-gestational-age-of-the-newborn-and-newborn-behavioral-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "MedlinePlus: Large for gestational age (LGA)",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/002248.htm",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Grande para la edad gestacional",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/ency/article/002248.htm",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 7,
+      "contradicted": 0,
+      "total": 11
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "It can also include infants with a birth weight above the 90th percentile.",
+        "source": 1
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "It can also include infants with a birth weight above the 90th percentile.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Common causes of the condition are: Gestational diabetes Obese pregnant mother Excessive weight gain during pregnancy",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "There is also a risk for complications of low blood sugar after delivery if the mother has diabetes.",
+        "source": 1
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

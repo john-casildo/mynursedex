@@ -1,0 +1,146 @@
+{
+  "id": "ago",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "AGO (antecedentes gineco-obstétricos)",
+    "aliases": [
+      "ago",
+      "antecedentes gineco-obstétricos",
+      "antecedentes ginecobstétricos",
+      "historia obstétrica",
+      "historia ginecológica",
+      "menarca",
+      "ivsa",
+      "gpacv"
+    ],
+    "summary": "Parte de la historia clínica que reúne la información ginecológica y obstétrica de la mujer: menstruación, vida sexual, planificación, PAP y embarazos previos.",
+    "key_points": [
+      "Menstrual: menarca, ritmo (duración e intervalo del ciclo) y FUR.",
+      "Sexual y reproductiva: inicio de vida sexual, método de planificación familiar (por ejemplo DIU) e infecciones de transmisión sexual.",
+      "Ginecológica: último PAP y su resultado, cirugías ginecológicas y enfermedades de mama o útero.",
+      "Obstétrica: fórmula G P A C V y complicaciones de embarazos previos.",
+      "Junto con los antecedentes médicos y quirúrgicos, orienta los riesgos del embarazo actual (ARO)."
+    ],
+    "sections": {
+      "usage": [
+        "Ejemplo: «AGO: menarca 12 años, ciclos 28x5, FUR 10/03/2026, G3P1A1C0V1, PAP 2025 normal, MPF: ninguno».",
+        "Se completa en el primer control prenatal y se actualiza en cada ingreso obstétrico."
+      ],
+      "nursing_care": [
+        "Preguntar con privacidad y lenguaje sencillo; explicar para qué se usa la información.",
+        "Confirmar la FUR y calcular la FPP y la EG.",
+        "Señalar cualquier dato de riesgo: cesárea previa, abortos repetidos, partos pretérmino, preeclampsia previa."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "OB/GYN history (AGO)",
+    "aliases": [
+      "ob/gyn history",
+      "ago",
+      "obstetric history",
+      "gynecologic history",
+      "obstetric and gynecologic history",
+      "menstrual history",
+      "menarche"
+    ],
+    "summary": "The part of the chart that collects a woman's gynecologic and obstetric information (AGO in Spanish): menstruation, sexual history, contraception, Pap results and previous pregnancies.",
+    "key_points": [
+      "Menstrual history: age at menarche, menstrual cycle interval and duration, and the LMP.",
+      "Sexual and reproductive history: sexual history, contraception (for example an IUD) and sexually transmitted infections.",
+      "Gynecologic history: any reproductive surgeries or diagnostic tests, Pap results, and breast or uterine disorders.",
+      "Obstetric history: the G P A C V formula and complications in previous pregnancies.",
+      "The obstetric and gynecologic history, along with the medical and surgical histories, is reviewed to determine preexisting risk factors."
+    ],
+    "sections": {
+      "usage": [
+        "Example: \"AGO: menarche age 12, cycles 28x5, LMP 03/10/2026, G3P1A1C0V1, Pap 2025 normal, no contraception\".",
+        "Completed at the first prenatal visit and updated at each obstetric admission."
+      ],
+      "nursing_care": [
+        "Ask in private and in plain language; explain why the information is needed.",
+        "Confirm the LMP and calculate the due date and gestational age.",
+        "Flag any risk factor: previous cesarean, repeated losses, preterm births, previous preeclampsia."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "gravida-para",
+    "fum",
+    "fpp",
+    "pap-test",
+    "diu",
+    "aro"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: First Prenatal Visit",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/11-1-first-prenatal-visit",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 8,
+      "contradicted": 0,
+      "total": 11
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Menstrual history Age at menarche Menstrual cycle interval Menstrual cycle duration First day of last menstrual period (LMP) Estimated date of de",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "The obstetric and gynecologic history, along with the medical and surgical histories, is reviewed to determine preexisting risk factors affecting the maternal and fetal outcome.",
+        "source": 0
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "The pregnancy is confirmed and the patient’s due date is determined using the patient’s recall of the first day of their last menstrual period (LMP) and ultrasound (US) (if performed).",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}
