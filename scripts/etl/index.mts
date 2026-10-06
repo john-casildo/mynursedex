@@ -7,6 +7,7 @@
 //   npm run etl -- extract                    # only fetch sources into data/raw/ (no AI)
 //   npm run etl -- transform                  # only redo AI drafts from saved data/raw/ (no re-fetching)
 //   npm run etl -- validate                   # check every entry (also runs before each build)
+//   npm run etl -- queue --limit 10           # nightly job: topic requests (GitHub issues) + missing related topics
 //
 // Options: --only <id> one entry | --area <area> one area | --limit <n> at most n entries
 //          --dry-run print instead of saving
@@ -18,6 +19,7 @@ import { entryUrl, loadEntries, rawUrl, readJson, readTopics, writeJson, type Co
 import { extract } from "./extract.mts";
 import { hasOpenStax, syncOpenStax } from "./openstax.mts";
 import { MODEL, TRANSLATE_MODEL, groq, transform } from "./transform.mts";
+import { buildQueue, closeIssue, type QueueItem } from "./queue.mts";
 import { checkEntry, printReport, validate } from "./validate.mts";
 
 const args = process.argv.slice(2);
@@ -97,8 +99,8 @@ async function main() {
     await syncOpenStax(FORCE);
     return;
   }
-  if (!["run", "extract", "transform"].includes(command)) {
-    console.error(`Unknown command "${command}". Use: sync-books, run, extract, transform, validate.`);
+  if (!["run", "extract", "transform", "queue"].includes(command)) {
+    console.error(`Unknown command "${command}". Use: sync-books, run, extract, transform, validate, queue.`);
     process.exit(1);
   }
 
@@ -107,7 +109,14 @@ async function main() {
   }
   if (command !== "extract") await checkGroq();
 
-  const work = await jobs();
+  let work: QueueItem[];
+  if (command === "queue") {
+    console.log("Building tonight's queue...");
+    work = await buildQueue(await loadEntries(), LIMIT ?? 10);
+    console.log("");
+  } else {
+    work = await jobs();
+  }
   console.log(`${work.length} entr${work.length === 1 ? "y" : "ies"} to ${command}.\n`);
   let done = 0;
   for (const [i, job] of work.entries()) {
@@ -128,7 +137,15 @@ async function main() {
         const entry = await transformChecked(raw);
         if (!entry) continue;
         if (DRY_RUN) console.log(JSON.stringify(entry, null, 2));
-        else await writeJson(entryUrl(entry.category, entry.id), entry);
+        else {
+          await writeJson(entryUrl(entry.category, entry.id), entry);
+          if (job.issue) {
+            await closeIssue(
+              job.issue,
+              `Agregado a NurseDex: [${entry.es.term}](${process.env.SITE_URL ?? "https://nursedex.vercel.app"}/concept/${entry.id}). Estará disponible en unos minutos.`,
+            );
+          }
+        }
       }
       done++;
     } catch (err) {

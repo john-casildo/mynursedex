@@ -1,0 +1,68 @@
+# Nightly content job: builds entries for topic requests ("Solicitar este tema" → issues labeled
+# "solicitud") and for related topics that don't exist yet, validates them and pushes to main,
+# which makes Vercel redeploy.
+#
+# Needs the repository secret GROQ_API_KEY. GITHUB_TOKEN is provided by Actions.
+# Budget: 10 entries/night (~130k Groq tokens) leaves room in Groq's free daily limit for the
+# website's assistant.
+
+name: Nightly entries
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # 02:00 in Costa Rica (UTC-6)
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Max entries to build"
+        default: "10"
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: nightly-entries
+  cancel-in-progress: false
+
+jobs:
+  build-entries:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - run: npm ci
+
+      # OpenStax books (~15 MB) are downloaded once and reused between runs.
+      - uses: actions/cache@v4
+        with:
+          path: data/raw/openstax
+          key: openstax-books-v1
+
+      - run: npm run etl -- sync-books
+
+      - name: Build entries
+        run: npm run etl -- queue --limit ${{ inputs.limit || '10' }}
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - run: npm run validate
+
+      - name: Commit and push
+        run: |
+          git config user.name "nursedex-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --cached --quiet; then
+            echo "No new entries tonight."
+          else
+            git commit -m "Nightly: add entries ($(date -u +%F))"
+            git push
+          fi

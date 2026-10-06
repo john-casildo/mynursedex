@@ -139,9 +139,16 @@ Each entry lists its `sources` (name, publisher, link, language, license), shown
 - [x] Category filters (Pharm / Conditions / Labs / ...)
 
 ### Phase 3 — Ask AI
-- [ ] `/api/ask` route calls Groq with matching entries as context
-- [ ] "Ask about this" on concept pages + free-form question box
-- [ ] Clear disclaimer: study aid, not clinical advice
+- [x] `/api/ask`: finds matching entries (keywords + Fuse) and streams a Groq answer grounded only in them; nothing matched → no AI call, offers "Solicitar este tema"
+- [x] Question box on home + "Pregunte sobre este tema" on every entry, with "Explícamelo más simple", "Dame un ejemplo clínico" and practice mode (3 interactive questions)
+- [x] Disclaimer, no doses for real patients, per-IP hourly limit, fallback to `gpt-oss-20b` when the main model's daily quota is used up
+- Vercel env: `GROQ_API_KEY` (assistant), `GITHUB_TOKEN` (fine-grained, Issues read/write on this repo, for requests)
+
+### Nightly job — `.github/workflows/nightly.yml`
+- 02:00 Costa Rica: `npm run etl -- queue --limit 10` → topic requests (issues labeled `solicitud`) first, then the most-linked missing related topics
+- A small model filters each request (nursing topic? category? English name?) and skips duplicates and anything listed in `topics.txt` (planned/hand-written)
+- Validates, commits to main (Vercel redeploys) and closes each request with a link
+- Repo secret `GROQ_API_KEY`; 10 entries/night leaves Groq quota for the assistant
 
 ### Phase 4 — Content
 - [ ] Get her syllabus; build a topic list

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import AskPanel from "@/components/AskPanel";
 import DexCard from "@/components/DexCard";
 import L from "@/components/L";
 import PixelIcon from "@/components/PixelIcon";
@@ -339,6 +340,7 @@ export default async function ConceptPage(props: PageProps<"/concept/[id]">) {
       <Body lang="en" text={entry.en} otherTerm={entry.es.term} entry={entry} />
 
       <div className="max-w-[44rem] space-y-8 pt-4">
+        <AskPanel entryId={entry.id} entryTerm={{ es: entry.es.term, en: entry.en.term }} />
         {related.length > 0 && (
           <section className="border-t border-line pt-5">
             <h2 className="font-pixel mb-2 text-xl">

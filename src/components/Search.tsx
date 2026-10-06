@@ -2,10 +2,12 @@
 
 import { useMemo, useState } from "react";
 import Fuse from "fuse.js";
+import AskPanel from "./AskPanel";
 import DexCard from "./DexCard";
 import L from "./L";
 import PixelIcon from "./PixelIcon";
 import PixelNurse from "./PixelNurse";
+import RequestTopic from "./RequestTopic";
 import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
 import { setFilters, useFilters } from "@/lib/category";
 import { useLang } from "@/lib/lang";
@@ -135,7 +137,11 @@ export default function Search({ items }: { items: SearchItem[] }) {
         ))}
       </div>
 
-      <h1 className="font-pixel mb-2 mt-8 text-xl text-ink">
+      <div className="mt-6 max-w-2xl">
+        <AskPanel />
+      </div>
+
+      <h1 className="font-pixel mb-2 mt-10 text-xl text-ink">
         {category === "all" ? (
           <L en="All entries" es="Todas las entradas" />
         ) : (
@@ -171,12 +177,15 @@ export default function Search({ items }: { items: SearchItem[] }) {
       ) : (
         <div className="flex max-w-xl items-start gap-4 border-y border-line py-8">
           <PixelNurse size={48} className="shrink-0" />
-          <p className="leading-relaxed">
-            <L
-              en={<>&ldquo;{query}&rdquo; isn&rsquo;t in NurseDex yet. Check the spelling, or try the English or Spanish name.</>}
-              es={<>&ldquo;{query}&rdquo; aún no está en NurseDex. Revise la ortografía o pruebe el nombre en inglés o en español.</>}
-            />
-          </p>
+          <div className="space-y-4">
+            <p className="leading-relaxed">
+              <L
+                en={<>&ldquo;{query}&rdquo; isn&rsquo;t in NurseDex yet. Check the spelling, or try the English or Spanish name. If it&rsquo;s missing, request it and it will be added overnight.</>}
+                es={<>&ldquo;{query}&rdquo; aún no está en NurseDex. Revise la ortografía o pruebe el nombre en inglés o en español. Si falta, solicítelo y se agregará durante la noche.</>}
+              />
+            </p>
+            <RequestTopic topic={query.trim()} />
+          </div>
         </div>
       )}
     </div>
