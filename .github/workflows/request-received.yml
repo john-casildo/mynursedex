@@ -23,4 +23,5 @@ jobs:
         run: |
           gh issue comment ${{ github.event.issue.number }} --repo ${{ github.repository }} --body "Nueva solicitud en MyNurseDex: **${TITLE#Solicitud: }**.
 
-          El trabajo nocturno (2:00 a. m., hora de Costa Rica) la revisará y, si es un tema de enfermería, creará la entrada y cerrará esta solicitud con el enlace."
+          Para aprobarla, responde a este correo con **aprobar**. Para descartarla, responde **rechazar**.
+          Las solicitudes aprobadas se revisan y se agregan en el trabajo nocturno (2:00 a. m., hora de Costa Rica)."

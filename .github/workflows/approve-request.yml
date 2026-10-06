@@ -1,0 +1,43 @@
+# Approve or reject a topic request by replying to its notification email (or commenting on the
+# issue) with "aprobar" / "rechazar". Only the repository owner's replies count.
+#   aprobar  → adds the "aprobado" label; the nightly job builds it
+#   rechazar → closes the request
+
+name: Approve request
+
+on:
+  issue_comment:
+    types: [created]
+
+permissions:
+  issues: write
+
+jobs:
+  decide:
+    if: >-
+      contains(github.event.issue.labels.*.name, 'solicitud') &&
+      github.event.issue.state == 'open' &&
+      github.event.comment.author_association == 'OWNER'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Apply the decision
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BODY: ${{ github.event.comment.body }}
+          ISSUE: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+        run: |
+          # First word of the reply, lowercase, accents and punctuation removed (emails add quoted text below)
+          first=$(printf '%s' "$BODY" | head -n 1 | tr '[:upper:]' '[:lower:]' | sed 's/[áà]/a/g; s/[éè]/e/g; s/[^a-z ]//g' | awk '{print $1}')
+          case "$first" in
+            aprobar|aprobado|aprobada|approve|si|sí|ok)
+              gh issue edit "$ISSUE" --repo "$REPO" --add-label aprobado
+              gh issue comment "$ISSUE" --repo "$REPO" --body "Aprobada. Se agregará en el trabajo nocturno (2:00 a. m.)."
+              ;;
+            rechazar|rechazada|rechazado|reject|no)
+              gh issue close "$ISSUE" --repo "$REPO" --comment "Solicitud rechazada; no se agregará."
+              ;;
+            *)
+              echo "No decision in the reply ('$first'); nothing to do."
+              ;;
+          esac

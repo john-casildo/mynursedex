@@ -1,6 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any -- responses from external APIs are untyped JSON */
 // QUEUE: decides what the nightly job builds.
-//   1. Open GitHub issues labeled "solicitud" (filed by the site's "Solicitar este tema" button).
+//   1. Open GitHub issues labeled "solicitud" AND "aprobado" (filed by the site's "Solicitar este
+//      tema" button, then approved by the owner; unapproved requests just wait).
 //   2. Then planned topics in data/topics.txt (except hand-written "manual" sections).
 //   3. Then related topics that entries link to but that don't exist yet.
 // Topics already listed in data/topics.txt are left alone (they're planned separately).
@@ -13,6 +14,8 @@ import { TRANSLATE_MODEL, groq } from "./transform.mts";
 const REPO = process.env.GITHUB_REPOSITORY ?? "john-casildo/mynursedex";
 const SITE = process.env.SITE_URL ?? "https://mynursedex.vercel.app";
 const LABEL = "solicitud";
+// Only requests the owner approved (reply "aprobar" to the email, or add the label) are built.
+const APPROVED = "aprobado";
 
 export type QueueItem = Job & { issue?: number };
 
@@ -81,7 +84,7 @@ export async function buildQueue(entries: Concept[], limit: number): Promise<Que
 
   // 1. Her requests first.
   const issues: { number: number; title: string }[] = process.env.GITHUB_TOKEN
-    ? await github(`/issues?labels=${LABEL}&state=open&per_page=50&sort=created&direction=asc`)
+    ? await github(`/issues?labels=${LABEL},${APPROVED}&state=open&per_page=50&sort=created&direction=asc`)
     : [];
   if (!process.env.GITHUB_TOKEN) console.warn("No GITHUB_TOKEN: skipping topic requests (only related topics will be built).");
 

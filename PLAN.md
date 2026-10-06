@@ -152,6 +152,7 @@ Each entry lists its `sources` (name, publisher, link, language, license), shown
 ### Notifications
 - `.github/workflows/request-received.yml`: the bot comments on each new request → GitHub emails the owner
 - The nightly job comments when it adds the entry → another email with the link
+- Approval: only requests labeled `aprobado` are built. Reply "aprobar" / "rechazar" to the request email (`.github/workflows/approve-request.yml`, owner replies only), or add the label by hand
 
 ### Nightly job — `.github/workflows/nightly.yml`
 - 02:00 Costa Rica: `npm run etl -- queue --limit 10` → topic requests (issues labeled `solicitud`) first, then the most-linked missing related topics
