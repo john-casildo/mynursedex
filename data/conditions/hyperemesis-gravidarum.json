@@ -1,0 +1,316 @@
+{
+  "id": "hyperemesis-gravidarum",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Hiperémesis gravídica",
+    "aliases": [
+      "hiperémesis gravídica",
+      "hiperemesis",
+      "vómitos del embarazo",
+      "náuseas severas embarazo",
+      "hg"
+    ],
+    "summary": "Náuseas y vómitos del embarazo tan intensos que causan pérdida de peso (más del 5 % del peso previo), deshidratación, cetosis y alteraciones electrolíticas.",
+    "key_points": [
+      "Diferente de las náuseas comunes: hay pérdida de peso, deshidratación y cetonuria.",
+      "Riesgo de hipopotasemia y otras alteraciones electrolíticas.",
+      "Dar tiamina antes de soluciones con dextrosa para prevenir la encefalopatía de Wernicke.",
+      "Tratamiento: líquidos IV con electrolitos, antieméticos y reintroducción gradual de la dieta.",
+      "Más frecuente en embarazos múltiples y en la enfermedad trofoblástica (mola)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Se relaciona con niveles altos de hCG y otros cambios hormonales del primer trimestre.",
+        "Los vómitos persistentes causan pérdida de líquidos, sodio, potasio y cloro.",
+        "Sin ingesta suficiente, el cuerpo usa grasas y produce cetonas."
+      ],
+      "risk_factors": [
+        "Embarazo múltiple.",
+        "Enfermedad trofoblástica gestacional (mola).",
+        "Hiperémesis en un embarazo anterior.",
+        "Antecedente de migraña o mareo por movimiento."
+      ],
+      "signs_symptoms": [
+        "Vómitos persistentes que impiden comer o beber.",
+        "Pérdida de peso.",
+        "Mucosas secas, sed, orina escasa y concentrada.",
+        "Taquicardia, hipotensión y debilidad.",
+        "Aliento cetónico."
+      ],
+      "diagnostics": [
+        "Peso actual comparado con el peso previo al embarazo.",
+        "Cetonas en orina y densidad urinaria.",
+        "Electrolitos (potasio, sodio), función renal y pruebas hepáticas.",
+        "Ultrasonido para descartar embarazo múltiple o mola."
+      ],
+      "treatment": [
+        "Líquidos IV con reposición de electrolitos.",
+        "Tiamina antes de administrar dextrosa.",
+        "Antieméticos según orden (p. ej., piridoxina-doxilamina, ondansetrón, metoclopramida).",
+        "Nada por vía oral al inicio y reintroducción gradual de líquidos y comidas pequeñas.",
+        "Nutrición enteral o parenteral en casos graves."
+      ],
+      "complications": [
+        "Deshidratación grave y lesión renal.",
+        "Hipopotasemia con arritmias.",
+        "Encefalopatía de Wernicke por déficit de tiamina.",
+        "Desgarros esofágicos (Mallory-Weiss).",
+        "Bajo peso al nacer."
+      ],
+      "nursing_care": [
+        "Control estricto de ingesta y excreta y peso diario.",
+        "Vigilar cetonas en orina, electrolitos y signos de deshidratación.",
+        "Administrar líquidos IV, tiamina y antieméticos según orden.",
+        "Reintroducir la vía oral de forma gradual: líquidos claros y luego comidas pequeñas.",
+        "Higiene bucal después de los vómitos y ambiente libre de olores fuertes."
+      ],
+      "patient_teaching": [
+        "Comer porciones pequeñas y frecuentes; galletas secas antes de levantarse.",
+        "Tomar líquidos entre comidas, no durante.",
+        "Evitar comidas grasosas, muy condimentadas y olores fuertes.",
+        "Consultar si no tolera líquidos por 24 horas, orina muy poco o se marea."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "Vómitos persistentes",
+          "Ingesta oral insuficiente"
+        ],
+        "evidenced_by": [
+          "Mucosas secas",
+          "Orina escasa y concentrada",
+          "Taquicardia",
+          "Cetonuria"
+        ],
+        "outcomes": [
+          "Equilibrio hídrico — diuresis adecuada y mucosas húmedas.",
+          "Hidratación — sin cetonas en orina."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar líquidos IV con electrolitos según orden.",
+            "rationale": "Repone el volumen y corrige las pérdidas."
+          },
+          {
+            "action": "Administrar tiamina antes de soluciones con dextrosa.",
+            "rationale": "Previene la encefalopatía de Wernicke."
+          },
+          {
+            "action": "Llevar control estricto de ingesta, excreta y peso diario.",
+            "rationale": "Permite evaluar la respuesta al tratamiento."
+          },
+          {
+            "action": "Vigilar potasio y sodio séricos.",
+            "rationale": "Los vómitos causan hipopotasemia, que puede provocar arritmias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Desequilibrio nutricional: inferior a las necesidades corporales",
+        "type": "actual",
+        "related_to": [
+          "Náuseas y vómitos persistentes",
+          "Aversión a los alimentos"
+        ],
+        "evidenced_by": [
+          "Pérdida de peso",
+          "Ingesta menor a la recomendada",
+          "Debilidad"
+        ],
+        "outcomes": [
+          "Estado nutricional — peso estable o en aumento.",
+          "Apetito — tolera comidas pequeñas sin vómitos."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar los antieméticos indicados antes de las comidas.",
+            "rationale": "Mejora la tolerancia a los alimentos."
+          },
+          {
+            "action": "Ofrecer comidas pequeñas, frecuentes y secas, según preferencia.",
+            "rationale": "Son mejor toleradas que las porciones grandes."
+          },
+          {
+            "action": "Coordinar con nutrición si la pérdida de peso continúa.",
+            "rationale": "Puede requerir soporte nutricional especializado."
+          },
+          {
+            "action": "Pesar a la paciente a diario a la misma hora.",
+            "rationale": "Evalúa el estado nutricional."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hyperemesis Gravidarum (HG)",
+    "aliases": [
+      "hyperemesis gravidarum",
+      "hyperemesis",
+      "hg",
+      "severe morning sickness",
+      "severe vomiting in pregnancy"
+    ],
+    "summary": "Nausea and vomiting of pregnancy so severe that they cause weight loss (more than 5% of pre-pregnancy weight), dehydration, ketosis and electrolyte imbalances.",
+    "key_points": [
+      "Different from ordinary nausea: there is weight loss, dehydration and ketonuria.",
+      "Risk of hypokalemia and other electrolyte imbalances.",
+      "Give thiamine before dextrose-containing fluids to prevent Wernicke encephalopathy.",
+      "Treatment: IV fluids with electrolytes, antiemetics and gradual return to diet.",
+      "More common with multiple gestation and gestational trophoblastic disease (molar pregnancy)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Linked to high hCG levels and other first-trimester hormonal changes.",
+        "Persistent vomiting causes loss of fluid, sodium, potassium and chloride.",
+        "Without enough intake, the body burns fat and makes ketones."
+      ],
+      "risk_factors": [
+        "Multiple gestation.",
+        "Gestational trophoblastic disease (molar pregnancy).",
+        "Hyperemesis in a past pregnancy.",
+        "History of migraine or motion sickness."
+      ],
+      "signs_symptoms": [
+        "Persistent vomiting that prevents eating or drinking.",
+        "Weight loss.",
+        "Dry mucous membranes, thirst, scant concentrated urine.",
+        "Tachycardia, hypotension and weakness.",
+        "Ketotic (fruity) breath."
+      ],
+      "diagnostics": [
+        "Current weight compared with pre-pregnancy weight.",
+        "Urine ketones and specific gravity.",
+        "Electrolytes (potassium, sodium), kidney and liver tests.",
+        "Ultrasound to rule out multiple gestation or molar pregnancy."
+      ],
+      "treatment": [
+        "IV fluids with electrolyte replacement.",
+        "Thiamine before giving dextrose.",
+        "Antiemetics as ordered (e.g., pyridoxine-doxylamine, ondansetron, metoclopramide).",
+        "NPO at first, then gradual return to fluids and small meals.",
+        "Enteral or parenteral nutrition in severe cases."
+      ],
+      "complications": [
+        "Severe dehydration and kidney injury.",
+        "Hypokalemia with arrhythmias.",
+        "Wernicke encephalopathy from thiamine deficiency.",
+        "Esophageal tears (Mallory-Weiss).",
+        "Low birth weight."
+      ],
+      "nursing_care": [
+        "Strict intake and output and daily weights.",
+        "Monitor urine ketones, electrolytes and signs of dehydration.",
+        "Give IV fluids, thiamine and antiemetics as ordered.",
+        "Reintroduce oral intake gradually: clear liquids, then small meals.",
+        "Mouth care after vomiting and a room free of strong smells."
+      ],
+      "patient_teaching": [
+        "Eat small, frequent portions; dry crackers before getting up.",
+        "Drink fluids between meals, not with them.",
+        "Avoid greasy or spicy food and strong smells.",
+        "Seek care if she can't keep fluids down for 24 hours, urinates very little or feels dizzy."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "Persistent vomiting",
+          "Inadequate oral intake"
+        ],
+        "evidenced_by": [
+          "Dry mucous membranes",
+          "Scant, concentrated urine",
+          "Tachycardia",
+          "Ketonuria"
+        ],
+        "outcomes": [
+          "Fluid Balance — adequate urine output and moist mucous membranes.",
+          "Hydration — no urine ketones."
+        ],
+        "interventions": [
+          {
+            "action": "Give IV fluids with electrolytes as ordered.",
+            "rationale": "Restores volume and replaces losses."
+          },
+          {
+            "action": "Give thiamine before dextrose-containing fluids.",
+            "rationale": "Prevents Wernicke encephalopathy."
+          },
+          {
+            "action": "Keep strict intake and output and daily weights.",
+            "rationale": "Shows the response to treatment."
+          },
+          {
+            "action": "Monitor serum potassium and sodium.",
+            "rationale": "Vomiting causes hypokalemia, which can trigger arrhythmias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Imbalanced nutrition: less than body requirements",
+        "type": "actual",
+        "related_to": [
+          "Persistent nausea and vomiting",
+          "Food aversion"
+        ],
+        "evidenced_by": [
+          "Weight loss",
+          "Intake below recommendations",
+          "Weakness"
+        ],
+        "outcomes": [
+          "Nutritional Status — stable or increasing weight.",
+          "Appetite — tolerates small meals without vomiting."
+        ],
+        "interventions": [
+          {
+            "action": "Give ordered antiemetics before meals.",
+            "rationale": "Improves food tolerance."
+          },
+          {
+            "action": "Offer small, frequent, dry meals based on her preferences.",
+            "rationale": "They're tolerated better than large portions."
+          },
+          {
+            "action": "Consult nutrition if weight loss continues.",
+            "rationale": "She may need specialized nutrition support."
+          },
+          {
+            "action": "Weigh the patient daily at the same time.",
+            "rationale": "Tracks nutritional status."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "human-chorionic-gonadotropin",
+    "hypokalemia",
+    "ondansetron",
+    "npo"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
