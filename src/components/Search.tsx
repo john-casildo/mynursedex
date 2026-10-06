@@ -10,7 +10,7 @@ import L from "./L";
 import PixelIcon from "./PixelIcon";
 import PixelNurse from "./PixelNurse";
 import RequestTopic from "./RequestTopic";
-import { CardSkeleton } from "./Skeleton";
+import { DexListSkeleton } from "./Skeleton";
 import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
 import { setFilters, syncFilters, useFilters } from "@/lib/category";
 import { useLang } from "@/lib/lang";
@@ -347,10 +347,9 @@ export default function Search({ items }: { items: SearchItem[] }) {
       </div>
 
       {popularView && popular === null ? (
-        <div className="grid gap-3 xl:grid-cols-2" role="status" aria-busy="true">
-          {Array.from({ length: 4 }, (_, i) => (
-            <CardSkeleton key={i} />
-          ))}
+        <div role="status" aria-busy="true">
+          <span className="sr-only">{lang === "es" ? "Cargando…" : "Loading…"}</span>
+          <DexListSkeleton count={6} />
         </div>
       ) : shown.length > 0 ? (
         <>

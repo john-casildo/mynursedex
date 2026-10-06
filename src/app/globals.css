@@ -69,6 +69,23 @@ body {
    Nothing animates when the device asks for reduced motion.
    --------------------------------------------------------------------------------------------- */
 
+/* Skeleton "bones": a light band that sweeps across in steps, like an LCD refreshing */
+:root {
+  --skel-band: rgb(255 255 255 / 0.6);
+}
+.dark {
+  --skel-band: rgb(255 255 255 / 0.07);
+}
+.skel {
+  background-color: var(--line);
+  background-image: linear-gradient(90deg, transparent 0 35%, var(--skel-band) 35% 50%, transparent 50% 100%);
+  background-size: 250% 100%;
+  background-position: 110% 0;
+}
+.loading-dots::after {
+  content: "...";
+}
+
 .badge-shine::after {
   content: "";
   position: absolute;
@@ -151,6 +168,17 @@ body {
     transform: translateY(-1px);
   }
 
+  /* Skeletons */
+  .skel {
+    animation: skel-scan 1.4s steps(10) infinite;
+  }
+  .loading-dots {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: loading-dots 1.2s steps(4) infinite;
+  }
+
   /* Assistant: the nurse bobs while thinking */
   .bob {
     animation: bob 0.8s steps(2) infinite;
@@ -211,6 +239,14 @@ body {
 @keyframes icon-pop {
   0%, 100% { transform: scale(1); }
   50% { transform: scale(1.4); }
+}
+@keyframes skel-scan {
+  from { background-position: 110% 0; }
+  to { background-position: -20% 0; }
+}
+@keyframes loading-dots {
+  from { width: 0; }
+  to { width: 4ch; }
 }
 @keyframes bob {
   0%, 100% { transform: translateY(0); }
