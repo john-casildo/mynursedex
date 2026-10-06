@@ -56,13 +56,13 @@ const areaCounts = Object.fromEntries(
   AREAS.map((a) => [a, entries.filter((e) => e.areas.includes(a)).length]),
 ) as Record<Area, number>;
 
-function Brand({ size }: { size: number }) {
+function Brand({ size, compact = false }: { size: number; compact?: boolean }) {
   return (
-    <HomeLink className="nurse-hop flex items-center gap-3 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mask">
+    <HomeLink className="nurse-hop flex min-w-0 items-center gap-2.5 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mask">
       <span className="grid place-items-center rounded-[3px] bg-mist p-1 ring-2 ring-white/80">
         <PixelNurse size={size} className="nurse-sprite" />
       </span>
-      <span className="font-pixel text-2xl leading-none text-white">MyNurseDex</span>
+      <span className={`font-pixel leading-none text-white ${compact ? "text-xl min-[400px]:text-2xl" : "text-2xl"}`}>MyNurseDex</span>
     </HomeLink>
   );
 }
@@ -113,9 +113,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full font-sans lg:grid lg:grid-cols-[17rem_1fr]">
         {/* Phone / tablet: compact top bar */}
-        <header className="sticky top-0 z-20 flex items-center gap-3 bg-header px-4 py-2.5 lg:hidden">
-          <Brand size={32} />
-          <div className="ml-auto flex items-center gap-1">
+        <header className="sticky top-0 z-20 flex items-center gap-2 bg-header px-3 py-2.5 lg:hidden">
+          <Brand size={30} compact />
+          <div className="ml-auto flex shrink-0 items-center gap-0.5">
             <LangToggle />
             <SoundToggle />
             <ThemeToggle />

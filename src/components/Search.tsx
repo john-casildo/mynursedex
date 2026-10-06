@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 import AskPanel from "./AskPanel";
@@ -17,7 +17,18 @@ import { useLang } from "@/lib/lang";
 import { fetchPopular } from "@/lib/popular";
 import { AREAS, CATEGORIES, type Area, type Category, type Lang, type SearchItem } from "@/lib/types";
 
-// Selected phone chip: its type color as border and a tint of it as background.
+// Short labels for the phone filter tiles (full names are in aria-label/title).
+const TINY: Record<Category | Area | "all", Record<Lang, string>> = {
+  all: { es: "Todo", en: "All" },
+  pharmacology: { es: "Fárm.", en: "Drugs" },
+  conditions: { es: "Patol.", en: "Cond." },
+  labs: { es: "Labs", en: "Labs" },
+  fundamentals: { es: "Fund.", en: "Basics" },
+  abbreviations: { es: "Abrev.", en: "Abbr." },
+  obstetrics: { es: "Obst.", en: "OB" },
+};
+
+// Selected phone filter tile: its type color as border and a tint of it as background.
 const chipStyle = (color: string) => ({
   borderColor: color,
   background: `color-mix(in srgb, ${color} 22%, var(--card))`,
@@ -65,18 +76,6 @@ export default function Search({ items }: { items: SearchItem[] }) {
     window.addEventListener(HOME_EVENT, reset);
     return () => window.removeEventListener(HOME_EVENT, reset);
   }, []);
-
-  // Keep the selected phone chip visible (the row scrolls sideways).
-  const chipsRef = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const chip = chipsRef.current?.querySelector<HTMLElement>('[aria-pressed="true"]');
-    if (!chip || !chipsRef.current) return;
-    const row = chipsRef.current;
-    const left = chip.offsetLeft - row.offsetLeft - 16;
-    if (left < row.scrollLeft || chip.offsetLeft + chip.offsetWidth > row.scrollLeft + row.clientWidth) {
-      row.scrollTo({ left: Math.max(0, left), behavior: "smooth" });
-    }
-  }, [category, area]);
 
   function selectCategory(next: Category | "all") {
     setLimit(PAGE_SIZE);
@@ -261,45 +260,45 @@ export default function Search({ items }: { items: SearchItem[] }) {
         )}
       </div>
 
-      {/* Category chips on phones; desktop uses the sidebar */}
-      <div ref={chipsRef} className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1 lg:hidden">
-        {(["all", ...CATEGORIES] as const).map((id) => {
-          const isActive = id === category;
-          const color = id === "all" ? "#3D6FA8" : CATEGORY_STYLES[id].color;
-          return (
-            <button
-              key={id}
-              onClick={() => selectCategory(id)}
-              aria-pressed={isActive}
-              style={isActive ? chipStyle(color) : undefined}
-              className={`filter-item flex shrink-0 items-center gap-1.5 rounded border-2 px-3 py-1.5 text-sm font-semibold text-ink ${
-                isActive ? "filter-on" : "border-line bg-card"
-              }`}
-            >
-              {id !== "all" && (
-                <span className="filter-icon inline-block" style={{ color }}>
-                  <PixelIcon name={id} size={14} />
-                </span>
-              )}
-              {id === "all" ? <L en="All" es="Todo" /> : <L en={CATEGORY_STYLES[id].short.en} es={CATEGORY_STYLES[id].short.es} />}
-            </button>
-          );
-        })}
-        <span aria-hidden className="mx-1 w-px shrink-0 bg-line" />
-        {AREAS.map((id) => (
+      {/* Phones: a compact grid of filter tiles (no sideways scrolling); desktop uses the sidebar */}
+      <div className="mt-3 grid grid-cols-7 gap-1.5 lg:hidden" role="group" aria-label={lang === "es" ? "Filtros" : "Filters"}>
+        {[
+          ...(["all", ...CATEGORIES] as const).map((id) => ({
+            key: id,
+            active: id === category,
+            color: id === "all" ? "#3D6FA8" : CATEGORY_STYLES[id].color,
+            icon: id,
+            tiny: TINY[id],
+            full: id === "all" ? { en: "All", es: "Todo" } : CATEGORY_STYLES[id].label,
+            onClick: () => selectCategory(id),
+          })),
+          ...AREAS.map((id) => ({
+            key: id,
+            active: area === id,
+            color: AREA_LABELS[id].color,
+            icon: id,
+            tiny: TINY[id],
+            full: { en: AREA_LABELS[id].en, es: AREA_LABELS[id].es },
+            onClick: () => toggleArea(id),
+          })),
+        ].map((t) => (
           <button
-            key={id}
-            onClick={() => toggleArea(id)}
-            aria-pressed={area === id}
-            style={area === id ? chipStyle(AREA_LABELS[id].color) : undefined}
-            className={`filter-item flex shrink-0 items-center gap-1.5 rounded border-2 px-3 py-1.5 text-sm font-semibold text-ink ${
-              area === id ? "filter-on" : "border-line bg-card"
+            key={t.key}
+            onClick={t.onClick}
+            aria-pressed={t.active}
+            aria-label={t.full[lang]}
+            title={t.full[lang]}
+            style={t.active ? chipStyle(t.color) : undefined}
+            className={`filter-item flex min-w-0 flex-col items-center gap-1 rounded border-2 px-0.5 pb-1 pt-1.5 text-ink ${
+              t.active ? "filter-on" : "border-line bg-card"
             }`}
           >
-            <span className="filter-icon inline-block" style={{ color: AREA_LABELS[id].color }}>
-              <PixelIcon name={id} size={14} />
+            <span className="filter-icon inline-block" style={{ color: t.color }}>
+              <PixelIcon name={t.icon} size={18} />
             </span>
-            <L en={AREA_LABELS[id].short_en} es={AREA_LABELS[id].short_es} />
+            <span aria-hidden className="w-full truncate text-center text-[10px] font-semibold leading-none">
+              {t.tiny[lang]}
+            </span>
           </button>
         ))}
       </div>

@@ -67,14 +67,18 @@ export function playHeal() {
   if (!read() || alreadyPlayed()) return;
   try {
     const AC = window.AudioContext ?? (window as unknown as { webkitAudioContext: typeof AudioContext }).webkitAudioContext;
-    ctx ??= new AC();
-    if (ctx.state === "suspended") void ctx.resume();
-    const t = ctx.currentTime + 0.02;
-    // G5 → C6 → E6 → G6 → C7, then a held E7 sparkle
-    const notes = [784, 1046.5, 1318.5, 1568, 2093];
-    notes.forEach((f, i) => tone(ctx!, f, t + i * 0.075, 0.08, "square", 0.05));
-    tone(ctx, 2637, t + notes.length * 0.075, 0.32, "triangle", 0.08);
-    tone(ctx, 1318.5, t + notes.length * 0.075, 0.32, "square", 0.025);
+    const c = (ctx ??= new AC());
+    const play = () => {
+      const t = c.currentTime + 0.03;
+      // G5 → C6 → E6 → G6 → C7, then a held E7 sparkle
+      const notes = [784, 1046.5, 1318.5, 1568, 2093];
+      notes.forEach((f, i) => tone(c, f, t + i * 0.075, 0.08, "square", 0.05));
+      tone(c, 2637, t + notes.length * 0.075, 0.32, "triangle", 0.08);
+      tone(c, 1318.5, t + notes.length * 0.075, 0.32, "square", 0.025);
+    };
+    // iPhones start the audio "suspended"; wait until it's running so the first notes aren't lost.
+    if (c.state === "running") play();
+    else void c.resume().then(play, () => {});
   } catch {
     // no audio support: stay silent
   }
