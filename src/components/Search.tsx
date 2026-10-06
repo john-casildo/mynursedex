@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 import AskPanel from "./AskPanel";
 import DexCard from "./DexCard";
+import { HOME_EVENT } from "./HomeLink";
 import L from "./L";
 import PixelIcon from "./PixelIcon";
 import PixelNurse from "./PixelNurse";
@@ -14,7 +15,7 @@ import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
 import { setFilters, useFilters } from "@/lib/category";
 import { useLang } from "@/lib/lang";
 import { fetchPopular } from "@/lib/popular";
-import { AREAS, CATEGORIES, type Area, type Category, type SearchItem } from "@/lib/types";
+import { AREAS, CATEGORIES, type Area, type Category, type Lang, type SearchItem } from "@/lib/types";
 
 // Cards rendered at once; more load on demand so thousands of entries stay fast.
 const PAGE_SIZE = 50;
@@ -39,6 +40,20 @@ export default function Search({ items }: { items: SearchItem[] }) {
 
   useEffect(() => {
     fetchPopular(POPULAR).then(setPopular);
+  }, []);
+
+  // The logo is a full reset: the link drops the filters from the URL, and this clears the search.
+  useEffect(() => {
+    function reset() {
+      setInput("");
+      setQuery("");
+      setOpen(false);
+      setActive(-1);
+      setLimit(PAGE_SIZE);
+      setShowAll(false);
+    }
+    window.addEventListener(HOME_EVENT, reset);
+    return () => window.removeEventListener(HOME_EVENT, reset);
   }, []);
 
   function selectCategory(next: Category | "all") {
@@ -125,6 +140,14 @@ export default function Search({ items }: { items: SearchItem[] }) {
     [query, category, area, fuse, items],
   );
   const shown = popularView ? (popularItems.length ? popularItems : items.slice(0, POPULAR)) : results;
+
+  // For the empty state: a filter can hide entries that exist, e.g. "Abbreviations · OB/GYN" or a search under a filter.
+  const filtered = category !== "all" || area !== "all";
+  const foundElsewhere = filtered && !!query && results.length === 0 && fuse.search(query, { limit: 1 }).length > 0;
+  const filterLabel = (l: Lang) =>
+    [category !== "all" && CATEGORY_STYLES[category].label[l], area !== "all" && AREA_LABELS[area][l === "es" ? "short_es" : "short_en"]]
+      .filter(Boolean)
+      .join(" · ");
 
   return (
     <div className="max-w-5xl">
@@ -333,15 +356,37 @@ export default function Search({ items }: { items: SearchItem[] }) {
       ) : (
         <div className="flex max-w-xl items-start gap-4 border-y border-line py-8">
           <PixelNurse size={48} className="shrink-0" />
-          <div className="space-y-4">
-            <p className="leading-relaxed">
-              <L
-                en={<>&ldquo;{query}&rdquo; isn&rsquo;t in MyNurseDex yet. Check the spelling, or try the English or Spanish name. If it&rsquo;s missing, request it and it will be added overnight.</>}
-                es={<>&ldquo;{query}&rdquo; aún no está en MyNurseDex. Revise la ortografía o pruebe el nombre en inglés o en español. Si falta, solicítelo y se agregará durante la noche.</>}
-              />
-            </p>
-            <RequestTopic topic={query} />
-          </div>
+          {/* Only offer a request when the search finds nothing anywhere; an empty filter isn't a missing topic. */}
+          {filtered && (!query || foundElsewhere) ? (
+            <div className="space-y-4">
+              <p className="leading-relaxed">
+                {query ? (
+                  <L
+                    en={<>&ldquo;{query}&rdquo; isn&rsquo;t in {filterLabel("en")}, but it&rsquo;s in other sections.</>}
+                    es={<>&ldquo;{query}&rdquo; no está en {filterLabel("es")}, pero sí en otras secciones.</>}
+                  />
+                ) : (
+                  <L en={<>There&rsquo;s nothing in {filterLabel("en")} yet.</>} es={<>Aún no hay nada en {filterLabel("es")}.</>} />
+                )}
+              </p>
+              <button
+                onClick={() => setFilters({ category: "all", area: "all" })}
+                className="rounded border-2 border-line bg-card px-5 py-2.5 text-sm font-semibold text-primary hover:border-scrubs"
+              >
+                {query ? <L en="Search everything" es="Buscar en todo" /> : <L en="Clear filters" es="Quitar filtros" />}
+              </button>
+            </div>
+          ) : (
+            <div className="space-y-4">
+              <p className="leading-relaxed">
+                <L
+                  en={<>&ldquo;{query}&rdquo; isn&rsquo;t in MyNurseDex yet. Check the spelling, or try the English or Spanish name. If it&rsquo;s missing, request it and it will be added overnight.</>}
+                  es={<>&ldquo;{query}&rdquo; aún no está en MyNurseDex. Revise la ortografía o pruebe el nombre en inglés o en español. Si falta, solicítelo y se agregará durante la noche.</>}
+                />
+              </p>
+              <RequestTopic topic={query} />
+            </div>
+          )}
         </div>
       )}
     </div>

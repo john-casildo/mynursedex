@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Atkinson_Hyperlegible, Pixelify_Sans, Silkscreen } from "next/font/google";
 import CategoryNav from "@/components/CategoryNav";
+import HomeLink from "@/components/HomeLink";
 import L from "@/components/L";
 import LangToggle from "@/components/LangToggle";
 import PixelNurse from "@/components/PixelNurse";
@@ -50,12 +50,12 @@ const areaCounts = Object.fromEntries(
 
 function Brand({ size }: { size: number }) {
   return (
-    <Link href="/" className="flex items-center gap-3 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mask">
+    <HomeLink className="flex items-center gap-3 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mask">
       <span className="grid place-items-center rounded-[3px] bg-mist p-1 ring-2 ring-white/80">
         <PixelNurse size={size} />
       </span>
       <span className="font-pixel text-2xl leading-none text-white">MyNurseDex</span>
-    </Link>
+    </HomeLink>
   );
 }
 
