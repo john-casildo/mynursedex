@@ -108,6 +108,18 @@ export const ICONS = {
     "..X.X.X..",
     ".........",
   ],
+  // X (Twitter): the X letter
+  x: [
+    "XX.....XX",
+    ".XX...XX.",
+    "..XX.XX..",
+    "...XXX...",
+    "....X....",
+    "...XXX...",
+    "..XX.XX..",
+    ".XX...XX.",
+    "XX.....XX",
+  ],
   // check mark (fact-check: confirmed in the sources)
   check: [
     "........X",

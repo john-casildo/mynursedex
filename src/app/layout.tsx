@@ -43,6 +43,7 @@ export const metadata: Metadata = {
     "Consulta rápida de conceptos de enfermería: fármacos, patologías, laboratorios y planes de cuidado NANDA.",
   authors: [{ name: AUTHOR.name, url: AUTHOR.url }],
   creator: AUTHOR.name,
+  twitter: { creator: "@JSONCasildo" },
 };
 
 // Runs before paint so the saved (or phone's) theme and language apply without a flash.

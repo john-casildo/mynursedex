@@ -8,6 +8,7 @@ import JCLogo from "./JCLogo";
 const LINKS = [
   { label: "LinkedIn", url: "https://www.linkedin.com/in/john-casildo", icon: "linkedin" as const, bg: "#0A66C2" },
   { label: "GitHub", url: "https://github.com/john-casildo", icon: "github" as const, bg: "#24292F" },
+  { label: "X", url: "https://x.com/JSONCasildo", icon: "x" as const, bg: "#000000" },
 ];
 
 // The creator's name in the credit line. Tapping it opens a small card above it with links.
