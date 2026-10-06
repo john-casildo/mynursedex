@@ -1,0 +1,312 @@
+{
+  "id": "neonatal-jaundice",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Ictericia neonatal",
+    "aliases": [
+      "ictericia neonatal",
+      "hiperbilirrubinemia",
+      "bebé amarillo",
+      "bilirrubina alta recién nacido",
+      "fototerapia",
+      "kernicterus"
+    ],
+    "summary": "Coloración amarilla de la piel y las escleras del recién nacido por aumento de la bilirrubina. Suele ser fisiológica, pero si aparece en las primeras 24 horas o es muy alta puede dañar el cerebro.",
+    "key_points": [
+      "Fisiológica: aparece después de las 24 horas y desaparece en 1–2 semanas.",
+      "Patológica: aparece en las primeras 24 horas (sospechar hemólisis, incompatibilidad Rh o ABO).",
+      "Avanza de la cabeza a los pies; se valora presionando la piel sobre una prominencia ósea.",
+      "Tratamiento: alimentación frecuente y fototerapia; exanguinotransfusión en casos graves.",
+      "Complicación grave: encefalopatía por bilirrubina (kernicterus)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El recién nacido destruye muchos glóbulos rojos y produce bilirrubina.",
+        "El hígado inmaduro no conjuga la bilirrubina con suficiente rapidez.",
+        "Se acumula bilirrubina no conjugada, que en niveles altos cruza al cerebro."
+      ],
+      "risk_factors": [
+        "Prematuridad.",
+        "Incompatibilidad Rh o ABO y otras causas de hemólisis.",
+        "Cefalohematoma o hematomas del parto.",
+        "Dificultades en la lactancia y poca ingesta.",
+        "Hermanos que necesitaron fototerapia."
+      ],
+      "signs_symptoms": [
+        "Piel y escleras amarillas que avanzan de la cabeza hacia el abdomen y las piernas.",
+        "Somnolencia y succión débil.",
+        "Orina oscura y heces pálidas en algunas causas.",
+        "Signos de alarma: llanto agudo, rigidez o arqueamiento (encefalopatía)."
+      ],
+      "diagnostics": [
+        "Bilirrubina transcutánea como tamizaje.",
+        "Bilirrubina sérica total, interpretada según las horas de vida.",
+        "Grupo, Rh y prueba de Coombs directa.",
+        "Hemograma y reticulocitos si se sospecha hemólisis."
+      ],
+      "treatment": [
+        "Lactancia frecuente para favorecer la eliminación de bilirrubina en las heces.",
+        "Fototerapia según los niveles y las horas de vida.",
+        "Exanguinotransfusión en casos graves.",
+        "Tratamiento de la causa."
+      ],
+      "complications": [
+        "Encefalopatía aguda por bilirrubina.",
+        "Kernicterus: daño cerebral permanente, sordera y parálisis cerebral.",
+        "Deshidratación durante la fototerapia."
+      ],
+      "nursing_care": [
+        "Valorar la coloración con buena luz natural, presionando la piel sobre la frente o el esternón.",
+        "Fomentar 8–12 tomas en 24 horas y registrar pañales mojados y deposiciones.",
+        "Durante la fototerapia: proteger los ojos, exponer la mayor cantidad de piel, cambiar de posición.",
+        "Vigilar temperatura e hidratación durante la fototerapia.",
+        "Tomar los controles de bilirrubina según orden."
+      ],
+      "patient_teaching": [
+        "Amamantar con frecuencia, al menos 8 veces al día.",
+        "Contar pañales mojados y deposiciones.",
+        "Consultar si el color amarillo aumenta, llega a las piernas, o el bebé está muy dormido o come poco.",
+        "Asistir al control de bilirrubina indicado después del alta."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ictericia neonatal",
+        "type": "actual",
+        "related_to": [
+          "Inmadurez hepática",
+          "Ingesta insuficiente",
+          "Aumento de la destrucción de glóbulos rojos"
+        ],
+        "evidenced_by": [
+          "Piel y escleras amarillas",
+          "Bilirrubina sérica elevada para las horas de vida"
+        ],
+        "outcomes": [
+          "Adaptación del recién nacido — bilirrubina en descenso.",
+          "Establecimiento de la lactancia materna: lactante — 8–12 tomas efectivas al día."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar la fototerapia según orden con protección ocular.",
+            "rationale": "Convierte la bilirrubina en formas que se eliminan."
+          },
+          {
+            "action": "Cambiar de posición al bebé y exponer la mayor cantidad de piel.",
+            "rationale": "Aumenta la superficie expuesta a la luz."
+          },
+          {
+            "action": "Apoyar tomas frecuentes y registrar pañales.",
+            "rationale": "La alimentación aumenta la eliminación de bilirrubina."
+          },
+          {
+            "action": "Controlar la bilirrubina según orden.",
+            "rationale": "Evalúa la eficacia del tratamiento."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Pérdidas insensibles por fototerapia",
+          "Ingesta insuficiente"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación — pañales mojados según la edad y mucosas húmedas.",
+          "Termorregulación: recién nacido — temperatura estable."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar el número de pañales mojados y el peso diario.",
+            "rationale": "Detecta la deshidratación."
+          },
+          {
+            "action": "Vigilar la temperatura del bebé durante la fototerapia.",
+            "rationale": "La luz puede causar hipertermia o pérdida de calor."
+          },
+          {
+            "action": "Valorar mucosas, fontanela y turgencia de la piel.",
+            "rationale": "Son signos de hidratación."
+          },
+          {
+            "action": "Apoyar a la madre para mantener la lactancia durante el tratamiento.",
+            "rationale": "Asegura la ingesta de líquidos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Neonatal Jaundice",
+    "aliases": [
+      "neonatal jaundice",
+      "newborn jaundice",
+      "hyperbilirubinemia",
+      "yellow baby",
+      "phototherapy",
+      "kernicterus"
+    ],
+    "summary": "Yellowing of a newborn's skin and sclera from high bilirubin. It is usually physiologic, but if it appears in the first 24 hours or is very high it can damage the brain.",
+    "key_points": [
+      "Physiologic: appears after 24 hours and fades within 1–2 weeks.",
+      "Pathologic: appears in the first 24 hours (suspect hemolysis, Rh or ABO incompatibility).",
+      "It spreads head to toe; assess by pressing the skin over a bony prominence.",
+      "Treatment: frequent feeding and phototherapy; exchange transfusion in severe cases.",
+      "Serious complication: bilirubin encephalopathy (kernicterus)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The newborn breaks down many red blood cells and makes bilirubin.",
+        "The immature liver can't conjugate bilirubin fast enough.",
+        "Unconjugated bilirubin builds up and, at high levels, crosses into the brain."
+      ],
+      "risk_factors": [
+        "Prematurity.",
+        "Rh or ABO incompatibility and other causes of hemolysis.",
+        "Cephalohematoma or birth bruising.",
+        "Breastfeeding difficulties and low intake.",
+        "Siblings who needed phototherapy."
+      ],
+      "signs_symptoms": [
+        "Yellow skin and sclera spreading from the head to the abdomen and legs.",
+        "Sleepiness and weak suck.",
+        "Dark urine and pale stools with some causes.",
+        "Warning signs: high-pitched cry, stiffness or arching (encephalopathy)."
+      ],
+      "diagnostics": [
+        "Transcutaneous bilirubin as a screen.",
+        "Total serum bilirubin, interpreted by hours of life.",
+        "Blood type, Rh and direct Coombs test.",
+        "CBC and reticulocytes if hemolysis is suspected."
+      ],
+      "treatment": [
+        "Frequent breastfeeding to help pass bilirubin in stool.",
+        "Phototherapy based on levels and hours of life.",
+        "Exchange transfusion in severe cases.",
+        "Treatment of the cause."
+      ],
+      "complications": [
+        "Acute bilirubin encephalopathy.",
+        "Kernicterus: permanent brain damage, deafness and cerebral palsy.",
+        "Dehydration during phototherapy."
+      ],
+      "nursing_care": [
+        "Assess color in good natural light by pressing the skin over the forehead or sternum.",
+        "Encourage 8–12 feedings in 24 hours and record wet diapers and stools.",
+        "During phototherapy: protect the eyes, expose as much skin as possible, reposition.",
+        "Monitor temperature and hydration during phototherapy.",
+        "Draw bilirubin levels as ordered."
+      ],
+      "patient_teaching": [
+        "Breastfeed often, at least 8 times a day.",
+        "Count wet diapers and stools.",
+        "Seek care if the yellow color increases, reaches the legs, or the baby is very sleepy or feeds poorly.",
+        "Attend the bilirubin check scheduled after discharge."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Neonatal jaundice",
+        "type": "actual",
+        "related_to": [
+          "Liver immaturity",
+          "Inadequate intake",
+          "Increased red blood cell breakdown"
+        ],
+        "evidenced_by": [
+          "Yellow skin and sclera",
+          "Serum bilirubin elevated for hours of life"
+        ],
+        "outcomes": [
+          "Newborn Adaptation — decreasing bilirubin.",
+          "Breastfeeding Establishment: Infant — 8–12 effective feedings a day."
+        ],
+        "interventions": [
+          {
+            "action": "Give phototherapy as ordered with eye protection.",
+            "rationale": "Converts bilirubin into forms that can be excreted."
+          },
+          {
+            "action": "Reposition the baby and expose as much skin as possible.",
+            "rationale": "Increases the skin area exposed to light."
+          },
+          {
+            "action": "Support frequent feedings and record diapers.",
+            "rationale": "Feeding increases bilirubin elimination."
+          },
+          {
+            "action": "Check bilirubin as ordered.",
+            "rationale": "Assesses whether treatment works."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Insensible losses from phototherapy",
+          "Inadequate intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration — wet diapers appropriate for age and moist mucous membranes.",
+          "Thermoregulation: Newborn — stable temperature."
+        ],
+        "interventions": [
+          {
+            "action": "Record wet diapers and daily weight.",
+            "rationale": "Detects dehydration."
+          },
+          {
+            "action": "Monitor the baby's temperature during phototherapy.",
+            "rationale": "The lights can cause overheating or heat loss."
+          },
+          {
+            "action": "Assess mucous membranes, fontanel and skin turgor.",
+            "rationale": "They are signs of hydration."
+          },
+          {
+            "action": "Help the mother keep breastfeeding during treatment.",
+            "rationale": "Ensures fluid intake."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "breastfeeding",
+    "blood-type-and-rh-factor",
+    "rho-d-immune-globulin",
+    "apgar-score"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Care of Common Problems in the Newborn",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Physical Assessment of the Newborn",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/23-1-physical-assessment-of-the-newborn",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

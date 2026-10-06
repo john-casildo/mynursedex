@@ -1,0 +1,307 @@
+{
+  "id": "postpartum-infection",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Infección puerperal",
+    "aliases": [
+      "infección puerperal",
+      "infección posparto",
+      "endometritis",
+      "fiebre puerperal",
+      "sepsis puerperal",
+      "infección de herida de cesárea"
+    ],
+    "summary": "Infección del aparato genital o de otros sitios (herida, vías urinarias, mamas) después del parto; la más frecuente es la endometritis, sobre todo después de una cesárea.",
+    "key_points": [
+      "Sospechar ante fiebre ≥38 °C después de las primeras 24 horas posparto.",
+      "Endometritis: fiebre, útero doloroso, loquios con mal olor y taquicardia.",
+      "La cesárea es el principal factor de riesgo.",
+      "Higiene de manos y técnica aséptica son la mejor prevención.",
+      "Puede evolucionar a sepsis: vigilar signos vitales y estado mental."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El sitio placentario y los desgarros son puertas de entrada para bacterias.",
+        "Bacterias de la vagina ascienden al útero (endometritis).",
+        "La infección puede extenderse a la pelvis y la sangre (sepsis)."
+      ],
+      "risk_factors": [
+        "Cesárea, sobre todo urgente.",
+        "Ruptura de membranas prolongada y corioamnionitis.",
+        "Muchos tactos vaginales y trabajo de parto prolongado.",
+        "Restos placentarios, hemorragia posparto, anemia, obesidad y diabetes."
+      ],
+      "signs_symptoms": [
+        "Fiebre, escalofríos y malestar.",
+        "Dolor abdominal y útero sensible.",
+        "Loquios con mal olor o aumento del sangrado.",
+        "Herida roja, caliente, con secreción (REEDA alterado).",
+        "Taquicardia; confusión e hipotensión si hay sepsis."
+      ],
+      "diagnostics": [
+        "Hemograma (leucocitosis) y proteína C reactiva.",
+        "Hemocultivos si hay fiebre alta o signos de sepsis.",
+        "Cultivo de herida o de orina según el foco.",
+        "Ultrasonido si se sospechan restos o absceso."
+      ],
+      "treatment": [
+        "Antibióticos según el foco y el protocolo (IV en la endometritis).",
+        "Drenaje de abscesos o apertura de la herida infectada.",
+        "Extracción de restos placentarios.",
+        "Manejo de sepsis: líquidos, antibióticos tempranos y monitoreo."
+      ],
+      "complications": [
+        "Sepsis y shock séptico.",
+        "Absceso pélvico y tromboflebitis pélvica.",
+        "Dehiscencia de la herida.",
+        "Separación de la madre y el bebé, y menor lactancia."
+      ],
+      "nursing_care": [
+        "Tomar signos vitales y temperatura según protocolo.",
+        "Valorar fondo uterino, loquios (cantidad, color, olor) y herida con la escala REEDA.",
+        "Higiene de manos y técnica aséptica en curaciones y sondas.",
+        "Administrar antibióticos a tiempo y vigilar respuesta.",
+        "Reconocer signos de sepsis y activar el protocolo."
+      ],
+      "patient_teaching": [
+        "Lavarse las manos antes y después de cambiar la toalla sanitaria.",
+        "Higiene perineal de adelante hacia atrás.",
+        "Consultar por fiebre, loquios con mal olor, dolor abdominal que aumenta o herida enrojecida.",
+        "Completar el tratamiento antibiótico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Hipertermia",
+        "type": "actual",
+        "related_to": [
+          "Proceso infeccioso posparto"
+        ],
+        "evidenced_by": [
+          "Temperatura ≥38 °C",
+          "Taquicardia",
+          "Piel caliente al tacto"
+        ],
+        "outcomes": [
+          "Termorregulación — temperatura dentro de lo normal.",
+          "Severidad de la infección — loquios sin mal olor y herida sin signos de infección."
+        ],
+        "interventions": [
+          {
+            "action": "Tomar la temperatura y signos vitales según protocolo.",
+            "rationale": "Evalúa la respuesta al tratamiento."
+          },
+          {
+            "action": "Administrar antibióticos y antipiréticos según orden.",
+            "rationale": "Tratan la causa y alivian la fiebre."
+          },
+          {
+            "action": "Fomentar líquidos y reposo.",
+            "rationale": "La fiebre aumenta las necesidades de líquidos."
+          },
+          {
+            "action": "Valorar loquios y herida en cada turno.",
+            "rationale": "Identifica el foco y su evolución."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de shock",
+        "type": "risk",
+        "related_to": [
+          "Infección que puede progresar a sepsis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Severidad del shock: séptico — sin hipotensión ni alteración del estado mental.",
+          "Signos vitales — dentro de los parámetros indicados."
+        ],
+        "interventions": [
+          {
+            "action": "Vigilar FC, FR, PA, temperatura y estado mental.",
+            "rationale": "La sepsis se reconoce por cambios en estos signos."
+          },
+          {
+            "action": "Medir la diuresis.",
+            "rationale": "La oliguria indica mala perfusión."
+          },
+          {
+            "action": "Tomar hemocultivos antes de iniciar antibióticos, sin retrasarlos.",
+            "rationale": "Permite ajustar el tratamiento."
+          },
+          {
+            "action": "Activar el protocolo de sepsis ante signos de alarma.",
+            "rationale": "El tratamiento temprano reduce la mortalidad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Postpartum Infection",
+    "aliases": [
+      "postpartum infection",
+      "puerperal infection",
+      "endometritis",
+      "puerperal fever",
+      "puerperal sepsis",
+      "cesarean wound infection"
+    ],
+    "summary": "Infection of the genital tract or other sites (wound, urinary tract, breasts) after birth; the most common is endometritis, especially after a cesarean.",
+    "key_points": [
+      "Suspect it with fever ≥38 °C (100.4 °F) after the first 24 hours postpartum.",
+      "Endometritis: fever, tender uterus, foul-smelling lochia and tachycardia.",
+      "Cesarean birth is the main risk factor.",
+      "Hand hygiene and aseptic technique are the best prevention.",
+      "It can progress to sepsis: monitor vital signs and mental status."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The placental site and lacerations are entry points for bacteria.",
+        "Vaginal bacteria ascend into the uterus (endometritis).",
+        "Infection can spread to the pelvis and bloodstream (sepsis)."
+      ],
+      "risk_factors": [
+        "Cesarean birth, especially emergency.",
+        "Prolonged rupture of membranes and chorioamnionitis.",
+        "Many vaginal exams and prolonged labor.",
+        "Retained placenta, postpartum hemorrhage, anemia, obesity and diabetes."
+      ],
+      "signs_symptoms": [
+        "Fever, chills and malaise.",
+        "Abdominal pain and a tender uterus.",
+        "Foul-smelling lochia or increased bleeding.",
+        "Red, warm wound with drainage (abnormal REEDA).",
+        "Tachycardia; confusion and hypotension with sepsis."
+      ],
+      "diagnostics": [
+        "CBC (leukocytosis) and C-reactive protein.",
+        "Blood cultures for high fever or signs of sepsis.",
+        "Wound or urine culture depending on the source.",
+        "Ultrasound if retained tissue or abscess is suspected."
+      ],
+      "treatment": [
+        "Antibiotics by source and protocol (IV for endometritis).",
+        "Abscess drainage or opening of an infected wound.",
+        "Removal of retained placental tissue.",
+        "Sepsis care: fluids, early antibiotics and monitoring."
+      ],
+      "complications": [
+        "Sepsis and septic shock.",
+        "Pelvic abscess and septic pelvic thrombophlebitis.",
+        "Wound dehiscence.",
+        "Separation of mother and baby, and reduced breastfeeding."
+      ],
+      "nursing_care": [
+        "Take vital signs and temperature per protocol.",
+        "Assess fundus, lochia (amount, color, odor) and the wound with REEDA.",
+        "Hand hygiene and aseptic technique for dressings and catheters.",
+        "Give antibiotics on time and monitor the response.",
+        "Recognize signs of sepsis and activate the protocol."
+      ],
+      "patient_teaching": [
+        "Wash hands before and after changing pads.",
+        "Perineal hygiene front to back.",
+        "Seek care for fever, foul-smelling lochia, worsening abdominal pain or a red wound.",
+        "Finish the antibiotic course."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Hyperthermia",
+        "type": "actual",
+        "related_to": [
+          "Postpartum infectious process"
+        ],
+        "evidenced_by": [
+          "Temperature ≥38 °C",
+          "Tachycardia",
+          "Skin warm to touch"
+        ],
+        "outcomes": [
+          "Thermoregulation — temperature within normal range.",
+          "Infection Severity — lochia without odor and wound without signs of infection."
+        ],
+        "interventions": [
+          {
+            "action": "Take temperature and vital signs per protocol.",
+            "rationale": "Assesses response to treatment."
+          },
+          {
+            "action": "Give antibiotics and antipyretics as ordered.",
+            "rationale": "Treat the cause and relieve fever."
+          },
+          {
+            "action": "Encourage fluids and rest.",
+            "rationale": "Fever increases fluid needs."
+          },
+          {
+            "action": "Assess lochia and wound every shift.",
+            "rationale": "Identifies the source and its progress."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for shock",
+        "type": "risk",
+        "related_to": [
+          "Infection that may progress to sepsis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Shock Severity: Septic — no hypotension or altered mental status.",
+          "Vital Signs — within ordered parameters."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor HR, RR, BP, temperature and mental status.",
+            "rationale": "Sepsis shows as changes in these signs."
+          },
+          {
+            "action": "Measure urine output.",
+            "rationale": "Oliguria signals poor perfusion."
+          },
+          {
+            "action": "Draw blood cultures before antibiotics, without delaying them.",
+            "rationale": "Allows treatment to be adjusted."
+          },
+          {
+            "action": "Activate the sepsis protocol for warning signs.",
+            "rationale": "Early treatment lowers mortality."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "sepsis",
+    "mastitis",
+    "lochia",
+    "postpartum-assessment",
+    "postpartum-hemorrhage"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Postpartum Care",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/postpartumcare.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Postpartum Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-1-postpartum-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
