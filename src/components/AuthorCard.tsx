@@ -56,7 +56,7 @@ export default function AuthorCard({ name }: { name: string }) {
         >
           <span className="flex items-center gap-3">
             {/* John's own "JC" logo from his portfolio */}
-            <JCLogo title="JC" className="h-11 w-11 shrink-0 text-ink" />
+            <JCLogo title="JC" rough={false} className="h-11 w-11 shrink-0" />
             <span className="block">
               <span className="font-pixel block text-lg leading-tight">{name}</span>
               <span className="block text-xs text-muted">
