@@ -1,0 +1,359 @@
+{
+  "id": "appendicitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Apendicitis",
+    "aliases": [
+      "apendicitis",
+      "dolor abdominal",
+      "cuadrante inferior derecho",
+      "rlq",
+      "inflamación apéndice",
+      "peritonitis"
+    ],
+    "summary": "Inflamación aguda del apéndice, generalmente por obstrucción, que causa dolor abdominal progresivo y puede perforarse, provocando peritonitis.",
+    "key_points": [
+      "Obstrucción del lumen apendicular inicia inflamación y edema.",
+      "Dolor típico en cuadrante inferior derecho que empeora con el tiempo.",
+      "Riesgo de perforación → peritonitis y sepsis.",
+      "Diagnóstico basado en examen físico y estudios de imagen (TC o ecografía).",
+      "Tratamiento de elección: apendicectomía + antibióticos profilácticos.",
+      "Complicaciones: absceso intraabdominal, íleo paralítico, shock séptico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción por fecalito, hiperplasia linfoide o cuerpo extraño.",
+        "Acumulación de secreciones aumenta la presión intraluminal.",
+        "Compromiso del flujo sanguíneo → isquemia y necrosis.",
+        "Respuesta inflamatoria local con edema y exudado.",
+        "Si no se trata, ruptura del apéndice y diseminación de bacterias al peritoneo."
+      ],
+      "risk_factors": [
+        "Edad entre 10 y 30 años.",
+        "Sexo masculino ligeramente más frecuente.",
+        "Infecciones gastrointestinales previas.",
+        "Obstrucción por fecalitos o hiperplasia linfoide.",
+        "Historia familiar de apendicitis."
+      ],
+      "signs_symptoms": [
+        "Dolor periumbilical que migra al cuadrante inferior derecho.",
+        "Sensibilidad y defensa muscular en RLQ (signo de McBurney).",
+        "Náuseas, vómitos y pérdida de apetito.",
+        "Fiebre baja (≤38 °C).",
+        "Distensión abdominal y posible ausencia de gases."
+      ],
+      "diagnostics": [
+        "Examen físico: dolor RLQ, signo de Rovsing positivo.",
+        "Laboratorio: leucocitosis >10 000 mm³, neutrófilos en banda.",
+        "Ecografía abdominal: apéndice >6 mm, sin compresión.",
+        "Tomografía axial computarizada (TAC) con contraste: hallazgos de inflamación o perforación.",
+        "Urinálisis para descartar infección urinaria."
+      ],
+      "treatment": [
+        "Apendicectomía abierta o laparoscópica.",
+        "Antibióticos de amplio espectro preoperatorios (p. ej., cefazolina + metronidazol).",
+        "Control del dolor con analgésicos (paracetamol, opioides según necesidad).",
+        "Reposo relativo y movilización temprana postoperatoria.",
+        "Hidratación intravenosa hasta que la ingesta oral sea tolerada."
+      ],
+      "complications": [
+        "Perforación y peritonitis.",
+        "Absceso intraabdominal.",
+        "Íleo paralítico.",
+        "Sepsis y shock séptico.",
+        "Fístula enterocutánea (rara)."
+      ],
+      "nursing_care": [
+        "Evaluar dolor con escala numérica cada 2 h y administrar analgésicos según prescripción.",
+        "Monitorear signos vitales, especialmente temperatura y frecuencia cardíaca.",
+        "Observar signos de perforación: aumento de dolor, rigidez abdominal, taquicardia.",
+        "Mantener hidratación IV y registrar ingesta y salida de líquidos.",
+        "Preparar al paciente para cirugía: ayuno, higiene preoperatoria y educación."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de la cirugía y el proceso de recuperación.",
+        "Instruir sobre control del dolor y cuándo notificar aumento súbito del dolor o fiebre.",
+        "Enseñar cuidados de la herida quirúrgica y signos de infección.",
+        "Promover la ingesta progresiva de líquidos y dieta blanda postoperatoria.",
+        "Fomentar la movilización temprana para prevenir trombosis venosa profunda."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "perforación del apéndice",
+          "cirugía abdominal",
+          "contaminación bacteriana peritoneal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin fiebre (>38 °C) durante la hospitalización",
+          "Leucocitosis <10 000 mm³ en 48 h",
+          "Herida quirúrgica sin signos de infección al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear temperatura cada 4 h y registrar cambios",
+            "rationale": "Detectar tempranamente fiebre que indique infección"
+          },
+          {
+            "action": "Observar y registrar aspecto de la herida quirúrgica",
+            "rationale": "Identificar enrojecimiento, exudado o dehiscencia precoz"
+          },
+          {
+            "action": "Administrar antibióticos profilácticos según orden médica",
+            "rationale": "Prevenir colonización bacteriana y sepsis"
+          },
+          {
+            "action": "Enseñar al paciente la importancia de reportar dolor, calor o secreción en la herida",
+            "rationale": "Facilitar detección temprana de complicaciones infecciosas"
+          },
+          {
+            "action": "Promover higiene de manos antes y después de manipular la herida",
+            "rationale": "Reducir transmisión de microorganismos"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "náuseas",
+          "vómitos",
+          "pérdida de apetito",
+          "fiebre"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Ingesta oral ≥1500 mL/día al día 2 postoperatorio",
+          "Peso corporal estable (variación <2 % en 24 h)",
+          "Urea y creatinina dentro de rangos normales"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, diuresis) cada 4 h",
+            "rationale": "Detectar pérdida de líquidos tempranamente"
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción y registrar balance hídrico",
+            "rationale": "Mantener perfusión tisular adecuada"
+          },
+          {
+            "action": "Ofrecer líquidos claros en pequeñas cantidades cada 30 min si no hay vómitos",
+            "rationale": "Facilitar la tolerancia oral y prevenir deshidratación"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos en hoja de observación",
+            "rationale": "Controlar el balance de líquidos y ajustar terapia"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de rehidratarse y reconocer signos de deshidratación",
+            "rationale": "Promover autocuidado y prevención de complicaciones"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Appendicitis",
+    "aliases": [
+      "appendicitis",
+      "abdominal pain",
+      "right lower quadrant",
+      "rlq",
+      "appendix inflammation",
+      "peritonitis"
+    ],
+    "summary": "Acute inflammation of the appendix, usually due to obstruction, causing progressive abdominal pain and potentially perforation, leading to peritonitis.",
+    "key_points": [
+      "Obstruction of the appendiceal lumen initiates inflammation and edema.",
+      "Typical pain in the right lower quadrant that worsens over time.",
+      "Risk of perforation → peritonitis and sepsis.",
+      "Diagnosis based on physical exam and imaging studies (CT or ultrasound).",
+      "Preferred treatment: appendectomy + prophylactic antibiotics.",
+      "Complications: intraabdominal abscess, paralytic ileus, septic shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstruction by fecalith, lymphoid hyperplasia, or foreign body.",
+        "Accumulation of secretions increases intraluminal pressure.",
+        "Compromised blood flow → ischemia and necrosis.",
+        "Local inflammatory response with edema and exudate.",
+        "If untreated, rupture of the appendix and bacterial spread into the peritoneum."
+      ],
+      "risk_factors": [
+        "Age 10 to 30 years.",
+        "Slightly more common in males.",
+        "Prior gastrointestinal infections.",
+        "Obstruction by fecaliths or lymphoid hyperplasia.",
+        "Family history of appendicitis."
+      ],
+      "signs_symptoms": [
+        "Periumbilical pain migrating to the right lower quadrant.",
+        "Tenderness and muscular defense in RLQ (McBurney's sign).",
+        "Nausea, vomiting, and loss of appetite.",
+        "Low-grade fever (≤38 °C).",
+        "Abdominal distension and possible absence of flatus."
+      ],
+      "diagnostics": [
+        "Physical exam: RLQ pain, positive Rovsing's sign.",
+        "Laboratory: leukocytosis >10,000 mm³, band neutrophils.",
+        "Abdominal ultrasound: appendix >6 mm, no compression.",
+        "Contrast-enhanced CT scan: findings of inflammation or perforation.",
+        "Urinalysis to rule out urinary infection."
+      ],
+      "treatment": [
+        "Open or laparoscopic appendectomy.",
+        "Preoperative broad-spectrum antibiotics (e.g., cefazolin + metronidazole).",
+        "Pain control with analgesics (acetaminophen, opioids as needed).",
+        "Relative rest and early postoperative mobilization.",
+        "Intravenous hydration until oral intake is tolerated."
+      ],
+      "complications": [
+        "Perforation and peritonitis.",
+        "Intraabdominal abscess.",
+        "Paralytic ileus.",
+        "Sepsis and septic shock.",
+        "Rare enterocutaneous fistula."
+      ],
+      "nursing_care": [
+        "Assess pain with numeric scale every 2 h and administer analgesics per prescription.",
+        "Monitor vital signs, especially temperature and heart rate.",
+        "Observe for signs of perforation: increased pain, abdominal rigidity, tachycardia.",
+        "Maintain IV hydration and record fluid intake and output.",
+        "Prepare patient for surgery: fasting, preoperative hygiene, and education."
+      ],
+      "patient_teaching": [
+        "Explain the need for surgery and the recovery process.",
+        "Instruct on pain control and when to report sudden increase in pain or fever.",
+        "Teach surgical wound care and signs of infection.",
+        "Encourage progressive fluid intake and a soft diet postoperatively.",
+        "Promote early mobilization to prevent deep vein thrombosis."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "appendix perforation",
+          "abdominal surgery",
+          "peritoneal bacterial contamination"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No fever (>38 °C) during hospitalization",
+          "Leukocytosis <10,000 mm³ within 48 h",
+          "Surgical wound without signs of infection at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor temperature every 4 h and record changes",
+            "rationale": "Detect early fever indicating infection"
+          },
+          {
+            "action": "Observe and document surgical wound appearance",
+            "rationale": "Identify redness, drainage, or early dehiscence"
+          },
+          {
+            "action": "Administer prophylactic antibiotics as ordered",
+            "rationale": "Prevent bacterial colonization and sepsis"
+          },
+          {
+            "action": "Teach patient the importance of reporting pain, warmth, or drainage at the wound",
+            "rationale": "Facilitate early detection of infectious complications"
+          },
+          {
+            "action": "Promote hand hygiene before and after wound care",
+            "rationale": "Reduce microorganism transmission"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "nausea",
+          "vomiting",
+          "loss of appetite",
+          "fever"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Oral intake ≥1,500 mL/day by postoperative day 2",
+          "Stable body weight (variation <2 % in 24 h)",
+          "BUN and creatinine within normal ranges"
+        ],
+        "interventions": [
+          {
+            "action": "Assess dehydration signs (turgor, mucous membranes, urine output) every 4 h",
+            "rationale": "Detect early fluid loss"
+          },
+          {
+            "action": "Administer IV fluids per prescription and record fluid balance",
+            "rationale": "Maintain adequate tissue perfusion"
+          },
+          {
+            "action": "Offer clear fluids in small amounts every 30 min if no vomiting",
+            "rationale": "Facilitate oral tolerance and prevent dehydration"
+          },
+          {
+            "action": "Record fluid intake and output on observation sheet",
+            "rationale": "Monitor fluid balance and adjust therapy"
+          },
+          {
+            "action": "Educate patient on importance of rehydration and recognizing dehydration signs",
+            "rationale": "Promote self-care and prevent complications"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "appendectomy",
+    "peritonitis",
+    "sepsis",
+    "abdominal-pain",
+    "intestinal-obstruction"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Appendicitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/appendicitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Apendicitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/appendicitis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Surgical Concepts",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/31-1-surgical-concepts",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
