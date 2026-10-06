@@ -30,3 +30,7 @@ Needs a free [Groq](https://console.groq.com) API key in `.env.local` as `GROQ_A
 ## Sources and license
 
 Facts come from openFDA / DailyMed, RxNorm, MedlinePlus (National Library of Medicine) and the OpenStax nursing textbooks. Entries built from OpenStax content are adapted from works licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) by OpenStax and are shared under the same license.
+
+## Author
+
+Made by [John Casildo](https://github.com/john-casildo).

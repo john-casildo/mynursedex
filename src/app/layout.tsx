@@ -28,12 +28,16 @@ const pixel = Pixelify_Sans({
   subsets: ["latin"],
 });
 
+const AUTHOR = { name: "John Casildo", url: "https://github.com/john-casildo" };
+
 export const metadata: Metadata = {
   // Public address, so link previews (opengraph-image) use absolute URLs.
   metadataBase: new URL("https://mynursedex.vercel.app"),
   title: "MyNurseDex",
   description:
     "Consulta rápida de conceptos de enfermería: fármacos, patologías, laboratorios y planes de cuidado NANDA.",
+  authors: [{ name: AUTHOR.name, url: AUTHOR.url }],
+  creator: AUTHOR.name,
 };
 
 // Runs before paint so the saved (or phone's) theme and language apply without a flash.
@@ -76,6 +80,17 @@ const disclaimer = (
   />
 );
 
+function Credit({ className }: { className: string }) {
+  return (
+    <p className={className}>
+      <L en="Made by " es="Creado por " />
+      <a href={AUTHOR.url} target="_blank" rel="noopener noreferrer" className="font-semibold underline underline-offset-4">
+        {AUTHOR.name}
+      </a>
+    </p>
+  );
+}
+
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
@@ -113,12 +128,16 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
               <ThemeToggle />
             </div>
             <p className="text-xs leading-relaxed text-ceil/80">{disclaimer}</p>
+            <Credit className="text-xs text-ceil decoration-ceil/50 hover:text-white" />
           </div>
         </aside>
 
         <div className="min-w-0">
           <main className="px-4 py-6 sm:px-8 lg:px-12 lg:py-10">{children}</main>
-          <footer className="px-4 pb-8 text-xs text-muted sm:px-8 lg:hidden">{disclaimer}</footer>
+          <footer className="space-y-2 px-4 pb-8 text-xs text-muted sm:px-8 lg:hidden">
+            <p>{disclaimer}</p>
+            <Credit className="decoration-line hover:text-ink" />
+          </footer>
         </div>
       </body>
     </html>
