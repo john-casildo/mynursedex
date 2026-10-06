@@ -64,5 +64,7 @@ jobs:
             echo "No new entries tonight."
           else
             git commit -m "Nightly: add entries ($(date -u +%F))"
+            # main may have moved while the job ran (e.g. hand-written entries were pushed).
+            git pull --rebase origin main
             git push
           fi

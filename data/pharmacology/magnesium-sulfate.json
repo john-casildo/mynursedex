@@ -1,0 +1,250 @@
+{
+  "id": "magnesium-sulfate",
+  "category": "pharmacology",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Sulfato de magnesio",
+    "aliases": [
+      "sulfato de magnesio",
+      "mgso4",
+      "magnesio",
+      "anticonvulsivante obstétrico",
+      "neuroprotección fetal"
+    ],
+    "summary": "Electrolito que deprime el sistema nervioso central y la transmisión neuromuscular; en obstetricia es el fármaco de elección para prevenir y tratar las convulsiones de la preeclampsia y la eclampsia.",
+    "key_points": [
+      "Previene convulsiones; NO es un antihipertensivo.",
+      "Toxicidad, en orden: pérdida de reflejos osteotendinosos → depresión respiratoria → paro cardíaco.",
+      "Valorar cada hora: ROT, FR (≥12 rpm), nivel de conciencia y diuresis (≥30 mL/h).",
+      "Antídoto: gluconato de calcio, siempre a la cabecera.",
+      "Se elimina por el riñón: con diuresis baja se acumula."
+    ],
+    "sections": {
+      "mechanism": [
+        "Disminuye la liberación de acetilcolina en la unión neuromuscular.",
+        "Actúa como antagonista del calcio y deprime el sistema nervioso central.",
+        "Eleva el umbral convulsivo; no baja la presión arterial de forma significativa."
+      ],
+      "indications": [
+        "Prevención de convulsiones en la preeclampsia con signos de severidad.",
+        "Tratamiento y prevención de nuevas convulsiones en la eclampsia.",
+        "Neuroprotección fetal en partos muy pretérmino, según protocolo.",
+        "Hipomagnesemia."
+      ],
+      "contraindications": [
+        "Miastenia gravis.",
+        "Bloqueo cardíaco.",
+        "Precaución en insuficiencia renal: se acumula y aumenta la toxicidad."
+      ],
+      "adverse_effects": [
+        "Comunes: rubor, calor, sudoración, náuseas, cefalea, somnolencia y debilidad muscular.",
+        "Visión borrosa e hipotensión.",
+        "Grave: hiporreflexia o arreflexia, depresión respiratoria, arritmias y paro cardíaco.",
+        "En el feto: disminución de la variabilidad de la FCF; en el recién nacido: hipotonía y depresión respiratoria."
+      ],
+      "interactions": [
+        "Nifedipino y otros bloqueadores de calcio: hipotensión y bloqueo neuromuscular.",
+        "Bloqueadores neuromusculares: efecto prolongado.",
+        "Depresores del SNC (opioides, sedantes): más sedación y depresión respiratoria."
+      ],
+      "nursing_care": [
+        "Administrar siempre con bomba de infusión, como línea secundaria según protocolo; es un medicamento de alto riesgo.",
+        "Antes y durante la infusión: ROT, clonus, FR, saturación, nivel de conciencia y PA cada hora o según protocolo.",
+        "Control estricto de ingesta y excreta con sonda Foley; avisar si la diuresis es <30 mL/h.",
+        "Vigilar niveles séricos de magnesio y creatinina según orden.",
+        "Suspender la infusión y avisar ante arreflexia, FR <12 rpm, SpO2 baja o alteración de la conciencia.",
+        "Monitoreo continuo de la FCF y valoración del recién nacido si nace durante el tratamiento."
+      ],
+      "patient_teaching": [
+        "Explicar que es normal sentir calor, rubor y cansancio al inicio de la infusión.",
+        "Avisar de inmediato si siente dificultad para respirar, mucha debilidad o somnolencia intensa.",
+        "La infusión suele continuar después del parto por el riesgo de convulsiones posparto."
+      ],
+      "antidote_overdose": [
+        "Antídoto: gluconato de calcio IV, administrado lentamente según protocolo.",
+        "Suspender la infusión y apoyar la ventilación si hay depresión respiratoria."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Infusión continua de sulfato de magnesio",
+          "Disminución de la diuresis",
+          "Alteración de la función renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico — magnesio sérico dentro del rango terapéutico indicado.",
+          "Estado respiratorio — FR ≥12 rpm y SpO2 dentro de lo esperado durante la infusión."
+        ],
+        "interventions": [
+          {
+            "action": "Valorar ROT, FR y nivel de conciencia cada hora.",
+            "rationale": "Son los primeros signos de magnesio elevado."
+          },
+          {
+            "action": "Medir la diuresis horaria con sonda Foley.",
+            "rationale": "El magnesio se elimina por el riñón; la oliguria lleva a toxicidad."
+          },
+          {
+            "action": "Verificar el magnesio sérico y la creatinina según orden.",
+            "rationale": "Confirman el rango terapéutico y la función renal."
+          },
+          {
+            "action": "Usar bomba de infusión y doble verificación de la dilución y la velocidad.",
+            "rationale": "Previene errores con un medicamento de alto riesgo."
+          },
+          {
+            "action": "Mantener gluconato de calcio a la cabecera y suspender la infusión ante signos de toxicidad.",
+            "rationale": "Permite revertir la toxicidad de inmediato."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Magnesium Sulfate",
+    "aliases": [
+      "magnesium sulfate",
+      "mgso4",
+      "mag",
+      "magnesium",
+      "seizure prophylaxis",
+      "fetal neuroprotection"
+    ],
+    "summary": "Electrolyte that depresses the central nervous system and neuromuscular transmission; in obstetrics it is the drug of choice to prevent and treat seizures in preeclampsia and eclampsia.",
+    "key_points": [
+      "Prevents seizures; it is NOT an antihypertensive.",
+      "Toxicity, in order: loss of deep tendon reflexes → respiratory depression → cardiac arrest.",
+      "Assess hourly: DTRs, RR (≥12/min), level of consciousness and urine output (≥30 mL/h).",
+      "Antidote: calcium gluconate, always at the bedside.",
+      "Cleared by the kidneys: it builds up when urine output is low."
+    ],
+    "sections": {
+      "mechanism": [
+        "Reduces acetylcholine release at the neuromuscular junction.",
+        "Acts as a calcium antagonist and depresses the central nervous system.",
+        "Raises the seizure threshold; it doesn't lower blood pressure significantly."
+      ],
+      "indications": [
+        "Seizure prevention in preeclampsia with severe features.",
+        "Treatment and prevention of further seizures in eclampsia.",
+        "Fetal neuroprotection in very preterm births, per protocol.",
+        "Hypomagnesemia."
+      ],
+      "contraindications": [
+        "Myasthenia gravis.",
+        "Heart block.",
+        "Use with caution in kidney failure: it accumulates and toxicity rises."
+      ],
+      "adverse_effects": [
+        "Common: flushing, warmth, sweating, nausea, headache, drowsiness and muscle weakness.",
+        "Blurred vision and hypotension.",
+        "Serious: hyporeflexia or areflexia, respiratory depression, arrhythmias and cardiac arrest.",
+        "Fetus: decreased FHR variability; newborn: hypotonia and respiratory depression."
+      ],
+      "interactions": [
+        "Nifedipine and other calcium channel blockers: hypotension and neuromuscular blockade.",
+        "Neuromuscular blockers: prolonged effect.",
+        "CNS depressants (opioids, sedatives): more sedation and respiratory depression."
+      ],
+      "nursing_care": [
+        "Always give by infusion pump, as a secondary line per protocol; it is a high-alert medication.",
+        "Before and during the infusion: DTRs, clonus, RR, SpO2, level of consciousness and BP hourly or per protocol.",
+        "Strict intake and output with a Foley catheter; report urine output <30 mL/h.",
+        "Monitor serum magnesium and creatinine as ordered.",
+        "Stop the infusion and notify for absent reflexes, RR <12/min, low SpO2 or altered consciousness.",
+        "Continuous FHR monitoring, and assess the newborn if born during treatment."
+      ],
+      "patient_teaching": [
+        "Explain that feeling warm, flushed and tired at the start of the infusion is normal.",
+        "Report trouble breathing, marked weakness or severe drowsiness right away.",
+        "The infusion usually continues after birth because seizures can happen postpartum."
+      ],
+      "antidote_overdose": [
+        "Antidote: IV calcium gluconate, given slowly per protocol.",
+        "Stop the infusion and support ventilation if there is respiratory depression."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Continuous magnesium sulfate infusion",
+          "Decreased urine output",
+          "Impaired kidney function"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte Balance — serum magnesium within the ordered therapeutic range.",
+          "Respiratory Status — RR ≥12/min and expected SpO2 during the infusion."
+        ],
+        "interventions": [
+          {
+            "action": "Assess DTRs, RR and level of consciousness every hour.",
+            "rationale": "They are the first signs of high magnesium."
+          },
+          {
+            "action": "Measure hourly urine output with a Foley catheter.",
+            "rationale": "Magnesium is cleared by the kidneys; oliguria leads to toxicity."
+          },
+          {
+            "action": "Check serum magnesium and creatinine as ordered.",
+            "rationale": "They confirm the therapeutic range and kidney function."
+          },
+          {
+            "action": "Use an infusion pump and double-check the dilution and rate.",
+            "rationale": "Prevents errors with a high-alert medication."
+          },
+          {
+            "action": "Keep calcium gluconate at the bedside and stop the infusion for signs of toxicity.",
+            "rationale": "Allows toxicity to be reversed right away."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "preeclampsia",
+    "eclampsia",
+    "hellp-syndrome",
+    "nifedipine",
+    "preterm-labor"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: Magnesium sulfate in dextrose label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=03ebeabb-8386-4af4-3086-bdf3c3fc4a5a",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Obstetrical Conditions Affecting Labor and Birth",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/19-3-obstetrical-conditions-affecting-labor-and-birth",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
