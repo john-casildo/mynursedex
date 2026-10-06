@@ -17,7 +17,7 @@ import { entryUrl, loadEntries, rawUrl, readJson, readTopics, writeJson, type Co
 import { extract } from "./extract.mts";
 import { hasOpenStax, syncOpenStax } from "./openstax.mts";
 import { MODEL, groq, transform } from "./transform.mts";
-import { printReport, validate } from "./validate.mts";
+import { checkEntry, printReport, validate } from "./validate.mts";
 
 const args = process.argv.slice(2);
 const command = args.find((a) => !a.startsWith("--") && args[args.indexOf(a) - 1] !== "--only") ?? "run";
@@ -42,6 +42,23 @@ async function jobs(): Promise<Job[]> {
     list = (await readTopics()).filter((t) => FORCE || !byId.has(t.id));
   }
   return ONLY ? list.filter((j) => j.id === ONLY) : list;
+}
+
+// The model sometimes returns broken JSON or an empty entry. Retry, and never save an entry
+// that fails validation: the previous version (if any) stays in place.
+async function transformChecked(raw: RawRecord, tries = 3): Promise<Concept | null> {
+  for (let attempt = 1; attempt <= tries; attempt++) {
+    try {
+      const entry = await transform(raw);
+      const { errors } = checkEntry(entry, raw.category, raw.id);
+      if (!errors.length) return entry;
+      console.warn(`  attempt ${attempt}: invalid entry (${errors.slice(0, 2).join("; ")})`);
+    } catch (err) {
+      console.warn(`  attempt ${attempt}: ${(err as Error).message.slice(0, 160)}`);
+    }
+  }
+  console.error(`  failed after ${tries} tries; keeping the previous version`);
+  return null;
 }
 
 async function checkGroq() {
@@ -95,7 +112,8 @@ async function main() {
         console.log(`  sources: ${raw.sources.map((s) => s.name).join(" · ") || "none"}`);
       }
       if (command !== "extract") {
-        const entry = await transform(raw);
+        const entry = await transformChecked(raw);
+        if (!entry) continue;
         if (DRY_RUN) console.log(JSON.stringify(entry, null, 2));
         else await writeJson(entryUrl(entry.category, entry.id), entry);
       }

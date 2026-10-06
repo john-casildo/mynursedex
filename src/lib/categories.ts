@@ -15,31 +15,31 @@ export function formatNumber(n: number): string {
 
 export const CATEGORY_STYLES: Record<
   Category,
-  { label: Record<Lang, string>; short: Record<Lang, string>; badge: string }
+  { label: Record<Lang, string>; short: Record<Lang, string>; dot: string }
 > = {
   pharmacology: {
     label: { en: "Pharmacology", es: "Farmacología" },
     short: { en: "Pharm", es: "Fármacos" },
-    badge: "bg-scrubs text-white",
+    dot: "bg-scrubs",
   },
   conditions: {
     label: { en: "Conditions", es: "Patologías" },
     short: { en: "Conditions", es: "Patologías" },
-    badge: "bg-navy text-white dark:bg-ceil dark:text-navy",
+    dot: "bg-ceil",
   },
   labs: {
     label: { en: "Labs", es: "Laboratorios" },
     short: { en: "Labs", es: "Labs" },
-    badge: "bg-teal-600 text-white",
+    dot: "bg-teal-600",
   },
   fundamentals: {
     label: { en: "Fundamentals", es: "Fundamentos" },
     short: { en: "Fundamentals", es: "Fundamentos" },
-    badge: "bg-mask text-navy",
+    dot: "bg-mask",
   },
   abbreviations: {
     label: { en: "Abbreviations", es: "Abreviaturas" },
     short: { en: "Abbrev", es: "Abrev" },
-    badge: "bg-indigo-500 text-white",
+    dot: "bg-indigo-500",
   },
 };

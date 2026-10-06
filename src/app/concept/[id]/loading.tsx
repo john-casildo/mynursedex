@@ -2,10 +2,10 @@ import { Bone, SectionSkeleton } from "@/components/Skeleton";
 
 export default function Loading() {
   return (
-    <div role="status" aria-busy="true" className="space-y-4">
+    <div role="status" aria-busy="true" className="max-w-[44rem] space-y-4">
       <span className="sr-only">Cargando… / Loading…</span>
       <Bone className="h-4 w-28" />
-      <div className="rounded-3xl border-2 border-line bg-card p-5">
+      <div className="rounded border-2 border-line bg-card p-5">
         <div className="mb-3 flex items-center justify-between">
           <Bone className="h-4 w-12" />
           <Bone className="h-6 w-24 rounded-full" />

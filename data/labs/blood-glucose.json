@@ -5,58 +5,216 @@
     "term": "Glucosa en sangre",
     "aliases": [
       "glucosa",
-      "azúcar",
-      "bg",
-      "fsbs",
-      "punción",
-      "hipoglucemia",
-      "hiperglucemia"
+      "azúcar en sangre",
+      "glicemia",
+      "glucemia",
+      "nivel de glucosa"
     ],
-    "summary": "Rango normal en ayunas: aproximadamente 70–100 mg/dL. Por debajo de 70 mg/dL se considera hipoglucemia.",
+    "summary": "La glucosa es la principal fuente de energía; su concentración se controla mediante insulina y glucagón.",
     "key_points": [
-      "Signos de hipoglucemia: temblor, sudoración, confusión, irritabilidad, taquicardia",
-      "Signos de hiperglucemia: sed, poliuria, visión borrosa, fatiga",
-      "Paciente consciente con hipoglucemia: administrar 15 g de carbohidratos de acción rápida y volver a medir en 15 min (regla 15‑15)"
+      "Rango normal en ayunas: 70‑100 mg/dL; posprandial <140 mg/dL (2 h).",
+      "Hiperglucemia indica diabetes, estrés, infección o corticoides.",
+      "Hipoglucemia se produce por exceso de insulina, ayuno prolongado o alcohol.",
+      "Muestra en tubo con fluoruro, ayuno 8 h para glucosa en ayunas.",
+      "Monitoreo frecuente y educación del paciente son esenciales."
     ],
     "sections": {
+      "normal_values": [
+        "Ayuno: 70‑100 mg/dL (adultos).",
+        "Posprandial (2 h): <140 mg/dL.",
+        "Aleatorio: <200 mg/dL.",
+        "Los rangos pueden variar según el laboratorio."
+      ],
+      "high_values": [
+        "Hiperglucemia – diabetes mellitus tipo 1 y 2, estrés, infección, corticoides.",
+        "Síntomas: poliuria, polidipsia, fatiga, visión borrosa, pérdida de peso.",
+        "Complicaciones: cetoacidosis diabética, daño microvascular."
+      ],
+      "low_values": [
+        "Hipoglucemia – exceso de insulina, ayuno, ejercicio intenso, alcohol.",
+        "Síntomas: sudoración, temblor, palpitaciones, confusión, convulsiones.",
+        "Urgencia: administrar glucosa rápidamente."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa en tubo con fluoruro de sodio (evita glucólisis).",
+        "Ayuno mínimo 8 h para glucosa en ayunas; 2 h después de comida para posprandial.",
+        "Errores comunes: no ayunar, retraso en centrifugado, usar tubo sin inhibidor.",
+        "Temperatura ambiente: procesar dentro de 30 min o refrigerar si se retrasa."
+      ],
       "nursing_care": [
-        "Verificar glucosa antes de las comidas y antes de administrar insulina",
-        "Seguir el protocolo de hipoglucemia; en paciente inconsciente usar dextrosa IV o glucagón, nunca alimentos por vía oral",
-        "Monitorear nivel de conciencia, signos vitales y repetir glucosa según indicaciones"
+        "Verificar resultados y notificar al médico si están fuera de rango.",
+        "Evaluar signos y síntomas de hipoglucemia e hiperglucemia.",
+        "Educar al paciente sobre dieta, ejercicio y técnica de autocontrol de glucosa.",
+        "Administrar glucosa oral (15 g) o glucagón según protocolo en hipoglucemia.",
+        "Revisar y registrar horarios de medicación (insulina, hipoglucemiantes).",
+        "Documentar respuesta al tratamiento y ajustar plan de cuidados."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de nivel de glucemia inestable",
+        "type": "risk",
+        "related_to": [
+          "diabetes mellitus",
+          "terapia con insulina",
+          "dieta irregular",
+          "estrés",
+          "infección"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de glucemia: glucosa capilar 70‑130 mg/dL en ayunas en 90 % de los controles.",
+          "Conocimiento de autocontrol: paciente describe correctamente 3 pasos para tratar hipoglucemia."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear glucosa capilar antes de cada comida y al acostarse.",
+            "rationale": "Permite detectar rápidamente desviaciones y ajustar tratamiento."
+          },
+          {
+            "action": "Evaluar signos y síntomas de hipoglucemia e hiperglucemia en cada visita.",
+            "rationale": "La detección precoz reduce riesgo de complicaciones graves."
+          },
+          {
+            "action": "Enseñar al paciente el uso correcto de glucosa en tabletas y glucagón de emergencia.",
+            "rationale": "Facilita la intervención inmediata ante una hipoglucemia."
+          },
+          {
+            "action": "Revisar y registrar la ingesta de alimentos y actividad física diaria.",
+            "rationale": "Factores dietéticos y de ejercicio influyen directamente en la glucemia."
+          },
+          {
+            "action": "Coordinar con el médico ajustes de dosis de insulina según protocolo.",
+            "rationale": "Mantener la glucemia dentro del rango objetivo requiere ajustes terapéuticos."
+          }
+        ]
+      }
+    ]
   },
   "en": {
-    "term": "Blood Glucose",
+    "term": "Blood glucose",
     "aliases": [
+      "blood glucose",
       "blood sugar",
-      "bg",
-      "fsbs",
-      "fingerstick",
-      "glucose",
-      "hypoglycemia",
-      "hyperglycemia"
+      "glycemia",
+      "glucose level"
     ],
-    "summary": "Normal fasting: about 70–100 mg/dL. Below 70 is hypoglycemia.",
+    "summary": "Glucose is the main energy source; its concentration is regulated by insulin and glucagon.",
     "key_points": [
-      "Hypoglycemia signs: shaky, sweaty, confused, irritable, tachycardic",
-      "Hyperglycemia signs: thirst, frequent urination, blurred vision, fatigue",
-      "Conscious hypoglycemic patient: give 15 g fast-acting carbs and recheck in 15 minutes (the 15-15 rule)"
+      "Normal fasting range: 70‑100 mg/dL; postprandial <140 mg/dL (2 h).",
+      "Hyperglycemia indicates diabetes, stress, infection or corticosteroids.",
+      "Hypoglycemia occurs from excess insulin, prolonged fasting or alcohol.",
+      "Collect in a fluoride tube, fast 8 h for fasting glucose.",
+      "Frequent monitoring and patient education are essential."
     ],
     "sections": {
+      "normal_values": [
+        "Fasting: 70‑100 mg/dL (adults).",
+        "Postprandial (2 h): <140 mg/dL.",
+        "Random: <200 mg/dL.",
+        "Ranges may vary by laboratory."
+      ],
+      "high_values": [
+        "Hyperglycemia – type 1 and 2 diabetes mellitus, stress, infection, corticosteroids.",
+        "Symptoms: polyuria, polydipsia, fatigue, blurred vision, weight loss.",
+        "Complications: diabetic ketoacidosis, microvascular damage."
+      ],
+      "low_values": [
+        "Hypoglycemia – excess insulin, fasting, intense exercise, alcohol.",
+        "Symptoms: sweating, tremor, palpitations, confusion, seizures.",
+        "Urgency: administer glucose promptly."
+      ],
+      "specimen": [
+        "Venous blood sample in a sodium fluoride tube (prevents glycolysis).",
+        "Minimum 8 h fast for fasting glucose; 2 h after meal for postprandial.",
+        "Common errors: not fasting, delayed centrifugation, using a tube without inhibitor.",
+        "Room temperature: process within 30 min or refrigerate if delayed."
+      ],
       "nursing_care": [
-        "Check before meals and before giving insulin",
-        "Follow the hypoglycemia protocol; for an unconscious patient, use IV dextrose or glucagon, never food by mouth"
+        "Verify results and notify the physician if out of range.",
+        "Assess signs and symptoms of hypoglycemia and hyperglycemia.",
+        "Educate the patient on diet, exercise and self‑monitoring technique.",
+        "Administer oral glucose (15 g) or glucagon per protocol for hypoglycemia.",
+        "Review and record medication times (insulin, hypoglycemic agents).",
+        "Document response to treatment and adjust care plan."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for unstable blood glucose level",
+        "type": "risk",
+        "related_to": [
+          "diabetes mellitus",
+          "insulin therapy",
+          "irregular diet",
+          "stress",
+          "infection"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Glucose control: capillary glucose 70‑130 mg/dL fasting in 90 % of checks.",
+          "Self‑monitoring knowledge: patient correctly describes 3 steps to treat hypoglycemia."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor capillary glucose before each meal and at bedtime.",
+            "rationale": "Allows rapid detection of deviations and treatment adjustment."
+          },
+          {
+            "action": "Assess signs and symptoms of hypoglycemia and hyperglycemia at each visit.",
+            "rationale": "Early detection reduces risk of serious complications."
+          },
+          {
+            "action": "Teach the patient proper use of glucose tablets and emergency glucagon.",
+            "rationale": "Facilitates immediate intervention during hypoglycemia."
+          },
+          {
+            "action": "Review and record daily food intake and physical activity.",
+            "rationale": "Dietary and exercise factors directly influence glucose levels."
+          },
+          {
+            "action": "Coordinate with the physician to adjust insulin doses per protocol.",
+            "rationale": "Maintaining glucose within target range requires therapeutic adjustments."
+          }
+        ]
+      }
+    ]
   },
   "related": [
-    "regular-insulin",
-    "diabetic-ketoacidosis"
+    "hypoglycemia",
+    "hyperglycemia",
+    "diabetes-mellitus",
+    "insulin-therapy",
+    "glucose-tolerance-test"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Glucosa en la sangre",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/bloodglucose.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Diabetes Mellitus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-2-diabetes-mellitus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Diabetes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-1-introduction-to-diabetes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"

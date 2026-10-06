@@ -18,7 +18,7 @@ export function Bone({
 
 export function CardSkeleton() {
   return (
-    <div className="rounded-2xl border-2 border-line bg-card p-4">
+    <div className="rounded border-2 border-line bg-card p-4">
       <div className="mb-2 flex items-center justify-between">
         <Bone className="h-3 w-10" />
         <Bone className="h-4 w-16 rounded-full" />
@@ -32,7 +32,7 @@ export function CardSkeleton() {
 
 export function SectionSkeleton({ lines = 4 }: { lines?: number }) {
   return (
-    <div className="rounded-2xl border-2 border-line bg-card p-4">
+    <div className="rounded border-2 border-line bg-card p-4">
       <Bone className="mb-3 h-4 w-28" />
       <div className="space-y-2">
         {Array.from({ length: lines }, (_, i) => (

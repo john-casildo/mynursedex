@@ -2,63 +2,220 @@
   "id": "potassium",
   "category": "labs",
   "es": {
-    "term": "Potasio (K+)",
+    "term": "Potasio (K⁺)",
     "aliases": [
-      "k",
-      "k+",
       "potasio",
+      "k+",
       "potasio sérico",
-      "electrolito",
-      "k sérico"
+      "electrolito potasio",
+      "nivel de potasio"
     ],
-    "summary": "Rango normal: 3.5–5.0 mEq/L. Es el principal catión intracelular y es esencial para el ritmo cardíaco y la función muscular.",
+    "summary": "El potasio es el principal catión intracelular y regula la función nerviosa, muscular y el ritmo cardíaco. Se mide en suero y sus valores deben mantenerse dentro de un rango estrecho.",
     "key_points": [
-      "Hipocalemia < 3.5 mEq/L; hiperpotasemia > 5.0 mEq/L",
-      "Niveles bajos o altos pueden provocar arritmias graves",
-      "Disminuye con diuréticos de asa e insulina; aumenta con inhibidores de la ECA, insuficiencia renal y suplementos de potasio",
-      "Los rangos de referencia pueden variar ligeramente entre laboratorios"
+      "Normal sérico: 3.5‑5.0 mEq/L (varía ligeramente entre laboratorios).",
+      "Hiperkalemia puede producir arritmias graves y debilidad muscular.",
+      "Hipokalemia se asocia a arritmias, calambres y fatiga.",
+      "Los riñones y los diuréticos son los principales reguladores del potasio."
     ],
     "sections": {
+      "normal_values": [
+        "Serum: 3.5 – 5.0 mEq/L (adultos).",
+        "Intracelular: ≈140 mEq/L (no se mide rutinariamente).",
+        "Rangos pueden variar ligeramente según el laboratorio."
+      ],
+      "high_values": [
+        "Hiperkalemia: >5.5 mEq/L.",
+        "Causas: insuficiencia renal, IECA/ARA‑II, diuréticos ahorradores de K, acidosis, transfusión masiva.",
+        "Signos: arritmias (p. ej. ondas T picudas), debilidad, parestesias, náuseas."
+      ],
+      "low_values": [
+        "Hipokalemia: <3.5 mEq/L.",
+        "Causas: diuréticos tiazídicos o de asa, vómitos, diarrea, alcalosis metabólica, hiperaldosteronismo.",
+        "Signos: arritmias (extrasístoles, fibrilación ventricular), calambres, fatiga, estreñimiento."
+      ],
+      "specimen": [
+        "Muestra de suero o plasma; tubo rojo (sin anticoagulante) o tubo verde con heparina.",
+        "No requiere ayuno; preferible muestra matutina.",
+        "Evitar hemólisis (torniquete prolongado, transporte brusco).",
+        "Procesar y centrifugar dentro de 1 h para evitar falsos aumentos."
+      ],
       "nursing_care": [
-        "Verificar nivel de potasio antes de administrar digoxina, diuréticos de asa o potasio IV",
-        "Monitorizar ritmo cardíaco y signos de arritmia",
-        "Evaluar fuerza muscular, reflejos y presencia de parestesias",
-        "Educar al paciente sobre alimentos ricos en potasio o restricción según indicación",
-        "Notificar valores críticos al médico"
+        "Monitorear ECG ante valores >5.5 mEq/L o <3.5 mEq/L.",
+        "Evaluar fuerza muscular y presencia de parestesias.",
+        "Revisar medicamentos que alteran K (IECA, ARA‑II, diuréticos ahorradores).",
+        "Educar al paciente sobre alimentos ricos o bajos en potasio según la dirección clínica.",
+        "Reportar valores críticos al médico y preparar intervenciones (gluconato de K, diálisis, restricción de K)."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de diuréticos ahorradores de potasio",
+          "insuficiencia renal crónica",
+          "pérdida gastrointestinal (vómitos/diarrea)",
+          "acidosis o alcalosis metabólica",
+          "medicamentos como IECA/ARA‑II"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: mantener K sérico entre 3.5‑5.0 mEq/L.",
+          "Seguridad cardíaca: ausencia de arritmias en monitor ECG."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar nivel sérico de potasio según orden médica.",
+            "rationale": "Permite detectar desviaciones y guiar el tratamiento."
+          },
+          {
+            "action": "Monitorear ECG continuamente cuando K <3.5 mEq/L o >5.5 mEq/L.",
+            "rationale": "El potasio altera la conducción cardíaca y puede provocar arritmias."
+          },
+          {
+            "action": "Evaluar fuerza muscular y presencia de parestesias cada turno.",
+            "rationale": "Los cambios en K se manifiestan clínicamente en músculos y nervios."
+          },
+          {
+            "action": "Revisar y documentar todos los fármacos que influyen en K y notificar al médico si hay interacciones potenciales.",
+            "rationale": "Medicamentos como IECA, ARA‑II o diuréticos pueden causar alteraciones de K."
+          },
+          {
+            "action": "Educar al paciente sobre la dieta adecuada de potasio (ej.: limitar plátanos, papas si hay hiperkalemia; incluir verduras de hoja verde si hay hipokalemia).",
+            "rationale": "La ingesta dietética es una fuente importante para corregir desequilibrios."
+          }
+        ]
+      }
+    ]
   },
   "en": {
-    "term": "Potassium (K+)",
+    "term": "Potassium (K⁺)",
     "aliases": [
-      "k",
+      "potassium",
       "k+",
       "serum potassium",
-      "electrolyte"
+      "potassium electrolyte",
+      "potassium level"
     ],
-    "summary": "Normal: about 3.5–5.0 mEq/L. Key electrolyte for heart rhythm and muscle function.",
+    "summary": "Potassium is the main intracellular cation and regulates nerve function, muscle activity, and cardiac rhythm. It is measured in serum and its values must be kept within a narrow range.",
     "key_points": [
-      "Below 3.5 = hypokalemia; above 5.0 = hyperkalemia",
-      "Both high and low levels can cause dangerous dysrhythmias",
-      "Lowered by loop diuretics and insulin; raised by ACE inhibitors and kidney failure",
-      "Reference ranges vary slightly by lab"
+      "Normal serum: 3.5‑5.0 mEq/L (slightly varies between labs).",
+      "Hyperkalemia can cause severe arrhythmias and muscle weakness.",
+      "Hypokalemia is associated with arrhythmias, cramps, and fatigue.",
+      "The kidneys and diuretics are the primary regulators of potassium."
     ],
     "sections": {
+      "normal_values": [
+        "Serum: 3.5 – 5.0 mEq/L (adults).",
+        "Intracellular: ≈140 mEq/L (not measured routinely).",
+        "Ranges may vary slightly by laboratory."
+      ],
+      "high_values": [
+        "Hyperkalemia: >5.5 mEq/L.",
+        "Causes: renal failure, ACE inhibitor/ARB, potassium‑sparing diuretics, acidosis, massive transfusion.",
+        "Signs: arrhythmias (e.g., peaked T waves), weakness, paresthesias, nausea."
+      ],
+      "low_values": [
+        "Hypokalemia: <3.5 mEq/L.",
+        "Causes: thiazide or loop diuretics, vomiting, diarrhea, metabolic alkalosis, hyperaldosteronism.",
+        "Signs: arrhythmias (extrasystoles, ventricular fibrillation), cramps, fatigue, constipation."
+      ],
+      "specimen": [
+        "Serum or plasma sample; red‑top tube (no anticoagulant) or green tube with heparin.",
+        "No fasting required; morning sample preferred.",
+        "Avoid hemolysis (prolonged tourniquet, rough transport).",
+        "Process and centrifuge within 1 h to prevent false elevations."
+      ],
       "nursing_care": [
-        "Check before giving digoxin, diuretics or IV potassium",
-        "Report abnormal values and monitor cardiac rhythm"
+        "Monitor ECG when values >5.5 mEq/L or <3.5 mEq/L.",
+        "Assess muscle strength and presence of paresthesias.",
+        "Review medications that alter K (ACE inhibitors, ARBs, potassium‑sparing diuretics).",
+        "Educate patient on potassium‑rich or potassium‑restricted foods according to clinical direction.",
+        "Report critical values to the physician and prepare interventions (K gluconate, dialysis, K restriction)."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "use of potassium‑sparing diuretics",
+          "chronic renal failure",
+          "gastrointestinal loss (vomiting/diarrhea)",
+          "metabolic acidosis or alkalosis",
+          "medications such as ACE inhibitors/ARBs"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: maintain serum K between 3.5‑5.0 mEq/L.",
+          "Cardiac safety: absence of arrhythmias on ECG monitor."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum potassium level as ordered.",
+            "rationale": "Allows detection of deviations and guides treatment."
+          },
+          {
+            "action": "Continuously monitor ECG when K <3.5 mEq/L or >5.5 mEq/L.",
+            "rationale": "Potassium affects cardiac conduction and can cause arrhythmias."
+          },
+          {
+            "action": "Assess muscle strength and presence of paresthesias each shift.",
+            "rationale": "Changes in K manifest clinically in muscles and nerves."
+          },
+          {
+            "action": "Review and document all medications influencing K and notify the physician of potential interactions.",
+            "rationale": "Drugs such as ACE inhibitors, ARBs, or diuretics can cause K alterations."
+          },
+          {
+            "action": "Educate the patient on appropriate potassium diet (e.g., limit bananas, potatoes if hyperkalemic; include leafy greens if hypokalemic).",
+            "rationale": "Dietary intake is a major source for correcting imbalances."
+          }
+        ]
+      }
+    ]
   },
   "related": [
+    "hyperkalemia",
     "hypokalemia",
-    "furosemide",
-    "digoxin",
-    "lisinopril"
+    "renal-failure",
+    "diuretics",
+    "acid-base-balance"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "MedlinePlus: Potassium",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/potassium.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Potasio en la dieta",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/potassium.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Potassium-Sparing Diuretics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/34-4-potassium-sparing-diuretics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/5-2-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"

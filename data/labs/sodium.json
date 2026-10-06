@@ -2,56 +2,216 @@
   "id": "sodium",
   "category": "labs",
   "es": {
-    "term": "Sodio (Na+)",
+    "term": "Sodio (Na⁺)",
     "aliases": [
+      "sodio",
       "na",
-      "na+",
-      "sodio sérico",
       "electrolito",
-      "sodio"
+      "niveles de sodio",
+      "sodio sangre",
+      "sodio serum"
     ],
-    "summary": "Rango normal: aproximadamente 135–145 mEq/L. Regula el equilibrio de líquidos y la función nerviosa.",
+    "summary": "El sodio es el principal catión del líquido extracelular y regula el equilibrio hídrico y la transmisión nerviosa.",
     "key_points": [
-      "< 135 mEq/L = hiponatremia; > 145 mEq/L = hipernatremia",
-      "Los desequilibrios de sodio se manifiestan principalmente con alteraciones neurológicas: confusión, convulsiones",
-      "Los rangos de referencia pueden variar ligeramente entre laboratorios"
+      "Rango normal adulto: 135‑145 mEq/L (puede variar ligeramente entre laboratorios).",
+      "Hipernatremia: aumento de Na⁺ por pérdida de agua o ingesta excesiva; causa deshidratación celular y alteraciones neurológicas.",
+      "Hiponatremia: disminución de Na⁺ por exceso de agua o pérdida de sodio; puede producir edema cerebral y convulsiones.",
+      "Los riñones y la hormona antidiurética (ADH) son los principales reguladores del sodio.",
+      "Intervenciones de enfermería incluyen monitoreo neurológico, balance hídrico y educación dietética."
     ],
     "sections": {
+      "normal_values": [
+        "135‑145 mEq/L en suero/plasma (rango de referencia del laboratorio)."
+      ],
+      "high_values": [
+        "Hipernatremia: causas – ingesta excesiva de sal, pérdida de agua (poliuria, fiebre, quemaduras), diabetes insípida, uso de diuréticos osmóticos.",
+        "Signos – sed intensa, mucosas secas, piel turgencia disminuida, confusión, temblores, posible hipertensión."
+      ],
+      "low_values": [
+        "Hiponatremia: causas – ingesta excesiva de agua, síndrome de secreción inapropiada de ADH, diuréticos tiazídicos, vómitos/diarrea prolongados.",
+        "Signos – náuseas, cefalea, somnolencia, debilidad, edema cerebral, convulsiones en casos graves."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa, suero o plasma; tubo rojo (sin anticoagulante) o verde (heparina).",
+        "No requiere ayuno; se puede recoger en cualquier momento del día.",
+        "Procesar dentro de 2 h; evitar hemólisis y exposición a temperaturas extremas."
+      ],
       "nursing_care": [
-        "Evaluar estado neurológico y balance de líquidos",
-        "Controlar ingesta y eliminación de líquidos",
-        "Monitorear signos de edema o deshidratación",
-        "Implementar precauciones contra convulsiones en casos graves"
+        "Monitorear signos neurológicos (nivel de conciencia, pupilas) ante valores anormales.",
+        "Registrar ingesta y eliminación; pesar al paciente diariamente.",
+        "Evaluar piel y mucosas para detectar deshidratación o edema.",
+        "Revisar medicamentos que alteren Na⁺ (diuréticos, antihipertensivos, suplementos).",
+        "Educar al paciente sobre dieta baja en sodio (<2.3 g/día) y lectura de etiquetas.",
+        "Notificar al médico cambios críticos (>150 mEq/L o <125 mEq/L)."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "ingesta alta de sodio",
+          "insuficiencia renal",
+          "uso de diuréticos",
+          "pérdida de líquidos por vómitos o diarrea",
+          "síndrome de secreción inapropiada de ADH"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: mantener Na⁺ entre 135‑145 mEq/L durante la estancia hospitalaria.",
+          "Integridad de la piel: ausencia de signos de deshidratación o edema."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar diariamente el balance hídrico y el peso corporal.",
+            "rationale": "Permite detectar tendencias de retención o pérdida de líquidos que afectan el sodio."
+          },
+          {
+            "action": "Monitorear signos neurológicos cada 4 horas y ante cualquier cambio.",
+            "rationale": "Alteraciones de Na⁺ pueden producir edema cerebral y cambios en el nivel de conciencia."
+          },
+          {
+            "action": "Revisar la medicación del paciente en busca de fármacos que alteren el sodio (diuréticos, ACE‑I).",
+            "rationale": "Los fármacos pueden ser la causa subyacente del desequilibrio electrolítico."
+          },
+          {
+            "action": "Educar al paciente y familia sobre una dieta baja en sodio y la lectura de etiquetas de alimentos.",
+            "rationale": "Reducir la ingesta de sodio ayuda a prevenir hipernatremia y controla la presión arterial."
+          },
+          {
+            "action": "Notificar al médico inmediatamente si Na⁺ <125 mEq/L o >150 mEq/L o si aparecen síntomas neurológicos.",
+            "rationale": "Valores críticos requieren intervención médica urgente para evitar complicaciones graves."
+          }
+        ]
+      }
+    ]
   },
   "en": {
-    "term": "Sodium (Na+)",
+    "term": "Sodium (Na⁺)",
     "aliases": [
+      "sodium",
       "na",
-      "na+",
-      "serum sodium",
-      "electrolyte"
+      "electrolyte",
+      "sodium levels",
+      "blood sodium",
+      "serum sodium"
     ],
-    "summary": "Normal: about 135–145 mEq/L. Controls fluid balance and nerve function.",
+    "summary": "Sodium is the main cation of the extracellular fluid and regulates water balance and nerve transmission.",
     "key_points": [
-      "Below 135 = hyponatremia; above 145 = hypernatremia",
-      "Abnormal sodium mainly shows up as neuro changes: confusion, seizures",
-      "Reference ranges vary slightly by lab"
+      "Normal adult range: 135‑145 mEq/L (may vary slightly between laboratories).",
+      "Hypernatremia: increased Na⁺ due to water loss or excessive intake; causes cellular dehydration and neurological disturbances.",
+      "Hyponatremia: decreased Na⁺ due to excess water or sodium loss; can produce cerebral edema and seizures.",
+      "The kidneys and antidiuretic hormone (ADH) are the primary regulators of sodium.",
+      "Nursing interventions include neurological monitoring, fluid balance assessment, and dietary education."
     ],
     "sections": {
+      "normal_values": [
+        "135‑145 mEq/L in serum/plasma (laboratory reference range)."
+      ],
+      "high_values": [
+        "Hypernatremia: causes – excessive salt intake, water loss (polyuria, fever, burns), diabetes insipidus, use of osmotic diuretics.",
+        "Signs – intense thirst, dry mucous membranes, decreased skin turgor, confusion, tremors, possible hypertension."
+      ],
+      "low_values": [
+        "Hyponatremia: causes – excessive water intake, syndrome of inappropriate ADH secretion, thiazide diuretics, prolonged vomiting/diarrhea.",
+        "Signs – nausea, headache, somnolence, weakness, cerebral edema, seizures in severe cases."
+      ],
+      "specimen": [
+        "Venous blood sample, serum or plasma; red-top tube (no anticoagulant) or green-top tube (heparin).",
+        "No fasting required; can be drawn at any time of day.",
+        "Process within 2 h; avoid hemolysis and exposure to extreme temperatures."
+      ],
       "nursing_care": [
-        "Monitor neuro status and fluid balance",
-        "Implement seizure precautions for severe imbalances"
+        "Monitor neurological signs (level of consciousness, pupils) for abnormal values.",
+        "Record intake and output; weigh the patient daily.",
+        "Assess skin and mucous membranes for dehydration or edema.",
+        "Review medications that affect Na⁺ (diuretics, antihypertensives, supplements).",
+        "Educate the patient on a low‑sodium diet (<2.3 g/day) and label reading.",
+        "Notify the physician of critical changes (>150 mEq/L or <125 mEq/L)."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "high sodium intake",
+          "renal insufficiency",
+          "diuretic use",
+          "fluid loss from vomiting or diarrhea",
+          "syndrome of inappropriate ADH secretion"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: maintain Na⁺ between 135‑145 mEq/L throughout hospital stay.",
+          "Skin integrity: absence of signs of dehydration or edema."
+        ],
+        "interventions": [
+          {
+            "action": "Assess and record daily fluid balance and body weight.",
+            "rationale": "Helps detect trends of fluid retention or loss that affect sodium."
+          },
+          {
+            "action": "Monitor neurological signs every 4 hours and with any change.",
+            "rationale": "Na⁺ disturbances can cause cerebral edema and altered consciousness."
+          },
+          {
+            "action": "Review the patient’s medication list for drugs that alter sodium (diuretics, ACE‑I).",
+            "rationale": "Medications may be the underlying cause of electrolyte imbalance."
+          },
+          {
+            "action": "Educate the patient and family on a low‑sodium diet and food label reading.",
+            "rationale": "Reducing sodium intake helps prevent hypernatremia and controls blood pressure."
+          },
+          {
+            "action": "Notify the physician immediately if Na⁺ <125 mEq/L or >150 mEq/L or if neurological symptoms develop.",
+            "rationale": "Critical values require urgent medical intervention to avoid serious complications."
+          }
+        ]
+      }
+    ]
   },
   "related": [
-    "furosemide"
+    "hyponatremia",
+    "hypernatremia",
+    "fluid-balance",
+    "electrolyte-imbalance",
+    "sodium-potassium-pump"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "MedlinePlus: Sodium",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/sodium.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Sodio en la dieta",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/sodium.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Electrolyte Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"

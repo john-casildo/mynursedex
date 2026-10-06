@@ -35,11 +35,43 @@ function checkLocalized(t: Localized | undefined, lang: string, category: string
   }
 }
 
+const nandaEn = new Set(NANDA.map((d) => norm(d.en)));
+
+// Checks one entry. Used by `validate` and by the ETL before it saves anything.
+export function checkEntry(e: Concept, category: string, fileId: string): { errors: string[]; warnings: string[] } {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+  const err = (m: string) => errors.push(m);
+  if (e.id !== fileId) err(`id "${e.id}" doesn't match the file name`);
+  if (e.category !== category) err(`category "${e.category}" doesn't match the folder "${category}"`);
+  if (typeof e.verified !== "boolean") err(`"verified" must be true or false`);
+  if (!Array.isArray(e.sources)) err(`"sources" must be a list`);
+  else {
+    for (const s of e.sources) {
+      if (!s.name || !/^https:\/\//.test(s.url ?? "")) err(`source "${s.name}" needs a name and an https link`);
+    }
+    if (e.sources.length === 0) warnings.push("no sources (AI knowledge only)");
+  }
+  checkLocalized(e.es, "es", category, err);
+  checkLocalized(e.en, "en", category, err);
+
+  // Care plans: diagnoses must be on the NANDA list, and both languages must line up.
+  for (const p of e.es?.care_plans ?? []) {
+    if (!nandaByEs.has(norm(p.diagnosis))) err(`es diagnosis "${p.diagnosis}" isn't in data/nanda.json`);
+  }
+  for (const p of e.en?.care_plans ?? []) {
+    if (!nandaEn.has(norm(p.diagnosis))) err(`en diagnosis "${p.diagnosis}" isn't in data/nanda.json`);
+  }
+  if ((e.es?.care_plans?.length ?? 0) !== (e.en?.care_plans?.length ?? 0)) {
+    warnings.push("Spanish and English have a different number of care plans");
+  }
+  return { errors, warnings };
+}
+
 export async function validate(): Promise<{ errors: Problem[]; warnings: Problem[]; count: number }> {
   const errors: Problem[] = [];
   const warnings: Problem[] = [];
   const entries: { file: string; e: Concept }[] = [];
-  const nandaEn = new Set(NANDA.map((d) => norm(d.en)));
 
   for (const category of CATEGORIES) {
     let files: string[] = [];
@@ -50,35 +82,14 @@ export async function validate(): Promise<{ errors: Problem[]; warnings: Problem
     }
     for (const f of files) {
       const file = `data/${category}/${f}`;
-      const err = (message: string) => errors.push({ file, message });
       const e = await readJson<Concept>(new URL(`${category}/${f}`, DATA_DIR));
       if (!e) {
-        err("isn't valid JSON");
+        errors.push({ file, message: "isn't valid JSON" });
         continue;
       }
-      if (e.id !== f.replace(/\.json$/, "")) err(`id "${e.id}" doesn't match the file name`);
-      if (e.category !== category) err(`category "${e.category}" doesn't match the folder "${category}"`);
-      if (typeof e.verified !== "boolean") err(`"verified" must be true or false`);
-      if (!Array.isArray(e.sources)) err(`"sources" must be a list`);
-      else {
-        for (const s of e.sources) {
-          if (!s.name || !/^https:\/\//.test(s.url ?? "")) err(`source "${s.name}" needs a name and an https link`);
-        }
-        if (e.sources.length === 0) warnings.push({ file, message: "no sources (AI knowledge only)" });
-      }
-      checkLocalized(e.es, "es", category, err);
-      checkLocalized(e.en, "en", category, err);
-
-      // Care plans: Spanish diagnoses must be on the NANDA list, and both languages must line up.
-      for (const p of e.es?.care_plans ?? []) {
-        if (!nandaByEs.has(norm(p.diagnosis))) err(`es diagnosis "${p.diagnosis}" isn't in data/nanda.json`);
-      }
-      for (const p of e.en?.care_plans ?? []) {
-        if (!nandaEn.has(norm(p.diagnosis))) err(`en diagnosis "${p.diagnosis}" isn't in data/nanda.json`);
-      }
-      if ((e.es?.care_plans?.length ?? 0) !== (e.en?.care_plans?.length ?? 0)) {
-        warnings.push({ file, message: "Spanish and English have a different number of care plans" });
-      }
+      const result = checkEntry(e, category, f.replace(/\.json$/, ""));
+      errors.push(...result.errors.map((message) => ({ file, message })));
+      warnings.push(...result.warnings.map((message) => ({ file, message })));
       entries.push({ file, e });
     }
   }

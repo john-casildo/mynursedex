@@ -2,54 +2,177 @@
   "id": "aptt",
   "category": "labs",
   "es": {
-    "term": "Tiempo de tromboplastina parcial activado (TTPa)",
+    "term": "Tiempo de tromboplastina parcial activado (aPTT)",
     "aliases": [
-      "ttpa",
-      "aptt",
-      "tiempo tromboplastina parcial",
-      "coag",
-      "tpa"
+      "apt",
+      "tiempo de tromboplastina parcial activado",
+      "tiempo parcial activado",
+      "apt laboratorio",
+      "tiempo de tromboplastina"
     ],
-    "summary": "Prueba de coagulación usada para monitorear la heparina IV. En pacientes con heparina, el objetivo suele ser aproximadamente 1.5–2.5 veces el valor de control (rango normal: 30–40 segundos).",
+    "summary": "Prueba de laboratorio que evalúa la vía intrínseca y común de la coagulación; se usa para detectar trastornos hemorrágicos y monitorizar heparina.",
     "key_points": [
-      "Rango normal: 30–40 segundos, varía según el laboratorio",
-      "Objetivo terapéutico con heparina: 1.5–2.5 veces el valor de control",
-      "El ajuste de la dosis de heparina se basa en los resultados del TTPa y el protocolo institucional"
+      "Mide la vía intrínseca y la vía común del sistema de coagulación.",
+      "Valor normal adulto: 25‑35 segundos, aunque varía según el reactivo del laboratorio.",
+      "Se prolonga con heparina, deficiencias de factores VIII, IX, XI, XII o lupus anticoagulante.",
+      "Se acorta en estados hipercoagulables o consumo de factores.",
+      "Indicada para controlar la terapia con heparina no fraccionada."
     ],
     "sections": {
+      "normal_values": [
+        "25‑35 segundos (rango depende del laboratorio)."
+      ],
+      "high_values": [
+        "Prolongado → riesgo de sangrado; causas: heparina, deficiencia de factores VIII, IX, XI, XII, lupus anticoagulante, enfermedad hepática.",
+        "Signos: hematomas extensos, epistaxis, sangrado gingival, hematuria."
+      ],
+      "low_values": [
+        "Corto → posible estado hipercoagulable; causas: deficiencia de antitrombina, uso de anticoagulantes directos, sepsis, embarazo.",
+        "Signos: trombosis venosa profunda, embolia pulmonar, eventos isquémicos."
+      ],
+      "specimen": [
+        "Tubo azul con citrato 3.2 % (1 parte citrato/9 partes sangre).",
+        "Muestra de sangre venosa; no requiere ayuno.",
+        "Procesar dentro de 2 h; evitar hemólisis y exposición a calor.",
+        "Mezclar suavemente para evitar activación precoz."
+      ],
       "nursing_care": [
-        "Obtener la muestra en los tiempos especificados por el protocolo de heparina",
-        "Evaluar signos de sangrado y hemorragia al observar valores elevados de TTPa",
-        "Mantener disponible protamina para reversión de heparina según indicación",
-        "Documentar y comunicar los resultados del TTPa al médico y al equipo de cuidados"
+        "Verificar orden de heparina y ajustar dosis según aPTT.",
+        "Notificar al médico si aPTT > 1.5 × valor de control.",
+        "Observar signos de sangrado en cada turno.",
+        "Educar al paciente sobre evitar traumatismos y reportar cualquier sangrado.",
+        "Registrar resultados, hora de extracción y cualquier intervención."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "Terapia con heparina",
+          "Enfermedad hepática",
+          "Deficiencia de factores de coagulación",
+          "Uso de anticoagulantes orales"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasia: ausencia de sangrado observable en 24 h",
+          "Seguridad del paciente: mantener aPTT dentro del rango terapéutico (1‑1.5 × control)"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener muestra de sangre en tubo azul citrato y enviarla al laboratorio dentro de 2 h",
+            "rationale": "El citrato previene la coagulación ex vivo y garantiza resultados precisos."
+          },
+          {
+            "action": "Revisar y registrar el valor de aPTT cada 6‑8 h según orden médica",
+            "rationale": "El monitoreo frecuente permite detectar desviaciones tempranas."
+          },
+          {
+            "action": "Comparar el resultado con el rango terapéutico y notificar al médico si supera 1.5 veces el control",
+            "rationale": "Previene complicaciones hemorrágicas al ajustar la dosis de heparina."
+          },
+          {
+            "action": "Evaluar signos de sangrado (hematomas, epistaxis, hematuria) en cada turno",
+            "rationale": "Identificar hemorragia precozmente mejora la intervención."
+          },
+          {
+            "action": "Educar al paciente sobre evitar actividades que puedan causar traumatismo y reportar cualquier sangrado",
+            "rationale": "Reduce el riesgo de lesiones y permite intervención temprana."
+          }
+        ]
+      }
+    ]
   },
   "en": {
-    "term": "aPTT (Activated Partial Thromboplastin Time)",
+    "term": "Activated partial thromboplastin time (aPTT)",
     "aliases": [
-      "ptt",
       "aptt",
-      "partial thromboplastin time",
-      "coag"
+      "activated partial thromboplastin time",
+      "partial activated time",
+      "aptt lab",
+      "thromboplastin time"
     ],
-    "summary": "Clotting test used to monitor IV heparin. On heparin, the goal is usually about 1.5–2.5 times the control value.",
+    "summary": "Laboratory test that evaluates the intrinsic and common pathways of coagulation; used to detect hemorrhagic disorders and to monitor heparin therapy.",
     "key_points": [
-      "Normal range varies by lab (roughly 30–40 seconds)",
-      "The heparin drip rate is adjusted according to aPTT results and a protocol"
+      "Measures the intrinsic and common pathways of the coagulation system.",
+      "Normal adult value: 25‑35 seconds, although it varies by laboratory reagent.",
+      "Prolonged with heparin, deficiencies of factors VIII, IX, XI, XII, or lupus anticoagulant.",
+      "Shortened in hypercoagulable states or factor consumption.",
+      "Indicated for monitoring unfractionated heparin therapy."
     ],
     "sections": {
+      "normal_values": [
+        "25‑35 seconds (range depends on laboratory)."
+      ],
+      "high_values": [
+        "Prolonged → bleeding risk; causes: heparin, deficiencies of factors VIII, IX, XI, XII, lupus anticoagulant, liver disease.",
+        "Signs: extensive bruising, epistaxis, gingival bleeding, hematuria."
+      ],
+      "low_values": [
+        "Shortened → possible hypercoagulable state; causes: antithrombin deficiency, direct anticoagulants, sepsis, pregnancy.",
+        "Signs: deep vein thrombosis, pulmonary embolism, ischemic events."
+      ],
+      "specimen": [
+        "Blue-top tube with 3.2% sodium citrate (1 part citrate to 9 parts blood).",
+        "Venous blood sample; no fasting required.",
+        "Process within 2 h; avoid hemolysis and heat exposure.",
+        "Mix gently to prevent premature activation."
+      ],
       "nursing_care": [
-        "Draw at the times set by the heparin protocol",
-        "Watch for bleeding when the aPTT is high; have protamine available"
+        "Verify heparin order and adjust dose according to aPTT.",
+        "Notify the physician if aPTT > 1.5 × control value.",
+        "Observe for bleeding signs each shift.",
+        "Educate the patient to avoid trauma and report any bleeding.",
+        "Document results, draw time, and any interventions."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "Heparin therapy",
+          "Liver disease",
+          "Coagulation factor deficiencies",
+          "Oral anticoagulant use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasis: absence of observable bleeding within 24 h",
+          "Patient safety: maintain aPTT within therapeutic range (1‑1.5 × control)"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain blood sample in a blue citrate tube and send to the laboratory within 2 h",
+            "rationale": "Citrate prevents ex‑vivo clotting and ensures accurate results."
+          },
+          {
+            "action": "Review and record aPTT value every 6‑8 h as ordered",
+            "rationale": "Frequent monitoring allows early detection of deviations."
+          },
+          {
+            "action": "Compare result to therapeutic range and notify the physician if it exceeds 1.5 times control",
+            "rationale": "Prevents hemorrhagic complications by adjusting heparin dose."
+          },
+          {
+            "action": "Assess for bleeding signs (bruises, epistaxis, hematuria) each shift",
+            "rationale": "Early identification of hemorrhage improves intervention."
+          },
+          {
+            "action": "Educate the patient to avoid activities that may cause trauma and to report any bleeding",
+            "rationale": "Reduces injury risk and enables early intervention."
+          }
+        ]
+      }
+    ]
   },
   "related": [
-    "heparin",
-    "inr"
+    "heparin-therapy",
+    "coagulation-cascade",
+    "bleeding",
+    "thrombosis",
+    "liver-disease"
   ],
   "sources": [],
   "ai_drafted": true,

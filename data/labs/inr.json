@@ -2,60 +2,194 @@
   "id": "inr",
   "category": "labs",
   "es": {
-    "term": "Tiempo de protrombina (TP) / INR",
+    "term": "Tiempo de protrombina (PT) / INR",
     "aliases": [
+      "pt",
       "inr",
-      "tp",
       "tiempo de protrombina",
-      "ratio internacional normalizado",
-      "coag",
-      "prueba de coagulación"
+      "prueba de coagulación",
+      "coagulación"
     ],
-    "summary": "El INR normal es aproximadamente 1,0; el rango objetivo habitual con warfarina es 2–3.",
+    "summary": "El PT mide la vía extrínseca de la coagulación; el INR estandariza el PT para monitorizar anticoagulantes.",
     "key_points": [
-      "Se utiliza para monitorear la terapia con warfarina",
-      "Un INR por encima del rango objetivo incrementa el riesgo de sangrado",
-      "Pacientes con válvulas mecánicas u otras condiciones pueden requerir un objetivo más alto (ej. 2,5–3,5)",
-      "El TP prolongado también indica alteraciones de la vía extrínseca de la coagulación"
+      "PT evalúa factores I, II, V, VII y X del sistema extrínseco.",
+      "INR permite comparar resultados entre laboratorios.",
+      "Rango normal PT: 10‑13 s; INR: 0.8‑1.2.",
+      "Rango terapéutico INR: 2‑3 (varía según indicación).",
+      "INR elevado → mayor riesgo de sangrado; INR bajo → riesgo de trombosis."
     ],
     "sections": {
+      "normal_values": [
+        "PT: 10‑13 segundos (varía por laboratorio).",
+        "INR: 0.8‑1.2 en pacientes sin anticoagulación.",
+        "Rango terapéutico INR: 2‑3 para mayoría de indicaciones."
+      ],
+      "high_values": [
+        "Hipocoagulabilidad (riesgo de sangrado).",
+        "Causas: warfarina, enfermedad hepática, deficiencia de vitamina K, sepsis.",
+        "Signos: hematomas, epistaxis, hematuria, sangrado gastrointestinal."
+      ],
+      "low_values": [
+        "Hiperc coagulación (riesgo de trombosis).",
+        "Causas: insuficiencia hepática aguda, exceso de vitamina K, dosis insuficiente de anticoagulante.",
+        "Signos: dolor torácico, edema unilateral, disnea súbita."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa en tubo de citrato 3.2 %.",
+        "No requiere ayuno; evitar tourniquete prolongado.",
+        "Obtener muestra antes de la dosis diaria de anticoagulante oral.",
+        "Transportar a temperatura ambiente; procesar dentro de 2 h."
+      ],
       "nursing_care": [
-        "Verificar el INR antes de administrar warfarina y notificar resultados fuera de rango",
-        "Evaluar signos de sangrado (hematomas, hematuria, sangrado gingival, etc.) especialmente si el INR está elevado",
-        "Educar al paciente sobre evitar medicamentos que alteren la coagulación (AINEs, antibióticos) y mantener una ingesta constante de vitamina K",
-        "Documentar la hora y la dosis de warfarina y cualquier ajuste basado en el INR"
+        "Monitorear INR según orden médica; registrar valores.",
+        "Retener anticoagulante si INR > rango terapéutico y notificar al médico.",
+        "Evaluar signos de sangrado cada turno (moretones, hematuria).",
+        "Educar al paciente sobre alimentos ricos en vitamina K y su efecto en INR.",
+        "Coordinar ajustes de dosis con el equipo de salud."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "terapia anticoagulante (warfarina)",
+          "enfermedad hepática",
+          "deficiencia de vitamina K",
+          "interacciones medicamentosas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del INR dentro del rango terapéutico en 48 h",
+          "Ausencia de signos de sangrado durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar INR según orden cada 24‑48 h",
+            "rationale": "Permite detectar desviaciones y prevenir complicaciones hemorrágicas."
+          },
+          {
+            "action": "Retener la dosis de anticoagulante si INR supera el rango terapéutico",
+            "rationale": "Reduce el riesgo inmediato de sangrado grave."
+          },
+          {
+            "action": "Evaluar diariamente la presencia de hematomas, epistaxis o sangre en orina",
+            "rationale": "Identifica signos tempranos de hemorragia."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos con alto contenido de vitamina K y su impacto en INR",
+            "rationale": "Mantiene la estabilidad del INR y evita fluctuaciones."
+          },
+          {
+            "action": "Informar al médico cualquier INR fuera del rango y signos de sangrado",
+            "rationale": "Facilita ajustes de dosis oportunos y seguros."
+          }
+        ]
+      }
+    ]
   },
   "en": {
-    "term": "PT / INR",
+    "term": "Prothrombin Time (PT) / INR",
     "aliases": [
-      "inr",
       "pt",
+      "inr",
       "prothrombin time",
-      "international normalized ratio",
-      "coag"
+      "coagulation test",
+      "coagulation"
     ],
-    "summary": "Measures how long blood takes to clot. Normal INR is about 1.0; the usual target on warfarin is 2–3.",
+    "summary": "PT measures the extrinsic pathway of coagulation; INR standardizes PT to monitor anticoagulants.",
     "key_points": [
-      "Used to monitor warfarin",
-      "INR above the target range means higher bleeding risk",
-      "Some patients (e.g., with mechanical heart valves) have a higher target"
+      "PT evaluates factors I, II, V, VII and X of the extrinsic system.",
+      "INR allows comparison of results between laboratories.",
+      "Normal PT range: 10‑13 s; INR: 0.8‑1.2.",
+      "Therapeutic INR range: 2‑3 (varies by indication).",
+      "Elevated INR → higher bleeding risk; low INR → thrombosis risk."
     ],
     "sections": {
+      "normal_values": [
+        "PT: 10‑13 seconds (lab‑dependent).",
+        "INR: 0.8‑1.2 in patients not on anticoagulation.",
+        "Therapeutic INR range: 2‑3 for most indications."
+      ],
+      "high_values": [
+        "Hypocoagulability (bleeding risk).",
+        "Causes: warfarin, liver disease, vitamin K deficiency, sepsis.",
+        "Signs: bruising, epistaxis, hematuria, gastrointestinal bleeding."
+      ],
+      "low_values": [
+        "Hypercoagulability (thrombosis risk).",
+        "Causes: acute liver failure, excess vitamin K, insufficient anticoagulant dose.",
+        "Signs: chest pain, unilateral edema, sudden dyspnea."
+      ],
+      "specimen": [
+        "Venous blood sample in 3.2% citrate tube.",
+        "No fasting required; avoid prolonged tourniquet use.",
+        "Obtain sample before daily oral anticoagulant dose.",
+        "Transport at room temperature; process within 2 h."
+      ],
       "nursing_care": [
-        "Check the INR before giving warfarin and report results out of range",
-        "Assess for bleeding when the INR is high"
+        "Monitor INR as ordered; record values.",
+        "Hold anticoagulant if INR > therapeutic range and notify physician.",
+        "Assess for bleeding signs each shift (bruises, hematuria).",
+        "Educate patient on vitamin K‑rich foods and their effect on INR.",
+        "Coordinate dose adjustments with health‑care team."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "anticoagulant therapy (warfarin)",
+          "liver disease",
+          "vitamin K deficiency",
+          "drug interactions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "INR controlled within therapeutic range within 48 h",
+          "Absence of bleeding signs during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record INR as ordered every 24‑48 h",
+            "rationale": "Detect deviations and prevent hemorrhagic complications."
+          },
+          {
+            "action": "Hold anticoagulant dose if INR exceeds therapeutic range",
+            "rationale": "Reduce immediate risk of severe bleeding."
+          },
+          {
+            "action": "Assess daily for bruises, epistaxis, or blood in urine",
+            "rationale": "Identify early signs of hemorrhage."
+          },
+          {
+            "action": "Educate patient on high‑vitamin K foods and their impact on INR",
+            "rationale": "Maintain INR stability and avoid fluctuations."
+          },
+          {
+            "action": "Notify physician of any out‑of‑range INR and bleeding signs",
+            "rationale": "Facilitate timely and safe dose adjustments."
+          }
+        ]
+      }
+    ]
   },
   "related": [
-    "warfarin",
-    "aptt"
+    "bleeding-disorders",
+    "warfarin-therapy",
+    "coagulation-cascade",
+    "liver-disease",
+    "vitamin-k-deficiency"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "MedlinePlus: Bleeding Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/bleedingdisorders.html",
+      "lang": "en"
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"

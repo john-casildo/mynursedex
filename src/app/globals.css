@@ -6,10 +6,11 @@
   --bg: #eef5fa;
   --card: #ffffff;
   --ink: #1e3a5f;
-  --muted: #5a6f8a;
+  --muted: #546a86;
   --line: #d4e1f0;
   --primary: #3d6fa8;
   --header: #1e3a5f;
+  --screen: #dcedf6;
 }
 
 .dark {
@@ -18,8 +19,9 @@
   --ink: #e6eef8;
   --muted: #9fb3cc;
   --line: #24395a;
-  --primary: #8fa9d6;
+  --primary: #a8c3ea;
   --header: #0b1524;
+  --screen: #1b3350;
 }
 
 @theme inline {
@@ -30,13 +32,14 @@
   --color-line: var(--line);
   --color-primary: var(--primary);
   --color-header: var(--header);
+  --color-screen: var(--screen);
   --color-navy: #1e3a5f;
   --color-scrubs: #3d6fa8;
   --color-ceil: #8fa9d6;
   --color-mask: #a8d8ea;
   --color-mist: #eef5fa;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-body);
+  --font-pixel: var(--font-pixel);
 }
 
 /* Bilingual content: see components/L.tsx */
@@ -45,7 +48,16 @@ html:not([lang="es"]) .lang-es {
   display: none;
 }
 
+/* The ES/EN switch highlights from <html lang> too, so it's right even before React loads. */
+html[lang="es"] [data-lang-btn="es"],
+html:not([lang="es"]) [data-lang-btn="en"] {
+  background: var(--color-mask);
+  color: var(--color-navy);
+}
+
 body {
   background: var(--bg);
   color: var(--ink);
 }
+
+/* Pixel type is only for the logo, titles and headings (20px+); small digits become illegible. */

@@ -2,68 +2,236 @@
   "id": "vital-signs",
   "category": "fundamentals",
   "es": {
-    "term": "Signos vitales (Adulto)",
+    "term": "Signos vitales",
     "aliases": [
       "signos vitales",
-      "sv",
-      "fc",
-      "presión arterial",
-      "respiraciones",
+      "presion arterial",
+      "frecuencia cardiaca",
+      "pulso",
       "temperatura",
-      "spo2"
+      "ritmo respiratorio",
+      "frecuencia respiratoria",
+      "temperatura corporal"
     ],
-    "summary": "Mediciones básicas de la función corporal: temperatura, pulso, respiraciones, presión arterial y saturación de oxígeno.",
+    "summary": "Los signos vitales (presión arterial, frecuencia cardíaca, frecuencia respiratoria y temperatura) reflejan la homeostasis del paciente y sirven como base para la valoración clínica.",
     "key_points": [
-      "Frecuencia cardiaca: 60‑100 latidos/min",
-      "Respiraciones: 12‑20 respiraciones/min",
-      "Presión arterial: normal <120/80 mmHg",
-      "Temperatura: 36.1‑37.2 °C",
-      "SpO₂: 95‑100 % (objetivos menores en pacientes con EPOC)"
+      "Presión arterial normal: 90/60 mmHg a <120/80 mmHg.",
+      "Frecuencia cardíaca adulta: 60‑100 latidos/min, varía con actividad y posición.",
+      "Frecuencia respiratoria normal: 12‑20 respiraciones/min en reposo.",
+      "Temperatura corporal normal: 36.5‑37.5 °C (oral).",
+      "Registrar los valores en el mismo orden y con unidades métricas.",
+      "Comparar con valores basales y notificar desviaciones significativas."
     ],
     "sections": {
+      "purpose": [
+        "Establecer línea base fisiológica del paciente.",
+        "Detectar cambios tempranos de deterioro o mejoría.",
+        "Guiar decisiones de intervención y evaluación continua."
+      ],
+      "procedure": [
+        "Verificar identidad del paciente y posición (sentado o supino).",
+        "Medir presión arterial con esfigmomanómetro y estetoscopio o dispositivo automático.",
+        "Contar pulso radial durante 30 seg y multiplicar por 2 (o 60 seg).",
+        "Contar respiraciones durante 30 seg y multiplicar por 2 (o 60 seg).",
+        "Tomar temperatura con termómetro digital (oral, axilar o timpánico).",
+        "Anotar los valores en el orden: PA, FC, FR, T."
+      ],
+      "safety": [
+        "Usar brazalete del tamaño adecuado para la PA.",
+        "Asegurarse de que el paciente esté en reposo 5 min antes de medir PA.",
+        "No aplicar presión excesiva al estetoscopio para evitar artefactos.",
+        "Desinfectar termómetro entre pacientes según protocolo."
+      ],
       "nursing_care": [
-        "Comparar con la línea base del paciente, no solo con los rangos normales",
-        "Tomar pulso apical durante un minuto completo antes de administrar medicamentos cardiacos",
-        "Reportar valores anormales o tendencias y reevaluar después de las intervenciones"
+        "Evaluar nivel de conciencia y coloración antes y después de la medición.",
+        "Observar signos de dolor, ansiedad o dificultad respiratoria.",
+        "Reportar PA <90/60 mmHg o >140/90 mmHg, FC <50 o >120 lpm, FR <10 o >30 rpm, T >38 °C o <35 °C.",
+        "Informar al médico cualquier tendencia anómala o valores críticos."
+      ],
+      "documentation": [
+        "Registrar fecha, hora y posición del paciente.",
+        "Anotar valores con unidades: mmHg, lpm, rpm, °C.",
+        "Indicar método de medición (manual o automático).",
+        "Incluir observaciones relevantes (p. ej., temblor, dificultad para respirar)."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "hipotensión",
+          "arritmia",
+          "deshidratación",
+          "uso de diuréticos",
+          "dolor agudo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca: mantener presión arterial dentro de 100‑130/60‑80 mmHg en 24 h.",
+          "Frecuencia cardíaca: mantener entre 60‑100 lpm en reposo durante la estancia."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar signos vitales cada 4 h o según indicación médica.",
+            "rationale": "Permite detectar precozmente cambios en la perfusión y activar intervenciones oportunas."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y coloración de piel y mucosas.",
+            "rationale": "Cambios en la perfusión pueden manifestarse como palidez o alteración del estado mental."
+          },
+          {
+            "action": "Alertar al médico si la PA cae <90/60 mmHg o la FC <50 lpm.",
+            "rationale": "Valores críticos indican posible hipoperfusión que requiere intervención inmediata."
+          },
+          {
+            "action": "Mantener hidratación adecuada según ordenes y registrar ingesta y salida.",
+            "rationale": "Previene la hipovolemia, una causa frecuente de disminución de perfusión."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar síntomas como mareos o palpitaciones.",
+            "rationale": "Facilita la detección temprana de deterioro hemodinámico."
+          }
+        ]
+      }
+    ]
   },
   "en": {
-    "term": "Vital Signs (Adult)",
+    "term": "Vital signs",
     "aliases": [
-      "vitals",
-      "vs",
-      "heart rate",
+      "vital signs",
       "blood pressure",
-      "respirations",
+      "heart rate",
+      "pulse",
       "temperature",
-      "spo2",
-      "pulse ox"
+      "respiratory rate",
+      "respiratory frequency",
+      "body temperature"
     ],
-    "summary": "Core measurements of body function: temperature, pulse, respirations, blood pressure and oxygen saturation.",
+    "summary": "Vital signs (blood pressure, heart rate, respiratory rate, and temperature) reflect the patient’s homeostasis and serve as the basis for clinical assessment.",
     "key_points": [
-      "Heart rate: 60–100 bpm",
-      "Respirations: 12–20 breaths/min",
-      "Blood pressure: normal is below 120/80",
-      "Temperature: about 97–99°F (36.1–37.2°C)",
-      "SpO2: 95–100% for most patients (lower targets for some, like COPD)"
+      "Normal blood pressure: 90/60 mmHg to <120/80 mmHg.",
+      "Adult heart rate: 60‑100 beats/min, varies with activity and position.",
+      "Normal respiratory rate: 12‑20 breaths/min at rest.",
+      "Normal body temperature: 36.5‑37.5 °C (oral).",
+      "Record the values in the same order and using metric units.",
+      "Compare with baseline values and report significant deviations."
     ],
     "sections": {
+      "purpose": [
+        "Establish the patient’s physiological baseline.",
+        "Detect early changes of deterioration or improvement.",
+        "Guide intervention decisions and ongoing evaluation."
+      ],
+      "procedure": [
+        "Verify patient identity and position (sitting or supine).",
+        "Measure blood pressure with a sphygmomanometer and stethoscope or an automatic device.",
+        "Count radial pulse for 30 seconds and multiply by 2 (or for 60 seconds).",
+        "Count respirations for 30 seconds and multiply by 2 (or for 60 seconds).",
+        "Take temperature with a digital thermometer (oral, axillary or tympanic).",
+        "Document the values in the order: BP, HR, RR, Temp."
+      ],
+      "safety": [
+        "Use a cuff of appropriate size for blood pressure measurement.",
+        "Ensure the patient rests for 5 minutes before measuring blood pressure.",
+        "Do not apply excessive pressure with the stethoscope to avoid artifacts.",
+        "Disinfect the thermometer between patients according to protocol."
+      ],
       "nursing_care": [
-        "Compare with the patient's baseline, not just the normal range",
-        "Take an apical pulse for a full minute before cardiac meds",
-        "Report abnormal or trending values, and reassess after interventions"
+        "Assess level of consciousness and skin coloration before and after measurement.",
+        "Observe for signs of pain, anxiety or respiratory difficulty.",
+        "Report BP <90/60 mmHg or >140/90 mmHg, HR <50 or >120 bpm, RR <10 or >30 breaths/min, Temp >38 °C or <35 °C.",
+        "Notify the physician of any abnormal trends or critical values."
+      ],
+      "documentation": [
+        "Record date, time and patient position.",
+        "Enter values with units: mmHg, bpm, breaths/min, °C.",
+        "Specify measurement method (manual or automatic).",
+        "Include relevant observations (e.g., tremor, dyspnea)."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypotension",
+          "arrhythmia",
+          "dehydration",
+          "diuretic use",
+          "acute pain"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac tissue perfusion: maintain blood pressure within 100‑130/60‑80 mmHg for 24 hours.",
+          "Heart rate: maintain 60‑100 bpm at rest throughout the stay."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record vital signs every 4 hours or as ordered.",
+            "rationale": "Allows early detection of perfusion changes and timely intervention."
+          },
+          {
+            "action": "Assess level of consciousness and skin/mucous membrane coloration.",
+            "rationale": "Perfusion changes may appear as pallor or altered mental status."
+          },
+          {
+            "action": "Alert the physician if BP falls <90/60 mmHg or HR <50 bpm.",
+            "rationale": "Critical values indicate possible hypoperfusion requiring immediate action."
+          },
+          {
+            "action": "Maintain adequate hydration per orders and record intake and output.",
+            "rationale": "Prevents hypovolemia, a common cause of reduced perfusion."
+          },
+          {
+            "action": "Educate the patient on reporting symptoms such as dizziness or palpitations.",
+            "rationale": "Facilitates early detection of hemodynamic deterioration."
+          }
+        ]
+      }
+    ]
   },
   "related": [
-    "metoprolol",
-    "sepsis",
-    "copd"
+    "hypotension",
+    "cardiac-output",
+    "fluid-balance",
+    "electrolyte-imbalance",
+    "patient-education"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "MedlinePlus: Vital Signs",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/vitalsigns.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Signos vitales",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/vitalsigns.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Vital Signs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/15-3-vital-signs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Teaching Patients to Perform Vital Signs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/7-3-teaching-patients-to-perform-vital-signs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"

@@ -2,57 +2,276 @@
   "id": "sepsis",
   "category": "conditions",
   "es": {
-    "term": "Sepsis",
+    "term": "Sepsis (S)",
     "aliases": [
-      "sepse",
-      "shock séptico",
-      "infección",
-      "sirs",
-      "respuesta inflamatoria sistémica"
+      "sepsis",
+      "infección sistémica",
+      "respuesta inflamatoria",
+      "choque séptico",
+      "sistema inmune hiperactivo"
     ],
-    "summary": "Disfunción orgánica potencialmente mortal causada por la respuesta exagerada del organismo a una infección.",
+    "summary": "Respuesta extrema del organismo a una infección que desencadena inflamación sistémica, disfunción orgánica y riesgo de muerte.",
     "key_points": [
-      "Signos tempranos: fiebre o hipotermia, taquicardia, taquipnea, confusión e hipotensión",
-      "Lactato elevado indica perfusión tisular deficiente",
-      "Shock séptico: hipotensión que persiste pese a la reposición de líquidos y requiere vasopresores"
+      "Sepsis es una emergencia médica que requiere antibióticos en la primera hora.",
+      "Los criterios SIRS + infección sospechada confirman sepsis.",
+      "Lactato >2 mmol/L indica hipoperfusión y mayor mortalidad.",
+      "El manejo incluye reposición voluminosa agresiva y vasopresores si MAP <65 mmHg.",
+      "Complicaciones frecuentes: choque séptico, insuficiencia renal y síndrome de dificultad respiratoria aguda."
     ],
     "sections": {
+      "pathophysiology": [
+        "Infección local libera endotoxinas y exotoxinas.",
+        "Activación masiva de citocinas (IL‑1, TNF‑α) produce tormenta inflamatoria.",
+        "Vasodilatación y aumento de permeabilidad capilar generan hipotensión y edema.",
+        "Coagulación intravascular diseminada y daño microvascular provocan disfunción orgánica."
+      ],
+      "risk_factors": [
+        "Edad >65 años.",
+        "Enfermedades crónicas: diabetes, EPOC, cáncer, insuficiencia renal.",
+        "Inmunosupresión (quimioterapia, VIH).",
+        "Procedimientos invasivos: catéteres, cirugía reciente.",
+        "Embarazo y lactantes menores de 1 año."
+      ],
+      "signs_symptoms": [
+        "Fiebre >38 °C o hipotermia <36 °C.",
+        "Taquicardia >90 lat/min.",
+        "Taquipnea >20 respiraciones/min o PaCO₂ <32 mmHg.",
+        "Confusión, alteración del estado mental.",
+        "Hipotensión arterial (MAP <65 mmHg).",
+        "Oliguria <0.5 mL/kg/h."
+      ],
+      "diagnostics": [
+        "Hemocultivos antes de iniciar antibióticos.",
+        "CBC: leucocitosis >12 000 /µL o <4 000 /µL.",
+        "Lactato sérico >2 mmol/L.",
+        "Procalcitonina y PCR elevadas.",
+        "Gasometría arterial: PaO₂/FiO₂ <300.",
+        "Ecografía o TC para localizar foco infeccioso."
+      ],
+      "treatment": [
+        "Antibiótico de amplio espectro dentro de la primera hora.",
+        "Reposición voluminosa con cristaloides 30 mL/kg en 3 h.",
+        "Vasopresor (norepinefrina) si MAP <65 mmHg tras fluidos.",
+        "Control de la fuente: drenaje, desbridamiento o extracción de catéter.",
+        "Soporte orgánico: ventilación mecánica, terapia renal sustitutiva.",
+        "Corticoides si choque séptico refractario."
+      ],
+      "complications": [
+        "Choque séptico.",
+        "Síndrome de dificultad respiratoria aguda (SDRA).",
+        "Insuficiencia renal aguda.",
+        "Coagulación intravascular diseminada (CID).",
+        "Falla multiorgánica.",
+        "Muerte."
+      ],
       "nursing_care": [
-        "Identificar precozmente y escalar la atención rápidamente",
-        "Obtener hemocultivos antes de iniciar antibióticos, sin demorar la terapia antibiótica",
-        "Administrar fluidos IV según orden y monitorizar presión arterial, MAP, gasto urinario y estado mental",
-        "Evaluar signos de perfusión (tiempo de llenado capilar, lactato) y reportar cambios",
-        "Educar al paciente y familia sobre signos de alarma y la importancia del seguimiento"
+        "Monitorear signos vitales cada 15 min y MAP.",
+        "Registrar diuresis y balance hídrico cada hora.",
+        "Evaluar estado mental y perfusión periférica (capilar, pulso).",
+        "Administrar antibióticos y fluidos según orden, observar respuesta.",
+        "Mantener vía aérea permeable y aplicar medidas de aislamiento.",
+        "Comunicar cambios críticos al equipo médico inmediatamente."
+      ],
+      "patient_teaching": [
+        "Reconocer signos de infección y buscar atención temprana.",
+        "Importancia de completar el ciclo de antibióticos.",
+        "Higiene de manos y cuidados de catéteres para prevenir reinfección.",
+        "Signos de alarma: fiebre persistente, confusión, disminución de la orina.",
+        "Seguimiento de laboratorio y citas de control."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por diuresis masiva",
+          "administración de diuréticos",
+          "insuficiencia renal",
+          "acidosis láctica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rangos normales (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L).",
+          "Sin signos de arritmia ni alteraciones neuromusculares relacionadas con electrolitos.",
+          "Balance hídrico estable: ingesta y salida equilibradas."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar niveles de electrolitos (Na, K, Cl, Ca) cada 6 h.",
+            "rationale": "Detecta rápidamente desequilibrios y permite intervenciones oportunas."
+          },
+          {
+            "action": "Evaluar el ECG para identificar arritmias relacionadas con alteraciones de K⁺.",
+            "rationale": "Las arritmias pueden ser la primera manifestación clínica de hiperkalemia o hipokalemia."
+          },
+          {
+            "action": "Administrar soluciones intravenosas con electrolitos según prescripción (ej. solución salina al 0.9 % o Ringer lactato).",
+            "rationale": "Corrige déficits o excesos y mantiene la homeostasis iónica."
+          },
+          {
+            "action": "Educar al paciente sobre signos de desequilibrio electrolítico (palpitaciones, debilidad muscular, calambres).",
+            "rationale": "Facilita la detección precoz y la búsqueda de atención médica."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos para evaluar el balance hídrico.",
+            "rationale": "Ayuda a prevenir tanto la hipovolemia como la sobrecarga que alteran los electrolitos."
+          }
+        ]
+      }
+    ]
   },
   "en": {
-    "term": "Sepsis",
+    "term": "Sepsis (SEP)",
     "aliases": [
+      "sepsis",
+      "systemic infection",
+      "inflammatory response",
       "septic shock",
-      "infection",
-      "sirs"
+      "hyperactive immune system"
     ],
-    "summary": "Life-threatening organ dysfunction caused by the body's extreme response to an infection.",
+    "summary": "Extreme response of the body to an infection that triggers systemic inflammation, organ dysfunction, and risk of death.",
     "key_points": [
-      "Early signs: fever or low temperature, tachycardia, tachypnea, confusion, hypotension",
-      "Elevated lactate is a marker of poor tissue perfusion",
-      "Septic shock: hypotension that persists despite fluids and needs vasopressors"
+      "Sepsis is a medical emergency that requires antibiotics within the first hour.",
+      "SIRS criteria plus suspected infection confirm sepsis.",
+      "Lactate >2 mmol/L indicates hypoperfusion and higher mortality.",
+      "Management includes aggressive fluid resuscitation and vasopressors if MAP <65 mmHg.",
+      "Frequent complications: septic shock, acute kidney injury, and acute respiratory distress syndrome."
     ],
     "sections": {
+      "pathophysiology": [
+        "Local infection releases endotoxins and exotoxins.",
+        "Massive cytokine activation (IL‑1, TNF‑α) produces an inflammatory storm.",
+        "Vasodilation and increased capillary permeability cause hypotension and edema.",
+        "Disseminated intravascular coagulation and microvascular injury lead to organ dysfunction."
+      ],
+      "risk_factors": [
+        "Age >65 years.",
+        "Chronic diseases: diabetes, COPD, cancer, renal failure.",
+        "Immunosuppression (chemotherapy, HIV).",
+        "Invasive procedures: catheters, recent surgery.",
+        "Pregnancy and infants <1 year."
+      ],
+      "signs_symptoms": [
+        "Fever >38 °C (100.4 °F) or hypothermia <36 °C (96.8 °F).",
+        "Heart rate >90 beats/min.",
+        "Respiratory rate >20 breaths/min or PaCO₂ <32 mmHg.",
+        "Confusion or altered mental status.",
+        "Arterial pressure low (MAP <65 mmHg).",
+        "Oliguria <0.5 mL/kg/h."
+      ],
+      "diagnostics": [
+        "Blood cultures before starting antibiotics.",
+        "CBC: leukocytosis >12,000/µL or <4,000/µL.",
+        "Serum lactate >2 mmol/L.",
+        "Elevated procalcitonin and CRP.",
+        "Arterial blood gas: PaO₂/FiO₂ <300.",
+        "Ultrasound or CT to locate infectious source."
+      ],
+      "treatment": [
+        "Broad‑spectrum antibiotic within the first hour.",
+        "Fluid resuscitation with crystalloids 30 mL/kg over 3 h.",
+        "Vasopressor (norepinephrine) if MAP <65 mmHg after fluids.",
+        "Source control: drainage, debridement, or catheter removal.",
+        "Organ support: mechanical ventilation, renal replacement therapy.",
+        "Corticosteroids if refractory septic shock."
+      ],
+      "complications": [
+        "Septic shock.",
+        "Acute respiratory distress syndrome (ARDS).",
+        "Acute kidney injury.",
+        "Disseminated intravascular coagulation (DIC).",
+        "Multiorgan failure.",
+        "Death."
+      ],
       "nursing_care": [
-        "Recognize it early and escalate quickly",
-        "Draw blood cultures BEFORE starting antibiotics, but don't delay antibiotics",
-        "Give IV fluids as ordered and monitor BP, MAP, urine output and mental status"
+        "Monitor vital signs and MAP every 15 min.",
+        "Record urine output and fluid balance hourly.",
+        "Assess mental status and peripheral perfusion (capillary refill, pulse).",
+        "Administer antibiotics and fluids as ordered, observe response.",
+        "Maintain a patent airway and apply isolation precautions.",
+        "Report critical changes to the medical team immediately."
+      ],
+      "patient_teaching": [
+        "Recognize signs of infection and seek care early.",
+        "Importance of completing the full antibiotic course.",
+        "Hand hygiene and catheter care to prevent reinfection.",
+        "Warning signs: persistent fever, confusion, decreased urine output.",
+        "Follow‑up labs and scheduled appointments."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "fluid loss from massive diuresis",
+          "diuretic therapy",
+          "renal failure",
+          "lactic acidosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal limits (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L).",
+          "No signs of arrhythmia or neuromuscular disturbances related to electrolytes.",
+          "Stable fluid balance: intake and output evenly matched."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record electrolyte levels (Na, K, Cl, Ca) every 6 h.",
+            "rationale": "Detects imbalances promptly and allows timely interventions."
+          },
+          {
+            "action": "Evaluate ECG to identify arrhythmias related to potassium abnormalities.",
+            "rationale": "Arrhythmias may be the first clinical manifestation of hyper‑ or hypokalemia."
+          },
+          {
+            "action": "Administer intravenous electrolyte solutions as prescribed (e.g., 0.9% saline or lactated Ringer's).",
+            "rationale": "Corrects deficits or excesses and maintains ionic homeostasis."
+          },
+          {
+            "action": "Educate the patient on signs of electrolyte imbalance (palpitations, muscle weakness, cramps).",
+            "rationale": "Facilitates early detection and prompt medical attention."
+          },
+          {
+            "action": "Record fluid intake and output to assess fluid balance.",
+            "rationale": "Helps prevent both hypovolemia and overload that can disturb electrolytes."
+          }
+        ]
+      }
+    ]
   },
   "related": [
-    "vital-signs"
+    "septic-shock",
+    "organ-failure",
+    "systemic-inflammatory-response-syndrome",
+    "acute-kidney-injury",
+    "disseminated-intravascular-coagulation"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "MedlinePlus: Sepsis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/sepsis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Sepsis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/sepsis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Septic Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-3-septic-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"

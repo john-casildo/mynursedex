@@ -3,29 +3,31 @@ import L from "./L";
 import { CATEGORY_STYLES, formatNumber } from "@/lib/categories";
 import type { SearchItem } from "@/lib/types";
 
+// One dex entry in a list: number, term, category and the first line of the summary.
 export default function DexCard({ entry }: { entry: SearchItem }) {
   const cat = CATEGORY_STYLES[entry.category];
   return (
     <Link
       href={`/concept/${entry.id}`}
-      className="block rounded-2xl border-2 border-line bg-card p-4 transition hover:border-ceil hover:shadow-md focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-mask"
+      className="group grid grid-cols-[3.25rem_1fr] gap-x-3 rounded px-3 py-3.5 transition-colors hover:bg-card focus-visible:bg-card focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-scrubs"
     >
-      <div className="mb-1.5 flex items-center justify-between">
-        <span className="font-mono text-xs text-muted">
-          {formatNumber(entry.number)}
+      <span className="pt-0.5 text-sm font-bold tabular-nums text-muted group-hover:text-primary">
+        {formatNumber(entry.number)}
+      </span>
+      <span className="min-w-0">
+        <span className="flex items-baseline justify-between gap-3">
+          <span className="text-lg font-bold leading-snug">
+            <L en={entry.en.term} es={entry.es.term} />
+          </span>
+          <span className="flex shrink-0 items-center gap-1.5 text-xs text-muted">
+            <span className={`h-2 w-2 ${cat.dot}`} />
+            <L en={cat.short.en} es={cat.short.es} />
+          </span>
         </span>
-        <span
-          className={`rounded-full px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide ${cat.badge}`}
-        >
-          <L en={cat.short.en} es={cat.short.es} />
+        <span className="mt-0.5 line-clamp-2 block text-[15px] leading-relaxed text-muted">
+          <L en={entry.en.summary} es={entry.es.summary} />
         </span>
-      </div>
-      <h2 className="text-lg font-semibold leading-snug">
-        <L en={entry.en.term} es={entry.es.term} />
-      </h2>
-      <p className="mt-1 line-clamp-2 text-sm text-muted">
-        <L en={entry.en.summary} es={entry.es.summary} />
-      </p>
+      </span>
     </Link>
   );
 }

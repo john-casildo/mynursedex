@@ -4,7 +4,9 @@ import { useMemo, useState } from "react";
 import Fuse from "fuse.js";
 import DexCard from "./DexCard";
 import L from "./L";
+import PixelNurse from "./PixelNurse";
 import { CATEGORY_STYLES } from "@/lib/categories";
+import { setCategory, useCategory } from "@/lib/category";
 import { useLang } from "@/lib/lang";
 import { CATEGORIES, type Category, type SearchItem } from "@/lib/types";
 
@@ -14,8 +16,15 @@ const PAGE_SIZE = 50;
 export default function Search({ items }: { items: SearchItem[] }) {
   const lang = useLang();
   const [query, setQuery] = useState("");
-  const [category, setCategory] = useState<Category | "all">("all");
   const [limit, setLimit] = useState(PAGE_SIZE);
+
+  // Shared with the desktop sidebar and kept in the URL (?c=labs).
+  const category = useCategory();
+
+  function selectCategory(next: Category | "all") {
+    setLimit(PAGE_SIZE);
+    setCategory(next);
+  }
 
   // Both languages are always searched, so "potasio" and "potassium" both work.
   // Diagnoses are included so "exceso de volumen de líquidos" finds heart failure.
@@ -42,17 +51,13 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const results = useMemo(() => {
     const q = query.trim();
     const matched = q ? fuse.search(q).map((r) => r.item) : items;
-    return category === "all"
-      ? matched
-      : matched.filter((e) => e.category === category);
+    return category === "all" ? matched : matched.filter((e) => e.category === category);
   }, [query, category, fuse, items]);
 
   return (
-    <div>
-      <label className="relative block">
-        <span className="sr-only">
-          {lang === "es" ? "Buscar conceptos" : "Search concepts"}
-        </span>
+    <div className="max-w-5xl">
+      <label className="relative block max-w-2xl">
+        <span className="sr-only">{lang === "es" ? "Buscar conceptos" : "Search concepts"}</span>
         <svg
           viewBox="0 0 24 24"
           className="pointer-events-none absolute left-4 top-1/2 h-5 w-5 -translate-y-1/2 text-muted"
@@ -72,53 +77,50 @@ export default function Search({ items }: { items: SearchItem[] }) {
             setLimit(PAGE_SIZE);
           }}
           placeholder={
-            lang === "es"
-              ? "Buscar fármaco, patología, laboratorio..."
-              : "Search a drug, condition, lab..."
+            lang === "es" ? "Busque un fármaco, patología, laboratorio…" : "Look up a drug, condition, lab…"
           }
-          className="w-full rounded-2xl border-2 border-line bg-card py-3.5 pl-12 pr-4 text-base shadow-sm placeholder:text-muted focus:border-scrubs focus:outline-none focus:ring-4 focus:ring-mask/50"
+          className="w-full rounded border-2 border-line bg-card py-3.5 pl-12 pr-4 text-lg shadow-[3px_3px_0_var(--line)] placeholder:text-muted focus:border-scrubs focus:shadow-[3px_3px_0_var(--color-scrubs)] focus:outline-none"
         />
       </label>
 
-      <div className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1">
-        {(["all", ...CATEGORIES] as const).map((c) => {
-          const active = c === category;
+      {/* Category chips on phones; desktop uses the sidebar */}
+      <div className="-mx-4 mt-3 flex gap-2 overflow-x-auto px-4 pb-1 lg:hidden">
+        {(["all", ...CATEGORIES] as const).map((id) => {
+          const active = id === category;
           return (
             <button
-              key={c}
-              onClick={() => {
-                setCategory(c);
-                setLimit(PAGE_SIZE);
-              }}
-              className={`shrink-0 rounded-full border-2 px-3.5 py-1.5 text-sm font-medium transition ${
-                active
-                  ? "border-scrubs bg-scrubs text-white"
-                  : "border-line bg-card text-ink hover:border-ceil"
+              key={id}
+              onClick={() => selectCategory(id)}
+              aria-pressed={active}
+              className={`flex shrink-0 items-center gap-1.5 rounded border-2 px-3 py-1.5 text-sm font-semibold ${
+                active ? "border-scrubs bg-scrubs text-white" : "border-line bg-card text-ink"
               }`}
             >
-              {c === "all" ? (
+              {id !== "all" && <span className={`h-2 w-2 ${CATEGORY_STYLES[id].dot}`} />}
+              {id === "all" ? (
                 <L en="All" es="Todo" />
               ) : (
-                <L en={CATEGORY_STYLES[c].short.en} es={CATEGORY_STYLES[c].short.es} />
+                <L en={CATEGORY_STYLES[id].short.en} es={CATEGORY_STYLES[id].short.es} />
               )}
             </button>
           );
         })}
       </div>
 
-      <p className="mb-3 mt-4 text-xs text-muted">
-        {results.length}{" "}
-        <L
-          en={results.length === 1 ? "entry" : "entries"}
-          es={results.length === 1 ? "entrada" : "entradas"}
-        />
-      </p>
+      <h1 className="font-pixel mb-2 mt-8 text-xl text-ink">
+        {category === "all" ? (
+          <L en="All entries" es="Todas las entradas" />
+        ) : (
+          <L en={CATEGORY_STYLES[category].label.en} es={CATEGORY_STYLES[category].label.es} />
+        )}{" "}
+        <span className="text-muted">({results.length})</span>
+      </h1>
 
       {results.length > 0 ? (
         <>
-          <ul className="grid gap-3">
+          <ul className="grid divide-y divide-line border-y border-line xl:grid-cols-2 xl:gap-x-8 xl:divide-y-0 xl:border-0">
             {results.slice(0, limit).map((e) => (
-              <li key={e.id}>
+              <li key={e.id} className="xl:border-b xl:border-line">
                 <DexCard entry={e} />
               </li>
             ))}
@@ -126,19 +128,22 @@ export default function Search({ items }: { items: SearchItem[] }) {
           {results.length > limit && (
             <button
               onClick={() => setLimit(limit + PAGE_SIZE)}
-              className="mt-4 w-full rounded-2xl border-2 border-line bg-card py-3 text-sm font-semibold text-primary hover:border-ceil"
+              className="mt-4 rounded border-2 border-line bg-card px-5 py-2.5 text-sm font-semibold text-primary hover:border-scrubs"
             >
               <L en="Show more" es="Mostrar más" /> ({results.length - limit})
             </button>
           )}
         </>
       ) : (
-        <p className="rounded-2xl border-2 border-dashed border-line p-8 text-center text-muted">
-          <L
-            en={<>No entries match &ldquo;{query}&rdquo; yet.</>}
-            es={<>Todavía no hay resultados para &ldquo;{query}&rdquo;.</>}
-          />
-        </p>
+        <div className="flex max-w-xl items-start gap-4 border-y border-line py-8">
+          <PixelNurse size={48} className="shrink-0" />
+          <p className="leading-relaxed">
+            <L
+              en={<>&ldquo;{query}&rdquo; isn&rsquo;t in NurseDex yet. Check the spelling, or try the English or Spanish name.</>}
+              es={<>&ldquo;{query}&rdquo; aún no está en NurseDex. Revise la ortografía o pruebe el nombre en inglés o en español.</>}
+            />
+          </p>
+        </div>
       )}
     </div>
   );

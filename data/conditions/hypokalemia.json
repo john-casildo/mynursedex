@@ -2,58 +2,326 @@
   "id": "hypokalemia",
   "category": "conditions",
   "es": {
-    "term": "Hipocalemia",
+    "term": "Hipokalemia",
     "aliases": [
+      "hipokalemia",
       "bajo potasio",
-      "hipopotasemia",
-      "k bajo",
       "potasio bajo",
-      "hipocalemia"
+      "deficiencia potasio",
+      "hipopotasemia"
     ],
-    "summary": "El rango normal de potasio sérico en adultos es 3.5‑5.0 mEq/L; la hipocalemia se define como un nivel <3.5 mEq/L y puede afectar músculos y corazón.",
+    "summary": "Disminución del nivel sérico de potasio (<3.5 mEq/L) que afecta la función muscular y cardíaca.",
     "key_points": [
-      "Causas frecuentes: diuréticos de asa o tiazídicos, vómitos, diarrea, succión nasogástrica, terapia con insulina",
-      "Signos: debilidad muscular, calambres en piernas, fatiga, estreñimiento, arritmias (ondas T aplanadas, ondas U)",
-      "Aumenta el riesgo de toxicidad por digoxina"
+      "Nivel sérico <3.5 mEq/L indica hipokalemia.",
+      "Causas principales: diuréticos de asa/tiazídicos, vómitos, diarrea, insulina y betabloqueadores.",
+      "Síntomas: debilidad muscular, fatiga, arritmias y estreñimiento.",
+      "Diagnóstico: electrolitos séricos y ECG (ondas U prominentes, aplanamiento de la onda T).",
+      "Tratamiento: reposición de K (oral o IV) y corrección de la causa subyacente."
     ],
     "sections": {
+      "pathophysiology": [
+        "Pérdida excesiva de K⁺ por riñón o tracto gastrointestinal.",
+        "Movilización intracelular de K⁺ por insulina o catecolaminas.",
+        "Disminución del gradiente electroquímico que afecta la repolarización cardíaca."
+      ],
+      "risk_factors": [
+        "Uso de diuréticos de asa (furosemida) o tiazídicos (hidroclorotiazida).",
+        "Vómitos, diarrea o succión gástrica prolongada.",
+        "Administración de insulina o agonistas β2 (albuterol).",
+        "Enfermedad renal crónica con pérdida de K⁺."
+      ],
+      "signs_symptoms": [
+        "Debilidad muscular y calambres, especialmente en extremidades.",
+        "Fatiga, intolerancia a la actividad.",
+        "Arritmias: extrasístoles, taquicardia ventricular.",
+        "Estreñimiento y paralisis intestinal en casos graves."
+      ],
+      "diagnostics": [
+        "Electrolitos séricos: K⁺ <3.5 mEq/L (rango normal 3.5‑5.0 mEq/L).",
+        "ECG: ondas U prominentes, aplanamiento de la onda T, ST deprimido.",
+        "Evaluar función renal (creatinina, BUN) y glucemia."
+      ],
+      "treatment": [
+        "Reposición oral de cloruro de potasio (KCl) cuando K⁺ 3.0‑3.5 mEq/L.",
+        "Reposición IV de KCl (dilución 10 mEq/100 mL) si K⁺ <2.5 mEq/L o arritmia.",
+        "Suspender o reducir diuréticos que causan pérdida de K⁺.",
+        "Administrar bicarbonato de sodio si hay acidosis metabólica concomitante."
+      ],
+      "complications": [
+        "Arritmias ventriculares que pueden llevar a paro cardíaco.",
+        "Parálisis muscular severa y rabdomiólisis.",
+        "Ileus o estreñimiento grave.",
+        "Hipotensión secundaria a pérdida de volumen."
+      ],
       "nursing_care": [
-        "El potasio IV nunca se administra en bolo; debe diluirse y infundirse por bomba a velocidad segura",
-        "Monitorear el ritmo cardíaco y repetir niveles de K⁺",
-        "El K⁺ oral puede irritar el tracto gastrointestinal; administrarlo con alimentos y líquidos",
-        "Enseñar alimentos ricos en potasio (plátanos, papas, naranjas, espinaca)"
+        "Monitorear ECG continuamente al iniciar reposición IV de K⁺.",
+        "Controlar I/O y peso diario; registrar pérdidas gastrointestinales.",
+        "Evaluar fuerza muscular y nivel de fatiga cada turno.",
+        "Verificar niveles séricos de K⁺ cada 4‑6 h durante reposición agresiva."
+      ],
+      "patient_teaching": [
+        "Incluir alimentos ricos en K⁺: plátanos, papas, espinaca, aguacate.",
+        "Evitar el uso excesivo de diuréticos sin indicación médica.",
+        "Reportar síntomas de palpitaciones, debilidad o calambres inmediatamente.",
+        "Tomar suplementos de K⁺ solo bajo prescripción y seguir horarios."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "diuréticos de asa",
+          "vómitos prolongados",
+          "diarrea",
+          "insulina",
+          "agonistas β2"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Nivel de potasio sérico dentro del rango normal (3.5‑5.0 mEq/L) al alta.",
+          "Sin evidencia de arritmias en monitor ECG durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar historial de uso de diuréticos y pérdidas gastrointestinales",
+            "rationale": "Identifica la causa del desequilibrio de K⁺."
+          },
+          {
+            "action": "Monitorear ECG y signos vitales cada 2 h mientras se corrige K⁺",
+            "rationale": "Detecta arritmias tempranas."
+          },
+          {
+            "action": "Obtener y registrar niveles séricos de K⁺ cada 4‑6 h",
+            "rationale": "Guía la velocidad y vía de reposición."
+          },
+          {
+            "action": "Administrar KCl oral o IV según orden médica, verificando dilución y velocidad",
+            "rationale": "Restablece el equilibrio electrolítico de forma segura."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y evitar diuréticos sin prescripción",
+            "rationale": "Previene recurrencia del desequilibrio."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "hipokalemia"
+        ],
+        "evidenced_by": [
+          "debilidad muscular",
+          "fatiga al realizar actividades cotidianas",
+          "disminución de la fuerza de agarre"
+        ],
+        "outcomes": [
+          "Capacidad para caminar 50 m sin presentar fatiga al alta.",
+          "Fuerza muscular de 4/5 en extremidades superiores e inferiores al alta."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar fuerza muscular y nivel de fatiga usando escala de Borg cada turno",
+            "rationale": "Establece línea base y monitorea mejoría."
+          },
+          {
+            "action": "Planificar actividades de ADL con descansos programados",
+            "rationale": "Previene agotamiento y facilita la tolerancia."
+          },
+          {
+            "action": "Promover reposición adecuada de K⁺ y rehidratación",
+            "rationale": "Mejora la función muscular y reduce la fatiga."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse al vestirse, usar apoyos)",
+            "rationale": "Facilita la realización de ADL mientras se corrige el desequilibrio."
+          },
+          {
+            "action": "Coordinar con fisioterapia para ejercicios de fortalecimiento progresivo",
+            "rationale": "Recupera la fuerza muscular de forma segura."
+          }
+        ]
+      }
+    ]
   },
   "en": {
     "term": "Hypokalemia",
     "aliases": [
+      "hypokalemia",
       "low potassium",
-      "low k"
+      "potassium deficiency",
+      "hypopotasemia"
     ],
-    "summary": "Serum potassium below normal (below 3.5 mEq/L), which affects muscles and the heart.",
+    "summary": "Decrease in serum potassium level (<3.5 mEq/L) affecting muscle and cardiac function.",
     "key_points": [
-      "Causes: loop or thiazide diuretics, vomiting, diarrhea, NG suction, insulin therapy",
-      "Signs: muscle weakness, leg cramps, fatigue, constipation, dysrhythmias (flat T waves, U waves)",
-      "Increases the risk of digoxin toxicity"
+      "Serum level <3.5 mEq/L indicates hypokalemia.",
+      "Main causes: loop/tiazide diuretics, vomiting, diarrhea, insulin and beta‑blockers.",
+      "Symptoms: muscle weakness, fatigue, arrhythmias and constipation.",
+      "Diagnosis: serum electrolytes and ECG (prominent U waves, flattened T wave).",
+      "Treatment: potassium replacement (oral or IV) and correction of underlying cause."
     ],
     "sections": {
+      "pathophysiology": [
+        "Excessive loss of K⁺ via kidney or gastrointestinal tract.",
+        "Intracellular shift of K⁺ due to insulin or catecholamines.",
+        "Reduced electrochemical gradient affecting cardiac repolarization."
+      ],
+      "risk_factors": [
+        "Use of loop diuretics (furosemide) or thiazides (hydrochlorothiazide).",
+        "Vomiting, diarrhea or prolonged gastric suction.",
+        "Administration of insulin or β2‑agonists (albuterol).",
+        "Chronic kidney disease with potassium loss."
+      ],
+      "signs_symptoms": [
+        "Muscle weakness and cramps, especially in the limbs.",
+        "Fatigue, intolerance to activity.",
+        "Arrhythmias: extrasystoles, ventricular tachycardia.",
+        "Constipation and intestinal paralysis in severe cases."
+      ],
+      "diagnostics": [
+        "Serum electrolytes: K⁺ <3.5 mEq/L (normal 3.5‑5.0 mEq/L).",
+        "ECG: prominent U waves, flattened T wave, ST depression.",
+        "Assess renal function (creatinine, BUN) and glucose."
+      ],
+      "treatment": [
+        "Oral potassium chloride (KCl) replacement when K⁺ 3.0‑3.5 mEq/L.",
+        "IV KCl replacement (dilution 10 mEq/100 mL) if K⁺ <2.5 mEq/L or arrhythmia present.",
+        "Hold or reduce diuretics causing potassium loss.",
+        "Give sodium bicarbonate if concurrent metabolic acidosis."
+      ],
+      "complications": [
+        "Ventricular arrhythmias that may lead to cardiac arrest.",
+        "Severe muscle paralysis and rhabdomyolysis.",
+        "Ileus or severe constipation.",
+        "Hypotension secondary to volume loss."
+      ],
       "nursing_care": [
-        "IV potassium is NEVER given IV push; it must be diluted and run on a pump at a safe rate",
-        "Monitor cardiac rhythm and repeat K+ levels",
-        "Oral K+ can irritate the GI tract, so give it with food and fluids",
-        "Teach about potassium-rich foods (bananas, potatoes, oranges, spinach)"
+        "Monitor ECG continuously when initiating IV potassium replacement.",
+        "Track I/O and daily weight; record gastrointestinal losses.",
+        "Assess muscle strength and fatigue level each shift.",
+        "Check serum potassium levels every 4‑6 h during aggressive replacement."
+      ],
+      "patient_teaching": [
+        "Include potassium‑rich foods: bananas, potatoes, spinach, avocado.",
+        "Avoid excessive use of diuretics without medical indication.",
+        "Report palpitations, weakness or cramps immediately.",
+        "Take potassium supplements only as prescribed and follow dosing schedule."
       ]
     },
-    "care_plans": []
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "loop diuretics",
+          "prolonged vomiting",
+          "diarrhea",
+          "insulin",
+          "β2‑agonists"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum potassium level within normal range (3.5‑5.0 mEq/L) at discharge.",
+          "No evidence of arrhythmias on ECG monitor during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Assess history of diuretic use and gastrointestinal losses",
+            "rationale": "Identifies cause of potassium imbalance."
+          },
+          {
+            "action": "Monitor ECG and vital signs every 2 h while correcting potassium",
+            "rationale": "Detects early arrhythmias."
+          },
+          {
+            "action": "Obtain and record serum potassium levels every 4‑6 h",
+            "rationale": "Guides rate and route of replacement."
+          },
+          {
+            "action": "Administer oral or IV KCl as ordered, verifying dilution and rate",
+            "rationale": "Safely restores electrolyte balance."
+          },
+          {
+            "action": "Educate patient on potassium‑rich foods and avoiding non‑prescribed diuretics",
+            "rationale": "Prevents recurrence of imbalance."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "hypokalemia"
+        ],
+        "evidenced_by": [
+          "muscle weakness",
+          "fatigue with daily activities",
+          "decreased grip strength"
+        ],
+        "outcomes": [
+          "Able to walk 50 m without fatigue at discharge.",
+          "Muscle strength 4/5 in upper and lower extremities at discharge."
+        ],
+        "interventions": [
+          {
+            "action": "Assess muscle strength and fatigue level using Borg scale each shift",
+            "rationale": "Establishes baseline and monitors improvement."
+          },
+          {
+            "action": "Plan ADL activities with scheduled rest breaks",
+            "rationale": "Prevents exhaustion and promotes tolerance."
+          },
+          {
+            "action": "Promote adequate potassium replacement and rehydration",
+            "rationale": "Improves muscle function and reduces fatigue."
+          },
+          {
+            "action": "Teach energy‑conservation techniques (sit while dressing, use assistive devices)",
+            "rationale": "Facilitates ADL performance while correcting imbalance."
+          },
+          {
+            "action": "Coordinate with physical therapy for progressive strengthening exercises",
+            "rationale": "Safely restores muscle strength."
+          }
+        ]
+      }
+    ]
   },
   "related": [
-    "potassium",
-    "furosemide",
-    "digoxin"
+    "hyperkalemia",
+    "electrolyte-imbalance",
+    "cardiac-arrhythmia",
+    "muscle-weakness"
   ],
-  "sources": [],
+  "sources": [
+    {
+      "name": "MedlinePlus: Potassium",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/potassium.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Electrolyte Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
   "ai_drafted": true,
   "verified": false,
   "updated": "2026-10-06"
