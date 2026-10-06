@@ -259,3 +259,21 @@ body {
   0%, 100% { transform: translateY(0); }
   50% { transform: translateY(-2px); }
 }
+
+/* Phone filter sheet: slides up in steps; the backdrop fades in */
+@media (prefers-reduced-motion: no-preference) {
+  .sheet-up {
+    animation: sheet-up 0.22s steps(4) both;
+  }
+  .sheet-fade {
+    animation: sheet-fade 0.2s steps(3) both;
+  }
+}
+@keyframes sheet-up {
+  from { transform: translateY(100%); }
+  to { transform: none; }
+}
+@keyframes sheet-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

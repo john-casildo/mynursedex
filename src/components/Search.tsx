@@ -7,6 +7,7 @@ import AskPanel from "./AskPanel";
 import DexCard from "./DexCard";
 import { HOME_EVENT } from "./HomeLink";
 import L from "./L";
+import MobileFilters from "./MobileFilters";
 import PixelIcon from "./PixelIcon";
 import PixelNurse from "./PixelNurse";
 import RequestTopic from "./RequestTopic";
@@ -15,25 +16,7 @@ import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
 import { setFilters, syncFilters, useFilters } from "@/lib/category";
 import { useLang } from "@/lib/lang";
 import { fetchPopular } from "@/lib/popular";
-import { AREAS, CATEGORIES, type Area, type Category, type Lang, type SearchItem } from "@/lib/types";
-
-// Short labels for the phone filter tiles (full names are in aria-label/title).
-const TINY: Record<Category | Area | "all", Record<Lang, string>> = {
-  all: { es: "Todo", en: "All" },
-  pharmacology: { es: "Fárm.", en: "Drugs" },
-  conditions: { es: "Patol.", en: "Cond." },
-  labs: { es: "Labs", en: "Labs" },
-  fundamentals: { es: "Fund.", en: "Basics" },
-  abbreviations: { es: "Abrev.", en: "Abbr." },
-  obstetrics: { es: "Obst.", en: "OB" },
-};
-
-// Selected phone filter tile: its type color as border and a tint of it as background.
-const chipStyle = (color: string) => ({
-  borderColor: color,
-  background: `color-mix(in srgb, ${color} 22%, var(--card))`,
-  boxShadow: `2px 2px 0 ${color}`,
-});
+import type { Lang, SearchItem } from "@/lib/types";
 
 // Cards rendered at once; more load on demand so thousands of entries stay fast.
 const PAGE_SIZE = 50;
@@ -77,15 +60,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
     return () => window.removeEventListener(HOME_EVENT, reset);
   }, []);
 
-  function selectCategory(next: Category | "all") {
-    setLimit(PAGE_SIZE);
-    setFilters({ category: next });
-  }
 
-  function toggleArea(next: Area) {
-    setLimit(PAGE_SIZE);
-    setFilters({ area: area === next ? "all" : next });
-  }
 
   // Both languages are searched, so "potasio" and "potassium" both work, and diagnoses let
   // "exceso de volumen de líquidos" find heart failure. The current language ranks a bit higher. The other
@@ -260,48 +235,8 @@ export default function Search({ items }: { items: SearchItem[] }) {
         )}
       </div>
 
-      {/* Phones: a compact grid of filter tiles (no sideways scrolling); desktop uses the sidebar */}
-      <div className="mt-3 grid grid-cols-7 gap-1.5 lg:hidden" role="group" aria-label={lang === "es" ? "Filtros" : "Filters"}>
-        {[
-          ...(["all", ...CATEGORIES] as const).map((id) => ({
-            key: id,
-            active: id === category,
-            color: id === "all" ? "#3D6FA8" : CATEGORY_STYLES[id].color,
-            icon: id,
-            tiny: TINY[id],
-            full: id === "all" ? { en: "All", es: "Todo" } : CATEGORY_STYLES[id].label,
-            onClick: () => selectCategory(id),
-          })),
-          ...AREAS.map((id) => ({
-            key: id,
-            active: area === id,
-            color: AREA_LABELS[id].color,
-            icon: id,
-            tiny: TINY[id],
-            full: { en: AREA_LABELS[id].en, es: AREA_LABELS[id].es },
-            onClick: () => toggleArea(id),
-          })),
-        ].map((t) => (
-          <button
-            key={t.key}
-            onClick={t.onClick}
-            aria-pressed={t.active}
-            aria-label={t.full[lang]}
-            title={t.full[lang]}
-            style={t.active ? chipStyle(t.color) : undefined}
-            className={`filter-item flex min-w-0 flex-col items-center gap-1 rounded border-2 px-0.5 pb-1 pt-1.5 text-ink ${
-              t.active ? "filter-on" : "border-line bg-card"
-            }`}
-          >
-            <span className="filter-icon inline-block" style={{ color: t.color }}>
-              <PixelIcon name={t.icon} size={18} />
-            </span>
-            <span aria-hidden className="w-full truncate text-center text-[10px] font-semibold leading-none">
-              {t.tiny[lang]}
-            </span>
-          </button>
-        ))}
-      </div>
+      {/* Phones: "Filtros" button + active filter pills, with a bottom sheet; desktop uses the sidebar */}
+      <MobileFilters resultsCount={results.length} onChange={() => setLimit(PAGE_SIZE)} />
 
       <div className="mt-6 max-w-2xl">
         <AskPanel />
