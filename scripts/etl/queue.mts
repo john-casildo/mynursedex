@@ -9,7 +9,7 @@
 import { AREAS, CATEGORIES, norm, readTopics, slugify, type Concept, type Job } from "./lib.mts";
 import { TRANSLATE_MODEL, groq } from "./transform.mts";
 
-const REPO = process.env.GITHUB_REPOSITORY ?? "john-casildo/nursedex";
+const REPO = process.env.GITHUB_REPOSITORY ?? "john-casildo/mynursedex";
 const SITE = process.env.SITE_URL ?? "https://mynursedex.vercel.app";
 const LABEL = "solicitud";
 

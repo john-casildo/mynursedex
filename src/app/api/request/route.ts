@@ -6,7 +6,7 @@ import { rateLimited } from "@/lib/rate-limit";
 //
 // Needs GITHUB_TOKEN on Vercel: a fine-grained token with Issues: read & write on this repo only.
 
-const REPO = process.env.GITHUB_REPO ?? "john-casildo/nursedex";
+const REPO = process.env.GITHUB_REPO ?? "john-casildo/mynursedex";
 const LABEL = "solicitud";
 
 export async function POST(req: Request) {
