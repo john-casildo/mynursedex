@@ -1,0 +1,347 @@
+{
+  "id": "preeclampsia",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Preeclampsia",
+    "aliases": [
+      "preeclampsia",
+      "toxemia",
+      "hipertensión del embarazo",
+      "trastorno hipertensivo del embarazo",
+      "presión alta en el embarazo",
+      "pe"
+    ],
+    "summary": "Trastorno hipertensivo del embarazo que aparece después de las 20 semanas, con presión arterial ≥140/90 mmHg y proteinuria o daño a órganos (riñón, hígado, cerebro, plaquetas).",
+    "key_points": [
+      "Inicia después de las 20 semanas de gestación y puede aparecer hasta 6 semanas posparto.",
+      "Signos de severidad: PA ≥160/110 mmHg, cefalea intensa, alteraciones visuales, dolor epigástrico, plaquetas bajas.",
+      "El sulfato de magnesio previene convulsiones (eclampsia); no trata la hipertensión.",
+      "Toxicidad por magnesio: pérdida de reflejos, FR <12 rpm, diuresis <30 mL/h. Antídoto: gluconato de calcio.",
+      "El único tratamiento definitivo es el nacimiento del bebé y la placenta."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La placenta se implanta mal y las arterias uterinas no se remodelan.",
+        "La placenta mal perfundida libera sustancias que dañan el endotelio de la madre.",
+        "Hay vasoespasmo generalizado: sube la presión arterial y baja la perfusión de órganos.",
+        "El daño renal deja pasar proteínas a la orina (proteinuria) y se forman edemas."
+      ],
+      "risk_factors": [
+        "Primer embarazo y embarazo múltiple.",
+        "Preeclampsia en un embarazo anterior.",
+        "Hipertensión crónica, diabetes, enfermedad renal o lupus.",
+        "Obesidad y edad materna avanzada.",
+        "Embarazo por técnicas de reproducción asistida."
+      ],
+      "signs_symptoms": [
+        "Presión arterial ≥140/90 mmHg en dos tomas separadas.",
+        "Edema de cara y manos y aumento rápido de peso.",
+        "Cefalea persistente, visión borrosa o escotomas.",
+        "Dolor epigástrico o en el cuadrante superior derecho.",
+        "Hiperreflexia y clonus.",
+        "Disminución de la diuresis."
+      ],
+      "diagnostics": [
+        "Toma seriada de presión arterial.",
+        "Proteinuria: tira reactiva, orina de 24 h o índice proteína/creatinina.",
+        "Hemograma: plaquetas (trombocitopenia sugiere gravedad o HELLP).",
+        "Pruebas de función hepática (AST/ALT) y renal (creatinina, ácido úrico).",
+        "Bienestar fetal: monitoreo de la FCF, ultrasonido y perfil biofísico."
+      ],
+      "treatment": [
+        "Sulfato de magnesio IV para prevenir convulsiones.",
+        "Antihipertensivos según protocolo (p. ej., labetalol, hidralazina, nifedipino).",
+        "Corticosteroides (betametasona) para la maduración pulmonar fetal si el parto es pretérmino.",
+        "Interrupción del embarazo según edad gestacional y gravedad.",
+        "Prevención: aspirina en dosis bajas en embarazadas de alto riesgo, indicada por el médico."
+      ],
+      "complications": [
+        "Eclampsia (convulsiones).",
+        "Síndrome HELLP.",
+        "Desprendimiento prematuro de placenta.",
+        "Edema pulmonar, insuficiencia renal y accidente cerebrovascular.",
+        "Restricción del crecimiento fetal y parto pretérmino."
+      ],
+      "nursing_care": [
+        "Tomar la PA con el brazalete del tamaño correcto, paciente sentada y brazo a la altura del corazón.",
+        "Valorar cada hora reflejos osteotendinosos, FR, saturación y nivel de conciencia durante el sulfato de magnesio.",
+        "Control estricto de ingesta y excreta; sonda Foley si se indica (meta de diuresis ≥30 mL/h).",
+        "Monitoreo continuo de la frecuencia cardíaca fetal.",
+        "Precauciones de convulsiones: barandas acolchadas, ambiente tranquilo, luz tenue, aspirador listo.",
+        "Tener gluconato de calcio a la cabecera de la cama."
+      ],
+      "patient_teaching": [
+        "Consultar de inmediato por cefalea intensa, visión borrosa, dolor en la boca del estómago o hinchazón súbita.",
+        "Asistir a todos los controles prenatales para medir la presión y la orina.",
+        "Contar los movimientos fetales todos los días.",
+        "Puede aparecer también en el posparto: vigilar los mismos síntomas hasta 6 semanas después."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de alteración de la díada materno-fetal",
+        "type": "risk",
+        "related_to": [
+          "Vasoespasmo y menor perfusión placentaria",
+          "Hipertensión materna",
+          "Posible parto pretérmino"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado materno: preparto — PA dentro de las metas indicadas por el médico.",
+          "Estado fetal: preparto — FCF entre 110 y 160 lpm, con variabilidad moderada."
+        ],
+        "interventions": [
+          {
+            "action": "Colocar a la paciente en decúbito lateral izquierdo.",
+            "rationale": "Evita la compresión de la vena cava y mejora el flujo a la placenta."
+          },
+          {
+            "action": "Vigilar continuamente la FCF y la actividad uterina.",
+            "rationale": "Detecta a tiempo el compromiso fetal o un desprendimiento de placenta."
+          },
+          {
+            "action": "Medir la PA según protocolo y notificar valores ≥160/110 mmHg.",
+            "rationale": "La hipertensión severa requiere tratamiento urgente para prevenir un ACV."
+          },
+          {
+            "action": "Administrar los antihipertensivos indicados y valorar la respuesta.",
+            "rationale": "Bajar la PA de forma controlada protege a la madre sin reducir demasiado el flujo placentario."
+          },
+          {
+            "action": "Administrar betametasona según orden si hay riesgo de parto pretérmino.",
+            "rationale": "Acelera la maduración pulmonar del feto."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "Posibles convulsiones (eclampsia)",
+          "Toxicidad por sulfato de magnesio",
+          "Alteraciones visuales"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del riesgo — la paciente no presenta convulsiones ni lesiones durante la hospitalización.",
+          "Estado neurológico — reflejos presentes, FR ≥12 rpm y paciente orientada."
+        ],
+        "interventions": [
+          {
+            "action": "Valorar ROT, clonus, FR y nivel de conciencia cada hora durante el sulfato de magnesio.",
+            "rationale": "La pérdida de reflejos es el primer signo de toxicidad por magnesio."
+          },
+          {
+            "action": "Suspender el sulfato de magnesio y avisar si los ROT desaparecen, FR <12 rpm o diuresis <30 mL/h.",
+            "rationale": "Evita la depresión respiratoria y el paro cardíaco por magnesio alto."
+          },
+          {
+            "action": "Tener a mano gluconato de calcio, oxígeno y aspirador.",
+            "rationale": "Permite actuar de inmediato ante toxicidad o una convulsión."
+          },
+          {
+            "action": "Mantener barandas arriba y acolchadas, cama baja y ambiente con poca luz y ruido.",
+            "rationale": "Reduce estímulos que pueden desencadenar una convulsión y previene caídas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Preeclampsia",
+    "aliases": [
+      "preeclampsia",
+      "pre-eclampsia",
+      "toxemia",
+      "pregnancy-induced hypertension",
+      "pih",
+      "high blood pressure in pregnancy"
+    ],
+    "summary": "Hypertensive disorder of pregnancy that starts after 20 weeks, with blood pressure ≥140/90 mmHg and proteinuria or organ damage (kidney, liver, brain, platelets).",
+    "key_points": [
+      "Starts after 20 weeks' gestation and can appear up to 6 weeks postpartum.",
+      "Severe features: BP ≥160/110 mmHg, severe headache, visual changes, epigastric pain, low platelets.",
+      "Magnesium sulfate prevents seizures (eclampsia); it does not treat hypertension.",
+      "Magnesium toxicity: loss of reflexes, RR <12/min, urine output <30 mL/h. Antidote: calcium gluconate.",
+      "The only definitive treatment is delivery of the baby and placenta."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The placenta implants poorly and the uterine arteries don't remodel.",
+        "The poorly perfused placenta releases substances that damage the mother's endothelium.",
+        "Widespread vasospasm raises blood pressure and lowers organ perfusion.",
+        "Kidney damage lets protein leak into the urine (proteinuria) and edema forms."
+      ],
+      "risk_factors": [
+        "First pregnancy and multiple gestation.",
+        "Preeclampsia in a previous pregnancy.",
+        "Chronic hypertension, diabetes, kidney disease or lupus.",
+        "Obesity and advanced maternal age.",
+        "Pregnancy through assisted reproduction."
+      ],
+      "signs_symptoms": [
+        "Blood pressure ≥140/90 mmHg on two separate readings.",
+        "Swelling of the face and hands and rapid weight gain.",
+        "Persistent headache, blurred vision or scotomas.",
+        "Epigastric or right upper quadrant pain.",
+        "Hyperreflexia and clonus.",
+        "Decreased urine output."
+      ],
+      "diagnostics": [
+        "Serial blood pressure readings.",
+        "Proteinuria: dipstick, 24-hour urine or protein/creatinine ratio.",
+        "CBC: platelets (thrombocytopenia suggests severe disease or HELLP).",
+        "Liver (AST/ALT) and kidney (creatinine, uric acid) function tests.",
+        "Fetal well-being: FHR monitoring, ultrasound and biophysical profile."
+      ],
+      "treatment": [
+        "IV magnesium sulfate to prevent seizures.",
+        "Antihypertensives per protocol (e.g., labetalol, hydralazine, nifedipine).",
+        "Corticosteroids (betamethasone) for fetal lung maturity if birth will be preterm.",
+        "Delivery timed by gestational age and severity.",
+        "Prevention: low-dose aspirin for high-risk pregnancies, as ordered by the provider."
+      ],
+      "complications": [
+        "Eclampsia (seizures).",
+        "HELLP syndrome.",
+        "Placental abruption.",
+        "Pulmonary edema, kidney failure and stroke.",
+        "Fetal growth restriction and preterm birth."
+      ],
+      "nursing_care": [
+        "Take BP with the correct cuff size, patient seated and arm at heart level.",
+        "Assess deep tendon reflexes, RR, SpO2 and level of consciousness hourly while on magnesium sulfate.",
+        "Strict intake and output; Foley catheter if ordered (goal urine output ≥30 mL/h).",
+        "Continuous fetal heart rate monitoring.",
+        "Seizure precautions: padded side rails, quiet room, dim lights, suction ready.",
+        "Keep calcium gluconate at the bedside."
+      ],
+      "patient_teaching": [
+        "Seek care right away for severe headache, blurred vision, upper stomach pain or sudden swelling.",
+        "Attend every prenatal visit so blood pressure and urine can be checked.",
+        "Count fetal movements every day.",
+        "It can also appear after birth: watch for the same symptoms for 6 weeks postpartum."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for disturbed maternal-fetal dyad",
+        "type": "risk",
+        "related_to": [
+          "Vasospasm and reduced placental perfusion",
+          "Maternal hypertension",
+          "Possible preterm birth"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maternal Status: Antepartum — BP within the provider's target range.",
+          "Fetal Status: Antepartum — FHR 110–160 bpm with moderate variability."
+        ],
+        "interventions": [
+          {
+            "action": "Position the patient in left lateral.",
+            "rationale": "Avoids compressing the vena cava and improves blood flow to the placenta."
+          },
+          {
+            "action": "Monitor FHR and uterine activity continuously.",
+            "rationale": "Detects fetal compromise or placental abruption early."
+          },
+          {
+            "action": "Measure BP per protocol and report readings ≥160/110 mmHg.",
+            "rationale": "Severe hypertension needs urgent treatment to prevent a stroke."
+          },
+          {
+            "action": "Give ordered antihypertensives and assess the response.",
+            "rationale": "Lowering BP in a controlled way protects the mother without cutting placental flow too much."
+          },
+          {
+            "action": "Give betamethasone as ordered if preterm birth is likely.",
+            "rationale": "Speeds up fetal lung maturity."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "Possible seizures (eclampsia)",
+          "Magnesium sulfate toxicity",
+          "Visual disturbances"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Risk Control — no seizures or injuries during the hospital stay.",
+          "Neurological Status — reflexes present, RR ≥12/min and patient oriented."
+        ],
+        "interventions": [
+          {
+            "action": "Assess DTRs, clonus, RR and level of consciousness hourly while on magnesium sulfate.",
+            "rationale": "Loss of reflexes is the first sign of magnesium toxicity."
+          },
+          {
+            "action": "Stop the magnesium infusion and notify the provider if DTRs are absent, RR <12/min or urine output <30 mL/h.",
+            "rationale": "Prevents respiratory depression and cardiac arrest from high magnesium."
+          },
+          {
+            "action": "Keep calcium gluconate, oxygen and suction at hand.",
+            "rationale": "Allows immediate action for toxicity or a seizure."
+          },
+          {
+            "action": "Keep side rails up and padded, bed low, and the room dim and quiet.",
+            "rationale": "Reduces stimuli that can trigger a seizure and prevents falls."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "eclampsia",
+    "hellp-syndrome",
+    "magnesium-sulfate",
+    "nifedipine",
+    "betamethasone",
+    "placental-abruption",
+    "fetal-heart-rate-monitoring"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: High Blood Pressure in Pregnancy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Presión arterial alta en el embarazo",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/highbloodpressureinpregnancy.html",
+      "lang": "es"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Preconception Conditions Affecting Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-1-preconception-conditions-affecting-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

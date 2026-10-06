@@ -1,0 +1,318 @@
+{
+  "id": "hellp-syndrome",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Síndrome HELLP",
+    "aliases": [
+      "hellp",
+      "síndrome hellp",
+      "hemólisis enzimas hepáticas plaquetas bajas",
+      "hellp syndrome"
+    ],
+    "summary": "Complicación grave de los trastornos hipertensivos del embarazo: Hemólisis, Enzimas hepáticas elevadas (Elevated Liver enzymes) y Plaquetas bajas (Low Platelets).",
+    "key_points": [
+      "HELLP = hemólisis + enzimas hepáticas elevadas + plaquetas bajas.",
+      "Síntoma clave: dolor en epigastrio o cuadrante superior derecho, con náuseas y malestar.",
+      "Puede presentarse sin hipertensión ni proteinuria marcadas, por lo que se confunde con gastritis o un cuadro viral.",
+      "Riesgo alto de sangrado, CID y rotura hepática.",
+      "El tratamiento definitivo es el nacimiento; mientras tanto, estabilizar y prevenir convulsiones."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El daño endotelial de la preeclampsia activa las plaquetas, que se consumen (plaquetopenia).",
+        "Los glóbulos rojos se rompen al pasar por vasos dañados (hemólisis).",
+        "Se forman depósitos de fibrina en el hígado: inflamación, aumento de enzimas y distensión de la cápsula hepática."
+      ],
+      "risk_factors": [
+        "Preeclampsia, sobre todo con signos de severidad.",
+        "Antecedente de HELLP en un embarazo anterior.",
+        "Embarazo múltiple."
+      ],
+      "signs_symptoms": [
+        "Dolor epigástrico o en el cuadrante superior derecho.",
+        "Náuseas, vómitos y malestar general.",
+        "Cefalea y alteraciones visuales.",
+        "Moretones fáciles, sangrado de encías o petequias.",
+        "Ictericia en casos avanzados."
+      ],
+      "diagnostics": [
+        "Hemograma: plaquetas bajas (comúnmente <100 000/mm³).",
+        "AST y ALT elevadas.",
+        "LDH elevada y frotis con esquistocitos (hemólisis).",
+        "Pruebas de coagulación para detectar CID."
+      ],
+      "treatment": [
+        "Sulfato de magnesio para prevenir convulsiones.",
+        "Control de la hipertensión.",
+        "Transfusión de plaquetas u otros hemoderivados según necesidad.",
+        "Corticosteroides para la maduración pulmonar fetal si el embarazo es pretérmino.",
+        "Nacimiento una vez estabilizada la madre."
+      ],
+      "complications": [
+        "Coagulación intravascular diseminada (CID).",
+        "Hematoma o rotura hepática.",
+        "Desprendimiento prematuro de placenta.",
+        "Insuficiencia renal aguda y edema pulmonar.",
+        "Hemorragia posparto."
+      ],
+      "nursing_care": [
+        "Vigilar signos de sangrado: encías, sitios de punción, orina y sangrado vaginal.",
+        "Evitar inyecciones IM y punciones innecesarias.",
+        "Valorar el dolor abdominal; un dolor súbito e intenso en hombro o abdomen puede indicar rotura hepática.",
+        "Monitorear signos vitales, diuresis y FCF.",
+        "Precauciones de convulsiones mientras recibe sulfato de magnesio."
+      ],
+      "patient_teaching": [
+        "Consultar por dolor en la boca del estómago o debajo de las costillas derechas, aunque la presión no esté alta.",
+        "Informar cualquier sangrado o moretón nuevo.",
+        "En futuros embarazos, informar el antecedente de HELLP desde el primer control."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "Trombocitopenia",
+          "Alteración de la función hepática",
+          "Riesgo de CID"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Severidad de la pérdida de sangre — sin sangrado activo.",
+          "Coagulación sanguínea — plaquetas y pruebas de coagulación en mejoría."
+        ],
+        "interventions": [
+          {
+            "action": "Revisar encías, piel, sitios de venopunción, orina y sangrado vaginal en cada turno.",
+            "rationale": "Detecta sangrado temprano en una paciente con plaquetas bajas."
+          },
+          {
+            "action": "Evitar inyecciones IM y agrupar las tomas de sangre.",
+            "rationale": "Disminuye los sitios de posible sangrado."
+          },
+          {
+            "action": "Vigilar resultados de plaquetas, enzimas hepáticas y coagulación.",
+            "rationale": "Permiten ver si la enfermedad progresa o mejora."
+          },
+          {
+            "action": "Administrar hemoderivados según orden y vigilar reacciones transfusionales.",
+            "rationale": "Corrige la trombocitopenia o la coagulopatía de forma segura."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "Distensión de la cápsula hepática",
+          "Inflamación hepática"
+        ],
+        "evidenced_by": [
+          "Dolor en epigastrio o cuadrante superior derecho",
+          "Facies de dolor",
+          "Náuseas y malestar"
+        ],
+        "outcomes": [
+          "Nivel del dolor — refiere dolor ≤3/10.",
+          "Control del dolor — reconoce y comunica cambios en el dolor."
+        ],
+        "interventions": [
+          {
+            "action": "Valorar el dolor con una escala numérica y sus características.",
+            "rationale": "Un aumento brusco puede indicar hematoma o rotura hepática."
+          },
+          {
+            "action": "Administrar la analgesia indicada, evitando AINE.",
+            "rationale": "Los AINE alteran la función plaquetaria y aumentan el riesgo de sangrado."
+          },
+          {
+            "action": "Colocar en posición cómoda, de preferencia decúbito lateral izquierdo.",
+            "rationale": "Mejora el confort y el flujo placentario."
+          },
+          {
+            "action": "Notificar de inmediato dolor súbito e intenso con hipotensión.",
+            "rationale": "Puede ser una rotura hepática, que es una emergencia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "HELLP Syndrome",
+    "aliases": [
+      "hellp",
+      "hellp syndrome",
+      "hemolysis elevated liver enzymes low platelets"
+    ],
+    "summary": "Severe complication of hypertensive disorders of pregnancy: Hemolysis, Elevated Liver enzymes and Low Platelets.",
+    "key_points": [
+      "HELLP = hemolysis + elevated liver enzymes + low platelets.",
+      "Key symptom: epigastric or right upper quadrant pain, with nausea and malaise.",
+      "It can occur without marked hypertension or proteinuria, so it's mistaken for gastritis or a viral illness.",
+      "High risk of bleeding, DIC and liver rupture.",
+      "Delivery is the definitive treatment; until then, stabilize and prevent seizures."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Endothelial damage from preeclampsia activates platelets, which get used up (thrombocytopenia).",
+        "Red blood cells break as they pass through damaged vessels (hemolysis).",
+        "Fibrin deposits in the liver cause inflammation, high enzymes and stretching of the liver capsule."
+      ],
+      "risk_factors": [
+        "Preeclampsia, especially with severe features.",
+        "HELLP in a previous pregnancy.",
+        "Multiple gestation."
+      ],
+      "signs_symptoms": [
+        "Epigastric or right upper quadrant pain.",
+        "Nausea, vomiting and general malaise.",
+        "Headache and visual changes.",
+        "Easy bruising, bleeding gums or petechiae.",
+        "Jaundice in advanced cases."
+      ],
+      "diagnostics": [
+        "CBC: low platelets (commonly <100,000/mm³).",
+        "Elevated AST and ALT.",
+        "Elevated LDH and schistocytes on smear (hemolysis).",
+        "Coagulation tests to detect DIC."
+      ],
+      "treatment": [
+        "Magnesium sulfate to prevent seizures.",
+        "Blood pressure control.",
+        "Platelet or other blood product transfusion as needed.",
+        "Corticosteroids for fetal lung maturity if preterm.",
+        "Delivery once the mother is stable."
+      ],
+      "complications": [
+        "Disseminated intravascular coagulation (DIC).",
+        "Liver hematoma or rupture.",
+        "Placental abruption.",
+        "Acute kidney failure and pulmonary edema.",
+        "Postpartum hemorrhage."
+      ],
+      "nursing_care": [
+        "Watch for bleeding: gums, puncture sites, urine and vaginal bleeding.",
+        "Avoid IM injections and unnecessary punctures.",
+        "Assess abdominal pain; sudden severe shoulder or abdominal pain may mean liver rupture.",
+        "Monitor vital signs, urine output and FHR.",
+        "Seizure precautions while on magnesium sulfate."
+      ],
+      "patient_teaching": [
+        "Seek care for pain in the upper stomach or under the right ribs, even if blood pressure isn't high.",
+        "Report any new bleeding or bruising.",
+        "In future pregnancies, mention the history of HELLP at the first visit."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "Thrombocytopenia",
+          "Impaired liver function",
+          "Risk of DIC"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood Loss Severity — no active bleeding.",
+          "Blood Coagulation — platelets and coagulation tests improving."
+        ],
+        "interventions": [
+          {
+            "action": "Check gums, skin, venipuncture sites, urine and vaginal bleeding every shift.",
+            "rationale": "Detects bleeding early in a patient with low platelets."
+          },
+          {
+            "action": "Avoid IM injections and cluster blood draws.",
+            "rationale": "Reduces possible bleeding sites."
+          },
+          {
+            "action": "Monitor platelets, liver enzymes and coagulation results.",
+            "rationale": "Shows whether the disease is progressing or improving."
+          },
+          {
+            "action": "Give blood products as ordered and watch for transfusion reactions.",
+            "rationale": "Safely corrects thrombocytopenia or coagulopathy."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "Stretching of the liver capsule",
+          "Liver inflammation"
+        ],
+        "evidenced_by": [
+          "Epigastric or right upper quadrant pain",
+          "Facial grimacing",
+          "Nausea and malaise"
+        ],
+        "outcomes": [
+          "Pain Level — reports pain ≤3/10.",
+          "Pain Control — recognizes and reports changes in pain."
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain with a numeric scale and its characteristics.",
+            "rationale": "A sudden increase may signal a liver hematoma or rupture."
+          },
+          {
+            "action": "Give ordered analgesia, avoiding NSAIDs.",
+            "rationale": "NSAIDs impair platelet function and raise bleeding risk."
+          },
+          {
+            "action": "Position for comfort, preferably left lateral.",
+            "rationale": "Improves comfort and placental blood flow."
+          },
+          {
+            "action": "Report sudden severe pain with hypotension right away.",
+            "rationale": "It may be a liver rupture, which is an emergency."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "preeclampsia",
+    "eclampsia",
+    "magnesium-sulfate",
+    "placental-abruption",
+    "postpartum-hemorrhage"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: High Blood Pressure in Pregnancy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/highbloodpressureinpregnancy.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Monitoring the Person in Labor for Complications",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/19-10-monitoring-the-person-in-labor-for-complications-developing-during-the-process-of-labor-and-birth",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

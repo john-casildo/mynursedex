@@ -1,0 +1,330 @@
+{
+  "id": "postpartum-hemorrhage",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Hemorragia posparto (HPP)",
+    "aliases": [
+      "hemorragia posparto",
+      "hpp",
+      "hemorragia postparto",
+      "sangrado después del parto",
+      "atonía uterina"
+    ],
+    "summary": "Pérdida de sangre acumulada de 1000 mL o más, o sangrado con signos de hipovolemia, en las primeras 24 horas después del nacimiento (definición ACOG); es una causa principal de muerte materna.",
+    "key_points": [
+      "Causas, las 4 T: Tono (atonía uterina, la más común), Trauma, Tejido (restos placentarios) y Trombina (coagulación).",
+      "Primera acción ante atonía: masaje del fondo uterino y vaciar la vejiga.",
+      "Uterotónicos según orden: oxitocina, metilergonovina (no en hipertensas), misoprostol y carboprost (no en asmáticas).",
+      "Taquicardia e hipotensión son signos tardíos; cuantificar la pérdida pesando apósitos (1 g ≈ 1 mL).",
+      "Primaria: primeras 24 h. Secundaria: de 24 h a 12 semanas posparto."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Después del alumbramiento, el útero debe contraerse para comprimir los vasos del sitio placentario.",
+        "Si el útero no se contrae (atonía), esos vasos siguen sangrando.",
+        "Desgarros, restos placentarios o problemas de coagulación también impiden detener el sangrado.",
+        "La pérdida rápida de volumen lleva a shock hipovolémico."
+      ],
+      "risk_factors": [
+        "Útero sobredistendido: macrosomía, embarazo múltiple, polihidramnios.",
+        "Trabajo de parto prolongado o muy rápido; uso prolongado de oxitocina.",
+        "Alumbramiento de más de 30 minutos o placenta retenida.",
+        "Parto instrumentado, cesárea o desgarros.",
+        "Antecedente de HPP, preeclampsia o trastornos de coagulación."
+      ],
+      "signs_symptoms": [
+        "Útero blando, por encima del ombligo o desviado (vejiga llena).",
+        "Sangrado vaginal abundante o con coágulos grandes.",
+        "Sangrado constante con útero firme: sospechar desgarro.",
+        "Taquicardia, palidez, piel fría, ansiedad, hipotensión (signos tardíos).",
+        "Disminución de la diuresis."
+      ],
+      "diagnostics": [
+        "Cuantificación de la pérdida: pesar apósitos y campos (1 g ≈ 1 mL).",
+        "Valoración del fondo uterino y revisión del canal del parto.",
+        "Hemoglobina, hematocrito, plaquetas y pruebas de coagulación.",
+        "Tipaje y pruebas cruzadas."
+      ],
+      "treatment": [
+        "Masaje uterino bimanual o del fondo.",
+        "Uterotónicos: oxitocina, metilergonovina, misoprostol, carboprost.",
+        "Ácido tranexámico según protocolo (idealmente en las primeras 3 horas).",
+        "Reposición de volumen y transfusión de hemoderivados.",
+        "Reparación de desgarros, extracción de restos; taponamiento con balón, cirugía o histerectomía si no responde."
+      ],
+      "complications": [
+        "Shock hipovolémico.",
+        "Coagulación intravascular diseminada (CID).",
+        "Anemia posparto y fatiga.",
+        "Síndrome de Sheehan (necrosis hipofisaria).",
+        "Pérdida de la fertilidad si se requiere histerectomía."
+      ],
+      "nursing_care": [
+        "Valorar fondo uterino (altura, tono, posición) y loquios según protocolo del posparto inmediato.",
+        "Si el útero está blando: masaje del fondo sosteniendo el segmento inferior con la otra mano.",
+        "Ayudar a vaciar la vejiga o realizar sondeo si está distendida.",
+        "Canalizar dos vías periféricas de calibre grueso y administrar líquidos y uterotónicos según orden.",
+        "Cuantificar la pérdida, vigilar signos vitales y diuresis, y activar el código de hemorragia según protocolo."
+      ],
+      "patient_teaching": [
+        "Avisar si empapa más de una toalla sanitaria por hora o expulsa coágulos grandes.",
+        "Consultar por mareo, palpitaciones o desmayo.",
+        "Vaciar la vejiga con frecuencia en el posparto.",
+        "La lactancia materna ayuda a que el útero se contraiga."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "Pérdida activa de sangre por atonía uterina, desgarros o restos placentarios"
+        ],
+        "evidenced_by": [
+          "Pérdida sanguínea ≥1000 mL",
+          "Taquicardia e hipotensión",
+          "Disminución de la diuresis",
+          "Piel pálida y fría"
+        ],
+        "outcomes": [
+          "Severidad de la pérdida de sangre — sangrado controlado y útero firme.",
+          "Equilibrio hídrico — PA y FC estables y diuresis ≥30 mL/h."
+        ],
+        "interventions": [
+          {
+            "action": "Masajear el fondo uterino hasta que esté firme.",
+            "rationale": "Estimula la contracción y comprime los vasos del sitio placentario."
+          },
+          {
+            "action": "Colocar dos vías IV de calibre grueso y administrar cristaloides según orden.",
+            "rationale": "Permite reponer volumen y transfundir rápidamente."
+          },
+          {
+            "action": "Administrar uterotónicos según orden y verificar contraindicaciones.",
+            "rationale": "Mantienen el útero contraído; la metilergonovina sube la PA y el carboprost puede causar broncoespasmo."
+          },
+          {
+            "action": "Cuantificar la pérdida pesando apósitos y controlar la diuresis horaria.",
+            "rationale": "La estimación visual subestima el sangrado."
+          },
+          {
+            "action": "Preparar y administrar hemoderivados según orden.",
+            "rationale": "Restaura la capacidad de transporte de oxígeno y la coagulación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de shock",
+        "type": "risk",
+        "related_to": [
+          "Hipovolemia por hemorragia",
+          "Posible coagulopatía"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Severidad del shock: hipovolémico — sin signos de shock.",
+          "Signos vitales — dentro de los parámetros indicados."
+        ],
+        "interventions": [
+          {
+            "action": "Tomar signos vitales y saturación cada 5–15 minutos durante el evento.",
+            "rationale": "Detecta el deterioro antes de que aparezca hipotensión franca."
+          },
+          {
+            "action": "Valorar nivel de conciencia, llenado capilar y temperatura de la piel.",
+            "rationale": "Son signos de perfusión tisular."
+          },
+          {
+            "action": "Administrar oxígeno según protocolo.",
+            "rationale": "Mejora la oxigenación de los tejidos."
+          },
+          {
+            "action": "Activar el código de hemorragia obstétrica y comunicar con SBAR.",
+            "rationale": "La respuesta en equipo reduce el tiempo hasta el tratamiento."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Postpartum Hemorrhage (PPH)",
+    "aliases": [
+      "postpartum hemorrhage",
+      "pph",
+      "bleeding after birth",
+      "uterine atony"
+    ],
+    "summary": "Cumulative blood loss of 1,000 mL or more, or bleeding with signs of hypovolemia, within 24 hours of birth (ACOG definition); a leading cause of maternal death.",
+    "key_points": [
+      "Causes, the 4 Ts: Tone (uterine atony, most common), Trauma, Tissue (retained placenta) and Thrombin (clotting).",
+      "First action for atony: fundal massage and empty the bladder.",
+      "Uterotonics as ordered: oxytocin, methylergonovine (not with hypertension), misoprostol and carboprost (not with asthma).",
+      "Tachycardia and hypotension are late signs; quantify loss by weighing pads (1 g ≈ 1 mL).",
+      "Primary: first 24 h. Secondary: 24 h to 12 weeks postpartum."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "After the placenta delivers, the uterus must contract to compress the vessels at the placental site.",
+        "If the uterus doesn't contract (atony), those vessels keep bleeding.",
+        "Lacerations, retained placenta or clotting problems also prevent bleeding from stopping.",
+        "Rapid volume loss leads to hypovolemic shock."
+      ],
+      "risk_factors": [
+        "Overdistended uterus: macrosomia, multiple gestation, polyhydramnios.",
+        "Prolonged or very rapid labor; prolonged oxytocin use.",
+        "Third stage over 30 minutes or retained placenta.",
+        "Operative vaginal birth, cesarean or lacerations.",
+        "Previous PPH, preeclampsia or clotting disorders."
+      ],
+      "signs_symptoms": [
+        "Boggy uterus, above the umbilicus or displaced (full bladder).",
+        "Heavy vaginal bleeding or large clots.",
+        "Steady bleeding with a firm uterus: suspect a laceration.",
+        "Tachycardia, pallor, cool skin, anxiety, hypotension (late signs).",
+        "Decreased urine output."
+      ],
+      "diagnostics": [
+        "Quantified blood loss: weigh pads and drapes (1 g ≈ 1 mL).",
+        "Fundal assessment and inspection of the birth canal.",
+        "Hemoglobin, hematocrit, platelets and coagulation tests.",
+        "Type and crossmatch."
+      ],
+      "treatment": [
+        "Fundal or bimanual uterine massage.",
+        "Uterotonics: oxytocin, methylergonovine, misoprostol, carboprost.",
+        "Tranexamic acid per protocol (ideally within 3 hours).",
+        "Volume replacement and blood product transfusion.",
+        "Laceration repair, removal of retained tissue; balloon tamponade, surgery or hysterectomy if unresponsive."
+      ],
+      "complications": [
+        "Hypovolemic shock.",
+        "Disseminated intravascular coagulation (DIC).",
+        "Postpartum anemia and fatigue.",
+        "Sheehan syndrome (pituitary necrosis).",
+        "Loss of fertility if hysterectomy is needed."
+      ],
+      "nursing_care": [
+        "Assess the fundus (height, tone, position) and lochia per the immediate postpartum protocol.",
+        "If the uterus is boggy: massage the fundus while supporting the lower segment with the other hand.",
+        "Help the patient void or catheterize if the bladder is distended.",
+        "Start two large-bore IVs and give fluids and uterotonics as ordered.",
+        "Quantify loss, monitor vital signs and urine output, and call the hemorrhage code per protocol."
+      ],
+      "patient_teaching": [
+        "Report soaking more than one pad per hour or passing large clots.",
+        "Seek help for dizziness, palpitations or fainting.",
+        "Empty the bladder often after birth.",
+        "Breastfeeding helps the uterus contract."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "Active blood loss from uterine atony, lacerations or retained placenta"
+        ],
+        "evidenced_by": [
+          "Blood loss ≥1,000 mL",
+          "Tachycardia and hypotension",
+          "Decreased urine output",
+          "Pale, cool skin"
+        ],
+        "outcomes": [
+          "Blood Loss Severity — bleeding controlled and uterus firm.",
+          "Fluid Balance — stable BP and HR and urine output ≥30 mL/h."
+        ],
+        "interventions": [
+          {
+            "action": "Massage the fundus until firm.",
+            "rationale": "Stimulates contraction and compresses the vessels at the placental site."
+          },
+          {
+            "action": "Start two large-bore IVs and give crystalloids as ordered.",
+            "rationale": "Allows rapid volume replacement and transfusion."
+          },
+          {
+            "action": "Give uterotonics as ordered and check contraindications.",
+            "rationale": "They keep the uterus contracted; methylergonovine raises BP and carboprost can cause bronchospasm."
+          },
+          {
+            "action": "Quantify loss by weighing pads and track hourly urine output.",
+            "rationale": "Visual estimates underestimate bleeding."
+          },
+          {
+            "action": "Prepare and give blood products as ordered.",
+            "rationale": "Restores oxygen-carrying capacity and clotting."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for shock",
+        "type": "risk",
+        "related_to": [
+          "Hypovolemia from hemorrhage",
+          "Possible coagulopathy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Shock Severity: Hypovolemic — no signs of shock.",
+          "Vital Signs — within ordered parameters."
+        ],
+        "interventions": [
+          {
+            "action": "Take vital signs and SpO2 every 5–15 minutes during the event.",
+            "rationale": "Detects deterioration before frank hypotension."
+          },
+          {
+            "action": "Assess level of consciousness, capillary refill and skin temperature.",
+            "rationale": "These are signs of tissue perfusion."
+          },
+          {
+            "action": "Give oxygen per protocol.",
+            "rationale": "Improves tissue oxygenation."
+          },
+          {
+            "action": "Call the obstetric hemorrhage code and communicate with SBAR.",
+            "rationale": "A team response shortens time to treatment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "oxytocin",
+    "methylergonovine",
+    "misoprostol",
+    "lochia",
+    "fundal-height",
+    "postpartum-assessment",
+    "placental-abruption"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Postpartum Hemorrhage",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-2-postpartum-hemorrhage",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Nursing Care During the Third Stage of Labor",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/18-3-nursing-care-during-the-third-stage-of-labor",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
