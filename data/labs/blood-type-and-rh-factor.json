@@ -1,0 +1,191 @@
+{
+  "id": "blood-type-and-rh-factor",
+  "category": "labs",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Grupo sanguíneo y factor Rh",
+    "aliases": [
+      "grupo y rh",
+      "tipaje",
+      "factor rh",
+      "rh negativo",
+      "grupo sanguíneo",
+      "coombs indirecto",
+      "rastreo de anticuerpos"
+    ],
+    "summary": "Prueba que identifica el grupo ABO (A, B, AB, O) y el factor Rh (positivo o negativo). En el embarazo se realiza en el primer control para detectar el riesgo de incompatibilidad Rh.",
+    "key_points": [
+      "Se hace en el primer control prenatal junto con el rastreo de anticuerpos (Coombs indirecto).",
+      "Madre Rh negativo con bebé Rh positivo: riesgo de sensibilización y enfermedad hemolítica en embarazos futuros.",
+      "Si es Rh negativo no sensibilizada: inmunoglobulina anti-D a las 28 semanas y posparto según el Rh del bebé.",
+      "Coombs indirecto positivo: la madre ya tiene anticuerpos; requiere seguimiento especializado.",
+      "Madre O o Rh negativo: valorar grupo, Rh y Coombs directo del recién nacido según protocolo."
+    ],
+    "sections": {
+      "normal_values": [
+        "No hay un valor \"normal\": cada persona tiene un grupo (A, B, AB u O) y un Rh (positivo o negativo).",
+        "Rastreo de anticuerpos (Coombs indirecto): negativo."
+      ],
+      "high_values": [
+        "Coombs indirecto positivo: anticuerpos maternos contra glóbulos rojos (sensibilización).",
+        "Requiere títulos seriados y vigilancia de anemia fetal."
+      ],
+      "low_values": [],
+      "specimen": [
+        "Sangre venosa en el tubo que indique el laboratorio.",
+        "Identificación rigurosa de la paciente y del tubo (dos identificadores).",
+        "En el recién nacido: sangre del cordón según protocolo."
+      ],
+      "nursing_care": [
+        "Verificar el grupo y Rh en la historia en cada ingreso obstétrico.",
+        "Identificar a las madres Rh negativo y programar la inmunoglobulina anti-D.",
+        "Tomar sangre del cordón para grupo, Rh y Coombs directo cuando esté indicado.",
+        "Vigilar ictericia temprana en recién nacidos con incompatibilidad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de alteración de la díada materno-fetal",
+        "type": "risk",
+        "related_to": [
+          "Madre Rh negativo con posible feto Rh positivo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del riesgo — recibe la profilaxis anti-D en los momentos indicados.",
+          "Estado fetal: preparto — sin signos de anemia fetal."
+        ],
+        "interventions": [
+          {
+            "action": "Revisar los resultados de grupo, Rh y Coombs indirecto al inicio del control.",
+            "rationale": "Identifica el riesgo desde el principio."
+          },
+          {
+            "action": "Programar y administrar la inmunoglobulina anti-D según indicación.",
+            "rationale": "Previene la sensibilización."
+          },
+          {
+            "action": "Educar sobre la importancia en cada embarazo.",
+            "rationale": "Asegura la profilaxis futura."
+          },
+          {
+            "action": "Coordinar estudios del recién nacido cuando estén indicados.",
+            "rationale": "Detecta la enfermedad hemolítica a tiempo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Blood Type and Rh Factor",
+    "aliases": [
+      "blood type and rh",
+      "type and screen",
+      "rh factor",
+      "rh negative",
+      "abo",
+      "indirect coombs",
+      "antibody screen"
+    ],
+    "summary": "Test that identifies the ABO group (A, B, AB, O) and Rh factor (positive or negative). In pregnancy it is done at the first visit to detect the risk of Rh incompatibility.",
+    "key_points": [
+      "Done at the first prenatal visit with an antibody screen (indirect Coombs).",
+      "Rh-negative mother with an Rh-positive baby: risk of sensitization and hemolytic disease in future pregnancies.",
+      "If Rh-negative and unsensitized: Rho(D) immune globulin at 28 weeks and postpartum based on the baby's Rh.",
+      "Positive indirect Coombs: the mother already has antibodies; needs specialist follow-up.",
+      "Mother type O or Rh-negative: check newborn type, Rh and direct Coombs per protocol."
+    ],
+    "sections": {
+      "normal_values": [
+        "There is no \"normal\" value: everyone has a group (A, B, AB or O) and an Rh (positive or negative).",
+        "Antibody screen (indirect Coombs): negative."
+      ],
+      "high_values": [
+        "Positive indirect Coombs: maternal antibodies against red blood cells (sensitization).",
+        "Requires serial titers and monitoring for fetal anemia."
+      ],
+      "low_values": [],
+      "specimen": [
+        "Venous blood in the tube the lab specifies.",
+        "Strict patient and tube identification (two identifiers).",
+        "In the newborn: cord blood per protocol."
+      ],
+      "nursing_care": [
+        "Check blood type and Rh in the chart at every obstetric admission.",
+        "Identify Rh-negative mothers and schedule Rho(D) immune globulin.",
+        "Collect cord blood for type, Rh and direct Coombs when indicated.",
+        "Watch for early jaundice in newborns with incompatibility."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for disturbed maternal-fetal dyad",
+        "type": "risk",
+        "related_to": [
+          "Rh-negative mother with a possible Rh-positive fetus"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Risk Control — receives anti-D prophylaxis at the right times.",
+          "Fetal Status: Antepartum — no signs of fetal anemia."
+        ],
+        "interventions": [
+          {
+            "action": "Review blood type, Rh and indirect Coombs at the start of prenatal care.",
+            "rationale": "Identifies the risk from the start."
+          },
+          {
+            "action": "Schedule and give Rho(D) immune globulin as ordered.",
+            "rationale": "Prevents sensitization."
+          },
+          {
+            "action": "Teach why it matters in every pregnancy.",
+            "rationale": "Ensures future prophylaxis."
+          },
+          {
+            "action": "Coordinate newborn testing when indicated.",
+            "rationale": "Detects hemolytic disease early."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "rho-d-immune-globulin",
+    "neonatal-jaundice",
+    "spontaneous-abortion"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Rh Incompatibility",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/rhincompatibility.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: First Prenatal Visit",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/11-1-first-prenatal-visit",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Nursing Care During the Postpartum Period",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/20-3-nursing-care-during-the-postpartum-period",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

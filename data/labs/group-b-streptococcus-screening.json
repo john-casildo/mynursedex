@@ -1,0 +1,186 @@
+{
+  "id": "group-b-streptococcus-screening",
+  "category": "labs",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Tamizaje de estreptococo del grupo B (EGB)",
+    "aliases": [
+      "estreptococo del grupo b",
+      "egb",
+      "gbs",
+      "streptococcus agalactiae",
+      "cultivo vaginal rectal",
+      "tamizaje egb"
+    ],
+    "summary": "Cultivo vaginal y rectal al final del embarazo para detectar si la madre está colonizada por estreptococo del grupo B, una bacteria que puede causar infección grave en el recién nacido.",
+    "key_points": [
+      "Se toma entre las semanas 36 y 37 + 6 días (según guías actuales).",
+      "Positivo = colonización, no infección: no se trata antes del parto.",
+      "Si es positivo: antibiótico IV durante el trabajo de parto (profilaxis intraparto).",
+      "La profilaxis se considera adecuada si se inicia al menos 4 horas antes del nacimiento.",
+      "También reciben profilaxis: bacteriuria por EGB en el embarazo o un hijo previo con enfermedad por EGB."
+    ],
+    "sections": {
+      "normal_values": [
+        "Negativo: no se aísla estreptococo del grupo B."
+      ],
+      "high_values": [
+        "Positivo: colonización materna; indica profilaxis antibiótica intraparto.",
+        "Si el resultado se desconoce, la profilaxis depende de factores de riesgo (pretérmino, ruptura de membranas prolongada, fiebre)."
+      ],
+      "low_values": [],
+      "specimen": [
+        "Hisopado del tercio inferior de la vagina y luego del recto (atravesando el esfínter anal), sin espéculo.",
+        "Puede tomarlo la misma paciente con instrucciones.",
+        "Rotular y enviar en el medio de transporte indicado."
+      ],
+      "nursing_care": [
+        "Verificar el resultado al ingreso en trabajo de parto.",
+        "Iniciar el antibiótico indicado a tiempo y documentar la hora.",
+        "Preguntar por alergias a la penicilina antes de administrar.",
+        "Informar al equipo neonatal si la profilaxis fue incompleta.",
+        "Vigilar al recién nacido por signos de sepsis."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "Colonización materna por estreptococo del grupo B",
+          "Exposición del recién nacido en el canal del parto"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del riesgo: proceso infeccioso — profilaxis adecuada antes del nacimiento.",
+          "Severidad de la infección: recién nacido — sin signos de sepsis."
+        ],
+        "interventions": [
+          {
+            "action": "Revisar el resultado del tamizaje al ingreso.",
+            "rationale": "Permite iniciar la profilaxis a tiempo."
+          },
+          {
+            "action": "Administrar el antibiótico IV según orden y documentar la hora.",
+            "rationale": "Al menos 4 horas antes del parto reduce la infección neonatal."
+          },
+          {
+            "action": "Valorar alergias antes de la primera dosis.",
+            "rationale": "Evita reacciones y permite elegir otro antibiótico."
+          },
+          {
+            "action": "Vigilar al recién nacido: temperatura, respiración, alimentación y tono.",
+            "rationale": "Detecta la sepsis neonatal temprana."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Group B Streptococcus (GBS) Screening",
+    "aliases": [
+      "group b strep",
+      "gbs",
+      "streptococcus agalactiae",
+      "gbs culture",
+      "vaginal rectal swab",
+      "gbs screening"
+    ],
+    "summary": "Vaginal and rectal culture late in pregnancy to detect whether the mother is colonized with group B streptococcus, a bacterium that can cause serious newborn infection.",
+    "key_points": [
+      "Collected between 36 and 37 6/7 weeks (per current guidelines).",
+      "Positive = colonization, not infection: not treated before labor.",
+      "If positive: IV antibiotics during labor (intrapartum prophylaxis).",
+      "Prophylaxis is considered adequate if started at least 4 hours before birth.",
+      "Also given prophylaxis: GBS bacteriuria in pregnancy or a previous baby with GBS disease."
+    ],
+    "sections": {
+      "normal_values": [
+        "Negative: no group B streptococcus isolated."
+      ],
+      "high_values": [
+        "Positive: maternal colonization; calls for intrapartum antibiotic prophylaxis.",
+        "If the result is unknown, prophylaxis depends on risk factors (preterm, prolonged rupture of membranes, fever)."
+      ],
+      "low_values": [],
+      "specimen": [
+        "Swab of the lower vagina and then the rectum (through the anal sphincter), without a speculum.",
+        "The patient can collect it herself with instructions.",
+        "Label and send in the specified transport medium."
+      ],
+      "nursing_care": [
+        "Check the result on admission in labor.",
+        "Start the ordered antibiotic on time and document the time.",
+        "Ask about penicillin allergy before giving it.",
+        "Tell the neonatal team if prophylaxis was incomplete.",
+        "Monitor the newborn for signs of sepsis."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "Maternal group B strep colonization",
+          "Newborn exposure in the birth canal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Risk Control: Infectious Process — adequate prophylaxis before birth.",
+          "Infection Severity: Newborn — no signs of sepsis."
+        ],
+        "interventions": [
+          {
+            "action": "Check the screening result on admission.",
+            "rationale": "Allows prophylaxis to start on time."
+          },
+          {
+            "action": "Give the IV antibiotic as ordered and document the time.",
+            "rationale": "At least 4 hours before birth reduces newborn infection."
+          },
+          {
+            "action": "Assess allergies before the first dose.",
+            "rationale": "Prevents reactions and allows another antibiotic to be chosen."
+          },
+          {
+            "action": "Monitor the newborn: temperature, breathing, feeding and tone.",
+            "rationale": "Detects early-onset neonatal sepsis."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "premature-rupture-of-membranes",
+    "preterm-labor",
+    "stages-of-labor",
+    "sepsis"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Vaginal Infections and Other Conditions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/7-2-vaginal-infections-and-other-conditions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Care in the Third Trimester of Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/11-4-care-in-the-third-trimester-of-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
