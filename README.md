@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NurseDex
 
-## Getting Started
+Quick lookup for nursing concepts (drugs, conditions, labs, procedures and abbreviations) for nursing students in Costa Rica. Spanish first, with English too.
 
-First, run the development server:
+- Fuzzy search in both languages, works with typos and without accents
+- Full entries: pathophysiology, nursing care, patient teaching, and NANDA-I / NOC / NIC care plans
+- Every entry lists its sources
+
+> **Study aid only.** Entries are drafted with AI from the listed sources and marked as drafts until reviewed. Always follow your instructors, facility policy and current drug references.
+
+## Development
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # http://localhost:3000
+npm run validate     # check all entries (also runs before every build)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Content pipeline
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Entries live in `data/<category>/<id>.json` and are built by the ETL in `scripts/etl/`:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run etl -- sync-books   # one-time: download OpenStax nursing books
+npm run etl -- run          # build entries for new topics in data/topics.txt
+```
 
-## Learn More
+Needs a free [Groq](https://console.groq.com) API key in `.env.local` as `GROQ_API_KEY=...`. See [PLAN.md](PLAN.md) for the full design.
 
-To learn more about Next.js, take a look at the following resources:
+## Sources and license
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Facts come from openFDA / DailyMed, RxNorm, MedlinePlus (National Library of Medicine) and the OpenStax nursing textbooks. Entries built from OpenStax content are adapted from works licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) by OpenStax and are shared under the same license.

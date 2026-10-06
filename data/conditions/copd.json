@@ -1,0 +1,378 @@
+{
+  "id": "copd",
+  "category": "conditions",
+  "es": {
+    "term": "Enfermedad pulmonar obstructiva crónica (EPOC)",
+    "aliases": [
+      "epoc",
+      "enfermedad pulmonar obstructiva crónica",
+      "obstrucción pulmonar",
+      "copd"
+    ],
+    "summary": "La EPOC es una enfermedad progresiva que combina bronquitis crónica y enfisema, caracterizada por obstrucción del flujo aéreo y dificultad para respirar.",
+    "key_points": [
+      "Obstrucción irreversible del flujo aéreo",
+      "Tabaquismo es el principal factor de riesgo",
+      "Espirometría muestra FEV1/FVC <0.70",
+      "Exacerbaciones agudas aumentan morbilidad",
+      "Oxigenoterapia y rehabilitación son esenciales"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño crónico a los alvéolos reduce la elasticidad",
+        "Destrucción de tabiques alveolares crea espacios aéreos grandes",
+        "Hipersecreción y engrosamiento de bronquios estrechan la luz",
+        "Pérdida de capacidad de expulsar aire genera atrapamiento",
+        "Hipoxemia crónica por intercambio gaseoso deficiente"
+      ],
+      "risk_factors": [
+        "Tabaquismo activo o pasivo",
+        "Exposición ocupacional a polvo, químicos o vapores",
+        "Contaminación del aire ambiente",
+        "Deficiencia de alfa‑1 antitripsina (genética)",
+        "Edad avanzada (>40 años)"
+      ],
+      "signs_symptoms": [
+        "Disnea progresiva, inicialmente al esfuerzo",
+        "Tos crónica productiva con esputo blanco o amarillento",
+        "Sibilancias y ruidos respiratorios aumentados",
+        "Uso de músculos accesorios y respiración labial",
+        "Cianosis en casos graves"
+      ],
+      "diagnostics": [
+        "Espirometría: FEV1/FVC <0.70 post‑broncodilatador",
+        "Clasificación GOLD según %FEV1 predicho",
+        "Radiografía de tórax: hiperinsuflación, aplanamiento diafragmático",
+        "Gasometría arterial: PaO2 <60 mmHg, PaCO2 elevado en exacerbación",
+        "Oximetría de pulso: SpO2 <92 % en reposo"
+      ],
+      "treatment": [
+        "Broncodilatadores beta‑2 agonistas de acción corta (albuterol) y larga (salmeterol)",
+        "Anticolinérgicos de acción corta (ipratropio) y larga (tiotropio)",
+        "Corticosteroides inhalados (fluticasona) para reducir inflamación",
+        "Oxígeno suplementario cuando SpO2 <88 %",
+        "Vacunación anual contra influenza y antineumocócica",
+        "Rehabilitación pulmonar y entrenamiento de respiración labial"
+      ],
+      "complications": [
+        "Exacerbaciones agudas con requerimiento de hospitalización",
+        "Insuficiencia respiratoria y necesidad de ventilación mecánica",
+        "Cor pulmonale y edema pulmonar",
+        "Pérdida de peso y caquexia",
+        "Neumotórax espontáneo"
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, patrón y uso de músculos accesorios",
+        "Monitorear SpO2 y solicitar gasometría según indicación",
+        "Colocar al paciente en posición semi‑Fowler para facilitar expansión",
+        "Administrar broncodilatadores según prescripción y observar respuesta",
+        "Enseñar respiración labial y ejercicios de expansión torácica",
+        "Registrar producción y características del esputo"
+      ],
+      "patient_teaching": [
+        "Importancia de cesar el tabaquismo y evitar exposición a irritantes",
+        "Técnica correcta de inhalador y nebulizador",
+        "Reconocer signos de exacerbación: aumento de disnea, cambio de esputo",
+        "Plan de acción para buscar atención médica temprana",
+        "Beneficios de la vacunación y la actividad física regular"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "Obstrucción de vías aéreas",
+          "Hipersecreción de moco",
+          "Pérdida de elasticidad alveolar"
+        ],
+        "evidenced_by": [
+          "Disnea en reposo",
+          "Uso de músculos accesorios",
+          "Taquipnea",
+          "Cianosis"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: frecuencia respiratoria 12-20 rpm en 48 h",
+          "Oxigenación adecuada: SpO2 ≥ 92 % en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar frecuencia respiratoria y patrón cada 4 h",
+            "rationale": "Detectar cambios tempranos y guiar intervenciones"
+          },
+          {
+            "action": "Administrar broncodilatador inhalado según orden y observar mejoría",
+            "rationale": "Broncodilatador relaja músculo liso y mejora el flujo aéreo"
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑Fowler y enseñar respiración labial",
+            "rationale": "Facilita la expansión pulmonar y reduce el atrapamiento de aire"
+          },
+          {
+            "action": "Monitorear SpO2 y notificar si < 92 %",
+            "rationale": "Mantener saturación adecuada previene hipoxemia"
+          },
+          {
+            "action": "Aspirar secreciones si hay obstrucción y registrar cantidad",
+            "rationale": "Eliminar moco mejora la ventilación"
+          },
+          {
+            "action": "Educar sobre reconocimiento de empeoramiento y uso del inhalador de rescate",
+            "rationale": "Empoderar al paciente para manejo temprano"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Hipoxemia crónica",
+          "Desacondicionamiento muscular"
+        ],
+        "evidenced_by": [
+          "Fatiga al realizar actividades de la vida diaria",
+          "Disminución de la distancia en prueba de caminata de 6 min"
+        ],
+        "outcomes": [
+          "Aumenta distancia en prueba de caminata de 6 min en 10 % en 1 semana",
+          "Reporta menor disnea (escala Borg ≤ 3) durante actividades cotidianas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de disnea con escala Borg antes y después de actividades",
+            "rationale": "Cuantificar la intolerancia permite planificar progresión"
+          },
+          {
+            "action": "Planificar programa de ejercicio aeróbico gradual (caminar 5‑10 min, 3 veces/día)",
+            "rationale": "Mejora la capacidad aeróbica y reduce la fatiga"
+          },
+          {
+            "action": "Enseñar técnicas de pacing y descansos programados",
+            "rationale": "Distribuir la actividad evita sobrecarga y mejora tolerancia"
+          },
+          {
+            "action": "Monitorear signos vitales antes y después del ejercicio",
+            "rationale": "Detectar descompensación temprana"
+          },
+          {
+            "action": "Reforzar adherencia a oxigenoterapia si está prescrita durante actividad",
+            "rationale": "Mantener saturación adecuada durante el esfuerzo"
+          },
+          {
+            "action": "Proveer educación sobre nutrición adecuada para mantener masa muscular",
+            "rationale": "Apoyo nutricional favorece la resistencia física"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Chronic obstructive pulmonary disease (COPD)",
+    "aliases": [
+      "copd",
+      "chronic obstructive pulmonary disease",
+      "obstructive lung disease",
+      "chronic bronchitis"
+    ],
+    "summary": "COPD is a progressive disease that combines chronic bronchitis and emphysema, characterized by airway obstruction and difficulty breathing.",
+    "key_points": [
+      "Irreversible airway obstruction",
+      "Smoking is the primary risk factor",
+      "Spirometry shows FEV1/FVC <0.70",
+      "Acute exacerbations increase morbidity",
+      "Oxygen therapy and pulmonary rehabilitation are essential"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic damage to alveoli reduces elasticity",
+        "Destruction of alveolar septa creates large air spaces",
+        "Hypersecretion and thickening of bronchi narrow the lumen",
+        "Loss of expiratory capacity leads to air trapping",
+        "Chronic hypoxemia from poor gas exchange"
+      ],
+      "risk_factors": [
+        "Active or passive smoking",
+        "Occupational exposure to dust, chemicals, or vapors",
+        "Ambient air pollution",
+        "Alpha‑1 antitrypsin deficiency (genetic)",
+        "Advanced age (>40 years)"
+      ],
+      "signs_symptoms": [
+        "Progressive dyspnea, initially on exertion",
+        "Chronic productive cough with white or yellow sputum",
+        "Wheezing and increased respiratory sounds",
+        "Use of accessory muscles and pursed‑lip breathing",
+        "Cyanosis in severe cases"
+      ],
+      "diagnostics": [
+        "Spirometry: post‑bronchodilator FEV1/FVC <0.70",
+        "GOLD classification based on % predicted FEV1",
+        "Chest X‑ray: hyperinflation, diaphragmatic flattening",
+        "Arterial blood gas: PaO2 <60 mmHg, elevated PaCO2 during exacerbation",
+        "Pulse oximetry: SpO2 <92 % at rest"
+      ],
+      "treatment": [
+        "Albuterol (Ventolin) short‑acting beta‑2 agonist and Salmeterol (Serevent) long‑acting beta‑2 agonist",
+        "Ipratropium (Atrovent) short‑acting anticholinergic and Tiotropium (Spiriva) long‑acting anticholinergic",
+        "Inhaled corticosteroid Fluticasone (Flovent) to reduce inflammation",
+        "Supplemental oxygen when SpO2 <88 %",
+        "Annual influenza and pneumococcal vaccination",
+        "Pulmonary rehabilitation and pursed‑lip breathing training"
+      ],
+      "complications": [
+        "Acute exacerbations requiring hospitalization",
+        "Respiratory failure and need for mechanical ventilation",
+        "Cor pulmonale (CP) and pulmonary edema",
+        "Weight loss and cachexia",
+        "Spontaneous pneumothorax"
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, pattern, and use of accessory muscles",
+        "Monitor SpO2 and obtain arterial blood gas as indicated",
+        "Place patient in semi‑Fowler position to facilitate expansion",
+        "Administer bronchodilators as prescribed and observe response",
+        "Teach pursed‑lip breathing and thoracic expansion exercises",
+        "Record sputum amount and characteristics"
+      ],
+      "patient_teaching": [
+        "Importance of quitting smoking and avoiding irritants",
+        "Correct inhaler and nebulizer technique",
+        "Recognize signs of exacerbation: increased dyspnea, change in sputum",
+        "Action plan for early medical attention",
+        "Benefits of vaccination and regular physical activity"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "Airway obstruction",
+          "Mucus hypersecretion",
+          "Loss of alveolar elasticity"
+        ],
+        "evidenced_by": [
+          "Dyspnea at rest",
+          "Use of accessory muscles",
+          "Tachypnea",
+          "Cyanosis"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: respiratory rate 12‑20 breaths/min within 48 h",
+          "Adequate oxygenation: SpO2 ≥ 92 % at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Assess and document respiratory rate and pattern every 4 h",
+            "rationale": "Detect early changes and guide interventions"
+          },
+          {
+            "action": "Administer prescribed inhaled bronchodilator and observe improvement",
+            "rationale": "Bronchodilator relaxes smooth muscle and improves airflow"
+          },
+          {
+            "action": "Place patient in semi‑Fowler position and teach pursed‑lip breathing",
+            "rationale": "Facilitates lung expansion and reduces air trapping"
+          },
+          {
+            "action": "Monitor SpO2 and notify if < 92 %",
+            "rationale": "Maintaining adequate saturation prevents hypoxemia"
+          },
+          {
+            "action": "Aspirate secretions if obstruction present and document quantity",
+            "rationale": "Removing mucus improves ventilation"
+          },
+          {
+            "action": "Educate on recognizing worsening symptoms and using rescue inhaler",
+            "rationale": "Empower patient for early self‑management"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Chronic hypoxemia",
+          "Muscle deconditioning"
+        ],
+        "evidenced_by": [
+          "Fatigue during activities of daily living",
+          "Reduced distance on 6‑minute walk test"
+        ],
+        "outcomes": [
+          "Increase 6‑minute walk distance by 10 % within 1 week",
+          "Report lower dyspnea (Borg scale ≤ 3) during routine activities"
+        ],
+        "interventions": [
+          {
+            "action": "Assess dyspnea level with Borg scale before and after activities",
+            "rationale": "Quantifying intolerance allows planning of progression"
+          },
+          {
+            "action": "Develop gradual aerobic exercise program (walk 5‑10 min, 3 times/day)",
+            "rationale": "Improves aerobic capacity and reduces fatigue"
+          },
+          {
+            "action": "Teach pacing techniques and scheduled rest breaks",
+            "rationale": "Distributing activity prevents overload and improves tolerance"
+          },
+          {
+            "action": "Monitor vital signs before and after exercise",
+            "rationale": "Detect early decompensation"
+          },
+          {
+            "action": "Reinforce adherence to prescribed oxygen therapy during activity",
+            "rationale": "Maintain adequate saturation during exertion"
+          },
+          {
+            "action": "Provide education on proper nutrition to preserve muscle mass",
+            "rationale": "Adequate nutrition supports physical endurance"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "chronic-bronchitis",
+    "emphysema",
+    "pulmonary-hypertension"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: COPD",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/copd.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedad de obstrucción pulmonar crónica",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/copd.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower Respiratory System: Chronic Obstructive Pulmonary Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-5-disorders-of-the-lower-respiratory-system-chronic-obstructive-pulmonary-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Adrenergics and Anticholinergics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/25-1-adrenergics-and-anticholinergics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

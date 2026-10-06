@@ -1,0 +1,356 @@
+{
+  "id": "diabetic-ketoacidosis",
+  "category": "conditions",
+  "es": {
+    "term": "Cetoacidosis diabética (CAD)",
+    "aliases": [
+      "cetoacidosis diabética",
+      "dka",
+      "cetoacidosis",
+      "diabetes tipo 1",
+      "acidosis metabólica"
+    ],
+    "summary": "Emergencia metabólica por falta de insulina que produce hiperglucemia, cetonemia y acidosis. Requiere reposición de líquidos, corrección de electrolitos y terapia con insulina.",
+    "key_points": [
+      "Glucemia >250 mg/dL, pH ≤7.30 y cetonas positivas en sangre/orina.",
+      "Deshidratación severa por diuresis osmótica y vómitos.",
+      "Anión gap elevado (>12 mEq/L) indica acidosis metabólica.",
+      "Hipopotasemia frecuente al iniciar insulina.",
+      "Manejo: reposición de líquidos, insulina IV y monitoreo de electrolitos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Falta de insulina impide la captación de glucosa y favorece la lipólisis.",
+        "Ácidos grasos libres se convierten en cuerpos cetónicos (acetoacetato, β‑hidroxi‑butirato).",
+        "Acumulación de cetonas genera acidosis metabólica y aumento del anión gap.",
+        "Hiperglucemia osmótica produce diuresis poliuria → pérdida de agua y electrolitos.",
+        "Deshidratación reduce perfusión renal, empeorando la eliminación de cetonas."
+      ],
+      "risk_factors": [
+        "Diabetes tipo 1 sin insulina o dosis insuficiente.",
+        "Infección, sepsis, estrés fisiológico o cirugía.",
+        "Abuso de alcohol o drogas que inhiben la secreción de insulina.",
+        "Omisión de dosis de insulina por enfermedad o falta de recursos.",
+        "Uso de corticoides o catecolaminas que aumentan la glucemia."
+      ],
+      "signs_symptoms": [
+        "Poliuria, polidipsia y pérdida de peso.",
+        "Náuseas, vómitos y dolor abdominal.",
+        "Respiración de Kussmaul (hiperventilación profunda).",
+        "Aliento con olor a fruta (acetona).",
+        "Confusión, somnolencia o coma si progresa."
+      ],
+      "diagnostics": [
+        "Glucemia >250 mg/dL (usualmente >400 mg/dL).",
+        "Cetonas positivas en sangre y/o orina.",
+        "pH arterial ≤7.30 y bicarbonato <18 mEq/L.",
+        "Anión gap >12 mEq/L (Na⁺ – [Cl⁻ + HCO₃⁻]).",
+        "Leucocitosis posible por estrés/infección."
+      ],
+      "treatment": [
+        "Reposición de líquidos isotónicos (solución salina 0.9 %).",
+        "Insulina regular IV en bolo seguido de infusión continua.",
+        "Corrección de potasio antes y durante la terapia con insulina.",
+        "Monitoreo frecuente de glucosa, gases arteriales y electrolitos.",
+        "Tratamiento de la causa subyacente (antibióticos si hay infección)."
+      ],
+      "complications": [
+        "Hipopotasemia severa → arritmias cardíacas.",
+        "Edema cerebral por corrección rápida de la glucemia.",
+        "Insuficiencia renal aguda por deshidratación.",
+        "Hipoglucemia por exceso de insulina.",
+        "Muerte si no se trata a tiempo."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 15‑30 min y nivel de conciencia.",
+        "Monitorear entrada y salida de líquidos; registrar pérdidas urinarias y vómitos.",
+        "Controlar glucemia capilar cada hora hasta estabilizar.",
+        "Observar ritmo cardíaco y ECG por cambios de K⁺.",
+        "Mantener vía intravenosa de calibre adecuado para reposición rápida."
+      ],
+      "patient_teaching": [
+        "Importancia de la adherencia al esquema de insulina y auto‑monitoreo de glucosa.",
+        "Reconocer signos tempranos de CAD (sed excesiva, vómitos, aliento afrutado).",
+        "Cómo actuar ante una infección o estrés: contactar al profesional de salud.",
+        "Mantener hidratación adecuada y no suspender insulina sin indicación.",
+        "Educación sobre el uso de glucómetro y registro de resultados."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "diuresis osmótica",
+          "vómitos",
+          "pérdida de líquidos por poliuria"
+        ],
+        "evidenced_by": [
+          "taquicardia",
+          "presión arterial baja",
+          "turgencia cutánea disminuida",
+          "orina escasa"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h",
+          "Presión arterial: mantener ≥90/60 mmHg",
+          "Estado de hidratación: piel turgida y mucosas húmedas"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar reposición de solución salina 0.9 % a 15‑20 mL/kg en la primera hora.",
+            "rationale": "Restablece el volumen intravascular y mejora perfusión tisular."
+          },
+          {
+            "action": "Registrar y comparar entrada y salida de líquidos cada hora.",
+            "rationale": "Permite detectar desequilibrios y ajustar la terapia rápidamente."
+          },
+          {
+            "action": "Evaluar signos de sobrecarga (edema, crepitaciones) y ajustar velocidad de infusión.",
+            "rationale": "Previene complicaciones por exceso de fluidos."
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 15 min.",
+            "rationale": "Detecta mejoría o deterioro hemodinámico."
+          },
+          {
+            "action": "Administrar insulina según orden médica después de iniciar fluidos.",
+            "rationale": "Reduce glucemia y detiene la producción de cetonas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de potasio por diuresis",
+          "insulina que desplaza K⁺ intracelular",
+          "vomitos",
+          "hiperglucemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Potásio sérico: mantener entre 3.5‑5.0 mEq/L",
+          "Sodio sérico: mantener entre 135‑145 mEq/L",
+          "Anión gap: mantener ≤12 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener electrolitos séricos (Na⁺, K⁺, Cl⁻, HCO₃⁻) cada 2‑4 horas.",
+            "rationale": "Permite detectar rápidamente desequilibrios y corregirlos."
+          },
+          {
+            "action": "Administrar potasio IV según orden, antes de iniciar insulina si K⁺ <3.3 mEq/L.",
+            "rationale": "Previene hipopotasemia grave y arritmias."
+          },
+          {
+            "action": "Ajustar la velocidad de la infusión de solución salina según valores de Na⁺.",
+            "rationale": "Corrige hipernatremia y evita sobrecarga de sodio."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar síntomas de debilidad muscular o palpitaciones.",
+            "rationale": "Facilita la detección temprana de alteraciones electrolíticas."
+          },
+          {
+            "action": "Documentar cambios en ECG relacionados con K⁺ y notificar al médico.",
+            "rationale": "El ECG es una herramienta rápida para identificar efectos de la hipopotasemia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Diabetic ketoacidosis (DKA)",
+    "aliases": [
+      "diabetic ketoacidosis",
+      "dka",
+      "ketoacidosis",
+      "type 1 diabetes",
+      "metabolic acidosis"
+    ],
+    "summary": "Metabolic emergency due to insulin deficiency that produces hyperglycemia, ketonemia, and acidosis. Requires fluid replacement, electrolyte correction, and insulin therapy.",
+    "key_points": [
+      "Blood glucose >250 mg/dL, pH ≤7.30 and positive ketones in blood/urine.",
+      "Severe dehydration from osmotic diuresis and vomiting.",
+      "Elevated anion gap (>12 mEq/L) indicates metabolic acidosis.",
+      "Hypokalemia common when insulin is started.",
+      "Management: fluid replacement, IV insulin, and electrolyte monitoring."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lack of insulin prevents glucose uptake and promotes lipolysis.",
+        "Free fatty acids are converted to ketone bodies (acetoacetate, β‑hydroxybutyrate).",
+        "Ketone accumulation causes metabolic acidosis and raises the anion gap.",
+        "Osmotic hyperglycemia produces polyuria → loss of water and electrolytes.",
+        "Dehydration reduces renal perfusion, worsening ketone elimination."
+      ],
+      "risk_factors": [
+        "Type 1 diabetes without insulin or with insufficient dose.",
+        "Infection, sepsis, physiological stress, or surgery.",
+        "Alcohol or drug abuse that inhibits insulin secretion.",
+        "Omission of insulin doses due to illness or lack of resources.",
+        "Use of corticosteroids or catecholamines that raise glucose."
+      ],
+      "signs_symptoms": [
+        "Polyuria, polydipsia, and weight loss.",
+        "Nausea, vomiting, and abdominal pain.",
+        "Kussmaul respirations (deep, rapid breathing).",
+        "Fruity‑smelling breath (acetone).",
+        "Confusion, drowsiness, or coma if progressive."
+      ],
+      "diagnostics": [
+        "Blood glucose >250 mg/dL (usually >400 mg/dL).",
+        "Positive ketones in blood and/or urine.",
+        "Arterial pH ≤7.30 and bicarbonate <18 mEq/L.",
+        "Anion gap >12 mEq/L (Na⁺ – [Cl⁻ + HCO₃⁻]).",
+        "Possible leukocytosis from stress/infection."
+      ],
+      "treatment": [
+        "Isotonic fluid replacement (0.9% saline).",
+        "IV regular insulin bolus followed by continuous infusion.",
+        "Correct potassium before and during insulin therapy.",
+        "Frequent monitoring of glucose, arterial gases, and electrolytes.",
+        "Treat underlying cause (antibiotics if infection)."
+      ],
+      "complications": [
+        "Severe hypokalemia → cardiac arrhythmias.",
+        "Cerebral edema from rapid glucose correction.",
+        "Acute renal failure due to dehydration.",
+        "Hypoglycemia from excess insulin.",
+        "Death if untreated."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 15‑30 min and level of consciousness.",
+        "Monitor intake and output; record urinary losses and vomiting.",
+        "Check capillary glucose hourly until stable.",
+        "Observe cardiac rhythm and ECG for potassium‑related changes.",
+        "Maintain an appropriately sized IV line for rapid fluid replacement."
+      ],
+      "patient_teaching": [
+        "Importance of adhering to insulin regimen and self‑monitoring glucose.",
+        "Recognize early signs of DKA (excess thirst, vomiting, fruity breath).",
+        "How to act during infection or stress: contact health professional.",
+        "Maintain adequate hydration and do not stop insulin without guidance.",
+        "Education on glucometer use and recording results."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "osmotic diuresis",
+          "vomiting",
+          "fluid loss from polyuria"
+        ],
+        "evidenced_by": [
+          "tachycardia",
+          "low blood pressure",
+          "decreased skin turgor",
+          "scant urine output"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL/24 h",
+          "Blood pressure: maintain ≥90/60 mmHg",
+          "Hydration status: skin turgor normal and mucous membranes moist"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate 0.9% saline at 15‑20 mL/kg during the first hour.",
+            "rationale": "Restores intravascular volume and improves tissue perfusion."
+          },
+          {
+            "action": "Record and compare intake and output each hour.",
+            "rationale": "Allows detection of imbalances and rapid therapy adjustment."
+          },
+          {
+            "action": "Assess for signs of overload (edema, crackles) and adjust infusion rate.",
+            "rationale": "Prevents complications from fluid excess."
+          },
+          {
+            "action": "Monitor blood pressure and heart rate every 15 min.",
+            "rationale": "Detects hemodynamic improvement or deterioration."
+          },
+          {
+            "action": "Administer insulin per physician order after fluids are started.",
+            "rationale": "Lowers glucose and halts ketone production."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "potassium loss from diuresis",
+          "insulin shifting K⁺ intracellularly",
+          "vomiting",
+          "hyperglycemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum potassium: maintain 3.5‑5.0 mEq/L",
+          "Serum sodium: maintain 135‑145 mEq/L",
+          "Anion gap: maintain ≤12 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain serum electrolytes (Na⁺, K⁺, Cl⁻, HCO₃⁻) every 2‑4 hours.",
+            "rationale": "Enables rapid detection and correction of imbalances."
+          },
+          {
+            "action": "Administer IV potassium per order, before insulin if K⁺ <3.3 mEq/L.",
+            "rationale": "Prevents severe hypokalemia and arrhythmias."
+          },
+          {
+            "action": "Adjust saline infusion rate based on sodium values.",
+            "rationale": "Corrects hypernatremia and avoids sodium overload."
+          },
+          {
+            "action": "Educate patient on reporting muscle weakness or palpitations.",
+            "rationale": "Facilitates early detection of electrolyte disturbances."
+          },
+          {
+            "action": "Document ECG changes related to potassium and notify physician.",
+            "rationale": "ECG provides a quick tool to identify effects of hypokalemia."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperglycemic-hyperosmolar-state",
+    "metabolic-acidosis",
+    "insulin-therapy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diabetes Complications",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diabetescomplications.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Physiological Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/8-4-physiological-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Diabetes Mellitus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-2-diabetes-mellitus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

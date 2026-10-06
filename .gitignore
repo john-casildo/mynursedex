@@ -39,3 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# ETL: downloaded OpenStax books (re-download with: npm run etl -- sync-books)
+/data/raw/openstax/

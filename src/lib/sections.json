@@ -1,0 +1,183 @@
+{
+  "pharmacology": {
+    "care_plans": 1,
+    "sections": [
+      {
+        "id": "mechanism",
+        "es": "Mecanismo de acción",
+        "en": "Mechanism of action",
+        "hint": "how it works, in simple terms"
+      },
+      {
+        "id": "indications",
+        "es": "Indicaciones",
+        "en": "Indications"
+      },
+      {
+        "id": "contraindications",
+        "es": "Contraindicaciones y precauciones",
+        "en": "Contraindications & precautions"
+      },
+      {
+        "id": "adverse_effects",
+        "es": "Efectos adversos",
+        "en": "Adverse effects",
+        "hint": "common ones first, then serious ones marked as serious"
+      },
+      {
+        "id": "interactions",
+        "es": "Interacciones",
+        "en": "Interactions"
+      },
+      {
+        "id": "nursing_care",
+        "es": "Cuidados de enfermería",
+        "en": "Nursing care",
+        "hint": "what to assess before giving, what to monitor, when to hold and notify"
+      },
+      {
+        "id": "patient_teaching",
+        "es": "Educación al paciente",
+        "en": "Patient teaching"
+      },
+      {
+        "id": "antidote_overdose",
+        "es": "Antídoto y sobredosis",
+        "en": "Antidote & overdose",
+        "hint": "leave empty if there is no specific antidote"
+      }
+    ]
+  },
+  "conditions": {
+    "care_plans": 2,
+    "sections": [
+      {
+        "id": "pathophysiology",
+        "es": "Fisiopatología",
+        "en": "Pathophysiology",
+        "hint": "simple step-by-step explanation"
+      },
+      {
+        "id": "risk_factors",
+        "es": "Causas y factores de riesgo",
+        "en": "Causes & risk factors"
+      },
+      {
+        "id": "signs_symptoms",
+        "es": "Signos y síntomas",
+        "en": "Signs & symptoms"
+      },
+      {
+        "id": "diagnostics",
+        "es": "Exámenes diagnósticos",
+        "en": "Diagnostic tests",
+        "hint": "labs and studies, with what result is expected"
+      },
+      {
+        "id": "treatment",
+        "es": "Tratamiento médico",
+        "en": "Medical treatment",
+        "hint": "drug classes and procedures, no doses"
+      },
+      {
+        "id": "complications",
+        "es": "Complicaciones",
+        "en": "Complications"
+      },
+      {
+        "id": "nursing_care",
+        "es": "Cuidados de enfermería",
+        "en": "Nursing care",
+        "hint": "assessment, monitoring, positioning, priorities"
+      },
+      {
+        "id": "patient_teaching",
+        "es": "Educación al paciente",
+        "en": "Patient teaching"
+      }
+    ]
+  },
+  "labs": {
+    "care_plans": 1,
+    "sections": [
+      {
+        "id": "normal_values",
+        "es": "Valores normales",
+        "en": "Normal values",
+        "hint": "adult range with units; note that ranges vary by lab"
+      },
+      {
+        "id": "high_values",
+        "es": "Valores altos",
+        "en": "High values",
+        "hint": "name of the condition, causes, signs"
+      },
+      {
+        "id": "low_values",
+        "es": "Valores bajos",
+        "en": "Low values",
+        "hint": "name of the condition, causes, signs"
+      },
+      {
+        "id": "specimen",
+        "es": "Toma de la muestra",
+        "en": "Specimen collection",
+        "hint": "tube, fasting, timing, common errors"
+      },
+      {
+        "id": "nursing_care",
+        "es": "Cuidados de enfermería",
+        "en": "Nursing care",
+        "hint": "what to do with abnormal results, which meds to check"
+      }
+    ]
+  },
+  "fundamentals": {
+    "care_plans": 1,
+    "sections": [
+      {
+        "id": "purpose",
+        "es": "Objetivo",
+        "en": "Purpose"
+      },
+      {
+        "id": "procedure",
+        "es": "Procedimiento",
+        "en": "Procedure",
+        "hint": "key steps in order"
+      },
+      {
+        "id": "safety",
+        "es": "Seguridad y precauciones",
+        "en": "Safety & precautions"
+      },
+      {
+        "id": "nursing_care",
+        "es": "Cuidados de enfermería",
+        "en": "Nursing care",
+        "hint": "assessment before and after, what to report"
+      },
+      {
+        "id": "documentation",
+        "es": "Registro de enfermería",
+        "en": "Documentation"
+      }
+    ]
+  },
+  "abbreviations": {
+    "care_plans": 0,
+    "sections": [
+      {
+        "id": "usage",
+        "es": "Uso",
+        "en": "Usage",
+        "hint": "where and how it is used, with an example"
+      },
+      {
+        "id": "nursing_care",
+        "es": "Cuidados de enfermería",
+        "en": "Nursing care"
+      }
+    ]
+  }
+}

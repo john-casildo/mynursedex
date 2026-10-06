@@ -1,0 +1,263 @@
+{
+  "id": "heparin",
+  "category": "pharmacology",
+  "es": {
+    "term": "Heparina (no fraccionada)",
+    "aliases": [
+      "heparina",
+      "anticoagulante",
+      "heparina sodio",
+      "heparina no fraccionada",
+      "sangrado",
+      "hit",
+      "heparin sodium"
+    ],
+    "summary": "La heparina no fraccionada es un anticoagulante parenteral que potencia la acción del antitrombina para inhibir varios factores de la coagulación.",
+    "key_points": [
+      "Se une a la antitrombina y bloquea IIa (trombina) y Xa.",
+      "El nivel terapéutico se controla con aPTT (tiempo de tromboplastina parcial activado).",
+      "Reacción adversa grave: trombocitopenia inducida por heparina (HIT).",
+      "Reversión parcial con sulfato de protamina.",
+      "Doble verificación de concentración y dosis es obligatoria por ser medicamento de alto riesgo."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une a la antitrombina III formando un complejo.",
+        "El complejo inactiva IIa (trombina) y los factores Xa, IXa, XIa y XIIa.",
+        "Reduce la formación de fibrina y la extensión del coágulo."
+      ],
+      "indications": [
+        "Profilaxis y tratamiento de trombosis venosa profunda (TVP) y embolia pulmonar (EP).",
+        "Prevención de TVP/EP postoperatoria en cirugías mayores.",
+        "Fibrilación auricular con riesgo de embolización.",
+        "Coagulopatías consumptivas como coagulación intravascular diseminada (CID)."
+      ],
+      "contraindications": [
+        "Historia de trombocitopenia inducida por heparina (HIT).",
+        "Hipersensibilidad a la heparina o a productos de cerdo.",
+        "Hemorragia activa o riesgo inminente de sangrado grave.",
+        "Incapacidad para monitorizar pruebas de coagulación (aPTT, TCT)."
+      ],
+      "adverse_effects": [
+        "Hematoma o sangrado leve en el sitio de inyección.",
+        "Trombocitopenia (disminución de plaquetas).",
+        "Reacción alérgica o anafiláctica (rara).",
+        "Hemorragia grave – *serious*.",
+        "Trombocitopenia inducida por heparina (HIT) – *serious*."
+      ],
+      "interactions": [
+        "Otros anticoagulantes (warfarina, LMWH) aumentan riesgo de sangrado.",
+        "Antiplaquetarios (aspirina, clopidogrel) potencian hemorragia.",
+        "AINEs (ibuprofeno, naproxeno) incrementan riesgo de sangrado gastrointestinal.",
+        "Trombolíticos (alteplasa) pueden producir sangrado masivo."
+      ],
+      "nursing_care": [
+        "Evaluar CBC, plaquetas y aPTT antes de iniciar la terapia.",
+        "Monitorear signos de sangrado: hematuria, melena, sangrado de encías, hematomas.",
+        "Controlar aPTT cada 6‑8 h hasta alcanzar rango terapéutico (1.5‑2.5× control).",
+        "Retener la dosis y notificar al médico si aPTT > 2.5× control, plaquetas < 50 000 /µL o sangrado activo.",
+        "Rotar sitios de inyección subcutánea y observar por hematomas."
+      ],
+      "patient_teaching": [
+        "Informar cualquier sangrado inusual, sangre en orina o heces.",
+        "Evitar el uso de aspirina, ibuprofeno u otros AINE sin autorización.",
+        "No aplicar presión fuerte ni masaje en el sitio de inyección.",
+        "Reportar sensación de picor o enrojecimiento en la zona de inyección."
+      ],
+      "antidote_overdose": [
+        "Sulfato de protamina (reversión parcial del efecto anticoagulante).",
+        "En caso de sobredosis, monitorizar aPTT y signos de sangrado, administrar protamina según protocolo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "Uso de heparina",
+          "Trombocitopenia inducida por heparina",
+          "Procedimientos invasivos",
+          "Coagulopatía subyacente"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin evidencia de sangrado activo durante la terapia.",
+          "aPTT dentro del rango terapéutico especificado por el médico."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar CBC, plaquetas y aPTT antes de iniciar y durante la terapia.",
+            "rationale": "Permite detectar trombocitopenia o exceso de anticoagulación tempranamente."
+          },
+          {
+            "action": "Monitorear signos de sangrado cada 4 h y reportar cualquier hemorragia.",
+            "rationale": "Identifica complicaciones hemorrágicas a tiempo para intervenir."
+          },
+          {
+            "action": "Verificar doblemente la concentración y la dosis de heparina antes de administrar.",
+            "rationale": "Reduce errores de medicación en un fármaco de alto riesgo."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si aPTT > 2.5× control o plaquetas < 50 000 /µL.",
+            "rationale": "Previene hemorragias graves por sobredosis o HIT."
+          },
+          {
+            "action": "Educar al paciente sobre signos de sangrado y cuándo buscar ayuda.",
+            "rationale": "Facilita la detección precoz de complicaciones fuera del entorno hospitalario."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Heparin (unfractionated)",
+    "aliases": [
+      "heparin",
+      "anticoagulant",
+      "heparin sodium",
+      "unfractionated heparin",
+      "bleeding",
+      "hit"
+    ],
+    "summary": "Unfractionated heparin is a parenteral anticoagulant that enhances antithrombin activity to inhibit several clotting factors.",
+    "key_points": [
+      "Binds antithrombin and blocks IIa (thrombin) and Xa.",
+      "Therapeutic level is monitored with aPTT (activated partial thromboplastin time).",
+      "Serious adverse reaction: heparin‑induced thrombocytopenia (HIT).",
+      "Partial reversal with protamine sulfate.",
+      "Double‑check concentration and dose is mandatory because it is a high‑risk medication."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds antithrombin III forming a complex.",
+        "The complex inactivates IIa (thrombin) and factors Xa, IXa, XIa, and XIIa.",
+        "Reduces fibrin formation and clot propagation."
+      ],
+      "indications": [
+        "Prophylaxis and treatment of deep vein thrombosis (DVT) and pulmonary embolism (PE).",
+        "Post‑operative DVT/PE prevention in major surgeries.",
+        "Atrial fibrillation with embolic risk.",
+        "Consumptive coagulopathies such as disseminated intravascular coagulation (DIC)."
+      ],
+      "contraindications": [
+        "History of heparin‑induced thrombocytopenia (HIT).",
+        "Hypersensitivity to heparin or pork products.",
+        "Active bleeding or imminent risk of severe hemorrhage.",
+        "Inability to monitor coagulation tests (aPTT, TCT)."
+      ],
+      "adverse_effects": [
+        "Hematoma or mild bleeding at injection site.",
+        "Thrombocytopenia (platelet drop).",
+        "Allergic or anaphylactic reaction (rare).",
+        "Severe hemorrhage – *serious*.",
+        "Heparin‑induced thrombocytopenia (HIT) – *serious*."
+      ],
+      "interactions": [
+        "Other anticoagulants (warfarin, LMWH) increase bleeding risk.",
+        "Antiplatelet agents (aspirin, clopidogrel) potentiate hemorrhage.",
+        "NSAIDs (ibuprofen, naproxen) raise risk of gastrointestinal bleeding.",
+        "Thrombolytics (alteplase) may cause massive bleeding."
+      ],
+      "nursing_care": [
+        "Obtain CBC, platelet count and aPTT before starting therapy.",
+        "Monitor for signs of bleeding: hematuria, melena, gum bleeding, bruises.",
+        "Check aPTT every 6‑8 h until therapeutic range (1.5‑2.5× control) is reached.",
+        "Hold dose and notify physician if aPTT > 2.5× control, platelets < 50 000 /µL, or active bleeding occurs.",
+        "Rotate subcutaneous injection sites and inspect for bruising."
+      ],
+      "patient_teaching": [
+        "Report any unusual bleeding, blood in urine or stool.",
+        "Avoid aspirin, ibuprofen or other NSAIDs without approval.",
+        "Do not apply strong pressure or massage the injection site.",
+        "Report itching or redness at the injection site."
+      ],
+      "antidote_overdose": [
+        "Protamine sulfate (partial reversal of anticoagulant effect).",
+        "In overdose, monitor aPTT and bleeding signs, administer protamine per protocol."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "Heparin use",
+          "Heparin‑induced thrombocytopenia",
+          "Invasive procedures",
+          "Underlying coagulopathy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No evidence of active bleeding during therapy.",
+          "aPTT remains within the therapeutic range specified by the provider."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record CBC, platelet count and aPTT before initiating and throughout therapy.",
+            "rationale": "Allows early detection of thrombocytopenia or excess anticoagulation."
+          },
+          {
+            "action": "Monitor for signs of bleeding every 4 h and report any hemorrhage.",
+            "rationale": "Identifies hemorrhagic complications promptly for intervention."
+          },
+          {
+            "action": "Double‑check heparin concentration and dose before administration.",
+            "rationale": "Reduces medication errors with a high‑risk drug."
+          },
+          {
+            "action": "Hold the dose and notify the physician if aPTT > 2.5× control or platelets < 50 000 /µL.",
+            "rationale": "Prevents severe bleeding from overdose or HIT."
+          },
+          {
+            "action": "Educate the patient on bleeding signs and when to seek help.",
+            "rationale": "Facilitates early detection of complications outside the hospital."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "deep-vein-thrombosis",
+    "pulmonary-embolism",
+    "heparin-induced-thrombocytopenia",
+    "protamine-sulfate",
+    "coagulation-cascade"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: HEPARIN SODIUM label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=02fb700d-a28c-4d45-b78d-382dc0d5986c",
+      "lang": "en"
+    },
+    {
+      "name": "RxNorm: Heparin",
+      "publisher": "National Library of Medicine",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=235473",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Administering Subcutaneous Injections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/12-5-administering-subcutaneous-injections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

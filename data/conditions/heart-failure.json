@@ -1,0 +1,348 @@
+{
+  "id": "heart-failure",
+  "category": "conditions",
+  "es": {
+    "term": "Insuficiencia cardíaca (IC)",
+    "aliases": [
+      "insuficiencia cardiaca",
+      "ic",
+      "fallo cardiaco",
+      "insuficiencia cardiaca izquierda",
+      "insuficiencia cardiaca derecha"
+    ],
+    "summary": "La insuficiencia cardíaca es la incapacidad del corazón para bombear sangre suficiente para satisfacer las demandas metabólicas del cuerpo.",
+    "key_points": [
+      "Disminución del gasto cardíaco y aumento de la presión de llenado.",
+      "Puede ser izquierda, derecha o biventricular.",
+      "Retención de sodio y agua produce edema y disnea.",
+      "Manejo farmacológico incluye IECA, betabloqueadores y diuréticos.",
+      "Control del peso diario y la dieta baja en sodio son esenciales."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño miocárdico reduce la contractilidad (gasto cardíaco ↓).",
+        "Compensación neurohormonal (RAAS, SNS) aumenta la retención de Na+ y agua.",
+        "Elevación de la presión de llenado produce congestión pulmonar (IC izquierda) o sistémica (IC derecha).",
+        "Remodelado ventricular lleva a mayor rigidez y peor llenado."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Enfermedad coronaria y antecedente de infarto.",
+        "Cardiomiopatías e insuficiencia valvular.",
+        "Diabetes mellitus y obesidad.",
+        "Tabaquismo y consumo excesivo de alcohol."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo o en reposo.",
+        "Edema periférico (tobillos, piernas).",
+        "Ortopnea y disnea paroxística nocturna.",
+        "Fatiga y disminución de la tolerancia a la actividad.",
+        "Crepitantes pulmonares y aumento de la presión venosa yugular."
+      ],
+      "diagnostics": [
+        "Ecocardiograma: fracción de eyección < 40% (IC izquierda).",
+        "Radiografía de tórax: cardiomegalia, congestión vascular.",
+        "BNP o NT‑proBNP: niveles elevados (>100 pg/mL).",
+        "Electrocardiograma: arritmias, hipertrofia ventricular.",
+        "Laboratorios: Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L, creatinina según función renal."
+      ],
+      "treatment": [
+        "IECA o ARA II para reducir poscarga.",
+        "Betabloqueadores para disminuir la actividad simpática.",
+        "Diuréticos de asa (furosemida) y tiazídicos para eliminar exceso de líquido.",
+        "Antagonistas de aldosterona (espironolactona).",
+        "ARNI (sacubitril/valsartán) en casos seleccionados.",
+        "Restricción de sodio (<2 g/día) y control de ingesta de líquidos (≈1.5‑2 L/día)."
+      ],
+      "complications": [
+        "Edema pulmonar agudo.",
+        "Insuficiencia renal por bajo gasto renal.",
+        "Arritmias ventriculares y fibrilación auricular.",
+        "Tromboembolismo venoso y embolia pulmonar.",
+        "Hepatomegalia y congestión hepática."
+      ],
+      "nursing_care": [
+        "Evaluar signos de sobrecarga: peso diario, edema, auscultación pulmonar.",
+        "Monitorear presión arterial, frecuencia cardíaca y saturación de O₂.",
+        "Registrar ingesta y eliminación de líquidos; comparar con balance esperado.",
+        "Posicionar al paciente semi‑sentado (30‑45°) para mejorar la ventilación.",
+        "Priorizar la educación sobre dieta baja en sodio y control de peso."
+      ],
+      "patient_teaching": [
+        "Limitar el consumo de sal a <2 g/día y evitar alimentos procesados.",
+        "Pesarse cada mañana; reportar aumento >0.5 kg en 24 h.",
+        "Tomar los medicamentos exactamente como se indican; no suspender sin autorización.",
+        "Reconocer signos de empeoramiento: disnea creciente, edema súbito, palpitaciones.",
+        "Mantener actividad física ligera y progresiva según tolerancia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "retención de sodio",
+          "disfunción ventricular izquierda",
+          "hipertensión crónica"
+        ],
+        "evidenced_by": [
+          "edema periférico",
+          "disnea de reposo",
+          "aumento de peso >0.5 kg/24h",
+          "crepitantes pulmonares",
+          "presión venosa yugular elevada"
+        ],
+        "outcomes": [
+          "Balance de líquidos: peso estable ±0.5 kg en 3 días",
+          "Función respiratoria: SpO2 ≥ 92% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar peso diario a la misma hora y comparar con la línea base.",
+            "rationale": "Detecta rápidamente la acumulación de líquido."
+          },
+          {
+            "action": "Monitorear ingesta y eliminación de líquidos cada turno.",
+            "rationale": "Permite ajustar la terapia diurética y evitar deshidratación."
+          },
+          {
+            "action": "Evaluar edema (ubicación, extensión, pitting) y registrar cambios.",
+            "rationale": "El edema es un indicador clínico de sobrecarga de volumen."
+          },
+          {
+            "action": "Administrar diuréticos según prescripción y observar respuesta clínica.",
+            "rationale": "Facilita la eliminación de exceso de sodio y agua."
+          },
+          {
+            "action": "Educar al paciente sobre la restricción de sodio y la importancia del control de líquidos.",
+            "rationale": "Reduce la retención de agua y mejora el control de la enfermedad."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "disminución del gasto cardíaco",
+          "disnea",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "disnea al subir escaleras",
+          "cansancio rápido al caminar",
+          "limitación de actividades diarias"
+        ],
+        "outcomes": [
+          "Capacidad de ejercicio: caminar 300 m en 6MWT en 2 semanas",
+          "Nivel de fatiga: puntuación de escala de fatiga ≤ 3/10 en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar actividades en intervalos cortos con descansos programados.",
+            "rationale": "Previene la sobrecarga cardiopulmonar y reduce la fatiga."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática durante el esfuerzo.",
+            "rationale": "Mejora la oxigenación y disminuye la disnea."
+          },
+          {
+            "action": "Monitorear frecuencia cardíaca y saturación de O₂ antes y después de la actividad.",
+            "rationale": "Detecta signos de intolerancia temprana."
+          },
+          {
+            "action": "Fomentar la participación en programa de rehabilitación cardíaca supervisada.",
+            "rationale": "Incrementa gradualmente la tolerancia al ejercicio."
+          },
+          {
+            "action": "Reforzar la adherencia a la medicación que mejora la función cardíaca (IECA, betabloqueador).",
+            "rationale": "Optimiza el gasto cardíaco y reduce la limitación funcional."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Heart Failure (HF)",
+    "aliases": [
+      "heart failure",
+      "hf",
+      "cardiac failure",
+      "left heart failure",
+      "right heart failure"
+    ],
+    "summary": "Heart failure is the inability of the heart to pump enough blood to meet the body’s metabolic demands.",
+    "key_points": [
+      "Decreased cardiac output and increased filling pressures.",
+      "Can be left, right, or biventricular.",
+      "Sodium and water retention cause edema and dyspnea.",
+      "Pharmacologic management includes ACE inhibitors, beta‑blockers, and diuretics.",
+      "Daily weight monitoring and a low‑sodium diet are essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Myocardial injury reduces contractility (cardiac output ↓).",
+        "Neurohormonal compensation (RAAS, SNS) increases Na⁺ and water retention.",
+        "Elevated filling pressures cause pulmonary congestion (left HF) or systemic congestion (right HF).",
+        "Ventricular remodeling leads to increased stiffness and poorer filling."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Coronary artery disease and prior myocardial infarction.",
+        "Cardiomyopathies and valvular insufficiency.",
+        "Diabetes mellitus and obesity.",
+        "Smoking and excessive alcohol use."
+      ],
+      "signs_symptoms": [
+        "Exertional or resting dyspnea.",
+        "Peripheral edema (ankles, legs).",
+        "Orthopnea and paroxysmal nocturnal dyspnea.",
+        "Fatigue and reduced activity tolerance.",
+        "Crackles on lung auscultation and elevated jugular venous pressure."
+      ],
+      "diagnostics": [
+        "Echocardiogram: ejection fraction <40% (left HF).",
+        "Chest X‑ray: cardiomegaly, vascular congestion.",
+        "BNP or NT‑proBNP: elevated levels (>100 pg/mL).",
+        "Electrocardiogram: arrhythmias, ventricular hypertrophy.",
+        "Laboratories: Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L, creatinine per renal function."
+      ],
+      "treatment": [
+        "ACE inhibitor or ARB II to reduce afterload (e.g., lisinopril, losartan).",
+        "Beta‑blockers to decrease sympathetic activity (e.g., metoprolol).",
+        "Loop diuretics (furosemide) and thiazides to eliminate excess fluid.",
+        "Aldosterone antagonists (spironolactone).",
+        "ARNI (sacubitril/valsartan) in selected cases.",
+        "Sodium restriction (<2 g/day) and fluid intake control (≈1.5‑2 L/day)."
+      ],
+      "complications": [
+        "Acute pulmonary edema.",
+        "Renal failure due to low renal perfusion.",
+        "Ventricular arrhythmias and atrial fibrillation.",
+        "Venous thromboembolism and pulmonary embolism.",
+        "Hepatomegaly and hepatic congestion."
+      ],
+      "nursing_care": [
+        "Assess for overload signs: daily weight, edema, lung auscultation.",
+        "Monitor blood pressure, heart rate, and O₂ saturation.",
+        "Record fluid intake and output; compare with expected balance.",
+        "Position patient semi‑sitting (30‑45°) to improve ventilation.",
+        "Prioritize education on low‑sodium diet and weight control."
+      ],
+      "patient_teaching": [
+        "Limit salt intake to <2 g/day and avoid processed foods.",
+        "Weigh yourself each morning; report an increase >0.5 kg in 24 h.",
+        "Take medications exactly as prescribed; do not stop without authorization.",
+        "Recognize worsening signs: increasing dyspnea, sudden edema, palpitations.",
+        "Maintain light, progressive physical activity as tolerated."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [
+          "sodium retention",
+          "left ventricular dysfunction",
+          "chronic hypertension"
+        ],
+        "evidenced_by": [
+          "peripheral edema",
+          "resting dyspnea",
+          "weight gain >0.5 kg/24 h",
+          "pulmonary crackles",
+          "elevated jugular venous pressure"
+        ],
+        "outcomes": [
+          "Fluid balance: weight stable ±0.5 kg within 3 days",
+          "Respiratory function: SpO₂ ≥92% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Record daily weight at the same time and compare to baseline.",
+            "rationale": "Detects fluid accumulation promptly."
+          },
+          {
+            "action": "Monitor fluid intake and output each shift.",
+            "rationale": "Allows diuretic adjustment and prevents dehydration."
+          },
+          {
+            "action": "Assess edema (location, extent, pitting) and document changes.",
+            "rationale": "Edema is a clinical indicator of volume overload."
+          },
+          {
+            "action": "Administer diuretics as prescribed and observe clinical response.",
+            "rationale": "Facilitates elimination of excess sodium and water."
+          },
+          {
+            "action": "Educate patient on sodium restriction and importance of fluid control.",
+            "rationale": "Reduces water retention and improves disease management."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "decreased cardiac output",
+          "dyspnea",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "dyspnea on stairs",
+          "quick fatigue while walking",
+          "limitation of daily activities"
+        ],
+        "outcomes": [
+          "Exercise capacity: walk 300 m in 6‑minute walk test within 2 weeks",
+          "Fatigue level: fatigue scale score ≤3/10 within 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Plan activities in short intervals with scheduled rest periods.",
+            "rationale": "Prevents cardiopulmonary overload and reduces fatigue."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques during exertion.",
+            "rationale": "Improves oxygenation and decreases dyspnea."
+          },
+          {
+            "action": "Monitor heart rate and O₂ saturation before and after activity.",
+            "rationale": "Detects early signs of intolerance."
+          },
+          {
+            "action": "Encourage participation in a supervised cardiac rehabilitation program.",
+            "rationale": "Gradually increases exercise tolerance."
+          },
+          {
+            "action": "Reinforce adherence to cardiac‑function‑enhancing medications (ACE inhibitor, beta‑blocker).",
+            "rationale": "Optimizes cardiac output and reduces functional limitation."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "left-ventricular-failure",
+    "pulmonary-edema",
+    "cardiomyopathy",
+    "renal-insufficiency",
+    "arrhythmia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/heartfailure.html",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

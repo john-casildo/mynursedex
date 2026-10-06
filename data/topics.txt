@@ -1,0 +1,31 @@
+# Topics for `npm run import` (scripts/import.mts). One per line:  category: term
+# Categories: pharmacology, conditions, labs, fundamentals, abbreviations
+# Topics that already exist are skipped (use --force to redo them).
+# Swap these for topics from her syllabus.
+
+pharmacology: furosemide
+pharmacology: amlodipine
+pharmacology: atorvastatin
+pharmacology: metformin
+pharmacology: acetaminophen
+pharmacology: morphine
+pharmacology: albuterol
+pharmacology: prednisone
+pharmacology: vancomycin
+pharmacology: ondansetron
+
+conditions: pneumonia
+conditions: asthma
+conditions: hypertension
+conditions: stroke
+conditions: myocardial infarction
+
+labs: hemoglobin
+labs: white blood cell count
+labs: creatinine
+
+fundamentals: pressure injury
+fundamentals: fall prevention
+
+abbreviations: BID
+abbreviations: STAT
