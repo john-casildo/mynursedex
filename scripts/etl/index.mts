@@ -8,6 +8,7 @@
 //   npm run etl -- transform                  # only redo AI drafts from saved data/raw/ (no re-fetching)
 //   npm run etl -- validate                   # check every entry (also runs before each build)
 //   npm run etl -- queue --limit 10           # nightly job: topic requests (GitHub issues) + missing related topics
+//   npm run etl -- close-issues               # nightly job: close the requests built by queue (after the push)
 //
 // Options: --only <id> one entry | --area <area> one area | --limit <n> at most n entries
 //          --dry-run print instead of saving
@@ -15,6 +16,7 @@
 // Groq free plan: ~8,000 tokens/minute and ~200,000 tokens/day per model. Each entry uses about
 // 7k tokens on the drafting model and 6k on the translation model, so roughly 25 entries/day. Every step saves as it goes and skips finished work, so it's safe to stop and re-run.
 
+import { appendFile, readFile } from "node:fs/promises";
 import { entryUrl, loadEntries, rawUrl, readJson, readTopics, writeJson, type Concept, type Job, type RawRecord } from "./lib.mts";
 import { extract } from "./extract.mts";
 import { hasOpenStax, syncOpenStax } from "./openstax.mts";
@@ -94,6 +96,16 @@ async function main() {
     printReport(report, true);
     process.exit(report.errors.length ? 1 : 0);
   }
+  if (command === "close-issues") {
+    const file = process.env.CLOSE_LATER_FILE;
+    const lines = file ? (await readFile(file, "utf8").catch(() => "")).split("\n").filter(Boolean) : [];
+    for (const line of lines) {
+      const { issue, comment } = JSON.parse(line);
+      await closeIssue(issue, comment);
+      console.log(`Closed request #${issue}`);
+    }
+    return;
+  }
   if (command === "sync-books") {
     console.log("Downloading OpenStax nursing books...");
     await syncOpenStax(FORCE);
@@ -140,10 +152,13 @@ async function main() {
         else {
           await writeJson(entryUrl(entry.category, entry.id), entry);
           if (job.issue) {
-            await closeIssue(
-              job.issue,
-              `Agregado a NurseDex: [${entry.es.term}](${process.env.SITE_URL ?? "https://nursedex.vercel.app"}/concept/${entry.id}). Estará disponible en unos minutos.`,
-            );
+            const comment = `Agregado a NurseDex: [${entry.es.term}](${process.env.SITE_URL ?? "https://nursedex.vercel.app"}/concept/${entry.id}). Estará disponible en unos minutos.`;
+            // In CI, requests are closed only after the new entries are pushed (see close-issues).
+            if (process.env.CLOSE_LATER_FILE) {
+              await appendFile(process.env.CLOSE_LATER_FILE, JSON.stringify({ issue: job.issue, comment }) + "\n");
+            } else {
+              await closeIssue(job.issue, comment);
+            }
           }
         }
       }

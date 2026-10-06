@@ -52,6 +52,7 @@ jobs:
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CLOSE_LATER_FILE: ${{ runner.temp }}/close-requests.jsonl
 
       - run: npm run validate
 
@@ -68,3 +69,10 @@ jobs:
             git pull --rebase origin main
             git push
           fi
+
+      # Only now that the entries are on main are the requests closed.
+      - name: Close fulfilled requests
+        run: npm run etl -- close-issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CLOSE_LATER_FILE: ${{ runner.temp }}/close-requests.jsonl
