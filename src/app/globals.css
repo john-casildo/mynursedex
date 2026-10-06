@@ -137,6 +137,20 @@ body {
     animation: shake 0.36s steps(6);
   }
 
+  /* Filters: a pixel "press" when tapped; when selected, the item nudges in and its icon pops */
+  .filter-item:active {
+    transform: translateY(1px);
+  }
+  .filter-on {
+    animation: filter-on 0.2s steps(3);
+  }
+  .filter-on .filter-icon {
+    animation: icon-pop 0.36s steps(3);
+  }
+  .filter-item:not(.filter-on):hover .filter-icon {
+    transform: translateY(-1px);
+  }
+
   /* Assistant: the nurse bobs while thinking */
   .bob {
     animation: bob 0.8s steps(2) infinite;
@@ -189,6 +203,14 @@ body {
   40% { transform: translateX(4px); }
   60% { transform: translateX(-3px); }
   80% { transform: translateX(3px); }
+}
+@keyframes filter-on {
+  from { transform: translateX(-4px); }
+  to { transform: none; }
+}
+@keyframes icon-pop {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.4); }
 }
 @keyframes bob {
   0%, 100% { transform: translateY(0); }
