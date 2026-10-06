@@ -84,6 +84,30 @@ export const ICONS = {
     "..XoooX..",
     "..XXXXX..",
   ],
+  // LinkedIn: a filled square with "in" cut out
+  linkedin: [
+    "XXXXXXXXX",
+    "X.XXXXXXX",
+    "XXXXXXXXX",
+    "X.X....XX",
+    "X.X.XX.XX",
+    "X.X.XX.XX",
+    "X.X.XX.XX",
+    "XXXXXXXXX",
+    "XXXXXXXXX",
+  ],
+  // GitHub: a little cat head
+  github: [
+    "X.......X",
+    "XX.....XX",
+    "XXXXXXXXX",
+    "XX.XXX.XX",
+    "XXXXXXXXX",
+    ".XXXXXXX.",
+    "..XXXXX..",
+    "..X.X.X..",
+    ".........",
+  ],
 } satisfies Record<string, string[]>;
 
 export type IconName = keyof typeof ICONS;

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import { Atkinson_Hyperlegible, Pixelify_Sans, Silkscreen } from "next/font/google";
+import AuthorCard from "@/components/AuthorCard";
 import CategoryNav from "@/components/CategoryNav";
 import HomeLink from "@/components/HomeLink";
 import L from "@/components/L";
@@ -86,9 +87,7 @@ function Credit({ className }: { className: string }) {
   return (
     <p className={className}>
       <L en="Made by " es="Hecho por " />
-      <a href={AUTHOR.url} target="_blank" rel="noopener noreferrer" className="font-semibold underline underline-offset-4">
-        {AUTHOR.name}
-      </a>
+      <AuthorCard name={AUTHOR.name} />
       <L en=" for his wife " es=" para su esposa " />
       {/* "Mafe" and the pixel heart (the Conditions icon, in rose) never wrap apart */}
       <span className="whitespace-nowrap">
