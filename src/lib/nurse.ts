@@ -1,34 +1,47 @@
-// The NurseDex mascot: a 16×16 pixel nurse. Each letter is a color in PALETTE, "." is transparent.
-// The cap cross is blue on purpose: a red cross on white is a protected emblem.
+// The NurseDex mascot: a 24×24 pixel nurse. Each letter is a color in NURSE_PALETTE, "." is transparent.
+// No facial features, on purpose. The cap cross is blue: a red cross on white is a protected emblem.
+export const NURSE_SIZE = 24;
+
 export const NURSE_GRID = [
-  "....WWWWWWWW....",
-  "...WWWWBBWWWW...",
-  "...WWWBBBBWWW...",
-  "...WWWWBBWWWW...",
-  "..HHHHHHHHHHHH..",
-  ".HHHSSSSSSSSHHH.",
-  ".HHSWKSSSSWKSHH.",
-  ".HHSSSSSSSSSSHH.",
-  ".HHMMMMMMMMMMHH.",
-  ".HHMLLLLLLLLMHH.",
-  "..HMMMMMMMMMMH..",
-  "......SSSS......",
-  "..NNNNWSSWNNNN..",
-  ".NNNNNNWWNNNNNN.",
-  ".NNCNNNNNNNNCNN.",
-  ".NNNNNNNNNNNNNN.",
+  "........WWWWWWWW........",
+  ".......AAAABBAAAA.......",
+  ".......AAABBBBAAA.......",
+  ".......AAAABBAAAA.......",
+  "......cccccccccccc......",
+  ".....HHHHHHHHHHHHHH.....",
+  "....HHHHHHHHHHHHHHHH....",
+  "....HHHHHHHSSSSSHHHH....",
+  "....HHHHSSSSSSSSHHHH....",
+  "....HHHHSSSSSSSSHHHH....",
+  "....HHHHsSSSSSSsHHHH....",
+  "....HHHHsSSSSSSsHHHH....",
+  "....HHHHHSSSSSSHHHHH....",
+  ".....HHHHHssssHHHHH.....",
+  "........GGSSSSGG........",
+  ".....NNNGNSSSSNGNNN.....",
+  "...nNNNNGNNSSNNGNNNNn...",
+  "...nNNNNGNNnnNNgNNNNn...",
+  "...nNNNNGNNNNNNNNNNNn...",
+  "...nNNNggNNNNNNWWWNNn...",
+  "...nNNgGGgNNNNNLLLNNn...",
+  "...nNNNggNNNNNNWWWNNn...",
+  "...nNNNNNNNNNNNNNNNNn...",
+  "...nNNNNNNNNNNNNNNNNn...",
 ];
 
 export const NURSE_PALETTE: Record<string, string> = {
-  W: "#FFFFFF", // cap, eye highlight, collar
+  W: "#FFFFFF", // cap top, collar, badge
+  A: "#A8D8EA", // cap (surgical-mask blue)
+  c: "#8FA9D6", // cap band (ceil)
   B: "#3D6FA8", // cap cross (scrubs blue)
   H: "#3B2A20", // hair
-  S: "#C68B59", // skin
-  K: "#1E3A5F", // eyes (navy)
-  M: "#A8D8EA", // surgical mask
-  L: "#8FA9D6", // mask pleat (ceil)
+  S: "#EDBE9A", // skin
+  s: "#D9A27E", // skin shadow
   N: "#3D6FA8", // scrubs
-  C: "#8FA9D6", // pockets
+  n: "#2F5A8C", // scrubs shadow
+  G: "#9AA6B6", // stethoscope
+  g: "#5F6B7D", // stethoscope dark
+  L: "#8FA9D6", // badge stripe (ceil)
 };
 
 // Merges horizontal runs of the same color into one rect each (fewer SVG nodes).

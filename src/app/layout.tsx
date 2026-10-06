@@ -80,7 +80,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full font-sans lg:grid lg:grid-cols-[17rem_1fr]">
         {/* Phone / tablet: compact top bar */}
         <header className="sticky top-0 z-20 flex items-center gap-3 bg-header px-4 py-2.5 lg:hidden">
-          <Brand size={28} />
+          <Brand size={32} />
           <div className="ml-auto flex items-center gap-1">
             <LangToggle />
             <ThemeToggle />
@@ -90,7 +90,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         {/* Desktop: the "device" sidebar */}
         <aside className="sticky top-0 hidden h-screen flex-col bg-header px-4 py-6 lg:flex">
           <div className="px-2">
-            <Brand size={36} />
+            <Brand size={40} />
             <div className="mt-4">
               <DexLights />
             </div>

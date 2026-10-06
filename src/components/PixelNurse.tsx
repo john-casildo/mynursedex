@@ -1,4 +1,4 @@
-import { nurseRects } from "@/lib/nurse";
+import { NURSE_SIZE, nurseRects } from "@/lib/nurse";
 
 const RECTS = nurseRects();
 
@@ -13,7 +13,7 @@ export default function PixelNurse({
 }) {
   return (
     <svg
-      viewBox="0 0 16 16"
+      viewBox={`0 0 ${NURSE_SIZE} ${NURSE_SIZE}`}
       width={size}
       height={size}
       shapeRendering="crispEdges"
