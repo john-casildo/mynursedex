@@ -63,6 +63,12 @@ html:not([lang="es"]) [data-lang-btn="en"] {
   color: var(--color-navy);
 }
 
+/* No rubber-band bounce past the top or bottom (it showed a blank strip above the header). */
+html,
+body {
+  overscroll-behavior-y: none;
+}
+
 body {
   background: var(--bg);
   color: var(--ink);
