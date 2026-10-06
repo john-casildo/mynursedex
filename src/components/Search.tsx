@@ -133,6 +133,9 @@ export default function Search({ items }: { items: SearchItem[] }) {
 
   const byId = useMemo(() => new Map(items.map((e) => [e.id, e])), [items]);
 
+  // Searching or filtering: results move up and the assistant moves below them.
+  const searching = !!query || category !== "all" || area !== "all";
+
   // "Todo" without a search shows the most looked-up entries instead of everything.
   const popularView = !query && category === "all" && area === "all" && !showAll;
   const popularItems = popular?.ids.map((id) => byId.get(id)).filter((e): e is SearchItem => Boolean(e)) ?? [];
@@ -247,11 +250,15 @@ export default function Search({ items }: { items: SearchItem[] }) {
       {/* Phones: "Filtros" button + active filter pills, with a bottom sheet; desktop uses the sidebar */}
       <MobileFilters resultsCount={results.length} onChange={() => setLimit(PAGE_SIZE)} />
 
-      <div className="mt-6 max-w-2xl">
+      {/* While searching or filtering, the results come first and the assistant moves below them.
+          It's reordered with CSS (not re-mounted), so an answer she's reading isn't lost. */}
+      <div className="flex flex-col">
+      <div className={`max-w-2xl ${searching ? "order-2 mt-12" : "order-1 mt-6"}`}>
         <AskPanel />
       </div>
 
-      <div className="mb-2 mt-10 flex flex-wrap items-baseline justify-between gap-3">
+      <div className={searching ? "order-1" : "order-2"}>
+      <div className={`mb-2 flex flex-wrap items-baseline justify-between gap-3 ${searching ? "mt-6" : "mt-10"}`}>
         <h1 className="font-pixel text-xl text-ink">
           {query ? (
             <L en={<>Results for &ldquo;{query}&rdquo;</>} es={<>Resultados para &ldquo;{query}&rdquo;</>} />
@@ -360,6 +367,8 @@ export default function Search({ items }: { items: SearchItem[] }) {
           )}
         </div>
       )}
+      </div>
+      </div>
     </div>
   );
 }

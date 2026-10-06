@@ -81,7 +81,7 @@ function Section({ id, title, items }: { id: string; title: string; items: strin
   return (
     <details id={id} open className="group scroll-mt-20 border-t border-line py-5">
       <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-scrubs">
-        <h2 className="font-pixel text-xl text-ink">{title}</h2>
+        <h2 className="text-lg font-bold text-ink">{title}</h2>
         <span aria-hidden className="font-pixel text-muted transition-transform group-open:rotate-90">
           ›
         </span>
@@ -237,7 +237,7 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
                 </Link>
               ))}
             </p>
-            <h1 className="font-pixel mt-2 text-4xl leading-[1.1] text-ink sm:text-5xl">{text.term}</h1>
+            <h1 className="mt-2 text-3xl font-bold leading-tight tracking-tight text-ink sm:text-4xl">{text.term}</h1>
             {otherTerm !== text.term && (
               <p className="mt-2 text-muted">
                 {t.other}: <span className="text-ink">{otherTerm}</span>
@@ -270,7 +270,7 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
           {/* The dex "screen": the most exam-relevant facts */}
           {text.key_points.length > 0 && (
             <section id={`${lang}-key-points`} className="screen-on mb-2 rounded border-2 border-navy/15 bg-screen px-5 py-4 dark:border-white/10">
-              <h2 className="font-pixel text-xl">{t.keyPoints}</h2>
+              <h2 className="text-lg font-bold">{t.keyPoints}</h2>
               <Bullets items={text.key_points} className="mt-3" />
             </section>
           )}
@@ -281,7 +281,7 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
 
           {plans.length > 0 && (
             <section id={`${lang}-care-plans`} className="scroll-mt-20 border-t border-line py-5">
-              <h2 className="font-pixel text-xl">{t.carePlans}</h2>
+              <h2 className="text-lg font-bold">{t.carePlans}</h2>
               <p className="mt-1 text-muted">{t.carePlanIntro}</p>
               <div className="mt-4 space-y-5">
                 {plans.map((p) => (
@@ -332,9 +332,9 @@ export default async function ConceptPage(props: PageProps<"/concept/[id]">) {
       <ViewTracker id={entry.id} />
       <Link
         href="/"
-        className="mb-6 inline-flex items-center gap-2 rounded text-sm font-semibold text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-scrubs"
+        className="font-pixel mb-6 inline-flex items-center gap-2 rounded text-base text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-scrubs"
       >
-        <span aria-hidden className="font-pixel">‹</span>
+        <span aria-hidden>‹</span>
         <L en="Back to search" es="Volver a buscar" />
       </Link>
 
