@@ -1,0 +1,193 @@
+{
+  "id": "pap-test",
+  "category": "labs",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Papanicolaou (PAP)",
+    "aliases": [
+      "pap",
+      "papanicolaou",
+      "citología cervical",
+      "citología vaginal",
+      "frotis de papanicolaou",
+      "tamizaje de cáncer de cérvix",
+      "vph",
+      "pap smear"
+    ],
+    "summary": "Prueba de tamizaje del cáncer de cérvix: se toman células del cuello uterino y se revisan al microscopio para detectar cambios anormales antes de que se vuelvan cáncer.",
+    "key_points": [
+      "Detecta células precancerosas (displasia) y, a veces, infecciones o inflamación.",
+      "Casi todos los cánceres de cérvix se deben a infecciones persistentes por VPH de alto riesgo; la muestra también puede analizarse para VPH.",
+      "Un resultado anormal no significa cáncer: el PAP no diagnostica cáncer, se confirma con colposcopía y biopsia.",
+      "La frecuencia depende de la edad y de los resultados previos; seguir la norma nacional y la indicación médica.",
+      "Se puede tomar durante el embarazo."
+    ],
+    "sections": {
+      "normal_values": [
+        "Normal o «negativo»: sin cambios anormales en las células del cérvix.",
+        "Insatisfactorio: la muestra no tuvo suficientes células; se repite.",
+        "Anormal o «positivo»: cambios celulares que requieren seguimiento (por ejemplo colposcopía)."
+      ],
+      "specimen": [
+        "Con espéculo, se toman células del cérvix con un cepillo o espátula y se envían al laboratorio.",
+        "No tomarlo durante la menstruación; idealmente unos 5 días después de terminar la regla.",
+        "Dos días antes, evitar tampones, cremas u óvulos vaginales, duchas vaginales y relaciones sexuales vaginales."
+      ],
+      "nursing_care": [
+        "Explicar el procedimiento: puede causar molestia leve, presión o un sangrado muy leve.",
+        "Preguntar la FUR, embarazo y uso de DIU antes de tomar la muestra.",
+        "Anotar la fecha y el resultado del último PAP en los AGO.",
+        "Asegurar que la paciente reciba y entienda el resultado y su seguimiento."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "Pap test (PAP, Papanicolaou)",
+    "aliases": [
+      "pap test",
+      "pap smear",
+      "papanicolaou",
+      "cervical cytology",
+      "cervical cancer screening",
+      "hpv"
+    ],
+    "summary": "A screening test for cervical cancer: cells are collected from the cervix and checked under a microscope for abnormal changes before they become cancer.",
+    "key_points": [
+      "A Pap smear looks for abnormal changes in cervical cells before they become cancer, and may also find certain infections or inflammation.",
+      "Long-lasting infections with high-risk types of HPV cause almost all cervical cancers; the cells can also be checked for HPV.",
+      "Most of the time, abnormal results do not mean you have cervical cancer: a Pap smear doesn't diagnose cancer, which is confirmed by colposcopy and biopsy.",
+      "How often it is needed depends on age and previous results; follow national guidelines and the provider's order.",
+      "It can be done during pregnancy."
+    ],
+    "sections": {
+      "normal_values": [
+        "Normal or \"negative\" result: no abnormal changes were found in the cervix cells.",
+        "Unsatisfactory: the lab sample did not have enough cells; the test is repeated.",
+        "Abnormal or \"positive\" result: abnormal changes were found in the cervical cells and need follow-up (for example colposcopy)."
+      ],
+      "specimen": [
+        "Using a speculum, the provider collects cells from the cervix with a small brush or swab and sends them to a lab.",
+        "You should not have a Pap smear while you are having your period; a good time is about five days after the last day of your period.",
+        "For two days before the test, avoid tampons, vaginal creams or medicines, douching and vaginal sex."
+      ],
+      "nursing_care": [
+        "Explain the procedure: there may be mild discomfort, pressure or very light bleeding afterward.",
+        "Ask about the LMP, pregnancy and IUD use before collecting the sample.",
+        "Record the date and result of the last Pap test in the OB/GYN history (AGO).",
+        "Make sure the patient receives and understands the result and the follow-up plan."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "ago",
+    "sida",
+    "diu"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pap Smear",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/lab-tests/pap-smear/",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Sexually Transmitted Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/7-1-sexually-transmitted-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "MedlinePlus en español: Prueba de Papanicolaou",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pruebas-de-laboratorio/prueba-de-papanicolaou/",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 8,
+      "contradicted": 0,
+      "total": 16
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "A Pap smear looks for abnormal changes in cervical cells before they become cancer.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A pap smear may also find certain infections or inflammation.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "supported",
+        "quote": "Normal or \"negative\" result , which usually means that no abnormal changes were found in your cervix cells.",
+        "source": 0
+      },
+      "sections.normal_values.1": {
+        "status": "supported",
+        "quote": "Unsatisfactory results , which may mean that the lab sample did not have enough cells, or the cells may have been clumped together or hidden by mucus.",
+        "source": 0
+      },
+      "sections.normal_values.2": {
+        "status": "supported",
+        "quote": "Abnormal or \"positive\" result , which usually means that abnormal changes were found in your cervical cells.",
+        "source": 0
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "supported",
+        "quote": "You should not have a Pap smear while you are having your period because this may affect your results.",
+        "source": 0
+      },
+      "sections.specimen.2": {
+        "status": "supported",
+        "quote": "For two days before your test, you should not: Use tampons Use birth control foam, jelly, or cream Use other creams or medicines in your vagina Douche (rinse the vagina with water or other fluid) Have vaginal sex",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "You may feel some mild discomfort during a Pap smear and have some very light bleeding afterward, but there are no known risks to having a Pap smear.",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

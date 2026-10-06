@@ -1,0 +1,135 @@
+{
+  "id": "moi",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "MOI (membranas ovulares íntegras)",
+    "aliases": [
+      "moi",
+      "membranas ovulares íntegras",
+      "membranas íntegras",
+      "bolsa íntegra",
+      "membranas intactas",
+      "intact membranes"
+    ],
+    "summary": "Indica que la bolsa amniótica está completa, sin ruptura y sin salida de líquido. Se anota al valorar el estado de las membranas en el control o en el trabajo de parto.",
+    "key_points": [
+      "El estado de las membranas puede ser: íntegras (MOI) o rotas (REMO si fue espontánea, RAMO si fue artificial).",
+      "Se valora por la historia (si hubo salida de líquido), la inspección y el tacto vaginal.",
+      "Con membranas íntegras, el riesgo de infección ascendente es menor."
+    ],
+    "sections": {
+      "usage": [
+        "Ejemplo: «Tacto: 4 cm, 70 % borrado, MOI, cefálico».",
+        "Se anota en cada tacto vaginal y en el partograma."
+      ],
+      "nursing_care": [
+        "Preguntar siempre si ha notado salida de líquido.",
+        "Enseñar a consultar si sale líquido, aunque no haya contracciones.",
+        "Evitar tactos vaginales innecesarios o bruscos: pueden romper las membranas sin querer."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "Intact membranes (MOI)",
+    "aliases": [
+      "intact membranes",
+      "moi",
+      "membranes intact",
+      "bag of waters intact",
+      "membranas íntegras"
+    ],
+    "summary": "Means the amniotic sac is whole, with no rupture and no leaking fluid (MOI in Spanish). It is recorded when assessing the membranes at a visit or during labor.",
+    "key_points": [
+      "The status of the membranes will be assessed to determine whether the membranes are intact or ruptured (SROM/REMO or AROM/RAMO).",
+      "The assessment may include the person's report of a gush or leaking of fluid, visual inspection of the vagina for pooling, or testing the fluid for ferning or pH.",
+      "With intact membranes, the risk of ascending infection is lower."
+    ],
+    "sections": {
+      "usage": [
+        "Example: \"Vaginal exam: 4 cm, 70% effaced, MOI, cephalic\".",
+        "Recorded at every vaginal exam and on the partograph."
+      ],
+      "nursing_care": [
+        "Always ask whether the patient has noticed any fluid leaking.",
+        "Teach to seek care if fluid leaks, even without contractions.",
+        "Overly forceful or poorly timed vaginal examinations can cause unintended rupture of membranes."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "remo",
+    "ramo",
+    "premature-rupture-of-membranes",
+    "stages-of-labor"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Nursing Care during the First Stage of Labor",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/18-1-nursing-care-during-the-first-stage-of-labor",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 6,
+      "contradicted": 0,
+      "total": 10
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "The status of the membranes will be assessed to determine whether the membranes are intact or ruptured.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The status of the membranes will be assessed to determine whether the membranes are intact or ruptured.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The assessment may include the laboring person’s report of a gush or leaking of fluid before arrival, visual inspection of the vagina for pooling, or laboratory testing of the fluid for ferning or pH.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Overly forceful or poorly timed vaginal examinations can cause unintended premature rupture of membranes (PROM) or artificial rupture of membranes (AROM), which may increase the risk of infection and potentially lead to complications for both the laboring person and the fetus.",
+        "source": 0
+      }
+    }
+  }
+}

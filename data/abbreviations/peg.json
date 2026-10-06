@@ -1,0 +1,155 @@
+{
+  "id": "peg",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "PEG (pequeño para la edad gestacional)",
+    "aliases": [
+      "peg",
+      "pequeño para la edad gestacional",
+      "rnpeg",
+      "rntpeg",
+      "bajo peso",
+      "sga",
+      "pequeño para edad gestacional"
+    ],
+    "summary": "RN cuyo peso está por debajo del percentil 10 para su edad gestacional. Puede ser constitucional (padres pequeños) o deberse a una restricción del crecimiento intrauterino.",
+    "key_points": [
+      "Definición más usada: peso al nacer bajo el percentil 10.",
+      "RNPEG = recién nacido pequeño para la edad gestacional; puede ser término (RNTPEG) o pretérmino.",
+      "Causas: insuficiencia placentaria, hipertensión, embarazo múltiple, tabaquismo, infecciones o alteraciones genéticas.",
+      "Riesgos: hipoglucemia, hipotermia y policitemia (exceso de glóbulos rojos)."
+    ],
+    "sections": {
+      "usage": [
+        "Ejemplo: «RNTPEG, 38 semanas, peso 2 300 g (bajo p10)».",
+        "Antes del nacer se habla de restricción del crecimiento intrauterino (RCI/RCIU)."
+      ],
+      "nursing_care": [
+        "Controlar la glucemia en las primeras horas y alimentar temprano.",
+        "Prevenir la hipotermia: tienen poca grasa subcutánea.",
+        "Vigilar signos de policitemia (plétora, ictericia)."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "SGA (PEG, small for gestational age)",
+    "aliases": [
+      "sga",
+      "peg",
+      "small for gestational age",
+      "rnpeg",
+      "low birth weight",
+      "small baby"
+    ],
+    "summary": "A newborn whose weight is below the 10th percentile for gestational age (PEG in Spanish). It can be constitutional (small parents) or caused by intrauterine growth restriction.",
+    "key_points": [
+      "The most common definition of small for gestational age (SGA) is a birth weight that is below the 10th percentile.",
+      "RNPEG = newborn small for gestational age; it can be term (RNTPEG) or preterm.",
+      "Causes: abnormal placenta, high blood pressure, multiple gestation, smoking, infections or genetic conditions.",
+      "Risks: low blood sugar, low body temperature and increased red blood cells."
+    ],
+    "sections": {
+      "usage": [
+        "Example: \"RNTPEG, 38 weeks, weight 2,300 g (below 10th percentile)\".",
+        "Before birth, the term used is intrauterine growth restriction (RCI/RCIU)."
+      ],
+      "nursing_care": [
+        "Check blood glucose in the first hours and feed early.",
+        "Prevent hypothermia: SGA newborns lack subcutaneous fat.",
+        "Watch for signs of polycythemia (plethora, jaundice)."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "aeg",
+    "geg",
+    "fetal-growth-restriction",
+    "rn",
+    "eg"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Estimation of Gestational Age of the Newborn and Newborn Behavioral Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/23-2-estimation-of-gestational-age-of-the-newborn-and-newborn-behavioral-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "MedlinePlus: Small for gestational age (SGA)",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/002302.htm",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Pequeño para la edad gestacional",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/ency/article/002302.htm",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 7,
+      "contradicted": 0,
+      "total": 11
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "small for gestational age (SGA) : a newborn whose weight and/or length measures below the 10th percentile compared to all other newborns their age, according to the CDC growth chart appropriate for gestational age (AGA) : a newborn whose weight and/or leng",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The most common definition of small for gestational age (SGA) is a birth weight that is below the 10th percentile.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "A developing baby with intrauterine growth restriction will be small in size and can have problems such as: Increased red blood cells Low blood sugar Low body temperature Alternative Names Low birth weight References Balest AL, Riley MM, O'Donnell B, Zarit JS. Ne",
+        "source": 1
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Small for gestational age (SGA) newborns will have utilized all their subcutaneous tissue to survive in utero and will lack breast tissue (Rosenberg, 2008).",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

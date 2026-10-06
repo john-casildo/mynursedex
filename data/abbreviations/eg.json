@@ -1,0 +1,160 @@
+{
+  "id": "eg",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "EG (edad gestacional)",
+    "aliases": [
+      "eg",
+      "edad gestacional",
+      "semanas de gestación",
+      "sdg",
+      "semanas de embarazo",
+      "capurro",
+      "ballard",
+      "ga"
+    ],
+    "summary": "Tiempo de embarazo medido en semanas desde el primer día de la última regla (FUR). Después del nacimiento se estima con escalas como Ballard o Capurro.",
+    "key_points": [
+      "Se cuenta en semanas y días desde la FUR: por ejemplo, 32 4/7 semanas.",
+      "Antes del parto se calcula con la FUR y se confirma con ultrasonido (cabeza, abdomen y fémur).",
+      "Después del parto se estima por características físicas y neuromusculares (Ballard; en Latinoamérica también Capurro).",
+      "Clasifica al RN en pretérmino (menos de 37 semanas), término (37 a 41 6/7) o postérmino (42 o más)."
+    ],
+    "sections": {
+      "usage": [
+        "Ejemplo: «G2P1, EG 36 2/7 semanas por ultrasonido del primer trimestre».",
+        "Se anota en cada control prenatal y al ingreso al parto.",
+        "Sirve para interpretar la AU, la FCF, la DU y el peso del RN (PEG/AEG/GEG)."
+      ],
+      "nursing_care": [
+        "Preguntar la FUR y verificar la FPP en el carné prenatal.",
+        "Usar la misma EG corregida en toda la historia.",
+        "Si la madre no tuvo control prenatal, la valoración del RN es clave para conocer su EG."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "GA (EG, gestational age)",
+    "aliases": [
+      "gestational age",
+      "eg",
+      "ga",
+      "weeks of gestation",
+      "ballard score",
+      "capurro",
+      "edad gestacional"
+    ],
+    "summary": "How far along a pregnancy is, measured in weeks from the first day of the last menstrual period (EG in Spanish). After birth it is estimated with scales such as Ballard or Capurro.",
+    "key_points": [
+      "Gestational age is measured in weeks, from the first day of the last menstrual period: for example, 32 4/7 weeks.",
+      "Before birth it is calculated from the LMP and confirmed by ultrasound (head, abdomen and thigh bone).",
+      "After birth it is estimated from external physical characteristics and neuromuscular maturity (Ballard; Capurro in Latin America).",
+      "It classifies the newborn as preterm (before 37 weeks), term (37 to 41 6/7) or postterm (42 or more)."
+    ],
+    "sections": {
+      "usage": [
+        "Example: \"G2P1, GA 36 2/7 weeks by first-trimester ultrasound\".",
+        "Recorded at each prenatal visit and on admission for birth.",
+        "Used to interpret fundal height, FHR, contractions and newborn weight (SGA/AGA/LGA)."
+      ],
+      "nursing_care": [
+        "Ask for the LMP and check the due date on the prenatal card.",
+        "Use the same corrected GA throughout the chart.",
+        "Assessing gestational age is especially important when the mother had limited prenatal care."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "fum",
+    "fpp",
+    "naegele-s-rule",
+    "rn",
+    "aeg"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Estimation of Gestational Age of the Newborn and Newborn Behavioral Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/23-2-estimation-of-gestational-age-of-the-newborn-and-newborn-behavioral-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "MedlinePlus: Gestational age",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/002367.htm",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Edad gestacional",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/ency/article/002367.htm",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 9,
+      "contradicted": 0,
+      "total": 12
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "It is measured in weeks, from the first day of the woman's last menstrual cycle to the current date.",
+        "source": 1
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Before birth, your health care provider will use ultrasound to measure the size of the baby's head, abdomen, and thigh bone.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.usage.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Assessing gestational age can be especially important when the birth parent has had limited prenatal care and the gestational age is unknown or unclear.",
+        "source": 0
+      }
+    }
+  }
+}

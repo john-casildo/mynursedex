@@ -5,7 +5,7 @@
     "obstetrics"
   ],
   "es": {
-    "term": "G/P (gestas y partos)",
+    "term": "G/P (gestas y partos) · GPACV",
     "aliases": [
       "g/p",
       "gpac",
@@ -14,12 +14,17 @@
       "paridad",
       "primigesta",
       "multípara",
-      "nulípara"
+      "nulípara",
+      "gpacv",
+      "vivos",
+      "antecedentes obstétricos",
+      "cesáreas",
+      "abortos"
     ],
-    "summary": "Notación de la historia obstétrica: cuántos embarazos ha tenido la paciente y cómo terminaron. En Costa Rica se usa comúnmente G, P, A y C (gestas, partos, abortos y cesáreas).",
+    "summary": "Notación de la historia obstétrica: cuántos embarazos ha tenido la paciente y cómo terminaron. En Costa Rica se usa comúnmente la fórmula GPACV: gestas, partos, abortos, cesáreas y vivos.",
     "key_points": [
       "G (gestas): número total de embarazos, incluido el actual.",
-      "P (partos): partos vaginales; A (abortos): pérdidas antes de las 20 semanas; C (cesáreas).",
+      "P (partos): partos vaginales; A (abortos): pérdidas antes de las 20 semanas; C (cesáreas); V (vivos): hijos vivos actualmente.",
       "Sistema GTPAL (en inglés): Gravida, Term, Preterm, Abortions, Living children.",
       "Primigesta: primer embarazo. Nulípara: no ha tenido partos. Multípara: dos o más partos.",
       "Un embarazo múltiple cuenta como una sola gesta."
@@ -27,7 +32,7 @@
     "sections": {
       "usage": [
         "Se registra en la historia clínica en el primer control prenatal y en cada ingreso obstétrico.",
-        "Ejemplo: embarazada actualmente, con un parto vaginal previo y un aborto → G3 P1 A1 C0.",
+        "Ejemplo: embarazada actualmente, con un parto vaginal previo (hijo vivo) y un aborto → G3 P1 A1 C0 V1.",
         "Ejemplo GTPAL: G3 T1 P0 A1 L1."
       ],
       "nursing_care": [
@@ -39,7 +44,7 @@
     "care_plans": []
   },
   "en": {
-    "term": "Gravida/Para (G/P)",
+    "term": "Gravida/Para (G/P, GPACV)",
     "aliases": [
       "gravida para",
       "g/p",
@@ -48,12 +53,15 @@
       "parity",
       "primigravida",
       "multipara",
-      "nullipara"
+      "nullipara",
+      "gpacv",
+      "living children",
+      "obstetric history"
     ],
-    "summary": "Notation for obstetric history: how many pregnancies the patient has had and how they ended. Costa Rica commonly uses G, P, A and C (pregnancies, vaginal births, abortions and cesareans).",
+    "summary": "Notation for obstetric history: how many pregnancies the patient has had and how they ended. Costa Rica commonly uses the GPACV formula: pregnancies (gestas), vaginal births (partos), abortions, cesareans and living children (vivos).",
     "key_points": [
       "G (gravida): total number of pregnancies, including the current one.",
-      "P (para): vaginal births; A: losses before 20 weeks; C: cesareans.",
+      "P (para): vaginal births; A: losses before 20 weeks; C: cesareans; V (vivos): children currently living.",
       "GTPAL system: Gravida, Term, Preterm, Abortions, Living children.",
       "Primigravida: first pregnancy. Nullipara: no births. Multipara: two or more births.",
       "A multiple pregnancy counts as one gravida."
@@ -61,7 +69,7 @@
     "sections": {
       "usage": [
         "Recorded in the chart at the first prenatal visit and every obstetric admission.",
-        "Example: currently pregnant, with one previous vaginal birth and one miscarriage → G3 P1 A1 C0.",
+        "Example: currently pregnant, with one previous vaginal birth (living child) and one miscarriage → G3 P1 A1 C0 V1.",
         "GTPAL example: G3 T1 P0 A1 L1."
       ],
       "nursing_care": [
@@ -76,7 +84,8 @@
     "fum",
     "fpp",
     "naegele-s-rule",
-    "spontaneous-abortion"
+    "spontaneous-abortion",
+    "ago"
   ],
   "sources": [
     {
@@ -92,5 +101,64 @@
   ],
   "ai_drafted": true,
   "verified": false,
-  "updated": "2026-10-06"
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 9,
+      "contradicted": 0,
+      "total": 13
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Gravidity and parity (G/P) indicate the patient’s reproductive history in numerical form.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "G: Gravida (or gravidity) is the number of pregnancies, including the current pregnancy.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The most common method of detailing gravidity and parity is using the G/TPAL (gravida, term, preterm, abortion, living) method (ACOG, 2014).",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "A = 1 (4 months is 16 weeks, and a multiple gestation pregnancy is considered one birth)",
+        "source": 0
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.usage.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      }
+    }
+  }
 }

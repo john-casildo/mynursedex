@@ -1,0 +1,151 @@
+{
+  "id": "aeg",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "AEG (adecuado para la edad gestacional)",
+    "aliases": [
+      "aeg",
+      "adecuado para la edad gestacional",
+      "rntaeg",
+      "rnpaeg",
+      "peso adecuado",
+      "aga",
+      "adecuado para edad gestacional"
+    ],
+    "summary": "RN cuyo peso está entre los percentiles 10 y 90 para su edad gestacional. Es la clasificación esperada y la de menos complicaciones.",
+    "key_points": [
+      "AEG: peso entre el percentil 10 y el 90 en la curva de crecimiento.",
+      "RNTAEG = recién nacido a término adecuado para la edad gestacional (lo más común en las notas).",
+      "RNPAEG = recién nacido pretérmino adecuado para la edad gestacional.",
+      "Un RNT AEG suele pesar entre 2 500 y 4 000 g."
+    ],
+    "sections": {
+      "usage": [
+        "Cómo se arma la sigla: RN + edad gestacional (P, T o post) + peso (PEG, AEG o GEG).",
+        "Ejemplo: «RNTAEG masculino, 40 semanas, peso 3 400 g»."
+      ],
+      "nursing_care": [
+        "Graficar peso, talla y perímetro cefálico en la curva que use la institución.",
+        "Aunque sea AEG, un RN pretérmino mantiene los riesgos propios de la prematuridad."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "AGA (AEG, appropriate for gestational age)",
+    "aliases": [
+      "aga",
+      "aeg",
+      "appropriate for gestational age",
+      "rntaeg",
+      "rnpaeg",
+      "normal birth weight"
+    ],
+    "summary": "A newborn whose weight is between the 10th and 90th percentile for gestational age (AEG in Spanish). It is the expected classification with the fewest complications.",
+    "key_points": [
+      "AGA: weight and/or length within the 10th and 90th percentile on the growth chart.",
+      "RNTAEG = term newborn appropriate for gestational age (the most common one in notes).",
+      "RNPAEG = preterm newborn appropriate for gestational age.",
+      "The weight for full-term infants that are born AGA will most often be between 2,500 grams and 4,000 grams."
+    ],
+    "sections": {
+      "usage": [
+        "How the acronym is built: RN + gestational age (P, T or post) + weight (PEG, AEG or GEG).",
+        "Example: \"RNTAEG male, 40 weeks, weight 3,400 g\"."
+      ],
+      "nursing_care": [
+        "Plot weight, length and head circumference on the growth chart your facility uses.",
+        "Even when AGA, a preterm newborn still has the risks of prematurity."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "peg",
+    "geg",
+    "rn",
+    "rnt",
+    "rnp",
+    "eg"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Estimation of Gestational Age of the Newborn and Newborn Behavioral Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/23-2-estimation-of-gestational-age-of-the-newborn-and-newborn-behavioral-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "MedlinePlus: Gestational age",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ency/article/002367.htm",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Edad gestacional",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/ency/article/002367.htm",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 6,
+      "contradicted": 0,
+      "total": 10
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "appropriate for gestational age (AGA) : a newborn whose weight and/or length measures within the 10th and 90th percentile compared to all other newborns their age, according to the CDC growth chart",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "appropriate for gestational age (AGA) : a newborn whose weight and/or length measures within the 10th and 90th percentile compared to all other newborns their age, according to the CDC growth chart",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The weight for full-term infants that are born AGA will most often be between 2,500 grams (about 5.5 pounds [lbs] or 2.5 kilograms [kg]) and 4,000 grams (about 8.8 lbs or 4 kg).",
+        "source": 1
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Once the gestational assessment is complete, the nurse will plot the gestational age with the newborn’s length, head circumference, and weight on the appropriate growth chart from the World Health Organization’s growth charts to determine if these measurements fall within range, the 10th to the 90th percentile for the corresponding gestational age based on gender.",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      }
+    }
+  }
+}

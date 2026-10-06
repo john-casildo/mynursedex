@@ -1,0 +1,156 @@
+{
+  "id": "dip",
+  "category": "abbreviations",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "DIP (desaceleración de la FCF)",
+    "aliases": [
+      "dip",
+      "deep",
+      "dips",
+      "dip i",
+      "dip ii",
+      "dip umbilical",
+      "desaceleración",
+      "desaceleraciones",
+      "caída de la fcf",
+      "depresión de la frecuencia cardíaca fetal"
+    ],
+    "summary": "Caída transitoria de la frecuencia cardíaca fetal (FCF) por debajo de su línea de base, relacionada o no con las contracciones. Algunas listas lo escriben «DEEP». Su tipo indica la causa.",
+    "key_points": [
+      "DIP I (temprana o precoz): baja y sube a la vez que la contracción, en espejo; se debe a compresión de la cabeza y es normal.",
+      "DIP II (tardía): empieza durante la contracción y termina después de ella; indica insuficiencia útero-placentaria e hipoxia fetal.",
+      "DIP variable (umbilical): caída brusca de al menos 15 lpm, en forma de «V» o «W», por compresión del cordón.",
+      "Desaceleración prolongada: dura de 2 a 10 minutos; es preocupante.",
+      "Regla VEAL CHOP: Variable–Cordón, Early (temprana)–Cabeza, Aceleración–OK, Late (tardía)–Placenta."
+    ],
+    "sections": {
+      "usage": [
+        "Ejemplo: «FCF 135 lpm, variabilidad moderada, DIP II repetidos».",
+        "Se describe junto con la DU para saber si la caída coincide con la contracción."
+      ],
+      "nursing_care": [
+        "Ante DIP II o variables repetidos: decúbito lateral, suspender la oxitocina, bolo de líquidos IV y oxígeno según protocolo.",
+        "Avisar al médico de inmediato y documentar las medidas.",
+        "Si hay DIP variables tras la ruptura de membranas, descartar prolapso del cordón.",
+        "Los DIP I se consideran normales; seguir vigilando la FCF."
+      ]
+    },
+    "care_plans": []
+  },
+  "en": {
+    "term": "Deceleration (DIP, FHR drop)",
+    "aliases": [
+      "deceleration",
+      "dip",
+      "deep",
+      "early deceleration",
+      "late deceleration",
+      "variable deceleration",
+      "prolonged deceleration",
+      "fhr deceleration"
+    ],
+    "summary": "A temporary drop of the fetal heart rate (FHR) below its baseline, related or not to contractions (DIP in Spanish; some lists write it \"DEEP\"). Its type points to the cause.",
+    "key_points": [
+      "Early deceleration (DIP I): gradual FHR declines that return to baseline, mirroring the uterine contraction; caused by fetal head compression and considered normal.",
+      "Late deceleration (DIP II): starts during a contraction and continues after the contraction ends; it is associated with uteroplacental insufficiency and fetal hypoxia.",
+      "Variable deceleration: an abrupt drop of at least 15 bpm, with a \"V\" or \"W\" shape, caused by compression of the umbilical cord.",
+      "Prolonged deceleration: lasts 2 to 10 minutes from onset to return to baseline; it is concerning.",
+      "VEAL CHOP rule: Variable–Cord, Early–Head, Acceleration–OK, Late–Placenta."
+    ],
+    "sections": {
+      "usage": [
+        "Example: \"FHR 135 bpm, moderate variability, repetitive late decelerations (DIP II)\".",
+        "Described together with the contraction pattern (DU) to see whether the drop matches the contraction."
+      ],
+      "nursing_care": [
+        "For repetitive late or variable decelerations: side-lying position, stop oxytocin, IV fluid bolus and oxygen per protocol.",
+        "Notify the provider right away and document the actions taken.",
+        "With variable decelerations after rupture of membranes, rule out cord prolapse.",
+        "Early decelerations are considered normal; keep monitoring the FHR."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "fetal-heart-rate-monitoring",
+    "du",
+    "contraction-stress-test",
+    "nonstress-test",
+    "oxytocin"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Basic Terms of Fetal Heart Rate and Contraction Patterns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/16-1-basic-terms-of-fetal-heart-rate-and-contraction-patterns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 10,
+      "contradicted": 0,
+      "total": 13
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Gradual FHR declines that then return to baseline, mirroring the uterine contraction, are called early decelerations .",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Late decelerations are nonreassuring and almost always indicate fetal hypoxia .",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Isolated, sporadic decelerations of at least 15 bpm from the FHR baseline that last 2 to 10 minutes from onset to return to baseline are called prolonged decelerations .",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.usage.0": {
+        "status": "not_found"
+      },
+      "sections.usage.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
