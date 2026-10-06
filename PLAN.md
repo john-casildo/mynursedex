@@ -179,6 +179,19 @@ Each entry lists its `sources` (name, publisher, link, language, license), shown
 - [ ] Installable on phone (PWA) + offline support
 - [x] Dark mode
 
+### Future — before offering it to the public or charging for it
+Works today for her and classmates. These are what stand between it and a real product, in order:
+- [x] Study-aid disclaimer (`/aviso`, linked from the footer)
+- [ ] Shared AI rate limit in Redis: the current one (`src/lib/rate-limit.ts`) is per server instance, so one person can use up the whole Groq quota
+- [ ] Every entry reviewed by a nurse or instructor and marked `verified: true` (all are AI drafts now). Biggest blocker: unchecked doses and ranges are a patient-safety and liability risk
+- [ ] Grow content: a paid nursing reference needs hundreds of entries, not ~70
+- [ ] Paid hosting: Vercel Hobby is non-commercial only → Vercel Pro (~$20/month)
+- [ ] Paid AI: Groq's free plan caps requests per minute and per day for the whole site, so the assistant fails under real traffic
+- [ ] Terms of use and privacy policy
+- [ ] Accounts and payments (or a free version funded another way)
+
+Capacity now: browsing and search handle thousands of people at once (pre-built pages on Vercel's CDN, search runs on the phone). The AI assistant is the bottleneck.
+
 ## Needed accounts (free)
 - GitHub
 - Vercel (sign in with GitHub)

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Analytics } from "@vercel/analytics/next";
 import { Atkinson_Hyperlegible, Pixelify_Sans, Silkscreen } from "next/font/google";
 import AuthorCard from "@/components/AuthorCard";
@@ -78,10 +79,15 @@ function DexLights() {
 }
 
 const disclaimer = (
-  <L
-    en="Study aid only. Always follow your instructors, facility protocols and current drug references."
-    es="Solo para estudio. Siga siempre a sus docentes, los protocolos del centro y referencias de fármacos actualizadas."
-  />
+  <>
+    <L
+      en="Study aid only. Always follow your instructors, facility protocols and current drug references."
+      es="Solo para estudio. Siga siempre a sus docentes, los protocolos del centro y referencias de fármacos actualizadas."
+    />{" "}
+    <Link href="/aviso" className="underline underline-offset-2">
+      <L en="Full disclaimer" es="Aviso completo" />
+    </Link>
+  </>
 );
 
 function Credit({ className }: { className: string }) {
