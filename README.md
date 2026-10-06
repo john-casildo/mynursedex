@@ -33,4 +33,4 @@ Facts come from openFDA / DailyMed, RxNorm, MedlinePlus (National Library of Med
 
 ## Author
 
-Made by [John Casildo](https://github.com/john-casildo).
+Made by [John Casildo](https://github.com/john-casildo) for his wife Mafe ♥

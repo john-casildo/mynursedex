@@ -5,6 +5,7 @@ import CategoryNav from "@/components/CategoryNav";
 import HomeLink from "@/components/HomeLink";
 import L from "@/components/L";
 import LangToggle from "@/components/LangToggle";
+import PixelIcon from "@/components/PixelIcon";
 import PixelNurse from "@/components/PixelNurse";
 import ThemeToggle from "@/components/ThemeToggle";
 import { entries } from "@/lib/concepts";
@@ -84,10 +85,18 @@ const disclaimer = (
 function Credit({ className }: { className: string }) {
   return (
     <p className={className}>
-      <L en="Made by " es="Creado por " />
+      <L en="Made by " es="Hecho por " />
       <a href={AUTHOR.url} target="_blank" rel="noopener noreferrer" className="font-semibold underline underline-offset-4">
         {AUTHOR.name}
       </a>
+      <L en=" for his wife " es=" para su esposa " />
+      {/* "Mafe" and the pixel heart (the Conditions icon, in rose) never wrap apart */}
+      <span className="whitespace-nowrap">
+        Mafe
+        <span className="ml-1 inline-block align-[-2px]" style={{ color: "#E0679A" }} aria-hidden>
+          <PixelIcon name="conditions" size={13} />
+        </span>
+      </span>
     </p>
   );
 }
