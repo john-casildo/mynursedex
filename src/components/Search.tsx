@@ -15,7 +15,7 @@ import { DexListSkeleton } from "./Skeleton";
 import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
 import { setFilters, syncFilters, useFilters } from "@/lib/category";
 import { useLang } from "@/lib/lang";
-import { fetchPopular } from "@/lib/popular";
+import { useRecentRaw } from "@/lib/popular";
 import type { Lang, SearchItem } from "@/lib/types";
 
 // Cards rendered at once; more load on demand so thousands of entries stay fast.
@@ -34,14 +34,20 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const [active, setActive] = useState(-1);
   const [limit, setLimit] = useState(PAGE_SIZE);
   const [showAll, setShowAll] = useState(false);
-  const [popular, setPopular] = useState<{ ids: string[]; shared: boolean } | null>(null);
+  // "Recientes": entries opened most recently on this device (null until read in the browser)
+  const recentRaw = useRecentRaw();
+  const popular = useMemo(() => {
+    if (recentRaw === null) return null;
+    try {
+      const ids = JSON.parse(recentRaw);
+      return { ids: Array.isArray(ids) ? (ids as string[]).slice(0, POPULAR) : [] };
+    } catch {
+      return { ids: [] as string[] };
+    }
+  }, [recentRaw]);
 
   // Shared with the desktop sidebar and kept in the URL (?c=labs&a=obstetrics).
   const { category, area } = useFilters();
-
-  useEffect(() => {
-    fetchPopular(POPULAR).then(setPopular);
-  }, []);
 
   // The logo is a full reset: the link drops the filters from the URL, and this clears the search.
   useEffect(() => {
@@ -248,7 +254,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
             <L en={<>Results for &ldquo;{query}&rdquo;</>} es={<>Resultados para &ldquo;{query}&rdquo;</>} />
           ) : popularView ? (
             popularItems.length ? (
-              <L en="Most searched" es="Más buscados" />
+              <L en="Recently viewed" es="Recientes" />
             ) : (
               <L en="To get started" es="Para empezar" />
             )
@@ -274,7 +280,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
           category === "all" &&
           area === "all" && (
             <button onClick={() => setShowAll(false)} className="text-sm font-semibold text-primary underline decoration-line underline-offset-4">
-              <L en="Most searched" es="Más buscados" />
+              <L en="Recently viewed" es="Recientes" />
             </button>
           )
         )}
