@@ -1,0 +1,218 @@
+{
+  "id": "fetal-heart-rate-monitoring",
+  "category": "fundamentals",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Monitoreo de la frecuencia cardíaca fetal (FCF)",
+    "aliases": [
+      "monitoreo fetal",
+      "fcf",
+      "frecuencia cardíaca fetal",
+      "cardiotocografía",
+      "nst",
+      "monitoreo electrónico fetal",
+      "desaceleraciones"
+    ],
+    "summary": "Valoración de la frecuencia cardíaca fetal y su relación con las contracciones, por auscultación intermitente o monitoreo electrónico, para evaluar la oxigenación del feto.",
+    "key_points": [
+      "Línea de base normal: 110–160 lpm. Variabilidad moderada (6–25 lpm) indica buena oxigenación.",
+      "Aceleraciones: tranquilizadoras.",
+      "Desaceleraciones: tempranas (compresión de la cabeza, benignas), variables (compresión del cordón), tardías (insuficiencia útero-placentaria, preocupantes).",
+      "Regla VEAL CHOP: Variables–Cordón, Tempranas (Early)–Cabeza, Aceleraciones–OK, Tardías (Late)–Placenta.",
+      "Ante un trazado preocupante: decúbito lateral, suspender oxitocina, bolo IV, oxígeno según protocolo y avisar."
+    ],
+    "sections": {
+      "purpose": [
+        "Evaluar la oxigenación y el bienestar fetal antes y durante el trabajo de parto.",
+        "Detectar a tiempo patrones que requieren intervención."
+      ],
+      "procedure": [
+        "Auscultación intermitente: Doppler sobre el dorso fetal, contando la FCF durante y después de una contracción.",
+        "Monitoreo externo: transductor de ultrasonido para la FCF y tocodinamómetro en el fondo uterino para las contracciones.",
+        "Monitoreo interno: electrodo en el cuero cabelludo fetal y catéter de presión intrauterina; requiere membranas rotas y dilatación.",
+        "Interpretar de forma sistemática: línea de base, variabilidad, aceleraciones, desaceleraciones y contracciones.",
+        "Clasificar el trazado según el sistema de categorías del protocolo (I, II, III)."
+      ],
+      "safety": [
+        "Diferenciar la FCF del pulso materno (tomar el pulso materno al mismo tiempo).",
+        "El monitoreo interno aumenta el riesgo de infección y no se usa con ciertas infecciones maternas.",
+        "Evitar el decúbito supino durante el monitoreo."
+      ],
+      "nursing_care": [
+        "Valorar la FCF con la frecuencia que indique el protocolo según el riesgo y la etapa.",
+        "Desaceleraciones variables: cambiar de posición; considerar amnioinfusión según indicación.",
+        "Desaceleraciones tardías o variabilidad mínima/ausente: suspender oxitocina, decúbito lateral, bolo IV, oxígeno según protocolo y avisar de inmediato.",
+        "Explicar a la paciente qué significan los sonidos y alarmas del monitor."
+      ],
+      "documentation": [
+        "Línea de base, variabilidad, aceleraciones y desaceleraciones.",
+        "Frecuencia, duración e intensidad de las contracciones.",
+        "Intervenciones realizadas y respuesta del feto.",
+        "Hora en que se notificó al médico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de alteración de la díada materno-fetal",
+        "type": "risk",
+        "related_to": [
+          "Contracciones uterinas",
+          "Posible compresión del cordón",
+          "Insuficiencia útero-placentaria"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado fetal: intraparto — FCF 110–160 lpm, variabilidad moderada y sin desaceleraciones tardías.",
+          "Estado materno: intraparto — contracciones dentro de lo esperado."
+        ],
+        "interventions": [
+          {
+            "action": "Interpretar el trazado de forma sistemática en cada valoración.",
+            "rationale": "Detecta cambios sutiles a tiempo."
+          },
+          {
+            "action": "Colocar en decúbito lateral ante desaceleraciones.",
+            "rationale": "Mejora el flujo útero-placentario y libera el cordón."
+          },
+          {
+            "action": "Suspender la oxitocina y administrar bolo IV según protocolo.",
+            "rationale": "Reduce las contracciones y mejora la perfusión."
+          },
+          {
+            "action": "Avisar de inmediato los trazados de categoría III o persistentemente preocupantes.",
+            "rationale": "Puede requerir nacimiento urgente."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fetal Heart Rate (FHR) Monitoring",
+    "aliases": [
+      "fetal heart rate monitoring",
+      "fhr",
+      "fetal monitoring",
+      "electronic fetal monitoring",
+      "efm",
+      "nst",
+      "decelerations",
+      "veal chop"
+    ],
+    "summary": "Assessment of the fetal heart rate and its relationship to contractions, by intermittent auscultation or electronic monitoring, to evaluate fetal oxygenation.",
+    "key_points": [
+      "Normal baseline: 110–160 bpm. Moderate variability (6–25 bpm) means good oxygenation.",
+      "Accelerations: reassuring.",
+      "Decelerations: early (head compression, benign), variable (cord compression), late (uteroplacental insufficiency, concerning).",
+      "VEAL CHOP: Variable–Cord, Early–Head, Acceleration–OK, Late–Placenta.",
+      "For a concerning tracing: side-lying, stop oxytocin, IV bolus, oxygen per protocol and notify."
+    ],
+    "sections": {
+      "purpose": [
+        "Assess fetal oxygenation and well-being before and during labor.",
+        "Detect patterns that need intervention early."
+      ],
+      "procedure": [
+        "Intermittent auscultation: Doppler over the fetal back, counting FHR during and after a contraction.",
+        "External monitoring: ultrasound transducer for FHR and tocodynamometer on the fundus for contractions.",
+        "Internal monitoring: fetal scalp electrode and intrauterine pressure catheter; requires ruptured membranes and dilation.",
+        "Interpret systematically: baseline, variability, accelerations, decelerations and contractions.",
+        "Classify the tracing with the protocol's category system (I, II, III)."
+      ],
+      "safety": [
+        "Tell FHR apart from the maternal pulse (take the maternal pulse at the same time).",
+        "Internal monitoring raises infection risk and isn't used with certain maternal infections.",
+        "Avoid supine position during monitoring."
+      ],
+      "nursing_care": [
+        "Assess FHR as often as the protocol requires for risk and stage.",
+        "Variable decelerations: reposition; consider amnioinfusion if ordered.",
+        "Late decelerations or minimal/absent variability: stop oxytocin, side-lying, IV bolus, oxygen per protocol and notify right away.",
+        "Explain monitor sounds and alarms to the patient."
+      ],
+      "documentation": [
+        "Baseline, variability, accelerations and decelerations.",
+        "Contraction frequency, duration and intensity.",
+        "Interventions done and the fetal response.",
+        "Time the provider was notified."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for disturbed maternal-fetal dyad",
+        "type": "risk",
+        "related_to": [
+          "Uterine contractions",
+          "Possible cord compression",
+          "Uteroplacental insufficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fetal Status: Intrapartum — FHR 110–160 bpm, moderate variability and no late decelerations.",
+          "Maternal Status: Intrapartum — contractions within expected limits."
+        ],
+        "interventions": [
+          {
+            "action": "Interpret the tracing systematically at every check.",
+            "rationale": "Detects subtle changes early."
+          },
+          {
+            "action": "Position side-lying for decelerations.",
+            "rationale": "Improves uteroplacental flow and relieves the cord."
+          },
+          {
+            "action": "Stop oxytocin and give an IV bolus per protocol.",
+            "rationale": "Reduces contractions and improves perfusion."
+          },
+          {
+            "action": "Report category III or persistently concerning tracings right away.",
+            "rationale": "May require urgent delivery."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "stages-of-labor",
+    "oxytocin",
+    "leopold-maneuvers",
+    "placental-abruption",
+    "premature-rupture-of-membranes"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Basic Terms of Fetal Heart Rate and Contraction Patterns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/16-1-basic-terms-of-fetal-heart-rate-and-contraction-patterns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: External and Internal Monitoring",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/16-2-external-and-internal-monitoring",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Nursing Interventions Based on FHR and Contraction Patterns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/16-4-nursing-interventions-based-on-fetal-heart-rate-and-uterine-contraction-patterns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}

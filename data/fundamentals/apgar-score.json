@@ -1,0 +1,191 @@
+{
+  "id": "apgar-score",
+  "category": "fundamentals",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Puntuación de Apgar",
+    "aliases": [
+      "apgar",
+      "test de apgar",
+      "puntaje de apgar",
+      "valoración del recién nacido"
+    ],
+    "summary": "Valoración rápida del recién nacido al minuto y a los 5 minutos de vida, con cinco criterios de 0 a 2 puntos cada uno (total de 0 a 10).",
+    "key_points": [
+      "Criterios: Apariencia (color), Pulso (FC), Gesticulación (irritabilidad refleja), Actividad (tono) y Respiración.",
+      "FC: ausente = 0; <100 lpm = 1; ≥100 lpm = 2.",
+      "7–10: normal; 4–6: moderadamente bajo; 0–3: bajo.",
+      "La reanimación NO espera al Apgar: se inicia según la valoración inmediata.",
+      "Si a los 5 minutos es <7, se repite cada 5 minutos según protocolo."
+    ],
+    "sections": {
+      "purpose": [
+        "Evaluar la adaptación del recién nacido a la vida fuera del útero.",
+        "Valorar la respuesta a la reanimación."
+      ],
+      "procedure": [
+        "Valorar al minuto y a los 5 minutos de vida.",
+        "Color: azul o pálido = 0; cuerpo rosado con extremidades azules (acrocianosis) = 1; todo rosado = 2.",
+        "FC: ausente = 0; <100 = 1; ≥100 = 2.",
+        "Gesticulación al estímulo: sin respuesta = 0; mueca = 1; llanto, tos o estornudo = 2.",
+        "Tono: flácido = 0; algo de flexión = 1; movimientos activos = 2.",
+        "Respiración: ausente = 0; lenta o irregular, llanto débil = 1; llanto fuerte = 2."
+      ],
+      "safety": [
+        "Secar, abrigar y estimular al recién nacido mientras se valora.",
+        "Iniciar la reanimación de inmediato si no respira o la FC es baja; no esperar al minuto.",
+        "La acrocianosis en los primeros minutos es normal."
+      ],
+      "nursing_care": [
+        "Promover contacto piel con piel si el bebé está estable.",
+        "Mantener la temperatura: secar, retirar paños húmedos y cubrir la cabeza.",
+        "Avisar al equipo neonatal si el puntaje es bajo."
+      ],
+      "documentation": [
+        "Puntaje al minuto y a los 5 minutos (y siguientes si aplica).",
+        "Intervenciones de reanimación realizadas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de la temperatura corporal",
+        "type": "risk",
+        "related_to": [
+          "Inmadurez de la termorregulación del recién nacido",
+          "Piel húmeda al nacer",
+          "Ambiente frío"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Termorregulación: recién nacido — temperatura axilar dentro de lo normal.",
+          "Adaptación del recién nacido — Apgar ≥7 a los 5 minutos."
+        ],
+        "interventions": [
+          {
+            "action": "Secar al recién nacido de inmediato y retirar los paños húmedos.",
+            "rationale": "La evaporación causa una gran pérdida de calor."
+          },
+          {
+            "action": "Colocar piel con piel con la madre y cubrir ambos.",
+            "rationale": "El cuerpo materno es la mejor fuente de calor."
+          },
+          {
+            "action": "Cubrir la cabeza del bebé.",
+            "rationale": "La cabeza tiene una gran superficie de pérdida de calor."
+          },
+          {
+            "action": "Tomar la temperatura según protocolo.",
+            "rationale": "Detecta a tiempo la hipotermia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Apgar Score",
+    "aliases": [
+      "apgar",
+      "apgar score",
+      "apgar test",
+      "newborn assessment"
+    ],
+    "summary": "Quick newborn assessment at 1 and 5 minutes of life, using five criteria scored 0 to 2 each (total 0 to 10).",
+    "key_points": [
+      "Criteria: Appearance (color), Pulse (HR), Grimace (reflex irritability), Activity (tone) and Respiration.",
+      "HR: absent = 0; <100 bpm = 1; ≥100 bpm = 2.",
+      "7–10: normal; 4–6: moderately low; 0–3: low.",
+      "Resuscitation does NOT wait for the Apgar: it starts based on the immediate assessment.",
+      "If <7 at 5 minutes, repeat every 5 minutes per protocol."
+    ],
+    "sections": {
+      "purpose": [
+        "Assess the newborn's adaptation to life outside the uterus.",
+        "Assess the response to resuscitation."
+      ],
+      "procedure": [
+        "Assess at 1 and 5 minutes of life.",
+        "Color: blue or pale = 0; pink body with blue extremities (acrocyanosis) = 1; completely pink = 2.",
+        "HR: absent = 0; <100 = 1; ≥100 = 2.",
+        "Grimace to stimulation: no response = 0; grimace = 1; cry, cough or sneeze = 2.",
+        "Tone: limp = 0; some flexion = 1; active movement = 2.",
+        "Respiration: absent = 0; slow or irregular, weak cry = 1; strong cry = 2."
+      ],
+      "safety": [
+        "Dry, warm and stimulate the newborn while assessing.",
+        "Start resuscitation right away if the baby isn't breathing or HR is low; don't wait for 1 minute.",
+        "Acrocyanosis in the first minutes is normal."
+      ],
+      "nursing_care": [
+        "Promote skin-to-skin contact if the baby is stable.",
+        "Maintain temperature: dry, remove wet linens and cover the head.",
+        "Notify the neonatal team for a low score."
+      ],
+      "documentation": [
+        "Score at 1 and 5 minutes (and later if applicable).",
+        "Resuscitation interventions performed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced body temperature",
+        "type": "risk",
+        "related_to": [
+          "Immature newborn thermoregulation",
+          "Wet skin at birth",
+          "Cold environment"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Thermoregulation: Newborn — axillary temperature within normal range.",
+          "Newborn Adaptation — Apgar ≥7 at 5 minutes."
+        ],
+        "interventions": [
+          {
+            "action": "Dry the newborn right away and remove wet linens.",
+            "rationale": "Evaporation causes major heat loss."
+          },
+          {
+            "action": "Place skin-to-skin with the mother and cover both.",
+            "rationale": "The mother's body is the best heat source."
+          },
+          {
+            "action": "Cover the baby's head.",
+            "rationale": "The head has a large surface for heat loss."
+          },
+          {
+            "action": "Take temperature per protocol.",
+            "rationale": "Detects hypothermia early."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "stages-of-labor",
+    "neonatal-jaundice",
+    "breastfeeding"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Childbirth",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/childbirth.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Apgar Scoring",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/22-1-apgar-scoring",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
