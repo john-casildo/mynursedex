@@ -131,7 +131,7 @@ Each entry lists its `sources` (name, publisher, link, language, license), shown
 - [x] Define schema type + ~20 starter entries
 - [x] Search page with Fuse.js (instant results as you type)
 - [x] Concept detail page (`/concept/[id]`) with related links
-- [ ] Push to GitHub, deploy to Vercel
+- [x] Push to GitHub, deploy to Vercel (https://mynursedex.vercel.app)
 
 ### Phase 2 — Smart search
 - [ ] `scripts/build-embeddings.js` generates `data/embeddings.json`
@@ -168,6 +168,7 @@ Each entry lists its `sources` (name, publisher, link, language, license), shown
 - [ ] Costa Rica sources: CCSS Lista Oficial de Medicamentos, Ministerio de Salud guidelines, OPS/PAHO
 - [ ] Simple review flow so she can mark entries verified
 - [ ] Grow to ~300 entries, then ~800–1000
+- [ ] Fact-check entries against the full text of their cited chapters (start with drugs and high-risk conditions)
 - [ ] Have her review/flag entries
 
 ### Phase 5 — Nice-to-haves
