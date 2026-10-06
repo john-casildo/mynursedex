@@ -56,6 +56,13 @@ html:not([lang="es"]) [data-lang-btn="en"] {
   color: var(--color-navy);
 }
 
+/* The dark-mode button stays "selected" while dark mode is on (same look as the ES/EN switch) */
+.dark [data-theme-btn],
+.dark [data-theme-btn]:hover {
+  background: var(--color-mask);
+  color: var(--color-navy);
+}
+
 body {
   background: var(--bg);
   color: var(--ink);

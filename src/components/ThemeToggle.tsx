@@ -1,22 +1,39 @@
 "use client";
 
+import { useSyncExternalStore } from "react";
+import PixelIcon from "./PixelIcon";
+
+// Dark mode on/off. The button looks "selected" while dark mode is on; that highlight comes from
+// CSS on the html "dark" class (globals.css), so it's right even before React loads.
+
+function subscribe(onChange: () => void) {
+  const observer = new MutationObserver(onChange);
+  observer.observe(document.documentElement, { attributes: true, attributeFilter: ["class"] });
+  return () => observer.disconnect();
+}
+
+const isDark = () => document.documentElement.classList.contains("dark");
+
 export default function ThemeToggle() {
+  const dark = useSyncExternalStore(subscribe, isDark, () => false);
+
   function toggle() {
-    const dark = document.documentElement.classList.toggle("dark");
+    const next = document.documentElement.classList.toggle("dark");
     try {
-      localStorage.setItem("theme", dark ? "dark" : "light");
+      localStorage.setItem("theme", next ? "dark" : "light");
     } catch {}
   }
 
   return (
     <button
       onClick={toggle}
-      aria-label="Toggle dark mode"
-      className="grid h-9 w-9 place-items-center rounded text-mask hover:bg-white/10"
+      data-theme-btn
+      aria-pressed={dark}
+      aria-label={dark ? "Modo oscuro activado / Dark mode on" : "Modo oscuro desactivado / Dark mode off"}
+      title={dark ? "Modo oscuro: sí" : "Modo oscuro: no"}
+      className="filter-item grid h-9 w-9 place-items-center rounded text-mask hover:bg-white/10"
     >
-      <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
-        <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z" />
-      </svg>
+      <PixelIcon name="moon" size={18} />
     </button>
   );
 }
