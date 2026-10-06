@@ -8,6 +8,7 @@ import L from "@/components/L";
 import LangToggle from "@/components/LangToggle";
 import PixelIcon from "@/components/PixelIcon";
 import PixelNurse from "@/components/PixelNurse";
+import SoundToggle from "@/components/SoundToggle";
 import ThemeToggle from "@/components/ThemeToggle";
 import { entries } from "@/lib/concepts";
 import { AREAS, CATEGORIES, type Area, type Category } from "@/lib/types";
@@ -116,6 +117,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <Brand size={32} />
           <div className="ml-auto flex items-center gap-1">
             <LangToggle />
+            <SoundToggle />
             <ThemeToggle />
           </div>
         </header>
@@ -134,6 +136,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <div className="mt-auto space-y-4 px-2">
             <div className="flex items-center gap-1">
               <LangToggle />
+              <SoundToggle />
               <ThemeToggle />
             </div>
             <p className="text-xs leading-relaxed text-ceil/80">{disclaimer}</p>

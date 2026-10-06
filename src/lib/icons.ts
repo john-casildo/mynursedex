@@ -108,6 +108,30 @@ export const ICONS = {
     "..X.X.X..",
     ".........",
   ],
+  // speaker with sound waves
+  soundOn: [
+    "....X....",
+    "...XX....",
+    "XXXXX.X..",
+    "XXXXX..X.",
+    "XXXXX..X.",
+    "XXXXX.X..",
+    "...XX....",
+    "....X....",
+    ".........",
+  ],
+  // speaker with an X
+  soundOff: [
+    "....X....",
+    "...XX....",
+    "XXXXX.X.X",
+    "XXXXX..X.",
+    "XXXXX.X.X",
+    "XXXXX....",
+    "...XX....",
+    "....X....",
+    ".........",
+  ],
 } satisfies Record<string, string[]>;
 
 export type IconName = keyof typeof ICONS;

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import type { ComponentProps } from "react";
 import { setFilters } from "@/lib/category";
+import { playHeal } from "@/lib/sound";
 
 // Fired when the logo is clicked, so the search page clears its search box too.
 export const HOME_EVENT = "mynursedex:home";
@@ -16,6 +17,7 @@ export default function HomeLink(props: Omit<ComponentProps<typeof Link>, "href"
       {...props}
       href="/"
       onClick={() => {
+        playHeal();
         setFilters({ category: "all", area: "all" });
         window.dispatchEvent(new Event(HOME_EVENT));
       }}
