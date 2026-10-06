@@ -13,12 +13,14 @@ async function fda(name: string): Promise<Fetched> {
   const data = await getJson(
     `https://api.fda.gov/drug/label.json?search=openfda.generic_name:${q}+openfda.brand_name:${q}&limit=10`,
   );
-  // Skip combination products (e.g. albuterol + budesonide) so the label is about this drug alone.
+  // Skip combination products (e.g. albuterol + budesonide, diclofenac/misoprostol, homeopathic
+  // mixes listed with " - ") so the label is about this drug alone.
   const lower = name.toLowerCase();
   const label = (data?.results ?? []).find((r: any) => {
     const generic = (r.openfda?.generic_name?.[0] ?? "").toLowerCase();
     const brand = (r.openfda?.brand_name?.[0] ?? "").toLowerCase();
-    return generic && !generic.includes(" and ") && !generic.includes(",") && (generic.includes(lower) || brand.includes(lower));
+    const combo = [" and ", ",", "/", " - "].some((sep) => generic.includes(sep));
+    return generic && !combo && (generic.includes(lower) || brand.includes(lower));
   });
   if (!label) return out;
 

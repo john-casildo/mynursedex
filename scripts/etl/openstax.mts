@@ -88,9 +88,16 @@ const escape = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
 // The 2 most relevant pages for a topic, with only the passages that mention it.
 export async function openstaxSources(terms: string[], maxChars = 900): Promise<(Source & { text: string })[]> {
-  const words = [...new Set(terms.map((t) => t.toLowerCase().trim()).filter((t) => t.length > 2))];
-  if (!words.length) return [];
-  const patterns = words.map((w) => new RegExp(`\\b${escape(w)}\\b`, "gi"));
+  const phrases = [...new Set(terms.map((t) => t.toLowerCase().replace(/['’]s\b/g, "").trim()).filter((t) => t.length > 2))];
+  if (!phrases.length) return [];
+  // Whole phrases first; distinctive single words (e.g. "leopold", "naegele") as a fallback,
+  // since books write "Leopold's maneuvers" where the topic says "Leopold maneuvers".
+  const common = new Set(["score", "rule", "test", "testing", "screening", "assessment", "monitoring", "syndrome", "disease", "factor", "type", "rate", "blood", "heart", "fetal", "human"]);
+  const singles = phrases
+    .flatMap((p) => (p.includes(" ") ? p.split(/\s+/) : []))
+    .filter((w) => w.length >= 5 && !common.has(w));
+  const words = [...phrases, ...new Set(singles)];
+  const patterns = words.map((w) => new RegExp(`\\b${escape(w)}(?:['’]s)?\\b`, "gi"));
 
   const scored = (await allPages())
     .map((page) => {

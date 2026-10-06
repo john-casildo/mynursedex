@@ -8,7 +8,8 @@
 //   npm run etl -- transform                  # only redo AI drafts from saved data/raw/ (no re-fetching)
 //   npm run etl -- validate                   # check every entry (also runs before each build)
 //
-// Options: --only <id>   limit to one entry   |   --dry-run   print instead of saving
+// Options: --only <id> one entry | --area <area> one area | --limit <n> at most n entries
+//          --dry-run print instead of saving
 //
 // Groq free plan: ~8,000 tokens/minute and ~200,000 tokens/day per model. Each entry uses about
 // 7k tokens on the drafting model and 6k on the translation model, so roughly 25 entries/day. Every step saves as it goes and skips finished work, so it's safe to stop and re-run.
@@ -20,11 +21,14 @@ import { MODEL, TRANSLATE_MODEL, groq, transform } from "./transform.mts";
 import { checkEntry, printReport, validate } from "./validate.mts";
 
 const args = process.argv.slice(2);
-const command = args.find((a) => !a.startsWith("--") && args[args.indexOf(a) - 1] !== "--only") ?? "run";
+const command =
+  args.find((a, i) => !a.startsWith("--") && !["--only", "--area", "--limit"].includes(args[i - 1])) ?? "run";
 const FORCE = args.includes("--force");
 const DRY_RUN = args.includes("--dry-run");
 const UPGRADE = args.includes("--upgrade");
 const ONLY = args.includes("--only") ? args[args.indexOf("--only") + 1] : undefined;
+const AREA = args.includes("--area") ? args[args.indexOf("--area") + 1] : undefined;
+const LIMIT = args.includes("--limit") ? Number(args[args.indexOf("--limit") + 1]) : undefined;
 
 // An entry is "full" once it has sections beyond nursing care and the new sources list.
 const isFull = (e: Concept) =>
@@ -46,7 +50,9 @@ async function jobs(): Promise<Job[]> {
   } else {
     list = (await readTopics()).filter((t) => FORCE || !byId.has(t.id));
   }
-  return ONLY ? list.filter((j) => j.id === ONLY) : list;
+  if (ONLY) list = list.filter((j) => j.id === ONLY);
+  if (AREA) list = list.filter((j) => j.areas.includes(AREA));
+  return LIMIT ? list.slice(0, LIMIT) : list;
 }
 
 // The model sometimes returns broken JSON or an empty entry. Retry, and never save an entry
