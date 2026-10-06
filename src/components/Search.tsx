@@ -26,8 +26,8 @@ import type { Lang, SearchItem } from "@/lib/types";
 const WEAK_MATCH = 0.6;
 const CLOSE_MATCH = 0.25;
 
-// Entries per page; the page buttons are under the list. Phones skip the buttons and load the
-// next PAGE_SIZE entries as the list is scrolled to the bottom.
+// Entries per page; the page buttons are under the list. Phones get a "Ver 10 más" button
+// instead, which adds the next PAGE_SIZE entries to the same list.
 const PAGE_SIZE = 10;
 const SUGGESTIONS = 6;
 const POPULAR = 15;
@@ -186,21 +186,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const phone = useIsPhone();
   const [loadedState, setLoadedState] = useState({ key: "", count: PAGE_SIZE });
   const loaded = loadedState.key === listKey ? loadedState.count : PAGE_SIZE;
-  const hasMore = phone && loaded < shown.length;
-  const sentinel = useRef<HTMLDivElement>(null);
-  useEffect(() => {
-    const el = sentinel.current;
-    if (!hasMore || !el) return;
-    // Starts loading a bit before the bottom is reached so the scroll doesn't stall.
-    const io = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) setLoadedState({ key: listKey, count: loaded + PAGE_SIZE });
-      },
-      { rootMargin: "600px 0px" },
-    );
-    io.observe(el);
-    return () => io.disconnect();
-  }, [hasMore, listKey, loaded]);
+  const remaining = phone ? shown.length - loaded : 0;
 
   const firstShown = phone ? 0 : (page - 1) * PAGE_SIZE;
   const pageItems = phone ? shown.slice(0, loaded) : shown.slice(firstShown, page * PAGE_SIZE);
@@ -390,9 +376,17 @@ export default function Search({ items }: { items: SearchItem[] }) {
             ))}
           </ul>
           {phone ? (
-            hasMore && (
-              <div ref={sentinel} role="status" className="py-6 text-center text-sm text-muted">
-                {lang === "es" ? "Cargando más…" : "Loading more…"}
+            remaining > 0 && (
+              <div className="mt-6 text-center">
+                <button
+                  onClick={() => setLoadedState({ key: listKey, count: loaded + PAGE_SIZE })}
+                  className="font-pixel rounded border-2 border-line bg-card px-5 py-2.5 text-ink hover:border-scrubs"
+                >
+                  <L en={`See ${Math.min(PAGE_SIZE, remaining)} more`} es={`Ver ${Math.min(PAGE_SIZE, remaining)} más`} />
+                </button>
+                <p className="mt-2 text-xs text-muted">
+                  <L en={`${loaded} of ${shown.length}`} es={`${loaded} de ${shown.length}`} />
+                </p>
               </div>
             )
           ) : (
