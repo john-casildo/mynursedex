@@ -50,18 +50,16 @@ function tone(c: AudioContext, freq: number, start: number, dur: number, type: O
   osc.stop(start + dur + 0.02);
 }
 
-// Plays once per visit (per browser tab session): the logo is also the way back home and gets
-// tapped a lot, so the jingle stays a nice surprise instead of repeating.
-const PLAYED_KEY = "healPlayed";
+// Plays once per visit, where a visit is a page load (new tab, reopening the site or a refresh).
+// The logo is also the way back home and gets tapped a lot, so after the first time it stays
+// silent while she moves around the site. Kept in memory on purpose: sessionStorage gets copied
+// into tabs opened from another tab, which made new tabs silent.
+let played = false;
 
 function alreadyPlayed(): boolean {
-  try {
-    if (sessionStorage.getItem(PLAYED_KEY)) return true;
-    sessionStorage.setItem(PLAYED_KEY, "1");
-    return false;
-  } catch {
-    return false;
-  }
+  if (played) return true;
+  played = true;
+  return false;
 }
 
 // Must be called from a click/tap: browsers only allow sound after a user gesture.
