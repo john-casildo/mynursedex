@@ -50,6 +50,12 @@ export function filtersToQuery({ category, area }: Partial<Filters>): string {
   return q ? `?${q}` : "";
 }
 
+// Next.js navigations (Link, router) change the URL without a popstate event, so anything that
+// navigates to the search page calls this to make every filter reader re-check the URL.
+export function syncFilters() {
+  listeners.forEach((l) => l());
+}
+
 export function setFilters(next: Partial<Filters>) {
   const merged = { ...read(), ...next };
   window.history.replaceState(window.history.state, "", window.location.pathname + filtersToQuery(merged));

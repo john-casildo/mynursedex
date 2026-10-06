@@ -12,7 +12,7 @@ import PixelNurse from "./PixelNurse";
 import RequestTopic from "./RequestTopic";
 import { CardSkeleton } from "./Skeleton";
 import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
-import { setFilters, useFilters } from "@/lib/category";
+import { setFilters, syncFilters, useFilters } from "@/lib/category";
 import { useLang } from "@/lib/lang";
 import { fetchPopular } from "@/lib/popular";
 import { AREAS, CATEGORIES, type Area, type Category, type Lang, type SearchItem } from "@/lib/types";
@@ -52,6 +52,9 @@ export default function Search({ items }: { items: SearchItem[] }) {
       setLimit(PAGE_SIZE);
       setShowAll(false);
     }
+    // Arriving here through a Next.js link (e.g. a sidebar category from an entry page) changes
+    // the URL silently; re-check it so the sidebar and chips show the right filter.
+    syncFilters();
     window.addEventListener(HOME_EVENT, reset);
     return () => window.removeEventListener(HOME_EVENT, reset);
   }, []);
