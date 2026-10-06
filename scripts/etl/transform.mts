@@ -101,7 +101,7 @@ ${plans}
 }
 
 function draftPrompt(category: string): string {
-  return `You write entries for NurseDex, a nursing study reference. The reader is a 2nd-year nursing student
+  return `You write entries for MyNurseDex, a nursing study reference. The reader is a 2nd-year nursing student
 in COSTA RICA whose classes and exams are in Spanish.
 Write the entry IN SPANISH as used in Costa Rican nursing education ("presión arterial", "insuficiencia cardíaca"),
 with generic drug names (DCI), metric units (kg, °C, mL) and lab units as reported in Costa Rica (glucose mg/dL, electrolytes mEq/L).
@@ -120,7 +120,7 @@ NANDA-I LIST:
 ${NANDA.map((d) => d.es).join("\n")}`;
 }
 
-const TRANSLATE_PROMPT = `You translate NurseDex nursing entries from Spanish into English for reference.
+const TRANSLATE_PROMPT = `You translate MyNurseDex nursing entries from Spanish into English for reference.
 Return ONLY a JSON object with exactly the same keys and structure as the input, all text in English.
 Rules:
 - Keep the same facts; do not add or remove content.

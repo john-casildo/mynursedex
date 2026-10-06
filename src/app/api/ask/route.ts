@@ -2,10 +2,10 @@ import { entryContext, findEntries, modeTask, quizPrompt, systemPrompt, type Ask
 import { rateLimited } from "@/lib/rate-limit";
 import type { Lang } from "@/lib/types";
 
-// "Pregúntale a NurseDex": answers only from matching NurseDex entries, via Groq's free API.
+// "Pregúntale a MyNurseDex": answers only from matching MyNurseDex entries, via Groq's free API.
 //
 // POST { question, lang, entryId?, mode? }  →
-//   covered = false:      { covered: false }                 (nothing in NurseDex matches)
+//   covered = false:      { covered: false }                 (nothing in MyNurseDex matches)
 //   mode "quiz":          { questions: [...] , sources }      (JSON)
 //   otherwise:            streamed plain text; sources in the X-Sources header
 

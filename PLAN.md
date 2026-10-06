@@ -1,4 +1,4 @@
-# NurseDex — Plan
+# MyNurseDex — Plan
 
 A free, fast lookup tool for nursing concepts, built for a 2nd-year nursing student in **Costa Rica** (classes and exams in Spanish).
 
@@ -27,7 +27,7 @@ A free, fast lookup tool for nursing concepts, built for a 2nd-year nursing stud
 ## Design
 **Style:** Pokédex-inspired layout in hospital colors: scrubs blue, surgical-mask blue and white.
 
-- Header bar in deep scrubs blue with three "dex lights" (mask blue, white, light blue), the NurseDex wordmark and a dark-mode toggle.
+- Header bar in deep scrubs blue with three "dex lights" (mask blue, white, light blue), the MyNurseDex wordmark and a dark-mode toggle.
 - Search bar at the top, then category filter chips (All / Pharm / Conditions / Labs / Fundamentals / Abbrev).
 - Results are "dex entry" cards: entry number (#042), category badge, term, one-line summary.
 - Concept page = full dex entry: large title, aliases as tags, then labeled sections (Summary, Key Points, Nursing Considerations, Related).
@@ -143,6 +143,15 @@ Each entry lists its `sources` (name, publisher, link, language, license), shown
 - [x] Question box on home + "Pregunte sobre este tema" on every entry, with "Explícamelo más simple", "Dame un ejemplo clínico" and practice mode (3 interactive questions)
 - [x] Disclaimer, no doses for real patients, per-IP hourly limit, fallback to `gpt-oss-20b` when the main model's daily quota is used up
 - Vercel env: `GROQ_API_KEY` (assistant), `GITHUB_TOKEN` (fine-grained, Issues read/write on this repo, for requests)
+
+### Search & popular
+- Google-style suggestions while typing (↑↓ + Enter, or click); Enter or a suggestion runs the search
+- "Todo" with an empty search shows the 15 most viewed entries ("Más buscados") + "Ver todas"
+- Views counted by `/api/popular` in Upstash Redis (free, via Vercel → Storage); without it, per-device counts
+
+### Notifications
+- `.github/workflows/request-received.yml`: the bot comments on each new request → GitHub emails the owner
+- The nightly job comments when it adds the entry → another email with the link
 
 ### Nightly job — `.github/workflows/nightly.yml`
 - 02:00 Costa Rica: `npm run etl -- queue --limit 10` → topic requests (issues labeled `solicitud`) first, then the most-linked missing related topics

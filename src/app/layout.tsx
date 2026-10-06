@@ -29,7 +29,7 @@ const pixel = Pixelify_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "NurseDex",
+  title: "MyNurseDex",
   description:
     "Consulta rápida de conceptos de enfermería: fármacos, patologías, laboratorios y planes de cuidado NANDA.",
 };
@@ -52,7 +52,7 @@ function Brand({ size }: { size: number }) {
       <span className="grid place-items-center rounded-[3px] bg-mist p-1 ring-2 ring-white/80">
         <PixelNurse size={size} />
       </span>
-      <span className="font-pixel text-2xl leading-none text-white">NurseDex</span>
+      <span className="font-pixel text-2xl leading-none text-white">MyNurseDex</span>
     </Link>
   );
 }

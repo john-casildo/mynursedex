@@ -14,6 +14,7 @@ const nextConfig: NextConfig = {
   outputFileTracingIncludes: {
     "/api/ask": ENTRY_FILES,
     "/api/request": ENTRY_FILES,
+    "/api/popular": ENTRY_FILES,
   },
 };
 

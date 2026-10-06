@@ -104,7 +104,7 @@ export async function validate(): Promise<{ errors: Problem[]; warnings: Problem
   }
   for (const { file, e } of entries) {
     const missing = (e.related ?? []).filter((r) => !ids.has(r));
-    if (missing.length) warnings.push({ file, message: `related topics not in NurseDex yet: ${missing.join(", ")}` });
+    if (missing.length) warnings.push({ file, message: `related topics not in MyNurseDex yet: ${missing.join(", ")}` });
   }
 
   return { errors, warnings, count: entries.length };

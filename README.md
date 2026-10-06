@@ -1,4 +1,4 @@
-# NurseDex
+# MyNurseDex
 
 Quick lookup for nursing concepts (drugs, conditions, labs, procedures and abbreviations) for nursing students in Costa Rica. Spanish first, with English too.
 

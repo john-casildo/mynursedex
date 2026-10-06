@@ -40,7 +40,7 @@ export async function POST(req: Request) {
     body: JSON.stringify({
       title,
       labels: [LABEL],
-      body: `Tema solicitado desde NurseDex: **${topic}**\n\nEl trabajo nocturno lo procesará automáticamente.${
+      body: `Tema solicitado desde MyNurseDex: **${topic}**\n\nEl trabajo nocturno lo procesará automáticamente.${
         getEntry(topic.toLowerCase()) ? "\n\n(Puede que ya exista una entrada parecida.)" : ""
       }`,
     }),

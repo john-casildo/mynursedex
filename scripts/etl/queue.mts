@@ -36,7 +36,7 @@ export async function closeIssue(issue: number, comment: string) {
 
 type Verdict = { nursing: boolean; category: string; term_en: string; area: string | null };
 
-const CLASSIFY_PROMPT = `You sort topic requests for NurseDex, a nursing study reference for students in Costa Rica.
+const CLASSIFY_PROMPT = `You sort topic requests for MyNurseDex, a nursing study reference for students in Costa Rica.
 The request may be in Spanish or English and may have typos.
 Return ONLY JSON: {"nursing": true|false, "category": one of ${JSON.stringify(CATEGORIES)}, "term_en": the standard English name (generic name for drugs, e.g. "furosemide"; condition name, e.g. "appendicitis"), "area": one of ${JSON.stringify(Object.keys(AREAS))} or null}.
 "nursing" is false for anything that isn't a health, nursing or medical topic, or is gibberish.
@@ -89,7 +89,7 @@ export async function buildQueue(entries: Concept[], limit: number): Promise<Que
     const topic = issue.title.replace(/^solicitud:\s*/i, "").trim();
     const existing = findExisting(entries, topic);
     if (existing) {
-      await closeIssue(issue.number, `Ya existe en NurseDex: [${existing.es.term}](${SITE}/concept/${existing.id})`);
+      await closeIssue(issue.number, `Ya existe en MyNurseDex: [${existing.es.term}](${SITE}/concept/${existing.id})`);
       console.log(`  #${issue.number} "${topic}": already exists (${existing.id})`);
       continue;
     }
@@ -105,7 +105,7 @@ export async function buildQueue(entries: Concept[], limit: number): Promise<Que
     }
     const sameAs = findExisting(entries, v.term_en);
     if (sameAs) {
-      await closeIssue(issue.number, `Ya existe en NurseDex: [${sameAs.es.term}](${SITE}/concept/${sameAs.id})`);
+      await closeIssue(issue.number, `Ya existe en MyNurseDex: [${sameAs.es.term}](${SITE}/concept/${sameAs.id})`);
       console.log(`  #${issue.number} "${topic}": already exists as ${sameAs.id}`);
       continue;
     }

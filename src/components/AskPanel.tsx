@@ -32,7 +32,7 @@ const ERRORS = {
   },
 };
 
-// "Pregúntale a NurseDex". With entryId it answers about that entry and offers study shortcuts.
+// "Pregúntale a MyNurseDex". With entryId it answers about that entry and offers study shortcuts.
 export default function AskPanel({ entryId, entryTerm }: { entryId?: string; entryTerm?: { es: string; en: string } }) {
   const lang = useLang();
   const [input, setInput] = useState("");
@@ -118,12 +118,12 @@ export default function AskPanel({ entryId, entryTerm }: { entryId?: string; ent
         <PixelNurse size={36} className="shrink-0 rounded-sm bg-mist p-0.5" />
         <div>
           <h2 className="font-pixel text-xl leading-tight">
-            {entryId ? <L en="Ask about this topic" es="Pregunte sobre este tema" /> : <L en="Ask NurseDex" es="Pregúntale a NurseDex" />}
+            {entryId ? <L en="Ask about this topic" es="Pregunte sobre este tema" /> : <L en="Ask MyNurseDex" es="Pregúntale a MyNurseDex" />}
           </h2>
           <p className="text-sm text-muted">
             <L
-              en="Answers come only from NurseDex entries. Study aid, not clinical advice."
-              es="Responde solo con lo que hay en NurseDex. Es apoyo de estudio, no indicación clínica."
+              en="Answers come only from MyNurseDex entries. Study aid, not clinical advice."
+              es="Responde solo con lo que hay en MyNurseDex. Es apoyo de estudio, no indicación clínica."
             />
           </p>
         </div>
@@ -237,8 +237,8 @@ export default function AskPanel({ entryId, entryTerm }: { entryId?: string; ent
             <div className="space-y-3">
               <p>
                 <L
-                  en={<>&ldquo;{asked}&rdquo; isn&rsquo;t in NurseDex yet, so the assistant won&rsquo;t guess.</>}
-                  es={<>&ldquo;{asked}&rdquo; aún no está en NurseDex, así que el asistente no va a adivinar.</>}
+                  en={<>&ldquo;{asked}&rdquo; isn&rsquo;t in MyNurseDex yet, so the assistant won&rsquo;t guess.</>}
+                  es={<>&ldquo;{asked}&rdquo; aún no está en MyNurseDex, así que el asistente no va a adivinar.</>}
                 />
               </p>
               <RequestTopic topic={asked} />

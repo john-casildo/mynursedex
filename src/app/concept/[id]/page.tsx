@@ -5,6 +5,7 @@ import AskPanel from "@/components/AskPanel";
 import DexCard from "@/components/DexCard";
 import L from "@/components/L";
 import PixelIcon from "@/components/PixelIcon";
+import ViewTracker from "@/components/ViewTracker";
 import { AREA_LABELS, CATEGORY_STYLES, SECTIONS, formatNumber } from "@/lib/categories";
 import { entries, getEntry, toSearchItem } from "@/lib/concepts";
 import type { CarePlan, DexEntry, Lang, Localized, Source } from "@/lib/types";
@@ -18,7 +19,7 @@ export function generateStaticParams() {
 export async function generateMetadata(props: PageProps<"/concept/[id]">): Promise<Metadata> {
   const { id } = await props.params;
   const entry = getEntry(id);
-  return entry ? { title: `${entry.es.term} · NurseDex`, description: entry.es.summary } : {};
+  return entry ? { title: `${entry.es.term} · MyNurseDex`, description: entry.es.summary } : {};
 }
 
 const TEXT = {
@@ -328,6 +329,7 @@ export default async function ConceptPage(props: PageProps<"/concept/[id]">) {
 
   return (
     <article>
+      <ViewTracker id={entry.id} />
       <Link
         href="/"
         className="mb-6 inline-flex items-center gap-2 rounded text-sm font-semibold text-primary hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-scrubs"

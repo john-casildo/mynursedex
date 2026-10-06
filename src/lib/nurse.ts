@@ -1,4 +1,4 @@
-// The NurseDex mascot: a 24×24 pixel nurse. Each letter is a color in NURSE_PALETTE, "." is transparent.
+// The MyNurseDex mascot: a 24×24 pixel nurse. Each letter is a color in NURSE_PALETTE, "." is transparent.
 // No facial features, on purpose. The cap cross is blue: a red cross on white is a protected emblem.
 export const NURSE_SIZE = 24;
 

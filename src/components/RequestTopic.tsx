@@ -25,8 +25,8 @@ export default function RequestTopic({ topic }: { topic: string }) {
     return (
       <p className="font-semibold text-primary">
         <L
-          en={<>Requested. &ldquo;{topic}&rdquo; should be in NurseDex by tomorrow.</>}
-          es={<>Solicitado. &ldquo;{topic}&rdquo; debería estar en NurseDex mañana.</>}
+          en={<>Requested. &ldquo;{topic}&rdquo; should be in MyNurseDex by tomorrow.</>}
+          es={<>Solicitado. &ldquo;{topic}&rdquo; debería estar en MyNurseDex mañana.</>}
         />
       </p>
     );

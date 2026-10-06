@@ -1,0 +1,26 @@
+# When a topic request arrives (issue labeled "solicitud"), the bot comments on it.
+# Requests are filed with the owner's own token, and GitHub doesn't email you about your own
+# actions; a comment from github-actions[bot] does trigger the usual notification email.
+
+name: Request received
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  acknowledge:
+    if: contains(github.event.issue.labels.*.name, 'solicitud')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Comment on the request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TITLE: ${{ github.event.issue.title }}
+        run: |
+          gh issue comment ${{ github.event.issue.number }} --repo ${{ github.repository }} --body "Nueva solicitud en MyNurseDex: **${TITLE#Solicitud: }**.
+
+          El trabajo nocturno (2:00 a. m., hora de Costa Rica) la revisará y, si es un tema de enfermería, creará la entrada y cerrará esta solicitud con el enlace."

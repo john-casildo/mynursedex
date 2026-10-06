@@ -1,4 +1,4 @@
-// Server-only helpers for "Pregúntale a NurseDex": find the entries that match a question and
+// Server-only helpers for "Pregúntale a MyNurseDex": find the entries that match a question and
 // turn them into the context the model is allowed to answer from.
 import Fuse from "fuse.js";
 import { SECTIONS } from "./categories";
@@ -82,15 +82,15 @@ export function entryContext(e: DexEntry, lang: Lang, maxChars = 2200): string {
 export type AskMode = "ask" | "simpler" | "example" | "quiz";
 
 const BASE = {
-  es: `Eres NurseDex, tutor de enfermería para una estudiante de segundo año en Costa Rica.
+  es: `Eres MyNurseDex, tutor de enfermería para una estudiante de segundo año en Costa Rica.
 Responde en español de Costa Rica, claro y breve (máximo unas 200 palabras), usando SOLO la información de las ENTRADAS.
-Si la respuesta no está en las entradas, dilo claramente ("Eso aún no está en NurseDex") y no inventes.
+Si la respuesta no está en las entradas, dilo claramente ("Eso aún no está en MyNurseDex") y no inventes.
 Nunca agregues cifras, frecuencias, rangos ni datos que no aparezcan textualmente en las entradas.
 No des dosis ni indicaciones para pacientes reales: para decisiones clínicas, remite a la docente y al protocolo del centro.
 Usa viñetas cuando ayuden y **negrita** para lo más importante. Al final, menciona entre corchetes las entradas que usaste, p. ej. [Preeclampsia].`,
-  en: `You are NurseDex, a nursing tutor for a second-year nursing student.
+  en: `You are MyNurseDex, a nursing tutor for a second-year nursing student.
 Answer in clear, short English (about 200 words max), using ONLY the information in the ENTRIES.
-If the answer isn't in the entries, say so clearly ("That isn't in NurseDex yet") and don't make anything up.
+If the answer isn't in the entries, say so clearly ("That isn't in MyNurseDex yet") and don't make anything up.
 Never add numbers, frequencies, ranges or facts that don't appear in the entries.
 Don't give doses or orders for real patients: for clinical decisions, refer to the instructor and facility protocol.
 Use bullets when they help and **bold** for the key facts. At the end, name the entries you used in brackets, e.g. [Preeclampsia].`,
@@ -119,10 +119,10 @@ export function modeTask(mode: Exclude<AskMode, "quiz">, lang: Lang): string {
 
 export function quizPrompt(lang: Lang): string {
   return lang === "es"
-    ? `Eres NurseDex. Escribe 3 preguntas de selección única tipo examen de enfermería (en español de Costa Rica) basadas SOLO en las ENTRADAS.
+    ? `Eres MyNurseDex. Escribe 3 preguntas de selección única tipo examen de enfermería (en español de Costa Rica) basadas SOLO en las ENTRADAS.
 Devuelve SOLO JSON: {"questions":[{"question": texto, "options": [4 opciones], "answer": índice 0-3 de la correcta, "rationale": por qué es correcta, 1-2 oraciones}]}.
 Prioriza valoración, prioridades de enfermería y signos de alarma. Sin dosis.`
-    : `You are NurseDex. Write 3 single-answer, exam-style nursing questions in English based ONLY on the ENTRIES.
+    : `You are MyNurseDex. Write 3 single-answer, exam-style nursing questions in English based ONLY on the ENTRIES.
 Return ONLY JSON: {"questions":[{"question": text, "options": [4 options], "answer": index 0-3 of the correct one, "rationale": why it's correct, 1-2 sentences}]}.
 Focus on assessment, nursing priorities and warning signs. No doses.`;
 }

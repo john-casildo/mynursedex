@@ -1,4 +1,4 @@
-// NurseDex ETL: builds entries from official/open sources.
+// MyNurseDex ETL: builds entries from official/open sources.
 //
 //   npm run etl -- sync-books                 # one-time: download OpenStax nursing books (~20 MB, few min)
 //   npm run etl -- run                        # extract + transform + validate every new topic in data/topics.txt
@@ -152,7 +152,7 @@ async function main() {
         else {
           await writeJson(entryUrl(entry.category, entry.id), entry);
           if (job.issue) {
-            const comment = `Agregado a NurseDex: [${entry.es.term}](${process.env.SITE_URL ?? "https://nursedex.vercel.app"}/concept/${entry.id}). Estará disponible en unos minutos.`;
+            const comment = `Agregado a MyNurseDex: [${entry.es.term}](${process.env.SITE_URL ?? "https://nursedex.vercel.app"}/concept/${entry.id}). Estará disponible en unos minutos.`;
             // In CI, requests are closed only after the new entries are pushed (see close-issues).
             if (process.env.CLOSE_LATER_FILE) {
               await appendFile(process.env.CLOSE_LATER_FILE, JSON.stringify({ issue: job.issue, comment }) + "\n");
