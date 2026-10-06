@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import DexCard from "@/components/DexCard";
 import L from "@/components/L";
+import PixelIcon from "@/components/PixelIcon";
 import { AREA_LABELS, CATEGORY_STYLES, SECTIONS, formatNumber } from "@/lib/categories";
 import { entries, getEntry, toSearchItem } from "@/lib/concepts";
 import type { CarePlan, DexEntry, Lang, Localized, Source } from "@/lib/types";
@@ -219,7 +220,9 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
             <p className="flex items-center gap-3 text-sm text-muted">
               <span className="font-bold tabular-nums text-primary">{formatNumber(entry.number)}</span>
               <span className="flex items-center gap-1.5">
-                <span className={`h-2.5 w-2.5 ${cat.dot}`} />
+                <span style={{ color: cat.color }}>
+                  <PixelIcon name={entry.category} size={16} />
+                </span>
                 {cat.label[lang]}
               </span>
               {entry.areas.map((a) => (

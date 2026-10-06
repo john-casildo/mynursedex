@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Atkinson_Hyperlegible, Pixelify_Sans } from "next/font/google";
+import { Atkinson_Hyperlegible, Pixelify_Sans, Silkscreen } from "next/font/google";
 import CategoryNav from "@/components/CategoryNav";
 import L from "@/components/L";
 import LangToggle from "@/components/LangToggle";
@@ -13,6 +13,13 @@ import "./globals.css";
 const body = Atkinson_Hyperlegible({
   variable: "--font-body",
   weight: ["400", "700"],
+  subsets: ["latin"],
+});
+
+// Silkscreen is built for tiny pixel sizes; used only on the type badges.
+const typeFont = Silkscreen({
+  variable: "--font-type",
+  weight: "400",
   subsets: ["latin"],
 });
 
@@ -72,7 +79,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html
       lang="es"
       suppressHydrationWarning
-      className={`${body.variable} ${pixel.variable} h-full antialiased`}
+      className={`${body.variable} ${pixel.variable} ${typeFont.variable} h-full antialiased`}
     >
       <head>
         <script dangerouslySetInnerHTML={{ __html: initScript }} />

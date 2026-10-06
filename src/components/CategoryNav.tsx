@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import L from "./L";
+import PixelIcon from "./PixelIcon";
 import { filtersToQuery, setFilters, useFilters } from "@/lib/category";
 import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
 import { AREAS, CATEGORIES, type Area, type Category } from "@/lib/types";
@@ -28,12 +29,12 @@ export default function CategoryNav({
   const currentArea = onSearch ? filters.area : null;
 
   const items = [
-    { id: "all" as const, en: "Everything", es: "Todo", dot: "bg-white" },
+    { id: "all" as const, en: "Everything", es: "Todo", color: "#FFFFFF" },
     ...CATEGORIES.map((c) => ({
       id: c,
       en: CATEGORY_STYLES[c].label.en,
       es: CATEGORY_STYLES[c].label.es,
-      dot: CATEGORY_STYLES[c].dot,
+      color: CATEGORY_STYLES[c].color,
     })),
   ];
 
@@ -54,7 +55,9 @@ export default function CategoryNav({
               aria-current={active ? "page" : undefined}
               className={itemClass(active)}
             >
-              <span className={`h-2.5 w-2.5 shrink-0 ${item.dot}`} />
+              <span style={{ color: item.color }}>
+                <PixelIcon name={item.id} />
+              </span>
               <span className="flex-1">
                 <L en={item.en} es={item.es} />
               </span>
@@ -83,6 +86,9 @@ export default function CategoryNav({
               aria-pressed={active}
               className={itemClass(active)}
             >
+              <span style={{ color: AREA_LABELS[id].color }}>
+                <PixelIcon name={id} />
+              </span>
               <span className="flex-1">
                 <L en={AREA_LABELS[id].en} es={AREA_LABELS[id].es} />
               </span>

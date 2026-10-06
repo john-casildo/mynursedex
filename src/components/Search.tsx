@@ -4,6 +4,7 @@ import { useMemo, useState } from "react";
 import Fuse from "fuse.js";
 import DexCard from "./DexCard";
 import L from "./L";
+import PixelIcon from "./PixelIcon";
 import PixelNurse from "./PixelNurse";
 import { AREA_LABELS, CATEGORY_STYLES } from "@/lib/categories";
 import { setFilters, useFilters } from "@/lib/category";
@@ -103,7 +104,11 @@ export default function Search({ items }: { items: SearchItem[] }) {
                 active ? "border-scrubs bg-scrubs text-white" : "border-line bg-card text-ink"
               }`}
             >
-              {id !== "all" && <span className={`h-2 w-2 ${CATEGORY_STYLES[id].dot}`} />}
+              {id !== "all" && (
+                <span style={{ color: active ? "#FFFFFF" : CATEGORY_STYLES[id].color }}>
+                  <PixelIcon name={id} size={14} />
+                </span>
+              )}
               {id === "all" ? (
                 <L en="All" es="Todo" />
               ) : (
@@ -118,10 +123,13 @@ export default function Search({ items }: { items: SearchItem[] }) {
             key={id}
             onClick={() => toggleArea(id)}
             aria-pressed={area === id}
-            className={`shrink-0 rounded border-2 px-3 py-1.5 text-sm font-semibold ${
+            className={`flex shrink-0 items-center gap-1.5 rounded border-2 px-3 py-1.5 text-sm font-semibold ${
               area === id ? "border-navy bg-navy text-white dark:border-ceil dark:bg-ceil dark:text-navy" : "border-line bg-card text-ink"
             }`}
           >
+            <span style={{ color: area === id ? "currentColor" : AREA_LABELS[id].color }}>
+              <PixelIcon name={id} size={14} />
+            </span>
             <L en={AREA_LABELS[id].short_en} es={AREA_LABELS[id].short_es} />
           </button>
         ))}

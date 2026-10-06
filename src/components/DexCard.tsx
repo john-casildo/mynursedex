@@ -1,6 +1,7 @@
 import Link from "next/link";
 import L from "./L";
-import { CATEGORY_STYLES, formatNumber } from "@/lib/categories";
+import TypeBadge from "./TypeBadge";
+import { AREA_LABELS, CATEGORY_STYLES, formatNumber } from "@/lib/categories";
 import type { SearchItem } from "@/lib/types";
 
 // One dex entry in a list: number, term, category and the first line of the summary.
@@ -19,9 +20,12 @@ export default function DexCard({ entry }: { entry: SearchItem }) {
           <span className="text-lg font-bold leading-snug">
             <L en={entry.en.term} es={entry.es.term} />
           </span>
-          <span className="flex shrink-0 items-center gap-1.5 text-xs text-muted">
-            <span className={`h-2 w-2 ${cat.dot}`} />
-            <L en={cat.short.en} es={cat.short.es} />
+          {/* Types, like a dex entry: the category, plus any areas as a second type */}
+          <span className="flex shrink-0 flex-col items-end gap-1 sm:flex-row">
+            <TypeBadge color={cat.color} en={cat.type.en} es={cat.type.es} />
+            {entry.areas.map((a) => (
+              <TypeBadge key={a} color={AREA_LABELS[a].color} en={AREA_LABELS[a].type_en} es={AREA_LABELS[a].type_es} />
+            ))}
           </span>
         </span>
         <span className="mt-0.5 line-clamp-2 block text-[15px] leading-relaxed text-muted">
