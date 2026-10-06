@@ -1,0 +1,363 @@
+{
+  "id": "pneumonia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Neumonía (NP)",
+    "aliases": [
+      "neumonia",
+      "infeccion pulmonar",
+      "neumonia comunitaria",
+      "neumonia bacteriana",
+      "neumonia viral"
+    ],
+    "summary": "Infección aguda del parénquima pulmonar que produce inflamación y llenado de los alvéolos con exudado, reduciendo el intercambio gaseoso.",
+    "key_points": [
+      "Es más frecuente en niños, ancianos y pacientes con comorbilidades.",
+      "Los signos clásicos son fiebre, tos productiva y disnea.",
+      "El diagnóstico se confirma con radiografía de tórax y cultivo de esputo.",
+      "El tratamiento depende del agente etiológico: antibióticos para bacterias, antivirales para virus.",
+      "Complicaciones graves incluyen insuficiencia respiratoria y sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El agente patógeno invade los alvéolos y desencadena una respuesta inflamatoria.",
+        "Se produce exudado rico en neutrófilos que llena los sacos aéreos.",
+        "El edema intersticial y el exudado disminuyen la difusión de O₂ y aumentan la resistencia de las vías respiratorias.",
+        "Puede haber consolidación pulmonar visible en la radiografía."
+      ],
+      "risk_factors": [
+        "Edad avanzada o menor de 2 años.",
+        "Enfermedades crónicas (EPOC, insuficiencia cardíaca, diabetes).",
+        "Tabaquismo y exposición a contaminantes.",
+        "Inmunosupresión o uso de corticoides.",
+        "Hospitalización reciente o ventilación mecánica."
+      ],
+      "signs_symptoms": [
+        "Fiebre ≥ 38 °C, escalofríos.",
+        "Tos con esputo purulento o seroso.",
+        "Disnea que empeora con el esfuerzo.",
+        "Dolor torácico pleurítico, a menudo unilateral.",
+        "Taquipnea y frecuencia cardíaca aumentada."
+      ],
+      "diagnostics": [
+        "Radiografía de tórax: infiltrados lobares o parcheados.",
+        "Hemograma: leucocitosis con neutrofilia o linfocitosis según etiología.",
+        "Cultivo de esputo o PCR para identificar patógeno.",
+        "Gasometría arterial: PaO₂ ↓, PaCO₂ ↑ en insuficiencia respiratoria.",
+        "Proteína C‑reactiva y procalcitonina elevadas en neumonía bacteriana."
+      ],
+      "treatment": [
+        "Antibióticos de amplio espectro (amoxicilina, ceftriaxona, levofloxacino) según guía local.",
+        "Antivirales (oseltamivir) si se sospecha influenza.",
+        "Oxígeno suplementario para SpO₂ < 92 % (cánula nasal, máscara).",
+        "Hidratación intravenosa con solución cristaloide isotónica.",
+        "Antipiréticos (paracetamol) y analgesia según necesidad."
+      ],
+      "complications": [
+        "Insuficiencia respiratoria aguda y necesidad de ventilación mecánica.",
+        "Sepsis y shock séptico.",
+        "Absceso pulmonar o empiema.",
+        "Deterioro de la función cardíaca por hipoxia.",
+        "Síndrome de distrés respiratorio agudo (SDRA)."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, esfuerzo y uso de músculos accesorios.",
+        "Monitorear SpO₂ y, si está indicado, gases arteriales.",
+        "Administrar oxígeno según prescripción y observar respuesta.",
+        "Promover la tos eficaz y la expectoración con fisioterapia respiratoria.",
+        "Controlar temperatura y administrar antipiréticos.",
+        "Registrar volumen y características del esputo."
+      ],
+      "patient_teaching": [
+        "Importancia de completar el ciclo completo de antibióticos.",
+        "Técnicas de tos y respiración profunda para evitar estancamiento de secreciones.",
+        "Reconocer signos de empeoramiento: aumento de disnea, fiebre persistente.",
+        "Mantener hidratación adecuada (≥ 2 L/día) y nutrición balanceada.",
+        "Evitar el tabaquismo y la exposición a humo o contaminantes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "inflamación alveolar",
+          "exudado pulmonar",
+          "dolor torácico",
+          "taquipnea"
+        ],
+        "evidenced_by": [
+          "taquipnea",
+          "uso de músculos accesorios",
+          "disminución de SpO₂",
+          "cianosis leve"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: SpO₂ ≥ 92 % en reposo dentro de 24 h",
+          "Disminución de la frecuencia respiratoria a ≤ 20 rpm en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en posición semi Fowler (30‑45°) para facilitar la expansión pulmonar",
+            "rationale": "Mejora la ventilación‑perfusión y reduce el trabajo respiratorio"
+          },
+          {
+            "action": "Administrar oxígeno suplementario según prescripción y registrar SpO₂ cada 2 h",
+            "rationale": "Mantiene la saturación adecuada y previene hipoxemia"
+          },
+          {
+            "action": "Realizar fisioterapia respiratoria (ejercicios de respiración profunda y tos asistida) cada 4 h",
+            "rationale": "Favorece la movilización de secreciones y evita atelectasias"
+          },
+          {
+            "action": "Controlar la temperatura y administrar antipirético si T > 38 °C",
+            "rationale": "La fiebre aumenta la demanda metabólica y la frecuencia respiratoria"
+          },
+          {
+            "action": "Evaluar dolor torácico y proporcionar analgesia antes de la tos",
+            "rationale": "El dolor limita la capacidad de tos eficaz y aumenta la disnea"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "neumonía bacteriana",
+          "uso de dispositivos invasivos",
+          "inmunosupresión",
+          "hospitalización prolongada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección secundaria (fiebre, leucocitosis) durante la hospitalización",
+          "Cultivos negativos al día 5 de tratamiento"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener técnica aséptica al manipular vías respiratorias y catéteres",
+            "rationale": "Previene la introducción de nuevos patógenos"
+          },
+          {
+            "action": "Realizar higiene de manos antes y después de cada contacto con el paciente",
+            "rationale": "Reduce la transmisión cruzada de microorganismos"
+          },
+          {
+            "action": "Monitorear temperatura y recuento leucocitario cada 8 h",
+            "rationale": "Detecta tempranamente signos de infección secundaria"
+          },
+          {
+            "action": "Cambiar y desechar adecuadamente los dispositivos de oxígeno y nebulización según protocolo",
+            "rationale": "Evita la colonización bacteriana de equipos reutilizables"
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de completar el antibiótico y reportar fiebre",
+            "rationale": "Promueve la adherencia y detección precoz de complicaciones"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pneumonia (NP)",
+    "aliases": [
+      "pneumonia",
+      "lung infection",
+      "community-acquired pneumonia",
+      "bacterial pneumonia",
+      "viral pneumonia"
+    ],
+    "summary": "Acute infection of the lung parenchyma that causes inflammation and filling of the alveoli with exudate, reducing gas exchange.",
+    "key_points": [
+      "It is more common in children, the elderly, and patients with comorbidities.",
+      "Classic signs are fever, productive cough, and dyspnea.",
+      "Diagnosis is confirmed with chest X‑ray and sputum culture.",
+      "Treatment depends on the etiologic agent: antibiotics for bacteria, antivirals for viruses.",
+      "Severe complications include respiratory failure and sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The pathogen invades the alveoli and triggers an inflammatory response.",
+        "Neutrophil-rich exudate fills the airspaces.",
+        "Interstitial edema and exudate decrease O₂ diffusion and increase airway resistance.",
+        "Pulmonary consolidation may be visible on X‑ray."
+      ],
+      "risk_factors": [
+        "Advanced age or under 2 years.",
+        "Chronic diseases (COPD, heart failure, diabetes).",
+        "Smoking and exposure to pollutants.",
+        "Immunosuppression or corticosteroid use.",
+        "Recent hospitalization or mechanical ventilation."
+      ],
+      "signs_symptoms": [
+        "Fever ≥ 38 °C, chills.",
+        "Cough with purulent or serous sputum.",
+        "Dyspnea worsening with exertion.",
+        "Pleuritic chest pain, often unilateral.",
+        "Tachypnea and increased heart rate."
+      ],
+      "diagnostics": [
+        "Chest X‑ray: lobar or patchy infiltrates.",
+        "CBC: leukocytosis with neutrophilia or lymphocytosis depending on etiology.",
+        "Sputum culture or PCR to identify pathogen.",
+        "Arterial blood gas: ↓PaO₂, ↑PaCO₂ in respiratory failure.",
+        "Elevated CRP and procalcitonin in bacterial pneumonia."
+      ],
+      "treatment": [
+        "Broad-spectrum antibiotics (amoxicillin, ceftriaxone, levofloxacin) per local guidelines.",
+        "Antivirals (oseltamivir) if influenza suspected.",
+        "Supplemental oxygen for SpO₂ < 92 % (nasal cannula, mask).",
+        "IV hydration with isotonic crystalloid solution.",
+        "Antipyretics (acetaminophen) and analgesia as needed."
+      ],
+      "complications": [
+        "Acute respiratory failure and need for mechanical ventilation.",
+        "Sepsis and septic shock.",
+        "Pulmonary abscess or empyema.",
+        "Cardiac dysfunction due to hypoxia.",
+        "Acute respiratory distress syndrome (ARDS)."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, effort, and use of accessory muscles.",
+        "Monitor SpO₂ and arterial gases if indicated.",
+        "Administer oxygen per prescription and observe response.",
+        "Promote effective cough and expectoration with respiratory physiotherapy.",
+        "Control temperature and give antipyretics.",
+        "Record volume and characteristics of sputum."
+      ],
+      "patient_teaching": [
+        "Importance of completing the full antibiotic course.",
+        "Cough and deep breathing techniques to prevent secretion stasis.",
+        "Recognize worsening signs: increased dyspnea, persistent fever.",
+        "Maintain adequate hydration (≥ 2 L/day) and balanced nutrition.",
+        "Avoid smoking and exposure to smoke or pollutants."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "alveolar inflammation",
+          "pulmonary exudate",
+          "chest pain",
+          "tachypnea"
+        ],
+        "evidenced_by": [
+          "tachypnea",
+          "use of accessory muscles",
+          "↓SpO₂",
+          "mild cyanosis"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: SpO₂ ≥ 92 % at rest within 24 h",
+          "Respiratory rate ≤ 20/min within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Place patient in semi‑Fowler position (30‑45°) to facilitate lung expansion",
+            "rationale": "Improves ventilation‑perfusion and reduces work of breathing"
+          },
+          {
+            "action": "Administer supplemental oxygen per prescription and record SpO₂ every 2 h",
+            "rationale": "Maintains adequate saturation and prevents hypoxemia"
+          },
+          {
+            "action": "Perform respiratory physiotherapy (deep breathing exercises and assisted cough) every 4 h",
+            "rationale": "Promotes secretion mobilization and prevents atelectasis"
+          },
+          {
+            "action": "Control temperature and give antipyretic if T > 38 °C",
+            "rationale": "Fever increases metabolic demand and respiratory rate"
+          },
+          {
+            "action": "Assess chest pain and provide analgesia before coughing",
+            "rationale": "Pain limits effective coughing and increases dyspnea"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "bacterial pneumonia",
+          "use of invasive devices",
+          "immunosuppression",
+          "prolonged hospitalization"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of secondary infection (fever, leukocytosis) during hospitalization",
+          "Negative cultures by day 5 of treatment"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain aseptic technique when handling airway devices and catheters",
+            "rationale": "Prevents introduction of new pathogens"
+          },
+          {
+            "action": "Perform hand hygiene before and after each patient contact",
+            "rationale": "Reduces cross‑transmission of microorganisms"
+          },
+          {
+            "action": "Monitor temperature and white blood count every 8 h",
+            "rationale": "Detects early signs of secondary infection"
+          },
+          {
+            "action": "Change and dispose of oxygen and nebulizer devices appropriately per protocol",
+            "rationale": "Prevents bacterial colonization of reusable equipment"
+          },
+          {
+            "action": "Educate patient and family on importance of completing antibiotics and reporting fever",
+            "rationale": "Promotes adherence and early detection of complications"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-respiratory-distress-syndrome",
+    "sepsis",
+    "pleural-effusion",
+    "community-acquired-pneumonia",
+    "antibiotic-resistance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pneumonia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pneumonia.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Neumonía",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pneumonia.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower Respiratory System: Pneumonia and Aspiration",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-7-disorders-of-the-lower-respiratory-system-pneumonia-and-aspiration",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Upper and Lower Respiratory Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-2-upper-and-lower-respiratory-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-06"
+}
