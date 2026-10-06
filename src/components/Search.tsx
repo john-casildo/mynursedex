@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useMemo, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 import AskPanel from "./AskPanel";
@@ -8,6 +8,7 @@ import DexCard from "./DexCard";
 import { HOME_EVENT } from "./HomeLink";
 import L from "./L";
 import MobileFilters from "./MobileFilters";
+import Pagination from "./Pagination";
 import PixelIcon from "./PixelIcon";
 import PixelNurse from "./PixelNurse";
 import RequestTopic from "./RequestTopic";
@@ -19,7 +20,8 @@ import { useRecentRaw } from "@/lib/popular";
 import type { Lang, SearchItem } from "@/lib/types";
 
 // Cards rendered at once; more load on demand so thousands of entries stay fast.
-const PAGE_SIZE = 50;
+// Entries per page; the page buttons are under the list.
+const PAGE_SIZE = 10;
 const SUGGESTIONS = 6;
 const POPULAR = 15;
 
@@ -32,7 +34,6 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState(-1);
-  const [limit, setLimit] = useState(PAGE_SIZE);
   const [showAll, setShowAll] = useState(false);
   // "Recientes": entries opened most recently on this device (null until read in the browser)
   const recentRaw = useRecentRaw();
@@ -56,7 +57,6 @@ export default function Search({ items }: { items: SearchItem[] }) {
       setQuery("");
       setOpen(false);
       setActive(-1);
-      setLimit(PAGE_SIZE);
       setShowAll(false);
     }
     // Arriving here through a Next.js link (e.g. a sidebar category from an entry page) changes
@@ -101,7 +101,6 @@ export default function Search({ items }: { items: SearchItem[] }) {
     setQuery(text.trim());
     setOpen(false);
     setActive(-1);
-    setLimit(PAGE_SIZE);
   }
 
   // Choosing a suggestion opens that concept. "Buscar …" at the bottom of the list still searches.
@@ -133,6 +132,15 @@ export default function Search({ items }: { items: SearchItem[] }) {
 
   const byId = useMemo(() => new Map(items.map((e) => [e.id, e])), [items]);
 
+  // Pages: a new search, filter or view starts again at page 1 (the page is tied to this key).
+  const listKey = `${query}|${category}|${area}|${showAll}`;
+  const [pageState, setPageState] = useState({ key: "", page: 1 });
+  const listTop = useRef<HTMLDivElement>(null);
+  function goToPage(next: number) {
+    setPageState({ key: listKey, page: next });
+    listTop.current?.scrollIntoView({ block: "start" });
+  }
+
   // Searching or filtering: results move up and the assistant moves below them.
   const searching = !!query || category !== "all" || area !== "all";
 
@@ -147,6 +155,9 @@ export default function Search({ items }: { items: SearchItem[] }) {
     [query, category, area, fuse, items],
   );
   const shown = popularView ? (popularItems.length ? popularItems : items.slice(0, POPULAR)) : results;
+  const pageCount = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
+  const page = Math.min(pageState.key === listKey ? pageState.page : 1, pageCount);
+  const pageItems = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
 
   // For the empty state: a filter can hide entries that exist, e.g. "Abbreviations · OB/GYN" or a search under a filter.
   const filtered = category !== "all" || area !== "all";
@@ -248,7 +259,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
       </div>
 
       {/* Phones: "Filtros" button + active filter pills, with a bottom sheet; desktop uses the sidebar */}
-      <MobileFilters resultsCount={results.length} onChange={() => setLimit(PAGE_SIZE)} />
+      <MobileFilters resultsCount={results.length} onChange={() => {}} />
 
       {/* While searching or filtering, the results come first and the assistant moves below them.
           It's reordered with CSS (not re-mounted), so an answer she's reading isn't lost. */}
@@ -258,7 +269,10 @@ export default function Search({ items }: { items: SearchItem[] }) {
       </div>
 
       <div className={searching ? "order-1" : "order-2"}>
-      <div className={`mb-2 flex flex-wrap items-baseline justify-between gap-3 ${searching ? "mt-6" : "mt-10"}`}>
+      <div
+        ref={listTop}
+        className={`mb-2 flex scroll-mt-20 flex-wrap items-baseline justify-between gap-3 ${searching ? "mt-6" : "mt-10"}`}
+      >
         <h1 className="font-pixel text-xl text-ink">
           {query ? (
             <L en={<>Results for &ldquo;{query}&rdquo;</>} es={<>Resultados para &ldquo;{query}&rdquo;</>} />
@@ -305,23 +319,16 @@ export default function Search({ items }: { items: SearchItem[] }) {
         <>
           {/* A new key replays the entrance animation each time the search or filters change */}
           <ul
-            key={`${query}|${category}|${area}|${popularView}`}
+            key={`${listKey}|${popularView}|${page}`}
             className="grid divide-y divide-line border-y border-line xl:grid-cols-2 xl:gap-x-8 xl:divide-y-0 xl:border-0"
           >
-            {shown.slice(0, limit).map((e, i) => (
+            {pageItems.map((e, i) => (
               <li key={e.id} className="dex-enter xl:border-b xl:border-line" style={{ "--i": i } as React.CSSProperties}>
                 <DexCard entry={e} />
               </li>
             ))}
           </ul>
-          {!popularView && results.length > limit && (
-            <button
-              onClick={() => setLimit(limit + PAGE_SIZE)}
-              className="mt-4 rounded border-2 border-line bg-card px-5 py-2.5 text-sm font-semibold text-primary hover:border-scrubs"
-            >
-              <L en="Show more" es="Mostrar más" /> ({results.length - limit})
-            </button>
-          )}
+          <Pagination page={page} pageCount={pageCount} onPage={goToPage} />
           {query && results.length === 1 && (
             <button
               onClick={() => router.push(`/concept/${results[0].id}`)}
