@@ -25,7 +25,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const lang = useLang();
   const router = useRouter();
   const listboxId = useId();
-  // What's typed, and what was submitted (Enter or a suggestion). The list follows `query`.
+  // What's typed, and what was submitted (Enter or "Buscar …"). The list follows `query`.
   const [input, setInput] = useState("");
   const [query, setQuery] = useState("");
   const [open, setOpen] = useState(false);
@@ -51,27 +51,28 @@ export default function Search({ items }: { items: SearchItem[] }) {
     setFilters({ area: area === next ? "all" : next });
   }
 
-  // Both languages are always searched, so "potasio" and "potassium" both work.
-  // Diagnoses are included so "exceso de volumen de líquidos" finds heart failure.
-  const fuse = useMemo(
-    () =>
-      new Fuse(items, {
-        keys: [
-          { name: "es.term", weight: 3 },
-          { name: "en.term", weight: 3 },
-          { name: "es.aliases", weight: 2.5 },
-          { name: "en.aliases", weight: 2.5 },
-          { name: "es.summary", weight: 1 },
-          { name: "en.summary", weight: 1 },
-          { name: "es.diagnoses", weight: 1.5 },
-          { name: "en.diagnoses", weight: 1.5 },
-        ],
-        threshold: 0.35,
-        ignoreLocation: true,
-        ignoreDiacritics: true,
-      }),
-    [items],
-  );
+  // Both languages are searched, so "potasio" and "potassium" both work, and diagnoses let
+  // "exceso de volumen de líquidos" find heart failure. The current language ranks a bit higher. The other
+  // language's summary barely counts: its long prose adds false-friend noise, but it's the only place some
+  // English phrases match ("fluid volume excess" → furosemide), so it stays at the bottom instead of out.
+  const fuse = useMemo(() => {
+    const other = lang === "es" ? "en" : "es";
+    return new Fuse(items, {
+      keys: [
+        { name: `${lang}.term`, weight: 3 },
+        { name: `${other}.term`, weight: 2.4 },
+        { name: `${lang}.aliases`, weight: 2.5 },
+        { name: `${other}.aliases`, weight: 2 },
+        { name: `${lang}.diagnoses`, weight: 1.5 },
+        { name: `${other}.diagnoses`, weight: 1.2 },
+        { name: `${lang}.summary`, weight: 1 },
+        { name: `${other}.summary`, weight: 0.4 },
+      ],
+      threshold: 0.35,
+      ignoreLocation: true,
+      ignoreDiacritics: true,
+    });
+  }, [items, lang]);
 
   const suggestions = useMemo(() => {
     const q = input.trim();
@@ -86,10 +87,11 @@ export default function Search({ items }: { items: SearchItem[] }) {
     setLimit(PAGE_SIZE);
   }
 
-  // Choosing a suggestion searches for it, same as typing it and pressing Enter.
+  // Choosing a suggestion opens that concept. "Buscar …" at the bottom of the list still searches.
   function choose(item: SearchItem) {
-    setInput(item[lang].term);
-    submit(item[lang].term);
+    setOpen(false);
+    setActive(-1);
+    router.push(`/concept/${item.id}`);
   }
 
   function onKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
