@@ -108,17 +108,17 @@ export const ICONS = {
     "..X.X.X..",
     ".........",
   ],
-  // crescent moon (dark mode)
+  // crescent moon (dark mode): thick lower-left curve, tips pointing up and right
   moon: [
-    "...XXXX..",
+    "....XXX..",
     "..XXX....",
     ".XXX.....",
+    ".XX......",
     "XXX......",
-    "XXX......",
-    ".XXX.....",
-    "..XXX...X",
-    "...XXXXX.",
-    ".........",
+    "XXX.....X",
+    "XXXX...XX",
+    ".XXXXXXX.",
+    "..XXXXX..",
   ],
   // speaker with sound waves
   soundOn: [
