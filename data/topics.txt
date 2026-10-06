@@ -2,9 +2,10 @@
 # Categories: pharmacology, conditions, labs, fundamentals, abbreviations
 # Topics that already exist are skipped (use --force to redo them).
 # A [area] line tags the topics below it (areas: src/lib/areas.json); [] clears it.
+# Add ", manual" (e.g. [obstetrics, manual]) for topics written by hand; the nightly job builds the rest.
 # Swap these for topics from her syllabus.
 
-[obstetrics]
+[obstetrics, manual]
 conditions: preeclampsia
 conditions: eclampsia
 conditions: HELLP syndrome

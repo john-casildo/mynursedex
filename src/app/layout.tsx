@@ -29,6 +29,8 @@ const pixel = Pixelify_Sans({
 });
 
 export const metadata: Metadata = {
+  // Public address, so link previews (opengraph-image) use absolute URLs.
+  metadataBase: new URL("https://mynursedex.vercel.app"),
   title: "MyNurseDex",
   description:
     "Consulta rápida de conceptos de enfermería: fármacos, patologías, laboratorios y planes de cuidado NANDA.",

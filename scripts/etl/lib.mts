@@ -61,7 +61,8 @@ export type Concept = {
   updated: string;
 };
 
-export type Job = { id: string; category: string; term: string; areas: string[] };
+// manual: written by hand (in a Claude session), so the nightly job leaves it alone.
+export type Job = { id: string; category: string; term: string; areas: string[]; manual?: boolean };
 
 // ---------- Shared config files ----------
 
@@ -161,19 +162,25 @@ export async function loadEntries(): Promise<Concept[]> {
   return all;
 }
 
-// topics.txt: "category: term" lines. A "[area]" line (e.g. "[obstetrics]") tags the lines
-// below it with that area until the next "[...]" line; "[]" clears it.
+// topics.txt: "category: term" lines. A "[...]" header applies to the lines below it until the
+// next header: an area (e.g. "[obstetrics]") tags them, and "manual" (e.g. "[obstetrics, manual]")
+// marks them as hand-written so the nightly job skips them. "[]" clears both.
 export async function readTopics(): Promise<Job[]> {
   let areas: string[] = [];
+  let manual = false;
   const jobs: Job[] = [];
   for (const raw of (await readFile(new URL("topics.txt", DATA_DIR), "utf8")).split("\n")) {
     const l = raw.trim();
     if (!l || l.startsWith("#")) continue;
     const header = l.match(/^\[(.*)\]$/);
     if (header) {
-      const a = header[1].trim();
-      if (a && !AREAS[a]) console.warn(`Unknown area "[${a}]" in topics.txt (add it to src/lib/areas.json)`);
-      areas = a && AREAS[a] ? [a] : [];
+      const parts = header[1].split(",").map((p) => p.trim()).filter(Boolean);
+      manual = parts.includes("manual");
+      areas = parts.filter((p) => p !== "manual");
+      for (const a of areas) {
+        if (!AREAS[a]) console.warn(`Unknown area "[${a}]" in topics.txt (add it to src/lib/areas.json)`);
+      }
+      areas = areas.filter((a) => AREAS[a]);
       continue;
     }
     const [category, ...rest] = l.split(":");
@@ -183,7 +190,7 @@ export async function readTopics(): Promise<Job[]> {
       console.warn(`Skipping bad line in topics.txt: "${l}"`);
       continue;
     }
-    jobs.push({ id: slugify(term), category: c, term, areas });
+    jobs.push({ id: slugify(term), category: c, term, areas, manual });
   }
   return jobs;
 }

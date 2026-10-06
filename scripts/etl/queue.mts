@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any -- responses from external APIs are untyped JSON */
 // QUEUE: decides what the nightly job builds.
 //   1. Open GitHub issues labeled "solicitud" (filed by the site's "Solicitar este tema" button).
-//   2. Then related topics that entries link to but that don't exist yet.
+//   2. Then planned topics in data/topics.txt (except hand-written "manual" sections).
+//   3. Then related topics that entries link to but that don't exist yet.
 // Topics already listed in data/topics.txt are left alone (they're planned separately).
 // Each candidate is checked by a small model (is it a nursing topic? which category? English name?)
 // so typos, duplicates and junk don't become entries.
@@ -116,10 +117,19 @@ export async function buildQueue(entries: Concept[], limit: number): Promise<Que
     console.log(`  #${issue.number} "${topic}" → ${v.category}: ${v.term_en}${v.area ? ` [${v.area}]` : ""}`);
   }
 
-  // 2. Fill the rest with related topics that entries already point to. Topics listed in
-  // data/topics.txt are skipped: those are planned and written separately (by hand or `etl run`).
+  // 2. Planned topics from data/topics.txt that don't exist yet (except hand-written "manual" ones).
   const ids = new Set(entries.map((e) => e.id));
-  for (const t of await readTopics()) taken.add(t.id);
+  const topics = await readTopics();
+  for (const t of topics) {
+    if (queue.length >= limit) break;
+    if (t.manual || ids.has(t.id) || taken.has(t.id)) continue;
+    taken.add(t.id);
+    queue.push(t);
+    console.log(`  planned → ${t.category}: ${t.term}`);
+  }
+
+  // 3. Fill the rest with related topics that entries already point to (never ones in topics.txt).
+  for (const t of topics) taken.add(t.id);
   const counts = new Map<string, { n: number; areas: Set<string> }>();
   for (const e of entries) {
     for (const r of e.related ?? []) {
