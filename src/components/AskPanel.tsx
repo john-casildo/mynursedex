@@ -115,7 +115,7 @@ export default function AskPanel({ entryId, entryTerm }: { entryId?: string; ent
   return (
     <section className="rounded border-2 border-line bg-card p-4 shadow-[4px_4px_0_var(--line)] sm:p-5">
       <div className="flex items-center gap-3">
-        <PixelNurse size={36} className="shrink-0 rounded-sm bg-mist p-0.5" />
+        <PixelNurse size={36} className={`shrink-0 rounded-sm bg-mist p-0.5 ${loading ? "bob" : ""}`} />
         <div>
           <h2 className="font-pixel text-xl leading-tight">
             {entryId ? <L en="Ask about this topic" es="Pregunte sobre este tema" /> : <L en="Ask MyNurseDex" es="Pregúntale a MyNurseDex" />}
@@ -211,7 +211,9 @@ export default function AskPanel({ entryId, entryTerm }: { entryId?: string; ent
                           key={oi}
                           disabled={revealed}
                           onClick={() => setPicked((p) => ({ ...p, [qi]: oi }))}
-                          className={`rounded border-2 px-3 py-2 text-left ${style}`}
+                          className={`rounded border-2 px-3 py-2 text-left ${style} ${
+                            revealed && oi === chosen ? (correct ? "pop" : "shake") : ""
+                          }`}
                         >
                           <span className="mr-2 font-bold">{"ABCD"[oi]}.</span>
                           {opt}

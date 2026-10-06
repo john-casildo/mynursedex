@@ -56,9 +56,9 @@ const areaCounts = Object.fromEntries(
 
 function Brand({ size }: { size: number }) {
   return (
-    <HomeLink className="flex items-center gap-3 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mask">
+    <HomeLink className="nurse-hop flex items-center gap-3 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-mask">
       <span className="grid place-items-center rounded-[3px] bg-mist p-1 ring-2 ring-white/80">
-        <PixelNurse size={size} />
+        <PixelNurse size={size} className="nurse-sprite" />
       </span>
       <span className="font-pixel text-2xl leading-none text-white">MyNurseDex</span>
     </HomeLink>
@@ -68,9 +68,9 @@ function Brand({ size }: { size: number }) {
 function DexLights() {
   return (
     <span className="flex gap-1.5" aria-hidden>
-      <span className="h-2 w-2 bg-mask" />
-      <span className="h-2 w-2 bg-ceil" />
-      <span className="h-2 w-2 bg-white" />
+      <span className="dex-light h-2 w-2 bg-mask" />
+      <span className="dex-light h-2 w-2 bg-ceil" />
+      <span className="dex-light h-2 w-2 bg-white" />
     </span>
   );
 }
@@ -93,7 +93,7 @@ function Credit({ className }: { className: string }) {
       {/* "Mafe" and the pixel heart (the Conditions icon, in rose) never wrap apart */}
       <span className="whitespace-nowrap">
         Mafe
-        <span className="ml-1 inline-block align-[-2px]" style={{ color: "#E0679A" }} aria-hidden>
+        <span className="heart-beat ml-1 inline-block align-[-2px]" style={{ color: "#E0679A" }} aria-hidden>
           <PixelIcon name="conditions" size={13} />
         </span>
       </span>

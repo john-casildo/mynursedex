@@ -86,7 +86,7 @@ function Section({ id, title, items }: { id: string; title: string; items: strin
           ›
         </span>
       </summary>
-      <Bullets items={items} className="mt-3" />
+      <Bullets items={items} className="section-body mt-3" />
     </details>
   );
 }
@@ -269,7 +269,7 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
 
           {/* The dex "screen": the most exam-relevant facts */}
           {text.key_points.length > 0 && (
-            <section id={`${lang}-key-points`} className="mb-2 rounded border-2 border-navy/15 bg-screen px-5 py-4 dark:border-white/10">
+            <section id={`${lang}-key-points`} className="screen-on mb-2 rounded border-2 border-navy/15 bg-screen px-5 py-4 dark:border-white/10">
               <h2 className="font-pixel text-xl">{t.keyPoints}</h2>
               <Bullets items={text.key_points} className="mt-3" />
             </section>

@@ -194,7 +194,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
           <ul
             id={listboxId}
             role="listbox"
-            className="absolute inset-x-0 top-full z-30 overflow-hidden rounded-b border-2 border-t-0 border-scrubs bg-card shadow-[3px_3px_0_var(--color-scrubs)]"
+            className="drop-in absolute inset-x-0 top-full z-30 overflow-hidden rounded-b border-2 border-t-0 border-scrubs bg-card shadow-[3px_3px_0_var(--color-scrubs)]"
           >
             {suggestions.map((item, i) => {
               const cat = CATEGORY_STYLES[item.category];
@@ -329,9 +329,13 @@ export default function Search({ items }: { items: SearchItem[] }) {
         </div>
       ) : shown.length > 0 ? (
         <>
-          <ul className="grid divide-y divide-line border-y border-line xl:grid-cols-2 xl:gap-x-8 xl:divide-y-0 xl:border-0">
-            {shown.slice(0, limit).map((e) => (
-              <li key={e.id} className="xl:border-b xl:border-line">
+          {/* A new key replays the entrance animation each time the search or filters change */}
+          <ul
+            key={`${query}|${category}|${area}|${popularView}`}
+            className="grid divide-y divide-line border-y border-line xl:grid-cols-2 xl:gap-x-8 xl:divide-y-0 xl:border-0"
+          >
+            {shown.slice(0, limit).map((e, i) => (
+              <li key={e.id} className="dex-enter xl:border-b xl:border-line" style={{ "--i": i } as React.CSSProperties}>
                 <DexCard entry={e} />
               </li>
             ))}

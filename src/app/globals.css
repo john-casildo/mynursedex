@@ -62,3 +62,135 @@ body {
 }
 
 /* Pixel type is only for the logo, titles and headings (20px+); small digits become illegible. */
+
+/* ---------------------------------------------------------------------------------------------
+   Motion. Short and stepped (like old handheld screens) rather than smooth glides, and only
+   for moments that answer something the user did, plus the dex lights and the heart.
+   Nothing animates when the device asks for reduced motion.
+   --------------------------------------------------------------------------------------------- */
+
+.badge-shine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -40%;
+  width: 30%;
+  background: rgb(255 255 255 / 0.55);
+  transform: skewX(-20deg);
+  opacity: 0;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  /* Sidebar dex lights blink in sequence, like a Pokédex */
+  .dex-light {
+    animation: dex-blink 4.8s steps(1) infinite;
+  }
+  .dex-light:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .dex-light:nth-child(3) {
+    animation-delay: 0.8s;
+  }
+
+  /* The heart next to "Mafe" */
+  .heart-beat {
+    animation: heart-beat 2.4s steps(1) infinite;
+  }
+
+  /* Logo: the nurse hops when you point at it */
+  .nurse-hop:hover .nurse-sprite {
+    animation: nurse-hop 0.5s steps(2) 1;
+  }
+
+  /* Search results pop in one after another (first 12 only, so long lists stay quick) */
+  .dex-enter {
+    animation: dex-enter 0.28s steps(4) both;
+    animation-delay: calc(min(var(--i, 0), 12) * 40ms);
+  }
+
+  /* Suggestions dropdown */
+  .drop-in {
+    transform-origin: top;
+    animation: drop-in 0.15s steps(3) both;
+  }
+
+  /* Type badges shine when you hover a card */
+  .group:hover .badge-shine::after {
+    animation: badge-shine 0.5s steps(5) 1;
+  }
+
+  /* Entry page: "Puntos clave" powers on like a dex screen; sections slide open */
+  .screen-on {
+    animation: screen-on 0.5s steps(5) both;
+  }
+  details[open] > .section-body {
+    animation: section-open 0.22s steps(4) both;
+  }
+
+  /* Practice questions */
+  .pop {
+    animation: pop 0.3s steps(3);
+  }
+  .shake {
+    animation: shake 0.36s steps(6);
+  }
+
+  /* Assistant: the nurse bobs while thinking */
+  .bob {
+    animation: bob 0.8s steps(2) infinite;
+  }
+}
+
+@keyframes dex-blink {
+  0%, 7% { opacity: 0.25; }
+  8%, 100% { opacity: 1; }
+}
+@keyframes heart-beat {
+  0% { transform: scale(1); }
+  8% { transform: scale(1.3); }
+  16% { transform: scale(1); }
+  24% { transform: scale(1.15); }
+  32%, 100% { transform: scale(1); }
+}
+@keyframes nurse-hop {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-3px); }
+}
+@keyframes dex-enter {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes drop-in {
+  from { opacity: 0; transform: scaleY(0.9); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes badge-shine {
+  0% { left: -40%; opacity: 1; }
+  100% { left: 120%; opacity: 1; }
+}
+@keyframes screen-on {
+  0% { clip-path: inset(48% 0 48% 0); filter: brightness(1.6); }
+  60% { clip-path: inset(0 0 0 0); filter: brightness(1.3); }
+  100% { clip-path: inset(0 0 0 0); filter: none; }
+}
+@keyframes section-open {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: none; }
+}
+@keyframes pop {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.04); }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20% { transform: translateX(-4px); }
+  40% { transform: translateX(4px); }
+  60% { transform: translateX(-3px); }
+  80% { transform: translateX(3px); }
+}
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-2px); }
+}
