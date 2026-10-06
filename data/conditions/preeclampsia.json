@@ -343,5 +343,201 @@
   ],
   "ai_drafted": true,
   "verified": false,
-  "updated": "2026-10-06"
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 23,
+      "not_found": 23,
+      "contradicted": 0,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The multisystem disorder preeclampsia can occur after 20 weeks’ gestation and up to 6 weeks postpartum and, if untreated, can lead to damage of the vital organs and seizures.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "In cases of preeclampsia with severe features, the patient may be started on magnesium sulfate to prevent the progression of preeclampsia to seizures.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "The vascular changes damage the endothelial cells of the blood vessels, increasing vascular permeability leading to edema and increased glomerular damage leading to proteinuria.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "You are more likely to develop high blood pressure in pregnancy if you: Had chronic high blood pressure or chronic kidney disease before pregnancy Had high blood pressure or preeclampsia in a previous pregnancy Have obesity Are under age 20 or over age 40 Are pregnant with more than one baby Are African American Have a family history of high blood pressure in pregnancy Have certain health conditions, such as diabetes or lupus",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Have certain health conditions, such as diabetes or lupus",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Other risk factors include obesity, advanced maternal age , uterine defects, hormone imbalances, or immune disorders (Chaudhry et al., 2023).",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Advances in assisted reproductive technology increase the risk of multiple gestation, as through the implantation of multiple embryos or the fertilization of multiple eggs.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Patients often experience signs and symptoms of preeclampsia, such as epigastric pain, headache, and vision changes, but the patient may not necessarily develop hypertension or proteinuria (Alese et al., 2021).",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Hyperreflexia and the presence of clonus are warning signs for seizure risk.",
+        "source": 2
+      },
+      "sections.signs_symptoms.5": {
+        "status": "supported",
+        "quote": "Eclampsia can also cause seizures, nausea and/or vomiting , and low urine output.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "supported",
+        "quote": "A biophysical profile includes a fetal ultrasound and nonstress test.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "In cases of preeclampsia with severe features, the patient may be started on magnesium sulfate to prevent the progression of preeclampsia to seizures.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Betamethasone (Celestone) or Dexamethasone (Decadron) Indication: promotes fetal lung maturity in the setting of anticipated preterm delivery before 34 weeks’ gestation",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Prevention of hypertensive disorders during pregnancy in patients with renal disease may include low-dose aspirin and calcium supplementation.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "If preeclampsia becomes severe enough to affect your brain function and causes seizures or a coma , it is called eclampsia .",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "When a person with preeclampsia or eclampsia has damage to the liver and blood cells, it's called HELLP syndrome .",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "High blood pressure in pregnancy can lead to complications such as: Placental abruption, where the placenta (the organ that brings oxygen and nutrients to the baby) separates from the uterus (the place where a baby grows during pregnancy)",
+        "source": 0
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "High blood pressure in pregnancy can lead to complications such as: Placental abruption, where the placenta (the organ that brings oxygen and nutrients to the baby) separates from the uterus (the place where a baby grows during pregnancy) Poor fetal growth, caused by a lack of nutrients and oxygen Preterm birth Your baby having a low birth weight Damage to your kidneys, liver, brain, and o",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Continuous electronic fetal monitoring may be ordered to evaluate fetal heart rate and uterine contractions.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "Ensure accessibility of calcium gluconate (usually at bedside) as antidote; administer as ordered.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Your provider will check your blood pressure and urine at each prenatal visit.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Instruct in daily fetal movement counts 1 .",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Preeclampsia The multisystem disorder preeclampsia can occur after 20 weeks’ gestation and up to 6 weeks postpartum and, if untreated, can lead to damage of the vital organs and seizures.",
+        "source": 2
+      }
+    }
+  }
 }

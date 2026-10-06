@@ -65,6 +65,8 @@ export function checkEntry(e: Concept, category: string, fileId: string): { erro
   for (const p of e.en?.care_plans ?? []) {
     if (!nandaEn.has(norm(p.diagnosis))) err(`en diagnosis "${p.diagnosis}" isn't in data/nanda.json`);
   }
+  const contradicted = (e as Concept & { factcheck?: { counts?: { contradicted?: number } } }).factcheck?.counts?.contradicted ?? 0;
+  if (contradicted > 0) warnings.push(`fact-check: ${contradicted} point(s) contradicted by the sources — review them`);
   if ((e.es?.care_plans?.length ?? 0) !== (e.en?.care_plans?.length ?? 0)) {
     warnings.push("Spanish and English have a different number of care plans");
   }

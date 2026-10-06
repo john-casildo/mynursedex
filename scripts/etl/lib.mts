@@ -59,6 +59,8 @@ export type Concept = {
   ai_drafted: boolean;
   verified: boolean;
   updated: string;
+  // Automatic fact-check against the cited sources (see factcheck.mts).
+  factcheck?: import("./factcheck.mts").FactCheck;
 };
 
 // manual: written by hand (in a Claude session), so the nightly job leaves it alone.

@@ -54,6 +54,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CLOSE_LATER_FILE: ${{ runner.temp }}/close-requests.jsonl
 
+      # Check new and changed entries (then older unchecked ones) against their sources.
+      - name: Fact-check
+        run: npm run etl -- factcheck --limit 8
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+
       - run: npm run validate
 
       - name: Commit and push

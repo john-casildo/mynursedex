@@ -257,5 +257,163 @@
   ],
   "ai_drafted": true,
   "verified": false,
-  "updated": "2026-10-06"
+  "updated": "2026-10-06",
+  "factcheck": {
+    "checked": "2026-10-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 19,
+      "not_found": 17,
+      "contradicted": 0,
+      "total": 36
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Postpartum Oxytocin injection (synthetic) is indicated to produce uterine contractions during the third stage of labor and to control postpartum bleeding or hemorrhage.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Oxytocin has been shown to have an intrinsic antidiuretic effect, acting to increase water reabsorption from the glomerular filtrate.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Oxytocin can also be used as one of several medications for the treatment of postpartum hemorrhage.",
+        "source": 2
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Oxytocin binds to receptors in the uterine muscle to stimulate contractions.",
+        "source": 2
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "It exerts a selective action on the smooth musculature of the uterus, particularly toward the end of pregnancy, during labor and immediately following delivery.",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "Oxytocin has been shown to have an intrinsic antidiuretic effect, acting to increase water reabsorption from the glomerular filtrate.",
+        "source": 0
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Oxytocin Injection, USP (synthetic) is indicated for the medical rather than the elective induction of labor.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "In these cases, labor augmentation with intravenous oxytocin is used.",
+        "source": 2
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "Postpartum Oxytocin injection (synthetic) is indicated to produce uterine contractions during the third stage of labor and to control postpartum bleeding or hemorrhage.",
+        "source": 0
+      },
+      "sections.indications.3": {
+        "status": "supported",
+        "quote": "To control postpartum bleeding, 10 to 40 units of oxytocin may be added to 1,000 mL of a nonhydrating diluent and run at a rate necessary to control uterine atony.",
+        "source": 0
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "Oxytocin injection (synthetic) is contraindicated in any of the following conditions: • Significant cephalopelvic disproportion; • Unfavorable fetal positions or presentations which are undeliverable without conversion prior to delivery,",
+        "source": 0
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "supported",
+        "quote": "Contraindications placenta or vasa previa fetal malposition umbilical cord presentation prior classical uterine incision active genital herpes infection pelvic structure deformities invasive cervical cancer",
+        "source": 2
+      },
+      "sections.contraindications.3": {
+        "status": "supported",
+        "quote": "Contraindications placenta or vasa previa fetal malposition umbilical cord presentation prior classical uterine incision active genital herpes infection pelvic structure deformities invasive cervical cancer",
+        "source": 2
+      },
+      "sections.contraindications.4": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Hyperstimulation with strong (hypertonic) or prolonged (tetanic) contractions, or a resting tone of 15 to 20 mm H 2 O or more between contractions can lead to tumultuous labor, uterine rupture, cervical and vaginal lacerations, postpartum hemorrhage, uteroplacental hypoperfusion and variable deceleration of fetal heart, fetal hypoxia, hypercapnia or death.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Hyperstimulation with strong (hypertonic) or prolonged (tetanic) contractions, or a resting tone of 15 to 20 mm H 2 O or more between contractions can lead to tumultuous labor, uterine rupture, cervical and vaginal lacerations, postpartum hemorrhage, uteroplacental hypoperfusion and variable deceleration of fetal heart, fetal hypoxia, hypercapnia or death.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "supported",
+        "quote": "Severe hypertension has been reported when oxytocin was given three to four hours following prophylactic administration of a vasoconstrictor in conjunction with caudal block anesthesia.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The fetal heart rate, resting uterine tone, and the frequency, duration, and force of contractions should be monitored.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "supported",
+        "quote": "When an oxytocin infusion is stopped, the amount of oxytocin in the plasma rapidly declines due to the drug’s 3- to 5-minute half-life (U.S. Food and Drug Administration (USFDA), n.d.).",
+        "source": 2
+      },
+      "sections.antidote_overdose.1": {
+        "status": "supported",
+        "quote": "The nurse caring for laboring persons will at times administer terbutaline to relax the uterus, as in cases of fetal bradycardia, tachysystole, Category III tracings, and preterm labor.",
+        "source": 2
+      }
+    }
+  }
 }

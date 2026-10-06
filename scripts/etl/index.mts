@@ -7,6 +7,7 @@
 //   npm run etl -- extract                    # only fetch sources into data/raw/ (no AI)
 //   npm run etl -- transform                  # only redo AI drafts from saved data/raw/ (no re-fetching)
 //   npm run etl -- validate                   # check every entry (also runs before each build)
+//   npm run etl -- factcheck --limit 8        # check entries' claims against their sources' full text
 //   npm run etl -- queue --limit 10           # nightly job: topic requests (GitHub issues) + missing related topics
 //   npm run etl -- close-issues               # nightly job: close the requests built by queue (after the push)
 //
@@ -23,6 +24,7 @@ import { hasOpenStax, syncOpenStax } from "./openstax.mts";
 import { MODEL, TRANSLATE_MODEL, groq, transform } from "./transform.mts";
 import { buildQueue, closeIssue, type QueueItem } from "./queue.mts";
 import { checkEntry, printReport, validate } from "./validate.mts";
+import { FACTCHECK_MODEL, factcheck } from "./factcheck.mts";
 
 const args = process.argv.slice(2);
 const command =
@@ -103,6 +105,32 @@ async function main() {
       const { issue, comment } = JSON.parse(line);
       await closeIssue(issue, comment);
       console.log(`Closed request #${issue}`);
+    }
+    return;
+  }
+  if (command === "factcheck") {
+    if (!process.env.GROQ_API_KEY) {
+      console.error("Missing GROQ_API_KEY. Add it to .env.local (see console.groq.com > API Keys).");
+      process.exit(1);
+    }
+    // Unchecked entries, or ones changed since their last check; newest first.
+    let todo = (await loadEntries()).filter((e) => FORCE || !e.factcheck || e.factcheck.checked < e.updated);
+    if (ONLY) todo = todo.filter((e) => e.id === ONLY);
+    todo.sort((a, b) => b.updated.localeCompare(a.updated));
+    if (LIMIT) todo = todo.slice(0, LIMIT);
+    console.log(`Fact-checking ${todo.length} entr${todo.length === 1 ? "y" : "ies"} with ${FACTCHECK_MODEL}...\n`);
+    for (const e of todo) {
+      try {
+        const fc = await factcheck(e);
+        const c = fc.counts;
+        console.log(`  ${e.id}: ${c.supported}/${c.total} supported, ${c.contradicted} contradicted, ${c.not_found} not found`);
+        for (const [path, r] of Object.entries(fc.claims)) {
+          if (r.status === "contradicted") console.log(`    ⚠ ${path}: "${r.quote}"`);
+        }
+        if (!DRY_RUN) await writeJson(entryUrl(e.category, e.id), { ...e, factcheck: fc });
+      } catch (err) {
+        console.error(`  ${e.id}: failed (${(err as Error).message.slice(0, 120)})`);
+      }
     }
     return;
   }
