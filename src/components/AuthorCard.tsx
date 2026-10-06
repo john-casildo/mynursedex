@@ -3,7 +3,7 @@
 import { useEffect, useId, useRef, useState } from "react";
 import L from "./L";
 import PixelIcon from "./PixelIcon";
-import PixelNurse from "./PixelNurse";
+import JCLogo from "./JCLogo";
 
 const LINKS = [
   { label: "LinkedIn", url: "https://www.linkedin.com/in/john-casildo", icon: "linkedin" as const, bg: "#0A66C2" },
@@ -55,7 +55,8 @@ export default function AuthorCard({ name }: { name: string }) {
           className="drop-in absolute bottom-full left-0 z-40 mb-2 block w-60 rounded border-2 border-navy bg-card p-3 text-left text-ink shadow-[4px_4px_0_var(--color-navy)] dark:border-ceil dark:shadow-[4px_4px_0_var(--color-ceil)]"
         >
           <span className="flex items-center gap-3">
-            <PixelNurse size={34} className="shrink-0 rounded-sm bg-mist p-0.5" />
+            {/* John's own "JC" logo from his portfolio */}
+            <JCLogo title="JC" className="h-11 w-11 shrink-0 text-ink" />
             <span className="block">
               <span className="font-pixel block text-lg leading-tight">{name}</span>
               <span className="block text-xs text-muted">
