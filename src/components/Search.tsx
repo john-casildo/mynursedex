@@ -123,6 +123,8 @@ export default function Search({ items }: { items: SearchItem[] }) {
       e.preventDefault();
       if (dropdownOpen && active >= 0) choose(suggestions[active]);
       else submit(input);
+      // Release focus so the phone keyboard closes and the results are visible.
+      e.currentTarget.blur();
     } else if (e.key === "Escape") {
       setOpen(false);
       setActive(-1);
@@ -168,6 +170,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
           </svg>
           <input
             type="search"
+            enterKeyHint="search"
             autoFocus
             role="combobox"
             aria-expanded={dropdownOpen}
