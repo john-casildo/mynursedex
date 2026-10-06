@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Atkinson_Hyperlegible, Pixelify_Sans, Silkscreen } from "next/font/google";
 import CategoryNav from "@/components/CategoryNav";
 import HomeLink from "@/components/HomeLink";
@@ -139,6 +140,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
             <Credit className="decoration-line hover:text-ink" />
           </footer>
         </div>
+        {/* Vercel Web Analytics: anonymous page views, no cookies */}
+        <Analytics />
       </body>
     </html>
   );
