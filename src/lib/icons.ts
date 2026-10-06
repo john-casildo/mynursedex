@@ -108,6 +108,18 @@ export const ICONS = {
     "..X.X.X..",
     ".........",
   ],
+  // check mark (fact-check: confirmed in the sources)
+  check: [
+    "........X",
+    ".......XX",
+    "......XX.",
+    "X....XX..",
+    "XX..XX...",
+    ".XXXX....",
+    "..XX.....",
+    ".........",
+    ".........",
+  ],
   // funnel (filters button on phones)
   filter: [
     "XXXXXXXXX",

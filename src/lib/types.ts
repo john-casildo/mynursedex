@@ -63,6 +63,16 @@ export type Concept = {
   verified: boolean;
   // YYYY-MM-DD of the last time the entry was generated or edited.
   updated: string;
+  factcheck?: FactCheck;
+};
+
+// Automatic fact-check (scripts/etl/factcheck.mts). Claim paths: "key_points.2", "sections.mechanism.0"...
+export type ClaimCheck = { status: "supported" | "not_found" | "contradicted"; quote?: string; source?: number };
+export type FactCheck = {
+  checked: string;
+  model: string;
+  counts: { supported: number; not_found: number; contradicted: number; total: number };
+  claims: Record<string, ClaimCheck>;
 };
 
 export type DexEntry = Concept & { number: number };

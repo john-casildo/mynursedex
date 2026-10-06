@@ -6,9 +6,10 @@ import DexCard from "@/components/DexCard";
 import L from "@/components/L";
 import PixelIcon from "@/components/PixelIcon";
 import ViewTracker from "@/components/ViewTracker";
+import FactMark from "@/components/FactMark";
 import { AREA_LABELS, CATEGORY_STYLES, SECTIONS, formatNumber } from "@/lib/categories";
 import { entries, getEntry, toSearchItem } from "@/lib/concepts";
-import type { CarePlan, DexEntry, Lang, Localized, Source } from "@/lib/types";
+import type { CarePlan, DexEntry, FactCheck, Lang, Localized, Source } from "@/lib/types";
 
 export const dynamicParams = false;
 
@@ -64,20 +65,65 @@ const TEXT = {
 type T = (typeof TEXT)[Lang];
 
 // Square "pixel" bullets to match the dex look.
-function Bullets({ items, className = "" }: { items: string[]; className?: string }) {
+// Fact-check results for one list (claims are keyed "<prefix>.<index>").
+type Checks = { prefix: string; fc?: FactCheck; sources: Source[] };
+
+function Bullets({ items, className = "", checks }: { items: string[]; className?: string; checks?: Checks }) {
   return (
     <ul className={`space-y-2 ${className}`}>
-      {items.map((item) => (
-        <li key={item} className="flex gap-3 leading-relaxed">
-          <span aria-hidden className="mt-[0.6em] h-1.5 w-1.5 shrink-0 bg-scrubs dark:bg-ceil" />
-          <span>{item}</span>
-        </li>
-      ))}
+      {items.map((item, i) => {
+        const check = checks?.fc?.claims[`${checks.prefix}.${i}`];
+        return (
+          <li key={item} className="flex gap-3 leading-relaxed">
+            <span aria-hidden className="mt-[0.6em] h-1.5 w-1.5 shrink-0 bg-scrubs dark:bg-ceil" />
+            <span>
+              {item}
+              {checks && <FactMark check={check} source={check?.source !== undefined ? checks.sources[check.source] : undefined} />}
+            </span>
+          </li>
+        );
+      })}
     </ul>
   );
 }
 
-function Section({ id, title, items }: { id: string; title: string; items: string[] }) {
+// "Verificación automática: 23 de 46 puntos confirmados en las fuentes · 1 a revisar"
+function FactSummary({ fc, lang }: { fc?: FactCheck; lang: Lang }) {
+  const es = lang === "es";
+  if (!fc) {
+    return (
+      <p className="mt-3 max-w-prose text-sm text-muted">
+        {es ? "Aún sin verificación automática contra las fuentes." : "Not checked against the sources yet."}
+      </p>
+    );
+  }
+  const { supported, contradicted, total } = fc.counts;
+  return (
+    <p className="mt-3 flex max-w-prose flex-wrap items-center gap-x-2 gap-y-1 text-sm">
+      <span className="inline-flex items-center gap-1.5 font-semibold text-teal-700 dark:text-teal-400">
+        <PixelIcon name="check" size={12} />
+        {es ? "Verificación automática" : "Automatic check"}:
+      </span>
+      <span className="text-muted">
+        {es
+          ? `${supported} de ${total} puntos confirmados en las fuentes`
+          : `${supported} of ${total} points confirmed in the sources`}
+        {contradicted > 0 && (
+          <strong className="ml-1 text-amber-700 dark:text-amber-300">
+            · {contradicted} {es ? "a revisar" : "to review"}
+          </strong>
+        )}
+      </span>
+      <span className="w-full text-xs text-muted">
+        {es
+          ? "✓ = una fuente lo respalda (toque para ver la cita). Sin marca = no se encontró en las fuentes; revíselo con su libro."
+          : "✓ = a source backs it up (tap to see the quote). No mark = not found in the sources; check it in your book."}
+      </span>
+    </p>
+  );
+}
+
+function Section({ id, title, items, checks }: { id: string; title: string; items: string[]; checks?: Checks }) {
   return (
     <details id={id} open className="group scroll-mt-20 border-t border-line py-5">
       <summary className="flex cursor-pointer list-none items-center justify-between gap-4 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-scrubs">
@@ -86,7 +132,7 @@ function Section({ id, title, items }: { id: string; title: string; items: strin
           ›
         </span>
       </summary>
-      <Bullets items={items} className="section-body mt-3" />
+      <Bullets items={items} className="section-body mt-3" checks={checks} />
     </details>
   );
 }
@@ -254,6 +300,7 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
                 {t.draft}
               </p>
             )}
+            <FactSummary fc={entry.factcheck} lang={lang} />
           </header>
 
           {/* Phone/tablet: section shortcuts */}
@@ -271,12 +318,18 @@ function Body({ lang, text, otherTerm, entry }: { lang: Lang; text: Localized; o
           {text.key_points.length > 0 && (
             <section id={`${lang}-key-points`} className="screen-on mb-2 rounded border-2 border-navy/15 bg-screen px-5 py-4 dark:border-white/10">
               <h2 className="text-lg font-bold">{t.keyPoints}</h2>
-              <Bullets items={text.key_points} className="mt-3" />
+              <Bullets items={text.key_points} className="mt-3" checks={{ prefix: "key_points", fc: entry.factcheck, sources: entry.sources }} />
             </section>
           )}
 
           {sections.map((s) => (
-            <Section key={s.id} id={`${lang}-${s.id}`} title={s[lang]} items={text.sections[s.id]} />
+            <Section
+              key={s.id}
+              id={`${lang}-${s.id}`}
+              title={s[lang]}
+              items={text.sections[s.id]}
+              checks={{ prefix: `sections.${s.id}`, fc: entry.factcheck, sources: entry.sources }}
+            />
           ))}
 
           {plans.length > 0 && (
