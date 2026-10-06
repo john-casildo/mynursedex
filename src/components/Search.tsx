@@ -20,6 +20,12 @@ import { useRecentRaw } from "@/lib/popular";
 import type { Lang, SearchItem } from "@/lib/types";
 
 // Cards rendered at once; more load on demand so thousands of entries stay fast.
+// Fuse scores: 0 = exact, 1 = no match. Results above WEAK_MATCH are noise (e.g. "dengue" →
+// "Hemorragia posparto") and are hidden; if nothing is under CLOSE_MATCH, the topic is probably
+// missing, so the "Solicitar" box is shown above whatever related entries remain.
+const WEAK_MATCH = 0.6;
+const CLOSE_MATCH = 0.25;
+
 // Entries per page; the page buttons are under the list.
 const PAGE_SIZE = 10;
 const SUGGESTIONS = 6;
@@ -88,6 +94,7 @@ export default function Search({ items }: { items: SearchItem[] }) {
       threshold: 0.35,
       ignoreLocation: true,
       ignoreDiacritics: true,
+      includeScore: true,
     });
   }, [items, lang]);
 
@@ -149,12 +156,17 @@ export default function Search({ items }: { items: SearchItem[] }) {
   const popularItems = popular?.ids.map((id) => byId.get(id)).filter((e): e is SearchItem => Boolean(e)) ?? [];
   const results = useMemo(
     () =>
-      (query ? fuse.search(query).map((r) => r.item) : items).filter(
+      (query ? fuse.search(query).filter((r) => (r.score ?? 1) <= WEAK_MATCH).map((r) => r.item) : items).filter(
         (e) => (category === "all" || e.category === category) && (area === "all" || e.areas.includes(area)),
       ),
     [query, category, area, fuse, items],
   );
   const shown = popularView ? (popularItems.length ? popularItems : items.slice(0, POPULAR)) : results;
+  // No entry is a close match (only loosely related ones): offer to request the topic above the list.
+  const noCloseMatch = useMemo(
+    () => !!query && (fuse.search(query, { limit: 1 })[0]?.score ?? 1) > CLOSE_MATCH,
+    [query, fuse],
+  );
   const pageCount = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
   const page = Math.min(pageState.key === listKey ? pageState.page : 1, pageCount);
   const pageItems = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
@@ -317,6 +329,20 @@ export default function Search({ items }: { items: SearchItem[] }) {
         </div>
       ) : shown.length > 0 ? (
         <>
+          {noCloseMatch && (
+            <div className="mb-4 flex max-w-xl items-start gap-4 rounded border-2 border-dashed border-line bg-card p-4">
+              <PixelNurse size={40} className="shrink-0" />
+              <div className="space-y-3">
+                <p className="leading-relaxed">
+                  <L
+                    en={<>&ldquo;{query}&rdquo; doesn&rsquo;t have its own entry yet; below are related ones. Request it and it will be added overnight.</>}
+                    es={<>&ldquo;{query}&rdquo; aún no tiene su propia entrada; abajo hay temas relacionados. Solicítelo y se agregará durante la noche.</>}
+                  />
+                </p>
+                <RequestTopic topic={query} />
+              </div>
+            </div>
+          )}
           {/* A new key replays the entrance animation each time the search or filters change */}
           <ul
             key={`${listKey}|${popularView}|${page}`}
