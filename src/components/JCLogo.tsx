@@ -11,8 +11,8 @@ const EMBLEM = {
   flap: "94,74 74,94 77,77",
   letters: [
     "M14 28 H42",
-    "M34 28 V56 Q34 72 20 72 Q14 72 12 67",
-    "M86 34 Q80 26 70 26 Q54 26 54 50 Q54 74 70 74 Q80 74 86 66",
+    "M34 28 V56 Q34 72 22 72 Q17 72 15 68",
+    "M82 31 Q78 26 70 26 Q54 26 54 49 Q54 72 70 72 Q76 72 80 67",
   ],
   // Stencil bridges, painted in the sticker colour over the letters: [x, y, width, height].
   bridges: [
