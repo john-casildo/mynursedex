@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useId, useMemo, useRef, useState } from "react";
+import { useEffect, useId, useMemo, useRef, useState, useSyncExternalStore } from "react";
 import { useRouter } from "next/navigation";
 import Fuse from "fuse.js";
 import AskPanel from "./AskPanel";
@@ -26,10 +26,22 @@ import type { Lang, SearchItem } from "@/lib/types";
 const WEAK_MATCH = 0.6;
 const CLOSE_MATCH = 0.25;
 
-// Entries per page; the page buttons are under the list.
+// Entries per page; the page buttons are under the list. Phones skip the buttons and load the
+// next PAGE_SIZE entries as the list is scrolled to the bottom.
 const PAGE_SIZE = 10;
 const SUGGESTIONS = 6;
 const POPULAR = 15;
+
+// Phones are below Tailwind's lg breakpoint, matching MobileFilters and the mobile header.
+const PHONE_QUERY = "(max-width: 1023.98px)";
+function subscribePhone(onChange: () => void) {
+  const mq = window.matchMedia(PHONE_QUERY);
+  mq.addEventListener("change", onChange);
+  return () => mq.removeEventListener("change", onChange);
+}
+function useIsPhone() {
+  return useSyncExternalStore(subscribePhone, () => window.matchMedia(PHONE_QUERY).matches, () => false);
+}
 
 export default function Search({ items }: { items: SearchItem[] }) {
   const lang = useLang();
@@ -169,7 +181,29 @@ export default function Search({ items }: { items: SearchItem[] }) {
   );
   const pageCount = Math.max(1, Math.ceil(shown.length / PAGE_SIZE));
   const page = Math.min(pageState.key === listKey ? pageState.page : 1, pageCount);
-  const pageItems = shown.slice((page - 1) * PAGE_SIZE, page * PAGE_SIZE);
+
+  // Phones: one growing list instead of pages. It also starts over when the search or filters change.
+  const phone = useIsPhone();
+  const [loadedState, setLoadedState] = useState({ key: "", count: PAGE_SIZE });
+  const loaded = loadedState.key === listKey ? loadedState.count : PAGE_SIZE;
+  const hasMore = phone && loaded < shown.length;
+  const sentinel = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const el = sentinel.current;
+    if (!hasMore || !el) return;
+    // Starts loading a bit before the bottom is reached so the scroll doesn't stall.
+    const io = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) setLoadedState({ key: listKey, count: loaded + PAGE_SIZE });
+      },
+      { rootMargin: "600px 0px" },
+    );
+    io.observe(el);
+    return () => io.disconnect();
+  }, [hasMore, listKey, loaded]);
+
+  const firstShown = phone ? 0 : (page - 1) * PAGE_SIZE;
+  const pageItems = phone ? shown.slice(0, loaded) : shown.slice(firstShown, page * PAGE_SIZE);
 
   // For the empty state: a filter can hide entries that exist, e.g. "Abbreviations · OB/GYN" or a search under a filter.
   const filtered = category !== "all" || area !== "all";
@@ -345,16 +379,25 @@ export default function Search({ items }: { items: SearchItem[] }) {
           )}
           {/* A new key replays the entrance animation each time the search or filters change */}
           <ul
-            key={`${listKey}|${popularView}|${page}`}
+            key={`${listKey}|${popularView}|${phone ? "" : page}`}
             className="grid divide-y divide-line border-y border-line xl:grid-cols-2 xl:gap-x-8 xl:divide-y-0 xl:border-0"
           >
             {pageItems.map((e, i) => (
-              <li key={e.id} className="dex-enter xl:border-b xl:border-line" style={{ "--i": i } as React.CSSProperties}>
+              // On phones each newly loaded batch staggers in from its own first card.
+              <li key={e.id} className="dex-enter xl:border-b xl:border-line" style={{ "--i": phone ? i % PAGE_SIZE : i } as React.CSSProperties}>
                 <DexCard entry={e} />
               </li>
             ))}
           </ul>
-          <Pagination page={page} pageCount={pageCount} onPage={goToPage} />
+          {phone ? (
+            hasMore && (
+              <div ref={sentinel} role="status" className="py-6 text-center text-sm text-muted">
+                {lang === "es" ? "Cargando más…" : "Loading more…"}
+              </div>
+            )
+          ) : (
+            <Pagination page={page} pageCount={pageCount} onPage={goToPage} />
+          )}
           {query && results.length === 1 && (
             <button
               onClick={() => router.push(`/concept/${results[0].id}`)}
