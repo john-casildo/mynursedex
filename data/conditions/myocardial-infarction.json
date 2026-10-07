@@ -1,0 +1,509 @@
+{
+  "id": "myocardial-infarction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infarto de miocardio (IM)",
+    "aliases": [
+      "infarto",
+      "infarto de miocardio",
+      "ataque al corazón",
+      "infarto miocárdico",
+      "miocardial"
+    ],
+    "summary": "Muerte del tejido cardíaco por interrupción súbita del flujo coronario que impide la oxigenación del miocardio.",
+    "key_points": [
+      "Obstrucción de una arteria coronaria por placa y trombo.",
+      "Dolor torácico opresivo >20 min, irradia a brazo izquierdo o mandíbula.",
+      "Elevación de troponina y cambios en el ECG (STEMI o NSTEMI).",
+      "Tratamiento inmediato: reperfusión (tPA, tenecteplasa) y antiagregantes.",
+      "Complicaciones: insuficiencia cardíaca, arritmias, shock cardiogénico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ruptura de placa aterosclerótica → exposición de colágeno.",
+        "Activación plaquetaria y cascada de coagulación → trombo.",
+        "Obstrucción total o parcial del vaso coronario.",
+        "Isquemia miocárdica > 20 min → necrosis irreversible."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Tabaquismo activo o pasivo.",
+        "Diabetes mellitus tipo 2.",
+        "Hipercolesterolemia y antecedentes familiares de enfermedad coronaria.",
+        "Edad > 45 años en hombres, > 55 años en mujeres."
+      ],
+      "signs_symptoms": [
+        "Dolor torácico opresivo, presión, sensación de peso.",
+        "Irradiación a brazo izquierdo, cuello, mandíbula o espalda.",
+        "Disnea, sudoración profusa, náuseas o vómitos.",
+        "Palpitaciones o síncope."
+      ],
+      "diagnostics": [
+        "ECG: elevación del ST (STEMI) o depresión/ inversión de T (NSTEMI).",
+        "Troponina I/T > 0.04 ng/mL (valor de referencia del laboratorio).",
+        "CK‑MB elevado, relación CK‑MB/CK total > 5 %.",
+        "Radiografía de tórax para descartar otras causas."
+      ],
+      "treatment": [
+        "Aspirina 81‑325 mg vía oral (antiagregante).",
+        "Clopidogrel 300‑600 mg carga (antiagregante ADP).",
+        "Heparina no fraccionada o enoxaparina (anticoagulante).",
+        "Alteplasa o tenecteplasa IV (trombolítico) si no hay PCI disponible.",
+        "Nitroglicerina sublingual 0.3‑0.6 mg para alivio del dolor.",
+        "Betabloqueador (metoprolol) para reducir demanda de oxígeno."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca congestiva.",
+        "Arritmias ventriculares o fibrilación auricular.",
+        "Shock cardiogénico.",
+        "Ruptura del músculo cardíaco o del tabique interventricular."
+      ],
+      "nursing_care": [
+        "Monitorizar signos vitales cada 5‑15 min; presión arterial, frecuencia cardíaca y saturación O₂.",
+        "Evaluar dolor con escala numérica y registrar localización e irradiación.",
+        "Observar cambios en ECG y notificar al médico cualquier nueva alteración.",
+        "Mantener acceso venoso amplio; preparar medicación de reperfusión según orden.",
+        "Registrar salida de orina y estado mental para detectar shock."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de llamar al 911 ante síntomas de dolor torácico.",
+        "Instruir sobre la adherencia a antiagregantes y betabloqueadores después del alta.",
+        "Promover cambios de estilo de vida: dejar de fumar, dieta baja en grasas y ejercicio regular.",
+        "Enseñar reconocimiento de signos de alarma: disnea súbita, palpitaciones, edema."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "isquemia miocárdica",
+          "lesión del miocardio"
+        ],
+        "evidenced_by": [
+          "dolor torácico opresivo",
+          "elevación de troponina",
+          "alteraciones del ECG",
+          "hipotensión"
+        ],
+        "outcomes": [
+          "Gasto cardíaco mejorado: presión arterial sistólica ≥ 100 mmHg en 24 h.",
+          "Dolor torácico reducido a < 3 en escala de 0‑10 en 2 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial y frecuencia cardíaca cada 5 min.",
+            "rationale": "Detectar hipotensión y taquicardia que indiquen bajo gasto."
+          },
+          {
+            "action": "Administrar nitroglicerina sublingual según prescripción.",
+            "rationale": "Reduce la poscarga y alivia la isquemia."
+          },
+          {
+            "action": "Mantener acceso venoso amplio y preparar trombolíticos.",
+            "rationale": "Facilita la reperfusión rápida del vaso coronario."
+          },
+          {
+            "action": "Evaluar dolor con escala numérica y registrar cambios.",
+            "rationale": "Permite valorar la respuesta al tratamiento."
+          },
+          {
+            "action": "Educar al paciente sobre la necesidad de reposo relativo y evitar esfuerzos.",
+            "rationale": "Disminuye la demanda de oxígeno del miocardio."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "hipercolesterolemia",
+          "tabaquismo",
+          "diabetes",
+          "edad avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Nivel de conciencia estable (AVPU = Alert) durante la hospitalización.",
+          "Sin signos neurológicos focales en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Controlar presión arterial cada 15 min y mantener dentro de rango objetivo.",
+            "rationale": "Previene hipoperfusión cerebral por hipotensión."
+          },
+          {
+            "action": "Observar nivel de conciencia y pupilas cada hora.",
+            "rationale": "Detecta precozmente deterioro neurológico."
+          },
+          {
+            "action": "Administrar oxígeno suplementario para mantener SaO₂ ≥ 94 %.",
+            "rationale": "Optimiza la oxigenación cerebral."
+          },
+          {
+            "action": "Mantener hidratación adecuada según órdenes médicas.",
+            "rationale": "Evita hipovolemia que reduzca el flujo cerebral."
+          },
+          {
+            "action": "Enseñar al paciente y familia signos de alerta neurológica.",
+            "rationale": "Facilita la detección temprana de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Myocardial infarction (MI)",
+    "aliases": [
+      "infarto",
+      "infarto de miocardio",
+      "ataque al corazón",
+      "infarto miocárdico",
+      "miocardial"
+    ],
+    "summary": "Death of cardiac tissue due to sudden interruption of coronary blood flow that prevents myocardial oxygenation.",
+    "key_points": [
+      "Obstruction of a coronary artery by plaque and thrombus.",
+      "Chest pain >20 min, radiating to left arm or jaw.",
+      "Elevated troponin and ECG changes (STEMI or NSTEMI).",
+      "Immediate treatment: reperfusion (tPA, tenecteplase) and antiplatelets.",
+      "Complications: heart failure, arrhythmias, cardiogenic shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Plaque rupture → collagen exposure.",
+        "Platelet activation and coagulation cascade → thrombus.",
+        "Total or partial coronary occlusion.",
+        "Myocardial ischemia >20 min → irreversible necrosis."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Active or passive smoking.",
+        "Type 2 diabetes mellitus.",
+        "Hypercholesterolemia and family history of coronary disease.",
+        "Age >45 years in men, >55 years in women."
+      ],
+      "signs_symptoms": [
+        "Pressure-like chest pain, weight sensation.",
+        "Radiation to left arm, neck, jaw or back.",
+        "Shortness of breath, profuse sweating, nausea or vomiting.",
+        "Palpitations or syncope."
+      ],
+      "diagnostics": [
+        "ECG: ST elevation (STEMI) or T wave depression/inversion (NSTEMI).",
+        "Troponin I/T >0.04 ng/mL (laboratory reference).",
+        "Elevated CK‑MB, CK‑MB/total CK ratio >5 %.",
+        "Chest X‑ray to rule out other causes."
+      ],
+      "treatment": [
+        "Aspirin 81‑325 mg PO (antiplatelet).",
+        "Clopidogrel 300‑600 mg loading dose (ADP antiplatelet).",
+        "Unfractionated heparin or enoxaparin (anticoagulant).",
+        "Alteplase or tenecteplase IV (thrombolytic) if PCI unavailable.",
+        "Sublingual nitroglycerin 0.3‑0.6 mg for pain relief.",
+        "Beta‑blocker (metoprolol) to reduce oxygen demand."
+      ],
+      "complications": [
+        "Congestive heart failure.",
+        "Ventricular arrhythmias or atrial fibrillation.",
+        "Cardiogenic shock.",
+        "Rupture of cardiac muscle or interventricular septum."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 5‑15 min; blood pressure, heart rate, O₂ saturation.",
+        "Assess pain with numeric scale and record location and radiation.",
+        "Observe ECG changes and notify physician of any new alterations.",
+        "Maintain large IV access; prepare reperfusion medications as ordered.",
+        "Record urine output and mental status to detect shock."
+      ],
+      "patient_teaching": [
+        "Explain the importance of calling 911 for chest pain symptoms.",
+        "Instruct on adherence to antiplatelets and beta‑blockers after discharge.",
+        "Promote lifestyle changes: quit smoking, low‑fat diet, regular exercise.",
+        "Teach recognition of warning signs: sudden dyspnea, palpitations, edema."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "myocardial ischemia",
+          "myocardial injury"
+        ],
+        "evidenced_by": [
+          "pressure-like chest pain",
+          "elevated troponin",
+          "ECG changes",
+          "hypotension"
+        ],
+        "outcomes": [
+          "Improved cardiac output: systolic blood pressure ≥100 mmHg within 24 h.",
+          "Chest pain reduced to <3 on 0‑10 scale within 2 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 5 min.",
+            "rationale": "Detect hypotension and tachycardia indicating low output."
+          },
+          {
+            "action": "Administer sublingual nitroglycerin as prescribed.",
+            "rationale": "Reduce afterload and relieve ischemia."
+          },
+          {
+            "action": "Maintain large IV access and prepare thrombolytics.",
+            "rationale": "Facilitates rapid reperfusion of coronary vessel."
+          },
+          {
+            "action": "Assess pain with numeric scale and record changes.",
+            "rationale": "Allows evaluation of treatment response."
+          },
+          {
+            "action": "Educate patient on need for relative rest and avoidance of exertion.",
+            "rationale": "Reduces myocardial oxygen demand."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "hypercholesterolemia",
+          "smoking",
+          "diabetes",
+          "advanced age"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Stable level of consciousness (AVPU = Alert) during hospitalization.",
+          "No focal neurological signs within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Check blood pressure every 15 min and keep within target range.",
+            "rationale": "Prevents cerebral hypoperfusion from hypotension."
+          },
+          {
+            "action": "Observe level of consciousness and pupils hourly.",
+            "rationale": "Detects early neurological deterioration."
+          },
+          {
+            "action": "Administer supplemental oxygen to maintain SaO₂ ≥94 %.",
+            "rationale": "Optimizes cerebral oxygenation."
+          },
+          {
+            "action": "Maintain adequate hydration per medical orders.",
+            "rationale": "Prevents hypovolemia that reduces cerebral flow."
+          },
+          {
+            "action": "Teach patient and family about neurological warning signs.",
+            "rationale": "Facilitates early detection of complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "coronary-artery-disease",
+    "ischemia",
+    "thrombolysis",
+    "arrhythmia",
+    "heart-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Attack",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartattack.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Myocardial Infarction",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-5-myocardial-infarction",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Thrombolytics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-4-thrombolytics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-07",
+  "factcheck": {
+    "checked": "2026-10-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 30,
+      "contradicted": 2,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Cardiac cells are sensitive to coronary perfusion, in that cells do not function properly under periods of blood flow deprivation or, in worse cases, myocyte death (infarction) with prolonged perfusion defects.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A blood clot can form around the plaque and block the artery.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "In contrast, with a STEMI, there are abnormal EKG changes with elevation of the ST segment in a 12-lead EKG with an upward trend in the troponins and CK-MB.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Traveling platelets and red blood cells aggregate at the sites of plaque build-up and start to form a clot or a thrombus.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "It can feel like pressure, squeezing, fullness, or pain .",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "You may feel pain or discomfort in one or both arms, the back, shoulders, neck, jaw, or upper part of the stomach.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Classic symptoms include chest pain; pain radiating to the jaw, arms, neck, back, or stomach; shortness of breath; lightheadedness; and excessive sweating, also known as diaphoresis .",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "contradicted",
+        "quote": "With an NSTEMI, there are no abnormal changes in the EKG; however, there would be a rise in the troponins and CK-MB levels.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "contradicted",
+        "quote": "Another antiplatelet, clopidogrel 75 mg, reduces the aggregation of a thrombus.",
+        "source": 1
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "If the patient has a depressed EF (less than 40%), ACE inhibitor s/ARBs will be initiated to reduce the risk of congestive heart failure.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "That's why it's important to know the symptoms of a heart attack and call 911 if you or someone else is having them.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Education is directed at dietary adjustments (low saturated fat, low cholesterol, monitor processed foods), smoking cessation, and limiting/omitting alcohol.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

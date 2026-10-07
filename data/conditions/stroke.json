@@ -1,0 +1,557 @@
+{
+  "id": "stroke",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Accidente cerebrovascular (ACV)",
+    "aliases": [
+      "accidente cerebrovascular",
+      "acv",
+      "derrame cerebral",
+      "stroke",
+      "ictus"
+    ],
+    "summary": "El ACV ocurre cuando se interrumpe el flujo sanguíneo al cerebro, provocando daño neuronal agudo. Puede ser isquémico (coágulo) o hemorrágico (ruptura de vaso).",
+    "key_points": [
+      "80‑90% de los ACV son isquémicos, causados por aterosclerosis o embolia.",
+      "Los principales factores de riesgo son hipertensión, fibrilación auricular, diabetes y tabaquismo.",
+      "El tiempo es crítico: terapia trombolítica debe iniciarse <4.5 h del inicio.",
+      "Los signos clásicos se recuerdan con el acrónimo FAST (Face, Arms, Speech, Time).",
+      "Complicaciones frecuentes incluyen edema cerebral, hemiparesia y riesgo de aspiración."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Isquémico: oclusión de arteria cerebral por trombo o émbolo, reduce perfusión y oxígeno.",
+        "Hemorrágico: ruptura de vaso cerebral genera hematoma intracraneal o hemorragia subaracnoidea.",
+        "La falta de oxígeno provoca necrosis neuronal en minutos.",
+        "El edema secundario aumenta la presión intracraneal y compromete la perfusión."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Fibrilación auricular o enfermedad cardíaca.",
+        "Diabetes mellitus y dislipidemia.",
+        "Tabaquismo y consumo excesivo de alcohol.",
+        "Edad > 55 años y antecedentes familiares de ACV."
+      ],
+      "signs_symptoms": [
+        "Debilidad súbita o parálisis facial unilateral.",
+        "Pérdida de sensibilidad o visión en un lado.",
+        "Alteración del habla (disartria o afasia).",
+        "Dolor de cabeza intenso y súbito (hemorrágico).",
+        "Pérdida de conciencia o confusión."
+      ],
+      "diagnostics": [
+        "TC de cráneo sin contraste: descarta hemorragia en < 10 min.",
+        "MRI con difusión: identifica infarto isquémico precoz.",
+        "Angiografía cerebral o CTA para localizar oclusión.",
+        "Laboratorio: glucosa > 200 mg/dL, INR según anticoagulación, electrolitos.",
+        "Escala NIHSS para cuantificar gravedad."
+      ],
+      "treatment": [
+        "Trombolíticos (alteplasa) dentro de 4.5 h para ACV isquémico.",
+        "Anticoagulantes (warfarina, DOAC) en fibrilación auricular crónica.",
+        "Control estricto de la presión arterial (labetalol, nicardipina).",
+        "Descompresión quirúrgica o evacuación de hematoma en ACV hemorrágico.",
+        "Manejo de la vía aérea y prevención de aspiración."
+      ],
+      "complications": [
+        "Edema cerebral y herniación.",
+        "Hemiparesia o parálisis permanente.",
+        "Trastornos del habla y deglución.",
+        "Trombosis venosa profunda por inmovilidad.",
+        "Depresión post‑ACV."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia y escala NIHSS cada 1 h.",
+        "Monitorear presión arterial, frecuencia cardíaca y saturación O₂.",
+        "Mantener cabeza elevada 30° para reducir presión intracraneal.",
+        "Controlar glucosa (70‑180 mg/dL) y temperatura corporal.",
+        "Vigilar signos de aspiración y mantener vía aérea permeable."
+      ],
+      "patient_teaching": [
+        "Reconocer signos FAST y llamar al 911 inmediatamente.",
+        "Adherir al tratamiento antihipertensivo y anticoagulante según indicación.",
+        "Modificaciones de estilo de vida: dieta baja en sodio, ejercicio regular, dejar de fumar.",
+        "Importancia de la rehabilitación física y del habla.",
+        "Control periódico de presión arterial y glucosa."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "fibrilación auricular",
+          "diabetes mellitus",
+          "tabaquismo",
+          "dislipidemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral estable: presión arterial < 140/90 mmHg en 24 h.",
+          "Sin evidencia de deterioro neurológico: escala NIHSS sin aumento."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial cada 15 min y registrar valores.",
+            "rationale": "Detectar hipertensión que pueda empeorar la perfusión cerebral."
+          },
+          {
+            "action": "Mantener posición supina con cabeza elevada 30°.",
+            "rationale": "Facilita el retorno venoso cerebral y reduce la presión intracraneal."
+          },
+          {
+            "action": "Administrar antihipertensivos según prescripción y observar respuesta.",
+            "rationale": "Controlar la presión arterial para evitar expansión del infarto."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y respuesta motora cada hora.",
+            "rationale": "Identificar cambios tempranos de perfusión cerebral."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de empeoramiento neurológico.",
+            "rationale": "Promueve la detección precoz y la búsqueda de ayuda inmediata."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "debilidad hemiparética",
+          "fatiga post‑ACV",
+          "disfunción motora"
+        ],
+        "evidenced_by": [
+          "cansancio al caminar 10 m",
+          "aumento de frecuencia cardíaca > 100 lpm con actividad ligera",
+          "disnea al subir escaleras"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: caminar 50 m sin aumento > 20 % de la frecuencia cardíaca basal.",
+          "Participación en terapia ocupacional 30 min/día sin signos de fatiga excesiva."
+        ],
+        "interventions": [
+          {
+            "action": "Planificar actividades en intervalos de 5‑10 min con descansos.",
+            "rationale": "Previene la sobrecarga y permite adaptación gradual."
+          },
+          {
+            "action": "Monitorizar frecuencia cardíaca y saturación O₂ antes y después de la actividad.",
+            "rationale": "Evalúa la respuesta fisiológica al esfuerzo."
+          },
+          {
+            "action": "Colaborar con fisioterapia para ejercicios de fortalecimiento progresivo.",
+            "rationale": "Mejora la fuerza muscular y la capacidad funcional."
+          },
+          {
+            "action": "Enseñar técnicas de ahorro de energía (sentarse para tareas, usar dispositivos de asistencia).",
+            "rationale": "Reduce la demanda energética y mejora la independencia."
+          },
+          {
+            "action": "Registrar nivel de cansancio usando escala de Borg después de cada sesión.",
+            "rationale": "Facilita la evaluación objetiva de la tolerancia a la actividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Stroke (CVA)",
+    "aliases": [
+      "stroke",
+      "cva",
+      "brain attack",
+      "ictus"
+    ],
+    "summary": "A stroke occurs when blood flow to the brain is interrupted, causing acute neuronal damage. It can be ischemic (clot) or hemorrhagic (vessel rupture).",
+    "key_points": [
+      "80‑90% of strokes are ischemic, caused by atherosclerosis or embolism.",
+      "The main risk factors are hypertension, atrial fibrillation, diabetes, and smoking.",
+      "Time is critical: thrombolytic therapy must begin <4.5 h from onset.",
+      "Classic signs are remembered with the FAST acronym (Face, Arms, Speech, Time).",
+      "Common complications include cerebral edema, hemiparesis, and aspiration risk."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ischemic: occlusion of a cerebral artery by thrombus or embolus, reducing perfusion and oxygen.",
+        "Hemorrhagic: rupture of a cerebral vessel creates an intracranial hematoma or subarachnoid hemorrhage.",
+        "Oxygen deprivation causes neuronal necrosis within minutes.",
+        "Secondary edema increases intracranial pressure and compromises perfusion."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Atrial fibrillation or cardiac disease.",
+        "Diabetes mellitus and dyslipidemia.",
+        "Smoking and excessive alcohol consumption.",
+        "Age > 55 years and family history of stroke."
+      ],
+      "signs_symptoms": [
+        "Sudden weakness or unilateral facial paralysis.",
+        "Loss of sensation or vision on one side.",
+        "Speech disturbance (dysarthria or aphasia).",
+        "Sudden, severe headache (hemorrhagic).",
+        "Loss of consciousness or confusion."
+      ],
+      "diagnostics": [
+        "Non‑contrast head CT: rules out hemorrhage in <10 min.",
+        "Diffusion MRI: identifies early ischemic infarct.",
+        "Cerebral angiography or CTA to locate occlusion.",
+        "Laboratory: glucose >200 mg/dL, INR per anticoagulation, electrolytes.",
+        "NIHSS scale to quantify severity."
+      ],
+      "treatment": [
+        "Thrombolytics (alteplase) within 4.5 h for ischemic stroke.",
+        "Anticoagulants (warfarin, DOAC) in chronic atrial fibrillation.",
+        "Strict blood pressure control (labetalol, nicardipine).",
+        "Surgical decompression or hematoma evacuation for hemorrhagic stroke.",
+        "Airway management and aspiration prevention."
+      ],
+      "complications": [
+        "Cerebral edema and herniation.",
+        "Permanent hemiparesis or paralysis.",
+        "Speech and swallowing disorders.",
+        "Deep vein thrombosis from immobility.",
+        "Post‑stroke depression."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness and NIHSS every 1 h.",
+        "Monitor blood pressure, heart rate, and O₂ saturation.",
+        "Keep head elevated 30° to reduce intracranial pressure.",
+        "Control glucose (70‑180 mg/dL) and body temperature.",
+        "Watch for aspiration signs and keep airway patent."
+      ],
+      "patient_teaching": [
+        "Recognize FAST signs and call 911 immediately.",
+        "Adhere to antihypertensive and anticoagulant therapy as prescribed.",
+        "Lifestyle modifications: low‑sodium diet, regular exercise, quit smoking.",
+        "Importance of physical and speech rehabilitation.",
+        "Regular monitoring of blood pressure and glucose."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "atrial fibrillation",
+          "diabetes mellitus",
+          "smoking",
+          "dyslipidemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Stable cerebral perfusion: blood pressure <140/90 mmHg within 24 h.",
+          "No evidence of neurological deterioration: NIHSS unchanged."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure every 15 min and record values.",
+            "rationale": "Detect hypertension that could worsen cerebral perfusion."
+          },
+          {
+            "action": "Maintain supine position with head elevated 30°.",
+            "rationale": "Facilitates cerebral venous return and reduces intracranial pressure."
+          },
+          {
+            "action": "Administer antihypertensives per prescription and observe response.",
+            "rationale": "Control blood pressure to prevent infarct expansion."
+          },
+          {
+            "action": "Assess level of consciousness and motor response hourly.",
+            "rationale": "Identify early changes in cerebral perfusion."
+          },
+          {
+            "action": "Educate patient and family about worsening neurological signs.",
+            "rationale": "Promotes early detection and immediate help-seeking."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "hemiparetic weakness",
+          "post‑stroke fatigue",
+          "motor dysfunction"
+        ],
+        "evidenced_by": [
+          "fatigue walking 10 m",
+          "heart rate >100 bpm with light activity",
+          "dyspnea climbing stairs"
+        ],
+        "outcomes": [
+          "Activity tolerance: walk 50 m without >20 % increase in resting heart rate.",
+          "Participation in occupational therapy 30 min/day without excessive fatigue."
+        ],
+        "interventions": [
+          {
+            "action": "Plan activities in 5‑10 min intervals with rest breaks.",
+            "rationale": "Prevents overload and allows gradual adaptation."
+          },
+          {
+            "action": "Monitor heart rate and O₂ saturation before and after activity.",
+            "rationale": "Evaluates physiological response to exertion."
+          },
+          {
+            "action": "Collaborate with physical therapy for progressive strengthening exercises.",
+            "rationale": "Improves muscle strength and functional capacity."
+          },
+          {
+            "action": "Teach energy‑saving techniques (sitting for tasks, using assistive devices).",
+            "rationale": "Reduces energy demand and improves independence."
+          },
+          {
+            "action": "Record fatigue level using Borg scale after each session.",
+            "rationale": "Facilitates objective assessment of activity tolerance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ischemic-stroke",
+    "hemorrhagic-stroke",
+    "transient-ischemic-attack",
+    "atrial-fibrillation",
+    "hypertension"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Accidente cerebrovascular",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/stroke.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Ischemic Stroke",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-2-ischemic-stroke",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hemorrhagic Stroke",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-3-hemorrhagic-stroke",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-07",
+  "factcheck": {
+    "checked": "2026-10-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 27,
+      "not_found": 18,
+      "contradicted": 1,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "An ischemic stroke requires different initial care than a hemorrhagic stroke , mainly because the primary cause is a clot rather than a bleed from a vessel within the brain.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "contradicted",
+        "quote": "About 87 percent of all strokes are ischemic ( American Stroke Association , 2023)."
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Type of Risk Factor Factors Modifiable Alcohol consumption Atrial fibrillation Cardiac disease Diabetes mellitus Hyperlipidemia Hypertension Obesity Physical inactivity Sleep apnea Smoking Unhealthy diet Nonmodifiable Age (older adults at greater risk) Family history Prior stroke or TIA Race/ethnicity (Black and Hispanic/Latinx populations at gre",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Treatment must be administered within 3–4.5 hours of stroke onset or “last known well” to be effective at reversing brain ischemia.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "These deposits can form a cerebral thrombus , which is essentially a clot within a blood vessel that blocks cerebral perfusion .",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "A hemorrhagic stroke is caused by the absence of proper perfusion to the cells of the brain, resulting from a rupture of either a vessel within the cerebral vasculature or around the brain.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "The most important thing to know is that brain cells die within minutes of not receiving adequate oxygen through cerebral perfusion, so early recognition and intervention are essential for reducing poor outcomes.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Bleeding in either location can take up room in the finite space of the skull, causing increased cerebral pressure and cerebral edema.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Modifiable risk factors for hemorrhagic stroke are: hypertension smoking alcohol consumption antiplatelet or anticoagulant therapy sympathomimetic drug usage",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Some common cardiac conditions that cause emboli to form are arrythmias such as atrial fibrillation, valvular heart disease such as endocarditis, prosthetic heart valves, recent myocardial infarction, and some ventricular diseases.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Other subjective data include a health history, focusing on diseases (such as diabetes mellitus and hypertension) and lifestyle factors (such as nicotine use and use of certain oral contraceptives) that may increase stroke risk; providers should also ascertain whether the patient had previous strokes or TIAs.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Education should also be provided regarding modifiable and nonmodifiable risk factors ( Table 15.3 ).",
+        "source": 1
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "A patient with a large artery ischemic stroke may have weakness or paralysis on one side of the body, a loss of sensation to one side of the body, visual changes, problems with balance or coordination, issues with word-finding, or aphasia .",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "A patient with a large artery ischemic stroke may have weakness or paralysis on one side of the body, a loss of sensation to one side of the body, visual changes, problems with balance or coordination, issues with word-finding, or aphasia .",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The nurse analyzes the cues, recognizing facial droop is related to cranial nerve VII and that slurred speech is called dysarthria.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "These include: decreased level of consciousness or coma thunderclap headache , a severe, sudden headache that peaks in intensity in seconds, lasts at least five minutes, and lingers and fades within a few hours vomiting seizure activity neck stiffness or pain",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "A patient with an ischemic stroke may present with other symptoms, too, including vertigo or dizziness, neck stiffness, memory loss, confusion, or even nausea and vomiting.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "An MRI with diffusion-weighted imaging (DWI) allows visualization of not only ischemia related to stroke but identifies the penumbra , the brain tissue that has been hypoperfused as a result of the occlusion but is not yet ischemic.",
+        "source": 1
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "MRAs and CTAs are noninvasive scans that provide a view of the vessels within the brain and neck and allow vascular abnormalities, such as occlusions and stenoses, to be visualized.",
+        "source": 1
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "supported",
+        "quote": "A complete neurological exam will reveal deficits used to help localize the area of the brain affected, and then the NIHSS will be used to determine the severity and prognosis of the stroke.",
+        "source": 1
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Treatment must be administered within 3–4.5 hours of stroke onset or “last known well” to be effective at reversing brain ischemia.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Control within these parameters may require intravenous administration of labetalol or nicardipine.",
+        "source": 1
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Surgical interventions for hemorrhagic stroke aim to stop bleeding, aspirate the hematoma, or relieve pressure on the brain.",
+        "source": 2
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "positions the patient’s head, neck, and body in proper alignment to aid in perfusion and prevent airway compromise applies supplemental oxygen per facility protocol initiates NPO status to reduce the risk of aspiration",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Complications can include inflammation, vascular compression, ventricular compression, brain herniation, brainstem compression causing cardiorespiratory failure, and blood product toxicity.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Patients suspected of having a stroke should be made NPO right away because one of the major stroke impairments is dysphagia.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "To ensure safety, the nurse does the following: positions the patient’s head, neck, and body in proper alignment to aid in perfusion and prevent airway compromise applies supplemental oxygen per facility protocol initiates NPO status to reduce the risk of aspiration obtains vital signs to check the patient for adequate oxygenation and perfusion prepare and educates the patient for what may come next, such as preparing for transport to diagnostic",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Other interdisciplinary team members who may be part of a patient’s continued ischemic stroke treatment are physical, occupational, speech language, and recreational therapists.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

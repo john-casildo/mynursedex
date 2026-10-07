@@ -1,0 +1,549 @@
+{
+  "id": "asthma",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Asma",
+    "aliases": [
+      "asma",
+      "sibilancias",
+      "crisis asmática",
+      "broncoespasmo",
+      "alergia"
+    ],
+    "summary": "Enfermedad pulmonar crónica caracterizada por inflamación y estrechamiento reversible de las vías respiratorias, que produce sibilancias, tos y disnea. Los episodios agudos se denominan crisis asmática.",
+    "key_points": [
+      "Inflamación de la mucosa bronquial y hiperreactividad bronquial",
+      "Broncoconstricción reversible es la base del ataque",
+      "Control de desencadenantes y uso correcto de inhaladores son esenciales",
+      "Espirometría muestra disminución del FEV1/FVC",
+      "Corticosteroides inhalados son la base del tratamiento de mantenimiento"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Alérgeno o irritante activa mastocitos → liberación de mediadores inflamatorios",
+        "Inflamación de la mucosa bronquial → edema y aumento de secreción",
+        "Broncoconstricción por contracción del músculo liso bronquial",
+        "Obstrucción reversible del flujo aéreo",
+        "Hipersecreción de moco y atrapamiento de aire"
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de asma o alergias",
+        "Exposición a ácaros, moho, pelos de mascotas, polen",
+        "Tabaquismo pasivo o contaminación del aire",
+        "Infecciones respiratorias frecuentes en la infancia",
+        "Obesidad y ejercicio en clima frío"
+      ],
+      "signs_symptoms": [
+        "Sibilancias espiratorias difusas",
+        "Tos seca, peor por la noche o al ejercicio",
+        "Sensación de opresión torácica",
+        "Disnea de inicio súbito o progresiva",
+        "Uso de músculos accesorios y aleteo nasal"
+      ],
+      "diagnostics": [
+        "Espirometría: FEV1/FVC < 0.70 y reversibilidad >12% tras broncodilatador",
+        "Peak flow < 80% del valor esperado en crisis",
+        "Radiografía de tórax normalmente normal",
+        "Oxígeno arterial: PaO2 ≥ 80 mmHg en reposo, ↓ en crisis",
+        "Pruebas de alergia cutánea o IgE específica según sospecha"
+      ],
+      "treatment": [
+        "Broncodilatadores beta‑2 agonistas de acción corta (albuterol) – rescate",
+        "Broncodilatadores beta‑2 agonistas de acción prolongada (salmeterol) – mantenimiento",
+        "Anticolinérgicos inhalados (ipratropio) como adyuvante",
+        "Corticosteroides inhalados (beclometasona, budesonida) – control crónico",
+        "Corticosteroides sistémicos en crisis severa",
+        "Educación, plan de acción y control de desencadenantes"
+      ],
+      "complications": [
+        "Estado asmático (crisis potencialmente mortal)",
+        "Hipoxemia y insuficiencia respiratoria",
+        "Remodelado bronquial crónico → disminución de la función pulmonar",
+        "Efectos adversos de corticoides (candidiasis oral, supresión adrenal)"
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, uso de músculos accesorios y SpO2 cada 4 h",
+        "Administrar broncodilatador según orden y observar respuesta en 5‑15 min",
+        "Mantener posición semi‑sentada o Fowler para facilitar la expansión pulmonar",
+        "Monitorear signos de fatiga, nivel de conciencia y posible deterioro",
+        "Registrar pico de flujo y comparar con valores personales"
+      ],
+      "patient_teaching": [
+        "Enseñar técnica correcta de inhalador y uso del espaciador",
+        "Identificar y evitar desencadenantes personales",
+        "Elaborar y practicar plan de acción para crisis",
+        "Registrar pico de flujo diario y reconocer valores de alerta",
+        "Revisar higiene bucal después de corticoides inhalados"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "Broncoconstricción",
+          "Inflamación de vías respiratorias",
+          "Exposición a alérgenos"
+        ],
+        "evidenced_by": [
+          "Sibilancias",
+          "Disnea de reposo",
+          "Uso de músculos accesorios",
+          "Tos persistente",
+          "Cianosis leve"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: SpO2 ≥ 95% en reposo",
+          "Frecuencia respiratoria dentro de 12‑20 respiraciones/min",
+          "Disminución de sibilancias a auscultación en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar broncodilatador de acción corta según prescripción y evaluar respuesta en 5‑15 min",
+            "rationale": "Relaja el músculo liso bronquial y mejora el flujo aéreo rápidamente"
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑sentada o Fowler",
+            "rationale": "Facilita la expansión pulmonar y reduce el trabajo respiratorio"
+          },
+          {
+            "action": "Monitorear SpO2 y frecuencia respiratoria cada 4 h o según cambios clínicos",
+            "rationale": "Detecta deterioro temprano y permite intervención oportuna"
+          },
+          {
+            "action": "Enseñar uso del espaciador y técnica de inhalación correcta",
+            "rationale": "Optimiza la entrega del medicamento a los pulmones"
+          },
+          {
+            "action": "Registrar pico de flujo y comparar con valores personales",
+            "rationale": "Permite identificar empeoramiento antes de la crisis"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Broncoconstricción inducida por ejercicio",
+          "Hipoxemia durante el esfuerzo",
+          "Desacondicionamiento físico"
+        ],
+        "evidenced_by": [
+          "Disnea al subir escaleras",
+          "Fatiga al realizar actividades de la vida diaria",
+          "Limitación para caminar > 100 m sin pausa"
+        ],
+        "outcomes": [
+          "Capacidad para caminar 200 m sin disnea en 2 semanas",
+          "Nivel de actividad incrementado 20 % según escala de Borg"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar actividades graduales de ejercicio aeróbico bajo supervisión",
+            "rationale": "Mejora la tolerancia al ejercicio y reduce la hiperreactividad"
+          },
+          {
+            "action": "Enseñar uso del broncodilatador de acción corta antes del ejercicio",
+            "rationale": "Previene la broncoconstricción inducida por actividad física"
+          },
+          {
+            "action": "Monitorear signos vitales y SpO2 antes, durante y después del ejercicio",
+            "rationale": "Detecta desaturación y permite ajustar la intensidad"
+          },
+          {
+            "action": "Educar al paciente sobre reconocimiento de límites y descanso adecuado",
+            "rationale": "Previene la exacerbación y promueve autocuidado"
+          },
+          {
+            "action": "Reforzar adherencia al tratamiento de mantenimiento (corticoides inhalados)",
+            "rationale": "Controla la inflamación subyacente y mejora la capacidad funcional"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Asthma",
+    "aliases": [
+      "asthma",
+      "wheezing",
+      "asthma attack",
+      "bronchospasm",
+      "allergy"
+    ],
+    "summary": "Chronic lung disease characterized by inflammation and reversible narrowing of the airways, producing wheezing, cough, and dyspnea. Acute episodes are called asthma attacks.",
+    "key_points": [
+      "Bronchial mucosal inflammation and bronchial hyperreactivity",
+      "Reversible bronchoconstriction is the basis of the attack",
+      "Trigger control and correct inhaler use are essential",
+      "Spirometry shows decreased FEV1/FVC",
+      "Inhaled corticosteroids are the foundation of maintenance treatment"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Allergen or irritant activates mast cells → release of inflammatory mediators",
+        "Bronchial mucosal inflammation → edema and increased secretions",
+        "Bronchoconstriction from contraction of bronchial smooth muscle",
+        "Reversible airflow obstruction",
+        "Excess mucus secretion and air trapping"
+      ],
+      "risk_factors": [
+        "Family history of asthma or allergies",
+        "Exposure to dust mites, mold, pet dander, pollen",
+        "Passive smoking or air pollution",
+        "Frequent respiratory infections in childhood",
+        "Obesity and exercise in cold weather"
+      ],
+      "signs_symptoms": [
+        "Diffuse expiratory wheezing",
+        "Dry cough, worse at night or with exercise",
+        "Chest tightness sensation",
+        "Sudden or progressive dyspnea",
+        "Use of accessory muscles and nasal flaring"
+      ],
+      "diagnostics": [
+        "Spirometry: FEV1/FVC < 0.70 and reversibility >12% after bronchodilator",
+        "Peak flow < 80% of expected value during crisis",
+        "Chest X‑ray usually normal",
+        "Arterial oxygen: PaO2 ≥ 80 mmHg at rest, ↓ during crisis",
+        "Skin allergy tests or specific IgE as indicated"
+      ],
+      "treatment": [
+        "Short‑acting beta‑2 agonist bronchodilators (albuterol) – rescue",
+        "Long‑acting beta‑2 agonist bronchodilators (salmeterol) – maintenance",
+        "Inhaled anticholinergics (ipratropium) as adjunct",
+        "Inhaled corticosteroids (beclomethasone, budesonide) – chronic control",
+        "Systemic corticosteroids in severe crisis",
+        "Education, action plan, and trigger control"
+      ],
+      "complications": [
+        "Asthmatic status (potentially life‑threatening crisis)",
+        "Hypoxemia and respiratory failure",
+        "Chronic bronchial remodeling → decreased lung function",
+        "Side effects of steroids (oral candidiasis, adrenal suppression)"
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, accessory muscle use, and SpO2 every 4 h",
+        "Administer bronchodilator per order and observe response in 5‑15 min",
+        "Maintain semi‑upright or Fowler position to aid lung expansion",
+        "Monitor for fatigue, level of consciousness, and possible deterioration",
+        "Record peak flow and compare with personal values"
+      ],
+      "patient_teaching": [
+        "Teach correct inhaler technique and spacer use",
+        "Identify and avoid personal triggers",
+        "Develop and practice an action plan for attacks",
+        "Record daily peak flow and recognize warning values",
+        "Review oral hygiene after inhaled steroids"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "Bronchoconstriction",
+          "Airway inflammation",
+          "Allergen exposure"
+        ],
+        "evidenced_by": [
+          "Wheezing",
+          "Resting dyspnea",
+          "Accessory muscle use",
+          "Persistent cough",
+          "Mild cyanosis"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: SpO2 ≥ 95% at rest",
+          "Respiratory rate 12‑20 breaths/min",
+          "Reduced wheezing on auscultation within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administer short‑acting bronchodilator per prescription and assess response in 5‑15 min",
+            "rationale": "Relaxes bronchial smooth muscle and quickly improves airflow"
+          },
+          {
+            "action": "Place patient in semi‑upright or Fowler position",
+            "rationale": "Facilitates lung expansion and reduces work of breathing"
+          },
+          {
+            "action": "Monitor SpO2 and respiratory rate every 4 h or as clinically indicated",
+            "rationale": "Detects early deterioration and allows timely intervention"
+          },
+          {
+            "action": "Teach spacer use and correct inhalation technique",
+            "rationale": "Optimizes drug delivery to the lungs"
+          },
+          {
+            "action": "Record peak flow and compare with personal values",
+            "rationale": "Identifies worsening before a crisis"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Exercise‑induced bronchoconstriction",
+          "Hypoxemia during exertion",
+          "Physical deconditioning"
+        ],
+        "evidenced_by": [
+          "Dyspnea when climbing stairs",
+          "Fatigue during activities of daily living",
+          "Limited ability to walk > 100 m without pause"
+        ],
+        "outcomes": [
+          "Ability to walk 200 m without dyspnea in 2 weeks",
+          "Activity level increased 20% per Borg scale"
+        ],
+        "interventions": [
+          {
+            "action": "Plan gradual aerobic exercise under supervision",
+            "rationale": "Improves exercise tolerance and reduces hyperreactivity"
+          },
+          {
+            "action": "Teach use of short‑acting bronchodilator before exercise",
+            "rationale": "Prevents exercise‑induced bronchoconstriction"
+          },
+          {
+            "action": "Monitor vital signs and SpO2 before, during, and after exercise",
+            "rationale": "Detects desaturation and allows intensity adjustment"
+          },
+          {
+            "action": "Educate patient on recognizing limits and adequate rest",
+            "rationale": "Prevents exacerbation and promotes self‑care"
+          },
+          {
+            "action": "Reinforce adherence to maintenance therapy (inhaled steroids)",
+            "rationale": "Controls underlying inflammation and improves functional capacity"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bronchoconstriction",
+    "allergic-rhinitis",
+    "inhaled-corticosteroids"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Asma",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/asthma.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower Respiratory System: Asthma",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-4-disorders-of-the-lower-respiratory-system-asthma",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Adrenergics and Anticholinergics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/25-1-adrenergics-and-anticholinergics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-07",
+  "factcheck": {
+    "checked": "2026-10-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "An asthma attack is also known as asthma exacerbation."
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Patient education topics include using an inhaler and peak flow meter, strategies to avoid triggers, and implementing an asthma action plan ( Figure 11.15 , Figure 11.16 , and Figure 11.17 ).",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Mast cells release leukotrienes, histamine, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Inflammation, further bronchoconstriction, and increased mucous production occur.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "These substances cause bronchoconstriction , meaning the smooth muscle in the airways constrict, narrowing the airway.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Spirometry tests are also used to assess airway changes in response to bronchodilator administration; bronchodilators open narrowed airways and allow a significant increase in the volume of air that can be inhaled and forcefully exhaled.",
+        "source": 1
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Asthma is more common in patients with a family history of asthma and allergies.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Expiratory wheezes are the most common adventitious lung sound in asthma.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Often, the cough is worse at night.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Subjective data can include the presence of shortness of breath, wheezing, chest tightness, cough, increased mucus, activity limitations, and frequency of nighttime waking due to breathing difficulty.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "In severe flares, oral or intravenous corticosteroids are often necessary to decrease inflammation.",
+        "source": 1
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "Patient education topics include using an inhaler and peak flow meter, strategies to avoid triggers, and implementing an asthma action plan ( Figure 11.15 , Figure 11.16 , and Figure 11.17 ).",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "This video provides important teaching points about how to use inhalers, nebulizers, spacers, and chambers.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Identifying triggers and controlling exposure is important for patients with asthma.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Patient education topics include using an inhaler and peak flow meter, strategies to avoid triggers, and implementing an asthma action plan ( Figure 11.15 , Figure 11.16 , and Figure 11.17 ).",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "A home peak flow meter ( Figure 11.18 ) allows patients to track and observe trends in their lung function.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Steroid inhalers can increase the risk of oral candida infections, so patient education should include rinsing the mouth after use, and use of spacers if indicated.",
+        "source": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "id": "hypertension",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipertensión arterial (HA)",
+    "aliases": [
+      "hipertensión",
+      "presión alta",
+      "presión arterial alta",
+      "hipertensión sistémica",
+      "htn"
+    ],
+    "summary": "La hipertensión arterial es una elevación sostenida de la presión sistólica ≥140 mmHg y/o diastólica ≥90 mmHg. Es un factor de riesgo importante para enfermedad cardiovascular y renal.",
+    "key_points": [
+      "Diagnóstico: ≥140/90 mmHg en al menos dos visitas separadas.",
+      "Clasificación: normal, elevada, HTA estadio 1 (140‑159/90‑99) y estadio 2 (≥160/≥100).",
+      "Factores de riesgo: edad, obesidad, sedentarismo, dieta alta en sodio, antecedentes familiares.",
+      "Complicaciones: infarto de miocardio, accidente cerebrovascular, insuficiencia renal, retinopatía.",
+      "Tratamiento: cambios de estilo de vida + fármacos antihipertensivos (IECA, ARA II, diuréticos, betabloqueadores, bloqueadores de Ca)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aumento de la resistencia vascular periférica por vasoconstricción crónica.",
+        "Retención de sodio y agua por activación del sistema renina‑angiotensina‑aldosterona.",
+        "Disfunción endotelial reduce la producción de óxido nítrico vasodilatador.",
+        "Remodelado estructural de arterias aumenta la rigidez arterial."
+      ],
+      "risk_factors": [
+        "Edad > 60 años, antecedentes familiares de HTA.",
+        "Obesidad (IMC ≥ 30 kg/m²) y sedentarismo.",
+        "Dieta alta en sodio (> 2 g/día) y bajo consumo de potasio.",
+        "Consumo excesivo de alcohol y tabaquismo."
+      ],
+      "signs_symptoms": [
+        "Generalmente asintomática; puede presentar cefalea, visión borrosa o epistaxis.",
+        "Palpitaciones o sensación de latido fuerte en el pecho.",
+        "Mareos o sensación de presión en la cabeza."
+      ],
+      "diagnostics": [
+        "Medición de presión arterial con esfigmomanómetro; lectura ≥140/90 mmHg en 2‑3 visitas.",
+        "Laboratorio: glucosa fasting, perfil lipídico, creatinina, electrolitos (Na⁺, K⁺ en mEq/L).",
+        "ECG para detectar hipertrofia ventricular izquierda.",
+        "Ecocardiograma si se sospecha daño cardíaco."
+      ],
+      "treatment": [
+        "Modificaciones de estilo de vida: dieta DASH, <2 g de sodio/día, ejercicio ≥150 min/semana.",
+        "Diuréticos tiazídicos (hidroclorotiazida).",
+        "Inhibidores de la ECA (enalapril, lisinopril).",
+        "Bloqueadores de los receptores de angiotensina II (losartán, valsartán).",
+        "Betabloqueadores (metoprolol, atenolol).",
+        "Bloqueadores de canales de calcio (amlodipino, nifedipina)."
+      ],
+      "complications": [
+        "Enfermedad coronaria e infarto de miocardio.",
+        "Accidente cerebrovascular (ischemic o hemorrágico).",
+        "Insuficiencia renal crónica.",
+        "Retinopatía hipertensiva y pérdida visual.",
+        "Aneurisma de la aorta."
+      ],
+      "nursing_care": [
+        "Evaluar presión arterial en posición sentada y supina; registrar valores y tendencia.",
+        "Monitorear signos de edema, peso diario y función renal (creatinina, BUN).",
+        "Observar cambios en frecuencia cardíaca y ritmo en ECG.",
+        "Administrar medicamentos según prescripción y vigilar efectos adversos (hiperkalemia, tos).",
+        "Promover posición semisentado para reducir la carga cardíaca."
+      ],
+      "patient_teaching": [
+        "Enseñar técnica correcta de automedición de presión arterial en casa.",
+        "Explicar la importancia de reducir el consumo de sal y aumentar frutas/verduras.",
+        "Reforzar la adherencia al tratamiento farmacológico y la necesidad de no suspender sin indicación.",
+        "Fomentar actividad física regular y control de peso.",
+        "Informar signos de alarma: dolor torácico, visión borrosa, cefalea intensa."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "presión arterial sistólica >140 mmHg",
+          "hipertensión no controlada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Perfusión tisular cerebral – Mantener presión arterial <140/90 mmHg en 2 lecturas consecutivas.",
+          "NOC: Estado neurológico – No presentar síntomas de deterioro cognitivo ni cefalea intensa."
+        ],
+        "interventions": [
+          {
+            "action": "Medir presión arterial cada 4 horas y registrar tendencia.",
+            "rationale": "Detectar hipertensión sostenida y permitir intervención temprana."
+          },
+          {
+            "action": "Administrar antihipertensivos según orden y observar efectos adversos.",
+            "rationale": "Controlar la presión arterial para prevenir daño cerebral."
+          },
+          {
+            "action": "Educar al paciente sobre la automedición de presión arterial en casa.",
+            "rationale": "Facilita el autocontrol y la detección precoz de valores elevados."
+          },
+          {
+            "action": "Promover reducción de sodio y adherencia a dieta DASH.",
+            "rationale": "Disminuye la presión arterial y mejora la perfusión cerebral."
+          },
+          {
+            "action": "Evaluar signos neurológicos (nivel de conciencia, visión, fuerza).",
+            "rationale": "Identificar rápidamente cualquier deterioro por hipoperfusión."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de diuréticos tiazídicos",
+          "hipertensión crónica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Equilibrio electrolítico – Mantener K⁺ entre 3.5‑5.0 mEq/L.",
+          "NOC: Estado de hidratación – Peso estable (variación < 0.5 kg/día) y sin edema."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos (Na⁺, K⁺, Cl⁻) cada 48 h.",
+            "rationale": "Detectar alteraciones tempranas por diuréticos."
+          },
+          {
+            "action": "Evaluar ingesta y salida de líquidos; registrar balance hídrico.",
+            "rationale": "Prevenir deshidratación o sobrecarga de volumen."
+          },
+          {
+            "action": "Administrar suplementos de potasio o alimentos ricos en K⁺ según indicación.",
+            "rationale": "Corregir hipokalemia inducida por diuréticos."
+          },
+          {
+            "action": "Enseñar al paciente a evitar alimentos altos en sodio y a consumir frutas/verduras.",
+            "rationale": "Mantener equilibrio electrolítico y presión arterial."
+          },
+          {
+            "action": "Revisar signos de arritmias (palpitaciones, latidos irregulares).",
+            "rationale": "Las alteraciones de K⁺ pueden desencadenar arritmias."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hypertension (HTN)",
+    "aliases": [
+      "hypertension",
+      "high blood pressure",
+      "high arterial pressure",
+      "systemic hypertension",
+      "htn"
+    ],
+    "summary": "Hypertension is a sustained elevation of systolic pressure ≥140 mmHg and/or diastolic ≥90 mmHg. It is a major risk factor for cardiovascular and renal disease.",
+    "key_points": [
+      "Diagnosis: ≥140/90 mmHg on at least two separate visits.",
+      "Classification: normal, elevated, Stage 1 HTN (140‑159/90‑99) and Stage 2 (≥160/≥100).",
+      "Risk factors: age, obesity, sedentary lifestyle, high‑sodium diet, family history.",
+      "Complications: myocardial infarction, stroke, renal failure, retinopathy.",
+      "Treatment: lifestyle changes + antihypertensive drugs (ACEI, ARB, diuretics, beta‑blockers, calcium‑channel blockers)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased peripheral vascular resistance from chronic vasoconstriction.",
+        "Sodium and water retention via activation of the renin‑angiotensin‑aldosterone system.",
+        "Endothelial dysfunction reduces nitric‑oxide vasodilator production.",
+        "Structural remodeling of arteries increases arterial stiffness."
+      ],
+      "risk_factors": [
+        "Age > 60 years, family history of HTN.",
+        "Obesity (BMI ≥ 30 kg/m²) and sedentary behavior.",
+        "High‑sodium diet (> 2 g/day) and low potassium intake.",
+        "Excessive alcohol consumption and smoking."
+      ],
+      "signs_symptoms": [
+        "Usually asymptomatic; may present headache, blurred vision, or epistaxis.",
+        "Palpitations or a sensation of a strong beat in the chest.",
+        "Dizziness or a feeling of pressure in the head."
+      ],
+      "diagnostics": [
+        "Blood pressure measurement with sphygmomanometer; reading ≥140/90 mmHg on 2‑3 visits.",
+        "Laboratory: fasting glucose, lipid profile, creatinine, electrolytes (Na⁺, K⁺ in mEq/L).",
+        "ECG to detect left ventricular hypertrophy.",
+        "Echocardiogram if cardiac damage is suspected."
+      ],
+      "treatment": [
+        "Lifestyle modifications: DASH diet, <2 g sodium/day, exercise ≥150 min/week.",
+        "Thiazide diuretics (hydrochlorothiazide).",
+        "ACE inhibitors (enalapril, lisinopril).",
+        "Angiotensin II receptor blockers (losartan, valsartan).",
+        "Beta‑blockers (metoprolol, atenolol).",
+        "Calcium‑channel blockers (amlodipine, nifedipine)."
+      ],
+      "complications": [
+        "Coronary artery disease and myocardial infarction.",
+        "Stroke (ischemic or hemorrhagic).",
+        "Chronic kidney disease.",
+        "Hypertensive retinopathy and vision loss.",
+        "Aortic aneurysm."
+      ],
+      "nursing_care": [
+        "Assess blood pressure in seated and supine positions; record values and trends.",
+        "Monitor edema signs, daily weight, and renal function (creatinine, BUN).",
+        "Observe changes in heart rate and rhythm on ECG.",
+        "Administer medications per prescription and monitor for adverse effects (hyperkalemia, cough).",
+        "Promote semi‑recumbent position to reduce cardiac load."
+      ],
+      "patient_teaching": [
+        "Teach proper home blood pressure self‑monitoring technique.",
+        "Explain the importance of reducing salt intake and increasing fruit/vegetable consumption.",
+        "Reinforce medication adherence and the need not to discontinue without indication.",
+        "Encourage regular physical activity and weight control.",
+        "Inform about warning signs: chest pain, blurred vision, severe headache."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "systolic blood pressure >140 mmHg",
+          "uncontrolled hypertension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Cerebral tissue perfusion – Maintain blood pressure <140/90 mmHg in 2 consecutive readings.",
+          "NOC: Neurologic status – No signs of cognitive decline or severe headache."
+        ],
+        "interventions": [
+          {
+            "action": "Measure blood pressure every 4 hours and record trend.",
+            "rationale": "Detect sustained hypertension and allow early intervention."
+          },
+          {
+            "action": "Administer antihypertensives per order and observe adverse effects.",
+            "rationale": "Control blood pressure to prevent cerebral damage."
+          },
+          {
+            "action": "Educate the patient on home blood pressure self‑monitoring.",
+            "rationale": "Facilitates self‑control and early detection of elevated values."
+          },
+          {
+            "action": "Promote sodium reduction and adherence to DASH diet.",
+            "rationale": "Lowers blood pressure and improves cerebral perfusion."
+          },
+          {
+            "action": "Assess neurologic signs (level of consciousness, vision, strength).",
+            "rationale": "Identify any rapid deterioration due to hypoperfusion."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "use of thiazide diuretics",
+          "chronic hypertension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Electrolyte balance – Maintain K⁺ between 3.5‑5.0 mEq/L.",
+          "NOC: Hydration status – Stable weight (variation < 0.5 kg/day) and no edema."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes (Na⁺, K⁺, Cl⁻) every 48 h.",
+            "rationale": "Detect early changes due to diuretics."
+          },
+          {
+            "action": "Assess fluid intake and output; record fluid balance.",
+            "rationale": "Prevent dehydration or volume overload."
+          },
+          {
+            "action": "Administer potassium supplements or potassium‑rich foods as indicated.",
+            "rationale": "Correct diuretic‑induced hypokalemia."
+          },
+          {
+            "action": "Teach the patient to avoid high‑sodium foods and to consume fruits/vegetables.",
+            "rationale": "Maintain electrolyte balance and blood pressure."
+          },
+          {
+            "action": "Review signs of arrhythmias (palpitations, irregular beats).",
+            "rationale": "Potassium changes can trigger arrhythmias."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "stroke",
+    "coronary-artery-disease",
+    "renal-failure",
+    "heart-failure",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: High Blood Pressure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/highbloodpressure.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hipertensión pulmonar",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pulmonaryhypertension.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Hypertension and Angina",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-1-hypertension-and-angina",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hypertension",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-4-hypertension",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-07",
+  "factcheck": {
+    "checked": "2026-10-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 26,
+      "contradicted": 2,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "contradicted",
+        "quote": "Stage 1 Hypertension 130–139 or 80–89",
+        "source": 2
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Developing high blood pressure during childhood can have long-term consequences, potentially leading to hypertension in adulthood and increasing the risk of heart disease, stroke, and kidney damage.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "contradicted",
+        "quote": "Stage I hypertension 130-139/80-90 mm Hg",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Modifiable risk factors for HTN include diabetes, a diet high in sodium and low in potassium, physical inactivity, obesity, excessive alcohol use, and tobacco use.",
+        "source": 3
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Angiotensin-converting enzyme inhibitors, angiotensin II receptor blockers, beta-adrenergic blockers, calcium channel blockers, and thiazide-like diuretics (Khalil & Zeltser, 2022) are the primary antihypertensive drugs used to treat high blood pressure.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Aldosterone causes the kidneys to retain water and sodium, which leads to water retention and results in an increased blood volume, cardiac output, and blood pressure.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "These changes may include diet modification, increased physical activity and exercise, smoking cessation, alcohol consumption reduction, relaxation techniques, and self-monitoring.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Symptoms typically associated with hypertension include elevated blood pressure readings, headaches, dizziness, nausea, vomiting, visual disturbances, and neurological disturbances such as disorientation or a decreased level of consciousness.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "the health care provider may add this diagnostic study to visualize the heart’s chambers, valves, and pumping action to determine the effect of hypertension on the heart, which may cause o"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "For the non-Black population (with or without diabetes), initial therapy should include thiazide diuretics , CCBs, ACE inhibitors, or ARB s.",
+        "source": 3
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Variant (Prinzmetal) angina , unlike the other forms of angina, is not caused by coronary artery disease but rather by a spasm in the heart’s arteries that temporarily decreases blood flow and almost always occurs at rest.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "When your blood pressure stays high over time, it causes the heart to pump harder and work overtime, possibly leading to serious health problems such as heart attack , stroke , heart failure , and kidney failure .",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Nursing responsibilities include monitoring hemodynamic response, monitoring for side effects, and teaching correct techniques for at-home self-monitoring of antihypertensive therapies.",
+        "source": 3
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Clients with hypertension should eat a low-sodium diet consisting of whole grains, vegetables, and fruits.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Goals may include a demonstration of knowledge of symptoms of hypertensive crisis, adherence to medication therapy, increase in physical activity, alteration in modifiable risk factors, and normalization of blood pressure readings.",
+        "source": 3
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Physical activity and exercise enhance weight reduction and promote a healthy lifestyle.",
+        "source": 2
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "In severe cases, patients with hypertensive urgency may report chest pain, shortness of breath, blurred vision, and headaches (resulting from elevated intracranial pressure), but do not exhibit target organ damage (American Heart Association, 2024).",
+        "source": 3
+      }
+    }
+  }
+}

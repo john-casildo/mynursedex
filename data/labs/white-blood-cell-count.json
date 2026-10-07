@@ -1,0 +1,267 @@
+{
+  "id": "white-blood-cell-count",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Recuento de glóbulos blancos (WBC)",
+    "aliases": [
+      "leucocitos",
+      "recuento leucocitos",
+      "glóbulos blancos",
+      "wbc",
+      "conteo leucocitos"
+    ],
+    "summary": "El recuento de glóbulos blancos mide la cantidad de leucocitos en sangre y ayuda a identificar infecciones, inflamación y trastornos hematológicos.",
+    "key_points": [
+      "Valor normal adulto: 4,000‑11,000 células/µL (4.0‑11.0 ×10³/µL).",
+      "Leucocitosis indica infección, inflamación o leucemia.",
+      "Leucopenia aumenta el riesgo de infecciones graves.",
+      "Muestra se toma en tubo con EDTA; no requiere ayuno."
+    ],
+    "sections": {
+      "normal_values": [
+        "4,000‑11,000 células/µL (4.0‑11.0 ×10³/µL) en adultos; rangos pueden variar ligeramente entre laboratorios."
+      ],
+      "high_values": [
+        "Leucocitosis: infección bacteriana, inflamación aguda, estrés, leucemia.",
+        "Síntomas: fiebre, taquicardia, posible esplenomegalia, dolor óseo."
+      ],
+      "low_values": [
+        "Leucopenia/Neutropenia: quimioterapia, supresión medular, infecciones virales, deficiencia de vitamina B12.",
+        "Síntomas: mayor susceptibilidad a infecciones, fiebre sin foco evidente, úlceras orales."
+      ],
+      "specimen": [
+        "Toma de sangre venosa en tubo con anticoagulante EDTA.",
+        "No requiere ayuno; puede realizarse en cualquier momento del día.",
+        "Evitar torniquete prolongado y hemólisis para no alterar el recuento."
+      ],
+      "nursing_care": [
+        "Monitorear signos de infección (temp, frecuencia cardíaca, cambios en la piel).",
+        "Revisar medicamentos que afectan la médula ósea (p. ej., quimioterapia, filgrastim).",
+        "Aplicar precauciones de aislamiento si el recuento <1,000 células/µL.",
+        "Educar al paciente sobre higiene de manos y evitar multitudes durante neutropenia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "neutropenia",
+          "quimioterapia",
+          "supresión medular",
+          "uso prolongado de corticosteroides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infección: ausencia de signos de infección durante la hospitalización",
+          "Inmunidad: recuento de leucocitos dentro del rango normal en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar temperatura, pulso y aspecto de la piel cada 4 h.",
+            "rationale": "Detectar tempranamente signos de infección en pacientes con bajo recuento de leucocitos."
+          },
+          {
+            "action": "Mantener aislamiento de contacto y precauciones de neutropenia cuando WBC <1,000 células/µL.",
+            "rationale": "Reducir la exposición a patógenos oportunistas."
+          },
+          {
+            "action": "Revisar y administrar factores estimulantes de colonias (p. ej., filgrastim) según prescripción.",
+            "rationale": "Estimular la producción de neutrófilos y disminuir el riesgo infeccioso."
+          },
+          {
+            "action": "Enseñar al paciente y familia técnicas de higiene de manos y evitar alimentos crudos o no pasteurizados.",
+            "rationale": "Minimizar la ingesta de microorganismos potencialmente patógenos."
+          },
+          {
+            "action": "Documentar y reportar cualquier cambio en el recuento de WBC al médico tratante.",
+            "rationale": "Permitir ajustes oportunos en el plan terapéutico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "White blood cell count (WBC)",
+    "aliases": [
+      "leukocytes",
+      "leukocyte count",
+      "white blood cells",
+      "wbc"
+    ],
+    "summary": "The white blood cell count measures the number of leukocytes in blood and helps identify infections, inflammation, and hematologic disorders.",
+    "key_points": [
+      "Normal adult value: 4,000‑11,000 cells/µL (4.0‑11.0 ×10³/µL).",
+      "Leukocytosis indicates infection, inflammation, or leukemia.",
+      "Leukopenia increases the risk of serious infections.",
+      "Sample is taken in an EDTA tube; fasting not required."
+    ],
+    "sections": {
+      "normal_values": [
+        "4,000‑11,000 cells/µL (4.0‑11.0 ×10³/µL) in adults; ranges may vary slightly between laboratories."
+      ],
+      "high_values": [
+        "Leukocytosis: bacterial infection, acute inflammation, stress, leukemia.",
+        "Symptoms: fever, tachycardia, possible splenomegaly, bone pain."
+      ],
+      "low_values": [
+        "Leukopenia/Neutropenia: chemotherapy, bone marrow suppression, viral infections, vitamin B12 deficiency.",
+        "Symptoms: increased susceptibility to infections, fever without obvious focus, oral ulcers."
+      ],
+      "specimen": [
+        "Venous blood draw in an EDTA anticoagulant tube.",
+        "No fasting required; can be performed at any time of day.",
+        "Avoid prolonged tourniquet use and hemolysis to prevent altering the count."
+      ],
+      "nursing_care": [
+        "Monitor signs of infection (temperature, heart rate, skin changes).",
+        "Review medications that affect bone marrow (e.g., chemotherapy, filgrastim).",
+        "Apply isolation precautions if the count <1,000 cells/µL.",
+        "Educate the patient on hand hygiene and avoiding crowds during neutropenia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "neutropenia",
+          "chemotherapy",
+          "bone marrow suppression",
+          "prolonged corticosteroid use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection: absence of signs of infection during hospitalization",
+          "Immunity: white blood cell count within normal range within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess temperature, pulse, and skin appearance every 4 h.",
+            "rationale": "Detect early signs of infection in patients with low white blood cell count."
+          },
+          {
+            "action": "Maintain contact isolation and neutropenia precautions when WBC <1,000 cells/µL.",
+            "rationale": "Reduce exposure to opportunistic pathogens."
+          },
+          {
+            "action": "Review and administer colony-stimulating factors (e.g., filgrastim) as prescribed.",
+            "rationale": "Stimulate neutrophil production and reduce infection risk."
+          },
+          {
+            "action": "Teach the patient and family hand hygiene techniques and avoid raw or unpasteurized foods.",
+            "rationale": "Minimize ingestion of potentially pathogenic microorganisms."
+          },
+          {
+            "action": "Document and report any change in WBC count to the treating physician.",
+            "rationale": "Allow timely adjustments to the therapeutic plan."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "neutropenia",
+    "infection",
+    "chemotherapy",
+    "immune-system",
+    "leukemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Blood Count Tests",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/bloodcounttests.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Blood Transfusions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Care of the Patient with Cancer",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/31-3-care-of-the-patient-with-cancer",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-07",
+  "factcheck": {
+    "checked": "2026-10-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 16,
+      "contradicted": 0,
+      "total": 17
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The white blood cells , also known as leukocytes, help the body fight against disease.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

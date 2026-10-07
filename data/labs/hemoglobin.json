@@ -1,0 +1,339 @@
+{
+  "id": "hemoglobin",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Hemoglobina (Hb)",
+    "aliases": [
+      "hemoglobina",
+      "hgb",
+      "hb",
+      "nivel de hemoglobina",
+      "anemia"
+    ],
+    "summary": "La hemoglobina transporta oxígeno en los eritrocitos; su nivel indica la capacidad de oxigenación de la sangre.",
+    "key_points": [
+      "Rangos normales: hombres 14‑17.4 g/dL, mujeres 12‑16 g/dL (pueden variar por laboratorio).",
+      "Hb baja indica anemia y puede comprometer la perfusión tisular.",
+      "Hb alta sugiere policitemia, deshidratación o hipoxia crónica.",
+      "Muestra de sangre venosa en tubo con EDTA; evitar hemólisis.",
+      "Intervenciones de enfermería incluyen monitorización, educación dietética y coordinación de transfusión."
+    ],
+    "sections": {
+      "normal_values": [
+        "Hombres adultos: 14‑17.4 g/dL.",
+        "Mujeres adultas: 12‑16 g/dL.",
+        "Valores pueden variar ligeramente entre laboratorios costarricenses."
+      ],
+      "high_values": [
+        "Policitemia vera: aumento de producción de glóbulos rojos.",
+        "Deshidratación: concentración hemática elevada.",
+        "Hipoxia crónica (EPO aumentada): enfermedad pulmonar obstructiva crónica.",
+        "Signos: cefalea, prurito después de la ducha, hipertensión, trombosis."
+      ],
+      "low_values": [
+        "Anemia por deficiencia de hierro, vitamina B12 o folato.",
+        "Hemorragia aguda o crónica (menstruación abundante, úlcera).",
+        "Enfermedad renal crónica o inflamatoria.",
+        "Signos: palidez, fatiga, disnea de esfuerzo, taquicardia, hipotensión."
+      ],
+      "specimen": [
+        "Muestra venosa en tubo con anticoagulante EDTA.",
+        "Ayuno no requerido; preferible en la mañana para evitar variaciones diurnas.",
+        "Evitar hemólisis: usar aguja de calibre adecuado y mezclar suavemente.",
+        "Errores comunes: muestra insuficiente, exposición a calor o luz prolongada."
+      ],
+      "nursing_care": [
+        "Verificar y registrar resultados; notificar al médico si Hb <12 g/dL (mujer) o <14 g/dL (hombre).",
+        "Monitorear signos vitales y signos de hipoxia o sangrado.",
+        "Revisar medicamentos que aumentan riesgo de sangrado (AAS, anticoagulantes).",
+        "Administrar suplementos de hierro, B12 o ácido fólico según prescripción.",
+        "Educar al paciente sobre dieta rica en hierro (carnes rojas, legumbres) y evitar inhibidores de absorción."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Perfusión tisular periférica ineficaz",
+        "type": "actual",
+        "related_to": [
+          "hemorragia",
+          "deficiencia de hierro",
+          "deficiencia de vitamina B12",
+          "enfermedad renal crónica"
+        ],
+        "evidenced_by": [
+          "hemoglobina baja",
+          "palidez",
+          "fatiga",
+          "taquicardia",
+          "disnea de esfuerzo"
+        ],
+        "outcomes": [
+          "Hemoglobina ≥12 g/dL en 2 semanas",
+          "Nivel de energía ≥4/5 en 48 horas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar hemoglobina y hematocrito cada 48 horas",
+            "rationale": "Permite evaluar la respuesta al tratamiento y detectar deterioro temprano."
+          },
+          {
+            "action": "Administrar suplementos de hierro según prescripción",
+            "rationale": "Reemplaza la deficiencia y favorece la síntesis de hemoglobina."
+          },
+          {
+            "action": "Promover dieta rica en hierro y vitamina C",
+            "rationale": "Mejora la absorción intestinal de hierro."
+          },
+          {
+            "action": "Evaluar signos de sangrado activo (hemorragia gastrointestinal, menstrual)",
+            "rationale": "Identifica fuentes de pérdida que deben ser tratadas."
+          },
+          {
+            "action": "Educar al paciente sobre adherencia al tratamiento y signos de alarma",
+            "rationale": "Facilita el autocuidado y la detección precoz de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hemoglobin (Hb)",
+    "aliases": [
+      "hemoglobin",
+      "hgb",
+      "hb",
+      "hemoglobin level",
+      "anemia"
+    ],
+    "summary": "Hemoglobin transports oxygen in red blood cells; its level indicates the blood's oxygen-carrying capacity.",
+    "key_points": [
+      "Normal ranges: men 14‑17.4 g/dL, women 12‑16 g/dL (may vary by laboratory).",
+      "Low Hb indicates anemia and may compromise tissue perfusion.",
+      "High Hb suggests polycythemia, dehydration, or chronic hypoxia.",
+      "Venous blood sample in EDTA tube; avoid hemolysis.",
+      "Nursing interventions include monitoring, dietary education, and transfusion coordination."
+    ],
+    "sections": {
+      "normal_values": [
+        "Adult men: 14‑17.4 g/dL.",
+        "Adult women: 12‑16 g/dL.",
+        "Values may vary slightly between Costa Rican laboratories."
+      ],
+      "high_values": [
+        "Polycythemia vera: increased red blood cell production.",
+        "Dehydration: elevated hematocrit concentration.",
+        "Chronic hypoxia (↑EPO): chronic obstructive pulmonary disease.",
+        "Signs: headache, post‑shower pruritus, hypertension, thrombosis."
+      ],
+      "low_values": [
+        "Iron deficiency anemia, vitamin B12 or folate deficiency.",
+        "Acute or chronic bleeding (heavy menstruation, ulcer).",
+        "Chronic kidney disease or inflammation.",
+        "Signs: pallor, fatigue, exertional dyspnea, tachycardia, hypotension."
+      ],
+      "specimen": [
+        "Venous blood sample in EDTA anticoagulant tube.",
+        "Fasting not required; preferably in the morning to avoid diurnal variations.",
+        "Avoid hemolysis: use appropriate gauge needle and mix gently.",
+        "Common errors: insufficient sample, exposure to heat or prolonged light."
+      ],
+      "nursing_care": [
+        "Verify and record results; notify physician if Hb <12 g/dL (women) or <14 g/dL (men).",
+        "Monitor vital signs and signs of hypoxia or bleeding.",
+        "Review medications that increase bleeding risk (ASA, anticoagulants).",
+        "Administer iron, B12, or folic acid supplements as prescribed.",
+        "Educate patient on iron‑rich diet (red meats, legumes) and avoid absorption inhibitors."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective peripheral tissue perfusion",
+        "type": "actual",
+        "related_to": [
+          "bleeding",
+          "iron deficiency",
+          "vitamin B12 deficiency",
+          "chronic kidney disease"
+        ],
+        "evidenced_by": [
+          "low hemoglobin",
+          "pallor",
+          "fatigue",
+          "tachycardia",
+          "exertional dyspnea"
+        ],
+        "outcomes": [
+          "Hemoglobin ≥12 g/dL within 2 weeks",
+          "Energy level ≥4/5 within 48 hours"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor hemoglobin and hematocrit every 48 hours",
+            "rationale": "Allows assessment of treatment response and early detection of deterioration."
+          },
+          {
+            "action": "Administer iron supplements as prescribed",
+            "rationale": "Replaces deficiency and promotes hemoglobin synthesis."
+          },
+          {
+            "action": "Promote iron‑rich diet and vitamin C intake",
+            "rationale": "Improves intestinal iron absorption."
+          },
+          {
+            "action": "Assess for active bleeding (gastrointestinal, menstrual)",
+            "rationale": "Identifies sources of loss that require treatment."
+          },
+          {
+            "action": "Educate patient on medication adherence and warning signs",
+            "rationale": "Facilitates self‑care and early complication detection."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "anemia",
+    "polycythemia",
+    "iron-deficiency",
+    "chronic-kidney-disease",
+    "blood-transfusion"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: A1C",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/a1c.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hereditary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-2-hereditary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Nutritional Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/17-4-nutritional-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-07",
+  "factcheck": {
+    "checked": "2026-10-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 18,
+      "contradicted": 0,
+      "total": 26
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Hemoglobin measures the oxygen-carrying capacity of blood.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Hemoglobin (hgb) Females: 12–16 g/dL Males: 14–17.4 g/dL",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "If anemia causes tissue hypoxia, the nurse can support oxygenation.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Nurses play a pivotal role in providing necessary treatments such as blood transfusions or iron chelation therapy (discussed in detail in Medical Therapies and Related Care ), monitoring dosage accuracy, and tracking potential adverse reactions.",
+        "source": 1
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.normal_values.1": {
+        "status": "not_found"
+      },
+      "sections.normal_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "supported",
+        "quote": "Increased levels occur with dehydration, and decreased levels occur with fluid overload or hemorrhage.",
+        "source": 2
+      },
+      "sections.high_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.3": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "supported",
+        "quote": "Anemia can be caused acutely by hemorrhage, but it is often the result of chronic iron deficiency, vitamin B12 deficiency, or folate deficiency.",
+        "source": 2
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.low_values.3": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Regularly monitoring vital signs and reviewing CBC counts and specific markers relating to each disorder can help nurses identify the status of the condition.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Iron supplements, vitamin B12 injections, folate supplements, and increased iron or folate intake in the diet can help increase hemoglobin levels.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,314 @@
+{
+  "id": "creatinine",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Creatinina sérica",
+    "aliases": [
+      "creatinina",
+      "creatinina sérica",
+      "nivel de creatinina",
+      "prueba de creatinina",
+      "creatinine"
+    ],
+    "summary": "La creatinina sérica es un producto de desecho muscular que se elimina por los riñones y sirve para evaluar la función renal.",
+    "key_points": [
+      "Rango normal adulto: 0.5‑1.0 mg/dL mujeres, 0.7‑1.2 mg/dL hombres (varía por laboratorio).",
+      "Elevaciones indican posible insuficiencia renal aguda o crónica.",
+      "La relación BUN/creatinina ≈ 20:1 ayuda a diferenciar causas prerrenales vs. renales.",
+      "Factores que alteran la creatinina: masa muscular, dieta rica en carne roja, hidratación y medicamentos nefrotóxicos."
+    ],
+    "sections": {
+      "normal_values": [
+        "Mujeres: 0.5‑1.0 mg/dL",
+        "Hombres: 0.7‑1.2 mg/dL",
+        "Valores pueden variar según edad y método del laboratorio"
+      ],
+      "high_values": [
+        "Insuficiencia renal aguda o crónica",
+        "Deshidratación, insuficiencia cardíaca, hipertensión",
+        "Uso de fármacos nefrotóxicos (ej. aminoglucósidos, AINEs)",
+        "Síntomas: oliguria, edema, fatiga, náuseas, confusión"
+      ],
+      "low_values": [
+        "Masa muscular reducida (ancianos, desnutrición)",
+        "Embarazo (aumento del volumen plasmático)",
+        "Enfermedades hepáticas graves"
+      ],
+      "specimen": [
+        "Muestra de suero o plasma; tubo SST con gel separador",
+        "No requiere ayuno, pero se prefiere muestra matutina",
+        "Evitar hemólisis; mezclar suavemente el tubo",
+        "En caso de prueba de creatinina urinaria, recolectar 24 h completa"
+      ],
+      "nursing_care": [
+        "Monitorear creatinina y BUN cada 24‑48 h según orden médica",
+        "Evaluar gasto urinario, color y presencia de edema",
+        "Revisar medicamentos nefrotóxicos y ajustar dosis renal",
+        "Educar al paciente sobre hidratación adecuada y dieta balanceada",
+        "Reportar valores fuera de rango al médico inmediatamente"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "deshidratación",
+          "hipertensión",
+          "uso de fármacos nefrotóxicos",
+          "insuficiencia cardíaca",
+          "diabetes mellitus"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Función renal: creatinina sérica dentro del rango normal para su sexo y edad",
+          "Balance hídrico: ingesta y salida de líquidos equilibradas (±10 % de la necesidad estimada)",
+          "Eliminación de desechos: relación BUN/creatinina ≈ 20:1"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar la creatinina sérica y BUN según orden médica.",
+            "rationale": "Permite evaluar la función renal y detectar cambios tempranos."
+          },
+          {
+            "action": "Monitorear el gasto urinario cada 2 h y reportar disminuciones <0.5 mL/kg/h.",
+            "rationale": "La oliguria es un signo precoz de perfusión renal comprometida."
+          },
+          {
+            "action": "Revisar la lista de medicamentos y notificar al médico si hay fármacos nefrotóxicos.",
+            "rationale": "Reducir la exposición a agentes que pueden empeorar la función renal."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de una hidratación adecuada (≈30 mL/kg/día).",
+            "rationale": "Mantener el volumen intravascular ayuda a preservar la perfusión renal."
+          },
+          {
+            "action": "Controlar signos de sobrecarga de líquidos: edema, presión arterial alta, crepitantes.",
+            "rationale": "La sobrecarga puede empeorar la perfusión renal y la función cardíaca."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Serum creatinine",
+    "aliases": [
+      "creatinine",
+      "serum creatinine",
+      "creatinine level",
+      "creatinine test"
+    ],
+    "summary": "Serum creatinine is a muscular waste product eliminated by the kidneys and is used to assess renal function.",
+    "key_points": [
+      "Normal adult range: 0.5‑1.0 mg/dL women, 0.7‑1.2 mg/dL men (varies by laboratory).",
+      "Elevations suggest possible acute or chronic renal failure.",
+      "The BUN/creatinine ratio ≈ 20:1 helps differentiate prerenal vs. renal causes.",
+      "Factors that alter creatinine: muscle mass, high red‑meat diet, hydration, nephrotoxic medications."
+    ],
+    "sections": {
+      "normal_values": [
+        "Women: 0.5‑1.0 mg/dL",
+        "Men: 0.7‑1.2 mg/dL",
+        "Values may vary with age and laboratory method"
+      ],
+      "high_values": [
+        "Acute or chronic renal failure",
+        "Dehydration, heart failure, hypertension",
+        "Use of nephrotoxic drugs (e.g., aminoglycosides, NSAIDs)",
+        "Symptoms: oliguria, edema, fatigue, nausea, confusion"
+      ],
+      "low_values": [
+        "Reduced muscle mass (elderly, malnutrition)",
+        "Pregnancy (increased plasma volume)",
+        "Severe liver disease"
+      ],
+      "specimen": [
+        "Serum or plasma sample; SST tube with gel separator",
+        "No fasting required, but morning sample preferred",
+        "Avoid hemolysis; gently invert tube",
+        "For urinary creatinine test, collect a complete 24‑hour sample"
+      ],
+      "nursing_care": [
+        "Monitor serum creatinine and BUN every 24‑48 h per order",
+        "Assess urine output, color, and presence of edema",
+        "Review nephrotoxic medications and adjust renal dosing",
+        "Educate patient on adequate hydration and balanced diet",
+        "Report out‑of‑range values to the physician immediately"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "dehydration",
+          "hypertension",
+          "nephrotoxic drug use",
+          "heart failure",
+          "diabetes mellitus"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal function: serum creatinine within normal range for sex and age",
+          "Fluid balance: intake and output balanced (±10 % of estimated need)",
+          "Waste elimination: BUN/creatinine ratio ≈ 20:1"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum creatinine and BUN per order.",
+            "rationale": "Allows assessment of renal function and early detection of changes."
+          },
+          {
+            "action": "Monitor urine output every 2 h and report decreases <0.5 mL/kg/h.",
+            "rationale": "Oliguria is an early sign of compromised renal perfusion."
+          },
+          {
+            "action": "Review medication list and notify physician if nephrotoxic drugs are present.",
+            "rationale": "Reduce exposure to agents that may worsen renal function."
+          },
+          {
+            "action": "Educate patient on importance of adequate hydration (≈30 mL/kg/day).",
+            "rationale": "Maintaining intravascular volume helps preserve renal perfusion."
+          },
+          {
+            "action": "Monitor for signs of fluid overload: edema, high blood pressure, crackles.",
+            "rationale": "Overload can worsen renal perfusion and cardiac function."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "renal-failure",
+    "acute-kidney-injury",
+    "bun",
+    "glomerular-filtration-rate",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Kidney Tests",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/kidneytests.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Nursing Assessment for Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-2-nursing-assessment-for-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Diuretics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/34-1-introduction-to-diuretics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-07",
+  "factcheck": {
+    "checked": "2026-10-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 19,
+      "contradicted": 0,
+      "total": 24
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Creatinine Serum creatinine is the waste product of muscle tissue metabolism. It is completely cleared by the kidneys, which means that creatinine levels can be used to assess kidney function.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.normal_values.1": {
+        "status": "not_found"
+      },
+      "sections.normal_values.2": {
+        "status": "supported",
+        "quote": "In general, the normal BUN range is 10 to 20 mg/dL, but normal ranges vary depending on the reference range used by the laboratory and the patient’s age.",
+        "source": 1
+      },
+      "sections.high_values.0": {
+        "status": "supported",
+        "quote": "An eGFR value less than 60 mL/minute/1.73 m 2 for 3 consecutive months indicates chronic renal disease, and an eGFR value less than 15 mL/minute/1.73 m 2 indicates kidney failure or end-stage renal disease (ESRD) .",
+        "source": 2
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.high_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.3": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "supported",
+        "quote": "Serum creatinine and urine creatinine can be compared to estimate renal function; however, the relationship between the two values changes as the GFR falls, and this comparison requires collecting urine over 24 hours as directed.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Maintain adequate intake of fluids as prescribed by their health care provider.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
