@@ -1,0 +1,487 @@
+{
+  "id": "hyperkalemia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hiperkalemia",
+    "aliases": [
+      "hiperkalemia",
+      "potasio alto",
+      "nivel de potasio elevado",
+      "hiperkalemia sangre",
+      "hiperkalemia mgdl"
+    ],
+    "summary": "Elevación del potasio sérico >5.0 mEq/L que puede producir arritmias cardíacas graves.",
+    "key_points": [
+      "Normal: 3.5‑5.0 mEq/L; hiperkalemia ≥5.5 mEq/L es clínicamente significativa.",
+      "Causas principales: insuficiencia renal, fármacos que ahorran potasio y acidosis metabólica.",
+      "Síntomas: debilidad muscular, parestesias y alteraciones del ritmo cardíaco.",
+      "Diagnóstico: electrocardiograma y niveles séricos de potasio.",
+      "Tratamiento de urgencia: gluconato de calcio, insulina‑glucosa, bicarbonato de sodio y diálisis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución de la excreción renal de K⁺ por insuficiencia renal o bloqueo de aldosterona.",
+        "Redistribución extracelular de K⁺ por acidosis o lisis celular.",
+        "Aumento de la ingesta o suplementos de potasio.",
+        "Retención de K⁺ por fármacos ahorradores de potasio (p. ej., espironolactona)."
+      ],
+      "risk_factors": [
+        "Enfermedad renal crónica o diálisis.",
+        "Uso de inhibidores de la ECA, ARA II o espironolactona.",
+        "Acidosis metabólica, quemaduras extensas o trauma.",
+        "Suplementos de potasio o dietas muy ricas en K⁺."
+      ],
+      "signs_symptoms": [
+        "Debilidad muscular, fatiga y parestesias.",
+        "Palpitaciones, bradicardia o taquicardia.",
+        "Cambios en el ECG: ondas T picudas, ensanchamiento QRS.",
+        "Náuseas, vómitos o dolor abdominal."
+      ],
+      "diagnostics": [
+        "Electrolitos séricos: K⁺ >5.0 mEq/L (valor crítico ≥6.5 mEq/L).",
+        "ECG: ondas T altas, ensanchamiento del QRS, ausencia de P.",
+        "Función renal: creatinina y tasa de filtración glomerular.",
+        "Gasometría arterial para detectar acidosis metabólica."
+      ],
+      "treatment": [
+        "Gluconato de calcio IV para estabilizar membrana miocárdica.",
+        "Insulina regular + glucosa 5% para impulsar K⁺ intracelular.",
+        "Bicarbonato de sodio IV si hay acidosis metabólica.",
+        "Diuréticos de asa (furosemida) para aumentar excreción renal.",
+        "Resina de intercambio iónico (sodio poliestirensulfonato) o diálisis en casos graves."
+      ],
+      "complications": [
+        "Arritmias ventriculares y paro cardíaco.",
+        "Parálisis muscular o insuficiencia respiratoria.",
+        "Daño renal progresivo por hiperfiltración de potasio."
+      ],
+      "nursing_care": [
+        "Monitorear ECG continuamente y reportar cambios de QRS o T.",
+        "Controlar nivel de K⁺ cada 2‑4 h hasta normalización.",
+        "Evaluar signos de debilidad muscular y respiración.",
+        "Administrar medicamentos según orden y verificar vía y velocidad.",
+        "Mantener registro de ingesta y salida de líquidos."
+      ],
+      "patient_teaching": [
+        "Limitar alimentos ricos en potasio (plátano, papas, tomates).",
+        "Informar sobre los riesgos de suplementos de potasio sin prescripción.",
+        "Revisar lista de medicamentos que pueden elevar K⁺ y consultar al médico.",
+        "Importancia de asistir a controles de laboratorio periódicos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "insuficiencia renal",
+          "uso de inhibidores de la ECA",
+          "acidosis metabólica",
+          "suplementos de potasio"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Nivel de potasio sérico dentro de rango normal (3.5‑5.0 mEq/L) en 24 h.",
+          "Sin evidencia de arritmias en ECG durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear nivel de potasio sérico cada 2‑4 h y registrar resultados.",
+            "rationale": "Detectar rápidamente cambios y guiar el tratamiento."
+          },
+          {
+            "action": "Observar y registrar ritmo cardíaco y cambios en el ECG.",
+            "rationale": "La hiperkalemia afecta la conducción cardíaca."
+          },
+          {
+            "action": "Administrar gluconato de calcio IV según prescripción.",
+            "rationale": "Estabiliza la membrana miocárdica y previene arritmias."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y su restricción.",
+            "rationale": "Reducir la ingesta dietética ayuda a controlar los niveles séricos."
+          },
+          {
+            "action": "Revisar la lista de medicamentos del paciente y notificar al médico sobre fármacos ahorradores de potasio.",
+            "rationale": "Eliminar o ajustar agentes que aumentan K⁺ previene recurrencias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "hiperkalemia severa",
+          "arritmias ventriculares",
+          "insuficiencia renal avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial estable (≥90/60 mmHg) y frecuencia cardíaca <100 lpm en 48 h.",
+          "Ausencia de signos de hipoperfusión (piel pálida, confusión) durante la estancia."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales cada hora y reportar hipotensión o taquicardia.",
+            "rationale": "Detectar precozmente deterioro hemodinámico."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentado para facilitar la respiración y el retorno venoso.",
+            "rationale": "Optimiza la perfusión coronaria y reduce la carga cardíaca."
+          },
+          {
+            "action": "Administrar diurético de asa (furosemida) según indicación para promover excreción de K⁺ y volumen.",
+            "rationale": "Reduce la sobrecarga de potasio y mejora la función renal."
+          },
+          {
+            "action": "Preparar al paciente y al equipo para posible diálisis de urgencia.",
+            "rationale": "La diálisis elimina rápidamente el exceso de potasio y mejora la perfusión."
+          },
+          {
+            "action": "Enseñar al paciente la importancia de adherirse a controles cardiológicos y de laboratorio.",
+            "rationale": "Previene episodios futuros de hiperkalemia y sus efectos cardíacos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hyperkalemia",
+    "aliases": [
+      "hyperkalemia",
+      "high potassium",
+      "elevated potassium level",
+      "hyperkalemia blood",
+      "hyperkalemia mg/dl"
+    ],
+    "summary": "Elevation of serum potassium >5.0 mEq/L that can produce serious cardiac arrhythmias.",
+    "key_points": [
+      "Normal: 3.5‑5.0 mEq/L; hyperkalemia ≥5.5 mEq/L is clinically significant.",
+      "Main causes: renal failure, potassium-sparing drugs, and metabolic acidosis.",
+      "Symptoms: muscle weakness, paresthesias, and cardiac rhythm disturbances.",
+      "Diagnosis: electrocardiogram and serum potassium levels.",
+      "Emergency treatment: calcium gluconate, insulin‑glucose, sodium bicarbonate, and dialysis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced renal excretion of K⁺ due to renal failure or aldosterone blockade.",
+        "Extracellular redistribution of K⁺ from acidosis or cellular lysis.",
+        "Increased intake or potassium supplements.",
+        "Retention of K⁺ from potassium‑sparing drugs (e.g., spironolactone)."
+      ],
+      "risk_factors": [
+        "Chronic kidney disease or dialysis.",
+        "Use of ACE inhibitors, ARBs, or spironolactone.",
+        "Metabolic acidosis, extensive burns, or trauma.",
+        "Potassium supplements or very potassium‑rich diets."
+      ],
+      "signs_symptoms": [
+        "Muscle weakness, fatigue, and paresthesias.",
+        "Palpitations, bradycardia, or tachycardia.",
+        "ECG changes: peaked T waves, widened QRS.",
+        "Nausea, vomiting, or abdominal pain."
+      ],
+      "diagnostics": [
+        "Serum electrolytes: K⁺ >5.0 mEq/L (critical value ≥6.5 mEq/L).",
+        "ECG: tall T waves, QRS widening, absent P waves.",
+        "Renal function: creatinine and glomerular filtration rate.",
+        "Arterial blood gas to detect metabolic acidosis."
+      ],
+      "treatment": [
+        "IV calcium gluconate to stabilize myocardial membrane.",
+        "Regular insulin + 5% dextrose to shift K⁺ intracellularly.",
+        "IV sodium bicarbonate if metabolic acidosis present.",
+        "Loop diuretics (furosemide) to increase renal excretion.",
+        "Cation exchange resin (sodium polystyrene sulfonate) or dialysis in severe cases."
+      ],
+      "complications": [
+        "Ventricular arrhythmias and cardiac arrest.",
+        "Muscle paralysis or respiratory failure.",
+        "Progressive renal damage from potassium hyperfiltration."
+      ],
+      "nursing_care": [
+        "Continuously monitor ECG and report changes in QRS or T waves.",
+        "Check serum K⁺ every 2‑4 h until normalization.",
+        "Assess for signs of muscle weakness and respiratory status.",
+        "Administer medications per order and verify route and rate.",
+        "Maintain accurate fluid intake and output records."
+      ],
+      "patient_teaching": [
+        "Limit potassium‑rich foods (bananas, potatoes, tomatoes).",
+        "Inform about risks of unsupervised potassium supplements.",
+        "Review medication list that may raise K⁺ and consult the physician.",
+        "Emphasize the importance of regular laboratory monitoring."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "renal failure",
+          "use of ACE inhibitors",
+          "metabolic acidosis",
+          "potassium supplements"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum potassium within normal range (3.5‑5.0 mEq/L) within 24 h.",
+          "No evidence of arrhythmias on ECG during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum potassium every 2‑4 h and record results.",
+            "rationale": "Detect rapid changes and guide treatment."
+          },
+          {
+            "action": "Observe and record cardiac rhythm and ECG changes.",
+            "rationale": "Hyperkalemia affects cardiac conduction."
+          },
+          {
+            "action": "Administer IV calcium gluconate as prescribed.",
+            "rationale": "Stabilizes myocardial membrane and prevents arrhythmias."
+          },
+          {
+            "action": "Educate the patient about potassium‑rich foods and restriction.",
+            "rationale": "Reducing dietary intake helps control serum levels."
+          },
+          {
+            "action": "Review the patient’s medication list and notify the physician about potassium‑sparing agents.",
+            "rationale": "Eliminating or adjusting agents that raise K⁺ prevents recurrence."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "severe hyperkalemia",
+          "ventricular arrhythmias",
+          "advanced renal failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Stable blood pressure (≥90/60 mmHg) and heart rate <100 bpm within 48 h.",
+          "No signs of hypoperfusion (pale skin, confusion) during stay."
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs hourly and report hypotension or tachycardia.",
+            "rationale": "Early detection of hemodynamic deterioration."
+          },
+          {
+            "action": "Maintain the patient in a semi‑upright position to facilitate breathing and venous return.",
+            "rationale": "Optimizes coronary perfusion and reduces cardiac load."
+          },
+          {
+            "action": "Administer loop diuretic (furosemide) as indicated to promote K⁺ excretion and volume control.",
+            "rationale": "Reduces potassium overload and improves renal function."
+          },
+          {
+            "action": "Prepare the patient and team for possible urgent dialysis.",
+            "rationale": "Dialysis rapidly removes excess potassium and improves perfusion."
+          },
+          {
+            "action": "Teach the patient the importance of adhering to cardiac and laboratory follow‑ups.",
+            "rationale": "Prevents future hyperkalemia episodes and cardiac effects."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypokalemia",
+    "cardiac-arrhythmia",
+    "renal-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Potassium",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/potassium.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Drugs Affecting the Renin-Angiotensin-Aldosterone System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-2-drugs-affecting-the-renin-angiotensin-aldosterone-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Electrolyte Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-08",
+  "factcheck": {
+    "checked": "2026-10-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 24,
+      "contradicted": 2,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "contradicted",
+        "quote": "A serum potassium level of greater than 6.0 mEq/L warrants prompt intervention and appropriate treatment to prevent serious complications.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "contradicted",
+        "quote": "normalized serum potassium level (3.5–5.1 mEq/L)",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Common causes of hyperkalemia include administration of potassium-sparing diuretics or oral potassium supplements kidney failure metabolic acidosis",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Signs that would indicate an improvement in condition include constipation improved muscle weakness, cramps, and paresthesia normal bowel movement(s) normal ECG findings normal reflexes normalized serum potassium level (3.5–5.1 mEq/L)",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Decreased renal excretion of potassium (e.g., kidney failure) or abnormal movement of potassium out of cells and into intravascular space (e.g., acidosis, potassium-sparing diuretic",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Common causes of hyperkalemia include administration of potassium-sparing diuretics or oral potassium supplements kidney failure metabolic acidosis",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Adverse Effects Hyperkalemia Hypotension Worsening renal failure Electrolyte abnormalities Gynecomastia Co",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "If you have chronic kidney disease , your kidneys may not remove extra potassium from the blood.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "MRAs must be used carefully with other medications, such as ACE inhibitors and ARBs, that may cause hyperkalemia.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Common causes of hyperkalemia include administration of potassium-sparing diuretics or oral potassium supplements kidney failure metabolic acidosis"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Signs that would indicate an improvement in condition include constipation improved muscle weakness, cramps, and paresthesia normal bowel movement(s) normal ECG findings normal reflexes normalized serum potassium level (3.5–5.1 mEq/L)",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Having a blood potassium level above 6.0 mmol/L is considered a medical emergency and can result in cardiac arrest.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Patients with hypokalemia should be placed on continuous telemetry monitoring for the early detection of electrocardiogram (ECG) changes that may indicate the development of abnormal rhyth",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The main nursing interventions for patients with chloride imbalances include closely monitoring respiratory and neurological status for deviations from baseline that would indicate worsening of the imbalance monitoring and recording accurate intake and output monitoring and treating acid-base imbalances monitoring vital signs",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "The main nursing interventions when caring for patients with phosphorus imbalances include monitoring serum electrolyte levels regularly, recording accurate intake and output, and treating each disorder appropriately.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

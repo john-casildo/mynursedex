@@ -1,0 +1,526 @@
+{
+  "id": "renal-failure",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia renal (IR)",
+    "aliases": [
+      "insuficiencia renal",
+      "fallo renal",
+      "riñón",
+      "nefropatía",
+      "uremia",
+      "insuficiencia renal crónica",
+      "insuficiencia renal aguda"
+    ],
+    "summary": "Pérdida progresiva de la capacidad renal para filtrar sangre, eliminar desechos y regular líquidos y electrolitos. Requiere manejo de sustitución (diálisis o trasplante) y control de complicaciones.",
+    "key_points": [
+      "Disminución del filtrado glomerular (eGFR <60 mL/min/1.73 m²)",
+      "Retención de agua y electrolitos → edema e hipertensión",
+      "Acumulación de urea y creatinina → síntomas de uremia",
+      "Anemia por disminución de eritropoyetina",
+      "Alteraciones óseas por desequilibrio de calcio‑fosfato"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño a nefronas → pérdida de filtración, reabsorción y secreción",
+        "Disminuye la tasa de filtrado glomerular (TFG) y aumenta BUN y creatinina",
+        "Retención de Na⁺ y agua eleva la presión arterial",
+        "Acumulación de desechos nitrogenados produce uremia",
+        "Disminuye producción de eritropoyetina → anemia"
+      ],
+      "risk_factors": [
+        "Diabetes mellitus tipo 2",
+        "Hipertensión arterial crónica",
+        "Glomerulonefritis, enfermedad poliquística renal",
+        "Uso prolongado de AINEs o nefrotoxinas",
+        "Historia familiar de enfermedad renal"
+      ],
+      "signs_symptoms": [
+        "Edema periférico, especialmente tobillos",
+        "Hipertensión arterial sostenida",
+        "Fatiga, debilidad, pérdida de apetito",
+        "Náuseas, vómitos, prurito",
+        "Disminución del volumen urinario o anuria"
+      ],
+      "diagnostics": [
+        "eGFR <60 mL/min/1.73 m² (etapa crónica)",
+        "Creatinina sérica ↑ (≥1.3 mg/dL)",
+        "BUN ↑ (≥20 mg/dL)",
+        "Electrolitos: K⁺ ↑, Na⁺ variable, Ca²⁺ ↓",
+        "Análisis de orina: proteinuria, hematuria"
+      ],
+      "treatment": [
+        "Control estricto de presión arterial (IECA o ARA II)",
+        "Diuréticos de asa (furosemida) para manejo de edema",
+        "Suplementos de eritropoyetina y hierro",
+        "Restricción de Na⁺, K⁺, fósforo y líquidos según indicación",
+        "Diálisis (hemodiálisis o peritoneal) o trasplante renal"
+      ],
+      "complications": [
+        "Hipertensión resistente",
+        "Edema pulmonar",
+        "Anemia crónica",
+        "Hiperpotasemia y acidosis metabólica",
+        "Enfermedad ósea renal (osteodistrofia)"
+      ],
+      "nursing_care": [
+        "Evaluar peso diario y balance I/O cada 8 h",
+        "Monitorear presión arterial, frecuencia cardíaca y signos de sobrecarga de líquidos",
+        "Controlar laboratorio de BUN, creatinina, electrolitos y hemoglobina",
+        "Inspeccionar piel y mucosas por prurito o úlceras",
+        "Preparar al paciente para sesiones de diálisis y observar accesos"
+      ],
+      "patient_teaching": [
+        "Dieta baja en sodio (<2 g/día) y potasio según nivel sérico",
+        "Limitar ingesta de líquidos según prescripción (ej. 1.5 L/día)",
+        "Tomar medicamentos antihipertensivos y eritropoyetina según indicación",
+        "Reconocer signos de hiperkalemia (palpitaciones, debilidad)",
+        "Importancia de asistencia regular a diálisis o seguimiento trasplante"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "Insuficiencia renal",
+          "Retención de sodio y agua"
+        ],
+        "evidenced_by": [
+          "Peso corporal ↑ >2 kg en 48 h",
+          "Edema periférico +",
+          "Presión arterial sistólica >140 mmHg",
+          "Orina <400 mL/día"
+        ],
+        "outcomes": [
+          "Balance hídrico: peso estable ±0.5 kg en 48 h",
+          "Edema reducido a nivel leve en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar peso y balance I/O cada 8 h",
+            "rationale": "Detecta cambios tempranos en la retención de líquidos"
+          },
+          {
+            "action": "Evaluar edema (pitting) y registrar escala",
+            "rationale": "Monitorea la gravedad de la sobrecarga de líquidos"
+          },
+          {
+            "action": "Administrar furosemida según orden y observar respuesta",
+            "rationale": "Diurético de asa favorece la eliminación de exceso de Na⁺ y agua"
+          },
+          {
+            "action": "Elevar piernas del paciente cuando sea seguro",
+            "rationale": "Facilita el retorno venoso y disminuye edema periférico"
+          },
+          {
+            "action": "Educar al paciente sobre restricción de sodio y líquidos",
+            "rationale": "Reduce la ingesta que contribuye a la retención"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Insuficiencia renal",
+          "Diálisis",
+          "Uso de IECA/ARA II"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na⁺ y K⁺ séricos dentro de rangos normales (Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L) en 72 h",
+          "pH arterial 7.35‑7.45 en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos y gases arteriales cada 24 h",
+            "rationale": "Detecta alteraciones tempranas y permite intervención oportuna"
+          },
+          {
+            "action": "Evaluar signos neurológicos (confusión, debilidad muscular)",
+            "rationale": "Los desequilibrios electrolíticos pueden manifestarse neurológicamente"
+          },
+          {
+            "action": "Administrar suplementos de calcio o fosfato según prescripción",
+            "rationale": "Corrige desequilibrios específicos y previene complicaciones óseas"
+          },
+          {
+            "action": "Reforzar educación dietética baja en potasio y fósforo",
+            "rationale": "Controla la ingesta que afecta los niveles séricos"
+          },
+          {
+            "action": "Ajustar medicación antihipertensiva (IECA/ARA II) según labs",
+            "rationale": "Estos fármacos pueden elevar K⁺ y requerir ajuste"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Renal Failure (RF)",
+    "aliases": [
+      "renal failure",
+      "kidney failure",
+      "kidney",
+      "nephropathy",
+      "uremia",
+      "chronic renal failure",
+      "acute renal failure"
+    ],
+    "summary": "Progressive loss of kidney function to filter blood, eliminate waste, and regulate fluids and electrolytes. Requires replacement therapy (dialysis or transplant) and management of complications.",
+    "key_points": [
+      "Decreased glomerular filtration rate (eGFR <60 mL/min/1.73 m²)",
+      "Water and electrolyte retention → edema and hypertension",
+      "Accumulation of urea and creatinine → uremic symptoms",
+      "Anemia due to decreased erythropoietin",
+      "Bone abnormalities from calcium‑phosphate imbalance"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Damage to nephrons → loss of filtration, reabsorption, and secretion",
+        "Reduces glomerular filtration rate (GFR) and increases BUN and creatinine",
+        "Retention of Na⁺ and water raises blood pressure",
+        "Accumulation of nitrogenous waste produces uremia",
+        "Decreased erythropoietin production → anemia"
+      ],
+      "risk_factors": [
+        "Type 2 diabetes mellitus",
+        "Chronic hypertension",
+        "Glomerulonephritis, polycystic kidney disease",
+        "Prolonged use of NSAIDs or nephrotoxins",
+        "Family history of kidney disease"
+      ],
+      "signs_symptoms": [
+        "Peripheral edema, especially ankles",
+        "Sustained hypertension",
+        "Fatigue, weakness, loss of appetite",
+        "Nausea, vomiting, pruritus",
+        "Reduced urine output or anuria"
+      ],
+      "diagnostics": [
+        "eGFR <60 mL/min/1.73 m² (chronic stage)",
+        "Serum creatinine ↑ (≥1.3 mg/dL)",
+        "BUN ↑ (≥20 mg/dL)",
+        "Electrolytes: K⁺ ↑, Na⁺ variable, Ca²⁺ ↓",
+        "Urinalysis: proteinuria, hematuria"
+      ],
+      "treatment": [
+        "Strict blood pressure control (ACE inhibitor or ARB)",
+        "Loop diuretics (furosemide) for edema management",
+        "Erythropoietin and iron supplements",
+        "Restriction of Na⁺, K⁺, phosphorus, and fluids as indicated",
+        "Dialysis (hemodialysis or peritoneal) or kidney transplant"
+      ],
+      "complications": [
+        "Resistant hypertension",
+        "Pulmonary edema",
+        "Chronic anemia",
+        "Hyperkalemia and metabolic acidosis",
+        "Renal bone disease (osteodystrophy)"
+      ],
+      "nursing_care": [
+        "Assess daily weight and I/O balance every 8 h",
+        "Monitor blood pressure, heart rate, and fluid overload signs",
+        "Check labs: BUN, creatinine, electrolytes, hemoglobin",
+        "Inspect skin and mucous membranes for pruritus or ulcers",
+        "Prepare patient for dialysis sessions and monitor access"
+      ],
+      "patient_teaching": [
+        "Low‑sodium diet (<2 g/day) and potassium per serum level",
+        "Limit fluid intake as prescribed (e.g., 1.5 L/day)",
+        "Take antihypertensives and erythropoietin as directed",
+        "Recognize hyperkalemia signs (palpitations, weakness)",
+        "Importance of regular dialysis attendance or transplant follow‑up"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "Renal Failure",
+          "Sodium and water retention"
+        ],
+        "evidenced_by": [
+          "Body weight ↑ >2 kg in 48 h",
+          "Peripheral edema +",
+          "Systolic blood pressure >140 mmHg",
+          "Urine <400 mL/day"
+        ],
+        "outcomes": [
+          "Fluid balance: weight stable ±0.5 kg in 48 h",
+          "Edema reduced to mild level in 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record weight and I/O balance every 8 h",
+            "rationale": "Detects early changes in fluid retention"
+          },
+          {
+            "action": "Assess edema (pitting) and record scale",
+            "rationale": "Monitors severity of fluid overload"
+          },
+          {
+            "action": "Administer furosemide per order and observe response",
+            "rationale": "Loop diuretic promotes excess Na⁺ and water excretion"
+          },
+          {
+            "action": "Elevate patient’s legs when safe",
+            "rationale": "Facilitates venous return and reduces peripheral edema"
+          },
+          {
+            "action": "Educate patient on sodium and fluid restriction",
+            "rationale": "Reduces intake contributing to retention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Renal Failure",
+          "Dialysis",
+          "ACE inhibitor/ARB use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum Na⁺ and K⁺ within normal ranges (Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L) in 72 h",
+          "Arterial pH 7.35‑7.45 in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes and arterial gases every 24 h",
+            "rationale": "Detects early alterations and allows timely intervention"
+          },
+          {
+            "action": "Assess neurological signs (confusion, muscle weakness)",
+            "rationale": "Electrolyte imbalances may present neurologically"
+          },
+          {
+            "action": "Administer calcium or phosphate supplements as prescribed",
+            "rationale": "Corrects specific imbalances and prevents bone complications"
+          },
+          {
+            "action": "Reinforce low‑potassium and low‑phosphorus diet education",
+            "rationale": "Controls intake affecting serum levels"
+          },
+          {
+            "action": "Adjust antihypertensive medication (ACE inhibitor/ARB) per labs",
+            "rationale": "These drugs can raise K⁺ and may require adjustment"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "chronic-kidney-disease",
+    "dialysis",
+    "hyperkalemia",
+    "anemia",
+    "bone-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Kidney Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/kidneyfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Insuficiencia renal",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/kidneyfailure.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Heart Failure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-1-heart-failure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Renal System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-08",
+  "factcheck": {
+    "checked": "2026-10-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 41,
+      "contradicted": 0,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The disease course is complicated by hypertension, progressive loss of kidney function, and pain.",
+        "source": 3
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "If your kidneys fail, you need treatment to replace the work they normally do.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Common manifestations include proteinuria, decreased GFR, hypertension, and edema.",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "SGLT2Is were primarily used to treat type 2 diabetes but recently were found to be useful in heart failure.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "The treatment options are dialysis or a kidney transplant .",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "A sodium-restricted diet (less than 2000 mg of sodium per day) may help maintain euvolemia (normal blood volume) and prevent clients from becoming overloaded with fluid (which presents as pitting edema in the extremities, abdominal edema, and/or pulmonary edema).",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

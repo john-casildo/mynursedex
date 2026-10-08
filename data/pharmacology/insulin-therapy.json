@@ -1,0 +1,411 @@
+{
+  "id": "insulin-therapy",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Insulina",
+    "aliases": [
+      "insulina",
+      "lispro",
+      "insulina rápida",
+      "insulina humana",
+      "insulina análoga",
+      "admelog",
+      "insulin lispro",
+      "novolin",
+      "humulin",
+      "afrezza",
+      "myxredlin",
+      "humulin r"
+    ],
+    "summary": "Hormona que regula la glucosa sanguínea facilitando su captación por tejidos y disminuyendo la concentración plasmática.",
+    "key_points": [
+      "Se administra por vía subcutánea; la absorción depende del sitio y la técnica.",
+      "Hipoglucemia es la reacción adversa más frecuente y potencialmente mortal.",
+      "Rotar los sitios de inyección previene lipodistrofia y absorción errática.",
+      "Los beta‑bloqueantes pueden enmascarar los síntomas de hipoglucemia."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une a receptores de insulina en membrana celular.",
+        "Activa la vía de señalización PI3‑K/AKT que transloca GLUT‑4 a la superficie.",
+        "Facilita la captación de glucosa en músculo y tejido adiposo y su almacenamiento como glucógeno en hígado."
+      ],
+      "indications": [
+        "Diabetes mellitus tipo 1.",
+        "Diabetes mellitus tipo 2 cuando la terapia oral no alcanza el control glucémico.",
+        "Diabetes gestacional que requiere control intensivo.",
+        "Hiperglucemia perioperatoria o en situaciones de estrés."
+      ],
+      "contraindications": [
+        "Hipoglucemia conocida o sospechada.",
+        "Hipersenibilidad a la insulina lispro o a cualquiera de sus excipientes.",
+        "Uso de una pluma o jeringa reutilizada entre pacientes."
+      ],
+      "adverse_effects": [
+        "Hipoglucemia (síntomas: sudoración, temblor, confusión).",
+        "Lipodistrofia o nódulos en el sitio de inyección.",
+        "Aumento de peso.",
+        "Reacción alérgica local o sistémica (serious)."
+      ],
+      "interactions": [
+        "Beta‑bloqueadores pueden enmascarar signos de hipoglucemia.",
+        "Inhibidores de la ECA y diuréticos pueden potenciar la hipoglucemia.",
+        "Medicamentos hipoglucemiantes orales aumentan el riesgo de hipoglucemia.",
+        "Corticoides y hormonas tiroideas pueden elevar la glucemia, requiriendo ajuste de dosis."
+      ],
+      "nursing_care": [
+        "Verificar glucemia capilar antes de administrar; retener insulina si <70 mg/dL.",
+        "Confirmar orden, dosis, tipo de insulina y hora de administración.",
+        "Rotar sitios de inyección (abdomen, muslo, brazo) cada 2‑3 días.",
+        "Observar signos de hipoglucemia durante 30 min después de la dosis.",
+        "Retener y notificar al médico si la glucemia es <50 mg/dL o si hay episodios repetidos.",
+        "Documentar hora, sitio, dosis y respuesta glucémica."
+      ],
+      "patient_teaching": [
+        "Enseñar técnica correcta de inyección y rotación de sitios.",
+        "Explicar signos de hipoglucemia y cómo tratarlos (15 g de glucosa rápida).",
+        "Recomendar llevar siempre una fuente de glucosa (tabletas, jugo).",
+        "Almacenar insulina a 2‑8 °C y evitar exposición a calor extremo.",
+        "No compartir plumas o jeringas, aunque se cambie la aguja.",
+        "Registrar glucemia antes de cada comida y antes de dormir."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de nivel de glucemia inestable",
+        "type": "risk",
+        "related_to": [
+          "administración de insulina",
+          "ingesta de alimentos irregular",
+          "ejercicio intenso sin ajuste de dosis",
+          "estrés fisiológico o emocional",
+          "interacciones medicamentosas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Glucemia en rango objetivo (80‑130 mg/dL) en al menos 80 % de las lecturas en 2 semanas.",
+          "Sin episodios de hipoglucemia (<70 mg/dL) durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Medir glucemia capilar antes de cada dosis de insulina.",
+            "rationale": "Permite retener la dosis si la glucemia está por debajo del rango seguro."
+          },
+          {
+            "action": "Educar al paciente sobre la rotación de sitios de inyección y técnica adecuada.",
+            "rationale": "Previene absorción variable y lipodistrofia."
+          },
+          {
+            "action": "Revisar y registrar la ingesta de alimentos y actividad física del paciente.",
+            "rationale": "Facilita ajustes de dosis para mantener la glucemia estable."
+          },
+          {
+            "action": "Mantener disponible glucosa de acción rápida (tabletas, jugo) al alcance del paciente.",
+            "rationale": "Permite tratamiento inmediato de hipoglucemia."
+          },
+          {
+            "action": "Notificar al médico si se observan lecturas de glucemia <70 mg/dL o hipoglucemia sintomática.",
+            "rationale": "Asegura ajuste oportuno de la terapia y prevención de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Insulin (US Brand)",
+    "aliases": [
+      "insulin",
+      "lispro",
+      "rapid‑acting insulin",
+      "human insulin",
+      "insulin analog",
+      "admelog",
+      "insulin lispro",
+      "novolin",
+      "humulin",
+      "afrezza",
+      "myxredlin",
+      "humulin r"
+    ],
+    "summary": "Hormone that regulates blood glucose by facilitating its uptake by tissues and decreasing plasma concentration.",
+    "key_points": [
+      "Administered subcutaneously; absorption depends on site and technique.",
+      "Hypoglycemia is the most frequent and potentially fatal adverse reaction.",
+      "Rotating injection sites prevents lipodystrophy and erratic absorption.",
+      "Beta‑blockers can mask hypoglycemia symptoms."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds to insulin receptors on cell membranes.",
+        "Activates the PI3‑K/AKT signaling pathway, translocating GLUT‑4 to the surface.",
+        "Facilitates glucose uptake in muscle and adipose tissue and its storage as glycogen in the liver."
+      ],
+      "indications": [
+        "Type 1 diabetes mellitus.",
+        "Type 2 diabetes mellitus when oral therapy fails to achieve glycemic control.",
+        "Gestational diabetes requiring intensive control.",
+        "Perioperative or stress‑induced hyperglycemia."
+      ],
+      "contraindications": [
+        "Known or suspected hypoglycemia.",
+        "Hypersensitivity to insulin lispro or any of its excipients.",
+        "Use of a reused pen or syringe between patients."
+      ],
+      "adverse_effects": [
+        "Hypoglycemia (symptoms: sweating, tremor, confusion).",
+        "Lipodystrophy or nodules at the injection site.",
+        "Weight gain.",
+        "Local or systemic allergic reaction (serious)."
+      ],
+      "interactions": [
+        "Beta‑blockers can mask signs of hypoglycemia.",
+        "ACE inhibitors and diuretics can potentiate hypoglycemia.",
+        "Oral hypoglycemics increase the risk of hypoglycemia.",
+        "Corticosteroids and thyroid hormones can raise glucose, requiring dose adjustment."
+      ],
+      "nursing_care": [
+        "Check capillary glucose before administration; hold insulin if <70 mg/dL.",
+        "Confirm order, dose, insulin type, and administration time.",
+        "Rotate injection sites (abdomen, thigh, arm) every 2‑3 days.",
+        "Observe for hypoglycemia signs for 30 min after dose.",
+        "Hold and notify the physician if glucose <50 mg/dL or if repeated episodes occur.",
+        "Document time, site, dose, and glucose response."
+      ],
+      "patient_teaching": [
+        "Teach correct injection technique and site rotation.",
+        "Explain hypoglycemia signs and how to treat them (15 g of rapid glucose).",
+        "Recommend carrying a glucose source (pills, juice) at all times.",
+        "Store insulin at 2‑8 °C and avoid extreme heat exposure.",
+        "Do not share pens or syringes, even if the needle is changed.",
+        "Record glucose before each meal and before bedtime."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for unstable blood glucose level",
+        "type": "risk",
+        "related_to": [
+          "insulin administration",
+          "irregular food intake",
+          "intense exercise without dose adjustment",
+          "physiologic or emotional stress",
+          "drug interactions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Glucose within target range (80‑130 mg/dL) in at least 80 % of readings over 2 weeks.",
+          "No hypoglycemic episodes (<70 mg/dL) during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Measure capillary glucose before each insulin dose.",
+            "rationale": "Allows withholding the dose if glucose is below the safe range."
+          },
+          {
+            "action": "Educate the patient on injection site rotation and proper technique.",
+            "rationale": "Prevents variable absorption and lipodystrophy."
+          },
+          {
+            "action": "Review and record the patient’s food intake and physical activity.",
+            "rationale": "Facilitates dose adjustments to maintain stable glucose."
+          },
+          {
+            "action": "Keep rapid‑acting glucose (pills, juice) readily available to the patient.",
+            "rationale": "Allows immediate treatment of hypoglycemia."
+          },
+          {
+            "action": "Notify the physician if glucose readings <70 mg/dL or symptomatic hypoglycemia occur.",
+            "rationale": "Ensures timely therapy adjustment and complication prevention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoglycemia",
+    "diabetes-mellitus",
+    "insulin-resistance",
+    "lipodystrophy"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: INSULIN LISPRO label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0691def8-4a7b-4de3-866f-a280989f47f1",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Insulin and Non-Insulin Injectable Diabetes Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Diabetes Mellitus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-2-diabetes-mellitus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-08",
+  "factcheck": {
+    "checked": "2026-10-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 19,
+      "contradicted": 1,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Symptomatic awareness of hypoglycemia may be less pronounced in patients with longstanding diabetes, in patients with diabetic nerve disease, in patients using medications that block the sympathetic nervous system (e.g., beta-blockers) [see Drug Interactions (7) ] , or in patients who experience recurrent hypoglycemia.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "Insulins lower blood glucose by stimulating peripheral glucose uptake by skeletal muscle and fat, and by inhibiting hepatic glucose production.",
+        "source": 0
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Common adverse reactions (other than hypoglycemia) during a clinical trial in patients with type 1 diabetes mellitus are listed in Table 1.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "supported",
+        "quote": "Do not use in patients with hypersensitivity to insulin lispro or any of the excipients in ADMELOG.",
+        "source": 0
+      },
+      "sections.contraindications.2": {
+        "status": "supported",
+        "quote": "Never share an ADMELOG SoloStar disposable prefilled pen or syringe between patients, even if the needle is changed.",
+        "source": 0
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Signs and symptoms that may indicate low blood sugar include: dizziness or light-headedness headache shakiness irritability or mood changes sweating blurred vision fast heartbeat hunger confusion slurred speech anxiety serious allergic reactions (whole body reaction).",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "Rotate injection site within the same region from one injection to the next to reduce the risk of lipodystrophy and localized cutaneous amyloidosis.",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Weight gain can occur with insulins, including ADMELOG, and has been attributed to the anabolic effects of insulin and the decrease in glucosuria.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "ADMELOG may cause serious side effects that can lead to death, including: low blood sugar (hypoglycemia). Signs and symptoms that may indicate low blood sugar include: dizziness or light-headedness headache shakiness irritability or mood changes sweating blurred vision fast heartbeat hunger confusion slurred speech anxiety serious allergic reactions (whole body reaction).",
+        "source": 0
+      },
+      "sections.interactions.0": {
+        "status": "supported",
+        "quote": "Drugs That May Blunt Signs and Symptoms of Hypoglycemia Drugs: Beta-blockers, clonidine, guanethidine and reserpine.",
+        "source": 0
+      },
+      "sections.interactions.1": {
+        "status": "contradicted",
+        "quote": "Drugs that may decrease the blood glucose lowering effect: atypical antipsychotics, corticosteroids, danazol, diuretics, estrogens, glucago",
+        "source": 0
+      },
+      "sections.interactions.2": {
+        "status": "supported",
+        "quote": "Drugs that may increase the risk of hypoglycemia: antidiabetic agents, ACE inhibitors, angiotensin II receptor blocking agents, disopyramide, fibrates, fluoxetine, monoamine oxidase inhibitors, pentoxifylline, pramlintide, salicylates, somatostatin analog (e.g., octreotide), and sulfonamide antibiotics ( 7 ).",
+        "source": 0
+      },
+      "sections.interactions.3": {
+        "status": "supported",
+        "quote": "Drugs That May Decrease the Blood Glucose Lowering Effect of ADMELOG Drugs: Atypical antipsychotics (e.g., olanzapine and clozapine), corticosteroids, danazol, diuretics, estrogens, glucagon, isoniazid, niacin, oral contraceptives, phenothiazines, progestogens (e.g., in oral contraceptives), protease inhibitors, somatropin, sympathomimetic agents (e.g., albuterol, epinephrine, terbutaline), and thyroid hormones.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Instruct patients on self-management procedures including glucose monitoring, proper injection technique, and management of hypoglycemia and hyperglycemia, especially at initiation of ADMELOG therapy.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "ADMELOG SoloStar prefilled pen must never be shared between patients, even if the needle is changed.",
+        "source": 0
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

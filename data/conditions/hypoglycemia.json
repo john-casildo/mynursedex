@@ -1,0 +1,495 @@
+{
+  "id": "hypoglycemia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipoglucemia",
+    "aliases": [
+      "hipoglucemia",
+      "baja glucosa",
+      "glucemia baja",
+      "hipoglucemia diabética",
+      "hipoglucemia neonatal"
+    ],
+    "summary": "Disminución de la glucosa plasmática por debajo de los niveles normales, frecuentemente <70 mg/dL en diabéticos o <55 mg/dL en no diabéticos.",
+    "key_points": [
+      "Glucosa <70 mg/dL en diabéticos indica hipoglucemia.",
+      "Síntomas neuroglicopénicos aparecen antes que los autonómicos.",
+      "Tratamiento inmediato: glucosa oral o dextrosa IV.",
+      "Beta‑bloqueadores pueden enmascarar los signos de alerta.",
+      "Prevención: comidas regulares, ajuste de fármacos y evitar alcohol."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exceso de insulina o secreción de insulina endógena reduce la glucosa plasmática.",
+        "Ayuno prolongado o ingesta insuficiente de carbohidratos disminuye la disponibilidad de glucosa.",
+        "Alcohol inhibe la gluconeogénesis hepática, favoreciendo la caída glucémica.",
+        "Medicamentos como sulfonilureas estimulan la liberación de insulina."
+      ],
+      "risk_factors": [
+        "Uso de insulina o sulfonilureas.",
+        "Ayuno prolongado o retraso en la comida.",
+        "Consumo de alcohol sin alimentos.",
+        "Ejercicio intenso sin reposición de carbohidratos."
+      ],
+      "signs_symptoms": [
+        "Temblor, sudoración, palpitaciones (síntomas autonómicos).",
+        "Confusión, irritabilidad, visión borrosa, somnolencia (síntomas neuroglicopénicos).",
+        "Hambre intensa, náuseas.",
+        "Pérdida de conciencia o convulsiones en casos graves."
+      ],
+      "diagnostics": [
+        "Glucosa capilar <70 mg/dL (diabéticos) o <55 mg/dL (no diabéticos).",
+        "Confirmar con glucosa plasmática venosa.",
+        "Evaluar electrolitos y función hepática si se sospecha causa secundaria."
+      ],
+      "treatment": [
+        "Administrar 10‑20 g de glucosa oral (tabletas, jugo).",
+        "Si inconsciente, dextrosa al 50 % 25 mL IV bolus.",
+        "Glucagón 1 mg IM o SC si no hay acceso IV.",
+        "Reevaluar glucosa cada 15 min hasta >70 mg/dL.",
+        "Ajustar dosis de insulina o sulfonilureas según prescripción."
+      ],
+      "complications": [
+        "Convulsiones y daño cerebral por neuroglicopenia.",
+        "Pérdida de conciencia y caídas.",
+        "Arritmias por hipocalemia secundaria al tratamiento."
+      ],
+      "nursing_care": [
+        "Monitorear glucosa capilar cada 15‑30 min tras el episodio.",
+        "Evaluar nivel de conciencia y signos neurológicos.",
+        "Administrar glucosa según protocolo y registrar respuesta.",
+        "Mantener vía aérea permeable y posición lateral de seguridad si hay pérdida de conciencia.",
+        "Documentar causa probable y notificar al médico."
+      ],
+      "patient_teaching": [
+        "Reconocer síntomas tempranos de hipoglucemia.",
+        "Llevar siempre fuente rápida de glucosa (tabletas, jugo).",
+        "No omitir comidas y ajustar dosis de insulina antes de ejercicio.",
+        "Evitar alcohol en ayunas.",
+        "Consultar al médico ante cambios en el patrón glucémico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de nivel de glucemia inestable",
+        "type": "risk",
+        "related_to": [
+          "uso de insulina",
+          "medicación sulfonilurea",
+          "ayuno prolongado",
+          "consumo de alcohol"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Glucemia estable: mantener entre 70‑180 mg/dL en 24 h.",
+          "Sin episodios de hipoglucemia durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar glucosa capilar cada 4 h y antes de cada comida.",
+            "rationale": "Detectar rápidamente caídas glucémicas y prevenir complicaciones."
+          },
+          {
+            "action": "Educar al paciente sobre signos de hipoglucemia y uso de glucosa de acción rápida.",
+            "rationale": "Facilita la autogestión y reduce tiempo de respuesta."
+          },
+          {
+            "action": "Revisar y ajustar dosis de insulina o sulfonilureas con el médico.",
+            "rationale": "Previene exceso de insulina que causa hipoglucemia."
+          },
+          {
+            "action": "Asegurar disponibilidad de glucosa oral (tabletas, jugo) al alcance del paciente.",
+            "rationale": "Permite tratamiento inmediato al primer signo."
+          },
+          {
+            "action": "Limitar consumo de alcohol y recomendar alimentos con carbohidratos complejos.",
+            "rationale": "Reduce inhibición de la gluconeogénesis y estabiliza glucosa."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "hipoglucemia recurrente",
+          "déficit energético"
+        ],
+        "evidenced_by": [
+          "cansancio",
+          "debilidad",
+          "disminución de la actividad diaria"
+        ],
+        "outcomes": [
+          "Nivel de energía: reporta fatiga ≤3/10 en escala de 0‑10 en 48 h.",
+          "Participa en actividades de la vida diaria sin ayuda adicional."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear glucosa antes de actividades y proporcionar snack glucídico si <100 mg/dL.",
+            "rationale": "Previene caída de energía durante la actividad."
+          },
+          {
+            "action": "Planificar descansos programados y fomentar sueño reparador.",
+            "rationale": "Recupera reservas energéticas y mejora rendimiento."
+          },
+          {
+            "action": "Evaluar ingesta dietética y recomendar comidas balanceadas cada 3‑4 h.",
+            "rationale": "Mantiene suministro constante de glucosa."
+          },
+          {
+            "action": "Registrar nivel de fatiga en escala de valoración cada turno.",
+            "rationale": "Permite seguimiento de la respuesta a intervenciones."
+          },
+          {
+            "action": "Educar al paciente sobre la relación entre hipoglucemia y sensación de cansancio.",
+            "rationale": "Fomenta autocuidado y reconocimiento temprano."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hypoglycemia",
+    "aliases": [
+      "hypoglycemia",
+      "low glucose",
+      "low blood sugar",
+      "diabetic hypoglycemia",
+      "neonatal hypoglycemia"
+    ],
+    "summary": "Decrease in plasma glucose below normal levels, often <70 mg/dL in diabetics or <55 mg/dL in non‑diabetics.",
+    "key_points": [
+      "Glucose <70 mg/dL in diabetics indicates hypoglycemia.",
+      "Neuroglycopenic symptoms appear before autonomic symptoms.",
+      "Immediate treatment: oral glucose or IV dextrose.",
+      "Beta‑blockers can mask warning signs.",
+      "Prevention: regular meals, medication adjustment, avoid alcohol."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Excess insulin or endogenous insulin secretion lowers plasma glucose.",
+        "Prolonged fasting or insufficient carbohydrate intake reduces glucose availability.",
+        "Alcohol inhibits hepatic gluconeogenesis, favoring glucose drop.",
+        "Medications such as sulfonylureas stimulate insulin release."
+      ],
+      "risk_factors": [
+        "Use of insulin or sulfonylureas.",
+        "Prolonged fasting or delayed meals.",
+        "Alcohol consumption without food.",
+        "Intense exercise without carbohydrate replenishment."
+      ],
+      "signs_symptoms": [
+        "Tremor, sweating, palpitations (autonomic symptoms).",
+        "Confusion, irritability, blurred vision, drowsiness (neuroglycopenic symptoms).",
+        "Severe hunger, nausea.",
+        "Loss of consciousness or seizures in severe cases."
+      ],
+      "diagnostics": [
+        "Capillary glucose <70 mg/dL (diabetics) or <55 mg/dL (non‑diabetics).",
+        "Confirm with venous plasma glucose.",
+        "Assess electrolytes and liver function if secondary cause suspected."
+      ],
+      "treatment": [
+        "Administer 10‑20 g oral glucose (tablets, juice).",
+        "If unconscious, 50 % dextrose 25 mL IV bolus.",
+        "Glucagon 1 mg IM or SC if no IV access.",
+        "Reassess glucose every 15 min until >70 mg/dL.",
+        "Adjust insulin or sulfonylurea doses per prescription."
+      ],
+      "complications": [
+        "Seizures and brain damage from neuroglycopenia.",
+        "Loss of consciousness and falls.",
+        "Arrhythmias from hypokalemia secondary to treatment."
+      ],
+      "nursing_care": [
+        "Monitor capillary glucose every 15‑30 min after episode.",
+        "Assess level of consciousness and neurological signs.",
+        "Administer glucose per protocol and record response.",
+        "Maintain airway and place in recovery position if unconscious.",
+        "Document probable cause and notify physician."
+      ],
+      "patient_teaching": [
+        "Recognize early hypoglycemia symptoms.",
+        "Always carry a rapid source of glucose (tablets, juice).",
+        "Do not skip meals and adjust insulin before exercise.",
+        "Avoid alcohol on an empty stomach.",
+        "Consult physician if glucose pattern changes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for unstable blood glucose level",
+        "type": "risk",
+        "related_to": [
+          "use of insulin",
+          "sulfonylurea medication",
+          "prolonged fasting",
+          "alcohol consumption"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Stable glucose: maintain between 70‑180 mg/dL over 24 h.",
+          "No hypoglycemic episodes during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Check capillary glucose every 4 h and before each meal.",
+            "rationale": "Rapidly detect glucose drops and prevent complications."
+          },
+          {
+            "action": "Educate patient on hypoglycemia signs and use of rapid‑acting glucose.",
+            "rationale": "Facilitates self‑management and reduces response time."
+          },
+          {
+            "action": "Review and adjust insulin or sulfonylurea doses with physician.",
+            "rationale": "Prevents excess insulin causing hypoglycemia."
+          },
+          {
+            "action": "Ensure availability of oral glucose (tablets, juice) within reach.",
+            "rationale": "Allows immediate treatment at first sign."
+          },
+          {
+            "action": "Limit alcohol intake and recommend complex carbohydrate foods.",
+            "rationale": "Reduces gluconeogenesis inhibition and stabilizes glucose."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "recurrent hypoglycemia",
+          "energy deficit"
+        ],
+        "evidenced_by": [
+          "tiredness",
+          "weakness",
+          "reduced daily activity"
+        ],
+        "outcomes": [
+          "Energy level: reports fatigue ≤3/10 on 0‑10 scale within 48 h.",
+          "Participates in daily activities without additional help."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor glucose before activities and provide carbohydrate snack if <100 mg/dL.",
+            "rationale": "Prevents energy drop during activity."
+          },
+          {
+            "action": "Plan scheduled rest breaks and promote restorative sleep.",
+            "rationale": "Replenishes energy reserves and improves performance."
+          },
+          {
+            "action": "Assess dietary intake and recommend balanced meals every 3‑4 h.",
+            "rationale": "Maintains constant glucose supply."
+          },
+          {
+            "action": "Record fatigue level on assessment scale each shift.",
+            "rationale": "Tracks response to interventions."
+          },
+          {
+            "action": "Educate patient on link between hypoglycemia and fatigue.",
+            "rationale": "Encourages self‑care and early recognition."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "insulin-therapy",
+    "sulfonylureas",
+    "beta-blocker",
+    "neuroglycopenia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hypoglycemia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hypoglycemia.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hipoglucemia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hypoglycemia.html",
+      "lang": "es"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Care of Common Problems in the Newborn",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/24-2-care-of-common-problems-in-the-newborn",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Oral Antidiabetic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-3-oral-antidiabetic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-08",
+  "factcheck": {
+    "checked": "2026-10-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Beta blockers can mask the early symptoms of hypoglycemia, such as tachycardia and tremors.",
+        "source": 3
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Repaglinide is a meglitinide that works in clients with type 2 diabetes by closing potassium channels in the pancreatic beta cells, thereby increasing insulin secretion, which lowers glucose levels in the blood.",
+        "source": 3
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Sulfonylureas are a group of diabetes drugs that bind to potassium channels on β cells and stimulate them to produce more insulin.",
+        "source": 3
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Sulfonylureas are a group of diabetes drugs that bind to potassium channels on β cells and stimulate them to produce more insulin.",
+        "source": 3
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "If you drink too much alcohol without enough food.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Report symptoms of hypoglycemia such as headache, nervousness, sweating, clammy skin, tremor, and tachycardia.",
+        "source": 3
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Adverse effects of glipizide include headache, irritability, sweating, tachycardia, dizziness, nausea, blurred vision, feeling shaky, hypoglycemia, drowsiness, tremor, insomnia, myalgia, weight gain, and paresthesia.",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Adverse effects include blurred vision, drowsiness, excessive hunger, headache, nausea, nervousness, sore throat, and unusual tiredness.",
+        "source": 3
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Because the brain needs glucose to function, severe hypoglycemia, or not enough glucose for a prolonged period, can impair the function of the infant’s brain, causing seizures and brain injury .",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Because the brain needs glucose to function, severe hypoglycemia, or not enough glucose for a prolonged period, can impair the function of the infant’s brain, causing seizures and brain injury .",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Beta blockers can mask the early symptoms of hypoglycemia, such as tachycardia and tremors.",
+        "source": 3
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Also carry a source of fast-acting carbohydrate, such as glucose tablets or a juice box, with you in case your blood glucose gets too low.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

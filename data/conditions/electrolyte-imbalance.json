@@ -1,0 +1,531 @@
+{
+  "id": "electrolyte-imbalance",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Desequilibrio electrolítico",
+    "aliases": [
+      "desequilibrio electrolítico",
+      "alteración electrolitos",
+      "hiponatremia",
+      "hiperkalemia",
+      "hipocalcemia",
+      "hipomagnesemia"
+    ],
+    "summary": "Alteración de los niveles séricos de iones como Na+, K+, Ca2+, Mg2+ y bicarbonato que afecta la homeostasis y la función celular.",
+    "key_points": [
+      "Los electrolitos regulan el equilibrio hídrico, pH y la excitabilidad muscular y nerviosa.",
+      "Pequeñas desviaciones de los rangos normales pueden producir arritmias, debilidad y alteraciones neurológicas.",
+      "Causas comunes: pérdidas gastrointestinales, uso de diuréticos, insuficiencia renal y dietas inadecuadas.",
+      "El diagnóstico se basa en valores de laboratorio (mEq/L) y en la clínica del paciente.",
+      "El tratamiento incluye reposición o eliminación del ion alterado y corrección del pH."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los iones disueltos generan potencial eléctrico que permite la transmisión de impulsos.",
+        "Alteraciones en la ingesta, excreción o distribución cambian la concentración plasmática.",
+        "Desbalances provocan cambios en la presión osmótica y en la actividad de bombas celulares.",
+        "El desequilibrio de Na+ afecta el volumen extracelular; el de K+ altera el potencial de membrana."
+      ],
+      "risk_factors": [
+        "Vómitos o diarrea prolongados.",
+        "Uso de diuréticos de asa o tiazídicos.",
+        "Insuficiencia renal crónica o aguda.",
+        "Hipertensión con terapia diurética intensiva.",
+        "Dietas bajas en sodio o potasio."
+      ],
+      "signs_symptoms": [
+        "Debilidad muscular, calambres o parestesias.",
+        "Arritmias o palpitaciones.",
+        "Confusión, irritabilidad o convulsiones (hiponatremia severa).",
+        "Hipertensión o hipotensión según el ion afectado.",
+        "Alteraciones del ritmo respiratorio en desequilibrios de Ca2+."
+      ],
+      "diagnostics": [
+        "Electrolitos séricos: Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L, Ca2+ 8.5‑10.5 mg/dL, Mg2+ 1.7‑2.2 mg/dL, HCO3‑ 22‑28 mEq/L.",
+        "Osmolalidad plasmática y análisis de gases arteriales si se sospecha alteración del pH.",
+        "ECG para detectar cambios de onda T, QRS o arritmias por alteraciones de K+ o Ca2+.",
+        "Urea y creatinina para evaluar función renal."
+      ],
+      "treatment": [
+        "Reposición oral o IV de potasio (KCl) cuando K+ <3.5 mEq/L.",
+        "Suplementos de magnesio (MgSO4) para hipomagnesemia.",
+        "Solución salina isotónica (NaCl 0.9%) para hiponatremia moderada.",
+        "Bicarbonato de sodio IV en acidosis metabólica con HCO3‑ <22 mEq/L.",
+        "Diuréticos de asa (Furosemida) para hipercalemia o sobrecarga de volumen.",
+        "Control estricto de ingesta y pérdidas de líquidos."
+      ],
+      "complications": [
+        "Arritmias ventriculares o fibrilación auricular.",
+        "Edema cerebral por hiponatremia severa.",
+        "Parálisis muscular y tetania por hipocalcemia.",
+        "Insuficiencia renal aguda por desequilibrio severo.",
+        "Shock hipovolémico o hiperdinámico."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales, especialmente presión arterial y ritmo cardíaco.",
+        "Controlar ingesta y salida de líquidos; registrar diuresis cada hora.",
+        "Observar cambios en nivel de conciencia y estado neurológico.",
+        "Realizar ECG y revisar resultados de electrolitos cada 4‑6 h según gravedad.",
+        "Administrar suplementos o soluciones según prescripción y registrar velocidad de infusión.",
+        "Mantener acceso venoso seguro y observar signos de infiltración."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de cumplir con la dieta prescrita (ej. alimentos ricos en potasio o bajo en sodio).",
+        "Enseñar a reconocer síntomas de desequilibrio (palpitaciones, calambres, confusión).",
+        "Instruir sobre la correcta toma de medicamentos electrolíticos y evitar automedicación.",
+        "Promover la hidratación adecuada y registrar ingesta de líquidos.",
+        "Indicar cuándo buscar atención médica (náuseas intensas, mareos, pérdida de conciencia)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida gastrointestinal",
+          "uso de diuréticos",
+          "insuficiencia renal",
+          "dieta inadecuada",
+          "hiperhidratación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: valores de Na+, K+, Ca2+ dentro de rangos normales en 48 h",
+          "Seguridad cardiovascular: ausencia de arritmias en el periodo de hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar ingesta y salida de líquidos cada 2 h",
+            "rationale": "Permite detectar rápidamente déficit o exceso que altere los electrolitos"
+          },
+          {
+            "action": "Monitorear ECG y ritmo cardíaco cada 4 h",
+            "rationale": "Los cambios de K+ y Ca2+ se reflejan primero en el ritmo cardíaco"
+          },
+          {
+            "action": "Obtener y comparar resultados de electrolitos séricos cada 6 h",
+            "rationale": "Facilita la corrección oportuna de desviaciones"
+          },
+          {
+            "action": "Administrar suplementos de potasio o magnesio según prescripción y registrar velocidad de infusión",
+            "rationale": "Reemplaza el ion deficiente y previene complicaciones neuromusculares"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en el ion alterado",
+            "rationale": "Promueve autocuidado y prevención de recurrencias"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómitos",
+          "diarrea",
+          "fiebre",
+          "diuréticos",
+          "insuficiencia cardíaca"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación adecuada: diuresis >0.5 mL/kg/h en 24 h",
+          "Presión arterial estable dentro de rangos normales para la edad"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas, turgencia ocular) cada turno",
+            "rationale": "Detecta precozmente la pérdida de volumen"
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según orden y registrar balance hídrico",
+            "rationale": "Restablece el volumen intravascular y previene hipovolemia"
+          },
+          {
+            "action": "Controlar peso diario y comparar con peso basal",
+            "rationale": "Cambio de peso refleja variaciones de volumen corporal"
+          },
+          {
+            "action": "Instruir al paciente a registrar ingesta de líquidos y signos de sed",
+            "rationale": "Fomenta la autorregulación del consumo hídrico"
+          },
+          {
+            "action": "Revisar y ajustar la terapia diurética en coordinación con el médico",
+            "rationale": "Evita exceso de pérdida de líquidos y electrolitos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Electrolyte imbalance",
+    "aliases": [
+      "electrolyte imbalance",
+      "electrolyte alteration",
+      "hyponatremia",
+      "hyperkalemia",
+      "hypocalcemia",
+      "hypomagnesemia"
+    ],
+    "summary": "Alteration of serum ion levels such as Na+, K+, Ca2+, Mg2+ and bicarbonate that affects homeostasis and cellular function.",
+    "key_points": [
+      "Electrolytes regulate fluid balance, pH, and muscle and nerve excitability.",
+      "Small deviations from normal ranges can cause arrhythmias, weakness, and neurological changes.",
+      "Common causes: gastrointestinal losses, diuretic use, renal failure, and inadequate diets.",
+      "Diagnosis is based on laboratory values (mEq/L) and patient clinical presentation.",
+      "Treatment includes replacement or removal of the altered ion and pH correction."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Dissolved ions generate electrical potential that allows impulse transmission.",
+        "Changes in intake, excretion, or distribution alter plasma concentration.",
+        "Imbalances cause changes in osmotic pressure and cellular pump activity.",
+        "Na+ imbalance affects extracellular volume; K+ imbalance alters membrane potential."
+      ],
+      "risk_factors": [
+        "Prolonged vomiting or diarrhea.",
+        "Use of loop or thiazide diuretics.",
+        "Chronic or acute renal failure.",
+        "Hypertension with intensive diuretic therapy.",
+        "Low-sodium or low-potassium diets."
+      ],
+      "signs_symptoms": [
+        "Muscle weakness, cramps, or paresthesias.",
+        "Arrhythmias or palpitations.",
+        "Confusion, irritability, or seizures (severe hyponatremia).",
+        "Hypertension or hypotension depending on the affected ion.",
+        "Respiratory rhythm changes in Ca2+ imbalances."
+      ],
+      "diagnostics": [
+        "Serum electrolytes: Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L, Ca2+ 8.5‑10.5 mg/dL, Mg2+ 1.7‑2.2 mg/dL, HCO3‑ 22‑28 mEq/L.",
+        "Plasma osmolality and arterial blood gas analysis if pH alteration is suspected.",
+        "ECG to detect T wave, QRS, or arrhythmia changes due to K+ or Ca2+ alterations.",
+        "BUN and creatinine to assess renal function."
+      ],
+      "treatment": [
+        "Oral or IV potassium (KCl) when K+ <3.5 mEq/L.",
+        "Magnesium supplements (MgSO4) for hypomagnesemia.",
+        "Isotonic saline (NaCl 0.9%) for moderate hyponatremia.",
+        "IV sodium bicarbonate in metabolic acidosis with HCO3‑ <22 mEq/L.",
+        "Loop diuretics (furosemide) for hyperkalemia or volume overload.",
+        "Strict control of fluid intake and losses."
+      ],
+      "complications": [
+        "Ventricular arrhythmias or atrial fibrillation.",
+        "Cerebral edema from severe hyponatremia.",
+        "Muscle paralysis and tetany from hypocalcemia.",
+        "Acute renal failure from severe imbalance.",
+        "Hypovolemic or hyperdynamic shock."
+      ],
+      "nursing_care": [
+        "Monitor vital signs, especially blood pressure and heart rhythm.",
+        "Track fluid intake and output; record hourly urine output.",
+        "Observe changes in level of consciousness and neurological status.",
+        "Perform ECG and review electrolyte results every 4‑6 h based on severity.",
+        "Administer supplements or solutions per prescription and record infusion rate.",
+        "Maintain secure venous access and monitor for infiltration signs."
+      ],
+      "patient_teaching": [
+        "Explain the importance of adhering to the prescribed diet (e.g., foods high in potassium or low in sodium).",
+        "Teach recognition of imbalance symptoms (palpitations, cramps, confusion).",
+        "Instruct on proper use of electrolyte medications and avoid self-medication.",
+        "Promote adequate hydration and record fluid intake.",
+        "Indicate when to seek medical attention (severe nausea, dizziness, loss of consciousness)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "gastrointestinal loss",
+          "diuretic use",
+          "renal failure",
+          "inadequate diet",
+          "overhydration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+, K+, Ca2+ within normal ranges within 48 h",
+          "Cardiovascular safety: absence of arrhythmias during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Assess and record fluid intake and output every 2 h",
+            "rationale": "Allows rapid detection of deficits or excesses that alter electrolytes"
+          },
+          {
+            "action": "Monitor ECG and heart rhythm every 4 h",
+            "rationale": "Changes in K+ and Ca2+ first appear in heart rhythm"
+          },
+          {
+            "action": "Obtain and compare serum electrolyte results every 6 h",
+            "rationale": "Facilitates timely correction of deviations"
+          },
+          {
+            "action": "Administer potassium or magnesium supplements per prescription and record infusion rate",
+            "rationale": "Replaces deficient ion and prevents neuromuscular complications"
+          },
+          {
+            "action": "Educate patient about foods rich in the altered ion",
+            "rationale": "Promotes self-care and recurrence prevention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "vomiting",
+          "diarrhea",
+          "fever",
+          "diuretics",
+          "heart failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate hydration: urine output >0.5 mL/kg/h in 24 h",
+          "Stable blood pressure within normal ranges for age"
+        ],
+        "interventions": [
+          {
+            "action": "Assess dehydration signs (skin turgor, mucous membranes, ocular turgor) each shift",
+            "rationale": "Detects early volume loss"
+          },
+          {
+            "action": "Administer isotonic saline IV per order and record fluid balance",
+            "rationale": "Restores intravascular volume and prevents hypovolemia"
+          },
+          {
+            "action": "Monitor daily weight and compare to baseline",
+            "rationale": "Weight change reflects body volume variations"
+          },
+          {
+            "action": "Instruct patient to record fluid intake and thirst signs",
+            "rationale": "Encourages self-regulation of fluid consumption"
+          },
+          {
+            "action": "Review and adjust diuretic therapy in coordination with the physician",
+            "rationale": "Prevents excess fluid and electrolyte loss"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "fluid-overload",
+    "hypokalemia",
+    "hypernatremia",
+    "acid-base-imbalance",
+    "renal-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Fluid and Electrolyte Balance",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Electrolyte Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Considerations for Fluid and Electrolyte Imbalances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-3-considerations-for-fluid-and-electrolyte-imbalances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-08",
+  "factcheck": {
+    "checked": "2026-10-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 32,
+      "contradicted": 2,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Electrolytes are important because they help: Balance the amount of water in your body Balance your body's acid/base (pH) level Move nutrients into your cells Move wastes out of your cells Support your muscle and nerve function Keep your heart rate and rhythm steady Keep your blood pressure stable Keep your bones and teeth healthy",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Common causes of hypochloremia include diuretic use fluid overload (e.g., from congestive heart failure) GI loss of chloride, such as with prolonged vomiting or diarrhea low dietary sodium intake metabolic alkalosis",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Describe the diagnostics and laboratory values related to various electrolyte imbalances",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Increased excretion of potassium (e.g., due to prolonged vomiting or diarrhea, potassium-wasting diuretics) or abnormal movement of potassium into cells from the intravascular space (e.g., resulting from insulin administration)",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "For this reason, it is often necessary to provide potassium supplements when administering loop and thiazide diuretics, because potassium is excreted from the kidneys along with water.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "These may include dietitian: counsels patient about foods high and low in sodium and ensures patient has adequate education to make informed decisions about diet at home",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Signs that would indicate an improvement in condition include constipation improved muscle weakness, cramps, and paresthesia normal bowel movement(s) normal ECG findings normal reflexes normalized serum potassium level (3.5–5.1 mEq/L)",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "contradicted",
+        "quote": "normalized serum sodium level (135–146 mEq/L)",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "contradicted",
+        "quote": "Isotonic 0.9% Normal saline (0.9% NaCl) Fluid resuscitation for hemorrhaging, severe vomiting, diarrhea, GI suctioning losses, wound drainage, mild hyponatremia, or blood transfusions",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "The main nursing intervention for patients with hypernatremia is monitoring accurate intake and output of fluid to prevent excessive gains or losses.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Hypertonic 3% NaCl Used to treat severe hyponatremia and cerebral edema Monitor closely for hypervolemia, hypernatremia, and associated respiratory distress.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The main nursing interventions for patients with chloride imbalances include closely monitoring respiratory and neurological status for deviations from baseline that would indicate worsening of the imbalance monitoring and recording accurate intake and output monitoring and treating acid-base imbalances monitoring vital signs",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "Always secure a PIC with tape or a stabilization device to avoid accidental dislodgement.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "These may include dietitian: counsels patient about foods high and low in sodium and ensures patient has adequate education to make informed decisions about diet at home",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

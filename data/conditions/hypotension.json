@@ -1,0 +1,479 @@
+{
+  "id": "hypotension",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipotensión (hipotensión ortostática)",
+    "aliases": [
+      "hipotension",
+      "presion baja",
+      "presion arterial baja",
+      "hipotension ortostatica"
+    ],
+    "summary": "Disminución de la presión arterial sistólica <90 mmHg o diastólica <60 mmHg que puede causar síntomas de hipoperfusión. Puede ser crónica o desencadenarse por cambios posturales, deshidratación o medicamentos.",
+    "key_points": [
+      "BP <90/60 mmHg se considera hipotensión clínica.",
+      "La hipotensión ortostática se define por caída ≥20 mmHg sistólica o ≥10 mmHg diastólica al pasar de supino a pie.",
+      "Síntomas comunes: mareos, visión borrosa, síncope.",
+      "Complicaciones incluyen caídas, shock y daño orgánico por hipoperfusión.",
+      "Manejo inicial: reposo, hidratación y compresión de piernas."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución del retorno venoso reduce el gasto cardíaco.",
+        "Menor gasto cardíaco produce caída de la presión arterial sistólica y diastólica.",
+        "En la hipotensión ortostática, la gravedad provoca acumulación de sangre en las piernas.",
+        "Mecanismos compensatorios (reflejo barorreceptor) pueden ser insuficientes."
+      ],
+      "risk_factors": [
+        "Deshidratación por vómitos, diarrea o fiebre.",
+        "Uso de diuréticos, antihipertensivos, nitratos o bloqueadores alfa.",
+        "Enfermedades neurológicas que alteran el reflejo barorreceptor.",
+        "Envejecimiento y disminución de la respuesta autonómica."
+      ],
+      "signs_symptoms": [
+        "Mareos o sensación de desmayo al ponerse de pie.",
+        "Visión borrosa, tinnitus, náuseas.",
+        "Palidez, sudoración fría.",
+        "Síncope o caída."
+      ],
+      "diagnostics": [
+        "Medición de PA en supino y después de 1‑3 min de pie; caída ≥20/10 mmHg indica hipotensión ortostática.",
+        "Evaluar frecuencia cardíaca, saturación O2 y temperatura.",
+        "Laboratorio: electrolitos, glucosa, hemograma y función renal para descartar causas.",
+        "ECG si se sospecha causa cardiaca."
+      ],
+      "treatment": [
+        "Reposición de líquidos por vía oral o IV (solución salina isotónica).",
+        "Compresión de piernas (medias 30‑40 mmHg).",
+        "Ajuste o suspensión de fármacos que bajan la PA (diuréticos, antihipertensivos).",
+        "Fármacos específicos: fludrocortisona, midodrina, efedrina tópica.",
+        "Educación para cambios posturales lentos."
+      ],
+      "complications": [
+        "Síncope y caídas con riesgo de lesiones.",
+        "Hipoperfusión cerebral → confusión o daño cognitivo.",
+        "Shock hipovolémico si la causa es pérdida de líquidos.",
+        "Insuficiencia renal aguda por perfusión insuficiente."
+      ],
+      "nursing_care": [
+        "Evaluar PA supina y ortostática cada 4‑6 h; registrar valores.",
+        "Monitorear ingesta y salida de líquidos; mantener balance positivo.",
+        "Colocar al paciente en posición supina con piernas elevadas si presenta hipotensión.",
+        "Implementar medidas de seguridad: cama con barandilla, asistencia al levantarse.",
+        "Observar signos de perfusión tisular: color de piel, tiempo de llenado capilar."
+      ],
+      "patient_teaching": [
+        "Levantarse lentamente; sentarse 1‑2 min antes de ponerse de pie.",
+        "Aumentar ingesta de líquidos (≈2‑3 L/día) y sal si no está contraindicada.",
+        "Usar medias de compresión y evitar ropa ajustada.",
+        "Informar al médico sobre cualquier cambio de medicación.",
+        "Reportar episodios de mareo, síncope o caída inmediatamente."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "hipotensión ortostática",
+          "deshidratación",
+          "medicación antihipertensiva"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca: presión arterial sistólica ≥100 mmHg en 24 h",
+          "Signos de perfusión: ausencia de dolor torácico o palpitaciones"
+        ],
+        "interventions": [
+          {
+            "action": "Medir PA supina y ortostática cada 4 h y registrar cambios.",
+            "rationale": "Detectar caídas de presión que comprometan la perfusión coronaria."
+          },
+          {
+            "action": "Administrar fluidos IV según orden para mantener balance hídrico positivo.",
+            "rationale": "Incrementar el retorno venoso y el gasto cardíaco."
+          },
+          {
+            "action": "Colocar al paciente en posición supina con piernas elevadas cuando la PA sea <90/60 mmHg.",
+            "rationale": "Facilitar el retorno venoso y mejorar la presión arterial."
+          },
+          {
+            "action": "Revisar y notificar al médico la necesidad de ajustar o suspender fármacos que disminuyen la PA.",
+            "rationale": "Eliminar factores iatrogénicos que agravan la hipotensión."
+          },
+          {
+            "action": "Aplicar medias de compresión graduada 30‑40 mmHg.",
+            "rationale": "Reducir el pooling venoso y mejorar la presión arterial sistólica."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "hipotensión ortostática"
+        ],
+        "evidenced_by": [
+          "mareos al ponerse de pie",
+          "fatiga al realizar actividades",
+          "palidez"
+        ],
+        "outcomes": [
+          "Capacidad de actividad: realizar actividades de la vida diaria sin mareos en 48 h",
+          "Nivel de energía: reportar aumento de energía y menor fatiga en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Enseñar al paciente a cambiar de posición lentamente (sentarse 1‑2 min antes de ponerse de pie).",
+            "rationale": "Permite que los mecanismos compensatorios estabilicen la PA."
+          },
+          {
+            "action": "Planificar actividades en períodos de mayor presión arterial (después de comer o descansar).",
+            "rationale": "Minimiza la aparición de síntomas durante la actividad."
+          },
+          {
+            "action": "Fomentar ingesta de líquidos y alimentos con contenido de sal según indicación médica.",
+            "rationale": "Aumenta el volumen intravascular y la presión arterial."
+          },
+          {
+            "action": "Monitorear signos vitales antes y después de la actividad física ligera.",
+            "rationale": "Detectar cambios hemodinámicos que puedan limitar la tolerancia."
+          },
+          {
+            "action": "Proveer apoyo y dispositivos de seguridad (pasamanos, calzado antideslizante).",
+            "rationale": "Reducir riesgo de caídas durante episodios de hipotensión."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hypotension (orthostatic hypotension)",
+    "aliases": [
+      "hypotension",
+      "low blood pressure",
+      "low arterial pressure",
+      "orthostatic hypotension"
+    ],
+    "summary": "A decrease in systolic blood pressure <90 mmHg or diastolic <60 mmHg that can cause hypoperfusion symptoms. It may be chronic or triggered by positional changes, dehydration, or medications.",
+    "key_points": [
+      "BP <90/60 mmHg is considered clinical hypotension.",
+      "Orthostatic hypotension is defined by a drop ≥20 mmHg systolic or ≥10 mmHg diastolic when moving from supine to standing.",
+      "Common symptoms: dizziness, blurred vision, syncope.",
+      "Complications include falls, shock, and organ damage from hypoperfusion.",
+      "Initial management: rest, hydration, and leg compression."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced venous return decreases cardiac output.",
+        "Lower cardiac output causes a drop in systolic and diastolic blood pressure.",
+        "In orthostatic hypotension, gravity causes blood to pool in the legs.",
+        "Compensatory mechanisms (baroreceptor reflex) may be insufficient."
+      ],
+      "risk_factors": [
+        "Dehydration from vomiting, diarrhea, or fever.",
+        "Use of diuretics, antihypertensives, nitrates, or alpha blockers.",
+        "Neurological diseases that alter the baroreceptor reflex.",
+        "Aging and decreased autonomic response."
+      ],
+      "signs_symptoms": [
+        "Dizziness or feeling faint when standing.",
+        "Blurred vision, tinnitus, nausea.",
+        "Pallor, cold sweating.",
+        "Syncope or fall."
+      ],
+      "diagnostics": [
+        "Measure BP supine and after 1‑3 minutes standing; a drop ≥20/10 mmHg indicates orthostatic hypotension.",
+        "Assess heart rate, O2 saturation, and temperature.",
+        "Laboratory: electrolytes, glucose, CBC, and renal function to rule out causes.",
+        "ECG if a cardiac cause is suspected."
+      ],
+      "treatment": [
+        "Replace fluids orally or IV (normal saline).",
+        "Leg compression (30‑40 mmHg stockings).",
+        "Adjust or discontinue medications that lower BP (diuretics, antihypertensives).",
+        "Specific drugs: fludrocortisone, midodrine, topical ephedrine.",
+        "Educate on slow positional changes."
+      ],
+      "complications": [
+        "Syncope and falls with injury risk.",
+        "Cerebral hypoperfusion → confusion or cognitive damage.",
+        "Hypovolemic shock if the cause is fluid loss.",
+        "Acute renal failure from inadequate perfusion."
+      ],
+      "nursing_care": [
+        "Measure supine and orthostatic BP every 4‑6 h; record values.",
+        "Monitor fluid intake and output; maintain a positive balance.",
+        "Place the patient supine with legs elevated if they have hypotension.",
+        "Implement safety measures: bed with rail, assistance when standing.",
+        "Observe signs of tissue perfusion: skin color, capillary refill time."
+      ],
+      "patient_teaching": [
+        "Stand slowly; sit 1‑2 min before standing.",
+        "Increase fluid intake (~2‑3 L/day) and salt if not contraindicated.",
+        "Use compression stockings and avoid tight clothing.",
+        "Inform the physician of any medication changes.",
+        "Report episodes of dizziness, syncope, or falls immediately."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "orthostatic hypotension",
+          "dehydration",
+          "antihypertensive medication"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac tissue perfusion: systolic BP ≥100 mmHg within 24 h",
+          "Perfusion signs: absence of chest pain or palpitations"
+        ],
+        "interventions": [
+          {
+            "action": "Measure supine and orthostatic BP every 4 h and record changes.",
+            "rationale": "Detect pressure drops that compromise coronary perfusion."
+          },
+          {
+            "action": "Administer IV fluids as ordered to maintain a positive fluid balance.",
+            "rationale": "Increase venous return and cardiac output."
+          },
+          {
+            "action": "Place the patient supine with legs elevated when BP <90/60 mmHg.",
+            "rationale": "Facilitate venous return and improve systolic BP."
+          },
+          {
+            "action": "Review and notify the physician of the need to adjust or discontinue medications that lower BP.",
+            "rationale": "Eliminate iatrogenic factors that worsen hypotension."
+          },
+          {
+            "action": "Apply graduated compression stockings 30‑40 mmHg.",
+            "rationale": "Reduce venous pooling and improve systolic BP."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "orthostatic hypotension"
+        ],
+        "evidenced_by": [
+          "dizziness when standing",
+          "fatigue during activities",
+          "pallor"
+        ],
+        "outcomes": [
+          "Activity capacity: perform activities of daily living without dizziness within 48 h",
+          "Energy level: report increased energy and less fatigue within 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Teach the patient to change position slowly (sit 1‑2 min before standing).",
+            "rationale": "Allows compensatory mechanisms to stabilize BP."
+          },
+          {
+            "action": "Plan activities during periods of higher BP (after eating or resting).",
+            "rationale": "Minimizes symptom onset during activity."
+          },
+          {
+            "action": "Encourage fluid and salt intake as directed by the physician.",
+            "rationale": "Increases intravascular volume and BP."
+          },
+          {
+            "action": "Monitor vital signs before and after light physical activity.",
+            "rationale": "Detect hemodynamic changes that may limit tolerance."
+          },
+          {
+            "action": "Provide support and safety devices (handrails, non‑slip footwear).",
+            "rationale": "Reduce fall risk during hypotensive episodes."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "orthostatic-hypotension",
+    "dehydration",
+    "shock",
+    "cardiac-output",
+    "fluid-balance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Low Blood Pressure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/lowbloodpressure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anti-Parkinsonian Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-2-anti-parkinsonian-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-08",
+  "factcheck": {
+    "checked": "2026-10-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Some people may have symptoms of low blood pressure when standing up too quickly.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Encourage slow position changes to minimize postural hypotension.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Monitor intake and output for reduction of urine output and positive net balance.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
