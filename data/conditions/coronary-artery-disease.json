@@ -1,0 +1,565 @@
+{
+  "id": "coronary-artery-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad de las arterias coronarias (EAC)",
+    "aliases": [
+      "eac",
+      "enfermedad coronaria",
+      "arterias coronarias",
+      "angina",
+      "infarto"
+    ],
+    "summary": "La EAC es la acumulación de placa aterosclerótica en las arterias coronarias que reduce el flujo sanguíneo al miocardio, provocando isquemia y dolor torácico.",
+    "key_points": [
+      "Aterosclerosis progresa silenciosamente y se manifiesta como angina o infarto.",
+      "Factores de riesgo modificables incluyen tabaquismo, hipertensión, diabetes y dislipidemia.",
+      "El diagnóstico se confirma con ECG, pruebas de esfuerzo y angiografía coronaria.",
+      "El tratamiento combina cambios de estilo de vida, fármacos antianginosos y revascularización.",
+      "Complicaciones graves son infarto agudo de miocardio, insuficiencia cardíaca y arritmias."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Acumulación de lípidos y calcio forma placa aterosclerótica en la íntima coronaria.",
+        "La placa reduce el diámetro del vaso y disminuye el flujo coronario.",
+        "Isquemia miocárdica produce dolor torácico (angina) y disfunción ventricular.",
+        "Ruptura de placa genera trombo que puede ocluir totalmente la arteria.",
+        "Obstrucción prolongada lleva a necrosis miocárdica (infarto)."
+      ],
+      "risk_factors": [
+        "Edad avanzada y sexo masculino.",
+        "Hipertensión arterial y diabetes mellitus.",
+        "Tabaquismo y dislipidemia (LDL alto, HDL bajo).",
+        "Antecedentes familiares de enfermedad coronaria.",
+        "Obesidad, sedentarismo y dieta rica en grasas saturadas."
+      ],
+      "signs_symptoms": [
+        "Dolor torácico opresivo, a menudo irradiado al brazo izquierdo o mandíbula.",
+        "Disnea de esfuerzo y fatiga temprana.",
+        "Sudoración profusa, náuseas o vómitos.",
+        "Palpitaciones o sensación de latido irregular.",
+        "Síntomas desencadenados por ejercicio, estrés o comidas copiosas."
+      ],
+      "diagnostics": [
+        "ECG: cambios de ST, ondas T invertidas o presencia de Q.",
+        "Prueba de esfuerzo: aparición de dolor o alteraciones del ECG al ejercicio.",
+        "Angiografía coronaria: estenosis ≥50 % en arteria principal.",
+        "TAC coronario o resonancia magnética para evaluación no invasiva.",
+        "Troponina I/T elevada indica daño miocárdico."
+      ],
+      "treatment": [
+        "Modificación de estilo de vida: dieta baja en grasas, ejercicio regular, cesación de tabaco.",
+        "Aspirina (ácido acetilsalicílico) y clopidogrel como antiagregantes plaquetarios.",
+        "Estatinas (atorvastatina, rosuvastatina) para reducir colesterol LDL.",
+        "Betabloqueadores (metoprolol) y nitratos para disminuir demanda de oxígeno.",
+        "Inhibidores de la ECA o ARA II para controlar presión arterial.",
+        "Revascularización: angioplastia con stent o cirugía de bypass coronario."
+      ],
+      "complications": [
+        "Infarto agudo de miocardio (IAM).",
+        "Insuficiencia cardíaca congestiva.",
+        "Arritmias ventriculares o fibrilación auricular.",
+        "Shock cardiogénico.",
+        "Muerte súbita."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales, presión arterial y saturación de O₂ cada 4 h.",
+        "Evaluar dolor torácico con escala de 0‑10 y registrar localización y factores desencadenantes.",
+        "Mantener al paciente en posición semisentado para reducir la demanda cardíaca.",
+        "Administrar medicación según prescripción y observar efectos adversos.",
+        "Realizar ECG de control y notificar cambios al médico.",
+        "Fomentar reposo relativo y actividad gradual según tolerancia."
+      ],
+      "patient_teaching": [
+        "Adoptar dieta baja en grasas saturadas y colesterol (<30 % de calorías totales).",
+        "Realizar ejercicio aeróbico moderado ≥150 min/semana, según tolerancia.",
+        "Dejar de fumar y evitar exposición al humo ambiental.",
+        "Tomar todos los medicamentos prescritos, especialmente aspirina y estatinas.",
+        "Reconocer signos de angina y buscar atención inmediata ante dolor persistente.",
+        "Controlar presión arterial, glucosa y perfil lipídico en controles regulares."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "estenosis coronaria",
+          "dolor torácico al esfuerzo",
+          "disnea de esfuerzo"
+        ],
+        "evidenced_by": [
+          "dolor torácico al caminar",
+          "fatiga al subir escaleras"
+        ],
+        "outcomes": [
+          "Capacidad para caminar 200 m sin dolor torácico en 2 semanas",
+          "Nivel de fatiga ≤3 en escala de 0‑10 al final de la semana 2"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor torácico antes, durante y después de la actividad usando escala numérica.",
+            "rationale": "Permite identificar el umbral de intolerancia y ajustar el plan de ejercicio."
+          },
+          {
+            "action": "Planificar actividades de bajo impacto (caminar 5‑10 min) y aumentar gradualmente la duración.",
+            "rationale": "Promueve la mejora de la tolerancia sin precipitar isquemia."
+          },
+          {
+            "action": "Monitorear signos vitales y saturación de O₂ durante la actividad.",
+            "rationale": "Detecta cambios hemodinámicos que indiquen deterioro."
+          },
+          {
+            "action": "Administrar nitratos según indicación antes de la actividad programada.",
+            "rationale": "Reduce la demanda de oxígeno y previene angina inducida."
+          },
+          {
+            "action": "Educar al paciente sobre el uso del plan de acción para angina (reposo, nitroglicerina, buscar ayuda).",
+            "rationale": "Facilita la respuesta rápida ante episodios de dolor."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "estenosis coronaria",
+          "hipertensión arterial",
+          "hipercolesterolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial mantenida entre 110‑130/70‑80 mmHg durante la hospitalización",
+          "Sin eventos neurológicos (pérdida de conciencia, déficit focal) en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Controlar presión arterial cada 4 h y registrar valores.",
+            "rationale": "Mantener perfusión cerebral adecuada al evitar hipotensión o hipertensión extrema."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y respuesta neurológica cada turno.",
+            "rationale": "Detecta precozmente signos de hipoperfusión cerebral."
+          },
+          {
+            "action": "Administrar antihipertensivos según prescripción y observar efectos.",
+            "rationale": "Optimiza la presión arterial para asegurar flujo cerebral constante."
+          },
+          {
+            "action": "Mantener hidratación adecuada, monitorizando ingesta y salida de líquidos.",
+            "rationale": "Previene hipovolemia que podría reducir el gasto cardíaco y la perfusión cerebral."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de no interrumpir la medicación antihipertensiva.",
+            "rationale": "Garantiza el control continuo de la presión arterial y reduce el riesgo de eventos cerebrovasculares."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Coronary artery disease (CAD)",
+    "aliases": [
+      "cad",
+      "coronary disease",
+      "coronary arteries",
+      "angina",
+      "heart attack"
+    ],
+    "summary": "CAD is the accumulation of atherosclerotic plaque in the coronary arteries that reduces blood flow to the myocardium, causing ischemia and chest pain.",
+    "key_points": [
+      "Atherosclerosis progresses silently and manifests as angina or heart attack.",
+      "Modifiable risk factors include smoking, hypertension, diabetes, and dyslipidemia.",
+      "Diagnosis is confirmed with ECG, stress testing, and coronary angiography.",
+      "Treatment combines lifestyle changes, antianginal medications, and revascularization.",
+      "Severe complications are acute myocardial infarction, heart failure, and arrhythmias."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Accumulation of lipids and calcium forms atherosclerotic plaque in the coronary intima.",
+        "The plaque narrows the vessel lumen and decreases coronary flow.",
+        "Myocardial ischemia produces chest pain (angina) and ventricular dysfunction.",
+        "Plaque rupture generates a thrombus that can occlude the artery.",
+        "Prolonged obstruction leads to myocardial necrosis (infarction)."
+      ],
+      "risk_factors": [
+        "Advanced age and male sex.",
+        "Hypertension and diabetes mellitus.",
+        "Smoking and dyslipidemia (high LDL, low HDL).",
+        "Family history of coronary disease.",
+        "Obesity, sedentary lifestyle, and diet high in saturated fats."
+      ],
+      "signs_symptoms": [
+        "Pressure-like chest pain, often radiating to the left arm or jaw.",
+        "Exertional dyspnea and early fatigue.",
+        "Profuse sweating, nausea or vomiting.",
+        "Palpitations or irregular heartbeat sensation.",
+        "Symptoms triggered by exercise, stress, or large meals."
+      ],
+      "diagnostics": [
+        "ECG: ST changes, inverted T waves, or presence of Q waves.",
+        "Stress test: appearance of pain or ECG changes during exercise.",
+        "Coronary angiography: stenosis ≥50% in a major artery.",
+        "Coronary CT or MRI for noninvasive assessment.",
+        "Elevated troponin I/T indicates myocardial injury."
+      ],
+      "treatment": [
+        "Lifestyle modification: low-fat diet, regular exercise, smoking cessation.",
+        "Aspirin (acetylsalicylic acid) and clopidogrel as antiplatelet agents.",
+        "Statins (atorvastatin, rosuvastatin) to lower LDL cholesterol.",
+        "Beta‑blockers (metoprolol) and nitrates to reduce oxygen demand.",
+        "ACE inhibitors or ARBs to control blood pressure.",
+        "Revascularization: angioplasty with stent or coronary artery bypass grafting."
+      ],
+      "complications": [
+        "Acute myocardial infarction (AMI).",
+        "Congestive heart failure.",
+        "Ventricular arrhythmias or atrial fibrillation.",
+        "Cardiogenic shock.",
+        "Sudden death."
+      ],
+      "nursing_care": [
+        "Monitor vital signs, blood pressure, and O₂ saturation every 4 h.",
+        "Assess chest pain with a 0‑10 scale and record location and triggers.",
+        "Keep the patient in a semi‑upright position to reduce cardiac demand.",
+        "Administer medications as prescribed and observe for adverse effects.",
+        "Perform follow‑up ECG and notify the physician of changes.",
+        "Encourage relative rest and gradual activity as tolerated."
+      ],
+      "patient_teaching": [
+        "Adopt a diet low in saturated fats and cholesterol (<30% of total calories).",
+        "Engage in moderate aerobic exercise ≥150 min/week, as tolerated.",
+        "Quit smoking and avoid exposure to environmental smoke.",
+        "Take all prescribed medications, especially aspirin and statins.",
+        "Recognize angina signs and seek immediate care for persistent pain.",
+        "Monitor blood pressure, glucose, and lipid profile at regular check‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "coronary stenosis",
+          "chest pain with exertion",
+          "exertional dyspnea"
+        ],
+        "evidenced_by": [
+          "chest pain while walking",
+          "fatigue when climbing stairs"
+        ],
+        "outcomes": [
+          "Ability to walk 200 m without chest pain in 2 weeks",
+          "Fatigue level ≤3 on a 0‑10 scale at the end of week 2"
+        ],
+        "interventions": [
+          {
+            "action": "Assess chest pain before, during, and after activity using a numeric scale.",
+            "rationale": "Identifies the threshold of intolerance and allows adjustment of the exercise plan."
+          },
+          {
+            "action": "Plan low‑impact activities (walk 5‑10 min) and gradually increase duration.",
+            "rationale": "Promotes tolerance improvement without precipitating ischemia."
+          },
+          {
+            "action": "Monitor vital signs and O₂ saturation during activity.",
+            "rationale": "Detects hemodynamic changes indicating deterioration."
+          },
+          {
+            "action": "Administer nitrates as ordered before scheduled activity.",
+            "rationale": "Reduces oxygen demand and prevents exertional angina."
+          },
+          {
+            "action": "Educate the patient on using the angina action plan (rest, nitroglycerin, seek help).",
+            "rationale": "Facilitates rapid response to pain episodes."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "coronary stenosis",
+          "hypertension",
+          "hypercholesterolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood pressure maintained between 110‑130/70‑80 mmHg during hospitalization",
+          "No neurological events (loss of consciousness, focal deficit) in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Check blood pressure every 4 h and record values.",
+            "rationale": "Maintains adequate cerebral perfusion by avoiding extreme hypotension or hypertension."
+          },
+          {
+            "action": "Assess level of consciousness and neurological response each shift.",
+            "rationale": "Detects early signs of cerebral hypoperfusion."
+          },
+          {
+            "action": "Administer antihypertensives as prescribed and monitor effects.",
+            "rationale": "Optimizes blood pressure to ensure constant cerebral flow."
+          },
+          {
+            "action": "Maintain adequate hydration, monitoring intake and output.",
+            "rationale": "Prevents hypovolemia that could reduce cardiac output and cerebral perfusion."
+          },
+          {
+            "action": "Educate the patient on the importance of not interrupting antihypertensive medication.",
+            "rationale": "Ensures continuous blood pressure control and reduces cerebrovascular event risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "myocardial-infarction",
+    "atherosclerosis",
+    "angina-pectoris",
+    "statins",
+    "beta-blockers"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Coronary Artery Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/coronaryarterydisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedad de las arterias coronarias",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/coronaryarterydisease.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Myocardial Infarction",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-5-myocardial-infarction",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: How to Perform Vital Signs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/7-2-how-to-perform-vital-signs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 23,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 49
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "CAD develops slowly over time when plaque builds up inside your coronary arteries.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Treatments may include: Heart-healthy lifestyle changes , such as eating a heart-healthy diet, being more active, and quitting smoking Medicines to lower blood pressure , reduce cholesterol , control blood glucose , or prevent blood clots Procedures or surgery , such as angioplasty , or coronary artery bypass grafting (CABG) , to open or bypass blocked arteries Cardiac rehabilitation , to improve your quality of life and help prevent future heart",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Over time, reduced blood flow from CAD can lead to serious heart problems, including: Angina , which is chest pain or discomfort caused by reduced blood flow to your heart Heart attack, which occurs when a blood clot suddenly blocks blood flow to part of your heart, causing permanent damage to your heart muscle Heart failure , which occurs when your heart can't pump enough blood to meet your body's needs Arrhythmia , which is a problem with the r",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Plaque is a waxy, sticky substance made of fat, cholesterol , calcium , and other materials found in your blood.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "As plaque grows, it narrows the arteries and reduces blood flow to your heart muscle.",
+        "source": 0
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Over time, reduced blood flow from CAD can lead to serious heart problems, including: Angina , which is chest pain or discomfort caused by reduced blood flow to your heart Heart attack, which occurs when a blood clot suddenly blocks blood flow to part of your heart, causing permanent damage to your heart muscle Heart failure , which occurs when your heart can't pump enough blood to meet your",
+        "source": 0
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "supported",
+        "quote": "Cardiac cells are sensitive to coronary perfusion, in that cells do not function properly under periods of blood flow deprivation or, in worse cases, myocyte death (infarction) with prolonged perfusion defects.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Are getting older, especially men, who tend to develop CAD earlier in life than women",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Have high blood pressure , high cholesterol , or high blood glucose ( diabetes )",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Education is directed at dietary adjustments (low saturated fat, low cholesterol, monitor processed foods), smoking cessation, and limiting/omitting alcohol.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Have a family history of heart disease, especially in a parent or sibling who had it before age 50",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Eat a diet high in saturated fat Smoke or use tobacco products Are not physically active Are overweight or have obesity",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Chest pain , pressure, tightness, or discomfort that may spread to your neck, jaw, shoulder or arm",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Shortness of breath Feeling unusually fatigued"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Lastly, unstable angina presents with symptomatic chest pain that radiates to the jaw or down the left side with associated nausea, diaphoresis, dizziness, and fatigue that does not resolve with rest or with three doses of nitroglycerin administered five minutes apart.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "These symptoms may start or get worse when you are active or under stress and may go away with rest.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "An EKG may demonstrate abnormalities with the T waves, in which the T waves will be flipped or the ST segment will be depressed ( Figure 12.23 ).",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "supported",
+        "quote": "With an NSTEMI, there are no abnormal changes in the EKG; however, there would be a rise in the troponins and CK-MB levels.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Education is directed at dietary adjustments (low saturated fat, low cholesterol, monitor processed foods), smoking cessation, and limiting/omitting alcohol.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "The most common antiplatelet therapy is aspirin 325 mg.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "An umbrella term, acute coronary syndrome (ACS) includes the following: non-ST-elevated myocardial infarction (NSTEMI), ST-elevated myocardial infarction (STEMI), and unstable angina ( Figure 12.24 ).",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "If the patient has a depressed EF (less than 40%), ACE inhibitor s/ARBs will be initiated to reduce the risk of congestive heart failure.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Not smoking and avoiding secondhand smoke",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "id": "cardiac-arrhythmia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Arritmia cardíaca",
+    "aliases": [
+      "arritmia",
+      "ritmo",
+      "taquicardia",
+      "bradicardia",
+      "fibrilación auricular"
+    ],
+    "summary": "Alteración del ritmo o velocidad del latido cardíaco causada por anomalías en la conducción eléctrica del corazón.",
+    "key_points": [
+      "Puede ser tachicardia, bradicardia o ritmo irregular.",
+      "Fibrilación auricular es la arritmia más frecuente y aumenta riesgo de embolia.",
+      "El ECG es la prueba diagnóstica de referencia.",
+      "El tratamiento incluye control de la frecuencia, restauración del ritmo y anticoagulación cuando corresponde."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disfunción del nodo sinusal o del sistema de conducción provoca impulsos eléctricos anormales.",
+        "Impulsos prematuros o bloqueos alteran la secuencia de contracción auricular y ventricular.",
+        "La pérdida de sincronía reduce el gasto cardíaco y puede generar estasis sanguínea."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Enfermedad coronaria o infarto previo.",
+        "Enfermedades tiroideas (hipertiroidismo, hipotiroidismo).",
+        "Consumo excesivo de alcohol o cafeína.",
+        "Uso de fármacos proarrítmicos (ej. antiarrítmicos de clase I, algunos antibióticos)."
+      ],
+      "signs_symptoms": [
+        "Palpitaciones percibidas como latidos rápidos, lentos o irregulares.",
+        "Disnea o falta de aire, especialmente con actividad.",
+        "Mareos, síncope o sensación de desmayo.",
+        "Dolor torácico en arritmias ventriculares sostenidas."
+      ],
+      "diagnostics": [
+        "Electrocardiograma (ECG): identifica tipo de arritmia y frecuencia cardíaca.",
+        "Holter de 24‑48 h para arritmias intermitentes.",
+        "Ecocardiograma: evalúa función ventricular y presencia de trombos.",
+        "Pruebas de laboratorio: electrolitos (Na⁺, K⁺, Mg²⁺) en mEq/L, TSH, troponina si se sospecha daño miocárdico."
+      ],
+      "treatment": [
+        "Control de frecuencia: betabloqueadores (metoprolol), bloqueadores de canales Ca²⁺ (verapamilo, diltiazem).",
+        "Restauración del ritmo: amiodarona, lidocaína, cardioversión eléctrica sincronizada.",
+        "Anticoagulación (warfarina, apixabán) en fibrilación auricular con CHA₂DS₂‑VASc ≥2.",
+        "Manejo de factores precipitantes: corrección de electrolitos, control tiroideo."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca por gasto cardíaco disminuido.",
+        "Tromboembolismo sistémico, especialmente accidente cerebrovascular.",
+        "Muerte súbita en arritmias ventriculares malignas.",
+        "Hipotensión y shock cardiogénico."
+      ],
+      "nursing_care": [
+        "Monitorizar frecuencia cardíaca y ritmo cada 15‑30 min; registrar en hoja de observación.",
+        "Evaluar presión arterial, nivel de conciencia y signos de perfusión periférica.",
+        "Mantener acceso venoso y preparar desfibrilador externo automático (DEA).",
+        "Administrar medicamentos según prescripción y observar efectos adversos.",
+        "Educar al paciente sobre reconocimiento de palpitaciones y cuándo buscar ayuda."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de adherirse al tratamiento y a los controles de INR si está anticoagulado.",
+        "Enseñar técnicas de reconocimiento de palpitaciones y signos de alarma (síncope, dolor torácico).",
+        "Promover estilo de vida saludable: dieta baja en sodio, ejercicio moderado y evitar estimulantes.",
+        "Instruir sobre la correcta toma de medicamentos y reporte de efectos secundarios."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "arritmia ventricular",
+          "fibrilación auricular",
+          "hipotensión",
+          "ischemia miocárdica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial sistólica >90 mmHg sin síntomas de hipoperfusión en 24 h.",
+          "Frecuencia cardíaca entre 60‑100 lpm con ritmo estable en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial y frecuencia cardíaca cada 15 min.",
+            "rationale": "Detectar rápidamente deterioro hemodinámico y prevenir shock."
+          },
+          {
+            "action": "Mantener acceso venoso y estar preparado para administrar medicamentos vasoactivos o cardioversión.",
+            "rationale": "Facilita intervención inmediata si la arritmia compromete la perfusión."
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (capilares, temperatura, pulso periférico).",
+            "rationale": "Identifica early signs of inadequate tissue perfusion."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar palpitaciones intensas o síncopes.",
+            "rationale": "Permite intervención temprana antes de que la perfusión se deteriore."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "arritmia que reduce gasto cardíaco",
+          "fatiga crónica"
+        ],
+        "evidenced_by": [
+          "disnea al subir escaleras",
+          "fatiga al realizar actividades de la vida diaria",
+          "palpitaciones durante el esfuerzo"
+        ],
+        "outcomes": [
+          "Realizar actividades de la vida diaria con <20 % de aumento de frecuencia cardíaca en 1 semana.",
+          "Reportar disminución de la disnea a nivel de 0‑1 en escala de Borg en 5 días."
+        ],
+        "interventions": [
+          {
+            "action": "Planificar actividades en intervalos cortos con descansos programados.",
+            "rationale": "Reduce la demanda cardíaca y previene la fatiga."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática durante el esfuerzo.",
+            "rationale": "Mejora la oxigenación y disminuye la sensación de falta de aire."
+          },
+          {
+            "action": "Monitorear signos vitales antes y después de la actividad.",
+            "rationale": "Evalúa la respuesta fisiológica y ajusta el plan de ejercicio."
+          },
+          {
+            "action": "Coordinar con el médico para optimizar el control de la frecuencia cardíaca (ajuste de betabloqueador).",
+            "rationale": "Un ritmo controlado permite mayor tolerancia al ejercicio."
+          },
+          {
+            "action": "Proveer educación sobre la importancia de la actividad física gradual y segura.",
+            "rationale": "Fomenta la adherencia y mejora la capacidad funcional a largo plazo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cardiac arrhythmia",
+    "aliases": [
+      "arrhythmia",
+      "rhythm",
+      "tachycardia",
+      "bradycardia",
+      "atrial fibrillation"
+    ],
+    "summary": "Alteration of the rhythm or rate of the heart beat caused by abnormalities in the heart's electrical conduction system.",
+    "key_points": [
+      "Can be tachycardia, bradycardia, or irregular rhythm.",
+      "Atrial fibrillation is the most common arrhythmia and increases embolic risk.",
+      "The ECG is the reference diagnostic test.",
+      "Treatment includes rate control, rhythm restoration, and anticoagulation when indicated."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Dysfunction of the sinus node or conduction system causes abnormal electrical impulses.",
+        "Premature impulses or blocks alter the sequence of atrial and ventricular contraction.",
+        "Loss of synchrony reduces cardiac output and can lead to blood stasis."
+      ],
+      "risk_factors": [
+        "Chronic hypertension.",
+        "Coronary artery disease or prior myocardial infarction.",
+        "Thyroid disorders (hyperthyroidism, hypothyroidism).",
+        "Excessive alcohol or caffeine consumption.",
+        "Use of proarrhythmic drugs (e.g., class I antiarrhythmics, some antibiotics)."
+      ],
+      "signs_symptoms": [
+        "Palpitations perceived as rapid, slow, or irregular beats.",
+        "Dyspnea or shortness of breath, especially with activity.",
+        "Dizziness, syncope, or feeling faint.",
+        "Chest pain in sustained ventricular arrhythmias."
+      ],
+      "diagnostics": [
+        "Electrocardiogram (ECG): identifies type of arrhythmia and heart rate.",
+        "24‑48 h Holter for intermittent arrhythmias.",
+        "Echocardiogram: evaluates ventricular function and presence of thrombi.",
+        "Laboratory tests: electrolytes (Na⁺, K⁺, Mg²⁺) in mEq/L, TSH, troponin if myocardial injury suspected."
+      ],
+      "treatment": [
+        "Rate control: beta blockers (metoprolol), calcium channel blockers (verapamil, diltiazem).",
+        "Rhythm restoration: amiodarone, lidocaine, synchronized electrical cardioversion.",
+        "Anticoagulation (warfarin, apixaban) in atrial fibrillation with CHA₂DS₂‑VASc ≥2.",
+        "Management of precipitating factors: correct electrolytes, control thyroid function."
+      ],
+      "complications": [
+        "Heart failure due to decreased cardiac output.",
+        "Systemic thromboembolism, especially stroke.",
+        "Sudden death in malignant ventricular arrhythmias.",
+        "Hypotension and cardiogenic shock."
+      ],
+      "nursing_care": [
+        "Monitor heart rate and rhythm every 15‑30 min; record on observation sheet.",
+        "Assess blood pressure, level of consciousness, and peripheral perfusion signs.",
+        "Maintain venous access and prepare automated external defibrillator (AED).",
+        "Administer medications per prescription and monitor for adverse effects.",
+        "Educate patient on recognizing palpitations and when to seek help."
+      ],
+      "patient_teaching": [
+        "Explain importance of adhering to treatment and INR checks if anticoagulated.",
+        "Teach recognition of palpitations and warning signs (syncope, chest pain).",
+        "Promote healthy lifestyle: low‑sodium diet, moderate exercise, avoid stimulants.",
+        "Instruct on proper medication intake and reporting side effects."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "ventricular arrhythmia",
+          "atrial fibrillation",
+          "hypotension",
+          "myocardial ischemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Systolic blood pressure >90 mmHg without hypoperfusion symptoms in 24 h.",
+          "Heart rate 60‑100 bpm with stable rhythm in 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 15 min.",
+            "rationale": "Detect rapid hemodynamic deterioration and prevent shock."
+          },
+          {
+            "action": "Maintain venous access and be prepared to administer vasoactive drugs or cardioversion.",
+            "rationale": "Facilitates immediate intervention if arrhythmia compromises perfusion."
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill, temperature, peripheral pulse).",
+            "rationale": "Identifies early signs of inadequate tissue perfusion."
+          },
+          {
+            "action": "Educate patient on importance of reporting intense palpitations or syncope.",
+            "rationale": "Allows early intervention before perfusion deteriorates."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "arrhythmia reducing cardiac output",
+          "chronic fatigue"
+        ],
+        "evidenced_by": [
+          "dyspnea climbing stairs",
+          "fatigue during daily activities",
+          "palpitations during exertion"
+        ],
+        "outcomes": [
+          "Perform daily activities with <20 % increase in heart rate in 1 week.",
+          "Report reduction of dyspnea to 0‑1 on Borg scale in 5 days."
+        ],
+        "interventions": [
+          {
+            "action": "Plan activities in short intervals with scheduled rest.",
+            "rationale": "Reduces cardiac demand and prevents fatigue."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques during exertion.",
+            "rationale": "Improves oxygenation and reduces sensation of shortness of breath."
+          },
+          {
+            "action": "Monitor vital signs before and after activity.",
+            "rationale": "Evaluates physiological response and adjusts exercise plan."
+          },
+          {
+            "action": "Coordinate with physician to optimize heart rate control (adjust beta blocker).",
+            "rationale": "A controlled rhythm allows greater exercise tolerance."
+          },
+          {
+            "action": "Provide education on importance of gradual, safe physical activity.",
+            "rationale": "Encourages adherence and improves long‑term functional capacity."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "atrial-fibrillation",
+    "ventricular-tachycardia",
+    "heart-failure",
+    "stroke",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Arrhythmia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/arrhythmia.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Paro cardíaco",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/suddencardiacarrest.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Cardiac Emergencies and Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-1-introduction-to-cardiac-emergencies-and-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common type of arrhythmia is atrial fibrillation , which causes an irregular and fast heartbeat.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "If cardiac dysrhythmia is suspected, the health care provider will perform a rapid physical assessment and order an ECG, which shows changes in heart rhythm and is diagnostic for dysrhythmias.",
+        "source": 3
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "An arrhythmia is a problem with the rate or rhythm of your heartbeat. Your heart beats too quickly, too slowly, or with an irregular pattern.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Symptoms of an arrhythmia can include: Fast or slow heartbeat Skipping, fluttering, or pounding heartbeats Chest pain or discomfort Dizziness or fainting Shortness of breath Sweating Tiredness or weakness Seek emergency medical care if you have chest pain, shortness of breath, or think you are having a heart attack.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Clinical manifestations of dysrhythmias include heart palpitations, racing heart rate, chest pain, shortness of breath, anxiety, fatigue, lightheadedness, dizziness, diaphoresis, and syncope (fainting).",
+        "source": 3
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Contraindications include sick sinus syndrome, unless the client has a pacemaker; second- or third-degree heart block, unless the client has a pacemaker; severe hypotension and/or cardiogenic shock; hypersensitivity; ventricular tachycardia; and AMI.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Low blood pressure accompanied by clinical signs such as cool, clammy skin; an elevated heart rate; elevated respiratory rate; change in mental status; or reduced level of consciousness are indicative of shock.",
+        "source": 3
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Adverse Effects Respiratory depression Respiratory arrest Apnea Circulatory depression Shock Cardiac a",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Clinical manifestations of dysrhythmias include heart palpitations, racing heart rate, chest pain, shortness of breath, anxiety, fatigue, lightheadedness, dizziness, diaphoresis, and syncope (fainting).",
+        "source": 3
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

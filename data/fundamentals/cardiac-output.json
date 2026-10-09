@@ -1,0 +1,232 @@
+{
+  "id": "cardiac-output",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Gasto cardíaco (GC)",
+    "aliases": [
+      "gasto cardiaco",
+      "cardiac output",
+      "gc",
+      "output cardiaco",
+      "gasto cardiaco calculo"
+    ],
+    "summary": "El gasto cardíaco es la cantidad de sangre que el corazón expulsa por minuto y se calcula multiplicando la frecuencia cardíaca por el volumen sistólico.",
+    "key_points": [
+      "GC = FC × VS (volumen sistólico).",
+      "Rango normal en reposo: 4–5 L/min en adultos.",
+      "Aumenta con ejercicio, fiebre o estrés; disminuye con hipotensión, arritmias o insuficiencia cardíaca.",
+      "Valor clave para evaluar la perfusión tisular y la función cardiovascular.",
+      "Se mide indirectamente mediante signos vitales, ecocardiografía o termodilución."
+    ],
+    "sections": {
+      "purpose": [
+        "Evaluar la capacidad de bombeo del corazón.",
+        "Detectar deterioro hemodinámico temprano.",
+        "Guiar decisiones terapéuticas en insuficiencia cardíaca y shock."
+      ],
+      "procedure": [
+        "Obtener frecuencia cardíaca (FC) mediante pulso o monitor.",
+        "Determinar volumen sistólico (VS) por ecocardiografía, método de termodilución o fórmula estimada (SV = 0.05 × altura × peso^0.33).",
+        "Calcular GC multiplicando FC (latidos/min) por VS (mL).",
+        "Registrar el valor en L/min.",
+        "Comparar con rangos normales y valores previos del paciente."
+      ],
+      "safety": [
+        "Asegurar que el paciente esté en reposo y en posición supina.",
+        "Verificar calibración del equipo de ecocardiografía o catéter de termodilución.",
+        "Evitar artefactos de movimiento que alteren la FC.",
+        "Confirmar que no haya contraindicaciones para el método invasivo."
+      ],
+      "nursing_care": [
+        "Evaluar signos de perfusión insuficiente: piel pálida, sudoración, hipotensión.",
+        "Monitorear presión arterial, saturación de O₂ y nivel de conciencia antes y después del cálculo.",
+        "Reportar disminución del GC (<4 L/min) o cambios bruscos al médico.",
+        "Educar al paciente sobre la importancia de la adherencia a medicación y control de líquidos."
+      ],
+      "documentation": [
+        "Fecha y hora del registro.",
+        "Método utilizado (ecocardiografía, termodilución, estimación).",
+        "Frecuencia cardíaca (latidos/min) y volumen sistólico (mL).",
+        "Resultado del gasto cardíaco (L/min) y comparación con valores de referencia.",
+        "Observaciones relevantes y acciones tomadas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "insuficiencia cardíaca",
+          "arritmia",
+          "hipovolemia",
+          "shock"
+        ],
+        "evidenced_by": [
+          "pulso débil",
+          "presión arterial baja",
+          "edema periférico",
+          "fatiga",
+          "disnea"
+        ],
+        "outcomes": [
+          "Gasto cardíaco: alcanzar 4–5 L/min en 48 h",
+          "Perfusión tisular: mejorar la perfusión periférica, evidenciada por piel cálida y rosada"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear FC, PA y saturación de O₂ cada hora.",
+            "rationale": "Detectar cambios hemodinámicos tempranos y prevenir deterioro."
+          },
+          {
+            "action": "Administrar diuréticos según prescripción para reducir sobrecarga de volumen.",
+            "rationale": "Disminuir la presión de llenado y mejorar el gasto cardíaco."
+          },
+          {
+            "action": "Posicionar al paciente semi‑sentado (30‑45°) para facilitar la respiración y reducir la poscarga.",
+            "rationale": "Optimiza la función ventricular y la oxigenación."
+          },
+          {
+            "action": "Educar al paciente sobre restricción de sodio (<2 g/día) y control de líquidos.",
+            "rationale": "Previene la retención de líquidos que empeora la insuficiencia cardíaca."
+          },
+          {
+            "action": "Evaluar y registrar el gasto cardíaco cada 8 h o según indicación médica.",
+            "rationale": "Permite valorar la respuesta al tratamiento y ajustar intervenciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cardiac output",
+    "aliases": [
+      "cardiac output",
+      "cardiac output calculation"
+    ],
+    "summary": "Cardiac output is the amount of blood the heart ejects per minute and is calculated by multiplying heart rate by stroke volume.",
+    "key_points": [
+      "CO = HR × SV (stroke volume).",
+      "Normal resting range: 4–5 L/min in adults.",
+      "Increases with exercise, fever or stress; decreases with hypotension, arrhythmias or heart failure.",
+      "Key value for assessing tissue perfusion and cardiovascular function.",
+      "Measured indirectly via vital signs, echocardiography or thermodilution."
+    ],
+    "sections": {
+      "purpose": [
+        "Assess the heart's pumping capacity.",
+        "Detect early hemodynamic deterioration.",
+        "Guide therapeutic decisions in heart failure and shock."
+      ],
+      "procedure": [
+        "Obtain heart rate (HR) via pulse or monitor.",
+        "Determine stroke volume (SV) by echocardiography, thermodilution method or estimated formula (SV = 0.05 × height × weight^0.33).",
+        "Calculate CO by multiplying HR (beats/min) by SV (mL).",
+        "Record the value in L/min.",
+        "Compare with normal ranges and previous patient values."
+      ],
+      "safety": [
+        "Ensure the patient is at rest and supine.",
+        "Verify calibration of echocardiography equipment or thermodilution catheter.",
+        "Avoid motion artifacts that alter HR.",
+        "Confirm no contraindications for the invasive method."
+      ],
+      "nursing_care": [
+        "Assess signs of inadequate perfusion: pale skin, sweating, hypotension.",
+        "Monitor blood pressure, O₂ saturation and level of consciousness before and after calculation.",
+        "Report decreased CO (<4 L/min) or abrupt changes to the physician.",
+        "Educate the patient on the importance of medication adherence and fluid control."
+      ],
+      "documentation": [
+        "Date and time of record.",
+        "Method used (echocardiography, thermodilution, estimation).",
+        "Heart rate (beats/min) and stroke volume (mL).",
+        "Cardiac output result (L/min) and comparison with reference values.",
+        "Relevant observations and actions taken."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "heart failure",
+          "arrhythmia",
+          "hypovolemia",
+          "shock"
+        ],
+        "evidenced_by": [
+          "weak pulse",
+          "low blood pressure",
+          "peripheral edema",
+          "fatigue",
+          "dyspnea"
+        ],
+        "outcomes": [
+          "Cardiac output: reach 4–5 L/min within 48 h",
+          "Tissue perfusion: improve peripheral perfusion, evidenced by warm and pink skin"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor HR, BP and O₂ saturation hourly.",
+            "rationale": "Detect early hemodynamic changes and prevent deterioration."
+          },
+          {
+            "action": "Administer diuretics as prescribed to reduce volume overload.",
+            "rationale": "Decrease filling pressure and improve cardiac output."
+          },
+          {
+            "action": "Position the patient semi‑upright (30‑45°) to facilitate breathing and reduce afterload.",
+            "rationale": "Optimizes ventricular function and oxygenation."
+          },
+          {
+            "action": "Educate the patient on sodium restriction (<2 g/day) and fluid control.",
+            "rationale": "Prevent fluid retention that worsens heart failure."
+          },
+          {
+            "action": "Assess and record cardiac output every 8 h or as ordered.",
+            "rationale": "Allows evaluation of treatment response and adjustment of interventions."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "stroke-volume",
+    "heart-failure",
+    "shock",
+    "cardiac-output-monitoring",
+    "perfusion"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Cardiac Emergencies and Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-1-introduction-to-cardiac-emergencies-and-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09"
+}

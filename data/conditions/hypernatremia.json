@@ -1,0 +1,495 @@
+{
+  "id": "hypernatremia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipernatremia",
+    "aliases": [
+      "hipernatremia",
+      "sodio alto",
+      "exceso sodio",
+      "deshidratación",
+      "pérdida de agua"
+    ],
+    "summary": "Elevación del sodio sérico > 144 mEq/L, generalmente por pérdida de agua corporal o ingesta excesiva de sodio. Produce deshidratación celular y alteraciones neurológicas.",
+    "key_points": [
+      "Na⁺ sérico > 144 mEq/L indica hipernatremia.",
+      "La causa más frecuente es pérdida de agua libre (vomitos, diarrea, diabetes insípida).",
+      "El aumento osmótico extrae agua de las células, provocando daño neurológico.",
+      "El tratamiento principal es reposición cuidadosa de agua hipotónica.",
+      "Monitoreo frecuente de electrolitos y signos vitales es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Pérdida de agua > ingesta de sodio eleva la osmolaridad plasmática.",
+        "El gradiente osmótico hace que el agua salga de las células para diluir el sodio.",
+        "Células, especialmente cerebrales, se deshidratan y pueden presentar edema cerebral reverso."
+      ],
+      "risk_factors": [
+        "Vómitos o diarrea prolongados.",
+        "Diabetes insípida o uso de diuréticos osmóticos.",
+        "Ingesta insuficiente de agua (p. ej., ancianos con disminución de la sed).",
+        "Dieta alta en sal sin reposición hídrica adecuada."
+      ],
+      "signs_symptoms": [
+        "Sed intensa y boca seca.",
+        "Orina concentrada, bajo volumen urinario.",
+        "Hipertensión, taquicardia.",
+        "Confusión, irritabilidad, temblores, posible convulsiones."
+      ],
+      "diagnostics": [
+        "Na⁺ sérico > 144 mEq/L (valor de referencia 135‑145 mEq/L).",
+        "Osmolaridad plasmática > 295 mOsm/kg.",
+        "Urea y creatinina para evaluar función renal.",
+        "Evaluación de volumen: turgencia cutánea, mucosas, presión arterial."
+      ],
+      "treatment": [
+        "Reposición lenta de agua hipotónica (solución salina al 0.45 % o D5W) según prescripción.",
+        "Corregir causa subyacente: detener pérdidas (antieméticos, controlar diarrea, tratar diabetes insípida con desmopresina).",
+        "Monitorizar Na⁺ sérico cada 4‑6 h durante la corrección.",
+        "Evitar corrección rápida (>10 mEq/L/24 h) para prevenir edema cerebral."
+      ],
+      "complications": [
+        "Edema cerebral y daño neurológico irreversible.",
+        "Hipertensión intracraneal.",
+        "Insuficiencia renal aguda.",
+        "Desbalance electrolítico adicional (hipocalemia)."
+      ],
+      "nursing_care": [
+        "Evaluar signos de deshidratación y volumen cada hora.",
+        "Monitorear presión arterial, frecuencia cardíaca y temperatura.",
+        "Registrar ingesta y salida de líquidos; calcular balance hídrico.",
+        "Controlar niveles séricos de Na⁺ y osmolaridad según orden.",
+        "Administrar fluidos IV con velocidad controlada; observar signos de sobrecarga."
+      ],
+      "patient_teaching": [
+        "Beber agua regularmente, al menos 2 L/día, a menos que el médico indique lo contrario.",
+        "Limitar el consumo de alimentos muy salados y evitar bebidas con alto contenido de sodio.",
+        "Reconocer signos de deshidratación (sed, boca seca, disminución de la orina).",
+        "Informar al profesional de salud si presenta vómitos, diarrea o aumento de la sed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida excesiva de agua",
+          "ingesta insuficiente de líquidos",
+          "diabetes insípida",
+          "vomitos",
+          "diarrea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na⁺ sérico 135‑145 mEq/L al alta",
+          "Estado de hidratación: turgencia cutánea y mucosas normales"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear Na⁺ sérico y osmolaridad cada 4‑6 h",
+            "rationale": "Detectar cambios y evitar corrección demasiado rápida"
+          },
+          {
+            "action": "Evaluar signos de deshidratación y volumen cada hora",
+            "rationale": "Identificar deterioro temprano y ajustar reposición de fluidos"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos, calculando balance hídrico",
+            "rationale": "Garantizar reposición adecuada y prevenir sobrecarga"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la ingesta adecuada de agua",
+            "rationale": "Prevenir recurrencia del desequilibrio"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida de agua > ingesta",
+          "diuresis aumentada",
+          "vomitos prolongados"
+        ],
+        "evidenced_by": [
+          "sed intensa",
+          "turgencia cutánea disminuida",
+          "presión arterial elevada",
+          "taquicardia"
+        ],
+        "outcomes": [
+          "Volumen intravascular: presión arterial dentro de rango normal",
+          "Hidratación: mucosas húmedas y turgencia cutánea adecuada"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar fluidos IV hipotónicos según prescripción y registrar velocidad",
+            "rationale": "Restaurar el volumen intravascular de forma segura"
+          },
+          {
+            "action": "Controlar signos vitales cada hora, enfocándose en presión arterial y frecuencia cardíaca",
+            "rationale": "Detectar respuesta hemodinámica al tratamiento"
+          },
+          {
+            "action": "Evaluar estado de hidratación mediante inspección de mucosas y turgencia cutánea",
+            "rationale": "Obtener indicadores clínicos del volumen de líquidos"
+          },
+          {
+            "action": "Informar al paciente y familia sobre la causa de la pérdida de líquidos y medidas preventivas",
+            "rationale": "Promover autocuidado y evitar recaídas"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hypernatremia",
+    "aliases": [
+      "hypernatremia",
+      "high sodium",
+      "excess sodium",
+      "dehydration",
+      "water loss"
+    ],
+    "summary": "Elevation of serum sodium > 144 mEq/L, usually due to loss of body water or excessive sodium intake. Causes cellular dehydration and neurological changes.",
+    "key_points": [
+      "Serum Na⁺ > 144 mEq/L indicates hypernatremia.",
+      "The most common cause is free water loss (vomiting, diarrhea, diabetes insipidus).",
+      "The osmotic shift draws water out of cells, causing neurological damage.",
+      "The main treatment is careful repletion of hypotonic fluid.",
+      "Frequent monitoring of electrolytes and vital signs is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Loss of water > sodium intake raises plasma osmolarity.",
+        "The osmotic gradient causes water to leave cells to dilute sodium.",
+        "Cells, especially brain cells, become dehydrated and may develop reverse cerebral edema."
+      ],
+      "risk_factors": [
+        "Prolonged vomiting or diarrhea.",
+        "Diabetes insipidus or use of osmotic diuretics.",
+        "Insufficient water intake (e.g., elderly with decreased thirst).",
+        "High-salt diet without adequate fluid replacement."
+      ],
+      "signs_symptoms": [
+        "Intense thirst and dry mouth.",
+        "Concentrated urine, low urine output.",
+        "Hypertension, tachycardia.",
+        "Confusion, irritability, tremors, possible seizures."
+      ],
+      "diagnostics": [
+        "Serum Na⁺ > 144 mEq/L (reference 135‑145 mEq/L).",
+        "Plasma osmolarity > 295 mOsm/kg.",
+        "BUN and creatinine to assess renal function.",
+        "Volume assessment: skin turgor, mucous membranes, blood pressure."
+      ],
+      "treatment": [
+        "Slow repletion of hypotonic fluid (0.45% saline or D5W) per prescription.",
+        "Correct underlying cause: stop losses (antiemetics, control diarrhea, treat diabetes insipidus with desmopressin).",
+        "Monitor serum Na⁺ every 4‑6 h during correction.",
+        "Avoid rapid correction (>10 mEq/L/24 h) to prevent cerebral edema."
+      ],
+      "complications": [
+        "Cerebral edema and irreversible neurological damage.",
+        "Intracranial hypertension.",
+        "Acute kidney injury.",
+        "Additional electrolyte imbalance (hypokalemia)."
+      ],
+      "nursing_care": [
+        "Assess signs of dehydration and volume status hourly.",
+        "Monitor blood pressure, heart rate, and temperature.",
+        "Record intake and output; calculate fluid balance.",
+        "Check serum Na⁺ and osmolarity as ordered.",
+        "Administer IV fluids at controlled rate; watch for overload signs."
+      ],
+      "patient_teaching": [
+        "Drink water regularly, at least 2 L/day unless otherwise directed by the physician.",
+        "Limit consumption of very salty foods and avoid high-sodium drinks.",
+        "Recognize signs of dehydration (thirst, dry mouth, decreased urine).",
+        "Notify the health professional if you experience vomiting, diarrhea, or increased thirst."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "excessive water loss",
+          "insufficient fluid intake",
+          "diabetes insipidus",
+          "vomiting",
+          "diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: serum Na⁺ 135‑145 mEq/L at discharge",
+          "Hydration status: normal skin turgor and mucous membranes"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum Na⁺ and osmolarity every 4‑6 h",
+            "rationale": "Detect changes and avoid overly rapid correction"
+          },
+          {
+            "action": "Assess dehydration and volume status hourly",
+            "rationale": "Identify early deterioration and adjust fluid replacement"
+          },
+          {
+            "action": "Record intake and output, calculating fluid balance",
+            "rationale": "Ensure adequate replacement and prevent overload"
+          },
+          {
+            "action": "Educate the patient on the importance of adequate water intake",
+            "rationale": "Prevent recurrence of imbalance"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "water loss > intake",
+          "increased diuresis",
+          "prolonged vomiting"
+        ],
+        "evidenced_by": [
+          "intense thirst",
+          "decreased skin turgor",
+          "elevated blood pressure",
+          "tachycardia"
+        ],
+        "outcomes": [
+          "Intravascular volume: blood pressure within normal range",
+          "Hydration: moist mucous membranes and adequate skin turgor"
+        ],
+        "interventions": [
+          {
+            "action": "Administer hypotonic IV fluids per prescription and record rate",
+            "rationale": "Safely restore intravascular volume"
+          },
+          {
+            "action": "Check vital signs hourly, focusing on blood pressure and heart rate",
+            "rationale": "Detect hemodynamic response to treatment"
+          },
+          {
+            "action": "Assess hydration status via mucous membranes and skin turgor",
+            "rationale": "Obtain clinical indicators of fluid volume"
+          },
+          {
+            "action": "Inform patient and family about the cause of fluid loss and preventive measures",
+            "rationale": "Promote self-care and prevent recurrences"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypokalemia",
+    "diabetes-insipidus",
+    "dehydration",
+    "fluid-overload"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Fluid and Electrolyte Balance",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Electrolyte Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 18,
+      "contradicted": 3,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "This causes the body’s cells to shrink, which is referred to as cellular dehydration.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A serum sodium level greater than 144 mEq/L defines hypernatremia.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Elevated sodium levels in the blood cause the osmotic movement of water out of the cells to dilute the blood.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "The main nursing interventions for patients with chloride imbalances include closely monitoring respiratory and neurological status for deviations from baseline that would indicate worsening of the imbalance monitoring and recording accurate intake and output monitoring and treating acid-base imbalances monitoring vital signs",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Typically, hypernatremia is caused by excess water loss due to lack of fluid intake, vomiting, or diarrhea.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Elevated sodium levels in the blood cause the osmotic movement of water out of the cells to dilute the blood.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Increased excretion of potassium (e.g., due to prolonged vomiting or diarrhea, potassium-wasting diuretics) or abnormal movement of potassium into cells from the intravascular space (e.g., resulting from insulin administration)",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Excessive sodium intake (e.g., a high-sodium diet) or decreased fluid volume (e.g., due to prolonged vomiting or diarrhea; hypovolemia)",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Dry mouth Dry skin Elevated heart rate Feeling tired Feeling very thirsty Headache Urinating and sweating less than usual",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Hypovolemia Decreased blood pressure with tachycardia Concentrated and darkening urine Increased respiratory rate Possible decrease in end organ perfusion Prolonged capillary refill Weak peripheral pulses, skin may feel cool Serum values indicate: increased BUN level Increased hematocrit possibly increased creatinine level Urine values indicate: increased urine osmolality increased urine specific gravity increased urine osmolality",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Hypomagnesemia manifests as hypertension and tachycardia, possibly with serious cardiac dysrhythmias, including torsades de pointes and ventricular fibrillation.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Agitation or irritability Coma Hyperactive reflexes Muscle cramps Seizu",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "contradicted",
+        "quote": "Sodium levels in the blood typically range from 136 to 145 mEq/L, depending on the health care institution’s normal reference range, and sodium levels are maintained by the sodium-potassium pump mechanism.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Within fluid and electrolyte assessments, end organ assessment often is focused on the kidneys and includes monitoring kidney function measurements such as serum blood urea nitrogen (BUN) and creatinine levels and glomerular filtration rate, monitoring urine output quantity and characteristics, and monitoring urine laboratory data ( Table 19.1 ).",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Fluid Volume Alteration Manifestations Laboratory Data Dehydration Dry, sticky mucus membranes Dry skin, skin tenting Enophthalmos Thirst Serum sodium level normal or high If intravascular volume is maintained, most serum and urine laboratory measurements will be normal.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "contradicted",
+        "quote": "If sodium levels increase too fast (>0.5 mEq/L/h), severe neurologic damage may occur due to the movement of fluid out of brain cells, resulting in cellular shrinkage.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "If sodium levels are decreased too quickly, water may move into brain cells and cause cerebral edema , which can quickly become life-threatening.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "That pressure can compress the arteries and nerves inside brain tissue, resulting in decreased blood flow and nerve activity that will manifest as headache, seizure activity, decreased level of consciousness, and other indications of increasing intracranial pressure.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The main nursing interventions when caring for patients with phosphorus imbalances include monitoring serum electrolyte levels regularly, recording accurate intake and output, and treating each disorder appropriately.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "contradicted",
+        "quote": "For patients who can eat and drink, nurses should promote the intake of sodium through salty food and drink options such as broth salt tablets or sports drinks.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Feeling very thirsty",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "id": "drug-interaction",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Interacción medicamentosa",
+    "aliases": [
+      "interaccion",
+      "interaccion medicamentosa",
+      "interacciones",
+      "drug interaction",
+      "interaccion fármacos"
+    ],
+    "summary": "Es la alteración del efecto de un fármaco cuando se combina con otro fármaco, alimento, suplemento o condición clínica del paciente.",
+    "key_points": [
+      "Puede potenciar o disminuir la eficacia del fármaco",
+      "Puede generar efectos adversos inesperados",
+      "El historial de medicamentos y alimentos es esencial",
+      "Los sistemas CPOE alertan sobre interacciones potenciales"
+    ],
+    "sections": {
+      "mechanism": [
+        "Competencia por unión a receptores o enzimas",
+        "Alteración del metabolismo hepático (inductores/inhibidores de CYP450)",
+        "Cambios en la absorción gastrointestinal por pH o motilidad"
+      ],
+      "indications": [
+        "Revisar siempre la lista de medicamentos al admitir al paciente",
+        "Evaluar posibles interacciones antes de iniciar terapia nueva",
+        "Consultar bases de datos de interacciones al prescribir"
+      ],
+      "contraindications": [
+        "Evitar combinación de opioides con depresores del SNC (ej. benzodiacepinas)",
+        "No administrar anticoagulantes con AINEs sin monitoreo",
+        "Precaución con inhibidores de MAO y serotonérgicos"
+      ],
+      "adverse_effects": [
+        "Somnolencia aumentada, depresión respiratoria (serio)",
+        "Hemorragia gastrointestinal (serio)",
+        "Hipoglucemia o hiperglucemia inesperada",
+        "Alteración del ritmo cardíaco (serio)"
+      ],
+      "interactions": [
+        "Fármaco‑fármaco, fármaco‑alimento, fármaco‑suplemento, fármaco‑enfermedad",
+        "Inductores/inhibidores de enzimas hepáticas (CYP450)",
+        "Alteración del pH gástrico (antiácidos)"
+      ],
+      "nursing_care": [
+        "Verificar lista completa de medicamentos y suplementos antes de administrar",
+        "Monitorear signos vitales y nivel de conciencia cuando haya depresores del SNC",
+        "Observar signos de sangrado al combinar anticoagulantes y AINEs",
+        "Retener el medicamento y notificar al médico si ocurre reacción inesperada"
+      ],
+      "patient_teaching": [
+        "Informar al paciente sobre alimentos que pueden interferir (ej. pomelo)",
+        "Recomendar informar siempre al personal de salud sobre suplementos y hierbas",
+        "Enseñar a leer etiquetas de advertencia de interacciones en el EMR"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "uso concomitante de fármacos",
+          "alimentos que alteran absorción",
+          "condiciones médicas que modifican metabolismo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Paciente demostrará comprensión de interacciones medicamentosas: 100% al alta",
+          "No presentará eventos adversos por interacciones durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Revisar y actualizar la lista de medicamentos y suplementos del paciente al ingreso",
+            "rationale": "Identifica posibles interacciones antes de iniciar terapia"
+          },
+          {
+            "action": "Utilizar el sistema CPOE para verificar alertas de interacción antes de cada orden",
+            "rationale": "Previene errores de prescripción"
+          },
+          {
+            "action": "Monitorear signos vitales y parámetros de laboratorio relevantes según la interacción esperada",
+            "rationale": "Detecta efectos adversos tempranos"
+          },
+          {
+            "action": "Educar al paciente y familia sobre alimentos y suplementos que pueden interactuar",
+            "rationale": "Promueve la autogestión y prevención post‑alta"
+          },
+          {
+            "action": "Comunicar al equipo de salud cualquier interacción sospechada y documentar la intervención",
+            "rationale": "Facilita la toma de decisiones y la continuidad del cuidado"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Drug interaction",
+    "aliases": [
+      "interaccion",
+      "interaccion medicamentosa",
+      "interacciones",
+      "drug interaction",
+      "interaccion fármacos"
+    ],
+    "summary": "It is the alteration of a drug’s effect when combined with another drug, food, supplement, or the patient’s clinical condition.",
+    "key_points": [
+      "Can potentiate or diminish drug efficacy",
+      "Can produce unexpected adverse effects",
+      "Medication and food history is essential",
+      "CPOE systems alert for potential interactions"
+    ],
+    "sections": {
+      "mechanism": [
+        "Competition for receptor or enzyme binding",
+        "Alteration of hepatic metabolism (CYP450 inducers/inhibitors)",
+        "Changes in gastrointestinal absorption due to pH or motility"
+      ],
+      "indications": [
+        "Always review medication list upon patient admission",
+        "Assess possible interactions before initiating new therapy",
+        "Consult interaction databases when prescribing"
+      ],
+      "contraindications": [
+        "Avoid combining opioids with CNS depressants (e.g., benzodiazepines)",
+        "Do not administer anticoagulants with NSAIDs without monitoring",
+        "Caution with MAO inhibitors and serotonergic agents"
+      ],
+      "adverse_effects": [
+        "Increased drowsiness, respiratory depression (serious)",
+        "Gastrointestinal bleeding (serious)",
+        "Unexpected hypoglycemia or hyperglycemia",
+        "Cardiac rhythm disturbances (serious)"
+      ],
+      "interactions": [
+        "Drug‑drug, drug‑food, drug‑supplement, drug‑disease",
+        "Enzyme inducers/inhibitors (CYP450)",
+        "Alteration of gastric pH (antacids)"
+      ],
+      "nursing_care": [
+        "Verify complete medication and supplement list before administration",
+        "Monitor vital signs and level of consciousness when CNS depressants are present",
+        "Observe for bleeding signs when combining anticoagulants and NSAIDs",
+        "Hold medication and notify physician if an unexpected reaction occurs"
+      ],
+      "patient_teaching": [
+        "Inform patients about foods that may interfere (e.g., grapefruit)",
+        "Recommend always informing healthcare staff about supplements and herbs",
+        "Teach patients to read interaction warning labels in the EMR"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "concomitant drug use",
+          "foods that alter absorption",
+          "medical conditions that modify metabolism"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient will demonstrate understanding of drug interactions: 100% at discharge",
+          "No adverse events from interactions during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Review and update the patient’s medication and supplement list upon admission",
+            "rationale": "Identifies potential interactions before therapy initiation"
+          },
+          {
+            "action": "Use the CPOE system to check interaction alerts before each order",
+            "rationale": "Prevents prescription errors"
+          },
+          {
+            "action": "Monitor vital signs and relevant laboratory parameters based on expected interaction",
+            "rationale": "Detects early adverse effects"
+          },
+          {
+            "action": "Educate patient and family about foods and supplements that may interact",
+            "rationale": "Promotes self‑management and post‑discharge prevention"
+          },
+          {
+            "action": "Communicate any suspected interaction to the healthcare team and document the intervention",
+            "rationale": "Facilitates decision‑making and continuity of care"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "drug-drug-interaction",
+    "food-drug-interaction",
+    "adverse-drug-reaction"
+  ],
+  "sources": [
+    {
+      "name": "Clinical Nursing Skills: Therapeutic Communication",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/3-1-therapeutic-communication",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Rights of Medication Administration",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/11-1-rights-of-medication-administration",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 28
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

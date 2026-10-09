@@ -1,0 +1,526 @@
+{
+  "id": "osteoporosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Osteoporosis",
+    "aliases": [
+      "osteoporosis",
+      "huesos frágiles",
+      "densidad ósea baja",
+      "fragilidad ósea",
+      "pérdida de masa ósea",
+      "enfermedad silenciosa"
+    ],
+    "summary": "La osteoporosis es una enfermedad silenciosa que reduce la densidad y masa ósea, aumentando el riesgo de fracturas, sobre todo en cadera, columna y muñeca.",
+    "key_points": [
+      "Disminución de la densidad mineral ósea (T‑score ≤ -2.5 en DEXA).",
+      "Mayor riesgo de fracturas de cadera, columna y muñeca.",
+      "Factores de riesgo: edad, menopausia, bajo consumo de calcio y vitamina D, sedentarismo, tabaquismo y uso crónico de glucocorticoides.",
+      "Tratamiento de primera línea: suplementos de calcio + vitamina D y bisfosfonatos.",
+      "Prevención de caídas y promoción de ejercicio de carga son esenciales en el manejo de enfermería."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El remodelado óseo normal mantiene equilibrio entre resorción (osteoclastos) y formación (osteoblastos).",
+        "En la osteoporosis, la resorción supera la formación, reduciendo la masa y la microarquitectura ósea.",
+        "La pérdida de estrógenos postmenopáusicos acelera la actividad osteoclástica.",
+        "Deficiencia de calcio y vitamina D disminuye la mineralización ósea."
+      ],
+      "risk_factors": [
+        "Edad avanzada y menopausia.",
+        "Bajo consumo de calcio (<800 mg/día) y vitamina D (<400 UI/día).",
+        "Sedentarismo y falta de ejercicio de carga.",
+        "Tabaquismo, consumo excesivo de alcohol y glucocorticoides crónicos.",
+        "Historia familiar de osteoporosis."
+      ],
+      "signs_symptoms": [
+        "Generalmente asintomática hasta que ocurre una fractura.",
+        "Dolor de espalda por fractura vertebral comprimida.",
+        "Pérdida de altura y postura encorvada (cifosis).",
+        "Fracturas de cadera o muñeca tras caídas de bajo impacto."
+      ],
+      "diagnostics": [
+        "DEXA (densitometría ósea) – T‑score ≤ -2.5 confirma osteoporosis.",
+        "Laboratorio: calcio sérico, fosfato, 25‑OH vitamina D, PTH para descartar causas secundarias.",
+        "Radiografía simple para identificar fracturas previas."
+      ],
+      "treatment": [
+        "Suplementos de calcio (1000‑1200 mg/día) y vitamina D (800‑1000 UI/día).",
+        "Bisfosfonatos orales (alendronato, risedronato) o intravenosos (zoledrónico).",
+        "Terapia hormonal en mujeres postmenopáusicas seleccionadas.",
+        "Ejercicio de carga y entrenamiento de equilibrio.",
+        "Modificación de estilo de vida: dejar de fumar, limitar alcohol."
+      ],
+      "complications": [
+        "Fractura de cadera con alta morbilidad y mortalidad.",
+        "Fracturas vertebrales que causan dolor crónico y deformidad.",
+        "Pérdida de movilidad y dependencia funcional.",
+        "Hipercalcemia por exceso de suplementación."
+      ],
+      "nursing_care": [
+        "Evaluar riesgo de caídas (escala de Morse, historial de caídas).",
+        "Monitorear niveles de calcio y vitamina D; observar signos de hipercalcemia.",
+        "Fomentar ingesta adecuada de calcio y vitamina D mediante educación dietética.",
+        "Promover ejercicio de carga (caminar, subir escaleras) y entrenamiento de equilibrio.",
+        "Asegurar ambiente libre de obstáculos y uso de calzado antideslizante."
+      ],
+      "patient_teaching": [
+        "Importancia de tomar suplementos de calcio y vitamina D según prescripción.",
+        "Realizar actividad física regular: caminar 30 min/día, ejercicios de resistencia.",
+        "Prevención de caídas: mantener suelos secos, usar luces nocturnas, evitar ropa suelta.",
+        "Evitar tabaco y consumo excesivo de alcohol.",
+        "Informar al médico sobre cualquier dolor óseo nuevo o caída."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de caídas",
+        "type": "risk",
+        "related_to": [
+          "pérdida de masa ósea",
+          "fragilidad ósea",
+          "edad avanzada",
+          "uso de sedantes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin caídas durante la estancia hospitalaria",
+          "Mantener equilibrio estable al realizar actividades de la vida diaria"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar riesgo de caídas con escala de Morse al ingreso y cada turno.",
+            "rationale": "Identifica pacientes con mayor probabilidad de caer para intervenir tempranamente."
+          },
+          {
+            "action": "Mantener el entorno libre de obstáculos y asegurar buena iluminación.",
+            "rationale": "Reduce factores ambientales que precipitan caídas."
+          },
+          {
+            "action": "Colocar al paciente en posición lateral de seguridad al dormir si hay riesgo de desorientación.",
+            "rationale": "Previene lesiones en caso de caída nocturna."
+          },
+          {
+            "action": "Enseñar ejercicios de equilibrio y fortalecimiento bajo supervisión fisioterapéutica.",
+            "rationale": "Mejora la estabilidad y disminuye el riesgo de caídas."
+          },
+          {
+            "action": "Revisar y ajustar medicación que cause somnolencia o hipotensión ortostática.",
+            "rationale": "Minimiza efectos secundarios que aumentan el riesgo de caída."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "osteoporosis",
+          "fractura previa",
+          "baja densidad ósea",
+          "actividad física limitada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin fracturas óseas durante el periodo de tratamiento",
+          "Mantener movilidad funcional adecuada"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta de calcio y vitamina D y registrar adherencia al tratamiento.",
+            "rationale": "Garantiza la disponibilidad de sustratos para la mineralización ósea."
+          },
+          {
+            "action": "Educar al paciente sobre la correcta toma de bisfosfonatos (en ayunas, con vaso de agua, permanecer en posición vertical 30 min).",
+            "rationale": "Previene irritación esofágica y mejora la absorción del fármaco."
+          },
+          {
+            "action": "Programar actividad física de carga (caminar, subir escaleras) al menos 3 veces por semana.",
+            "rationale": "Estimula la formación ósea y reduce la fragilidad."
+          },
+          {
+            "action": "Realizar evaluación periódica de densidad ósea (DEXA) según indicación médica.",
+            "rationale": "Permite valorar la efectividad del tratamiento y ajustar intervenciones."
+          },
+          {
+            "action": "Proveer calzado adecuado y dispositivos de apoyo (bastón, andador) cuando sea necesario.",
+            "rationale": "Disminuye la carga sobre huesos vulnerables y previene lesiones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Osteoporosis",
+    "aliases": [
+      "osteoporosis",
+      "fragile bones",
+      "low bone density",
+      "bone fragility",
+      "bone mass loss",
+      "silent disease"
+    ],
+    "summary": "Osteoporosis is a silent disease that reduces bone density and mass, increasing the risk of fractures, especially in the hip, spine, and wrist.",
+    "key_points": [
+      "Decreased bone mineral density (T‑score ≤ -2.5 on DEXA).",
+      "Higher risk of hip, spine, and wrist fractures.",
+      "Risk factors: age, menopause, low calcium and vitamin D intake, sedentary lifestyle, smoking, and chronic glucocorticoid use.",
+      "First‑line treatment: calcium + vitamin D supplements and bisphosphonates.",
+      "Fall prevention and weight‑bearing exercise promotion are essential in nursing management."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Normal bone remodeling maintains a balance between resorption (osteoclasts) and formation (osteoblasts).",
+        "In osteoporosis, resorption exceeds formation, reducing bone mass and microarchitecture.",
+        "Postmenopausal estrogen loss accelerates osteoclastic activity.",
+        "Calcium and vitamin D deficiency decreases bone mineralization."
+      ],
+      "risk_factors": [
+        "Advanced age and menopause.",
+        "Low calcium intake (<800 mg/day) and vitamin D (<400 IU/day).",
+        "Sedentary lifestyle and lack of weight‑bearing exercise.",
+        "Smoking, excessive alcohol, and chronic glucocorticoid use.",
+        "Family history of osteoporosis."
+      ],
+      "signs_symptoms": [
+        "Usually asymptomatic until a fracture occurs.",
+        "Back pain from a compressed vertebral fracture.",
+        "Height loss and stooped posture (kyphosis).",
+        "Hip or wrist fractures after low‑impact falls."
+      ],
+      "diagnostics": [
+        "DEXA (bone density scan) – T‑score ≤ -2.5 confirms osteoporosis.",
+        "Laboratory: serum calcium, phosphate, 25‑OH vitamin D, PTH to rule out secondary causes.",
+        "Plain radiograph to identify prior fractures."
+      ],
+      "treatment": [
+        "Calcium supplements (1000‑1200 mg/day) and vitamin D (800‑1000 IU/day).",
+        "Oral bisphosphonates (alendronate, risedronate) or intravenous (zoledronic acid).",
+        "Hormone therapy in selected postmenopausal women.",
+        "Weight‑bearing exercise and balance training.",
+        "Lifestyle modification: quit smoking, limit alcohol."
+      ],
+      "complications": [
+        "Hip fracture with high morbidity and mortality.",
+        "Vertebral fractures causing chronic pain and deformity.",
+        "Loss of mobility and functional dependence.",
+        "Hypercalcemia from excessive supplementation."
+      ],
+      "nursing_care": [
+        "Assess fall risk (Morse scale, fall history).",
+        "Monitor calcium and vitamin D levels; watch for signs of hypercalcemia.",
+        "Encourage adequate calcium and vitamin D intake through dietary education.",
+        "Promote weight‑bearing exercise (walking, stair climbing) and balance training.",
+        "Ensure a clear environment and use non‑slip footwear."
+      ],
+      "patient_teaching": [
+        "Importance of taking prescribed calcium and vitamin D supplements.",
+        "Engage in regular physical activity: walk 30 min/day, resistance exercises.",
+        "Fall prevention: keep floors dry, use night lights, avoid loose clothing.",
+        "Avoid tobacco and excessive alcohol.",
+        "Report any new bone pain or falls to the physician."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for falls",
+        "type": "risk",
+        "related_to": [
+          "bone mass loss",
+          "bone fragility",
+          "advanced age",
+          "sedative use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No falls during hospital stay",
+          "Maintain stable balance during daily activities"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fall risk with the Morse scale upon admission and each shift.",
+            "rationale": "Identifies patients with higher likelihood of falling for early intervention."
+          },
+          {
+            "action": "Keep the environment free of obstacles and ensure good lighting.",
+            "rationale": "Reduces environmental factors that precipitate falls."
+          },
+          {
+            "action": "Place the patient in a safe lateral position while sleeping if disorientation is present.",
+            "rationale": "Prevents injury in case of a nighttime fall."
+          },
+          {
+            "action": "Teach balance and strengthening exercises under physiotherapy supervision.",
+            "rationale": "Improves stability and reduces fall risk."
+          },
+          {
+            "action": "Review and adjust medications that cause drowsiness or orthostatic hypotension.",
+            "rationale": "Minimizes side effects that increase fall risk."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "osteoporosis",
+          "previous fracture",
+          "low bone density",
+          "limited physical activity"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No bone fractures during treatment period",
+          "Maintain adequate functional mobility"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor calcium and vitamin D intake and record treatment adherence.",
+            "rationale": "Ensures availability of substrates for bone mineralization."
+          },
+          {
+            "action": "Educate the patient on proper bisphosphonate administration (fasting, with a glass of water, remain upright 30 min).",
+            "rationale": "Prevents esophageal irritation and improves drug absorption."
+          },
+          {
+            "action": "Schedule weight‑bearing exercise (walking, stair climbing) at least three times per week.",
+            "rationale": "Stimulates bone formation and reduces fragility."
+          },
+          {
+            "action": "Perform periodic bone density assessment (DEXA) as indicated by the physician.",
+            "rationale": "Allows evaluation of treatment effectiveness and adjustment of interventions."
+          },
+          {
+            "action": "Provide appropriate footwear and support devices (cane, walker) when necessary.",
+            "rationale": "Reduces load on vulnerable bones and prevents injury."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "fracture",
+    "bone-mineral-density",
+    "bisphosphonates",
+    "vitamin-d-deficiency",
+    "postmenopausal-osteoporosis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Osteoporosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/osteoporosis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Osteoporosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/osteoporosis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Osteoporosis and Osteopenia",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-1-osteoporosis-and-osteopenia",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Calcium Preparations, Vitamin D, Bisphosphonates, Calcimimetics, and Peptide Hormones",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/27-3-calcium-preparations-vitamin-d-bisphosphonates-calcimimetics-and-peptide-hormones",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 21,
+      "not_found": 18,
+      "contradicted": 2,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The most common fractures associated with osteoporosis include fractures of the hip, lumbar spine, and wrist.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common fractures associated with osteoporosis include fractures of the hip, lumbar spine, and wrist.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Risk factors for the development of osteopenia and osteoporosis include advanced age, certain medical conditions (e.g., cancer, HIV, anorexia nervosa), chronic alcohol use, cigarette smoking, family history of osteoporosis, female sex, hormonal changes (e.g., low estrogen levels after menopause), long-term use of certain medications (e.g., corticosteroids, proton pump inhibitors, antiepileptic medications), low body mass index (BMI), physical ina",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Bisphosphonates (e.g., alendronate risedronate, ibandronate) Typically the first-line pharmacological treatment option These medications work by inhibiting osteoclasts to slow the progression of osteoporosis.",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Regular physical activity including weight-bearing exercise (like walking), strength training, and balance exercises Fall prevention to help prevent fractures",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The underlying pathophysiology of osteoporosis involves too much resorption , or the breakdown and reabsorption over time of small amounts of minerals from the bone; the minerals are broken down and reabsorbed into the systemic circulation.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Estrogen acts as a bone protectant, so when hormonal levels decrease dramatically, such as during menopause, the rate of bone breakdown is accelerated, resulting in the development of osteoporosis (National Health Service, 2022).",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Risk factors for the development of osteopenia and osteoporosis include advanced age, certain medical conditions (e.g., cancer, HIV, anorexia nervosa), chronic alcohol use, cigarette smoking, family history of osteoporosis, female sex, hormonal changes (e.g., low estrogen levels after menopause), long-term use of certain medications (e.g., corticosteroids, proton pump inhibitors, antiepileptic medications), low body mass index (BMI), physical ina",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "contradicted",
+        "quote": "The recommended daily allowance (RDA) of vitamin D for adults is 600–800 IU; however, replacement regimens for those with low vitamin D levels vary from the RDA.",
+        "source": 3
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Risk factors for the development of osteopenia and osteoporosis include advanced age, certain medical conditions (e.g., cancer, HIV, anorexia nervosa), chronic alcohol use, cigarette smoking, family history of osteoporosis, female sex, hormonal changes (e.g., low estrogen levels after menopause), long-term use of certain medications (e.g., corticosteroids, proton pump inhibitors, antiepileptic medications), low body mass index (BMI), physical ina",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Risk factors for the development of osteopenia and osteoporosis include advanced age, certain medical conditions (e.g., cancer, HIV, anorexia nervosa), chronic alcohol use, cigarette smoking, family history of osteoporosis, female sex, hormonal changes (e.g., low estrogen levels after menopause), long-term use of certain medications (e.g., corticosteroids, proton pump inhibitors, antiepileptic medications), low body mass index (BMI), physical ina",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Osteoporosis is called a \"silent\" disease because it doesn't usually cause symptoms.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Other clinical manifestations include pain in the lower back and shortness of breath, both related to vertebral body compression (National Institute of Arthritis and Musculoskeletal and Skin Diseases, 2022).",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Another common clinical manifestation of osteoporosis, especially in older adults, is a loss of height (usually an inch or two) due to kyphosis , or excessive curvature of the upper spine.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The most common fractures associated with osteoporosis include fractures of the hip, lumbar spine, and wrist.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "contradicted",
+        "quote": "The recommended daily allowance (RDA) of vitamin D for adults is 600–800 IU; however, replacement regimens for those with low vitamin D levels vary from the RDA.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Regular physical activity including weight-bearing exercise (like walking), strength training, and balance exercises",
+        "source": 0
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Lifestyle changes such as quitting smoking and limiting alcohol",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Other clinical manifestations include pain in the lower back and shortness of breath, both related to vertebral body compression (National Institute of Arthritis and Musculoskeletal and Skin Diseases, 2022).",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Increased dietary intake of calcium and vitamin D",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Regular physical activity including weight-bearing exercise (like walking), strength training, and balance exercises",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Take the drug exactly as prescribed by the health care provider.",
+        "source": 3
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Lifestyle changes such as quitting smoking and limiting alcohol",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

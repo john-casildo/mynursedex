@@ -1,0 +1,459 @@
+{
+  "id": "vitamin-k-deficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Deficiencia de vitamina K",
+    "aliases": [
+      "deficiencia de vitamina k",
+      "vitamina k",
+      "coagulacion",
+      "sangrado",
+      "deficiencia vitamink"
+    ],
+    "summary": "La deficiencia de vitamina K reduce la síntesis de factores de coagulación dependientes de esta vitamina, provocando sangrado prolongado.",
+    "key_points": [
+      "Vitamina K es esencial para la gamma‑carboxilación de los factores II, VII, IX y X.",
+      "La deficiencia se manifiesta con sangrado cutáneo, mucoso y prolongado tiempo de protrombina.",
+      "Los laboratorios típicos: PT ↑, INR >1.2, PTT ↑.",
+      "El tratamiento de primera línea es vitamina K1 (filoquinona) vía oral o IM.",
+      "En hemorragias graves se usan plasma fresco congelado o concentrado de complejo protrombínico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La vitamina K actúa como cofactor en la carboxilación de los factores II, VII, IX y X en el hígado.",
+        "Sin carboxilación, los factores no pueden unirse al calcio y forman coágulos ineficaces.",
+        "La deficiencia puede ser por mala absorción, uso prolongado de antibióticos o enfermedad hepática."
+      ],
+      "risk_factors": [
+        "Uso prolongado de antibióticos de amplio espectro.",
+        "Enfermedad hepática crónica o insuficiencia hepática.",
+        "Dieta pobre en verduras de hoja verde.",
+        "Uso de anticoagulantes que antagonizan la vitamina K."
+      ],
+      "signs_symptoms": [
+        "Hemorragia cutánea (petequias, equimosis).",
+        "Sangrado gastrointestinal o hematuria.",
+        "Sangrado prolongado después de cortes o procedimientos dentales.",
+        "Hematomas extensos sin causa aparente."
+      ],
+      "diagnostics": [
+        "Tiempo de protrombina (PT) prolongado >13.5 s.",
+        "INR >1.2 (normal 0.8‑1.2).",
+        "Tiempo de tromboplastina parcial activado (PTT) elevado.",
+        "Niveles de factores II, VII, IX y X disminuidos en pruebas específicas."
+      ],
+      "treatment": [
+        "Vitamina K1 (filoquinona) oral 1‑10 mg o IM 1‑5 mg según gravedad.",
+        "Plasma fresco congelado para corrección rápida del INR.",
+        "Concentrado de complejo protrombínico (PCC) en casos de sangrado masivo.",
+        "Corrección de causas subyacentes (ej. suspender antibióticos, tratar enfermedad hepática)."
+      ],
+      "complications": [
+        "Hemorragia intracraneal.",
+        "Hemorragia gastrointestinal masiva.",
+        "Shock hipovolémico por pérdida sanguínea.",
+        "Anemia por sangrado crónico."
+      ],
+      "nursing_care": [
+        "Evaluar sitio de sangrado, contar petequias y medir drenajes.",
+        "Monitorear signos vitales cada 15‑30 min en hemorragia aguda.",
+        "Controlar PT/INR y PTT cada 6‑12 h según indicación médica.",
+        "Mantener acceso venoso de calibre adecuado para transfusión.",
+        "Posicionar al paciente en decúbito supino si hay sospecha de shock."
+      ],
+      "patient_teaching": [
+        "Consumir alimentos ricos en vitamina K: espinaca, col rizada, brócoli.",
+        "Informar al médico antes de iniciar antibióticos prolongados.",
+        "Reportar cualquier sangrado inusual o hematoma.",
+        "Seguir la pauta de vitamina K prescrita y asistir a controles de laboratorio."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "hemorragia gastrointestinal",
+          "sangrado cutáneo",
+          "deficiencia de vitamina K"
+        ],
+        "evidenced_by": [
+          "hematomas extensos",
+          "drenaje sanguíneo >100 mL",
+          "hemoglobina <12 g/dL"
+        ],
+        "outcomes": [
+          "Volumen intravascular mantenido >70 % del peso corporal en 24 h",
+          "Hemoglobina estable ≥12 g/dL en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia cada 15 min",
+            "rationale": "Detectar precozmente deterioro hemodinámico."
+          },
+          {
+            "action": "Evaluar sitio de sangrado y registrar cantidad de drenaje",
+            "rationale": "Cuantificar pérdida y guiar reposición de líquidos."
+          },
+          {
+            "action": "Administrar vitamina K1 según prescripción y registrar vía y hora",
+            "rationale": "Restaurar síntesis de factores de coagulación."
+          },
+          {
+            "action": "Iniciar transfusión de plasma fresco congelado si INR >1.5 y sangrado activo",
+            "rationale": "Corregir rápidamente los factores de coagulación."
+          },
+          {
+            "action": "Mantener acceso venoso de calibre adecuado y registrar ingesta y salida",
+            "rationale": "Facilitar reposición de volumen y monitorizar balance hídrico."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "deficiencia de vitamina K",
+          "uso de anticoagulantes",
+          "enfermedad hepática"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No se presentan episodios de sangrado durante la hospitalización",
+          "INR se mantiene <1.5 durante el periodo de riesgo"
+        ],
+        "interventions": [
+          {
+            "action": "Controlar INR y PT cada 12 h mientras esté en riesgo",
+            "rationale": "Detectar alteraciones tempranas de la coagulación."
+          },
+          {
+            "action": "Evaluar mucosas, encías y piel en cada visita de enfermería",
+            "rationale": "Identificar signos de sangrado precoz."
+          },
+          {
+            "action": "Educar al paciente sobre evitar procedimientos invasivos sin autorización",
+            "rationale": "Reducir factores que puedan desencadenar sangrado."
+          },
+          {
+            "action": "Revisar lista de medicamentos y suspender aquellos que antagonizan la vitamina K",
+            "rationale": "Minimizar interacción que aumente el riesgo hemorrágico."
+          },
+          {
+            "action": "Fomentar una dieta rica en vitamina K y registrar ingesta diaria",
+            "rationale": "Mantener reservas adecuadas de la vitamina para la coagulación."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Vitamin K deficiency",
+    "aliases": [
+      "vitamin k deficiency",
+      "vitamin k",
+      "coagulation",
+      "bleeding"
+    ],
+    "summary": "Vitamin K deficiency reduces the synthesis of vitamin K‑dependent clotting factors, causing prolonged bleeding.",
+    "key_points": [
+      "Vitamin K is essential for gamma‑carboxylation of factors II, VII, IX and X.",
+      "Deficiency presents with cutaneous, mucosal bleeding and prolonged prothrombin time.",
+      "Typical labs: PT ↑, INR >1.2, PTT ↑.",
+      "First‑line treatment is oral or IM vitamin K1 (phytonadione).",
+      "In severe hemorrhage, use fresh frozen plasma or prothrombin complex concentrate."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Vitamin K acts as a cofactor for carboxylation of factors II, VII, IX and X in the liver.",
+        "Without carboxylation, factors cannot bind calcium and form ineffective clots.",
+        "Deficiency may result from malabsorption, prolonged broad‑spectrum antibiotic use, or liver disease."
+      ],
+      "risk_factors": [
+        "Prolonged use of broad‑spectrum antibiotics.",
+        "Chronic liver disease or hepatic failure.",
+        "Poor diet low in green leafy vegetables.",
+        "Use of anticoagulants that antagonize vitamin K."
+      ],
+      "signs_symptoms": [
+        "Cutaneous hemorrhage (petechiae, ecchymosis).",
+        "Gastrointestinal bleeding or hematuria.",
+        "Prolonged bleeding after cuts or dental procedures.",
+        "Large unexplained bruises."
+      ],
+      "diagnostics": [
+        "Prolonged prothrombin time (PT) >13.5 s.",
+        "INR >1.2 (normal 0.8‑1.2).",
+        "Elevated activated partial thromboplastin time (aPTT).",
+        "Reduced levels of factors II, VII, IX and X on specific assays."
+      ],
+      "treatment": [
+        "Oral vitamin K1 (phytonadione) 1‑10 mg or IM 1‑5 mg depending on severity.",
+        "Fresh frozen plasma for rapid INR correction.",
+        "Prothrombin complex concentrate (PCC) in massive bleeding.",
+        "Address underlying causes (e.g., discontinue antibiotics, treat liver disease)."
+      ],
+      "complications": [
+        "Intracranial hemorrhage.",
+        "Massive gastrointestinal bleeding.",
+        "Hypovolemic shock from blood loss.",
+        "Anemia from chronic bleeding."
+      ],
+      "nursing_care": [
+        "Assess bleeding site, count petechiae, measure drainage.",
+        "Monitor vital signs every 15‑30 min in acute hemorrhage.",
+        "Check PT/INR and aPTT every 6‑12 h as ordered.",
+        "Maintain adequate venous access for transfusion.",
+        "Position patient supine if shock suspected."
+      ],
+      "patient_teaching": [
+        "Consume foods rich in vitamin K: spinach, kale, broccoli.",
+        "Inform physician before starting prolonged antibiotics.",
+        "Report any unusual bleeding or bruising.",
+        "Follow prescribed vitamin K regimen and attend lab follow‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "gastrointestinal bleeding",
+          "cutaneous bleeding",
+          "vitamin k deficiency"
+        ],
+        "evidenced_by": [
+          "extensive bruising",
+          "blood drainage >100 mL",
+          "hemoglobin <12 g/dL"
+        ],
+        "outcomes": [
+          "Maintain intravascular volume >70 % of body weight within 24 h",
+          "Stable hemoglobin ≥12 g/dL within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and level of consciousness every 15 min",
+            "rationale": "Detect early hemodynamic deterioration."
+          },
+          {
+            "action": "Assess bleeding site and record drainage volume",
+            "rationale": "Quantify loss and guide fluid replacement."
+          },
+          {
+            "action": "Administer vitamin K1 per prescription and record route and time",
+            "rationale": "Restore clotting factor synthesis."
+          },
+          {
+            "action": "Initiate fresh frozen plasma transfusion if INR >1.5 and active bleeding",
+            "rationale": "Rapidly correct clotting factors."
+          },
+          {
+            "action": "Maintain adequate venous access and record intake and output",
+            "rationale": "Facilitate volume replacement and monitor fluid balance."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "vitamin k deficiency",
+          "use of anticoagulants",
+          "liver disease"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No bleeding episodes during hospitalization",
+          "INR remains <1.5 during risk period"
+        ],
+        "interventions": [
+          {
+            "action": "Check INR and PT every 12 h while at risk",
+            "rationale": "Detect early coagulation changes."
+          },
+          {
+            "action": "Examine mucous membranes, gums, and skin at each nursing visit",
+            "rationale": "Identify early bleeding signs."
+          },
+          {
+            "action": "Educate patient to avoid unauthorized invasive procedures",
+            "rationale": "Reduce bleeding triggers."
+          },
+          {
+            "action": "Review medication list and discontinue vitamin K antagonists",
+            "rationale": "Minimize hemorrhagic interactions."
+          },
+          {
+            "action": "Encourage a vitamin K‑rich diet and record daily intake",
+            "rationale": "Maintain adequate reserves for coagulation."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bleeding-disorder",
+    "coagulopathy",
+    "warfarin-therapy",
+    "liver-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Bleeding Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/bleedingdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Calcium Preparations, Vitamin D, Bisphosphonates, Calcimimetics, and Peptide Hormones",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/27-3-calcium-preparations-vitamin-d-bisphosphonates-calcimimetics-and-peptide-hormones",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Bisphosphonates, Calcium Preparations, Vitamin D, and Estrogen Receptor Modulators",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/36-4-bisphosphonates-calcium-preparations-vitamin-d-and-estrogen-receptor-modulators",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 38,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

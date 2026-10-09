@@ -1,0 +1,458 @@
+{
+  "id": "muscle-weakness",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Miastenia gravis (MG)",
+    "aliases": [
+      "miastenia",
+      "miastenia gravis",
+      "mg",
+      "debilidad muscular"
+    ],
+    "summary": "Enfermedad autoinmune crónica que produce debilidad fluctuante de los músculos voluntarios, empeorando con la actividad y mejorando con el reposo.",
+    "key_points": [
+      "Anticuerpos contra receptores de acetilcolina bloquean la transmisión neuromuscular.",
+      "Los síntomas típicos incluyen ptosis, diplopía, debilidad facial y bulbar.",
+      "La debilidad empeora con el uso y mejora con el reposo.",
+      "El diagnóstico se confirma con pruebas de anticuerpos, EMG y estudio de la tiroides.",
+      "El tratamiento incluye inhibidores de la colinesterasa, inmunosupresores y, a veces, timectomía."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Anticuerpos anti‑receptores de acetilcolina reducen la disponibilidad de ACh en la unión neuromuscular.",
+        "Disminuye la despolarización muscular, provocando contracción insuficiente.",
+        "El daño al timo (hiperplasia o timoma) favorece la producción de estos anticuerpos."
+      ],
+      "risk_factors": [
+        "Genética HLA‑DR3/DR5.",
+        "Presencia de timoma o hiperplasia tímica.",
+        "Otros trastornos autoinmunes (tiroiditis, lupus)."
+      ],
+      "signs_symptoms": [
+        "Ptosis y diplopía que empeoran al final del día.",
+        "Debilidad facial, dificultad para masticar y tragar.",
+        "Fatiga muscular generalizada, especialmente en extremidades.",
+        "Crisis miasténica: insuficiencia respiratoria aguda."
+      ],
+      "diagnostics": [
+        "Anticuerpos anti‑receptores de ACh: positivos en >85% de casos.",
+        "EMG con prueba de tensilon: incremento transitorio de la fuerza.",
+        "Radiografía/TC de tórax: busca timoma o hiperplasia del timo."
+      ],
+      "treatment": [
+        "Inhibidores de colinesterasa (pyridostigmina).",
+        "Corticoides (prednisona) y otros inmunosupresores (azatioprina).",
+        "Plasmaféresis o inmunoglobulina IV en crisis.",
+        "Timectomía cuando hay timoma o como terapia de primera línea."
+      ],
+      "complications": [
+        "Crisis miasténica con insuficiencia respiratoria.",
+        "Aspiración y neumonía por debilidad bulbar.",
+        "Efectos adversos de corticoides (hiperglucemia, osteoporosis)."
+      ],
+      "nursing_care": [
+        "Evaluar fuerza muscular cada 2‑4 h usando escala de 0‑5.",
+        "Monitorear frecuencia respiratoria, saturación O₂ y gases arteriales.",
+        "Mantener posición semisentada para facilitar la respiración.",
+        "Administrar pyridostigmina antes de actividades y observar efectos.",
+        "Preparar al paciente para pruebas de función respiratoria antes de procedimientos."
+      ],
+      "patient_teaching": [
+        "Tomar medicación según horario, incluso si se siente mejor.",
+        "Evitar exposición prolongada al calor y a la actividad extenuante.",
+        "Informar signos de crisis (dificultad para respirar, habla arrastrada).",
+        "Mantener control regular del timo mediante estudios de imagen."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "debilidad muscular",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades",
+          "debilidad ocular",
+          "dificultad para masticar"
+        ],
+        "outcomes": [
+          "Nivel de energía: aumento a 4/5 en escala de 0‑5 al alta",
+          "Capacidad para realizar actividades de la vida diaria: independiente"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar fuerza muscular antes y después de la actividad usando escala de 0‑5.",
+            "rationale": "Permite identificar el nivel de tolerancia y ajustar el plan de descanso."
+          },
+          {
+            "action": "Programar períodos de descanso cada 30‑45 min durante actividades.",
+            "rationale": "Previene la acumulación de fatiga y reduce el riesgo de crisis."
+          },
+          {
+            "action": "Enseñar al paciente a planificar actividades en bloques de baja demanda.",
+            "rationale": "Facilita la conservación de energía y mejora la adherencia al tratamiento."
+          },
+          {
+            "action": "Administrar pyridostigmina 30‑60 min antes de actividades programadas.",
+            "rationale": "Optimiza la transmisión neuromuscular durante el esfuerzo."
+          },
+          {
+            "action": "Monitorear signos de crisis miasténica (disnea, dificultad para hablar).",
+            "rationale": "Detección temprana permite intervención rápida."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "debilidad de los músculos de la deglución",
+          "fatiga bulbar"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin episodios de aspiración durante la hospitalización",
+          "Saturación de O₂ ≥ 95% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la capacidad de deglución con prueba de agua antes de cada comida.",
+            "rationale": "Identifica riesgo inmediato de aspiración."
+          },
+          {
+            "action": "Colocar al paciente en posición semisentada (30‑45°) durante la alimentación.",
+            "rationale": "Facilita el paso del bolo y reduce el riesgo de ingreso a vías respiratorias."
+          },
+          {
+            "action": "Ofrecer alimentos blandos y líquidos espesados según tolerancia.",
+            "rationale": "Disminuye la dificultad de deglución y el riesgo de aspiración."
+          },
+          {
+            "action": "Mantener higiene bucal antes y después de cada comida.",
+            "rationale": "Reduce la carga bacteriana y la probabilidad de neumonía aspirativa."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de aspiración (tos, sibilancias).",
+            "rationale": "Promueve la detección precoz y la búsqueda de ayuda médica."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Myasthenia gravis (MG)",
+    "aliases": [
+      "myasthenia",
+      "myasthenia gravis",
+      "mg",
+      "muscle weakness"
+    ],
+    "summary": "Chronic autoimmune disease that causes fluctuating weakness of voluntary muscles, worsening with activity and improving with rest.",
+    "key_points": [
+      "Antibodies against acetylcholine receptors block neuromuscular transmission.",
+      "Typical symptoms include ptosis, diplopia, facial and bulbar weakness.",
+      "Weakness worsens with use and improves with rest.",
+      "Diagnosis is confirmed with antibody tests, EMG, and thyroid evaluation.",
+      "Treatment includes cholinesterase inhibitors, immunosuppressants, and sometimes thymectomy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Anti‑acetylcholine receptor antibodies reduce ACh availability at the neuromuscular junction.",
+        "Reduced muscle depolarization leads to inadequate contraction.",
+        "Thymic damage (hyperplasia or thymoma) promotes production of these antibodies."
+      ],
+      "risk_factors": [
+        "HLA‑DR3/DR5 genetics.",
+        "Presence of thymoma or thymic hyperplasia.",
+        "Other autoimmune disorders (thyroiditis, lupus)."
+      ],
+      "signs_symptoms": [
+        "Ptosis and diplopia that worsen toward the end of the day.",
+        "Facial weakness, difficulty chewing and swallowing.",
+        "Generalized muscle fatigue, especially in extremities.",
+        "Myasthenic crisis: acute respiratory failure."
+      ],
+      "diagnostics": [
+        "Anti‑acetylcholine receptor antibodies: positive in >85% of cases.",
+        "EMG with Tensilon test: transient increase in strength.",
+        "Chest X‑ray/CT: look for thymoma or thymic hyperplasia."
+      ],
+      "treatment": [
+        "Cholinesterase inhibitors (pyridostigmine).",
+        "Corticosteroids (prednisone) and other immunosuppressants (azathioprine).",
+        "Plasmapheresis or IVIG in crisis.",
+        "Thymectomy when thymoma is present or as first‑line therapy."
+      ],
+      "complications": [
+        "Myasthenic crisis with respiratory failure.",
+        "Aspiration and pneumonia due to bulbar weakness.",
+        "Side effects of corticosteroids (hyperglycemia, osteoporosis)."
+      ],
+      "nursing_care": [
+        "Assess muscle strength every 2‑4 h using a 0‑5 scale.",
+        "Monitor respiratory rate, O₂ saturation, and arterial blood gases.",
+        "Maintain semi‑upright position to facilitate breathing.",
+        "Administer pyridostigmine before activities and observe effects.",
+        "Prepare patient for respiratory function tests before procedures."
+      ],
+      "patient_teaching": [
+        "Take medication on schedule, even if feeling better.",
+        "Avoid prolonged heat exposure and strenuous activity.",
+        "Report crisis signs (difficulty breathing, slurred speech).",
+        "Maintain regular imaging to monitor the thymus."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "muscle weakness",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "fatigue during activity",
+          "ocular weakness",
+          "difficulty chewing"
+        ],
+        "outcomes": [
+          "Energy level: increase to 4/5 on 0‑5 scale at discharge",
+          "Ability to perform activities of daily living: independent"
+        ],
+        "interventions": [
+          {
+            "action": "Assess muscle strength before and after activity using a 0‑5 scale.",
+            "rationale": "Identifies tolerance level and allows rest plan adjustment."
+          },
+          {
+            "action": "Schedule rest periods every 30‑45 min during activities.",
+            "rationale": "Prevents fatigue accumulation and reduces crisis risk."
+          },
+          {
+            "action": "Teach patient to plan activities in low‑intensity blocks.",
+            "rationale": "Facilitates energy conservation and improves treatment adherence."
+          },
+          {
+            "action": "Administer pyridostigmine 30‑60 min before scheduled activities.",
+            "rationale": "Optimizes neuromuscular transmission during exertion."
+          },
+          {
+            "action": "Monitor for myasthenic crisis signs (dyspnea, speech difficulty).",
+            "rationale": "Early detection allows prompt intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "deglutition muscle weakness",
+          "bulbar fatigue"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No aspiration episodes during hospitalization",
+          "O₂ saturation ≥ 95% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing ability with a water swallow test before each meal.",
+            "rationale": "Identifies immediate aspiration risk."
+          },
+          {
+            "action": "Position patient semi‑upright (30‑45°) during feeding.",
+            "rationale": "Facilitates bolus passage and reduces airway entry."
+          },
+          {
+            "action": "Offer soft foods and thickened liquids as tolerated.",
+            "rationale": "Reduces swallowing difficulty and aspiration risk."
+          },
+          {
+            "action": "Maintain oral hygiene before and after each meal.",
+            "rationale": "Reduces bacterial load and aspiration pneumonia risk."
+          },
+          {
+            "action": "Educate patient and family on aspiration signs (cough, wheeze).",
+            "rationale": "Promotes early detection and medical assistance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "autoimmune-disease",
+    "neuromuscular-junction",
+    "acetylcholine-receptor-antibodies"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Myasthenia Gravis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/myastheniagravis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Neuromuscular Functioning",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/23-2-factors-affecting-neuromuscular-functioning",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Muscular Dystrophy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-4-muscular-dystrophy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 25,
+      "contradicted": 1,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Myasthenia gravis is a type of autoimmune disease.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "But in someone with myasthenia gravis, the body's own immune system makes antibodies that block the binding of acetylcholine to the muscle.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Symptoms of myasthenia gravis include the following: eyelid drooping, known as ptosis ( Figure 23.17 ).",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "contradicted",
+        "quote": "But in someone with myasthenia gravis, the body's own immune system makes antibodies that block the binding of acetylcholine to the muscle.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "But in many adults with myasthenia gravis, the thymus gland stays large.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Symptoms of myasthenia gravis include the following: eyelid drooping, known as ptosis ( Figure 23.17 ). double vision, known as diplopia difficulty swallowing, known as dysphagia difficulty changing facial expressions difficulty speaking weak neck muscles, making it difficult to support the head Figure 23.17 Progressive muscle weakness in myasthenia gravis results in ptosis (i.e., drooping eyelids).",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Myasthenia Gravis An autoimmune disorder, myasthenia gravis is a disorder in which antibodies attack the neuromuscular junction (NMJ) of skeletal muscles, resulting in progressive muscle weakness (e.g., arms, hands, fingers, legs, neck) and fatigue.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Some people with myasthenia gravis can get severe weakness that affects the muscles that control breathing.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Plasmapheresis (plasma exchange) and intravenous immunoglobulin, which are procedures to remove abnormal antibodies from your blood.",
+        "source": 0
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Some people with myasthenia gravis can get severe weakness that affects the muscles that control breathing.",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

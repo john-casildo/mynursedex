@@ -1,0 +1,499 @@
+{
+  "id": "diabetes-mellitus",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diabetes mellitus tipo 2 (DM2)",
+    "aliases": [
+      "diabetes",
+      "dm2",
+      "diabetes tipo 2",
+      "hiperglucemia",
+      "resistencia a insulina"
+    ],
+    "summary": "Enfermedad crónica caracterizada por hiperglucemia persistente debido a resistencia a la insulina y/o deficiencia de su secreción.",
+    "key_points": [
+      "Hiperglucemia crónica por resistencia a la insulina.",
+      "Factores de riesgo: obesidad, sedentarismo, antecedentes familiares.",
+      "Diagnóstico mediante glucosa en ayunas >126 mg/dL o HbA1c ≥6.5 %.",
+      "Manejo integral: cambios de estilo de vida + fármacos (p. ej., metformina).",
+      "Complicaciones micro y macrovasculares si no se controla."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La célula beta del páncreas produce insulina, pero los tejidos presentan resistencia.",
+        "La resistencia obliga al páncreas a secretar más insulina; con el tiempo se agota la reserva.",
+        "Disminuye la captación de glucosa por músculo y adiposo, aumentando la glucosa plasmática.",
+        "El hígado aumenta la gluconeogénesis, agravando la hiperglucemia."
+      ],
+      "risk_factors": [
+        "Obesidad (IMC ≥30 kg/m²).",
+        "Inactividad física regular.",
+        "Historia familiar de DM2.",
+        "Edad >45 años.",
+        "Síndrome metabólico (hipertensión, dislipidemia)."
+      ],
+      "signs_symptoms": [
+        "Poliuria y polidipsia.",
+        "Fatiga y visión borrosa.",
+        "Pérdida de peso inexplicada.",
+        "Infecciones recurrentes (piel, vías urinarias)."
+      ],
+      "diagnostics": [
+        "Glucosa plasmática en ayunas >126 mg/dL.",
+        "HbA1c ≥6.5 % (valor de referencia 4‑5.6 %).",
+        "Prueba de tolerancia a la glucosa oral (2 h >200 mg/dL).",
+        "Perfil lipídico y función renal para evaluar complicaciones."
+      ],
+      "treatment": [
+        "Modificación de estilo de vida: dieta balanceada, ejercicio ≥150 min/semana.",
+        "Metformina (DCI) como primera línea.",
+        "Sulfonilureas, inhibidores de DPP‑4 o GLP‑1 según respuesta.",
+        "Insulina basal o prandial si el control oral es insuficiente.",
+        "Control de factores de riesgo cardiovascular (HTA, dislipidemia)."
+      ],
+      "complications": [
+        "Microvasculares: retinopatía, nefropatía, neuropatía periférica.",
+        "Macrovasculares: enfermedad coronaria, accidente cerebrovascular, enfermedad arterial periférica.",
+        "Infecciones cutáneas y del tracto urinario.",
+        "Cetoacidosis diabética (rara en DM2, pero posible con estrés)."
+      ],
+      "nursing_care": [
+        "Evaluar glucosa capilar antes de cada comida y al acostarse.",
+        "Monitorear signos de hipoglucemia (sudoración, temblor, confusión).",
+        "Inspeccionar pies diariamente para detectar úlceras.",
+        "Registrar ingesta dietética y nivel de actividad física.",
+        "Coordinar con nutricionista y fisioterapeuta."
+      ],
+      "patient_teaching": [
+        "Enseñar técnica de auto‑monitoreo de glucosa y registro de resultados.",
+        "Explicar la importancia de una dieta baja en azúcares simples y rica en fibra.",
+        "Promover actividad física progresiva y segura.",
+        "Reconocer y actuar ante síntomas de hipoglucemia e hiperglucemia.",
+        "Adherencia a la medicación y citas de control."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de nivel de glucemia inestable",
+        "type": "risk",
+        "related_to": [
+          "resistencia a insulina",
+          "sobrepeso/obesidad",
+          "sedentarismo",
+          "dieta alta en carbohidratos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control glucémico: glucosa capilar 80‑130 mg/dL en ayunas.",
+          "Conocimiento del autocontrol: paciente describe correctamente el procedimiento de auto‑monitoreo."
+        ],
+        "interventions": [
+          {
+            "action": "Enseñar al paciente cómo usar el glucómetro y registrar valores.",
+            "rationale": "Facilita la detección temprana de desviaciones y permite ajustes terapéuticos."
+          },
+          {
+            "action": "Reforzar la educación nutricional enfocada en carbohidratos de bajo índice glucémico.",
+            "rationale": "Reduce la variabilidad de la glucosa postprandial."
+          },
+          {
+            "action": "Programar actividad física moderada 3‑5 veces por semana.",
+            "rationale": "Mejora la sensibilidad a la insulina y estabiliza la glucemia."
+          },
+          {
+            "action": "Revisar y ajustar la medicación según los resultados de glucosa.",
+            "rationale": "Previene episodios de hipoglucemia o hiperglucemia prolongada."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "hiperglucemia crónica",
+          "fatiga asociada a DM2"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades cotidianas",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Aumento de la tolerancia a la actividad: paciente completa caminata de 15 min sin fatiga.",
+          "Nivel de energía percibido ≥7/10 en escala de 0‑10."
+        ],
+        "interventions": [
+          {
+            "action": "Planificar un programa de ejercicio gradual, iniciando con 5‑10 min y aumentando progresivamente.",
+            "rationale": "Permite adaptación fisiológica y reduce la sensación de agotamiento."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (descansos programados, dividir tareas).",
+            "rationale": "Optimiza la realización de actividades diarias sin sobrecargar al paciente."
+          },
+          {
+            "action": "Monitorear glucosa antes y después del ejercicio.",
+            "rationale": "Identifica posibles caídas de glucosa que puedan limitar la actividad."
+          },
+          {
+            "action": "Proveer apoyo emocional y motivacional para adherir al plan de actividad.",
+            "rationale": "Mejora la adherencia y reduce la percepción de fatiga."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Diabetes mellitus type 2 (DM2)",
+    "aliases": [
+      "diabetes",
+      "dm2",
+      "type 2 diabetes",
+      "hyperglycemia",
+      "insulin resistance"
+    ],
+    "summary": "Chronic disease characterized by persistent hyperglycemia due to insulin resistance and/or deficiency of its secretion.",
+    "key_points": [
+      "Chronic hyperglycemia from insulin resistance.",
+      "Risk factors: obesity, sedentary lifestyle, family history.",
+      "Diagnosis by fasting glucose >126 mg/dL or HbA1c ≥6.5 %.",
+      "Comprehensive management: lifestyle changes + medications (e.g., metformin).",
+      "Micro- and macrovascular complications if uncontrolled."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The pancreatic beta cell produces insulin, but tissues exhibit resistance.",
+        "Resistance forces the pancreas to secrete more insulin; over time the reserve is depleted.",
+        "Glucose uptake by muscle and adipose tissue decreases, raising plasma glucose.",
+        "The liver increases gluconeogenesis, worsening hyperglycemia."
+      ],
+      "risk_factors": [
+        "Obesity (BMI ≥30 kg/m²).",
+        "Regular physical inactivity.",
+        "Family history of DM2.",
+        "Age >45 years.",
+        "Metabolic syndrome (hypertension, dyslipidemia)."
+      ],
+      "signs_symptoms": [
+        "Polyuria and polydipsia.",
+        "Fatigue and blurred vision.",
+        "Unexplained weight loss.",
+        "Recurrent infections (skin, urinary tract)."
+      ],
+      "diagnostics": [
+        "Fasting plasma glucose >126 mg/dL.",
+        "HbA1c ≥6.5 % (reference 4‑5.6 %).",
+        "Oral glucose tolerance test (2 h >200 mg/dL).",
+        "Lipid profile and renal function to assess complications."
+      ],
+      "treatment": [
+        "Lifestyle modification: balanced diet, exercise ≥150 min/week.",
+        "Metformin (generic) as first line.",
+        "Sulfonylureas, DPP‑4 inhibitors, or GLP‑1 agonists as needed.",
+        "Basal or prandial insulin if oral control is insufficient.",
+        "Control of cardiovascular risk factors (HTN, dyslipidemia)."
+      ],
+      "complications": [
+        "Microvascular: retinopathy, nephropathy, peripheral neuropathy.",
+        "Macrovascular: coronary artery disease, stroke, peripheral arterial disease.",
+        "Skin and urinary tract infections.",
+        "Diabetic ketoacidosis (rare in DM2, but possible with stress)."
+      ],
+      "nursing_care": [
+        "Assess capillary glucose before each meal and at bedtime.",
+        "Monitor for hypoglycemia signs (sweating, tremor, confusion).",
+        "Inspect feet daily for ulcers.",
+        "Record dietary intake and physical activity level.",
+        "Coordinate with dietitian and physiotherapist."
+      ],
+      "patient_teaching": [
+        "Teach self‑monitoring of glucose technique and record results.",
+        "Explain importance of a low‑simple‑sugar, high‑fiber diet.",
+        "Promote progressive and safe physical activity.",
+        "Recognize and act on hypoglycemia and hyperglycemia symptoms.",
+        "Medication adherence and follow‑up appointments."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for unstable blood glucose level",
+        "type": "risk",
+        "related_to": [
+          "insulin resistance",
+          "overweight/obesity",
+          "sedentary lifestyle",
+          "high‑carbohydrate diet"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Glucose control: capillary glucose 80‑130 mg/dL fasting.",
+          "Patient demonstrates correct self‑monitoring procedure."
+        ],
+        "interventions": [
+          {
+            "action": "Teach the patient how to use the glucometer and record values.",
+            "rationale": "Facilitates early detection of deviations and allows therapeutic adjustments."
+          },
+          {
+            "action": "Reinforce nutrition education focused on low‑glycemic‑index carbohydrates.",
+            "rationale": "Reduces post‑prandial glucose variability."
+          },
+          {
+            "action": "Schedule moderate physical activity 3‑5 times per week.",
+            "rationale": "Improves insulin sensitivity and stabilizes glucose."
+          },
+          {
+            "action": "Review and adjust medication based on glucose results.",
+            "rationale": "Prevents prolonged hypoglycemia or hyperglycemia episodes."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "chronic hyperglycemia",
+          "fatigue associated with DM2"
+        ],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Increased activity tolerance: patient completes 15‑minute walk without fatigue.",
+          "Perceived energy level ≥7/10 on 0‑10 scale."
+        ],
+        "interventions": [
+          {
+            "action": "Plan a gradual exercise program, starting with 5‑10 min and increasing progressively.",
+            "rationale": "Allows physiological adaptation and reduces exhaustion sensation."
+          },
+          {
+            "action": "Teach energy conservation techniques (scheduled rest, task division).",
+            "rationale": "Optimizes daily activities without overloading the patient."
+          },
+          {
+            "action": "Monitor glucose before and after exercise.",
+            "rationale": "Identifies potential glucose drops that may limit activity."
+          },
+          {
+            "action": "Provide emotional and motivational support to adhere to the activity plan.",
+            "rationale": "Improves adherence and reduces fatigue perception."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperglycemia",
+    "insulin-resistance",
+    "metabolic-syndrome",
+    "microvascular-complications",
+    "macrovascular-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Diabetes tipo 2",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/diabetestype2.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Diabetes Mellitus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-2-diabetes-mellitus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Diabetes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-1-introduction-to-diabetes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-09",
+  "factcheck": {
+    "checked": "2026-10-09",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 24,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Risk factors include having prediabetes, obesity, age 45 or older, family history, sedentary lifestyle, fatty liver, and a history of gestational diabetes.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "A fasting blood glucose level test result of 126 mg/dL or higher A glycosylated hemoglobin (A1c) level greater than or equal to 6.5%",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Most complications are microvascular (affect small blood vessels) or macrovascular (affect larger vasculature): Microvascular complications include diabetic retinopathy, blindness, and neuropathy.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "The β cells in the pancreas continue to have some degree of functionality with varying amounts of insulin secretion, resulting in elevated blood glucose levels and insulin resistance.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Type 2 diabetes mellitus (T2DM) T2DM accounts for approximately 95 percent of all cases and is highly correlated with obesity and inactivity.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Having a sedentary lifestyle, a personal history of GDM, or a family history of T2DM are also risk factors (CDC, 2022b).",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Typical clinical manifestations of diabetes include polyuria (increased urination), polydipsia (increased thirst), weight loss without trying, blurry vision or vision changes, paresthesia (tingling i",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Common symptoms associated with DM are polyuria , increased thirst, unplanned weight loss, increased hunger, blurry vision, tingling or numbness in hands or feet, decrease in energy, dry skin, increased infections, and slow wound healing (CDC, 2023).",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Common symptoms associated with DM are polyuria , increased thirst, unplanned weight loss, increased hunger, blurry vision, tingling or numbness in hands or feet, decrease in energy, dry skin, increased infections, and slow wound healing (CDC, 2023).",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "A fasting blood glucose level test result of 126 mg/dL or higher",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Blood pressure should be monitored at each visit, with treatment adjustments made as needed to maintain control.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Microvascular complications include diabetic retinopathy, blindness, and neuropathy.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "They include cerebrovascular disease, cardiovascular disease, diabetic neuropathy, diabetic retinopathy, cataracts, glaucoma, periodontal disease, peripheral vascular disease, foot damage, stroke, increased risk of infection, and poor wound healing.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "It is crucial to reinforce to the patient the importance of keeping a detailed log of blood glucose results and to consistently check levels before meals and at bedtime.",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Signs and symptoms of hypoglycemia include feeling shaky, sweating/chills, clammy skin, dizziness/feeling faint, agitation, confusion, blurred or impaired vision, slurred speech, and tachycardia/bradycardia (American Diabetes Association, n.d.-c).",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "It is crucial to reinforce to the patient the importance of keeping a detailed log of blood glucose results and to consistently check levels before meals and at bedtime.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Regular physical activity, such as walking, cycling, or swimming, enhances insulin sensitivity and helps maintain a healthy weight.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Patients may also experience symptoms of hypoglycemia, such as the following: Shakiness (tremors) or jitteriness Feeling nervous or anxious Sweating (diaphoresis), chills, and",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
