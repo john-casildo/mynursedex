@@ -1,0 +1,460 @@
+{
+  "id": "acute-kidney-injury",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia renal aguda (IRA)",
+    "aliases": [
+      "insuficiencia renal aguda",
+      "ira",
+      "lesión renal aguda",
+      "nefropatía aguda",
+      "injuria renal aguda"
+    ],
+    "summary": "Pérdida súbita de la función renal que reduce la filtración glomerular y provoca acumulación de desechos y alteraciones electrolíticas.",
+    "key_points": [
+      "Disminución del filtrado glomerular <60 mL/min/1.73 m² en <48 h.",
+      "Elevación de BUN y creatinina; relación BUN/creatinina >20 sugiere prerrenal.",
+      "Causas prerrenales, intrínsecas (ATN) y posrenales.",
+      "Manejo incluye corrección de causa, balance hídrico y control electrolítico.",
+      "Indicaciones de diálisis: hiperpotasemia >6.5 mEq/L, acidosis severa, sobrecarga de volumen."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminuye la tasa de filtración glomerular (TFG) por lesión tubular o perfusión insuficiente.",
+        "Acumulación de urea, creatinina y electrolitos en sangre.",
+        "Alteración del equilibrio ácido‑base por retención de ácidos.",
+        "Retención de sodio y agua genera edema e hipertensión."
+      ],
+      "risk_factors": [
+        "Hipovolemia por vómitos, diarrea o sangrado.",
+        "Sepsis y choque distributivo.",
+        "Uso de nefrotoxinas (aminoglucósidos, contraste y antiinflamatorios).",
+        "Enfermedad renal crónica preexistente."
+      ],
+      "signs_symptoms": [
+        "Oliguria <400 mL/24 h o anuria.",
+        "Edema periférico y aumento de peso.",
+        "Hipertensión o hipotensión según causa.",
+        "Náuseas, vómitos y fatiga."
+      ],
+      "diagnostics": [
+        "Creatinina sérica ↑, BUN ↑; relación BUN/creatinina >20 sugiere causa prerrenal.",
+        "Electrolitos: K+ ↑ o ↓, Na+ ↓, Ca2+ ↓.",
+        "Análisis de orina: cilindros granulares, bajo sedimento.",
+        "Ecografía renal: descarta obstrucción posrenal."
+      ],
+      "treatment": [
+        "Identificar y corregir causa subyacente (rehidratación, antibióticos, retirar nefrotoxinas).",
+        "Control de volumen: reposición con cristaloides isotónicos.",
+        "Manejo de electrolitos: evitar hiperpotasemia, corregir hiponatremia.",
+        "Diálisis de emergencia cuando hay sobrecarga de volumen o alteraciones metabólicas graves."
+      ],
+      "complications": [
+        "Hiperkalemia que puede causar arritmias.",
+        "Acidosis metabólica severa.",
+        "Sobrecarga de volumen → edema pulmonar.",
+        "Progresión a enfermedad renal crónica."
+      ],
+      "nursing_care": [
+        "Monitorear ingesta y salida (I/O) cada hora; registrar peso diario.",
+        "Controlar presión arterial y frecuencia cardíaca cada 4 h.",
+        "Evaluar signos de sobrecarga de volumen: edema, crepitaciones pulmonares.",
+        "Revisar laboratorio de electrolitos y función renal cada 12 h.",
+        "Mantener acceso venoso seguro para fluidos y posibles diálisis."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la hidratación adecuada y evitar automedicación con AINES.",
+        "Instruir sobre signos de alerta: disminución de la micción, hinchazón, dificultad respiratoria.",
+        "Enseñar la dieta baja en sodio y potasio según indicaciones del médico.",
+        "Reforzar la necesidad de asistir a controles de laboratorio y consultas de seguimiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiperfiltración renal disminuida",
+          "uso de diuréticos",
+          "hipertensión",
+          "exposición a nefrotoxinas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: K+ entre 3.5‑5.0 mEq/L en 48 h",
+          "Sodio sérico: Na+ entre 135‑145 mEq/L en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear I/O y peso diario; reportar cambios >0.5 kg en 24 h",
+            "rationale": "Detecta retención o pérdida de líquidos que afecta los electrolitos"
+          },
+          {
+            "action": "Obtener panel metabólico completo cada 12 h",
+            "rationale": "Permite identificar alteraciones tempranas de K+, Na+ y bicarbonato"
+          },
+          {
+            "action": "Administrar soluciones IV según prescripción, evitando exceso de K+",
+            "rationale": "Mantiene el balance hídrico y previene hiperpotasemia"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y su restricción cuando sea necesario",
+            "rationale": "Reduce la carga de K+ exógeno y ayuda a controlar niveles séricos"
+          },
+          {
+            "action": "Notificar al médico ante K+ >5.5 mEq/L o Na+ <130 mEq/L",
+            "rationale": "Intervención oportuna evita complicaciones cardíacas y neurológicas"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipotensión arterial",
+          "hipovolemia",
+          "sepsis",
+          "uso de medio de contraste"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión renal: creatinina <1.5 mg/dL en 5 días",
+          "Presión arterial media mantenida ≥65 mmHg durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar presión arterial y frecuencia cardíaca cada 4 h",
+            "rationale": "Detecta hipotensión que compromete la perfusión renal"
+          },
+          {
+            "action": "Administrar fluidos isotónicos según orden, monitorizando respuesta hemodinámica",
+            "rationale": "Restablece el volumen intravascular y mejora la TFG"
+          },
+          {
+            "action": "Observar signos de perfusión periférica (capilares, tiempo de llenado capilar)",
+            "rationale": "Indicadores tempranos de hipoperfusión sistémica"
+          },
+          {
+            "action": "Colaborar con el médico para ajustar o suspender nefrotoxinas",
+            "rationale": "Previene daño adicional al parénquima renal"
+          },
+          {
+            "action": "Registrar y reportar cambios en la diuresis; notificar anuria >6 h",
+            "rationale": "La disminución de la micción indica deterioro de la perfusión renal"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acute renal failure (ARF)",
+    "aliases": [
+      "acute renal failure",
+      "arf",
+      "acute kidney injury",
+      "acute nephropathy",
+      "acute renal injury"
+    ],
+    "summary": "Sudden loss of kidney function that reduces glomerular filtration and causes accumulation of waste products and electrolyte disturbances.",
+    "key_points": [
+      "Glomerular filtration rate <60 mL/min/1.73 m² within <48 h.",
+      "Elevated BUN and creatinine; BUN/creatinine ratio >20 suggests prerenal.",
+      "Causes: prerenal, intrinsic (ATN), and postrenal.",
+      "Management includes correcting cause, fluid balance, and electrolyte control.",
+      "Indications for dialysis: hyperkalemia >6.5 mEq/L, severe acidosis, volume overload."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Decreases glomerular filtration rate (GFR) due to tubular injury or inadequate perfusion.",
+        "Accumulation of urea, creatinine, and electrolytes in blood.",
+        "Acid-base imbalance from acid retention.",
+        "Sodium and water retention cause edema and hypertension."
+      ],
+      "risk_factors": [
+        "Hypovolemia from vomiting, diarrhea, or bleeding.",
+        "Sepsis and distributive shock.",
+        "Use of nephrotoxins (aminoglycosides, contrast, NSAIDs).",
+        "Preexisting chronic kidney disease."
+      ],
+      "signs_symptoms": [
+        "Oliguria <400 mL/24 h or anuria.",
+        "Peripheral edema and weight gain.",
+        "Hypertension or hypotension depending on cause.",
+        "Nausea, vomiting, and fatigue."
+      ],
+      "diagnostics": [
+        "Serum creatinine ↑, BUN ↑; BUN/creatinine ratio >20 suggests prerenal cause.",
+        "Electrolytes: K+ ↑ or ↓, Na+ ↓, Ca2+ ↓.",
+        "Urinalysis: granular casts, low sediment.",
+        "Renal ultrasound: rules out postrenal obstruction."
+      ],
+      "treatment": [
+        "Identify and correct underlying cause (rehydration, antibiotics, discontinue nephrotoxins).",
+        "Volume control: replace with isotonic crystalloids.",
+        "Electrolyte management: prevent hyperkalemia, correct hyponatremia.",
+        "Emergency dialysis when volume overload or severe metabolic derangements occur."
+      ],
+      "complications": [
+        "Hyperkalemia that can cause arrhythmias.",
+        "Severe metabolic acidosis.",
+        "Volume overload → pulmonary edema.",
+        "Progression to chronic kidney disease."
+      ],
+      "nursing_care": [
+        "Monitor intake and output hourly; record daily weight.",
+        "Check blood pressure and heart rate every 4 h.",
+        "Assess for volume overload: edema, lung crackles.",
+        "Review electrolyte and renal function labs every 12 h.",
+        "Maintain secure venous access for fluids and possible dialysis."
+      ],
+      "patient_teaching": [
+        "Explain importance of adequate hydration and avoid self-medication with NSAIDs.",
+        "Teach warning signs: decreased urination, swelling, shortness of breath.",
+        "Instruct on low-sodium and potassium diet as directed by physician.",
+        "Emphasize need to attend lab checks and follow-up appointments."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "decreased renal filtration",
+          "diuretic use",
+          "hypertension",
+          "nephrotoxin exposure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: K+ 3.5‑5.0 mEq/L within 48 h",
+          "Serum sodium: Na+ 135‑145 mEq/L within 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor I/O and daily weight; report changes >0.5 kg in 24 h",
+            "rationale": "Detects fluid retention or loss that affects electrolytes"
+          },
+          {
+            "action": "Obtain comprehensive metabolic panel every 12 h",
+            "rationale": "Allows early identification of K+, Na+, and bicarbonate changes"
+          },
+          {
+            "action": "Administer IV solutions per prescription, avoiding excess K+",
+            "rationale": "Maintains fluid balance and prevents hyperkalemia"
+          },
+          {
+            "action": "Educate patient on potassium-rich foods and restriction when necessary",
+            "rationale": "Reduces exogenous K+ load and helps control serum levels"
+          },
+          {
+            "action": "Notify physician if K+ >5.5 mEq/L or Na+ <130 mEq/L",
+            "rationale": "Timely intervention prevents cardiac and neurological complications"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypotension",
+          "hypovolemia",
+          "sepsis",
+          "contrast media use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal perfusion: creatinine <1.5 mg/dL within 5 days",
+          "Mean arterial pressure maintained ≥65 mmHg during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Assess blood pressure and heart rate every 4 h",
+            "rationale": "Detects hypotension compromising renal perfusion"
+          },
+          {
+            "action": "Administer isotonic fluids per order, monitoring hemodynamic response",
+            "rationale": "Restores intravascular volume and improves GFR"
+          },
+          {
+            "action": "Observe peripheral perfusion signs (capillary refill, pulse quality)",
+            "rationale": "Early indicators of systemic hypoperfusion"
+          },
+          {
+            "action": "Collaborate with physician to adjust or discontinue nephrotoxins",
+            "rationale": "Prevents additional parenchymal damage"
+          },
+          {
+            "action": "Record and report changes in urine output; notify anuria >6 h",
+            "rationale": "Reduced urine output indicates worsening perfusion"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-tubular-necrosis",
+    "chronic-kidney-disease",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Kidney Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/kidneyfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Pressure Injury",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/28-3-pressure-injury",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Renal Function and Chronic Kidney Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/20-7-renal-function-and-chronic-kidney-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-10",
+  "factcheck": {
+    "checked": "2026-10-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

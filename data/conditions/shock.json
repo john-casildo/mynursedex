@@ -1,0 +1,541 @@
+{
+  "id": "shock",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Shock (choque)",
+    "aliases": [
+      "shock",
+      "choque",
+      "hipovolémico",
+      "séptico",
+      "cardiogénico",
+      "neurogénico",
+      "anafiláctico"
+    ],
+    "summary": "El shock es una condición de emergencia en la que el suministro de sangre y oxígeno a los tejidos es insuficiente, produciendo hipotensión y riesgo de daño orgánico.",
+    "key_points": [
+      "Hipotensión arterial y pulso débil son signos cardinales.",
+      "Existen varios tipos: hipovolémico, séptico, cardiogénico, neurogénico y anafiláctico.",
+      "El tratamiento se basa en restaurar el volumen intravascular y tratar la causa subyacente.",
+      "Monitoreo continuo de presión arterial, frecuencia cardíaca, gasto urinario y estado mental es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución del gasto cardíaco o del retorno venoso reduce la perfusión tisular.",
+        "La hipoxia celular desencadena vasoconstricción y liberación de catecolaminas.",
+        "En shock distributivo, la pérdida de tono vascular produce hipotensión con posible bradicardia.",
+        "La falta de oxígeno genera acidosis láctica y falla multiorgánica."
+      ],
+      "risk_factors": [
+        "Hemorragia masiva o pérdida de líquidos (quemaduras, diarrea, vómitos).",
+        "Infecciones graves o sepsis.",
+        "Infarto agudo de miocardio o insuficiencia cardíaca aguda.",
+        "Lesión medular alta (cervical o torácica superior).",
+        "Reacción alérgica sistémica (picadura de insecto, fármaco)."
+      ],
+      "signs_symptoms": [
+        "Presión arterial sistólica < 90 mmHg o MAP < 65 mmHg.",
+        "Pulso rápido y débil; frecuencia respiratoria > 20 rpm.",
+        "Piel pálida, fría y húmeda; extremidades frías.",
+        "Confusión, agitación o pérdida de la conciencia.",
+        "Disminución o ausencia de gasto urinario (< 0.5 mL/kg/h)."
+      ],
+      "diagnostics": [
+        "Hemograma completo: leucocitosis o leucopenia según causa.",
+        "Lactato sérico > 2 mmol/L indica hipoperfusión.",
+        "Gasometría arterial: acidosis metabólica con anión gap elevado.",
+        "Electrolitos: hiponatremia o hiperkalemia según pérdida de fluidos.",
+        "Ecocardiograma o ECG para descartar shock cardiogénico."
+      ],
+      "treatment": [
+        "Reposición de volumen con cristaloides (solución salina 0.9% o Ringer lactato).",
+        "Coloides (albumina) si se requiere expansión oncótica.",
+        "Vasopresores: noradrenalina, dopamina o vasopresina según tipo de shock.",
+        "Oxígeno suplementario o ventilación mecánica si hay hipoxia.",
+        "Antibióticos de amplio espectro para shock séptico.",
+        "Adrenalina para shock anafiláctico; antihistamínicos y corticoides."
+      ],
+      "complications": [
+        "Falla renal aguda.",
+        "Síndrome de dificultad respiratoria aguda (SDRA).",
+        "Coagulación intravascular diseminada (CID).",
+        "Acidosis láctica severa.",
+        "Muerte si no se revierte a tiempo."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 5‑15 min; registrar MAP y frecuencia cardíaca.",
+        "Monitorear gasto urinario con catéter Foley; objetivo ≥ 0.5 mL/kg/h.",
+        "Mantener vía aérea permeable; administrar oxígeno a 2‑4 L/min o según necesidad.",
+        "Posicionar al paciente en decúbito supino con piernas elevadas (si no hay lesión espinal).",
+        "Administrar fluidos y vasopresores según prescripción; observar signos de sobrecarga.",
+        "Documentar cambios en nivel de conciencia y coloración de piel."
+      ],
+      "patient_teaching": [
+        "Reconocer signos de shock: mareos, piel fría, pulso débil, confusión.",
+        "Importancia de buscar atención médica inmediata ante sangrado o pérdida de fluidos.",
+        "Mantener hidratación adecuada y seguir indicaciones de control de infecciones.",
+        "Evitar automedicación en reacciones alérgicas graves; usar autoinyectores de adrenalina si está prescrito.",
+        "Seguir plan de seguimiento post‑hospitalario para controlar causas subyacentes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hemorragia",
+          "deshidratación",
+          "quemaduras extensas",
+          "vómitos y diarrea severos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta oral ≥ 2 L/día",
+          "Gasto urinario: ≥ 0.5 mL/kg/h durante 24 h",
+          "Presión arterial sistólica: ≥ 90 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales y gasto urinario cada hora",
+            "rationale": "Detectar precozmente la hipovolemia y guiar la reposición de fluidos"
+          },
+          {
+            "action": "Administrar cristaloides IV según orden médica",
+            "rationale": "Restaurar el volumen intravascular y mejorar la perfusión tisular"
+          },
+          {
+            "action": "Monitorear peso diario y balance de líquidos",
+            "rationale": "Identificar acumulación o déficit de líquidos"
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de la hidratación y signos de deshidratación",
+            "rationale": "Promover autocuidado y prevención de recaídas"
+          },
+          {
+            "action": "Revisar y registrar la ingesta y salida de líquidos en hoja de observación",
+            "rationale": "Facilitar la evaluación del estado de hidratación"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipotensión",
+          "hipoxia",
+          "shock distributivo",
+          "trauma craneal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Nivel de conciencia: Glasgow ≥ 15 en 24 h",
+          "Presión arterial media (MAP): ≥ 65 mmHg",
+          "Pupilas: isocóricas y reactivas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial invasiva o no invasiva cada 5 minutos",
+            "rationale": "Mantener MAP adecuado para perfusión cerebral"
+          },
+          {
+            "action": "Administrar oxígeno a 100% por máscara facial o intubación si es necesario",
+            "rationale": "Prevenir hipoxia cerebral"
+          },
+          {
+            "action": "Elevar ligeramente la cabecera (30°) si no hay contraindicación",
+            "rationale": "Facilitar drenaje venoso cerebral y mejorar la oxigenación"
+          },
+          {
+            "action": "Evaluar nivel de conciencia usando escala de Glasgow cada 15 minutos",
+            "rationale": "Detectar deterioro neurológico temprano"
+          },
+          {
+            "action": "Colaborar con el equipo médico para iniciar vasopresores si MAP < 65 mmHg",
+            "rationale": "Restaurar perfusión cerebral adecuada"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Shock (choque)",
+    "aliases": [
+      "shock",
+      "choque",
+      "hypovolemic",
+      "septic",
+      "cardiogenic",
+      "neurogenic",
+      "anaphylactic"
+    ],
+    "summary": "Shock is an emergency condition in which the supply of blood and oxygen to tissues is insufficient, producing hypotension and risk of organ damage.",
+    "key_points": [
+      "Arterial hypotension and weak pulse are cardinal signs.",
+      "There are several types: hypovolemic, septic, cardiogenic, neurogenic, and anaphylactic.",
+      "Treatment is based on restoring intravascular volume and treating the underlying cause.",
+      "Continuous monitoring of blood pressure, heart rate, urine output, and mental status is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced cardiac output or venous return decreases tissue perfusion.",
+        "Cellular hypoxia triggers vasoconstriction and catecholamine release.",
+        "In distributive shock, loss of vascular tone produces hypotension with possible bradycardia.",
+        "Lack of oxygen generates lactic acidosis and multiorgan failure."
+      ],
+      "risk_factors": [
+        "Massive hemorrhage or fluid loss (burns, diarrhea, vomiting).",
+        "Severe infections or sepsis.",
+        "Acute myocardial infarction or acute heart failure.",
+        "High spinal cord injury (cervical or upper thoracic).",
+        "Systemic allergic reaction (insect bite, drug)."
+      ],
+      "signs_symptoms": [
+        "Systolic blood pressure < 90 mmHg or MAP < 65 mmHg.",
+        "Rapid, weak pulse; respiratory rate > 20/min.",
+        "Pale, cold, moist skin; cold extremities.",
+        "Confusion, agitation, or loss of consciousness.",
+        "Decreased or absent urine output (< 0.5 mL/kg/h)."
+      ],
+      "diagnostics": [
+        "Complete blood count: leukocytosis or leukopenia depending on cause.",
+        "Serum lactate > 2 mmol/L indicates hypoperfusion.",
+        "Arterial blood gas: metabolic acidosis with elevated anion gap.",
+        "Electrolytes: hyponatremia or hyperkalemia depending on fluid loss.",
+        "Echocardiogram or ECG to rule out cardiogenic shock."
+      ],
+      "treatment": [
+        "Volume replacement with crystalloids (0.9% saline or Ringer's lactate).",
+        "Colloids (albumin) if oncotic expansion is needed.",
+        "Vasopressors: norepinephrine, dopamine, or vasopressin depending on shock type.",
+        "Supplemental oxygen or mechanical ventilation if hypoxia.",
+        "Broad‑spectrum antibiotics for septic shock.",
+        "Epinephrine for anaphylactic shock; antihistamines and corticosteroids."
+      ],
+      "complications": [
+        "Acute kidney injury.",
+        "Acute respiratory distress syndrome (ARDS).",
+        "Disseminated intravascular coagulation (DIC).",
+        "Severe lactic acidosis.",
+        "Death if not reversed in time."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 5‑15 minutes; record MAP and heart rate.",
+        "Monitor urine output with Foley catheter; goal ≥ 0.5 mL/kg/h.",
+        "Maintain airway patency; administer oxygen at 2‑4 L/min or as needed.",
+        "Position patient supine with legs elevated (if no spinal injury).",
+        "Administer fluids and vasopressors per order; watch for overload signs.",
+        "Document changes in level of consciousness and skin color."
+      ],
+      "patient_teaching": [
+        "Recognize shock signs: dizziness, cold skin, weak pulse, confusion.",
+        "Importance of seeking immediate medical attention with bleeding or fluid loss.",
+        "Maintain adequate hydration and follow infection control instructions.",
+        "Avoid self‑medication in severe allergic reactions; use epinephrine auto‑injectors if prescribed.",
+        "Follow post‑hospital follow‑up plan to monitor underlying causes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "hemorrhage",
+          "dehydration",
+          "extensive burns",
+          "severe vomiting and diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain oral intake ≥ 2 L/day",
+          "Urine output: ≥ 0.5 mL/kg/h for 24 h",
+          "Systolic blood pressure: ≥ 90 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs and urine output hourly",
+            "rationale": "Detect early hypovolemia and guide fluid replacement"
+          },
+          {
+            "action": "Administer IV crystalloids per physician order",
+            "rationale": "Restore intravascular volume and improve tissue perfusion"
+          },
+          {
+            "action": "Monitor daily weight and fluid balance",
+            "rationale": "Identify fluid accumulation or deficit"
+          },
+          {
+            "action": "Educate patient and family on importance of hydration and dehydration signs",
+            "rationale": "Promote self‑care and prevent relapses"
+          },
+          {
+            "action": "Review and record fluid intake and output on observation sheet",
+            "rationale": "Facilitate assessment of hydration status"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypotension",
+          "hypoxia",
+          "distributive shock",
+          "head trauma"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Level of consciousness: Glasgow ≥ 15 within 24 h",
+          "Mean arterial pressure (MAP): ≥ 65 mmHg",
+          "Pupils: isocoric and reactive"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure invasively or non‑invasively every 5 minutes",
+            "rationale": "Maintain adequate MAP for cerebral perfusion"
+          },
+          {
+            "action": "Administer 100% oxygen via face mask or intubate if necessary",
+            "rationale": "Prevent cerebral hypoxia"
+          },
+          {
+            "action": "Slightly elevate head (30°) if no contraindication",
+            "rationale": "Facilitate cerebral venous drainage and improve oxygenation"
+          },
+          {
+            "action": "Assess level of consciousness using Glasgow scale every 15 minutes",
+            "rationale": "Detect early neurological decline"
+          },
+          {
+            "action": "Collaborate with medical team to initiate vasopressors if MAP < 65 mmHg",
+            "rationale": "Restore adequate cerebral perfusion"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypovolemic-shock",
+    "septic-shock",
+    "cardiogenic-shock",
+    "neurogenic-shock",
+    "anaphylactic-shock"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Shock",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/shock.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Shock",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/shock.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Neurogenic Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-4-neurogenic-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hypovolemic Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-2-hypovolemic-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-10",
+  "factcheck": {
+    "checked": "2026-10-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Shock happens when not enough blood and oxygen can get to your organs and tissues. It causes very low blood pressure and may be life-threatening.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The goals of therapy include restoring intravascular circulating blood volume, preserving hemodynamic function, effecting the redistribution of circulating volume, addressing the underlying cause of fluid loss, and reversing the progression of inadequate tissue perfusion.",
+        "source": 3
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Lack of sympathetic innervation to the heart results in unopposed stimulation of the vagus nerve (the main nerve of the parasympathetic nervous system), leading to bradycardia.",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Hypovolemic shock happens when you lose a lot of blood or fluids. Causes include internal or external bleeding, dehydration, burns, and severe vomiting and/or diarrhea.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Septic shock is caused by infections in the bloodstream.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "It most commonly occurs in patients who sustain a spinal cord injury (SCI) to the cervical vertebrae or the thoracic vertebrae above T7.",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "A severe allergic reaction can cause anaphylactic shock . An insect bite or sting might cause it.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "If volume loss is from increased elimination from diarrhea, sweat, vomiting, or high amounts of urine, the nurse will anticipate hanging crystalloid solution of 0.9 percent isotonic normal saline or lactated Ringer’s solution.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Medications that increase blood pressure are used to support patients in hypovolemic shock; these include epinephrine , norepinephrine , dopamine , and dobutamine .",
+        "source": 3
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "B = The patient’s breathing status should be assessed and supplemented as needed, for example, with supplemental oxygen, endotracheal intubation, or mechanical ventilation.",
+        "source": 2
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "A combination of anaerobic metabolism causing increased lactic acid and a hypoperfused liver unable to clear the substance from the body can lead to lactic acidosis.",
+        "source": 3
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The preferred patient position is lying flat with the legs elevated about 12 inches.",
+        "source": 3
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "When administering fluids, it is imperative to assess the patient for the development of fluid overload, which often manifests as heart failure or pulmonary edema.",
+        "source": 2
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "Along with a complete neurologic assessment, the nurse should assess for any change in the level of consciousness that might indicate decreased perfusion to the brain.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Symptoms of shock include: Confusion or lack of alertness Loss of consciousness Sudden and ongoing rapid heartbeat Sweating Pale skin A weak pulse Rapid breathing Decreased or no urine output Cool hands and feet",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

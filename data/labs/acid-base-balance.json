@@ -1,0 +1,328 @@
+{
+  "id": "acid-base-balance",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Equilibrio ácido‑base",
+    "aliases": [
+      "equilibrio ácido base",
+      "acid base",
+      "ph",
+      "abg",
+      "balance ácido base"
+    ],
+    "summary": "El equilibrio ácido‑base mantiene el pH sanguíneo entre 7.35 y 7.45 mediante la interacción pulmonar y renal.",
+    "key_points": [
+      "pH normal: 7.35‑7.45; desviaciones indican acidosis o alcalosis.",
+      "PaCO₂ refleja la función respiratoria; HCO₃⁻ refleja la función renal.",
+      "Anión gap ayuda a diferenciar causas de acidosis metabólica.",
+      "Síntomas de acidosis: respiración de Kussmaul, confusión; de alcalosis: parestesias, tetania.",
+      "ABG arterial es la prueba de referencia; evitar burbujas y analizar dentro de 15 min."
+    ],
+    "sections": {
+      "normal_values": [
+        "pH: 7.35‑7.45",
+        "PaCO₂: 35‑45 mmHg",
+        "HCO₃⁻: 22‑26 mEq/L",
+        "Anión gap: 8‑12 mEq/L (varía por laboratorio)"
+      ],
+      "high_values": [
+        "Alcalosis respiratoria (pH >7.45, PaCO₂ ↓) – causas: hiperventilación, ansiedad, fiebre.",
+        "Alcalosis metabólica (pH >7.45, HCO₃⁻ ↑) – causas: vómitos prolongados, diuréticos, hipocalemia.",
+        "Signos: parestesias, espasmos musculares, irritabilidad, arritmias."
+      ],
+      "low_values": [
+        "Acidosis respiratoria (pH <7.35, PaCO₂ ↑) – causas: EPOC, depresión del SNC, obesidad‑hipoventilación.",
+        "Acidosis metabólica (pH <7.35, HCO₃⁻ ↓) – causas: DKA, insuficiencia renal, diarrea, sepsis.",
+        "Signos: respiración de Kussmaul, somnolencia, hipotensión, arritmias."
+      ],
+      "specimen": [
+        "Muestra arterial en tubo heparinizado de 1 mL.",
+        "Obtener la muestra con el paciente en reposo, sin suplementación de O₂ previa si no es necesario.",
+        "Evitar exposición al aire; mezclar suavemente y analizar dentro de 15 min.",
+        "Errores comunes: burbujas de aire, hemólisis, demora en el análisis."
+      ],
+      "nursing_care": [
+        "Monitorear pH, PaCO₂ y HCO₃⁻ en ABG y comparar con valores de referencia.",
+        "Evaluar patrón respiratorio y nivel de conciencia cada 2‑4 h.",
+        "Verificar electrolitos (K⁺, Ca²⁺) y anión gap para identificar causas subyacentes.",
+        "Administrar bicarbonato de sodio solo bajo orden médica en acidosis metabólica grave.",
+        "Ajustar parámetros del ventilador según ABG en pacientes intubados.",
+        "Educar al paciente sobre técnicas de respiración y adherencia a la terapia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "insuficiencia renal",
+          "enfermedad pulmonar crónica",
+          "diarrea prolongada",
+          "vómitos",
+          "uso de diuréticos",
+          "sepsis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: niveles de Na⁺, K⁺ y HCO₃⁻ dentro de rangos normales en 24 h",
+          "Estado de hidratación: mantener presión arterial estable y perfusión tisular adecuada"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar ABG arterial cada 4 h o según indicación médica.",
+            "rationale": "Permite detectar desviaciones tempranas del equilibrio ácido‑base y guiar intervenciones."
+          },
+          {
+            "action": "Monitorear signos vitales y patrón respiratorio cada hora.",
+            "rationale": "Cambios en la respiración pueden indicar compensación respiratoria."
+          },
+          {
+            "action": "Verificar y registrar electrolitos séricos (Na⁺, K⁺, Ca²⁺, Mg²⁺) cada 12 h.",
+            "rationale": "Alteraciones electrolíticas pueden precipitar o empeorar desequilibrios ácido‑base."
+          },
+          {
+            "action": "Administrar soluciones intravenosas con corrección de electrolitos según prescripción (ej. solución salina, KCl).",
+            "rationale": "Restablece el volumen y la composición iónica del líquido extracelular."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la adherencia a la terapia y la señal de síntomas como mareos o palpitaciones.",
+            "rationale": "Promueve la detección precoz de complicaciones y mejora el autocuidado."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acid‑Base Balance",
+    "aliases": [
+      "acid base balance",
+      "acid base",
+      "ph",
+      "abg"
+    ],
+    "summary": "Acid‑base balance maintains blood pH between 7.35 and 7.45 through pulmonary and renal interaction.",
+    "key_points": [
+      "Normal pH: 7.35‑7.45; deviations indicate acidosis or alkalosis.",
+      "PaCO₂ reflects respiratory function; HCO₃⁻ reflects renal function.",
+      "Anion gap helps differentiate causes of metabolic acidosis.",
+      "Acidosis symptoms: Kussmaul breathing, confusion; alkalosis: paresthesias, tetany.",
+      "Arterial ABG is the reference test; avoid bubbles and analyze within 15 min."
+    ],
+    "sections": {
+      "normal_values": [
+        "pH: 7.35‑7.45",
+        "PaCO₂: 35‑45 mmHg",
+        "HCO₃⁻: 22‑26 mEq/L",
+        "Anion gap: 8‑12 mEq/L (varies by laboratory)"
+      ],
+      "high_values": [
+        "Respiratory alkalosis (pH >7.45, PaCO₂ ↓) – causes: hyperventilation, anxiety, fever.",
+        "Metabolic alkalosis (pH >7.45, HCO₃⁻ ↑) – causes: prolonged vomiting, diuretics, hypokalemia.",
+        "Signs: paresthesias, muscle spasms, irritability, arrhythmias."
+      ],
+      "low_values": [
+        "Respiratory acidosis (pH <7.35, PaCO₂ ↑) – causes: COPD, CNS depression, obesity‑hypoventilation.",
+        "Metabolic acidosis (pH <7.35, HCO₃⁻ ↓) – causes: DKA, renal failure, diarrhea, sepsis.",
+        "Signs: Kussmaul breathing, drowsiness, hypotension, arrhythmias."
+      ],
+      "specimen": [
+        "1 mL heparinized arterial tube.",
+        "Collect sample with patient at rest, without prior O₂ supplementation unless necessary.",
+        "Avoid air exposure; gently mix and analyze within 15 min.",
+        "Common errors: air bubbles, hemolysis, delayed analysis."
+      ],
+      "nursing_care": [
+        "Monitor pH, PaCO₂, and HCO₃⁻ in ABG and compare to reference values.",
+        "Assess respiratory pattern and level of consciousness every 2‑4 h.",
+        "Check electrolytes (K⁺, Ca²⁺) and anion gap to identify underlying causes.",
+        "Administer sodium bicarbonate only under physician order in severe metabolic acidosis.",
+        "Adjust ventilator settings based on ABG in intubated patients.",
+        "Educate patient on breathing techniques and therapy adherence."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "renal failure",
+          "chronic lung disease",
+          "prolonged diarrhea",
+          "vomiting",
+          "diuretic use",
+          "sepsis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na⁺, K⁺, and HCO₃⁻ within normal ranges within 24 h",
+          "Hydration status: maintain stable blood pressure and adequate tissue perfusion"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record arterial ABG every 4 h or as ordered.",
+            "rationale": "Allows early detection of acid‑base deviations and guides interventions."
+          },
+          {
+            "action": "Monitor vital signs and respiratory pattern hourly.",
+            "rationale": "Respiratory changes may indicate compensatory mechanisms."
+          },
+          {
+            "action": "Check and record serum electrolytes (Na⁺, K⁺, Ca²⁺, Mg²⁺) every 12 h.",
+            "rationale": "Electrolyte disturbances can precipitate or worsen acid‑base imbalances."
+          },
+          {
+            "action": "Administer intravenous solutions with electrolyte correction per prescription (e.g., saline, KCl).",
+            "rationale": "Restores extracellular fluid volume and ionic composition."
+          },
+          {
+            "action": "Educate patient on the importance of therapy adherence and symptom recognition such as dizziness or palpitations.",
+            "rationale": "Promotes early complication detection and improves self‑care."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acid-base-imbalance",
+    "respiratory-acidosis",
+    "metabolic-alkalosis",
+    "anion-gap",
+    "renal-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Fluid and Electrolyte Balance",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Acid-Base Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-2-acid-base-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acid-Base Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-4-acid-base-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-10",
+  "factcheck": {
+    "checked": "2026-10-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 19,
+      "contradicted": 0,
+      "total": 26
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "If the blood pH is not maintained between 7.35 and 7.45, complications can occur.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Differentiating the type of metabolic acidosis helps determine the underlying problem that needs to be addressed.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.normal_values.1": {
+        "status": "supported",
+        "quote": "The normal PaCO 2 level is 35 to 45 mm Hg.",
+        "source": 1
+      },
+      "sections.normal_values.2": {
+        "status": "supported",
+        "quote": "Bicarbonate (HCO 3 − ) 22–26 mEq/L",
+        "source": 2
+      },
+      "sections.normal_values.3": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.high_values.2": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Parameter Normal Range pH 7.35–7.45 Partial pressure of oxygen (Pao 2 ) 80–100 mm Hg Partial pressure of carbon dioxide (Paco 2 ) 35–45 mm Hg Bicarbonate (HCO 3 − ) 22–26 mEq/L Oxygen saturation (Sao 2 ) 95%–98% Table 10.13 Normal ABG Values Interpreting ABGs Arterial blood gas values can be interpreted t",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "A related test, the anion gap blood test , checks whether your electrolytes are out of balance or if your blood is too acidic or not acidic enough.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Patients who are on mechanical ventilation need to have their carbon dioxide levels monitored regularly to ensure that the ventilator settings are appropriate.",
+        "source": 1
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

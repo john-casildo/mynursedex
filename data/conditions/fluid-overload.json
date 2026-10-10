@@ -1,0 +1,517 @@
+{
+  "id": "fluid-overload",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Sobrecarga de líquidos (hipervolemia)",
+    "aliases": [
+      "sobrecarga",
+      "exceso de liquidos",
+      "retencion de agua",
+      "edema",
+      "hipervolemia"
+    ],
+    "summary": "Acumulación excesiva de agua y sodio en el espacio intersticial e intravascular que supera la capacidad de regulación del organismo.",
+    "key_points": [
+      "Puede ser consecuencia de insuficiencia cardíaca, renal o hepática.",
+      "Se manifiesta con edema periférico, aumento de peso y disnea.",
+      "Los laboratorios típicos incluyen Na+ > 145 mEq/L y BNP elevado.",
+      "El tratamiento combina restricción hídrica, diuréticos y control de la causa subyacente."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución del gasto cardíaco o filtración glomerular reduce la eliminación de agua y sodio.",
+        "Activación del sistema renina‑angiotensina‑aldosterona retiene Na+ y agua.",
+        "Aumento de la presión capilar favorece el paso de líquido al espacio intersticial.",
+        "El exceso de líquido produce edema y congestión pulmonar."
+      ],
+      "risk_factors": [
+        "Insuficiencia cardíaca izquierda o derecha.",
+        "Enfermedad renal crónica o síndrome nefrótico.",
+        "Cirrhosis con ascitis.",
+        "Administración excesiva de fluidos IV.",
+        "Uso de corticoides o terapia hormonal."
+      ],
+      "signs_symptoms": [
+        "Edema periférico (piernas, tobillos) 1+‑3+.",
+        "Aumento de peso > 2 kg en 48 h.",
+        "Disnea de reposo o al esfuerzo.",
+        "Tórax: crepitantes bibasales.",
+        "Presión venosa central elevada."
+      ],
+      "diagnostics": [
+        "Peso diario y registro de ingesta/salida (I/O).",
+        "Electrolitos séricos: Na+ > 145 mEq/L, K+ variable.",
+        "BNP o NT‑proBNP elevado.",
+        "Radiografía de tórax: congestión vascular.",
+        "Ecocardiograma para valorar fracción de eyección."
+      ],
+      "treatment": [
+        "Restricción de sodio a < 2 g/día y de líquidos según prescripción.",
+        "Diuréticos de asa (furosemida) y/o tiazídicos.",
+        "Control de la causa subyacente (ej. terapia de insuficiencia cardíaca).",
+        "Oxígeno suplementario si hay hipoxemia.",
+        "Monitoreo estricto de I/O y peso."
+      ],
+      "complications": [
+        "Hiponatremia o hiperkalemia por diuréticos.",
+        "Insuficiencia respiratoria por edema pulmonar.",
+        "Deterioro renal agudo.",
+        "Riesgo de trombosis venosa profunda por estasis."
+      ],
+      "nursing_care": [
+        "Evaluar peso, edema, respiración y signos de congestión cada 4 h.",
+        "Registrar ingesta y salida de líquidos; alertar si I/O > + 500 mL.",
+        "Mantener al paciente en posición semisentado para facilitar la respiración.",
+        "Administrar diuréticos según orden y observar respuesta clínica.",
+        "Vigilar electrolitos y función renal cada 24 h."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la restricción de sodio y líquidos.",
+        "Enseñar a registrar peso diario y reportar aumentos > 0.5 kg.",
+        "Instruir sobre signos de alerta: aumento de edema, disnea, dolor torácico.",
+        "Promover la adherencia a la medicación y citas de control.",
+        "Fomentar una dieta baja en sal y rica en frutas y verduras."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "insuficiencia cardíaca",
+          "enfermedad renal crónica",
+          "cirrosis hepática",
+          "administración excesiva de fluidos IV"
+        ],
+        "evidenced_by": [
+          "edema periférico",
+          "aumento de peso >2 kg/48 h",
+          "disnea",
+          "presión venosa central elevada"
+        ],
+        "outcomes": [
+          "Peso estable ±0.5 kg en 48 h",
+          "Edema reducido a <1+ en 72 h",
+          "Na+ sérico dentro de 135‑145 mEq/L en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y registrar cambios de ±0.1 kg.",
+            "rationale": "Detecta rápidamente la acumulación o pérdida de líquido."
+          },
+          {
+            "action": "Controlar ingesta y salida de líquidos cada 4 h.",
+            "rationale": "Permite identificar desequilibrios de balance hídrico."
+          },
+          {
+            "action": "Aplicar restricción de sodio a < 2 g/día y líquidos según prescripción.",
+            "rationale": "Reduce la retención de agua y mejora la presión arterial."
+          },
+          {
+            "action": "Administrar diurético de asa (furosemida) según orden y observar respuesta urinaria.",
+            "rationale": "Facilita la eliminación de exceso de sodio y agua."
+          },
+          {
+            "action": "Evaluar signos de sobrecarga pulmonar (crepitantes, SpO2) cada 4 h.",
+            "rationale": "Previene deterioro respiratorio y edema pulmonar."
+          },
+          {
+            "action": "Educar al paciente sobre registro de peso y signos de alerta.",
+            "rationale": "Promueve autocuidado y detección temprana de recaídas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de diuréticos de asa",
+          "hipervolemia",
+          "insuficiencia cardíaca",
+          "alteraciones renales"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rango normal en 72 h",
+          "Sin síntomas de arritmia ni debilidad muscular"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos (Na+, K+, Cl-) cada 24 h.",
+            "rationale": "Detecta alteraciones tempranas provocadas por diuréticos."
+          },
+          {
+            "action": "Alertar al médico ante K+ < 3.5 mEq/L o Na+ > 145 mEq/L.",
+            "rationale": "Previene complicaciones cardíacas y neuromusculares."
+          },
+          {
+            "action": "Administrar suplementos de potasio oral o IV según indicación.",
+            "rationale": "Corrige hipokalemia y reduce riesgo de arritmias."
+          },
+          {
+            "action": "Reforzar educación sobre alimentos ricos en potasio y bajo en sodio.",
+            "rationale": "Apoya el mantenimiento de electrolitos en rango terapéutico."
+          },
+          {
+            "action": "Monitorear ritmo cardíaco y presión arterial cada 4 h.",
+            "rationale": "Identifica efectos de desequilibrios electrolíticos en la función cardíaca."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fluid overload (hypervolemia)",
+    "aliases": [
+      "fluid overload",
+      "excess fluid",
+      "water retention",
+      "edema",
+      "hypervolemia"
+    ],
+    "summary": "Excessive accumulation of water and sodium in the interstitial and intravascular spaces that exceeds the body's regulatory capacity.",
+    "key_points": [
+      "May result from heart, kidney, or liver failure.",
+      "Manifests with peripheral edema, weight gain, and dyspnea.",
+      "Typical labs include Na+ > 145 mEq/L and elevated BNP.",
+      "Treatment combines fluid restriction, diuretics, and control of the underlying cause."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced cardiac output or glomerular filtration decreases elimination of water and sodium.",
+        "Activation of the renin‑angiotensin‑aldosterone system retains Na+ and water.",
+        "Increased capillary pressure favors fluid shift into the interstitial space.",
+        "Excess fluid produces edema and pulmonary congestion."
+      ],
+      "risk_factors": [
+        "Left or right heart failure.",
+        "Chronic kidney disease or nephrotic syndrome.",
+        "Cirrhosis with ascites.",
+        "Excessive IV fluid administration.",
+        "Use of corticosteroids or hormonal therapy."
+      ],
+      "signs_symptoms": [
+        "Peripheral edema (legs, ankles) 1+‑3+.",
+        "Weight gain > 2 kg in 48 h.",
+        "Rest or exertion dyspnea.",
+        "Chest: bibasilar crackles.",
+        "Elevated central venous pressure."
+      ],
+      "diagnostics": [
+        "Daily weight and intake/output (I/O) record.",
+        "Serum electrolytes: Na+ > 145 mEq/L, K+ variable.",
+        "Elevated BNP or NT‑proBNP.",
+        "Chest X‑ray: vascular congestion.",
+        "Echocardiogram to assess ejection fraction."
+      ],
+      "treatment": [
+        "Sodium restriction < 2 g/day and fluid restriction per prescription.",
+        "Loop diuretics (furosemide) and/or thiazides.",
+        "Control of underlying cause (e.g., heart failure therapy).",
+        "Supplemental oxygen if hypoxemia present.",
+        "Strict I/O and weight monitoring."
+      ],
+      "complications": [
+        "Hyponatremia or hyperkalemia from diuretics.",
+        "Respiratory failure from pulmonary edema.",
+        "Acute kidney injury.",
+        "Risk of deep vein thrombosis from stasis."
+      ],
+      "nursing_care": [
+        "Assess weight, edema, breathing, and congestion signs every 4 h.",
+        "Record fluid intake and output; alert if I/O > + 500 mL.",
+        "Keep patient in semi‑upright position to aid breathing.",
+        "Administer diuretics as ordered and observe clinical response.",
+        "Monitor electrolytes and renal function every 24 h."
+      ],
+      "patient_teaching": [
+        "Explain importance of sodium and fluid restriction.",
+        "Teach daily weight recording and reporting increases > 0.5 kg.",
+        "Instruct on warning signs: increased edema, dyspnea, chest pain.",
+        "Encourage medication adherence and follow‑up appointments.",
+        "Promote a low‑salt diet rich in fruits and vegetables."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [
+          "heart failure",
+          "chronic kidney disease",
+          "hepatic cirrhosis",
+          "excessive IV fluid administration"
+        ],
+        "evidenced_by": [
+          "peripheral edema",
+          "weight gain >2 kg/48 h",
+          "dyspnea",
+          "elevated central venous pressure"
+        ],
+        "outcomes": [
+          "Stable weight ±0.5 kg in 48 h",
+          "Edema reduced to <1+ in 72 h",
+          "Serum Na+ within 135‑145 mEq/L in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and record changes of ±0.1 kg.",
+            "rationale": "Rapidly detects fluid accumulation or loss."
+          },
+          {
+            "action": "Control intake and output every 4 h.",
+            "rationale": "Identifies fluid balance imbalances."
+          },
+          {
+            "action": "Apply sodium restriction < 2 g/day and fluid restriction per prescription.",
+            "rationale": "Reduces water retention and improves blood pressure."
+          },
+          {
+            "action": "Administer loop diuretic (furosemide) as ordered and observe urine output.",
+            "rationale": "Facilitates elimination of excess sodium and water."
+          },
+          {
+            "action": "Assess signs of pulmonary overload (crackles, SpO2) every 4 h.",
+            "rationale": "Prevents respiratory deterioration and pulmonary edema."
+          },
+          {
+            "action": "Educate patient on weight recording and warning signs.",
+            "rationale": "Promotes self‑care and early detection of relapse."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "loop diuretic use",
+          "hypervolemia",
+          "heart failure",
+          "renal dysfunction"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal range in 72 h",
+          "No arrhythmia or muscle weakness symptoms"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel (Na+, K+, Cl-) every 24 h.",
+            "rationale": "Detects early changes caused by diuretics."
+          },
+          {
+            "action": "Alert physician if K+ < 3.5 mEq/L or Na+ > 145 mEq/L.",
+            "rationale": "Prevents cardiac and neuromuscular complications."
+          },
+          {
+            "action": "Administer oral or IV potassium supplements as indicated.",
+            "rationale": "Corrects hypokalemia and reduces arrhythmia risk."
+          },
+          {
+            "action": "Reinforce education on potassium‑rich and low‑sodium foods.",
+            "rationale": "Supports maintenance of electrolytes within therapeutic range."
+          },
+          {
+            "action": "Monitor heart rhythm and blood pressure every 4 h.",
+            "rationale": "Identifies effects of electrolyte imbalances on cardiac function."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heart-failure",
+    "renal-insufficiency",
+    "edema",
+    "electrolyte-imbalance",
+    "diuretics"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Fluid and Electrolyte Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-1-fluid-and-electrolyte-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-10",
+  "factcheck": {
+    "checked": "2026-10-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Swelling and weight gain from fluid in your ankles, lower legs, or abdomen (belly).",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Symptoms of fluid overload include pitting edema, ascites, and dyspnea and crackles from fluid in the lungs."
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Heart failure can affect one or both sides of your heart: With right-sided heart failure , your heart is too weak to pump enough blood to your lungs to get oxygen.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Patients at risk for developing FVE are those with the following conditions: cirrhosis heart failure kidney failure pregnancy Symptoms of fluid overload include pitting edema, ascites, and dyspnea and crackles from fluid in the lungs.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Patient reports dyspnea with exertion.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "The normal serum sodium range is 135 to 145 mEq/L.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Potassium-wasting diuretics (loop diuretics and thiazide diuretics) are a common cause of hypokalemia.",
+        "source": 1
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Heart failure is a common chronic condition that often improves with diet and lifestyle modifications such as sodium restriction and fluid restriction.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

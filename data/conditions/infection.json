@@ -1,0 +1,480 @@
+{
+  "id": "infection",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infección oportunista en VIH (VIH)",
+    "aliases": [
+      "vih",
+      "infección",
+      "oportunista",
+      "inmunodepresión",
+      "oportunista vih"
+    ],
+    "summary": "Las personas con VIH presentan inmunosupresión que favorece infecciones oportunistas graves, como CMV, PCP y tuberculosis.",
+    "key_points": [
+      "CD4 <200 cél/µL aumenta riesgo de OI.",
+      "Los síntomas varían según el agente (pulmón, CNS, piel).",
+      "Diagnóstico combina pruebas de laboratorio y estudios de imagen.",
+      "El tratamiento incluye terapia antirretroviral y antimicrobianos específicos.",
+      "Prevención mediante profilaxis y medidas de control de infecciones."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El VIH destruye linfocitos CD4+, debilitando la respuesta inmune.",
+        "Disminución de CD4 permite proliferación de microorganismos normalmente controlados.",
+        "Las OI pueden reactivarse o adquirirse por exposición ambiental."
+      ],
+      "risk_factors": [
+        "CD4 <200 cél/µL o <14 % del total.",
+        "Terapia antirretroviral interrumpida o inadecuada.",
+        "Uso de corticosteroides o quimioterapia.",
+        "Exposición a agentes patógenos (tuberculosis, CMV, etc.)."
+      ],
+      "signs_symptoms": [
+        "Fiebre persistente, sudoración nocturna.",
+        "Tos seca y dificultad respiratoria (PCP).",
+        "Visión borrosa, pérdida de visión (CMV retinitis).",
+        "Dolor abdominal, diarrea crónica (MAC, criptosporidiosis)."
+      ],
+      "diagnostics": [
+        "Recuento de CD4 (≤200 cél/µL indica alto riesgo).",
+        "Carga viral VIH (copias/mL) para monitorizar control.",
+        "Cultivo, PCR o tinción de muestras según sospecha de OI.",
+        "Radiografía de tórax o TAC para PCP o TB."
+      ],
+      "treatment": [
+        "Terapia antirretroviral (TAR) continua.",
+        "Profilaxis: trimetoprim‑sulfametoxazol para PCP, azitromicina para MAC.",
+        "Antivirales específicos: ganciclovir o valganciclovir para CMV.",
+        "Antibióticos según sensibilidad para TB o bacterias."
+      ],
+      "complications": [
+        "Insuficiencia respiratoria por PCP.",
+        "Ceguera irreversible por CMV retinitis.",
+        "Meningitis o encefalitis por criptococo.",
+        "Desnutrición y pérdida de peso."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4 h y nivel de energía.",
+        "Monitorear saturación de O₂ y realizar ABG si hay dificultad respiratoria.",
+        "Administrar medicamentos según prescripción y observar efectos adversos.",
+        "Mantener aislamiento de contacto o respiratorio según agente.",
+        "Registrar resultados de laboratorio (CD4, carga viral)."
+      ],
+      "patient_teaching": [
+        "Importancia de la adherencia al TAR y a la profilaxis.",
+        "Técnicas de lavado de manos y uso de guantes para prevenir transmisión.",
+        "Reconocer signos de infección temprana y buscar atención inmediata.",
+        "Vacunación contra influenza y neumococo según pauta."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "VIH con CD4 <200 cél/µL",
+          "Terapia antirretroviral interrumpida",
+          "Uso de corticosteroides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de infección: ausencia de fiebre y signos locales en 48 h",
+          "Adherencia al TAR: >95 % de dosis tomadas en 30 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales y temperatura cada 4 h",
+            "rationale": "Detectar tempranamente fiebre o cambios hemodinámicos."
+          },
+          {
+            "action": "Enseñar lavado de manos correcto y uso de guantes",
+            "rationale": "Reducir exposición a patógenos transmisibles."
+          },
+          {
+            "action": "Reforzar la adherencia al TAR y profilaxis mediante recordatorios",
+            "rationale": "Mantener inmunidad y prevenir OI."
+          },
+          {
+            "action": "Aplicar aislamiento de contacto o respiratorio según agente sospechado",
+            "rationale": "Evitar la propagación a otros pacientes y al personal."
+          },
+          {
+            "action": "Monitorear resultados de CD4 y carga viral semanalmente",
+            "rationale": "Evaluar efectividad del tratamiento y riesgo de OI."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "Infección oportunista",
+          "Anemia asociada a VIH",
+          "Desnutrición"
+        ],
+        "evidenced_by": [
+          "Cansancio constante",
+          "Debilidad muscular",
+          "Disminución de la actividad diaria"
+        ],
+        "outcomes": [
+          "Nivel de energía: puntuación ≥4 en escala de 0‑5 en 7 días",
+          "Actividad tolerada: realizar ADL básicas sin ayuda en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y capacidad funcional cada turno",
+            "rationale": "Identificar cambios y planificar actividades de descanso."
+          },
+          {
+            "action": "Promover períodos de descanso y sueño de 7‑8 h nocturnos",
+            "rationale": "Facilitar recuperación y reducir sensación de cansancio."
+          },
+          {
+            "action": "Fomentar ingesta calórica adecuada (≥30 kcal/kg/día) y suplementación si es necesario",
+            "rationale": "Mejorar reservas energéticas y combatir desnutrición."
+          },
+          {
+            "action": "Coordinar con fisioterapia para ejercicios de bajo impacto",
+            "rationale": "Mantener masa muscular y aumentar tolerancia a la actividad."
+          },
+          {
+            "action": "Administrar suplementos de hierro o eritropoyetina según indicación médica",
+            "rationale": "Corregir anemia que contribuye a la fatiga."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opportunistic infection in HIV (HIV)",
+    "aliases": [
+      "hiv",
+      "infection",
+      "opportunistic",
+      "immunosuppression",
+      "opportunistic hiv"
+    ],
+    "summary": "People with HIV experience immunosuppression that predisposes them to serious opportunistic infections such as CMV, PCP, and tuberculosis.",
+    "key_points": [
+      "CD4 <200 cells/µL increases risk of OI.",
+      "Symptoms vary by agent (lung, CNS, skin).",
+      "Diagnosis combines laboratory tests and imaging studies.",
+      "Treatment includes antiretroviral therapy and specific antimicrobials.",
+      "Prevention through prophylaxis and infection control measures."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "HIV destroys CD4+ lymphocytes, weakening immune response.",
+        "Reduced CD4 allows proliferation of microorganisms normally controlled.",
+        "OI can reactivate or be acquired from environmental exposure."
+      ],
+      "risk_factors": [
+        "CD4 <200 cells/µL or <14 % of total.",
+        "Interrupted or inadequate antiretroviral therapy.",
+        "Use of corticosteroids or chemotherapy.",
+        "Exposure to pathogens (tuberculosis, CMV, etc.)."
+      ],
+      "signs_symptoms": [
+        "Persistent fever, night sweats.",
+        "Dry cough and respiratory difficulty (PCP).",
+        "Blurred vision, vision loss (CMV retinitis).",
+        "Abdominal pain, chronic diarrhea (MAC, cryptosporidiosis)."
+      ],
+      "diagnostics": [
+        "CD4 count (≤200 cells/µL indicates high risk).",
+        "HIV viral load (copies/mL) to monitor control.",
+        "Culture, PCR, or staining of samples based on suspected OI.",
+        "Chest X‑ray or CT for PCP or TB."
+      ],
+      "treatment": [
+        "Continuous antiretroviral therapy (ART).",
+        "Prophylaxis: trimethoprim‑sulfamethoxazole for PCP, azithromycin for MAC.",
+        "Specific antivirals: ganciclovir or valganciclovir for CMV.",
+        "Antibiotics per sensitivity for TB or bacteria."
+      ],
+      "complications": [
+        "Respiratory failure from PCP.",
+        "Irreversible blindness from CMV retinitis.",
+        "Meningitis or encephalitis from cryptococcus.",
+        "Malnutrition and weight loss."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4 h and energy level.",
+        "Monitor O₂ saturation and obtain ABG if respiratory difficulty.",
+        "Administer medications per prescription and monitor adverse effects.",
+        "Maintain contact or airborne isolation as appropriate for agent.",
+        "Record laboratory results (CD4, viral load)."
+      ],
+      "patient_teaching": [
+        "Importance of adherence to ART and prophylaxis.",
+        "Hand hygiene techniques and glove use to prevent transmission.",
+        "Recognize early signs of infection and seek prompt care.",
+        "Vaccination against influenza and pneumococcus per schedule."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "HIV with CD4 <200 cells/µL",
+          "Interrupted antiretroviral therapy",
+          "Use of corticosteroids"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: absence of fever and local signs within 48 h",
+          "ART adherence: >95 % of doses taken within 30 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs and temperature every 4 h",
+            "rationale": "Detect fever or hemodynamic changes early."
+          },
+          {
+            "action": "Teach proper handwashing and glove use",
+            "rationale": "Reduce exposure to transmissible pathogens."
+          },
+          {
+            "action": "Reinforce ART and prophylaxis adherence with reminders",
+            "rationale": "Maintain immunity and prevent OI."
+          },
+          {
+            "action": "Apply contact or airborne isolation as indicated by suspected agent",
+            "rationale": "Prevent spread to other patients and staff."
+          },
+          {
+            "action": "Monitor CD4 and viral load weekly",
+            "rationale": "Evaluate treatment effectiveness and OI risk."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "Opportunistic infection",
+          "HIV‑associated anemia",
+          "Malnutrition"
+        ],
+        "evidenced_by": [
+          "Constant fatigue",
+          "Muscle weakness",
+          "Reduced daily activity"
+        ],
+        "outcomes": [
+          "Energy level: score ≥4 on 0‑5 scale within 7 days",
+          "Tolerated activity: perform basic ADLs without assistance within 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and functional capacity each shift",
+            "rationale": "Identify changes and plan rest activities."
+          },
+          {
+            "action": "Promote 7‑8 h nightly sleep",
+            "rationale": "Facilitate recovery and reduce fatigue."
+          },
+          {
+            "action": "Encourage adequate caloric intake (≥30 kcal/kg/day) and supplement if needed",
+            "rationale": "Improve energy reserves and combat malnutrition."
+          },
+          {
+            "action": "Coordinate with PT for low‑impact exercises",
+            "rationale": "Maintain muscle mass and increase activity tolerance."
+          },
+          {
+            "action": "Administer iron or erythropoietin supplements as ordered",
+            "rationale": "Correct anemia contributing to fatigue."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opportunistic-infections",
+    "cd4-count",
+    "antiretroviral-therapy",
+    "immune-suppression"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: HIV and Infections",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hivandinfections.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Citomegalovirus",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/cytomegalovirusinfections.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Infection Cycle",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-1-infection-cycle",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Infection Cycle",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/10-1-infection-cycle",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-10",
+  "factcheck": {
+    "checked": "2026-10-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Having HIV can make infections harder to treat.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "The best way to prevent OIs infections is by taking your HIV medicines.",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Other steps you can take to help prevent OIs include: Avoiding exposure to contaminated food and water : Don't undercooked eggs, unpasteurized dairy products or fruit juices, or raw seed sprouts Don't drink water directly from a lake or river Talking to your provider about medicines and vaccines that prevent certain OIs Preventing exposure to other sexually transmitted infections (STIs) by using condoms every time you have sex Washing your hands",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "There are many types of OIs: Bacterial infections , including tuberculosis , Salmonella infection , and Mycobacterium avium complex (MAC) Viral infections , such as cytomegalovirus (CMV) and herpes simplex virus 1 (HSV-1) Fungal infections , like yeast infections , Pneumocystis carinii pneumonia (PCP), and histoplasmosis Parasitic infections , such as cryptosporidiosis and toxoplasmosis Having HIV can make infections harder to treat. People with",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Article: Prevalence of opportunistic fungal infections (candidiasis and cryptococcal meningitis) among HIV-positive...",
+        "source": 0
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The process of infection control includes handwashing, environmental sanitizing, proper waste management, and adherence to isolation precautions.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Indirect transmission can occur in a hospital from, for example, ineffective hand hygiene, improper cleaning of medical equipment, and failure to change gloves between patients.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

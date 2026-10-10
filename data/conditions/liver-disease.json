@@ -1,0 +1,544 @@
+{
+  "id": "liver-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Esteatosis hepática (MASLD/ALD)",
+    "aliases": [
+      "esteatosis hepática",
+      "hígado graso",
+      "masld",
+      "ald",
+      "esteatosis",
+      "hígado graso no alcohólico"
+    ],
+    "summary": "Acumulación excesiva de grasa en los hepatocitos que puede progresar a inflamación (MASH) y fibrosis.",
+    "key_points": [
+      "Acumulación de grasa >5% del peso hepático define esteatosis.",
+      "MASLD no está relacionada con consumo excesivo de alcohol; ALD sí.",
+      "MASH implica inflamación, daño hepatocelular y riesgo de fibrosis.",
+      "Diagnóstico se basa en ecografía, ALT/AST elevadas y exclusión de otras causas.",
+      "Pérdida de peso (7‑10%) y abstinencia de alcohol son tratamientos de primera línea.",
+      "Complicaciones incluyen cirrosis, hipertensión portal y carcinoma hepatocelular."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exceso de ácidos grasos y de novo lipogénesis supera la oxidación hepática.",
+        "Acumulación de triglicéridos forma gotitas en hepatocitos.",
+        "Estrés oxidativo y citocinas provocan inflamación (MASH).",
+        "Fibroblastos hepáticos se activan, generando fibrosis progresiva."
+      ],
+      "risk_factors": [
+        "Obesidad (IMC ≥30 kg/m²) y síndrome metabólico.",
+        "Diabetes tipo 2 y resistencia a la insulina.",
+        "Consumo de alcohol >30 g/día (ALD).",
+        "Hipertensión arterial y dislipidemia (triglicéridos >150 mg/dL).",
+        "Sedentarismo y dieta alta en azúcares simples."
+      ],
+      "signs_symptoms": [
+        "Mayoría asintomática; hallazgos incidentales en imágenes.",
+        "Fatiga, malestar abdominal y sensación de plenitud.",
+        "Hepatomegalia palpable.",
+        "Ictericia leve en etapas avanzadas."
+      ],
+      "diagnostics": [
+        "Ecografía abdominal: aumento de ecogenicidad hepática.",
+        "ALT y AST elevados (ALT > AST, razón <1).",
+        "GGT y fosfatasa alcalina pueden estar elevadas.",
+        "Bilirrubina total <1.2 mg/dL en etapas tempranas.",
+        "Eliminación de causas alcohólicas y hepáticas secundarias."
+      ],
+      "treatment": [
+        "Pérdida de peso 7‑10% mediante dieta hipocalórica y ejercicio ≥150 min/semana.",
+        "Abstinencia total de alcohol (ALD).",
+        "Control glucémico y dislipidemia (metformina, estatinas).",
+        "Vitamina E (800 IU/día) en pacientes sin diabetes.",
+        "Pioglitazona o liraglutida en casos seleccionados.",
+        "Cirugía bariátrica cuando la obesidad es mórbida."
+      ],
+      "complications": [
+        "Esteatohepatitis (MASH) → fibrosis y cirrosis.",
+        "Hipertensión portal y ascitis.",
+        "Encefalopatía hepática.",
+        "Carcinoma hepatocelular.",
+        "Insuficiencia hepática terminal."
+      ],
+      "nursing_care": [
+        "Evaluar dolor y distensión abdominal; palpar hepatomegalia.",
+        "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+        "Control diario de peso y balance hídrico.",
+        "Observar edema periférico y ascitis.",
+        "Revisar resultados de laboratorio: ALT, AST, GGT, bilirrubina, INR, albúmina.",
+        "Coordinar educación sobre dieta y actividad física."
+      ],
+      "patient_teaching": [
+        "Adoptar dieta mediterránea: baja en grasas saturadas y azúcares.",
+        "Limitar consumo de alcohol a cero (ALD) o <20 g/día (MASLD).",
+        "Realizar ejercicio aeróbico moderado ≥150 min/semana.",
+        "Objetivo de pérdida de peso 0.5‑1 kg/semana.",
+        "Importancia de controles hepáticos periódicos y adherencia al tratamiento.",
+        "Reconocer signos de complicación: ictericia, aumento rápido de abdomen, confusión."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "fatiga",
+          "dolor abdominal",
+          "hepatomegalia"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Capacidad para realizar actividades de la vida diaria sin fatiga excesiva: ≥80% del tiempo en 2 semanas",
+          "Nivel de energía ≥4 en escala de 0‑10 en 2 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y tolerancia al ejercicio usando escala de Borg antes y después de la actividad.",
+            "rationale": "Permite cuantificar la intolerancia y medir la mejora."
+          },
+          {
+            "action": "Planificar actividades graduales, iniciando con 5‑10 min de caminata y aumentar 5 min cada 2 días.",
+            "rationale": "El aumento progresivo mejora la capacidad aeróbica sin sobrecargar al hígado."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (descansos programados, dividir tareas).",
+            "rationale": "Reduce la fatiga y previene el agotamiento."
+          },
+          {
+            "action": "Monitorear signos vitales y saturación de O₂ antes de la actividad física.",
+            "rationale": "Detecta descompensación hemodinámica o hipoxemia."
+          },
+          {
+            "action": "Coordinar con nutricionista para asegurar ingesta calórica adecuada que favorezca la pérdida de peso sin malnutrición.",
+            "rationale": "Una nutrición adecuada sustenta la energía para la actividad."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "ascitis",
+          "vómitos",
+          "diarrea",
+          "uso de diuréticos",
+          "restricción de sodio excesiva"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico mantenido dentro de ±0.5 L en 48 h",
+          "Peso corporal estable (variación <0.5 kg) en 3 días"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 horas y comparar con órdenes médicas.",
+            "rationale": "Detecta pérdidas excesivas y permite intervención temprana."
+          },
+          {
+            "action": "Pesar al paciente diariamente a la misma hora y registrar cambios.",
+            "rationale": "El peso es indicador sensible de alteraciones de volumen."
+          },
+          {
+            "action": "Evaluar presencia de edema, turgencia de la piel y distensión abdominal.",
+            "rationale": "Identifica acumulación o déficit de líquidos."
+          },
+          {
+            "action": "Educar al paciente sobre consumo de líquidos adecuados y signos de deshidratación.",
+            "rationale": "Promueve autocuidado y prevención del déficit."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar la dosis de diuréticos según balance hídrico.",
+            "rationale": "Evita sobre‑diuresis que provoque déficit de volumen."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fatty liver disease (MASLD/ALD)",
+    "aliases": [
+      "fatty liver disease",
+      "fatty liver",
+      "masld",
+      "ald",
+      "non‑alcoholic fatty liver"
+    ],
+    "summary": "Excessive accumulation of fat in hepatocytes that can progress to inflammation (MASH) and fibrosis.",
+    "key_points": [
+      "Fat accumulation >5% of liver weight defines steatosis.",
+      "MASLD is not related to excessive alcohol consumption; ALD is.",
+      "MASH involves inflammation, hepatocellular damage and risk of fibrosis.",
+      "Diagnosis is based on ultrasound, elevated ALT/AST and exclusion of other causes.",
+      "Weight loss (7‑10%) and alcohol abstinence are first‑line treatments.",
+      "Complications include cirrhosis, portal hypertension and hepatocellular carcinoma."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Excess fatty acids and de novo lipogenesis exceed hepatic oxidation.",
+        "Accumulation of triglycerides forms droplets in hepatocytes.",
+        "Oxidative stress and cytokines trigger inflammation (MASH).",
+        "Hepatic fibroblasts are activated, producing progressive fibrosis."
+      ],
+      "risk_factors": [
+        "Obesity (BMI ≥30 kg/m²) and metabolic syndrome.",
+        "Type 2 diabetes and insulin resistance.",
+        "Alcohol consumption >30 g/day (ALD).",
+        "Hypertension and dyslipidemia (triglycerides >150 mg/dL).",
+        "Sedentary lifestyle and diet high in simple sugars."
+      ],
+      "signs_symptoms": [
+        "Mostly asymptomatic; incidental findings on imaging.",
+        "Fatigue, abdominal discomfort and fullness sensation.",
+        "Palpable hepatomegaly.",
+        "Mild jaundice in advanced stages."
+      ],
+      "diagnostics": [
+        "Abdominal ultrasound: increased hepatic echogenicity.",
+        "Elevated ALT and AST (ALT > AST, ratio <1).",
+        "GGT and alkaline phosphatase may be elevated.",
+        "Total bilirubin <1.2 mg/dL in early stages.",
+        "Exclusion of alcoholic and secondary hepatic causes."
+      ],
+      "treatment": [
+        "Weight loss 7‑10% via hypocaloric diet and exercise ≥150 min/week.",
+        "Total alcohol abstinence (ALD).",
+        "Glycemic control and dyslipidemia (metformin, statins).",
+        "Vitamin E (800 IU/day) in non‑diabetic patients.",
+        "Pioglitazone or liraglutide in selected cases.",
+        "Bariatric surgery when obesity is morbid."
+      ],
+      "complications": [
+        "Steatohepatitis (MASH) → fibrosis and cirrhosis.",
+        "Portal hypertension and ascites.",
+        "Hepatic encephalopathy.",
+        "Hepatocellular carcinoma.",
+        "End‑stage liver failure."
+      ],
+      "nursing_care": [
+        "Assess abdominal pain and distension; palpate hepatomegaly.",
+        "Monitor vital signs, especially blood pressure and heart rate.",
+        "Daily weight and fluid balance monitoring.",
+        "Observe peripheral edema and ascites.",
+        "Review lab results: ALT, AST, GGT, bilirubin, INR, albumin.",
+        "Coordinate education on diet and physical activity."
+      ],
+      "patient_teaching": [
+        "Adopt a Mediterranean diet: low in saturated fats and sugars.",
+        "Limit alcohol intake to zero (ALD) or <20 g/day (MASLD).",
+        "Engage in moderate aerobic exercise ≥150 min/week.",
+        "Goal weight loss 0.5‑1 kg/week.",
+        "Importance of periodic liver labs and treatment adherence.",
+        "Recognize signs of complications: jaundice, rapid abdominal swelling, confusion."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "fatigue",
+          "abdominal pain",
+          "hepatomegaly"
+        ],
+        "evidenced_by": [
+          "fatigue during activities of daily living",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Ability to perform activities of daily living without excessive fatigue: ≥80% of time in 2 weeks",
+          "Energy level ≥4 on 0‑10 scale in 2 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and exercise tolerance using the Borg scale before and after activity.",
+            "rationale": "Allows quantification of intolerance and measurement of improvement."
+          },
+          {
+            "action": "Plan gradual activities, starting with 5‑10 min of walking and increasing by 5 min every 2 days.",
+            "rationale": "Progressive increase improves aerobic capacity without overloading the liver."
+          },
+          {
+            "action": "Teach energy conservation techniques (scheduled rest, task division).",
+            "rationale": "Reduces fatigue and prevents exhaustion."
+          },
+          {
+            "action": "Monitor vital signs and O₂ saturation before physical activity.",
+            "rationale": "Detects hemodynamic decompensation or hypoxemia."
+          },
+          {
+            "action": "Coordinate with dietitian to ensure adequate caloric intake that supports weight loss without malnutrition.",
+            "rationale": "Proper nutrition sustains energy for activity."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "ascites",
+          "vomiting",
+          "diarrhea",
+          "diuretic use",
+          "excessive sodium restriction"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance maintained within ±0.5 L in 48 h",
+          "Body weight stable (variation <0.5 kg) in 3 days"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 hours and compare with medical orders.",
+            "rationale": "Detects excessive losses and allows early intervention."
+          },
+          {
+            "action": "Weigh the patient daily at the same time and record changes.",
+            "rationale": "Weight is a sensitive indicator of volume changes."
+          },
+          {
+            "action": "Assess for edema, skin turgor and abdominal distension.",
+            "rationale": "Identifies fluid accumulation or deficit."
+          },
+          {
+            "action": "Educate the patient on adequate fluid intake and signs of dehydration.",
+            "rationale": "Promotes self‑care and prevention of deficit."
+          },
+          {
+            "action": "Collaborate with the physician to adjust diuretic dosage based on fluid balance.",
+            "rationale": "Avoids over‑diuresis that causes volume deficit."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "non-alcoholic-fatty-liver-disease",
+    "cirrhosis",
+    "hepatic-encephalopathy",
+    "portal-hypertension",
+    "hepatocellular-carcinoma"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Steatotic Liver Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/steatoticliverdisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Esteatosis hepática",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/steatoticliverdisease.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-10",
+  "factcheck": {
+    "checked": "2026-10-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 48
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "In addition to fat in your liver, MASH may cause inflammation and liver damage. This can lead to fibrosis, or scarring, of the liver.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "MASLD is a type of steatotic liver disease that is not caused by heavy alcohol use.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "In addition to fat in your liver, MASH may cause inflammation and liver damage. This can lead to fibrosis, or scarring, of the liver.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Have type 2 diabetes and prediabetes",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Other specific treatments include viral suppression for viral hepatitis ; alcohol abstinence; treatment of metabolic syndromes; identification and cessation of use of drugs or toxins; and immunosuppression and prescription of corticosteroids for autoimmune disorders.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Signs and symptoms of cirrhosis include ascites dark-colored urine decreased urine output digestive problems edema hepatic encephalopathy jaundice light-colored stools motor dysfunction pruritus shortness of breath unexplained weight loss",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Common complications seen with chronic liver disease are esophageal varices , hepatic encephalopathy, hepatorenal syndrome (kidney dysfunction in patients with advanced liver disease), and hepatocellular carcinoma.",
+        "source": 2
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Chronic liver disease progresses in four stages: inflammation, fibrosis, cirrhosis , and end-stage liver disease (ESLD).",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Strict intake and output monitoring can allow the nurse to monitor fluid balance.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "A physical assessment may reveal a change in mental status, jaundice, ascites, peripheral edema, gynecomastia (enlarged breast tissue in male patients), testicular hypertrophy (enlarge",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "The patient reporting an improvement in symptoms, improved laboratory studies, and the patient demonstrating knowledge of their disorder and the importance of treatment compliance are all indications of positive outcomes.",
+        "source": 2
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

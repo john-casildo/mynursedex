@@ -1,0 +1,539 @@
+{
+  "id": "chronic-kidney-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad renal crónica (ERC)",
+    "aliases": [
+      "enfermedad renal crónica",
+      "ckd",
+      "insuficiencia renal",
+      "nefropatía crónica",
+      "riñón"
+    ],
+    "summary": "La ERC es la pérdida progresiva y permanente de la función renal, evaluada por una disminución sostenida del filtrado glomerular. Diabetes e hipertensión son las causas más frecuentes.",
+    "key_points": [
+      "eGFR <60 mL/min/1.73 m² por ≥3 meses indica ERC",
+      "Proteinuria >300 mg/día sugiere daño renal avanzado",
+      "Control estricto de presión arterial y glucemia ralentiza la progresión",
+      "Complicaciones comunes: anemia, enfermedad ósea‑mineral y desequilibrio electrolítico"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hipertensión o hiperglucemia dañan nefronas → esclerosis glomerular",
+        "Disminución del número funcional de nefronas reduce GFR",
+        "Retención de sodio y agua eleva presión arterial, creando círculo vicioso",
+        "Acumulación de desechos (creatinina, BUN) produce toxicidad sistémica"
+      ],
+      "risk_factors": [
+        "Diabetes mellitus tipo 2",
+        "Hipertensión arterial crónica",
+        "Historia familiar de enfermedad renal",
+        "Uso prolongado de AINEs o nefrotoxinas",
+        "Obesidad y tabaquismo"
+      ],
+      "signs_symptoms": [
+        "Fatiga, debilidad y pérdida de apetito",
+        "Edema periférico, especialmente en tobillos",
+        "Hipertensión resistente al tratamiento",
+        "Anemia de enfermedad crónica",
+        "Alteraciones del sueño por prurito o disnea"
+      ],
+      "diagnostics": [
+        "eGFR <60 mL/min/1.73 m² (creatinina sérica mg/dL elevada)",
+        "Proteinuria >300 mg/dL en muestra de orina de 24 h",
+        "Ecografía renal: aumento de tamaño o pérdida de corteza",
+        "Electrolitos: K⁺ 3.5‑5.0 mEq/L, Na⁺ 135‑145 mEq/L"
+      ],
+      "treatment": [
+        "Inhibidores de la ECA (enalapril) o ARB (losartán) para controlar presión arterial",
+        "Diuréticos de asa (furosemida) para manejo de edema",
+        "Control glucémico con metformina u otros antidiabéticos",
+        "Estatinas (atorvastatina) para reducir colesterol",
+        "Dieta baja en sodio (<2 g/d) y proteínas (0.8 g/kg/d)",
+        "Diálisis o trasplante en estadio 5"
+      ],
+      "complications": [
+        "Hipertensión secundaria",
+        "Anemia por deficiencia de eritropoyetina",
+        "Enfermedad ósea‑mineral (hiperfosfatemia, hipocalcemia)",
+        "Desequilibrio electrolítico (hiperpotasemia, hiponatremia)",
+        "Acidosis metabólica",
+        "Insuficiencia cardíaca"
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y peso diario",
+        "Registrar balance hídrico y salida de orina cada turno",
+        "Evaluar mucosas, turgencia cutánea y edema",
+        "Revisar resultados de laboratorio (creatinina, eGFR, electrolitos)",
+        "Administrar medicamentos según prescripción y observar efectos adversos",
+        "Preparar al paciente para sesiones de diálisis si corresponde"
+      ],
+      "patient_teaching": [
+        "Seguir dieta baja en sodio y proteínas según indicaciones dietéticas",
+        "Tomar los antihipertensivos y antidiabéticos exactamente como se prescriben",
+        "Reconocer signos de empeoramiento: aumento de edema, falta de aliento, cambios en la orina",
+        "Evitar AINEs y suplementos de potasio sin autorización",
+        "Importancia de asistir a controles de laboratorio y consultas regulares"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "disminución de filtración glomerular",
+          "uso de diuréticos",
+          "pérdida de potasio por diarrea",
+          "acidosis metabólica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico mantenido: K⁺ 3.5‑5.0 mEq/L en 48 h",
+          "Na⁺ 135‑145 mEq/L en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles séricos de potasio, sodio y bicarbonato cada 24 h",
+            "rationale": "Detectar alteraciones tempranas y prevenir arritmias"
+          },
+          {
+            "action": "Evaluar ingesta y salida de líquidos y registrar balance cada turno",
+            "rationale": "Mantener volumen adecuado que influye en electrolitos"
+          },
+          {
+            "action": "Administrar diuréticos según prescripción y observar signos de hipopotasemia",
+            "rationale": "Evitar pérdida excesiva de K⁺"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y sodio y su moderación",
+            "rationale": "Control dietético ayuda a estabilizar electrolitos"
+          },
+          {
+            "action": "Notificar al médico si K⁺ <3.5 mEq/L o >5.5 mEq/L",
+            "rationale": "Intervención oportuna para corrección"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "diuresis excesiva por furosemida",
+          "náuseas y vómitos",
+          "pérdida de apetito",
+          "insuficiencia renal avanzada"
+        ],
+        "evidenced_by": [
+          "presión arterial sistólica <90 mmHg",
+          "taquicardia >100 lpm",
+          "turgencia cutánea disminuida",
+          "peso corporal ↓ >2 kg en 48 h"
+        ],
+        "outcomes": [
+          "Presión arterial estable ≥100 mmHg en 24 h",
+          "Peso corporal estable ±0.5 kg en 48 h",
+          "Hidratación adecuada: mucosas húmedas en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar balance hídrico cada 8 h y comparar con órdenes",
+            "rationale": "Identificar déficit y ajustar fluidos"
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción y monitorizar signos vitales",
+            "rationale": "Restaurar volumen intravascular"
+          },
+          {
+            "action": "Evaluar piel y mucosas cada turno para detectar deshidratación",
+            "rationale": "Detección temprana de déficit de líquidos"
+          },
+          {
+            "action": "Educar al paciente sobre importancia de ingesta de líquidos y registrar consumo",
+            "rationale": "Promover autocuidado y prevención"
+          },
+          {
+            "action": "Colaborar con el médico para ajustar dosis de diuréticos si es necesario",
+            "rationale": "Reducir pérdida excesiva de líquidos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Chronic kidney disease (CKD)",
+    "aliases": [
+      "chronic kidney disease",
+      "ckd",
+      "renal failure",
+      "chronic nephropathy",
+      "kidney"
+    ],
+    "summary": "CKD is the progressive and permanent loss of kidney function, assessed by a sustained decline in glomerular filtration rate. Diabetes and hypertension are the most common causes.",
+    "key_points": [
+      "eGFR <60 mL/min/1.73 m² for ≥3 months indicates CKD",
+      "Proteinuria >300 mg/day suggests advanced kidney damage",
+      "Strict control of blood pressure and glucose slows progression",
+      "Common complications: anemia, bone‑mineral disease, and electrolyte imbalance"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hypertension or hyperglycemia damages nephrons → glomerular sclerosis",
+        "Reduction in functional nephron number decreases GFR",
+        "Sodium and water retention raises blood pressure, creating a vicious cycle",
+        "Accumulation of waste (creatinine, BUN) produces systemic toxicity"
+      ],
+      "risk_factors": [
+        "Type 2 diabetes mellitus",
+        "Chronic arterial hypertension",
+        "Family history of kidney disease",
+        "Prolonged use of NSAIDs or nephrotoxins",
+        "Obesity and smoking"
+      ],
+      "signs_symptoms": [
+        "Fatigue, weakness, and loss of appetite",
+        "Peripheral edema, especially in ankles",
+        "Treatment‑resistant hypertension",
+        "Anemia of chronic disease",
+        "Sleep disturbances from pruritus or dyspnea"
+      ],
+      "diagnostics": [
+        "eGFR <60 mL/min/1.73 m² (serum creatinine mg/dL elevated)",
+        "Proteinuria >300 mg/dL in a 24‑hour urine sample",
+        "Renal ultrasound: increased size or loss of cortex",
+        "Electrolytes: K⁺ 3.5‑5.0 mEq/L, Na⁺ 135‑145 mEq/L"
+      ],
+      "treatment": [
+        "ACE inhibitors (enalapril) or ARBs (losartan) to control blood pressure",
+        "Loop diuretics (furosemide) for edema management",
+        "Glucose control with metformin or other antidiabetics",
+        "Statins (atorvastatin) to lower cholesterol",
+        "Low‑sodium diet (<2 g/d) and protein (0.8 g/kg/d)",
+        "Dialysis or transplant in stage 5"
+      ],
+      "complications": [
+        "Secondary hypertension",
+        "Anemia due to erythropoietin deficiency",
+        "Bone‑mineral disease (hyperphosphatemia, hypocalcemia)",
+        "Electrolyte imbalance (hyperkalemia, hyponatremia)",
+        "Metabolic acidosis",
+        "Heart failure"
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate, and daily weight",
+        "Record fluid balance and urine output each shift",
+        "Assess mucous membranes, skin turgor, and edema",
+        "Review lab results (creatinine, eGFR, electrolytes)",
+        "Administer medications per prescription and monitor for adverse effects",
+        "Prepare patient for dialysis sessions if indicated"
+      ],
+      "patient_teaching": [
+        "Follow low‑sodium and protein diet as directed",
+        "Take antihypertensives and antidiabetics exactly as prescribed",
+        "Recognize signs of worsening: increased edema, shortness of breath, changes in urine",
+        "Avoid NSAIDs and potassium supplements without authorization",
+        "Importance of attending regular lab checks and appointments"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "decreased glomerular filtration",
+          "use of diuretics",
+          "potassium loss from diarrhea",
+          "metabolic acidosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance maintained: K⁺ 3.5‑5.0 mEq/L within 48 h",
+          "Na⁺ 135‑145 mEq/L within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum potassium, sodium, and bicarbonate levels every 24 h",
+            "rationale": "Detect early changes and prevent arrhythmias"
+          },
+          {
+            "action": "Assess fluid intake and output and record balance each shift",
+            "rationale": "Maintain adequate volume that influences electrolytes"
+          },
+          {
+            "action": "Administer diuretics per prescription and monitor for hypokalemia",
+            "rationale": "Prevent excessive K⁺ loss"
+          },
+          {
+            "action": "Educate patient on potassium‑rich and sodium‑rich foods and moderation",
+            "rationale": "Dietary control helps stabilize electrolytes"
+          },
+          {
+            "action": "Notify physician if K⁺ <3.5 mEq/L or >5.5 mEq/L",
+            "rationale": "Timely intervention for correction"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "excessive diuresis from furosemide",
+          "nausea and vomiting",
+          "loss of appetite",
+          "advanced renal failure"
+        ],
+        "evidenced_by": [
+          "systolic blood pressure <90 mmHg",
+          "tachycardia >100 bpm",
+          "decreased skin turgor",
+          "body weight ↓ >2 kg in 48 h"
+        ],
+        "outcomes": [
+          "Stable blood pressure ≥100 mmHg in 24 h",
+          "Stable body weight ±0.5 kg in 48 h",
+          "Adequate hydration: moist mucous membranes in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid balance every 8 h and compare with orders",
+            "rationale": "Identify deficit and adjust fluids"
+          },
+          {
+            "action": "Administer intravenous fluids per prescription and monitor vital signs",
+            "rationale": "Restore intravascular volume"
+          },
+          {
+            "action": "Assess skin and mucous membranes each shift to detect dehydration",
+            "rationale": "Early detection of fluid deficit"
+          },
+          {
+            "action": "Educate patient on importance of fluid intake and record consumption",
+            "rationale": "Promote self‑care and prevention"
+          },
+          {
+            "action": "Collaborate with physician to adjust diuretic dosage if necessary",
+            "rationale": "Reduce excessive fluid loss"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypertension",
+    "anemia",
+    "electrolyte-imbalance",
+    "dialysis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Chronic Kidney Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/chronickidneydisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedad renal crónica",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/chronickidneydisease.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Chronic Disease and Chronic Illness",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/42-3-chronic-disease-and-chronic-illness",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Renal Function and Chronic Kidney Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/20-7-renal-function-and-chronic-kidney-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-10",
+  "factcheck": {
+    "checked": "2026-10-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Diabetes and high blood pressure are the most common causes of CKD.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Treatments cannot cure kidney disease, but they may slow kidney disease. They include medicines to lower blood pressure , control blood sugar , and lower cholesterol .",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Other major risk factors for kidney disease are (American Kidney Fund, n.d.): African, American Indian, or Asian heritage diabetes mellitus family history of kidney disease glomerulonephritis hypertension increasing age medication use (e.g., nonsteroidal anti-inflammatory drugs, antibiotics) obesity polycystic kidney disease pyelonephritis smoking urinary tract obstruction (e.g., urinary tumors, enlarged prostate, kidney stones) Pathophysiology o",
+        "source": 3
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Other major risk factors for kidney disease are (American Kidney Fund, n.d.): African, American Indian, or Asian heritage diabetes mellitus family history of kidney disease glomerulonephritis hypertension increasing age medication use (e.g., nonsteroidal anti-inflammatory drugs, antibiotics) obesity polycystic kidney disease pyelonephritis smoking urinary tract obstruction (e.g., urinary tumors, enlarged prostate, kidney stones) Pathophysiology o",
+        "source": 3
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "If the disease progresses, the patient will begin to develop symptoms, which may include nausea and vomiting, fatigue, sleep disturbance, urinary changes, decreased cognition, muscle cramping, peripheral edema, pruritis (itching), resistant HTN, chest pain, and shortness of breath (CDC, 2022a).",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.complications.5": {
+        "status": "supported",
+        "quote": "Common chronic diseases associated with the cardiovascular system include HTN, hyperlipidemia, coronary artery disease, peripheral vascular disease, heart failure, valvular disease, and atrial fibrillation.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "As part of the assessment process, the nurse will closely monitor fluid balance through accurate recording of intake and output as well as electrolyte balance with regular assessments of kidney values, including serum creatinine and BUN levels, and GFR.",
+        "source": 3
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "It is important to closely monitor patients receiving diuretic therapy for electrolyte imbalances (e.g., hypokalemia), worsening renal failure, and hypotension , the latter two of which are common with the use of diuretics.",
+        "source": 3
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "For patients with more severe or end-stage kidney disease, dialysis , or the use of a dialyzer machine to filter the blood and remove toxins when kidney function is decreased, is often indicated.",
+        "source": 3
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "The nurse should monitor the patient closely for signs of fluid overload, such as edema, shortness of breath, or crackles in the lungs.",
+        "source": 3
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "As part of the assessment process, the nurse will closely monitor fluid balance through accurate recording of intake and output as well as electrolyte balance with regular assessments of kidney values, including serum creatinine and BUN levels, and GFR.",
+        "source": 3
+      }
+    }
+  }
+}
