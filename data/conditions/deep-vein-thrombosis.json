@@ -1,0 +1,508 @@
+{
+  "id": "deep-vein-thrombosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trombosis venosa profunda (TVP)",
+    "aliases": [
+      "trombosis venosa profunda",
+      "tvp",
+      "trombosis profunda",
+      "coágulo pierna",
+      "tromboembolismo",
+      "trombosis"
+    ],
+    "summary": "Coágulo que se forma en una vena profunda, generalmente en la pierna o muslo, y puede desprenderse provocando embolia pulmonar.",
+    "key_points": [
+      "La inmovilización prolongada es el factor de riesgo más frecuente.",
+      "El diagnóstico se confirma con ecografía Doppler y D‑dímero elevado.",
+      "El tratamiento de primera línea son anticoagulantes de bajo peso molecular.",
+      "Complicación grave: embolia pulmonar que pone en riesgo la vida."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Estasis venosa favorece la activación de la cascada de coagulación.",
+        "Daño endotelial expone colágeno y libera factor tisular.",
+        "Hipercogulación (p. ej., factor V Leiden) aumenta la formación del trombo.",
+        "El trombo puede crecer y bloquear el flujo venoso, provocando edema."
+      ],
+      "risk_factors": [
+        "Inmovilización prolongada (viajes, reposo en cama).",
+        "Cirugía mayor, especialmente ortopédica de cadera o rodilla.",
+        "Cáncer activo o tratamiento oncológico.",
+        "Terapia hormonal, anticonceptivos orales o reposición de estrógenos.",
+        "Historia previa de TVP o trombofilia hereditaria."
+      ],
+      "signs_symptoms": [
+        "Dolor o sensibilidad localizada sobre la vena afectada.",
+        "Calor y enrojecimiento de la piel sobre la zona.",
+        "Edema unilateral, a menudo con aumento de circunferencia >3 cm.",
+        "Sensación de pesadez o rigidez en la extremidad."
+      ],
+      "diagnostics": [
+        "Ecografía Doppler venosa: muestra trombo y flujo disminuido.",
+        "D‑dímero >500 ng/mL sugiere actividad trombótica (valor de referencia varía).",
+        "Coagulación: PT/INR y aPTT para monitorizar terapia anticoagulante.",
+        "Radiografía de tórax si se sospecha embolia pulmonar."
+      ],
+      "treatment": [
+        "Heparina de bajo peso molecular (enoxaparina, dalteparina) subcutánea.",
+        "Anticoagulante oral (warfarina, rivaroxabán, apixabán) según indicación.",
+        "Compresión graduada (20‑30 mmHg) y elevación del miembro afectado.",
+        "Analgesia con paracetamol o AINE según tolerancia."
+      ],
+      "complications": [
+        "Embolia pulmonar aguda con disnea y dolor torácico.",
+        "Síndrome postrombótico: edema crónico, úlceras y dolor.",
+        "Insuficiencia venosa crónica y úlceras venosas.",
+        "Trombocitopenia inducida por heparina (HIT)."
+      ],
+      "nursing_care": [
+        "Evaluar dolor (escala 0‑10), edema y cambios de coloración cada 4 h.",
+        "Monitorear signos vitales y oxigenación; alerta ante disnea súbita.",
+        "Controlar INR (2‑3) si está en warfarina; observar sangrado.",
+        "Aplicar compresión graduada y mantener la pierna elevada 30 min‑1 h.",
+        "Fomentar movilización temprana y ejercicios de rango articular."
+      ],
+      "patient_teaching": [
+        "Tomar anticoagulantes exactamente como se indica; no omitir dosis.",
+        "Reconocer signos de embolia pulmonar: dificultad para respirar, dolor torácico, tos con sangre.",
+        "Usar medias de compresión y evitar cruzar las piernas por períodos prolongados.",
+        "Mantener hidratación adecuada y realizar pausas activas en viajes largos.",
+        "Reportar cualquier sangrado inusual o hematoma al profesional de salud."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de tromboembolismo venoso",
+        "type": "risk",
+        "related_to": [
+          "inmovilización prolongada",
+          "cirugía reciente",
+          "cáncer activo",
+          "terapia hormonal",
+          "antecedentes de TVP"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Prevención de embolia pulmonar: sin evidencia de EP en 30 días",
+          "Control de la coagulación: INR terapéutico 2‑3 durante terapia con warfarina"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de dolor torácico, disnea y taquicardia cada 4 h",
+            "rationale": "Detección temprana de embolia pulmonar potencial"
+          },
+          {
+            "action": "Monitorear INR diariamente si está en warfarina y ajustar dosis según protocolo",
+            "rationale": "Mantener rango terapéutico reduce riesgo de trombosis y sangrado"
+          },
+          {
+            "action": "Aplicar medias de compresión graduada y educar su uso correcto",
+            "rationale": "Mejora el retorno venoso y disminuye estasis"
+          },
+          {
+            "action": "Fomentar movilización activa cada 2 h y ejercicios de flexión de tobillo",
+            "rationale": "Rompe la estasis venosa y previene formación de trombos"
+          },
+          {
+            "action": "Mantener hidratación adecuada (≥2 L/día) y ofrecer líquidos claros",
+            "rationale": "La hemoconcentración aumenta la viscosidad sanguínea"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "trombosis venosa profunda"
+        ],
+        "evidenced_by": [
+          "dolor localizado sobre la vena",
+          "calor y sensibilidad en la zona",
+          "edema unilateral"
+        ],
+        "outcomes": [
+          "Alivio del dolor: puntuación ≤3 en escala de 0‑10 en 24 h",
+          "Reducción del edema: disminución de circunferencia ≤1 cm en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar analgésico según prescripción y evaluar efecto 30 min después",
+            "rationale": "Controlar el dolor facilita la movilización y mejora la perfusión"
+          },
+          {
+            "action": "Elevar la extremidad afectada 30 min‑1 h cada 2 h",
+            "rationale": "Reduce la presión venosa y disminuye el edema"
+          },
+          {
+            "action": "Aplicar calor húmedo tibio durante 15‑20 min, 3 veces al día",
+            "rationale": "El calor aumenta el flujo sanguíneo y alivia la sensibilidad"
+          },
+          {
+            "action": "Revaluar dolor y edema cada 4 h usando escala de dolor y medición de circunferencia",
+            "rationale": "Monitoreo continuo permite ajustar intervenciones oportunamente"
+          },
+          {
+            "action": "Enseñar al paciente técnicas de respiración profunda y relajación",
+            "rationale": "Disminuye la percepción del dolor y mejora la oxigenación"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Deep vein thrombosis (DVT)",
+    "aliases": [
+      "deep vein thrombosis",
+      "dvt",
+      "deep thrombosis",
+      "leg clot",
+      "thromboembolism",
+      "thrombosis"
+    ],
+    "summary": "A clot that forms in a deep vein, usually in the leg or thigh, and can detach causing pulmonary embolism.",
+    "key_points": [
+      "Prolonged immobility is the most common risk factor.",
+      "Diagnosis is confirmed with Doppler ultrasound and elevated D‑dimer.",
+      "First‑line treatment is low‑molecular‑weight heparin.",
+      "Severe complication: life‑threatening pulmonary embolism."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Venous stasis promotes activation of the coagulation cascade.",
+        "Endothelial injury exposes collagen and releases tissue factor.",
+        "Hypercoagulability (e.g., Factor V Leiden) increases thrombus formation.",
+        "The thrombus can grow and block venous flow, causing edema."
+      ],
+      "risk_factors": [
+        "Prolonged immobility (travel, bed rest).",
+        "Major surgery, especially hip or knee orthopedic procedures.",
+        "Active cancer or oncologic treatment.",
+        "Hormonal therapy, oral contraceptives, or estrogen replacement.",
+        "History of DVT or hereditary thrombophilia."
+      ],
+      "signs_symptoms": [
+        "Pain or tenderness over the affected vein.",
+        "Heat and redness of the skin over the area.",
+        "Unilateral edema, often with circumference increase >3 cm.",
+        "Feeling of heaviness or stiffness in the limb."
+      ],
+      "diagnostics": [
+        "Venous Doppler ultrasound: shows thrombus and reduced flow.",
+        "D‑dimer >500 ng/mL suggests thrombotic activity (reference range varies).",
+        "Coagulation: PT/INR and aPTT to monitor anticoagulant therapy.",
+        "Chest X‑ray if pulmonary embolism is suspected."
+      ],
+      "treatment": [
+        "Low‑molecular‑weight heparin (enoxaparin, dalteparin) subcutaneously.",
+        "Oral anticoagulant (warfarin, rivaroxaban, apixaban) as indicated.",
+        "Graduated compression (20‑30 mmHg) and elevation of the affected limb.",
+        "Analgesia with acetaminophen or NSAIDs as tolerated."
+      ],
+      "complications": [
+        "Acute pulmonary embolism with dyspnea and chest pain.",
+        "Post‑thrombotic syndrome: chronic edema, ulcers, and pain.",
+        "Chronic venous insufficiency and venous ulcers.",
+        "Heparin‑induced thrombocytopenia (HIT)."
+      ],
+      "nursing_care": [
+        "Assess pain (0‑10 scale), edema, and color changes every 4 h.",
+        "Monitor vital signs and oxygenation; alert to sudden dyspnea.",
+        "Control INR (2‑3) if on warfarin; watch for bleeding.",
+        "Apply graduated compression and keep the leg elevated 30 min‑1 h.",
+        "Encourage early mobilization and range‑of‑motion exercises."
+      ],
+      "patient_teaching": [
+        "Take anticoagulants exactly as prescribed; do not miss doses.",
+        "Recognize signs of pulmonary embolism: shortness of breath, chest pain, hemoptysis.",
+        "Use compression stockings and avoid crossing legs for prolonged periods.",
+        "Maintain adequate hydration and take active breaks on long trips.",
+        "Report any unusual bleeding or hematoma to the healthcare provider."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for venous thromboembolism",
+        "type": "risk",
+        "related_to": [
+          "prolonged immobility",
+          "recent surgery",
+          "active cancer",
+          "hormonal therapy",
+          "history of DVT"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Prevention of pulmonary embolism: no evidence of PE within 30 days",
+          "Control of coagulation: therapeutic INR 2‑3 during warfarin therapy"
+        ],
+        "interventions": [
+          {
+            "action": "Assess for chest pain, dyspnea, and tachycardia every 4 h",
+            "rationale": "Early detection of potential pulmonary embolism"
+          },
+          {
+            "action": "Monitor INR daily if on warfarin and adjust dose per protocol",
+            "rationale": "Maintaining therapeutic range reduces risk of thrombosis and bleeding"
+          },
+          {
+            "action": "Apply graduated compression stockings and educate on proper use",
+            "rationale": "Improves venous return and decreases stasis"
+          },
+          {
+            "action": "Encourage active mobilization every 2 h and ankle flexion exercises",
+            "rationale": "Breaks venous stasis and prevents clot formation"
+          },
+          {
+            "action": "Maintain adequate hydration (≥2 L/day) and offer clear fluids",
+            "rationale": "Hemoconcentration increases blood viscosity"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "deep vein thrombosis"
+        ],
+        "evidenced_by": [
+          "localized pain over the vein",
+          "heat and tenderness in the area",
+          "unilateral edema"
+        ],
+        "outcomes": [
+          "Pain relief: score ≤3 on 0‑10 scale within 24 h",
+          "Edema reduction: circumference decrease ≤1 cm within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administer analgesic per prescription and evaluate effect 30 min later",
+            "rationale": "Pain control facilitates mobilization and improves perfusion"
+          },
+          {
+            "action": "Elevate the affected limb 30 min‑1 h every 2 h",
+            "rationale": "Reduces venous pressure and decreases edema"
+          },
+          {
+            "action": "Apply warm moist heat for 15‑20 min, 3 times daily",
+            "rationale": "Heat increases blood flow and alleviates sensitivity"
+          },
+          {
+            "action": "Reassess pain and edema every 4 h using pain scale and circumference measurement",
+            "rationale": "Continuous monitoring allows timely adjustment of interventions"
+          },
+          {
+            "action": "Teach patient deep breathing and relaxation techniques",
+            "rationale": "Reduces pain perception and improves oxygenation"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "pulmonary-embolism",
+    "post-thrombotic-syndrome"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Deep Vein Thrombosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/deepveinthrombosis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Trombosis venosa profunda",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/deepveinthrombosis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Clotting and Coagulation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-1-introduction-to-clotting-and-coagulation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-11",
+  "factcheck": {
+    "checked": "2026-10-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 24,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The clot can break off, travel through the circulatory system, and lodge within the lungs, causing a pulmonary embolism (PE) , which can be life-threatening.",
+        "source": 3
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Factor V Leiden is a blood-clotting disorder that increases the client’s risk of thrombosis.",
+        "source": 3
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Abnormal blood flow can occur due to prolonged immobility (such as during travel, surgeries, or hospitalization), atherosclerosis within a blood vessel, or an abnormal heart rhythm called atrial fibrillation, where blood pools in the atria because there is no organized contraction of the chambers.",
+        "source": 3
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Apixaban is FDA approved to reduce stroke risk in clients with atrial fibrillation, to treat DVT/PE both acutely and to reduce the risk of recurrent thromboembolism after the initial treatment period, and for prevention of DVT after hip or knee replacement surgery.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Risk factors for DVTs include stasis of blood flow caused by confinement to a bed, limited movement, sitting for a long time (such as during travel), or paralysis; increased estrogen caused by oral contraception or pregnancy; certain medical conditions such as cancer; personal or family history of DVT; increased age; obesity; catheter placement; or genetic clotting disorders.",
+        "source": 3
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Risk factors for DVTs include stasis of blood flow caused by confinement to a bed, limited movement, sitting for a long time (such as during travel), or paralysis; increased estrogen caused by oral contraception or pregnancy; certain medical conditions such as cancer; personal or family history of DVT; increased age; obesity; catheter placement; or genetic clotting disorders.",
+        "source": 3
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Risk factors for DVTs include stasis of blood flow caused by confinement to a bed, limited movement, sitting for a long time (such as during travel), or paralysis; increased estrogen caused by oral contraception or pregnancy; certain medical conditions such as cancer; personal or family history of DVT; increased age; obesity; catheter placement; or genetic clotting disorders.",
+        "source": 3
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Common symptoms are : Warmth and tenderness over the vein Pain or swelling in the part of the body affected Skin redness Treatment includes medicines to ease pain and inflammation, break up clots and keep new clots from forming.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Common symptoms are : Warmth and tenderness over the vein Pain or swelling in the part of the body affected Skin redness Treatment includes medicines to ease pain and inflammation, break up clots and keep new clots from forming.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Partial thromboplastin time (PTT) or activated partial thromboplastin time (aPTT) : A PTT is a laboratory test obtained via venous blood sample that measures how much time the blood takes to clot.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "contradicted",
+        "quote": "A pulmonary embolism is commonly diagnosed with a computed tomography pulmonary angiogram (CTPA), a specialized type of x-ray that allows visualization of the pulmonary vessels.",
+        "source": 3
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "These newer medications include dabigatran, apixaban, rivaroxaban, and edoxaban.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Heparin-induced thrombocytopenia (HIT) is a rare although major complication of heparin therapy.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Clients with a PE often describe chest or back pain and have difficulty breathing, tachycardia, hemoptysis (coughing up blood), and if severe, hemodynamic instability (Centers for Disease Control and Prevention [CDC], 2020).",
+        "source": 3
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "If you are taking a long car or plane trip, take a break, walk or stretch your legs and drink plenty of liquids.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "The client taking an anticoagulant should: Recognize the signs and symptoms of bleeding as described under adverse effects and notify providers immediately if any of these signs or symptoms occur.",
+        "source": 2
+      }
+    }
+  }
+}

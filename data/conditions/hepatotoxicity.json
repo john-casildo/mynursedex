@@ -1,0 +1,468 @@
+{
+  "id": "hepatotoxicity",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hepatotoxicidad",
+    "aliases": [
+      "hepatotoxicidad",
+      "toxicidad hepática",
+      "daño hepático",
+      "enzimas hepáticas elevadas",
+      "lesión hepática"
+    ],
+    "summary": "Daño al hígado causado por fármacos, sustancias tóxicas o enfermedades, que se manifiesta con elevación de enzimas hepáticas y alteración de la función hepática.",
+    "key_points": [
+      "Se diagnostica por aumento de AST/ALT > 3 veces el límite superior normal.",
+      "Los antiinflamatorios (celecoxib) e interferón beta son fármacos comunes que pueden producir hepatotoxicidad.",
+      "Los síntomas pueden ser inespecíficos: náuseas, ictericia, dolor abdominal.",
+      "El manejo incluye suspensión del agente causal y monitoreo de pruebas hepáticas.",
+      "Complicaciones graves incluyen insuficiencia hepática aguda y coagulopatía."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El fármaco o tóxico se metaboliza en el hepatocitos, generando metabolitos reactivos.",
+        "Los metabolitos dañan membranas celulares y proteínas, provocando necrosis o apoptosis.",
+        "Se libera AST, ALT y bilirrubina al torrente sanguíneo.",
+        "La inflamación y la respuesta inmunitaria pueden agravar el daño."
+      ],
+      "risk_factors": [
+        "Uso prolongado de antiinflamatorios no esteroideos (ej. celecoxib).",
+        "Terapia con interferón beta o algunos antirretrovirales.",
+        "Enfermedad hepática preexistente ( hepatitis viral, esteatosis).",
+        "Consumo de alcohol y exposición a toxinas industriales."
+      ],
+      "signs_symptoms": [
+        "Náuseas, vómitos y pérdida de apetito.",
+        "Ictericia (color amarillento de piel y escleróticas).",
+        "Dolor en hipocondrio derecho.",
+        "Fatiga y malestar general."
+      ],
+      "diagnostics": [
+        "AST y ALT > 3× límite superior normal (U/L).",
+        "Bilirrubina total > 1.2 mg/dL.",
+        "Fosfatasa alcalina y GGT elevadas en daño colestásico.",
+        "Ecografía hepática para descartar obstrucción biliar."
+      ],
+      "treatment": [
+        "Suspender el fármaco sospechoso.",
+        "Hidratación intravenosa con solución salina isotónica.",
+        "N-acetilcisteína en casos de toxicidad por acetaminofén.",
+        "Monitorizar pruebas hepáticas cada 48‑72 h."
+      ],
+      "complications": [
+        "Insuficiencia hepática aguda.",
+        "Coagulopatía por disminución de factores de coagulación.",
+        "Encefalopatía hepática.",
+        "Hipoglucemia por alteración del metabolismo de la glucosa."
+      ],
+      "nursing_care": [
+        "Evaluar signos de ictericia y dolor abdominal cada turno.",
+        "Monitorear AST, ALT, bilirrubina y tiempo de protrombina.",
+        "Mantener hidratación adecuada; registrar ingesta y salida de líquidos.",
+        "Evitar administración de otros hepatotóxicos y alcohol.",
+        "Preparar al paciente para posibles pruebas de imagen."
+      ],
+      "patient_teaching": [
+        "Informar sobre la necesidad de suspender el medicamento y reportar síntomas.",
+        "Enseñar a reconocer ictericia y dolor hepático y buscar atención inmediata.",
+        "Recomendar evitar alcohol y sustancias hepatotóxicas durante el tratamiento.",
+        "Explicar la importancia del seguimiento de pruebas hepáticas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "daño hepático que altera metabolismo de electrolitos",
+          "uso de diuréticos concomitantes",
+          "hipovolemia",
+          "insuficiencia hepática"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na+ 135‑145 mEq/L y K+ 3.5‑5.0 mEq/L en 48 h",
+          "Sin signos de arritmia relacionados con alteraciones electrolíticas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear Na+, K+, Cl- y Ca2+ en sangre cada 24 h",
+            "rationale": "Detectar desviaciones tempranas y prevenir complicaciones cardíacas"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno",
+            "rationale": "Evaluar balance hídrico que influye en los niveles electrolíticos"
+          },
+          {
+            "action": "Administrar soluciones intravenosas según prescripción, evitando soluciones con alto contenido de potasio si K+ está elevado",
+            "rationale": "Corregir desequilibrios sin sobrecargar al hígado"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y sodio y su consumo moderado",
+            "rationale": "Promover autocontrol del equilibrio electrolítico"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hipervolemia inicial seguida de fuga capilar",
+          "náuseas y vómitos",
+          "diarrea asociada",
+          "uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen intravascular adecuado: presión arterial > 90/60 mmHg en 24 h",
+          "Urinación > 0.5 mL/kg/h en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas) cada turno",
+            "rationale": "Identificar precozmente déficit de líquidos"
+          },
+          {
+            "action": "Monitorear peso diario y balance hídrico",
+            "rationale": "Detectar cambios en el volumen corporal"
+          },
+          {
+            "action": "Administrar fluidos IV según orden médica, preferiblemente solución salina isotónica",
+            "rationale": "Restaurar el volumen circulatorio sin sobrecargar al hígado"
+          },
+          {
+            "action": "Instruir al paciente a tomar pequeños sorbos de líquidos claros cada 2‑3 h",
+            "rationale": "Mantener hidratación oral y reducir riesgo de deshidratación"
+          },
+          {
+            "action": "Revisar y ajustar medicamentos diuréticos si están presentes",
+            "rationale": "Evitar pérdida excesiva de agua y electrolitos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hepatotoxicity",
+    "aliases": [
+      "hepatotoxicity",
+      "hepatic toxicity",
+      "liver damage",
+      "elevated liver enzymes",
+      "liver injury"
+    ],
+    "summary": "Damage to the liver caused by drugs, toxic substances, or diseases, manifested by elevated liver enzymes and impaired liver function.",
+    "key_points": [
+      "Diagnosed by AST/ALT > 3 times the upper normal limit.",
+      "Common drugs that can cause hepatotoxicity include anti‑inflammatories (celecoxib) and interferon beta.",
+      "Symptoms may be nonspecific: nausea, jaundice, abdominal pain.",
+      "Management includes discontinuation of the offending agent and monitoring of liver tests.",
+      "Severe complications include acute liver failure and coagulopathy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The drug or toxin is metabolized in hepatocytes, generating reactive metabolites.",
+        "These metabolites damage cell membranes and proteins, causing necrosis or apoptosis.",
+        "AST, ALT, and bilirubin are released into the bloodstream.",
+        "Inflammation and immune response can worsen the damage."
+      ],
+      "risk_factors": [
+        "Prolonged use of nonsteroidal anti‑inflammatories (e.g., celecoxib).",
+        "Therapy with interferon beta or certain antiretrovirals.",
+        "Pre‑existing liver disease (viral hepatitis, steatosis).",
+        "Alcohol consumption and exposure to industrial toxins."
+      ],
+      "signs_symptoms": [
+        "Nausea, vomiting, loss of appetite.",
+        "Jaundice (yellowing of skin and sclera).",
+        "Right upper quadrant abdominal pain.",
+        "Fatigue and general malaise."
+      ],
+      "diagnostics": [
+        "AST and ALT > 3× upper normal limit (U/L).",
+        "Total bilirubin > 1.2 mg/dL (20 µmol/L).",
+        "Elevated alkaline phosphatase and GGT in cholestatic injury.",
+        "Abdominal ultrasound to rule out biliary obstruction."
+      ],
+      "treatment": [
+        "Discontinue the suspected drug.",
+        "Intravenous hydration with isotonic saline solution.",
+        "N‑acetylcysteine in acetaminophen toxicity cases.",
+        "Monitor liver tests every 48‑72 hours."
+      ],
+      "complications": [
+        "Acute liver failure.",
+        "Coagulopathy due to decreased clotting factors.",
+        "Hepatic encephalopathy.",
+        "Hypoglycemia from altered glucose metabolism."
+      ],
+      "nursing_care": [
+        "Assess for jaundice and abdominal pain each shift.",
+        "Monitor AST, ALT, bilirubin, and prothrombin time.",
+        "Maintain adequate hydration; record fluid intake and output.",
+        "Avoid administration of other hepatotoxins and alcohol.",
+        "Prepare the patient for possible imaging studies."
+      ],
+      "patient_teaching": [
+        "Inform about the need to stop the medication and report symptoms.",
+        "Teach recognition of jaundice and liver pain and seek immediate care.",
+        "Recommend avoiding alcohol and hepatotoxic substances during treatment.",
+        "Explain the importance of follow‑up liver tests."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "liver damage altering electrolyte metabolism",
+          "concomitant diuretic use",
+          "hypovolemia",
+          "hepatic failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+ 135‑145 mEq/L and K+ 3.5‑5.0 mEq/L within 48 h",
+          "No arrhythmias related to electrolyte disturbances"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor Na+, K+, Cl-, and Ca2+ in blood every 24 h",
+            "rationale": "Detect early deviations and prevent cardiac complications"
+          },
+          {
+            "action": "Record fluid intake and output each shift",
+            "rationale": "Assess fluid balance influencing electrolyte levels"
+          },
+          {
+            "action": "Administer IV solutions per prescription, avoiding high‑potassium solutions if K+ is elevated",
+            "rationale": "Correct imbalances without overloading the liver"
+          },
+          {
+            "action": "Educate patient on potassium and sodium‑rich foods and moderate consumption",
+            "rationale": "Promote self‑control of electrolyte balance"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "initial hypervolemia followed by capillary leak",
+          "nausea and vomiting",
+          "associated diarrhea",
+          "diuretic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate intravascular volume: blood pressure > 90/60 mmHg within 24 h",
+          "Urine output > 0.5 mL/kg/h within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess dehydration signs (skin turgor, dry mucous membranes) each shift",
+            "rationale": "Early identification of fluid deficit"
+          },
+          {
+            "action": "Monitor daily weight and fluid balance",
+            "rationale": "Detect changes in body volume"
+          },
+          {
+            "action": "Administer IV fluids per order, preferably isotonic saline",
+            "rationale": "Restore circulating volume without overloading the liver"
+          },
+          {
+            "action": "Instruct patient to take small sips of clear fluids every 2‑3 h",
+            "rationale": "Maintain oral hydration and reduce dehydration risk"
+          },
+          {
+            "action": "Review and adjust diuretic medications if present",
+            "rationale": "Prevent excessive water and electrolyte loss"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "drug-induced-liver-injury",
+    "hepatitis",
+    "liver-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: HIV Medicines",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hivmedicines.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Drugs Used in the Treatment of Multiple Sclerosis",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-4-drugs-used-in-the-treatment-of-multiple-sclerosis",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-11",
+  "factcheck": {
+    "checked": "2026-10-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Inform the provider of manifestations related to liver injury, such as jaundice, nausea, right upper quadrant pain, dark urine, and clay-colored stools.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Notify the provider of right upper quadrant pain, jaundice, dark urine, anorexia, fatigue, and clay-colored stools.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Notify the provider of right upper quadrant pain, jaundice, dark urine, anorexia, fatigue, and clay-colored stools.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "If PRES is suspected, the drug should be discontinued.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Maintain adequate hydration by drinking plenty of water throughout the day to help the kidneys flush out excess uric acid from the body.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Imaging studies: X-rays, ultrasounds, CT scans, or MRIs can help visualize inflamed tissues and identify the extent of inflammation or structural damage.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Notify the health care provider if manifestations of liver injury occur, such as dark urine, clay-colored stools, right upper quadrant pain, or jaundice.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Monitor the following lab studies before starting the medication and periodically throughout therapy: complete blood cell count (CBC) with differential, thyroid function, and liver function tests.",
+        "source": 1
+      }
+    }
+  }
+}

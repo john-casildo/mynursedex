@@ -1,0 +1,546 @@
+{
+  "id": "liver-failure",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia hepática (IH)",
+    "aliases": [
+      "insuficiencia hepática",
+      "fallo hepático",
+      "ic",
+      "hepático",
+      "insuficiencia hepática aguda",
+      "insuficiencia hepática crónica"
+    ],
+    "summary": "Pérdida grave de la función hepática que impide la síntesis de proteínas, la detoxificación y la producción de bilis. Puede ser aguda o crónica y se asocia a ictericia, ascitis y encefalopatía.",
+    "key_points": [
+      "Disminución de la síntesis de albúmina y factores de coagulación.",
+      "Acumulación de bilirrubina causa ictericia y prurito.",
+      "Ascitis y edema reflejan hipertensión portal.",
+      "Encefalopatía hepática se presenta con alteración mental.",
+      "Laboratorio: AST/ALT elevados, INR >1.5, albúmina <3.5 g/dL."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño hepatocelular reduce síntesis de proteínas plasmáticas.",
+        "Obstrucción del flujo portal genera hipertensión portal.",
+        "Hipertensión portal produce ascitis y varices esofágicas.",
+        "Acumulación de amoníaco y toxinas causa encefalopatía.",
+        "Disminución de la detoxificación lleva a hipercalemia y acidosis."
+      ],
+      "risk_factors": [
+        "Consumo crónico de alcohol.",
+        "Infección viral (HBV, HCV).",
+        "Exposición a hepatotóxicos (medicamentos, químicos).",
+        "Enfermedad autoinmune.",
+        "Obesidad y esteatohepatitis no alcohólica."
+      ],
+      "signs_symptoms": [
+        "Ictericia (piel y escleróticas amarillentas).",
+        "Ascitis con distensión abdominal.",
+        "Edema periférico, especialmente en tobillos.",
+        "Confusión, asterixis, somnolencia.",
+        "Hemorragias por coagulopatía."
+      ],
+      "diagnostics": [
+        "AST, ALT >2‑3 veces límite superior normal.",
+        "Bilirrubina total >2 mg/dL.",
+        "INR >1.5 y tiempo de protrombina prolongado.",
+        "Albúmina <3.5 g/dL.",
+        "Ecografía hepática: tamaño reducido, nódulos, flujo portal alterado."
+      ],
+      "treatment": [
+        "Restricción de sodio <2 g/día y manejo de líquidos.",
+        "Diuréticos de asa (furosemida) y espironolactona para ascitis.",
+        "Lactulosa y rifaximina para encefalopatía hepática.",
+        "Albúmina intravenosa en casos de hipovolemia.",
+        "Vitamina K para corregir coagulopatía."
+      ],
+      "complications": [
+        "Encefalopatía hepática grave.",
+        "Hemorragia digestiva por varices.",
+        "Síndrome hepatorrenal.",
+        "Coagulopatía y sangrado espontáneo.",
+        "Infecciones peritoneales (peritonitis bacteriana espontánea)."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y nivel de conciencia cada 2‑4 h.",
+        "Registrar ingesta y eliminación; objetivo balance hídrico neutro.",
+        "Evaluar abdomen: distensión, turgencia, presencia de ascitis.",
+        "Controlar peso diario; alerta aumento >2 kg/24 h.",
+        "Vigilar electrolitos y coagulación; notificar valores críticos."
+      ],
+      "patient_teaching": [
+        "Seguir dieta baja en sodio y evitar alcohol.",
+        "Tomar medicamentos según indicación, sin omitir dosis.",
+        "Reconocer signos de sangrado (moretones, hematuria).",
+        "Reportar cambios en nivel de conciencia o asterixis.",
+        "Acudir a controles de laboratorio y ecografía regularmente."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "ascitis",
+          "hipertensión portal",
+          "retención de sodio"
+        ],
+        "evidenced_by": [
+          "edema periférico",
+          "distensión abdominal",
+          "aumento de peso >2 kg en 24 h",
+          "crepitación pulmonar"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y eliminación dentro de ±500 mL en 24 h",
+          "Edema: reducir edema periférico visible en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y eliminación cada 4 h y comparar con objetivo de balance hídrico",
+            "rationale": "Permite detectar acumulación de líquidos y ajustar terapia diurética"
+          },
+          {
+            "action": "Elevar extremidades inferiores 30° cuando haya edema",
+            "rationale": "Facilita el retorno venoso y disminuye la acumulación intersticial"
+          },
+          {
+            "action": "Administrar diuréticos según prescripción y observar respuesta clínica",
+            "rationale": "Promueve la excreción de sodio y agua para reducir ascitis y edema"
+          },
+          {
+            "action": "Aplicar compresión ligera en piernas si no hay contraindicación",
+            "rationale": "Ayuda a movilizar el líquido intersticial hacia la circulación"
+          },
+          {
+            "action": "Evaluar abdomen por turgencia y medir circunferencia cada 12 h",
+            "rationale": "Monitorea la progresión o mejoría de la ascitis"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "diuresis con furosemida",
+          "ascitis",
+          "vómitos",
+          "diarrea",
+          "malabsorción"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos: mantener Na+ 135‑145 mEq/L y K+ 3.5‑5.0 mEq/L",
+          "Calcio sérico: mantener 8.5‑10.5 mg/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener muestra de sangre para electrolitos cada 24 h",
+            "rationale": "Detecta alteraciones tempranas y permite corrección oportuna"
+          },
+          {
+            "action": "Administrar suplementos de potasio o magnesio según orden médica",
+            "rationale": "Previene hipocalemia y arritmias asociadas"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio (plátano, papaya) y limitar diuréticos sin supervisión",
+            "rationale": "Promueve autocuidado y evita desequilibrios evitables"
+          },
+          {
+            "action": "Monitorear ECG por cambios de onda T o arritmias cuando se administre furosemida",
+            "rationale": "La hipokalemia puede producir alteraciones cardíacas"
+          },
+          {
+            "action": "Registrar signos de neuromuscular (calambres, debilidad) cada turno",
+            "rationale": "Indicadores clínicos de desequilibrio electrolítico"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Liver failure (LF)",
+    "aliases": [
+      "liver failure",
+      "hepatic failure",
+      "ic",
+      "hepatic",
+      "acute liver failure",
+      "chronic liver failure"
+    ],
+    "summary": "Severe loss of liver function that impairs protein synthesis, detoxification, and bile production. It can be acute or chronic and is associated with jaundice, ascites, and encephalopathy.",
+    "key_points": [
+      "Decreased synthesis of albumin and clotting factors.",
+      "Accumulation of bilirubin causes jaundice and pruritus.",
+      "Ascites and edema reflect portal hypertension.",
+      "Hepatic encephalopathy presents with altered mental status.",
+      "Lab: AST/ALT elevated, INR >1.5, albumin <3.5 g/dL."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hepatocellular damage reduces plasma protein synthesis.",
+        "Portal flow obstruction generates portal hypertension.",
+        "Portal hypertension produces ascites and esophageal varices.",
+        "Accumulation of ammonia and toxins causes encephalopathy.",
+        "Reduced detoxification leads to hyperkalemia and acidosis."
+      ],
+      "risk_factors": [
+        "Chronic alcohol consumption.",
+        "Viral infection (HBV, HCV).",
+        "Exposure to hepatotoxins (medications, chemicals).",
+        "Autoimmune disease.",
+        "Obesity and non‑alcoholic steatohepatitis."
+      ],
+      "signs_symptoms": [
+        "Jaundice (yellow skin and sclera).",
+        "Ascites with abdominal distension.",
+        "Peripheral edema, especially in ankles.",
+        "Confusion, asterixis, drowsiness.",
+        "Bleeding due to coagulopathy."
+      ],
+      "diagnostics": [
+        "AST, ALT >2‑3× upper limit of normal.",
+        "Total bilirubin >2 mg/dL.",
+        "INR >1.5 and prolonged prothrombin time.",
+        "Albumin <3.5 g/dL.",
+        "Abdominal ultrasound: reduced size, nodules, altered portal flow."
+      ],
+      "treatment": [
+        "Sodium restriction <2 g/day and fluid management.",
+        "Loop diuretics (furosemide) and spironolactone for ascites.",
+        "Lactulose and rifaximin for hepatic encephalopathy.",
+        "Intravenous albumin in cases of hypovolemia.",
+        "Vitamin K to correct coagulopathy."
+      ],
+      "complications": [
+        "Severe hepatic encephalopathy.",
+        "Digestive bleeding from varices.",
+        "Hepatorenal syndrome.",
+        "Coagulopathy and spontaneous bleeding.",
+        "Peritoneal infections (spontaneous bacterial peritonitis)."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and level of consciousness every 2‑4 h.",
+        "Record intake and output; goal neutral fluid balance.",
+        "Assess abdomen: distension, turgor, presence of ascites.",
+        "Weigh daily; alert if weight increases >2 kg/24 h.",
+        "Monitor electrolytes and coagulation; report critical values."
+      ],
+      "patient_teaching": [
+        "Follow a low‑sodium diet and avoid alcohol.",
+        "Take medications as prescribed, do not skip doses.",
+        "Recognize signs of bleeding (bruising, hematuria).",
+        "Report changes in level of consciousness or asterixis.",
+        "Attend regular lab and ultrasound follow‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [
+          "ascites",
+          "portal hypertension",
+          "sodium retention"
+        ],
+        "evidenced_by": [
+          "peripheral edema",
+          "abdominal distension",
+          "weight gain >2 kg in 24 h",
+          "pulmonary crackles"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL in 24 h",
+          "Edema: reduce visible peripheral edema within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 4 h and compare with fluid balance goal",
+            "rationale": "Allows detection of fluid accumulation and adjustment of diuretic therapy"
+          },
+          {
+            "action": "Elevate lower extremities 30° when edema is present",
+            "rationale": "Facilitates venous return and reduces interstitial accumulation"
+          },
+          {
+            "action": "Administer diuretics as prescribed and observe clinical response",
+            "rationale": "Promotes sodium and water excretion to reduce ascites and edema"
+          },
+          {
+            "action": "Apply light compression to legs if no contraindication",
+            "rationale": "Helps mobilize interstitial fluid into circulation"
+          },
+          {
+            "action": "Assess abdomen for turgor and measure circumference every 12 h",
+            "rationale": "Monitors progression or improvement of ascites"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "furosemide diuresis",
+          "ascites",
+          "vomiting",
+          "diarrhea",
+          "malabsorption"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes: maintain Na+ 135‑145 mEq/L and K+ 3.5‑5.0 mEq/L",
+          "Serum calcium: maintain 8.5‑10.5 mg/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain blood sample for electrolytes every 24 h",
+            "rationale": "Detects early changes and allows timely correction"
+          },
+          {
+            "action": "Administer potassium or magnesium supplements as ordered",
+            "rationale": "Prevents hypokalemia and associated arrhythmias"
+          },
+          {
+            "action": "Educate patient on potassium‑rich foods (banana, papaya) and limit unsupervised diuretics",
+            "rationale": "Promotes self‑care and avoids avoidable imbalances"
+          },
+          {
+            "action": "Monitor ECG for T‑wave changes or arrhythmias when furosemide is given",
+            "rationale": "Hypokalemia can cause cardiac alterations"
+          },
+          {
+            "action": "Record neuromuscular signs (cramps, weakness) each shift",
+            "rationale": "Clinical indicators of electrolyte imbalance"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cirrhosis",
+    "hepatic-encephalopathy",
+    "ascites",
+    "coagulopathy",
+    "jaundice"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hepatitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hepatitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Heart Failure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-1-heart-failure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-11",
+  "factcheck": {
+    "checked": "2026-10-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "It contributes to metabolism, storage of fat-soluble vitamins, protein synthesis, detoxification, and bile production.",
+        "source": 2
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Signs of chronic liver disease may be nonspecific and include anorexia, weight loss, fatigue, ascites, esophageal varices, or jaundice (Sharma & Nagalli, 2023).",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Liver function tests may show increased alanine transaminase (ALT) level and aspartate aminotransferase (AST) levels, bilirubin and prothrombin times will be increased, and albumin level decreased.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "A mental status decline accompanying an increase in ammonia level may indicate hepatic encephalopathy.",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Portal Hypertension Another liver condition, portal hypertension , is an increase in pressure within the portal venous system because of resistance to portal blood flow.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "The most common types of viral hepatitis are A, B, C, D, and E.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Autoimmune hepatitis cannot be prevented.",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Jaundice occurs when skin and sclera (whites of the eyes) ( Figure 19.17 ) turn yellow as a result of too much bilirubin in the body.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Figure 19.19 Ascites is a condition in which the abdominal cavity fills with fluid that shifts from the intravascular to the interstitial space, resulting in hypovolemia.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "The bleeding at a venipuncture site followed by oozing of blood from every site or orifice available could indicate coagulopathy, such as disseminated intravascular coagulation.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Common complications seen with chronic liver disease are esophageal varices , hepatic encephalopathy, hepatorenal syndrome (kidney dysfunction in patients with advanced liver disease), and hepatocellular carcinoma.",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "The bleeding at a venipuncture site followed by oozing of blood from every site or orifice available could indicate coagulopathy, such as disseminated intravascular coagulation.",
+        "source": 2
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Take heart failure medications as prescribed by their health care provider.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Blood ammonia levels may be elevated, indicating hepatic encephalopathy ( Table 19.10 ).",
+        "source": 2
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

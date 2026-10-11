@@ -1,0 +1,241 @@
+{
+  "id": "dialysis",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Diálisis",
+    "aliases": [
+      "dialisis",
+      "hemodialisis",
+      "peritoneal",
+      "riñon artificial",
+      "dialisis crónica"
+    ],
+    "summary": "Procedimiento que sustituye la función renal eliminando desechos, exceso de agua y corrigiendo electrolitos mediante hemodiálisis o diálisis peritoneal.",
+    "key_points": [
+      "Dos tipos principales: hemodiálisis y diálisis peritoneal",
+      "Se requiere acceso vascular (fístula, catéter) o catéter peritoneal",
+      "Objetivo: remover urea, creatinina, exceso de sodio y agua",
+      "Complicaciones comunes: hipotensión, infección del acceso, desequilibrio electrolítico"
+    ],
+    "sections": {
+      "purpose": [
+        "Reemplazar la filtración glomerular perdida",
+        "Eliminar toxinas metabólicas (urea, creatinina)",
+        "Regular el balance hídrico y electrolítico",
+        "Mantener la homeostasis ácido‑base"
+      ],
+      "procedure": [
+        "Verificar acceso vascular (fístula/graft) o catéter peritoneal",
+        "Conectar al dializador y ajustar flujo sanguíneo (200‑400 mL/min)",
+        "Seleccionar composición del dializado según labs",
+        "Monitorear presión arterial y signos de hipotensión cada 30 min",
+        "Desconectar, aplicar presión al sitio y registrar volumen ultrafiltrado"
+      ],
+      "safety": [
+        "Controlar temperatura del dializado (36‑37 °C)",
+        "Observar signos de infección en el acceso (rubor, secreción)",
+        "Revisar niveles de K⁺, Na⁺, Ca²⁺ antes y después de la sesión",
+        "Mantener anticoagulación adecuada (heparina) y vigilar sangrado"
+      ],
+      "nursing_care": [
+        "Valorar peso seco y presión arterial antes de iniciar",
+        "Obtener laboratorio de electrolitos, BUN, creatinina cada 1‑2 semanas",
+        "Durante la sesión observar calambres, náuseas o hipotensión",
+        "Después de la sesión registrar peso post‑dialisis y volumen removido",
+        "Reportar sangrado del acceso, fiebre o cambios en labs"
+      ],
+      "documentation": [
+        "Tipo de diálisis y duración de la sesión",
+        "Volumen de ultrafiltración y peso pre/post",
+        "Signos vitales y reacción del paciente durante la terapia",
+        "Estado del acceso o catéter y cualquier complicación",
+        "Ordenes médicas y educación al paciente"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "insuficiencia renal crónica",
+          "uso de diálisis",
+          "pérdida de electrolitos durante ultrafiltración",
+          "dieta alta en potasio"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: mantener K⁺ 3.5‑5.0 mEq/L",
+          "Volumen de líquidos: peso pre‑y post‑dialisis dentro del 2 % del objetivo",
+          "BUN/creatinina: valores estables según orden médica"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles séricos de electrolitos antes y después de cada sesión",
+            "rationale": "Permite detectar desequilibrios y ajustar el dializado a tiempo"
+          },
+          {
+            "action": "Registrar presión arterial y frecuencia cardíaca cada 30 min durante la terapia",
+            "rationale": "Previene hipotensión y permite intervención temprana"
+          },
+          {
+            "action": "Inspeccionar el sitio de acceso para signos de infección o sangrado",
+            "rationale": "Reduce riesgo de sepsis y complicaciones hemorrágicas"
+          },
+          {
+            "action": "Calcular y documentar el volumen de ultrafiltración basado en peso seco",
+            "rationale": "Asegura eliminación adecuada de exceso de agua sin deshidratación"
+          },
+          {
+            "action": "Educar al paciente sobre restricción de potasio y sodio en la dieta",
+            "rationale": "Ayuda a mantener electrolitos dentro de rangos seguros entre sesiones"
+          },
+          {
+            "action": "Mantener la temperatura del dializado entre 36‑37 °C y verificar la composición",
+            "rationale": "Evita choque térmico y contribuye al equilibrio electrolítico"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Dialysis",
+    "aliases": [
+      "dialysis",
+      "hemodialysis",
+      "peritoneal",
+      "artificial kidney",
+      "chronic dialysis"
+    ],
+    "summary": "Procedure that replaces kidney function by removing waste, excess water, and correcting electrolytes via hemodialysis or peritoneal dialysis.",
+    "key_points": [
+      "Two main types: hemodialysis and peritoneal dialysis",
+      "Requires vascular access (fistula, graft) or peritoneal catheter",
+      "Goal: remove urea, creatinine, excess sodium and water",
+      "Common complications: hypotension, access infection, electrolyte imbalance"
+    ],
+    "sections": {
+      "purpose": [
+        "Replace lost glomerular filtration",
+        "Eliminate metabolic toxins (urea, creatinine)",
+        "Regulate fluid and electrolyte balance",
+        "Maintain acid‑base homeostasis"
+      ],
+      "procedure": [
+        "Verify vascular access (fistula/graft) or peritoneal catheter",
+        "Connect to dialyzer and set blood flow (200‑400 mL/min)",
+        "Select dialysate composition based on labs",
+        "Monitor blood pressure and signs of hypotension every 30 min",
+        "Disconnect, apply pressure to site and record ultrafiltration volume"
+      ],
+      "safety": [
+        "Control dialysate temperature (36‑37 °C)",
+        "Observe signs of access infection (redness, discharge)",
+        "Check K⁺, Na⁺, Ca²⁺ levels before and after session",
+        "Maintain adequate anticoagulation (heparin) and monitor bleeding"
+      ],
+      "nursing_care": [
+        "Assess dry weight and blood pressure before starting",
+        "Obtain electrolyte labs, BUN, creatinine every 1‑2 weeks",
+        "During session watch for cramps, nausea, or hypotension",
+        "After session record post‑dialysis weight and removed volume",
+        "Report access bleeding, fever, or lab changes"
+      ],
+      "documentation": [
+        "Type of dialysis and session duration",
+        "Ultrafiltration volume and pre/post weights",
+        "Vital signs and patient reaction during therapy",
+        "Access or catheter status and any complications",
+        "Medical orders and patient education"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "chronic kidney disease",
+          "dialysis use",
+          "electrolyte loss during ultrafiltration",
+          "high potassium diet"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: maintain K⁺ 3.5‑5.0 mEq/L",
+          "Fluid volume: pre‑ and post‑dialysis weight within 2 % of goal",
+          "BUN/creatinine: stable values per medical order"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolyte levels before and after each session",
+            "rationale": "Detect imbalances and adjust dialysate in time"
+          },
+          {
+            "action": "Record blood pressure and heart rate every 30 min during therapy",
+            "rationale": "Prevent hypotension and allow early intervention"
+          },
+          {
+            "action": "Inspect access site for infection or bleeding signs",
+            "rationale": "Reduce risk of sepsis and hemorrhagic complications"
+          },
+          {
+            "action": "Calculate and document ultrafiltration volume based on dry weight",
+            "rationale": "Ensure adequate removal of excess water without dehydration"
+          },
+          {
+            "action": "Educate patient on potassium and sodium restriction in diet",
+            "rationale": "Help maintain electrolytes within safe ranges between sessions"
+          },
+          {
+            "action": "Maintain dialysate temperature between 36‑37 °C and verify composition",
+            "rationale": "Avoid thermal shock and support electrolyte balance"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hemodialysis",
+    "peritoneal-dialysis",
+    "electrolyte-imbalance",
+    "fluid-overload",
+    "chronic-kidney-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Dialysis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/dialysis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Diálisis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/dialysis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Nursing Management of Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-4-nursing-management-of-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Renal Function and Chronic Kidney Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/20-7-renal-function-and-chronic-kidney-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-11"
+}

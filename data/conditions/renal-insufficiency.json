@@ -1,0 +1,540 @@
+{
+  "id": "renal-insufficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia renal crónica (ERC)",
+    "aliases": [
+      "insuficiencia renal",
+      "enfermedad renal crónica",
+      "erc",
+      "ri",
+      "nefropatía",
+      "insuficiencia renal crónica"
+    ],
+    "summary": "Pérdida progresiva e irreversible de la función renal que reduce la capacidad de filtrar sangre y mantener el equilibrio homeostático.",
+    "key_points": [
+      "CKD se define por GFR <60 mL/min/1.73 m² por ≥3 meses.",
+      "Diabetes e hipertensión son las causas más frecuentes.",
+      "Los pacientes pueden estar asintomáticos hasta estadio avanzado.",
+      "El manejo incluye control de presión arterial, glucemia y lípidos, y restricción de sodio y proteínas.",
+      "Complicaciones comunes: anemia, hiperfosfatemia, enfermedad ósea renal y enfermedad cardiovascular."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño crónico a nefronas → pérdida de unidades filtrantes.",
+        "Disminución del GFR → acumulación de urea, creatinina y electrolitos.",
+        "Activación del sistema renina‑angiotensina‑aldosterona → hipertensión y retención de sodio.",
+        "Alteración de la producción de eritropoyetina → anemia.",
+        "Desequilibrio de calcio‑fosfato → enfermedad ósea renal."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus tipo 1 y 2.",
+        "Hipertensión arterial crónica.",
+        "Enfermedad glomerular (nefropatía membranosa, glomerulonefritis).",
+        "Historia familiar de enfermedad renal.",
+        "Uso prolongado de AINEs o nefrotoxinas."
+      ],
+      "signs_symptoms": [
+        "Edema periférico, especialmente en tobillos.",
+        "Hipertensión arterial persistente.",
+        "Fatiga y debilidad por anemia.",
+        "Náuseas, pérdida de apetito y prurito.",
+        "Cambios en la micción: oliguria o poliuria."
+      ],
+      "diagnostics": [
+        "Creatinina sérica ↑ (≥1.3 mg/dL en hombres, ≥1.1 mg/dL en mujeres).",
+        "eGFR calculado <60 mL/min/1.73 m² por ≥3 meses.",
+        "Proteinuria ≥300 mg/24 h o relación proteína/creatinina >0.3.",
+        "Electrolitos: K⁺ ↑ o ↓, Na⁺ ↓, Ca²⁺ ↓, fosfato ↑.",
+        "Hemoglobina <12 g/dL (anemia)."
+      ],
+      "treatment": [
+        "Inhibidores de la ECA (enalapril) o ARBs (losartán) para controlar presión arterial.",
+        "Diuréticos de asa (furosemida) para manejo de edema.",
+        "Control glucémico con insulina o antidiabéticos orales.",
+        "Restricción de sodio <2 g/día y proteínas según estadio.",
+        "Quelantes de fosfato (sevelamer) y suplementos de vitamina D.",
+        "Eritropoyetina para anemia y, en estadio terminal, diálisis o trasplante."
+      ],
+      "complications": [
+        "Hipertensión resistente.",
+        "Anemia por déficit de eritropoyetina.",
+        "Hiperfosfatemia y enfermedad ósea renal.",
+        "Acidosis metabólica.",
+        "Enfermedad cardiovascular acelerada.",
+        "Uremia con síntomas neurológicos."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y peso diario.",
+        "Evaluar signos de sobrecarga o déficit de líquidos (edema, turgencia cutánea).",
+        "Controlar laboratorio: creatinina, BUN, electrolitos, hemoglobina y fosfato.",
+        "Administrar diuréticos y antihipertensivos según prescripción.",
+        "Promover dieta baja en sodio y proteínas según indicaciones del dietista.",
+        "Preparar al paciente y familia para posibles terapias de reemplazo renal."
+      ],
+      "patient_teaching": [
+        "Importancia de adherir al plan de medicación antihipertensiva y antidiabética.",
+        "Restricción de sal: evitar alimentos procesados y usar hierbas para sazonar.",
+        "Controlar ingesta de líquidos si se indica restricción; registrar ingesta y salida.",
+        "Reconocer signos de edema, hipertensión o hipoglucemia y reportarlos.",
+        "Programar y asistir a exámenes de laboratorio periódicos.",
+        "Información básica sobre diálisis y trasplante renal como opciones futuras."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "disminución del filtrado glomerular",
+          "uso de diuréticos de asa",
+          "acumulación de residuos nitrogenados"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico mantenido: Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L",
+          "Creatinina sérica estable o disminuida en 2 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles de Na⁺, K⁺, Ca²⁺ y fosfato cada 48 h.",
+            "rationale": "Detectar alteraciones tempranas y ajustar tratamiento."
+          },
+          {
+            "action": "Evaluar signos de hiperkalemia (palpitaciones, debilidad).",
+            "rationale": "La hiperkalemia es una complicación frecuente en CKD."
+          },
+          {
+            "action": "Administrar suplementos o quelantes según prescripción.",
+            "rationale": "Corregir deficiencias o excesos de electrolitos."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y su limitación.",
+            "rationale": "Control dietético ayuda a mantener K⁺ dentro de rango seguro."
+          },
+          {
+            "action": "Registrar y reportar cualquier cambio en el ECG al médico.",
+            "rationale": "Alteraciones electrolíticas pueden producir arritmias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "uso de diuréticos de asa",
+          "náuseas y vómitos",
+          "pérdida de apetito"
+        ],
+        "evidenced_by": [
+          "peso corporal ↓",
+          "presión arterial <100/60 mmHg",
+          "taquicardia",
+          "turgencia cutánea disminuida",
+          "membranas mucosas secas"
+        ],
+        "outcomes": [
+          "Presión arterial mantenida entre 100‑130/60‑80 mmHg",
+          "Mucosas húmedas y turgencia cutánea adecuada"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Determinar balance hídrico y ajustar reposición."
+          },
+          {
+            "action": "Administrar solución salina isotónica según orden médica.",
+            "rationale": "Reponer volumen intravascular y prevenir hipotensión."
+          },
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia cada hora durante reposición.",
+            "rationale": "Detectar respuesta hemodinámica y evitar sobrecarga."
+          },
+          {
+            "action": "Observar y registrar edema y cambios en peso diario.",
+            "rationale": "Indicadores clave del estado de volumen."
+          },
+          {
+            "action": "Enseñar al paciente a registrar ingesta de líquidos y reconocer síntomas de deshidratación.",
+            "rationale": "Promueve autocuidado y detección temprana."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Chronic kidney disease (CKD)",
+    "aliases": [
+      "chronic kidney disease",
+      "renal disease",
+      "ckd",
+      "kidney failure",
+      "renal insufficiency"
+    ],
+    "summary": "Progressive and irreversible loss of kidney function that reduces the ability to filter blood and maintain homeostatic balance.",
+    "key_points": [
+      "CKD is defined by GFR <60 mL/min/1.73 m² for ≥3 months.",
+      "Diabetes and hypertension are the most common causes.",
+      "Patients may be asymptomatic until advanced stages.",
+      "Management includes control of blood pressure, glucose, lipids, and restriction of sodium and protein.",
+      "Common complications: anemia, hyperphosphatemia, renal bone disease, and cardiovascular disease."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic damage to nephrons → loss of filtering units.",
+        "Reduced GFR → accumulation of urea, creatinine, and electrolytes.",
+        "Activation of renin‑angiotensin‑aldosterone system → hypertension and sodium retention.",
+        "Altered erythropoietin production → anemia.",
+        "Calcium‑phosphate imbalance → renal bone disease."
+      ],
+      "risk_factors": [
+        "Type 1 and 2 diabetes mellitus.",
+        "Chronic arterial hypertension.",
+        "Glomerular disease (membranous nephropathy, glomerulonephritis).",
+        "Family history of kidney disease.",
+        "Prolonged use of NSAIDs or nephrotoxins."
+      ],
+      "signs_symptoms": [
+        "Peripheral edema, especially in ankles.",
+        "Persistent arterial hypertension.",
+        "Fatigue and weakness from anemia.",
+        "Nausea, loss of appetite, and pruritus.",
+        "Changes in urination: oliguria or polyuria."
+      ],
+      "diagnostics": [
+        "Serum creatinine ↑ (≥1.3 mg/dL in men, ≥1.1 mg/dL in women).",
+        "Calculated eGFR <60 mL/min/1.73 m² for ≥3 months.",
+        "Proteinuria ≥300 mg/24 h or protein/creatinine ratio >0.3.",
+        "Electrolytes: K⁺ ↑ or ↓, Na⁺ ↓, Ca²⁺ ↓, phosphate ↑.",
+        "Hemoglobin <12 g/dL (anemia)."
+      ],
+      "treatment": [
+        "ACE inhibitors (enalapril) or ARBs (losartan) to control blood pressure.",
+        "Loop diuretics (furosemide) for edema management.",
+        "Glucose control with insulin or oral antidiabetics.",
+        "Sodium restriction <2 g/day and protein according to stage.",
+        "Phosphate binders (sevelamer) and vitamin D supplements.",
+        "Erythropoietin for anemia and, in end‑stage, dialysis or transplant."
+      ],
+      "complications": [
+        "Resistant hypertension.",
+        "Anemia from erythropoietin deficiency.",
+        "Hyperphosphatemia and renal bone disease.",
+        "Metabolic acidosis.",
+        "Accelerated cardiovascular disease.",
+        "Uremia with neurological symptoms."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate, and daily weight.",
+        "Assess signs of fluid overload or deficit (edema, skin turgor).",
+        "Control labs: creatinine, BUN, electrolytes, hemoglobin, phosphate.",
+        "Administer diuretics and antihypertensives as prescribed.",
+        "Promote low‑sodium and protein diet per dietitian instructions.",
+        "Prepare patient and family for possible renal replacement therapies."
+      ],
+      "patient_teaching": [
+        "Importance of adhering to antihypertensive and antidiabetic medication plan.",
+        "Salt restriction: avoid processed foods and use herbs for seasoning.",
+        "Monitor fluid intake if restricted; record intake and output.",
+        "Recognize signs of edema, hypertension, or hypoglycemia and report them.",
+        "Schedule and attend periodic laboratory tests.",
+        "Basic information about dialysis and kidney transplant as future options."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "decreased glomerular filtration",
+          "use of loop diuretics",
+          "accumulation of nitrogenous waste"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance maintained: Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L",
+          "Serum creatinine stable or decreased within 2 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor Na⁺, K⁺, Ca²⁺, and phosphate levels every 48 h.",
+            "rationale": "Detect early changes and adjust treatment."
+          },
+          {
+            "action": "Assess for hyperkalemia signs (palpitations, weakness).",
+            "rationale": "Hyperkalemia is a frequent complication in CKD."
+          },
+          {
+            "action": "Administer supplements or binders as prescribed.",
+            "rationale": "Correct deficiencies or excesses of electrolytes."
+          },
+          {
+            "action": "Educate patient on potassium‑rich foods and their limitation.",
+            "rationale": "Dietary control helps keep K⁺ within a safe range."
+          },
+          {
+            "action": "Record and report any ECG changes to the physician.",
+            "rationale": "Electrolyte disturbances can cause arrhythmias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "use of loop diuretics",
+          "nausea and vomiting",
+          "loss of appetite"
+        ],
+        "evidenced_by": [
+          "decreased body weight",
+          "blood pressure <100/60 mmHg",
+          "tachycardia",
+          "decreased skin turgor",
+          "dry mucous membranes"
+        ],
+        "outcomes": [
+          "Blood pressure maintained between 100‑130/60‑80 mmHg",
+          "Mucous membranes moist and adequate skin turgor"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output every 8 h.",
+            "rationale": "Determine fluid balance and adjust replacement."
+          },
+          {
+            "action": "Administer isotonic saline as ordered.",
+            "rationale": "Restore intravascular volume and prevent hypotension."
+          },
+          {
+            "action": "Monitor vital signs and level of consciousness hourly during replacement.",
+            "rationale": "Detect hemodynamic response and avoid overload."
+          },
+          {
+            "action": "Observe and record edema and daily weight changes.",
+            "rationale": "Key indicators of volume status."
+          },
+          {
+            "action": "Teach patient to record fluid intake and recognize dehydration symptoms.",
+            "rationale": "Promotes self‑care and early detection."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "chronic-kidney-disease",
+    "hyperkalemia",
+    "anemia",
+    "hypertension",
+    "dialysis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Chronic Kidney Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/chronickidneydisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Renal System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Adrenal Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-5-adrenal-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-11",
+  "factcheck": {
+    "checked": "2026-10-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 43,
+      "contradicted": 0,
+      "total": 50
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Diabetes and high blood pressure are the most common causes of CKD.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Many people don't have any symptoms until their kidney disease is very advanced.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Physical findings may show fatty deposits around the face (“moon face”) and between the shoulders (“buffalo hump”), hirsutism, thin extremities, muscle wasting, swollen ankles, purplish striae, skin atrophy, acne, and central obesity.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.complications.5": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Nurses should monitor hemodynamic stability with trending blood pressures, heart rate, and laboratory data.",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Additional medications may be prescribed to control signs and symptoms, such as potassium supplements, diuretics, and antihypertensives.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "The nurse should also monitor vital signs, electrolytes, daily weights, intake and output, and serum blood glucose for imbalances (Vera, 2023).",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Common manifestations include proteinuria, decreased GFR, hypertension, and edema.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "id": "respiratory-depression",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Depresión respiratoria",
+    "aliases": [
+      "depresion respiratoria",
+      "insuficiencia respiratoria",
+      "hipoventilacion",
+      "depresion del centro respiratorio",
+      "depresion respiratoria aguda",
+      "depresion respiratoria opioides"
+    ],
+    "summary": "Disminución de la actividad del centro respiratorio o de los músculos respiratorios que produce hipoventilación, hipoxemia e hipercapnia.",
+    "key_points": [
+      "RR < 12 respiraciones/min indica depresión respiratoria.",
+      "Hipoxemia (PaO2 < 60 mmHg) y/o hipercapnia (PaCO2 > 45 mmHg) son hallazgos de laboratorio.",
+      "Causas frecuentes: opioides, sedantes, lesiones del SNC, enfermedades pulmonares graves.",
+      "El tratamiento inmediato incluye soporte ventilatorio y reversión de la causa."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los fármacos depresores del SNC reducen la sensibilidad del bulbo a CO2.",
+        "Disminuye la frecuencia y profundidad de las respiraciones (hipoventilación).",
+        "Se reduce la entrada de O2 y la eliminación de CO2, provocando hipoxemia e hipercapnia.",
+        "La acidosis respiratoria disminuye la contractilidad miocárdica y la perfusión tisular."
+      ],
+      "risk_factors": [
+        "Uso de opioides, benzodiacepinas o anestésicos generales.",
+        "Lesiones medulares cervicales o daño cerebral (AVC, trauma).",
+        "Enfermedades pulmonares graves (EPOC, neumonía severa).",
+        "Sobredosis de sedantes o combinación de depresores del SNC."
+      ],
+      "signs_symptoms": [
+        "Frecuencia respiratoria < 12/min o respiración superficial.",
+        "Somnolencia, confusión o disminución del nivel de conciencia.",
+        "Cianosis peribucal, labios o uñas.",
+        "Uso de músculos accesorios, aleteo nasal."
+      ],
+      "diagnostics": [
+        "Gasometría arterial: PaO2 < 60 mmHg, PaCO2 > 45 mmHg, pH < 7.35.",
+        "SpO2 ≤ 90% en reposo (oxímetro de pulso).",
+        "Radiografía de tórax para descartar patología pulmonar subyacente.",
+        "Evaluación de nivel de sedación y revisión de medicación."
+      ],
+      "treatment": [
+        "Suspender o reducir dosis de depresores del SNC; administrar naloxona si es opioide.",
+        "Oxígeno suplementario vía máscara o cánula nasal para mantener SpO2 ≥ 95%.",
+        "Ventilación no invasiva (CPAP/BiPAP) si la hipoxemia persiste.",
+        "Intubación y ventilación mecánica en casos de insuficiencia respiratoria aguda.",
+        "Monitoreo continuo de RR, SpO2 y gases arteriales."
+      ],
+      "complications": [
+        "Hipoxemia prolongada → daño cerebral y disfunción multiorgánica.",
+        "Acidosis respiratoria severa → arritmias y disminución de la contractilidad cardíaca.",
+        "Insuficiencia respiratoria aguda que requiere intubación.",
+        "Muerte si no se corrige rápidamente."
+      ],
+      "nursing_care": [
+        "Evaluar RR, patrón respiratorio y nivel de conciencia cada 15‑30 min al inicio.",
+        "Monitorizar SpO2 y registrar valores cada hora; notificar caídas < 90%.",
+        "Administrar oxígeno según prescripción y verificar ajuste de la cánula/máscara.",
+        "Mantener vía aérea abierta; posicionar al paciente semi‑sentado (30‑45°).",
+        "Preparar equipo de reanimación y ventilación mecánica en caso de deterioro."
+      ],
+      "patient_teaching": [
+        "Informar sobre los riesgos de combinar opioides con alcohol o sedantes.",
+        "Enseñar a reconocer signos de respiración lenta o dificultad para respirar.",
+        "Indicar la importancia de no interrumpir la terapia de oxígeno sin autorización.",
+        "Recomendar evitar automedicación y consultar al médico antes de cambiar dosis."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "Hipoventilación por depresión del centro respiratorio",
+          "Uso de opioides",
+          "Lesión medular cervical"
+        ],
+        "evidenced_by": [
+          "Frecuencia respiratoria < 12/min",
+          "Uso de músculos accesorios",
+          "SpO2 ≤ 90%",
+          "PaCO2 > 45 mmHg"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: RR 12‑20 respiraciones/min en 24 h",
+          "Oxigenación adecuada: SpO2 ≥ 95% en reposo en 12 h",
+          "Gases arteriales dentro de rango: PaCO2 35‑45 mmHg en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar frecuencia respiratoria y SpO2 cada 15 minutos y registrar cambios.",
+            "rationale": "Detectar rápidamente deterioro y activar medidas de soporte."
+          },
+          {
+            "action": "Administrar oxígeno suplementario según orden y verificar ajuste de la cánula.",
+            "rationale": "Mantener saturación adecuada y prevenir hipoxemia."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y respuesta a estímulos cada hora.",
+            "rationale": "La depresión del SNC puede empeorar la ventilación."
+          },
+          {
+            "action": "Preparar y, si es necesario, iniciar ventilación no invasiva (CPAP/BiPAP).",
+            "rationale": "Mejora la ventilación alveolar y reduce la hipercapnia."
+          },
+          {
+            "action": "Revisar y, bajo orden médica, reducir o suspender depresores del SNC; administrar antagonista (naloxona) si corresponde.",
+            "rationale": "Eliminar la causa subyacente de la depresión respiratoria."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Hipercapnia prolongada",
+          "Acidosis respiratoria",
+          "Uso de diuréticos en pacientes críticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rango normal (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L) en 72 h",
+          "pH arterial estabilizada entre 7.35‑7.45 en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos y gasometría arterial cada 12 horas.",
+            "rationale": "Detectar alteraciones tempranas derivadas de la acidosis respiratoria."
+          },
+          {
+            "action": "Administrar solución salina isotónica según prescripción para mantener volumen intravascular.",
+            "rationale": "Prevenir desequilibrio de sodio y potasio asociado a la hiperventilación compensatoria."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de informar síntomas de debilidad muscular o arritmias.",
+            "rationale": "Facilita la detección precoz de alteraciones electrolíticas."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar diuréticos o medicamentos que alteren el balance iónico.",
+            "rationale": "Evitar precipitaciones de desequilibrios electrolíticos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Respiratory depression",
+    "aliases": [
+      "respiratory depression",
+      "respiratory insufficiency",
+      "hypoventilation",
+      "central respiratory depression",
+      "acute respiratory depression",
+      "opioid respiratory depression"
+    ],
+    "summary": "Reduction in the activity of the respiratory center or respiratory muscles that produces hypoventilation, hypoxemia, and hypercapnia.",
+    "key_points": [
+      "RR < 12 breaths/min indicates respiratory depression.",
+      "Hypoxemia (PaO2 < 60 mmHg) and/or hypercapnia (PaCO2 > 45 mmHg) are laboratory findings.",
+      "Common causes: opioids, sedatives, CNS injuries, severe pulmonary disease.",
+      "Immediate treatment includes ventilatory support and reversal of the cause."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "CNS depressant drugs reduce the sensitivity of the medulla to CO2.",
+        "They decrease the frequency and depth of breathing (hypoventilation).",
+        "O2 intake and CO2 elimination are reduced, causing hypoxemia and hypercapnia.",
+        "Respiratory acidosis decreases myocardial contractility and tissue perfusion."
+      ],
+      "risk_factors": [
+        "Use of opioids, benzodiazepines, or general anesthetics.",
+        "Cervical spinal cord injuries or brain damage (stroke, trauma).",
+        "Severe pulmonary diseases (COPD, severe pneumonia).",
+        "Sedative overdose or combination of CNS depressants."
+      ],
+      "signs_symptoms": [
+        "Respiratory rate < 12/min or shallow breathing.",
+        "Somnolence, confusion, or decreased level of consciousness.",
+        "Perioral cyanosis, lips or nails cyanosis.",
+        "Use of accessory muscles, nasal flaring."
+      ],
+      "diagnostics": [
+        "Arterial blood gas: PaO2 < 60 mmHg, PaCO2 > 45 mmHg, pH < 7.35.",
+        "SpO2 ≤ 90% at rest (pulse oximetry).",
+        "Chest X‑ray to rule out underlying pulmonary pathology.",
+        "Assessment of sedation level and medication review."
+      ],
+      "treatment": [
+        "Stop or reduce CNS depressants; administer naloxone if opioid.",
+        "Supplemental oxygen via mask or nasal cannula to maintain SpO2 ≥ 95%.",
+        "Non‑invasive ventilation (CPAP/BiPAP) if hypoxemia persists.",
+        "Intubation and mechanical ventilation in cases of acute respiratory failure.",
+        "Continuous monitoring of RR, SpO2, and arterial gases."
+      ],
+      "complications": [
+        "Prolonged hypoxemia → brain injury and multi‑organ dysfunction.",
+        "Severe respiratory acidosis → arrhythmias and decreased cardiac contractility.",
+        "Acute respiratory failure requiring intubation.",
+        "Death if not corrected promptly."
+      ],
+      "nursing_care": [
+        "Assess RR, breathing pattern, and level of consciousness every 15‑30 min at onset.",
+        "Monitor SpO2 and record values hourly; notify if < 90%.",
+        "Administer oxygen per order and verify cannula/mask fit.",
+        "Maintain airway; position patient semi‑upright (30‑45°).",
+        "Prepare resuscitation and mechanical ventilation equipment in case of deterioration."
+      ],
+      "patient_teaching": [
+        "Inform about the risks of combining opioids with alcohol or sedatives.",
+        "Teach recognition of slow breathing or difficulty breathing signs.",
+        "Emphasize the importance of not discontinuing oxygen therapy without authorization.",
+        "Recommend avoiding self‑medication and consulting a physician before changing doses."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "Hypoventilation due to central respiratory depression",
+          "Opioid use",
+          "Cervical spinal cord injury"
+        ],
+        "evidenced_by": [
+          "Respiratory rate < 12/min",
+          "Use of accessory muscles",
+          "SpO2 ≤ 90%",
+          "PaCO2 > 45 mmHg"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: RR 12‑20 breaths/min within 24 h",
+          "Adequate oxygenation: SpO2 ≥ 95% at rest within 12 h",
+          "Arterial gases within range: PaCO2 35‑45 mmHg within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor respiratory rate and SpO2 every 15 minutes and record changes.",
+            "rationale": "Detect rapid deterioration and activate support measures."
+          },
+          {
+            "action": "Administer supplemental oxygen per order and verify cannula fit.",
+            "rationale": "Maintain adequate saturation and prevent hypoxemia."
+          },
+          {
+            "action": "Assess level of consciousness and response to stimuli hourly.",
+            "rationale": "CNS depression may worsen ventilation."
+          },
+          {
+            "action": "Prepare and, if necessary, initiate non‑invasive ventilation (CPAP/BiPAP).",
+            "rationale": "Improves alveolar ventilation and reduces hypercapnia."
+          },
+          {
+            "action": "Review and, under medical order, reduce or discontinue CNS depressants; administer antagonist (naloxone) if appropriate.",
+            "rationale": "Eliminate the underlying cause of respiratory depression."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Prolonged hypercapnia",
+          "Respiratory acidosis",
+          "Use of diuretics in critically ill patients"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal range (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L) within 72 h",
+          "Arterial pH stabilized between 7.35‑7.45 within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes and arterial blood gas every 12 hours.",
+            "rationale": "Detect early changes derived from respiratory acidosis."
+          },
+          {
+            "action": "Administer isotonic saline per prescription to maintain intravascular volume.",
+            "rationale": "Prevent sodium and potassium imbalance associated with compensatory hyperventilation."
+          },
+          {
+            "action": "Educate patient and family on the importance of reporting muscle weakness or arrhythmia symptoms.",
+            "rationale": "Facilitates early detection of electrolyte disturbances."
+          },
+          {
+            "action": "Collaborate with the physician to adjust diuretics or medications that alter ionic balance.",
+            "rationale": "Avoid precipitating electrolyte imbalances."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoventilation",
+    "respiratory-failure",
+    "opioid-overdose",
+    "acid-base-imbalance",
+    "mechanical-ventilation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Respiratory Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/respiratoryfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Insuficiencia respiratoria",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/respiratoryfailure.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-11",
+  "factcheck": {
+    "checked": "2026-10-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "After a while, however, these hypoxic disorders cause respiratory acidosis as respiratory muscles tire, breathing slows, and CO 2 builds up in the blood ( Table 18.1 ).",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Conditions that affect the nerves and muscles that control breathing, such as amyotrophic lateral sclerosis (ALS), muscular dystrophy , spinal cord injuries , and stroke",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Diseases that affect the lungs , such as COPD (chronic obstructive pulmonary disease), cystic fibrosis , pneumonia , pulmonary embolism , and COVID-19",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Some people who have respiratory failure may become very sleepy or lose consciousness.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Late signs of hypoxia include bluish discoloration of the skin and mucous membranes called cyanosis .",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Once you are diagnosed with respiratory failure, your provider will look for what is causing it. Tests for this often include a chest x-ray.",
+        "source": 0
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
