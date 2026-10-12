@@ -1,0 +1,577 @@
+{
+  "id": "pulmonary-embolism",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Embolia pulmonar (EP)",
+    "aliases": [
+      "embolía pulmonar",
+      "ep",
+      "embolia",
+      "trombo pulmonar",
+      "tromboembolismo pulmonar",
+      "pe"
+    ],
+    "summary": "Obstrucción súbita de una arteria pulmonar por un trombo, generalmente proveniente de una trombosis venosa profunda. Es una emergencia que compromete el intercambio gaseoso y la perfusión tisular.",
+    "key_points": [
+      "Obstrucción súbita de arteria pulmonar por trombo de TVP",
+      "Disnea y taquicardia repentinas son signos cardinales",
+      "Diagnóstico rápido con angio‑TC y D‑dímero",
+      "Anticoagulación es tratamiento de primera línea",
+      "Complicaciones graves: hipertensión pulmonar, shock y muerte",
+      "Cuidado de enfermería: monitorizar signos vitales y signos de sangrado"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Formación de trombo en vena profunda (TVP)",
+        "Desprendimiento y embolización al árbol arterial pulmonar",
+        "Obstrucción parcial o total de arteria pulmonar",
+        "Aumento de resistencia vascular pulmonar → hipertensión pulmonar aguda",
+        "Compromiso del intercambio gaseoso y disminución del gasto cardíaco"
+      ],
+      "risk_factors": [
+        "Inmovilización prolongada (hospitalización, viajes largos)",
+        "Cirugía mayor, especialmente ortopédica",
+        "Cáncer y quimioterapia",
+        "Trombofilia hereditaria o adquirida",
+        "Embarazo y posparto",
+        "Uso de anticonceptivos hormonales",
+        "Obesidad"
+      ],
+      "signs_symptoms": [
+        "Disnea súbita, empeora con el esfuerzo",
+        "Dolor torácico pleurítico, a veces hemoptisis",
+        "Taquicardia > 100 lpm",
+        "Taquipnea > 20 rpm",
+        "Síncope o mareo",
+        "Hipoxemia (SatO2 < 94%)"
+      ],
+      "diagnostics": [
+        "Angio‑TC pulmonar: defecto de llenado en arteria",
+        "Gammagrafía de ventilación/perfusión: déficit de perfusión",
+        "D‑dímero > 500 ng/mL (excluye si bajo)",
+        "Gasometría arterial: PaO2 < 80 mmHg, PaCO2 variable",
+        "ECG: taquicardia sinusal, signos de sobrecarga derecha"
+      ],
+      "treatment": [
+        "Anticoagulación: heparina no fraccionada o enoxaparina",
+        "Anticoagulación oral: warfarina o DOAC (rivaroxabán, apixabán)",
+        "Trombolisis en casos de alto riesgo hemodinámico",
+        "Embolectomía quirúrgica o por catéter si falla anticoagulación",
+        "Oxígeno suplementario para mantener SatO2 ≥ 95%"
+      ],
+      "complications": [
+        "Hipertensión pulmonar aguda",
+        "Insuficiencia cardíaca derecha",
+        "Shock cardiogénico",
+        "Infarto pulmonar",
+        "Muerte súbita"
+      ],
+      "nursing_care": [
+        "Monitorizar signos vitales cada 15‑30 min (PA, FC, FR, SatO2)",
+        "Evaluar nivel de conciencia y dolor torácico",
+        "Mantener vía aérea permeable; administrar O₂ por máscara o cánula nasal",
+        "Vigilancia de hemorragias por anticoagulación",
+        "Registrar resultados de pruebas diagnósticas",
+        "Preparar al paciente para estudios de imagen"
+      ],
+      "patient_teaching": [
+        "Explicar importancia de la anticoagulación y adherencia",
+        "Enseñar signos de sangrado y cuándo reportar",
+        "Instruir sobre movilización temprana y ejercicios de piernas",
+        "Advertir evitar viajes largos sin mover piernas",
+        "Informar signos de recaída (disnea, dolor torácico)"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "inmovilización prolongada",
+          "cirugía ortopédica reciente",
+          "cáncer activo",
+          "trombofilia hereditaria",
+          "embarazo",
+          "uso de anticonceptivos hormonales"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener presión arterial sistólica ≥ 100 mmHg",
+          "Mantener saturación de O₂ ≥ 95% en reposo",
+          "Mantener frecuencia cardíaca entre 60‑100 lpm"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales, especialmente presión arterial y frecuencia cardíaca, cada hora",
+            "rationale": "Detectar hipotensión o taquicardia que indiquen disminución de perfusión"
+          },
+          {
+            "action": "Monitorizar saturación de oxígeno y administrar oxígeno suplementario según necesidad",
+            "rationale": "Mantener adecuada oxigenación tisular"
+          },
+          {
+            "action": "Observar signos de sangrado (hematuria, hematomas) por anticoagulación",
+            "rationale": "Prevenir complicaciones hemorrágicas que empeoren perfusión"
+          },
+          {
+            "action": "Mantener hidratación adecuada vía oral o IV según indicación",
+            "rationale": "Evitar hipovolemia que reduzca gasto cardíaco"
+          },
+          {
+            "action": "Colaborar con el equipo para iniciar anticoagulación según prescripción",
+            "rationale": "Prevenir crecimiento del trombo y mejorar perfusión"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "disnea al caminar < 100 m",
+          "fatiga al realizar actividades de la vida diaria",
+          "taquicardia > 100 lpm"
+        ],
+        "evidenced_by": [
+          "disnea al caminar menos de 100 metros",
+          "fatiga al realizar actividades de la vida diaria",
+          "taquicardia > 100 lpm"
+        ],
+        "outcomes": [
+          "Incrementar distancia de marcha a 200 m sin disnea",
+          "Reducir frecuencia cardíaca al final de la actividad a < 100 lpm"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de disnea antes y después de la actividad usando escala de Borg",
+            "rationale": "Cuantificar tolerancia y guiar progresión"
+          },
+          {
+            "action": "Planificar actividades graduales, iniciar con ejercicios de rango de movimiento y caminar 50 m",
+            "rationale": "Mejorar capacidad funcional sin sobrecargar el corazón"
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y control de ritmo",
+            "rationale": "Reducir sensación de falta de aire"
+          },
+          {
+            "action": "Monitorear frecuencia cardíaca y saturación durante la actividad",
+            "rationale": "Detectar intolerancia temprana"
+          },
+          {
+            "action": "Proveer reposo entre actividades y posicionar al paciente semi‑sentado",
+            "rationale": "Optimizar ventilación y perfusión"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar dolor torácico o síncope",
+            "rationale": "Prevenir complicaciones graves"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pulmonary embolism (PE)",
+    "aliases": [
+      "pulmonary embolism",
+      "pe",
+      "embolism",
+      "pulmonary thrombus",
+      "pulmonary thromboembolism"
+    ],
+    "summary": "Sudden obstruction of a pulmonary artery by a thrombus, usually originating from deep venous thrombosis. It is an emergency that compromises gas exchange and tissue perfusion.",
+    "key_points": [
+      "Sudden obstruction of pulmonary artery by DVT thrombus",
+      "Sudden dyspnea and tachycardia are cardinal signs",
+      "Rapid diagnosis with CT angiography and D‑dimer",
+      "Anticoagulation is first‑line treatment",
+      "Severe complications: pulmonary hypertension, shock, death",
+      "Nursing care: monitor vital signs and bleeding signs"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Thrombus formation in deep vein (DVT)",
+        "Detachment and embolization into pulmonary arterial tree",
+        "Partial or total obstruction of pulmonary artery",
+        "Increased pulmonary vascular resistance → acute pulmonary hypertension",
+        "Compromise of gas exchange and decreased cardiac output"
+      ],
+      "risk_factors": [
+        "Prolonged immobility (hospitalization, long travel)",
+        "Major surgery, especially orthopedic",
+        "Cancer and chemotherapy",
+        "Hereditary or acquired thrombophilia",
+        "Pregnancy and postpartum",
+        "Use of hormonal contraceptives",
+        "Obesity"
+      ],
+      "signs_symptoms": [
+        "Sudden dyspnea, worsens with exertion",
+        "Pleuritic chest pain, sometimes hemoptysis",
+        "Tachycardia > 100 bpm",
+        "Tachypnea > 20 breaths/min",
+        "Syncope or dizziness",
+        "Hypoxemia (SatO2 < 94%)"
+      ],
+      "diagnostics": [
+        "Pulmonary CT angiography: filling defect in artery",
+        "Ventilation/perfusion scan: perfusion deficit",
+        "D‑dimer > 500 ng/mL (exclude if low)",
+        "Arterial blood gas: PaO2 < 80 mmHg, PaCO2 variable",
+        "ECG: sinus tachycardia, signs of right‑sided overload"
+      ],
+      "treatment": [
+        "Anticoagulation: unfractionated heparin or enoxaparin",
+        "Oral anticoagulation: warfarin or DOAC (rivaroxaban, apixaban)",
+        "Thrombolysis in high‑risk hemodynamic cases",
+        "Surgical or catheter embolectomy if anticoagulation fails",
+        "Supplemental oxygen to maintain SatO2 ≥ 95%"
+      ],
+      "complications": [
+        "Acute pulmonary hypertension",
+        "Right‑heart failure",
+        "Cardiogenic shock",
+        "Pulmonary infarction",
+        "Sudden death"
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 min (BP, HR, RR, SatO2)",
+        "Assess level of consciousness and chest pain",
+        "Maintain airway patency; administer O₂ via mask or nasal cannula",
+        "Monitor for bleeding due to anticoagulation",
+        "Document diagnostic test results",
+        "Prepare patient for imaging studies"
+      ],
+      "patient_teaching": [
+        "Explain importance of anticoagulation and adherence",
+        "Teach signs of bleeding and when to report",
+        "Instruct on early mobilization and leg exercises",
+        "Warn against long trips without moving legs",
+        "Inform signs of recurrence (dyspnea, chest pain)"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "prolonged immobility",
+          "recent orthopedic surgery",
+          "active cancer",
+          "hereditary thrombophilia",
+          "pregnancy",
+          "use of hormonal contraceptives"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain systolic blood pressure ≥ 100 mmHg",
+          "Maintain oxygen saturation ≥ 95% at rest",
+          "Maintain heart rate between 60‑100 bpm"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs, especially blood pressure and heart rate, hourly",
+            "rationale": "Detect hypotension or tachycardia indicating decreased perfusion"
+          },
+          {
+            "action": "Monitor oxygen saturation and administer supplemental oxygen as needed",
+            "rationale": "Maintain adequate tissue oxygenation"
+          },
+          {
+            "action": "Observe for bleeding signs (hematuria, bruising) due to anticoagulation",
+            "rationale": "Prevent hemorrhagic complications that worsen perfusion"
+          },
+          {
+            "action": "Maintain adequate hydration orally or IV as indicated",
+            "rationale": "Avoid hypovolemia that reduces cardiac output"
+          },
+          {
+            "action": "Collaborate with team to initiate anticoagulation per prescription",
+            "rationale": "Prevent thrombus growth and improve perfusion"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "dyspnea walking < 100 m",
+          "fatigue during activities of daily living",
+          "tachycardia > 100 bpm"
+        ],
+        "evidenced_by": [
+          "dyspnea walking less than 100 meters",
+          "fatigue during activities of daily living",
+          "tachycardia > 100 bpm"
+        ],
+        "outcomes": [
+          "Increase walking distance to 200 m without dyspnea",
+          "Reduce heart rate at end of activity to < 100 bpm"
+        ],
+        "interventions": [
+          {
+            "action": "Assess level of dyspnea before and after activity using Borg scale",
+            "rationale": "Quantify tolerance and guide progression"
+          },
+          {
+            "action": "Plan gradual activities, start with range‑of‑motion exercises and 50 m walk",
+            "rationale": "Improve functional capacity without overloading heart"
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques and rhythm control",
+            "rationale": "Reduce sensation of breathlessness"
+          },
+          {
+            "action": "Monitor heart rate and saturation during activity",
+            "rationale": "Detect early intolerance"
+          },
+          {
+            "action": "Provide rest between activities and position patient semi‑upright",
+            "rationale": "Optimize ventilation and perfusion"
+          },
+          {
+            "action": "Educate patient on importance of reporting chest pain or syncope",
+            "rationale": "Prevent serious complications"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "deep-vein-thrombosis",
+    "pulmonary-hypertension",
+    "right-heart-failure",
+    "hypoxemia",
+    "anticoagulation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pulmonary Embolism",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pulmonaryembolism.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Embolia pulmonar",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pulmonaryembolism.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12",
+  "factcheck": {
+    "checked": "2026-10-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 39,
+      "contradicted": 1,
+      "total": 52
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The clot is usually a deep vein thrombosis (DVT), a clot in the leg.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A pulmonary embolism (PE) is a sudden blockage in a lung artery.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "The clot is usually a deep vein thrombosis (DVT), a clot in the leg.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The cause is usually a blood clot that breaks loose and travels through the bloodstream to the lungs."
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Anyone can get a pulmonary embolism (PE), but certain things can raise your risk of PE: Having surgery, especially joint replacement surgery.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Pregnancy and childbirth.",
+        "source": 0
+      },
+      "sections.risk_factors.5": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.6": {
+        "status": "supported",
+        "quote": "Certain genetic changes that can increase your risk of blood clots and PE. Obesity .",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Symptoms of PE include: Shortness of breath Rapid breathing Chest pain or discomfort, which usually gets worse when you cough or take a deep breath Increased heart rate Coughing up blood Very low blood pressure, lightheadedness, or fainting Sometimes people with PE don't have any symptoms until they have serious complications, such as pulmonary hypertension (high blood pressure in the arteries to your lungs).",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "In the blood vessels, baroreceptors can become less sensitive with aging, causing dizziness or orthostatic hypotension .",
+        "source": 2
+      },
+      "sections.signs_symptoms.5": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "contradicted",
+        "quote": "Administer oxygen therapy to maintain oxygen saturation > 92 percent.",
+        "source": 3
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "They can cause bleeding, especially if you are taking other medicines that also thin your blood, such as aspirin.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Moving your legs when sitting for long periods of time (such as on long trips).",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Symptoms of PE include: Shortness of breath Rapid breathing Chest pain or discomfort, which usually gets worse when you cough or take a deep breath Increased heart rate Coughing up blood Very low blood pressure, lightheadedness, or fainting",
+        "source": 0
+      }
+    }
+  }
+}

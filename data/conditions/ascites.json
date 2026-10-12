@@ -1,0 +1,493 @@
+{
+  "id": "ascites",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Ascitis",
+    "aliases": [
+      "ascitis",
+      "acumulación de líquido",
+      "abdomen distendido",
+      "hidropesía",
+      "cirrosis ascitis"
+    ],
+    "summary": "Acumulación de líquido en la cavidad peritoneal, generalmente secundaria a cirrosis y hipertensión portal.",
+    "key_points": [
+      "Se asocia a hipertensión portal y bajo nivel de albúmina.",
+      "El gradiente sérico‑ascítico (SAAG) >1.1 g/dL indica origen portal.",
+      "El manejo incluye restricción de sodio y diuréticos espironolactona + furosemida.",
+      "Complicación grave: peritonitis bacteriana espontánea."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Cirrrosis → fibrosis hepática → aumento de resistencia al flujo portal.",
+        "Hipertensión portal eleva la presión hidrostática capilar peritoneal.",
+        "Hipoproteinemia disminuye la presión oncótica plasmática.",
+        "Se produce filtración de líquido al espacio peritoneal (transudado)."
+      ],
+      "risk_factors": [
+        "Cirrhosis por alcohol o hepatitis viral.",
+        "Hipertensión portal crónica.",
+        "Insuficiencia cardíaca derecha.",
+        "Síndrome nefrótico o pérdida de albúmina."
+      ],
+      "signs_symptoms": [
+        "Distensión abdominal visible y sensación de plenitud.",
+        "Aumento de peso rápido (>2 kg/semana).",
+        "Edema de miembros inferiores.",
+        "Disnea por presión del diafragma."
+      ],
+      "diagnostics": [
+        "Examen físico: onda de fluido y signo de shifting dullness.",
+        "Ecografía abdominal: líquido libre en cavidad peritoneal.",
+        "Paracentesis: SAAG >1.1 g/dL, proteína <1 g/dL.",
+        "Laboratorio: albúmina ↓, INR ↑, electrólitos alterados."
+      ],
+      "treatment": [
+        "Restricción de sodio <2 g/día.",
+        "Diuréticos: espironolactona + furosemida (típico esquema 100 mg/40 mg).",
+        "Paracentesis terapéutica cuando >5 L o disnea severa.",
+        "Infusión de albúmina 25 g/2 L de suero tras paracentesis >5 L.",
+        "Tratar causa subyacente (abstinencia alcohólica, antivirales)."
+      ],
+      "complications": [
+        "Peritonitis bacteriana espontánea.",
+        "Síndrome hepatorrenal.",
+        "Hemorragia de varices esofágicas.",
+        "Desequilibrio electrolítico (hiponatremia, hipopotasemia)."
+      ],
+      "nursing_care": [
+        "Medir circunferencia abdominal y peso diario.",
+        "Monitorear presión arterial, frecuencia cardíaca y saturación.",
+        "Registrar ingesta y eliminación; vigilar I&O.",
+        "Controlar electrolitos y función renal cada 24‑48 h.",
+        "Posicionar semi‑Fowler para facilitar respiración."
+      ],
+      "patient_teaching": [
+        "Dieta baja en sodio: evitar alimentos procesados y sal añadida.",
+        "Pesarse cada mañana y reportar aumentos >0.5 kg en 2 días.",
+        "Tomar diuréticos según indicación y no suspender sin autorización.",
+        "Reconocer signos de infección: fiebre, dolor abdominal, cambios en el líquido.",
+        "Acudir al servicio de salud si hay sangrado de varices o dificultad respiratoria."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "hipertensión portal",
+          "cirrosis hepática",
+          "hipoproteinemia",
+          "ingesta alta de sodio"
+        ],
+        "evidenced_by": [
+          "distensión abdominal",
+          "aumento de peso",
+          "edema de miembros inferiores",
+          "giro abdominal aumentado"
+        ],
+        "outcomes": [
+          "Peso estable ±0.5 kg en 3 días",
+          "Circunferencia abdominal disminuye ≥2 cm en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar peso y circunferencia abdominal cada 24 h",
+            "rationale": "Permite detectar cambios en el volumen de líquido rápidamente."
+          },
+          {
+            "action": "Registrar ingesta y eliminación, enfatizando I&O estricto",
+            "rationale": "Facilita el cálculo de balance hídrico."
+          },
+          {
+            "action": "Administrar diuréticos según prescripción y observar respuesta",
+            "rationale": "Promueve la eliminación de exceso de sodio y agua."
+          },
+          {
+            "action": "Enseñar dieta baja en sodio (<2 g/día) y revisar lista de alimentos",
+            "rationale": "Reduce la retención de líquido."
+          },
+          {
+            "action": "Posicionar al paciente en semi‑Fowler y cambiar posición cada 2 h",
+            "rationale": "Mejora la expansión pulmonar y reduce la presión intraabdominal."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "ascitis con bajo contenido proteico",
+          "paracentesis reciente",
+          "inmunosupresión por cirrosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin fiebre ni dolor abdominal durante 7 días",
+          "Cultivo de líquido ascítico negativo en controles"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener técnica aséptica estricta al realizar paracentesis",
+            "rationale": "Previene la introducción de microorganismos al líquido peritoneal."
+          },
+          {
+            "action": "Monitorear temperatura y signos de infección cada 8 h",
+            "rationale": "Detección temprana de peritonitis bacteriana espontánea."
+          },
+          {
+            "action": "Evaluar el aspecto y olor del líquido ascítico al drenarse",
+            "rationale": "Cambios pueden indicar contaminación o infección."
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección y cuándo buscar ayuda",
+            "rationale": "Facilita la intervención oportuna."
+          },
+          {
+            "action": "Administrar profilaxis antibiótica si está indicada por el médico",
+            "rationale": "Reduce la incidencia de peritonitis en pacientes de alto riesgo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Ascites",
+    "aliases": [
+      "ascites",
+      "fluid accumulation",
+      "distended abdomen",
+      "water pill",
+      "cirrhosis ascites"
+    ],
+    "summary": "Accumulation of fluid in the peritoneal cavity, usually secondary to cirrhosis and portal hypertension.",
+    "key_points": [
+      "Associated with portal hypertension and low albumin level.",
+      "Serum‑ascites albumin gradient (SAAG) >1.1 g/dL indicates portal origin.",
+      "Management includes sodium restriction and diuretics spironolactone + furosemide.",
+      "Severe complication: spontaneous bacterial peritonitis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Cirrhosis → hepatic fibrosis → increased resistance to portal flow.",
+        "Portal hypertension raises peritoneal capillary hydrostatic pressure.",
+        "Hypoproteinemia decreases plasma oncotic pressure.",
+        "Fluid filters into the peritoneal space (transudate)."
+      ],
+      "risk_factors": [
+        "Alcoholic or viral hepatitis cirrhosis.",
+        "Chronic portal hypertension.",
+        "Right‑heart failure.",
+        "Nephrotic syndrome or albumin loss."
+      ],
+      "signs_symptoms": [
+        "Visible abdominal distension and fullness sensation.",
+        "Rapid weight gain (>2 kg/week).",
+        "Lower‑extremity edema.",
+        "Dyspnea from diaphragmatic pressure."
+      ],
+      "diagnostics": [
+        "Physical exam: fluid wave and shifting dullness sign.",
+        "Abdominal ultrasound: free fluid in peritoneal cavity.",
+        "Paracentesis: SAAG >1.1 g/dL, protein <1 g/dL.",
+        "Labs: low albumin, elevated INR, altered electrolytes."
+      ],
+      "treatment": [
+        "Sodium restriction <2 g/day.",
+        "Diuretics: spironolactone + furosemide (typical 100 mg/40 mg).",
+        "Therapeutic paracentesis when >5 L or severe dyspnea.",
+        "Albumin infusion 25 g/2 L of saline after paracentesis >5 L.",
+        "Treat underlying cause (alcohol abstinence, antivirals)."
+      ],
+      "complications": [
+        "Spontaneous bacterial peritonitis.",
+        "Hepatorenal syndrome.",
+        "Esophageal variceal bleeding.",
+        "Electrolyte imbalance (hyponatremia, hypokalemia)."
+      ],
+      "nursing_care": [
+        "Measure abdominal circumference and daily weight.",
+        "Monitor blood pressure, heart rate, and oxygen saturation.",
+        "Record intake and output; watch I&O.",
+        "Check electrolytes and renal function every 24‑48 h.",
+        "Position semi‑Fowler to aid breathing."
+      ],
+      "patient_teaching": [
+        "Low‑sodium diet: avoid processed foods and added salt.",
+        "Weigh each morning and report increases >0.5 kg in 2 days.",
+        "Take diuretics as prescribed and do not stop without permission.",
+        "Recognize infection signs: fever, abdominal pain, fluid changes.",
+        "Seek medical care if variceal bleeding or breathing difficulty occurs."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [
+          "portal hypertension",
+          "hepatic cirrhosis",
+          "hypoproteinemia",
+          "high sodium intake"
+        ],
+        "evidenced_by": [
+          "abdominal distension",
+          "weight gain",
+          "lower‑extremity edema",
+          "increased abdominal girth"
+        ],
+        "outcomes": [
+          "Stable weight ±0.5 kg in 3 days",
+          "Abdominal circumference decreases ≥2 cm in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess weight and abdominal circumference every 24 h",
+            "rationale": "Detects fluid volume changes quickly."
+          },
+          {
+            "action": "Record intake and output with strict I&O",
+            "rationale": "Facilitates fluid balance calculation."
+          },
+          {
+            "action": "Administer diuretics per prescription and observe response",
+            "rationale": "Promotes excess sodium and water elimination."
+          },
+          {
+            "action": "Teach low‑sodium diet (<2 g/day) and review food list",
+            "rationale": "Reduces fluid retention."
+          },
+          {
+            "action": "Position patient semi‑Fowler and change position every 2 h",
+            "rationale": "Improves lung expansion and reduces intraabdominal pressure."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "ascites with low protein content",
+          "recent paracentesis",
+          "immunosuppression from cirrhosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No fever or abdominal pain for 7 days",
+          "Negative ascitic fluid culture on follow‑up"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain strict aseptic technique during paracentesis",
+            "rationale": "Prevents introduction of microorganisms into peritoneal fluid."
+          },
+          {
+            "action": "Monitor temperature and infection signs every 8 h",
+            "rationale": "Early detection of spontaneous bacterial peritonitis."
+          },
+          {
+            "action": "Evaluate appearance and odor of ascitic fluid when drained",
+            "rationale": "Changes may indicate contamination or infection."
+          },
+          {
+            "action": "Educate patient on infection signs and when to seek help",
+            "rationale": "Facilitates timely intervention."
+          },
+          {
+            "action": "Administer antibiotic prophylaxis if indicated by physician",
+            "rationale": "Reduces incidence of peritonitis in high‑risk patients."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "portal-hypertension",
+    "spontaneous-bacterial-peritonitis",
+    "hepatorenal-syndrome",
+    "cirrhosis",
+    "diuretic-therapy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cirrhosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cirrhosis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Physical Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/27-2-physical-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12",
+  "factcheck": {
+    "checked": "2026-10-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Ascites is an accumulation of fluid in the peritoneal cavity ( Figure 19.19 ) that is caused by cirrhosis of the liver.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Portal Hypertension Another liver condition, portal hypertension , is an increase in pressure within the portal venous system because of resistance to portal blood flow.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Ascites is a condition in which the abdominal cavity fills with fluid that shifts from the intravascular to the interstitial space, resulting in hypovolemia.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Treatment Identify and treat the underlying cause.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "These include administering medications documenting daily weights and abdominal girth measurement educating patients monitoring laboratory values, such as sodium levels monitoring vital signs and intake and output",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "On the inpatient side, the patient will be admitted to the ICU and will have vital signs recorded a minimum of every hour, as well as intake and output data.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "A sodium-restricted diet will help control fluid retention.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

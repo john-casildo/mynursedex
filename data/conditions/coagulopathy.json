@@ -1,0 +1,445 @@
+{
+  "id": "coagulopathy",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Coagulopatía",
+    "aliases": [
+      "coagulopatia",
+      "trastorno de coagulación",
+      "sangrado",
+      "hemofilia",
+      "deficiencia de factores",
+      "trombocitopenia"
+    ],
+    "summary": "Alteración de la capacidad de la sangre para coagular, ya sea por déficit o disfunción de plaquetas o factores de coagulación.",
+    "key_points": [
+      "Puede ser hereditaria (p. ej., hemofilia) o adquirida (enfermedad hepática, anticoagulantes).",
+      "Los laboratorios clave son tiempo de protrombina (TP), tiempo de tromboplastina parcial activado (TTPa), INR y recuento plaquetario.",
+      "El sangrado puede ser cutáneo, mucoso o interno y requerir transfusión de sangre o factores específicos.",
+      "El tratamiento incluye reposición de plaquetas, factores de coagulación, vitamina K y suspensión de fármacos anticoagulantes."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los factores de coagulación y plaquetas forman un coágulo para detener el sangrado.",
+        "Deficiencia cuantitativa o funcional de cualquiera de estos componentes impide la formación adecuada del coágulo.",
+        "En la coagulopatía adquirida, el hígado dañado reduce la síntesis de factores dependientes de vitamina K."
+      ],
+      "risk_factors": [
+        "Uso crónico de anticoagulantes (warfarina, heparina).",
+        "Enfermedad hepática crónica o cirrosis.",
+        "Deficiencia de vitamina K por malabsorción o uso de antibióticos de amplio espectro.",
+        "Trastornos genéticos como hemofilia A o B."
+      ],
+      "signs_symptoms": [
+        "Hemorragia cutánea (petequias, equimosis).",
+        "Sangrado mucoso (encías, nariz, hematuria).",
+        "Hematomas extensos tras traumatismos menores.",
+        "Sangrado interno: hemorragia gastrointestinal o intracraneal."
+      ],
+      "diagnostics": [
+        "TP y INR prolongados indican déficit de factores dependientes de vitamina K.",
+        "TTPa prolongado sugiere déficit de factores intrínsecos (VIII, IX).",
+        "Recuento plaquetario <150,000/µL indica trombocitopenia.",
+        "Pruebas específicas de factor VIII/IX para hemofilia."
+      ],
+      "treatment": [
+        "Transfusión de concentrados de plaquetas cuando el recuento <50,000/µL con sangrado activo.",
+        "Infusión de concentrados de factor VIII o IX según diagnóstico de hemofilia.",
+        "Vitamina K 10 mg IV/IM para deficiencia de factores dependientes de vitamina K.",
+        "Suspensión o reversión de anticoagulantes (protamina para heparina, vitamina K para warfarina)."
+      ],
+      "complications": [
+        "Hemorragia masiva con shock hipovolémico.",
+        "Anemia por pérdida crónica de sangre.",
+        "Daño orgánico por sangrado interno (p. ej., hemorragia intracraneal).",
+        "Infección asociada a transfusiones."
+      ],
+      "nursing_care": [
+        "Evaluar sitio y cantidad de sangrado cada 1‑2 h; registrar cambios.",
+        "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+        "Mantener acceso venoso amplio; preparar sangre y productos sanguíneos según orden.",
+        "Aplicar presión directa o vendajes compresivos cuando sea apropiado.",
+        "Controlar resultados de laboratorio (TP, INR, TTPa, plaquetas) y notificar alteraciones."
+      ],
+      "patient_teaching": [
+        "Informar sobre signos de sangrado que requieren atención inmediata.",
+        "Enseñar técnicas de presión directa y uso de apósitos para hemorragias menores.",
+        "Explicar la importancia de adherirse a la terapia de factor o vitamina K.",
+        "Evitar actividades de alto riesgo de traumatismo y uso de medicamentos que alteren la coagulación sin autorización."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de anticoagulantes",
+          "enfermedad hepática",
+          "deficiencia de vitamina K",
+          "deficiencia de factores de coagulación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del sangrado: sin episodios de hemorragia activa en 24 h",
+          "Laboratorios de coagulación dentro de rangos terapéuticos en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar sitio de sangrado y registrar cantidad cada 1‑2 h.",
+            "rationale": "Permite detección temprana de aumento del sangrado y guía intervenciones."
+          },
+          {
+            "action": "Monitorear presión arterial, frecuencia cardíaca y nivel de conciencia.",
+            "rationale": "Identifica signos de shock hipovolémico precozmente."
+          },
+          {
+            "action": "Mantener acceso venoso amplio y preparar sangre y productos sanguíneos según orden.",
+            "rationale": "Facilita la reposición rápida de componentes sanguíneos cuando sea necesario."
+          },
+          {
+            "action": "Aplicar presión directa o vendaje compresivo al sitio de sangrado activo.",
+            "rationale": "Detiene la pérdida de sangre mientras se administra terapia definitiva."
+          },
+          {
+            "action": "Revisar resultados de TP, INR y TTPa; notificar valores fuera de rango al médico.",
+            "rationale": "Guía ajustes de terapia anticoagulante o reposición de factores."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida sanguínea >500 mL",
+          "hemorragia gastrointestinal",
+          "trauma con sangrado"
+        ],
+        "evidenced_by": [
+          "hipotensión ortostática",
+          "taquicardia",
+          "piel pálida y húmeda",
+          "disminución de la diuresis <0.5 mL/kg/h"
+        ],
+        "outcomes": [
+          "Volumen intravascular mantenido: presión arterial sistólica ≥100 mmHg en 24 h",
+          "Diuresis ≥0.5 mL/kg/h en 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales y diuresis cada hora.",
+            "rationale": "Detecta rápidamente la hipovolemia y la respuesta a la reposición."
+          },
+          {
+            "action": "Administrar solución cristaloide (ej. NaCl 0.9%) según prescripción y monitorizar respuesta.",
+            "rationale": "Restablece el volumen circulatorio y perfusión tisular."
+          },
+          {
+            "action": "Mantener posición semisentado o decúbito supino con piernas elevadas según tolerancia.",
+            "rationale": "Facilita el retorno venoso y mejora la presión arterial."
+          },
+          {
+            "action": "Controlar nivel de hemoglobina y hematocrito cada 12 h.",
+            "rationale": "Evalúa la necesidad de transfusión de glóbulos rojos."
+          },
+          {
+            "action": "Educar al paciente sobre signos de hipovolemia y la importancia de informar cualquier sangrado nuevo.",
+            "rationale": "Promueve la detección temprana y la intervención oportuna."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Coagulopathy",
+    "aliases": [
+      "coagulopathy",
+      "coagulation disorder",
+      "bleeding",
+      "hemophilia",
+      "factor deficiency",
+      "thrombocytopenia"
+    ],
+    "summary": "Alteration of the blood's ability to clot, due to platelet or coagulation factor deficiency or dysfunction.",
+    "key_points": [
+      "It can be hereditary (e.g., hemophilia) or acquired (liver disease, anticoagulants).",
+      "Key labs are prothrombin time (PT), activated partial thromboplastin time (aPTT), INR, and platelet count.",
+      "Bleeding may be cutaneous, mucosal, or internal and may require blood or specific factor transfusion.",
+      "Treatment includes platelet and factor replacement, vitamin K, and discontinuation of anticoagulants."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Coagulation factors and platelets form a clot to stop bleeding.",
+        "Quantitative or functional deficiency of any component prevents proper clot formation.",
+        "In acquired coagulopathy, damaged liver reduces synthesis of vitamin K–dependent factors."
+      ],
+      "risk_factors": [
+        "Chronic use of anticoagulants (warfarin, heparin).",
+        "Chronic liver disease or cirrhosis.",
+        "Vitamin K deficiency from malabsorption or broad‑spectrum antibiotics.",
+        "Genetic disorders such as hemophilia A or B."
+      ],
+      "signs_symptoms": [
+        "Cutaneous hemorrhage (petechiae, ecchymosis).",
+        "Mucosal bleeding (gingiva, nose, hematuria).",
+        "Large hematomas after minor trauma.",
+        "Internal bleeding: gastrointestinal or intracranial hemorrhage."
+      ],
+      "diagnostics": [
+        "Prolonged PT and INR indicate deficiency of vitamin K–dependent factors.",
+        "Prolonged aPTT suggests deficiency of intrinsic factors (VIII, IX).",
+        "Platelet count <150,000/µL indicates thrombocytopenia.",
+        "Specific factor VIII/IX assays for hemophilia."
+      ],
+      "treatment": [
+        "Platelet concentrate transfusion when count <50,000/µL with active bleeding.",
+        "Infusion of factor VIII or IX concentrates per hemophilia diagnosis.",
+        "Vitamin K 10 mg IV/IM for vitamin K–dependent factor deficiency.",
+        "Discontinuation or reversal of anticoagulants (protamine for heparin, vitamin K for warfarin)."
+      ],
+      "complications": [
+        "Massive hemorrhage with hypovolemic shock.",
+        "Anemia from chronic blood loss.",
+        "Organ damage from internal bleeding (e.g., intracranial hemorrhage).",
+        "Transfusion‑associated infection."
+      ],
+      "nursing_care": [
+        "Assess bleeding site and amount every 1–2 h; document changes.",
+        "Monitor vital signs, especially blood pressure and heart rate.",
+        "Maintain wide venous access; prepare blood and blood products as ordered.",
+        "Apply direct pressure or compressive dressings when appropriate.",
+        "Track lab results (PT, INR, aPTT, platelets) and report abnormalities."
+      ],
+      "patient_teaching": [
+        "Inform about bleeding signs that require immediate attention.",
+        "Teach direct pressure techniques and use of dressings for minor hemorrhages.",
+        "Explain importance of adhering to factor or vitamin K therapy.",
+        "Avoid high‑risk trauma activities and use of medications that alter coagulation without authorization."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "use of anticoagulants",
+          "liver disease",
+          "vitamin K deficiency",
+          "coagulation factor deficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control of bleeding: no active hemorrhage episodes within 24 h",
+          "Coagulation labs within therapeutic ranges within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess bleeding site and document amount every 1–2 h.",
+            "rationale": "Allows early detection of increased bleeding and guides interventions."
+          },
+          {
+            "action": "Monitor blood pressure, heart rate, and level of consciousness.",
+            "rationale": "Identifies early signs of hypovolemic shock."
+          },
+          {
+            "action": "Maintain wide venous access and prepare blood and blood products as ordered.",
+            "rationale": "Facilitates rapid replacement of blood components when needed."
+          },
+          {
+            "action": "Apply direct pressure or compressive dressing to active bleeding site.",
+            "rationale": "Stops blood loss while definitive therapy is administered."
+          },
+          {
+            "action": "Review PT, INR, and aPTT results; notify physician of out‑of‑range values.",
+            "rationale": "Guides adjustments to anticoagulant therapy or factor replacement."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "blood loss >500 mL",
+          "gastrointestinal hemorrhage",
+          "trauma with bleeding"
+        ],
+        "evidenced_by": [
+          "orthostatic hypotension",
+          "tachycardia",
+          "pale, moist skin",
+          "decreased urine output <0.5 mL/kg/h"
+        ],
+        "outcomes": [
+          "Intravascular volume maintained: systolic blood pressure ≥100 mmHg within 24 h",
+          "Urine output ≥0.5 mL/kg/h within 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs and urine output hourly.",
+            "rationale": "Rapidly detects hypovolemia and response to replacement."
+          },
+          {
+            "action": "Administer crystalloid solution (e.g., 0.9% NaCl) per prescription and monitor response.",
+            "rationale": "Restores circulating volume and tissue perfusion."
+          },
+          {
+            "action": "Maintain semi‑upright or supine position with legs elevated as tolerated.",
+            "rationale": "Facilitates venous return and improves blood pressure."
+          },
+          {
+            "action": "Monitor hemoglobin and hematocrit every 12 h.",
+            "rationale": "Evaluates need for red blood cell transfusion."
+          },
+          {
+            "action": "Educate patient on signs of hypovolemia and importance of reporting new bleeding.",
+            "rationale": "Promotes early detection and timely intervention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hemophilia",
+    "vitamin-k-deficiency",
+    "liver-disease",
+    "anticoagulant-therapy",
+    "thrombocytopenia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Bleeding Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/bleedingdisorders.html",
+      "lang": "en"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12",
+  "factcheck": {
+    "checked": "2026-10-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 2,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "If you have a bleeding disorder, you either do not have enough platelets or clotting factors or they don't work the way they should."
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Bleeding disorders can be the result of other diseases, such as severe liver disease or a lack of vitamin K .",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,537 @@
+{
+  "id": "incontinence",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Incontinencia urinaria (IU)",
+    "aliases": [
+      "incontinencia",
+      "incontinencia urinaria",
+      "pérdida de orina",
+      "incontinencia de orina"
+    ],
+    "summary": "Pérdida involuntaria de orina que puede ser de tipo estrés, urgencia o mixto. Afecta la calidad de vida y se maneja con medidas conductuales, farmacológicas y, en algunos casos, quirúrgicas.",
+    "key_points": [
+      "Identificar tipo (estrés, urgencia, mixto) guía el tratamiento",
+      "Ejercicios del suelo pélvico son la base del manejo no farmacológico",
+      "Antimuscarínicos (p. ej., oxibutinina) se usan en incontinencia de urgencia",
+      "Factores de riesgo incluyen embarazo, menopausia, obesidad y tos crónica"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Debilidad del músculo del esfínter uretral y soporte del suelo pélvico",
+        "Contracciones involuntarias del detrusor (sobreactividad)",
+        "Aumento de presión intraabdominal supera la presión uretral",
+        "Desplazamiento de la vejiga o uretra altera el cierre uretral"
+      ],
+      "risk_factors": [
+        "Embarazo y parto vaginal",
+        "Menopausia y disminución de estrógenos",
+        "Obesidad y aumento de presión abdominal",
+        "Tos crónica, asma o rinitis alérgica",
+        "Enfermedades neurológicas (esclerosis múltiple, lesión medular)"
+      ],
+      "signs_symptoms": [
+        "Pérdida de orina al toser, estornudar o levantar peso",
+        "Urgencia súbita con goteo antes de llegar al baño",
+        "Frecuencia nocturna (nocturia)",
+        "Sensación de vaciado incompleto",
+        "Dermatitis perineal por humedad"
+      ],
+      "diagnostics": [
+        "Historia clínica y diario de micción (volumen, episodios)",
+        "Prueba de estrés (carga con agua y tos)",
+        "Ecografía de residuo postmiccional (PVR) <50 mL normal",
+        "Uroflujometría y estudio urodinámico si se sospecha causa compleja",
+        "Análisis de orina para descartar infección"
+      ],
+      "treatment": [
+        "Ejercicios de Kegel y entrenamiento del suelo pélvico",
+        "Entrenamiento vesical (programa de horarios)",
+        "Modificación de líquidos (evitar irritantes, limitar cafeína)",
+        "Antimuscarínicos: oxibutinina, tolterodina, solifenacina",
+        "Estrógeno tópico en mujeres postmenopáusicas",
+        "Dispositivos de soporte (conos, anillos)",
+        "Cirugía de sling uretral para incontinencia de estrés"
+      ],
+      "complications": [
+        "Dermatitis e irritación cutánea por humedad",
+        "Infecciones del tracto urinario recurrentes",
+        "Impacto psicológico: ansiedad, depresión, aislamiento social",
+        "Caídas al apresurarse al baño",
+        "Incontinencia fecal asociada en casos de daño neurológico"
+      ],
+      "nursing_care": [
+        "Evaluar patrón de micción y tipo de incontinencia",
+        "Inspeccionar piel perineal cada 2 h y registrar irritación",
+        "Mantener posición semisentado para facilitar vaciado",
+        "Cambiar absorbentes cada 2 h o cuando estén saturados",
+        "Registrar volumen de pérdida y factores desencadenantes",
+        "Fomentar ejercicios de suelo pélvico antes y después de la micción"
+      ],
+      "patient_teaching": [
+        "Realizar ejercicios de Kegel 3 veces al día, 10 repeticiones cada una",
+        "Limitar ingesta de cafeína y alcohol; beber 1,5‑2 L de agua al día",
+        "Ir al baño cada 2‑3 h, incluso sin urgencia",
+        "Mantener higiene perineal de adelante hacia atrás",
+        "Usar ropa interior absorbente y cambiarla rápidamente"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Fuga de orina al caminar o subir escaleras",
+          "Fatiga al realizar actividades de la vida diaria"
+        ],
+        "outcomes": [
+          "Nivel de actividad: paciente aumentará tolerancia a la actividad realizando caminatas de 15 min sin fuga en 2 semanas",
+          "Control de la fuga: paciente reportará ≤1 episodio de fuga durante actividades diarias en 1 semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar episodios de fuga antes y después de la intervención",
+            "rationale": "Permite establecer línea base y medir progreso"
+          },
+          {
+            "action": "Enseñar técnica de respiración y contracción del suelo pélvico antes de iniciar actividad física",
+            "rationale": "Reduce presión intraabdominal y previene la fuga"
+          },
+          {
+            "action": "Programar descansos breves cada 10‑15 min durante actividades prolongadas",
+            "rationale": "Evita fatiga y sobrecarga del esfínter"
+          },
+          {
+            "action": "Reforzar ejercicios de Kegel 3 veces al día",
+            "rationale": "Mejora fuerza del esfínter y control de la vejiga"
+          },
+          {
+            "action": "Monitorear signos vitales y nivel de cansancio durante la actividad",
+            "rationale": "Detecta intolerancia temprana y previene caídas"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "Incontinencia urinaria",
+          "Higiene perineal insuficiente",
+          "Uso prolongado de dispositivos absorbentes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección urinaria (ausencia de fiebre, disuria, leucocitos en orina) durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener higiene perineal con agua tibia y secado suave después de cada episodio de fuga",
+            "rationale": "Reduce colonización bacteriana"
+          },
+          {
+            "action": "Cambiar absorbentes o pañales cada 2 h o cuando estén saturados",
+            "rationale": "Previene humedad prolongada que favorece el crecimiento bacteriano"
+          },
+          {
+            "action": "Fomentar ingesta adecuada de líquidos (≥1,5 L/día) salvo contraindicación",
+            "rationale": "Promueve lavado de vías urinarias y disminuye bacterias"
+          },
+          {
+            "action": "Observar y registrar temperatura, dolor al orinar y cambios en el color de la orina",
+            "rationale": "Detección temprana de infección"
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección urinaria y cuándo buscar ayuda",
+            "rationale": "Facilita intervención oportuna"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Urinary incontinence (UI)",
+    "aliases": [
+      "incontinence",
+      "urinary incontinence",
+      "urine loss",
+      "urine incontinence"
+    ],
+    "summary": "Unintentional loss of urine that can be of the stress, urgency, or mixed type. It affects quality of life and is managed with behavioral measures, pharmacologic therapy, and, in some cases, surgical interventions.",
+    "key_points": [
+      "Identify type (stress, urgency, mixed) to guide treatment",
+      "Pelvic floor exercises are the foundation of non‑pharmacologic management",
+      "Antimuscarinics (e.g., oxybutynin) are used for urgency incontinence",
+      "Risk factors include pregnancy, menopause, obesity, and chronic cough"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Weakness of the urethral sphincter muscle and pelvic floor support",
+        "Involuntary detrusor contractions (overactivity)",
+        "Increased intraabdominal pressure exceeds urethral pressure",
+        "Bladder or urethral displacement alters urethral closure"
+      ],
+      "risk_factors": [
+        "Pregnancy and vaginal delivery",
+        "Menopause and decreased estrogen",
+        "Obesity and increased abdominal pressure",
+        "Chronic cough, asthma, or allergic rhinitis",
+        "Neurologic diseases (multiple sclerosis, spinal cord injury)"
+      ],
+      "signs_symptoms": [
+        "Urine loss when coughing, sneezing, or lifting weight",
+        "Sudden urgency with dribbling before reaching the bathroom",
+        "Nocturia",
+        "Feeling of incomplete emptying",
+        "Perineal dermatitis from moisture"
+      ],
+      "diagnostics": [
+        "Medical history and voiding diary (volume, episodes)",
+        "Stress test (water load and cough)",
+        "Post‑void residual ultrasound (PVR) <50 mL normal",
+        "Uroflowmetry and urodynamic study if a complex cause is suspected",
+        "Urinalysis to rule out infection"
+      ],
+      "treatment": [
+        "Kegel exercises and pelvic floor training",
+        "Bladder training (scheduled voiding program)",
+        "Fluid modification (avoid irritants, limit caffeine)",
+        "Antimuscarinics: oxybutynin, tolterodine, solifenacin",
+        "Topical estrogen in post‑menopausal women",
+        "Support devices (cones, rings)",
+        "Urethral sling surgery for stress incontinence"
+      ],
+      "complications": [
+        "Dermatitis and skin irritation from moisture",
+        "Recurrent urinary tract infections",
+        "Psychological impact: anxiety, depression, social isolation",
+        "Falls from rushing to the bathroom",
+        "Associated fecal incontinence in cases of neurologic damage"
+      ],
+      "nursing_care": [
+        "Assess voiding pattern and type of incontinence",
+        "Inspect perineal skin every 2 h and document irritation",
+        "Maintain semi‑upright position to facilitate emptying",
+        "Change absorbents every 2 h or when saturated",
+        "Record loss volume and triggers",
+        "Encourage pelvic floor exercises before and after voiding"
+      ],
+      "patient_teaching": [
+        "Perform Kegel exercises 3 times daily, 10 repetitions each",
+        "Limit caffeine and alcohol intake; drink 1.5‑2 L of water daily",
+        "Use the bathroom every 2‑3 h, even without urgency",
+        "Maintain perineal hygiene from front to back",
+        "Use absorbent underwear and change it promptly"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Urine leakage when walking or climbing stairs",
+          "Fatigue during activities of daily living"
+        ],
+        "outcomes": [
+          "Activity level: patient will increase tolerance to activity by walking 15 min without leakage in 2 weeks",
+          "Leak control: patient will report ≤1 leakage episode during daily activities in 1 week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record leakage episodes before and after intervention",
+            "rationale": "Establish baseline and measure progress"
+          },
+          {
+            "action": "Teach breathing technique and pelvic floor contraction before starting physical activity",
+            "rationale": "Reduce intraabdominal pressure and prevent leakage"
+          },
+          {
+            "action": "Schedule brief breaks every 10‑15 min during prolonged activities",
+            "rationale": "Prevent fatigue and sphincter overload"
+          },
+          {
+            "action": "Reinforce Kegel exercises 3 times daily",
+            "rationale": "Improve sphincter strength and bladder control"
+          },
+          {
+            "action": "Monitor vital signs and fatigue level during activity",
+            "rationale": "Detect early intolerance and prevent falls"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "Urinary incontinence",
+          "Inadequate perineal hygiene",
+          "Prolonged use of absorbent devices"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of urinary infection (absence of fever, dysuria, leukocytes in urine) during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain perineal hygiene with warm water and gentle drying after each leakage episode",
+            "rationale": "Reduce bacterial colonization"
+          },
+          {
+            "action": "Change absorbents or diapers every 2 h or when saturated",
+            "rationale": "Prevent prolonged moisture that favors bacterial growth"
+          },
+          {
+            "action": "Encourage adequate fluid intake (≥1.5 L/day) unless contraindicated",
+            "rationale": "Promote urinary tract flushing and reduce bacteria"
+          },
+          {
+            "action": "Observe and record temperature, pain during urination, and urine color changes",
+            "rationale": "Early detection of infection"
+          },
+          {
+            "action": "Educate patient on signs of urinary infection and when to seek help",
+            "rationale": "Facilitate timely intervention"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "urinary-tract-infection",
+    "pelvic-floor-dysfunction",
+    "overactive-bladder",
+    "stress-incontinence",
+    "urge-incontinence"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Urinary Incontinence",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/urinaryincontinence.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Incontinencia fecal",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/bowelincontinence.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: The Nurse’s Role in Urinary Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/26-4-the-nurses-role-in-urinary-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Common Conditions Affecting Bowel Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-4-common-conditions-affecting-bowel-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12",
+  "factcheck": {
+    "checked": "2026-10-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 30,
+      "contradicted": 2,
+      "total": 48
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Understanding the specific type of urinary incontinence, whether functional incontinence , mixed urinary incontinence , overflow incontinence , stress urinary incontinence , or urge urinary incontinence , is crucial for tailoring appropriate interventions ( Table 26.6 ).",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Anticholinergic medications, such as oxybutynin, may be prescribed to treat urge urinary incontinence and mixed urinary incontinence.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Are female, especially after going through pregnancy, childbirth, and/or menopause",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "It can also happen in some neurological conditions , such as multiple sclerosis and spinal cord injuries .",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "This could be due to coughing, sneezing, laughing, lifting something heavy, or physical activity.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The procedure aims to relieve symptoms of BPH, such as difficulty urinating, frequent urination, and incomplete bladder emptying.",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Regular cleansing and gentle drying of the skin are paramount to prevent moisture-related dermatitis .",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "When assessing a patient for urinary retention, healthcare providers may inquire about the frequency and volume of urination , the presence of straining during voiding, and any associated pain or discomfort.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "contradicted",
+        "quote": "Normal PVR volume is typically between 50 and 100 mL.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Pelvic muscle exercises (also known as Kegel exercises) work the muscles used to stop urination, which can help prevent stress incontinence.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "The process involves creating a voiding schedule, gradually extending the time between bathroom visits, and implementing strategies to suppress the urge to urinate.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Losing weight, drinking less caffeine (found in coffee, tea, and many sodas), preventing constipation, and avoiding lifting heavy objects may help with incontinence.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "For women, a ring or a tampon-like device inserted into the vagina.",
+        "source": 0
+      },
+      "sections.treatment.6": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Moisture-related dermatitis, often referred to as moisture-associated skin damage, is a skin condition characterized by inflammation and irritation resulting from prolonged exposure to moisture.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Incontinence can lead to isolation and depression as people, embarrassed by the condition, limit their activities and social interactions.",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "It is also essential to assess fluid intake, voiding patterns, and the presence of other contributing factors, such as neurological conditions or medications.",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "The voiding diary should include the following: when and how much the patient urinates urinary leakage and what the patient was doing when it happened (e.g., running, biking, laughing) sudden urges to urinate how often the",
+        "source": 2
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "contradicted",
+        "quote": "Timed voiding can be used to help a patient regain control of their bladder by urinating on a set schedule (e.g., every hour) whether they feel the urge to urinate or not.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

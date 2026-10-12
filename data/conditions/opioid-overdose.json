@@ -1,0 +1,529 @@
+{
+  "id": "opioid-overdose",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Sobredosis de opioides",
+    "aliases": [
+      "sobredosis",
+      "opioides",
+      "sobredosis opioides",
+      "overdose",
+      "opioide",
+      "sobredosis de opioides"
+    ],
+    "summary": "Consumo de una dosis excesiva de opioides que produce depresión respiratoria, pérdida de conciencia y riesgo de muerte. Requiere intervención rápida con antagonista opioide y soporte vital.",
+    "key_points": [
+      "Los opioides deprimen el centro respiratorio del bulbo raquídeo.",
+      "Miosis, respiración lenta (<8 rpm) y nivel de conciencia disminuido son signos clásicos.",
+      "Naloxona (DIC) revierte rápidamente la depresión respiratoria.",
+      "El riesgo aumenta con dosis altas, uso concomitante de depresores del SNC y uso no prescrito.",
+      "El manejo incluye aseguramiento de la vía aérea y monitorización continua."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los opioides se unen a receptores μ en el tronco encefálico, reduciendo la sensibilidad a CO₂.",
+        "Disminuye la frecuencia y profundidad respiratoria, provocando hipoventilación.",
+        "Hipoventilación lleva a hipercapnia, acidosis respiratoria y disminución de O₂ arterial.",
+        "La hipoxia cerebral produce pérdida de conciencia y posible muerte."
+      ],
+      "risk_factors": [
+        "Dosis alta o acumulación por insuficiente metabolismo renal/hepático.",
+        "Uso simultáneo de benzodiacepinas, alcohol o otros depresores del SNC.",
+        "Historia de trastorno por consumo de opioides.",
+        "Administración intravenosa de opioides ilícitos (ej. heroína)."
+      ],
+      "signs_symptoms": [
+        "Miosis profunda (pupilas contraídas).",
+        "Respiración lenta (<8 rpm) o apnea.",
+        "Somnolencia, confusión o coma.",
+        "Piel pálida, sudoración fría, hipotensión.",
+        "Náuseas o vómitos."
+      ],
+      "diagnostics": [
+        "Frecuencia respiratoria y saturación de O₂ (SpO₂ < 90%).",
+        "Gasometría arterial: pH < 7.35, PaCO₂ ↑.",
+        "Pupilas evaluadas con linterna.",
+        "Tóxico urinario para opioides si está disponible.",
+        "ECG si se sospecha arritmia por hipoxia."
+      ],
+      "treatment": [
+        "Administrar naloxona 0.4‑2 mg IV/IM/SC; repetir cada 2‑3 min si persiste depresión.",
+        "Asegurar vía aérea: posición lateral de seguridad o intubación si es necesario.",
+        "Oxígeno suplementario 2‑4 L/min por cánula nasal o máscara facial.",
+        "Ventilación mecánica si apnea prolongada.",
+        "Monitoreo continuo de signos vitales y nivel de conciencia."
+      ],
+      "complications": [
+        "Paro respiratorio y muerte.",
+        "Hipoxia cerebral con daño neurológico permanente.",
+        "Aspiración pulmonar por vómito.",
+        "Acidosis respiratoria severa.",
+        "Lesiones por caídas durante la pérdida de conciencia."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, SpO₂ y nivel de conciencia cada 2‑5 min.",
+        "Mantener vía aérea abierta; colocar al paciente en decúbito supino con cabeza ligeramente elevada.",
+        "Administrar naloxona según orden y observar respuesta clínica.",
+        "Registrar pupilas y cambios en la respiración después de cada dosis.",
+        "Preparar equipo de reanimación y notificar al médico inmediatamente."
+      ],
+      "patient_teaching": [
+        "Usar opioides solo según prescripción y nunca compartirlos.",
+        "Almacenar en un lugar seguro fuera del alcance de niños y personas no autorizadas.",
+        "Reconocer signos de sobredosis: respiración lenta, pupilas contraídas, somnolencia.",
+        "Llamar al 911 o acudir a urgencias ante sospecha de sobredosis.",
+        "Entregar naloxona de rescate a pacientes con alto riesgo y enseñar su uso."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "depresión del nivel de conciencia",
+          "náuseas/vómitos",
+          "uso de opioides en dosis altas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Integridad de vías respiratorias: sin evidencia de aspiración durante la estancia",
+          "Oxigenación: SpO₂ ≥ 95% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en posición lateral de seguridad inmediatamente después de la administración de naloxona.",
+            "rationale": "Facilita el drenaje de secreciones y reduce el riesgo de aspiración."
+          },
+          {
+            "action": "Mantener la cabeza del lecho elevada 30‑45° mientras el paciente está consciente.",
+            "rationale": "Mejora el flujo aéreo y disminuye la probabilidad de ingreso de contenido gástrico."
+          },
+          {
+            "action": "Evaluar presencia de vómitos o secreciones orofaríngeas cada 5 minutos.",
+            "rationale": "Detecta rápidamente material que pueda ser aspirado."
+          },
+          {
+            "action": "Administrar oxígeno suplementario y monitorizar SpO₂ continuamente.",
+            "rationale": "Compensa la hipoxemia y permite detección precoz de deterioro respiratorio."
+          },
+          {
+            "action": "Educar al paciente y acompañante sobre signos de aspiración y cuándo buscar ayuda.",
+            "rationale": "Promueve la detección temprana y la intervención oportuna."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipoxemia",
+          "hipercapnia",
+          "depresión respiratoria por opioides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral: mantener presión arterial sistólica ≥ 100 mmHg",
+          "Oxigenación: SpO₂ ≥ 95% y PaO₂ ≥ 80 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 5 minutos.",
+            "rationale": "Detecta hipotensión que pueda comprometer la perfusión cerebral."
+          },
+          {
+            "action": "Administrar naloxona según protocolo y observar mejoría de la respiración.",
+            "rationale": "Revierte la depresión respiratoria y restaura la oxigenación cerebral."
+          },
+          {
+            "action": "Proveer oxígeno a 2‑4 L/min y ajustar según SpO₂.",
+            "rationale": "Aumenta la fracción inspirada de O₂, mejorando la entrega a los tejidos cerebrales."
+          },
+          {
+            "action": "Realizar evaluación neurológica (Escala de Glasgow) cada 15 minutos.",
+            "rationale": "Permite detectar cambios en el nivel de conciencia que indiquen deterioro cerebral."
+          },
+          {
+            "action": "Preparar y, si es necesario, iniciar ventilación mecánica invasiva.",
+            "rationale": "Garantiza ventilación adecuada cuando la respiración espontánea es insuficiente."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opioid overdose",
+    "aliases": [
+      "overdose",
+      "opioids",
+      "opioid overdose",
+      "sobredosis",
+      "sobredosis de opioides"
+    ],
+    "summary": "Consumption of an excessive dose of opioids that produces respiratory depression, loss of consciousness, and risk of death. Requires rapid intervention with opioid antagonist and life support.",
+    "key_points": [
+      "Opioids depress the respiratory center in the medulla.",
+      "Miosis, slow breathing (<8 breaths/min) and decreased level of consciousness are classic signs.",
+      "Naloxone (DIC) rapidly reverses respiratory depression.",
+      "Risk increases with high doses, concomitant use of CNS depressants, and non-prescribed use.",
+      "Management includes securing the airway and continuous monitoring."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Opioids bind to μ receptors in the brainstem, reducing CO₂ sensitivity.",
+        "Respiratory rate and depth decrease, causing hypoventilation.",
+        "Hypoventilation leads to hypercapnia, respiratory acidosis, and decreased arterial O₂.",
+        "Cerebral hypoxia causes loss of consciousness and possible death."
+      ],
+      "risk_factors": [
+        "High dose or accumulation due to insufficient renal/hepatic metabolism.",
+        "Concurrent use of benzodiazepines, alcohol, or other CNS depressants.",
+        "History of opioid use disorder.",
+        "Intravenous administration of illicit opioids (e.g., heroin)."
+      ],
+      "signs_symptoms": [
+        "Deep miosis (constricted pupils).",
+        "Slow breathing (<8 breaths/min) or apnea.",
+        "Somnolence, confusion, or coma.",
+        "Pale skin, cold sweating, hypotension.",
+        "Nausea or vomiting."
+      ],
+      "diagnostics": [
+        "Respiratory rate and SpO₂ (SpO₂ < 90%).",
+        "Arterial blood gas: pH < 7.35, PaCO₂ ↑.",
+        "Pupils examined with a flashlight.",
+        "Urine toxicology for opioids if available.",
+        "ECG if arrhythmia suspected from hypoxia."
+      ],
+      "treatment": [
+        "Administer naloxone 0.4‑2 mg IV/IM/SC; repeat every 2‑3 min if depression persists.",
+        "Secure airway: use the recovery position or intubate if necessary.",
+        "Supplemental oxygen 2‑4 L/min via nasal cannula or face mask.",
+        "Mechanical ventilation if prolonged apnea.",
+        "Continuous monitoring of vital signs and level of consciousness."
+      ],
+      "complications": [
+        "Respiratory arrest and death.",
+        "Cerebral hypoxia with permanent neurological damage.",
+        "Pulmonary aspiration from vomiting.",
+        "Severe respiratory acidosis.",
+        "Fall injuries during loss of consciousness."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, SpO₂, and level of consciousness every 2‑5 min.",
+        "Keep airway open; place patient supine with head slightly elevated.",
+        "Administer naloxone per order and observe clinical response.",
+        "Document pupils and respiratory changes after each dose.",
+        "Prepare resuscitation equipment and notify the physician immediately."
+      ],
+      "patient_teaching": [
+        "Use opioids only as prescribed and never share them.",
+        "Store in a secure place out of reach of children and unauthorized persons.",
+        "Recognize overdose signs: slow breathing, constricted pupils, drowsiness.",
+        "Call 911 or go to the emergency department if overdose is suspected.",
+        "Provide rescue naloxone to high-risk patients and teach its use."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "decreased level of consciousness",
+          "nausea/vomiting",
+          "high-dose opioid use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway integrity: no evidence of aspiration during stay",
+          "Oxygenation: SpO₂ ≥ 95% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Place the patient in the recovery position immediately after naloxone administration.",
+            "rationale": "Facilitates drainage of secretions and reduces aspiration risk."
+          },
+          {
+            "action": "Keep the head of the bed elevated 30‑45° while the patient is conscious.",
+            "rationale": "Improves airflow and decreases the likelihood of gastric content entry."
+          },
+          {
+            "action": "Assess for vomiting or oropharyngeal secretions every 5 minutes.",
+            "rationale": "Rapidly detects material that could be aspirated."
+          },
+          {
+            "action": "Administer supplemental oxygen and monitor SpO₂ continuously.",
+            "rationale": "Compensates for hypoxemia and allows early detection of respiratory deterioration."
+          },
+          {
+            "action": "Educate the patient and companion about aspiration signs and when to seek help.",
+            "rationale": "Promotes early detection and timely intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypoxemia",
+          "hypercapnia",
+          "opioid-induced respiratory depression"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral perfusion: maintain systolic blood pressure ≥ 100 mmHg",
+          "Oxygenation: SpO₂ ≥ 95% and PaO₂ ≥ 80 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 5 minutes.",
+            "rationale": "Detects hypotension that could compromise cerebral perfusion."
+          },
+          {
+            "action": "Administer naloxone per protocol and observe respiratory improvement.",
+            "rationale": "Reverses respiratory depression and restores cerebral oxygenation."
+          },
+          {
+            "action": "Provide oxygen at 2‑4 L/min and titrate to SpO₂.",
+            "rationale": "Increases inspired oxygen fraction, improving delivery to cerebral tissues."
+          },
+          {
+            "action": "Perform neurological assessment (Glasgow Scale) every 15 minutes.",
+            "rationale": "Allows detection of changes in consciousness indicating cerebral deterioration."
+          },
+          {
+            "action": "Prepare and, if necessary, initiate invasive mechanical ventilation.",
+            "rationale": "Ensures adequate ventilation when spontaneous breathing is insufficient."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-use-disorder",
+    "respiratory-depression",
+    "naloxone",
+    "hypoxia",
+    "aspiration"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Opioid Overdose",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/opioidoverdose.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Sobredosis de opioides",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/opioidoverdose.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Agonists and Antagonists",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12",
+  "factcheck": {
+    "checked": "2026-10-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "While naloxone rapidly reverses the effects of opioids within seconds to minutes, it only lasts approximately 20–30 minutes, which is less than the duration of action of many opioids.",
+        "source": 3
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "When people take high doses of opioids, it can lead to an overdose, with the slowing or stopping of breathing and sometimes death.",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Daniel Nguyen is a 34-year-old client who presents to his health care provider’s office stating that he wishes for help with his prescription opioid use. History Opioid use disorder: takes prescription oxycodone when he can acquire it Cigarette smoking: smokes 1 pack per day for 7 years Major depressive disorder Chronic back pain—developed after a workplace injury at his construction job 5 years ago Current Medications Duloxetine 40 mg orally dai",
+        "source": 3
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Opioid intoxication is classically described as a triad of symptoms consisting of reduced consciousness, slow and/or shallow breathing, and miosis (i.e., pinpoint pupils).",
+        "source": 3
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Pale, blue, or cold skin",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "The most common are gastrointestinal effects, including nausea, vomiting, and constipation.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "The presence of opioids in a client is not routinely measured in the blood but rather is detected using urine drug screens.",
+        "source": 3
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "These signs constitute a medical emergency and necessitate the use of an opioid antagonist such as naloxone hydrochloride (discussed in the following section) along with the response of emergency medical services.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Assess for changes in level of consciousness and respirations.",
+        "source": 3
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Share opioids with family or friends because this practice can lead to harm or even death.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Store your medicine safely where children or pets can't reach it.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Opioid intoxication is classically described as a triad of symptoms consisting of reduced consciousness, slow and/or shallow breathing, and miosis (i.e., pinpoint pupils).",
+        "source": 3
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "If you think someone is having an opioid overdose: Call 911 immediately .",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Naloxone hydrochloride should be coprescribed to clients who are at greater risk for opioid overdose.",
+        "source": 2
+      }
+    }
+  }
+}

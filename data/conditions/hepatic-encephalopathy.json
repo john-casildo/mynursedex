@@ -1,0 +1,513 @@
+{
+  "id": "hepatic-encephalopathy",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Encefalopatía hepática (EH)",
+    "aliases": [
+      "encefalopatía hepática",
+      "he",
+      "encefalopatia",
+      "hepática",
+      "hepatico",
+      "encefalopatia hepática"
+    ],
+    "summary": "Alteración neuropsiquiátrica causada por la acumulación de toxinas, principalmente amoníaco, en pacientes con insuficiencia hepática.",
+    "key_points": [
+      "Acumulación de amoníaco y otros neurotoxinas por falla hepática.",
+      "Factores precipitantes: infección, sangrado gastrointestinal, constipación, sedación.",
+      "Clasificación en grados I‑IV según West Haven.",
+      "Tratamiento de primera línea: lactulosa y rifaximina.",
+      "Monitoreo de nivel de amoníaco y estado mental."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El hígado enfermo no convierte amoníaco en urea, aumentando su concentración plasmática.",
+        "El amoníaco atraviesa la barrera hematoencefálica y altera la neurotransmisión.",
+        "Inflamación cerebral y edema de astroglía reducen la función cognitiva.",
+        "Factores precipitantes aumentan la producción o disminuyen la eliminación de amoníaco."
+      ],
+      "risk_factors": [
+        "Cirrosis avanzada o hepatitis crónica.",
+        "Infecciones bacterianas, especialmente peritonitis espontánea.",
+        "Sangrado gastrointestinal y uso de diuréticos.",
+        "Estreñimiento, dieta alta en proteínas.",
+        "Uso de sedantes, benzodiacepinas o anestésicos."
+      ],
+      "signs_symptoms": [
+        "Cambios en el nivel de conciencia: somnolencia, confusión, asterixis.",
+        "Alteraciones del sueño, irritabilidad, alucinaciones.",
+        "Falta de coordinación motora, temblor de las manos.",
+        "Hipertensión portal con ascitis y edema.",
+        "Pupilas normales, sin focalidad neurológica."
+      ],
+      "diagnostics": [
+        "Examen neurológico y escala West Haven (I‑IV).",
+        "Nivel de amoníaco plasmático > 50 µmol/L (varía por laboratorio).",
+        "Pruebas de función hepática: AST, ALT, bilirrubina, INR.",
+        "Electrolitos: Na+, K+, Cl‑ en mEq/L; hiponatremia frecuente.",
+        "Imágenes (ecografía, tomografía) para descartar hemorragia intracraneal."
+      ],
+      "treatment": [
+        "Lactulosa oral o vía rectal para acidificar colon y reducir absorción de amoníaco.",
+        "Rifaximina 550 mg cada 12 h para disminuir bacterias productoras de amoníaco.",
+        "Corrección de precipitantes: antibióticos, control de sangrado, laxantes.",
+        "Restricción moderada de proteínas (0.8 g/kg/día) si está indicado.",
+        "Suplementos de zinc y L‑ornitina L‑aspartato en algunos protocolos."
+      ],
+      "complications": [
+        "Coma hepático y muerte.",
+        "Hipertensión portal y hemorragia variceal.",
+        "Infecciones recurrentes por inmunosupresión.",
+        "Desnutrición y pérdida de masa muscular."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia cada hora usando escala de Glasgow y West Haven.",
+        "Monitorear signos vitales, presión arterial, frecuencia respiratoria y saturación O₂.",
+        "Registrar ingesta y eliminación; vigilar estreñimiento y diarrea.",
+        "Administrar lactulosa y rifaximina según prescripción; observar diarrea excesiva.",
+        "Mantener posición semisentado para prevenir aspiración."
+      ],
+      "patient_teaching": [
+        "Explicar objetivo de lactulosa: producir heces blandas y eliminar amoníaco.",
+        "Instruir sobre dieta baja en proteínas de alta calidad y evitar ayuno prolongado.",
+        "Enseñar signos de empeoramiento: somnolencia creciente, temblor de manos.",
+        "Recomendar evitar alcohol y sedantes sin prescripción.",
+        "Promover hidratación adecuada y uso de laxantes suaves si es necesario."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Fatiga",
+          "Confusión",
+          "Asterixis",
+          "Disminución de la capacidad de concentración"
+        ],
+        "outcomes": [
+          "Nivel de energía: paciente reporta aumento de energía a 3/10 en 48 h",
+          "Actividad: paciente completa actividades de autocuidado sin ayuda en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y tolerancia al reposo cada 4 h",
+            "rationale": "Detectar deterioro temprano y ajustar actividades"
+          },
+          {
+            "action": "Planificar períodos de descanso cada 30‑45 min durante actividades",
+            "rationale": "Previene agotamiento y reduce riesgo de caída"
+          },
+          {
+            "action": "Fomentar posición semisentada y movilización pasiva de extremidades",
+            "rationale": "Mejora perfusión cerebral y reduce asterixis"
+          },
+          {
+            "action": "Administrar lactulosa según orden y registrar consistencia de heces",
+            "rationale": "Disminuye amoníaco y mejora claridad mental"
+          },
+          {
+            "action": "Educar al paciente sobre evitar esfuerzos físicos intensos",
+            "rationale": "Previene aumento de la producción de amoníaco"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "Hipertensión portal",
+          "Elevado nivel de amoníaco",
+          "Infección",
+          "Uso de sedantes",
+          "Hipotensión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral: paciente mantiene presión arterial media ≥ 65 mmHg",
+          "Estado mental: escala de Glasgow ≥ 14 en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada hora",
+            "rationale": "Detectar hipotensión que compromete perfusión cerebral"
+          },
+          {
+            "action": "Mantener hidratación adecuada, 30‑35 mL/kg/día",
+            "rationale": "Optimiza volumen intravascular y flujo cerebral"
+          },
+          {
+            "action": "Evitar sedación excesiva; usar la menor dosis eficaz de benzodiacepinas",
+            "rationale": "Reduce depresión respiratoria y cerebral"
+          },
+          {
+            "action": "Controlar temperatura corporal, mantener 36‑37 °C",
+            "rationale": "Previene aumento del metabolismo cerebral"
+          },
+          {
+            "action": "Notificar al médico ante cambios de nivel de conciencia o presión arterial",
+            "rationale": "Permite intervención temprana"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hepatic encephalopathy (HE)",
+    "aliases": [
+      "hepatic encephalopathy",
+      "he",
+      "encephalopathy",
+      "hepatic",
+      "hepatico",
+      "encephalopathy hepatic"
+    ],
+    "summary": "Neuropsychiatric alteration caused by the accumulation of toxins, primarily ammonia, in patients with liver failure.",
+    "key_points": [
+      "Accumulation of ammonia and other neurotoxins due to liver failure.",
+      "Precipitating factors: infection, gastrointestinal bleeding, constipation, sedation.",
+      "Classification into grades I‑IV according to West Haven.",
+      "First‑line treatment: lactulose and rifaximin.",
+      "Monitoring of plasma ammonia level and mental status."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The diseased liver fails to convert ammonia into urea, increasing its plasma concentration.",
+        "Ammonia crosses the blood‑brain barrier and disrupts neurotransmission.",
+        "Cerebral inflammation and astroglial edema reduce cognitive function.",
+        "Precipitating factors increase production or decrease elimination of ammonia."
+      ],
+      "risk_factors": [
+        "Advanced cirrhosis or chronic hepatitis.",
+        "Bacterial infections, especially spontaneous bacterial peritonitis.",
+        "Gastrointestinal bleeding and use of diuretics.",
+        "Constipation, high‑protein diet.",
+        "Use of sedatives, benzodiazepines or anesthetics."
+      ],
+      "signs_symptoms": [
+        "Changes in level of consciousness: somnolence, confusion, asterixis.",
+        "Sleep disturbances, irritability, hallucinations.",
+        "Motor coordination deficits, hand tremor.",
+        "Portal hypertension with ascites and edema.",
+        "Pupils normal, no focal neurological deficits."
+      ],
+      "diagnostics": [
+        "Neurological exam and West Haven scale (I‑IV).",
+        "Plasma ammonia > 50 µmol/L (varies by laboratory).",
+        "Liver function tests: AST, ALT, bilirubin, INR.",
+        "Electrolytes: Na+, K+, Cl‑ in mEq/L; hyponatremia common.",
+        "Imaging (ultrasound, CT) to rule out intracranial hemorrhage."
+      ],
+      "treatment": [
+        "Oral or rectal lactulose to acidify colon and reduce ammonia absorption.",
+        "Rifaximin 550 mg every 12 h to reduce ammonia‑producing bacteria.",
+        "Correction of precipitants: antibiotics, control of bleeding, laxatives.",
+        "Moderate protein restriction (0.8 g/kg/day) if indicated.",
+        "Zinc supplements and L‑ornithine L‑aspartate in some protocols."
+      ],
+      "complications": [
+        "Hepatic coma and death.",
+        "Portal hypertension and variceal bleeding.",
+        "Recurrent infections due to immunosuppression.",
+        "Malnutrition and muscle wasting."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness hourly using Glasgow and West Haven scales.",
+        "Monitor vital signs, blood pressure, respiratory rate, and O₂ saturation.",
+        "Record intake and output; monitor for constipation and diarrhea.",
+        "Administer lactulose and rifaximin as prescribed; watch for excessive diarrhea.",
+        "Maintain semi‑upright position to prevent aspiration."
+      ],
+      "patient_teaching": [
+        "Explain the goal of lactulose: produce soft stools and eliminate ammonia.",
+        "Instruct on a low‑protein diet of high quality and avoid prolonged fasting.",
+        "Teach signs of worsening: increasing somnolence, hand tremor.",
+        "Recommend avoiding alcohol and unsupervised sedatives.",
+        "Encourage adequate hydration and use of mild laxatives if needed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Fatigue",
+          "Confusion",
+          "Asterixis",
+          "Reduced concentration capacity"
+        ],
+        "outcomes": [
+          "Energy level: patient reports increase to 3/10 in 48 h",
+          "Activity: patient completes self‑care activities without assistance in 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and tolerance to rest every 4 h",
+            "rationale": "Detect early deterioration and adjust activities"
+          },
+          {
+            "action": "Plan rest periods every 30‑45 min during activities",
+            "rationale": "Prevents exhaustion and reduces fall risk"
+          },
+          {
+            "action": "Encourage semi‑upright position and passive limb mobilization",
+            "rationale": "Improves cerebral perfusion and reduces asterixis"
+          },
+          {
+            "action": "Administer lactulose as ordered and record stool consistency",
+            "rationale": "Reduces ammonia and improves mental clarity"
+          },
+          {
+            "action": "Educate patient to avoid intense physical exertion",
+            "rationale": "Prevents increased ammonia production"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "Portal hypertension",
+          "Elevated ammonia level",
+          "Infection",
+          "Sedative use",
+          "Hypotension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral perfusion: patient maintains MAP ≥ 65 mmHg",
+          "Mental status: Glasgow ≥ 14 in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate hourly",
+            "rationale": "Detect hypotension that compromises cerebral perfusion"
+          },
+          {
+            "action": "Maintain adequate hydration, 30‑35 mL/kg/day",
+            "rationale": "Optimizes intravascular volume and cerebral blood flow"
+          },
+          {
+            "action": "Avoid excessive sedation; use lowest effective benzodiazepine dose",
+            "rationale": "Reduces respiratory and cerebral depression"
+          },
+          {
+            "action": "Control body temperature, maintain 36‑37 °C",
+            "rationale": "Prevents increased cerebral metabolism"
+          },
+          {
+            "action": "Notify physician of changes in consciousness or blood pressure",
+            "rationale": "Allows early intervention"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hepatic-failure",
+    "ascites",
+    "portal-hypertension",
+    "ammonia-toxicity",
+    "west-haven-criteria"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Liver Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/liverdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anxiolytics and Sedative-Hypnotics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-4-anxiolytics-and-sedative-hypnotics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12",
+  "factcheck": {
+    "checked": "2026-10-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 33,
+      "contradicted": 1,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "A mental status decline accompanying an increase in ammonia level may indicate hepatic encephalopathy.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Drug therapy includes benzodiazepines and the nonbenzodiazepine sedatives.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Asterixis, or flapping movements, when the patient holds out the arms",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Liver function tests may show increased alanine transaminase (ALT) level and aspartate aminotransferase (AST) levels, bilirubin and prothrombin times will be increased, and albumin level decreased.",
+        "source": 1
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Treatment may include Antibiotics Lactulose L-ornithine and l-aspartate preparation Zinc Prophylactic intubation to protect from aspiration or respiratory compromise Table 19.10 Hepatic Encephalopathy (Mandiga et al., 2023) Abdominal ultrasound can diagnose cirrhosis , portal hypertension, or thrombus.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "A complication of immunosuppression is increased susceptibility to infection.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Elevating the head of bed also helps with aspiration prevention during meals.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "contradicted",
+        "quote": "The provider will order a high-protein, high-calorie diet.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Alcohol should be avoided.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "id": "renal-function",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Función renal",
+    "aliases": [
+      "funcion renal",
+      "pruebas renales",
+      "creatinina",
+      "gfr",
+      "albuminuria",
+      "buno",
+      "glomerular"
+    ],
+    "summary": "Evaluación de la capacidad filtrante de los riñones mediante pruebas de sangre y orina.",
+    "key_points": [
+      "GFR estimado <60 mL/min/1.73 m² indica enfermedad renal crónica.",
+      "Creatinina sérica normal: 0.6‑1.2 mg/dL (varía por laboratorio).",
+      "Relación BUN/creatinina >20 sugiere prerrenal o deshidratación.",
+      "Proteinuria (albumina >30 mg/dL) es marcador temprano de daño renal.",
+      "Factores de riesgo: diabetes, hipertensión, nefrotoxinas.",
+      "Control regular permite detectar enfermedad renal antes de síntomas."
+    ],
+    "sections": {
+      "normal_values": [
+        "Creatinina sérica: 0.6‑1.2 mg/dL",
+        "BUN: 7‑20 mg/dL",
+        "GFR estimado: ≥90 mL/min/1.73 m² (adultos jóvenes)",
+        "Albumina en orina: <30 mg/dL"
+      ],
+      "high_values": [
+        "Elevada creatinina → insuficiencia renal aguda o crónica; signos: edema, oliguria.",
+        "BUN alto → deshidratación, insuficiencia cardíaca, hemorragia gastrointestinal.",
+        "GFR bajo → CKD; causa: diabetes, HTA, glomerulonefritis.",
+        "Proteinuria → daño glomerular; puede acompañarse de hipertensión."
+      ],
+      "low_values": [
+        "Creatinina baja → masa muscular reducida, embarazo temprano.",
+        "BUN bajo → sobrehidratación, insuficiencia hepática.",
+        "GFR elevado >130 → posible hiperfiltración (diabetes temprana)."
+      ],
+      "specimen": [
+        "Sangre venosa: tubo con gel separador, sin ayuno requerido.",
+        "Orina de primera mañana: frasco estéril para albuminuria.",
+        "Procesar dentro de 2 h; evitar hemólisis que falsifica creatinina.",
+        "Repetir pruebas cada 6‑12 meses en pacientes con factores de riesgo."
+      ],
+      "nursing_care": [
+        "Monitorear creatinina, BUN y GFR; notificar valores fuera de rango.",
+        "Evaluar balance hídrico: ingesta, salida, edema, peso diario.",
+        "Revisar medicamentos nefrotóxicos (AINE, aminoglucósidos) y ajustar dosis.",
+        "Educar al paciente sobre dieta baja en sodio y proteínas según indicación.",
+        "Preparar al paciente para posible terapia de reemplazo renal si GFR <15."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "diabetes mellitus",
+          "uso de nefrotoxicos",
+          "deshidratación",
+          "insuficiencia cardíaca"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Función renal: GFR ≥60 mL/min/1.73 m² en 4 semanas",
+          "Eliminación de desechos: Creatinina sérica <1.2 mg/dL en 4 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar valores de creatinina, BUN y GFR según orden médica.",
+            "rationale": "Permite detectar deterioro temprano de la función renal."
+          },
+          {
+            "action": "Evaluar balance hídrico (ingesta, salida, peso) cada turno.",
+            "rationale": "Mantener perfusión adecuada y prevenir sobrecarga o déficit de volumen."
+          },
+          {
+            "action": "Revisar lista de medicamentos y notificar al médico si hay fármacos nefrotóxicos.",
+            "rationale": "Reducir exposición a agentes que pueden empeorar la función renal."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación y la dieta baja en sodio.",
+            "rationale": "Mejora la perfusión renal y controla la presión arterial."
+          },
+          {
+            "action": "Reportar cualquier cambio en la diuresis, edema o signos de uremia al equipo de salud.",
+            "rationale": "Facilita intervención temprana ante deterioro renal."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Renal function",
+    "aliases": [
+      "renal function",
+      "renal tests",
+      "creatinine",
+      "gfr",
+      "albuminuria",
+      "bun",
+      "glomerular"
+    ],
+    "summary": "Assessment of the kidneys' filtering capacity using blood and urine tests.",
+    "key_points": [
+      "Estimated GFR <60 mL/min/1.73 m² indicates chronic kidney disease.",
+      "Normal serum creatinine: 0.6‑1.2 mg/dL (varies by laboratory).",
+      "BUN/creatinine ratio >20 suggests prerenal or dehydration.",
+      "Proteinuria (albumin >30 mg/dL) is an early marker of kidney damage.",
+      "Risk factors: diabetes, hypertension, nephrotoxins.",
+      "Regular monitoring allows detection of kidney disease before symptoms."
+    ],
+    "sections": {
+      "normal_values": [
+        "Serum creatinine: 0.6‑1.2 mg/dL",
+        "BUN: 7‑20 mg/dL",
+        "Estimated GFR: ≥90 mL/min/1.73 m² (young adults)",
+        "Urine albumin: <30 mg/dL"
+      ],
+      "high_values": [
+        "Elevated creatinine → acute or chronic renal failure; signs: edema, oliguria.",
+        "High BUN → dehydration, heart failure, GI bleeding.",
+        "Low GFR → CKD; causes: diabetes, HTN, glomerulonephritis.",
+        "Proteinuria → glomerular damage; may accompany hypertension."
+      ],
+      "low_values": [
+        "Low creatinine → reduced muscle mass, early pregnancy.",
+        "Low BUN → overhydration, liver failure.",
+        "High GFR >130 → possible hyperfiltration (early diabetes)."
+      ],
+      "specimen": [
+        "Venous blood: tube with gel separator, no fasting required.",
+        "First‑morning urine: sterile container for albuminuria.",
+        "Process within 2 h; avoid hemolysis that falsely elevates creatinine.",
+        "Repeat tests every 6‑12 months in patients with risk factors."
+      ],
+      "nursing_care": [
+        "Monitor creatinine, BUN, and GFR; notify out‑of‑range values.",
+        "Assess fluid balance: intake, output, edema, daily weight.",
+        "Review nephrotoxic medications (NSAIDs, aminoglycosides) and adjust doses.",
+        "Educate patient on low‑sodium and protein diet as indicated.",
+        "Prepare patient for possible renal replacement therapy if GFR <15."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "diabetes mellitus",
+          "use of nephrotoxins",
+          "dehydration",
+          "heart failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal function: GFR ≥60 mL/min/1.73 m² in 4 weeks",
+          "Waste elimination: serum creatinine <1.2 mg/dL in 4 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record creatinine, BUN, and GFR values per order.",
+            "rationale": "Allows early detection of renal function decline."
+          },
+          {
+            "action": "Assess fluid balance (intake, output, weight) each shift.",
+            "rationale": "Maintain adequate perfusion and prevent volume overload or deficit."
+          },
+          {
+            "action": "Review medication list and notify physician if nephrotoxic drugs are present.",
+            "rationale": "Reduce exposure to agents that can worsen renal function."
+          },
+          {
+            "action": "Educate patient on the importance of hydration and low‑sodium diet.",
+            "rationale": "Improves renal perfusion and controls blood pressure."
+          },
+          {
+            "action": "Report any changes in diuresis, edema, or signs of uremia to the health team.",
+            "rationale": "Facilitates early intervention for renal deterioration."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "chronic-kidney-disease",
+    "acute-tubular-necrosis",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Kidney Tests",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/kidneytests.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Renal System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Renal Function and Chronic Kidney Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/20-7-renal-function-and-chronic-kidney-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12"
+}

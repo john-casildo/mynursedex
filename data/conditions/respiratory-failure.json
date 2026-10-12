@@ -1,0 +1,344 @@
+{
+  "id": "respiratory-failure",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia respiratoria (IR)",
+    "aliases": [
+      "insuficiencia respiratoria",
+      "fallo respiratorio",
+      "hipoxemia",
+      "hipercapnia",
+      "ir"
+    ],
+    "summary": "La insuficiencia respiratoria es la incapacidad del sistema respiratorio para oxigenar la sangre o eliminar CO₂ de forma adecuada.",
+    "key_points": [
+      "Puede ser hipoxémica, hipercápnica o mixta.",
+      "Se clasifica en aguda o crónica según la rapidez de aparición.",
+      "Los valores críticos son PaO₂ < 60 mmHg y PaCO₂ > 50 mmHg.",
+      "El tratamiento incluye oxígeno, ventilación mecánica y manejo de la causa subyacente."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño o alteración de la ventilación, difusión o perfusión pulmonar reduce el intercambio gaseoso.",
+        "Disminuye la PaO₂ y/o aumenta la PaCO₂, provocando hipoxemia e hipercapnia.",
+        "La hipoxemia estimula la hiperventilación, pero el agotamiento muscular puede empeorar la ventilación.",
+        "El desequilibrio ácido‑base (acidosis respiratoria) afecta la función de órganos vitales."
+      ],
+      "risk_factors": [
+        "Enfermedades pulmonares crónicas (EPOC, fibrosis quística).",
+        "Infecciones graves (neumonía, COVID‑19).",
+        "Trastornos neuromusculares (ESL, distrofia muscular).",
+        "Lesiones medulares altas o trauma torácico."
+      ],
+      "signs_symptoms": [
+        "Taquipnea o respiración superficial.",
+        "Uso de músculos accesorios y aleteo nasal.",
+        "Cianosis labial o de extremidades.",
+        "Confusión, somnolencia o agitación por hipoxemia."
+      ],
+      "diagnostics": [
+        "Gasometría arterial: PaO₂ < 60 mmHg, PaCO₂ > 50 mmHg, pH < 7.35.",
+        "Radiografía de tórax: infiltrados, atelectasias o hiperinsuflación.",
+        "Espirometría: reducción de VEMS y CVF en enfermedad obstructiva.",
+        "Oximetría de pulso: SpO₂ < 90 % en reposo."
+      ],
+      "treatment": [
+        "Oxígeno suplementario vía máscara o cánula nasal para mantener SpO₂ ≥ 92 %.",
+        "Ventilación mecánica invasiva o no invasiva según gravedad.",
+        "Broncodilatadores (β2‑agonistas, anticolinérgicos) si hay obstrucción.",
+        "Antibióticos cuando la causa es infecciosa.",
+        "Diuréticos y manejo de líquidos si hay edema pulmonar asociado a insuficiencia cardíaca."
+      ],
+      "complications": [
+        "Insuficiencia multiorgánica por hipoxemia prolongada.",
+        "Barotrauma pulmonar por ventilación mecánica.",
+        "Acidosis respiratoria y desequilibrio electrolítico.",
+        "Neumonía asociada a intubación."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, patrón y uso de músculos accesorios cada 2 h.",
+        "Monitorear SpO₂ y, si está indicado, gases arteriales cada 4 h.",
+        "Mantener posición semi‑sentada (30‑45°) para optimizar la expansión pulmonar.",
+        "Administrar oxígeno según prescripción y verificar fugas del equipo.",
+        "Observar signos de fatiga respiratoria y reportar cambios al médico."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de mantener la vía aérea abierta y respirar profundamente.",
+        "Enseñar el uso correcto del dispositivo de oxígeno domiciliario.",
+        "Instruir sobre signos de alarma: aumento de disnea, cianosis, confusión.",
+        "Fomentar la vacunación contra influenza y neumococo para prevenir infecciones."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "Obstrucción de vías aéreas",
+          "Hipoxemia"
+        ],
+        "evidenced_by": [
+          "Taquipnea",
+          "Uso de músculos accesorios",
+          "Cianosis",
+          "Ansiedad por falta de aire"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: PaO₂ ≥ 80 mmHg en 48 h",
+          "Disminución de la disnea: escala de disnea ≤ 2/10 en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar frecuencia respiratoria, profundidad y uso de músculos accesorios cada 2 h.",
+            "rationale": "Detecta deterioro temprano del patrón respiratorio."
+          },
+          {
+            "action": "Administrar oxígeno suplementario para mantener SpO₂ ≥ 92 %.",
+            "rationale": "Mejora la oxigenación tisular y reduce la disnea."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑sentada (30‑45°).",
+            "rationale": "Facilita la expansión pulmonar y disminuye el trabajo respiratorio."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y tos controlada.",
+            "rationale": "Optimiza la ventilación y ayuda a eliminar secreciones."
+          },
+          {
+            "action": "Monitorear gases arteriales y ajustar terapia según resultados.",
+            "rationale": "Guía la intervención terapéutica y previene complicaciones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Hiperventilación",
+          "Fiebre",
+          "Uso de diuréticos",
+          "Ventilación mecánica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida de líquidos equilibradas en 24 h",
+          "Hematocrito y electrolitos dentro de rangos normales en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Detecta pérdidas excesivas y permite intervención temprana."
+          },
+          {
+            "action": "Evaluar signos de deshidratación: mucosas secas, turgencia cutánea, hipotensión ortostática.",
+            "rationale": "Identifica déficit de volumen antes de que se produzca hipovolemia."
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción y monitorizar respuesta hemodinámica.",
+            "rationale": "Restablece el volumen intravascular y perfusión tisular."
+          },
+          {
+            "action": "Controlar temperatura corporal y tratar fiebre con antipiréticos.",
+            "rationale": "Reduce pérdidas insensibles de agua por evaporación."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de la hidratación oral adecuada.",
+            "rationale": "Promueve la autorregulación del volumen de líquidos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Respiratory failure (RF)",
+    "aliases": [
+      "respiratory failure",
+      "hypoxemia",
+      "hypercapnia",
+      "rf"
+    ],
+    "summary": "Respiratory failure is the inability of the respiratory system to oxygenate blood or eliminate CO₂ adequately.",
+    "key_points": [
+      "It can be hypoxemic, hypercapnic, or mixed.",
+      "It is classified as acute or chronic based on onset speed.",
+      "Critical values are PaO₂ < 60 mmHg and PaCO₂ > 50 mmHg.",
+      "Treatment includes oxygen, mechanical ventilation, and management of the underlying cause."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Damage or alteration of ventilation, diffusion, or pulmonary perfusion reduces gas exchange.",
+        "Decreases PaO₂ and/or increases PaCO₂, causing hypoxemia and hypercapnia.",
+        "Hypoxemia stimulates hyperventilation, but muscle fatigue can worsen ventilation.",
+        "Acid–base imbalance (respiratory acidosis) affects vital organ function."
+      ],
+      "risk_factors": [
+        "Chronic pulmonary diseases (COPD, cystic fibrosis).",
+        "Severe infections (pneumonia, COVID‑19).",
+        "Neuromuscular disorders (ALS, muscular dystrophy).",
+        "High spinal cord injuries or thoracic trauma."
+      ],
+      "signs_symptoms": [
+        "Tachypnea or shallow breathing.",
+        "Use of accessory muscles and nasal flaring.",
+        "Lip or extremity cyanosis.",
+        "Confusion, drowsiness, or agitation due to hypoxemia."
+      ],
+      "diagnostics": [
+        "Arterial blood gas: PaO₂ < 60 mmHg, PaCO₂ > 50 mmHg, pH < 7.35.",
+        "Chest X‑ray: infiltrates, atelectasis, or hyperinflation.",
+        "Spirometry: reduced FEV₁ and FVC in obstructive disease.",
+        "Pulse oximetry: SpO₂ < 90 % at rest."
+      ],
+      "treatment": [
+        "Supplemental oxygen via mask or nasal cannula to maintain SpO₂ ≥ 92 %.",
+        "Invasive or non‑invasive mechanical ventilation as indicated by severity.",
+        "Bronchodilators (β₂‑agonists, anticholinergics) if obstruction is present.",
+        "Antibiotics when the cause is infectious.",
+        "Diuretics and fluid management if pulmonary edema is associated with heart failure."
+      ],
+      "complications": [
+        "Multi‑organ failure from prolonged hypoxemia.",
+        "Pulmonary barotrauma from mechanical ventilation.",
+        "Respiratory acidosis and electrolyte imbalance.",
+        "Intubation‑associated pneumonia."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, pattern, and accessory muscle use every 2 h.",
+        "Monitor SpO₂ and, if indicated, arterial gases every 4 h.",
+        "Maintain semi‑upright position (30‑45°) to optimize lung expansion.",
+        "Administer oxygen per prescription and check for equipment leaks.",
+        "Observe for signs of respiratory fatigue and report changes to the physician."
+      ],
+      "patient_teaching": [
+        "Explain the importance of keeping the airway open and breathing deeply.",
+        "Teach proper use of home oxygen equipment.",
+        "Instruct on warning signs: increased dyspnea, cyanosis, confusion.",
+        "Encourage influenza and pneumococcal vaccination to prevent infections."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "Airway obstruction",
+          "Hypoxemia"
+        ],
+        "evidenced_by": [
+          "Tachypnea",
+          "Use of accessory muscles",
+          "Cyanosis",
+          "Anxiety due to shortness of breath"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: PaO₂ ≥ 80 mmHg within 48 h",
+          "Reduced dyspnea: dyspnea scale ≤ 2/10 within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess respiratory rate, depth, and accessory muscle use every 2 h.",
+            "rationale": "Detects early deterioration of the breathing pattern."
+          },
+          {
+            "action": "Administer supplemental oxygen to maintain SpO₂ ≥ 92 %.",
+            "rationale": "Improves tissue oxygenation and reduces dyspnea."
+          },
+          {
+            "action": "Place the patient in a semi‑upright position (30‑45°).",
+            "rationale": "Facilitates lung expansion and reduces work of breathing."
+          },
+          {
+            "action": "Teach diaphragmatic breathing and controlled coughing techniques.",
+            "rationale": "Optimizes ventilation and helps clear secretions."
+          },
+          {
+            "action": "Monitor arterial gases and adjust therapy based on results.",
+            "rationale": "Guides therapeutic intervention and prevents complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Hyperventilation",
+          "Fever",
+          "Use of diuretics",
+          "Mechanical ventilation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output balanced within 24 h",
+          "Hematocrit and electrolytes within normal ranges within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 8 h.",
+            "rationale": "Detects excessive losses and allows early intervention."
+          },
+          {
+            "action": "Assess for signs of dehydration: dry mucous membranes, skin turgor, orthostatic hypotension.",
+            "rationale": "Identifies volume deficit before hypovolemia occurs."
+          },
+          {
+            "action": "Administer intravenous fluids per prescription and monitor hemodynamic response.",
+            "rationale": "Restores intravascular volume and tissue perfusion."
+          },
+          {
+            "action": "Control body temperature and treat fever with antipyretics.",
+            "rationale": "Reduces insensible water loss through evaporation."
+          },
+          {
+            "action": "Educate patient and family on the importance of adequate oral hydration.",
+            "rationale": "Promotes self‑regulation of fluid volume."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoxemia",
+    "hypercapnia",
+    "acute-respiratory-distress-syndrome",
+    "pulmonary-embolism",
+    "chronic-obstructive-pulmonary-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Respiratory Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/respiratoryfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Insuficiencia respiratoria",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/respiratoryfailure.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Heart Failure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-1-heart-failure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-12"
+}
