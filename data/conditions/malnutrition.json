@@ -1,0 +1,528 @@
+{
+  "id": "malnutrition",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Desnutrición (Malnutrición)",
+    "aliases": [
+      "desnutricion",
+      "malnutricion",
+      "bajo peso",
+      "perdida de peso",
+      "nutricion insuficiente"
+    ],
+    "summary": "Estado en el que el cuerpo no recibe suficientes calorías, proteínas o micronutrientes para mantener la salud. Puede ser por ingesta insuficiente, mala absorción o aumento de requerimientos.",
+    "key_points": [
+      "Incluye desnutrición proteico‑energética (kwashiorkor, marasmo) y desequilibrios de micronutrientes",
+      "Factores de riesgo: edad extrema, enfermedades crónicas, pobreza y dietas restrictivas",
+      "Marcadores de laboratorio: albúmina <3.5 g/dL, prealbúmina <18 mg/dL, IMC <18.5 kg/m²",
+      "Intervención principal: re‑alimentación gradual y suplementación de micronutrientes"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ingesta calórica/proteica < requerimientos → déficit de energía y síntesis de proteínas",
+        "Disminución de albúmina y prealbúmina por falta de aminoácidos",
+        "Pérdida de masa muscular y tejido subcutáneo",
+        "Alteración de la respuesta inmune por déficit de vitaminas y minerales"
+      ],
+      "risk_factors": [
+        "Niños <5 años, adultos mayores >65 años",
+        "Enfermedades crónicas (cáncer, EPOC, insuficiencia renal)",
+        "Pobreza, inseguridad alimentaria",
+        "Dietas restrictivas o trastornos de la alimentación",
+        "Infecciones prolongadas con fiebre y diarrea"
+      ],
+      "signs_symptoms": [
+        "Pérdida de peso >10 % en 6 meses",
+        "IMC <18.5 kg/m² o <5 percentil en niños",
+        "Edema periférico (kwashiorkor)",
+        "Fatiga, debilidad muscular",
+        "Cambios en la piel y cabello (descamación, cabello quebradizo)"
+      ],
+      "diagnostics": [
+        "Historia dietética y examen físico completo",
+        "Peso, talla, IMC, % de grasa corporal",
+        "Laboratorio: albúmina, prealbúmina, hemoglobina, electrolitos, vitaminas (A, D, B12)",
+        "Radiografía de tórax si se sospecha edema pulmonar",
+        "Evaluación de ingesta calórica (kcal/día)"
+      ],
+      "treatment": [
+        "Re‑alimentación oral con dietas hipercalóricas y altas en proteína",
+        "Suplementos de vitaminas y minerales según déficit",
+        "Nutrición enteral si la ingesta oral es insuficiente",
+        "Nutrición parenteral en casos graves o intolerancia gastrointestinal",
+        "Monitoreo de peso y laboratorios cada 1‑2 semanas"
+      ],
+      "complications": [
+        "Infecciones recurrentes por inmunosupresión",
+        "Retraso del crecimiento y desarrollo en niños",
+        "Insuficiencia cardíaca por edema masivo",
+        "Deficiencias de vitaminas (escorbuto, beriberi)",
+        "Muerte si no se corrige"
+      ],
+      "nursing_care": [
+        "Valoración de peso, talla, IMC y signos de edema diariamente",
+        "Monitorizar albúmina y electrolitos cada 48‑72 h",
+        "Registrar ingesta calórica y de líquidos",
+        "Posicionar al paciente en decúbito supino o semi‑Fowler según tolerancia",
+        "Priorizar la seguridad de la vía de alimentación (NG, PEG)"
+      ],
+      "patient_teaching": [
+        "Enseñar la importancia de comidas frecuentes y densas en energía",
+        "Demostrar cómo leer etiquetas para identificar fuentes de proteína y vitaminas",
+        "Instruir sobre signos de deshidratación y cuándo buscar ayuda médica",
+        "Fomentar la participación de la familia en la preparación de alimentos nutritivos"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Desequilibrio nutricional: inferior a las necesidades corporales",
+        "type": "actual",
+        "related_to": [
+          "ingesta insuficiente de calorías y proteínas",
+          "enfermedad crónica con aumento de requerimientos",
+          "pobreza y falta de acceso a alimentos nutritivos"
+        ],
+        "evidenced_by": [
+          "pérdida de peso >10 %",
+          "IMC <18.5 kg/m²",
+          "albúmina <3.5 g/dL",
+          "fatiga y debilidad muscular"
+        ],
+        "outcomes": [
+          "Estado nutricional: peso corporal dentro del 5 % del objetivo en 4 semanas",
+          "Consumo de proteínas: ≥1.2 g/kg/día en 2 semanas",
+          "Nivel de albúmina: ≥3.5 g/dL en 3 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar valoración nutricional completa y registrar ingesta calórica diaria",
+            "rationale": "Permite identificar déficit y planificar la re‑alimentación"
+          },
+          {
+            "action": "Ofrecer dieta hipercalórica y alta en proteína en pequeñas porciones frecuentes",
+            "rationale": "Facilita la tolerancia y aumenta la ingesta total"
+          },
+          {
+            "action": "Administrar suplementos de vitaminas y minerales según resultados de laboratorio",
+            "rationale": "Corrige deficiencias específicas y previene complicaciones"
+          },
+          {
+            "action": "Monitorear peso y parámetros de laboratorio (albúmina, prealbúmina) cada 48 h",
+            "rationale": "Evalúa la respuesta al tratamiento y permite ajustes oportunos"
+          },
+          {
+            "action": "Educar al paciente y familia sobre preparación de alimentos ricos en energía y proteína",
+            "rationale": "Promueve la adherencia y la autosuficiencia nutricional"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "diarrea crónica",
+          "vómitos frecuentes",
+          "fiebre prolongada",
+          "ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación: ingesta de líquidos ≥30 mL/kg/día en 48 h",
+          "Signos de deshidratación: ausentes en evaluación diaria"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar balance hídrico cada turno (entrada vs salida)",
+            "rationale": "Detecta temprano déficit de líquidos"
+          },
+          {
+            "action": "Ofrecer líquidos claros y soluciones de rehidratación oral cada 2 h",
+            "rationale": "Reemplaza pérdidas y previene deshidratación"
+          },
+          {
+            "action": "Monitorizar presión arterial, frecuencia cardíaca y turgencia cutánea",
+            "rationale": "Identifica signos fisiológicos de hipovolemia"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber al menos 2 L de agua al día",
+            "rationale": "Fomenta la autosuficiencia en la hidratación"
+          },
+          {
+            "action": "Notificar al médico si el balance hídrico es negativo >‑500 mL/24 h",
+            "rationale": "Permite intervención médica o terapia intravenosa temprana"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Malnutrition (Malnutrition)",
+    "aliases": [
+      "malnutrition",
+      "underweight",
+      "weight loss",
+      "insufficient nutrition"
+    ],
+    "summary": "A state in which the body does not receive enough calories, protein, or micronutrients to maintain health. It can result from inadequate intake, poor absorption, or increased requirements.",
+    "key_points": [
+      "Includes protein-energy malnutrition (kwashiorkor, marasmus) and micronutrient imbalances",
+      "Risk factors: extreme age, chronic diseases, poverty, restrictive diets",
+      "Laboratory markers: albumin <3.5 g/dL, prealbumin <18 mg/dL, BMI <18.5 kg/m²",
+      "Primary intervention: gradual refeeding and micronutrient supplementation"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Caloric/protein intake < requirements → energy deficit and impaired protein synthesis",
+        "Reduced albumin and prealbumin due to amino acid deficiency",
+        "Loss of muscle mass and subcutaneous tissue",
+        "Immune response altered by vitamin and mineral deficits"
+      ],
+      "risk_factors": [
+        "Children <5 years, adults >65 years",
+        "Chronic diseases (cancer, COPD, renal failure)",
+        "Poverty, food insecurity",
+        "Restrictive diets or eating disorders",
+        "Prolonged infections with fever and diarrhea"
+      ],
+      "signs_symptoms": [
+        "Weight loss >10 % in 6 months",
+        "BMI <18.5 kg/m² or <5th percentile in children",
+        "Peripheral edema (kwashiorkor)",
+        "Fatigue, muscle weakness",
+        "Skin and hair changes (desquamation, brittle hair)"
+      ],
+      "diagnostics": [
+        "Dietary history and comprehensive physical exam",
+        "Weight, height, BMI, % body fat",
+        "Laboratory: albumin, prealbumin, hemoglobin, electrolytes, vitamins (A, D, B12)",
+        "Chest X‑ray if pulmonary edema suspected",
+        "Caloric intake assessment (kcal/day)"
+      ],
+      "treatment": [
+        "Oral refeeding with hypercaloric, high‑protein diets",
+        "Vitamin and mineral supplements per deficits",
+        "Enteral nutrition if oral intake insufficient",
+        "Parenteral nutrition in severe cases or GI intolerance",
+        "Monitor weight and labs every 1–2 weeks"
+      ],
+      "complications": [
+        "Recurrent infections due to immunosuppression",
+        "Growth and developmental delay in children",
+        "Heart failure from massive edema",
+        "Vitamin deficiencies (scurvy, beriberi)",
+        "Death if not corrected"
+      ],
+      "nursing_care": [
+        "Assess weight, height, BMI, and edema signs daily",
+        "Monitor albumin and electrolytes every 48–72 h",
+        "Document caloric and fluid intake",
+        "Position patient supine or semi‑Fowler as tolerated",
+        "Prioritize safe feeding route (NG, PEG)"
+      ],
+      "patient_teaching": [
+        "Teach importance of frequent, energy‑dense meals",
+        "Show how to read labels for protein and vitamin sources",
+        "Explain dehydration signs and when to seek medical help",
+        "Encourage family involvement in preparing nutritious foods"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Imbalanced nutrition: less than body requirements",
+        "type": "actual",
+        "related_to": [
+          "insufficient caloric and protein intake",
+          "chronic disease with increased needs",
+          "poverty and lack of access to nutritious foods"
+        ],
+        "evidenced_by": [
+          "weight loss >10 %",
+          "BMI <18.5 kg/m²",
+          "albumin <3.5 g/dL",
+          "fatigue and muscle weakness"
+        ],
+        "outcomes": [
+          "Nutritional status: body weight within 5 % of goal in 4 weeks",
+          "Protein intake: ≥1.2 g/kg/day in 2 weeks",
+          "Albumin level: ≥3.5 g/dL in 3 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Perform comprehensive nutritional assessment and record daily caloric intake",
+            "rationale": "Identifies deficits and plans refeeding"
+          },
+          {
+            "action": "Offer hypercaloric, high‑protein diet in small, frequent portions",
+            "rationale": "Improves tolerance and increases total intake"
+          },
+          {
+            "action": "Administer vitamin and mineral supplements per lab results",
+            "rationale": "Corrects specific deficiencies and prevents complications"
+          },
+          {
+            "action": "Monitor weight and laboratory parameters (albumin, prealbumin) every 48 h",
+            "rationale": "Evaluates treatment response and allows timely adjustments"
+          },
+          {
+            "action": "Educate patient and family on preparing energy‑rich, protein‑dense foods",
+            "rationale": "Promotes adherence and nutritional self‑sufficiency"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "chronic diarrhea",
+          "frequent vomiting",
+          "prolonged fever",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration: fluid intake ≥30 mL/kg/day in 48 h",
+          "Dehydration signs: absent on daily assessment"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid balance each shift (input vs output)",
+            "rationale": "Detects early fluid deficit"
+          },
+          {
+            "action": "Offer clear fluids and oral rehydration solutions every 2 h",
+            "rationale": "Replaces losses and prevents dehydration"
+          },
+          {
+            "action": "Monitor blood pressure, heart rate, and skin turgor",
+            "rationale": "Identifies physiological signs of hypovolemia"
+          },
+          {
+            "action": "Educate patient on importance of drinking at least 2 L of water daily",
+            "rationale": "Encourages self‑hydration"
+          },
+          {
+            "action": "Notify physician if fluid balance is negative >‑500 mL/24 h",
+            "rationale": "Allows early medical intervention or IV therapy"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "protein-energy-malnutrition",
+    "micronutrient-deficiency",
+    "cachexia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Malnutrition",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/malnutrition.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Desnutrición",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/malnutrition.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Nutritional Concepts",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/17-1-nutritional-concepts",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Nutritional Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/17-4-nutritional-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-13",
+  "factcheck": {
+    "checked": "2026-10-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Malnutrition means that your body isn't getting enough calories or the right balance of nutrients to stay healthy.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Two serious forms of this are kwashiorkor and marasmus.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Healing is compromised when nutritional deficits are present, preventing immune-modulating cells from functioning properly.",
+        "source": 3
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Low calorie intake is a common cause of undernutrition and is commonly associated with poverty, homelessness, mental disorders, and cognitive disorders.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Infections, inflammatory disease, metabolic conditions, and eating disorders are all medical conditions that have a direct effect on nutritional status.",
+        "source": 3
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Conditions associated with dehydration include vomiting, diarrhea, prolonged fevers, and excessive sweat due to heat stroke.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The symptoms of malnutrition can vary. You may have no symptoms, but if you do, they may include: Fatigue and weakness Dizziness Losing weight without trying Low body weight Slow growth or development in children Frequent infections or slow healing Dry skin or brittle hair and nails Swelling in the legs, feet, or belly How is malnutrition diagnosed?",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "You may have no symptoms, but if you do, they may include: Fatigue and weakness Dizziness Losing weight without trying Low body weight Slow growth or development in children Frequent infections or slow healing Dry skin or brittle hair and nails Swelling in the legs, feet, or belly How is malnutrition diagnosed?",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "A nutrition assessment includes subjective data, including demographic and sociocultural data, lifestyle cues, and medical history. It also includes objective data gathered from physical exams, labs, and diagnostic tests.",
+        "source": 3
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "The measure of body mass index (BMI) is a commonly used tool that analyzes height and weight to provide a measurement relative to generalized standards.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Chronic infectious states often benefit from a high- calorie , high-protein diet to meet elevated energy demands.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Iron supplements, vitamin B12 injections, folate supplements, and increased iron or folate intake in the diet can help increase hemoglobin levels.",
+        "source": 3
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "You may have no symptoms, but if you do, they may include: Fatigue and weakness Dizziness Losing weight without trying Low body weight Slow growth or development in children Frequent infections or slow healing Dry skin or brittle hair and nails Swelling in the legs, feet, or belly How is malnutrition diagnosed?",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Without the right vitamins, your body cannot stay healthy and may develop specific diseases. For example, scurvy can develop from too little vitamin C , rickets from too little vitamin D , and anemia from too little iron or vitamin B12 .",
+        "source": 0
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "If a caloric deficit is prolonged and starvation ensues, the body will metabolize proteins, which can lead to life-threatening medical conditions and death.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,333 @@
+{
+  "id": "spontaneous-bacterial-peritonitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Peritonitis bacteriana espontánea (PBE)",
+    "aliases": [
+      "peritonitis bacteriana espontánea",
+      "sbp",
+      "peritonitis espontanea",
+      "ascitis infección",
+      "peritonitis",
+      "bacterial peritonitis"
+    ],
+    "summary": "Inflamación del peritoneo causada por infección bacteriana sin perforación, frecuente en pacientes con cirrosis y ascitis.",
+    "key_points": [
+      "Diagnóstico se basa en recuento de neutrófilos >250 células/mm³ en líquido ascítico.",
+      "Cefalosporinas de tercera generación son el tratamiento de primera línea.",
+      "Se administra albúmina IV para prevenir insuficiencia renal.",
+      "Factores de riesgo: cirrosis descompensada, ascitis de gran volumen y uso de diuréticos.",
+      "Complicaciones incluyen sepsis, insuficiencia renal y shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Translocación bacteriana del intestino al líquido ascítico por aumento de permeabilidad.",
+        "Reducción de la función fagocítica del líquido ascítico por bajo nivel de proteínas.",
+        "Multiplicación bacteriana → inflamación del peritoneo y respuesta sistémica."
+      ],
+      "risk_factors": [
+        "Cirrosis hepática descompensada con ascitis.",
+        "Uso crónico de diuréticos que disminuyen la proteína del líquido ascítico.",
+        "Procedimientos invasivos (paracentesis) sin técnica aséptica adecuada.",
+        "Inmunosupresión por alcoholismo o terapia corticosteroide."
+      ],
+      "signs_symptoms": [
+        "Fiebre ≥38 °C, escalofríos.",
+        "Dolor abdominal difuso o localizado, sensibilidad a la palpación.",
+        "Encefalopatía hepática de nuevo inicio o empeoramiento.",
+        "Taquicardia y presión arterial baja en casos de sepsis."
+      ],
+      "diagnostics": [
+        "Paracentesis diagnóstica: recuento de neutrófilos >250 células/mm³.",
+        "Cultivo de líquido ascítico: identificación del germen y antibiograma.",
+        "Pruebas de laboratorio: leucocitosis, PCR elevada, creatinina y BUN para evaluar función renal.",
+        "Ecografía abdominal para confirmar presencia y volumen de ascitis."
+      ],
+      "treatment": [
+        "Ceftriaxona 2 g IV cada 24 h o cefotaxima 2 g IV cada 8 h (antibiótico de amplio espectro).",
+        "Albumina humana 1.5 g/kg (máx 150 g) IV en la primera 6 h y 1 g/kg al día 3 para prevenir insuficiencia renal.",
+        "Suspender o ajustar diuréticos según balance hídrico.",
+        "Monitoreo estrecho de signos vitales y función renal durante 48 h."
+      ],
+      "complications": [
+        "Sepsis y shock séptico.",
+        "Insuficiencia renal aguda.",
+        "Hemorragia digestiva por varices rotas.",
+        "Muerte si no se trata a tiempo."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada hora y registrar cambios de temperatura y presión arterial.",
+        "Monitorizar diuresis, peso diario y balance hídrico.",
+        "Observar el sitio de paracentesis por sangrado o fuga.",
+        "Administrar antibiótico y albúmina según prescripción, verificando compatibilidad.",
+        "Mantener aislamiento de contacto si se sospecha patógeno multirresistente."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la paracentesis estéril y evitar automedicación.",
+        "Instruir sobre signos de alarma: fiebre, dolor abdominal intenso, confusión.",
+        "Reforzar la adherencia al tratamiento antibiótico completo.",
+        "Promover una dieta baja en sodio y evitar el consumo excesivo de alcohol."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "cirrosis descompensada",
+          "ascitis de gran volumen",
+          "paracentesis invasiva",
+          "uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de la infección: ausencia de fiebre en 48 h",
+          "Estado inflamatorio: PCR <5 mg/L en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener técnica aséptica estricta al realizar paracentesis y cuidados del sitio.",
+            "rationale": "Previene la introducción de microorganismos al líquido ascítico."
+          },
+          {
+            "action": "Administrar antibiótico profiláctico según orden médica.",
+            "rationale": "Elimina bacterias potenciales y reduce la carga bacteriana."
+          },
+          {
+            "action": "Monitorear temperatura cada 4 h y reportar fiebre >38 °C.",
+            "rationale": "Detección temprana de infección para intervención oportuna."
+          },
+          {
+            "action": "Evaluar y registrar signos de inflamación en el abdomen (dolor, sensibilidad).",
+            "rationale": "Identifica progresión de la peritonitis."
+          },
+          {
+            "action": "Educar al paciente y familia sobre higiene de manos y cuidados del catéter si está presente.",
+            "rationale": "Reduce la transmisión de microorganismos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de diuréticos",
+          "administración de albúmina",
+          "insuficiencia renal",
+          "pérdida de líquidos por ascitis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rangos normales (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L) en 72 h",
+          "Balance hídrico estable: ingesta ≈ salida en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos (Na, K, Cl) cada 12 h.",
+            "rationale": "Detecta alteraciones tempranas y permite corrección."
+          },
+          {
+            "action": "Ajustar dosis de diuréticos según balance hídrico y valores de potasio.",
+            "rationale": "Previene hipocalemia y deshidratación."
+          },
+          {
+            "action": "Administrar solución de reemplazo de potasio si K <3.5 mEq/L.",
+            "rationale": "Corrige hipokalemia que puede causar arritmias."
+          },
+          {
+            "action": "Monitorear ingesta y salida de líquidos, incluyendo drenaje de ascitis.",
+            "rationale": "Mantiene equilibrio de volumen y electrolitos."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y la importancia de la hidratación controlada.",
+            "rationale": "Facilita el autocuidado y prevención de desequilibrios."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Spontaneous bacterial peritonitis (SBP)",
+    "aliases": [
+      "spontaneous bacterial peritonitis",
+      "sbp",
+      "spontaneous peritonitis",
+      "ascitic infection",
+      "peritonitis",
+      "bacterial peritonitis"
+    ],
+    "summary": "Inflammation of the peritoneum caused by bacterial infection without perforation, common in patients with cirrhosis and ascites.",
+    "key_points": [
+      "Diagnosis is based on neutrophil count >250 cells/mm³ in ascitic fluid.",
+      "Third‑generation cephalosporins are first‑line therapy.",
+      "IV albumin is administered to prevent renal failure.",
+      "Risk factors: decompensated cirrhosis, large‑volume ascites, and diuretic use.",
+      "Complications include sepsis, renal failure, and shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Bacterial translocation from the gut to ascitic fluid due to increased permeability.",
+        "Reduced phagocytic function of ascitic fluid from low protein levels.",
+        "Bacterial multiplication leads to peritoneal inflammation and systemic response."
+      ],
+      "risk_factors": [
+        "Decompensated hepatic cirrhosis with ascites.",
+        "Chronic diuretic use that lowers ascitic fluid protein.",
+        "Invasive procedures (paracentesis) without proper aseptic technique.",
+        "Immunosuppression from alcoholism or corticosteroid therapy."
+      ],
+      "signs_symptoms": [
+        "Fever ≥38 °C, chills.",
+        "Diffuse or localized abdominal pain, tenderness to palpation.",
+        "New or worsening hepatic encephalopathy.",
+        "Tachycardia and low blood pressure in septic cases."
+      ],
+      "diagnostics": [
+        "Diagnostic paracentesis: neutrophil count >250 cells/mm³.",
+        "Ascitic fluid culture: organism identification and antibiogram.",
+        "Laboratory tests: leukocytosis, elevated CRP, creatinine and BUN to assess renal function.",
+        "Abdominal ultrasound to confirm presence and volume of ascites."
+      ],
+      "treatment": [
+        "Ceftriaxone 2 g IV every 24 h or cefotaxime 2 g IV every 8 h (broad‑spectrum antibiotic).",
+        "Human albumin 1.5 g/kg (max 150 g) IV within the first 6 h and 1 g/kg on day 3 to prevent renal failure.",
+        "Suspend or adjust diuretics based on fluid balance.",
+        "Close monitoring of vital signs and renal function for 48 h."
+      ],
+      "complications": [
+        "Sepsis and septic shock.",
+        "Acute renal failure.",
+        "Digestive bleeding from ruptured varices.",
+        "Death if not treated promptly."
+      ],
+      "nursing_care": [
+        "Assess vital signs hourly and record changes in temperature and blood pressure.",
+        "Monitor urine output, daily weight, and fluid balance.",
+        "Observe the paracentesis site for bleeding or leakage.",
+        "Administer antibiotics and albumin per prescription, checking compatibility.",
+        "Maintain contact isolation if a multidrug‑resistant pathogen is suspected."
+      ],
+      "patient_teaching": [
+        "Explain the importance of sterile paracentesis and avoid self‑medication.",
+        "Instruct on warning signs: fever, severe abdominal pain, confusion.",
+        "Reinforce adherence to the full antibiotic course.",
+        "Promote a low‑sodium diet and avoid excessive alcohol consumption."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "decompensated cirrhosis",
+          "large‑volume ascites",
+          "invasive paracentesis",
+          "diuretic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control of infection: no fever within 48 h",
+          "Inflammatory status: CRP <5 mg/L within 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain strict aseptic technique during paracentesis and site care.",
+            "rationale": "Prevents introduction of microorganisms into ascitic fluid."
+          },
+          {
+            "action": "Administer prophylactic antibiotic as ordered.",
+            "rationale": "Eliminates potential bacteria and reduces bacterial load."
+          },
+          {
+            "action": "Monitor temperature every 4 h and report fever >38 °C.",
+            "rationale": "Early detection of infection for timely intervention."
+          },
+          {
+            "action": "Assess and document abdominal inflammation signs (pain, tenderness).",
+            "rationale": "Identifies progression of peritonitis."
+          },
+          {
+            "action": "Educate patient and family on hand hygiene and catheter care if present.",
+            "rationale": "Reduces transmission of microorganisms."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "diuretic use",
+          "albumin administration",
+          "renal failure",
+          "fluid loss from ascites"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal ranges (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L) within 72 h",
+          "Stable fluid balance: intake ≈ output in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes (Na, K, Cl) every 12 h.",
+            "rationale": "Detects early changes and allows correction."
+          },
+          {
+            "action": "Adjust diuretic dose based on fluid balance and potassium values.",
+            "rationale": "Prevents hypokalemia and dehydration."
+          },
+          {
+            "action": "Administer potassium replacement solution if K <3.5 mEq/L.",
+            "rationale": "Corrects hypokalemia that can cause arrhythmias."
+          },
+          {
+            "action": "Monitor fluid intake and output, including ascitic drainage.",
+            "rationale": "Maintains volume and electrolyte balance."
+          },
+          {
+            "action": "Educate patient on potassium‑rich foods and the importance of controlled hydration.",
+            "rationale": "Facilitates self‑care and prevention of imbalances."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cirrhosis",
+    "ascites",
+    "sepsis",
+    "hepatic-encephalopathy",
+    "peritonitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Peritoneal Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/peritonealdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Bacterial, Viral/COVID-19, and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-1-introduction-to-bacterial-viral-covid-19-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-13"
+}

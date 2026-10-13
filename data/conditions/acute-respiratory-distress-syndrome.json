@@ -1,0 +1,508 @@
+{
+  "id": "acute-respiratory-distress-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome de dificultad respiratoria aguda (SDRA)",
+    "aliases": [
+      "sdra",
+      "síndrome dificultad respiratoria",
+      "dificultad respiratoria aguda",
+      "insuficiencia respiratoria"
+    ],
+    "summary": "El SDRA es una lesión pulmonar aguda que produce edema no cardiogénico, disminuye la capacidad de oxigenación y lleva a hipoxemia severa.",
+    "key_points": [
+      "Daño al endotelio alveolar → aumento de permeabilidad y edema pulmonar.",
+      "PaO2/FiO2 ≤300 mmHg con infiltrados bilaterales es criterio diagnóstico.",
+      "Ventilación mecánica con bajo volumen y PEEP es tratamiento de primera línea.",
+      "Complicaciones incluyen barotrauma, insuficiencia renal y fibrosis pulmonar."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lesión del epitelio alveolar y capilar por inflamación sistémica.",
+        "Aumento de la permeabilidad → filtrado de proteínas y líquido al espacio alveolar.",
+        "Pérdida de surfactante → colapso alveolar y disminución de la compliancia.",
+        "Desigualdad ventilación/perfusión (V/Q) → hipoxemia refractaria.",
+        "Respuesta inflamatoria perpetua → daño pulmonar progresivo."
+      ],
+      "risk_factors": [
+        "Sepsis grave o neumonía bacteriana.",
+        "Trauma torácico o múltiple, inhalación de humo.",
+        "Pancreatitis aguda, hemorragia masiva.",
+        "Aspiración de contenido gástrico.",
+        "Uso de ventilación mecánica invasiva prolongada."
+      ],
+      "signs_symptoms": [
+        "Disnea súbita y severa, taquipnea >30 rpm.",
+        "Uso de músculos accesorios y aleteo intercostal.",
+        "Cianosis periférica, SpO2 <90% con oxígeno suplementario.",
+        "Estertores crepitantes bilaterales en auscultación.",
+        "Fatiga extrema y ansiedad por falta de aire."
+      ],
+      "diagnostics": [
+        "PaO2/FiO2 ≤300 mmHg en sangre arterial.",
+        "Radiografía de tórax: infiltrados bilaterales difusos.",
+        "Ecografía pulmonar: líneas B y consolidaciones.",
+        "Descartar insuficiencia cardíaca izquierda (ecocardiograma).",
+        "Lactato sérico elevado indica hipoperfusión."
+      ],
+      "treatment": [
+        "Oxigenoterapia de alto flujo para mantener SpO2 ≥92%.",
+        "Ventilación mecánica con estrategia de bajo volumen (6 mL/kg PB) y PEEP adecuado.",
+        "Pronación 12‑16 h/día en pacientes con PaO2/FiO2 <150.",
+        "Control de la causa subyacente (antibióticos, drenaje, etc.).",
+        "Sedación y, si es necesario, relajantes musculares para sincronía ventilatoria.",
+        "Diuresis cuidadosa con furosemida si hay sobrecarga de líquidos."
+      ],
+      "complications": [
+        "Barotrauma: neumotórax, enfisema subcutáneo.",
+        "Insuficiencia renal aguda por hipoperfusión y nefrotoxinas.",
+        "Sepsis secundaria y fallo multiorgánico.",
+        "Fibrosis pulmonar crónica con restricción ventilatoria.",
+        "Trombosis venosa profunda por inmovilización prolongada."
+      ],
+      "nursing_care": [
+        "Monitorear SpO2, presión arterial, frecuencia cardíaca y respiratoria cada hora.",
+        "Obtener gases arteriales cada 4‑6 h para ajustar ventilación.",
+        "Evaluar trabajo respiratorio: retracciones, uso de músculos accesorios.",
+        "Mantener posición semisentada o pronación según indicación del médico.",
+        "Cuidado del tubo endotraqueal: succión, higiene oral y verificación de sellado.",
+        "Prevención de úlceras por presión: cambios de posición cada 2 h."
+      ],
+      "patient_teaching": [
+        "Explicar el objetivo de la ventilación mecánica y la pronación.",
+        "Enseñar señales de alarma: aumento de disnea, cambios en coloración.",
+        "Importancia de la movilización temprana y ejercicios de respiración pasiva.",
+        "Cuidado de la piel y prevención de infecciones nosocomiales.",
+        "Mantener hidratación adecuada y reportar cualquier dolor torácico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deterioro del intercambio de gases",
+        "type": "actual",
+        "related_to": [
+          "hipoxemia",
+          "edema pulmonar"
+        ],
+        "evidenced_by": [
+          "SpO2 <90%",
+          "PaO2/FiO2 ≤300",
+          "taquipnea >30 rpm"
+        ],
+        "outcomes": [
+          "Intercambio gaseoso: PaO2 ≥80 mmHg en 48 h",
+          "Oxigenación: SpO2 ≥92% con FiO2 ≤0.5 en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear SpO2 y gases arteriales según protocolo.",
+            "rationale": "Detectar rápidamente deterioro de la oxigenación y ajustar ventilación."
+          },
+          {
+            "action": "Ajustar ventilación mecánica a bajo volumen y PEEP óptimo.",
+            "rationale": "Reducir daño pulmonar por sobredistensión y mejorar reclutamiento alveolar."
+          },
+          {
+            "action": "Posicionar al paciente en semisentado o pronación según indicación.",
+            "rationale": "Mejorar la distribución del flujo sanguíneo y la ventilación."
+          },
+          {
+            "action": "Administrar sedación y analgesia adecuada.",
+            "rationale": "Disminuir el consumo de oxígeno por el trabajo respiratorio."
+          },
+          {
+            "action": "Controlar la causa subyacente (ej., iniciar antibióticos si hay sepsis).",
+            "rationale": "Tratar la etiología para detener la progresión del daño pulmonar."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "diuresis con furosemida",
+          "hipoxemia prolongada",
+          "ventilación mecánica invasiva"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rangos normales en 72 h",
+          "Sin arritmias relacionadas con alteraciones electrolíticas"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos (Na+, K+, Cl-, Ca2+) cada 12 h.",
+            "rationale": "Detectar desequilibrios tempranos y prevenir complicaciones."
+          },
+          {
+            "action": "Evaluar ingesta y pérdidas de líquidos, registrar balance hídrico.",
+            "rationale": "Identificar causas de alteraciones electrolíticas."
+          },
+          {
+            "action": "Administrar suplementos de potasio o magnesio según prescripción.",
+            "rationale": "Corregir hipocalemia o hipomagnesemia que pueden causar arritmias."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de desequilibrio (palpitaciones, debilidad).",
+            "rationale": "Facilitar detección precoz y reporte oportuno."
+          },
+          {
+            "action": "Coordinar con el médico ajustes de diuréticos y fluidos intravenosos.",
+            "rationale": "Mantener equilibrio hídrico y electrolítico adecuado."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acute Respiratory Distress Syndrome (ARDS)",
+    "aliases": [
+      "sdra",
+      "acute respiratory distress syndrome",
+      "respiratory distress",
+      "respiratory failure"
+    ],
+    "summary": "ARDS is an acute lung injury that causes noncardiogenic edema, reduces oxygenation capacity, and leads to severe hypoxemia.",
+    "key_points": [
+      "Alveolar endothelial damage → increased permeability and pulmonary edema.",
+      "PaO2/FiO2 ≤300 mmHg with bilateral infiltrates is a diagnostic criterion.",
+      "Low‑volume mechanical ventilation with PEEP is first‑line treatment.",
+      "Complications include barotrauma, renal failure, and pulmonary fibrosis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Damage to alveolar epithelium and capillary by systemic inflammation.",
+        "Increased permeability → protein and fluid filtration into alveolar space.",
+        "Surfactant loss → alveolar collapse and decreased compliance.",
+        "Ventilation/perfusion mismatch (V/Q) → refractory hypoxemia.",
+        "Perpetual inflammatory response → progressive lung injury."
+      ],
+      "risk_factors": [
+        "Severe sepsis or bacterial pneumonia.",
+        "Thoracic or multiple trauma, smoke inhalation.",
+        "Acute pancreatitis, massive hemorrhage.",
+        "Gastric content aspiration.",
+        "Prolonged invasive mechanical ventilation."
+      ],
+      "signs_symptoms": [
+        "Sudden severe dyspnea, tachypnea >30 breaths/min.",
+        "Use of accessory muscles and intercostal retractions.",
+        "Peripheral cyanosis, SpO2 <90% with supplemental oxygen.",
+        "Bilateral crackles on auscultation.",
+        "Extreme fatigue and anxiety due to shortness of breath."
+      ],
+      "diagnostics": [
+        "PaO2/FiO2 ≤300 mmHg on arterial blood gas.",
+        "Chest X‑ray: diffuse bilateral infiltrates.",
+        "Lung ultrasound: B‑lines and consolidations.",
+        "Exclude left‑heart failure (echocardiogram).",
+        "Elevated serum lactate indicates hypoperfusion."
+      ],
+      "treatment": [
+        "High‑flow oxygen therapy to maintain SpO2 ≥92%.",
+        "Mechanical ventilation with low‑volume strategy (6 mL/kg predicted body weight) and appropriate PEEP.",
+        "Prone positioning 12‑16 h/day for patients with PaO2/FiO2 <150.",
+        "Control underlying cause (antibiotics, drainage, etc.).",
+        "Sedation and, if needed, muscle relaxants for ventilator synchrony.",
+        "Careful diuresis with furosemide if fluid overload is present."
+      ],
+      "complications": [
+        "Barotrauma: pneumothorax, subcutaneous emphysema.",
+        "Acute kidney injury from hypoperfusion and nephrotoxins.",
+        "Secondary sepsis and multi‑organ failure.",
+        "Chronic pulmonary fibrosis with restrictive ventilatory defect.",
+        "Deep vein thrombosis from prolonged immobilization."
+      ],
+      "nursing_care": [
+        "Monitor SpO2, blood pressure, heart rate, and respiratory rate hourly.",
+        "Obtain arterial blood gases every 4‑6 h to adjust ventilation.",
+        "Assess work of breathing: retractions, accessory muscle use.",
+        "Maintain semi‑upright or prone position as ordered by the physician.",
+        "Care for the endotracheal tube: suction, oral hygiene, and seal verification.",
+        "Prevent pressure ulcers: reposition every 2 h."
+      ],
+      "patient_teaching": [
+        "Explain the goal of mechanical ventilation and prone positioning.",
+        "Teach warning signs: increased dyspnea, color changes.",
+        "Importance of early mobilization and passive breathing exercises.",
+        "Skin care and prevention of nosocomial infections.",
+        "Maintain adequate hydration and report any chest pain."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Impaired gas exchange",
+        "type": "actual",
+        "related_to": [
+          "hypoxemia",
+          "pulmonary edema"
+        ],
+        "evidenced_by": [
+          "SpO2 <90%",
+          "PaO2/FiO2 ≤300",
+          "tachypnea >30 breaths/min"
+        ],
+        "outcomes": [
+          "Gas exchange: PaO2 ≥80 mmHg within 48 h",
+          "Oxygenation: SpO2 ≥92% with FiO2 ≤0.5 within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor SpO2 and arterial blood gases per protocol.",
+            "rationale": "Detect rapid deterioration in oxygenation and adjust ventilation."
+          },
+          {
+            "action": "Adjust mechanical ventilation to low volume and optimal PEEP.",
+            "rationale": "Reduce lung injury from overdistension and improve alveolar recruitment."
+          },
+          {
+            "action": "Position the patient in semi‑upright or prone as ordered.",
+            "rationale": "Improve blood flow distribution and ventilation."
+          },
+          {
+            "action": "Administer appropriate sedation and analgesia.",
+            "rationale": "Reduce oxygen consumption from work of breathing."
+          },
+          {
+            "action": "Control the underlying cause (e.g., start antibiotics if sepsis).",
+            "rationale": "Treat the etiology to halt progression of lung injury."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "furosemide diuresis",
+          "prolonged hypoxemia",
+          "invasive mechanical ventilation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal ranges within 72 h",
+          "No arrhythmias related to electrolyte disturbances"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel (Na+, K+, Cl−, Ca2+) every 12 h.",
+            "rationale": "Detect early imbalances and prevent complications."
+          },
+          {
+            "action": "Assess intake and output, record fluid balance.",
+            "rationale": "Identify causes of electrolyte disturbances."
+          },
+          {
+            "action": "Administer potassium or magnesium supplements as prescribed.",
+            "rationale": "Correct hypokalemia or hypomagnesemia that can cause arrhythmias."
+          },
+          {
+            "action": "Educate patient and family on signs of imbalance (palpitations, weakness).",
+            "rationale": "Facilitate early detection and timely reporting."
+          },
+          {
+            "action": "Coordinate with physician for adjustments of diuretics and IV fluids.",
+            "rationale": "Maintain appropriate fluid and electrolyte balance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoxemia",
+    "pulmonary-edema",
+    "mechanical-ventilation",
+    "sepsis",
+    "fibrosis-pulmonary"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Respiratory Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/respiratoryfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-13",
+  "factcheck": {
+    "checked": "2026-10-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 44,
+      "contradicted": 0,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "A phospholipid substance that prevents the collapse of alveoli by reducing surface tension is called surfactant .",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "An injury to the chest can cause this damage.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Nurses can objectively assess the response to the experience by noting a climbing respiratory rate, shallow breaths, the use of accessory muscles, and whether the patient is able to speak only one word between breaths.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

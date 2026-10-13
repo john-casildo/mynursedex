@@ -1,0 +1,487 @@
+{
+  "id": "hepatorenal-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome hepatorrenal (SHR)",
+    "aliases": [
+      "hepatorrenal",
+      "sindrome hepatorrenal",
+      "shr",
+      "insuficiencia renal",
+      "cirrosis",
+      "hipertension portal"
+    ],
+    "summary": "El síndrome hepatorrenal es una disfunción renal grave que ocurre en pacientes con enfermedad hepática avanzada y hipertensión portal.",
+    "key_points": [
+      "Se define por aumento de creatinina ≥1.5 mg/dL sin causa estructural renal.",
+      "Mecanismo: vasodilatación splanchnica + vasoconstricción renal.",
+      "Tratamiento de primera línea: vasoconstrictores (terlipresina) + albúmina.",
+      "Pronóstico depende del trasplante hepático.",
+      "Evitar diuréticos y nefrotoxinas es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hipertensión portal produce vasodilatación sistémica y retención de agua.",
+        "Activación del sistema renina‑angiotensina‑aldosterona y del sistema simpático causa vasoconstricción renal intensa.",
+        "Disminución del flujo sanguíneo renal reduce la tasa de filtración glomerular.",
+        "El desequilibrio entre vasodilatadores (NO) y vasoconstrictores (endotelina) agrava la insuficiencia renal."
+      ],
+      "risk_factors": [
+        "Cirrosis avanzada con ascitis persistente.",
+        "Infección espontánea del líquido ascítico (SBP).",
+        "Uso crónico de diuréticos de asa o tiazídicos.",
+        "Paracentesis de gran volumen sin reposición de albúmina."
+      ],
+      "signs_symptoms": [
+        "Oliguria <0.5 mL/kg/h o disminución progresiva del gasto urinario.",
+        "Hipotensión arterial sistólica <90 mmHg.",
+        "Hiponatremia (Na <130 mEq/L) y aumento de creatinina.",
+        "Encefalopatía hepática que puede empeorar la conciencia."
+      ],
+      "diagnostics": [
+        "Creatinina sérica ≥1.5 mg/dL sin evidencia de enfermedad renal estructural.",
+        "Sodio sérico <130 mEq/L y orina Na <10 mEq/L.",
+        "Fracción de excreción de sodio <1% y relación BUN/creatinina >20.",
+        "Ecografía renal normal; exclusión de obstrucción o glomerulonefritis."
+      ],
+      "treatment": [
+        "Terlipresina IV (vasoconstrictor) + albúmina 1 g/kg (máx 100 g) al iniciar.",
+        "Norepinefrina o midodrina como alternativas si la terlipresina no está disponible.",
+        "Suspender diuréticos y nefrotoxinas (NSAIDs, aminoglucósidos).",
+        "Considerar terapia de reemplazo renal si no hay respuesta.",
+        "Trasplante hepático como solución definitiva."
+      ],
+      "complications": [
+        "Fallo multiorgánico (pulmonar, cardiovascular).",
+        "Sepsis secundaria a ascitis o varices sangrantes.",
+        "Encefalopatía hepática grave.",
+        "Mortalidad alta si no se realiza trasplante."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y saturación cada hora.",
+        "Registrar ingesta y egreso; objetivo ≥0.5 mL/kg/h de orina.",
+        "Controlar peso diario y edema periférico.",
+        "Observar cambios en el estado mental y signos de encefalopatía.",
+        "Administrar albúmina según prescripción y vigilar reacciones.",
+        "Mantener línea venosa de calibre adecuado para vasoconstrictores."
+      ],
+      "patient_teaching": [
+        "Limitar ingesta de sodio a <2 g/día y evitar alimentos procesados.",
+        "No usar AINEs ni otros medicamentos nefrotóxicos sin autorización.",
+        "Reportar disminución del volumen urinario o aumento de la hinchazón.",
+        "Cumplir con controles de laboratorio y citas de hepatología.",
+        "Entender la importancia del trasplante hepático y la lista de espera."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "cirrosis avanzada",
+          "hipertensión portal",
+          "ascitis",
+          "uso de diuréticos",
+          "paracentesis sin albúmina"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión renal: mantener creatinina <1.5 mg/dL",
+          "Presión arterial media: ≥65 mmHg",
+          "Diuresis: ≥0.5 mL/kg/h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial invasiva cada 15 minutos durante la terapia con vasoconstrictores.",
+            "rationale": "Detectar hipotensión temprana que compromete la perfusión renal."
+          },
+          {
+            "action": "Registrar ingesta y egreso de líquidos, calculando balance neto cada 8 horas.",
+            "rationale": "Identificar déficit de volumen que pueda empeorar la perfusión renal."
+          },
+          {
+            "action": "Administrar albúmina según orden y observar respuesta hemodinámica.",
+            "rationale": "Incrementar la presión oncótica y mejorar el retorno venoso renal."
+          },
+          {
+            "action": "Evitar diuréticos y nefrotoxinas mientras se mantiene la terapia vasoconstrictora.",
+            "rationale": "Prevenir daño renal adicional y preservar la función glomerular."
+          },
+          {
+            "action": "Educar al paciente sobre signos de disminución de la perfusión (mareos, oliguria).",
+            "rationale": "Facilitar la detección precoz y la intervención oportuna."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "vasoconstrictores",
+          "diuréticos",
+          "hiponatremia por retención de agua",
+          "pérdida de potasio por diuresis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sodio sérico: 135‑145 mEq/L",
+          "Potasio sérico: 3.5‑5.0 mEq/L",
+          "pH arterial: 7.35‑7.45"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener electrolitos séricos (Na, K, Cl) cada 12 horas mientras se usa terlipresina.",
+            "rationale": "Detectar alteraciones tempranas y ajustar tratamiento."
+          },
+          {
+            "action": "Administrar suplementos de potasio oral o IV según prescripción.",
+            "rationale": "Prevenir hipocalemia que puede causar arritmias."
+          },
+          {
+            "action": "Controlar la ingesta de líquidos y restringir sodio en la dieta.",
+            "rationale": "Mantener equilibrio hídrico y evitar hiponatremia."
+          },
+          {
+            "action": "Evaluar signos de sobrecarga de volumen (edema, crepitantes pulmonares).",
+            "rationale": "Ajustar terapia de fluidos para evitar desequilibrios."
+          },
+          {
+            "action": "Educar al paciente sobre evitar alimentos ricos en sal y bebidas alcohólicas.",
+            "rationale": "Reducir factores que agravan la alteración electrolítica."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hepatorenal syndrome (HRS)",
+    "aliases": [
+      "hepatorenal",
+      "hepatorenal syndrome",
+      "hrs",
+      "renal failure",
+      "cirrhosis",
+      "portal hypertension"
+    ],
+    "summary": "Hepatorenal syndrome is a severe renal dysfunction that occurs in patients with advanced liver disease and portal hypertension.",
+    "key_points": [
+      "Defined by an increase in creatinine ≥1.5 mg/dL without structural renal cause.",
+      "Mechanism: splanchnic vasodilation + renal vasoconstriction.",
+      "First‑line treatment: vasoconstrictors (terlipressin) + albumin.",
+      "Prognosis depends on liver transplantation.",
+      "Avoiding diuretics and nephrotoxins is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Portal hypertension causes systemic vasodilation and fluid retention.",
+        "Activation of the renin‑angiotensin‑aldosterone system and sympathetic system causes intense renal vasoconstriction.",
+        "Reduced renal blood flow decreases glomerular filtration rate.",
+        "The imbalance between vasodilators (NO) and vasoconstrictors (endothelin) worsens renal failure."
+      ],
+      "risk_factors": [
+        "Advanced cirrhosis with persistent ascites.",
+        "Spontaneous bacterial peritonitis (SBP).",
+        "Chronic use of loop or thiazide diuretics.",
+        "Large‑volume paracentesis without albumin replacement."
+      ],
+      "signs_symptoms": [
+        "Oliguria <0.5 mL/kg/h or progressive decrease in urine output.",
+        "Systolic hypotension <90 mmHg.",
+        "Hyponatremia (Na <130 mEq/L) and rising creatinine.",
+        "Hepatic encephalopathy that may worsen consciousness."
+      ],
+      "diagnostics": [
+        "Serum creatinine ≥1.5 mg/dL without evidence of structural renal disease.",
+        "Serum sodium <130 mEq/L and urine Na <10 mEq/L.",
+        "Fractional excretion of sodium <1% and BUN/creatinine ratio >20.",
+        "Normal renal ultrasound; exclude obstruction or glomerulonephritis."
+      ],
+      "treatment": [
+        "IV terlipressin (vasoconstrictor) + albumin 1 g/kg (max 100 g) at initiation.",
+        "Norepinephrine or midodrine as alternatives if terlipressin unavailable.",
+        "Discontinue diuretics and nephrotoxins (NSAIDs, aminoglycosides).",
+        "Consider renal replacement therapy if no response.",
+        "Liver transplantation as definitive solution."
+      ],
+      "complications": [
+        "Multi‑organ failure (pulmonary, cardiovascular).",
+        "Sepsis from ascites or bleeding varices.",
+        "Severe hepatic encephalopathy.",
+        "High mortality if transplantation not performed."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate, and oxygen saturation hourly.",
+        "Record intake and output; goal ≥0.5 mL/kg/h urine.",
+        "Weigh daily and monitor peripheral edema.",
+        "Observe changes in mental status and signs of encephalopathy.",
+        "Administer albumin per order and monitor reactions.",
+        "Maintain appropriately sized IV line for vasoconstrictors."
+      ],
+      "patient_teaching": [
+        "Limit sodium intake to <2 g/day and avoid processed foods.",
+        "Do not use NSAIDs or other nephrotoxic drugs without permission.",
+        "Report decreased urine volume or increased swelling.",
+        "Adhere to lab checks and hepatology appointments.",
+        "Understand the importance of liver transplantation and the waiting list."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "advanced cirrhosis",
+          "portal hypertension",
+          "ascites",
+          "diuretic use",
+          "paracentesis without albumin"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal perfusion: maintain creatinine <1.5 mg/dL",
+          "Mean arterial pressure: ≥65 mmHg",
+          "Diuresis: ≥0.5 mL/kg/h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor invasive blood pressure every 15 minutes during vasoconstrictor therapy.",
+            "rationale": "Detect early hypotension that compromises renal perfusion."
+          },
+          {
+            "action": "Record fluid intake and output, calculating net balance every 8 hours.",
+            "rationale": "Identify volume deficit that may worsen renal perfusion."
+          },
+          {
+            "action": "Administer albumin per order and observe hemodynamic response.",
+            "rationale": "Increase oncotic pressure and improve renal venous return."
+          },
+          {
+            "action": "Avoid diuretics and nephrotoxins while maintaining vasoconstrictor therapy.",
+            "rationale": "Prevent additional renal damage and preserve glomerular function."
+          },
+          {
+            "action": "Educate the patient about signs of decreased perfusion (dizziness, oliguria).",
+            "rationale": "Facilitate early detection and timely intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "vasoconstrictors",
+          "diuretics",
+          "hyponatremia from water retention",
+          "potassium loss from diuresis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum sodium: 135‑145 mEq/L",
+          "Serum potassium: 3.5‑5.0 mEq/L",
+          "Arterial pH: 7.35‑7.45"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain serum electrolytes (Na, K, Cl) every 12 hours while using terlipressin.",
+            "rationale": "Detect early changes and adjust treatment."
+          },
+          {
+            "action": "Administer oral or IV potassium supplements as prescribed.",
+            "rationale": "Prevent hypokalemia that can cause arrhythmias."
+          },
+          {
+            "action": "Monitor fluid intake and restrict sodium in the diet.",
+            "rationale": "Maintain fluid balance and avoid hyponatremia."
+          },
+          {
+            "action": "Assess for signs of volume overload (edema, pulmonary crackles).",
+            "rationale": "Adjust fluid therapy to avoid imbalances."
+          },
+          {
+            "action": "Educate the patient about avoiding high‑salt foods and alcoholic beverages.",
+            "rationale": "Reduce factors that worsen electrolyte disturbance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-kidney-injury",
+    "portal-hypertension",
+    "cirrhosis",
+    "hepatic-encephalopathy",
+    "liver-transplant"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cirrhosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cirrhosis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-13",
+  "factcheck": {
+    "checked": "2026-10-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 36,
+      "contradicted": 1,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Common complications seen with chronic liver disease are esophageal varices , hepatic encephalopathy, hepatorenal syndrome (kidney dysfunction in patients with advanced liver disease), and hepatocellular carcinoma.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "contradicted",
+        "quote": "Diuretics may also be prescribed to limit fluid retention.",
+        "source": 1
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Liver transplantation is the proven treatment for patients with ESLD.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "These include administering medications documenting daily weights and abdominal girth measurement educating patients monitoring laboratory values, such as sodium levels monitoring vital signs and intake and output Recognizing Cues and Analyzing Cues Physical assessment findings may include jaundice , bruises, muscle wasting, peripheral edema, tachypnea, and abdominal distention and tenderness.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "A mental status decline accompanying an increase in ammonia level may indicate hepatic encephalopathy.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Signs and symptoms of cirrhosis include ascites dark-colored urine decreased urine output digestive problems edema hepatic encephalopathy jaundice light-colored stools motor dysfunction pruritus shortness of breath unexplained weight loss",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

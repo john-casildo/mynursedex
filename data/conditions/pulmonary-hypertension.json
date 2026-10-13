@@ -1,0 +1,356 @@
+{
+  "id": "pulmonary-hypertension",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipertensión pulmonar (HP)",
+    "aliases": [
+      "hipertension pulmonar",
+      "hp",
+      "presion pulmonar",
+      "pulmonar hipertension",
+      "hipertension pulmonar crónica"
+    ],
+    "summary": "Enfermedad grave que eleva la presión en la arteria pulmonar, provocando sobrecarga del ventrículo derecho y limitación del intercambio gaseoso.",
+    "key_points": [
+      "Presión arterial pulmonar media >20 mmHg en cateterismo.",
+      "Síntomas principales: disnea de esfuerzo, fatiga y síncope.",
+      "Causas: enfermedad cardíaca izquierda, enfermedad pulmonar crónica, tromboembolia, enfermedad del tejido conectivo.",
+      "Tratamiento incluye oxígeno, diuréticos y fármacos específicos (antagonistas de endoteliina, inhibidores de PDE‑5, prostaciclinas).",
+      "Complicación más frecuente: insuficiencia cardíaca derecha."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño o estrechamiento de las arterias pulmonares aumenta la resistencia vascular pulmonar.",
+        "El ventrículo derecho debe generar mayor presión para mantener el flujo sanguíneo.",
+        "Hipertrofia y dilatación del ventrículo derecho reducen el gasto cardíaco.",
+        "Disminución del retorno venoso al corazón izquierdo produce hipoxia tisular."
+      ],
+      "risk_factors": [
+        "Enfermedades cardíacas izquierdas (insuficiencia mitral, insuficiencia aórtica).",
+        "Enfermedades pulmonares crónicas (EPOC, fibrosis pulmonar).",
+        "Tromboembolia pulmonar crónica o embolia recurrente.",
+        "Enfermedades del tejido conectivo (esclerodermia, lupus).",
+        "Infección por VIH, uso de anfetaminas o dietilestilbestrol."
+      ],
+      "signs_symptoms": [
+        "Disnea progresiva, inicialmente al esfuerzo y luego en reposo.",
+        "Fatiga y debilidad generalizada.",
+        "Dolor torácico tipo presión o opresión.",
+        "Síncope o pre‑síncope al ejercicio.",
+        "Edema periférico y distensión venosa yugular."
+      ],
+      "diagnostics": [
+        "Ecocardiografía transtorácica: presión sistólica de la arteria pulmonar >35 mmHg.",
+        "Cateterismo cardíaco derecho: presión media pulmonar >20 mmHg.",
+        "Prueba de función pulmonar y DLCO reducida.",
+        "Radiografía de tórax: arterias pulmonares dilatadas, corazón en forma de «corazón de botella».",
+        "BNP o NT‑proBNP elevado indica sobrecarga ventricular derecha."
+      ],
+      "treatment": [
+        "Oxígeno suplementario para mantener SaO₂ ≥ 90 %.",
+        "Diuréticos de asa (furosemida) para controlar edema.",
+        "Antagonistas de endoteliina (bosentán).",
+        "Inhibidores de fosfodiesterasa‑5 (sildenafil).",
+        "Análogos de prostaciclina (epoprostenol, iloprost).",
+        "Anticoagulación en casos de tromboembolia crónica."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca derecha con ascitis y hepatomegalia.",
+        "Arritmias ventriculares y fibrilación auricular.",
+        "Tromboembolismo pulmonar recurrente.",
+        "Hipoxia crónica y deterioro de la calidad de vida."
+      ],
+      "nursing_care": [
+        "Evaluar disnea, frecuencia respiratoria y saturación de oxígeno cada turno.",
+        "Monitorear peso diario y edema para detectar retención de líquidos.",
+        "Administrar diuréticos y fármacos específicos según prescripción, observar efectos adversos.",
+        "Mantener posición semi‑sentada para facilitar la expansión pulmonar.",
+        "Registrar presión arterial sistólica y frecuencia cardíaca; alertar si MAP < 65 mmHg."
+      ],
+      "patient_teaching": [
+        "Tomar los medicamentos exactamente como se indican; no interrumpir sin consultar.",
+        "Reconocer signos de empeoramiento: aumento de disnea, hinchazón, dolor torácico.",
+        "Evitar exposición a grandes altitudes y ambientes con bajo oxígeno.",
+        "Mantener actividad física moderada y usar técnicas de pacing.",
+        "Vacunarse contra influenza y neumococo para prevenir infecciones respiratorias."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Hipertensión pulmonar",
+          "Aumento de la resistencia vascular pulmonar",
+          "Disminución del gasto cardíaco"
+        ],
+        "evidenced_by": [
+          "Disnea al realizar actividades de la vida diaria",
+          "Fatiga al mínimo esfuerzo",
+          "Limitación de la actividad cotidiana"
+        ],
+        "outcomes": [
+          "Capacidad de actividad: paciente realizará actividades de la vida diaria sin disnea excesiva en 2 semanas.",
+          "Fatiga: paciente reportará nivel de fatiga ≤3/10 en escala de 0‑10 en 2 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de disnea usando escala de Borg antes y después de la actividad",
+            "rationale": "Permite cuantificar la intolerancia y medir la respuesta al tratamiento."
+          },
+          {
+            "action": "Planificar actividades en intervalos cortos con descansos programados",
+            "rationale": "Facilita el pacing y reduce la sobrecarga cardiopulmonar."
+          },
+          {
+            "action": "Administrar diuréticos según indicación y registrar ingesta y eliminación de líquidos",
+            "rationale": "Controla la sobrecarga de volumen que agrava la disnea."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de respiración diafragmática",
+            "rationale": "Mejora la ventilación y disminuye la sensación de falta de aire."
+          },
+          {
+            "action": "Monitorear saturación de oxígeno y proporcionar oxígeno suplementario si SaO₂ < 90 %",
+            "rationale": "Mantener oxigenación adecuada reduce la disnea y la fatiga."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "Hipertensión pulmonar",
+          "Aumento de la presión arterial pulmonar",
+          "Hipoxia crónica",
+          "Hipertensión sistémica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca: paciente mantendrá presión arterial sistólica ≥90 mmHg y frecuencia cardíaca entre 60‑100 lpm.",
+          "Signos de perfusión: paciente no presentará dolor torácico ni cambios isquémicos en ECG durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial y frecuencia cardíaca cada 4 horas",
+            "rationale": "Detecta precozmente hipotensión o taquicardia que indiquen perfusión insuficiente."
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (capilaridad, temperatura, pulso periférico)",
+            "rationale": "Indicadores clínicos de compromiso circulatorio."
+          },
+          {
+            "action": "Administrar oxígeno suplementario para mantener SaO₂ ≥ 90 %",
+            "rationale": "Mejora la oxigenación miocárdica y reduce la carga de trabajo del ventrículo derecho."
+          },
+          {
+            "action": "Colaborar con el médico para iniciar terapia vasodilatadora pulmonar según protocolo",
+            "rationale": "Reduce la resistencia vascular pulmonar y mejora el gasto cardíaco."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de evitar esfuerzos bruscos y reconocer síntomas de bajo gasto",
+            "rationale": "Previene episodios de perfusión inadecuada y promueve la autogestión."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pulmonary hypertension (PH)",
+    "aliases": [
+      "pulmonary hypertension",
+      "ph",
+      "pulmonary pressure",
+      "chronic pulmonary hypertension"
+    ],
+    "summary": "Severe disease that raises pressure in the pulmonary artery, causing right ventricular overload and impaired gas exchange.",
+    "key_points": [
+      "Mean pulmonary arterial pressure >20 mmHg on catheterization.",
+      "Main symptoms: exertional dyspnea, fatigue, and syncope.",
+      "Causes: left heart disease, chronic lung disease, thromboembolism, connective tissue disease.",
+      "Treatment includes oxygen, diuretics, and specific drugs (endothelin receptor antagonists, PDE‑5 inhibitors, prostacyclins).",
+      "Most common complication: right‑sided heart failure."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Damage or narrowing of the pulmonary arteries increases pulmonary vascular resistance.",
+        "The right ventricle must generate higher pressure to maintain blood flow.",
+        "Right‑ventricular hypertrophy and dilation reduce cardiac output.",
+        "Reduced venous return to the left heart causes tissue hypoxia."
+      ],
+      "risk_factors": [
+        "Left‑heart diseases (mitral regurgitation, aortic insufficiency).",
+        "Chronic lung diseases (COPD, pulmonary fibrosis).",
+        "Chronic pulmonary embolism or recurrent emboli.",
+        "Connective tissue diseases (scleroderma, lupus).",
+        "HIV infection, amphetamine use, or diethylstilbestrol."
+      ],
+      "signs_symptoms": [
+        "Progressive dyspnea, initially with exertion and later at rest.",
+        "Fatigue and generalized weakness.",
+        "Chest pain resembling pressure or tightness.",
+        "Syncope or presyncope with exercise.",
+        "Peripheral edema and jugular venous distension."
+      ],
+      "diagnostics": [
+        "Transthoracic echocardiography: systolic pulmonary artery pressure >35 mmHg.",
+        "Right‑heart catheterization: mean pulmonary pressure >20 mmHg.",
+        "Pulmonary function test and reduced DLCO.",
+        "Chest X‑ray: dilated pulmonary arteries, “pulmonary artery heart” shape.",
+        "Elevated BNP or NT‑proBNP indicates right‑ventricular overload."
+      ],
+      "treatment": [
+        "Supplemental oxygen to maintain SaO₂ ≥ 90 %.",
+        "Loop diuretics (furosemide) to control edema.",
+        "Endothelin receptor antagonists (bosentan).",
+        "PDE‑5 inhibitors (sildenafil).",
+        "Prostacyclin analogs (epoprostenol, iloprost).",
+        "Anticoagulation in cases of chronic thromboembolism."
+      ],
+      "complications": [
+        "Right‑sided heart failure with ascites and hepatomegaly.",
+        "Ventricular arrhythmias and atrial fibrillation.",
+        "Recurrent pulmonary thromboembolism.",
+        "Chronic hypoxia and reduced quality of life."
+      ],
+      "nursing_care": [
+        "Assess dyspnea, respiratory rate, and oxygen saturation each shift.",
+        "Monitor daily weight and edema to detect fluid retention.",
+        "Administer diuretics and specific drugs per prescription, observe adverse effects.",
+        "Maintain semi‑upright position to facilitate lung expansion.",
+        "Record systolic blood pressure and heart rate; alert if MAP < 65 mmHg."
+      ],
+      "patient_teaching": [
+        "Take medications exactly as prescribed; do not stop without consulting.",
+        "Recognize signs of worsening: increased dyspnea, swelling, chest pain.",
+        "Avoid exposure to high altitudes and low‑oxygen environments.",
+        "Maintain moderate physical activity and use pacing techniques.",
+        "Get vaccinated against influenza and pneumococcus to prevent respiratory infections."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Pulmonary hypertension",
+          "Increased pulmonary vascular resistance",
+          "Decreased cardiac output"
+        ],
+        "evidenced_by": [
+          "Dyspnea during daily activities",
+          "Fatigue with minimal effort",
+          "Limitation of daily activities"
+        ],
+        "outcomes": [
+          "Activity capacity: patient will perform daily activities without excessive dyspnea in 2 weeks.",
+          "Fatigue: patient will report fatigue level ≤3/10 on a 0‑10 scale in 2 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Assess dyspnea level using the Borg scale before and after activity",
+            "rationale": "Allows quantification of intolerance and measurement of treatment response."
+          },
+          {
+            "action": "Plan activities in short intervals with scheduled rest periods",
+            "rationale": "Facilitates pacing and reduces cardiopulmonary overload."
+          },
+          {
+            "action": "Administer diuretics as ordered and record fluid intake and output",
+            "rationale": "Controls volume overload that worsens dyspnea."
+          },
+          {
+            "action": "Teach patient diaphragmatic breathing techniques",
+            "rationale": "Improves ventilation and reduces the sensation of breathlessness."
+          },
+          {
+            "action": "Monitor oxygen saturation and provide supplemental oxygen if SaO₂ < 90 %",
+            "rationale": "Maintaining adequate oxygenation reduces dyspnea and fatigue."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "Pulmonary hypertension",
+          "Increased pulmonary arterial pressure",
+          "Chronic hypoxia",
+          "Systemic hypertension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac tissue perfusion: patient will maintain systolic blood pressure ≥90 mmHg and heart rate 60‑100 bpm.",
+          "Perfusion signs: patient will not experience chest pain or ischemic ECG changes during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 4 hours",
+            "rationale": "Early detection of hypotension or tachycardia indicating inadequate perfusion."
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill, temperature, peripheral pulse)",
+            "rationale": "Clinical indicators of circulatory compromise."
+          },
+          {
+            "action": "Administer supplemental oxygen to maintain SaO₂ ≥ 90 %",
+            "rationale": "Improves myocardial oxygenation and reduces right‑ventricular workload."
+          },
+          {
+            "action": "Collaborate with the physician to initiate pulmonary vasodilator therapy per protocol",
+            "rationale": "Reduces pulmonary vascular resistance and improves cardiac output."
+          },
+          {
+            "action": "Educate patient on the importance of avoiding sudden exertion and recognizing low‑output symptoms",
+            "rationale": "Prevents inadequate perfusion episodes and promotes self‑management."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "right-ventricular-failure",
+    "pulmonary-arterial-hypertension",
+    "endothelin-receptor-antagonist",
+    "phosphodiesterase-5-inhibitor",
+    "prostacyclin-therapy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pulmonary Hypertension",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pulmonaryhypertension.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hipertensión pulmonar",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pulmonaryhypertension.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Hypertension and Angina",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-1-hypertension-and-angina",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-13"
+}

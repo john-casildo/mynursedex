@@ -1,0 +1,485 @@
+{
+  "id": "peripheral-edema",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Edema periférico",
+    "aliases": [
+      "edema",
+      "hinchazón",
+      "piernas",
+      "tobillos",
+      "retención de líquidos"
+    ],
+    "summary": "Acumulación de líquido intersticial en tejidos periféricos, frecuentemente en miembros inferiores, debido a desequilibrio entre presión hidrostática y oncótica.",
+    "key_points": [
+      "Puede ser signo de insuficiencia cardíaca, renal o hepática.",
+      "Se evalúa por inspección, palpación y medición del perímetro.",
+      "El tratamiento incluye control de la causa y manejo del exceso de líquido.",
+      "Complicaciones incluyen úlceras por presión y desequilibrio electrolítico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aumento de presión hidrostática capilar o disminución de presión oncótica.",
+        "Retención de sodio y agua por insuficiencia de órganos o uso de diuréticos.",
+        "Obstrucción del retorno venoso o linfático provoca acumulación intersticial."
+      ],
+      "risk_factors": [
+        "Insuficiencia cardíaca congestiva.",
+        "Enfermedad renal crónica o diálisis.",
+        "Hipotiroidismo y desnutrición (hipoalbuminemia).",
+        "Uso prolongado de fármacos que retienen sodio (corticoides, AINES)."
+      ],
+      "signs_symptoms": [
+        "Aumento de volumen en tobillos, pies o manos.",
+        "Piel brillante, tensada y con fóvea al presionar (signo de Godet).",
+        "Sensación de pesadez o rigidez en la zona afectada.",
+        "Disminución de la movilidad articular si el edema es severo."
+      ],
+      "diagnostics": [
+        "Inspección y medición del perímetro de extremidades.",
+        "Ecografía Doppler para descartar trombosis venosa profunda.",
+        "Laboratorio: Na+, K+, creatinina, albúmina, BNP según sospecha.",
+        "Radiografía de tórax si se sospecha insuficiencia cardíaca."
+      ],
+      "treatment": [
+        "Control de la causa subyacente (ej. terapia de insuficiencia cardíaca).",
+        "Restricción de sodio (<2 g/día) y líquidos según indicación.",
+        "Diuréticos de asa (furosemida) o tiazídicos según prescripción.",
+        "Elevación de extremidades y uso de medias de compresión graduada."
+      ],
+      "complications": [
+        "Úlceras por presión y dermatitis por maceración.",
+        "Desequilibrio electrolítico (hipopotasemia, hiponatremia).",
+        "Trombosis venosa profunda por estasis sanguínea.",
+        "Reducción de la perfusión tisular y compromiso funcional."
+      ],
+      "nursing_care": [
+        "Evaluar grado de edema y registrar cambios de perímetro cada 24 h.",
+        "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+        "Aplicar medidas de elevación y compresión según orden médica.",
+        "Controlar ingesta y salida de líquidos; registrar balance hídrico.",
+        "Observar piel en busca de irritación, eritema o úlceras."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de limitar el consumo de sal y líquidos.",
+        "Enseñar la técnica de auto‑medición del perímetro de piernas.",
+        "Instruir sobre el uso correcto de medias de compresión.",
+        "Promover actividad física ligera para mejorar retorno venoso.",
+        "Alertar sobre signos de alarma: dolor intenso, enrojecimiento o calor."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "insuficiencia cardíaca",
+          "enfermedad renal crónica",
+          "hipoalbuminemia",
+          "uso de corticoides"
+        ],
+        "evidenced_by": [
+          "aumento de peso",
+          "edema periférico",
+          "distensión venosa",
+          "presión arterial elevada"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos equilibradas en 48 h.",
+          "Reducción del edema: disminuir 1 grado de edema en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar balance hídrico cada 8 h y notificar desviaciones >500 mL.",
+            "rationale": "Permite detectar rápidamente acumulación de líquido."
+          },
+          {
+            "action": "Elevar extremidades por encima del nivel del corazón 30 min, 3 veces al día.",
+            "rationale": "Facilita el retorno venoso y reduce la presión capilar."
+          },
+          {
+            "action": "Aplicar medias de compresión graduada según prescripción.",
+            "rationale": "Ayuda a prevenir la estasis y disminuye el edema."
+          },
+          {
+            "action": "Educar al paciente sobre restricción de sodio (<2 g/día).",
+            "rationale": "Disminuye la retención de agua."
+          },
+          {
+            "action": "Monitorear signos vitales y peso diario.",
+            "rationale": "Detecta cambios tempranos en el estado de volumen."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de diuréticos de asa",
+          "pérdida de líquidos por edema",
+          "insuficiencia renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Niveles de Na+ y K+ dentro de rangos normales (Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L) en 48 h.",
+          "Sin manifestaciones clínicas de arritmia en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos cada 24 h.",
+            "rationale": "Permite identificar alteraciones tempranas."
+          },
+          {
+            "action": "Evaluar estado neurológico y ritmo cardíaco cada turno.",
+            "rationale": "Detecta signos de hipopotasemia o hiponatremia."
+          },
+          {
+            "action": "Administrar suplementos de potasio según orden médica.",
+            "rationale": "Previene complicaciones de hipopotasemia."
+          },
+          {
+            "action": "Enseñar al paciente a reconocer síntomas de desequilibrio electrolítico (palpitaciones, debilidad).",
+            "rationale": "Facilita la búsqueda de ayuda oportuna."
+          },
+          {
+            "action": "Revisar y ajustar la dosis de diuréticos en colaboración con el médico.",
+            "rationale": "Evita exceso de pérdida de electrolitos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Peripheral edema",
+    "aliases": [
+      "edema",
+      "swelling",
+      "legs",
+      "ankles",
+      "fluid retention"
+    ],
+    "summary": "Accumulation of interstitial fluid in peripheral tissues, most often in the lower extremities, due to an imbalance between hydrostatic and oncotic pressures.",
+    "key_points": [
+      "May be a sign of heart, kidney, or liver failure.",
+      "It is assessed by inspection, palpation, and circumference measurement.",
+      "Treatment includes addressing the underlying cause and managing excess fluid.",
+      "Complications include pressure ulcers and electrolyte imbalance."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased capillary hydrostatic pressure or decreased oncotic pressure.",
+        "Sodium and water retention from organ failure or diuretic use.",
+        "Venous or lymphatic outflow obstruction leads to interstitial accumulation."
+      ],
+      "risk_factors": [
+        "Congestive heart failure.",
+        "Chronic kidney disease or dialysis.",
+        "Hypothyroidism and malnutrition (hypoalbuminemia).",
+        "Long‑term use of sodium‑retaining drugs (corticosteroids, NSAIDs)."
+      ],
+      "signs_symptoms": [
+        "Increased volume in ankles, feet, or hands.",
+        "Bright, taut skin with a positive Godet sign when pressed.",
+        "Feeling of heaviness or stiffness in the affected area.",
+        "Reduced joint mobility if edema is severe."
+      ],
+      "diagnostics": [
+        "Inspection and measurement of limb circumference.",
+        "Doppler ultrasound to rule out deep venous thrombosis.",
+        "Laboratory: Na+, K+, creatinine, albumin, BNP as indicated.",
+        "Chest X‑ray if heart failure is suspected."
+      ],
+      "treatment": [
+        "Address the underlying cause (e.g., heart failure therapy).",
+        "Sodium restriction (<2 g/day) and fluid restriction as indicated.",
+        "Loop diuretics (furosemide) or thiazides per prescription.",
+        "Elevation of limbs and use of graduated compression stockings."
+      ],
+      "complications": [
+        "Pressure ulcers and maceration dermatitis.",
+        "Electrolyte imbalance (hypokalemia, hyponatremia).",
+        "Deep venous thrombosis from stasis.",
+        "Reduced tissue perfusion and functional impairment."
+      ],
+      "nursing_care": [
+        "Assess the degree of edema and record circumference changes every 24 h.",
+        "Monitor vital signs, especially blood pressure and heart rate.",
+        "Apply elevation and compression measures as ordered.",
+        "Track fluid intake and output; record fluid balance.",
+        "Inspect skin for irritation, erythema, or ulcers."
+      ],
+      "patient_teaching": [
+        "Explain the importance of limiting salt and fluid intake.",
+        "Teach self‑measurement of leg circumference technique.",
+        "Instruct on proper use of compression stockings.",
+        "Encourage light physical activity to improve venous return.",
+        "Alert to warning signs: severe pain, redness, or warmth."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [
+          "heart failure",
+          "chronic kidney disease",
+          "hypoalbuminemia",
+          "corticosteroid use"
+        ],
+        "evidenced_by": [
+          "weight gain",
+          "peripheral edema",
+          "venous distension",
+          "elevated blood pressure"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output equilibrium within 48 h.",
+          "Edema reduction: decrease edema by 1 grade within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid balance every 8 h and notify deviations >500 mL.",
+            "rationale": "Allows rapid detection of fluid accumulation."
+          },
+          {
+            "action": "Elevate limbs above heart level for 30 min, 3 times daily.",
+            "rationale": "Facilitates venous return and reduces capillary pressure."
+          },
+          {
+            "action": "Apply graduated compression stockings as prescribed.",
+            "rationale": "Helps prevent stasis and reduces edema."
+          },
+          {
+            "action": "Educate the patient on sodium restriction (<2 g/day).",
+            "rationale": "Reduces water retention."
+          },
+          {
+            "action": "Monitor vital signs and daily weight.",
+            "rationale": "Detects early changes in volume status."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "loop diuretic use",
+          "fluid loss from edema",
+          "renal failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na+ and K+ levels within normal ranges (Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L) within 48 h.",
+          "No clinical arrhythmia manifestations within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes every 24 h.",
+            "rationale": "Identifies early alterations."
+          },
+          {
+            "action": "Assess neurological status and cardiac rhythm each shift.",
+            "rationale": "Detects signs of hypokalemia or hyponatremia."
+          },
+          {
+            "action": "Administer potassium supplements as ordered.",
+            "rationale": "Prevents hypokalemia complications."
+          },
+          {
+            "action": "Teach the patient to recognize symptoms of electrolyte imbalance (palpitations, weakness).",
+            "rationale": "Facilitates timely help-seeking."
+          },
+          {
+            "action": "Review and adjust diuretic dosage in collaboration with the physician.",
+            "rationale": "Avoids excessive electrolyte loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heart-failure",
+    "chronic-kidney-disease",
+    "venous-insufficiency",
+    "hypoalbuminemia",
+    "lymphatic-obstruction"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Retinal Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/retinaldisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Peripheral Vascular System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-2-peripheral-vascular-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Nursing Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-3-nursing-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-13",
+  "factcheck": {
+    "checked": "2026-10-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Heart failure, liver disease, pregnancy, dietary intake, kidney disease, and some medications all contribute to the onset of edema as well as the severity of the condition.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "However, when there is decreased volume of plasma proteins, or blood pressure is increased significantly, there is a change in net filtration, causing excess fluid buildup in the tissues (edema).",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Whatever the cause, thickening of the arteries increases strain on the heart that can lead to congestive heart failure.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Peripheral edema Swelling of the feet, ankles, legs, hands, and arms",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "It is important to understand that edema is not a discrete disorder but a sign of an underlying disorder that must be addressed.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "She has been given one dose of IV furosemide and reports an improvement in dyspnea.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Elevation of the extremities to promote venous return",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Elevation of the extremities to promote venous return Muscular activity with gradual comp",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Document the location and size of any skin ulcers.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Unilateral warmth, redness, tenderness, swelling in the calf, or sudden onset of intense, sharp muscle pain that increases with dorsiflexion of the foot is an indication of a DVT.",
+        "source": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,500 @@
+{
+  "id": "acute-tubular-necrosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Necrosis tubular aguda (NTA)",
+    "aliases": [
+      "necrosis tubular",
+      "atn",
+      "insuficiencia renal aguda",
+      "lesión tubular"
+    ],
+    "summary": "Daño súbito a los túbulos renales que reduce la filtración glomerular y causa insuficiencia renal aguda.",
+    "key_points": [
+      "Causas isquémicas y nefrotóxicas son las más frecuentes.",
+      "Presenta oliguria o anuria y aumento de BUN y creatinina.",
+      "El diagnóstico se basa en pruebas de laboratorio y estudio de orina.",
+      "El manejo es de soporte: control de líquidos, electrolitos y evitar nuevos insultos renales."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hipoperfusión renal o exposición a tóxicos produce daño de las células tubulares proximales y del asa de Henle.",
+        "Los túbulos dañados pierden la capacidad de reabsorción, provocando pérdida de sodio, agua y electrolitos.",
+        "Se forma un edema intracelular tubular que obstruye la luz y disminuye el flujo de filtrado glomerular.",
+        "La disminución del GFR lleva a retención de urea, creatinina y líquidos."
+      ],
+      "risk_factors": [
+        "Hipotensión prolongada, shock séptico o cirugías mayores.",
+        "Uso de fármacos nefrotóxicos: aminoglucósidos, vancomicina, contraste y antiinflamatorios no esteroideos.",
+        "Rabdomiolisis, hemólisis intravascular o sepsis grave.",
+        "Deshidratación severa y quemaduras extensas."
+      ],
+      "signs_symptoms": [
+        "Oliguria (<0.5 mL/kg/h) o anuria.",
+        "Edema periférico y aumento de peso corporal.",
+        "Hipertensión arterial o, en etapas avanzadas, hipotensión.",
+        "Náuseas, vómitos y fatiga.",
+        "Alteraciones del equilibrio ácido‑base (acidosis metabólica)."
+      ],
+      "diagnostics": [
+        "Elevación de BUN y creatinina; relación BUN/creatinina <15:1 sugiere daño tubular.",
+        "Electrolitos: hiperkalemia, hipofosfatemia y acidosis (pH <7.35).",
+        "Análisis de orina: granular casts, células epiteliales tubulares y bajo índice de concentración.",
+        "Ecografía renal: riñones de tamaño normal sin obstrucción."
+      ],
+      "treatment": [
+        "Eliminar o reducir exposición a agentes nefrotóxicos.",
+        "Manejo de líquidos: reposición cuidadosa según balance hídrico y diuresis.",
+        "Control de electrolitos: corrección de hiperkalemia y acidosis.",
+        "Diálisis de emergencia si hay sobrecarga de líquidos, hiperkalemia refractaria o uremia severa.",
+        "Monitoreo estricto de presión arterial y gasto urinario."
+      ],
+      "complications": [
+        "Insuficiencia renal crónica.",
+        "Hiperkalemia con arritmias potencialmente mortales.",
+        "Acidosis metabólica grave.",
+        "Sobrecarga de volumen y edema pulmonar.",
+        "Infecciones nosocomiales por catéteres."
+      ],
+      "nursing_care": [
+        "Evaluar gasto urinario cada hora; registrar volumen y características.",
+        "Monitorear signos vitales, presión arterial y peso diario.",
+        "Controlar electrolitos y gases sanguíneos cada 4‑6 h según orden médica.",
+        "Mantener al paciente en posición semisentado para facilitar la respiración y reducir edema.",
+        "Administrar fluidos IV según prescripción, evitando sobrecarga.",
+        "Observar signos de hiperkalemia: debilidad muscular, arritmias."
+      ],
+      "patient_teaching": [
+        "Informar la importancia de reportar disminución del flujo urinario.",
+        "Enseñar la dieta baja en potasio y sodio mientras persista la lesión renal.",
+        "Explicar la necesidad de evitar automedicación con AINEs o suplementos sin supervisión.",
+        "Instruir sobre la hidratación adecuada y reconocer signos de deshidratación.",
+        "Reforzar la asistencia a controles de laboratorio y seguimiento renal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "hipertensión arterial",
+          "insuficiencia renal aguda",
+          "retención de sodio",
+          "disminución de la diuresis"
+        ],
+        "evidenced_by": [
+          "edema periférico",
+          "aumento de peso >2 kg en 24 h",
+          "crepitantes pulmonares",
+          "presión arterial elevada",
+          "gasto urinario <0.5 mL/kg/h"
+        ],
+        "outcomes": [
+          "Control del peso: no aumento >0.5 kg en 24 h",
+          "Gasto urinario: ≥0.5 mL/kg/h en 6 h",
+          "Edema: disminución de edema periférico en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y registro de ingesta/salida de líquidos.",
+            "rationale": "Permite detectar rápidamente acumulación de líquidos."
+          },
+          {
+            "action": "Evaluar signos de sobrecarga (crepitantes, distensión venosa).",
+            "rationale": "Identifica complicaciones respiratorias tempranas."
+          },
+          {
+            "action": "Administrar diuréticos según prescripción y observar respuesta.",
+            "rationale": "Facilita la eliminación de exceso de sodio y agua."
+          },
+          {
+            "action": "Elevar extremidades inferiores 30° cuando sea seguro.",
+            "rationale": "Reduce edema periférico mediante gravedad."
+          },
+          {
+            "action": "Educar al paciente sobre restricción de sodio (<2 g/día).",
+            "rationale": "Disminuye la retención hídrica."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiperkalemia",
+          "acidosis metabólica",
+          "uso de inhibidores de la ECA",
+          "lesión tubular aguda"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rangos normales en 48 h",
+          "pH arterial entre 7.35‑7.45 en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos y gases sanguíneos cada 4‑6 h.",
+            "rationale": "Detecta alteraciones tempranas y guía intervenciones."
+          },
+          {
+            "action": "Administrar soluciones de reemplazo de potasio o calcio según indicación.",
+            "rationale": "Corrige hiperkalemia y estabiliza la membrana cardíaca."
+          },
+          {
+            "action": "Limitar alimentos ricos en potasio y fósforo.",
+            "rationale": "Previene aumentos adicionales de potasio y fosfato."
+          },
+          {
+            "action": "Monitorizar ritmo cardíaco continuamente.",
+            "rationale": "Identifica arritmias asociadas a desequilibrios iónicos."
+          },
+          {
+            "action": "Documentar y reportar cualquier cambio significativo en los valores de laboratorio.",
+            "rationale": "Facilita la toma de decisiones clínicas oportunas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acute tubular necrosis (ATN)",
+    "aliases": [
+      "acute tubular necrosis",
+      "atn",
+      "acute kidney injury",
+      "tubular injury"
+    ],
+    "summary": "Sudden damage to renal tubules that reduces glomerular filtration and causes acute kidney injury.",
+    "key_points": [
+      "Ischemic and nephrotoxic causes are most common.",
+      "Presents with oliguria or anuria and increased BUN and creatinine.",
+      "Diagnosis is based on laboratory tests and urinalysis.",
+      "Management is supportive: fluid and electrolyte control and avoidance of further renal insults."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Renal hypoperfusion or toxin exposure causes damage to proximal tubular cells and the loop of Henle.",
+        "Damaged tubules lose reabsorptive capacity, leading to loss of sodium, water, and electrolytes.",
+        "Intracellular tubular edema obstructs the lumen and decreases glomerular filtration flow.",
+        "Reduced GFR leads to retention of urea, creatinine, and fluid."
+      ],
+      "risk_factors": [
+        "Prolonged hypotension, septic shock, major surgeries.",
+        "Use of nephrotoxic drugs: aminoglycosides, vancomycin, contrast media, NSAIDs.",
+        "Rhabdomyolysis, intravascular hemolysis, severe sepsis.",
+        "Severe dehydration and extensive burns."
+      ],
+      "signs_symptoms": [
+        "Oliguria (<0.5 mL/kg/h) or anuria.",
+        "Peripheral edema and weight gain.",
+        "Hypertension or, in advanced stages, hypotension.",
+        "Nausea, vomiting, and fatigue.",
+        "Acid–base disturbances (metabolic acidosis)."
+      ],
+      "diagnostics": [
+        "Elevated BUN and creatinine; BUN/creatinine ratio <15:1 suggests tubular injury.",
+        "Electrolytes: hyperkalemia, hypophosphatemia, and acidosis (pH <7.35).",
+        "Urinalysis: granular casts, tubular epithelial cells, low concentrating ability.",
+        "Renal ultrasound: normal-sized kidneys without obstruction."
+      ],
+      "treatment": [
+        "Remove or reduce exposure to nephrotoxic agents.",
+        "Fluid management: careful replacement based on fluid balance and diuresis.",
+        "Electrolyte control: correct hyperkalemia and acidosis.",
+        "Emergency dialysis if fluid overload, refractory hyperkalemia, or severe uremia.",
+        "Strict monitoring of blood pressure and urine output."
+      ],
+      "complications": [
+        "Chronic kidney disease.",
+        "Hyperkalemia with potentially fatal arrhythmias.",
+        "Severe metabolic acidosis.",
+        "Volume overload and pulmonary edema.",
+        "Hospital-acquired infections from catheters."
+      ],
+      "nursing_care": [
+        "Assess hourly urine output; record volume and characteristics.",
+        "Monitor vital signs, blood pressure, and daily weight.",
+        "Check electrolytes and blood gases every 4‑6 h as ordered.",
+        "Keep patient in semi‑upright position to aid breathing and reduce edema.",
+        "Administer IV fluids per prescription, avoiding overload.",
+        "Watch for signs of hyperkalemia: muscle weakness, arrhythmias."
+      ],
+      "patient_teaching": [
+        "Explain the importance of reporting decreased urine output.",
+        "Teach a low‑potassium and low‑sodium diet while renal injury persists.",
+        "Explain the need to avoid self‑medication with NSAIDs or supplements without supervision.",
+        "Instruct on adequate hydration and recognizing dehydration signs.",
+        "Emphasize attending lab checks and renal follow‑up."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [
+          "hypertension",
+          "acute kidney injury",
+          "sodium retention",
+          "decreased diuresis"
+        ],
+        "evidenced_by": [
+          "peripheral edema",
+          "weight gain >2 kg in 24 h",
+          "pulmonary crackles",
+          "elevated blood pressure",
+          "urine output <0.5 mL/kg/h"
+        ],
+        "outcomes": [
+          "Weight control: no increase >0.5 kg in 24 h",
+          "Urine output: ≥0.5 mL/kg/h in 6 h",
+          "Edema: reduction of peripheral edema in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and record fluid intake/output.",
+            "rationale": "Allows rapid detection of fluid accumulation."
+          },
+          {
+            "action": "Assess signs of overload (crackles, venous distension).",
+            "rationale": "Identifies early respiratory complications."
+          },
+          {
+            "action": "Administer diuretics as prescribed and observe response.",
+            "rationale": "Facilitates removal of excess sodium and water."
+          },
+          {
+            "action": "Elevate lower extremities 30° when safe.",
+            "rationale": "Reduces peripheral edema via gravity."
+          },
+          {
+            "action": "Educate patient on sodium restriction (<2 g/day).",
+            "rationale": "Decreases fluid retention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyperkalemia",
+          "metabolic acidosis",
+          "ACE inhibitor use",
+          "acute tubular necrosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal ranges in 48 h",
+          "Arterial pH 7.35‑7.45 in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel and blood gases every 4‑6 h.",
+            "rationale": "Detects early changes and guides interventions."
+          },
+          {
+            "action": "Administer potassium or calcium replacement solutions as indicated.",
+            "rationale": "Corrects hyperkalemia and stabilizes cardiac membrane."
+          },
+          {
+            "action": "Limit foods high in potassium and phosphorus.",
+            "rationale": "Prevents additional increases in potassium and phosphate."
+          },
+          {
+            "action": "Continuously monitor cardiac rhythm.",
+            "rationale": "Identifies arrhythmias associated with ionic imbalances."
+          },
+          {
+            "action": "Document and report any significant laboratory changes.",
+            "rationale": "Facilitates timely clinical decision‑making."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-kidney-injury",
+    "ischemic-injury",
+    "nephrotoxic-drugs",
+    "oliguria",
+    "renal-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Kidney Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/kidneyfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acute Disorders of the Nervous System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-2-acute-disorders-of-the-nervous-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: The Pain Process",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/16-1-the-pain-process",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-13",
+  "factcheck": {
+    "checked": "2026-10-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 40,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Monitor and maintain fluid and electrolyte balance.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Monitor vital signs, muscles, and skin. Blood pressure, heart rate, muscle strength, and skin issues such as bedsores indicate health issues.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Anemia in Chronic Kidney Disease (National Institute of Diabetes and Digestive and Kidney Diseases) Also in Spanish Keeping Kidneys Safe: Smart Choices about Medicines (National Institute of Diab",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
