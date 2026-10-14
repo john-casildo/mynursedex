@@ -1,0 +1,322 @@
+{
+  "id": "food-drug-interaction",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Interacción alimento‑fármaco",
+    "aliases": [
+      "interaccion alimento",
+      "interaccion fármaco",
+      "interaccion comida",
+      "interaccion alimentaria"
+    ],
+    "summary": "Es la alteración de la absorción, metabolismo o eliminación de un medicamento causada por la ingesta de alimentos o suplementos.",
+    "key_points": [
+      "Los alimentos pueden disminuir o aumentar la concentración plasmática del fármaco.",
+      "Grasas, calcio, fibra y alcohol son los componentes dietéticos más frecuentes que generan interacciones.",
+      "La hora de administración respecto a la comida es crucial para la eficacia terapéutica.",
+      "Las interacciones pueden provocar pérdida de efecto o toxicidad del medicamento."
+    ],
+    "sections": {
+      "mechanism": [
+        "Los alimentos modifican el pH gástrico y la velocidad de vaciamiento gástrico.",
+        "Grasas retardan la absorción de fármacos lipofílicos y aumentan la biodisponibilidad de algunos.",
+        "Calcio y otros minerales pueden quelar antibióticos (p. ej., tetraciclinas) reduciendo su absorción.",
+        "Fibra dietética puede disminuir la absorción de fármacos al acelerar el tránsito intestinal."
+      ],
+      "contraindications": [
+        "Evitar alimentos que se sabe interfieren con el fármaco prescrito.",
+        "No combinar suplementos herbales sin autorización del profesional de salud."
+      ],
+      "adverse_effects": [
+        "Reducción de la eficacia terapéutica (ineficacia).",
+        "Aumento de toxicidad por mayor absorción (p. ej., hipoglucemia con sulfonilureas y jugo de pomelo).",
+        "Efectos gastrointestinales (náuseas, diarrea).",
+        "Reacciones alérgicas graves – SERIO."
+      ],
+      "interactions": [
+        "Antibióticos tetraciclina + lácteos (calcio).",
+        "Inhibidores de la MAO + quesos curados, vino tinto (tiramina).",
+        "Warfarina + verduras de hoja verde (vitamina K).",
+        "Statinas + pomelo (aumento de niveles plasmáticos).",
+        "Levotiroxina + fibra o suplementos de hierro (disminuye absorción)."
+      ],
+      "nursing_care": [
+        "Revisar historial dietético y suplementos antes de la administración.",
+        "Verificar la hora de la dosis respecto a la última comida o bebida.",
+        "Monitorear niveles terapéuticos (p. ej., INR, glucosa) según el fármaco.",
+        "Retener la dosis si el paciente ha ingerido un alimento interferente recientemente y notificar al médico.",
+        "Documentar cualquier efecto adverso inesperado y comunicar al equipo de salud."
+      ],
+      "patient_teaching": [
+        "Explicar alimentos y bebidas que deben evitarse o tomarse con precaución.",
+        "Indicar si el medicamento debe tomarse en ayunas o 30‑60 min después de comer.",
+        "Enseñar a leer etiquetas de suplementos y productos de venta libre.",
+        "Fomentar reportar síntomas de pérdida de efecto o toxicidad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "consumo de alimentos que alteran absorción de fármacos",
+          "uso de suplementos sin supervisión",
+          "dieta alta en fibra",
+          "interacción con alimentos grasos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Niveles de electrolitos dentro de rango normal en 48 h",
+          "NOC: Paciente demuestra comprensión de interacciones alimento‑fármaco al 100 % al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar historial dietético y lista de medicamentos al ingreso.",
+            "rationale": "Identifica posibles interacciones que puedan alterar electrolitos."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos que pueden interferir con sus fármacos.",
+            "rationale": "Previene la ingesta de alimentos que provoquen desequilibrios."
+          },
+          {
+            "action": "Monitorear electrolitos séricos según orden médica.",
+            "rationale": "Detecta cambios tempranos y permite intervención oportuna."
+          },
+          {
+            "action": "Coordinar con el farmacéutico para ajustar horarios de administración.",
+            "rationale": "Optimiza la absorción y reduce riesgo de alteraciones electrolíticas."
+          },
+          {
+            "action": "Documentar cualquier efecto adverso y notificar al médico.",
+            "rationale": "Facilita la toma de decisiones clínicas y previene complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Food‑drug interaction",
+    "aliases": [
+      "food interaction",
+      "drug interaction",
+      "food drug interaction",
+      "dietary interaction"
+    ],
+    "summary": "It is the alteration of a medication’s absorption, metabolism, or elimination caused by the ingestion of food or supplements.",
+    "key_points": [
+      "Foods can decrease or increase the drug’s plasma concentration.",
+      "Fats, calcium, fiber, and alcohol are the most common dietary components that generate interactions.",
+      "The timing of administration relative to meals is crucial for therapeutic efficacy.",
+      "Interactions can cause loss of effect or drug toxicity."
+    ],
+    "sections": {
+      "mechanism": [
+        "Foods modify gastric pH and gastric emptying rate.",
+        "Fats delay absorption of lipophilic drugs and increase bioavailability of some.",
+        "Calcium and other minerals can chelate antibiotics (e.g., tetracyclines) reducing absorption.",
+        "Dietary fiber can decrease drug absorption by accelerating intestinal transit."
+      ],
+      "contraindications": [
+        "Avoid foods known to interfere with the prescribed drug.",
+        "Do not combine herbal supplements without health professional authorization."
+      ],
+      "adverse_effects": [
+        "Reduced therapeutic efficacy (ineffectiveness).",
+        "Increased toxicity due to greater absorption (e.g., hypoglycemia with sulfonylureas and grapefruit juice).",
+        "Gastrointestinal effects (nausea, diarrhea).",
+        "Severe allergic reactions – SERIOUS."
+      ],
+      "interactions": [
+        "Tetracycline antibiotics + dairy (calcium).",
+        "MAO inhibitors + aged cheeses, red wine (tyramine).",
+        "Warfarin + green leafy vegetables (vitamin K).",
+        "Statins + grapefruit (increased plasma levels).",
+        "Levothyroxine + fiber or iron supplements (decreases absorption)."
+      ],
+      "nursing_care": [
+        "Review dietary history and supplements before administration.",
+        "Verify dose timing relative to last meal or beverage.",
+        "Monitor therapeutic levels (e.g., INR, glucose) per drug.",
+        "Withhold dose if patient recently ingested an interfering food and notify the physician.",
+        "Document any unexpected adverse effect and communicate to the health team."
+      ],
+      "patient_teaching": [
+        "Explain foods and drinks to avoid or take with caution.",
+        "Indicate if medication should be taken on an empty stomach or 30‑60 min after eating.",
+        "Teach reading supplement and OTC product labels.",
+        "Encourage reporting of symptoms of loss of effect or toxicity."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "consumption of foods that alter drug absorption",
+          "use of unsupervised supplements",
+          "high‑fiber diet",
+          "interaction with fatty foods"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Electrolyte levels within normal range within 48 h",
+          "NOC: Patient demonstrates 100 % understanding of food‑drug interaction at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Assess dietary history and medication list upon admission.",
+            "rationale": "Identifies potential interactions that may alter electrolytes."
+          },
+          {
+            "action": "Educate the patient about foods that can interfere with their medications.",
+            "rationale": "Prevents ingestion of foods that cause imbalances."
+          },
+          {
+            "action": "Monitor serum electrolytes per physician order.",
+            "rationale": "Detects early changes and allows timely intervention."
+          },
+          {
+            "action": "Coordinate with the pharmacist to adjust medication timing.",
+            "rationale": "Optimizes absorption and reduces risk of electrolyte disturbances."
+          },
+          {
+            "action": "Document any adverse effect and notify the physician.",
+            "rationale": "Facilitates clinical decision making and prevents complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "drug-absorption",
+    "pharmacokinetics",
+    "dietary-restrictions",
+    "adherence",
+    "adverse-drug-reaction"
+  ],
+  "sources": [
+    {
+      "name": "Clinical Nursing Skills: Therapeutic Communication",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/3-1-therapeutic-communication",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Patient-Centered and Holistic Health Care",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/6-1-patient-centered-and-holistic-health-care",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-14",
+  "factcheck": {
+    "checked": "2026-10-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 29
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

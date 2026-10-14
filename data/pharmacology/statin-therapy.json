@@ -1,0 +1,352 @@
+{
+  "id": "statin-therapy",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Estatinas",
+    "aliases": [
+      "estatinas",
+      "hmg-coa reductasa",
+      "colesterol",
+      "lipidos",
+      "ldl"
+    ],
+    "summary": "Las estatinas inhiben la HMG‑CoA reductasa, reduciendo la síntesis hepática de colesterol LDL y ofreciendo efectos pleiotrópicos antiinflamatorios y estabilizadores de placa.",
+    "key_points": [
+      "Disminuyen LDL‑c >50 % en dosis altas.",
+      "Efectos pleiotrópicos: antiinflamatorio, antioxidante, estabilizador de placa.",
+      "Principales efectos adversos: mialgia, rabdomiólisis, elevación de transaminasas.",
+      "Contraindicadas en embarazo, lactancia y enfermedad hepática activa."
+    ],
+    "sections": {
+      "mechanism": [
+        "Inhiben la HMG‑CoA reductasa, bloqueando la conversión de HMG‑CoA a mevalonato.",
+        "Disminuyen la producción hepática de colesterol y aumentan la expresión de receptores LDL.",
+        "Mayor captación de LDL‑c por el hígado reduce su concentración plasmática."
+      ],
+      "indications": [
+        "Hiperlipidemia primaria (LDL‑c >130 mg/dL).",
+        "Prevención primaria y secundaria de enfermedad cardiovascular aterosclerótica.",
+        "Síndrome de dislipidemia familiar."
+      ],
+      "contraindications": [
+        "Enfermedad hepática activa (ALT/AST >3× límite superior normal).",
+        "Embarazo y lactancia.",
+        "Hipersensibilidad conocida a la estatina."
+      ],
+      "adverse_effects": [
+        "Mialgia y debilidad muscular (común).",
+        "Elevación transitoria de ALT/AST (común).",
+        "Rabdomiólisis (serio) → CK >10 × normal, dolor muscular intenso, orina oscura.",
+        "Hepatotoxicidad grave (serio) → ictericia, ALT/AST >5× normal."
+      ],
+      "interactions": [
+        "Inhibidores de CYP3A4 (ej. claritromicina, itraconazol) aumentan niveles de estatinas.",
+        "Fibratos y niacina aumentan riesgo de rabdomiólisis.",
+        "Anticoagulantes (warfarina) pueden potenciar efecto anticoagulante.",
+        "Suplementos de pomelo inhiben CYP3A4 y elevan concentración plasmática."
+      ],
+      "nursing_care": [
+        "Verificar función hepática (ALT/AST) antes de iniciar y cada 3‑6 meses.",
+        "Evaluar dolor muscular, debilidad o cambios en la orina.",
+        "Monitorear CK y creatinina si aparecen síntomas musculares.",
+        "Retener la dosis si ALT/AST >3× límite normal o CK >10× normal y notificar al médico."
+      ],
+      "patient_teaching": [
+        "Tomar la estatina a la misma hora cada día, preferiblemente por la noche.",
+        "Informar cualquier dolor muscular persistente o debilidad.",
+        "Evitar el consumo de pomelo y suplementos sin consultar al profesional.",
+        "Mantener hidratación adecuada y acudir a controles de laboratorio."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "uso de estatinas",
+          "posible rabdomiólisis",
+          "deshidratación",
+          "elevación de CK"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Función renal: creatinina sérica ≤1.2 mg/dL en 48 h.",
+          "Integridad muscular: ausencia de dolor muscular o debilidad."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear CK y creatinina sérica cada 24 h si aparecen síntomas musculares.",
+            "rationale": "Detectar rabdomiólisis temprana y prevenir daño renal."
+          },
+          {
+            "action": "Evaluar dolor muscular, debilidad y color de la orina en cada turno.",
+            "rationale": "Identificar signos clínicos de rabdomiólisis."
+          },
+          {
+            "action": "Fomentar ingesta de líquidos ≥2 L/día, salvo contraindicación.",
+            "rationale": "Mantener perfusión renal y facilitar eliminación de mioglobina."
+          },
+          {
+            "action": "Retener la estatina y notificar al médico si CK >10× normal o ALT/AST >3× límite.",
+            "rationale": "Prevenir progresión a insuficiencia renal."
+          },
+          {
+            "action": "Documentar y comunicar cambios en laboratorio y síntomas al equipo de salud.",
+            "rationale": "Garantizar intervención oportuna y coordinación del cuidado."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Statins",
+    "aliases": [
+      "statins",
+      "hmg-coa reductase",
+      "cholesterol",
+      "lipids",
+      "ldl"
+    ],
+    "summary": "Statins inhibit HMG‑CoA reductase, reducing hepatic LDL‑cholesterol synthesis and providing pleiotropic anti‑inflammatory and plaque‑stabilizing effects.",
+    "key_points": [
+      "Reduce LDL‑c >50 % at high doses.",
+      "Pleiotropic effects: anti‑inflammatory, antioxidant, plaque stabilizer.",
+      "Common adverse effects: myalgia, rhabdomyolysis, transaminase elevation.",
+      "Contraindicated in pregnancy, lactation, and active liver disease."
+    ],
+    "sections": {
+      "mechanism": [
+        "Inhibit HMG‑CoA reductase, blocking conversion of HMG‑CoA to mevalonate.",
+        "Decrease hepatic cholesterol production and upregulate LDL receptors.",
+        "Increased hepatic LDL‑c uptake lowers plasma concentration."
+      ],
+      "indications": [
+        "Primary hyperlipidemia (LDL‑c >130 mg/dL).",
+        "Primary and secondary prevention of atherosclerotic cardiovascular disease.",
+        "Familial dyslipidemia syndrome."
+      ],
+      "contraindications": [
+        "Active liver disease (ALT/AST >3× upper limit of normal).",
+        "Pregnancy and lactation.",
+        "Known hypersensitivity to statin."
+      ],
+      "adverse_effects": [
+        "Myalgia and muscle weakness (common).",
+        "Transient ALT/AST elevation (common).",
+        "Rhabdomyolysis (serious) → CK >10× normal, severe muscle pain, dark urine.",
+        "Severe hepatotoxicity (serious) → jaundice, ALT/AST >5× normal."
+      ],
+      "interactions": [
+        "CYP3A4 inhibitors (e.g., clarithromycin, itraconazole) increase statin levels.",
+        "Fibrates and niacin increase rhabdomyolysis risk.",
+        "Anticoagulants (warfarin) may potentiate anticoagulant effect.",
+        "Grapefruit supplements inhibit CYP3A4 and raise plasma concentration."
+      ],
+      "nursing_care": [
+        "Check liver function (ALT/AST) before starting and every 3‑6 months.",
+        "Assess for muscle pain, weakness, or changes in urine.",
+        "Monitor CK and creatinine if muscular symptoms appear.",
+        "Hold dose if ALT/AST >3× upper limit or CK >10× normal and notify provider."
+      ],
+      "patient_teaching": [
+        "Take statin at the same time each day, preferably at night.",
+        "Report any persistent muscle pain or weakness.",
+        "Avoid grapefruit and supplements without consulting a professional.",
+        "Maintain adequate hydration and attend lab follow‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "statin use",
+          "possible rhabdomyolysis",
+          "dehydration",
+          "elevated CK"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal function: serum creatinine ≤1.2 mg/dL within 48 h.",
+          "Muscle integrity: absence of muscle pain or weakness."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor CK and serum creatinine every 24 h if muscular symptoms appear.",
+            "rationale": "Detect early rhabdomyolysis and prevent renal damage."
+          },
+          {
+            "action": "Assess muscle pain, weakness, and urine color each shift.",
+            "rationale": "Identify clinical signs of rhabdomyolysis."
+          },
+          {
+            "action": "Encourage fluid intake ≥2 L/day, unless contraindicated.",
+            "rationale": "Maintain renal perfusion and facilitate myoglobin elimination."
+          },
+          {
+            "action": "Hold statin and notify provider if CK >10× normal or ALT/AST >3× upper limit.",
+            "rationale": "Prevent progression to renal failure."
+          },
+          {
+            "action": "Document and communicate lab changes and symptoms to the health team.",
+            "rationale": "Ensure timely intervention and coordinated care."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperlipidemia",
+    "myopathy",
+    "cardiovascular-disease",
+    "liver-dysfunction"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Statins (HMG-CoA Reductase Inhibitors) and PCSK9 Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/21-2-statins-hmg-coa-reductase-inhibitors-and-pcsk9-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Feminizing Hormonal Therapy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/37-2-feminizing-hormonal-therapy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-14",
+  "factcheck": {
+    "checked": "2026-10-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 20,
+      "contradicted": 4,
+      "total": 30
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Statins are oral drugs that work by inhibiting HMG-CoA reductase, which is an enzyme used in cholesterol synthesis.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Some examples of pleiotropic effects are anti-inflammatory, antioxidant, antiproliferative, and plaque-stabilizing actions, which contribute to their efficacy in preventing and treating CAD (Choudhary et al., 2023).",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "contradicted",
+        "quote": "Previously, statin medications carried a strong warning against use in pregnancy and were considered absolutely contraindicated.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "supported",
+        "quote": "Previously, statin medications carried a strong warning against use in pregnancy and were considered absolutely contraindicated.",
+        "source": 0
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Myalgia, or muscle pain, is common and occurred in 5%–10% of clients taking statin therapy in observational studies (Grundy et al., 2019).",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "contradicted",
+        "quote": "Infrequently, statins have been associated with elevations in transaminase.",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "contradicted",
+        "quote": "However, in 2012 the FDA revised the recommendation for monitoring liver function and now recommends that liver enzymes be tested before starting statin therapy and only as clinically indicated thereafter.",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Report any muscular signs and symptoms to their health care provider, including muscle pain, muscle weakness, and very dark urine, which can indicate rhabdomyolysis.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "contradicted",
+        "quote": "Unlike some other statins, rosuvastatin may be taken at any time of the day because it has a long half-life of 19 hours.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Report any muscular signs and symptoms to their health care provider, including muscle pain, muscle weakness, and very dark urine, which can indicate rhabdomyolysis.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

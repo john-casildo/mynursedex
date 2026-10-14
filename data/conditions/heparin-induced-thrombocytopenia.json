@@ -1,0 +1,469 @@
+{
+  "id": "heparin-induced-thrombocytopenia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trombocitopenia inducida por heparina (TIH)",
+    "aliases": [
+      "trombocitopenia",
+      "heparina",
+      "tih",
+      "platelet"
+    ],
+    "summary": "Reacción inmunológica a la heparina que causa disminución abrupta de plaquetas y riesgo de trombosis.",
+    "key_points": [
+      "Ocurre 5‑10 días después de iniciar heparina, con caída >50% del recuento plaquetario.",
+      "Formación de anticuerpos IgG contra el complejo heparina‑PF4.",
+      "Paradojalmente, aumenta el riesgo de trombosis a pesar de la trombocitopenia.",
+      "Diagnóstico basado en el puntaje 4T y pruebas de anticuerpos (ELISA, SRA).",
+      "El manejo incluye suspender heparina y usar anticoagulantes no heparínicos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Heparina se une a la proteína factor plaquetario 4 (PF4).",
+        "El complejo heparina‑PF4 desencadena la producción de anticuerpos IgG.",
+        "Los anticuerpos activan plaquetas vía el receptor FcγIIa, generando consumo plaquetario.",
+        "La activación plaquetaria produce trombosis y disminución del recuento plaquetario."
+      ],
+      "risk_factors": [
+        "Uso de heparina no fraccionada o enoxaparina en dosis terapéuticas.",
+        "Cirugías ortopédicas, cardíacas o procedimientos invasivos.",
+        "Embarazo, terapia prolongada con heparina, antecedentes de TIH.",
+        "Edad > 65 años y enfermedad renal crónica."
+      ],
+      "signs_symptoms": [
+        "Caída del recuento plaquetario >50% del valor basal.",
+        "Formación de trombos venosos o arteriales (dolor, edema, disnea).",
+        "Lesiones cutáneas o necrosis en el sitio de inyección.",
+        "Hemorragia menor o mayor según gravedad."
+      ],
+      "diagnostics": [
+        "Hemograma completo: plaquetas <150,000/µL o caída >50%.",
+        "Puntaje 4T (tiempo, recuento, trombosis, otras causas).",
+        "ELISA para anticuerpos anti‑PF4/heparina (positivo).",
+        "Ensayo de liberación de serotonina (SRA) como prueba confirmatoria."
+      ],
+      "treatment": [
+        "Suspender inmediatamente toda heparina (incluido LMWH).",
+        "Iniciar anticoagulación con argatrobán, bivalirudina o fondaparinux.",
+        "Evitar transfusión de plaquetas salvo sangrado activo grave.",
+        "Monitorear recuento plaquetario cada 24‑48 h hasta normalización."
+      ],
+      "complications": [
+        "Trombosis venosa profunda, embolia pulmonar, trombosis arterial.",
+        "Gangrena de extremidades por microtrombos.",
+        "Coagulación intravascular diseminada (CIVD).",
+        "Hemorragia grave si se administra heparina o plaquetas inadecuadamente."
+      ],
+      "nursing_care": [
+        "Evaluar recuento plaquetario y signos de trombosis cada turno.",
+        "Mantener acceso venoso sin heparina; usar tubos sin heparina.",
+        "Registrar y reportar cualquier sangrado o hematoma.",
+        "Monitorear pruebas de coagulación (aPTT) según anticoagulante usado.",
+        "Educar al equipo sobre la necesidad de evitar heparina futura."
+      ],
+      "patient_teaching": [
+        "Informar que debe evitar cualquier forma de heparina en el futuro.",
+        "Reconocer signos de trombosis: dolor, hinchazón, dificultad respiratoria.",
+        "Reportar sangrado inusual, moretones o petequias.",
+        "Explicar la importancia de seguir el nuevo anticoagulante según indicaciones."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "exposición a heparina",
+          "trombocitopenia inducida",
+          "coagulopatía"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasia: ausencia de sangrado activo durante la hospitalización",
+          "Integridad cutánea: no se presentan nuevas petequias ni hematomas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear hemograma completo cada 24 h para detectar disminución de plaquetas.",
+            "rationale": "Permite identificar rápidamente la progresión de la trombocitopenia."
+          },
+          {
+            "action": "Evaluar sitio de inserción de catéteres y de inyección por signos de sangrado o hematoma.",
+            "rationale": "Previene complicaciones hemorrágicas locales."
+          },
+          {
+            "action": "Mantener presión adecuada en sitios de venopunción y aplicar apósitos estériles.",
+            "rationale": "Reduce el riesgo de sangrado externo."
+          },
+          {
+            "action": "Educar al paciente sobre signos de sangrado y cuándo notificar al personal.",
+            "rationale": "Facilita la detección temprana y la intervención oportuna."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida sanguínea",
+          "hemorragia interna",
+          "uso de anticoagulantes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida de líquidos equilibradas (+/- 500 mL/24 h)",
+          "Presión arterial: mantenida dentro de rangos normales para la edad"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno.",
+            "rationale": "Detecta rápidamente déficit o exceso de volumen."
+          },
+          {
+            "action": "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+            "rationale": "Indicadores tempranos de hipovolemia o sobrecarga."
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción y respuesta clínica.",
+            "rationale": "Mantiene la perfusión tisular adecuada."
+          },
+          {
+            "action": "Evaluar piel y mucosas en busca de sequedad o turgencia disminuida.",
+            "rationale": "Ayuda a identificar deshidratación."
+          },
+          {
+            "action": "Informar al paciente la importancia de reportar mareos o sensación de desmayo.",
+            "rationale": "Facilita la detección precoz de hipotensión por pérdida de volumen."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Heparin-induced thrombocytopenia (HIT)",
+    "aliases": [
+      "thrombocytopenia",
+      "heparin",
+      "hit",
+      "platelet"
+    ],
+    "summary": "An immune reaction to heparin that causes abrupt platelet drop and thrombosis risk.",
+    "key_points": [
+      "Occurs 5‑10 days after starting heparin, with >50% fall in platelet count.",
+      "Formation of IgG antibodies against the heparin‑PF4 complex.",
+      "Paradoxically increases thrombosis risk despite thrombocytopenia.",
+      "Diagnosis based on the 4T score and antibody tests (ELISA, SRA).",
+      "Management includes stopping heparin and using non‑heparin anticoagulants."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Heparin binds platelet factor 4 (PF4).",
+        "The heparin‑PF4 complex triggers IgG antibody production.",
+        "Antibodies activate platelets via the FcγIIa receptor, causing platelet consumption.",
+        "Platelet activation produces thrombosis and platelet count decline."
+      ],
+      "risk_factors": [
+        "Use of unfractionated heparin or therapeutic dose enoxaparin.",
+        "Orthopedic, cardiac, or invasive procedures.",
+        "Pregnancy, prolonged heparin therapy, prior HIT history.",
+        "Age >65 years and chronic kidney disease."
+      ],
+      "signs_symptoms": [
+        "Platelet count drop >50% from baseline.",
+        "Venous or arterial thrombi (pain, swelling, dyspnea).",
+        "Skin lesions or necrosis at injection site.",
+        "Minor or major bleeding depending on severity."
+      ],
+      "diagnostics": [
+        "Complete blood count: platelets <150,000/µL or >50% drop.",
+        "4T score (time, platelet count, thrombosis, other causes).",
+        "ELISA for anti‑PF4/heparin antibodies (positive).",
+        "Serotonin release assay (SRA) as confirmatory test."
+      ],
+      "treatment": [
+        "Immediately discontinue all heparin (including LMWH).",
+        "Initiate anticoagulation with argatroban, bivalirudin, or fondaparinux.",
+        "Avoid platelet transfusion unless severe active bleeding.",
+        "Monitor platelet count every 24‑48 h until normalization."
+      ],
+      "complications": [
+        "Deep vein thrombosis, pulmonary embolism, arterial thrombosis.",
+        "Gangrene of extremities from microthrombi.",
+        "Disseminated intravascular coagulation (DIC).",
+        "Severe hemorrhage if heparin or platelets are inappropriately administered."
+      ],
+      "nursing_care": [
+        "Assess platelet count and signs of thrombosis each shift.",
+        "Maintain heparin‑free venous access; use heparin‑free tubing.",
+        "Document and report any bleeding or hematoma.",
+        "Monitor coagulation tests (aPTT) per anticoagulant used.",
+        "Educate staff on the need to avoid future heparin."
+      ],
+      "patient_teaching": [
+        "Inform that all forms of heparin must be avoided in the future.",
+        "Recognize signs of thrombosis: pain, swelling, shortness of breath.",
+        "Report unusual bleeding, bruising, or petechiae.",
+        "Explain the importance of following the new anticoagulant as prescribed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "heparin exposure",
+          "heparin-induced thrombocytopenia",
+          "coagulopathy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasis: no active bleeding during hospitalization",
+          "Skin integrity: no new petechiae or bruises"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor complete blood count every 24 h to detect platelet decline.",
+            "rationale": "Allows rapid identification of thrombocytopenia progression."
+          },
+          {
+            "action": "Assess catheter and injection sites for bleeding or hematoma.",
+            "rationale": "Prevents local hemorrhagic complications."
+          },
+          {
+            "action": "Maintain adequate pressure at venipuncture sites and apply sterile dressings.",
+            "rationale": "Reduces risk of external bleeding."
+          },
+          {
+            "action": "Educate the patient on bleeding signs and when to notify staff.",
+            "rationale": "Facilitates early detection and timely intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "blood loss",
+          "internal hemorrhage",
+          "use of anticoagulants"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output within ±500 mL/24 h",
+          "Blood pressure: maintained within normal ranges for age"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output each shift.",
+            "rationale": "Rapidly detects volume deficit or excess."
+          },
+          {
+            "action": "Monitor vital signs, especially blood pressure and heart rate.",
+            "rationale": "Early indicators of hypovolemia or overload."
+          },
+          {
+            "action": "Administer intravenous fluids per prescription and clinical response.",
+            "rationale": "Maintains adequate tissue perfusion."
+          },
+          {
+            "action": "Assess skin and mucous membranes for dryness or decreased turgor.",
+            "rationale": "Helps identify dehydration."
+          },
+          {
+            "action": "Inform the patient of the importance of reporting dizziness or fainting sensations.",
+            "rationale": "Facilitates early detection of hypotension from volume loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "platelet-activation",
+    "thrombosis",
+    "anticoagulation",
+    "serotonin-release-assay"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Thrombocytopenia",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-4-thrombocytopenia",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-14",
+  "factcheck": {
+    "checked": "2026-10-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 25,
+      "contradicted": 1,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "HIT is characterized by a drop in platelet count and an increase in blood coagulability, which can manifest anytime from 1 to 14 days after exposure to heparin (Nicolas et al., 2023).",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "contradicted",
+        "quote": "HIT is characterized by a drop in platelet count and an increase in blood coagulability, which can manifest anytime from 1 to 14 days after exposure to heparin (Nicolas et al., 2023).",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Although most individuals with HIT do not experience bleeding directly, its adverse effect is an increased risk of arterial and venous thrombosis and subsequent arterial and venous clot formation resulting from hypercoagulability.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Heparin must be discontinued immediately, and alternative anticoagulation with a non-heparin-based anticoagulant is required.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "When heparin binds with PF4 proteins, an immune response triggers the production of antibodies, which attach themselves directly onto platelet surfaces, activating platelets to clot.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "HIT is characterized by a drop in platelet count and an increase in blood coagulability, which can manifest anytime from 1 to 14 days after exposure to heparin (Nicolas et al., 2023).",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Although most individuals with HIT do not experience bleeding directly, its adverse effect is an increased risk of arterial and venous thrombosis and subsequent arterial and venous clot formation resulting from hypercoagulability.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The disorder may range in severity from mild cases with minimal symptoms to those posing significant risks of spontaneous bleeding.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Additionally, laboratory tests such as enzyme-linked immunosorbent assays, as well as serotonin release assays can confirm antibodies specific for HIT.",
+        "source": 0
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "HIT can be managed effectively by immediately stopping all forms of heparin therapy and other anticoagulant agents like direct thrombin inhibitors (e.g., argatroban, bivalirudin, fondaparinux) to avoid further thrombosis.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "HIT can be managed effectively by immediately stopping all forms of heparin therapy and other anticoagulant agents like direct thrombin inhibitors (e.g., argatroban, bivalirudin, fondaparinux) to avoid further thrombosis.",
+        "source": 0
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "These conditions may result in deep vein thrombosis (DVT), which is a type of venous thromboembolism; pulmonary embolism (PE); and potentially life-threatening conditions such as stroke or myocardial infarction (Nicolas et al., 2023).",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The specific anticoagulant used and the clinical scenario determine which drug-specific monitoring may be required.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "HIT can be managed effectively by immediately stopping all forms of heparin therapy and other anticoagulant agents like direct thrombin inhibitors (e.g., argatroban, bivalirudin, fondaparinux) to avoid further thrombosis.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

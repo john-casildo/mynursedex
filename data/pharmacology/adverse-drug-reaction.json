@@ -1,0 +1,375 @@
+{
+  "id": "adverse-drug-reaction",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Ácido acetilsalicílico (Aspirina)",
+    "aliases": [
+      "aspirina",
+      "acetilsalicilico",
+      "asa",
+      "salicilato",
+      "antiagregante"
+    ],
+    "summary": "La aspirina es un antiinflamatorio no esteroideo que inhibe irreversible la ciclooxigenasa, reduciendo la agregación plaquetaria y aliviando dolor y fiebre.",
+    "key_points": [
+      "Inhibe irreversible la COX‑1 y COX‑2, disminuyendo tromboxano A2.",
+      "Uso profiláctico en infarto agudo de miocardio y angina inestable.",
+      "Efectos adversos gastrointestinales y riesgo de sangrado grave.",
+      "Contraindicada en alergia a AINE, úlcera péptica activa y trastornos hemorrágicos."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea irreversiblemente la enzima ciclooxigenasa (COX‑1/COX‑2).",
+        "Disminuye la síntesis de prostaglandinas y tromboxano A2.",
+        "Reduce la agregación plaquetaria por 7‑10 días."
+      ],
+      "indications": [
+        "Dolor leve a moderado y fiebre.",
+        "Prevención secundaria de infarto agudo de miocardio.",
+        "Angina inestable y síndrome coronario agudo.",
+        "Profilaxis de eventos trombóticos en pacientes de alto riesgo."
+      ],
+      "contraindications": [
+        "Alergia conocida a aspirina o a otros AINE.",
+        "Úlcera péptica activa o sangrado gastrointestinal reciente.",
+        "Trastornos de coagulación (hemofilia, trombocitopenia).",
+        "Asma sensible a AINE, embarazo en tercer trimestre."
+      ],
+      "adverse_effects": [
+        "Gastritis, dispepsia y dolor epigástrico.",
+        "Náuseas y vómitos.",
+        "Sangrado gastrointestinal (grave).",
+        "Hemorragia intracraneal (grave).",
+        "Síndrome de Reye en niños (grave)."
+      ],
+      "interactions": [
+        "Aumenta el efecto de anticoagulantes (warfarina, heparina).",
+        "Potencia el riesgo de sangrado con SSRIs y corticoides.",
+        "Reduce la eficacia de antihipertensivos ACE‑inhibidores.",
+        "Alcohol incrementa irritación gástrica."
+      ],
+      "nursing_care": [
+        "Evaluar historial de úlcera, sangrado y uso de anticoagulantes.",
+        "Obtener pruebas de coagulación (TP, INR) antes de iniciar terapia.",
+        "Monitorear signos de sangrado: hematuria, melena, hematomas.",
+        "Retener la dosis si el paciente presenta sangrado activo o plaquetas <100 000 /µL.",
+        "Notificar al médico ante hemoglobina descendente >2 g/dL o sangrado grave."
+      ],
+      "patient_teaching": [
+        "Tomar la aspirina con alimentos o antiácido para minimizar irritación gástrica.",
+        "Evitar alcohol y otros AINE mientras esté en tratamiento.",
+        "Reportar cualquier sangrado inusual, hematomas o dolor abdominal intenso.",
+        "No exceder la dosis recomendada; uso en niños solo bajo prescripción."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de aspirina",
+          "úlcera péptica",
+          "anticoagulantes concomitantes",
+          "edad avanzada",
+          "consumo de alcohol"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin evidencia de sangrado: ausencia de hemorragia visible en 24 h.",
+          "Valores de hemoglobina estables: no disminución >2 g/dL en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar historial de sangrado y úlcera antes de administrar.",
+            "rationale": "Identifica factores de riesgo que pueden precipitar hemorragia."
+          },
+          {
+            "action": "Obtener y registrar resultados de coagulación (INR, TP) antes de iniciar.",
+            "rationale": "Permite detectar alteraciones que aumentan el riesgo de sangrado."
+          },
+          {
+            "action": "Monitorear signos de sangrado cada 4 h (hematuria, melena, hematomas).",
+            "rationale": "Detección temprana de hemorragia para intervención oportuna."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si aparecen signos de sangrado activo.",
+            "rationale": "Previene empeoramiento del sangrado y permite ajuste terapéutico."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar cualquier sangrado o dolor abdominal.",
+            "rationale": "Fomenta la participación del paciente en la prevención de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acetylsalicylic Acid (Aspirin)",
+    "aliases": [
+      "aspirin",
+      "acetylsalicylic acid",
+      "asa",
+      "salicylate",
+      "antiplatelet"
+    ],
+    "summary": "Aspirin is a nonsteroidal anti‑inflammatory drug that irreversibly inhibits cyclooxygenase, reducing platelet aggregation and relieving pain and fever.",
+    "key_points": [
+      "Irreversibly inhibits COX‑1 and COX‑2, decreasing thromboxane A2.",
+      "Prophylactic use in acute myocardial infarction and unstable angina.",
+      "Gastrointestinal adverse effects and risk of serious bleeding.",
+      "Contraindicated in allergy to NSAIDs, active peptic ulcer, and hemorrhagic disorders."
+    ],
+    "sections": {
+      "mechanism": [
+        "Irreversibly blocks the cyclooxygenase enzyme (COX‑1/COX‑2).",
+        "Reduces synthesis of prostaglandins and thromboxane A2.",
+        "Decreases platelet aggregation for 7‑10 days."
+      ],
+      "indications": [
+        "Mild to moderate pain and fever.",
+        "Secondary prevention of acute myocardial infarction.",
+        "Unstable angina and acute coronary syndrome.",
+        "Prophylaxis of thrombotic events in high‑risk patients."
+      ],
+      "contraindications": [
+        "Known allergy to aspirin or other NSAIDs.",
+        "Active peptic ulcer or recent gastrointestinal bleeding.",
+        "Coagulation disorders (hemophilia, thrombocytopenia).",
+        "Aspirin‑sensitive asthma, pregnancy in the third trimester."
+      ],
+      "adverse_effects": [
+        "Gastritis, dyspepsia, and epigastric pain.",
+        "Nausea and vomiting.",
+        "Severe gastrointestinal bleeding.",
+        "Severe intracranial hemorrhage.",
+        "Reye syndrome in children (severe)."
+      ],
+      "interactions": [
+        "Increases effect of anticoagulants (warfarin, heparin).",
+        "Potentiates bleeding risk with SSRIs and corticosteroids.",
+        "Reduces efficacy of ACE‑inhibitor antihypertensives.",
+        "Alcohol increases gastric irritation."
+      ],
+      "nursing_care": [
+        "Assess history of ulcer, bleeding, and anticoagulant use.",
+        "Obtain coagulation labs (PT, INR) before starting therapy.",
+        "Monitor for signs of bleeding: hematuria, melena, bruising.",
+        "Withhold dose if patient has active bleeding or platelets <100,000/µL.",
+        "Notify physician if hemoglobin drops >2 g/dL or if serious bleeding occurs."
+      ],
+      "patient_teaching": [
+        "Take aspirin with food or antacid to minimize gastric irritation.",
+        "Avoid alcohol and other NSAIDs while on treatment.",
+        "Report any unusual bleeding, bruising, or severe abdominal pain.",
+        "Do not exceed recommended dose; use in children only under prescription."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "aspirin use",
+          "peptic ulcer",
+          "concomitant anticoagulants",
+          "advanced age",
+          "alcohol consumption"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No evidence of bleeding: absence of visible hemorrhage within 24 h.",
+          "Stable hemoglobin values: no drop >2 g/dL within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess bleeding and ulcer history before administration.",
+            "rationale": "Identifies risk factors that may precipitate hemorrhage."
+          },
+          {
+            "action": "Obtain and record coagulation results (INR, PT) before initiation.",
+            "rationale": "Detects alterations that increase bleeding risk."
+          },
+          {
+            "action": "Monitor bleeding signs every 4 h (hematuria, melena, bruising).",
+            "rationale": "Early detection of hemorrhage for timely intervention."
+          },
+          {
+            "action": "Withhold dose and notify physician if active bleeding signs appear.",
+            "rationale": "Prevents worsening of bleeding and allows therapeutic adjustment."
+          },
+          {
+            "action": "Educate patient on importance of reporting any bleeding or abdominal pain.",
+            "rationale": "Encourages patient participation in complication prevention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bleeding",
+    "gastritis",
+    "platelet-inhibition",
+    "myocardial-infarction",
+    "nsaid"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anti-Parkinsonian Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-2-anti-parkinsonian-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-14",
+  "factcheck": {
+    "checked": "2026-10-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 24,
+      "contradicted": 0,
+      "total": 34
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Drug Dosage For acute myocardial infarction or unstable angina: 325 mg orally (chewed) once.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The risk of serious bleeding in the stomach, gastrointestinal tract, brain, and spinal cord is increased with aspirin and other NSAIDs .",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Indications Mild pain Platelet inhibition in suspected AMI or unstable angina",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "Indications Mild pain Platelet inhibition in suspected AMI or unstable angina",
+        "source": 0
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "Contraindications to aspirin are allergy to nonsteroidal anti-inflammatory drugs (NSAIDs), asthma, hemophilia, and other blood clotting disorders.",
+        "source": 0
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "supported",
+        "quote": "Contraindications to aspirin are allergy to nonsteroidal anti-inflammatory drugs (NSAIDs), asthma, hemophilia, and other blood clotting disorders.",
+        "source": 0
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Aspirin can cause gastritis and bleeding in the stomach, other parts of the gastrointestinal tract, brain, and spinal cord.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Aspirin can cause gastritis and bleeding in the stomach, other parts of the gastrointestinal tract, brain, and spinal cord.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "Epinephrine can cause anxiety and excitability, headache, fear, heart palpitations, tachycardia, supraventricular tachycardia, ventricular arrhythmias, hypertension, cerebral hemorrhage, hemiplegia, subarachnoid hemorrhage, anginal pain in clients with angina",
+        "source": 0
+      },
+      "sections.adverse_effects.4": {
+        "status": "supported",
+        "quote": "Pediatric clients who have suspected viral illnesses should not take aspirin because Reye’s syndrome, a potentially fatal complication, could develop.",
+        "source": 0
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

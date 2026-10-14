@@ -1,0 +1,224 @@
+{
+  "id": "mechanical-ventilation",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Ventilación mecánica (VM)",
+    "aliases": [
+      "ventilación mecánica",
+      "vm",
+      "ventilador",
+      "respiración asistida",
+      "ventilación invasiva"
+    ],
+    "summary": "La VM es un soporte respiratorio que suministra aire/oxígeno bajo presión para mantener la ventilación y oxigenación.",
+    "key_points": [
+      "Mantiene intercambio gaseoso cuando la respiración espontánea es insuficiente.",
+      "Modos comunes: controlado, asistido‑controlado, presión de soporte.",
+      "Requiere monitoreo continuo de presión de vía aérea y saturación de oxígeno.",
+      "Complicaciones: barotrauma, atelectasias, infección del tracto respiratorio."
+    ],
+    "sections": {
+      "purpose": [
+        "Garantizar ventilación adecuada y oxigenación en pacientes con insuficiencia respiratoria.",
+        "Reducir el trabajo respiratorio y la fatiga muscular.",
+        "Permitir intercambio gaseoso mientras se trata la causa subyacente."
+      ],
+      "procedure": [
+        "Verificar orden médica: modo, FiO2, frecuencia respiratoria, Vt.",
+        "Conectar circuito al ventilador y al humidificador.",
+        "Comprobar la posición y fijación del tubo endotraqueal o traqueostomía.",
+        "Iniciar ventilador, ajustar parámetros y observar alarmas.",
+        "Confirmar oxigenación (SpO2 ≥ 92 %) y valores de presión de vía aérea."
+      ],
+      "safety": [
+        "Mantener presión del cuff entre 20‑30 cmH₂O para evitar fugas.",
+        "Revisar que el circuito esté libre de obstrucciones y fugas.",
+        "Aplicar técnica aséptica al manipular el tubo y el circuito.",
+        "Elevar la cabecera 30‑45° para prevenir aspiración.",
+        "Monitorear signos de barotrauma: dolor torácico, disminución de sonidos."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, patrón, uso de músculos accesorios.",
+        "Registrar SpO2, presión arterial, temperatura y ABG según indicación.",
+        "Realizar higiene bucal cada 4 h y antes de cada succión.",
+        "Succionar secreciones según necesidad, observando color y cantidad.",
+        "Reportar cambios en presión de cuff, fuga de aire o signos de infección."
+      ],
+      "documentation": [
+        "Modo, FiO2, Vt, frecuencia respiratoria, PIP y PEEP.",
+        "Resultados de SpO2, ABG y presión de cuff.",
+        "Alarmas activadas y acciones tomadas.",
+        "Higiene bucal, succión y evaluación de secreciones.",
+        "Observaciones de complicaciones o eventos adversos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "intubación endotraqueal",
+          "ventilación mecánica prolongada",
+          "colonización del tubo",
+          "manejo de secreciones"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infección respiratoria: ausencia de fiebre y secreciones purulentas en 48 h",
+          "Temperatura: mantener < 38 °C durante la estancia en VM"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener técnica aséptica al manipular el tubo y el circuito.",
+            "rationale": "Reduce la introducción de microorganismos patógenos."
+          },
+          {
+            "action": "Realizar higiene bucal con solución antiséptica cada 4 h.",
+            "rationale": "Disminuye la carga bacteriana oral que puede aspirarse."
+          },
+          {
+            "action": "Succionar secreciones solo cuando sea necesario, usando catéter estéril.",
+            "rationale": "Evita la contaminación del sistema ventilatorio."
+          },
+          {
+            "action": "Controlar temperatura y signos de infección cada 4 h.",
+            "rationale": "Permite detección temprana y tratamiento oportuno."
+          },
+          {
+            "action": "Cambiar el sistema de humidificación según protocolo (cada 48 h).",
+            "rationale": "Previene proliferación bacteriana en el humidificador."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Mechanical ventilation (MV)",
+    "aliases": [
+      "mechanical ventilation",
+      "mv",
+      "ventilator",
+      "assisted breathing",
+      "invasive ventilation"
+    ],
+    "summary": "MV is respiratory support that delivers air/oxygen under pressure to maintain ventilation and oxygenation.",
+    "key_points": [
+      "Maintains gas exchange when spontaneous breathing is insufficient.",
+      "Common modes: controlled, assist‑control, pressure support.",
+      "Requires continuous monitoring of airway pressure and oxygen saturation.",
+      "Complications: barotrauma, atelectasis, respiratory tract infection."
+    ],
+    "sections": {
+      "purpose": [
+        "Ensure adequate ventilation and oxygenation in patients with respiratory failure.",
+        "Reduce work of breathing and muscular fatigue.",
+        "Allow gas exchange while treating the underlying cause."
+      ],
+      "procedure": [
+        "Verify medical order: mode, FiO2, respiratory rate, tidal volume (Vt).",
+        "Connect circuit to ventilator and humidifier.",
+        "Check position and fixation of endotracheal tube or tracheostomy.",
+        "Start ventilator, adjust settings, and monitor alarms.",
+        "Confirm oxygenation (SpO2 ≥ 92 %) and airway pressure values."
+      ],
+      "safety": [
+        "Maintain cuff pressure between 20‑30 cmH₂O to prevent leaks.",
+        "Ensure circuit is free of obstructions and leaks.",
+        "Apply aseptic technique when handling tube and circuit.",
+        "Elevate head of bed 30‑45° to prevent aspiration.",
+        "Monitor for barotrauma signs: chest pain, decreased breath sounds."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, pattern, use of accessory muscles.",
+        "Record SpO2, blood pressure, temperature, and ABG as ordered.",
+        "Perform oral hygiene every 4 h and before each suctioning.",
+        "Suction secretions as needed, noting color and amount.",
+        "Report changes in cuff pressure, air leak, or infection signs."
+      ],
+      "documentation": [
+        "Mode, FiO2, Vt, respiratory rate, PIP, and PEEP.",
+        "SpO2, ABG, and cuff pressure results.",
+        "Activated alarms and actions taken.",
+        "Oral hygiene, suctioning, and secretion assessment.",
+        "Observations of complications or adverse events."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "endotracheal intubation",
+          "prolonged mechanical ventilation",
+          "tube colonization",
+          "secretions management"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Respiratory infection: absence of fever and purulent secretions within 48 h",
+          "Temperature: maintain < 38 °C during MV stay"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain aseptic technique when handling tube and circuit.",
+            "rationale": "Reduces introduction of pathogenic microorganisms."
+          },
+          {
+            "action": "Perform oral hygiene with antiseptic solution every 4 h.",
+            "rationale": "Decreases oral bacterial load that may be aspirated."
+          },
+          {
+            "action": "Suction secretions only when necessary, using sterile catheter.",
+            "rationale": "Prevents contamination of the ventilatory system."
+          },
+          {
+            "action": "Monitor temperature and infection signs every 4 h.",
+            "rationale": "Enables early detection and timely treatment."
+          },
+          {
+            "action": "Change humidification system per protocol (every 48 h).",
+            "rationale": "Prevents bacterial proliferation in the humidifier."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ventilator-associated-pneumonia",
+    "barotrauma",
+    "oxygen-therapy",
+    "airway-management"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Oxygen Therapy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/oxygentherapy.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Management of Impaired Cardiopulmonary Functioning",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-4-management-of-impaired-cardiopulmonary-functioning",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Management of Impaired Cardiopulmonary Functioning",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-4-management-of-impaired-cardiopulmonary-functioning",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-14"
+}

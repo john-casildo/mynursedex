@@ -1,0 +1,532 @@
+{
+  "id": "pulmonary-edema",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Edema pulmonar",
+    "aliases": [
+      "edema pulmonar",
+      "edema pulmonar agudo",
+      "acumulación de líquido en los pulmones",
+      "edema pulmonar cardiogénico",
+      "edema pulmonar no cardiogénico"
+    ],
+    "summary": "Acumulación de líquido en el intersticio y alvéolos pulmonares que dificulta el intercambio gaseoso. Puede ser cardiogénico o no cardiogénico.",
+    "key_points": [
+      "Aumento de presión hidrostática capilar o disminución de presión oncótica.",
+      "Disnea súbita, ortopnea y crepitaciones bibasales son hallazgos típicos.",
+      "Radiografía de tórax muestra infiltrados intersticiales o alveolares.",
+      "El tratamiento incluye diuréticos, oxígeno y posición semi‑Fowler.",
+      "Complicaciones graves: insuficiencia respiratoria e hipoxemia.",
+      "Control estricto de ingesta de sodio y balance hídrico es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Incremento de presión capilar pulmonar por insuficiencia cardíaca izquierda.",
+        "Disminución de presión oncótica por hipoalbuminemia o pérdida de proteínas.",
+        "Aumento de permeabilidad capilar por inflamación o lesión pulmonar.",
+        "Transudado o exudado se acumula en intersticio y alvéolos.",
+        "Compromiso del intercambio O2/CO2 y aparición de hipoxemia."
+      ],
+      "risk_factors": [
+        "Insuficiencia cardíaca izquierda o hipertensión pulmonar.",
+        "Enfermedad renal crónica o diálisis.",
+        "Exceso de consumo de sal (>2 g/día).",
+        "Embarazo avanzado y retención de líquidos.",
+        "Uso de fármacos que favorecen retención hídrica (corticoides, AINE)."
+      ],
+      "signs_symptoms": [
+        "Disnea de inicio súbito o progresiva.",
+        "Ortopnea y necesidad de dormir con almohadas elevadas.",
+        "Tos productiva con esputo espumoso rosado.",
+        "Crepitaciones finas en bases pulmonares.",
+        "Cianosis periférica y taquicardia."
+      ],
+      "diagnostics": [
+        "Radiografía de tórax: infiltrados intersticiales/alveolares bilaterales.",
+        "Oximetría de pulso: SpO2 < 90 % en reposo.",
+        "Gasometría arterial: PaO2 < 60 mmHg, PaCO2 variable.",
+        "BNP elevado en edema cardiogénico.",
+        "Ecocardiograma: fracción de eyección reducida o presión arterial pulmonar alta."
+      ],
+      "treatment": [
+        "Diuréticos de asa (furosemida) para eliminar exceso de líquido.",
+        "Oxígeno suplementario vía nasal o máscara facial.",
+        "Posición semi‑Fowler (30‑45°) para mejorar expansión pulmonar.",
+        "Restricción de sodio < 2 g/día y control de ingesta hídrica.",
+        "Vasodilatadores o nitratos si hay hipertensión pulmonar.",
+        "Ventilación no invasiva (CPAP/BiPAP) en casos de insuficiencia respiratoria."
+      ],
+      "complications": [
+        "Insuficiencia respiratoria aguda.",
+        "Hipoxemia severa y necesidad de intubación.",
+        "Shock cardiogénico por sobrecarga de volumen.",
+        "Arritmias ventriculares por desequilibrios electrolíticos.",
+        "Neumonía por aspiración."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales, SpO2 y presión arterial cada 2‑4 h.",
+        "Registrar balance hídrico y peso diario; notificar ganancia > 0.5 kg/24 h.",
+        "Auscultar campos pulmonares y registrar crepitaciones.",
+        "Mantener posición semi‑Fowler y elevar cabecera de cama.",
+        "Administrar diuréticos según orden y observar respuesta diurética.",
+        "Evaluar nivel de ansiedad y proporcionar apoyo emocional."
+      ],
+      "patient_teaching": [
+        "Limitar consumo de sal a < 2 g/día; leer etiquetas de alimentos.",
+        "Tomar diuréticos exactamente como se indica, no omitir dosis.",
+        "Registrar peso diario y reportar aumentos súbitos al profesional.",
+        "Reconocer signos de empeoramiento: mayor disnea, tos con esputo rosado.",
+        "Evitar estar de pie o caminar largas distancias sin descanso.",
+        "Mantener citas de seguimiento y pruebas de laboratorio."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Edema pulmonar con crepitaciones bibasales",
+          "Aumento de peso > 0.5 kg en 24 h",
+          "Intake > 2 L/día y diuresis < 500 mL/día",
+          "Presión venosa central elevada",
+          "Tórax con infiltrados en radiografía"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y eliminación equilibradas (< +500 mL/24 h)",
+          "Peso: mantener variación de peso < 0.5 kg en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingreso y egreso de líquidos cada turno y comparar con objetivo de balance.",
+            "rationale": "Permite detectar acumulación de líquido y ajustar terapia diurética."
+          },
+          {
+            "action": "Administrar furosemida según prescripción y observar respuesta diurética.",
+            "rationale": "El diurético elimina el exceso de sodio y agua, reduciendo la congestión pulmonar."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑Fowler y elevar cabecera.",
+            "rationale": "Facilita la expansión pulmonar y mejora la oxigenación."
+          },
+          {
+            "action": "Educar al paciente sobre restricción de sodio y registro de peso diario.",
+            "rationale": "El control dietético y de peso ayuda a prevenir recaídas."
+          },
+          {
+            "action": "Monitorear signos vitales y SpO2 cada 2 h; notificar desaturación < 90 %.",
+            "rationale": "Detecta deterioro respiratorio precozmente."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Uso de diuréticos de asa",
+          "Pérdida de líquidos por edema pulmonar",
+          "Insuficiencia cardíaca"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Potasio sérico: mantener entre 3.5‑5.0 mEq/L",
+          "Sodio sérico: mantener entre 135‑145 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener electrolitos séricos (Na+, K+, Cl-) al menos cada 24 h.",
+            "rationale": "Identifica alteraciones tempranas y guía la reposición."
+          },
+          {
+            "action": "Administrar suplementos de potasio o sodio según resultados de laboratorio.",
+            "rationale": "Corrige desequilibrios y previene arritmias."
+          },
+          {
+            "action": "Enseñar al paciente alimentos ricos en potasio (plátano, papaya) y moderados en sodio.",
+            "rationale": "Apoya la estabilización de electrolitos mediante la dieta."
+          },
+          {
+            "action": "Vigilar signos de hipocalemia: debilidad muscular, arritmias, estreñimiento.",
+            "rationale": "Permite intervención rápida antes de complicaciones graves."
+          },
+          {
+            "action": "Documentar y comunicar cualquier desviación de los rangos normales al médico.",
+            "rationale": "Facilita ajustes de medicación y manejo seguro."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pulmonary edema",
+    "aliases": [
+      "pulmonary edema",
+      "acute pulmonary edema",
+      "fluid accumulation in the lungs",
+      "cardiogenic pulmonary edema",
+      "non‑cardiogenic pulmonary edema"
+    ],
+    "summary": "Fluid accumulation in the pulmonary interstitium and alveoli that impairs gas exchange. It can be cardiogenic or non‑cardiogenic.",
+    "key_points": [
+      "Increase in pulmonary capillary hydrostatic pressure or decrease in oncotic pressure.",
+      "Sudden dyspnea, orthopnea, and bibasal crackles are typical findings.",
+      "Chest X‑ray shows interstitial or alveolar infiltrates.",
+      "Treatment includes diuretics, oxygen, and semi‑Fowler position.",
+      "Severe complications: respiratory failure and hypoxemia.",
+      "Strict sodium intake control and fluid balance are essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased pulmonary capillary pressure due to left‑heart failure.",
+        "Decreased oncotic pressure from hypoalbuminemia or protein loss.",
+        "Increased capillary permeability from inflammation or lung injury.",
+        "Transudate or exudate accumulates in the interstitium and alveoli.",
+        "O2/CO2 exchange is compromised, leading to hypoxemia."
+      ],
+      "risk_factors": [
+        "Left‑heart failure or pulmonary hypertension.",
+        "Chronic kidney disease or dialysis.",
+        "Excess salt consumption (>2 g/day).",
+        "Advanced pregnancy and fluid retention.",
+        "Medications that promote fluid retention (corticosteroids, NSAIDs)."
+      ],
+      "signs_symptoms": [
+        "Sudden or progressive onset dyspnea.",
+        "Orthopnea and need to sleep with pillows elevated.",
+        "Productive cough with frothy pink sputum.",
+        "Fine crackles at lung bases.",
+        "Peripheral cyanosis and tachycardia."
+      ],
+      "diagnostics": [
+        "Chest X‑ray: bilateral interstitial/alveolar infiltrates.",
+        "Pulse oximetry: SpO2 < 90 % at rest.",
+        "Arterial blood gas: PaO2 < 60 mmHg, PaCO2 variable.",
+        "Elevated BNP in cardiogenic edema.",
+        "Echocardiogram: reduced ejection fraction or high pulmonary arterial pressure."
+      ],
+      "treatment": [
+        "Loop diuretics (furosemide) to remove excess fluid.",
+        "Supplemental oxygen via nasal cannula or face mask.",
+        "Semi‑Fowler position (30‑45°) to improve lung expansion.",
+        "Sodium restriction < 2 g/day and fluid intake control.",
+        "Vasodilators or nitrates if pulmonary hypertension is present.",
+        "Non‑invasive ventilation (CPAP/BiPAP) in cases of respiratory failure."
+      ],
+      "complications": [
+        "Acute respiratory failure.",
+        "Severe hypoxemia requiring intubation.",
+        "Cardiogenic shock from volume overload.",
+        "Ventricular arrhythmias from electrolyte imbalances.",
+        "Aspiration pneumonia."
+      ],
+      "nursing_care": [
+        "Monitor vital signs, SpO2, and blood pressure every 2‑4 h.",
+        "Record fluid balance and daily weight; report gains > 0.5 kg/24 h.",
+        "Auscultate lung fields and document crackles.",
+        "Maintain semi‑Fowler position and elevate head of bed.",
+        "Administer diuretics as ordered and observe diuretic response.",
+        "Assess anxiety level and provide emotional support."
+      ],
+      "patient_teaching": [
+        "Limit salt intake to < 2 g/day; read food labels.",
+        "Take diuretics exactly as prescribed, do not skip doses.",
+        "Record daily weight and report sudden increases to the clinician.",
+        "Recognize worsening signs: increased dyspnea, cough with pink sputum.",
+        "Avoid prolonged standing or walking without rest.",
+        "Keep follow‑up appointments and laboratory tests."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Pulmonary edema with bibasal crackles",
+          "Weight gain > 0.5 kg in 24 h",
+          "Intake > 2 L/day and output < 500 mL/day",
+          "Elevated central venous pressure",
+          "Chest infiltrates on X‑ray"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within < +500 mL/24 h",
+          "Weight: maintain weight change < 0.5 kg in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output each shift and compare to balance goal.",
+            "rationale": "Detects fluid accumulation and allows diuretic adjustment."
+          },
+          {
+            "action": "Administer furosemide as prescribed and observe diuretic response.",
+            "rationale": "The diuretic removes excess sodium and water, reducing pulmonary congestion."
+          },
+          {
+            "action": "Place patient in semi‑Fowler position and elevate head.",
+            "rationale": "Facilitates lung expansion and improves oxygenation."
+          },
+          {
+            "action": "Educate patient on sodium restriction and daily weight monitoring.",
+            "rationale": "Dietary and weight control help prevent relapses."
+          },
+          {
+            "action": "Monitor vital signs and SpO2 every 2 h; notify desaturation < 90 %.",
+            "rationale": "Detects early respiratory deterioration."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Loop diuretic use",
+          "Fluid loss from pulmonary edema",
+          "Heart failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum potassium: maintain 3.5‑5.0 mEq/L",
+          "Serum sodium: maintain 135‑145 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain serum electrolytes (Na+, K+, Cl-) at least every 24 h.",
+            "rationale": "Identifies early changes and guides replacement."
+          },
+          {
+            "action": "Administer potassium or sodium supplements as indicated by lab results.",
+            "rationale": "Corrects imbalances and prevents arrhythmias."
+          },
+          {
+            "action": "Teach patient potassium‑rich foods (banana, papaya) and moderate sodium intake.",
+            "rationale": "Supports electrolyte stabilization through diet."
+          },
+          {
+            "action": "Monitor for signs of hypokalemia: muscle weakness, arrhythmias, constipation.",
+            "rationale": "Allows prompt intervention before serious complications."
+          },
+          {
+            "action": "Document and communicate any deviations from normal ranges to the physician.",
+            "rationale": "Facilitates medication adjustments and safe management."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heart-failure",
+    "acute-respiratory-distress-syndrome",
+    "pulmonary-hypertension",
+    "fluid-overload",
+    "hypoxemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Edema",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/edema.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hipertensión pulmonar",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pulmonaryhypertension.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Peripheral Vascular System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-2-peripheral-vascular-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-14",
+  "factcheck": {
+    "checked": "2026-10-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 48,
+      "contradicted": 0,
+      "total": 51
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Hypoalbuminemia contributes to the reduced oncotic pressure that manifests as hair loss in some chronic illnesses such as nephrotic syndrome , lupus nephropathy , and chronic glomerulonephritis .",
+        "source": 3
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "BNP rises when a stretch of the heart occurs from hypervolemia, and so as the congestive nature of HF increases, so does this peptide.",
+        "source": 2
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Capnography can be done with a special type of nasal cannula, which can deliver O 2 and obtain ETCO 2 results.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}
