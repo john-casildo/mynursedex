@@ -1,0 +1,383 @@
+{
+  "id": "anticoagulation",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Warfarina",
+    "aliases": [
+      "warfarina",
+      "anticoagulante oral",
+      "warfarin",
+      "anticoagulación",
+      "vitamina k antagonista"
+    ],
+    "summary": "Anticoagulante oral que inhibe la síntesis hepática de los factores de coagulación dependientes de la vitamina K.",
+    "key_points": [
+      "Se monitoriza mediante INR; rango terapéutico 2‑3 para la mayoría de indicaciones.",
+      "Interacción importante con alimentos ricos en vitamina K y muchos fármacos.",
+      "Riesgo principal: sangrado, especialmente gastrointestinal y intracraneal.",
+      "Requiere educación al paciente sobre cumplimiento y signos de sangrado."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea la enzima epóxido reductasa, impidiendo la reciclación de la vitamina K.",
+        "Disminuye la gamma‑carboxilación de los factores II, VII, IX y X.",
+        "Reduce la capacidad de la sangre para formar coágulos."
+      ],
+      "indications": [
+        "Prevención y tratamiento de trombosis venosa profunda (TVP) y embolia pulmonar (EP).",
+        "Prevención de eventos tromboembólicos en fibrilación auricular.",
+        "Profilaxis de tromboembolismo en prótesis valvulares mecánicas."
+      ],
+      "contraindications": [
+        "Hemorragia activa o riesgo alto de sangrado.",
+        "Embarazo (tercera etapa) y lactancia.",
+        "Insuficiencia hepática grave.",
+        "Hipersensibilidad conocida a la warfarina."
+      ],
+      "adverse_effects": [
+        "Hemorragia menor (epistaxis, hematomas).",
+        "Náuseas, vómitos, pérdida de apetito.",
+        "Necrosis cutánea (rara).",
+        "Serious: sangrado intracraneal, hemorragia gastrointestinal masiva."
+      ],
+      "interactions": [
+        "Aumenta INR con antibióticos (p. ej., trimetoprim‑sulfametoxazol).",
+        "Disminuye INR con inductores de CYP450 (p. ej., rifampicina).",
+        "Alimentos ricos en vitamina K (espinaca, brócoli) reducen efecto.",
+        "AINEs y antitrombóticos potencian el riesgo de sangrado."
+      ],
+      "nursing_care": [
+        "Obtener INR antes de iniciar y luego 2‑3 veces por semana hasta estabilizar.",
+        "Retener la dosis si INR > 4 y notificar al médico.",
+        "Evaluar signos de sangrado: hematuria, melena, sangrado gingival.",
+        "Mantener registro de alimentos ricos en vitamina K y educar al paciente.",
+        "No administrar si presenta hemorragia activa; notificar inmediatamente."
+      ],
+      "patient_teaching": [
+        "Tomar la warfarina a la misma hora cada día.",
+        "Informar cualquier cambio en la dieta, especialmente verduras de hoja verde.",
+        "Reportar sangrado inusual, moretones grandes o sangre en la orina.",
+        "Evitar AINEs sin autorización médica.",
+        "Acudir a controles de INR según lo programado."
+      ],
+      "antidote_overdose": [
+        "Vitamina K1 (fitomenadiona) vía oral o IV según gravedad.",
+        "Concentrados de protrombina (PCC) o plasma fresco congelado para sangrado grave."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de warfarina",
+          "edad avanzada",
+          "insuficiencia renal",
+          "historial de sangrado",
+          "uso concomitante de AINES"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del sangrado: sin evidencia de hemorragia activa durante la hospitalización.",
+          "INR dentro del rango terapéutico (2‑3) en al menos 80% de los controles."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar INR antes de cada dosis y según orden médica.",
+            "rationale": "Permite ajustar la dosis y prevenir sangrado excesivo."
+          },
+          {
+            "action": "Evaluar signos de sangrado cada turno (orina, heces, mucosas).",
+            "rationale": "Detección temprana de hemorragia para intervención oportuna."
+          },
+          {
+            "action": "Educar al paciente sobre dieta y medicamentos que alteran INR.",
+            "rationale": "Reduce variaciones inesperadas del INR."
+          },
+          {
+            "action": "Retener o reducir la dosis si INR > 4 y notificar al médico.",
+            "rationale": "Previene complicaciones hemorrágicas graves."
+          },
+          {
+            "action": "Mantener lista de contactos de emergencia y protocolos de reversión (Vitamina K, PCC).",
+            "rationale": "Facilita respuesta rápida ante sangrado severo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Warfarin",
+    "aliases": [
+      "warfarin",
+      "oral anticoagulant",
+      "anticoagulation",
+      "vitamin k antagonist"
+    ],
+    "summary": "Oral anticoagulant that inhibits hepatic synthesis of vitamin K–dependent clotting factors.",
+    "key_points": [
+      "Monitored via INR; therapeutic range 2‑3 for most indications.",
+      "Important interaction with vitamin K–rich foods and many drugs.",
+      "Primary risk: bleeding, especially gastrointestinal and intracranial.",
+      "Requires patient education on adherence and bleeding signs."
+    ],
+    "sections": {
+      "mechanism": [
+        "Blocks the enzyme epoxide reductase, preventing vitamin K recycling.",
+        "Reduces gamma‑carboxylation of factors II, VII, IX, and X.",
+        "Decreases blood’s ability to form clots."
+      ],
+      "indications": [
+        "Prevention and treatment of deep vein thrombosis (DVT) and pulmonary embolism (PE).",
+        "Prevention of thromboembolic events in atrial fibrillation.",
+        "Prophylaxis of thromboembolism in mechanical valve prostheses."
+      ],
+      "contraindications": [
+        "Active hemorrhage or high bleeding risk.",
+        "Pregnancy (third trimester) and lactation.",
+        "Severe hepatic insufficiency.",
+        "Known hypersensitivity to warfarin."
+      ],
+      "adverse_effects": [
+        "Minor bleeding (epistaxis, bruising).",
+        "Nausea, vomiting, loss of appetite.",
+        "Cutaneous necrosis (rare).",
+        "Serious: intracranial hemorrhage, massive gastrointestinal bleeding."
+      ],
+      "interactions": [
+        "Increases INR with antibiotics (e.g., trimethoprim‑sulfamethoxazole).",
+        "Decreases INR with CYP450 inducers (e.g., rifampin).",
+        "Vitamin K–rich foods (spinach, broccoli) reduce effect.",
+        "NSAIDs and antithrombotics increase bleeding risk."
+      ],
+      "nursing_care": [
+        "Obtain INR before starting and then 2‑3 times per week until stable.",
+        "Hold dose if INR > 4 and notify provider.",
+        "Assess for bleeding signs: hematuria, melena, gingival bleeding.",
+        "Maintain a record of vitamin K–rich foods and educate the patient.",
+        "Do not administer if active bleeding; notify immediately."
+      ],
+      "patient_teaching": [
+        "Take warfarin at the same time each day.",
+        "Report any dietary changes, especially green leafy vegetables.",
+        "Report unusual bleeding, large bruises, or blood in urine.",
+        "Avoid NSAIDs without medical authorization.",
+        "Attend scheduled INR checks."
+      ],
+      "antidote_overdose": [
+        "Vitamin K1 (phytonadione) orally or IV as severity dictates.",
+        "Prothrombin complex concentrates (PCC) or fresh frozen plasma for severe bleeding."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "warfarin use",
+          "advanced age",
+          "renal insufficiency",
+          "bleeding history",
+          "concomitant NSAID use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No evidence of active hemorrhage during hospitalization.",
+          "INR within therapeutic range (2‑3) in at least 80% of checks."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record INR before each dose and as ordered.",
+            "rationale": "Allows dose adjustment and prevents excessive bleeding."
+          },
+          {
+            "action": "Assess for bleeding signs each shift (urine, stool, mucous membranes).",
+            "rationale": "Early detection of hemorrhage for timely intervention."
+          },
+          {
+            "action": "Educate patient on diet and medications that alter INR.",
+            "rationale": "Reduces unexpected INR fluctuations."
+          },
+          {
+            "action": "Hold or reduce dose if INR > 4 and notify provider.",
+            "rationale": "Prevents serious hemorrhagic complications."
+          },
+          {
+            "action": "Maintain emergency contact list and reversal protocols (Vitamin K, PCC).",
+            "rationale": "Facilitates rapid response to severe bleeding."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heparin",
+    "dabigatran",
+    "factor-xa-inhibitor",
+    "bleeding",
+    "inr-monitoring"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-15",
+  "factcheck": {
+    "checked": "2026-10-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 20,
+      "contradicted": 1,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "contradicted",
+        "quote": "Inhibits the production of vitamin K, which is needed for synthesis of clotting factors II, VII, IX, and X",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The therapeutic goal INR varies per indication but is usually 2–3.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Warfarin has numerous drug and food interactions.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The major side effect of all anticoagulant medications is bleeding complications.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Because of all the extra monitoring and food and drug interaction, warfarin requires in-depth client education.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "They work in different parts of the coagulation cascade to decrease the propensity of the blood to form a clot.",
+        "source": 0
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "It is an oral drug used for the treatment of DVT (deep vein thrombosis)/PE (pulmonary embolism), stroke prevention in atrial fibrillation, and thromboembolism prophylaxis after hip arthroplasty.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Prophylaxis and treatment of thromboembolic complications associated with atrial fibrillation and/or cardiac valve replacement",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Differentiate signs of typical bleeding, such as minor bruising, from signs of dangerous bleeding as described above.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "This can manifest in many different ways, including excessive bleeding in response to trauma or during surgery, gastrointestinal bleeding, or spontaneous intracranial hemorrhage.",
+        "source": 0
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "supported",
+        "quote": "Foods that contain vitamin K (e.g., spinach, kale, broccoli)",
+        "source": 0
+      },
+      "sections.interactions.3": {
+        "status": "supported",
+        "quote": "Concomitant medications that further increase bleeding risk, such as non-steroidal anti-inflammatory drugs (e.g., ibuprofen and naproxen) or antiplatelet agents (e.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Some symptoms of bleeding are blood in the stool; dark, tarry-appearing stools; blood in the urine; epistaxis (nosebleed); gingival bleeding; very severe headache; coffee-ground emesis; and hemoptysis.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Administer warfarin at the same time each day according to institutional policies.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Many clients who take warfarin attend clinics that specialize in warfarin dose adjustments.",
+        "source": 0
+      },
+      "sections.antidote_overdose.0": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.1": {
+        "status": "not_found"
+      }
+    }
+  }
+}

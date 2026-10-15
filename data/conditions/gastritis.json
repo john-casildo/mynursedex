@@ -1,0 +1,497 @@
+{
+  "id": "gastritis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Gastritis",
+    "aliases": [
+      "gastritis",
+      "inflamación gástrica",
+      "dolor estomacal",
+      "gastritis aguda",
+      "gastritis crónica"
+    ],
+    "summary": "Inflamación de la mucosa del estómago que puede ser aguda o crónica y suele estar provocada por irritantes, alcohol, H. pylori o estrés.",
+    "key_points": [
+      "Puede ser aguda (irritantes) o crónica (H. pylori, autoinmune).",
+      "Síntomas típicos: dolor epigástrico, náuseas, vómitos y, a veces, hematoquecia.",
+      "Complicación principal: úlcera péptica y sangrado gastrointestinal.",
+      "Tratamiento de primera línea: antiácidos, inhibidores de la bomba de protones y erradicación de H. pylori."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los irritantes disminuyen la producción de prostaglandina E2, reduciendo la secreción de moco y bicarbonato.",
+        "La pérdida de la barrera mucosa permite que el ácido clorhídrico dañe la epitelia gástrica.",
+        "En la gastritis crónica, H. pylori produce inflamación sostenida y daño tisular.",
+        "El daño prolongado puede generar erosiones que evolucionan a úlcera péptica."
+      ],
+      "risk_factors": [
+        "Uso crónico de AINEs (ibuprofeno, naproxeno).",
+        "Consumo excesivo de alcohol y tabaco.",
+        "Infección por Helicobacter pylori.",
+        "Estrés severo, quemaduras o sepsis prolongada."
+      ],
+      "signs_symptoms": [
+        "Dolor epigástrico tipo ardor, a menudo 1‑3 h después de comer.",
+        "Náuseas y/o vómitos, a veces con sangre (hematemesis).",
+        "Hematoquecia o melena si hay sangrado activo.",
+        "Pérdida de apetito y pérdida de peso no intencional."
+      ],
+      "diagnostics": [
+        "Endoscopia digestiva alta: mucosa eritematosa, erosiones o úlceras.",
+        "Test de aliento o antígeno en heces para H. pylori.",
+        "Hemograma: hemoglobina <12 g/dL sugiere sangrado crónico.",
+        "Pruebas de sangre oculta en heces si hay melena."
+      ],
+      "treatment": [
+        "Antiácidos (hidróxido de aluminio‑magnesio) para alivio rápido.",
+        "Inhibidores de la bomba de protones (omeprazol, pantoprazol).",
+        "Protectores de mucosa (sucralfato).",
+        "Erradicación de H. pylori: amoxicilina + claritromicina + inhibidor de bomba de protones por 14 días.",
+        "Suspender AINEs y evitar alcohol y tabaco."
+      ],
+      "complications": [
+        "Úlcera péptica con riesgo de perforación.",
+        "Sangrado gastrointestinal agudo o crónico.",
+        "Anemia ferropénica por pérdida de sangre.",
+        "Estreñimiento o diarrea por uso prolongado de antiácidos."
+      ],
+      "nursing_care": [
+        "Evaluar dolor usando escala numérica; registrar localización y factores de alivio.",
+        "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca por posible sangrado.",
+        "Observar heces y vómitos para detectar sangre (color rojo brillante o melena).",
+        "Administrar medicamentos según orden, verificando tiempo respecto a alimentos.",
+        "Mantener NPO o dieta blanda según indicación; posicionar semi‑Fowler para reducir reflujo."
+      ],
+      "patient_teaching": [
+        "Tomar antiácidos o inhibidores de bomba de protones según horario, sin omitir dosis.",
+        "Evitar AINEs, alcohol, café fuerte y comidas muy grasosas.",
+        "Completar el esquema antibiótico si se diagnostica H. pylori.",
+        "Reportar cualquier sangrado rectal, vómito con sangre o dolor que empeore."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "Inflamación de la mucosa gástrica"
+        ],
+        "evidenced_by": [
+          "Queja de dolor epigástrico",
+          "Sensibilidad a la palpación abdominal",
+          "Náuseas"
+        ],
+        "outcomes": [
+          "Control del dolor: escala ≤ 3/10 en 48 h",
+          "Mejora del confort: paciente reporta alivio del dolor"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor con escala numérica cada 2 h",
+            "rationale": "Permite medir la intensidad y la respuesta al tratamiento"
+          },
+          {
+            "action": "Administrar antiácidos o inhibidores de bomba de protones según prescripción",
+            "rationale": "Reduce la acidez y alivia la irritación mucosa"
+          },
+          {
+            "action": "Ofrecer posición semi‑Fowler y evitar presión abdominal",
+            "rationale": "Disminuye el reflujo y el dolor"
+          },
+          {
+            "action": "Educar al paciente sobre evitar irritantes (AINEs, alcohol)",
+            "rationale": "Previene empeoramiento del dolor"
+          },
+          {
+            "action": "Registrar respuesta al analgésico y notificar al médico si el dolor persiste > 5/10",
+            "rationale": "Facilita ajustes terapéuticos oportunos"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos persistentes",
+          "Diarrea",
+          "Hemorragia gastrointestinal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener hidratación adecuada: ingesta oral ≥ 1500 mL/día",
+          "Peso estable: variación < 0,5 kg en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada turno",
+            "rationale": "Detecta desequilibrio hídrico tempranamente"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas secas, taquicardia)",
+            "rationale": "Identifica déficit de volumen antes de que sea crítico"
+          },
+          {
+            "action": "Administrar soluciones intravenosas según orden si hay pérdida significativa",
+            "rationale": "Restablece el volumen intravascular rápidamente"
+          },
+          {
+            "action": "Ofrecer pequeñas tomas frecuentes de líquidos claros",
+            "rationale": "Facilita la tolerancia y reduce el riesgo de vómitos"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reponer líquidos y reconocer signos de deshidratación",
+            "rationale": "Promueve autocuidado y prevención"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastritis",
+    "aliases": [
+      "gastritis",
+      "gastric inflammation",
+      "stomach pain",
+      "acute gastritis",
+      "chronic gastritis"
+    ],
+    "summary": "Inflammation of the stomach mucosa that can be acute or chronic and is usually caused by irritants, alcohol, H. pylori or stress.",
+    "key_points": [
+      "Can be acute (irritants) or chronic (H. pylori, autoimmune).",
+      "Typical symptoms: epigastric pain, nausea, vomiting and sometimes hematochezia.",
+      "Main complication: peptic ulcer and gastrointestinal bleeding.",
+      "First‑line treatment: antacids, proton pump inhibitors and H. pylori eradication."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Irritants decrease prostaglandin E2 production, reducing mucus and bicarbonate secretion.",
+        "Loss of the mucosal barrier allows hydrochloric acid to damage gastric epithelium.",
+        "In chronic gastritis, H. pylori causes sustained inflammation and tissue damage.",
+        "Prolonged damage can produce erosions that evolve into peptic ulcer."
+      ],
+      "risk_factors": [
+        "Chronic use of NSAIDs (ibuprofen, naproxen).",
+        "Excessive alcohol and tobacco use.",
+        "Helicobacter pylori infection.",
+        "Severe stress, burns or prolonged sepsis."
+      ],
+      "signs_symptoms": [
+        "Burning epigastric pain, often 1‑3 h after eating.",
+        "Nausea and/or vomiting, sometimes with blood (hematemesis).",
+        "Hematochezia or melena if active bleeding.",
+        "Loss of appetite and unintended weight loss."
+      ],
+      "diagnostics": [
+        "Upper endoscopy: erythematous mucosa, erosions or ulcers.",
+        "Breath test or stool antigen for H. pylori.",
+        "CBC: hemoglobin <12 g/dL suggests chronic bleeding.",
+        "Fecal occult blood test if melena present."
+      ],
+      "treatment": [
+        "Antacids (aluminum‑magnesium hydroxide) for rapid relief.",
+        "Proton pump inhibitors (omeprazole, pantoprazole).",
+        "Mucosal protectants (sucralfate).",
+        "H. pylori eradication: amoxicillin + clarithromycin + proton pump inhibitor for 14 days.",
+        "Discontinue NSAIDs and avoid alcohol and tobacco."
+      ],
+      "complications": [
+        "Peptic ulcer with risk of perforation.",
+        "Acute or chronic gastrointestinal bleeding.",
+        "Iron deficiency anemia from blood loss.",
+        "Constipation or diarrhea from prolonged antacid use."
+      ],
+      "nursing_care": [
+        "Assess pain using numeric scale; record location and relief factors.",
+        "Monitor vital signs, especially blood pressure and heart rate for possible bleeding.",
+        "Observe stool and vomitus for blood (bright red or melena).",
+        "Administer medications per order, checking timing relative to meals.",
+        "Maintain NPO or soft diet as indicated; position semi‑Fowler to reduce reflux."
+      ],
+      "patient_teaching": [
+        "Take antacids or proton pump inhibitors as scheduled, do not miss doses.",
+        "Avoid NSAIDs, alcohol, strong coffee and very fatty meals.",
+        "Complete the antibiotic regimen if H. pylori is diagnosed.",
+        "Report any rectal bleeding, vomiting with blood or worsening pain."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "Inflammation of gastric mucosa"
+        ],
+        "evidenced_by": [
+          "Epigastric pain complaint",
+          "Abdominal palpation tenderness",
+          "Nausea"
+        ],
+        "outcomes": [
+          "Pain control: numeric scale ≤ 3/10 within 48 h",
+          "Improved comfort: patient reports pain relief"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain with numeric scale every 2 h",
+            "rationale": "Allows measurement of intensity and response to treatment"
+          },
+          {
+            "action": "Administer antacids or proton pump inhibitors as prescribed",
+            "rationale": "Reduces acidity and relieves mucosal irritation"
+          },
+          {
+            "action": "Offer semi‑Fowler position and avoid abdominal pressure",
+            "rationale": "Decreases reflux and pain"
+          },
+          {
+            "action": "Educate patient on avoiding irritants (NSAIDs, alcohol)",
+            "rationale": "Prevents worsening of pain"
+          },
+          {
+            "action": "Document analgesic response and notify physician if pain persists > 5/10",
+            "rationale": "Facilitates timely therapeutic adjustments"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Persistent vomiting",
+          "Diarrhea",
+          "Gastrointestinal hemorrhage"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain adequate hydration: oral intake ≥ 1500 mL/day",
+          "Stable weight: change < 0.5 kg in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output each shift",
+            "rationale": "Detects fluid imbalance early"
+          },
+          {
+            "action": "Assess signs of dehydration (turgor, dry mucous membranes, tachycardia)",
+            "rationale": "Identifies volume deficit before it becomes critical"
+          },
+          {
+            "action": "Administer IV fluids per order if significant loss",
+            "rationale": "Rapidly restores intravascular volume"
+          },
+          {
+            "action": "Offer small frequent clear fluid sips",
+            "rationale": "Facilitates tolerance and reduces vomiting risk"
+          },
+          {
+            "action": "Educate patient on importance of fluid replacement and recognizing dehydration signs",
+            "rationale": "Promotes self‑care and prevention"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "peptic-ulcer-disease",
+    "helicobacter-pylori-infection",
+    "gastroesophageal-reflux-disease",
+    "anemia",
+    "gastric-perforation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Stomach Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/stomachdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedades del estómago",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/stomachdisorders.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Upper GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-4-disorders-of-the-upper-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Esophagus and Stomach",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/29-2-introduction-to-the-esophagus-and-stomach",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-15",
+  "factcheck": {
+    "checked": "2026-10-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 27,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Acute gastritis is usually caused by an irritant, such as aspirin or NSAID use, heavy alcohol use, smoking, and certain infections.",
+        "source": 2
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Chronic gastritis most commonly is caused by Helicobacter pylori infection ( Figure 19.12 ) but can also be caused by autoimmune disease, Crohn’s disease , gastric surgery, and other infections, such as HIV.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Chronic gastritis most commonly is caused by Helicobacter pylori infection ( Figure 19.12 ) but can also be caused by autoimmune disease, Crohn’s disease , gastric surgery, and other infections, such as HIV.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "There is an increased risk for complications, including gastric cancer , peptic ulcers, and gastric bleeding or perforation, when gastritis is untreated (Azer et al., 2023).",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "contradicted",
+        "quote": "Gastric mucosal cells counteract the HCl acid by secreting prostaglandin E 2 , a strong, lipid-rich molecule that stimulates gastric mucus and pancreatic bicarbonate.",
+        "source": 3
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "However, the protective structure of the mucosal membrane may become eroded when exposed to excessive HCl acid and pepsin, especially if these substances permeate the epithelium.",
+        "source": 3
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Chronic gastritis most commonly is caused by Helicobacter pylori infection ( Figure 19.12 ) but can also be caused by autoimmune disease, Crohn’s disease , gastric surgery, and other infections, such as HIV.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Other symptoms include heartburn, dyspepsia, chest discomfort, hematemesis (vomiting of blood), melena (black tarry stools), fatigue, and dyspnea",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Subjective data for a patient with gastritis can include the patient’s report of presence of gastric pain, belching or hiccups, nausea or vomiting, blood in vomit or stool, or loss of appetite.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "There is an increased risk for complications, including gastric cancer , peptic ulcers, and gastric bleeding or perforation, when gastritis is untreated (Azer et al., 2023).",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Bloodwork will check for the presence of H. pylori infection and will also check for iron deficiency anemia that can be caused by blood loss in the GI tract.",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Monitor the patient’s stool for the presence of blood in the stool; bloody stool may present as a fresh, bright red color (frank) or dark and tarry.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "You should see a doctor if you have any of the following: Blood when you have a bowel movement Severe abdominal pain Heartburn not relieved by antacids Unintended weight loss Ongoing vomiting or diarrhea",
+        "source": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,272 @@
+{
+  "id": "pharmacokinetics",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Farmacocinética",
+    "aliases": [
+      "farmacocinética",
+      "farmacokinetica",
+      "pk",
+      "absorción",
+      "distribución",
+      "metabolismo",
+      "excreción"
+    ],
+    "summary": "Estudia cómo el cuerpo absorbe, distribuye, metaboliza y elimina los fármacos.",
+    "key_points": [
+      "Los cuatro procesos son absorción, distribución, metabolismo y excreción.",
+      "La biodisponibilidad indica la fracción del fármaco que llega a la circulación sistémica.",
+      "La vida media determina la frecuencia de dosificación.",
+      "Factores como edad, embarazo, insuficiencia renal o hepática alteran la farmacocinética."
+    ],
+    "sections": {
+      "mechanism": [
+        "Absorción: paso del fármaco desde el sitio de administración a la sangre.",
+        "Distribución: transporte del fármaco a tejidos y órganos, influido por la unión a proteínas.",
+        "Metabolismo: transformación hepática (fase I y II) para facilitar la eliminación.",
+        "Excreción: eliminación principalmente renal; también biliar, pulmonar o cutánea."
+      ],
+      "nursing_care": [
+        "Evaluar función renal (creatinina, diuresis) y hepática (AST, ALT) antes de iniciar terapia.",
+        "Monitorear niveles séricos del fármaco cuando exista rango terapéutico definido.",
+        "Observar signos de toxicidad o falta de respuesta y notificar al médico.",
+        "Retener la dosis si la creatinina está >2 mg/dL o si hay insuficiencia hepática grave."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento exactamente como se indica, sin omitir dosis.",
+        "Informar sobre alimentos o suplementos que puedan alterar la absorción.",
+        "Reportar cualquier efecto adverso inesperado o cambios en la función renal/hepática.",
+        "No compartir el medicamento con otras personas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "edad avanzada",
+          "embarazo",
+          "insuficiencia renal",
+          "insuficiencia hepática"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener niveles séricos del fármaco dentro del rango terapéutico esperado",
+          "Demostrar comprensión de los factores que alteran la farmacocinética"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la función renal y hepática mediante pruebas de laboratorio antes de iniciar el fármaco",
+            "rationale": "Permite ajustar la dosis y prevenir acumulación tóxica"
+          },
+          {
+            "action": "Revisar la historia de medicamentos y suplementos del paciente",
+            "rationale": "Identifica interacciones que puedan modificar la absorción o el metabolismo"
+          },
+          {
+            "action": "Monitorear signos de toxicidad (náuseas, somnolencia, alteraciones del ritmo cardíaco)",
+            "rationale": "Detecta precozmente efectos adversos por acumulación"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la adherencia y la toma con alimentos según indicación",
+            "rationale": "Optimiza la biodisponibilidad y reduce variabilidad en los niveles plasmáticos"
+          },
+          {
+            "action": "Documentar cualquier cambio en los resultados de laboratorio y comunicar al médico",
+            "rationale": "Facilita ajustes de dosis oportunos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pharmacokinetics",
+    "aliases": [
+      "pharmacokinetics",
+      "pharmacokinetica",
+      "pk",
+      "absorption",
+      "distribution",
+      "metabolism",
+      "excretion"
+    ],
+    "summary": "Studies how the body absorbs, distributes, metabolizes, and eliminates drugs.",
+    "key_points": [
+      "The four processes are absorption, distribution, metabolism, and excretion.",
+      "Bioavailability indicates the fraction of the drug that reaches systemic circulation.",
+      "Half-life determines dosing frequency.",
+      "Factors such as age, pregnancy, renal or hepatic insufficiency alter pharmacokinetics."
+    ],
+    "sections": {
+      "mechanism": [
+        "Absorption: passage of the drug from the site of administration into the bloodstream.",
+        "Distribution: transport of the drug to tissues and organs, influenced by protein binding.",
+        "Metabolism: hepatic transformation (Phase I and II) to facilitate elimination.",
+        "Excretion: primarily renal elimination; also biliary, pulmonary, or cutaneous."
+      ],
+      "nursing_care": [
+        "Assess renal function (creatinine, urine output) and hepatic function (AST, ALT) before initiating therapy.",
+        "Monitor serum drug levels when a defined therapeutic range exists.",
+        "Observe for signs of toxicity or lack of response and notify the physician.",
+        "Hold the dose if creatinine >2 mg/dL or if there is severe hepatic insufficiency."
+      ],
+      "patient_teaching": [
+        "Take the medication exactly as directed, without skipping doses.",
+        "Inform about foods or supplements that may alter absorption.",
+        "Report any unexpected adverse effects or changes in renal/hepatic function.",
+        "Do not share the medication with others."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "advanced age",
+          "pregnancy",
+          "renal insufficiency",
+          "hepatic insufficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain serum drug levels within the expected therapeutic range",
+          "Demonstrate understanding of factors that alter pharmacokinetics"
+        ],
+        "interventions": [
+          {
+            "action": "Assess renal and hepatic function via laboratory tests before starting the drug",
+            "rationale": "Allows dose adjustment and prevents toxic accumulation"
+          },
+          {
+            "action": "Review the patient’s medication and supplement history",
+            "rationale": "Identifies interactions that may modify absorption or metabolism"
+          },
+          {
+            "action": "Monitor signs of toxicity (nausea, drowsiness, cardiac rhythm changes)",
+            "rationale": "Detects early adverse effects from accumulation"
+          },
+          {
+            "action": "Educate the patient on the importance of adherence and taking with food as directed",
+            "rationale": "Optimizes bioavailability and reduces variability in plasma levels"
+          },
+          {
+            "action": "Document any changes in laboratory results and communicate to the physician",
+            "rationale": "Facilitates timely dose adjustments"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "absorption",
+    "metabolism",
+    "renal-clearance",
+    "drug-interactions",
+    "therapeutic-drug-monitoring"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Special Considerations",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/1-4-special-considerations",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-15",
+  "factcheck": {
+    "checked": "2026-10-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 9,
+      "contradicted": 0,
+      "total": 17
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The four primary processes of pharmacokinetics are absorption, distribution, metabolism, and excretion .",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Price and Patel (2022) define bioavailability “for majority purposes” as “the fraction of the active form of a drug that reaches system circulation unaltered.”",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Half-life is important because it helps determine the dosing frequency of a medication.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Pregnancy alters the pharmacodynamics and pharmacokinetics of each drug and impacts the pregnant body’s response to the drug.",
+        "source": 1
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Absorption refers to the process of a drug traveling from the site of administration, through the body’s membranes, and into the circulating bloodstream.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "Drug distribution refers to the movement of a drug through the body or the way that a drug is spread throughout the body.",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.mechanism.3": {
+        "status": "supported",
+        "quote": "Although the removal of a drug occurs primarily through the renal system, it may also occur through the lungs, skin, bile, or feces.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Drug monitoring is sometimes required for drugs with a narrow therapeutic window to ensure that the client’s drug level stays within a safe range.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

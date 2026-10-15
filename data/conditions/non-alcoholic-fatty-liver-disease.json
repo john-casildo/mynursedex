@@ -1,0 +1,516 @@
+{
+  "id": "non-alcoholic-fatty-liver-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad hepática grasa no alcohólica (EHGNA)",
+    "aliases": [
+      "esteatosis hepática",
+      "hígado graso",
+      "masld",
+      "eha",
+      "fatty liver"
+    ],
+    "summary": "Acumulación excesiva de grasa en hepatocitos sin consumo significativo de alcohol, asociada a resistencia a la insulina y síndrome metabólico.",
+    "key_points": [
+      "La EHGNA se clasifica en hígado graso simple y esteatohepatitis (MASH).",
+      "La pérdida de peso del 7‑10 % mejora la esteatosis y la inflamación.",
+      "ALT y AST suelen estar elevadas, con razón ALT/AST >1.",
+      "Complicaciones incluyen fibrosis, cirrosis y carcinoma hepatocelular.",
+      "Control de comorbilidades (diabetes, dislipidemia) es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Resistencia a la insulina aumenta la lipólisis y libera ácidos grasos libres al hígado.",
+        "Exceso de ácidos grasos se esterifica formando triglicéridos hepáticos.",
+        "Estrés oxidativo y citocinas provocan inflamación (MASH).",
+        "Fibroblastos hepáticos activados generan colágeno → fibrosis."
+      ],
+      "risk_factors": [
+        "Obesidad (IMC ≥ 30 kg/m²).",
+        "Diabetes tipo 2 e hiperglucemia.",
+        "Dislipidemia (triglicéridos altos, HDL bajo).",
+        "Síndrome metabólico y sedentarismo.",
+        "Dieta alta en fructosa y grasas saturadas."
+      ],
+      "signs_symptoms": [
+        "Fatiga y malestar general.",
+        "Dolor o sensación de plenitud en hipocondrio derecho.",
+        "Hepatomegalia palpable.",
+        "Ictericia leve en etapas avanzadas.",
+        "Ascitis y edema en enfermedad avanzada."
+      ],
+      "diagnostics": [
+        "ALT y AST elevadas; ALT > AST y razón <1.",
+        "GGT y fosfatasa alcalina pueden estar aumentadas.",
+        "Ecografía abdominal muestra ecogenicidad hepática aumentada.",
+        "Elastografía o FibroScan evalúa grado de fibrosis.",
+        "Biopsia hepática para confirmar MASH y grado de inflamación."
+      ],
+      "treatment": [
+        "Pérdida de peso 7‑10 % mediante dieta hipocalórica y ejercicio.",
+        "Dieta mediterránea, limitar azúcares simples y grasas saturadas.",
+        "Ejercicio aeróbico ≥150 min/sem.",
+        "Control estricto de glucemia y lípidos (metformina, estatinas).",
+        "Vitamina E (antioxidante) y pioglitazona en casos seleccionados."
+      ],
+      "complications": [
+        "Fibrosis progresiva → cirrosis.",
+        "Hipertensión portal con ascitis y varices esofágicas.",
+        "Enfermedad hepática terminal y necesidad de trasplante.",
+        "Carcinoma hepatocelular.",
+        "Encefalopatía hepática."
+      ],
+      "nursing_care": [
+        "Monitorear peso diario y signos de ascitis/edema.",
+        "Evaluar enzimas hepáticas y perfil metabólico cada 3‑6 meses.",
+        "Registrar ingesta y salida de líquidos; restringir sodio <2 g/día.",
+        "Promover actividad física gradual según tolerancia.",
+        "Educar sobre dieta, abstinencia de alcohol y adherencia a medicamentos."
+      ],
+      "patient_teaching": [
+        "Seguir dieta baja en grasas saturadas, azúcares y sodio.",
+        "Realizar ejercicio aeróbico al menos 30 min, 5 veces/semana.",
+        "Evitar consumo de alcohol y tabaco.",
+        "Controlar glucemia y lípidos; asistir a controles médicos.",
+        "Reconocer signos de complicaciones: ictericia, dolor abdominal intenso, edema."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "fatiga",
+          "dolor abdominal",
+          "hipertensión portal"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disnea leve al caminar"
+        ],
+        "outcomes": [
+          "Nivel de actividad: el paciente realiza actividades de la vida diaria sin fatiga excesiva en 2 semanas.",
+          "Resistencia: el paciente aumenta su tiempo de caminata continua a 20 min en 4 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y tolerancia al ejercicio al ingreso y cada turno.",
+            "rationale": "Permite identificar cambios y planificar actividades apropiadas."
+          },
+          {
+            "action": "Planificar períodos de descanso cada 30 min durante actividades prolongadas.",
+            "rationale": "Previene la fatiga excesiva y mejora la adherencia al plan de ejercicio."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de pacing y establecimiento de metas realistas.",
+            "rationale": "Facilita la autogestión y evita el sobreesfuerzo."
+          },
+          {
+            "action": "Registrar y monitorear la frecuencia cardíaca y saturación de O₂ antes y después del ejercicio.",
+            "rationale": "Detecta intolerancia temprana y posibles complicaciones."
+          },
+          {
+            "action": "Coordinar con fisioterapia para iniciar programa de ejercicio aeróbico progresivo.",
+            "rationale": "Promueve mejora de la capacidad funcional de forma segura."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "ascitis",
+          "retención de sodio",
+          "hipertensión portal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: el paciente mantiene ingesta y salida de líquidos dentro de ±500 mL/día en 3 días.",
+          "Edema/ascitis: ausencia de aumento de edema periférico o ascitis en 1 semana."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y registrar cambios de ≥0,5 kg.",
+            "rationale": "Detecta retención de líquidos temprana."
+          },
+          {
+            "action": "Evaluar presencia de edema, distensión abdominal y fluctuación de la pared abdominal.",
+            "rationale": "Identifica signos de acumulación de líquidos."
+          },
+          {
+            "action": "Restringir ingesta de sodio a <2 g/día y registrar consumo de alimentos.",
+            "rationale": "Reduce la retención de agua y mejora el control de ascitis."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno.",
+            "rationale": "Permite cálculo preciso del balance hídrico."
+          },
+          {
+            "action": "Educar al paciente sobre signos de sobrecarga de líquidos (aumento de peso rápido, edema).",
+            "rationale": "Facilita la detección precoz y la búsqueda de atención."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar diuréticos según necesidad.",
+            "rationale": "Optimiza el manejo farmacológico del exceso de líquidos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Nonalcoholic fatty liver disease (NAFLD)",
+    "aliases": [
+      "hepatic steatosis",
+      "fatty liver",
+      "mafld",
+      "eha"
+    ],
+    "summary": "Excessive accumulation of fat in hepatocytes without significant alcohol consumption, associated with insulin resistance and metabolic syndrome.",
+    "key_points": [
+      "NAFLD is classified into simple steatosis and steatohepatitis (NASH).",
+      "A weight loss of 7‑10 % improves steatosis and inflammation.",
+      "ALT and AST are usually elevated, with ALT/AST ratio >1.",
+      "Complications include fibrosis, cirrhosis, and hepatocellular carcinoma.",
+      "Control of comorbidities (diabetes, dyslipidemia) is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Insulin resistance increases lipolysis and releases free fatty acids to the liver.",
+        "Excess fatty acids are esterified forming hepatic triglycerides.",
+        "Oxidative stress and cytokines provoke inflammation (NASH).",
+        "Activated hepatic fibroblasts produce collagen → fibrosis."
+      ],
+      "risk_factors": [
+        "Obesity (BMI ≥ 30 kg/m²).",
+        "Type 2 diabetes and hyperglycemia.",
+        "Dyslipidemia (high triglycerides, low HDL).",
+        "Metabolic syndrome and sedentary lifestyle.",
+        "High-fructose and saturated fat diet."
+      ],
+      "signs_symptoms": [
+        "Fatigue and general malaise.",
+        "Pain or fullness sensation in the right hypochondrium.",
+        "Palpable hepatomegaly.",
+        "Mild jaundice in advanced stages.",
+        "Ascites and edema in advanced disease."
+      ],
+      "diagnostics": [
+        "Elevated ALT and AST; ALT > AST and ratio >1.",
+        "GGT and alkaline phosphatase may be increased.",
+        "Abdominal ultrasound shows increased hepatic echogenicity.",
+        "Elastography or FibroScan assesses fibrosis stage.",
+        "Liver biopsy confirms NASH and inflammation grade."
+      ],
+      "treatment": [
+        "Weight loss 7‑10 % via hypocaloric diet and exercise.",
+        "Mediterranean diet, limit simple sugars and saturated fats.",
+        "Aerobic exercise ≥150 min/week.",
+        "Strict control of glucose and lipids (metformin, statins).",
+        "Vitamin E (antioxidant) and pioglitazone in selected cases."
+      ],
+      "complications": [
+        "Progressive fibrosis → cirrhosis.",
+        "Portal hypertension with ascites and esophageal varices.",
+        "End‑stage liver disease and need for transplant.",
+        "Hepatocellular carcinoma.",
+        "Hepatic encephalopathy."
+      ],
+      "nursing_care": [
+        "Monitor daily weight and signs of ascites/edema.",
+        "Assess liver enzymes and metabolic profile every 3‑6 months.",
+        "Record fluid intake and output; restrict sodium <2 g/day.",
+        "Promote gradual physical activity per tolerance.",
+        "Educate on diet, alcohol abstinence, and medication adherence."
+      ],
+      "patient_teaching": [
+        "Follow a low‑saturated‑fat, low‑sugar, low‑sodium diet.",
+        "Engage in aerobic exercise at least 30 min, 5 times/week.",
+        "Avoid alcohol and tobacco.",
+        "Monitor glucose and lipids; attend medical appointments.",
+        "Recognize signs of complications: jaundice, severe abdominal pain, edema."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "fatigue",
+          "abdominal pain",
+          "portal hypertension"
+        ],
+        "evidenced_by": [
+          "fatigue during activities of daily living",
+          "mild dyspnea walking"
+        ],
+        "outcomes": [
+          "Activity level: the patient performs activities of daily living without excessive fatigue in 2 weeks.",
+          "Endurance: the patient increases continuous walking time to 20 min in 4 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and exercise tolerance at admission and each shift.",
+            "rationale": "Allows identification of changes and planning of appropriate activities."
+          },
+          {
+            "action": "Plan rest periods every 30 min during prolonged activities.",
+            "rationale": "Prevents excessive fatigue and improves adherence to the exercise plan."
+          },
+          {
+            "action": "Teach the patient pacing techniques and realistic goal setting.",
+            "rationale": "Facilitates self‑management and avoids overexertion."
+          },
+          {
+            "action": "Record and monitor heart rate and O₂ saturation before and after exercise.",
+            "rationale": "Detects early intolerance and potential complications."
+          },
+          {
+            "action": "Coordinate with physiotherapy to initiate a progressive aerobic exercise program.",
+            "rationale": "Promotes safe improvement in functional capacity."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "ascites",
+          "sodium retention",
+          "portal hypertension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: the patient maintains intake and output within ±500 mL/day in 3 days.",
+          "Edema/ascites: no increase in peripheral edema or ascites in 1 week."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and record changes ≥0.5 kg.",
+            "rationale": "Detects early fluid retention."
+          },
+          {
+            "action": "Assess for edema, abdominal distension, and abdominal wall fluctuation.",
+            "rationale": "Identifies signs of fluid accumulation."
+          },
+          {
+            "action": "Restrict sodium intake to <2 g/day and record food consumption.",
+            "rationale": "Reduces water retention and improves ascites control."
+          },
+          {
+            "action": "Record fluid intake and output each shift.",
+            "rationale": "Allows precise calculation of fluid balance."
+          },
+          {
+            "action": "Educate the patient on signs of fluid overload (rapid weight gain, edema).",
+            "rationale": "Facilitates early detection and seeking care."
+          },
+          {
+            "action": "Collaborate with the physician to adjust diuretics as needed.",
+            "rationale": "Optimizes pharmacologic management of excess fluid."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "nonalcoholic-steatohepatitis",
+    "cirrhosis",
+    "metabolic-syndrome",
+    "insulin-resistance",
+    "hepatocellular-carcinoma"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Steatotic Liver Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/steatoticliverdisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-15",
+  "factcheck": {
+    "checked": "2026-10-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 37,
+      "contradicted": 0,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Signs of acute liver failure may include hypotension, altered mental status, fever, jaundice, right upper quadrant pain, ascites, jaundice, or fluid overload (Shah et al., 2023).",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Signs and symptoms of cirrhosis include ascites dark-colored urine decreased urine output digestive problems edema hepatic encephalopathy jaundice light-colored stools motor dysfunction pruritus shortness of breath unexplained weight loss"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "This scarring sometimes leads to cirrhosis or liver cancer .",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "The Model of End-Stage Liver Disease (MELD) Score is used to predict survival of patients with cirrhosis and is a tool used to prioritize organ allocation for liver transplantation.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Common complications seen with chronic liver disease are esophageal varices , hepatic encephalopathy, hepatorenal syndrome (kidney dysfunction in patients with advanced liver disease), and hepatocellular carcinoma.",
+        "source": 1
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Signs and symptoms of cirrhosis include ascites dark-colored urine decreased urine output digestive problems edema hepatic encephalopathy jaundice light-colored stools motor dysfunction pruritus shortness of breath unexplained weight loss",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "These include administering medications documenting daily weights and abdominal girth measurement educating patients monitoring laboratory values, such as sodium levels monitoring vital signs and intake and output",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
