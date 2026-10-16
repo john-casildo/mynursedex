@@ -1,0 +1,493 @@
+{
+  "id": "metabolic-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome metabólico (SM)",
+    "aliases": [
+      "sindrome metabólico",
+      "metabolic syndrome",
+      "sindrome metab",
+      "sindrome metab crónico"
+    ],
+    "summary": "Conjunto de alteraciones metabólicas que aumentan el riesgo de enfermedad cardiovascular, diabetes tipo 2 y accidente cerebrovascular.",
+    "key_points": [
+      "Requiere ≥3 de los 5 criterios: obesidad abdominal, hipertensión, triglicéridos altos, HDL bajo y glucemia en ayunas alta.",
+      "La resistencia a la insulina es el mecanismo fisiopatológico central.",
+      "El manejo se basa en cambios de estilo de vida y tratamiento farmacológico de los componentes.",
+      "Complicaciones principales: enfermedad coronaria, infarto, accidente cerebrovascular y diabetes tipo 2."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exceso de tejido adiposo visceral produce adipocinas que disminuyen la sensibilidad a la insulina.",
+        "Resistencia a la insulina eleva la glucosa plasmática y estimula la producción hepática de triglicéridos.",
+        "Elevados triglicéridos y bajo HDL favorecen la aterogénesis.",
+        "Hipertensión se genera por activación del sistema renina‑angiotensina‑aldosterona y disfunción endotelial."
+      ],
+      "risk_factors": [
+        "Obesidad abdominal (cintura >102 cm hombres, >88 cm mujeres).",
+        "Sedentarismo y dieta alta en azúcares y grasas saturadas.",
+        "Historia familiar de diabetes tipo 2 o enfermedad cardiovascular.",
+        "Edad >45 años, origen étnico (p. ej. hispano, afroamericano)."
+      ],
+      "signs_symptoms": [
+        "Cintura aumentada, presión arterial ≥130/85 mm Hg.",
+        "Triglicéridos ≥150 mg/dL, HDL <40 mg/dL (hombres) o <50 mg/dL (mujeres).",
+        "Glucosa en ayunas ≥100 mg/dL.",
+        "Frecuentemente asintomático; puede presentar fatiga o sensación de plenitud abdominal."
+      ],
+      "diagnostics": [
+        "Medición de circunferencia de cintura con cinta métrica.",
+        "Presión arterial en posición sentada, repetir en dos visitas.",
+        "Perfil lipídico: triglicéridos y HDL en mg/dL.",
+        "Glucosa plasmática en ayunas (mg/dL).",
+        "Diagnóstico de SM: presencia de al menos 3 criterios anteriores."
+      ],
+      "treatment": [
+        "Modificación del estilo de vida: dieta DASH o mediterránea, <30% calorías de grasas.",
+        "Ejercicio aeróbico ≥150 min/semana, 3–5 días/semana.",
+        "Fármacos antihipertensivos (IECA, ARA II, bloqueadores de Ca).",
+        "Estatinas para control de LDL y reducción de riesgo cardiovascular.",
+        "Metformina o pioglitazona en caso de glucemia alterada."
+      ],
+      "complications": [
+        "Enfermedad cardiovascular aterosclerótica (infarto, angina).",
+        "Diabetes tipo 2.",
+        "Accidente cerebrovascular.",
+        "Esteatosis hepática no alcohólica.",
+        "Síndrome de apnea obstructiva del sueño."
+      ],
+      "nursing_care": [
+        "Evaluar peso, IMC y circunferencia de cintura en cada visita.",
+        "Monitorear presión arterial y glucemia en ayunas según orden médica.",
+        "Registrar perfil lipídico y comparar con valores de referencia.",
+        "Promover adherencia a dieta y programa de ejercicio.",
+        "Vigilar signos de complicaciones: dolor torácico, disnea, cambios en visión."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de perder 5‑10 % de peso corporal.",
+        "Enseñar cómo leer etiquetas de alimentos y reducir azúcares añadidos.",
+        "Instruir sobre autocontrol de presión arterial y glucemia en casa.",
+        "Fomentar actividad física progresiva y segura.",
+        "Reforzar la toma regular de medicamentos y citas de seguimiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de función cardiovascular ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "dislipidemia",
+          "resistencia a la insulina",
+          "obesidad abdominal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Función cardiovascular mejorada – presión arterial <130/85 mm Hg en 8 semanas.",
+          "NOC: Control de lípidos – triglicéridos <150 mg/dL y HDL dentro de rango en 12 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Medir presión arterial cada visita y registrar valores.",
+            "rationale": "Detectar hipertensión temprana y evaluar respuesta al tratamiento."
+          },
+          {
+            "action": "Revisar resultados de perfil lipídico y educar sobre dieta baja en grasas saturadas.",
+            "rationale": "Reducir riesgo aterogénico mediante control de lípidos."
+          },
+          {
+            "action": "Promover actividad física estructurada de al menos 30 min, 5 veces/semana.",
+            "rationale": "Mejora la sensibilidad a la insulina y reduce presión arterial."
+          },
+          {
+            "action": "Facilitar la adherencia a medicamentos antihipertensivos y estatinas según prescripción.",
+            "rationale": "Control farmacológico disminuye daño vascular."
+          },
+          {
+            "action": "Evaluar signos de isquemia (dolor torácico, disnea) y notificar al médico.",
+            "rationale": "Identificar complicaciones cardiovasculares precozmente."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "uso de diuréticos",
+          "obesidad",
+          "insuficiente ingesta hídrica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Balance hídrico estable – ingesta y salida de líquidos equilibradas en 7 días.",
+          "NOC: Peso corporal estable – variación <0.5 kg en 2 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno.",
+            "rationale": "Detectar desviaciones tempranas del balance hídrico."
+          },
+          {
+            "action": "Monitorear peso diario y comparar con peso basal.",
+            "rationale": "Identificar retención o pérdida de líquidos rápidamente."
+          },
+          {
+            "action": "Evaluar edema periférico y presión venosa central si está indicada.",
+            "rationale": "Detectar acumulación de líquidos asociada a hipertensión o medicación."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de una ingesta adecuada de agua y limitar sodio.",
+            "rationale": "Previene sobrecarga de volumen y ayuda a controlar la presión arterial."
+          },
+          {
+            "action": "Revisar ordenes de diuréticos y ajustar según respuesta clínica.",
+            "rationale": "Evitar hipovolemia o hipernatremia por uso excesivo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Metabolic syndrome (MS)",
+    "aliases": [
+      "metabolic syndrome",
+      "metabolic syndrome chronic"
+    ],
+    "summary": "A cluster of metabolic abnormalities that increase the risk of cardiovascular disease, type 2 diabetes, and stroke.",
+    "key_points": [
+      "Requires ≥3 of the 5 criteria: abdominal obesity, hypertension, high triglycerides, low HDL, and elevated fasting glucose.",
+      "Insulin resistance is the central pathophysiologic mechanism.",
+      "Management is based on lifestyle changes and pharmacologic treatment of the components.",
+      "Major complications: coronary artery disease, myocardial infarction, stroke, and type 2 diabetes."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Excess visceral adipose tissue produces adipokines that decrease insulin sensitivity.",
+        "Insulin resistance raises plasma glucose and stimulates hepatic triglyceride production.",
+        "Elevated triglycerides and low HDL promote atherogenesis.",
+        "Hypertension results from activation of the renin‑angiotensin‑aldosterone system and endothelial dysfunction."
+      ],
+      "risk_factors": [
+        "Abdominal obesity (waist >102 cm men, >88 cm women).",
+        "Sedentary lifestyle and diet high in sugars and saturated fats.",
+        "Family history of type 2 diabetes or cardiovascular disease.",
+        "Age >45 years, ethnic origin (e.g., Hispanic, African American)."
+      ],
+      "signs_symptoms": [
+        "Increased waist circumference, blood pressure ≥130/85 mm Hg.",
+        "Triglycerides ≥150 mg/dL, HDL <40 mg/dL (men) or <50 mg/dL (women).",
+        "Fasting glucose ≥100 mg/dL.",
+        "Often asymptomatic; may present fatigue or abdominal fullness."
+      ],
+      "diagnostics": [
+        "Measure waist circumference with tape measure.",
+        "Blood pressure in seated position, repeat on two visits.",
+        "Lipid profile: triglycerides and HDL in mg/dL.",
+        "Fasting plasma glucose in mg/dL.",
+        "Diagnosis of MS: presence of at least 3 of the above criteria."
+      ],
+      "treatment": [
+        "Lifestyle modification: DASH or Mediterranean diet, <30% calories from fat.",
+        "Aerobic exercise ≥150 min/week, 3–5 days/week.",
+        "Antihypertensive drugs (ACE inhibitors, ARBs, calcium‑channel blockers).",
+        "Statins for LDL control and cardiovascular risk reduction.",
+        "Metformin or pioglitazone if glucose is abnormal."
+      ],
+      "complications": [
+        "Atherosclerotic cardiovascular disease (MI, angina).",
+        "Type 2 diabetes.",
+        "Stroke.",
+        "Non‑alcoholic fatty liver disease.",
+        "Obstructive sleep apnea syndrome."
+      ],
+      "nursing_care": [
+        "Assess weight, BMI, and waist circumference at each visit.",
+        "Monitor blood pressure and fasting glucose as ordered.",
+        "Record lipid profile and compare with reference values.",
+        "Promote adherence to diet and exercise program.",
+        "Watch for signs of complications: chest pain, dyspnea, vision changes."
+      ],
+      "patient_teaching": [
+        "Explain the importance of losing 5‑10 % of body weight.",
+        "Teach how to read food labels and reduce added sugars.",
+        "Instruct on home blood pressure and glucose self‑monitoring.",
+        "Encourage progressive and safe physical activity.",
+        "Reinforce regular medication intake and follow‑up appointments."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for impaired cardiovascular function",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "dyslipidemia",
+          "insulin resistance",
+          "abdominal obesity"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Improved cardiovascular function – blood pressure <130/85 mm Hg in 8 weeks.",
+          "NOC: Lipid control – triglycerides <150 mg/dL and HDL within range in 12 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Measure blood pressure at each visit and record values.",
+            "rationale": "Detect early hypertension and assess treatment response."
+          },
+          {
+            "action": "Review lipid profile results and educate on low‑saturated‑fat diet.",
+            "rationale": "Reduce atherogenic risk through lipid control."
+          },
+          {
+            "action": "Promote structured physical activity of at least 30 min, 5 times/week.",
+            "rationale": "Improves insulin sensitivity and lowers blood pressure."
+          },
+          {
+            "action": "Facilitate adherence to antihypertensive and statin medications as prescribed.",
+            "rationale": "Pharmacologic control reduces vascular damage."
+          },
+          {
+            "action": "Assess signs of ischemia (chest pain, dyspnea) and notify the physician.",
+            "rationale": "Identify early cardiovascular complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "diuretic use",
+          "obesity",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Stable fluid balance – fluid intake and output balanced in 7 days.",
+          "NOC: Stable body weight – variation <0.5 kg in 2 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output each shift.",
+            "rationale": "Detect early deviations from fluid balance."
+          },
+          {
+            "action": "Monitor daily weight and compare with baseline weight.",
+            "rationale": "Identify rapid fluid retention or loss."
+          },
+          {
+            "action": "Assess peripheral edema and central venous pressure if indicated.",
+            "rationale": "Detect fluid accumulation associated with hypertension or medication."
+          },
+          {
+            "action": "Educate patient on the importance of adequate water intake and sodium restriction.",
+            "rationale": "Prevent volume overload and help control blood pressure."
+          },
+          {
+            "action": "Review diuretic orders and adjust based on clinical response.",
+            "rationale": "Avoid hypovolemia or hypernatremia from excessive use."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "obesity",
+    "hypertension",
+    "insulin-resistance",
+    "dyslipidemia",
+    "type-2-diabetes"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Metabolic Syndrome",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/metabolicsyndrome.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Síndrome metabólico",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/metabolicsyndrome.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acid-Base Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-4-acid-base-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Acid-Base Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-2-acid-base-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-16",
+  "factcheck": {
+    "checked": "2026-10-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 35,
+      "contradicted": 2,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "contradicted",
+        "quote": "A large waistline , which means a waist measurement of 35 inches or more for women 40 inches or more for men",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "High blood pressure , which is a reading of 130/85 mmHg or higher.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "A high triglyceride level , which is 150 mg/dL or higher A low HDL cholesterol level , which is Less than 50 mg/dL for women Less than 40 mg/dL for men",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "A high fasting blood sugar , which is 100 mg/dL or higher",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "contradicted",
+        "quote": "When you have at least three of them, it is called metabolic syndrome.",
+        "source": 0
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "The more factors you have, the higher your risk for heart disease, diabetes, and stroke is.",
+        "source": 0
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Getting regular physical activity",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

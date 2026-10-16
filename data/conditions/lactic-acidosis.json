@@ -1,0 +1,481 @@
+{
+  "id": "lactic-acidosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Acidosis láctica",
+    "aliases": [
+      "acidosis láctica",
+      "acidosis lactica",
+      "lactato",
+      "acidosis metabólica",
+      "acidosis"
+    ],
+    "summary": "Acumulación de lactato en sangre que reduce el pH <7.35, típicamente por hipoxia tisular o metabolismo anaeróbico excesivo.",
+    "key_points": [
+      "pH < 7.35 con aumento del lactato sérico > 2 mmol/L.",
+      "Causas comunes: shock, sepsis, insuficiencia hepática, ejercicio intenso, metformina.",
+      "Puede producir hiperkalemia por desplazamiento de K+ extracelular.",
+      "El tratamiento se centra en corregir la causa subyacente y reponer volumen.",
+      "Monitoreo de ABG, lactato, electrolitos y perfusión tisular es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hipoxia o disfunción metabólica aumenta la glucólisis anaeróbica.",
+        "El piruvato se convierte en lactato mediante lactato deshidrogenasa.",
+        "Acumulación de lactato supera la capacidad de eliminación hepática y renal.",
+        "El exceso de H+ disminuye el pH y desplaza K+ al exterior celular."
+      ],
+      "risk_factors": [
+        "Shock hipovolémico o cardiogénico.",
+        "Sepsis grave o choque séptico.",
+        "Insuficiencia hepática o renal.",
+        "Uso de metformina en insuficiencia renal.",
+        "Ejercicio vigoroso prolongado."
+      ],
+      "signs_symptoms": [
+        "Hipotensión, taquicardia y piel fría.",
+        "Respiración rápida (Kussmaul) por compensación respiratoria.",
+        "Náuseas, vómitos y confusión.",
+        "Dolor abdominal y sensación de ardor."
+      ],
+      "diagnostics": [
+        "ABG: pH < 7.35, HCO3‑ < 22 mEq/L, PaCO2 bajo (compensación respiratoria).",
+        "Lactato sérico > 2 mmol/L (normal 0.5‑2.2).",
+        "Electrolitos: posible hiperkalemia > 5.0 mEq/L.",
+        "Función hepática y renal para evaluar eliminación del lactato."
+      ],
+      "treatment": [
+        "Identificar y tratar la causa subyacente (ej. reposición de volumen, antibióticos).",
+        "Bicarbonato de sodio (NaHCO3) IV si pH < 7.1 y compromiso hemodinámico.",
+        "Fluidos cristaloides (solución salina al 0.9% o Ringer lactato) para mejorar perfusión.",
+        "Insulina IV en caso de cetoacidosis asociada.",
+        "Corrección de electrolitos (ej. hiperkalemia) según protocolos."
+      ],
+      "complications": [
+        "Hiperkalemia y arritmias cardíacas.",
+        "Insuficiencia renal aguda.",
+        "Shock irreversible.",
+        "Daño cerebral por hipoperfusión."
+      ],
+      "nursing_care": [
+        "Monitorizar signos vitales cada 15‑30 min; presión arterial, frecuencia cardíaca y saturación O2.",
+        "Controlar ABG y lactato cada 2‑4 h hasta estabilización.",
+        "Evaluar estado de hidratación y perfusión periférica (tiempo de llenado capilar).",
+        "Registrar ingesta y salida de líquidos; mantener balance hídrico.",
+        "Vigilar niveles de potasio y otros electrolitos; notificar desviaciones."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de informar síntomas de mareo, palpitaciones o debilidad.",
+        "Instruir sobre la necesidad de mantener hidratación adecuada.",
+        "En pacientes con metformina, reforzar control de función renal y glucemia.",
+        "Enseñar signos de alarma que requieren atención inmediata (dolor torácico, confusión)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "shock",
+          "sepsis",
+          "hipotensión",
+          "hipoxia",
+          "insuficiencia hepática"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca adecuada: mantener presión arterial media > 65 mmHg.",
+          "Oxigenación tisular: mantener saturación de O2 ≥ 95% en sangre arterial."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial invasiva cada 15 minutos.",
+            "rationale": "Detectar rápidamente caídas que comprometan la perfusión coronaria."
+          },
+          {
+            "action": "Administrar fluidos IV según orden médica para optimizar el gasto cardíaco.",
+            "rationale": "Incrementar el volumen intravascular mejora el retorno venoso y el gasto."
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (tiempo de llenado capilar, coloración).",
+            "rationale": "Indicadores tempranos de disminución del flujo sanguíneo sistémico."
+          },
+          {
+            "action": "Colocar al paciente en posición semisentado (30‑45°) para facilitar la respiración.",
+            "rationale": "Reduce la demanda cardíaca y mejora la oxigenación."
+          },
+          {
+            "action": "Registrar y reportar cualquier arritmia detectada en monitor cardíaco.",
+            "rationale": "Las arritmias pueden empeorar la perfusión miocárdica."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiperkalemia",
+          "acidosis láctica",
+          "insuficiencia renal",
+          "uso de bicarbonato"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico mantenido: K+ 3.5‑5.0 mEq/L.",
+          "pH arterial estabilizado entre 7.35‑7.45."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos y ABG cada 4 horas.",
+            "rationale": "Detectar rápidamente alteraciones que requieran intervención."
+          },
+          {
+            "action": "Administrar bicarbonato de sodio IV solo bajo indicación médica.",
+            "rationale": "Corrige la acidosis pero puede elevar Na+ y afectar el balance ácido‑base."
+          },
+          {
+            "action": "Controlar ingesta y salida de líquidos; ajustar según balance de Na+ y K+.",
+            "rationale": "Mantener la homeostasis de electrolitos y volumen."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y su restricción si K+ está elevado.",
+            "rationale": "Ayuda a prevenir hiperkalemia persistente."
+          },
+          {
+            "action": "Vigilar ritmo cardíaco mediante monitor continuo.",
+            "rationale": "Las alteraciones de K+ pueden provocar arritmias."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Lactic acidosis",
+    "aliases": [
+      "lactic acidosis",
+      "lactate",
+      "metabolic acidosis",
+      "acidosis"
+    ],
+    "summary": "Accumulation of lactate in the blood that lowers pH <7.35, typically due to tissue hypoxia or excessive anaerobic metabolism.",
+    "key_points": [
+      "pH < 7.35 with increased serum lactate > 2 mmol/L.",
+      "Common causes: shock, sepsis, liver failure, intense exercise, metformin.",
+      "May cause hyperkalemia by shifting K+ extracellularly.",
+      "Treatment focuses on correcting the underlying cause and restoring volume.",
+      "Monitoring ABG, lactate, electrolytes, and tissue perfusion is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hypoxia or metabolic dysfunction increases anaerobic glycolysis.",
+        "Pyruvate is converted to lactate via lactate dehydrogenase.",
+        "Lactate accumulation exceeds hepatic and renal clearance capacity.",
+        "Excess H+ lowers pH and shifts K+ outside the cell."
+      ],
+      "risk_factors": [
+        "Hypovolemic or cardiogenic shock.",
+        "Severe sepsis or septic shock.",
+        "Liver or kidney failure.",
+        "Metformin use in renal insufficiency.",
+        "Prolonged vigorous exercise."
+      ],
+      "signs_symptoms": [
+        "Hypotension, tachycardia, and cold skin.",
+        "Rapid breathing (Kussmaul) as respiratory compensation.",
+        "Nausea, vomiting, and confusion.",
+        "Abdominal pain and burning sensation."
+      ],
+      "diagnostics": [
+        "ABG: pH < 7.35, HCO3‑ < 22 mEq/L, low PaCO2 (respiratory compensation).",
+        "Serum lactate > 2 mmol/L (normal 0.5‑2.2).",
+        "Electrolytes: possible hyperkalemia > 5.0 mEq/L.",
+        "Liver and kidney function to assess lactate clearance."
+      ],
+      "treatment": [
+        "Identify and treat the underlying cause (e.g., volume resuscitation, antibiotics).",
+        "Sodium bicarbonate (NaHCO3) IV if pH < 7.1 and hemodynamic compromise.",
+        "Crystalloid fluids (0.9% saline or Ringer lactate) to improve perfusion.",
+        "IV insulin if associated ketoacidosis.",
+        "Correct electrolytes (e.g., hyperkalemia) per protocols."
+      ],
+      "complications": [
+        "Hyperkalemia and cardiac arrhythmias.",
+        "Acute kidney injury.",
+        "Irreversible shock.",
+        "Brain injury from hypoperfusion."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 min; blood pressure, heart rate, and O2 saturation.",
+        "Check ABG and lactate every 2‑4 h until stabilization.",
+        "Assess hydration status and peripheral perfusion (capillary refill time).",
+        "Record intake and output; maintain fluid balance.",
+        "Monitor potassium and other electrolytes; report deviations."
+      ],
+      "patient_teaching": [
+        "Explain the importance of reporting symptoms of dizziness, palpitations, or weakness.",
+        "Instruct on the need to maintain adequate hydration.",
+        "In patients on metformin, reinforce monitoring of renal function and glucose control.",
+        "Teach warning signs that require immediate attention (chest pain, confusion)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "shock",
+          "sepsis",
+          "hypotension",
+          "hypoxia",
+          "liver failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate cardiac tissue perfusion: maintain MAP > 65 mmHg.",
+          "Tissue oxygenation: maintain O2 saturation ≥ 95% in arterial blood."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor invasive blood pressure every 15 minutes.",
+            "rationale": "Detect rapid drops that compromise coronary perfusion."
+          },
+          {
+            "action": "Administer IV fluids per physician order to optimize cardiac output.",
+            "rationale": "Increasing intravascular volume improves venous return and output."
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill time, color).",
+            "rationale": "Early indicators of systemic blood flow reduction."
+          },
+          {
+            "action": "Place patient in semi‑upright position (30‑45°) to facilitate breathing.",
+            "rationale": "Reduces cardiac demand and improves oxygenation."
+          },
+          {
+            "action": "Record and report any arrhythmia detected on cardiac monitor.",
+            "rationale": "Arrhythmias can worsen myocardial perfusion."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyperkalemia",
+          "lactic acidosis",
+          "renal failure",
+          "bicarbonate use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance maintained: K+ 3.5‑5.0 mEq/L.",
+          "Arterial pH stabilized between 7.35‑7.45."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel and ABG every 4 hours.",
+            "rationale": "Rapidly detect changes requiring intervention."
+          },
+          {
+            "action": "Administer IV sodium bicarbonate only under medical indication.",
+            "rationale": "Corrects acidosis but may raise Na+ and affect acid‑base balance."
+          },
+          {
+            "action": "Monitor intake and output; adjust based on Na+ and K+ balance.",
+            "rationale": "Maintain electrolyte and volume homeostasis."
+          },
+          {
+            "action": "Educate patient about potassium‑rich foods and restriction if K+ is elevated.",
+            "rationale": "Helps prevent persistent hyperkalemia."
+          },
+          {
+            "action": "Monitor cardiac rhythm with continuous telemetry.",
+            "rationale": "K+ changes can cause arrhythmias."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "metabolic-acidosis",
+    "sepsis",
+    "hypoxia",
+    "shock",
+    "hyperkalemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cancer--Living with Cancer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cancerlivingwithcancer.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Acid-Base Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-2-acid-base-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acid-Base Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-4-acid-base-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-16",
+  "factcheck": {
+    "checked": "2026-10-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 37,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "However, extended or severe acidosis causes potassium ions to shift out of cells to buffer the net influx of positive hydrogen ions, resulting in systemic hyperkalemia (Mount, 2024).",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "However, extended or severe acidosis causes potassium ions to shift out of cells to buffer the net influx of positive hydrogen ions, resulting in systemic hyperkalemia (Mount, 2024).",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Respiratory alkalosis may also occur as compensation for an underlying process, such as metabolic acidosis .",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The main nursing interventions for patients with acid-base imbalances include closely monitoring respiratory and neurological status for deviations from baseline that would indicate worsening of the imbalance monitoring and recording accurate intake and output monitoring and treating the specific acid-base imbalance monitoring vital signs",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

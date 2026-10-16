@@ -1,0 +1,232 @@
+{
+  "id": "liver-function",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Pruebas de función hepática (PFH)",
+    "aliases": [
+      "pruebas hepáticas",
+      "lft",
+      "función hepática",
+      "enzimas hepáticas",
+      "test hepático"
+    ],
+    "summary": "Conjunto de análisis sanguíneos que evalúan la integridad y capacidad funcional del hígado.",
+    "key_points": [
+      "AST y ALT reflejan daño hepatocelular agudo o crónico.",
+      "Bilirrubina total y directa indican alteraciones en la excreción biliar y posible ictericia.",
+      "Albúmina y tiempo de protrombina (INR) evalúan la síntesis proteica y la coagulación hepática.",
+      "Elevaciones de ALP y GGT sugieren enfermedad de vías biliares o colestasis.",
+      "Los valores pueden variar según el laboratorio; se requiere ayuno de 8‑12 h para bilirrubina.",
+      "El enfermero debe vigilar signos de ictericia, edema, sangrado y encefalopatía."
+    ],
+    "sections": {
+      "normal_values": [
+        "AST (SGOT): 0‑40 U/L",
+        "ALT (SGPT): 0‑40 U/L",
+        "Fosfatasa alcalina (ALP): 30‑120 U/L",
+        "GGT: 0‑55 U/L",
+        "Bilirrubina total: 0.3‑1.2 mg/dL",
+        "Bilirrubina directa: <0.3 mg/dL",
+        "Albúmina: 3.5‑5.0 g/dL",
+        "INR: 0.8‑1.2"
+      ],
+      "high_values": [
+        "Hepatitis viral o alcohólica – AST/ALT ↑, ictericia, náuseas.",
+        "Cirrosis – ALP y GGT ↑, albúmina ↓, INR ↑, ascitis.",
+        "Obstrucción biliar – Bilirrubina directa ↑, ALP y GGT ↑, prurito.",
+        "Hepatotoxicidad por fármacos – elevación súbita de AST/ALT."
+      ],
+      "low_values": [
+        "Insuficiencia hepática aguda – albúmina ↓, INR ↑, hipoglucemia.",
+        "Desnutrición crónica – albúmina ↓, PT prolongado.",
+        "Síndrome de Gilbert – bilirrubina total levemente ↑ sin daño hepático."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa, tubo rojo (sin anticoagulante).",
+        "Ayuno de 8‑12 h recomendado para bilirrubina y enzimas.",
+        "Procesar la muestra dentro de 2 h; evitar hemólisis.",
+        "Etiquetar claramente con nombre, hora de extracción y ayuno."
+      ],
+      "nursing_care": [
+        "Monitorear ictericia, edema, cambios en el estado mental.",
+        "Revisar y registrar medicamentos hepatotóxicos; notificar al médico.",
+        "Educar al paciente sobre abstinencia de alcohol y dieta baja en grasa.",
+        "Reportar valores críticos de INR >1.5 o ALT >5× límite normal.",
+        "Preparar al paciente para ayuno y explicar la importancia de la muestra."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "cirrosis",
+          "alcoholismo crónico",
+          "hepatitis viral",
+          "uso de diuréticos",
+          "malnutrición"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na+ 135‑145 mEq/L en 48 h",
+          "Función hepática: AST/ALT dentro de rango normal en 7 días"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos y pruebas de función hepática según orden médica.",
+            "rationale": "Permite detectar desequilibrios tempranos y guiar intervenciones."
+          },
+          {
+            "action": "Evaluar signos de edema, ascitis y alteraciones neurológicas cada turno.",
+            "rationale": "Los cambios clínicos pueden indicar desequilibrio de líquidos y electrolitos."
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción, vigilando velocidad y tipo de solución.",
+            "rationale": "Corrige déficit de volumen y previene sobrecarga en pacientes con disfunción hepática."
+          },
+          {
+            "action": "Educar al paciente sobre restricción de alcohol y consumo de alimentos ricos en potasio y sodio según indicaciones.",
+            "rationale": "Reduce factores de riesgo que empeoran el desequilibrio electrolítico."
+          },
+          {
+            "action": "Revisar y documentar todos los medicamentos, especialmente diuréticos y hepatotóxicos.",
+            "rationale": "Identifica fármacos que pueden contribuir al desequilibrio y permite ajustes."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Liver function tests (LFT)",
+    "aliases": [
+      "liver tests",
+      "lft",
+      "liver function",
+      "liver enzymes",
+      "liver test"
+    ],
+    "summary": "A set of blood analyses that assess the integrity and functional capacity of the liver.",
+    "key_points": [
+      "AST and ALT reflect acute or chronic hepatocellular damage.",
+      "Total and direct bilirubin indicate alterations in bile excretion and possible jaundice.",
+      "Albumin and prothrombin time (INR) evaluate protein synthesis and hepatic coagulation.",
+      "Elevations of ALP and GGT suggest biliary disease or cholestasis.",
+      "Values may vary by laboratory; an 8‑12 h fast is required for bilirubin.",
+      "The nurse should monitor for signs of jaundice, edema, bleeding, and encephalopathy."
+    ],
+    "sections": {
+      "normal_values": [
+        "AST (SGOT): 0‑40 U/L",
+        "ALT (SGPT): 0‑40 U/L",
+        "Alkaline phosphatase (ALP): 30‑120 U/L",
+        "GGT: 0‑55 U/L",
+        "Total bilirubin: 0.3‑1.2 mg/dL",
+        "Direct bilirubin: <0.3 mg/dL",
+        "Albumin: 3.5‑5.0 g/dL",
+        "INR: 0.8‑1.2"
+      ],
+      "high_values": [
+        "Viral or alcoholic hepatitis – AST/ALT ↑, jaundice, nausea.",
+        "Cirrhosis – ALP and GGT ↑, albumin ↓, INR ↑, ascites.",
+        "Biliary obstruction – Direct bilirubin ↑, ALP and GGT ↑, pruritus.",
+        "Drug hepatotoxicity – sudden rise in AST/ALT."
+      ],
+      "low_values": [
+        "Acute liver failure – albumin ↓, INR ↑, hypoglycemia.",
+        "Chronic malnutrition – albumin ↓, PT prolonged.",
+        "Gilbert syndrome – mildly ↑ total bilirubin without hepatic injury."
+      ],
+      "specimen": [
+        "Venous blood sample, red-top tube (no anticoagulant).",
+        "8‑12 h fast recommended for bilirubin and enzymes.",
+        "Process sample within 2 h; avoid hemolysis.",
+        "Label clearly with name, collection time, and fasting status."
+      ],
+      "nursing_care": [
+        "Monitor jaundice, edema, changes in mental status.",
+        "Review and document hepatotoxic medications; notify physician.",
+        "Educate patient on alcohol abstinence and low‑fat diet.",
+        "Report critical values of INR >1.5 or ALT >5× upper limit of normal.",
+        "Prepare patient for fasting and explain the importance of the sample."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "cirrhosis",
+          "chronic alcoholism",
+          "viral hepatitis",
+          "diuretic use",
+          "malnutrition"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+ 135‑145 mEq/L within 48 h",
+          "Liver function: AST/ALT within normal range within 7 days"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes and liver function tests as ordered.",
+            "rationale": "Allows early detection of imbalances and guides interventions."
+          },
+          {
+            "action": "Assess for edema, ascites, and neurological changes each shift.",
+            "rationale": "Clinical changes may indicate fluid and electrolyte imbalance."
+          },
+          {
+            "action": "Administer intravenous fluids per prescription, monitoring rate and type of solution.",
+            "rationale": "Corrects volume deficit and prevents overload in patients with hepatic dysfunction."
+          },
+          {
+            "action": "Educate patient on alcohol restriction and consumption of potassium and sodium‑rich foods as directed.",
+            "rationale": "Reduces risk factors that worsen electrolyte imbalance."
+          },
+          {
+            "action": "Review and document all medications, especially diuretics and hepatotoxins.",
+            "rationale": "Identifies drugs that may contribute to imbalance and allows adjustments."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hepatitis",
+    "cirrhosis",
+    "cholestasis",
+    "hepatic-encephalopathy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Liver Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/liverdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Sensory Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/29-3-factors-affecting-sensory-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-16"
+}

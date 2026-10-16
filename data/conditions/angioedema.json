@@ -1,0 +1,550 @@
+{
+  "id": "angioedema",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Angioedema",
+    "aliases": [
+      "angioedema",
+      "edema",
+      "hinchazón",
+      "urticaria",
+      "cara",
+      "cuello",
+      "labios",
+      "lengua"
+    ],
+    "summary": "Edema súbito de la piel profunda y de mucosas, frecuentemente en cara, labios, lengua y vías respiratorias, a menudo asociado a urticaria.",
+    "key_points": [
+      "Edema profundo de piel y mucosas que puede comprometer la vía aérea",
+      "Puede acompañarse de urticaria pruriginosa",
+      "Desencadenantes comunes: AINES, inhibidores de ECA, alimentos, infecciones",
+      "Emergencia si hay dificultad respiratoria o compromiso de la vía aérea",
+      "Tratamiento: antihistamínicos, corticoides y epinefrina si hay compromiso",
+      "Monitoreo de signos vitales y saturación de oxígeno es esencial"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Liberación de histamina y bradiquinina por reacción alérgica",
+        "Aumento de la permeabilidad capilar en dermis profunda y submucosa",
+        "Extravasación de líquido al tejido intersticial produciendo edema"
+      ],
+      "risk_factors": [
+        "Uso de AINES o inhibidores de la ECA (ej. lisinopril)",
+        "Alimentos alérgenos (mariscos, frutos secos)",
+        "Infecciones virales o bacterianas",
+        "Antecedentes de urticaria o alergias",
+        "Estrés emocional o físico"
+      ],
+      "signs_symptoms": [
+        "Edema no pruriginoso de labios, párpados, lengua o cara",
+        "Urticaria pruriginosa puede coexistir",
+        "Sensación de ardor o presión en zona afectada",
+        "Dificultad para tragar o respirar",
+        "Silbidos, cianosis si hay obstrucción de vía aérea"
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico centrado en la vía aérea",
+        "Evaluación de saturación de O₂ y frecuencia respiratoria",
+        "Pruebas de alergia (IgE) si se sospecha desencadenante específico",
+        "Niveles de C1‑esterasa si se considera angioedema hereditario",
+        "Hemograma completo para descartar infección"
+      ],
+      "treatment": [
+        "Antihistamínicos H1 de segunda generación (cetirizina) o de primera (difenhidramina)",
+        "Corticoides sistémicos (prednisona) para reducir inflamación",
+        "Epinefrina IM 0.3 mg si hay compromiso respiratorio",
+        "Suspender agente causal (p. ej., lisinopril)",
+        "Oxígeno suplementario y soporte de vía aérea si es necesario"
+      ],
+      "complications": [
+        "Obstrucción de vía aérea y asfixia",
+        "Shock anafiláctico",
+        "Edema persistente >72 h con posible daño cutáneo",
+        "Hipotensión secundaria a vasodilatación"
+      ],
+      "nursing_care": [
+        "Evaluar y documentar tamaño del edema cada 15 min inicialmente",
+        "Monitorear saturación de O₂ y frecuencia respiratoria",
+        "Mantener posición semi‑Fowler para facilitar respiración",
+        "Administrar medicamentos según orden y observar respuesta",
+        "Preparar equipo de reanimación y epinefrina en caso de deterioro"
+      ],
+      "patient_teaching": [
+        "Identificar y evitar desencadenantes conocidos",
+        "Llevar autoinyector de epinefrina si lo prescribe el médico",
+        "Buscar atención inmediata si aparece edema facial o dificultad para respirar",
+        "Tomar antihistamínicos según indicación y no interrumpir sin consultar",
+        "Informar a todos los profesionales de salud sobre su alergia"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "extravasación de líquido al tejido edematizado",
+          "uso de diuréticos o inhibidores de ECA",
+          "pérdida de líquidos por secreciones aumentadas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación: nivel adecuado (peso estable, piel turgor normal)",
+          "Equilibrio de líquidos: ingesta ≥1500 mL/día mantenida"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y eliminación de líquidos cada turno",
+            "rationale": "Detectar desequilibrio hídrico temprano"
+          },
+          {
+            "action": "Evaluar turgor cutáneo y mucosas frecuentemente",
+            "rationale": "Identificar signos de hipovolemia"
+          },
+          {
+            "action": "Fomentar consumo de líquidos claros si no hay contraindicación",
+            "rationale": "Mantener volumen intravascular"
+          },
+          {
+            "action": "Registrar cambios en el tamaño del edema",
+            "rationale": "Observar tendencia de pérdida o acumulación de líquido"
+          },
+          {
+            "action": "Notificar al médico si hay signos de hipotensión o taquicardia",
+            "rationale": "Prevenir shock hipovolémico"
+          },
+          {
+            "action": "Administrar solución salina según orden si se indica reposición",
+            "rationale": "Restaurar volumen circulante"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "edema de orofaringe y lengua",
+          "dificultad para deglutir",
+          "sedación por antihistamínicos de primera generación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: sin signos de aspiración durante la hospitalización",
+          "Función respiratoria: saturación de O₂ ≥95 % en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener la cabeza del paciente en posición neutra o semi‑Fowler",
+            "rationale": "Facilita el paso del aire y reduce riesgo de aspiración"
+          },
+          {
+            "action": "Evaluar capacidad de deglución antes de ofrecer alimentos o líquidos",
+            "rationale": "Prevenir ingreso de contenido a vías respiratorias"
+          },
+          {
+            "action": "Aspirar secreciones orofaríngeas según necesidad",
+            "rationale": "Eliminar material que pueda ser aspirado"
+          },
+          {
+            "action": "Evitar alimentos sólidos y líquidos calientes hasta que el edema disminuya",
+            "rationale": "Reducir riesgo de obstrucción y aspiración"
+          },
+          {
+            "action": "Educar al paciente sobre postura adecuada al comer y beber despacio",
+            "rationale": "Promover técnicas seguras de ingesta"
+          },
+          {
+            "action": "Observar tos, cambios en auscultación pulmonar y aumento de sibilancias",
+            "rationale": "Detectar aspiración temprana"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Angioedema",
+    "aliases": [
+      "angioedema",
+      "edema",
+      "hinchazón",
+      "urticaria",
+      "cara",
+      "cuello",
+      "labios",
+      "lengua"
+    ],
+    "summary": "Sudden swelling of deep skin and mucous membranes, often affecting the face, lips, tongue, and airways, frequently associated with hives.",
+    "key_points": [
+      "Deep skin and mucous membrane swelling that can compromise the airway",
+      "May be accompanied by itchy hives",
+      "Common triggers: NSAIDs, ACE inhibitors, foods, infections",
+      "Emergency if breathing difficulty or airway compromise",
+      "Treatment: antihistamines, corticosteroids, and epinephrine if airway involvement",
+      "Monitoring vital signs and oxygen saturation is essential"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Release of histamine and bradykinin from an allergic reaction",
+        "Increased capillary permeability in deep dermis and submucosa",
+        "Fluid extravasation into interstitial tissue producing edema"
+      ],
+      "risk_factors": [
+        "Use of NSAIDs or ACE inhibitors (e.g., lisinopril)",
+        "Allergenic foods (shellfish, nuts)",
+        "Viral or bacterial infections",
+        "History of hives or allergies",
+        "Emotional or physical stress"
+      ],
+      "signs_symptoms": [
+        "Non‑itchy swelling of lips, eyelids, tongue, or face",
+        "Itchy hives may coexist",
+        "Burning or pressure sensation in affected area",
+        "Difficulty swallowing or breathing",
+        "Wheezing, cyanosis if airway obstruction"
+      ],
+      "diagnostics": [
+        "Medical history and focused airway exam",
+        "O₂ saturation and respiratory rate assessment",
+        "Allergy testing (IgE) if specific trigger suspected",
+        "C1‑esterase levels if hereditary angioedema considered",
+        "Complete blood count to rule out infection"
+      ],
+      "treatment": [
+        "Second‑generation H1 antihistamines (cetirizine) or first‑generation (diphenhydramine)",
+        "Systemic corticosteroids (prednisone) to reduce inflammation",
+        "Epinephrine IM 0.3 mg if respiratory compromise",
+        "Discontinue offending agent (e.g., lisinopril)",
+        "Supplemental oxygen and airway support if needed"
+      ],
+      "complications": [
+        "Airway obstruction and asphyxiation",
+        "Anaphylactic shock",
+        "Persistent edema >72 h with possible skin damage",
+        "Hypotension secondary to vasodilation"
+      ],
+      "nursing_care": [
+        "Assess and document edema size every 15 min initially",
+        "Monitor O₂ saturation and respiratory rate",
+        "Maintain semi‑Fowler position to facilitate breathing",
+        "Administer medications per order and observe response",
+        "Prepare resuscitation equipment and epinephrine in case of deterioration"
+      ],
+      "patient_teaching": [
+        "Identify and avoid known triggers",
+        "Carry an epinephrine auto‑injector if prescribed by the physician",
+        "Seek immediate care if facial swelling or breathing difficulty occurs",
+        "Take antihistamines as directed and do not discontinue without consulting",
+        "Inform all healthcare professionals about your allergy"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "fluid extravasation into edematous tissue",
+          "use of diuretics or ACE inhibitors",
+          "fluid loss from increased secretions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration: adequate level (stable weight, normal skin turgor)",
+          "Fluid balance: intake ≥1500 mL/day maintained"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output each shift",
+            "rationale": "Detect early fluid imbalance"
+          },
+          {
+            "action": "Assess skin and mucous membrane turgor frequently",
+            "rationale": "Identify signs of hypovolemia"
+          },
+          {
+            "action": "Encourage clear fluid intake if no contraindication",
+            "rationale": "Maintain intravascular volume"
+          },
+          {
+            "action": "Record changes in edema size",
+            "rationale": "Observe trend of fluid loss or accumulation"
+          },
+          {
+            "action": "Notify physician if signs of hypotension or tachycardia",
+            "rationale": "Prevent hypovolemic shock"
+          },
+          {
+            "action": "Administer saline solution per order if replacement indicated",
+            "rationale": "Restore circulating volume"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "oropharyngeal and tongue edema",
+          "difficulty swallowing",
+          "sedation from first‑generation antihistamines"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: no signs of aspiration during hospitalization",
+          "Respiratory function: O₂ saturation ≥95 % at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain patient head in neutral or semi‑Fowler position",
+            "rationale": "Facilitates airflow and reduces aspiration risk"
+          },
+          {
+            "action": "Assess swallowing ability before offering food or liquids",
+            "rationale": "Prevent entry of contents into airways"
+          },
+          {
+            "action": "Aspirate oropharyngeal secretions as needed",
+            "rationale": "Remove material that could be aspirated"
+          },
+          {
+            "action": "Avoid solid foods and hot liquids until edema subsides",
+            "rationale": "Reduce obstruction and aspiration risk"
+          },
+          {
+            "action": "Educate patient on proper posture when eating and drinking slowly",
+            "rationale": "Promote safe ingestion techniques"
+          },
+          {
+            "action": "Observe cough, changes in lung auscultation, and increased wheezing",
+            "rationale": "Detect early aspiration"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "urticaria",
+    "angioedema-hereditary",
+    "anaphylaxis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hives",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hives.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Urticaria",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hives.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Urticaria and Angioneurotic Edema",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-4-urticaria-and-angioneurotic-edema",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Drugs Affecting the Renin-Angiotensin-Aldosterone System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-2-drugs-affecting-the-renin-angiotensin-aldosterone-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-16",
+  "factcheck": {
+    "checked": "2026-10-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 20,
+      "not_found": 23,
+      "contradicted": 1,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "This disorder involves swelling of the deeper skin layers and most commonly occurs in the face (eyelids, lips, tongue, cheeks), hands, feet, genitalia or throat.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "In rare cases, hives can cause a dangerous swelling in your airways, making it hard to breathe - which is a medical emergency.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Hives are red and sometimes itchy bumps on your skin.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "This reaction is usually the result of exposure to triggers like food, medications, insect stings, physical stimuli, latex , blood transfusions, bacterial or viral infections, pet dander, plants, and pollen.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "In rare cases, hives can cause a dangerous swelling in your airways, making it hard to breathe - which is a medical emergency."
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Management of angioedema may include the use of epinephrine, antihistamines, or corticosteroids.",
+        "source": 2
+      },
+      "key_points.5": {
+        "status": "supported",
+        "quote": "The nursing assessment for urticaria should include vital signs as well as a review of the relevant body systems to identify potential causes and determine the case’s severity.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Angioedema is either histamine-mediated or bradykinin -mediated.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Vascular permeability is increased and results in edema.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Table 19.4 is a drug prototype table for ACE inhibitors featuring lisinopril.",
+        "source": 3
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "This reaction is usually the result of exposure to triggers like food, medications, insect stings, physical stimuli, latex , blood transfusions, bacterial or viral infections, pet dander, plants, and pollen.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "People who have other allergies are more likely to get hives than other people.",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Nonimmune-mediated reactions may be caused by medications and by physical or emotional stimuli that activate mast cells (Benedetti, 2021).",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Hives are red and sometimes itchy bumps on your skin.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The patient should also be able to demonstrate how to properly administer their medications and be able to describe signs and symptoms like anaphylaxis, angioedema, difficulty swallowing, wheezing, difficulty breathing, peripheral tingling, and urticaria that is not resolving.",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "contradicted",
+        "quote": "Low levels of C4 proteins may indicate hereditary angioedema or acquired C1-inhibitor deficiency (Frank, 2024).",
+        "source": 2
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Corticosteroids inhibit histamine release by stabilizing mast cell membranes and reduce inflammatory effects of histamine.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Report side effects such as cough, angioedema, or anaphylactic reactions to their health care provider.",
+        "source": 3
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Interventions may be aimed at improving symptoms, administering medications, patient education about avoidance therapy, and promoting home-based care.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Medical therapies include avoiding the use of NSAIDs, limiting the use of items that can further aggravate the reaction, and eliminating the known or suspected allergen that caused the reaction.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

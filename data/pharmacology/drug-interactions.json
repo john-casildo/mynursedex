@@ -1,0 +1,376 @@
+{
+  "id": "drug-interactions",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Ácido acetilsalicílico (AAS)",
+    "aliases": [
+      "aspirina",
+      "acetilsalicilico",
+      "aasa",
+      "antiagregante",
+      "analgesico"
+    ],
+    "summary": "El AAS es un antiinflamatorio no esteroideo que inhibe de forma irreversible la agregación plaquetaria y alivia el dolor leve.",
+    "key_points": [
+      "Inhibe irreversible la COX‑1 → disminuye la síntesis de tromboxano A2",
+      "Usado en infarto agudo de miocardio y angina inestable",
+      "Aumenta el riesgo de sangrado, especialmente con anticoagulantes",
+      "Interacciones con alcohol, tabaco y otros AINEs aumentan toxicidad gástrica"
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea irreversiblemente la enzima COX‑1 en plaquetas",
+        "Reduce la producción de tromboxano A2, inhibiendo la agregación plaquetaria",
+        "Disminuye prostaglandinas, aliviando dolor e inflamación"
+      ],
+      "indications": [
+        "Prevención secundaria de infarto agudo de miocardio",
+        "Angina inestable",
+        "Dolor leve‑moderado",
+        "Fiebre"
+      ],
+      "contraindications": [
+        "Hipertensión no controlada",
+        "Úlcera péptica activa o historial de sangrado gastrointestinal",
+        "Hipersensibilidad al salicilato",
+        "Insuficiencia renal grave"
+      ],
+      "adverse_effects": [
+        "Dispepsia, dolor epigástrico (común)",
+        "Hemorragia gastrointestinal (serio)",
+        "Trombocitopenia (serio)",
+        "Reacciones alérgicas cutáneas"
+      ],
+      "interactions": [
+        "Potencia el efecto de anticoagulantes (warfarina, heparina) → mayor sangrado",
+        "Aumenta toxicidad gástrica con otros AINEs o corticoides",
+        "Alcohol y tabaco incrementan riesgo de úlcera",
+        "Puede reducir la eficacia de algunos antihipertensivos (IECA, diuréticos)"
+      ],
+      "nursing_care": [
+        "Evaluar historial de úlcera, sangrado y uso de anticoagulantes antes de administrar",
+        "Monitorizar signos de sangrado: hemoptisis, melena, sangrado gingival",
+        "Controlar hemoglobina y hematocrito cada 24‑48 h si está en terapia combinada",
+        "Retener dosis si presenta sangrado activo y notificar al médico",
+        "Registrar tiempo de sangrado de pinchazos o procedimientos invasivos"
+      ],
+      "patient_teaching": [
+        "Tomar con alimentos o antiácido para proteger el estómago",
+        "Evitar alcohol y tabaco mientras esté en tratamiento",
+        "Informar al médico antes de iniciar cualquier otro AINE o anticoagulante",
+        "Reportar cualquier sangrado inusual, hematomas o sangre en heces/orina",
+        "No interrumpir el tratamiento sin indicación médica"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de AAS",
+          "terapia anticoagulante concomitante",
+          "úlceras pépticas previas",
+          "edad avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Disminuir el riesgo de sangrado: sin evidencia de hemorragia en 48 h",
+          "Mantener hemoglobina ≥12 g/dL durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos de sangrado (hemoptisis, melena, sangrado de encías) cada 4 h",
+            "rationale": "Detección temprana permite intervención oportuna"
+          },
+          {
+            "action": "Obtener hemograma completo y coagulación al iniciar y cada 24 h",
+            "rationale": "Identifica disminución de plaquetas o anemia"
+          },
+          {
+            "action": "Educar al paciente sobre evitar alcohol, tabaco y AINEs sin prescripción",
+            "rationale": "Reduce factores que potencian el sangrado"
+          },
+          {
+            "action": "Coordinar con el médico la prescripción de protector gástrico (p. ej., omeprazol) si hay riesgo alto",
+            "rationale": "Previene úlceras y sangrado gastrointestinal"
+          },
+          {
+            "action": "Verificar tiempo de sangrado de cualquier procedimiento invasivo antes de administrar AAS",
+            "rationale": "Evita complicaciones hemorrágicas"
+          },
+          {
+            "action": "Notificar al médico inmediatamente si se observa sangrado activo",
+            "rationale": "Permite ajuste de terapia o suspensión del AAS"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acetylsalicylic Acid (ASA)",
+    "aliases": [
+      "aspirin",
+      "acetylsalicylic",
+      "asa",
+      "antiplatelet",
+      "analgesic"
+    ],
+    "summary": "ASA is a nonsteroidal anti‑inflammatory that irreversibly inhibits platelet aggregation and relieves mild pain.",
+    "key_points": [
+      "Irreversibly inhibits COX‑1 → decreases thromboxane A2 synthesis",
+      "Used in acute myocardial infarction and unstable angina",
+      "Increases bleeding risk, especially with anticoagulants",
+      "Interactions with alcohol, tobacco and other NSAIDs increase gastric toxicity"
+    ],
+    "sections": {
+      "mechanism": [
+        "Irreversibly blocks COX‑1 in platelets",
+        "Reduces thromboxane A2 production, inhibiting platelet aggregation",
+        "Decreases prostaglandins, relieving pain and inflammation"
+      ],
+      "indications": [
+        "Secondary prevention of acute myocardial infarction",
+        "Unstable angina",
+        "Mild‑to‑moderate pain",
+        "Fever"
+      ],
+      "contraindications": [
+        "Uncontrolled hypertension",
+        "Active peptic ulcer or history of gastrointestinal bleeding",
+        "Salicylate hypersensitivity",
+        "Severe renal insufficiency"
+      ],
+      "adverse_effects": [
+        "Dyspepsia, epigastric pain (common)",
+        "Gastrointestinal hemorrhage (serious)",
+        "Thrombocytopenia (serious)",
+        "Cutaneous allergic reactions"
+      ],
+      "interactions": [
+        "Potentiates anticoagulants (warfarin, heparin) → increased bleeding",
+        "Increases gastric toxicity with other NSAIDs or corticosteroids",
+        "Alcohol and tobacco raise ulcer risk",
+        "May reduce efficacy of some antihypertensives (ACE inhibitors, diuretics)"
+      ],
+      "nursing_care": [
+        "Assess ulcer, bleeding history and anticoagulant use before administration",
+        "Monitor for bleeding signs: hemoptysis, melena, gingival bleeding",
+        "Check hemoglobin and hematocrit every 24‑48 h if on combination therapy",
+        "Hold dose if active bleeding and notify physician",
+        "Record bleeding time after pinpricks or invasive procedures"
+      ],
+      "patient_teaching": [
+        "Take with food or antacid to protect the stomach",
+        "Avoid alcohol and tobacco while on therapy",
+        "Inform doctor before starting any other NSAID or anticoagulant",
+        "Report any unusual bleeding, bruising, or blood in stool/urine",
+        "Do not discontinue therapy without medical advice"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "ASA use",
+          "concomitant anticoagulant therapy",
+          "prior peptic ulcers",
+          "advanced age"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Reduce bleeding risk: no evidence of hemorrhage within 48 h",
+          "Maintain hemoglobin ≥12 g/dL during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor bleeding signs (hemoptysis, melena, gingival bleeding) every 4 h",
+            "rationale": "Early detection allows timely intervention"
+          },
+          {
+            "action": "Obtain CBC and coagulation studies at initiation and every 24 h",
+            "rationale": "Identifies platelet drop or anemia"
+          },
+          {
+            "action": "Educate patient to avoid alcohol, tobacco and unsupervised NSAIDs",
+            "rationale": "Reduces factors that potentiate bleeding"
+          },
+          {
+            "action": "Coordinate with physician for gastric protector prescription (e.g., omeprazole) if high risk",
+            "rationale": "Prevents ulcers and GI bleeding"
+          },
+          {
+            "action": "Verify bleeding time for any invasive procedure before ASA administration",
+            "rationale": "Avoids hemorrhagic complications"
+          },
+          {
+            "action": "Notify physician immediately if active bleeding is observed",
+            "rationale": "Allows therapy adjustment or ASA discontinuation"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bleeding",
+    "platelet-inhibition",
+    "nsaid",
+    "anticoagulant-therapy"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Epilepsy and Anticonvulsant Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-16",
+  "factcheck": {
+    "checked": "2026-10-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 26,
+      "contradicted": 1,
+      "total": 34
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Contraindications to aspirin are allergy to nonsteroidal anti-inflammatory drugs (NSAIDs), asthma, hemophilia, and other blood clotting disorders.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Four classifications of drugs may be used in emergency situations for AMI and unstable angina: aspirin, oxygen, nitroglycerin, and, occasionally, morphine.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The risk of serious bleeding in the stomach, gastrointestinal tract, brain, and spinal cord is increased with aspirin and other NSAIDs .",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "contradicted",
+        "quote": "Aspirin irreversibly binds to receptors on platelets, which prevents them from sticking to other platelets.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Acute Myocardial Infarction and Unstable Angina Drugs Four classifications of drugs may be used in emergency situations for AMI and unstable angina: aspirin, oxygen, nitroglycerin, and, occasionally, morphine.",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "Indications Mild pain Platelet inhibition in suspected AMI or unstable angina Therapeutic Effects Platelet inhibition Relief of mild pai",
+        "source": 0
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "The risk of serious bleeding in the stomach, gastrointestinal tract, brain, and spinal cord is increased with aspirin and other NSAIDs .",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Indications To treat seizures To treat bipolar disorder Therapeutic Effects Reduces seizure activity Reduces bipolar symptoms of mania Drug Interactions Amitriptyline/nortriptyline Carbamazepine Clonazepam Diazepam Ethosuximide Lamotrigine Phenobarbital Phenytoin Propofol Rufinamide Tolbutamide Warfarin Zidovudine Food Interactions No significant interactions Adverse Effects Headache Somnolence Dizziness Drowsiness Thrombocytopenia Emotional labi",
+        "source": 1
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

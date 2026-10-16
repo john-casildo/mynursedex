@@ -1,0 +1,387 @@
+{
+  "id": "factor-xa-inhibitor",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Fondaparinux",
+    "aliases": [
+      "fondaparinux",
+      "arixtra",
+      "inhibidor factor xa",
+      "anticoagulante",
+      "profilaxis dvt",
+      "tratamiento pe",
+      "fondaparinux sodium"
+    ],
+    "summary": "El fondaparinux es un anticoagulante sintético que inhibe selectivamente el factor Xa, usado para profilaxis y tratamiento de trombosis venosa profunda y embolia pulmonar.",
+    "key_points": [
+      "Profilaxis de DVT después de cirugía ortopédica o abdominal.",
+      "Tratamiento de DVT y EP en combinación con warfarina.",
+      "Contraindicado en sangrado activo y depuración de creatinina <30 mL/min.",
+      "No posee antídoto específico; monitorizar signos de sangrado.",
+      "Riesgo aumentado de hematoma epidural con anestesia neuraxial."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une al antitrombina y bloquea de forma selectiva el factor Xa.",
+        "Impide la conversión de protrombina a trombina.",
+        "Reduce la generación de fibrina y la formación de coágulos."
+      ],
+      "indications": [
+        "Profilaxis de trombosis venosa profunda en cirugía de cadera, rodilla o abdominal.",
+        "Tratamiento de DVT aguda y embolia pulmonar en combinación con warfarina."
+      ],
+      "contraindications": [
+        "Sangrado mayor activo o riesgo alto de hemorragia.",
+        "Hipersensibilidad conocida al fondaparinux.",
+        "Insuficiencia renal grave (depuración de creatinina <30 mL/min).",
+        "Historia de trombocitopenia inducida por heparina."
+      ],
+      "adverse_effects": [
+        "Hematoma o equimosis en el sitio de inyección.",
+        "Trombocitopenia leve.",
+        "Hemorragia mayor (gastrointestinal, intracraneal) (serious).",
+        "Hematoma epidural o espinal (serious)."
+      ],
+      "interactions": [
+        "Aumenta el riesgo de sangrado con otros anticoagulantes o antitrombóticos.",
+        "Potencia el efecto de warfarina y puede elevar el INR.",
+        "Uso concomitante con AINES o antiagregantes plaquetarios incrementa hemorragias.",
+        "Evitar combinación con trombolíticos."
+      ],
+      "nursing_care": [
+        "Evaluar hemograma, plaquetas y función renal antes de iniciar la terapia.",
+        "Monitorear signos vitales, hemoglobina/hematocrito y cualquier sangrado cada 12 h.",
+        "Observar el sitio de inyección para hematoma o eritema.",
+        "Retener la dosis y notificar al médico si ocurre sangrado activo o plaquetas <100 000 mm³.",
+        "Evitar inyecciones intramusculares y usar técnica subcutánea adecuada."
+      ],
+      "patient_teaching": [
+        "Informar al paciente sobre signos de sangrado: hematuria, melena, hematomas extensos.",
+        "No usar AINES sin autorización y evitar procedimientos invasivos sin avisar al profesional.",
+        "Mantener el sitio de inyección limpio y observar cualquier enrojecimiento.",
+        "Reportar cualquier dolor lumbar o debilidad que pueda indicar hematoma espinal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "terapia anticoagulante",
+          "cirugía reciente",
+          "insuficiencia renal",
+          "uso de AINES"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin evidencia de sangrado activo en 72 h.",
+          "Hemoglobina estable dentro de ±1 g/dL del valor basal."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar signos vitales y hemograma completo cada 12 h.",
+            "rationale": "Detectar hemorragia temprana y cambios en la coagulación."
+          },
+          {
+            "action": "Evaluar el sitio de inyección para hematoma o eritema.",
+            "rationale": "Identificar reacciones locales que puedan preceder a sangrado."
+          },
+          {
+            "action": "Verificar función renal (creatinina, depuración) antes de cada dosis.",
+            "rationale": "Ajustar la dosis y prevenir acumulación del fármaco."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si ocurre sangrado activo o plaquetas <100 000 mm³.",
+            "rationale": "Prevenir complicaciones hemorrágicas graves."
+          },
+          {
+            "action": "Educar al paciente sobre evitar AINES y reportar cualquier sangrado.",
+            "rationale": "Reducir riesgo de interacciones y facilitar detección precoz."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fondaparinux",
+    "aliases": [
+      "fondaparinux",
+      "arixtra",
+      "factor xa inhibitor",
+      "anticoagulant",
+      "dvt prophylaxis",
+      "pe treatment",
+      "fondaparinux sodium"
+    ],
+    "summary": "Fondaparinux is a synthetic anticoagulant that selectively inhibits factor Xa, used for prophylaxis and treatment of deep vein thrombosis and pulmonary embolism.",
+    "key_points": [
+      "DVT prophylaxis after orthopedic or abdominal surgery.",
+      "Treatment of DVT and PE in combination with warfarin.",
+      "Contraindicated in active bleeding and creatinine clearance <30 mL/min.",
+      "No specific antidote; monitor for bleeding signs.",
+      "Increased risk of epidural hematoma with neuraxial anesthesia."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds antithrombin and selectively blocks factor Xa.",
+        "Prevents conversion of prothrombin to thrombin.",
+        "Reduces fibrin generation and clot formation."
+      ],
+      "indications": [
+        "Prophylaxis of deep vein thrombosis in hip, knee, or abdominal surgery.",
+        "Acute DVT and pulmonary embolism treatment in combination with warfarin."
+      ],
+      "contraindications": [
+        "Active major bleeding or high hemorrhage risk.",
+        "Known hypersensitivity to fondaparinux.",
+        "Severe renal insufficiency (creatinine clearance <30 mL/min).",
+        "History of heparin-induced thrombocytopenia."
+      ],
+      "adverse_effects": [
+        "Hematoma or ecchymosis at injection site.",
+        "Mild thrombocytopenia.",
+        "Major bleeding (gastrointestinal, intracranial) (serious).",
+        "Epidural or spinal hematoma (serious)."
+      ],
+      "interactions": [
+        "Increases bleeding risk with other anticoagulants or antithrombotics.",
+        "Potentiates warfarin effect and may raise INR.",
+        "Concurrent use with NSAIDs or platelet aggregators increases bleeding.",
+        "Avoid combination with thrombolytics."
+      ],
+      "nursing_care": [
+        "Assess CBC, platelets, and renal function before starting therapy.",
+        "Monitor vital signs, hemoglobin/hematocrit, and any bleeding every 12 h.",
+        "Observe injection site for hematoma or erythema.",
+        "Hold dose and notify provider if active bleeding or platelets <100 000 mm³.",
+        "Avoid intramuscular injections; use proper subcutaneous technique."
+      ],
+      "patient_teaching": [
+        "Inform patient of bleeding signs: hematuria, melena, extensive bruising.",
+        "Do not use NSAIDs without authorization and avoid invasive procedures without notifying provider.",
+        "Keep injection site clean and monitor for redness.",
+        "Report any lower back pain or weakness that may indicate spinal hematoma."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "anticoagulant therapy",
+          "recent surgery",
+          "renal insufficiency",
+          "NSAID use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No evidence of active bleeding within 72 h.",
+          "Hemoglobin stable within ±1 g/dL of baseline."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and complete blood count every 12 h.",
+            "rationale": "Detect early hemorrhage and coagulation changes."
+          },
+          {
+            "action": "Assess injection site for hematoma or erythema.",
+            "rationale": "Identify local reactions that may precede bleeding."
+          },
+          {
+            "action": "Check renal function (creatinine, clearance) before each dose.",
+            "rationale": "Adjust dose and prevent drug accumulation."
+          },
+          {
+            "action": "Hold dose and notify provider if active bleeding or platelets <100 000 mm³.",
+            "rationale": "Prevent serious hemorrhagic complications."
+          },
+          {
+            "action": "Educate patient to avoid NSAIDs and report any bleeding.",
+            "rationale": "Reduce interaction risk and facilitate early detection."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "deep-vein-thrombosis",
+    "pulmonary-embolism",
+    "spinal-hematoma",
+    "anticoagulation-therapy"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: FONDAPARINUX SODIUM label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=49e0d7bc-3f49-849b-c77c-98682d1c0d19",
+      "lang": "en"
+    },
+    {
+      "name": "RxNorm: fondaparinux",
+      "publisher": "National Library of Medicine",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=321208",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Electrolyte Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-3-electrolyte-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-16",
+  "factcheck": {
+    "checked": "2026-10-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 17,
+      "contradicted": 0,
+      "total": 32
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Fondaparinux sodium injection is indicated for the prophylaxis of deep vein thrombosis (DVT), which may lead to pulmonary embolism (PE): in patients undergoing hip fracture surgery, including extended prophylaxis; in patients undergoing hip replacement surgery; in patients undergoing knee replacement surgery; in patients undergoing abdominal surgery who are at risk for thromboembolic complications."
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Treatment of DVT or acute pulmonary embolism (PE) when administered in conjunction with warfarin.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Fondaparinux sodium injection is contraindicated in the following conditions: Severe renal impairment (creatinine clearance [CrCl] <30 mL/min).",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Spinal or epidural hematomas, which may result in long-term or permanent paralysis, can occur with the use of anticoagulants and neuraxial (spinal/epidural) anesthesia or spinal puncture.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "By selectively binding to ATIII, fondaparinux sodium potentiates (about 300 times) the innate neutralization of Factor Xa by ATIII.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Fondaparinux sodium injection is a Factor Xa inhibitor (anticoagulant) indicated for: Prophylaxis of deep vein thrombosis (DVT) in patients undergoing hip fracture surgery (including extended prophylaxis), hip replacement surgery, knee replacement surgery, or abdominal surgery.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Treatment of DVT or acute pulmonary embolism (PE) when administered in conjunction with warfarin.",
+        "source": 0
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "supported",
+        "quote": "History of serious hypersensitivity reaction (e.g., angioedema, anaphylactoid/anaphylactic reactions) to fondaparinux sodium.",
+        "source": 0
+      },
+      "sections.contraindications.2": {
+        "status": "supported",
+        "quote": "Severe renal impairment (creatinine clearance [CrCl] <30 mL/min).",
+        "source": 0
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "However, a higher incidence of hemorrhage was observed in subjects with moderate hepatic impairment than in normal subjects, especially mild hematomas at the blood sampling or injection site.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "c Major bleeding was defined as clinically overt bleeding that was (1) fatal, (2) bleeding at critical site (e.g. intracranial, retroperitoneal, intraocular, pericardial, spinal, or into adrenal gland), (3) associated with re-operation at operative site, or (4) with a bleeding index (BI) ≥2.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "Spinal or epidural hematomas, which may result in long-term or permanent paralysis, can occur ( 5.1 )",
+        "source": 0
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "However, a higher incidence of hemorrhage was observed in subjects with moderate hepatic impairment than in normal subjects, especially mild hematomas at the blood sampling or injection site.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "It must not be administered by intramuscular injection.",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Monitor patients undergoing these procedures for signs and symptoms of neurologic impairment such as midline back pain, sensory and motor deficits (numbness, tingling, or weakness in lower limbs), and bowel or bladder dysfunction.",
+        "source": 0
+      }
+    }
+  }
+}

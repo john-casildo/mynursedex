@@ -1,0 +1,511 @@
+{
+  "id": "renal-impairment",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia renal (IR)",
+    "aliases": [
+      "insuficiencia renal",
+      "disfunción renal",
+      "fallo renal",
+      "nefropatía"
+    ],
+    "summary": "Pérdida parcial o total de la capacidad de los riñones para filtrar y excretar desechos, manteniendo el equilibrio hídrico y electrolítico.",
+    "key_points": [
+      "Disminución del GFR produce acumulación de uremia y alteraciones ácido‑base.",
+      "Diabetes e hipertensión son los factores de riesgo más frecuentes.",
+      "El manejo incluye control de la causa, restricción de Na⁺/K⁺ y terapia de sustitución renal.",
+      "Complicaciones graves: hiperpotasemia, edema pulmonar y pericarditis urémica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño glomerular o tubular reduce la tasa de filtración glomerular (GFR).",
+        "Acumulación de creatinina, BUN y toxinas uremicas en sangre.",
+        "Activación del sistema renina‑angiotensina‑aldosterona → retención de Na⁺ y agua.",
+        "Alteración del equilibrio ácido‑base y electrolitos (K⁺ ↑, PO4³⁻ ↑).",
+        "Disminución de la producción de eritropoyetina → anemia."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus tipo 1 y 2.",
+        "Hipertensión arterial crónica.",
+        "Enfermedades glomerulares (glomerulonefritis, nefropatía por IgA).",
+        "Uso prolongado de AINEs, antibióticos nefrotóxicos o contraste iodado.",
+        "Sepsis, shock hipovolémico y deshidratación."
+      ],
+      "signs_symptoms": [
+        "Oliguria <400 mL/día o anuria.",
+        "Edema periférico y pulmonar.",
+        "Hipertensión o hipotensión según la fase.",
+        "Náuseas, vómitos, pérdida de apetito y fatiga.",
+        "Prurito cutáneo y alteraciones del gusto."
+      ],
+      "diagnostics": [
+        "Creatinina sérica ↑, BUN ↑; relación BUN/creatinina >20.",
+        "eGFR <60 mL/min/1.73 m² (etapa crónica) o caída >50 % (aguda).",
+        "Electrolitos: K⁺ ↑ (hiperpotasemia), PO4³⁻ ↑, Ca²⁺ ↓.",
+        "Análisis de orina: proteinuria, hematuria, cilindros granulosos.",
+        "Ecografía renal: tamaño reducido, pérdida de ecogenicidad."
+      ],
+      "treatment": [
+        "Control de la causa subyacente (ej. control glucémico, antihipertensivos).",
+        "Restricción de sodio (<2 g/día) y potasio según labs.",
+        "Diuréticos de asa (furosemida) para manejo de sobrecarga de volumen.",
+        "Inhibidores de la ECA o ARBs para reducir presión intraglomerular.",
+        "Terapia de sustitución renal: hemodiálisis o diálisis peritoneal.",
+        "Suplementación de calcio, vitamina D y eritropoyetina según necesidad."
+      ],
+      "complications": [
+        "Hiperpotasemia → arritmias cardíacas.",
+        "Edema pulmonar y dificultad respiratoria.",
+        "Pericarditis urémica y sangrado gastrointestinal.",
+        "Anemia por déficit de eritropoyetina.",
+        "Hipertensión resistente y enfermedad cardiovascular."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y saturación O₂ cada 2 h.",
+        "Registrar peso diario y balance hídrico (ingesta‑salida).",
+        "Evaluar edema, auscultar campos pulmonares y observar cambios en nivel de conciencia.",
+        "Revisar resultados de laboratorio (creatinina, electrolitos, gases sanguíneos).",
+        "Administrar diuréticos y antihipertensivos según orden, observar respuesta.",
+        "Preparar al paciente y al equipo para sesiones de diálisis; cuidar el acceso vascular."
+      ],
+      "patient_teaching": [
+        "Seguir dieta baja en sodio y potasio; limitar alimentos procesados.",
+        "Controlar ingesta de proteínas según indicación del médico.",
+        "Tomar la medicación exactamente como se prescribe; no suspender sin avisar.",
+        "Reconocer signos de alerta: edema súbito, dificultad para respirar, palpitaciones, disminución del volumen de orina.",
+        "Cuidar el catéter de diálisis: higiene, inspección diaria y reporte de enrojecimiento o secreción.",
+        "Mantener citas de laboratorio y nefrologo para seguimiento de función renal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "disminución del GFR",
+          "acumulación de toxinas renales",
+          "uso de diuréticos de asa",
+          "posible hiperpotasemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico mantenido: K⁺ 3.5‑5.0 mEq/L y Na⁺ 135‑145 mEq/L.",
+          "Sin signos clínicos de arritmia ni debilidad muscular."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles séricos de K⁺, Na⁺, Ca²⁺ y PO4³⁻ cada 12 h.",
+            "rationale": "Detectar alteraciones tempranas y ajustar tratamiento."
+          },
+          {
+            "action": "Evaluar ECG cada 24 h o ante cambios de ritmo.",
+            "rationale": "La hiperpotasemia puede producir arritmias que requieren intervención inmediata."
+          },
+          {
+            "action": "Administrar diurético de asa (furosemida) según orden y registrar respuesta urinaria.",
+            "rationale": "Facilita la excreción de exceso de potasio y agua."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y su restricción.",
+            "rationale": "Reduce la ingesta exógena que podría empeorar la hiperpotasemia."
+          },
+          {
+            "action": "Revisar y registrar balance hídrico cada turno.",
+            "rationale": "Mantener un equilibrio adecuado previene tanto hipovolemia como sobrecarga."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión mal controlada",
+          "hipovolemia por diarrea o vómitos",
+          "uso de AINEs",
+          "sepsis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial mantenida ≥90 mmHg sistólica y MAP ≥65 mmHg.",
+          "eGFR estable o mejorado en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Controlar presión arterial cada 2 h y notificar si <90 mmHg sistólica.",
+            "rationale": "Hipotensión compromete la perfusión renal."
+          },
+          {
+            "action": "Evaluar signos de hipovolemia (tiempo de llenado capilar, mucosas secas).",
+            "rationale": "Identificar déficit de volumen que pueda reducir el flujo renal."
+          },
+          {
+            "action": "Administrar fluidos intravenosos isotónicos según prescripción y monitorizar respuesta.",
+            "rationale": "Restaurar volumen intravascular y mejorar la perfusión renal."
+          },
+          {
+            "action": "Evitar AINEs y otros fármacos nefrotóxicos; registrar cualquier nuevo medicamento.",
+            "rationale": "Prevenir daño adicional al túbulo renal."
+          },
+          {
+            "action": "Enseñar al paciente la importancia de la hidratación adecuada y la monitorización de la presión arterial en casa.",
+            "rationale": "Promueve autocuidado y detección precoz de descompensación."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Renal failure (RF)",
+    "aliases": [
+      "renal failure",
+      "renal dysfunction",
+      "kidney failure",
+      "nephropathy"
+    ],
+    "summary": "Partial or total loss of the kidneys’ ability to filter and excrete waste while maintaining fluid and electrolyte balance.",
+    "key_points": [
+      "Reduced GFR leads to uremic accumulation and acid-base disturbances.",
+      "Diabetes and hypertension are the most common risk factors.",
+      "Management includes treating the underlying cause, restricting Na⁺/K⁺, and renal replacement therapy.",
+      "Severe complications: hyperkalemia, pulmonary edema, and uremic pericarditis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Glomerular or tubular damage decreases the glomerular filtration rate (GFR).",
+        "Accumulation of creatinine, BUN, and uremic toxins in the blood.",
+        "Activation of the renin‑angiotensin‑aldosterone system → Na⁺ and water retention.",
+        "Altered acid-base balance and electrolytes (K⁺ ↑, PO4³⁻ ↑).",
+        "Reduced erythropoietin production → anemia."
+      ],
+      "risk_factors": [
+        "Type 1 and 2 diabetes mellitus.",
+        "Chronic arterial hypertension.",
+        "Glomerular diseases (glomerulonephritis, IgA nephropathy).",
+        "Prolonged use of NSAIDs, nephrotoxic antibiotics, or iodinated contrast.",
+        "Sepsis, hypovolemic shock, and dehydration."
+      ],
+      "signs_symptoms": [
+        "Oliguria <400 mL/day or anuria.",
+        "Peripheral and pulmonary edema.",
+        "Hypertension or hypotension depending on the phase.",
+        "Nausea, vomiting, loss of appetite, and fatigue.",
+        "Pruritus and taste alterations."
+      ],
+      "diagnostics": [
+        "Serum creatinine ↑, BUN ↑; BUN/creatinine ratio >20.",
+        "eGFR <60 mL/min/1.73 m² (chronic stage) or >50 % drop (acute).",
+        "Electrolytes: K⁺ ↑ (hyperkalemia), PO4³⁻ ↑, Ca²⁺ ↓.",
+        "Urinalysis: proteinuria, hematuria, granular casts.",
+        "Renal ultrasound: reduced size, loss of echogenicity."
+      ],
+      "treatment": [
+        "Treat underlying cause (e.g., glucose control, antihypertensives).",
+        "Restrict sodium (<2 g/day) and potassium per labs.",
+        "Loop diuretics (furosemide) for volume overload.",
+        "ACE inhibitors or ARBs to reduce intraglomerular pressure.",
+        "Renal replacement therapy: hemodialysis or peritoneal dialysis.",
+        "Supplement calcium, vitamin D, and erythropoietin as needed."
+      ],
+      "complications": [
+        "Hyperkalemia → cardiac arrhythmias.",
+        "Pulmonary edema and respiratory distress.",
+        "Uremic pericarditis and gastrointestinal bleeding.",
+        "Anemia from erythropoietin deficiency.",
+        "Resistant hypertension and cardiovascular disease."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate, and O₂ saturation every 2 h.",
+        "Record daily weight and fluid balance (intake‑output).",
+        "Assess edema, auscultate lung fields, and observe changes in level of consciousness.",
+        "Review lab results (creatinine, electrolytes, blood gases).",
+        "Administer diuretics and antihypertensives as ordered, monitor response.",
+        "Prepare patient and team for dialysis sessions; care for vascular access."
+      ],
+      "patient_teaching": [
+        "Follow a low-sodium and low-potassium diet; limit processed foods.",
+        "Control protein intake as directed by the physician.",
+        "Take medications exactly as prescribed; do not stop without notifying the provider.",
+        "Recognize warning signs: sudden edema, shortness of breath, palpitations, decreased urine output.",
+        "Care for the dialysis catheter: hygiene, daily inspection, and report redness or discharge.",
+        "Keep lab appointments and nephrology follow-up to monitor kidney function."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "decreased GFR",
+          "renal toxin accumulation",
+          "use of loop diuretics",
+          "possible hyperkalemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintained electrolyte balance: K⁺ 3.5‑5.0 mEq/L and Na⁺ 135‑145 mEq/L.",
+          "No clinical signs of arrhythmia or muscle weakness."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum K⁺, Na⁺, Ca²⁺, and PO4³⁻ every 12 h.",
+            "rationale": "Detect early changes and adjust treatment."
+          },
+          {
+            "action": "Perform ECG every 24 h or if rhythm changes occur.",
+            "rationale": "Hyperkalemia can cause arrhythmias requiring immediate intervention."
+          },
+          {
+            "action": "Administer loop diuretic (furosemide) as ordered and record urine output.",
+            "rationale": "Facilitates excretion of excess potassium and water."
+          },
+          {
+            "action": "Educate the patient about potassium-rich foods and their restriction.",
+            "rationale": "Reduces exogenous intake that could worsen hyperkalemia."
+          },
+          {
+            "action": "Review and record fluid balance each shift.",
+            "rationale": "Maintaining adequate balance prevents both hypovolemia and overload."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "poorly controlled hypertension",
+          "hypovolemia from diarrhea or vomiting",
+          "NSAID use",
+          "sepsis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood pressure maintained ≥90 mmHg systolic and MAP ≥65 mmHg.",
+          "Stable or improved eGFR within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Check blood pressure every 2 h and notify if <90 mmHg systolic.",
+            "rationale": "Hypotension compromises renal perfusion."
+          },
+          {
+            "action": "Assess signs of hypovolemia (capillary refill time, dry mucous membranes).",
+            "rationale": "Identify volume deficit that may reduce renal flow."
+          },
+          {
+            "action": "Administer isotonic IV fluids per prescription and monitor response.",
+            "rationale": "Restore intravascular volume and improve renal perfusion."
+          },
+          {
+            "action": "Avoid NSAIDs and other nephrotoxic drugs; document any new medication.",
+            "rationale": "Prevent additional tubular damage."
+          },
+          {
+            "action": "Teach the patient the importance of adequate hydration and home blood pressure monitoring.",
+            "rationale": "Promotes self-care and early detection of decompensation."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-kidney-injury",
+    "chronic-kidney-disease",
+    "electrolyte-imbalance",
+    "fluid-overload",
+    "hypertension"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Renal System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Renal Concerns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-6-renal-concerns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-16",
+  "factcheck": {
+    "checked": "2026-10-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 42,
+      "contradicted": 0,
+      "total": 48
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Some of these medications are: aminoglycoside antibiotics (e.g., gentamicin, tobramycin) antivirals (e.g., acyclovir, nirmatrelvir co-packaged with ritonavir [brand name, Paxlovid]) diuretics (e.g., furosemide) NSAIDs (e.g., ibuprofen, naproxen) vancomycin",
+        "source": 1
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Etiology Causes Hypovolemia Burn injury GI fluid loss (e.g., vomiting, diarrhea) Sepsis Severe hypotension from decreased CO Cardiogenic shock GI bleed Massive pulmonary embolism MI Severe hypotension from widespread vasodilation Anaphylactic shock Effects of general anesthesia Septic shock Renal vasoconstriction Nephrotoxic med",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Common manifestations include proteinuria, decreased GFR, hypertension, and edema.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Elevated levels of potassium can result in life-threatening cardiac dysrhythmias.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Additionally, weighing the patient at the same time daily and comparing measurements is important.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Preventive measures include maintaining oral fluid intake at 64–96 fluid ounces per day (or approximately 2–3 liters), avoiding additional calcium intake, and limiting dietary sodium and protein (National Kidney Foundation, 2019).",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}
