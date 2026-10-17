@@ -1,0 +1,518 @@
+{
+  "id": "opioid-dependence",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Dependencia a opioides (DO)",
+    "aliases": [
+      "dependencia opioides",
+      "trastorno uso opioides",
+      "adicción opioides",
+      "opioides",
+      "uso problemático"
+    ],
+    "summary": "Trastorno crónico caracterizado por el consumo compulsivo de opioides a pesar de consecuencias negativas. Produce tolerancia, dependencia física y síndrome de abstinencia al interrumpir su uso.",
+    "key_points": [
+      "Tolerancia y síndrome de abstinencia son marcadores de dependencia.",
+      "El riesgo de sobredosis se incrementa con depresores del SNC.",
+      "El tratamiento incluye agonistas de larga duración y antagonistas.",
+      "El manejo requiere educación sobre naloxona y almacenamiento seguro.",
+      "Complicaciones comunes: infecciones, problemas gastrointestinales y trastornos psiquiátricos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los opioides activan receptores μ, κ y δ en el SNC, inhibiendo la transmisión del dolor.",
+        "Uso repetido genera adaptación neuronal: aumento de receptores y disminución de la respuesta, produciendo tolerancia.",
+        "La dependencia física se establece por cambios en la vía dopaminérgica de recompensa y en el eje hipotálamo‑hipófiso‑suprarrenal.",
+        "Al suspender el fármaco, la falta de estimulación produce síndrome de abstinencia (dolor, diarrea, temblores)."
+      ],
+      "risk_factors": [
+        "Uso prolongado de opioides prescritos para dolor crónico.",
+        "Historia familiar de trastornos por sustancias.",
+        "Consumo concomitante de alcohol o benzodiacepinas.",
+        "Problemas de salud mental (depresión, ansiedad).",
+        "Acceso fácil a opioides sin control adecuado."
+      ],
+      "signs_symptoms": [
+        "Deseo intenso de consumir opioides y pérdida de control.",
+        "Tolerancia: necesidad de dosis mayores para el mismo efecto.",
+        "Síndrome de abstinencia: sudoración, náuseas, diarrea, temblores.",
+        "Somnolencia, confusión y respiración superficial.",
+        "Estreñimiento crónico y pérdida de apetito."
+      ],
+      "diagnostics": [
+        "Historia clínica detallada y escala de gravedad (DSM‑5).",
+        "Pruebas de detección de opioides en orina o sangre.",
+        "Evaluación de signos vitales: frecuencia respiratoria <12 rpm indica depresión respiratoria.",
+        "Laboratorio básico: glucosa, electrolitos (Na+, K+), función hepática y renal."
+      ],
+      "treatment": [
+        "Agonistas de larga duración: metadona, buprenorfina.",
+        "Antagonista de acción parcial: naloxona para reversión de sobredosis.",
+        "Terapia de sustitución con naltrexona (antagonista) en mantenimiento.",
+        "Intervenciones psicosociales: terapia cognitivo‑conductual, grupos de apoyo.",
+        "Manejo de síntomas de abstinencia: antieméticos, laxantes, hidratación."
+      ],
+      "complications": [
+        "Sobredosis con depresión respiratoria y muerte.",
+        "Infecciones transmitidas por vía parenteral (HIV, hepatitis C).",
+        "Problemas gastrointestinales: íleo paralítico, úlceras por estrés.",
+        "Trastornos psiquiátricos: depresión, ansiedad, ideación suicida.",
+        "Desnutrición y desequilibrio electrolítico."
+      ],
+      "nursing_care": [
+        "Evaluar signos de sobredosis: respiración lenta, pupilas miosis, piel pálida.",
+        "Monitorear signos vitales cada 15‑30 min durante la fase aguda.",
+        "Administrar naloxona según protocolo y observar respuesta.",
+        "Registrar escala de abstinencia (COWS) y ajustar terapia de sustitución.",
+        "Mantener vía aérea permeable y posición semisentada para facilitar respiración."
+      ],
+      "patient_teaching": [
+        "Enseñar uso correcto de naloxona y cuándo llamar al 911.",
+        "Instruir sobre almacenamiento seguro de opioides fuera del alcance de niños.",
+        "Explicar la importancia de la adherencia al tratamiento de sustitución.",
+        "Promover hábitos de hidratación y dieta rica en fibra para prevenir estreñimiento.",
+        "Informar sobre recursos de apoyo comunitario y grupos de autoayuda."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "uso crónico de opioides",
+          "potencial sobredosis",
+          "depresión respiratoria",
+          "consumo concomitante de alcohol o benzodiacepinas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad del paciente: no presenta lesiones relacionadas con sobredosis durante la hospitalización.",
+          "Conocimiento: el paciente identifica signos de sobredosis y llama al 911 en caso de emergencia."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar respiración, nivel de conciencia y pupilas cada 15 minutos.",
+            "rationale": "Detectar precozmente depresión respiratoria y prevenir daño cerebral."
+          },
+          {
+            "action": "Mantener naloxona disponible y entrenar al paciente y acompañante en su uso.",
+            "rationale": "Revertir rápidamente una sobredosis y reducir mortalidad."
+          },
+          {
+            "action": "Colocar al paciente en posición semisentada o lateral de seguridad.",
+            "rationale": "Facilita la ventilación y previene aspiración."
+          },
+          {
+            "action": "Eliminar objetos peligrosos del entorno y asegurar supervisión constante.",
+            "rationale": "Reduce el riesgo de caídas y autolesiones durante episodios de alteración mental."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "estreñimiento crónico",
+          "pérdida de apetito",
+          "vómitos por abstinencia",
+          "diarrea durante síndrome de abstinencia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: valores de Na+ y K+ dentro de rangos normales (Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L).",
+          "Hidratación: ingesta de líquidos ≥ 2 L/día y orina clara."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos y glucosa cada 24 h durante la fase aguda.",
+            "rationale": "Detectar alteraciones tempranas y guiar la reposición adecuada."
+          },
+          {
+            "action": "Administrar laxantes suaves y fibra dietética según indicación.",
+            "rationale": "Prevenir estreñimiento y reducir pérdida de electrolitos por esfuerzo."
+          },
+          {
+            "action": "Ofrecer líquidos claros y soluciones de rehidratación oral.",
+            "rationale": "Mantener hidratación y reposición de sodio y potasio."
+          },
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada turno.",
+            "rationale": "Identificar desequilibrios de volumen y ajustar terapia."
+          },
+          {
+            "action": "Educar al paciente sobre dieta rica en potasio (plátanos, papas) y bajo en sodio excesivo.",
+            "rationale": "Promover el autocontrol del equilibrio electrolítico en el hogar."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opioid Dependence (OD)",
+    "aliases": [
+      "opioid dependence",
+      "opioid use disorder",
+      "opioid addiction",
+      "opioids",
+      "problematic use"
+    ],
+    "summary": "A chronic disorder characterized by compulsive opioid use despite negative consequences. It produces tolerance, physical dependence, and withdrawal syndrome when use is stopped.",
+    "key_points": [
+      "Tolerance and withdrawal are markers of dependence.",
+      "Risk of overdose increases with CNS depressants.",
+      "Treatment includes long‑acting agonists and antagonists.",
+      "Management requires education on naloxone and secure storage.",
+      "Common complications: infections, gastrointestinal problems, and psychiatric disorders."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Opioids activate μ, κ, and δ receptors in the CNS, inhibiting pain transmission.",
+        "Repeated use leads to neuronal adaptation: increased receptors and decreased response, producing tolerance.",
+        "Physical dependence is established by changes in the dopaminergic reward pathway and the hypothalamic‑pituitary‑adrenal axis.",
+        "When the drug is discontinued, lack of stimulation produces withdrawal syndrome (pain, diarrhea, tremors)."
+      ],
+      "risk_factors": [
+        "Prolonged use of prescription opioids for chronic pain.",
+        "Family history of substance disorders.",
+        "Concurrent use of alcohol or benzodiazepines.",
+        "Mental health problems (depression, anxiety).",
+        "Easy access to opioids without adequate control."
+      ],
+      "signs_symptoms": [
+        "Intense craving for opioids and loss of control.",
+        "Tolerance: need higher doses for the same effect.",
+        "Withdrawal: sweating, nausea, diarrhea, tremors.",
+        "Somnolence, confusion, and shallow breathing.",
+        "Chronic constipation and loss of appetite."
+      ],
+      "diagnostics": [
+        "Detailed medical history and severity scale (DSM‑5).",
+        "Urine or blood opioid screening tests.",
+        "Vital signs assessment: respiratory rate <12 breaths/min indicates respiratory depression.",
+        "Basic labs: glucose, electrolytes (Na+, K+), liver and kidney function."
+      ],
+      "treatment": [
+        "Long‑acting agonists: methadone, buprenorphine.",
+        "Partial antagonist: naloxone for overdose reversal.",
+        "Substitution therapy with naltrexone (antagonist) in maintenance.",
+        "Psychosocial interventions: cognitive‑behavioral therapy, support groups.",
+        "Management of withdrawal symptoms: antiemetics, laxatives, hydration."
+      ],
+      "complications": [
+        "Overdose with respiratory depression and death.",
+        "Parenteral‑transmitted infections (HIV, hepatitis C).",
+        "Gastrointestinal problems: paralytic ileus, stress ulcers.",
+        "Psychiatric disorders: depression, anxiety, suicidal ideation.",
+        "Malnutrition and electrolyte imbalance."
+      ],
+      "nursing_care": [
+        "Assess overdose signs: slow breathing, miosis, pale skin.",
+        "Monitor vital signs every 15‑30 minutes during the acute phase.",
+        "Administer naloxone per protocol and observe response.",
+        "Record withdrawal scale (COWS) and adjust substitution therapy.",
+        "Maintain airway patency and semi‑upright position to facilitate breathing."
+      ],
+      "patient_teaching": [
+        "Teach correct naloxone use and when to call 911.",
+        "Instruct on secure storage of opioids out of reach of children.",
+        "Explain the importance of adherence to substitution treatment.",
+        "Promote hydration and a high‑fiber diet to prevent constipation.",
+        "Inform about community support resources and self‑help groups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "chronic opioid use",
+          "potential overdose",
+          "respiratory depression",
+          "concurrent alcohol or benzodiazepine use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient safety: no injury related to overdose during hospitalization.",
+          "Knowledge: patient identifies overdose signs and calls 911 in an emergency."
+        ],
+        "interventions": [
+          {
+            "action": "Assess breathing, level of consciousness, and pupils every 15 minutes.",
+            "rationale": "Early detection of respiratory depression and prevention of brain injury."
+          },
+          {
+            "action": "Keep naloxone available and train patient and companion in its use.",
+            "rationale": "Rapid reversal of overdose and reduced mortality."
+          },
+          {
+            "action": "Place patient in semi‑upright or safety lateral position.",
+            "rationale": "Facilitates ventilation and prevents aspiration."
+          },
+          {
+            "action": "Remove hazardous objects from the environment and ensure constant supervision.",
+            "rationale": "Reduces risk of falls and self‑harm during episodes of altered mental status."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "chronic constipation",
+          "loss of appetite",
+          "vomiting from withdrawal",
+          "diarrhea during withdrawal syndrome"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+ and K+ values within normal ranges (Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L).",
+          "Hydration: fluid intake ≥ 2 L/day and clear urine."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor electrolytes and glucose every 24 h during the acute phase.",
+            "rationale": "Early detection of changes and guide appropriate replacement."
+          },
+          {
+            "action": "Administer gentle laxatives and dietary fiber as indicated.",
+            "rationale": "Prevent constipation and reduce electrolyte loss from straining."
+          },
+          {
+            "action": "Offer clear fluids and oral rehydration solutions.",
+            "rationale": "Maintain hydration and replace sodium and potassium."
+          },
+          {
+            "action": "Assess fluid intake and output each shift.",
+            "rationale": "Identify volume imbalances and adjust therapy."
+          },
+          {
+            "action": "Educate patient on a potassium‑rich diet (bananas, potatoes) and low excess sodium.",
+            "rationale": "Promote self‑management of electrolyte balance at home."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-overdose",
+    "withdrawal-syndrome",
+    "substance-use-disorder",
+    "buprenorphine",
+    "naloxone"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Opioids and Opioid Use Disorder (OUD)",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/opioidsandopioidusedisorderoud.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Agonists and Antagonists",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17",
+  "factcheck": {
+    "checked": "2026-10-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 27,
+      "contradicted": 1,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Opioid addiction (also called opioid use disorder ) is a condition characterized by compulsive use of opioids, increased opioid tolerance, and withdrawal symptoms if the client does not continue taking an opioid agonist.",
+        "source": 1
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Tolerance and physical dependence will occur in nearly all clients receiving chronic opioid therapy, but only some will go on to develop an opioid use disorder.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Dependence means feeling withdrawal symptoms when not taking the drug.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Mix opioids with other CNS depressants, including sedatives, alcohol, and muscle relaxants, because their interaction increases the risk for potentially fatal respiratory failure.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Buprenorphine-Naloxone Buprenorphine is a partial mu opioid receptor agonist that is designed to reduce the symptoms of opioid withdrawal and cravings in clients abstaining from opioid use.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Opioids produce many of their desired therapeutic effects and potentially life-threatening adverse effects via the opioid receptors, including the mu, delta, and kappa receptors.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Clients who have developed a significant amount of tolerance to the effects of opioids are at risk for developing withdrawal symptoms when the medication is discontinued.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Clients with a history of certain mental health disorders, such as post-traumatic stress disorder and depression, have been shown to be at risk for various substance use disorders as well (National Institute on Drug Abuse, 2022).",
+        "source": 1
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "This causes an intense euphoria that often leaves the client wanting more opioids to feel that same elation repeatedly.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Tolerance will rapidly develop to the analgesic and euphoric properties of the opioids, which leads to a rapid dose escalation to achieve the same effects that the client had been experiencing at lower doses.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "The presence of opioids in a client is not routinely measured in the blood but rather is detected using urine drug screens.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "contradicted",
+        "quote": "Naloxone is an opioid antagonist and produces opioid withdrawal signs and symptoms in individuals physically dependent on full opioid agonists when administered parenterally",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "It is vital to educate clients about this, since clients who go on to relapse and use opioids at their previous doses may experience more opioid effects than they were intending, leading to accidental overdose and risk for death due to respiratory depression.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "These signs may include: Very small pupils of the eyes Falling asleep or loss of consciousness Slow, shallow breathing Choking or gurgling sounds Vomiting Limp body Pale, blue, or cold skin Faint heartbeat Purple lips and fingernails",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Advise the client and those close to them to call emergency services any time that naloxone is given.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Keep all medication out of the reach of children and pets.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "The nurse should recommend to most clients that they consume more water and fiber in their diet.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

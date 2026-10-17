@@ -1,0 +1,327 @@
+{
+  "id": "spinal-hematoma",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hematoma espinal",
+    "aliases": [
+      "hematoma espinal",
+      "hematoma medular",
+      "sangrado espinal",
+      "compresión medular",
+      "hematoma epidural",
+      "hematoma subdural"
+    ],
+    "summary": "Acumulación de sangre dentro o alrededor de la médula espinal que produce compresión y déficit neurológico.",
+    "key_points": [
+      "Puede ser epidural, subdural o intramedular.",
+      "Presenta dolor lumbar súbito y déficit motor o sensitivo progresivo.",
+      "El diagnóstico definitivo se realiza con TC o RM de columna.",
+      "El tratamiento urgente es descompresión quirúrgica y corrección de coagulopatías."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Trauma o ruptura de vasos sanguíneos en el espacio epidural/subdural/medular.",
+        "Acumulación de sangre genera masa que comprime la médula y las raíces nerviosas.",
+        "La compresión interrumpe la perfusión y la conducción nerviosa, produciendo déficit motor y sensitivo."
+      ],
+      "risk_factors": [
+        "Trauma vertebral (caídas, accidentes de tránsito).",
+        "Uso de anticoagulantes o antiagregantes plaquetarios.",
+        "Coagulopatías congénitas o adquiridas.",
+        "Procedimientos invasivos espinales (punción lumbar, cirugía)."
+      ],
+      "signs_symptoms": [
+        "Dolor lumbar o cervical súbito, a menudo descrito como “corte”.",
+        "Déficit motor (paresia, debilidad) y/o sensitivo (parestesias, pérdida de sensibilidad).",
+        "Alteraciones de la marcha o pérdida de control de esfínteres.",
+        "Signos de compromiso medular: reflejos hiperactivos, signo de Babinski positivo."
+      ],
+      "diagnostics": [
+        "TC de columna con contraste: muestra hiperdensidad que indica sangre aguda.",
+        "RM de columna: mejor definición de la extensión y tipo de hematoma.",
+        "Hemograma: Hb <12 g/dL sugiere sangrado significativo.",
+        "Coagulación: PT, aPTT y INR prolongados indican necesidad de reversión."
+      ],
+      "treatment": [
+        "Reversión de anticoagulación (vitamina K, plasma fresco congelado, protamina).",
+        "Descompresión quirúrgica urgente (laminectomía, evacuación del hematoma).",
+        "Corticoides en casos seleccionados para reducir edema medular.",
+        "Control del dolor con analgésicos (paracetamol, opioides según necesidad)."
+      ],
+      "complications": [
+        "Parálisis irreversible si la descompresión se retrasa.",
+        "Infección del sitio quirúrgico o meningitis.",
+        "Síndrome de cauda equina con disfunción vesical e intestinal.",
+        "Hemorragia recurrente."
+      ],
+      "nursing_care": [
+        "Monitorizar signos vitales cada 15‑30 min y nivel de conciencia.",
+        "Evaluar función neurológica (escala de Frankel) cada hora.",
+        "Mantener precauciones de columna: inmovilización, evitar flexión/extensión.",
+        "Controlar ingreso y salida de líquidos; vigilar Hb y coagulación.",
+        "Administrar analgesia según prescripción y evaluar respuesta al dolor."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de reposo en cama y evitar movimientos bruscos.",
+        "Instruir sobre signos de empeoramiento neurológico (nuevo dolor, debilidad).",
+        "Enseñar la importancia de informar uso de anticoagulantes y cualquier sangrado.",
+        "Orientar sobre cuidados de la herida quirúrgica y signos de infección."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hemorragia espinal",
+          "uso de anticoagulantes",
+          "trauma vertebral"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio de líquidos: mantener ingesta ≥1500 mL/día en 48 h",
+          "Hemoglobina: >12 g/dL en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar ingesta y salida de líquidos cada 4 h.",
+            "rationale": "Permite detectar déficit de volumen temprano."
+          },
+          {
+            "action": "Monitorear Hb y hematocrito cada 12 h.",
+            "rationale": "Identifica pérdida sanguínea significativa."
+          },
+          {
+            "action": "Administrar reposición de fluidos IV según prescripción y balance hídrico.",
+            "rationale": "Mantiene perfusión tisular y evita hipotensión."
+          },
+          {
+            "action": "Revisar y documentar uso de anticoagulantes y orden de reversión.",
+            "rationale": "Previene mayor sangrado y facilita corrección de coagulopatía."
+          },
+          {
+            "action": "Educar al paciente sobre signos de sangrado interno (dolor creciente, mareos).",
+            "rationale": "Promueve reporte oportuno de complicaciones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "compresión medular",
+          "movimientos bruscos",
+          "precauciones de columna inadecuadas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Integridad neurológica: escala de Frankel sin deterioro en 72 h",
+          "Seguridad: ausencia de caídas durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener inmovilización de la columna con collar o tabla según indicación.",
+            "rationale": "Previene movimientos que agraven la compresión."
+          },
+          {
+            "action": "Realizar evaluación neurológica completa cada hora.",
+            "rationale": "Detecta cambios tempranos en la función medular."
+          },
+          {
+            "action": "Aplicar medidas de prevención de caídas (suelo seco, asistencia al movilizar).",
+            "rationale": "Reduce riesgo de trauma adicional."
+          },
+          {
+            "action": "Colocar al paciente en posición supina con almohadas para alineación neutral.",
+            "rationale": "Minimiza presión sobre la zona afectada."
+          },
+          {
+            "action": "Coordinar con fisioterapia para movilización pasiva temprana bajo supervisión.",
+            "rationale": "Mantiene tono muscular sin comprometer la columna."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Spinal hematoma",
+    "aliases": [
+      "spinal hematoma",
+      "medullary hematoma",
+      "spinal bleed",
+      "spinal compression",
+      "epidural hematoma",
+      "subdural hematoma"
+    ],
+    "summary": "Accumulation of blood within or around the spinal cord that causes compression and neurological deficit.",
+    "key_points": [
+      "Can be epidural, subdural, or intramedullary.",
+      "Presents with sudden lumbar pain and progressive motor or sensory deficit.",
+      "Definitive diagnosis is made with CT or MRI of the spine.",
+      "Urgent treatment is surgical decompression and correction of coagulopathies."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Trauma or rupture of blood vessels in the epidural/subdural/medullary space.",
+        "Accumulation of blood creates a mass that compresses the cord and nerve roots.",
+        "Compression interrupts perfusion and nerve conduction, producing motor and sensory deficits."
+      ],
+      "risk_factors": [
+        "Vertebral trauma (falls, motor vehicle accidents).",
+        "Use of anticoagulants or antiplatelet agents.",
+        "Congenital or acquired coagulopathies.",
+        "Invasive spinal procedures (lumbar puncture, surgery)."
+      ],
+      "signs_symptoms": [
+        "Sudden lumbar or cervical pain, often described as a “cut.”",
+        "Motor deficit (paresis, weakness) and/or sensory deficit (paresthesias, loss of sensation).",
+        "Gait abnormalities or loss of sphincter control.",
+        "Signs of medullary compromise: hyperactive reflexes, positive Babinski sign."
+      ],
+      "diagnostics": [
+        "Contrast CT of the spine: shows hyperdensity indicating acute blood.",
+        "MRI of the spine: best definition of extent and type of hematoma.",
+        "CBC: Hb <12 g/dL suggests significant bleeding.",
+        "Coagulation: PT, aPTT, and INR prolonged indicate need for reversal."
+      ],
+      "treatment": [
+        "Reversal of anticoagulation (vitamin K, fresh frozen plasma, protamine).",
+        "Urgent surgical decompression (laminectomy, hematoma evacuation).",
+        "Corticosteroids in selected cases to reduce medullary edema.",
+        "Pain control with analgesics (acetaminophen, opioids as needed)."
+      ],
+      "complications": [
+        "Irreversible paralysis if decompression is delayed.",
+        "Surgical site infection or meningitis.",
+        "Cauda equina syndrome with bladder and bowel dysfunction.",
+        "Recurrent hemorrhage."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 minutes and level of consciousness.",
+        "Assess neurological function (Frankel scale) hourly.",
+        "Maintain spinal precautions: immobilization, avoid flexion/extension.",
+        "Monitor fluid intake and output; watch Hb and coagulation.",
+        "Administer analgesia per prescription and assess pain response."
+      ],
+      "patient_teaching": [
+        "Explain the need for bed rest and avoid sudden movements.",
+        "Instruct on signs of neurological worsening (new pain, weakness).",
+        "Teach importance of reporting anticoagulant use and any bleeding.",
+        "Guide wound care and signs of infection."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "spinal hemorrhage",
+          "use of anticoagulants",
+          "vertebral trauma"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake ≥1500 mL/day in 48 h",
+          "Hemoglobin: >12 g/dL in 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess and record fluid intake and output every 4 h.",
+            "rationale": "Allows early detection of volume deficit."
+          },
+          {
+            "action": "Monitor Hb and hematocrit every 12 h.",
+            "rationale": "Identifies significant blood loss."
+          },
+          {
+            "action": "Administer IV fluid replacement per prescription and fluid balance.",
+            "rationale": "Maintains tissue perfusion and prevents hypotension."
+          },
+          {
+            "action": "Review and document anticoagulant use and reversal orders.",
+            "rationale": "Prevents further bleeding and facilitates correction of coagulopathy."
+          },
+          {
+            "action": "Educate patient on signs of internal bleeding (increasing pain, dizziness).",
+            "rationale": "Promotes timely reporting of complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "spinal compression",
+          "sudden movements",
+          "inadequate spinal precautions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Neurological integrity: Frankel scale unchanged in 72 h",
+          "Safety: no falls during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain spinal immobilization with collar or board as indicated.",
+            "rationale": "Prevents movements that worsen compression."
+          },
+          {
+            "action": "Perform comprehensive neurological assessment hourly.",
+            "rationale": "Detects early changes in medullary function."
+          },
+          {
+            "action": "Apply fall prevention measures (dry floor, assistance during mobilization).",
+            "rationale": "Reduces risk of additional trauma."
+          },
+          {
+            "action": "Position patient supine with pillows for neutral alignment.",
+            "rationale": "Minimizes pressure on the affected area."
+          },
+          {
+            "action": "Coordinate with physical therapy for early passive mobilization under supervision.",
+            "rationale": "Maintains muscle tone without compromising the spine."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "epidural-hematoma",
+    "spinal-cord-compression",
+    "neurological-deficit",
+    "coagulopathy",
+    "surgical-decompression"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: CT Scans",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ctscans.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Spinal Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-8-spinal-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Neurological Injuries",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-9-neurological-injuries",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17"
+}

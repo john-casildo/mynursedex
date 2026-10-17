@@ -1,0 +1,527 @@
+{
+  "id": "hepatitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hepatitis",
+    "aliases": [
+      "hepatitis",
+      "inflamación hepática",
+      "virus hepatitis",
+      "hepatitis aguda",
+      "hepatitis crónica"
+    ],
+    "summary": "Inflamación del hígado causada por virus, alcohol, toxinas o procesos autoinmunes. Puede presentarse de forma aguda o crónica y compromete la función hepática.",
+    "key_points": [
+      "Inflamación hepatocelular produce elevación de ALT/AST.",
+      "Tipos virales A‑E difieren en modo de transmisión y curso.",
+      "El consumo de alcohol y sustancias hepatotóxicas agrava el daño.",
+      "Complicaciones graves incluyen cirrosis y carcinoma hepatocelular.",
+      "Prevención mediante vacunación y medidas de higiene es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El virus penetra hepatocitos y replica, provocando necrosis y respuesta inflamatoria.",
+        "La inflamación genera edema, elevación de enzimas hepáticas y posible fibrosis.",
+        "En hepatitis crónica, la cicatrización continua lleva a cirrosis y riesgo de cáncer."
+      ],
+      "risk_factors": [
+        "Consumo de alimentos o agua contaminados (hepatitis A, E).",
+        "Contacto sexual sin protección o exposición a sangre (hepatitis B, C).",
+        "Uso de drogas intravenosas y tatuajes sin asepsia.",
+        "Consumo excesivo de alcohol y medicamentos hepatotóxicos."
+      ],
+      "signs_symptoms": [
+        "Ictericia (color amarillento de piel y escleróticas).",
+        "Dolor en hipocondrio derecho y malestar general.",
+        "Náuseas, vómitos, pérdida de apetito.",
+        "Fiebre, fatiga y orina oscura."
+      ],
+      "diagnostics": [
+        "Serología: HBsAg, anti‑HAV IgM, anti‑HCV, anti‑HEV según sospecha.",
+        "ALT y AST > 2‑3 veces el límite superior normal.",
+        "Bilirrubina total > 1.2 mg/dL y fosfatasa alcalina elevada.",
+        "Ecografía hepática para evaluar fibrosis o cirrosis."
+      ],
+      "treatment": [
+        "Antivirales específicos (interferón, nucleósidos) según tipo viral.",
+        "Vacunación contra hepatitis A y B para prevención.",
+        "Reposo, hidratación oral y dieta baja en grasa.",
+        "Evitar alcohol y sustancias hepatotóxicas.",
+        "Manejo sintomático: antitérmicos, analgésicos y antieméticos."
+      ],
+      "complications": [
+        "Cirrosis hepática y fallo hepático.",
+        "Carcinoma hepatocelular.",
+        "Hipertensión portal y ascitis.",
+        "Coagulopatía y sangrado."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y nivel de conciencia.",
+        "Evaluar ictericia, color de orina y heces.",
+        "Registrar ingesta y salida de líquidos; vigilar peso.",
+        "Administrar medicamentos según prescripción y observar efectos adversos.",
+        "Prevenir sangrado: evitar procedimientos invasivos sin autorización."
+      ],
+      "patient_teaching": [
+        "Evitar alcohol y sustancias hepatotóxicas.",
+        "Cumplir esquema de vacunación (HAV, HBV).",
+        "Practicar higiene de manos y no compartir objetos cortantes.",
+        "Mantener hidratación adecuada y dieta balanceada.",
+        "Acudir a controles de laboratorio para seguimiento de enzimas hepáticas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "exposición a virus hepatitis A, B, C",
+          "uso de drogas intravenosas",
+          "contacto sexual sin protección",
+          "consumo de alimentos contaminados"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Riesgo de infección disminuido: paciente no presenta signos de infección adicional en 30 días",
+          "Conocimiento de medidas preventivas: paciente describe al menos 3 formas de prevenir transmisión"
+        ],
+        "interventions": [
+          {
+            "action": "Enseñar al paciente la correcta higiene de manos y la no compartición de objetos cortantes.",
+            "rationale": "Reduce la transmisión de virus hepáticos por contacto directo."
+          },
+          {
+            "action": "Reforzar la importancia de la vacunación contra hepatitis A y B.",
+            "rationale": "La inmunización previene la infección por los tipos más comunes."
+          },
+          {
+            "action": "Evaluar historial de uso de drogas y ofrecer recursos de reducción de daño.",
+            "rationale": "Disminuye la exposición a sangre contaminada."
+          },
+          {
+            "action": "Proveer información sobre prácticas sexuales seguras y uso de preservativo.",
+            "rationale": "Previene la transmisión sexual de hepatitis B y C."
+          },
+          {
+            "action": "Monitorear signos de infección secundaria (fiebre, aumento de dolor).",
+            "rationale": "Detección temprana permite intervención oportuna."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "vómitos",
+          "diarrea",
+          "fiebre",
+          "pérdida de apetito"
+        ],
+        "evidenced_by": [
+          "Hidratación insuficiente",
+          "Peso corporal disminuido",
+          "Piel seca y turgencia cutánea reducida",
+          "Presión arterial < 90/60 mmHg"
+        ],
+        "outcomes": [
+          "Volumen intravascular mantenido: presión arterial ≥ 90/60 mmHg en 24 h",
+          "Hidratación adecuada: ingesta de líquidos ≥ 2 L/día"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 horas.",
+            "rationale": "Permite evaluar balance hídrico y detectar déficit temprano."
+          },
+          {
+            "action": "Ofrecer líquidos claros en pequeñas cantidades frecuentes.",
+            "rationale": "Facilita la rehidratación sin provocar náuseas."
+          },
+          {
+            "action": "Monitorear peso diario y signos de deshidratación.",
+            "rationale": "Cambios de peso reflejan pérdida o ganancia de líquidos."
+          },
+          {
+            "action": "Administrar soluciones electrolíticas por vía oral o intravenosa según prescripción.",
+            "rationale": "Corrige déficit de sodio, potasio y mantiene la perfusión tisular."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de mantener hidratación y reconocer signos de deshidratación.",
+            "rationale": "Promueve autocuidado y prevención de recaídas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hepatitis",
+    "aliases": [
+      "hepatitis",
+      "inflamación hepática",
+      "virus hepatitis",
+      "hepatitis aguda",
+      "hepatitis crónica"
+    ],
+    "summary": "Inflammation of the liver caused by viruses, alcohol, toxins, or autoimmune processes. It can present acutely or chronically and impairs liver function.",
+    "key_points": [
+      "Hepatocellular inflammation causes elevation of ALT/AST.",
+      "Viral types A‑E differ in mode of transmission and course.",
+      "Alcohol consumption and hepatotoxic substances worsen damage.",
+      "Severe complications include cirrhosis and hepatocellular carcinoma.",
+      "Prevention through vaccination and hygiene measures is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The virus penetrates hepatocytes and replicates, causing necrosis and an inflammatory response.",
+        "Inflammation leads to edema, elevation of liver enzymes, and possible fibrosis.",
+        "In chronic hepatitis, continuous scarring leads to cirrhosis and cancer risk."
+      ],
+      "risk_factors": [
+        "Consumption of contaminated food or water (hepatitis A, E).",
+        "Unprotected sexual contact or exposure to blood (hepatitis B, C).",
+        "Intravenous drug use and non‑sterile tattoos.",
+        "Excessive alcohol consumption and hepatotoxic medications."
+      ],
+      "signs_symptoms": [
+        "Jaundice (yellowing of skin and sclera).",
+        "Right upper quadrant pain and general malaise.",
+        "Nausea, vomiting, loss of appetite.",
+        "Fever, fatigue, and dark urine."
+      ],
+      "diagnostics": [
+        "Serology: HBsAg, anti‑HAV IgM, anti‑HCV, anti‑HEV as indicated.",
+        "ALT and AST > 2‑3 times the upper limit of normal.",
+        "Total bilirubin > 1.2 mg/dL and elevated alkaline phosphatase.",
+        "Abdominal ultrasound to assess fibrosis or cirrhosis."
+      ],
+      "treatment": [
+        "Specific antivirals (interferon, nucleosides) per viral type.",
+        "Vaccination against hepatitis A and B for prevention.",
+        "Rest, oral hydration, and low‑fat diet.",
+        "Avoid alcohol and hepatotoxic substances.",
+        "Symptomatic management: antipyretics, analgesics, and antiemetics."
+      ],
+      "complications": [
+        "Hepatic cirrhosis and liver failure.",
+        "Hepatocellular carcinoma.",
+        "Portal hypertension and ascites.",
+        "Coagulopathy and bleeding."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and level of consciousness.",
+        "Assess jaundice, urine and stool color.",
+        "Record intake and output; monitor weight.",
+        "Administer medications per prescription and observe adverse effects.",
+        "Prevent bleeding: avoid invasive procedures without authorization."
+      ],
+      "patient_teaching": [
+        "Avoid alcohol and hepatotoxic substances.",
+        "Follow vaccination schedule (HAV, HBV).",
+        "Practice hand hygiene and do not share cutting objects.",
+        "Maintain adequate hydration and balanced diet.",
+        "Attend laboratory follow‑ups to monitor liver enzymes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "exposure to hepatitis A, B, C viruses",
+          "intravenous drug use",
+          "unprotected sexual contact",
+          "consumption of contaminated food"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Reduced infection risk: patient shows no additional infection signs within 30 days",
+          "Knowledge of preventive measures: patient describes at least 3 ways to prevent transmission"
+        ],
+        "interventions": [
+          {
+            "action": "Teach the patient proper hand hygiene and not sharing cutting objects.",
+            "rationale": "Reduces transmission of hepatitis viruses by direct contact."
+          },
+          {
+            "action": "Emphasize the importance of vaccination against hepatitis A and B.",
+            "rationale": "Immunization prevents infection by the most common types."
+          },
+          {
+            "action": "Assess drug use history and offer harm‑reduction resources.",
+            "rationale": "Reduces exposure to contaminated blood."
+          },
+          {
+            "action": "Provide information on safe sex practices and condom use.",
+            "rationale": "Prevents sexual transmission of hepatitis B and C."
+          },
+          {
+            "action": "Monitor for secondary infection signs (fever, increased pain).",
+            "rationale": "Early detection allows timely intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "vomiting",
+          "diarrhea",
+          "fever",
+          "loss of appetite"
+        ],
+        "evidenced_by": [
+          "Insufficient hydration",
+          "Reduced body weight",
+          "Dry skin and reduced skin turgor",
+          "Blood pressure < 90/60 mmHg"
+        ],
+        "outcomes": [
+          "Intravascular volume maintained: blood pressure ≥ 90/60 mmHg in 24 h",
+          "Adequate hydration: fluid intake ≥ 2 L/day"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 8 hours.",
+            "rationale": "Allows assessment of fluid balance and early detection of deficit."
+          },
+          {
+            "action": "Offer clear fluids in small frequent amounts.",
+            "rationale": "Facilitates rehydration without causing nausea."
+          },
+          {
+            "action": "Monitor daily weight and dehydration signs.",
+            "rationale": "Weight changes reflect fluid loss or gain."
+          },
+          {
+            "action": "Administer electrolyte solutions orally or intravenously as prescribed.",
+            "rationale": "Corrects sodium, potassium deficits and maintains tissue perfusion."
+          },
+          {
+            "action": "Educate the patient on the importance of maintaining hydration and recognizing dehydration signs.",
+            "rationale": "Promotes self‑care and prevention of relapse."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "liver-cirrhosis",
+    "hepatocellular-carcinoma",
+    "viral-hepatitis",
+    "alcoholic-hepatitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hepatitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hepatitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hepatitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hepatitis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Viral and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-2-viral-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Sexually Transmitted Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/7-1-sexually-transmitted-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17",
+  "factcheck": {
+    "checked": "2026-10-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 21,
+      "not_found": 20,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Alcoholic hepatitis is caused by heavy alcohol use Toxic hepatitis can be caused by certain poisons, chemicals, medicines, or supplements Autoimmune hepatitis is a chronic type in which your body's immune system attacks your liver.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Hepatitis can be an acute (short-term) infection or a chronic (long-term) infection.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "During the acute phase of HBV infection, serum lab work shows increased levels of alanine and aspartate aminotransferase (ALT and AST, respectively).",
+        "source": 3
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Each of these types varies slightly regarding transmission and symptoms; types A, B, and C are the most common and, therefore, are the focus of this section.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Hepatitis B virus infection can lead to serious complications, including the development of cirrhosis of the liver, liver disease, hepatocellular carcinoma, and death.",
+        "source": 3
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Chronic hepatitis can lead to complications such as cirrhosis (scarring of the liver), liver failure, and liver cancer .",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Hepatitis A and hepatitis E usually spread through contact with food or water that was contaminated with an infected person's stool.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Hepatitis B is a virus that can cause both acute and chronic disease and can be transmitted through blood and body fluids and is more likely to be sexually transmitted (Mehta & Reddivari, 2022).",
+        "source": 3
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Alcoholic hepatitis is caused by heavy alcohol use Toxic hepatitis can be caused by certain poisons, chemicals, medicines, or supplements",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Jaundice , yellowing of your skin and eyes",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Hepatitis C Dark urine Jaundice Malaise Nausea Right upper-quadrant pain",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "If you do have symptoms, they may include: Fever Fatigue Loss of appetite Nausea and/or vomiting Abdominal pain Dark urine Clay-colored bowel movements Joint pain Jaundice , yellowing of your skin and eyes",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "If you do have symptoms, they may include: Fever Fatigue Loss of appetite Nausea and/or vomiting Abdominal pain Dark urine Clay-colored bowel movements Joint pain Jaundice , yellowing of your skin and eyes",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Might do imaging tests , such as an ultrasound , CT scan , or MRI May need to do a liver biopsy to get a clear diagnosis and check for liver damage",
+        "source": 0
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "The nurse should teach the patient with HBV infection to avoid alcohol and get vaccinated for hepatitis A and other diseases, such as flu.",
+        "source": 3
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Chronic hepatitis can lead to complications such as cirrhosis (scarring of the liver), liver failure, and liver cancer .",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Hepatitis B virus infection can lead to serious complications, including the development of cirrhosis of the liver, liver disease, hepatocellular carcinoma, and death.",
+        "source": 3
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "If you do have symptoms, they may include: Fever Fatigue Loss of appetite Nausea and/or vomiting Abdominal pain Dark urine Clay-colored bowel movements Joint pain Jaundice , yellowing of your skin and eyes",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Lastly, the nurse should evaluate whether the patient is experiencing any adverse effects related to the medication or other interventions.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "The nurse should teach the patient with HBV infection to avoid alcohol and get vaccinated for hepatitis A and other diseases, such as flu.",
+        "source": 3
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Vaccination is available and is recommended for children as part of the standard vaccination schedule (one dose at birth and the second by 18 months of age) and for adults at greater risk (e.g., those with certain diseases, IV-drug users, those who have sex with multiple partners).",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,477 @@
+{
+  "id": "chemotherapy-induced-nausea-and-vomiting",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Náuseas y vómitos inducidos por quimioterapia (NVIC)",
+    "aliases": [
+      "náuseas",
+      "vómitos",
+      "quimioterapia",
+      "cinv",
+      "náuseas quimioterapia",
+      "vómitos quimioterapia"
+    ],
+    "summary": "Las NVIC son una reacción adversa frecuente a los agentes quimioterapéuticos, provocada por la estimulación del centro del vómito y la zona quimiorreceptora.",
+    "key_points": [
+      "Se clasifican en anticipatoria, aguda, tardía y de ruptura.",
+      "Factores de riesgo: sexo femenino, <50 años, historia previa de NVIC, deshidratación.",
+      "El manejo combina antieméticos de diferentes clases y medidas no farmacológicas.",
+      "El desequilibrio electrolítico es una complicación frecuente."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los fármacos quimioterapéuticos liberan mediadores que estimulan la zona quimiorreceptora (CTZ).",
+        "Activación de receptores de serotonina (5‑HT3), dopamina y neuroquinina en el centro del vómito.",
+        "Se genera una señal motora que desencadena náuseas y contracciones del músculo liso gastrointestinal."
+      ],
+      "risk_factors": [
+        "Sexo femenino y edad < 50 años.",
+        "Historia previa de NVIC o náuseas durante el embarazo.",
+        "Deshidratación y desequilibrios electrolíticos.",
+        "Uso de regímenes de quimioterapia altamente emetogénicos."
+      ],
+      "signs_symptoms": [
+        "Sensación de náuseas persistente o intermitente.",
+        "Vómitos de contenido gástrico, a veces con sangre si hay irritación.",
+        "Pérdida de apetito y posible deshidratación.",
+        "Ansiedad y malestar general."
+      ],
+      "diagnostics": [
+        "Historia clínica enfocada en patrón de NVIC (anticipatoria, aguda, tardía).",
+        "Evaluación de hidratación: presión arterial, frecuencia cardíaca, turgencia cutánea.",
+        "Laboratorio: electrolitos (Na+, K+, Cl-) y glucosa; valores fuera de rango indican complicación."
+      ],
+      "treatment": [
+        "Antagonistas de 5‑HT3 (ondansetrón, granisetrón) – bloquean receptores periféricos y centrales.",
+        "Corticoides (dexametasona) – potencian la acción antiemética y reducen inflamación.",
+        "Antagonistas de neuroquinina (aprepitant) – inhiben la vía NK1 del centro del vómito.",
+        "Antihistamínicos y fenotiazinas (prometazina) para NVIC de bajo riesgo.",
+        "Hidratación intravenosa con solución salina isotónica."
+      ],
+      "complications": [
+        "Deshidratación y desequilibrio electrolítico (hiponatremia, hipopotasemia).",
+        "Pérdida de peso y desnutrición.",
+        "Daño esofágico por vómitos repetidos.",
+        "Reducción de la adherencia al esquema quimioterapéutico."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia, intensidad (escala 0‑10) y patrón de NVIC cada 4 h.",
+        "Monitorear signos de deshidratación y registrar electrolitos.",
+        "Administrar antieméticos según orden, observar efectos adversos.",
+        "Mantener al paciente en posición semi‑sentada para reducir riesgo de aspiración.",
+        "Registrar ingesta y salida de líquidos."
+      ],
+      "patient_teaching": [
+        "Tomar antieméticos antes de iniciar la quimioterapia y según indicaciones.",
+        "Beber pequeños sorbos de líquidos claros cada 15‑30 min.",
+        "Evitar olores fuertes y alimentos grasos que pueden desencadenar náuseas.",
+        "Reportar vómitos persistentes o signos de deshidratación al personal de salud.",
+        "Utilizar técnicas de relajación (respiración profunda, música) para disminuir la ansiedad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Náuseas",
+        "type": "actual",
+        "related_to": [
+          "quimioterapia",
+          "estimulación del centro del vómito"
+        ],
+        "evidenced_by": [
+          "náuseas",
+          "vómitos",
+          "pérdida de apetito"
+        ],
+        "outcomes": [
+          "Control de náuseas: paciente reporta intensidad ≤ 2/10 en escala de 0‑10 en 24 h.",
+          "Hidratación adecuada: ingesta oral ≥ 1500 mL/día y peso estable."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar antiemético 5‑HT3 antes de la quimioterapia según prescripción.",
+            "rationale": "Previene la estimulación de receptores serotoninérgicos en el CTZ."
+          },
+          {
+            "action": "Evaluar intensidad de náuseas cada 4 h usando escala numérica.",
+            "rationale": "Permite ajustar la terapia y medir la efectividad del tratamiento."
+          },
+          {
+            "action": "Ofrecer líquidos claros en pequeños sorbos cada 15 min.",
+            "rationale": "Mantiene hidratación y reduce irritación gástrica."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y distracción.",
+            "rationale": "Disminuye la respuesta ansiosa que potencia la náusea."
+          },
+          {
+            "action": "Registrar y reportar cualquier vómito persistente o sangre en el contenido.",
+            "rationale": "Identifica complicaciones que requieren intervención médica."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "deshidratación",
+          "vómitos frecuentes",
+          "uso de diuréticos",
+          "quimioterapia emetogénica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos (Na+, K+, Cl-) dentro de rangos normales en 48 h.",
+          "Signos de hidratación adecuados (PA 110/70 mmHg, turgencia cutánea presente)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y balance hídrico (ingesta‑salida).",
+            "rationale": "Detecta pérdidas de líquidos que pueden alterar electrolitos."
+          },
+          {
+            "action": "Obtener muestra de sangre para electrolitos cada 24 h mientras haya vómitos.",
+            "rationale": "Permite identificar y corregir desequilibrios tempranamente."
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según orden.",
+            "rationale": "Reemplaza líquidos y electrolitos perdidos por vómitos."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de ingerir alimentos ricos en potasio (plátano, papaya).",
+            "rationale": "Ayuda a mantener niveles de potasio dentro del rango normal."
+          },
+          {
+            "action": "Evaluar signos de hiponatremia o hipopotasemia (confusión, debilidad muscular).",
+            "rationale": "Facilita la detección precoz de complicaciones electrolíticas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Chemotherapy‑Induced Nausea and Vomiting (CINV)",
+    "aliases": [
+      "nausea",
+      "vomiting",
+      "chemotherapy",
+      "cinv",
+      "chemotherapy nausea",
+      "chemotherapy vomiting"
+    ],
+    "summary": "CINV is a common adverse reaction to chemotherapeutic agents, caused by stimulation of the vomiting center and the chemoreceptor trigger zone.",
+    "key_points": [
+      "They are classified as anticipatory, acute, delayed, and breakthrough.",
+      "Risk factors: female sex, <50 years, prior CINV history, dehydration.",
+      "Management combines antiemetics of different classes and non‑pharmacologic measures.",
+      "Electrolyte imbalance is a frequent complication."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chemotherapeutic drugs release mediators that stimulate the chemoreceptor trigger zone (CTZ).",
+        "Activation of serotonin (5‑HT3), dopamine, and neurokinin receptors in the vomiting center.",
+        "A motor signal is generated that triggers nausea and gastrointestinal smooth muscle contractions."
+      ],
+      "risk_factors": [
+        "Female sex and age < 50 years.",
+        "Prior CINV history or nausea during pregnancy.",
+        "Dehydration and electrolyte imbalances.",
+        "Use of highly emetogenic chemotherapy regimens."
+      ],
+      "signs_symptoms": [
+        "Persistent or intermittent nausea sensation.",
+        "Vomiting of gastric contents, sometimes with blood if irritation occurs.",
+        "Loss of appetite and possible dehydration.",
+        "Anxiety and general discomfort."
+      ],
+      "diagnostics": [
+        "Focused history on CINV pattern (anticipatory, acute, delayed).",
+        "Hydration assessment: blood pressure, heart rate, skin turgor.",
+        "Laboratory: electrolytes (Na+, K+, Cl-) and glucose; out‑of‑range values indicate complication."
+      ],
+      "treatment": [
+        "5‑HT3 antagonists (ondansetron, granisetron) – block peripheral and central receptors.",
+        "Corticosteroids (dexamethasone) – enhance antiemetic action and reduce inflammation.",
+        "Neurokinin‑1 antagonists (aprepitant) – inhibit the NK1 pathway in the vomiting center.",
+        "Antihistamines and phenothiazines (promethazine) for low‑risk CINV.",
+        "Intravenous hydration with isotonic saline solution."
+      ],
+      "complications": [
+        "Dehydration and electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Weight loss and malnutrition.",
+        "Esophageal damage from repeated vomiting.",
+        "Reduced adherence to chemotherapy regimen."
+      ],
+      "nursing_care": [
+        "Assess frequency, intensity (0‑10 scale), and CINV pattern every 4 h.",
+        "Monitor dehydration signs and record electrolytes.",
+        "Administer antiemetics as ordered, observe adverse effects.",
+        "Keep patient in semi‑upright position to reduce aspiration risk.",
+        "Record fluid intake and output."
+      ],
+      "patient_teaching": [
+        "Take antiemetics before starting chemotherapy and as directed.",
+        "Drink small sips of clear liquids every 15‑30 min.",
+        "Avoid strong odors and greasy foods that may trigger nausea.",
+        "Report persistent vomiting or dehydration signs to health staff.",
+        "Use relaxation techniques (deep breathing, music) to reduce anxiety."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Nausea",
+        "type": "actual",
+        "related_to": [
+          "chemotherapy",
+          "stimulation of the vomiting center"
+        ],
+        "evidenced_by": [
+          "nausea",
+          "vomiting",
+          "loss of appetite"
+        ],
+        "outcomes": [
+          "Nausea control: patient reports intensity ≤ 2/10 on 0‑10 scale within 24 h.",
+          "Adequate hydration: oral intake ≥ 1500 mL/day and stable weight."
+        ],
+        "interventions": [
+          {
+            "action": "Administer 5‑HT3 antiemetic before chemotherapy per prescription.",
+            "rationale": "Prevents stimulation of serotonergic receptors in the CTZ."
+          },
+          {
+            "action": "Assess nausea intensity every 4 h using a numeric scale.",
+            "rationale": "Allows therapy adjustment and measures treatment effectiveness."
+          },
+          {
+            "action": "Offer clear liquids in small sips every 15 min.",
+            "rationale": "Maintains hydration and reduces gastric irritation."
+          },
+          {
+            "action": "Teach diaphragmatic breathing and distraction techniques.",
+            "rationale": "Reduces anxious response that amplifies nausea."
+          },
+          {
+            "action": "Document and report any persistent vomiting or blood in the content.",
+            "rationale": "Identifies complications requiring medical intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "dehydration",
+          "frequent vomiting",
+          "diuretic use",
+          "emetogenic chemotherapy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes (Na+, K+, Cl-) within normal ranges in 48 h.",
+          "Adequate hydration signs (BP 110/70 mmHg, present skin turgor)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and fluid balance (intake‑output).",
+            "rationale": "Detects fluid losses that may alter electrolytes."
+          },
+          {
+            "action": "Obtain blood sample for electrolytes every 24 h while vomiting persists.",
+            "rationale": "Identifies and corrects imbalances early."
+          },
+          {
+            "action": "Administer isotonic saline IV as ordered.",
+            "rationale": "Replaces fluids and electrolytes lost with vomiting."
+          },
+          {
+            "action": "Educate patient on importance of eating potassium‑rich foods (banana, papaya).",
+            "rationale": "Helps maintain potassium within normal range."
+          },
+          {
+            "action": "Assess signs of hyponatremia or hypokalemia (confusion, muscle weakness).",
+            "rationale": "Facilitates early detection of electrolyte complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "chemotherapy",
+    "emesis",
+    "electrolyte-imbalance",
+    "anticipatory-nausea",
+    "vomiting"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antiemetics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/30-1-antiemetics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Chemotherapeutic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/8-2-chemotherapeutic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17",
+  "factcheck": {
+    "checked": "2026-10-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Dehydration and electrolyte imbalances are also associated with increased nausea and vomiting.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Nausea and vomiting may occur as anticipatory, beginning before a treatment begins, or during or soon after a treatment.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Aprepitant, a substance P/NK 1 receptor antagonist, crosses the blood-brain barrier to block neurokinin action in the CTZ, with peripheral effects in the GI tract to combat nausea and vomiting.",
+        "source": 0
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Clients may require transfusions of packed red blood cells, hydration with isotonic intravenous fluids, and oxygen.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Dehydration and electrolyte imbalances are also associated with increased nausea and vomiting.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The age of the client should be carefully considered prior to administering antiemetics, specifically in older adults and pediatric clients due to their potential adverse effects.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Granisetron ( Kytril ) IV: 10 mcg/kg infused starting 30 minutes before chemotherapy; repeat at 4 and 8 hours.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

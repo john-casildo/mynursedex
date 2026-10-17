@@ -1,0 +1,498 @@
+{
+  "id": "gastrointestinal-bleeding",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hemorragia gastrointestinal (HG)",
+    "aliases": [
+      "hemorragia gastrointestinal",
+      "sangrado digestivo",
+      "sangrado gi",
+      "melena",
+      "hematemesis"
+    ],
+    "summary": "Pérdida de sangre del tracto gastrointestinal que puede originarse en cualquier segmento y presentarse como vómito con sangre o heces negras o rojas.",
+    "key_points": [
+      "La hemorragia puede ser alta (esófago, estómago) o baja (intestino, colon, recto).",
+      "Signos de sangrado oculto incluyen anemia y disminución de la presión arterial.",
+      "Endoscopia es la prueba diagnóstica de elección para localizar y tratar la causa.",
+      "El manejo inicial incluye reposición de volumen y, si es necesario, transfusión.",
+      "Complicaciones graves: shock hipovolémico, insuficiencia renal y sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño a la mucosa o lesión vascular produce ruptura de vasos y pérdida de sangre.",
+        "La sangre se mezcla con contenido gastrointestinal, alterando la absorción de nutrientes y electrolitos.",
+        "La pérdida continua disminuye el volumen intravascular, provocando hipoperfusión tisular."
+      ],
+      "risk_factors": [
+        "Úlceras pépticas y uso crónico de AINES.",
+        "Enfermedad inflamatoria intestinal (colitis ulcerosa, enfermedad de Crohn).",
+        "Diverticulosis, varices esofágicas y tumores gastrointestinales.",
+        "Coagulopatías y anticoagulantes."
+      ],
+      "signs_symptoms": [
+        "Vómito con sangre roja brillante o con aspecto de posos de café.",
+        "Heces negras (melena) o con sangre roja brillante (hematochezia).",
+        "Taquicardia, hipotensión ortostática y palidez.",
+        "Dolor abdominal y sensación de desmayo."
+      ],
+      "diagnostics": [
+        "Hemograma: hemoglobina <10 g/dL indica pérdida significativa.",
+        "Pruebas de coagulación (TP, TTP) para descartar coagulopatías.",
+        "Endoscopia digestiva alta o colonoscopia según sospecha de origen.",
+        "Radiografía de abdomen o TC en casos de sangrado masivo no endoscopiable."
+      ],
+      "treatment": [
+        "Reposición de volumen con cristaloides (solución salina al 0.9%).",
+        "Transfusión de concentrado de glóbulos rojos si Hb <7 g/dL o síntomas de hipoxia.",
+        "Inhibidores de bomba de protones (omeprazol) por vía IV para úlceras pépticas.",
+        "Octreótido para sangrado de varices esofágicas.",
+        "Terapia endoscópica (coagulación, ligadura) o cirugía si el sangrado persiste."
+      ],
+      "complications": [
+        "Shock hipovolémico y falla multiorgánica.",
+        "Anemia severa con fatiga y disnea.",
+        "Insuficiencia renal aguda por hipoperfusión.",
+        "Sepsis si hay perforación o infección secundaria."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 15‑30 min; observar hipotensión y taquicardia.",
+        "Evaluar nivel de conciencia y perfusión periférica (capilaridad, piel húmeda).",
+        "Mantener acceso IV de calibre amplio; registrar ingesta y salida de líquidos.",
+        "Observar y registrar características de vómito y heces (color, cantidad).",
+        "Preparar al paciente para endoscopia: ayuno y posición decúbito lateral izquierdo si hay hematemesis."
+      ],
+      "patient_teaching": [
+        "Informar sobre signos de alarma: vómito con sangre, heces negras, mareos.",
+        "Evitar AINES y alcohol; seguir dieta blanda y rica en fibra según indicación.",
+        "Importancia de asistir a controles endoscópicos y de tomar medicación prescrita.",
+        "En caso de recaída, acudir inmediatamente al servicio de urgencias."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida sanguínea",
+          "hemorragia gastrointestinal"
+        ],
+        "evidenced_by": [
+          "hematemesis",
+          "melena",
+          "taquicardia",
+          "presión arterial <90 mmHg",
+          "hemoglobina <10 g/dL"
+        ],
+        "outcomes": [
+          "Presión arterial sistólica ≥100 mmHg",
+          "Hemoglobina ≥11 g/dL",
+          "Piel húmeda y turgencia normal"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar solución salina al 0.9% por vía IV según orden médica.",
+            "rationale": "Restablece el volumen intravascular y previene el shock."
+          },
+          {
+            "action": "Monitorear signos vitales y presión arterial cada 15 minutos.",
+            "rationale": "Detecta rápidamente deterioro hemodinámico."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y perfusión periférica (tiempo de relleno capilar).",
+            "rationale": "Indicadores tempranos de hipoperfusión tisular."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos, incluyendo drenajes y vómitos.",
+            "rationale": "Permite balance hídrico preciso."
+          },
+          {
+            "action": "Preparar al paciente para transfusión de sangre si la Hb es <7 g/dL o hay síntomas de hipoxia.",
+            "rationale": "Mejora la capacidad de transporte de oxígeno."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida sanguínea",
+          "hemorragia gastrointestinal",
+          "uso de diuréticos si se administran"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sodio sérico 135‑145 mEq/L",
+          "Potasio sérico 3.5‑5.0 mEq/L",
+          "Sin arritmias relacionadas a alteraciones electrolíticas"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos al ingreso y cada 6‑8 horas.",
+            "rationale": "Detecta desequilibrios tempranos."
+          },
+          {
+            "action": "Administrar soluciones electrolíticas (por ejemplo, Ringer lactato) según prescripción.",
+            "rationale": "Corrige déficit de sodio y potasio durante la reposición de volumen."
+          },
+          {
+            "action": "Monitorear ritmo cardíaco mediante ECG continuo.",
+            "rationale": "Identifica arritmias inducidas por hipopotasemia o hipernatremia."
+          },
+          {
+            "action": "Evaluar signos de alteración electrolítica: debilidad muscular, parestesias, confusión.",
+            "rationale": "Permite intervención oportuna antes de complicaciones graves."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de informar vómitos persistentes o diarrea que puedan agravar la pérdida de electrolitos.",
+            "rationale": "Facilita la detección precoz de nuevos desequilibrios."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastrointestinal hemorrhage (GI bleed)",
+    "aliases": [
+      "gastrointestinal hemorrhage",
+      "digestive bleeding",
+      "gi bleed",
+      "melena",
+      "hematemesis"
+    ],
+    "summary": "Loss of blood from the gastrointestinal tract that can originate in any segment and present as vomiting with blood or black or red stools.",
+    "key_points": [
+      "Hemorrhage can be high (esophagus, stomach) or low (intestine, colon, rectum).",
+      "Signs of occult bleeding include anemia and decreased blood pressure.",
+      "Endoscopy is the diagnostic test of choice to locate and treat the cause.",
+      "Initial management includes volume replacement and, if necessary, transfusion.",
+      "Severe complications: hypovolemic shock, renal failure, and sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Damage to the mucosa or vascular lesion causes vessel rupture and blood loss.",
+        "Blood mixes with gastrointestinal contents, altering nutrient and electrolyte absorption.",
+        "Continuous loss decreases intravascular volume, causing tissue hypoperfusion."
+      ],
+      "risk_factors": [
+        "Peptic ulcers and chronic NSAID use.",
+        "Inflammatory bowel disease (ulcerative colitis, Crohn's disease).",
+        "Diverticulosis, esophageal varices, and gastrointestinal tumors.",
+        "Coagulopathies and anticoagulants."
+      ],
+      "signs_symptoms": [
+        "Vomiting with bright red blood or coffee‑ground appearance.",
+        "Black stools (melena) or bright red blood (hematochezia).",
+        "Tachycardia, orthostatic hypotension, and pallor.",
+        "Abdominal pain and feeling faint."
+      ],
+      "diagnostics": [
+        "CBC: hemoglobin <10 g/dL indicates significant loss.",
+        "Coagulation tests (PT, aPTT) to rule out coagulopathies.",
+        "Upper GI endoscopy or colonoscopy depending on suspected source.",
+        "Abdominal X‑ray or CT in cases of massive bleeding not amenable to endoscopy."
+      ],
+      "treatment": [
+        "Volume replacement with crystalloids (0.9% saline solution).",
+        "Red blood cell concentrate transfusion if Hb <7 g/dL or hypoxia symptoms.",
+        "IV proton pump inhibitors (omeprazole) for peptic ulcers.",
+        "Octreotide for esophageal variceal bleeding.",
+        "Endoscopic therapy (coagulation, ligation) or surgery if bleeding persists."
+      ],
+      "complications": [
+        "Hypovolemic shock and multi‑organ failure.",
+        "Severe anemia with fatigue and dyspnea.",
+        "Acute renal failure from hypoperfusion.",
+        "Sepsis if perforation or secondary infection occurs."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 minutes; watch for hypotension and tachycardia.",
+        "Assess level of consciousness and peripheral perfusion (capillary refill, moist skin).",
+        "Maintain large‑caliber IV access; record fluid intake and output.",
+        "Observe and document characteristics of vomitus and stools (color, amount).",
+        "Prepare patient for endoscopy: fasting and left lateral decubitus position if hematemesis."
+      ],
+      "patient_teaching": [
+        "Inform about warning signs: vomiting with blood, black stools, dizziness.",
+        "Avoid NSAIDs and alcohol; follow a soft, high‑fiber diet as directed.",
+        "Importance of attending endoscopic follow‑ups and taking prescribed medication.",
+        "If symptoms recur, seek emergency care immediately."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "blood loss",
+          "gastrointestinal hemorrhage"
+        ],
+        "evidenced_by": [
+          "hematemesis",
+          "melena",
+          "tachycardia",
+          "blood pressure <90 mmHg",
+          "hemoglobin <10 g/dL"
+        ],
+        "outcomes": [
+          "Systolic blood pressure ≥100 mmHg",
+          "Hemoglobin ≥11 g/dL",
+          "Moist skin and normal turgor"
+        ],
+        "interventions": [
+          {
+            "action": "Administer 0.9% saline solution IV as ordered.",
+            "rationale": "Restores intravascular volume and prevents shock."
+          },
+          {
+            "action": "Monitor vital signs and blood pressure every 15 minutes.",
+            "rationale": "Detects rapid hemodynamic deterioration."
+          },
+          {
+            "action": "Assess level of consciousness and peripheral perfusion (capillary refill time).",
+            "rationale": "Early indicators of tissue hypoperfusion."
+          },
+          {
+            "action": "Record fluid intake and output, including drains and vomitus.",
+            "rationale": "Allows precise fluid balance."
+          },
+          {
+            "action": "Prepare patient for blood transfusion if Hb <7 g/dL or hypoxia symptoms.",
+            "rationale": "Improves oxygen transport capacity."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "blood loss",
+          "gastrointestinal hemorrhage",
+          "use of diuretics if administered"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum sodium 135‑145 mEq/L",
+          "Serum potassium 3.5‑5.0 mEq/L",
+          "No arrhythmias related to electrolyte disturbances"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes on admission and every 6‑8 hours.",
+            "rationale": "Detects early imbalances."
+          },
+          {
+            "action": "Administer electrolyte solutions (e.g., Ringer's lactate) as prescribed.",
+            "rationale": "Corrects sodium and potassium deficits during volume replacement."
+          },
+          {
+            "action": "Monitor cardiac rhythm with continuous ECG.",
+            "rationale": "Identifies arrhythmias induced by hypokalemia or hypernatremia."
+          },
+          {
+            "action": "Assess signs of electrolyte disturbance: muscle weakness, paresthesias, confusion.",
+            "rationale": "Allows timely intervention before serious complications."
+          },
+          {
+            "action": "Educate patient on the importance of reporting persistent vomiting or diarrhea that could worsen electrolyte loss.",
+            "rationale": "Facilitates early detection of new imbalances."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "anemia",
+    "shock-hypovolemic",
+    "ulcer-disease",
+    "diverticulosis",
+    "coagulopathy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Gastrointestinal Bleeding",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/gastrointestinalbleeding.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hemorragia gastrointestinal",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/gastrointestinalbleeding.html",
+      "lang": "es"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Gastrointestinal Concerns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-5-gastrointestinal-concerns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17",
+  "factcheck": {
+    "checked": "2026-10-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Signs of bleeding in the upper digestive tract include: Bright red blood in vomit Vomit that looks like coffee grounds Black or tarry stool Dark blood mixed with stool Signs of bleeding in the lower digestive tract include: Black or tarry stool Dark blood mixed with stool Stool mixed or coated with bright red blood",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Your digestive or gastrointestinal (GI) tract includes the esophagus, stomach, small intestine, large intestine or colon, rectum, and anus.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The test used most often to look for the cause of GI bleeding is called endoscopy .",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Patients with GI bleeding may require IV fluid replacement or multiple blood transfusions to restore lost blood volume (DiGregorio & Alvey, 2022).",
+        "source": 3
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "There are many possible causes of GI bleeding, including hemorrhoids , peptic ulcers , tears or inflammation in the esophagus, diverticulosis and diverticulitis , ulcerative colitis and Crohn's disease , colonic polyps , or cancer in the colon , stomach or esophagus .",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Signs of bleeding in the upper digestive tract include: Bright red blood in vomit Vomit that looks like coffee grounds Black or tarry stool Dark blood mixed with stool",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Common assessment findings for patients with acute GI bleeding are: abdominal pain or cramping anemia cool, clammy skin decreased LOC decreased urine output hematemesis (bloody vomitus) hypoactive bowel sounds hypotension melena (bloody stools) and/or dark tarry stools tachycardia",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Pale skin, tachycardia, and hypotension may indicate significant blood loss.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Most patients experiencing bleeding from stress ulcers will also be recommended to take a PPI such as omeprazole (e.g., Prilosec) or pantoprazole (Protonix) to decrease gastric acid secretion and allow for complete healing of the ulcer.",
+        "source": 3
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "If the bleeding originates from esophageal varices, octreotide (Sandostatin) can be used to stop the bleeding.",
+        "source": 3
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

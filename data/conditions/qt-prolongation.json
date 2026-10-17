@@ -1,0 +1,301 @@
+{
+  "id": "qt-prolongation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Prolongación del intervalo QT (QTc prolongado)",
+    "aliases": [
+      "qt",
+      "prolongacion qt",
+      "qtc",
+      "intervalo qt",
+      "torsade"
+    ],
+    "summary": "Alargamiento del intervalo QT en el ECG que aumenta el riesgo de arritmias ventriculares graves, como torsade de pointes. Puede ser inducido por fármacos, alteraciones electrolíticas o enfermedad cardíaca.",
+    "key_points": [
+      "QTc > 450 ms en hombres o > 470 ms en mujeres es anormal",
+      "Fármacos bloqueadores de canales de potasio (clase III) son los principales causantes",
+      "Hipopotasemia, hipomagnesemia y bradicardia aumentan el riesgo",
+      "Torsade de pointes es la complicación más temida",
+      "El manejo incluye retirar el agente causal y corregir electrolitos"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Bloqueo de los canales de potasio retrasa la repolarización ventricular",
+        "El tiempo prolongado de fase 3 aumenta la duración del QTc",
+        "Mayor heterogeneidad de la recuperación crea un circuito de reentrada"
+      ],
+      "risk_factors": [
+        "Uso de antiarrítmicos clase III (sotalol, amiodarona, dofetilida)",
+        "Medicamentos no cardíacos que prolongan QT (antipsicóticos, macrólidos, fluoroquinolonas)",
+        "Hipopotasemia (<3.5 mEq/L) o hipomagnesemia (<1.5 mEq/L)",
+        "Bradicardia <60 lpm",
+        "Enfermedad cardíaca estructural"
+      ],
+      "signs_symptoms": [
+        "Palpitaciones o sensación de latidos irregulares",
+        "Síncope o mareos súbitos",
+        "Síntomas de insuficiencia cardíaca si ocurre arritmia sostenida"
+      ],
+      "diagnostics": [
+        "ECG: QTc corregido >450 ms (hombres) o >470 ms (mujeres)",
+        "Electrolitos séricos: K⁺ 3.5‑5.0 mEq/L, Mg²⁺ 1.5‑2.5 mEq/L",
+        "Pruebas de función hepática y renal si se usan fármacos metabolizados"
+      ],
+      "treatment": [
+        "Suspender o sustituir el fármaco que prolonga QT",
+        "Reemplazar potasio y magnesio por vía oral o IV hasta rango normal",
+        "Magnesio sulfato 1‑2 g IV en bolo para torsade",
+        "Monitorización continua de ECG y QTc",
+        "Considerar pacing transcutáneo o isoproterenol si persiste torsade"
+      ],
+      "complications": [
+        "Torsade de pointes (taquicardia ventricular polimórfica)",
+        "Fibrilación ventricular y muerte súbita"
+      ],
+      "nursing_care": [
+        "Obtener ECG de 12 derivaciones y medir QTc cada 4‑6 h",
+        "Monitorear potasio y magnesio cada 12 h; notificar valores fuera de rango",
+        "Mantener acceso venoso para administración rápida de magnesio",
+        "Evaluar signos de inestabilidad hemodinámica (presión arterial, nivel de conciencia)",
+        "Documentar cualquier palpitación o síncope"
+      ],
+      "patient_teaching": [
+        "Informar que debe informar a todos los profesionales de salud sobre su historial de QT prolongado",
+        "Evitar automedicarse con antibióticos, antiinflamatorios o antipsicóticos sin consultar",
+        "Mantener una dieta rica en potasio (plátanos, papas) y magnesio (frutos secos)",
+        "Reportar palpitaciones, mareos o síncopes inmediatamente"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Uso de fármacos bloqueadores de canales de potasio",
+          "Hipopotasemia",
+          "Hipomagnesemia",
+          "Bradicardia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: mantener K⁺ 3.5‑5.0 mEq/L y Mg²⁺ 1.5‑2.5 mEq/L",
+          "Ritmo cardíaco estable: QTc dentro de límites normales"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles séricos de potasio y magnesio cada 12 h",
+            "rationale": "Detectar y corregir rápidamente desequilibrios que prolongan el QT"
+          },
+          {
+            "action": "Administrar magnesio sulfato IV según prescripción cuando Mg²⁺ <1.5 mEq/L",
+            "rationale": "El magnesio estabiliza la membrana y previene torsade"
+          },
+          {
+            "action": "Revisar y notificar al médico cualquier medicación que prolongue QT",
+            "rationale": "Eliminar la causa farmacológica es esencial para normalizar el QT"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en K⁺ y Mg²⁺",
+            "rationale": "Promueve el mantenimiento de electrolitos dentro del rango normal"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "QTc prolongado >500 ms",
+          "Torsade de pointes potencial",
+          "Bradicardia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cardíaca adecuada: presión arterial sistólica ≥110 mmHg sin hipotensión",
+          "Sin episodios de arritmia ventricular sostenida"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar ECG continuo y registrar QTc cada 4 h",
+            "rationale": "Detectar cambios tempranos que puedan comprometer la perfusión"
+          },
+          {
+            "action": "Mantener acceso venoso y estar preparado para administrar antiarrítmicos o realizar pacing",
+            "rationale": "Permite intervención rápida ante torsade o colapso hemodinámico"
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (pulso, coloración, capilar) cada turno",
+            "rationale": "Identifica deterioro circulatorio temprano"
+          },
+          {
+            "action": "Informar al equipo de salud sobre el riesgo de arritmia y necesidad de vigilancia intensiva",
+            "rationale": "Facilita la coordinación y respuesta oportuna"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Prolongation of the QT interval (QTc prolongation)",
+    "aliases": [
+      "qt",
+      "prolongation qt",
+      "qtc",
+      "qt interval",
+      "torsade"
+    ],
+    "summary": "Prolongation of the QT interval on the ECG increases the risk of serious ventricular arrhythmias, such as torsades de pointes. It can be induced by medications, electrolyte disturbances, or heart disease.",
+    "key_points": [
+      "QTc > 450 ms in men or > 470 ms in women is abnormal",
+      "Potassium channel blocking drugs (class III) are the main culprits",
+      "Hypokalemia, hypomagnesemia, and bradycardia increase the risk",
+      "Torsades de pointes is the most feared complication",
+      "Management includes removing the offending agent and correcting electrolytes"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Blocking potassium channels delays ventricular repolarization",
+        "The prolonged phase 3 increases QTc duration",
+        "Greater heterogeneity of recovery creates a reentry circuit"
+      ],
+      "risk_factors": [
+        "Use of class III antiarrhythmics (sotalol, amiodarone, dofetilide)",
+        "Non‑cardiac drugs that prolong QT (antipsychotics, macrolides, fluoroquinolones)",
+        "Hypokalemia (<3.5 mEq/L) or hypomagnesemia (<1.5 mEq/L)",
+        "Bradycardia <60 bpm",
+        "Structural heart disease"
+      ],
+      "signs_symptoms": [
+        "Palpitations or sensation of irregular beats",
+        "Syncope or sudden dizziness",
+        "Heart failure symptoms if sustained arrhythmia occurs"
+      ],
+      "diagnostics": [
+        "ECG: corrected QTc >450 ms (men) or >470 ms (women)",
+        "Serum electrolytes: K⁺ 3.5‑5.0 mEq/L, Mg²⁺ 1.5‑2.5 mEq/L",
+        "Liver and kidney function tests if drugs are metabolized"
+      ],
+      "treatment": [
+        "Discontinue or replace the drug that prolongs QT",
+        "Replace potassium and magnesium orally or IV until normal range",
+        "Magnesium sulfate 1‑2 g IV bolus for torsades",
+        "Continuous ECG and QTc monitoring",
+        "Consider transcutaneous pacing or isoproterenol if torsades persist"
+      ],
+      "complications": [
+        "Torsades de pointes (polymorphic ventricular tachycardia)",
+        "Ventricular fibrillation and sudden death"
+      ],
+      "nursing_care": [
+        "Obtain a 12‑lead ECG and measure QTc every 4‑6 h",
+        "Monitor potassium and magnesium every 12 h; notify out‑of‑range values",
+        "Maintain venous access for rapid magnesium administration",
+        "Assess for hemodynamic instability (blood pressure, level of consciousness)",
+        "Document any palpitations or syncope"
+      ],
+      "patient_teaching": [
+        "Inform that they must notify all health professionals of their prolonged QT history",
+        "Avoid self‑medicating with antibiotics, NSAIDs, or antipsychotics without consulting",
+        "Maintain a potassium‑rich diet (bananas, potatoes) and magnesium‑rich foods (nuts)",
+        "Report palpitations, dizziness, or syncope immediately"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Use of potassium channel blocking drugs",
+          "Hypokalemia",
+          "Hypomagnesemia",
+          "Bradycardia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: maintain K⁺ 3.5‑5.0 mEq/L and Mg²⁺ 1.5‑2.5 mEq/L",
+          "Stable cardiac rhythm: QTc within normal limits"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum potassium and magnesium levels every 12 h",
+            "rationale": "Detect and correct imbalances that prolong the QT"
+          },
+          {
+            "action": "Administer IV magnesium sulfate as prescribed when Mg²⁺ <1.5 mEq/L",
+            "rationale": "Magnesium stabilizes the membrane and prevents torsades"
+          },
+          {
+            "action": "Review and notify the physician of any QT‑prolonging medication",
+            "rationale": "Eliminating the pharmacologic cause is essential to normalize the QT"
+          },
+          {
+            "action": "Educate the patient about foods rich in K⁺ and Mg²⁺",
+            "rationale": "Promotes maintenance of electrolytes within the normal range"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "QTc >500 ms",
+          "Potential torsades de pointes",
+          "Bradycardia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate cardiac perfusion: systolic blood pressure ≥110 mmHg without hypotension",
+          "No sustained ventricular arrhythmia episodes"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor continuous ECG and record QTc every 4 h",
+            "rationale": "Detect early changes that may compromise perfusion"
+          },
+          {
+            "action": "Maintain venous access and be prepared to administer antiarrhythmics or perform pacing",
+            "rationale": "Allows rapid intervention for torsades or hemodynamic collapse"
+          },
+          {
+            "action": "Assess peripheral perfusion signs (pulse, color, capillary refill) each shift",
+            "rationale": "Identifies early circulatory deterioration"
+          },
+          {
+            "action": "Inform the health team of the arrhythmia risk and need for intensive monitoring",
+            "rationale": "Facilitates coordination and timely response"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "torsade-de-pointes",
+    "electrolyte-imbalance",
+    "cardiac-arrhythmia"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Class III: Potassium Channel Blockers",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/17-4-class-iii-potassium-channel-blockers",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anti-Parkinsonian Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-2-anti-parkinsonian-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17"
+}

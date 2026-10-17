@@ -1,0 +1,490 @@
+{
+  "id": "hypoxia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipoxia",
+    "aliases": [
+      "hipoxia",
+      "baja oxigenación",
+      "hipoxemia",
+      "falta de oxígeno",
+      "hipoxia tisular"
+    ],
+    "summary": "Disminución de la oxigenación tisular que compromete la función celular. Puede originarse por causas respiratorias, cardíacas o anemia.",
+    "key_points": [
+      "Hipoxia = insuficiente suministro de O₂ a los tejidos.",
+      "Se diferencia de hipoxemia (bajo PaO2 en sangre).",
+      "Signos tempranos: ansiedad, confusión, taquicardia.",
+      "Cianosis y disminución de SpO2 indican hipoxia avanzada.",
+      "El tratamiento incluye oxigenoterapia y corrección de la causa subyacente."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución del PaO2 o de la perfusión sanguínea reduce la entrega de O₂.",
+        "La hipoxia celular altera la producción de ATP y genera acidosis láctica.",
+        "El cuerpo compensa con hiperventilación y aumento de la frecuencia cardíaca."
+      ],
+      "risk_factors": [
+        "Enfermedades pulmonares crónicas (EPOC, asma).",
+        "Insuficiencia cardíaca o shock.",
+        "Anemia severa (Hb <7 g/dL).",
+        "Altitud elevada o exposición a gases tóxicos."
+      ],
+      "signs_symptoms": [
+        "Ansiedad, confusión, agitación.",
+        "Taquipnea y taquicardia.",
+        "Disminución de SpO2 (<90%).",
+        "Cianosis de labios y uñas."
+      ],
+      "diagnostics": [
+        "ABG: PaO2 <80 mmHg, SaO2 <90%.",
+        "Pulse oximetry: SpO2 <90%.",
+        "Gasometría capilar si ABG no disponible.",
+        "Hemograma: descartar anemia."
+      ],
+      "treatment": [
+        "Oxígeno suplementario por máscara o cánula nasal.",
+        "Ventilación mecánica si hipoxia severa.",
+        "Tratar causa subyacente (broncodilatadores, transfusión).",
+        "Monitorizar signos vitales y gases arteriales."
+      ],
+      "complications": [
+        "Insuficiencia respiratoria aguda.",
+        "Daño cerebral por hipoxia prolongada.",
+        "Arritmias cardíacas.",
+        "Muerte si no se corrige."
+      ],
+      "nursing_care": [
+        "Evaluar SpO2 y frecuencia respiratoria cada 15‑30 min.",
+        "Colocar al paciente en posición semi‑Fowler para facilitar la expansión pulmonar.",
+        "Administrar oxígeno según prescripción y verificar ajuste de la máscara.",
+        "Observar cambios en nivel de conciencia y coloración de piel."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de usar el oxígeno según indicaciones.",
+        "Instruir sobre técnicas de respiración profunda y uso del incentive spirometer.",
+        "Advertir signos de empeoramiento: dificultad para respirar, cianosis.",
+        "Fomentar evitar ambientes con humo o altitud alta sin supervisión."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deterioro del intercambio de gases",
+        "type": "actual",
+        "related_to": [
+          "hipoxemia",
+          "insuficiencia cardíaca",
+          "enfermedad pulmonar crónica"
+        ],
+        "evidenced_by": [
+          "SpO2 <90%",
+          "PaO2 <80 mmHg",
+          "taquipnea",
+          "cianosis"
+        ],
+        "outcomes": [
+          "Intercambio gaseoso: PaO2 ≥80 mmHg en 24 h",
+          "Oxigenación: SpO2 ≥92% en reposo en 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar oxígeno suplementario según orden médica.",
+            "rationale": "Aumenta la fracción inspirada de O₂ y mejora la saturación."
+          },
+          {
+            "action": "Monitorizar SpO2 y frecuencia respiratoria cada 15 min.",
+            "rationale": "Detecta rápidamente deterioro o mejoría del estado respiratorio."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑Fowler.",
+            "rationale": "Facilita la expansión pulmonar y reduce el trabajo respiratorio."
+          },
+          {
+            "action": "Evaluar y registrar nivel de conciencia cada hora.",
+            "rationale": "La hipoxia afecta el SNC; cambios indican necesidad de intervención."
+          },
+          {
+            "action": "Educar al paciente sobre el uso correcto del dispositivo de oxígeno.",
+            "rationale": "Garantiza adherencia y evita interrupciones del suministro."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "hipoxia",
+          "insuficiencia cardíaca",
+          "hipotensión",
+          "anemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cardíaca: frecuencia cardíaca <100 lpm en reposo en 48 h",
+          "Presión arterial: MAP ≥65 mmHg en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial y frecuencia cardíaca cada 30 min.",
+            "rationale": "Detecta signos tempranos de perfusión inadecuada."
+          },
+          {
+            "action": "Mantener hidratación adecuada según orden médica.",
+            "rationale": "Previene hipovolemia que empeora la perfusión coronaria."
+          },
+          {
+            "action": "Administrar medicamentos vasoactivos según prescripción.",
+            "rationale": "Mejora la presión arterial y el flujo coronario."
+          },
+          {
+            "action": "Evaluar dolor torácico y nivel de actividad física.",
+            "rationale": "El dolor o el esfuerzo pueden indicar isquemia por mala perfusión."
+          },
+          {
+            "action": "Enseñar al paciente signos de perfusión insuficiente (palidez, mareos).",
+            "rationale": "Facilita la detección temprana y la búsqueda de ayuda."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hypoxia (HYP)",
+    "aliases": [
+      "hypoxia",
+      "low oxygenation",
+      "hypoxemia",
+      "lack of oxygen",
+      "tissue hypoxia"
+    ],
+    "summary": "Decreased tissue oxygenation that compromises cellular function. It can originate from respiratory, cardiac, or anemic causes.",
+    "key_points": [
+      "Hypoxia = insufficient O₂ supply to tissues.",
+      "It differs from hypoxemia (low PaO2 in blood).",
+      "Early signs: anxiety, confusion, tachycardia.",
+      "Cyanosis and decreased SpO2 indicate advanced hypoxia.",
+      "Treatment includes oxygen therapy and correction of the underlying cause."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced PaO2 or blood perfusion decreases O₂ delivery.",
+        "Cellular hypoxia alters ATP production and generates lactic acidosis.",
+        "The body compensates with hyperventilation and increased heart rate."
+      ],
+      "risk_factors": [
+        "Chronic pulmonary diseases (COPD, asthma).",
+        "Heart failure or shock.",
+        "Severe anemia (Hb <7 g/dL).",
+        "High altitude or exposure to toxic gases."
+      ],
+      "signs_symptoms": [
+        "Anxiety, confusion, agitation.",
+        "Tachypnea and tachycardia.",
+        "Decreased SpO2 (<90%).",
+        "Cyanosis of lips and nails."
+      ],
+      "diagnostics": [
+        "ABG: PaO2 <80 mmHg, SaO2 <90%.",
+        "Pulse oximetry: SpO2 <90%.",
+        "Capillary gas if ABG unavailable.",
+        "CBC: rule out anemia."
+      ],
+      "treatment": [
+        "Supplemental oxygen via mask or nasal cannula.",
+        "Mechanical ventilation if severe hypoxia.",
+        "Treat underlying cause (bronchodilators, transfusion).",
+        "Monitor vital signs and arterial gases."
+      ],
+      "complications": [
+        "Acute respiratory failure.",
+        "Brain damage from prolonged hypoxia.",
+        "Cardiac arrhythmias.",
+        "Death if not corrected."
+      ],
+      "nursing_care": [
+        "Assess SpO2 and respiratory rate every 15‑30 min.",
+        "Place patient in semi‑Fowler position to facilitate lung expansion.",
+        "Administer oxygen per prescription and verify mask fit.",
+        "Observe changes in level of consciousness and skin color."
+      ],
+      "patient_teaching": [
+        "Explain the importance of using oxygen as directed.",
+        "Instruct on deep breathing techniques and incentive spirometry use.",
+        "Warn signs of worsening: shortness of breath, cyanosis.",
+        "Encourage avoidance of smoke or high altitude environments without supervision."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Impaired gas exchange",
+        "type": "actual",
+        "related_to": [
+          "hypoxemia",
+          "heart failure",
+          "chronic pulmonary disease"
+        ],
+        "evidenced_by": [
+          "SpO2 <90%",
+          "PaO2 <80 mmHg",
+          "tachypnea",
+          "cyanosis"
+        ],
+        "outcomes": [
+          "Gas exchange: PaO2 ≥80 mmHg within 24 h",
+          "Oxygenation: SpO2 ≥92% at rest within 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Apply supplemental oxygen as ordered.",
+            "rationale": "Increases inspired O₂ fraction and improves saturation."
+          },
+          {
+            "action": "Monitor SpO2 and respiratory rate every 15 min.",
+            "rationale": "Detects rapid deterioration or improvement in respiratory status."
+          },
+          {
+            "action": "Place patient in semi‑Fowler position.",
+            "rationale": "Facilitates lung expansion and reduces work of breathing."
+          },
+          {
+            "action": "Assess and record level of consciousness hourly.",
+            "rationale": "Hypoxia affects the CNS; changes indicate need for intervention."
+          },
+          {
+            "action": "Educate patient on proper use of oxygen device.",
+            "rationale": "Ensures adherence and prevents supply interruptions."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypoxia",
+          "heart failure",
+          "hypotension",
+          "anemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac perfusion: heart rate <100 bpm at rest within 48 h",
+          "Blood pressure: MAP ≥65 mmHg within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 30 min.",
+            "rationale": "Detects early signs of inadequate perfusion."
+          },
+          {
+            "action": "Maintain adequate hydration per orders.",
+            "rationale": "Prevents hypovolemia that worsens coronary perfusion."
+          },
+          {
+            "action": "Administer vasoactive medications as prescribed.",
+            "rationale": "Improves blood pressure and coronary flow."
+          },
+          {
+            "action": "Assess chest pain and level of physical activity.",
+            "rationale": "Pain or exertion may indicate ischemia from poor perfusion."
+          },
+          {
+            "action": "Teach patient signs of insufficient perfusion (pallor, dizziness).",
+            "rationale": "Facilitates early detection and help-seeking."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoxemia",
+    "respiratory-failure",
+    "anemia",
+    "cardiac-output"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Coma",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/coma.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Basic Terms of Fetal Heart Rate and Contraction Patterns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/16-1-basic-terms-of-fetal-heart-rate-and-contraction-patterns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17",
+  "factcheck": {
+    "checked": "2026-10-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 24,
+      "contradicted": 1,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Hypoxia A reduced level of tissue oxygenation is the definition of hypoxia .",
+        "source": 2
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Hypoxia has many causes, ranging from respiratory and cardiac conditions to anemia.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "A specific type of hypoxia is hypoxemia , defined as decreased partial pressure of oxygen in the blood (PaO 2 ) indicated in an ABG result.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "contradicted",
+        "quote": "Early signs of hypoxia are anxiety, confusion, and restlessness.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Pathophysiological changes from diseases such as asthma or chronic obstructive pulmonary disease can alter the structure of the airways and the processes and effectiveness involved in gas exchange .",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Certain pathological changes to normal physiology, like asthma, heart failure (HF), chronic obstructive pulmonary disease (COPD), hypercapnia (elevated CO 2 ), and anxiety, may contribute to dyspneic episodes.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Disturbed function may arise from a variety of issues, including microbial invasions, exposure to noxious or toxic gases, and injuries.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Early signs of hypoxia are anxiety, confusion, and restlessness.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Examples of poor perfusion include deterioration of vital sign s, which may include tachycardia (heart rate over 100 beats per minute), hypotension (low blood pressure, e.g., under 90 systolic), abnormal body temperature, tachypnea (respiratory rate over 20 breaths per minute), mental status or level of consciousness changes that may range from slight confusion to lethargy to unconsciousness, peripheral edema, potentially adventitious breath soun",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Late signs of hypoxia include bluish discoloration of the skin and mucous membranes called cyanosis .",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Respiration is a critical function and is included as one of the vital signs, which most commonly include respiratory rate, heart rate, temperature, and blood pressure.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "As hypoxia worsens, the patient’s level of consciousness and vital signs will worsen with an increased respiratory rate and heart rate and decreased pulse oximetry readings.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Nurses and respiratory therapists (RTs) instruct patients on the use of the incentive spirometer, which involves slow, deep breaths, often subsequent coughing, and tends to improve pulmonary function.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Late signs of hypoxia include bluish discoloration of the skin and mucous membranes called cyanosis .",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

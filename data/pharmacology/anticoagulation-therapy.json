@@ -1,0 +1,333 @@
+{
+  "id": "anticoagulation-therapy",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Warfarina",
+    "aliases": [
+      "warfarina",
+      "anticoagulante oral",
+      "ac",
+      "anticoagulación",
+      "warfarin"
+    ],
+    "summary": "Antagonista de la vitamina K que inhibe la síntesis hepática de los factores de coagulación II, VII, IX y X. Se usa para prevenir y tratar trombosis y embolias.",
+    "key_points": [
+      "Monitoreo del INR es esencial; rango terapéutico típico 2‑3 o 2.5‑3.5 según indicación.",
+      "Interacciones con muchos fármacos y alimentos ricos en vitamina K pueden alterar el INR.",
+      "Efecto anticoagulante se manifiesta en 48‑72 h; no es útil para urgencias.",
+      "Antídoto: vitamina K y concentrados de complejos protrombínicos."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea la reciclación de la vitamina K en el hígado, impidiendo la carboxilación de los factores II, VII, IX y X."
+      ],
+      "indications": [
+        "Prevención de tromboembolismo venoso (TVP, embolia pulmonar).",
+        "Prevención de accidente cerebrovascular en fibrilación auricular no valvular.",
+        "Trombosis de válvulas mecánicas y prótesis valvulares."
+      ],
+      "contraindications": [
+        "Hemorragia activa o riesgo alto de sangrado.",
+        "Embarazo (tercer trimestre) y lactancia.",
+        "Hipertensión intracraneal no controlada."
+      ],
+      "adverse_effects": [
+        "Hemorragia gastrointestinal (común).",
+        "Equimosis y hematomas (comunes).",
+        "Necrosis cutánea (seria).",
+        "Hepatotoxicidad (seria)."
+      ],
+      "interactions": [
+        "Aumento del INR con antibióticos (sulfonamidas, macrólidos).",
+        "Reducción del INR con inductores hepáticos (rifampicina, carbamazepina).",
+        "Potenciación del efecto con antiinflamatorios no esteroideos (AINE)."
+      ],
+      "nursing_care": [
+        "Obtener INR basal antes de iniciar y 2‑3 días después de cambios de dosis.",
+        "Retener dosis si INR > 4.5 y notificar al médico.",
+        "Monitorear signos de sangrado: hematuria, melena, sangrado gingival.",
+        "Mantener dieta constante en alimentos con vitamina K (verduras de hoja verde)."
+      ],
+      "patient_teaching": [
+        "Informar que la terapia requiere control frecuente de INR en laboratorio.",
+        "Evitar cambios bruscos en consumo de verduras verdes y suplementos de vitamina K.",
+        "Reportar cualquier sangrado inusual o moretones extensos.",
+        "No iniciar medicamentos sin consultar al profesional de salud."
+      ],
+      "antidote_overdose": [
+        "Vitamina K 10 mg‑10 g vía oral o IV según gravedad.",
+        "Concentrados de complejos protrombínicos (PCC) para sangrado grave o INR > 6."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de anticoagulantes",
+          "procedimientos invasivos",
+          "alteraciones de la coagulación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Riesgo de sangrado: sin evidencia de hemorragia activa en 48 h",
+          "INR dentro del rango terapéutico durante 5 días consecutivos"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar el INR antes de cada dosis según orden médica",
+            "rationale": "Permite ajustar la dosis y prevenir sangrado excesivo."
+          },
+          {
+            "action": "Evaluar signos de sangrado cada turno (pérdida de sangre, hematomas, sangrado gingival)",
+            "rationale": "Detección temprana de complicaciones hemorrágicas."
+          },
+          {
+            "action": "Retener la dosis de warfarina y notificar al médico si INR > 4.5 o sangrado activo",
+            "rationale": "Reduce el riesgo de hemorragia grave."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de una dieta constante en vitamina K",
+            "rationale": "Evita fluctuaciones del INR por cambios dietéticos."
+          },
+          {
+            "action": "Revisar lista de medicamentos y suplementos antes de administrar warfarina",
+            "rationale": "Identifica interacciones que puedan alterar el efecto anticoagulante."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Warfarin (US Brand)",
+    "aliases": [
+      "warfarin",
+      "oral anticoagulant",
+      "ac",
+      "anticoagulation"
+    ],
+    "summary": "Vitamin K antagonist that inhibits hepatic synthesis of clotting factors II, VII, IX, and X. Used to prevent and treat thrombosis and emboli.",
+    "key_points": [
+      "INR monitoring is essential; typical therapeutic range 2‑3 or 2.5‑3.5 depending on indication.",
+      "Interactions with many drugs and vitamin K‑rich foods can alter INR.",
+      "Anticoagulant effect manifests in 48‑72 h; not useful for emergencies.",
+      "Antidote: vitamin K and prothrombin complex concentrates."
+    ],
+    "sections": {
+      "mechanism": [
+        "Blocks recycling of vitamin K in the liver, preventing carboxylation of factors II, VII, IX, and X."
+      ],
+      "indications": [
+        "Prevention of venous thromboembolism (DVT, pulmonary embolism).",
+        "Prevention of stroke in non‑valvular atrial fibrillation.",
+        "Thrombosis of mechanical valves and valve prostheses."
+      ],
+      "contraindications": [
+        "Active bleeding or high risk of bleeding.",
+        "Pregnancy (third trimester) and lactation.",
+        "Uncontrolled intracranial hypertension."
+      ],
+      "adverse_effects": [
+        "Gastrointestinal bleeding (common).",
+        "Bruising and hematomas (common).",
+        "Cutaneous necrosis (serious).",
+        "Hepatotoxicity (serious)."
+      ],
+      "interactions": [
+        "INR increase with antibiotics (sulfonamides, macrolides).",
+        "INR decrease with hepatic inducers (rifampin, carbamazepine).",
+        "Potentiation with non‑steroidal anti‑inflammatories (NSAIDs)."
+      ],
+      "nursing_care": [
+        "Obtain baseline INR before starting and 2‑3 days after dose changes.",
+        "Hold dose if INR > 4.5 and notify provider.",
+        "Monitor for bleeding signs: hematuria, melena, gingival bleeding.",
+        "Maintain consistent intake of vitamin K‑rich foods (leafy greens)."
+      ],
+      "patient_teaching": [
+        "Inform that therapy requires frequent INR checks in the lab.",
+        "Avoid abrupt changes in green vegetable intake and vitamin K supplements.",
+        "Report any unusual bleeding or extensive bruising.",
+        "Do not start new medications without consulting a health professional."
+      ],
+      "antidote_overdose": [
+        "Vitamin K 10 mg‑10 g orally or IV as severity dictates.",
+        "Prothrombin complex concentrates for severe bleeding or INR > 6."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "use of anticoagulants",
+          "invasive procedures",
+          "coagulation abnormalities"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Risk of bleeding: no evidence of active hemorrhage in 48 h",
+          "INR within therapeutic range for 5 consecutive days"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record INR before each dose per provider order",
+            "rationale": "Allows dose adjustment and prevents excessive bleeding."
+          },
+          {
+            "action": "Assess for bleeding signs each shift (blood loss, bruising, gingival bleeding)",
+            "rationale": "Early detection of hemorrhagic complications."
+          },
+          {
+            "action": "Hold warfarin dose and notify provider if INR > 4.5 or active bleeding",
+            "rationale": "Reduces risk of severe hemorrhage."
+          },
+          {
+            "action": "Educate patient on importance of consistent vitamin K diet",
+            "rationale": "Prevents INR fluctuations due to dietary changes."
+          },
+          {
+            "action": "Review medication and supplement list before administering warfarin",
+            "rationale": "Identifies interactions that may alter anticoagulant effect."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bleeding",
+    "coagulation-cascade",
+    "inr-monitoring",
+    "vitamin-k-antagonists"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Feminizing Hormonal Therapy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/37-2-feminizing-hormonal-therapy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Pain Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/30-5-pain-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-17",
+  "factcheck": {
+    "checked": "2026-10-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 30
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Common side effects of NSAIDs include nausea and vomiting, gastrointestinal bleeding, and kidney failure.",
+        "source": 1
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.1": {
+        "status": "not_found"
+      }
+    }
+  }
+}
