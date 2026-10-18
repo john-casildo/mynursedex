@@ -1,0 +1,384 @@
+{
+  "id": "naloxone",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Naloxona",
+    "aliases": [
+      "naloxona",
+      "antagonista opioide",
+      "sobredosis opioide",
+      "reversor opioide",
+      "narcan",
+      "naloxone hydrochloride",
+      "zubsolv",
+      "bunavail",
+      "kloxxado",
+      "zimhi",
+      "rextovy",
+      "rezenopy"
+    ],
+    "summary": "La naloxona es un antagonista de los receptores mu opioides que revierte rápidamente la depresión respiratoria por sobredosis de opioides.",
+    "key_points": [
+      "Se administra por vía intranasal, intramuscular o intravenosa en emergencias.",
+      "Su efecto dura 30‑90 minutos, por lo que pueden requerirse dosis repetidas.",
+      "Puede precipitar síndrome de abstinencia aguda en pacientes dependientes.",
+      "Se debe monitorizar la respiración y la saturación de O₂ continuamente.",
+      "No sustituye la atención médica de urgencia; siempre se debe llamar a EMS."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea competitivamente los receptores mu opioides, impidiendo la unión del opioide.",
+        "Invierte la inhibición del centro respiratorio en el tronco encefálico.",
+        "No posee actividad agonista; su acción es puramente antagonista."
+      ],
+      "indications": [
+        "Tratamiento de emergencia de sobredosis conocida o sospechada de opioides.",
+        "Reversión de depresión respiratoria y del SNC por opioides.",
+        "Uso profiláctico en pacientes con alto riesgo de sobredosis (ej. terapia de sustitución)."
+      ],
+      "contraindications": [
+        "Hipersensibilidad conocida a la naloxona o a cualquiera de sus excipientes."
+      ],
+      "adverse_effects": [
+        "Náuseas, vómitos, sudoración, temblor.",
+        "Hipertensión, taquicardia, agitación (efectos comunes).",
+        "Síndrome de abstinencia aguda (dolor abdominal, diarrea, temblores) – serio.",
+        "Depresión respiratoria recurrente cuando el opioide persiste – serio."
+      ],
+      "interactions": [
+        "Opioides agonistas pueden reducir la duración del efecto de la naloxona.",
+        "Benzodiacepinas y otros depresores del SNC pueden mantener depresión respiratoria.",
+        "Uso concomitante con buprenorfina puede precipitar abstinencia severa."
+      ],
+      "nursing_care": [
+        "Evaluar vía aérea, frecuencia respiratoria y nivel de conciencia antes de administrar.",
+        "Administrar la dosis recomendada (ej. 2 mg spray nasal) y observar respuesta en 2‑5 min.",
+        "Monitorear signos vitales, saturación de O₂ y posible re‑depresión respiratoria.",
+        "Repetir dosis cada 2‑3 min si la depresión persiste, usando un nuevo dispositivo.",
+        "Notificar al médico inmediatamente después de la primera dosis y cada repetición."
+      ],
+      "patient_teaching": [
+        "Mantener el kit de naloxona en un lugar accesible y enseñar su uso correcto.",
+        "Llamar a emergencias (119) después de la administración, aun si la respiración mejora.",
+        "Informar que pueden presentarse síntomas de abstinencia (náuseas, temblores).",
+        "No reutilizar el dispositivo; desechar según indicaciones del fabricante."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "administración de naloxona",
+          "síntomas de abstinencia",
+          "vómitos",
+          "sudoración"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación adecuada: ingesta de líquidos ≥1500 mL/día",
+          "Equilibrio electrolítico: Na⁺ 135‑145 mEq/L y K⁺ 3.5‑5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar peso y signos de deshidratación antes y después de la administración.",
+            "rationale": "Detectar pérdida de líquidos por vómitos o sudoración."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 4 horas.",
+            "rationale": "Facilita el control del balance hídrico."
+          },
+          {
+            "action": "Ofrecer líquidos claros cada 30 min si el paciente está alerta y sin riesgo de aspiración.",
+            "rationale": "Previene el déficit de volumen y mantiene la perfusión tisular."
+          },
+          {
+            "action": "Monitorear electrolitos (Na⁺, K⁺) al menos 24 h después de la dosis.",
+            "rationale": "Identificar desequilibrios derivados de pérdidas gastrointestinales."
+          },
+          {
+            "action": "Notificar al médico si se observa hipotensión, taquicardia o signos de deshidratación severa.",
+            "rationale": "Permite intervención temprana y ajuste de terapia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Naloxone",
+    "aliases": [
+      "naloxone",
+      "opioid antagonist",
+      "opioid overdose",
+      "opioid reversal",
+      "narcan",
+      "naloxone hydrochloride",
+      "zubsolv",
+      "bunavail",
+      "kloxxado",
+      "zimhi",
+      "rextovy",
+      "rezenopy"
+    ],
+    "summary": "Naloxone is an opioid mu receptor antagonist that rapidly reverses respiratory depression caused by opioid overdose.",
+    "key_points": [
+      "Administered intranasally, intramuscularly, or intravenously in emergencies.",
+      "Its effect lasts 30‑90 minutes, so repeat doses may be required.",
+      "It can precipitate acute withdrawal in opioid‑dependent patients.",
+      "Respiration and O₂ saturation must be continuously monitored.",
+      "It does not replace emergency medical care; EMS should always be called."
+    ],
+    "sections": {
+      "mechanism": [
+        "Competes for mu opioid receptors, blocking opioid binding.",
+        "Reverses inhibition of the respiratory center in the brainstem.",
+        "Has no agonist activity; its action is purely antagonistic."
+      ],
+      "indications": [
+        "Emergency treatment of known or suspected opioid overdose.",
+        "Reversal of respiratory and CNS depression from opioids.",
+        "Prophylactic use in patients at high risk of overdose (e.g., substitution therapy)."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to naloxone or any of its excipients."
+      ],
+      "adverse_effects": [
+        "Nausea, vomiting, sweating, tremor.",
+        "Hypertension, tachycardia, agitation (common effects).",
+        "Acute withdrawal syndrome (abdominal pain, diarrhea, tremors) – serious.",
+        "Recurrent respiratory depression when the opioid persists – serious."
+      ],
+      "interactions": [
+        "Opioid agonists can shorten naloxone’s duration of action.",
+        "Benzodiazepines and other CNS depressants may maintain respiratory depression.",
+        "Concurrent use with buprenorphine can precipitate severe withdrawal."
+      ],
+      "nursing_care": [
+        "Assess airway, respiratory rate, and level of consciousness before administration.",
+        "Give the recommended dose (e.g., 2 mg intranasal spray) and observe response in 2‑5 min.",
+        "Monitor vital signs, O₂ saturation, and possible re‑depression of respiration.",
+        "Repeat dose every 2‑3 min if depression persists, using a new device.",
+        "Notify the physician immediately after the first dose and each repeat."
+      ],
+      "patient_teaching": [
+        "Keep the naloxone kit in an accessible place and teach proper use.",
+        "Call emergency services (119) after administration, even if breathing improves.",
+        "Inform that withdrawal symptoms (nausea, tremors) may occur.",
+        "Do not reuse the device; discard per manufacturer instructions."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "naloxone administration",
+          "withdrawal symptoms",
+          "vomiting",
+          "sweating"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate hydration: fluid intake ≥1500 mL/day",
+          "Electrolyte balance: Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Assess weight and signs of dehydration before and after administration.",
+            "rationale": "Detect fluid loss from vomiting or sweating."
+          },
+          {
+            "action": "Record fluid intake and output every 4 hours.",
+            "rationale": "Facilitates fluid balance monitoring."
+          },
+          {
+            "action": "Offer clear fluids every 30 min if the patient is alert and at low aspiration risk.",
+            "rationale": "Prevents volume deficit and maintains tissue perfusion."
+          },
+          {
+            "action": "Monitor electrolytes (Na⁺, K⁺) at least 24 h after the dose.",
+            "rationale": "Identify imbalances from gastrointestinal losses."
+          },
+          {
+            "action": "Notify the physician if hypotension, tachycardia, or severe dehydration signs appear.",
+            "rationale": "Allows early intervention and therapy adjustment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-overdose",
+    "respiratory-depression",
+    "opioid-withdrawal",
+    "mu-opioid-receptor",
+    "naloxone-nasal-spray"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: NALOXONE HYDROCHLORIDE label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0b3b5214-6f91-4bba-82d6-d57b16845df5",
+      "lang": "en"
+    },
+    {
+      "name": "RxNorm: naloxone",
+      "publisher": "National Library of Medicine",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=7242",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Agonists and Antagonists",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-18",
+  "factcheck": {
+    "checked": "2026-10-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 13,
+      "contradicted": 2,
+      "total": 29
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Naloxone is the prototypical mu opioid receptor antagonist used to rapidly reverse the life-threatening effects of opioid overdose.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Naloxone can be given intravenously, intramuscularly, or intranasally.",
+        "source": 3
+      },
+      "key_points.1": {
+        "status": "contradicted",
+        "quote": "Importantly, naloxone has a duration of action of only approximately 20–30 minutes."
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Use in patients who are opioid dependent may precipitate opioid withdrawal.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Always seek emergency medical assistance in the event of a suspected, potentially life-threatening opioid emergency after administration of the first dose of Naloxone HCl Nasal Spray.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Naloxone HCl Nasal Spray is indicated for the emergency treatment of known or suspected opioid overdose, as manifested by respiratory and/or central nervous system depression.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Naloxone HCl Nasal Spray is indicated for the emergency treatment of known or suspected opioid overdose, as manifested by respiratory and/or central nervous system depression."
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "Naloxone HCl Nasal Spray is contraindicated in patients known to be hypersensitive to naloxone hydrochloride or to any of the other ingredients.",
+        "source": 0
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Abrupt postoperative reversal of opioid depression after using naloxone hydrochloride may result in nausea, vomiting, sweating, tremulousness, tachycardia, hypotension, hypertension, seizures, ventricular tachycardia and fibrillation, pulmonary edema, and cardiac arrest.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Signs and symptoms have included: body aches, fever, sweating, runny nose, sneezing, piloerection, yawning, weakness, shivering or trembling, nervousness, restlessness or irritability, diarrhea, nausea or vomiting, abdominal cramps, increased blood pressure, tachycardia.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "The duration of action of most opioids may exceed that of Naloxone HCl Nasal Spray resulting in a return of respiratory and/or central nervous system depression after an initial improvement in symptoms.",
+        "source": 0
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "supported",
+        "quote": "Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": 3
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "If additional Naloxone HCl Nasal Sprays are available, Steps 2 through 6 may be repeated every 2 to 3 minutes until the person responds or emergency medical help is received.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "contradicted",
+        "quote": "Turn patient on their side as shown in the Instructions for Use and call for emergency medical assistance immediately after administration of the first dose of Naloxone HCl Nasal Spray.",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Ensure that naloxone is readily available in the event of opioid toxicity or overdose.",
+        "source": 3
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Gastrointestinal effects of opioid withdrawal include severe abdominal cramping, diarrhea, nausea, and vomiting.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,471 @@
+{
+  "id": "stent-thrombosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trombosis de stent (TS)",
+    "aliases": [
+      "trombosis stent",
+      "trombosis de stent",
+      "stent trombosis",
+      "trombosis coronaria",
+      "trombosis post-angioplastia"
+    ],
+    "summary": "Obstrucción aguda del vaso coronario por un coágulo dentro del stent implantado, que puede producir infarto agudo de miocardio.",
+    "key_points": [
+      "Ocurre dentro de los 30 días posteriores a la implantación del stent.",
+      "Se asocia a interrupción de la terapia antiplaquetaria dual.",
+      "Presenta dolor torácico súbito, cambios en el ECG y elevación de marcadores cardíacos.",
+      "El tratamiento incluye revascularización urgente y terapia antiplaquetaria intensiva."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño endotelial por la angioplastia favorece la exposición de colágeno.",
+        "Activación plaquetaria y cascada de coagulación forman trombo dentro del stent.",
+        "El trombo bloquea el flujo coronario, provocando isquemia miocárdica."
+      ],
+      "risk_factors": [
+        "Suspensión o mala adherencia a clopidogrel/ticagrelor.",
+        "Diabetes mellitus, hipertensión y tabaquismo.",
+        "Stent de primera generación o longitud > 20 mm.",
+        "Historia previa de trombosis o síndrome de hipercoagulabilidad."
+      ],
+      "signs_symptoms": [
+        "Dolor torácico opresivo de inicio súbito.",
+        "Sudoración profusa, náuseas y disnea.",
+        "Cambios en el ECG: elevación del ST o depresión del ST.",
+        "Elevación de troponina I/T y CK‑MB."
+      ],
+      "diagnostics": [
+        "ECG de 12 derivaciones: elevación del ST en la zona del stent.",
+        "Marcadores cardíacos: troponina > 0.04 ng/mL, CK‑MB > 5 ng/mL.",
+        "Angiografía coronaria: trombo visible dentro del stent.",
+        "Hemograma: plaquetas normales o ligeramente disminuidas."
+      ],
+      "treatment": [
+        "Reperfusión urgente: angioplastia de rescate o trombólisis si PCI no está disponible.",
+        "Antiplaquetarios: clopidogrel 75 mg/día o ticagrelor 90 mg cada 12 h.",
+        "Anticoagulantes: heparina no fraccionada IV, objetivo aPTT 1.5‑2.5× control.",
+        "Terapia de soporte: oxígeno, analgesia con morfina, monitorización continua."
+      ],
+      "complications": [
+        "Infarto agudo de miocardio con necrosis miocárdica.",
+        "Arritmias ventriculares y fibrilación ventricular.",
+        "Shock cardiogénico y falla cardíaca aguda.",
+        "Reestenosis del stent a mediano plazo."
+      ],
+      "nursing_care": [
+        "Evaluar dolor torácico: intensidad, localización y factores desencadenantes.",
+        "Monitorear signos vitales cada 5‑15 min, presión arterial y frecuencia cardíaca.",
+        "Observar ECG continuo para detectar cambios isquémicos.",
+        "Controlar glucosa, electrolitos y coagulación (aPTT, INR).",
+        "Mantener acceso venoso de gran calibre para infusión de heparina y medicamentos."
+      ],
+      "patient_teaching": [
+        "Importancia de la terapia antiplaquetaria dual sin interrupciones.",
+        "Reconocer signos de alarma: dolor torácico, disnea, palpitaciones.",
+        "Adoptar estilo de vida saludable: dejar de fumar, controlar diabetes y presión arterial.",
+        "Programar visitas de seguimiento y pruebas de control de stent."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "trombosis de stent",
+          "isquemia miocárdica",
+          "infarto agudo de miocardio"
+        ],
+        "evidenced_by": [
+          "presión arterial sistólica < 100 mmHg",
+          "taquicardia > 100 lpm",
+          "disminución de saturación O2 < 95%",
+          "edema pulmonar en auscultación"
+        ],
+        "outcomes": [
+          "Presión arterial sistólica ≥ 100 mmHg en 24 h",
+          "Frecuencia cardíaca 60‑100 lpm en 12 h",
+          "Saturación de oxígeno ≥ 95% en 30 min"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 5 min",
+            "rationale": "Detectar deterioro hemodinámico precozmente"
+          },
+          {
+            "action": "Administrar oxígeno por cánula nasal a 2‑4 L/min para mantener SaO2 ≥ 95%",
+            "rationale": "Mejorar la oxigenación tisular"
+          },
+          {
+            "action": "Evaluar dolor torácico con escala numérica y reportar cambios al médico",
+            "rationale": "El dolor indica mayor consumo de oxígeno y posible empeoramiento"
+          },
+          {
+            "action": "Mantener acceso venoso y preparar heparina IV según orden médica",
+            "rationale": "Anticoagulación rápida reduce la extensión del trombo"
+          },
+          {
+            "action": "Registrar y reportar valores de troponina y CK‑MB cada 6 h",
+            "rationale": "Seguimiento de daño miocárdico para ajustar tratamiento"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "trombosis de stent",
+          "hipertensión",
+          "diabetes mellitus",
+          "tabaquismo",
+          "sedentarismo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Ausencia de dolor torácico durante la hospitalización",
+          "ECG sin cambios isquémicos en 48 h",
+          "Nivel de troponina estable dentro de rango normal"
+        ],
+        "interventions": [
+          {
+            "action": "Educar al paciente sobre la importancia de la terapia antiplaquetaria dual",
+            "rationale": "Previene la formación de nuevos trombos"
+          },
+          {
+            "action": "Reforzar adherencia a control de glucosa y presión arterial",
+            "rationale": "Reduce factores de riesgo de trombosis"
+          },
+          {
+            "action": "Promover actividad física ligera según tolerancia y orden médica",
+            "rationale": "Mejora la perfusión coronaria y la función cardiovascular"
+          },
+          {
+            "action": "Programar y verificar citas de seguimiento con cardiología",
+            "rationale": "Detección temprana de reestenosis o complicaciones"
+          },
+          {
+            "action": "Registrar signos de sangrado o hematomas en sitio de inyección de heparina",
+            "rationale": "Detectar complicaciones hemorrágicas que puedan interrumpir la anticoagulación"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Stent thrombosis (ST)",
+    "aliases": [
+      "stent thrombosis",
+      "stent thrombus",
+      "coronary thrombosis",
+      "post-angioplasty thrombosis"
+    ],
+    "summary": "Acute occlusion of a coronary vessel by a clot within an implanted stent, which can cause acute myocardial infarction.",
+    "key_points": [
+      "Occurs within 30 days after stent implantation.",
+      "Associated with interruption of dual antiplatelet therapy.",
+      "Presents with sudden chest pain, ECG changes, and elevated cardiac markers.",
+      "Treatment includes urgent revascularization and intensive antiplatelet therapy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Endothelial injury from angioplasty exposes collagen.",
+        "Platelet activation and coagulation cascade form a thrombus within the stent.",
+        "The thrombus blocks coronary flow, causing myocardial ischemia."
+      ],
+      "risk_factors": [
+        "Discontinuation or poor adherence to clopidogrel/ticagrelor.",
+        "Diabetes mellitus, hypertension, and smoking.",
+        "First‑generation stent or length > 20 mm.",
+        "History of thrombosis or hypercoagulable syndrome."
+      ],
+      "signs_symptoms": [
+        "Sudden onset of crushing chest pain.",
+        "Profuse sweating, nausea, and dyspnea.",
+        "ECG changes: ST elevation or depression.",
+        "Elevated troponin I/T and CK‑MB."
+      ],
+      "diagnostics": [
+        "12‑lead ECG: ST elevation in the stent zone.",
+        "Cardiac markers: troponin > 0.04 ng/mL, CK‑MB > 5 ng/mL.",
+        "Coronary angiography: thrombus visible within the stent.",
+        "CBC: normal or slightly decreased platelets."
+      ],
+      "treatment": [
+        "Urgent reperfusion: rescue angioplasty or thrombolysis if PCI unavailable.",
+        "Antiplatelets: clopidogrel 75 mg/day or ticagrelor 90 mg every 12 h.",
+        "Anticoagulants: unfractionated IV heparin, target aPTT 1.5‑2.5× control.",
+        "Supportive therapy: oxygen, morphine analgesia, continuous monitoring."
+      ],
+      "complications": [
+        "Acute myocardial infarction with myocardial necrosis.",
+        "Ventricular arrhythmias and ventricular fibrillation.",
+        "Cardiogenic shock and acute heart failure.",
+        "Mid‑term stent restenosis."
+      ],
+      "nursing_care": [
+        "Assess chest pain: intensity, location, and triggers.",
+        "Monitor vital signs every 5‑15 min, blood pressure and heart rate.",
+        "Observe continuous ECG for ischemic changes.",
+        "Check glucose, electrolytes, and coagulation (aPTT, INR).",
+        "Maintain large‑bore venous access for heparin infusion and medications."
+      ],
+      "patient_teaching": [
+        "Importance of uninterrupted dual antiplatelet therapy.",
+        "Recognize warning signs: chest pain, dyspnea, palpitations.",
+        "Adopt a healthy lifestyle: quit smoking, control diabetes and blood pressure.",
+        "Schedule follow‑up visits and stent surveillance tests."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "stent thrombosis",
+          "myocardial ischemia",
+          "acute myocardial infarction"
+        ],
+        "evidenced_by": [
+          "systolic blood pressure < 100 mmHg",
+          "tachycardia > 100 bpm",
+          "oxygen saturation < 95%",
+          "pulmonary edema on auscultation"
+        ],
+        "outcomes": [
+          "Systolic blood pressure ≥ 100 mmHg within 24 h",
+          "Heart rate 60‑100 bpm within 12 h",
+          "Oxygen saturation ≥ 95% within 30 min"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 5 min",
+            "rationale": "Detect early hemodynamic deterioration"
+          },
+          {
+            "action": "Administer oxygen via nasal cannula at 2‑4 L/min to maintain SaO2 ≥ 95%",
+            "rationale": "Improve tissue oxygenation"
+          },
+          {
+            "action": "Assess chest pain with numeric scale and report changes to the physician",
+            "rationale": "Pain indicates increased oxygen demand and possible worsening"
+          },
+          {
+            "action": "Maintain venous access and prepare IV heparin per order",
+            "rationale": "Rapid anticoagulation reduces thrombus extension"
+          },
+          {
+            "action": "Record and report troponin and CK‑MB values every 6 h",
+            "rationale": "Monitor myocardial injury to adjust treatment"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "stent thrombosis",
+          "hypertension",
+          "diabetes mellitus",
+          "smoking",
+          "sedentary lifestyle"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No chest pain during hospitalization",
+          "ECG without ischemic changes in 48 h",
+          "Troponin level stable within normal range"
+        ],
+        "interventions": [
+          {
+            "action": "Educate patient on the importance of dual antiplatelet therapy",
+            "rationale": "Prevents new thrombus formation"
+          },
+          {
+            "action": "Reinforce adherence to glucose and blood pressure control",
+            "rationale": "Reduces thrombotic risk factors"
+          },
+          {
+            "action": "Promote light physical activity as tolerated and per order",
+            "rationale": "Improves coronary perfusion and cardiovascular function"
+          },
+          {
+            "action": "Schedule and verify follow‑up appointments with cardiology",
+            "rationale": "Early detection of restenosis or complications"
+          },
+          {
+            "action": "Document signs of bleeding or hematomas at heparin injection site",
+            "rationale": "Detect hemorrhagic complications that may interrupt anticoagulation"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "myocardial-infarction",
+    "acute-coronary-syndrome",
+    "platelet-aggregation",
+    "stent-restenosis",
+    "antiplatelet-therapy"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Introduction to Clotting and Coagulation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-1-introduction-to-clotting-and-coagulation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-18",
+  "factcheck": {
+    "checked": "2026-10-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 31,
+      "contradicted": 2,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "These require treatment with two concomitant antiplatelet medications for a period of time after stent placement to prevent clots from forming on the stent.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "The intrinsic pathway is activated by collagen that is exposed when there is endothelial damage.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Risk factors for atherosclerotic stroke include male sex, family history of premature cardiovascular disease, hypercholesterolemia, cigarette smoking, hypertension, diabetes mellitus, obesity, and physical inactivity.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "While there are many ways to detect a myocardial infarction or coronary artery disease, clots can be directly visualized using coronary angiography during a left-heart catheterization.",
+        "source": 0
+      },
+      "sections.diagnostics.3": {
+        "status": "contradicted",
+        "quote": "It is characterized by an immune-mediated decrease in platelets, often with concomitant thrombosis.",
+        "source": 1
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "contradicted",
+        "quote": "Typically, monitoring of the anti-Xa level or PTT level is completed every 6 hours during an infusion.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

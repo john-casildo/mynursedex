@@ -1,0 +1,337 @@
+{
+  "id": "therapeutic-drug-monitoring",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Monitoreo terapéutico de fármacos (TDM)",
+    "aliases": [
+      "monitoreo",
+      "terapeutico",
+      "fármacos",
+      "tdm",
+      "niveles",
+      "dosis"
+    ],
+    "summary": "El TDM consiste en medir concentraciones plasmáticas de ciertos fármacos para asegurar que estén dentro del rango terapéutico y evitar toxicidad o ineficacia.",
+    "key_points": [
+      "Se aplica a fármacos con estrecho margen terapéutico y variabilidad farmacocinética.",
+      "Los niveles se obtienen en momentos específicos (pico o valle) según el fármaco.",
+      "Interpretar resultados requiere correlacionar con función renal, hepática y signos clínicos.",
+      "Ajustes de dosis se hacen bajo orden médica y con base en protocolos institucionales."
+    ],
+    "sections": {
+      "normal_values": [
+        "Vancomicina: 15‑20 µg/mL (valle)",
+        "Gentamicina: 5‑10 µg/mL (pico)",
+        "Digoxina: 0.5‑2 ng/mL",
+        "Teofilina: 10‑20 µg/mL",
+        "Carbamazepina: 4‑12 µg/mL"
+      ],
+      "high_values": [
+        "Vancomicina >20 µg/mL → nefrotoxicidad, ototoxicidad, rash",
+        "Gentamicina >10 µg/mL → ototoxicidad, nefrotoxicidad, bloqueo neuromuscular",
+        "Digoxina >2 ng/mL → arritmias, visión amarilla, náuseas",
+        "Teofilina >20 µg/mL → temblor, taquicardia, convulsiones",
+        "Carbamazepina >12 µg/mL → ataxia, diplopía, depresión medular"
+      ],
+      "low_values": [
+        "Vancomicina <15 µg/mL → fracaso terapéutico, infección persistente",
+        "Gentamicina <5 µg/mL → falta de respuesta bacteriana",
+        "Digoxina <0.5 ng/mL → insuficiencia cardíaca no controlada",
+        "Teofilina <10 µg/mL → broncoespasmo no controlado",
+        "Carbamazepina <4 µg/mL → crisis epilépticas"
+      ],
+      "specimen": [
+        "Muestra de sangre venosa, tubo rojo (sin anticoagulante) para suero",
+        "Ayuno no requerido, excepto cuando se indique para fármacos específicos",
+        "Momento de extracción: valle 30 min antes de la dosis, pico según farmacocinética",
+        "Evitar hemólisis; procesar y refrigerar la muestra rápidamente",
+        "Etiquetar con hora exacta de toma y nombre del fármaco"
+      ],
+      "nursing_care": [
+        "Verificar orden médica y hora de toma antes de la extracción",
+        "Evaluar función renal y hepática antes y durante el TDM",
+        "Observar signos de toxicidad (nefro, ototoxicidad, arritmias) y reportar",
+        "Educar al paciente sobre la importancia del horario de toma",
+        "Documentar resultados y comunicar al médico para ajuste de dosis",
+        "Revisar interacciones medicamentosas que puedan alterar niveles"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "Uso de antibióticos aminoglucósidos (gentamicina, tobramicina)",
+          "Insuficiencia renal o hepática",
+          "Dosis alta o intervalo corto",
+          "Polifarmacia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Nivel de fármaco en sangre dentro del rango terapéutico",
+          "Función renal estable (creatinina dentro de rango)",
+          "Ausencia de signos de toxicidad"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener muestra de sangre en el momento indicado (pico o valle) según orden.",
+            "rationale": "Permite medir la concentración exacta del fármaco para evaluar toxicidad o eficacia."
+          },
+          {
+            "action": "Monitorear signos vitales y evaluar síntomas de toxicidad (nefro, ototoxicidad, arritmias).",
+            "rationale": "La detección temprana de efectos adversos permite intervención oportuna."
+          },
+          {
+            "action": "Revisar y registrar la función renal y hepática antes de cada medición.",
+            "rationale": "La eliminación del fármaco depende de estos órganos y afecta los niveles plasmáticos."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de cumplir con los horarios de dosis y extracción.",
+            "rationale": "El cumplimiento asegura que los niveles reflejen la verdadera exposición al fármaco."
+          },
+          {
+            "action": "Comunicar resultados al médico y sugerir ajuste de dosis según protocolo.",
+            "rationale": "El ajuste basado en datos de laboratorio previene toxicidad y mejora la eficacia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Therapeutic Drug Monitoring (TDM)",
+    "aliases": [
+      "monitoring",
+      "therapeutic",
+      "drugs",
+      "tdm",
+      "levels",
+      "dose"
+    ],
+    "summary": "TDM involves measuring plasma concentrations of certain drugs to ensure they remain within the therapeutic range and to avoid toxicity or inefficacy.",
+    "key_points": [
+      "It is applied to drugs with a narrow therapeutic index and variable pharmacokinetics.",
+      "Levels are obtained at specific times (peak or trough) depending on the drug.",
+      "Interpreting results requires correlating with renal, hepatic function and clinical signs.",
+      "Dose adjustments are made under medical order and based on institutional protocols."
+    ],
+    "sections": {
+      "normal_values": [
+        "Vancomycin: 15‑20 µg/mL (trough)",
+        "Gentamicin: 5‑10 µg/mL (peak)",
+        "Digoxin: 0.5‑2 ng/mL",
+        "Theophylline: 10‑20 µg/mL",
+        "Carbamazepine: 4‑12 µg/mL"
+      ],
+      "high_values": [
+        "Vancomycin >20 µg/mL → nephrotoxicity, ototoxicity, rash",
+        "Gentamicin >10 µg/mL → ototoxicity, nephrotoxicity, neuromuscular blockade",
+        "Digoxin >2 ng/mL → arrhythmias, yellow vision, nausea",
+        "Theophylline >20 µg/mL → tremor, tachycardia, seizures",
+        "Carbamazepine >12 µg/mL → ataxia, diplopia, spinal cord depression"
+      ],
+      "low_values": [
+        "Vancomycin <15 µg/mL → therapeutic failure, persistent infection",
+        "Gentamicin <5 µg/mL → lack of bacterial response",
+        "Digoxin <0.5 ng/mL → uncontrolled heart failure",
+        "Theophylline <10 µg/mL → uncontrolled bronchospasm",
+        "Carbamazepine <4 µg/mL → epileptic seizures"
+      ],
+      "specimen": [
+        "Venous blood sample, red tube (no anticoagulant) for serum",
+        "Fasting not required unless specified for certain drugs",
+        "Timing: trough 30 min before dose, peak per pharmacokinetics",
+        "Avoid hemolysis; process and refrigerate sample promptly",
+        "Label with exact time of collection and drug name"
+      ],
+      "nursing_care": [
+        "Verify medical order and timing before collection",
+        "Assess renal and hepatic function before and during TDM",
+        "Observe signs of toxicity (nephro, ototoxicity, arrhythmias) and report",
+        "Educate patient on importance of dosing schedule",
+        "Document results and communicate to physician for dose adjustment",
+        "Review drug interactions that may alter levels"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "Use of aminoglycoside antibiotics (gentamicin, tobramycin)",
+          "Renal or hepatic insufficiency",
+          "High dose or short interval",
+          "Polypharmacy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Drug level in blood within therapeutic range",
+          "Stable renal function (creatinine within range)",
+          "Absence of toxicity signs"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain blood sample at the indicated time (peak or trough) per order.",
+            "rationale": "Allows measurement of the exact drug concentration to assess toxicity or efficacy."
+          },
+          {
+            "action": "Monitor vital signs and assess for toxicity symptoms (nephro, ototoxicity, arrhythmias).",
+            "rationale": "Early detection of adverse effects allows timely intervention."
+          },
+          {
+            "action": "Review and record renal and hepatic function before each measurement.",
+            "rationale": "Drug elimination depends on these organs and affects plasma levels."
+          },
+          {
+            "action": "Educate patient on the importance of adhering to dosing and collection schedules.",
+            "rationale": "Compliance ensures levels reflect true drug exposure."
+          },
+          {
+            "action": "Communicate results to physician and suggest dose adjustment per protocol.",
+            "rationale": "Data-driven adjustment prevents toxicity and improves efficacy."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "vancomycin-toxicity",
+    "aminoglycoside-nephrotoxicity"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Antibiotics",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/antibiotics.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Therapeutic Communication",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/3-1-therapeutic-communication",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Therapeutic Communication",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/2-4-therapeutic-communication",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-18",
+  "factcheck": {
+    "checked": "2026-10-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 31
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.normal_values.1": {
+        "status": "not_found"
+      },
+      "sections.normal_values.2": {
+        "status": "not_found"
+      },
+      "sections.normal_values.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.4": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.high_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.3": {
+        "status": "not_found"
+      },
+      "sections.high_values.4": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.low_values.3": {
+        "status": "not_found"
+      },
+      "sections.low_values.4": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "not_found"
+      },
+      "sections.specimen.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

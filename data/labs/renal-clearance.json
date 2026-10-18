@@ -1,0 +1,272 @@
+{
+  "id": "renal-clearance",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Depuración renal (Clearance renal)",
+    "aliases": [
+      "clearance renal",
+      "depuracion renal",
+      "clearance",
+      "creatinina",
+      "filtración glomerular"
+    ],
+    "summary": "La depuración renal mide el volumen de plasma que los riñones limpian de una sustancia por minuto.",
+    "key_points": [
+      "Se calcula con la fórmula de Cockcroft‑Gault o mediante aclaramiento de creatinina de 24 h.",
+      "Valor normal adulto: 90‑120 mL/min (hombres) y 80‑110 mL/min (mujeres).",
+      "Disminuye con insuficiencia renal, deshidratación o uso de fármacos nefrotóxicos.",
+      "Aumenta en hiperglucemia temprana, embarazo o dieta alta en proteínas."
+    ],
+    "sections": {
+      "normal_values": [
+        "Hombres adultos: 90‑120 mL/min.",
+        "Mujeres adultas: 80‑110 mL/min.",
+        "GFR estimado >90 mL/min/1.73 m² indica función renal normal."
+      ],
+      "high_values": [
+        "Hiperglomerulosa: diabetes tipo 2 temprana, embarazo, dieta proteica alta.",
+        "Signos: poliuria, BUN bajo, presión arterial normal o baja."
+      ],
+      "low_values": [
+        "Insuficiencia renal aguda o crónica, deshidratación, nefrotoxinas.",
+        "Signos: oliguria, edema, náuseas, fatiga, aumento de BUN y creatinina."
+      ],
+      "specimen": [
+        "Sangre: suero para creatinina; no requiere ayuno.",
+        "Orina: recolección de 24 h completa, preferiblemente en la mañana.",
+        "Errores comunes: pérdida de muestra, tiempo de recolección incorrecto, contaminación."
+      ],
+      "nursing_care": [
+        "Monitorear depuración y salida de orina cada 8 h.",
+        "Mantener hidratación adecuada según orden médica.",
+        "Evitar fármacos nefrotóxicos (ej. aminoglucósidos, contraste iodado).",
+        "Educar al paciente sobre dieta baja en sodio y proteínas según indicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "disminución del gasto cardíaco",
+          "deshidratación",
+          "uso de fármacos nefrotóxicos",
+          "hipotensión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Perfusión renal adecuada – mantener depuración >90 mL/min en 48 h.",
+          "NOC: Balance hídrico estable – registrar ingesta y salida sin déficit >500 mL/24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar salida de orina cada 2 h y registrar volumen y características.",
+            "rationale": "Detecta cambios tempranos en la función renal."
+          },
+          {
+            "action": "Controlar signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+            "rationale": "Hipotensión reduce la perfusión renal."
+          },
+          {
+            "action": "Administrar fluidos IV según prescripción, ajustando según balance hídrico.",
+            "rationale": "Mantiene la volemia y favorece la filtración glomerular."
+          },
+          {
+            "action": "Revisar y notificar al médico cualquier aumento de creatinina o disminución de depuración.",
+            "rationale": "Permite intervención temprana para prevenir daño renal."
+          },
+          {
+            "action": "Educar al paciente sobre evitar automedicación con AINEs y otros nefrotóxicos.",
+            "rationale": "Reduce exposición a agentes que comprometen la perfusión renal."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Renal clearance",
+    "aliases": [
+      "renal clearance",
+      "clearance renal",
+      "clearance",
+      "creatinine",
+      "glomerular filtration"
+    ],
+    "summary": "Renal clearance measures the volume of plasma that the kidneys eliminate of a substance per minute.",
+    "key_points": [
+      "It is calculated with the Cockcroft‑Gault formula or via 24‑hour creatinine clearance.",
+      "Normal adult value: 90‑120 mL/min (men) and 80‑110 mL/min (women).",
+      "It decreases with renal failure, dehydration, or use of nephrotoxic drugs.",
+      "It increases in early hyperglycemia, pregnancy, or high‑protein diet."
+    ],
+    "sections": {
+      "normal_values": [
+        "Adult men: 90‑120 mL/min.",
+        "Adult women: 80‑110 mL/min.",
+        "Estimated GFR >90 mL/min/1.73 m² indicates normal renal function."
+      ],
+      "high_values": [
+        "Hyperfiltration: early type 2 diabetes, pregnancy, high‑protein diet.",
+        "Signs: polyuria, low BUN, normal or low blood pressure."
+      ],
+      "low_values": [
+        "Acute or chronic renal failure, dehydration, nephrotoxins.",
+        "Signs: oliguria, edema, nausea, fatigue, increased BUN and creatinine."
+      ],
+      "specimen": [
+        "Blood: serum for creatinine; no fasting required.",
+        "Urine: complete 24‑hour collection, preferably in the morning.",
+        "Common errors: sample loss, incorrect collection time, contamination."
+      ],
+      "nursing_care": [
+        "Monitor clearance and urine output every 8 h.",
+        "Maintain adequate hydration per medical order.",
+        "Avoid nephrotoxic drugs (e.g., aminoglycosides, iodinated contrast).",
+        "Educate patient on low‑sodium and protein diet as indicated."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "decreased cardiac output",
+          "dehydration",
+          "use of nephrotoxic drugs",
+          "hypotension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Adequate renal perfusion – maintain clearance >90 mL/min within 48 h.",
+          "NOC: Stable fluid balance – record intake and output with no deficit >500 mL/24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess urine output every 2 h and record volume and characteristics.",
+            "rationale": "Detects early changes in renal function."
+          },
+          {
+            "action": "Monitor vital signs, especially blood pressure and heart rate.",
+            "rationale": "Hypotension reduces renal perfusion."
+          },
+          {
+            "action": "Administer IV fluids per prescription, adjusting per fluid balance.",
+            "rationale": "Maintains volemia and promotes glomerular filtration."
+          },
+          {
+            "action": "Review and notify the physician of any rise in creatinine or drop in clearance.",
+            "rationale": "Allows early intervention to prevent renal damage."
+          },
+          {
+            "action": "Educate the patient about avoiding self‑medication with NSAIDs and other nephrotoxins.",
+            "rationale": "Reduces exposure to agents that compromise renal perfusion."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "glomerular-filtration-rate",
+    "creatinine-clearance",
+    "acute-kidney-injury"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Renal System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Renal Concerns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-6-renal-concerns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-18",
+  "factcheck": {
+    "checked": "2026-10-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 17,
+      "contradicted": 2,
+      "total": 19
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "contradicted",
+        "quote": "The normal glomerular filtration rate is 120–125 mL per minute (Ogobuiro & Tuma, 2022).",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "contradicted",
+        "quote": "The normal glomerular filtration rate is 120–125 mL per minute (Ogobuiro & Tuma, 2022).",
+        "source": 0
+      },
+      "sections.normal_values.1": {
+        "status": "not_found"
+      },
+      "sections.normal_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
