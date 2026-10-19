@@ -1,0 +1,475 @@
+{
+  "id": "chemotherapy-induced-nausea",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Náuseas inducidas por quimioterapia (NIQ)",
+    "aliases": [
+      "náuseas",
+      "quimioterapia",
+      "quimio",
+      "vomitos",
+      "antiemético"
+    ],
+    "summary": "Son náuseas y vómitos que aparecen como efecto secundario de los fármacos quimioterápicos, provocados por la estimulación del centro del vómito y la liberación de serotonina.",
+    "key_points": [
+      "Se clasifican en anticipatorias, agudas y tardías según el momento de aparición.",
+      "Factores de riesgo: sexo femenino, edad <50 años, historia previa de náuseas, embarazo y deshidratación.",
+      "Los antieméticos de primera línea son antagonistas 5‑HT3 (ondansetrón) y corticosteroides (dexametasona).",
+      "El control de la hidratación y los electrolitos es esencial para prevenir complicaciones."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los fármacos quimioterápicos estimulan células enterocrinas que liberan serotonina (5‑HT) en el intestino.",
+        "La serotonina activa receptores 5‑HT3 en el nervio vago y en el centro del vómito (CTZ).",
+        "Se produce estimulación del núcleo del tracto solitario y del centro emético en el bulbo.",
+        "La señal se transmite al músculo del estómago, generando náuseas y vómitos."
+      ],
+      "risk_factors": [
+        "Sexo femenino y edad menor a 50 años.",
+        "Historia previa de náuseas durante embarazo o quimioterapia.",
+        "Deshidratación y desequilibrios electrolíticos.",
+        "Uso de regímenes de quimioterapia altamente emetogénicos (ej. cisplatino)."
+      ],
+      "signs_symptoms": [
+        "Sensación de náuseas, a menudo precedida de salivación excesiva.",
+        "Vómitos espontáneos o inducidos por estímulos gástricos.",
+        "Pérdida de apetito, palidez y sudoración.",
+        "Ansiedad o inquietud asociada al malestar gastrointestinal."
+      ],
+      "diagnostics": [
+        "Valoración subjetiva: escala de náuseas 0‑10.",
+        "Registro de episodios de vómito y su frecuencia.",
+        "Laboratorio: electrolitos (Na+, K+, Cl-), glucosa, BUN/creatinina para detectar deshidratación.",
+        "Peso y balance hídrico diario."
+      ],
+      "treatment": [
+        "Antieméticos de primera línea: ondansetrón (5‑HT3 antagonista) y dexametasona.",
+        "Antagonistas dopaminérgicos: metoclopramida o proclorperazina (fenotiazina).",
+        "Antihistamínicos/anticolinérgicos: dimenhidrinato para náuseas leves.",
+        "Medidas no farmacológicas: comidas pequeñas y frecuentes, hidratación oral, técnicas de relajación."
+      ],
+      "complications": [
+        "Deshidratación y desequilibrio electrolítico.",
+        "Pérdida de peso y desnutrición.",
+        "Riesgo de aspiración si el vómito es profuso.",
+        "Interrupción o retraso del esquema de quimioterapia."
+      ],
+      "nursing_care": [
+        "Evaluar intensidad de náuseas y número de vómitos antes y después de cada ciclo.",
+        "Monitorear ingesta y pérdida de líquidos; registrar balance hídrico.",
+        "Administrar antieméticos 30‑60 min antes de la quimioterapia según prescripción.",
+        "Mantener al paciente en posición semi‑sentada para reducir riesgo de aspiración.",
+        "Proveer higiene bucal y enjuagues para prevenir irritación de la mucosa."
+      ],
+      "patient_teaching": [
+        "Tomar los antieméticos exactamente como se indica, incluso si no hay náuseas.",
+        "Consumir líquidos claros y alimentos blandos en pequeñas porciones cada 2‑3 h.",
+        "Evitar olores fuertes y alimentos grasos que puedan desencadenar náuseas.",
+        "Reportar vómitos persistentes, signos de deshidratación o cambios en el color de la orina."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Náuseas",
+        "type": "actual",
+        "related_to": [
+          "quimioterapia",
+          "estimulación de serotonina",
+          "factores psicológicos"
+        ],
+        "evidenced_by": [
+          "reporta sensación de náuseas",
+          "episodios de vómito",
+          "palidez",
+          "ansiedad"
+        ],
+        "outcomes": [
+          "Control de náuseas: paciente reporta intensidad ≤ 2/10 en escala de 0‑10 durante 24 h.",
+          "Sin episodios de vómito: menos de 2 episodios en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar antiemético (ondansetrón o dexametasona) antes de la quimioterapia.",
+            "rationale": "Previene la estimulación del centro del vómito y reduce la frecuencia de náuseas."
+          },
+          {
+            "action": "Evaluar intensidad de náuseas cada 2 h usando escala numérica.",
+            "rationale": "Permite ajustar la terapia y medir la efectividad del tratamiento."
+          },
+          {
+            "action": "Ofrecer líquidos claros y alimentos blandos en porciones pequeñas cada 2‑3 h.",
+            "rationale": "Mantiene hidratación y reduce irritación gástrica."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑sentada o lateral izquierda.",
+            "rationale": "Facilita el vaciamiento gástrico y disminuye riesgo de aspiración."
+          },
+          {
+            "action": "Enseñar técnicas de respiración profunda y relajación.",
+            "rationale": "Disminuye la respuesta psicológica que puede empeorar la náusea."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "vómitos frecuentes",
+          "deshidratación",
+          "uso de diuréticos",
+          "pérdida de líquidos por diarrea secundaria"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos (Na+, K+, Cl-) dentro de rangos normales en 48 h.",
+          "Balance hídrico neto ≥ 0 mL/24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y pérdida de líquidos cada turno.",
+            "rationale": "Detecta déficit de volumen que puede provocar alteraciones electrolíticas."
+          },
+          {
+            "action": "Obtener y registrar resultados de electrolitos y glucosa cada 24 h.",
+            "rationale": "Identifica desequilibrios tempranos para intervención oportuna."
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción, preferiblemente con electrolitos.",
+            "rationale": "Reemplaza pérdidas y previene hiponatremia o hipocalemia."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de mantener hidratación oral entre ciclos.",
+            "rationale": "Reduce la probabilidad de deshidratación y pérdida de electrolitos."
+          },
+          {
+            "action": "Evaluar signos de desequilibrio (palpitaciones, debilidad muscular, confusión).",
+            "rationale": "Permite intervención rápida antes de complicaciones graves."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Chemotherapy‑Induced Nausea (CIN)",
+    "aliases": [
+      "nausea",
+      "chemotherapy",
+      "chemo",
+      "vomiting",
+      "antiemetic"
+    ],
+    "summary": "These are nausea and vomiting that appear as a side effect of chemotherapy drugs, caused by stimulation of the vomiting center and serotonin release.",
+    "key_points": [
+      "They are classified as anticipatory, acute, and delayed based on onset timing.",
+      "Risk factors: female sex, age <50 years, prior history of nausea, pregnancy, and dehydration.",
+      "First‑line antiemetics are 5‑HT3 antagonists (ondansetron) and corticosteroids (dexamethasone).",
+      "Hydration and electrolyte control are essential to prevent complications."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chemotherapy drugs stimulate enterochromaffin cells that release serotonin (5‑HT) in the gut.",
+        "Serotonin activates 5‑HT3 receptors on the vagus nerve and the vomiting center (CTZ).",
+        "Stimulation of the solitary tract nucleus and the emetic center in the medulla occurs.",
+        "The signal is transmitted to the stomach muscle, producing nausea and vomiting."
+      ],
+      "risk_factors": [
+        "Female sex and age under 50.",
+        "History of nausea during pregnancy or chemotherapy.",
+        "Dehydration and electrolyte imbalances.",
+        "Use of highly emetogenic chemotherapy regimens (e.g., cisplatin)."
+      ],
+      "signs_symptoms": [
+        "Feeling of nausea, often preceded by excessive salivation.",
+        "Spontaneous or stimulus‑induced vomiting.",
+        "Loss of appetite, pallor, and sweating.",
+        "Anxiety or restlessness associated with gastrointestinal discomfort."
+      ],
+      "diagnostics": [
+        "Subjective assessment: nausea scale 0‑10.",
+        "Record of vomiting episodes and frequency.",
+        "Laboratory: electrolytes (Na+, K+, Cl‑), glucose, BUN/creatinine to detect dehydration.",
+        "Weight and daily fluid balance."
+      ],
+      "treatment": [
+        "First‑line antiemetics: ondansetron (5‑HT3 antagonist) and dexamethasone.",
+        "Dopaminergic antagonists: metoclopramide or prochlorperazine (phenothiazine).",
+        "Antihistamines/anticholinergics: dimenhydrinate for mild nausea.",
+        "Non‑pharmacologic measures: small frequent meals, oral hydration, relaxation techniques."
+      ],
+      "complications": [
+        "Dehydration and electrolyte imbalance.",
+        "Weight loss and malnutrition.",
+        "Risk of aspiration if vomiting is profuse.",
+        "Interruption or delay of chemotherapy regimen."
+      ],
+      "nursing_care": [
+        "Assess nausea intensity and number of vomits before and after each cycle.",
+        "Monitor intake and loss of fluids; record fluid balance.",
+        "Administer antiemetics 30‑60 min before chemotherapy as prescribed.",
+        "Keep patient in a semi‑upright position to reduce aspiration risk.",
+        "Provide oral hygiene and rinses to prevent mucosal irritation."
+      ],
+      "patient_teaching": [
+        "Take antiemetics exactly as directed, even if no nausea is present.",
+        "Consume clear liquids and bland foods in small portions every 2‑3 h.",
+        "Avoid strong odors and greasy foods that may trigger nausea.",
+        "Report persistent vomiting, signs of dehydration, or changes in urine color."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Nausea",
+        "type": "actual",
+        "related_to": [
+          "chemotherapy",
+          "serotonin stimulation",
+          "psychological factors"
+        ],
+        "evidenced_by": [
+          "reports feeling of nausea",
+          "vomiting episodes",
+          "pallor",
+          "anxiety"
+        ],
+        "outcomes": [
+          "Nausea control: patient reports intensity ≤ 2/10 on 0‑10 scale for 24 h.",
+          "No vomiting episodes: fewer than 2 episodes in 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Administer antiemetic (ondansetron or dexamethasone) before chemotherapy.",
+            "rationale": "Prevents stimulation of the vomiting center and reduces nausea frequency."
+          },
+          {
+            "action": "Assess nausea intensity every 2 h using a numeric scale.",
+            "rationale": "Allows therapy adjustment and measures treatment effectiveness."
+          },
+          {
+            "action": "Offer clear liquids and bland foods in small portions every 2‑3 h.",
+            "rationale": "Maintains hydration and reduces gastric irritation."
+          },
+          {
+            "action": "Place patient in a semi‑upright or left lateral position.",
+            "rationale": "Facilitates gastric emptying and decreases aspiration risk."
+          },
+          {
+            "action": "Teach deep breathing and relaxation techniques.",
+            "rationale": "Reduces psychological response that may worsen nausea."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "frequent vomiting",
+          "dehydration",
+          "diuretic use",
+          "fluid loss from secondary diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes (Na+, K+, Cl‑) within normal ranges in 48 h.",
+          "Net fluid balance ≥ 0 mL/24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output each shift.",
+            "rationale": "Detects volume deficit that can cause electrolyte disturbances."
+          },
+          {
+            "action": "Obtain and record electrolyte and glucose results every 24 h.",
+            "rationale": "Identifies early imbalances for timely intervention."
+          },
+          {
+            "action": "Administer intravenous fluids as prescribed, preferably with electrolytes.",
+            "rationale": "Replaces losses and prevents hyponatremia or hypokalemia."
+          },
+          {
+            "action": "Educate patient on the importance of maintaining oral hydration between cycles.",
+            "rationale": "Reduces risk of dehydration and electrolyte loss."
+          },
+          {
+            "action": "Assess signs of imbalance (palpitations, muscle weakness, confusion).",
+            "rationale": "Allows rapid intervention before serious complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "vomiting",
+    "dehydration",
+    "electrolyte-imbalance",
+    "antiemetic-therapy",
+    "chemotherapy-side-effects"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antiemetics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/30-1-antiemetics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Chemotherapeutic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/8-2-chemotherapeutic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-19",
+  "factcheck": {
+    "checked": "2026-10-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Nausea and vomiting may occur as anticipatory, beginning before a treatment begins, or during or soon after a treatment.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Dehydration and electrolyte imbalances are also associated with increased nausea and vomiting.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Prochlorperazine suppresses the CTZ and blocks postsynaptic dopamine receptors, making the drug an effective antiemetic and antipsychotic.",
+        "source": 0
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Dehydration and electrolyte imbalances are also associated with increased nausea and vomiting.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Bone marrow suppression may be severe, requiring interruption of therapy.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

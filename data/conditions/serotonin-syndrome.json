@@ -1,0 +1,312 @@
+{
+  "id": "serotonin-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome serotoninérgico (SS)",
+    "aliases": [
+      "síndrome serotonin",
+      "hiperactividad serotoninérgica",
+      "exceso serotonina",
+      "síndrome serotonérgico",
+      "ss"
+    ],
+    "summary": "Reacción potencialmente mortal por exceso de serotonina en el SNC, generalmente tras combinación de fármacos serotonérgicos.",
+    "key_points": [
+      "Se presenta tras uso simultáneo de inhibidores de la recaptación de serotonina y agonistas serotoninérgicos.",
+      "Triada clásica: alteración mental, disfunción autonómica e hiperreflexia muscular.",
+      "El tratamiento es de soporte y suspensión inmediata del agente causal.",
+      "Los antidepresivos ISRS, MAOI y triptanes son los más implicados."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los fármacos aumentan la disponibilidad de serotonina en sinapsis centrales.",
+        "Exceso de serotonina estimula receptores 5‑HT1A y 5‑HT2A, provocando hiperactividad neuronal.",
+        "Se genera una respuesta autonómica descontrolada y aumento de la excitabilidad muscular."
+      ],
+      "risk_factors": [
+        "Uso concomitante de ISRS, SNRI, MAOI, triptanes o tramadol.",
+        "Sobredosis de inhibidores de la recaptación de serotonina.",
+        "Enfermedades hepáticas que reducen el metabolismo de los fármacos.",
+        "Uso de suplementos de triptófano o hierbas que aumentan serotonina."
+      ],
+      "signs_symptoms": [
+        "Alteración mental: agitación, confusión, alucinaciones.",
+        "Autonómico: hipertermia >38 °C, taquicardia, hipertensión, sudoración profusa.",
+        "Neuromuscular: temblores, hiperreflexia, clonus inducible, rigidez.",
+        "Gastrointestinal: náuseas, vómitos, diarrea."
+      ],
+      "diagnostics": [
+        "Historia de exposición a fármacos serotonérgicos.",
+        "Temperatura >38 °C, frecuencia cardíaca >100 lpm.",
+        "CK sérico elevado, leucocitosis, alteraciones en gases arteriales.",
+        "Exclusión de otras causas de hipertermia (ej. infección)."
+      ],
+      "treatment": [
+        "Suspender inmediatamente todos los agentes serotoninérgicos.",
+        "Control de la temperatura con medidas de enfriamiento externo.",
+        "Administrar benzodiacepinas para controlar temblores y agitación.",
+        "En casos graves, usar antagonistas de serotonina como ciproheptadina.",
+        "Monitoreo continuo de signos vitales y función renal."
+      ],
+      "complications": [
+        "Rhabdomiolisis y fallo renal por mioglobinuria.",
+        "Coagulopatía por consumo de plaquetas.",
+        "Daño cerebral por hipertermia prolongada.",
+        "Shock séptico secundario a infección nosocomial."
+      ],
+      "nursing_care": [
+        "Evaluar temperatura, pulso, presión arterial cada 15‑30 min.",
+        "Monitorizar nivel de conciencia y escala de Glasgow.",
+        "Aplicar enfriamiento: compresas frías, ventilador, baño tibio.",
+        "Registrar salida de orina y vigilar signos de mioglobinuria.",
+        "Mantener vía intravenosa abierta para fluidos y medicación."
+      ],
+      "patient_teaching": [
+        "Informar sobre los riesgos de combinar fármacos serotonérgicos.",
+        "Enseñar a leer etiquetas de medicamentos de venta libre.",
+        "Recomendar reportar cualquier signo de agitación o fiebre al iniciar un nuevo fármaco.",
+        "Indicar la importancia de acudir al servicio de urgencias ante síntomas sospechosos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "agitación",
+          "temblores",
+          "hipertermia",
+          "confusión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad del paciente: sin caídas ni lesiones durante la hospitalización",
+          "Estado mental: nivel de conciencia estable (Escala de Glasgow ≥14) en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener al paciente en habitación con sujeción mínima y supervisión constante.",
+            "rationale": "Previene caídas y lesiones durante episodios de agitación."
+          },
+          {
+            "action": "Aplicar medidas de enfriamiento para controlar la hipertermia.",
+            "rationale": "Reduce el riesgo de daño tisular y complicaciones neurológicas."
+          },
+          {
+            "action": "Administrar benzodiacepinas según orden médica.",
+            "rationale": "Disminuye temblores y agitación, favoreciendo la seguridad."
+          },
+          {
+            "action": "Evaluar y registrar signos vitales cada 15 min durante la fase aguda.",
+            "rationale": "Permite detección temprana de deterioro hemodinámico."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertermia",
+          "hipertensión",
+          "taquicardia",
+          "alteración mental"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral: presión arterial mantenida dentro de 90‑140 mmHg en 24 h",
+          "Función cognitiva: ausencia de deterioro neurológico adicional en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 15 min.",
+            "rationale": "Detecta alteraciones que puedan comprometer la perfusión cerebral."
+          },
+          {
+            "action": "Mantener hidratación adecuada con solución cristaloide isotónica.",
+            "rationale": "Optimiza el volumen intravascular y la perfusión cerebral."
+          },
+          {
+            "action": "Aplicar medidas de control de temperatura para evitar hipertermia prolongada.",
+            "rationale": "La hipertermia aumenta el metabolismo cerebral y el riesgo de daño."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y respuesta a estímulos cada hora.",
+            "rationale": "Permite identificar rápidamente cualquier deterioro neurológico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Serotonin Syndrome (SS)",
+    "aliases": [
+      "serotonin syndrome",
+      "serotonergic hyperactivity",
+      "excess serotonin",
+      "ss"
+    ],
+    "summary": "Potentially fatal reaction due to excess serotonin in the CNS, usually after combining serotonergic drugs.",
+    "key_points": [
+      "Occurs after simultaneous use of serotonin reuptake inhibitors and serotonergic agonists.",
+      "Classic triad: altered mental status, autonomic dysfunction, and hyperreflexia.",
+      "Treatment is supportive and immediate discontinuation of the offending agent.",
+      "SSRIs, MAOIs, and triptans are the most implicated."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Drugs increase central synaptic serotonin availability.",
+        "Excess serotonin stimulates 5‑HT1A and 5‑HT2A receptors, causing neuronal hyperactivity.",
+        "An uncontrolled autonomic response and increased muscle excitability ensue."
+      ],
+      "risk_factors": [
+        "Concurrent use of SSRIs, SNRIs, MAOIs, triptans, or tramadol.",
+        "Overdose of serotonin reuptake inhibitors.",
+        "Liver disease that reduces drug metabolism.",
+        "Use of tryptophan supplements or herbs that increase serotonin."
+      ],
+      "signs_symptoms": [
+        "Altered mental status: agitation, confusion, hallucinations.",
+        "Autonomic: hyperthermia >38 °C, tachycardia, hypertension, profuse sweating.",
+        "Neuromuscular: tremor, hyperreflexia, inducible clonus, rigidity.",
+        "Gastrointestinal: nausea, vomiting, diarrhea."
+      ],
+      "diagnostics": [
+        "History of exposure to serotonergic drugs.",
+        "Temperature >38 °C, heart rate >100 bpm.",
+        "Elevated serum CK, leukocytosis, arterial blood gas abnormalities.",
+        "Exclusion of other causes of hyperthermia (e.g., infection)."
+      ],
+      "treatment": [
+        "Immediately discontinue all serotonergic agents.",
+        "Control temperature with external cooling measures.",
+        "Administer benzodiazepines to control tremor and agitation.",
+        "In severe cases, use serotonin antagonists such as cyproheptadine.",
+        "Continuous monitoring of vital signs and renal function."
+      ],
+      "complications": [
+        "Rhabdomyolysis and renal failure from myoglobinuria.",
+        "Coagulopathy from platelet consumption.",
+        "Brain damage from prolonged hyperthermia.",
+        "Secondary septic shock from nosocomial infection."
+      ],
+      "nursing_care": [
+        "Assess temperature, pulse, blood pressure every 15‑30 min.",
+        "Monitor level of consciousness and Glasgow scale.",
+        "Apply cooling: cold compresses, fan, lukewarm bath.",
+        "Record urine output and watch for signs of myoglobinuria.",
+        "Maintain IV access for fluids and medications."
+      ],
+      "patient_teaching": [
+        "Inform about risks of combining serotonergic drugs.",
+        "Teach how to read over‑the‑counter medication labels.",
+        "Recommend reporting any agitation or fever when starting a new drug.",
+        "Emphasize the importance of seeking emergency care if symptoms appear."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "agitation",
+          "tremor",
+          "hyperthermia",
+          "confusion"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient safety: no falls or injuries during hospitalization",
+          "Mental status: level of consciousness stable (Glasgow ≥14) within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Keep the patient in a room with minimal restraints and constant supervision.",
+            "rationale": "Prevents falls and injuries during agitation episodes."
+          },
+          {
+            "action": "Apply cooling measures to control hyperthermia.",
+            "rationale": "Reduces risk of tissue damage and neurological complications."
+          },
+          {
+            "action": "Administer benzodiazepines as ordered.",
+            "rationale": "Decreases tremor and agitation, enhancing safety."
+          },
+          {
+            "action": "Assess and record vital signs every 15 min during the acute phase.",
+            "rationale": "Allows early detection of hemodynamic deterioration."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hyperthermia",
+          "hypertension",
+          "tachycardia",
+          "altered mental status"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral perfusion: blood pressure maintained within 90‑140 mmHg in 24 h",
+          "Cognitive function: no additional neurological decline within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 15 min.",
+            "rationale": "Detects changes that may compromise cerebral perfusion."
+          },
+          {
+            "action": "Maintain adequate hydration with isotonic crystalloid solution.",
+            "rationale": "Optimizes intravascular volume and cerebral perfusion."
+          },
+          {
+            "action": "Apply temperature control measures to avoid prolonged hyperthermia.",
+            "rationale": "Hyperthermia increases cerebral metabolism and risk of damage."
+          },
+          {
+            "action": "Assess level of consciousness and response to stimuli hourly.",
+            "rationale": "Enables rapid identification of any neurological deterioration."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "serotonin-excess",
+    "neuroleptic-malignant-syndrome",
+    "malignant-hyperthermia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Antidepressants",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/antidepressants.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Antidepressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Migraine Headaches and Migraine Headache Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-2-migraine-headaches-and-migraine-headache-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-19"
+}

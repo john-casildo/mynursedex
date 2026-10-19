@@ -1,0 +1,521 @@
+{
+  "id": "parkinson-s-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad de Parkinson (EP)",
+    "aliases": [
+      "parkinson",
+      "enfermedad de parkinson",
+      "ep",
+      "temblor",
+      "rigidez"
+    ],
+    "summary": "Trastorno neurodegenerativo crónico que afecta la producción de dopamina en la sustancia negra, provocando temblor, rigidez y bradicinesia.",
+    "key_points": [
+      "Pérdida progresiva de neuronas dopaminérgicas en la sustancia negra.",
+      "Síntomas motores clásicos: temblor en reposo, rigidez, bradicinesia y inestabilidad postural.",
+      "Diagnóstico clínico basado en examen neurológico y respuesta a levodopa.",
+      "Tratamiento de primera línea: levodopa/carbidopa y agonistas dopaminérgicos.",
+      "Complicaciones frecuentes: caídas, aspiración, depresión y estreñimiento."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneración de neuronas dopaminérgicas en la sustancia negra.",
+        "Disminución de dopamina → exceso relativo de acetilcolina en los ganglios basales.",
+        "Alteración de los circuitos cortico-estriado que controla el movimiento.",
+        "Progresiva pérdida de control motor y aparición de síntomas no motores."
+      ],
+      "risk_factors": [
+        "Edad > 60 años.",
+        "Antecedentes familiares de enfermedad neurodegenerativa.",
+        "Exposición a pesticidas o herbicidas.",
+        "Traumatismo craneal severo."
+      ],
+      "signs_symptoms": [
+        "Temblor en reposo, típicamente en mano o mandíbula.",
+        "Rigidez muscular (acinesia).",
+        "Bradicinesia y disminución de la amplitud de movimiento.",
+        "Inestabilidad postural y caídas frecuentes.",
+        "Trastornos del sueño, depresión y disfagia."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen neurológico detallado.",
+        "Escala UPDRS para cuantificar gravedad.",
+        "Respuesta positiva a prueba de levodopa (mejora de síntomas).",
+        "Imagen cerebral (MRI) para descartar otras causas."
+      ],
+      "treatment": [
+        "Levodopa + carbidopa (medicación de elección).",
+        "Agonistas dopaminérgicos: pramipexol, ropinirol.",
+        "Inhibidores MAO‑B: selegilina, rasagilina.",
+        "Anticolinérgicos para temblor (trihexifenidilo).",
+        "Fisioterapia, terapia ocupacional y ejercicios de estiramiento.",
+        "Estimulación cerebral profunda en casos avanzados."
+      ],
+      "complications": [
+        "Caídas y fracturas óseas.",
+        "Aspiración y neumonía por disfagia.",
+        "Estreñimiento crónico.",
+        "Depresión y demencia.",
+        "Disfunción autonómica (hipotensión ortostática)."
+      ],
+      "nursing_care": [
+        "Evaluar motor y marcha en cada turno; usar escala de Borg para tolerancia al ejercicio.",
+        "Monitorear signos de hipotensión ortostática antes de la medicación y al cambiar de posición.",
+        "Observar capacidad de deglución; notificar a terapia del habla si hay alteraciones.",
+        "Promover ambiente seguro: eliminar obstáculos, usar dispositivos de apoyo.",
+        "Administrar levodopa con alimentos ligeros y a la misma hora cada día."
+      ],
+      "patient_teaching": [
+        "Tomar levodopa/carbidopa con alimentos ligeros y no omitir dosis.",
+        "Realizar ejercicios de estiramiento y marcha diaria para mantener movilidad.",
+        "Mantener postura erguida al levantarse para evitar hipotensión ortostática.",
+        "Seguir técnicas de deglución segura y comer alimentos blandos si hay disfagia.",
+        "Reportar episodios de caída, tos persistente o cambios en el estado mental."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "rigidez muscular",
+          "bradicinesia",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades de la vida diaria",
+          "disminución de la distancia de marcha",
+          "aumento del tiempo de recuperación entre actividades"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: caminar 30 minutos sin fatiga",
+          "Nivel de energía: reportar aumento de energía en 2 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar tolerancia al ejercicio con escala de Borg antes y después de la actividad",
+            "rationale": "Permite cuantificar el nivel de esfuerzo y ajustar el plan de actividad."
+          },
+          {
+            "action": "Planificar actividades de bajo impacto con descansos programados cada 5‑10 minutos",
+            "rationale": "Reduce la fatiga y previene la sobrecarga muscular."
+          },
+          {
+            "action": "Enseñar ejercicios de estiramiento y fortalecimiento de miembros inferiores",
+            "rationale": "Mejora la flexibilidad y la fuerza, facilitando la movilidad."
+          },
+          {
+            "action": "Monitorear signos de hipotensión ortostática antes de iniciar la actividad",
+            "rationale": "Previene mareos y caídas relacionadas con la medicación."
+          },
+          {
+            "action": "Coordinar con fisioterapia para programa de entrenamiento gradual",
+            "rationale": "Asegura progresión segura y personalizada del nivel de actividad."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "disfagia",
+          "rigidez de músculos de la deglución",
+          "temblor facial"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: ausencia de tos, fiebre o cambios en auscultación",
+          "Nutrición adecuada: ingesta calórica ≥ 75 % de los requerimientos"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar capacidad de deglución mediante observación de alimentos y prueba de voz",
+            "rationale": "Identifica alteraciones que aumentan el riesgo de aspiración."
+          },
+          {
+            "action": "Elevar la cabecera de la cama a 30‑45° durante y después de la alimentación",
+            "rationale": "Facilita el paso del bolo y reduce el reflujo."
+          },
+          {
+            "action": "Ofrecer alimentos blandos, picados finamente y líquidos espesados según tolerancia",
+            "rationale": "Disminuye la probabilidad de que el alimento entre en la vía aérea."
+          },
+          {
+            "action": "Instruir al paciente y familia sobre la técnica de chin‑tuck al tragar",
+            "rationale": "Mejora la protección de la vía aérea durante la deglución."
+          },
+          {
+            "action": "Monitorear signos de aspiración: tos, cambios en auscultación pulmonar y fiebre",
+            "rationale": "Permite detección temprana y tratamiento oportuno."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Parkinson's Disease (PD)",
+    "aliases": [
+      "parkinson",
+      "parkinson disease",
+      "pd",
+      "tremor",
+      "rigidity"
+    ],
+    "summary": "Chronic neurodegenerative disorder affecting dopamine production in the substantia nigra, causing tremor, rigidity, and bradykinesia.",
+    "key_points": [
+      "Progressive loss of dopaminergic neurons in the substantia nigra.",
+      "Classic motor symptoms: resting tremor, rigidity, bradykinesia, and postural instability.",
+      "Clinical diagnosis based on neurological exam and response to levodopa.",
+      "First‑line treatment: levodopa/carbidopa and dopaminergic agonists.",
+      "Common complications: falls, aspiration, depression, and constipation."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneration of dopaminergic neurons in the substantia nigra.",
+        "Reduced dopamine → relative excess of acetylcholine in the basal ganglia.",
+        "Disruption of cortico‑striatal circuits controlling movement.",
+        "Progressive loss of motor control and emergence of non‑motor symptoms."
+      ],
+      "risk_factors": [
+        "Age > 60 years.",
+        "Family history of neurodegenerative disease.",
+        "Exposure to pesticides or herbicides.",
+        "Severe head trauma."
+      ],
+      "signs_symptoms": [
+        "Resting tremor, typically in hand or jaw.",
+        "Muscular rigidity (akinesia).",
+        "Bradykinesia and reduced range of motion.",
+        "Postural instability and frequent falls.",
+        "Sleep disorders, depression, and dysphagia."
+      ],
+      "diagnostics": [
+        "Detailed medical history and neurological exam.",
+        "UPDRS scale to quantify severity.",
+        "Positive levodopa challenge test (symptom improvement).",
+        "Brain MRI to rule out other causes."
+      ],
+      "treatment": [
+        "Levodopa + carbidopa (drug of choice).",
+        "Dopaminergic agonists: pramipexole, ropinirole.",
+        "MAO‑B inhibitors: selegiline, rasagiline.",
+        "Anticholinergics for tremor (trihexyphenidyl).",
+        "Physical therapy, occupational therapy, and stretching exercises.",
+        "Deep brain stimulation in advanced cases."
+      ],
+      "complications": [
+        "Falls and bone fractures.",
+        "Aspiration and pneumonia from dysphagia.",
+        "Chronic constipation.",
+        "Depression and dementia.",
+        "Autonomic dysfunction (orthostatic hypotension)."
+      ],
+      "nursing_care": [
+        "Assess motor function and gait each shift; use Borg scale for exercise tolerance.",
+        "Monitor signs of orthostatic hypotension before medication and when changing position.",
+        "Observe swallowing ability; notify speech therapy if abnormalities.",
+        "Promote a safe environment: remove obstacles, use support devices.",
+        "Administer levodopa with light meals at the same time each day."
+      ],
+      "patient_teaching": [
+        "Take levodopa/carbidopa with light meals and do not miss doses.",
+        "Perform daily stretching and walking exercises to maintain mobility.",
+        "Maintain an upright posture when standing to avoid orthostatic hypotension.",
+        "Follow safe swallowing techniques and eat soft foods if dysphagia is present.",
+        "Report falls, persistent cough, or changes in mental status."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "muscular rigidity",
+          "bradykinesia",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "fatigue during activities of daily living",
+          "reduced walking distance",
+          "increased recovery time between activities"
+        ],
+        "outcomes": [
+          "Activity tolerance: walk 30 minutes without fatigue",
+          "Energy level: report increased energy in 2 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Assess exercise tolerance with Borg scale before and after activity",
+            "rationale": "Allows quantification of effort level and adjustment of activity plan."
+          },
+          {
+            "action": "Plan low‑impact activities with scheduled breaks every 5‑10 minutes",
+            "rationale": "Reduces fatigue and prevents muscular overload."
+          },
+          {
+            "action": "Teach stretching and lower‑extremity strengthening exercises",
+            "rationale": "Improves flexibility and strength, facilitating mobility."
+          },
+          {
+            "action": "Monitor signs of orthostatic hypotension before starting activity",
+            "rationale": "Prevents dizziness and falls related to medication."
+          },
+          {
+            "action": "Coordinate with physical therapy for gradual training program",
+            "rationale": "Ensures safe and personalized progression of activity level."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "dysphagia",
+          "rigidity of swallowing muscles",
+          "facial tremor"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: absence of cough, fever, or changes on auscultation",
+          "Adequate nutrition: caloric intake ≥ 75 % of requirements"
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing ability by observing food and voice test",
+            "rationale": "Identifies alterations that increase aspiration risk."
+          },
+          {
+            "action": "Elevate head of bed to 30‑45° during and after meals",
+            "rationale": "Facilitates bolus passage and reduces reflux."
+          },
+          {
+            "action": "Offer finely chopped soft foods and thickened liquids as tolerated",
+            "rationale": "Decreases likelihood of food entering airway."
+          },
+          {
+            "action": "Instruct patient and family on chin‑tuck technique during swallowing",
+            "rationale": "Improves airway protection during deglutition."
+          },
+          {
+            "action": "Monitor signs of aspiration: cough, changes in pulmonary auscultation, fever",
+            "rationale": "Allows early detection and timely treatment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "tremor",
+    "bradykinesia",
+    "rigidity",
+    "dopamine-deficiency",
+    "deep-brain-stimulation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Lewy Body Dementia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/lewybodydementia.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedad de Parkinson",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/parkinsonsdisease.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Major Neurocognitive Disorder and Neurodegenerative Diseases",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-4-major-neurocognitive-disorder-and-neurodegenerative-diseases",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Parkinson’s Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-1-introduction-to-parkinsons-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-19",
+  "factcheck": {
+    "checked": "2026-10-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 32,
+      "contradicted": 1,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Usually 60%–80% of the dopamine-releasing neurons of the substantia nigra are already destroyed before the onset of motor symptoms (Parkinson’s Foundation, 2023e).",
+        "source": 3
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Parkinson’s disease (PD) is a progressive neurologic condition that destroys some of the dopamine-secreting neurons of the substantia nigra, a critical area of the brain that produces dopamine and has an important role in controlling an individual’s movements.",
+        "source": 3
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Parkinson’s disease (PD) is a progressive neurologic condition that destroys some of the dopamine-secreting neurons of the substantia nigra, a critical area of the brain that produces dopamine and has an important role in controlling an individual’s movements.",
+        "source": 3
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Theories exist related to the causes of the degeneration of the basal ganglia including viral infections, blunt head trauma, encephalitis, atherosclerosis, and exposure to certain drugs and environmental factors, such as pesticides.",
+        "source": 3
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Theories exist related to the causes of the degeneration of the basal ganglia including viral infections, blunt head trauma, encephalitis, atherosclerosis, and exposure to certain drugs and environmental factors, such as pesticides.",
+        "source": 3
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Tremors are seen when the body is at rest and disappear upon purposeful movement or during sleep.",
+        "source": 3
+      },
+      "sections.signs_symptoms.1": {
+        "status": "contradicted",
+        "quote": "Bradykinesia may progress to akinesia, which is the inability to move.",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The result is impaired balance and increased risk of falls.",
+        "source": 3
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Do physical and neurological exams",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "MRI and PET scans will not diagnose Parkinson disease but may help rule out other disorders, such as a brain tumor, which may be causing the patient to have symptoms similar to those of patients with Parkinson disease.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "The loss of NE may explain several nonmotor manifestations seen in PD, including: Mood changes, such as depression and anxiety Cognitive changes, such as memory loss, impaired judgment, poor decision-making, and dementia Perceptual disturbances, such as hallucinations, delusions, and psychosis Sexual dysfunction due to the effects on nerve sign",
+        "source": 3
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Autonomic symptoms, such as orthostatic hypotension, inability to release body heat, constipation, blurred vision, oily skin on the face, daytime sleepiness, and nighttime insomnia",
+        "source": 3
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

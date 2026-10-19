@@ -1,0 +1,502 @@
+{
+  "id": "adrenal-suppression",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Supresión suprarrenal (SS)",
+    "aliases": [
+      "supresión suprarrenal",
+      "insuficiencia adrenal",
+      "cortisol bajo",
+      "hipocortisolismo",
+      "eje hpa"
+    ],
+    "summary": "Disminución de la producción endógena de cortisol por supresión del eje hipotálamo‑hipófiso‑suprarrenal, frecuentemente tras uso prolongado de glucocorticoides exógenos.",
+    "key_points": [
+      "La supresión ocurre por retroalimentación negativa prolongada de glucocorticoides sintéticos.",
+      "Puede presentarse con hipotensión, hipoglucemia y pérdida de sodio.",
+      "El diagnóstico se basa en cortisol basal bajo y prueba de estimulación con ACTH.",
+      "El tratamiento incluye taper de glucocorticoides y reemplazo con hidrocortisona.",
+      "La crisis adrenal es una emergencia que requiere hidratación y glucocorticoides IV."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Glucocorticoides exógenos suprimen la liberación de CRH y ACTH.",
+        "Disminuye la estimulación de la zona fasciculada y reticular de la corteza adrenal.",
+        "Se reduce la síntesis de cortisol y, en algunos casos, de aldosterona.",
+        "La falta de cortisol compromete la respuesta al estrés y la regulación de glucosa y electrolitos."
+      ],
+      "risk_factors": [
+        "Uso prolongado de prednisona, dexametasona u otros glucocorticoides > 3 semanas.",
+        "Dosis altas (> 20 mg/día de prednisona equivalente).",
+        "Terapia intraarticular o inhalatoria frecuente de esteroides.",
+        "Enfermedades que requieren tratamiento crónico con corticoides (artritis reumatoide, asma severa)."
+      ],
+      "signs_symptoms": [
+        "Hipotensión ortostática, mareos.",
+        "Fatiga, debilidad muscular.",
+        "Hipoglucemia (glucosa < 70 mg/dL).",
+        "Náuseas, vómitos, dolor abdominal.",
+        "Hiperpigmentación leve solo si ACTH está elevado (insuficiencia primaria)."
+      ],
+      "diagnostics": [
+        "Cortisol plasmático basal < 5 µg/dL (varía por laboratorio).",
+        "Prueba de estimulación con ACTH: aumento < 9 µg/dL indica insuficiencia.",
+        "Electrolitos: Na+ < 135 mEq/L, K+ normal o alto.",
+        "Glucosa en ayunas: < 70 mg/dL.",
+        "Imagen: TAC adrenal solo si se sospecha tumor."
+      ],
+      "treatment": [
+        "Reducción gradual del glucocorticoide exógeno (taper).",
+        "Reemplazo con hidrocortisona 15‑20 mg/día en dosis divididas.",
+        "Fludrocortisona 0.05‑0.1 mg/día si hay deficiencia de mineralocorticoides.",
+        "Educación para dosis de estrés (doble o triple la dosis habitual en fiebre, cirugía).",
+        "Hidratación IV con solución salina al 0.9% en crisis adrenal."
+      ],
+      "complications": [
+        "Crisis adrenal: hipotensión severa, shock, hipoglucemia.",
+        "Desequilibrio electrolítico: hiponatremia, hiperkalemia.",
+        "Deshidratación y déficit de volumen intravascular.",
+        "Infecciones por respuesta inmune disminuida."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial cada 15‑30 min en fase aguda; observar hipotensión ortostática.",
+        "Controlar glucosa capilar cada 4‑6 h; notificar hipoglucemia < 70 mg/dL.",
+        "Evaluar electrolitos (Na+, K+) al iniciar y cada 24‑48 h.",
+        "Administrar hidrocortisona IV antes de cualquier procedimiento invasivo.",
+        "Mantener registro de ingesta y salida de líquidos; objetivo ≥ 2000 mL/día."
+      ],
+      "patient_teaching": [
+        "No interrumpir abruptamente los glucocorticoides; seguir el esquema de taper prescrito.",
+        "Llevar identificación médica que indique supresión suprarrenal.",
+        "Incrementar la dosis de corticoides en situaciones de estrés (fiebre > 38°C, cirugía).",
+        "Reconocer signos de crisis adrenal y buscar atención inmediata.",
+        "Mantener una dieta equilibrada con suficiente sodio según indicación médica."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso prolongado de glucocorticoides exógenos",
+          "pérdida de sodio por insuficiencia adrenal",
+          "hiponatremia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na+ ≥ 135 mEq/L en 48 h",
+          "Estado de hidratación: ingesta de líquidos ≥ 2000 mL/día"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear Na+ y K+ en sangre cada 24 h",
+            "rationale": "Detectar rápidamente desequilibrios y ajustar terapia."
+          },
+          {
+            "action": "Administrar fludrocortisona según prescripción",
+            "rationale": "Reemplazar la deficiencia de mineralocorticoides y conservar sodio."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas)",
+            "rationale": "Identificar déficit de volumen que pueda alterar electrolitos."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la ingesta adecuada de sodio",
+            "rationale": "Prevenir hiponatremia y mantener presión arterial estable."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "hiponatremia",
+          "hipotensión ortostática",
+          "pérdida de agua por insuficiencia adrenal"
+        ],
+        "evidenced_by": [
+          "presión arterial sistólica < 90 mmHg",
+          "taquicardia > 100 lpm",
+          "turgencia cutánea disminuida"
+        ],
+        "outcomes": [
+          "Presión arterial: ≥ 100/60 mmHg en 24 h",
+          "Frecuencia cardíaca: < 100 lpm en reposo en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar hidratación IV con solución salina al 0.9% según orden",
+            "rationale": "Restaurar el volumen intravascular rápidamente."
+          },
+          {
+            "action": "Monitorizar signos vitales cada hora durante la fase aguda",
+            "rationale": "Detectar mejoría o deterioro hemodinámico."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos; objetivo ≥ 2000 mL/día",
+            "rationale": "Asegurar balance hídrico positivo."
+          },
+          {
+            "action": "Administrar hidrocortisona IV antes de la hidratación",
+            "rationale": "Corregir la deficiencia de cortisol que contribuye a la hipotensión."
+          },
+          {
+            "action": "Posicionar al paciente en decúbito supino con piernas elevadas",
+            "rationale": "Facilitar retorno venoso y mejorar la presión arterial."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Adrenal suppression (SS)",
+    "aliases": [
+      "adrenal suppression",
+      "adrenal insufficiency",
+      "low cortisol",
+      "hypocortisolism",
+      "hpa axis"
+    ],
+    "summary": "Decreased endogenous cortisol production due to suppression of the hypothalamic‑pituitary‑adrenal axis, often after prolonged use of exogenous glucocorticoids.",
+    "key_points": [
+      "Suppression occurs from prolonged negative feedback of synthetic glucocorticoids.",
+      "May present with hypotension, hypoglycemia, and sodium loss.",
+      "Diagnosis is based on low basal cortisol and ACTH stimulation test.",
+      "Treatment includes tapering glucocorticoids and replacement with hydrocortisone.",
+      "Adrenal crisis is an emergency requiring hydration and IV glucocorticoids."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exogenous glucocorticoids suppress CRH and ACTH release.",
+        "Reduce stimulation of the fasciculata and reticularis zones of the adrenal cortex.",
+        "Decrease cortisol synthesis and, in some cases, aldosterone.",
+        "Lack of cortisol impairs stress response and regulation of glucose and electrolytes."
+      ],
+      "risk_factors": [
+        "Prolonged use of prednisone, dexamethasone, or other glucocorticoids > 3 weeks.",
+        "High doses (> 20 mg/day prednisone equivalent).",
+        "Frequent intraarticular or inhaled steroid therapy.",
+        "Chronic diseases requiring steroid treatment (rheumatoid arthritis, severe asthma)."
+      ],
+      "signs_symptoms": [
+        "Orthostatic hypotension, dizziness.",
+        "Fatigue, muscle weakness.",
+        "Hypoglycemia (glucose < 70 mg/dL).",
+        "Nausea, vomiting, abdominal pain.",
+        "Mild hyperpigmentation only if ACTH is elevated (primary insufficiency)."
+      ],
+      "diagnostics": [
+        "Plasma basal cortisol < 5 µg/dL (varies by lab).",
+        "ACTH stimulation test: rise < 9 µg/dL indicates insufficiency.",
+        "Electrolytes: Na+ < 135 mEq/L, K+ normal or high.",
+        "Fasting glucose: < 70 mg/dL.",
+        "Imaging: adrenal CT only if tumor suspected."
+      ],
+      "treatment": [
+        "Gradual reduction of exogenous glucocorticoid (taper).",
+        "Hydrocortisone 15‑20 mg/day in divided doses.",
+        "Fludrocortisone 0.05‑0.1 mg/day if mineralocorticoid deficiency.",
+        "Education on stress dosing (double or triple usual dose for fever, surgery).",
+        "IV hydration with 0.9% saline in adrenal crisis."
+      ],
+      "complications": [
+        "Adrenal crisis: severe hypotension, shock, hypoglycemia.",
+        "Electrolyte imbalance: hyponatremia, hyperkalemia.",
+        "Dehydration and intravascular volume deficit.",
+        "Infections due to decreased immune response."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure every 15‑30 min during acute phase; observe orthostatic hypotension.",
+        "Check capillary glucose every 4‑6 h; report hypoglycemia < 70 mg/dL.",
+        "Assess electrolytes (Na+, K+) at initiation and every 24‑48 h.",
+        "Administer hydrocortisone IV before any invasive procedure.",
+        "Maintain fluid intake/output record; goal ≥ 2000 mL/day."
+      ],
+      "patient_teaching": [
+        "Do not abruptly stop glucocorticoids; follow prescribed taper schedule.",
+        "Carry medical ID indicating adrenal suppression.",
+        "Increase steroid dose in stress situations (fever > 38°C, surgery).",
+        "Recognize signs of adrenal crisis and seek immediate care.",
+        "Maintain a balanced diet with adequate sodium as directed by provider."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "prolonged use of exogenous glucocorticoids",
+          "sodium loss from adrenal insufficiency",
+          "hyponatremia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+ ≥ 135 mEq/L within 48 h",
+          "Hydration status: fluid intake ≥ 2000 mL/day"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor Na+ and K+ in blood every 24 h",
+            "rationale": "Detect imbalances quickly and adjust therapy."
+          },
+          {
+            "action": "Administer fludrocortisone as prescribed",
+            "rationale": "Replace mineralocorticoid deficiency and retain sodium."
+          },
+          {
+            "action": "Assess signs of dehydration (skin turgor, dry mucous membranes)",
+            "rationale": "Identify volume deficit that may alter electrolytes."
+          },
+          {
+            "action": "Educate patient on importance of adequate sodium intake",
+            "rationale": "Prevent hyponatremia and maintain blood pressure."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "hyponatremia",
+          "orthostatic hypotension",
+          "water loss from adrenal insufficiency"
+        ],
+        "evidenced_by": [
+          "systolic blood pressure < 90 mmHg",
+          "tachycardia > 100 bpm",
+          "decreased skin turgor"
+        ],
+        "outcomes": [
+          "Blood pressure: ≥ 100/60 mmHg within 24 h",
+          "Heart rate: < 100 bpm at rest within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate IV hydration with 0.9% saline as ordered",
+            "rationale": "Rapidly restore intravascular volume."
+          },
+          {
+            "action": "Monitor vital signs hourly during acute phase",
+            "rationale": "Detect improvement or hemodynamic deterioration."
+          },
+          {
+            "action": "Record fluid intake and output; goal ≥ 2000 mL/day",
+            "rationale": "Ensure positive fluid balance."
+          },
+          {
+            "action": "Administer hydrocortisone IV before hydration",
+            "rationale": "Correct cortisol deficiency contributing to hypotension."
+          },
+          {
+            "action": "Position patient supine with legs elevated",
+            "rationale": "Facilitate venous return and improve blood pressure."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "adrenal-insufficiency",
+    "cortisol",
+    "hypoglycemia",
+    "electrolyte-imbalance",
+    "hpa-axis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cushing's Syndrome",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cushingssyndrome.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Adrenal Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-5-adrenal-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Adrenal Cortex, Pituitary, and Hypothalamus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/26-1-introduction-to-the-adrenal-cortex-pituitary-and-hypothalamus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-19",
+  "factcheck": {
+    "checked": "2026-10-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 31,
+      "contradicted": 1,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The aldosterone deficiency causes increased sodium loss from the kidneys, leading to hypotension and increased potassium reabsorption.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Diagnosis of adrenal insufficiency is confirmed by low serum cortisol and aldosterone levels, a blunt cortisol response with ACTH stimulation, and an elevated renin activity test.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "The crisis is initially treated by administering intravenous fluids, dextrose, and hydrocortisone, followed by diagnostic testing to discover and treat the underlying cause.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Some symptoms are: Upper body obesity Thin arms and legs Severe fatigue and muscle weakness High blood pressure High blood sugar Easy bruising Lab tests can show if you have it and find the cause.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Signs and symptoms include rapid, progressive onset of adrenal insufficiency symptoms such as nausea, vomiting, abdominal pain, hypotension, altered mental status, or obtundation.",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "contradicted",
+        "quote": "Serum electrolytes may show hypokalemia and hypocalcemia, and fasting blood glucose levels may be elevated.",
+        "source": 1
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "The taper is done slowly, sometimes over months, to prevent adrenal crisis and give the adrenal glands a chance to return to normal function (Chaudhry & Singh, 2023).",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "An adrenal crisis is an acute, rapid onset of severe cortisol and aldosterone insufficiency, causing the patient to become critically ill and go into shock.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Serum chemistry results may reveal hyponatremia, hypoglycemia, hypercalcemia, and hyperkalemia.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Similar to adrenal insufficiency, adrenal crisis can occur in Cushing’s syndrome if glucocorticoid medications are abruptly stopped.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Signs and symptoms include rapid, progressive onset of adrenal insufficiency symptoms such as nausea, vomiting, abdominal pain, hypotension, altered mental status, or obtundation.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "The care team may include a nutritionist to ensure the patient’s diet includes sufficient sodium and potassium to maintain balance.",
+        "source": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,377 @@
+{
+  "id": "anticoagulation-reversal",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Reversión de anticoagulación",
+    "aliases": [
+      "reversión",
+      "anticoagulación",
+      "anticoagulante",
+      "reversión anticoagulante",
+      "anticoagulation reversal"
+    ],
+    "summary": "Procedimientos y fármacos para neutralizar el efecto de los anticoagulantes en situaciones de sangrado o antes de procedimientos invasivos.",
+    "key_points": [
+      "Identificar el anticoagulante usado para escoger el antídoto correcto.",
+      "Vitamina K revierte warfarina; protamina revierte heparina y LMWH.",
+      "Idarucizumab neutraliza dabigatran; andexanet alfa revierte inhibidores de factor Xa.",
+      "Monitorear INR, aPTT y signos de sangrado antes y después de la reversión."
+    ],
+    "sections": {
+      "mechanism": [
+        "Vitamina K (filgrastina) restaura la síntesis hepática de factores II, VII, IX y X.",
+        "Protamina forma complejos inactivos con heparina, anulando su actividad anti‑Xa.",
+        "Idarucizumab se une al dabigatran con alta afinidad, impidiendo su unión a la trombina.",
+        "Andexanet alfa actúa como decoy del factor Xa, capturando inhibidores de factor Xa."
+      ],
+      "indications": [
+        "Sangrado mayor o potencialmente mortal mientras el paciente está bajo anticoagulación.",
+        "Necesidad urgente de cirugía o procedimiento invasivo con riesgo de sangrado.",
+        "Reversión de anticoagulación en caso de sobredosis accidental."
+      ],
+      "contraindications": [
+        "Hipersensibilidad conocida al antídoto específico.",
+        "Uso de protamina en pacientes con antecedentes de reacciones anafilácticas graves.",
+        "Andexanet alfa contraindicado en pacientes con antecedentes de trombosis arterial reciente."
+      ],
+      "adverse_effects": [
+        "Vitamina K: reacción local, náuseas.",
+        "Protamina: hipotensión, bradicardia, reacciones alérgicas (serious).",
+        "Idarucizumab: reacciones alérgicas, edema (serious).",
+        "Andexanet alfa: trombosis, hipertensión, reacciones alérgicas (serious)."
+      ],
+      "interactions": [
+        "Vitamina K puede reducir el efecto de otros anticoagulantes orales.",
+        "Protamina puede potenciar la actividad de anticoagulantes directos si se administra erróneamente.",
+        "Andexanet alfa puede interferir con pruebas de coagulación, falsificando resultados."
+      ],
+      "nursing_care": [
+        "Verificar el anticoagulante, dosis y tiempo de última administración.",
+        "Obtener laboratorios: INR (warfarina), aPTT (heparina), tiempo de trombina (dabigatran).",
+        "Retener la dosis si INR > 4 (warfarina) o aPTT > 100 s (heparina) y notificar al médico.",
+        "Administrar antídoto según prescripción; monitorizar signos vitales cada 15 min los primeros 30 min.",
+        "Re‑evaluar INR/aPTT 1‑2 h después de la reversión y documentar respuesta."
+      ],
+      "patient_teaching": [
+        "Informar al paciente sobre signos de sangrado: hematomas, hematuria, sangrado gingival.",
+        "Explicar que la reversión es temporal; el anticoagulante puede re‑iniciarse según indicación médica.",
+        "Recomendar evitar actividades de alto riesgo de lesión hasta que el médico lo autorice.",
+        "Enseñar la importancia de informar a todos los profesionales de salud sobre su uso de anticoagulantes."
+      ],
+      "antidote_overdose": [
+        "Vitamina K (filgrastina) 10 mg IV/IM para sobredosis de warfarina.",
+        "Protamina sulfato 1 mg por cada 100 U de heparina no fraccionada; 1 mg por cada 1 mg de enoxaparina.",
+        "Idarucizumab 5 g IV en bolo único para dabigatran.",
+        "Andexanet alfa dosis basada en tipo y cantidad de inhibidor de factor Xa; administrar según protocolo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de anticoagulantes",
+          "procedimientos invasivos",
+          "trauma"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasia: ausencia de sangrado activo durante 24 h",
+          "Coagulación: INR dentro del rango terapéutico (2‑3) o aPTT < 60 s"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar historial de anticoagulantes y tiempo de última dosis.",
+            "rationale": "Permite seleccionar el antídoto y planificar la reversión adecuada."
+          },
+          {
+            "action": "Obtener y registrar resultados de INR, aPTT y pruebas específicas de DOAC.",
+            "rationale": "Los valores de laboratorio guían la necesidad y la dosis del antídoto."
+          },
+          {
+            "action": "Administrar antídoto según orden médica y monitorizar signos vitales cada 15 min.",
+            "rationale": "Previene complicaciones hemodinámicas y detecta reacciones adversas tempranas."
+          },
+          {
+            "action": "Documentar respuesta al antídoto y notificar al médico si persiste sangrado.",
+            "rationale": "Facilita la toma de decisiones para re‑iniciar anticoagulación o intervenciones adicionales."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de sangrado y cuándo buscar ayuda.",
+            "rationale": "Promueve la detección precoz y reduce riesgo de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Anticoagulation reversal",
+    "aliases": [
+      "reversal",
+      "anticoagulation",
+      "anticoagulant",
+      "anticoagulation reversal"
+    ],
+    "summary": "Procedures and drugs to neutralize the effect of anticoagulants in bleeding situations or before invasive procedures.",
+    "key_points": [
+      "Identify the anticoagulant used to choose the correct antidote.",
+      "Vitamin K reverses warfarin; protamine reverses heparin and LMWH.",
+      "Idarucizumab neutralizes dabigatran; andexanet alfa reverses factor Xa inhibitors.",
+      "Monitor INR, aPTT and bleeding signs before and after reversal."
+    ],
+    "sections": {
+      "mechanism": [
+        "Vitamin K restores hepatic synthesis of factors II, VII, IX and X.",
+        "Protamine forms inactive complexes with heparin, negating its anti‑Xa activity.",
+        "Idarucizumab binds dabigatran with high affinity, preventing its binding to thrombin.",
+        "Andexanet alfa acts as a factor Xa decoy, capturing factor Xa inhibitors."
+      ],
+      "indications": [
+        "Major or potentially fatal bleeding while the patient is anticoagulated.",
+        "Urgent need for surgery or invasive procedure with bleeding risk.",
+        "Reversal of anticoagulation in accidental overdose."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to the specific antidote.",
+        "Use of protamine in patients with a history of severe anaphylactic reactions.",
+        "Andexanet alfa contraindicated in patients with recent arterial thrombosis."
+      ],
+      "adverse_effects": [
+        "Vitamin K: local reaction, nausea.",
+        "Protamine: hypotension, bradycardia, allergic reactions (serious).",
+        "Idarucizumab: allergic reactions, edema (serious).",
+        "Andexanet alfa: thrombosis, hypertension, allergic reactions (serious)."
+      ],
+      "interactions": [
+        "Vitamin K may reduce the effect of other oral anticoagulants.",
+        "Protamine may potentiate the activity of direct anticoagulants if administered in error.",
+        "Andexanet alfa may interfere with coagulation tests, falsifying results."
+      ],
+      "nursing_care": [
+        "Verify the anticoagulant, dose and time of last administration.",
+        "Obtain labs: INR (warfarin), aPTT (heparin), thrombin time (dabigatran).",
+        "Hold the dose if INR > 4 (warfarin) or aPTT > 100 s (heparin) and notify the physician.",
+        "Administer antidote per prescription; monitor vital signs every 15 min for the first 30 min.",
+        "Re‑evaluate INR/aPTT 1‑2 h after reversal and document response."
+      ],
+      "patient_teaching": [
+        "Inform the patient about signs of bleeding: bruising, hematuria, gingival bleeding.",
+        "Explain that reversal is temporary; anticoagulant may be re‑started per medical indication.",
+        "Recommend avoiding high‑risk activities until physician authorizes.",
+        "Teach the importance of informing all health professionals about anticoagulant use."
+      ],
+      "antidote_overdose": [
+        "Vitamin K 10 mg IV/IM for warfarin overdose.",
+        "Protamine sulfate 1 mg per 100 U of unfractionated heparin; 1 mg per 1 mg of enoxaparin.",
+        "Idarucizumab 5 g IV single bolus for dabigatran.",
+        "Andexanet alfa dose based on type and amount of factor Xa inhibitor; administer per protocol."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "use of anticoagulants",
+          "invasive procedures",
+          "trauma"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasis: no active bleeding for 24 h",
+          "Coagulation: INR within therapeutic range (2‑3) or aPTT < 60 s"
+        ],
+        "interventions": [
+          {
+            "action": "Assess anticoagulant history and time of last dose.",
+            "rationale": "Allows selection of the antidote and proper reversal planning."
+          },
+          {
+            "action": "Obtain and record INR, aPTT and specific DOAC tests.",
+            "rationale": "Laboratory values guide the need and dose of the antidote."
+          },
+          {
+            "action": "Administer antidote per physician order and monitor vital signs every 15 min.",
+            "rationale": "Prevents hemodynamic complications and detects early adverse reactions."
+          },
+          {
+            "action": "Document antidote response and notify physician if bleeding persists.",
+            "rationale": "Facilitates decision‑making for re‑initiation of anticoagulation or additional interventions."
+          },
+          {
+            "action": "Educate patient and family about bleeding signs and when to seek help.",
+            "rationale": "Promotes early detection and reduces complication risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "warfarin",
+    "heparin",
+    "direct-oral-anticoagulants",
+    "bleeding",
+    "coagulation-cascade"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Growth and Development Stages",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/41-1-growth-and-development-stages",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-19",
+  "factcheck": {
+    "checked": "2026-10-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "In those cases, reversal agents may be administered to counteract the effect of t",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "This section will focus on protamine (reversal agent for heparins), vitamin K (reversal agent for warfarin), and monoclonal antibody reversal agents for the DOACs.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "It is a humanized monoclonal antibody that binds dabigatran to remove it from the blood, ceasing its anticoagulant effect.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Vitamin K is needed for production of clotting factors II, VII, IX, and X.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Warfarin can cause major or fatal bleeding.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Sometimes clients who have been administered anticoagulant medications experience serious bleeding complications or need urgent surgery that should not be performed while the blood is anticoagulated.",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "It is FDA approved to treat heparin overdose and is used off-label to partially neutralize low molecular weight heparins.",
+        "source": 0
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Some symptoms of bleeding are blood in the stool; dark, tarry-appearing stools; blood in the urine; epistaxis (nosebleed); gingival bleeding; very severe headache; coffee-ground emesis; and hemoptysis.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Avoid high-risk behaviors that could result in falls (such as working on rooftops or on tall ladders); injuries, especially head injuries, may be more severe in clients who take anticoagulants.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.1": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.2": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

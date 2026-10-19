@@ -1,0 +1,506 @@
+{
+  "id": "opioid-withdrawal",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome de abstinencia de opioides (SAO)",
+    "aliases": [
+      "abstinencia opioides",
+      "withdrawal opioides",
+      "síndrome abstinencia",
+      "opioides",
+      "síndrome de abstinencia"
+    ],
+    "summary": "Conjunto de síntomas que aparecen al reducir o suspender el uso de opioides después de una dependencia física.",
+    "key_points": [
+      "Se manifiesta entre 6 y 12 h (heroína) y 24‑72 h (metadona) tras la última dosis.",
+      "Los síntomas incluyen dolor muscular, diarrea, sudoración, ansiedad y temblores.",
+      "El tratamiento de primera línea es la terapia de agonista parcial o total (metadona, buprenorfina).",
+      "Complicaciones graves pueden ser deshidratación, desequilibrio electrolítico y recaídas.",
+      "Se utiliza la escala COWS para cuantificar la severidad."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los opioides estimulan los receptores μ, κ y δ inhibiendo la liberación de neurotransmisores excitatorios.",
+        "Con el uso crónico se produce adaptación neuronal y dependencia fisiológica.",
+        "Al suspenderse, la actividad de los receptores disminuye y aparecen síntomas de hiperactividad simpática."
+      ],
+      "risk_factors": [
+        "Uso prolongado de opioides (>4 semanas).",
+        "Altas dosis o uso de formulaciones de liberación prolongada.",
+        "Antecedentes de trastornos de ansiedad o depresión.",
+        "Falta de apoyo social o acceso a tratamiento de sustitución."
+      ],
+      "signs_symptoms": [
+        "Dolor muscular y rigidez.",
+        "Diarrea, náuseas y vómitos.",
+        "Sudoración profusa, lagrimeo y lagrimeo ocular.",
+        "Ansiedad, irritabilidad, temblores y taquicardia.",
+        "Escalofríos y fiebre leve."
+      ],
+      "diagnostics": [
+        "Historia clínica y uso de opioides.",
+        "Escala COWS (Clinical Opiate Withdrawal Scale) – puntuación >12 indica abstinencia moderada.",
+        "Análisis de orina para confirmar opioides.",
+        "Laboratorio: electrolitos, glucosa, función renal; buscar hiponatremia o hipocalemia."
+      ],
+      "treatment": [
+        "Terapia de sustitución: metadona o buprenorfina (agonista parcial).",
+        "Clonidina para reducir la hiperactividad simpática.",
+        "Antieméticos (ondansetrón) y antidiarreicos (loperamida) según necesidad.",
+        "Reposición de líquidos y electrolitos por vía oral o IV.",
+        "Apoyo psicológico y técnicas de relajación."
+      ],
+      "complications": [
+        "Deshidratación y desequilibrio electrolítico.",
+        "Riesgo de recaída y sobredosis.",
+        "Insomnio severo y agitación que pueden provocar lesiones.",
+        "Rhabdomiolisis por temblores intensos.",
+        "Hipotensión ortostática por uso de clonidina."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 2‑4 h; prestar atención a taquicardia y presión arterial.",
+        "Aplicar la escala COWS en cada turno y registrar la puntuación.",
+        "Mantener hidratación: ofrecer 1500‑2000 mL de líquidos claros/dia.",
+        "Controlar ingesta y salida de orina; reemplazar electrolitos según resultados de laboratorio.",
+        "Implementar medidas de seguridad: ambiente libre de objetos que puedan causar caídas."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la terapia de sustitución y la adherencia al plan.",
+        "Enseñar técnicas de respiración profunda y relajación para manejar la ansiedad.",
+        "Informar sobre signos de deshidratación y cuándo buscar ayuda médica.",
+        "Reforzar la necesidad de evitar el consumo de alcohol y otras sustancias que potencien la depresión respiratoria.",
+        "Proveer información sobre grupos de apoyo y recursos comunitarios."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ansiedad",
+        "type": "actual",
+        "related_to": [
+          "situación de abstinencia",
+          "incertidumbre sobre el tratamiento",
+          "síntomas físicos intensos"
+        ],
+        "evidenced_by": [
+          "inquietud",
+          "temblores",
+          "palpitaciones",
+          "pensamientos de catarsis"
+        ],
+        "outcomes": [
+          "Reducción de la ansiedad medida con escala de 0‑10 a ≤3 en 48 h",
+          "Participa en al menos dos técnicas de relajación durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de ansiedad con escala de 0‑10 cada 4 h",
+            "rationale": "Permite detectar cambios y ajustar intervenciones rápidamente"
+          },
+          {
+            "action": "Ofrecer ambiente tranquilo, luz tenue y reducir estímulos ruidosos",
+            "rationale": "Minimiza estímulos que pueden exacerbar la ansiedad"
+          },
+          {
+            "action": "Enseñar respiración diafragmática y relajación muscular progresiva",
+            "rationale": "Técnicas de control fisiológico disminuyen la respuesta simpática"
+          },
+          {
+            "action": "Administrar clonidina según prescripción para controlar la hiperactividad simpática",
+            "rationale": "Reduce síntomas de ansiedad como temblores y taquicardia"
+          },
+          {
+            "action": "Facilitar contacto con familia o grupo de apoyo telefónico",
+            "rationale": "El apoyo social disminuye la percepción de aislamiento y ansiedad"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "diarrea",
+          "vómitos",
+          "sudoración profusa",
+          "taquicardia",
+          "uso de clonidina"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Ingesta oral ≥1500 mL/día mantenida durante 72 h",
+          "Peso corporal estable ±0.5 kg respecto al ingreso"
+        ],
+        "interventions": [
+          {
+            "action": "Ofrecer líquidos claros cada 30 min, registrar ingesta total",
+            "rationale": "Previene deshidratación y mantiene el equilibrio hídrico"
+          },
+          {
+            "action": "Monitorear signos vitales y presión arterial cada 2 h",
+            "rationale": "Detecta precozmente hipotensión o taquicardia por pérdida de volumen"
+          },
+          {
+            "action": "Evaluar electrolitos (Na+, K+, Cl-) cada 24 h",
+            "rationale": "Identifica desequilibrios que requieren reposición específica"
+          },
+          {
+            "action": "Administrar solución salina isotónica IV si la ingesta oral es <1000 mL/24 h",
+            "rationale": "Restablece el volumen intravascular rápidamente"
+          },
+          {
+            "action": "Educar al paciente sobre signos de deshidratación y la importancia de la hidratación continua",
+            "rationale": "Fomenta la autogestión y prevención de complicaciones"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opioid Withdrawal Syndrome (OWS)",
+    "aliases": [
+      "opioid withdrawal",
+      "withdrawal opioids",
+      "opioid abstinence syndrome",
+      "opioids",
+      "opioid withdrawal syndrome"
+    ],
+    "summary": "A set of symptoms that appear when reducing or stopping opioid use after a period of physical dependence.",
+    "key_points": [
+      "Manifestation occurs between 6 and 12 h (heroin) and 24‑72 h (methadone) after the last dose.",
+      "Symptoms include muscle pain, diarrhea, sweating, anxiety, and tremors.",
+      "First‑line treatment is partial or full agonist therapy (methadone, buprenorphine).",
+      "Severe complications can be dehydration, electrolyte imbalance, and relapse.",
+      "The COWS scale is used to quantify severity."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Opioids stimulate μ, κ, and δ receptors, inhibiting the release of excitatory neurotransmitters.",
+        "Chronic use leads to neuronal adaptation and physiological dependence.",
+        "When discontinued, receptor activity decreases and sympathetic hyperactivity symptoms appear."
+      ],
+      "risk_factors": [
+        "Prolonged opioid use (>4 weeks).",
+        "High doses or use of extended‑release formulations.",
+        "History of anxiety or depression disorders.",
+        "Lack of social support or access to substitution therapy."
+      ],
+      "signs_symptoms": [
+        "Muscle pain and stiffness.",
+        "Diarrhea, nausea, and vomiting.",
+        "Profuse sweating, tearing, and ocular tearing.",
+        "Anxiety, irritability, tremors, and tachycardia.",
+        "Chills and mild fever."
+      ],
+      "diagnostics": [
+        "Medical history and opioid use.",
+        "COWS (Clinical Opiate Withdrawal Scale) – score >12 indicates moderate withdrawal.",
+        "Urine analysis to confirm opioids.",
+        "Laboratory: electrolytes, glucose, renal function; look for hyponatremia or hypokalemia."
+      ],
+      "treatment": [
+        "Substitution therapy: methadone or buprenorphine (partial agonist).",
+        "Clonidine to reduce sympathetic hyperactivity.",
+        "Antiemetics (ondansetron) and antidiarrheals (loperamide) as needed.",
+        "Rehydration and electrolyte replacement orally or IV.",
+        "Psychological support and relaxation techniques."
+      ],
+      "complications": [
+        "Dehydration and electrolyte imbalance.",
+        "Risk of relapse and overdose.",
+        "Severe insomnia and agitation that can cause injury.",
+        "Rhabdomyolysis from intense tremors.",
+        "Orthostatic hypotension from clonidine use."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 2‑4 h; watch for tachycardia and blood pressure changes.",
+        "Apply the COWS scale each shift and record the score.",
+        "Maintain hydration: offer 1500‑2000 mL of clear fluids/day.",
+        "Track urine output; replace electrolytes based on lab results.",
+        "Implement safety measures: a fall‑free environment."
+      ],
+      "patient_teaching": [
+        "Explain the importance of substitution therapy and adherence to the plan.",
+        "Teach deep breathing and relaxation techniques to manage anxiety.",
+        "Inform about signs of dehydration and when to seek medical help.",
+        "Emphasize the need to avoid alcohol and other substances that potentiate respiratory depression.",
+        "Provide information on support groups and community resources."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Anxiety",
+        "type": "actual",
+        "related_to": [
+          "abstinence situation",
+          "uncertainty about treatment",
+          "intense physical symptoms"
+        ],
+        "evidenced_by": [
+          "restlessness",
+          "tremors",
+          "palpitations",
+          "catastrophic thoughts"
+        ],
+        "outcomes": [
+          "Reduction of anxiety measured with a 0‑10 scale to ≤3 within 48 h",
+          "Participation in at least two relaxation techniques during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Assess anxiety level with a 0‑10 scale every 4 h",
+            "rationale": "Allows detection of changes and rapid adjustment of interventions"
+          },
+          {
+            "action": "Provide a calm environment, dim lighting, and reduce noisy stimuli",
+            "rationale": "Minimizes stimuli that can exacerbate anxiety"
+          },
+          {
+            "action": "Teach diaphragmatic breathing and progressive muscle relaxation",
+            "rationale": "Physiologic control techniques reduce sympathetic response"
+          },
+          {
+            "action": "Administer clonidine as prescribed to control sympathetic hyperactivity",
+            "rationale": "Reduces anxiety symptoms such as tremors and tachycardia"
+          },
+          {
+            "action": "Facilitate contact with family or telephone support group",
+            "rationale": "Social support decreases feelings of isolation and anxiety"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "diarrhea",
+          "vomiting",
+          "profuse sweating",
+          "tachycardia",
+          "clonidine use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Oral intake ≥1500 mL/day maintained for 72 h",
+          "Body weight stable ±0.5 kg from admission"
+        ],
+        "interventions": [
+          {
+            "action": "Offer clear fluids every 30 min, record total intake",
+            "rationale": "Prevents dehydration and maintains fluid balance"
+          },
+          {
+            "action": "Monitor vital signs and blood pressure every 2 h",
+            "rationale": "Detects early hypotension or tachycardia from volume loss"
+          },
+          {
+            "action": "Evaluate electrolytes (Na+, K+, Cl-) every 24 h",
+            "rationale": "Identifies imbalances that require specific replacement"
+          },
+          {
+            "action": "Administer isotonic saline IV if oral intake <1000 mL/24 h",
+            "rationale": "Rapidly restores intravascular volume"
+          },
+          {
+            "action": "Educate the patient on signs of dehydration and the importance of continuous hydration",
+            "rationale": "Promotes self‑management and prevention of complications"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-dependence",
+    "withdrawal-syndrome",
+    "methadone",
+    "buprenorphine",
+    "naltrexone"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Opioids and Opioid Use Disorder (OUD)",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/opioidsandopioidusedisorderoud.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Agonists and Antagonists",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-19",
+  "factcheck": {
+    "checked": "2026-10-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 32,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Opioid withdrawal occurs in clients using opioids for a chronic period who have abruptly discontinued the drug, or from rapid reversal of the drug’s effect with an opioid antagonist (e.g., naloxone)."
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Flu-like symptoms can occur including rhinorrhea, shivering, myalgias, and piloerection (i.e., goosebumps).",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Tolerance and physical dependence will occur in nearly all clients receiving chronic opioid therapy, but only some will go on to develop an opioid use disorder.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Gastrointestinal effects of opioid withdrawal include severe abdominal cramping, diarrhea, nausea, and vomiting.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Symptoms of excessive sympathetic and CNS activation include dilated pupils, tachycardia, anxiety, irritability, agitation, and tremor.",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Clients with a history of certain mental health disorders, such as post-traumatic stress disorder and depression, have been shown to be at risk for various substance use disorders as well (National Institute on Drug Abuse, 2022).",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "The presence of opioids in a client is not routinely measured in the blood but rather is detected using urine drug screens.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Buprenorphine is a partial mu opioid receptor agonist that is designed to reduce the symptoms of opioid withdrawal and cravings in clients abstaining from opioid use.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "It is vital to educate clients about this, since clients who go on to relapse and use opioids at their previous doses may experience more opioid effects than they were intending, leading to accidental overdose and risk for death due to respiratory depression.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "“Do not drink alcohol while you’re taking this medication.”",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

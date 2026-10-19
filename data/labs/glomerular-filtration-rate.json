@@ -1,0 +1,217 @@
+{
+  "id": "glomerular-filtration-rate",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Tasa de filtración glomerular (TFG)",
+    "aliases": [
+      "filtración glomerular",
+      "tasa de filtración",
+      "gfr",
+      "función renal",
+      "creatinina sérica"
+    ],
+    "summary": "La TFG estima la cantidad de sangre que los riñones filtran por minuto y se usa para evaluar la función renal.",
+    "key_points": [
+      "Se calcula a partir de la creatinina sérica, edad, sexo y peso (eGFR).",
+      "Rango normal en adultos: 90‑120 mL/min/1.73 m².",
+      "Valores <60 mL/min/1.73 m² indican enfermedad renal crónica (ERC).",
+      "Factores que alteran la TFG: diabetes, hipertensión, edad avanzada y nefrotoxinas.",
+      "La TFG se usa para dosificar fármacos renales y planificar terapia de reemplazo."
+    ],
+    "sections": {
+      "normal_values": [
+        "90‑120 mL/min/1.73 m² (adultos jóvenes y de mediana edad).",
+        "70‑90 mL/min/1.73 m² en adultos mayores (>65 años) puede considerarse normal.",
+        "Varía según laboratorio y método de cálculo (CKD‑EPI, MDRD)."
+      ],
+      "high_values": [
+        "Hipertensión glomerular: TFG >130 mL/min/1.73 m².",
+        "Causas: diabetes temprana, embarazo, consumo excesivo de proteínas.",
+        "Signos: proteinuria, edema leve, presión arterial elevada."
+      ],
+      "low_values": [
+        "Insuficiencia renal aguda o crónica: TFG <60 mL/min/1.73 m².",
+        "Causas: nefropatía diabética, hipertensión mal controlada, nefrotoxinas, deshidratación.",
+        "Signos: oliguria, edema, fatiga, náuseas, alteraciones electrolíticas."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa, suero; tubo con gel separador.",
+        "No requiere ayuno, pero evitar ejercicio intenso antes de la extracción.",
+        "Procesar dentro de 2 h; refrigerar si se retrasa.",
+        "Errores comunes: hemólisis, demora en centrifugado, uso de tubo con anticoagulante inadecuado."
+      ],
+      "nursing_care": [
+        "Monitorear TFG y creatinina sérica cada 3‑6 meses según estadio de ERC.",
+        "Evaluar signos de sobrecarga o déficit de líquidos (edema, presión arterial, peso).",
+        "Revisar medicamentos nefrotóxicos (AINEs, algunos antibióticos) y ajustar dosis.",
+        "Educar al paciente sobre hidratación adecuada y dieta baja en sodio y proteínas según indicación.",
+        "Coordinar referencia a nefrología cuando TFG <30 mL/min/1.73 m²."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "diabetes mellitus",
+          "hipertensión arterial",
+          "uso de fármacos nefrotóxicos",
+          "deshidratación",
+          "edad avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión renal adecuada: TFG ≥ 90 mL/min/1.73 m² en 3 meses",
+          "Prevención de progresión de daño renal: creatinina sérica estable en 6 meses"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar la TFG y creatinina sérica según orden médica.",
+            "rationale": "Permite detectar cambios tempranos en la función renal."
+          },
+          {
+            "action": "Evaluar balance hídrico (peso diario, ingesta y salida de líquidos, edema).",
+            "rationale": "Identifica déficit o exceso de volumen que afecta la perfusión renal."
+          },
+          {
+            "action": "Revisar la lista de medicamentos y notificar al médico si hay fármacos nefrotóxicos.",
+            "rationale": "Evita daño adicional al nefrón por agentes tóxicos."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación y la dieta renal adecuada.",
+            "rationale": "Mejora la perfusión y reduce la carga de trabajo renal."
+          },
+          {
+            "action": "Programar controles de laboratorio de TFG cada 3 meses o según indicación.",
+            "rationale": "Monitorea la evolución y permite intervenciones oportunas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Glomerular Filtration Rate (GFR)",
+    "aliases": [
+      "glomerular filtration",
+      "filtration rate",
+      "gfr",
+      "renal function",
+      "serum creatinine"
+    ],
+    "summary": "GFR estimates the amount of blood the kidneys filter per minute and is used to assess renal function.",
+    "key_points": [
+      "It is calculated from serum creatinine, age, sex, and weight (eGFR).",
+      "Normal range in adults: 90‑120 mL/min/1.73 m².",
+      "Values <60 mL/min/1.73 m² indicate chronic kidney disease (CKD).",
+      "Factors that alter GFR: diabetes, hypertension, advanced age, and nephrotoxins.",
+      "GFR is used to dose renal drugs and plan replacement therapy."
+    ],
+    "sections": {
+      "normal_values": [
+        "90‑120 mL/min/1.73 m² (young and middle‑aged adults).",
+        "70‑90 mL/min/1.73 m² in older adults (>65 years) may be considered normal.",
+        "Varies by laboratory and calculation method (CKD‑EPI, MDRD)."
+      ],
+      "high_values": [
+        "Glomerular hypertension: GFR >130 mL/min/1.73 m².",
+        "Causes: early diabetes, pregnancy, excessive protein intake.",
+        "Signs: proteinuria, mild edema, elevated blood pressure."
+      ],
+      "low_values": [
+        "Acute or chronic renal failure: GFR <60 mL/min/1.73 m².",
+        "Causes: diabetic nephropathy, uncontrolled hypertension, nephrotoxins, dehydration.",
+        "Signs: oliguria, edema, fatigue, nausea, electrolyte disturbances."
+      ],
+      "specimen": [
+        "Venous blood sample, serum; tube with gel separator.",
+        "No fasting required, but avoid intense exercise before collection.",
+        "Process within 2 h; refrigerate if delayed.",
+        "Common errors: hemolysis, delayed centrifugation, use of inappropriate anticoagulant tube."
+      ],
+      "nursing_care": [
+        "Monitor GFR and serum creatinine every 3‑6 months per CKD stage.",
+        "Assess signs of fluid overload or deficit (edema, blood pressure, weight).",
+        "Review nephrotoxic medications (NSAIDs, certain antibiotics) and adjust doses.",
+        "Educate patient on adequate hydration and low‑sodium, protein‑restricted diet as indicated.",
+        "Coordinate referral to nephrology when GFR <30 mL/min/1.73 m²."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "diabetes mellitus",
+          "hypertension",
+          "use of nephrotoxic drugs",
+          "dehydration",
+          "advanced age"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate renal perfusion: GFR ≥ 90 mL/min/1.73 m² in 3 months",
+          "Prevention of renal damage progression: stable serum creatinine in 6 months"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record GFR and serum creatinine per physician order.",
+            "rationale": "Allows early detection of changes in renal function."
+          },
+          {
+            "action": "Assess fluid balance (daily weight, intake and output, edema).",
+            "rationale": "Identifies volume deficit or excess affecting renal perfusion."
+          },
+          {
+            "action": "Review medication list and notify physician if nephrotoxic drugs are present.",
+            "rationale": "Prevents additional nephron damage from toxic agents."
+          },
+          {
+            "action": "Educate patient on importance of hydration and appropriate renal diet.",
+            "rationale": "Improves perfusion and reduces renal workload."
+          },
+          {
+            "action": "Schedule GFR laboratory checks every 3 months or as indicated.",
+            "rationale": "Monitors progression and allows timely interventions."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "egfr",
+    "chronic-kidney-disease",
+    "nephrotoxicity"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Kidney Tests",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/kidneytests.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Renal System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Urinary System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/26-1-urinary-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-19"
+}
