@@ -1,0 +1,494 @@
+{
+  "id": "restless-leg-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome de piernas inquietas (SPI)",
+    "aliases": [
+      "piernas inquietas",
+      "síndrome piernas inquietas",
+      "rls",
+      "piernas reposo",
+      "dolor piernas",
+      "movimiento piernas"
+    ],
+    "summary": "Trastorno neurológico caracterizado por una necesidad irresistible de mover las piernas, que empeora en reposo y al anochecer, y se alivia temporalmente con el movimiento.",
+    "key_points": [
+      "Empeora al estar sentado o acostado y mejora con la actividad.",
+      "Frecuente causa de insomnio y somnolencia diurna.",
+      "Puede estar asociado a deficiencia de hierro, embarazo o neuropatías.",
+      "El diagnóstico es clínico; se descarta otras causas de inquietud.",
+      "El tratamiento incluye corrección de hierro y fármacos dopaminérgicos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disfunción de la dopamina en el sistema nervioso central.",
+        "Alteración del control sensitivo‑motor de las extremidades inferiores.",
+        "Hipoxia cerebral parcial y déficit de hierro que afecta la síntesis de dopamina."
+      ],
+      "risk_factors": [
+        "Deficiencia de hierro (ferritina < 50 ng/mL).",
+        "Embarazo, insuficiencia renal crónica y neuropatías periféricas.",
+        "Uso de fármacos que antagonizan la dopamina (antipsicóticos, antieméticos).",
+        "Consumo excesivo de cafeína, alcohol o tabaco."
+      ],
+      "signs_symptoms": [
+        "Urgencia de mover las piernas acompañada de hormigueo, ardor o dolor.",
+        "Síntomas que aparecen al reposo, especialmente al anochecer.",
+        "Alivio parcial o total con el movimiento de piernas o estiramiento.",
+        "Despertares nocturnos y dificultad para conciliar el sueño."
+      ],
+      "diagnostics": [
+        "Historia clínica enfocada en los criterios de International Restless Legs Study Group.",
+        "Examen físico y neurológico para excluir neuropatías.",
+        "Laboratorio: ferritina sérica, hierro y capacidad total de fijación del hierro.",
+        "Polisomnografía o estudio de movimientos de piernas si se sospecha PLMD."
+      ],
+      "treatment": [
+        "Suplementación de hierro oral o intravenosa cuando ferritina < 50 ng/mL.",
+        "Agentes dopaminérgicos: pramipexol, ropinirol, rotigotina.",
+        "Gabapentina o pregabalina en casos de intolerancia dopaminérgica.",
+        "Modificaciones del estilo de vida: higiene del sueño, ejercicio moderado, evitar cafeína/alcohol."
+      ],
+      "complications": [
+        "Privación de sueño crónica y somnolencia diurna.",
+        "Fatiga, disminución del rendimiento académico o laboral.",
+        "Trastornos del estado de ánimo (ansiedad, depresión).",
+        "Aumento del riesgo de caídas por movimientos nocturnos."
+      ],
+      "nursing_care": [
+        "Evaluar la intensidad del impulso y su impacto en el sueño (escala de 0‑10).",
+        "Monitorear niveles de ferritina y respuesta a la suplementación de hierro.",
+        "Registrar patrones de sueño y episodios de movimiento nocturno.",
+        "Promover posición cómoda, uso de almohadas y técnicas de relajación antes de dormir.",
+        "Observar efectos adversos de fármacos dopaminérgicos (náuseas, alucinaciones)."
+      ],
+      "patient_teaching": [
+        "Mantener una rutina de sueño regular y ambiente oscuro y silencioso.",
+        "Limitar cafeína, alcohol y tabaco, especialmente en la tarde.",
+        "Realizar estiramientos de piernas y ejercicio moderado durante el día.",
+        "Tomar suplementos de hierro según indicación y evitar tomarlo con lácteos o té.",
+        "Informar al profesional de salud sobre cualquier empeoramiento o efectos secundarios de la medicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "urgencia de mover piernas",
+          "dolor o incomodidad al estar en reposo"
+        ],
+        "evidenced_by": [
+          "inquietud al estar sentado o acostado",
+          "movimientos frecuentes de piernas",
+          "dificultad para permanecer quieto"
+        ],
+        "outcomes": [
+          "Nivel de actividad: mantener actividad tolerable durante el día (escala 0‑10 ≤ 3)",
+          "Calidad del sueño: lograr 6‑8 h de sueño continuo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la intensidad del impulso de mover piernas cada turno usando escala de 0‑10",
+            "rationale": "Permite cuantificar la gravedad y monitorizar la respuesta al tratamiento"
+          },
+          {
+            "action": "Registrar patrones de sueño y despertares nocturnos en hoja de observación",
+            "rationale": "Facilita la identificación de deterioro del sueño y la efectividad de intervenciones"
+          },
+          {
+            "action": "Enseñar ejercicios de estiramiento de piernas antes de acostarse",
+            "rationale": "Reduce la sensación de incomodidad y disminuye la necesidad de movimiento"
+          },
+          {
+            "action": "Promover higiene del sueño (horario regular, ambiente oscuro)",
+            "rationale": "Mejora la consolidación del sueño y disminuye la frecuencia de episodios"
+          },
+          {
+            "action": "Monitorear niveles de ferritina y administrar suplementos de hierro según prescripción",
+            "rationale": "La deficiencia de hierro está asociada a mayor intensidad del síndrome"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Trastorno del patrón del sueño",
+        "type": "actual",
+        "related_to": [
+          "síndrome de piernas inquietas",
+          "despertares nocturnos frecuentes"
+        ],
+        "evidenced_by": [
+          "dificultad para iniciar el sueño",
+          "despertares múltiples durante la noche",
+          "fatiga diurna"
+        ],
+        "outcomes": [
+          "Patrón de sueño: lograr 6‑8 h de sueño continuo sin despertares >2 veces por noche",
+          "Estado de alerta: reportar nivel de energía ≥ 7/10 durante el día"
+        ],
+        "interventions": [
+          {
+            "action": "Implementar rutina de relajación (respiración profunda, música suave) antes de acostarse",
+            "rationale": "Reduce la excitación del sistema nervioso y facilita el inicio del sueño"
+          },
+          {
+            "action": "Limitar consumo de cafeína y alcohol después de las 14:00 h",
+            "rationale": "Estas sustancias pueden exacerbar los síntomas del SPI y alterar el sueño"
+          },
+          {
+            "action": "Fomentar actividad física moderada (30 min) al menos 3 veces/semana",
+            "rationale": "El ejercicio regular mejora la calidad del sueño y disminuye la intensidad del SPI"
+          },
+          {
+            "action": "Revisar y registrar efectos secundarios de los fármacos dopaminérgicos (ej. somnolencia diurna)",
+            "rationale": "Permite ajustar la terapia para optimizar el sueño sin causar sedación excesiva"
+          },
+          {
+            "action": "Coordinar con el médico la posible ajuste de medicación si los episodios persisten",
+            "rationale": "Ajustes farmacológicos pueden ser necesarios para controlar el SPI y mejorar el sueño"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Restless Legs Syndrome (RLS)",
+    "aliases": [
+      "restless legs",
+      "restless legs syndrome",
+      "rls",
+      "legs at rest",
+      "leg pain",
+      "leg movement"
+    ],
+    "summary": "A neurological disorder characterized by an irresistible urge to move the legs, worsening at rest and in the evening, and temporarily relieved by movement.",
+    "key_points": [
+      "Worsens when sitting or lying down and improves with activity.",
+      "Common cause of insomnia and daytime sleepiness.",
+      "May be associated with iron deficiency, pregnancy, or neuropathies.",
+      "Diagnosis is clinical; other causes of restlessness are excluded.",
+      "Treatment includes iron correction and dopaminergic medications."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Dopamine dysfunction in the central nervous system.",
+        "Altered sensorimotor control of the lower extremities.",
+        "Partial cerebral hypoxia and iron deficiency affecting dopamine synthesis."
+      ],
+      "risk_factors": [
+        "Iron deficiency (ferritin < 50 ng/mL).",
+        "Pregnancy, chronic kidney disease, and peripheral neuropathies.",
+        "Use of dopamine antagonists (antipsychotics, antiemetics).",
+        "Excessive consumption of caffeine, alcohol, or tobacco."
+      ],
+      "signs_symptoms": [
+        "Urgency to move the legs accompanied by tingling, burning, or pain.",
+        "Symptoms appear at rest, especially at dusk.",
+        "Partial or total relief with leg movement or stretching.",
+        "Nocturnal awakenings and difficulty falling asleep."
+      ],
+      "diagnostics": [
+        "Focused history on International Restless Legs Study Group criteria.",
+        "Physical and neurological exam to exclude neuropathies.",
+        "Laboratory: serum ferritin, iron, and total iron-binding capacity.",
+        "Polysomnography or leg movement study if PLMD is suspected."
+      ],
+      "treatment": [
+        "Oral or intravenous iron supplementation when ferritin < 50 ng/mL.",
+        "Dopaminergic agents: pramipexole, ropinirole, rotigotine.",
+        "Gabapentin or pregabalin for dopaminergic intolerance.",
+        "Lifestyle modifications: sleep hygiene, moderate exercise, avoid caffeine/alcohol."
+      ],
+      "complications": [
+        "Chronic sleep deprivation and daytime sleepiness.",
+        "Fatigue, reduced academic or work performance.",
+        "Mood disorders (anxiety, depression).",
+        "Increased fall risk from nighttime movements."
+      ],
+      "nursing_care": [
+        "Assess the intensity of the urge and its impact on sleep (0‑10 scale).",
+        "Monitor ferritin levels and response to iron supplementation.",
+        "Document sleep patterns and nighttime movement episodes.",
+        "Promote a comfortable position, use pillows, and relaxation techniques before sleep.",
+        "Observe adverse effects of dopaminergic drugs (nausea, hallucinations)."
+      ],
+      "patient_teaching": [
+        "Maintain a regular sleep routine in a dark, quiet environment.",
+        "Limit caffeine, alcohol, and tobacco, especially in the afternoon.",
+        "Perform leg stretches and moderate exercise during the day.",
+        "Take iron supplements as prescribed and avoid dairy or tea with them.",
+        "Report any worsening or medication side effects to the healthcare provider."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "urge to move legs",
+          "pain or discomfort at rest"
+        ],
+        "evidenced_by": [
+          "restlessness when sitting or lying down",
+          "frequent leg movements",
+          "difficulty staying still"
+        ],
+        "outcomes": [
+          "Activity level: maintain tolerable activity during the day (0‑10 ≤ 3)",
+          "Sleep quality: achieve 6‑8 h of continuous sleep"
+        ],
+        "interventions": [
+          {
+            "action": "Assess the intensity of the urge to move legs each shift using a 0‑10 scale",
+            "rationale": "Allows quantification of severity and monitoring of treatment response"
+          },
+          {
+            "action": "Record sleep patterns and nighttime awakenings on an observation sheet",
+            "rationale": "Facilitates identification of sleep deterioration and intervention effectiveness"
+          },
+          {
+            "action": "Teach leg stretching exercises before bedtime",
+            "rationale": "Reduces discomfort and decreases the need for movement"
+          },
+          {
+            "action": "Promote sleep hygiene (regular schedule, dark environment)",
+            "rationale": "Improves sleep consolidation and reduces episode frequency"
+          },
+          {
+            "action": "Monitor ferritin levels and administer iron supplements as prescribed",
+            "rationale": "Iron deficiency is associated with greater syndrome intensity"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Disturbed sleep pattern",
+        "type": "actual",
+        "related_to": [
+          "restless legs syndrome",
+          "frequent nighttime awakenings"
+        ],
+        "evidenced_by": [
+          "difficulty initiating sleep",
+          "multiple nighttime awakenings",
+          "daytime fatigue"
+        ],
+        "outcomes": [
+          "Sleep pattern: achieve 6‑8 h of continuous sleep without >2 awakenings per night",
+          "Alertness: report energy level ≥ 7/10 during the day"
+        ],
+        "interventions": [
+          {
+            "action": "Implement a relaxation routine (deep breathing, soft music) before bedtime",
+            "rationale": "Reduces nervous system excitation and facilitates sleep onset"
+          },
+          {
+            "action": "Limit caffeine and alcohol after 2:00 pm",
+            "rationale": "These substances can exacerbate RLS symptoms and disturb sleep"
+          },
+          {
+            "action": "Encourage moderate physical activity (30 min) at least 3 times per week",
+            "rationale": "Regular exercise improves sleep quality and reduces RLS intensity"
+          },
+          {
+            "action": "Review and document side effects of dopaminergic drugs (e.g., daytime sleepiness)",
+            "rationale": "Allows medication adjustment to optimize sleep without excessive sedation"
+          },
+          {
+            "action": "Coordinate with the physician for possible medication adjustment if episodes persist",
+            "rationale": "Pharmacologic adjustments may be needed to control RLS and improve sleep"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "iron-deficiency",
+    "dopamine-agonists",
+    "periodic-limb-movement-disorder",
+    "sleep-deprivation",
+    "neuropathy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Restless Legs",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/restlesslegs.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Chronic Pain Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-7-chronic-pain-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Sleep and Rest",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/28-2-factors-affecting-sleep-and-rest",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-20",
+  "factcheck": {
+    "checked": "2026-10-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Restless legs syndrome (RLS) causes a powerful urge to move your legs.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Depending on the patient, medication therapy for RLS may include iron, dopamine agonists (e.g., pramipexole, rotigotine, ropinirole), opioids, and benzodiazepines (NINDS, 2023)."
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Some conditions that may lead to RLS include neuropathy, pregnancy, renal disease/failure and hemodialysis (NINDS, 2023).",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Caffeine, tobacco, and alcohol may make symptoms worse.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Some people describe it as a creeping, crawling, tingling, or burning sensation.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Moving makes your legs feel better, but not for long."
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "RLS tends to hinder falling asleep, but can also waken a person from sleep.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Depending on the patient, medication therapy for RLS may include iron, dopamine agonists (e.g., pramipexole, rotigotine, ropinirole), opioids, and benzodiazepines (NINDS, 2023).",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Lifestyle changes, such as regular sleep habits, relaxation techniques, and moderate exercise during the day can help.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Patients who have conditions and diseases such as migraines, lupus, rheumatoid arthritis, osteoarthritis, chronic back pain, irritable bowel syndrome, anxiety, and/or depression also tend to be more likely to develop fibromyalgia.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Lifestyle changes, such as regular sleep habits, relaxation techniques, and moderate exercise during the day can help.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Lifestyle changes, such as regular sleep habits, relaxation techniques, and moderate exercise during the day can help.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

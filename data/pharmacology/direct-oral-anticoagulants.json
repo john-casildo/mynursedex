@@ -1,0 +1,389 @@
+{
+  "id": "direct-oral-anticoagulants",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Apixabán",
+    "aliases": [
+      "apixaban",
+      "eliquis",
+      "factor xa inhibitor",
+      "anticoagulante oral",
+      "apixabán",
+      "apixaban oral"
+    ],
+    "summary": "Apixabán es un inhibidor oral del factor Xa que previene la formación de nuevos coágulos. Se usa para prevenir y tratar trombosis venosa profunda y embolia pulmonar, y para reducir el riesgo de ictus en fibrilación auricular.",
+    "key_points": [
+      "Inhibe directamente el factor Xa sin necesidad de monitoreo rutinario de INR.",
+      "Dosis ajustada en insuficiencia renal moderada (CrCl 15‑29 mL/min).",
+      "Antídoto disponible: andexanet alfa.",
+      "Mayor riesgo de sangrado en pacientes con antecedentes de hemorragia gastrointestinal."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea la actividad del factor Xa libre y unido al complejo protrombina, impidiendo la conversión de protrombina a trombina.",
+        "Reduce la generación de fibrina y la formación de coágulos.",
+        "Acción rápida, pico en 3‑4 h tras la dosis oral."
+      ],
+      "indications": [
+        "Prevención de tromboembolismo venoso después de cirugía ortopédica mayor.",
+        "Tratamiento y prevención de recurrencia de trombosis venosa profunda y embolia pulmonar.",
+        "Prevención de ictus y embolia sistémica en fibrilación auricular no valvular."
+      ],
+      "contraindications": [
+        "Hipersensibilidad conocida al apixabán.",
+        "Hemorragia activa significativa o riesgo alto de sangrado.",
+        "Insuficiencia hepática grave (ALT/AST >5 × normal).",
+        "Embarazo y lactancia (categoría C)."
+      ],
+      "adverse_effects": [
+        "Hemorragia menor (epistaxis, hematomas).",
+        "Hemorragia mayor (hemorragia gastrointestinal, intracraneal) – serio.",
+        "Náuseas, diarrea.",
+        "Elevación transitoria de enzimas hepáticas."
+      ],
+      "interactions": [
+        "Potenciadores del sangrado: AINES, warfarina, antitrombóticos.",
+        "Inhibidores/inductores de CYP3A4 y P‑gp (ej. ketoconazol ↑, rifampicina ↓).",
+        "Antifúngicos azólicos pueden aumentar niveles de apixabán."
+      ],
+      "nursing_care": [
+        "Verificar función renal (creatinina sérica, CrCl) antes de iniciar y cada 6‑12 meses.",
+        "Observar signos de sangrado: hematuria, melena, sangrado de encías.",
+        "Retener la dosis si hemoglobina cae >2 g/dL o PT/INR >1.5 sin causa clara.",
+        "Documentar hora de la última dosis antes de procedimientos invasivos."
+      ],
+      "patient_teaching": [
+        "Tomar la tableta a la misma hora cada día, con o sin alimentos.",
+        "No interrumpir el tratamiento sin consultar al médico.",
+        "Reportar sangrado inusual, hematomas grandes o sangre en la orina.",
+        "Evitar el uso concomitante de AINES sin indicación."
+      ],
+      "antidote_overdose": [
+        "Andexanet alfa (reversión del inhibidor del factor Xa).",
+        "Soporte hemodinámico y reposición de volumen si hay sangrado activo.",
+        "Considerar transfusión de concentrado de plaquetas o plasma fresco congelado según gravedad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de anticoagulante oral",
+          "edad > 75 años",
+          "insuficiencia renal",
+          "historial de hemorragia gastrointestinal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin evidencia de sangrado activo durante la hospitalización",
+          "Hemoglobina estable dentro de ±1 g/dL del valor basal"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de sangrado cada turno y registrar hemoglobina semanalmente",
+            "rationale": "Detección temprana permite intervención oportuna."
+          },
+          {
+            "action": "Verificar función renal y hepática antes de iniciar y cada 6 meses",
+            "rationale": "Ajustar dosis para prevenir acumulación y sangrado."
+          },
+          {
+            "action": "Educar al paciente sobre evitar AINES y reportar sangrado",
+            "rationale": "Reducir factores que aumentan el riesgo de hemorragia."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si hemoglobina disminuye >2 g/dL o hay sangrado mayor",
+            "rationale": "Previene empeoramiento del sangrado."
+          },
+          {
+            "action": "Preparar equipo de reversión (andexanet alfa) y sangre disponible",
+            "rationale": "Facilita respuesta rápida ante hemorragia grave."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Apixaban (Eliquis)",
+    "aliases": [
+      "apixaban",
+      "eliquis",
+      "factor xa inhibitor",
+      "oral anticoagulant",
+      "apixaban oral"
+    ],
+    "summary": "Apixaban is an oral factor Xa inhibitor that prevents the formation of new clots. It is used to prevent and treat deep vein thrombosis and pulmonary embolism, and to reduce the risk of stroke in atrial fibrillation.",
+    "key_points": [
+      "Directly inhibits factor Xa without the need for routine INR monitoring.",
+      "Dose adjusted in moderate renal impairment (CrCl 15‑29 mL/min).",
+      "Antidote available: andexanet alfa.",
+      "Higher bleeding risk in patients with a history of gastrointestinal hemorrhage."
+    ],
+    "sections": {
+      "mechanism": [
+        "Blocks the activity of free factor Xa and factor Xa bound to the prothrombin complex, preventing the conversion of prothrombin to thrombin.",
+        "Reduces fibrin generation and clot formation.",
+        "Rapid onset, peak at 3‑4 h after oral dose."
+      ],
+      "indications": [
+        "Prevention of venous thromboembolism after major orthopedic surgery.",
+        "Treatment and prevention of recurrence of deep vein thrombosis and pulmonary embolism.",
+        "Prevention of stroke and systemic embolism in non‑valvular atrial fibrillation."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to apixaban.",
+        "Significant active bleeding or high risk of bleeding.",
+        "Severe hepatic impairment (ALT/AST >5× normal).",
+        "Pregnancy and lactation (Category C)."
+      ],
+      "adverse_effects": [
+        "Minor bleeding (epistaxis, bruising).",
+        "Major bleeding (gastrointestinal, intracranial) – serious.",
+        "Nausea, diarrhea.",
+        "Transient elevation of liver enzymes."
+      ],
+      "interactions": [
+        "Bleeding potentiators: NSAIDs, warfarin, antithrombotics.",
+        "CYP3A4 and P‑gp inhibitors/inducers (e.g., ketoconazole ↑, rifampin ↓).",
+        "Azole antifungals can increase apixaban levels."
+      ],
+      "nursing_care": [
+        "Check renal function (serum creatinine, CrCl) before starting and every 6‑12 months.",
+        "Observe for signs of bleeding: hematuria, melena, gum bleeding.",
+        "Hold dose if hemoglobin falls >2 g/dL or PT/INR >1.5 without clear cause.",
+        "Document time of last dose before invasive procedures."
+      ],
+      "patient_teaching": [
+        "Take the tablet at the same time each day, with or without food.",
+        "Do not discontinue treatment without consulting the provider.",
+        "Report unusual bleeding, large bruises, or blood in urine.",
+        "Avoid concomitant use of NSAIDs unless indicated."
+      ],
+      "antidote_overdose": [
+        "Andexanet alfa (reversal of factor Xa inhibitor).",
+        "Hemodynamic support and volume replacement if active bleeding.",
+        "Consider platelet concentrate or fresh frozen plasma transfusion as needed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "use of oral anticoagulant",
+          "age > 75 years",
+          "renal impairment",
+          "history of gastrointestinal hemorrhage"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No evidence of active bleeding during hospitalization",
+          "Hemoglobin stable within ±1 g/dL of baseline"
+        ],
+        "interventions": [
+          {
+            "action": "Assess bleeding signs each shift and record hemoglobin weekly",
+            "rationale": "Early detection allows timely intervention."
+          },
+          {
+            "action": "Check renal and hepatic function before starting and every 6 months",
+            "rationale": "Adjust dose to prevent accumulation and bleeding."
+          },
+          {
+            "action": "Educate patient about avoiding NSAIDs and reporting bleeding",
+            "rationale": "Reduce factors that increase bleeding risk."
+          },
+          {
+            "action": "Hold dose and notify provider if hemoglobin decreases >2 g/dL or major bleeding occurs",
+            "rationale": "Prevents worsening of bleeding."
+          },
+          {
+            "action": "Prepare reversal equipment (andexanet alfa) and blood products",
+            "rationale": "Facilitates rapid response to severe bleeding."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "stroke",
+    "deep-vein-thrombosis",
+    "pulmonary-embolism",
+    "coagulation-cascade",
+    "bleeding-risk"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Types of Interventions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/14-2-types-of-interventions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-20",
+  "factcheck": {
+    "checked": "2026-10-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 17,
+      "contradicted": 0,
+      "total": 34
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The other DOACs are all selective factor Xa inhibitors. These drugs include apixaban, rivaroxaban, and edoxaban.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Apixaban ( Eliquis ) Atrial fibrillation: 5 mg orally twice daily. Treatment of deep vein thrombosis or pulmonary embolism: 10 mg orally twice daily for 7 days, followed by 5 mg twice daily.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Direct-Acting Oral Anticoagulants Direct-acting oral anticoagulants (DOACs) have the advantage of more standardized dosing than warfarin without the need for regular INR monitoring.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Andexanet alfa is used for life-threatening or uncontrolled bleeding in clients who have taken apixaban or rivaroxaban.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "A history of bleeding complications such as intracranial hemorrhage or gastrointestinal bleeding may be considered a contraindication to further anticoagulant therapy.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "Instead, they prevent further clot formation and allow the body to naturally dissolve any existing clots over time.",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Apixaban is FDA approved to reduce stroke risk in clients with atrial fibrillation, to treat DVT/PE both acutely and to reduce the risk of recurrent thromboembolism after the initial treatment period, and for prevention of DVT after hip or knee replacement surgery.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "It is an oral drug used for the treatment of DVT (deep vein thrombosis)/PE (pulmonary embolism), stroke prevention in atrial fibrillation, and thromboembolism prophylaxis after hip arthroplasty.",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "Indications Prophylaxis and treatment of venous thromboembolism and pulmonary embolism Prophylaxis and treatment of thromboembolic complications associated with atrial fibrillation and/or cardiac valve replacement Reduction in the risk of death, recurrent myocardial infarction (MI), and thromboembolic events such as stroke or systemic embolism after myocardial infarction Therapeutic Effects Anticoagulates",
+        "source": 0
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Differentiate signs of typical bleeding, such as minor bruising, from signs of dangerous bleeding as described above.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "This can manifest in many different ways, including excessive bleeding in response to trauma or during surgery, gastrointestinal bleeding, or spontaneous intracranial hemorrhage.",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Nausea, vomit",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Some symptoms of bleeding are blood in the stool; dark, tarry-appearing stools; blood in the urine; epistaxis (nosebleed); gingival bleeding; very severe headache; coffee-ground emesis; and hemoptysis."
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Administer warfarin at the same time each day according to institutional policies.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Some symptoms of bleeding are blood in the stool; dark, tarry-appearing stools; blood in the urine; epistaxis (nosebleed); gingival bleeding; very severe headache; coffee-ground emesis; and hemoptysis.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Concomitant medications that further increase bleeding risk, such as non-steroidal anti-inflammatory drugs (e.g., ibuprofen and naproxen) or antiplatelet agents (e.g. aspirin, discussed later in this chapter) should also be avoided with anticoagulants when possible.",
+        "source": 0
+      },
+      "sections.antidote_overdose.0": {
+        "status": "supported",
+        "quote": "Andexanet alfa is used for life-threatening or uncontrolled bleeding in clients who have taken apixaban or rivaroxaban.",
+        "source": 0
+      },
+      "sections.antidote_overdose.1": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

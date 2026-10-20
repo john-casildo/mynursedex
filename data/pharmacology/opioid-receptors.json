@@ -1,0 +1,298 @@
+{
+  "id": "opioid-receptors",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Receptores opioides",
+    "aliases": [
+      "opioides",
+      "receptores mu",
+      "receptores kappa",
+      "receptores delta",
+      "receptores opioides"
+    ],
+    "summary": "Proteínas de membrana que se unen a opioides y modulan la transmisión del dolor y otras funciones fisiológicas.",
+    "key_points": [
+      "Se localizan principalmente en el SNC y el tracto gastrointestinal.",
+      "Tres subtipos clínicos: μ (mu), κ (kappa) y δ (delta).",
+      "La activación produce analgesia, sedación y depresión respiratoria.",
+      "Uso crónico genera tolerancia, dependencia y posible síndrome de abstinencia.",
+      "Los antagonistas bloquean los receptores y revierten la sobredosis."
+    ],
+    "sections": {
+      "mechanism": [
+        "Los opioides se unen al sitio activo del receptor y inhiben la liberación de neurotransmisores excitatorios.",
+        "La activación de μ reduce la transmisión nociceptiva en la médula espinal.",
+        "κ y δ modulan la percepción del dolor y la respuesta emocional.",
+        "La señalización disminuye la actividad de la adenilato ciclasa y abre canales de K⁺, hiperpolarizando la neurona."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria y nivel de conciencia antes y después de administrar opioides.",
+        "Monitorear SpO₂ y presión arterial cada 15‑30 min durante la fase aguda.",
+        "Retener la dosis y notificar al médico si la frecuencia respiratoria <12 rpm o SpO₂ <92%.",
+        "Mantener equipo de reanimación y naloxona a mano.",
+        "Documentar signos de depresión respiratoria, somnolencia excesiva o náuseas."
+      ],
+      "patient_teaching": [
+        "Informar que la analgesia puede venir acompañada de somnolencia y estreñimiento.",
+        "Enseñar a no combinar opioides con alcohol, benzodiacepinas u otros depresores del SNC.",
+        "Explicar la importancia de reportar dificultad para respirar o cambios en el nivel de conciencia.",
+        "Indicar que no deben compartir su medicación y que deben almacenar los opioides en un lugar seguro."
+      ],
+      "antidote_overdose": [
+        "Naloxona 0.4‑2 mg IV/IM/SC; repetir cada 2‑3 min hasta revertir depresión respiratoria.",
+        "Administrar soporte ventilatorio si la respiración no se restablece rápidamente."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "uso de opioides",
+          "depresión respiratoria",
+          "hipoxia",
+          "sobredosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patrón respiratorio: frecuencia respiratoria ≥12 rpm en 24 h",
+          "Oxigenación: SpO₂ ≥95% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar frecuencia respiratoria cada 2 min durante la primera hora después de la dosis.",
+            "rationale": "Detectar depresión respiratoria temprana y prevenir hipoxia."
+          },
+          {
+            "action": "Evaluar nivel de conciencia usando la escala de Glasgow cada 30 min.",
+            "rationale": "Cambios en la conciencia pueden indicar acumulación de opioide."
+          },
+          {
+            "action": "Mantener vía aérea permeable y posicionar al paciente en decúbito lateral si hay riesgo de aspiración.",
+            "rationale": "Facilita la ventilación y reduce el riesgo de aspiración."
+          },
+          {
+            "action": "Administrar naloxona según orden médica si la frecuencia respiratoria <12 rpm o SpO₂ <92%.",
+            "rationale": "Revertir rápidamente los efectos depresores del opioide."
+          },
+          {
+            "action": "Registrar todos los signos vitales y cualquier intervención en la hoja de enfermería.",
+            "rationale": "Documentación precisa permite seguimiento y evaluación del plan de cuidados."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opioid receptors",
+    "aliases": [
+      "opioids",
+      "mu receptors",
+      "kappa receptors",
+      "delta receptors",
+      "opioid receptors"
+    ],
+    "summary": "Membrane proteins that bind opioids and modulate pain transmission and other physiological functions.",
+    "key_points": [
+      "They are primarily located in the CNS and gastrointestinal tract.",
+      "Three clinical subtypes: μ (mu), κ (kappa), and δ (delta).",
+      "Activation produces analgesia, sedation, and respiratory depression.",
+      "Chronic use leads to tolerance, dependence, and possible withdrawal syndrome.",
+      "Antagonists block the receptors and reverse overdose."
+    ],
+    "sections": {
+      "mechanism": [
+        "Opioids bind to the active site of the receptor and inhibit the release of excitatory neurotransmitters.",
+        "Activation of μ reduces nociceptive transmission in the spinal cord.",
+        "κ and δ modulate pain perception and emotional response.",
+        "Signaling decreases adenylate cyclase activity and opens K⁺ channels, hyperpolarizing the neuron."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate and level of consciousness before and after administering opioids.",
+        "Monitor SpO₂ and blood pressure every 15‑30 min during the acute phase.",
+        "Hold the dose and notify the physician if respiratory rate <12 breaths/min or SpO₂ <92%.",
+        "Keep resuscitation equipment and naloxone readily available.",
+        "Document signs of respiratory depression, excessive drowsiness, or nausea."
+      ],
+      "patient_teaching": [
+        "Inform that analgesia may be accompanied by drowsiness and constipation.",
+        "Teach not to combine opioids with alcohol, benzodiazepines, or other CNS depressants.",
+        "Explain the importance of reporting difficulty breathing or changes in consciousness.",
+        "Advise not to share medication and to store opioids in a secure location."
+      ],
+      "antidote_overdose": [
+        "Naloxone 0.4‑2 mg IV/IM/SC; repeat every 2‑3 min until respiratory depression reverses.",
+        "Provide ventilatory support if breathing does not quickly resume."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "opioid use",
+          "respiratory depression",
+          "hypoxia",
+          "overdose"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Respiratory pattern: respiratory rate ≥12 breaths/min in 24 h",
+          "Oxygenation: SpO₂ ≥95% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor respiratory rate every 2 min during the first hour after dosing.",
+            "rationale": "Detect early respiratory depression and prevent hypoxia."
+          },
+          {
+            "action": "Assess level of consciousness using the Glasgow Coma Scale every 30 min.",
+            "rationale": "Changes in consciousness may indicate opioid accumulation."
+          },
+          {
+            "action": "Maintain a clear airway and position the patient in lateral decubitus if aspiration risk exists.",
+            "rationale": "Facilitates ventilation and reduces aspiration risk."
+          },
+          {
+            "action": "Administer naloxone per physician order if respiratory rate <12 breaths/min or SpO₂ <92%.",
+            "rationale": "Rapidly reverse opioid depressant effects."
+          },
+          {
+            "action": "Record all vital signs and interventions on the nursing chart.",
+            "rationale": "Accurate documentation allows monitoring and evaluation of the care plan."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-agonist",
+    "opioid-antagonist",
+    "respiratory-depression",
+    "pain-management",
+    "opioid-tolerance"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Opioid Agonists and Antagonists",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-20",
+  "factcheck": {
+    "checked": "2026-10-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 10,
+      "contradicted": 1,
+      "total": 21
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "When activated, these receptors located throughout the CNS help modulate painful signals from peripheral tissues to alter pain perception and heighten the pain threshold.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Opioids produce many of their desired therapeutic effects and potentially life-threatening adverse effects via the opioid receptors, including the mu, delta, and kappa receptors.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Tolerance and physical dependence will occur in nearly all clients receiving chronic opioid therapy, but only some will go on to develop an opioid use disorder.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Naloxone is the prototypical mu opioid receptor antagonist used to rapidly reverse the life-threatening effects of opioid overdose.",
+        "source": 1
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "When activated, these receptors located throughout the CNS help modulate painful signals from peripheral tissues to alter pain perception and heighten the pain threshold.",
+        "source": 0
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Assess for changes in level of consciousness and respirations.",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Ensure that naloxone is readily available in the event of opioid toxicity or overdose.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "nurses should instruct clients not to mix opioids with other CNS depressants, including sedatives, alcohol, and muscle relaxants, because this interaction will increase the risk for potentially fatal respiratory failure.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Assess for changes in level of consciousness and respirations.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "contradicted",
+        "quote": "Intranasal spray: 4–8 mg in one nostril every 2–3 minutes until medical assistance is available.",
+        "source": 0
+      },
+      "sections.antidote_overdose.1": {
+        "status": "supported",
+        "quote": "Watch for adverse effects, including sedation, ataxia, slurred speech, and shallow breathing, which could require the use of antidotal therapy or respiratory support.",
+        "source": 0
+      }
+    }
+  }
+}

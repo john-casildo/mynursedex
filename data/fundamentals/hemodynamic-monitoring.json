@@ -1,0 +1,210 @@
+{
+  "id": "hemodynamic-monitoring",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Monitoreo hemodinámico",
+    "aliases": [
+      "monitoreo hemodinamico",
+      "monitorizacion hemodinamica",
+      "hemodinamica",
+      "monitorizacion cardiovascular",
+      "monitorizacion"
+    ],
+    "summary": "Evaluación continua del flujo sanguíneo y la presión arterial para detectar alteraciones en el gasto cardíaco y la perfusión tisular.",
+    "key_points": [
+      "CO normal ≈ 5 L/min; valores bajos indican disfunción cardíaca.",
+      "La presión arterial media (PAM) ≥ 65 mmHg es objetivo en la mayoría de los pacientes críticos.",
+      "Métodos invasivos (catéter de arteria pulmonar) y no invasivos (esfigmomanómetro, ecocardiografía) se complementan.",
+      "Los datos guían la reposición de líquidos y la terapia farmacológica vasoactiva."
+    ],
+    "sections": {
+      "purpose": [
+        "Obtener datos precisos de CO, PAM y gasto sistémico.",
+        "Detectar precozmente hipoperfusión tisular.",
+        "Evaluar la respuesta a fluidos y fármacos vasoactivos."
+      ],
+      "procedure": [
+        "Verificar orden médica y calibrar el equipo.",
+        "Colocar el catéter arterial (si es invasivo) o aplicar el manguito de presión.",
+        "Registrar frecuencia cardíaca, presión sistólica, diastólica y MAP cada 15‑30 min.",
+        "Obtener CO mediante termodilución o método de la onda de pulso según el dispositivo.",
+        "Comparar valores con rangos de referencia y tendencias."
+      ],
+      "safety": [
+        "Mantener asepsia al insertar catéteres invasivos.",
+        "Controlar signos de hemorragia o hematoma en sitio de inserción.",
+        "Evitar sobre‑inflado del manguito para prevenir lesión de la piel.",
+        "Revisar alarmas del monitor y responder inmediatamente."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia, coloración de piel y diuresis antes y después del monitoreo.",
+        "Reportar MAP < 65 mmHg, CO < 4 L/min o arritmias al médico.",
+        "Ajustar la velocidad de infusión de vasopresores según órdenes y valores de MAP.",
+        "Educar al paciente y familia sobre la finalidad del monitoreo y los signos de alarma."
+      ],
+      "documentation": [
+        "Hora, método de monitoreo y valores de presión arterial, frecuencia cardíaca y CO.",
+        "Cambios significativos y acciones de enfermería realizadas.",
+        "Respuesta del paciente a intervenciones (ej. aumento de MAP)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "disminución del gasto cardíaco",
+          "hipotensión",
+          "shock",
+          "insuficiencia cardíaca"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca: MAP ≥ 65 mmHg en 90 % de lecturas durante 24 h",
+          "Gasto cardíaco: CO ≥ 4 L/min en 80 % de mediciones en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar MAP cada 15 min mediante monitor invasivo o no invasivo.",
+            "rationale": "Permite detectar rápidamente caídas de presión que comprometen la perfusión."
+          },
+          {
+            "action": "Administrar vasopresores según orden médica y ajustar la velocidad de infusión.",
+            "rationale": "Mantiene la presión arterial dentro del rango objetivo para asegurar flujo coronario."
+          },
+          {
+            "action": "Evaluar diuresis y signos de congestión antes y después de la terapia de fluidos.",
+            "rationale": "Equilibra la volemia y evita sobrecarga que pueda empeorar la perfusión."
+          },
+          {
+            "action": "Informar al médico cualquier MAP < 65 mmHg o CO < 4 L/min que persista > 5 min.",
+            "rationale": "Facilita la intervención temprana para prevenir daño tisular."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de permanecer inmóvil y reportar síntomas como mareo o palidez.",
+            "rationale": "Promueve la detección precoz de deterioro hemodinámico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hemodynamic monitoring",
+    "aliases": [
+      "hemodynamic monitoring",
+      "hemodynamic",
+      "cardiovascular monitoring",
+      "monitoring"
+    ],
+    "summary": "Continuous assessment of blood flow and blood pressure to detect changes in cardiac output and tissue perfusion.",
+    "key_points": [
+      "Normal CO ≈ 5 L/min; low values indicate cardiac dysfunction.",
+      "Mean arterial pressure (MAP) ≥ 65 mmHg is the goal for most critically ill patients.",
+      "Invasive methods (pulmonary artery catheter) and non‑invasive methods (sphygmomanometer, echocardiography) complement each other.",
+      "Data guide fluid replacement and vasoactive drug therapy."
+    ],
+    "sections": {
+      "purpose": [
+        "Obtain accurate data on CO, MAP, and systemic output.",
+        "Detect early tissue hypoperfusion.",
+        "Evaluate response to fluids and vasoactive drugs."
+      ],
+      "procedure": [
+        "Verify medical order and calibrate equipment.",
+        "Insert arterial catheter (if invasive) or apply cuff.",
+        "Record heart rate, systolic, diastolic, and MAP every 15‑30 min.",
+        "Obtain CO via thermodilution or pulse‑wave method depending on device.",
+        "Compare values with reference ranges and trends."
+      ],
+      "safety": [
+        "Maintain asepsis when inserting invasive catheters.",
+        "Monitor for bleeding or hematoma at insertion site.",
+        "Avoid over‑inflating cuff to prevent skin injury.",
+        "Check monitor alarms and respond immediately."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness, skin color, and urine output before and after monitoring.",
+        "Report MAP < 65 mmHg, CO < 4 L/min, or arrhythmias to the physician.",
+        "Adjust vasopressor infusion rate per orders and MAP values.",
+        "Educate patient and family about purpose of monitoring and warning signs."
+      ],
+      "documentation": [
+        "Time, monitoring method, and values of blood pressure, heart rate, and CO.",
+        "Significant changes and nursing actions performed.",
+        "Patient response to interventions (e.g., MAP increase)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "decreased cardiac output",
+          "hypotension",
+          "shock",
+          "heart failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac tissue perfusion: MAP ≥ 65 mmHg in 90 % of readings over 24 h",
+          "Cardiac output: CO ≥ 4 L/min in 80 % of measurements over 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record MAP every 15 min using invasive or non‑invasive monitor.",
+            "rationale": "Allows rapid detection of pressure drops that compromise perfusion."
+          },
+          {
+            "action": "Administer vasopressors per medical order and adjust infusion rate.",
+            "rationale": "Maintains blood pressure within target range to ensure coronary flow."
+          },
+          {
+            "action": "Assess urine output and congestion signs before and after fluid therapy.",
+            "rationale": "Balances volemia and prevents overload that may worsen perfusion."
+          },
+          {
+            "action": "Inform physician of any MAP < 65 mmHg or CO < 4 L/min persisting > 5 min.",
+            "rationale": "Facilitates early intervention to prevent tissue damage."
+          },
+          {
+            "action": "Educate patient on importance of remaining still and reporting symptoms such as dizziness or pallor.",
+            "rationale": "Promotes early detection of hemodynamic deterioration."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cardiac-output",
+    "shock",
+    "fluid-balance",
+    "vascular-resistance",
+    "arterial-pressure"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Cardiovascular Concerns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-2-cardiovascular-concerns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Shock Overview",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-1-shock-overview",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-20"
+}

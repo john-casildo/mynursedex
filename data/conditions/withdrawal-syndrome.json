@@ -1,0 +1,340 @@
+{
+  "id": "withdrawal-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome de abstinencia (opioides)",
+    "aliases": [
+      "abstinencia",
+      "withdrawal",
+      "síndrome de abstinencia",
+      "opioides"
+    ],
+    "summary": "Conjunto de síntomas que aparecen al suspender abruptamente el uso de opioides después de consumo prolongado.",
+    "key_points": [
+      "Se presenta entre 6‑12 h y 3 días después del cese.",
+      "Los síntomas son mayormente autonómicos y gastrointestinales.",
+      "Rara vez es mortal, pero puede producir deshidratación y desequilibrio electrolítico.",
+      "El tratamiento combina reposición de líquidos, manejo sintomático y terapia de sustitución."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Uso crónico de opioides produce adaptación neuronal y supresión del sistema adrenérgico.",
+        "Al interrumpir el fármaco, hay caída brusca de la estimulación µ‑opioide.",
+        "Se incrementa la actividad del sistema cAMP, generando hiperactividad simpática.",
+        "El desequilibrio neuroquímico desencadena los signos autonómicos y gastrointestinales."
+      ],
+      "risk_factors": [
+        "Uso diario de opioides > 2 semanas.",
+        "Dosis alta o uso de formulaciones de liberación prolongada.",
+        "Suspensión abrupta o antagonismo rápido con naloxona.",
+        "Embarazo y comorbilidades médicas que limitan la sustitución."
+      ],
+      "signs_symptoms": [
+        "Síntomas autonómicos: taquicardia, hipertensión, sudoración, temblores.",
+        "Síntomas gastrointestinales: náuseas, vómitos, diarrea, calambres abdominales.",
+        "Síntomas tipo gripe: fiebre, escalofríos, mialgias, piloerección.",
+        "Alteraciones neuropsicológicas: ansiedad, irritabilidad, insomnio, agitación."
+      ],
+      "diagnostics": [
+        "Valoración clínica con escala COWS (Clinical Institute Withdrawal Assessment for Opioids).",
+        "Exámenes de laboratorio: electrolitos, glucosa, función renal, pruebas toxicológicas.",
+        "Control de signos vitales cada 2‑4 h para detectar deshidratación o hipertensión."
+      ],
+      "treatment": [
+        "Reposición de líquidos por vía oral o IV según balance hídrico.",
+        "Antieméticos (ondansetrón) y antidiarreicos (loperamida) para síntomas GI.",
+        "Clonidina o alfa‑agonistas para reducir hiperactividad simpática.",
+        "Terapia de sustitución: buprenorfina o metadona según protocolo.",
+        "Medidas de confort: ambiente tranquilo, control de temperatura, apoyo emocional."
+      ],
+      "complications": [
+        "Deshidratación y desequilibrio electrolítico (hiponatremia, hipopotasemia).",
+        "Rhabdomiolisis por temblores intensos.",
+        "Recaída al consumo de opioides si el manejo es insuficiente.",
+        "Alteraciones del sueño y deterioro del estado mental."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales y escala COWS cada 2‑4 h.",
+        "Monitorear ingesta y salida de líquidos; registrar balance hídrico.",
+        "Administrar medicación según orden y observar efectos adversos.",
+        "Proveer ambiente seguro, prevenir caídas por temblores o somnolencia.",
+        "Documentar cambios en síntomas y respuesta al tratamiento."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de no interrumpir el opioide sin supervisión médica.",
+        "Instruir sobre hidratación adecuada (≥2 L/día) y dieta ligera durante la abstinencia.",
+        "Enseñar uso correcto de terapia de sustitución (buprenorfina/metadona).",
+        "Promover técnicas de relajación y apoyo psicológico para reducir ansiedad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "vómitos",
+          "diarrea",
+          "sudoración profusa",
+          "hiperhidratación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na+ 135‑145 mEq/L en 48 h.",
+          "K+ 3.5‑5.0 mEq/L en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear balance hídrico y registrar ingesta y salida cada 4 h.",
+            "rationale": "Detectar pérdida de líquidos y prevenir deshidratación."
+          },
+          {
+            "action": "Obtener electrolitos séricos cada 24 h mientras persistan vómitos/diarrea.",
+            "rationale": "Identificar alteraciones tempranas y guiar reposición."
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según prescripción.",
+            "rationale": "Reponer volumen y corregir déficit de sodio."
+          },
+          {
+            "action": "Ofrecer alimentos ricos en potasio (plátano, papaya) cuando sea tolerado.",
+            "rationale": "Ayudar a mantener niveles de potasio dentro del rango normal."
+          },
+          {
+            "action": "Educar al paciente sobre signos de desequilibrio (palpitaciones, debilidad).",
+            "rationale": "Facilitar detección precoz y reporte inmediato."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "temblores",
+          "fatiga",
+          "dolor muscular",
+          "insomnio"
+        ],
+        "evidenced_by": [
+          "fatiga",
+          "temblores",
+          "dolor abdominal",
+          "insomnio"
+        ],
+        "outcomes": [
+          "Capacidad para realizar actividades de la vida diaria sin aumento de fatiga (escala 0‑10 ≤3) en 72 h.",
+          "Nivel de energía: puntuación ≥6 en escala de 0‑10 en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Programar períodos de descanso cada 30‑45 min durante actividades.",
+            "rationale": "Reducir la demanda física y prevenir agotamiento."
+          },
+          {
+            "action": "Aplicar técnicas de relajación (respiración profunda, música suave).",
+            "rationale": "Disminuir la respuesta de estrés y mejorar tolerancia al esfuerzo."
+          },
+          {
+            "action": "Administrar analgésicos leves (paracetamol) según indicación.",
+            "rationale": "Aliviar dolor muscular que limita la actividad."
+          },
+          {
+            "action": "Fomentar hidratación y consumo de alimentos ligeros y frecuentes.",
+            "rationale": "Mantener energía y evitar hipoglucemia que empeora la intolerancia."
+          },
+          {
+            "action": "Evaluar y registrar nivel de cansancio usando escala de fatiga cada 4 h.",
+            "rationale": "Monitorear progreso y ajustar plan de cuidados."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opioid Withdrawal Syndrome",
+    "aliases": [
+      "withdrawal",
+      "opioid withdrawal",
+      "abstinence",
+      "opioids"
+    ],
+    "summary": "A set of symptoms that appear when abruptly stopping opioid use after prolonged consumption.",
+    "key_points": [
+      "Occurs 6‑12 h to 3 days after cessation.",
+      "Symptoms are mainly autonomic and gastrointestinal.",
+      "Rarely fatal, but can cause dehydration and electrolyte imbalance.",
+      "Treatment combines fluid replacement, symptomatic management, and substitution therapy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic opioid use leads to neuronal adaptation and suppression of the adrenergic system.",
+        "Stopping the drug causes a sudden drop in µ‑opioid stimulation.",
+        "cAMP system activity increases, producing sympathetic hyperactivity.",
+        "The neurochemical imbalance triggers autonomic and gastrointestinal signs."
+      ],
+      "risk_factors": [
+        "Daily opioid use >2 weeks.",
+        "High dose or use of extended‑release formulations.",
+        "Abrupt cessation or rapid antagonism with naloxone.",
+        "Pregnancy and comorbidities that limit substitution."
+      ],
+      "signs_symptoms": [
+        "Autonomic symptoms: tachycardia, hypertension, sweating, tremors.",
+        "Gastrointestinal symptoms: nausea, vomiting, diarrhea, abdominal cramps.",
+        "Flu‑like symptoms: fever, chills, myalgias, piloerection.",
+        "Neuropsychological changes: anxiety, irritability, insomnia, agitation."
+      ],
+      "diagnostics": [
+        "Clinical assessment with the COWS (Clinical Institute Withdrawal Assessment for Opioids).",
+        "Laboratory tests: electrolytes, glucose, renal function, toxicology screens.",
+        "Vital sign monitoring every 2‑4 h to detect dehydration or hypertension."
+      ],
+      "treatment": [
+        "Fluid replacement orally or IV as needed.",
+        "Antiemetics (ondansetron) and antidiarrheals (loperamide) for GI symptoms.",
+        "Clonidine or alpha‑agonists to reduce sympathetic hyperactivity.",
+        "Substitution therapy: buprenorphine or methadone per protocol.",
+        "Comfort measures: quiet environment, temperature control, emotional support."
+      ],
+      "complications": [
+        "Dehydration and electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Rhabdomyolysis from intense tremors.",
+        "Relapse to opioid use if management is inadequate.",
+        "Sleep disturbances and mental status decline."
+      ],
+      "nursing_care": [
+        "Assess vital signs and COWS every 2‑4 h.",
+        "Monitor fluid intake and output; record fluid balance.",
+        "Administer medications per order and observe adverse effects.",
+        "Provide a safe environment, prevent falls from tremors or drowsiness.",
+        "Document symptom changes and treatment response."
+      ],
+      "patient_teaching": [
+        "Explain the importance of not stopping opioids without medical supervision.",
+        "Instruct on adequate hydration (≥2 L/day) and light diet during withdrawal.",
+        "Teach correct use of substitution therapy (buprenorphine/methadone).",
+        "Encourage relaxation techniques and psychological support to reduce anxiety."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "vomiting",
+          "diarrhea",
+          "profuse sweating",
+          "hyperhydration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+ 135‑145 mEq/L within 48 h.",
+          "K+ 3.5‑5.0 mEq/L within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid balance and record intake and output every 4 h.",
+            "rationale": "Detect fluid loss and prevent dehydration."
+          },
+          {
+            "action": "Obtain serum electrolytes every 24 h while vomiting/diarrhea persists.",
+            "rationale": "Identify early changes and guide replacement."
+          },
+          {
+            "action": "Administer isotonic saline IV per prescription.",
+            "rationale": "Replace volume and correct sodium deficit."
+          },
+          {
+            "action": "Offer potassium‑rich foods (banana, papaya) when tolerated.",
+            "rationale": "Help maintain potassium within normal range."
+          },
+          {
+            "action": "Educate the patient on signs of imbalance (palpitations, weakness).",
+            "rationale": "Facilitate early detection and prompt reporting."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "tremors",
+          "fatigue",
+          "muscle pain",
+          "insomnia"
+        ],
+        "evidenced_by": [
+          "fatigue",
+          "tremors",
+          "abdominal pain",
+          "insomnia"
+        ],
+        "outcomes": [
+          "Ability to perform activities of daily living without increased fatigue (scale 0‑10 ≤3) within 72 h.",
+          "Energy level: score ≥6 on a 0‑10 scale within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Schedule rest periods every 30‑45 min during activities.",
+            "rationale": "Reduce physical demand and prevent exhaustion."
+          },
+          {
+            "action": "Apply relaxation techniques (deep breathing, soft music).",
+            "rationale": "Decrease stress response and improve tolerance to exertion."
+          },
+          {
+            "action": "Administer mild analgesics (acetaminophen) as indicated.",
+            "rationale": "Alleviate muscle pain that limits activity."
+          },
+          {
+            "action": "Encourage hydration and frequent light meals.",
+            "rationale": "Maintain energy and avoid hypoglycemia that worsens intolerance."
+          },
+          {
+            "action": "Assess and record fatigue level using a fatigue scale every 4 h.",
+            "rationale": "Monitor progress and adjust care plan."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-withdrawal",
+    "opioid-use-disorder",
+    "naloxone",
+    "methadone",
+    "buprenorphine",
+    "substance-use-disorder"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pregnancy and Opioids",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pregnancyandopioids.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Substance Use Disorder Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/20-2-substance-use-disorder-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-20"
+}

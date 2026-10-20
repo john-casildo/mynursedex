@@ -1,0 +1,412 @@
+{
+  "id": "nephrotoxicity",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Nefrotoxicidad",
+    "aliases": [
+      "nefrotoxicidad",
+      "toxicidad renal",
+      "daño renal",
+      "lesión renal",
+      "nefropatía",
+      "insuficiencia renal"
+    ],
+    "summary": "Daño renal causado por exposición a fármacos, contrastes o toxinas que alteran la función glomerular y tubular.",
+    "key_points": [
+      "Se manifiesta como lesión aguda o crónica del riñón.",
+      "Los fármacos más comunes son aminoglucósidos, antiinflamatorios no esteroideos y quimioterápicos.",
+      "El diagnóstico se basa en disminución del filtrado glomerular y cambios en la diuresis.",
+      "El manejo incluye suspensión del agente, hidratación y, en casos graves, diálisis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El agente nefrotóxico altera la perfusión renal o daña directamente los túbulos.",
+        "Se produce vasoconstricción de la arteriola eferente y necrosis tubular.",
+        "La lesión reduce la tasa de filtración glomerular (TFG) y la capacidad de concentración."
+      ],
+      "risk_factors": [
+        "Uso de aminoglucósidos, vancomicina, ciclosporina, AINEs o contraste yodado.",
+        "Deshidratación, insuficiencia cardíaca o hipotensión prolongada.",
+        "Edad avanzada y comorbilidades como diabetes o enfermedad renal previa."
+      ],
+      "signs_symptoms": [
+        "Disminución del gasto urinario (<0.5 mL/kg/h).",
+        "Edema periférico, hipertensión o hipotensión según la fase.",
+        "Náuseas, vómitos, fatiga y confusión por acumulación de toxinas."
+      ],
+      "diagnostics": [
+        "Creatinina sérica ↑, BUN ↑; relación BUN/creatinina >20:1 sugiere lesión prerrenal.",
+        "Electrolitos: hiperkalemia, hiponatremia o acidosis metabólica.",
+        "Ecografía renal: tamaño renal normal o ligeramente aumentado, sin obstrucción."
+      ],
+      "treatment": [
+        "Suspender o sustituir el fármaco nefrotóxico.",
+        "Hidratación intravenosa con solución salina isotónica.",
+        "Diuréticos de asa (Furosemida) si hay sobrecarga de volumen.",
+        "N‑acetilcisteína para toxicidad por contraste o acetaminofén.",
+        "Mannitol en casos de insuficiencia renal aguda por nefropatía tubular."
+      ],
+      "complications": [
+        "Insuficiencia renal aguda que puede requerir hemodiálisis.",
+        "Progresión a enfermedad renal crónica.",
+        "Desequilibrios electrolíticos graves (hiperkalemia, acidosis).",
+        "Sobrecarga de volumen y edema pulmonar."
+      ],
+      "nursing_care": [
+        "Monitorear gasto urinario cada hora; reportar <0.5 mL/kg/h.",
+        "Controlar signos vitales, presión arterial y peso diario.",
+        "Registrar balance hídrico estricto y ajustar fluidos según orden.",
+        "Observar cambios en color, claridad y olor de la orina.",
+        "Vigilar electrolitos y función renal en laboratorio."
+      ],
+      "patient_teaching": [
+        "Informar sobre los riesgos de automedicarse con AINEs o antibióticos sin prescripción.",
+        "Recomendar ingesta adecuada de líquidos (≈2 L/día) salvo contraindicación.",
+        "Enseñar a reconocer disminución de la diuresis o edema y reportarlo.",
+        "Explicar la importancia de controles de laboratorio periódicos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "uso de fármacos nefrotóxicos",
+          "deshidratación",
+          "hipotensión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Función renal: mantener creatinina ≤1.5 mg/dL durante la hospitalización",
+          "Perfusión: mantener presión arterial media ≥65 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar gasto urinario cada hora y registrar volumen.",
+            "rationale": "Detectar precozmente disminución de la perfusión renal."
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 4 h.",
+            "rationale": "Identificar hipotensión que compromete la perfusión renal."
+          },
+          {
+            "action": "Administrar hidratación IV según orden médica y balance hídrico.",
+            "rationale": "Optimizar el volumen intravascular y la perfusión renal."
+          },
+          {
+            "action": "Suspender o ajustar dosis de medicamentos nefrotóxicos bajo indicación.",
+            "rationale": "Reducir exposición a agentes que dañan el riñón."
+          },
+          {
+            "action": "Obtener y revisar resultados de creatinina y BUN cada 24 h.",
+            "rationale": "Evaluar la función renal y la efectividad de las intervenciones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "nefrotoxicidad",
+          "hiperkalemia potencial",
+          "acidosis metabólica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos: mantener Na⁺ 135‑145 mEq/L y K⁺ 3.5‑5.0 mEq/L",
+          "pH arterial: mantener 7.35‑7.45"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel metabólico completo al ingreso y cada 24 h.",
+            "rationale": "Detectar alteraciones electrolíticas tempranas."
+          },
+          {
+            "action": "Monitorear ECG si K⁺ >5.5 mEq/L.",
+            "rationale": "Prevenir arritmias por hiperkalemia."
+          },
+          {
+            "action": "Administrar diurético de asa (Furosemida) según indicación para controlar sobrecarga de K⁺.",
+            "rationale": "Facilitar la excreción renal de potasio."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y su restricción cuando sea necesario.",
+            "rationale": "Ayudar a mantener niveles de K⁺ dentro del rango normal."
+          },
+          {
+            "action": "Registrar y reportar cualquier cambio en el estado mental o muscular.",
+            "rationale": "Los síntomas pueden indicar desequilibrio electrolítico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Nephrotoxicity",
+    "aliases": [
+      "nephrotoxicity",
+      "renal toxicity",
+      "kidney damage",
+      "renal injury",
+      "nephropathy",
+      "renal failure"
+    ],
+    "summary": "Kidney damage caused by exposure to drugs, contrast agents or toxins that alter glomerular and tubular function.",
+    "key_points": [
+      "It presents as acute or chronic kidney injury.",
+      "The most common drugs are aminoglycosides, nonsteroidal anti‑inflammatory drugs and chemotherapeutics.",
+      "Diagnosis is based on decreased glomerular filtration rate and changes in urine output.",
+      "Management includes stopping the agent, hydration and, in severe cases, dialysis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The nephrotoxic agent alters renal perfusion or directly damages the tubules.",
+        "It causes efferent arteriolar vasoconstriction and tubular necrosis.",
+        "The injury reduces glomerular filtration rate (GFR) and concentrating ability."
+      ],
+      "risk_factors": [
+        "Use of aminoglycosides, vancomycin, cyclosporine, NSAIDs or iodinated contrast.",
+        "Dehydration, heart failure or prolonged hypotension.",
+        "Advanced age and comorbidities such as diabetes or prior kidney disease."
+      ],
+      "signs_symptoms": [
+        "Reduced urine output (<0.5 mL/kg/h).",
+        "Peripheral edema, hypertension or hypotension depending on the phase.",
+        "Nausea, vomiting, fatigue and confusion from toxin accumulation."
+      ],
+      "diagnostics": [
+        "Serum creatinine ↑, BUN ↑; BUN/creatinine ratio >20:1 suggests prerenal injury.",
+        "Electrolytes: hyperkalemia, hyponatremia or metabolic acidosis.",
+        "Renal ultrasound: normal or slightly enlarged kidneys, no obstruction."
+      ],
+      "treatment": [
+        "Discontinue or replace the nephrotoxic drug.",
+        "Intravenous hydration with isotonic saline solution.",
+        "Loop diuretics (Furosemide) if volume overload is present.",
+        "N‑acetylcysteine for contrast or acetaminophen toxicity.",
+        "Mannitol in cases of acute tubular necrosis."
+      ],
+      "complications": [
+        "Acute kidney injury that may require hemodialysis.",
+        "Progression to chronic kidney disease.",
+        "Severe electrolyte disturbances (hyperkalemia, acidosis).",
+        "Volume overload and pulmonary edema."
+      ],
+      "nursing_care": [
+        "Monitor urine output hourly; report <0.5 mL/kg/h.",
+        "Check vital signs, blood pressure and daily weight.",
+        "Record strict fluid balance and adjust fluids per order.",
+        "Observe changes in color, clarity and odor of urine.",
+        "Monitor electrolytes and renal function in labs."
+      ],
+      "patient_teaching": [
+        "Inform about the risks of self‑medicating with NSAIDs or antibiotics without prescription.",
+        "Recommend adequate fluid intake (≈2 L/day) unless contraindicated.",
+        "Teach how to recognize decreased urine output or edema and report it.",
+        "Explain the importance of periodic laboratory monitoring."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "use of nephrotoxic drugs",
+          "dehydration",
+          "hypotension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal function: maintain creatinine ≤1.5 mg/dL during hospitalization",
+          "Perfusion: maintain mean arterial pressure ≥65 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Assess urine output hourly and record volume.",
+            "rationale": "Detect early decrease in renal perfusion."
+          },
+          {
+            "action": "Monitor blood pressure and heart rate every 4 h.",
+            "rationale": "Identify hypotension that compromises renal perfusion."
+          },
+          {
+            "action": "Administer IV hydration per medical order and fluid balance.",
+            "rationale": "Optimize intravascular volume and renal perfusion."
+          },
+          {
+            "action": "Discontinue or adjust doses of nephrotoxic medications as indicated.",
+            "rationale": "Reduce exposure to agents that damage the kidney."
+          },
+          {
+            "action": "Obtain and review creatinine and BUN results every 24 h.",
+            "rationale": "Evaluate renal function and effectiveness of interventions."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "nephrotoxicity",
+          "potential hyperkalemia",
+          "metabolic acidosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes: maintain Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L",
+          "Arterial pH: maintain 7.35‑7.45"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain a comprehensive metabolic panel on admission and every 24 h.",
+            "rationale": "Detect early electrolyte disturbances."
+          },
+          {
+            "action": "Monitor ECG if K⁺ >5.5 mEq/L.",
+            "rationale": "Prevent arrhythmias from hyperkalemia."
+          },
+          {
+            "action": "Administer loop diuretic (Furosemide) as indicated to control K⁺ overload.",
+            "rationale": "Facilitate renal excretion of potassium."
+          },
+          {
+            "action": "Educate the patient about potassium‑rich foods and restriction when necessary.",
+            "rationale": "Help maintain K⁺ within normal range."
+          },
+          {
+            "action": "Record and report any changes in mental or muscular status.",
+            "rationale": "Symptoms may indicate electrolyte imbalance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-kidney-injury",
+    "chronic-kidney-disease",
+    "electrolyte-imbalance",
+    "nephrotoxic-drugs"
+  ],
+  "sources": [],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-20",
+  "factcheck": {
+    "checked": "2026-10-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
