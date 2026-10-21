@@ -1,0 +1,572 @@
+{
+  "id": "cardiovascular-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad coronaria (EC)",
+    "aliases": [
+      "enfermedad coronaria",
+      "arteria coronaria",
+      "angina",
+      "infarto",
+      "cardiopatía isquémica",
+      "enfermedad cardiovascular"
+    ],
+    "summary": "La enfermedad coronaria es la acumulación de placa aterosclerótica en las arterias coronarias que reduce el flujo sanguíneo al miocardio, provocando isquemia y dolor torácico.",
+    "key_points": [
+      "Placa aterosclerótica → estrechamiento de arterias coronarias",
+      "Angina de pecho es el síntoma clásico de isquemia transitoria",
+      "Factores de riesgo modificables: HTA, DM, tabaquismo, dislipidemia, obesidad",
+      "Diagnóstico incluye ECG, pruebas de esfuerzo y angiografía coronaria",
+      "Tratamiento combina cambios de estilo de vida, fármacos y revascularización",
+      "Complicaciones graves: infarto agudo de miocardio, insuficiencia cardíaca, arritmias"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño endotelial por presión y lípidos → adhesión de LDL",
+        "Oxidación de LDL → formación de espuma y placa fibrosa",
+        "Crecimiento de la placa reduce el diámetro luminal",
+        "Isquemia miocárdica durante aumento de demanda de oxígeno",
+        "Ruptura de placa → trombosis y posible infarto"
+      ],
+      "risk_factors": [
+        "Hipertensión arterial",
+        "Diabetes mellitus",
+        "Tabaquismo",
+        "Dislipidemia (LDL >130 mg/dL)",
+        "Historia familiar de enfermedad coronaria",
+        "Obesidad y sedentarismo"
+      ],
+      "signs_symptoms": [
+        "Dolor torácico opresivo (angina) desencadenado por el esfuerzo",
+        "Disnea de esfuerzo",
+        "Fatiga y debilidad",
+        "Palpitaciones o sensación de latido irregular",
+        "Diaforesis, náuseas o sensación de ahogo"
+      ],
+      "diagnostics": [
+        "ECG: depresión del ST o inversión de la onda T en reposo o ejercicio",
+        "Prueba de esfuerzo: aparición de síntomas o cambios ECG bajo carga",
+        "Angiografía coronaria: estenosis ≥70 % en arteria principal",
+        "Perfil lipídico: LDL, HDL, triglicéridos",
+        "Troponina sérica (si se sospecha infarto)"
+      ],
+      "treatment": [
+        "Modificación del estilo de vida: dieta baja en grasas saturadas, ejercicio regular",
+        "Aspirina (ácido acetilsalicílico) como antiagregante",
+        "Estatinas (atorvastatina) para reducir LDL",
+        "Betabloqueantes (metoprolol) para disminuir demanda de oxígeno",
+        "IECA o ARA II (enalapril) para controlar HTA y proteger el miocardio",
+        "Nitratos (nitroglicerina) para aliviar angina y revascularización percutánea o bypass"
+      ],
+      "complications": [
+        "Infarto agudo de miocardio",
+        "Insuficiencia cardíaca crónica",
+        "Arritmias ventriculares o fibrilación auricular",
+        "Muerte súbita cardíaca",
+        "Accidente cerebrovascular por embolia"
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y saturación de O₂ cada 4 h",
+        "Evaluar dolor torácico: localización, intensidad, duración y factores desencadenantes",
+        "Administrar medicación según prescripción y observar efectos adversos",
+        "Fomentar reposo relativo y plan de actividades graduales (pacing)",
+        "Controlar resultados de laboratorio (lipidograma, glucosa, creatinina)",
+        "Registrar signos de complicación (sudoración profusa, hipotensión, arritmia)"
+      ],
+      "patient_teaching": [
+        "Adoptar dieta DASH: frutas, verduras, granos integrales, limitar sal y grasas saturadas",
+        "Dejar de fumar y evitar exposición al humo de tabaco",
+        "Tomar los medicamentos exactamente como se indican, sin omitir dosis",
+        "Reconocer y reportar dolor torácico o disnea súbita",
+        "Realizar ejercicio aeróbico moderado (30 min, 5 días/semana) bajo supervisión",
+        "Controlar peso corporal y mantener IMC <25 kg/m²"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Enfermedad coronaria",
+          "angina",
+          "insuficiencia cardíaca"
+        ],
+        "evidenced_by": [
+          "Disnea al realizar actividades leves",
+          "Fatiga al caminar",
+          "Dolor torácico con esfuerzo"
+        ],
+        "outcomes": [
+          "Caminar 300 m sin disnea en 2 semanas",
+          "Dolor torácico ≤2/10 en escala de dolor en 1 semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de dolor y disnea antes y después de cada actividad",
+            "rationale": "Permite ajustar el plan de ejercicio y prevenir sobrecarga"
+          },
+          {
+            "action": "Enseñar técnicas de pacing (descansos programados cada 5 min)",
+            "rationale": "Reduce la demanda de oxígeno y mejora la tolerancia"
+          },
+          {
+            "action": "Administrar nitratos según indicación antes de actividades programadas",
+            "rationale": "Previene la isquemia inducida por el esfuerzo"
+          },
+          {
+            "action": "Monitorear signos vitales y ECG durante la rehabilitación",
+            "rationale": "Detecta arritmias o deterioro hemodinámico precozmente"
+          },
+          {
+            "action": "Fomentar hidratación adecuada (≈2 L/día) y registro de ingesta",
+            "rationale": "Mantiene volumen intravascular y evita hipotensión ortostática"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "Hipertensión arterial",
+          "Diabetes mellitus",
+          "Tabaquismo",
+          "Dislipidemia",
+          "Obesidad",
+          "Sedentarismo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial mantenida <130/80 mmHg",
+          "Frecuencia cardíaca entre 60‑100 lpm",
+          "Sin episodios de angina durante el periodo de hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Controlar presión arterial y frecuencia cardíaca cada 4 h",
+            "rationale": "Detecta desviaciones que puedan comprometer la perfusión"
+          },
+          {
+            "action": "Administrar antiagregantes y estatinas según prescripción",
+            "rationale": "Reduce formación de trombos y progresión de la placa"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia del control glucémico y lipídico",
+            "rationale": "Factores de riesgo modificables disminuyen la progresión aterosclerótica"
+          },
+          {
+            "action": "Promover actividad física ligera (caminar 10‑15 min) tras estabilización",
+            "rationale": "Mejora la circulación coronaria y la capacidad funcional"
+          },
+          {
+            "action": "Evaluar signos de isquemia (dolor, cambios en ECG) durante cualquier aumento de actividad",
+            "rationale": "Permite intervención temprana antes de daño miocárdico"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Coronary artery disease (CAD)",
+    "aliases": [
+      "coronary artery disease",
+      "coronary artery",
+      "angina",
+      "heart attack",
+      "ischemic heart disease",
+      "cardiovascular disease"
+    ],
+    "summary": "Coronary artery disease is the accumulation of atherosclerotic plaque in the coronary arteries that reduces blood flow to the myocardium, causing ischemia and chest pain.",
+    "key_points": [
+      "Atherosclerotic plaque → narrowing of coronary arteries",
+      "Angina pectoris is the classic symptom of transient ischemia",
+      "Modifiable risk factors: hypertension, diabetes, smoking, dyslipidemia, obesity",
+      "Diagnosis includes ECG, stress testing, and coronary angiography",
+      "Treatment combines lifestyle changes, medications, and revascularization",
+      "Severe complications: acute myocardial infarction, heart failure, arrhythmias"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Endothelial injury from pressure and lipids → LDL adhesion",
+        "Oxidation of LDL → foam cell and fibrous plaque formation",
+        "Plaque growth reduces lumen diameter",
+        "Myocardial ischemia during increased oxygen demand",
+        "Plaque rupture → thrombosis and possible infarction"
+      ],
+      "risk_factors": [
+        "Hypertension",
+        "Diabetes mellitus",
+        "Smoking",
+        "Dyslipidemia (LDL >130 mg/dL)",
+        "Family history of coronary artery disease",
+        "Obesity and sedentary lifestyle"
+      ],
+      "signs_symptoms": [
+        "Pressure-like chest pain (angina) triggered by exertion",
+        "Exertional dyspnea",
+        "Fatigue and weakness",
+        "Palpitations or irregular heartbeat sensation",
+        "Diaphoresis, nausea, or choking sensation"
+      ],
+      "diagnostics": [
+        "ECG: ST depression or T wave inversion at rest or exercise",
+        "Stress test: symptom appearance or ECG changes under load",
+        "Coronary angiography: stenosis ≥70 % in main artery",
+        "Lipid profile: LDL, HDL, triglycerides",
+        "Serum troponin (if infarction suspected)"
+      ],
+      "treatment": [
+        "Lifestyle modification: low saturated fat diet, regular exercise",
+        "Aspirin (acetylsalicylic acid) as antiplatelet",
+        "Statins (atorvastatin) to lower LDL",
+        "Beta‑blockers (metoprolol) to reduce oxygen demand",
+        "ACE inhibitor or ARB (enalapril) to control hypertension and protect myocardium",
+        "Nitrates (nitroglycerin) to relieve angina and percutaneous coronary intervention or bypass"
+      ],
+      "complications": [
+        "Acute myocardial infarction",
+        "Chronic heart failure",
+        "Ventricular arrhythmias or atrial fibrillation",
+        "Sudden cardiac death",
+        "Stroke from embolism"
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate, and O₂ saturation every 4 h",
+        "Assess chest pain: location, intensity, duration, and triggers",
+        "Administer medications per prescription and observe adverse effects",
+        "Encourage relative rest and gradual activity plan (pacing)",
+        "Check lab results (lipid panel, glucose, creatinine)",
+        "Document signs of complication (profuse sweating, hypotension, arrhythmia)"
+      ],
+      "patient_teaching": [
+        "Adopt DASH diet: fruits, vegetables, whole grains, limit salt and saturated fats",
+        "Quit smoking and avoid tobacco smoke exposure",
+        "Take medications exactly as prescribed, do not skip doses",
+        "Recognize and report sudden chest pain or dyspnea",
+        "Perform moderate aerobic exercise (30 min, 5 days/week) under supervision",
+        "Monitor body weight and maintain BMI <25 kg/m²"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Coronary artery disease",
+          "angina",
+          "heart failure"
+        ],
+        "evidenced_by": [
+          "Dyspnea during light activities",
+          "Fatigue when walking",
+          "Chest pain with exertion"
+        ],
+        "outcomes": [
+          "Walk 300 m without dyspnea in 2 weeks",
+          "Chest pain ≤2/10 on pain scale in 1 week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain and dyspnea before and after each activity",
+            "rationale": "Allows exercise plan adjustment and prevents overload"
+          },
+          {
+            "action": "Teach pacing techniques (scheduled rests every 5 min)",
+            "rationale": "Reduces oxygen demand and improves tolerance"
+          },
+          {
+            "action": "Administer nitrates as ordered before scheduled activities",
+            "rationale": "Prevents exertion‑induced ischemia"
+          },
+          {
+            "action": "Monitor vital signs and ECG during rehabilitation",
+            "rationale": "Detects arrhythmias or early hemodynamic deterioration"
+          },
+          {
+            "action": "Encourage adequate hydration (≈2 L/day) and record intake",
+            "rationale": "Maintains intravascular volume and prevents orthostatic hypotension"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "Hypertension",
+          "Diabetes mellitus",
+          "Smoking",
+          "Dyslipidemia",
+          "Obesity",
+          "Sedentary lifestyle"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood pressure maintained <130/80 mmHg",
+          "Heart rate 60‑100 bpm",
+          "No angina episodes during hospitalization period"
+        ],
+        "interventions": [
+          {
+            "action": "Check blood pressure and heart rate every 4 h",
+            "rationale": "Detects deviations that may compromise perfusion"
+          },
+          {
+            "action": "Administer antiplatelets and statins as prescribed",
+            "rationale": "Reduces thrombus formation and plaque progression"
+          },
+          {
+            "action": "Educate patient on importance of glucose and lipid control",
+            "rationale": "Modifiable risk factors reduce atherosclerotic progression"
+          },
+          {
+            "action": "Promote light physical activity (walk 10‑15 min) after stabilization",
+            "rationale": "Improves coronary circulation and functional capacity"
+          },
+          {
+            "action": "Assess ischemia signs (pain, ECG changes) during any activity increase",
+            "rationale": "Allows early intervention before myocardial damage"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "myocardial-infarction",
+    "angina-pectoris",
+    "atherosclerosis",
+    "heart-failure",
+    "arrhythmia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedades del corazón en la mujer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/heartdiseaseinwomen.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Cardiovascular System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-1-cardiovascular-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Cardiovascular System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-2-cardiovascular-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21",
+  "factcheck": {
+    "checked": "2026-10-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 51
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "It happens slowly over time when a sticky substance called plaque builds up in the arteries that supply your heart muscle with blood.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The plaque narrows or blocks blood flow to the heart muscle and can lead to other heart problems: Angina - chest pain from lack of blood flow Heart attacks - when part of the heart muscle dies from loss of blood flow Heart failure - when your heart can't pump enough blood to meet your body's needs Arrhythmia - a problem with the rate or rhythm of your heartbeat Other types of heart diseases may affect your heart valves or heart muscle ( cardiomyo",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Angina pectoris is a rather common ischemic event whereby O 2 supply does not meet demand.",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Possible treatments may include: Heart-healthy lifestyle changes Medicines Procedures or surgeries Cardiac rehabilitation Can heart diseases be prevented?",
+        "source": 0
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Angina pectoris is a rather common ischemic event whereby O 2 supply does not meet demand.",
+        "source": 3
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "One prevalent example is hypertension (high blood pressure), which places increased stress on the heart and blood vessels.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Other risk factors include dyslipidemia, diabetes mellitus (DM), and cigarette smoking.",
+        "source": 3
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Other risk factors include dyslipidemia, diabetes mellitus (DM), and cigarette smoking.",
+        "source": 3
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "A family history of early heart disease raises your risk.",
+        "source": 0
+      },
+      "sections.risk_factors.5": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Patient reports dyspnea with exertion.",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "These can include: Eating a diet high in saturated fats , refined carbohydrates, and salt .",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "Angina can be chronic and stable, in which case it is predictable, and patients are often able to treat it by discontinuing activity, resting, and administering sublingual nitroglycerin.",
+        "source": 3
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "An enlarged Q wave May indicate a myocardial infarction (MI)",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Heart Failure Inefficiency of the heart’s contractility characterizes HF.",
+        "source": 3
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Smoking and exposure to secondhand smoke .",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

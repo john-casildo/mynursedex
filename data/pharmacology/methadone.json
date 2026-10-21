@@ -1,0 +1,408 @@
+{
+  "id": "methadone",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Metadona",
+    "aliases": [
+      "metadona",
+      "opioide",
+      "dolophine",
+      "tratamiento de dependencia",
+      "analgesia",
+      "methadone hydrochloride",
+      "methadose",
+      "diskets"
+    ],
+    "summary": "La metadona es un agonista completo de los receptores µ opioides usado para el manejo del dolor crónico y el tratamiento de la dependencia a opioides.",
+    "key_points": [
+      "Larga vida media (≈ 24‑59 h) permite dosificación una vez al día.",
+      "Puede prolongar el intervalo QT; se requiere monitoreo ECG.",
+      "Riesgo de depresión respiratoria grave, especialmente con depresores del SNC.",
+      "Se usa tanto para analgesia como para terapia de sustitución en adicción a opioides."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une como agonista completo al receptor µ opioide, inhibiendo la transmisión del dolor.",
+        "Bloquea la recaptación de norepinefrina y serotonina, aportando efecto analgésico en dolor neuropático.",
+        "Reduce la actividad del sistema nervioso simpático, lo que puede prolongar el QT."
+      ],
+      "indications": [
+        "Dolor crónico severo que no responde a opioides de acción corta.",
+        "Mantenimiento en terapia de sustitución para dependencia a opioides.",
+        "Dolor neuropático cuando otros analgésicos son insuficientes."
+      ],
+      "contraindications": [
+        "Hipersensibilidad conocida a la metadona.",
+        "Depresión respiratoria aguda o insuficiencia respiratoria grave.",
+        "Bloqueo cardíaco de segundo o tercer grado sin marcapasos.",
+        "Uso concomitante de inhibidores de la monoaminooxidasa (MAO) dentro de 14 días."
+      ],
+      "adverse_effects": [
+        "Somnolencia, mareos, náuseas, estreñimiento.",
+        "Hipotensión ortostática, sudoración, prurito.",
+        "Depresión respiratoria (grave).",
+        "Prolongación del intervalo QT y arritmias ventriculares (grave)."
+      ],
+      "interactions": [
+        "Depresores del SNC (benzodiacepinas, barbitúricos) aumentan sedación y depresión respiratoria.",
+        "Inhibidores de CYP3A4 (eritromicina, ketoconazol) aumentan niveles plasmáticos.",
+        "Inductores de CYP3A4 (rifampicina, carbamazepina) reducen la eficacia.",
+        "Medicamentos que prolongan QT (quinidina, sotalol) aumentan riesgo arrítmico."
+      ],
+      "nursing_care": [
+        "Evaluar respiración, saturación O₂ y nivel de conciencia antes y después de la dosis.",
+        "Obtener ECG basal y monitorizar intervalo QT cada 1‑2 semanas al iniciar terapia.",
+        "Controlar presión arterial y frecuencia cardíaca; retener dosis si hipotensión significativa.",
+        "Verificar historial de abuso de sustancias y uso de depresores del SNC.",
+        "Retener la dosis y notificar al médico si respiración < 8 rpm, SpO₂ < 90 % o QTc > 450 ms."
+      ],
+      "patient_teaching": [
+        "Tomar la metadona exactamente como lo indica el profesional; no interrumpir sin autorización.",
+        "Evitar alcohol y otros depresores del SNC que potencien la somnolencia.",
+        "No conducir ni operar maquinaria mientras sienta somnolencia o mareos.",
+        "Informar cualquier palpitación, mareo intenso o dificultad para respirar.",
+        "Almacenar el medicamento en un lugar seguro, fuera del alcance de niños."
+      ],
+      "antidote_overdose": [
+        "Naloxona 0.4‑2 mg IV/IM/SC; repetir cada 2‑3 min hasta revertir depresión respiratoria.",
+        "Ventilación asistida y soporte hemodinámico según necesidad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "sedación profunda",
+          "depresión respiratoria",
+          "hipotensión",
+          "uso concomitante de depresores del SNC"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin caídas: 0 eventos en 48 h.",
+          "Nivel de conciencia estable (Escala de Glasgow 15) durante 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear respiración, SpO₂ y nivel de conciencia cada hora durante las primeras 24 h.",
+            "rationale": "Detectar precozmente depresión respiratoria y prevenir caídas."
+          },
+          {
+            "action": "Realizar ECG y registrar intervalo QT antes de iniciar y semanalmente.",
+            "rationale": "Identificar prolongación del QT que aumenta riesgo de arritmias y síncope."
+          },
+          {
+            "action": "Mantener el entorno libre de obstáculos y usar barandillas en la cama.",
+            "rationale": "Reducir la probabilidad de caídas si ocurre somnolencia."
+          },
+          {
+            "action": "Educar al paciente sobre los signos de somnolencia excesiva y cuándo solicitar ayuda.",
+            "rationale": "Promover la autovigilancia y la búsqueda temprana de atención."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Methadone (Methadose)",
+    "aliases": [
+      "methadone",
+      "opioid",
+      "dolophine",
+      "addiction treatment",
+      "analgesia",
+      "methadone hydrochloride",
+      "methadose",
+      "diskets"
+    ],
+    "summary": "Methadone is a full agonist of µ opioid receptors used for chronic pain management and opioid dependence treatment.",
+    "key_points": [
+      "Long half‑life (≈ 24‑59 h) allows once‑daily dosing.",
+      "It can prolong the QT interval; ECG monitoring is required.",
+      "Risk of severe respiratory depression, especially with CNS depressants.",
+      "Used for both analgesia and opioid substitution therapy."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds as a full agonist to µ opioid receptors, inhibiting pain transmission.",
+        "Blocks norepinephrine and serotonin reuptake, providing analgesic effect in neuropathic pain.",
+        "Reduces sympathetic nervous system activity, which may prolong QT."
+      ],
+      "indications": [
+        "Severe chronic pain unresponsive to short‑acting opioids.",
+        "Maintenance in opioid substitution therapy.",
+        "Neuropathic pain when other analgesics are insufficient."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to methadone.",
+        "Acute respiratory depression or severe respiratory insufficiency.",
+        "Second‑ or third‑degree cardiac block without pacemaker.",
+        "Concurrent use of monoamine oxidase inhibitors (MAOIs) within 14 days."
+      ],
+      "adverse_effects": [
+        "Drowsiness, dizziness, nausea, constipation.",
+        "Orthostatic hypotension, sweating, pruritus.",
+        "Respiratory depression (severe).",
+        "QT prolongation and ventricular arrhythmias (severe)."
+      ],
+      "interactions": [
+        "CNS depressants (benzodiazepines, barbiturates) increase sedation and respiratory depression.",
+        "CYP3A4 inhibitors (erythromycin, ketoconazole) increase plasma levels.",
+        "CYP3A4 inducers (rifampin, carbamazepine) reduce efficacy.",
+        "Medications that prolong QT (quinidine, sotalol) increase arrhythmic risk."
+      ],
+      "nursing_care": [
+        "Assess respiration, O₂ saturation, and level of consciousness before and after dose.",
+        "Obtain baseline ECG and monitor QT interval every 1‑2 weeks at therapy initiation.",
+        "Monitor blood pressure and heart rate; hold dose if significant hypotension.",
+        "Verify substance abuse history and use of CNS depressants.",
+        "Hold dose and notify provider if respiration < 8 rpm, SpO₂ < 90 %, or QTc > 450 ms."
+      ],
+      "patient_teaching": [
+        "Take methadone exactly as prescribed; do not discontinue without authorization.",
+        "Avoid alcohol and other CNS depressants that increase drowsiness.",
+        "Do not drive or operate machinery while drowsy or dizzy.",
+        "Report any palpitations, severe dizziness, or breathing difficulty.",
+        "Store medication in a secure place out of reach of children."
+      ],
+      "antidote_overdose": [
+        "Naloxone 0.4‑2 mg IV/IM/SC; repeat every 2‑3 min until respiratory depression reverses.",
+        "Provide assisted ventilation and hemodynamic support as needed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "deep sedation",
+          "respiratory depression",
+          "hypotension",
+          "concurrent use of CNS depressants"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No falls: 0 events in 48 h.",
+          "Stable level of consciousness (Glasgow Scale 15) for 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor respiration, SpO₂, and level of consciousness hourly for the first 24 h.",
+            "rationale": "Early detection of respiratory depression and fall prevention."
+          },
+          {
+            "action": "Perform ECG and record QT interval before initiation and weekly.",
+            "rationale": "Identify QT prolongation that increases arrhythmia and syncope risk."
+          },
+          {
+            "action": "Keep environment free of obstacles and use bed rails.",
+            "rationale": "Reduce fall risk if drowsiness occurs."
+          },
+          {
+            "action": "Educate patient on signs of excessive drowsiness and when to seek help.",
+            "rationale": "Promote self‑monitoring and early care seeking."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-dependence",
+    "qt-prolongation",
+    "respiratory-depression",
+    "withdrawal-syndrome",
+    "pain-management"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: METHADONE HYDROCHLORIDE label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=092d78eb-6423-495c-bf0d-e6532bea7138",
+      "lang": "en"
+    },
+    {
+      "name": "RxNorm: methadone",
+      "publisher": "National Library of Medicine",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=6813",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Agonists and Antagonists",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21",
+  "factcheck": {
+    "checked": "2026-10-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 17,
+      "contradicted": 1,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Methadone is a full mu opioid receptor agonist that has been used for many years to wean clients off opioids.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Methadone can prolong the QTc interval on an electrocardiogram (ECG, EKG), and clients should be monitored if taking multiple medications that prolong the QTc interval due to risk for the ventricular dysrhythmia torsades de pointes.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "• Life Threatening Respiratory Depression (see WARNINGS ) • QT Prolongation (see WARNINGS ) • Neonatal Opioid Withdrawal Syndrome (see WARNINGS ) • Interactions with CNS Depressants (see WARNINGS )",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Labor or Delivery Opioid-dependent women on methadone maintenance therapy may require additional analgesia during labor.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Opioid-dependent women on methadone maintenance therapy may require additional analgesia during labor.",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "Hypersensitivity to methadone hydrochloride (e.g. anaphylaxis) or any other ingredient in Methadone Hydrochloride Injection.",
+        "source": 0
+      },
+      "sections.contraindications.1": {
+        "status": "supported",
+        "quote": "Methadone Hydrochloride Injection is contraindicated in patients with: • Significant respiratory depression • Acute or severe bronchial asthma in an unmonitored setting or in the absence of resuscitative equipment • Known or suspected gastrointestinal obstruction, including paralytic ileus • Hypersensitivity to methadone hydrochloride (e.g. anaphylaxis) or any other ingredient in Methadone Hydrochloride Injection.",
+        "source": 0
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "supported",
+        "quote": "Intervention: The use of Methadone Hydrochloride Injection is not recommended for patients taking MAOIs or within 14 days of stopping such treatment.",
+        "source": 0
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "Manifestations of histamine release and/or peripheral vasodilation may include pruritus, flushing, red eyes, sweating, and/or orthostatic hypotension.",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Methadone Hydrochloride Injection is contraindicated in patients with: • Significant respiratory depression • Acute or severe bronchial asthma in an unmonitored setting or in the absence of resuscitative equipment • Known or suspected gastrointestinal obstruction, including paralytic ileus • Hypersensitivity to methadone hydrochloride (e.g. anaphylaxis) or any other ingredient in Methadone Hydrochloride Injection.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "QT interval prolongation and serious arrhythmia (torsades de pointes) have occurred during treatment with methadone.",
+        "source": 0
+      },
+      "sections.interactions.0": {
+        "status": "supported",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death (see WARNINGS ).",
+        "source": 0
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Risks are increased in patients with a personal or family history of substance abuse (including drug or alcohol addiction or abuse) or mental illness (e.g., major depression).",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Due to additive pharmacologic effect, the concomitant use of benzodiazepines or other CNS depressants, including alcohol, can increase the risk of hypotension, respiratory depression, profound sedation, coma, and death (see WARNINGS ).",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Warn patients not to drive or operate dangerous machinery unless they are tolerant to the effects of Methadone Hydrochloride Injection and know how they will react to the medication (see PRECAUTIONS: Information for Patients ).",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Instruct patients to seek medical attention immediately if they experience symptoms suggestive of an arrhythmia (such as palpitations, near syncope, or syncope) when taking methadone (see WARNINGS ).",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "contradicted",
+        "quote": "Intranasal: 4–8 mg as needed in one nostril every 2–3 minutes until medical assistance is available.",
+        "source": 2
+      },
+      "sections.antidote_overdose.1": {
+        "status": "supported",
+        "quote": "Employ other supportive measures (including oxygen and vasopressors) in the management of circulatory shock and pulmonary edema as indicated.",
+        "source": 0
+      }
+    }
+  }
+}

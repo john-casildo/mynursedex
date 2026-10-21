@@ -1,0 +1,456 @@
+{
+  "id": "iron-deficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Deficiencia de hierro",
+    "aliases": [
+      "deficiencia de hierro",
+      "anemia ferropenica",
+      "anemia por hierro",
+      "falta de hierro"
+    ],
+    "summary": "La deficiencia de hierro reduce la síntesis de hemoglobina, provocando anemia microcítica e hipocromica y disminución del transporte de oxígeno.",
+    "key_points": [
+      "Causa la anemia microcítica hipocromica.",
+      "Los factores de riesgo incluyen menstruación abundante, embarazo y sangrado gastrointestinal.",
+      "Diagnóstico mediante CBC, ferritina y saturación de transferrina.",
+      "El tratamiento incluye suplementos de hierro oral y dieta rica en hierro."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ingesta o absorción insuficiente de hierro.",
+        "Disminuye la producción de hemoglobina en la médula ósea.",
+        "RBC microcíticas e hipocrómicas reducen la capacidad de transporte de O₂.",
+        "Hipoxia tisular estimula la eritropoyesis, pero sin hierro disponible la respuesta es limitada."
+      ],
+      "risk_factors": [
+        "Dieta pobre en hierro (vegetariana sin suplementación).",
+        "Menstruación abundante o prolongada.",
+        "Embarazo y lactancia.",
+        "Sangrado gastrointestinal crónico (úlceras, pólipos, cáncer).",
+        "Trastornos de absorción (celiaquía, enfermedad inflamatoria intestinal)."
+      ],
+      "signs_symptoms": [
+        "Fatiga y debilidad generalizada.",
+        "Palidez de piel y mucosas.",
+        "Disnea de esfuerzo y taquicardia.",
+        "Uñas quebradizas (koiloniquia) y caída del cabello.",
+        "Pica (ansia por comer hielo o tierra)."
+      ],
+      "diagnostics": [
+        "Hemoglobina <12 g/dL (mujeres) o <13 g/dL (hombres).",
+        "Hematocrito bajo y VCM <80 fL.",
+        "Ferritina sérica <15 ng/mL (indicador de reservas de hierro).",
+        "Saturación de transferrina <20 % y capacidad total de fijación de hierro aumentada.",
+        "Frotis de sangre muestra eritrocitos microcíticos e hipocrómicos."
+      ],
+      "treatment": [
+        "Suplementación oral de hierro (p. ej., sulfato ferroso).",
+        "Vitamina C (ácido ascórbico) para mejorar absorción.",
+        "Dieta rica en hierro hemo (carnes rojas, hígado) y no hemo (legumbres, espinaca).",
+        "Hierro intravenoso si intolerancia oral o necesidad de reposición rápida.",
+        "Transfusión de sangre si Hb <7 g/dL o síntomas graves."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca por aumento de la demanda circulatoria.",
+        "Disminución de la inmunidad y mayor riesgo de infecciones.",
+        "Complicaciones obstétricas (parto prematuro, bajo peso al nacer).",
+        "Retraso del crecimiento y desarrollo en niños."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales y nivel de conciencia cada 4 h.",
+        "Monitorear hemoglobina y ferritina cada 2‑4 semanas.",
+        "Observar efectos adversos del hierro (náuseas, estreñimiento, heces negras).",
+        "Registrar ingesta de suplementos y alimentos ricos en hierro.",
+        "Promover posición semisentada para facilitar la respiración si hay disnea."
+      ],
+      "patient_teaching": [
+        "Tomar el suplemento con agua y vitamina C, evitar té, café o lácteos cerca de la dosis.",
+        "Informar sobre posibles efectos gastrointestinales y cómo manejarlos.",
+        "Importancia de la adherencia al tratamiento durante al menos 3‑6 meses.",
+        "Incluir alimentos ricos en hierro en cada comida (carnes, legumbres, frutos secos).",
+        "Buscar atención médica si aparecen sangrados inusuales o empeora la fatiga."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "anemia por deficiencia de hierro"
+        ],
+        "evidenced_by": [
+          "cansancio constante",
+          "debilidad al realizar actividades diarias",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Nivel de energía: aumento a 4/5 en escala de 0‑5 dentro de 2 semanas",
+          "Capacidad para realizar actividades de la vida diaria sin agotamiento en 4 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y tolerancia a la actividad cada turno",
+            "rationale": "Permite medir la respuesta al tratamiento y ajustar cuidados."
+          },
+          {
+            "action": "Administrar suplemento de hierro oral según prescripción y registrar la toma",
+            "rationale": "Reemplaza el déficit de hierro y mejora la producción de hemoglobina."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la vitamina C para la absorción del hierro",
+            "rationale": "Optimiza la eficacia del suplemento oral."
+          },
+          {
+            "action": "Monitorear hemoglobina y ferritina cada 2‑4 semanas",
+            "rationale": "Confirma la respuesta hematológica al tratamiento."
+          },
+          {
+            "action": "Fomentar una dieta rica en hierro y registrar la ingesta alimentaria",
+            "rationale": "Apoya la reposición de reservas de hierro a largo plazo."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "anemia ferropénica",
+          "Hb <10 g/dL",
+          "hipoxia tisular"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial mantenida >90/60 mmHg durante la hospitalización",
+          "Frecuencia cardíaca <100 lpm sin taquicardia sostenida"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales cada 4 h, con énfasis en PA y FC",
+            "rationale": "Detecta precozmente signos de hipoperfusión."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y coloración de piel/mucosas",
+            "rationale": "Indicadores clínicos de perfusión adecuada."
+          },
+          {
+            "action": "Administrar oxígeno suplementario si SpO2 <92 %",
+            "rationale": "Mejora la saturación de oxígeno y reduce la carga cardíaca."
+          },
+          {
+            "action": "Informar al médico sobre cualquier descenso de Hb <7 g/dL",
+            "rationale": "Facilita decisiones de transfusión para mantener perfusión."
+          },
+          {
+            "action": "Promover reposo relativo y evitar esfuerzos físicos intensos",
+            "rationale": "Reduce la demanda de oxígeno del miocardio."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Iron deficiency",
+    "aliases": [
+      "iron deficiency",
+      "iron deficiency anemia",
+      "anemia due to iron",
+      "lack of iron"
+    ],
+    "summary": "Iron deficiency reduces hemoglobin synthesis, causing microcytic hypochromic anemia and decreased oxygen transport.",
+    "key_points": [
+      "Causes microcytic hypochromic anemia.",
+      "Risk factors include heavy menstruation, pregnancy, and gastrointestinal bleeding.",
+      "Diagnosis via CBC, ferritin, and transferrin saturation.",
+      "Treatment includes oral iron supplements and iron‑rich diet."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Insufficient iron intake or absorption.",
+        "Decreases hemoglobin production in the bone marrow.",
+        "Microcytic, hypochromic RBCs reduce O₂ transport capacity.",
+        "Tissue hypoxia stimulates erythropoiesis, but limited iron restricts the response."
+      ],
+      "risk_factors": [
+        "Poor iron diet (vegetarian without supplementation).",
+        "Heavy or prolonged menstruation.",
+        "Pregnancy and lactation.",
+        "Chronic gastrointestinal bleeding (ulcers, polyps, cancer).",
+        "Absorption disorders (celiac disease, inflammatory bowel disease)."
+      ],
+      "signs_symptoms": [
+        "Fatigue and generalized weakness.",
+        "Pale skin and mucous membranes.",
+        "Exertional dyspnea and tachycardia.",
+        "Fragile nails (koilonychia) and hair loss.",
+        "Pica (craving for ice or dirt)."
+      ],
+      "diagnostics": [
+        "Hemoglobin <12 g/dL (women) or <13 g/dL (men).",
+        "Low hematocrit and MCV <80 fL.",
+        "Serum ferritin <15 ng/mL (indicator of iron stores).",
+        "Transferrin saturation <20 % and increased total iron binding capacity.",
+        "Peripheral smear shows microcytic, hypochromic erythrocytes."
+      ],
+      "treatment": [
+        "Oral iron supplementation (e.g., ferrous sulfate).",
+        "Vitamin C (ascorbic acid) to improve absorption.",
+        "Diet rich in heme iron (red meats, liver) and non‑heme iron (legumes, spinach).",
+        "Intravenous iron if oral intolerance or rapid repletion needed.",
+        "Blood transfusion if Hb <7 g/dL or severe symptoms.]",
+        "complications",
+        ":",
+        "nursing_care",
+        ":",
+        "patient_teaching",
+        ":"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "iron deficiency anemia"
+        ],
+        "evidenced_by": [
+          "constant tiredness",
+          "weakness during daily activities",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Energy level: increase to 4/5 on 0‑5 scale within 2 weeks",
+          "Ability to perform activities of daily living without exhaustion in 4 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and activity tolerance each shift",
+            "rationale": "Measures treatment response and guides care adjustments."
+          },
+          {
+            "action": "Administer prescribed oral iron supplement and record intake",
+            "rationale": "Replaces iron deficit and improves hemoglobin production."
+          },
+          {
+            "action": "Educate patient on vitamin C importance for iron absorption",
+            "rationale": "Optimizes oral supplement efficacy."
+          },
+          {
+            "action": "Monitor hemoglobin and ferritin every 2‑4 weeks",
+            "rationale": "Confirms hematologic response to treatment."
+          },
+          {
+            "action": "Encourage iron‑rich diet and document food intake",
+            "rationale": "Supports long‑term iron store replenishment."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "iron deficiency anemia",
+          "Hb <10 g/dL",
+          "tissue hypoxia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood pressure maintained >90/60 mmHg during hospitalization",
+          "Heart rate <100 bpm without sustained tachycardia"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs every 4 h, focusing on BP and HR",
+            "rationale": "Detects early signs of hypoperfusion."
+          },
+          {
+            "action": "Assess level of consciousness and skin/mucous color",
+            "rationale": "Clinical indicators of adequate perfusion."
+          },
+          {
+            "action": "Administer supplemental oxygen if SpO₂ <92 %",
+            "rationale": "Improves oxygen saturation and reduces cardiac load."
+          },
+          {
+            "action": "Notify physician of any Hb drop <7 g/dL",
+            "rationale": "Facilitates transfusion decisions to maintain perfusion."
+          },
+          {
+            "action": "Promote relative rest and avoid intense physical exertion",
+            "rationale": "Reduces myocardial oxygen demand."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "iron-deficiency-anemia",
+    "hemoglobin",
+    "nutritional-deficiency",
+    "blood-loss",
+    "fatigue"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Anemia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/anemia.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Anemias",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-1-anemias",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21",
+  "factcheck": {
+    "checked": "2026-10-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 23,
+      "contradicted": 0,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "RBCs do not have adequate iron to fully form and are smaller than normal, indicating impaired Hb synthesis.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Common causes include iron-deficiency anemia, thalassemia, and certain chronic diseases.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Anemia can result from acute bleeding, as in trauma or surgery, or from chronic, low-level bleeding, as in gastrointestinal bleeding or heavy menstrual periods.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Oral iron supplements may be taken up to three times a day with food to boost body stores of iron and promote appropriate production of RBCs.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "This disorder may develop from inadequate iron intake, impaired iron absorption (e.g., from celiac disease or weight-loss surgery), or increased iron loss (e.g., from menstruation or gastrointestinal bleeding) (Camaschella, 2019).",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "This disorder may develop from inadequate iron intake, impaired iron absorption (e.g., from celiac disease or weight-loss surgery), or increased iron loss (e.g., from menstruation or gastrointestinal bleeding) (Camaschella, 2019).",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Anemia can result from acute bleeding, as in trauma or surgery, or from chronic, low-level bleeding, as in gastrointestinal bleeding or heavy menstrual periods.",
+        "source": 1
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Those affected by the disorder often experience debilitating symptoms including fatigue, weakness, pale skin tone, and shortness of breath.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Objective signs may include physical findings such as pale skin and mucus membranes and delayed capillary refill time.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "These supplements may come in the form of ferrous sulfate, ferrous gluconate, or other iron preparations.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "In more serious cases, the disorder can cause complications affecting the heart, brain, and other vital organs.",
+        "source": 1
+      },
+      "sections.treatment.6": {
+        "status": "not_found"
+      },
+      "sections.treatment.7": {
+        "status": "supported",
+        "quote": "Apply nursing concepts and plan associated nursing care for the patient with anemia",
+        "source": 1
+      },
+      "sections.treatment.8": {
+        "status": "not_found"
+      },
+      "sections.treatment.9": {
+        "status": "not_found"
+      },
+      "sections.treatment.10": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "id": "opioid-tolerance",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Tolerancia a los opioides",
+    "aliases": [
+      "tolerancia opioides",
+      "tolerancia a opioides",
+      "tolerancia opioide",
+      "opioid tolerance",
+      "tolerancia opioides crónica"
+    ],
+    "summary": "Disminución de la respuesta analgésica tras uso prolongado de opioides, requiriendo dosis mayores para el mismo efecto.",
+    "key_points": [
+      "Se produce por desensibilización y regulación a la baja de los receptores μ.",
+      "Aumenta el riesgo de efectos adversos graves, como depresión respiratoria.",
+      "No se debe ajustar la dosis sin orden médica; se considera manejo de la tolerancia.",
+      "El uso concomitante de depresores del SNC potencia la toxicidad."
+    ],
+    "sections": {
+      "mechanism": [
+        "Desensibilización de receptores μ por exposición continua.",
+        "Regulación a la baja de receptores y disminución de acoplamiento G‑proteína.",
+        "Activación de vías excitatorias que contrarrestan la analgesia."
+      ],
+      "adverse_effects": [
+        "Somnolencia y sedación aumentada.",
+        "Estreñimiento persistente.",
+        "Depresión respiratoria (grave).",
+        "Náuseas y vómitos.",
+        "Hipotensión ortostática."
+      ],
+      "interactions": [
+        "Benzodiacepinas y otros depresores del SNC aumentan depresión respiratoria.",
+        "Alcohol potencia sedación y riesgo de sobredosis.",
+        "Inhibidores de CYP3A4 pueden elevar niveles de opioides."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de dolor antes y después de la dosis.",
+        "Monitorear frecuencia respiratoria, saturación O₂ y nivel de conciencia.",
+        "Retener dosis si RR < 12 rpm o somnolencia excesiva y notificar al médico.",
+        "Registrar cambios en la dosis y respuesta analgésica."
+      ],
+      "patient_teaching": [
+        "No aumentar la dosis sin autorización del profesional de salud.",
+        "Tomar el medicamento exactamente como se indica.",
+        "Evitar alcohol y otros depresores del SNC.",
+        "Almacenar los opioides fuera del alcance de niños y mascotas."
+      ],
+      "antidote_overdose": [
+        "Naloxona 0.4‑2 mg IV/IM/SC; repetir cada 2‑3 min según respuesta."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "uso crónico de opioides",
+          "aumento de dosis sin supervisión",
+          "combinación con depresores del SNC"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Paciente mantendrá dosis segura según prescripción en 48 h.",
+          "Paciente demostrará comprensión de signos de sobredosis en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de dolor y signos de sobredosis antes de cada dosis.",
+            "rationale": "Detectar precozmente deterioro respiratorio o sedación excesiva."
+          },
+          {
+            "action": "Monitorear frecuencia respiratoria y saturación de oxígeno cada 4 h.",
+            "rationale": "Identificar depresión respiratoria temprana."
+          },
+          {
+            "action": "Educar al paciente sobre uso correcto y riesgos de automedicación.",
+            "rationale": "Prevenir aumento de dosis no autorizado."
+          },
+          {
+            "action": "Revisar medicamentos concomitantes que deprimen el SNC.",
+            "rationale": "Reducir interacciones que aumenten toxicidad."
+          },
+          {
+            "action": "Mantener naloxona disponible en el área de atención.",
+            "rationale": "Permitir intervención rápida ante posible sobredosis."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opioid tolerance",
+    "aliases": [
+      "opioid tolerance",
+      "opioid tolerance chronic"
+    ],
+    "summary": "Decreased analgesic response after prolonged opioid use, requiring higher doses for the same effect.",
+    "key_points": [
+      "Occurs due to desensitization and down‑regulation of μ receptors.",
+      "Increases risk of serious adverse effects such as respiratory depression.",
+      "Dose should not be adjusted without medical order; tolerance management is required.",
+      "Concurrent use of CNS depressants increases toxicity."
+    ],
+    "sections": {
+      "mechanism": [
+        "Desensitization of μ receptors from continuous exposure.",
+        "Down‑regulation of receptors and decreased G‑protein coupling.",
+        "Activation of excitatory pathways that counteract analgesia."
+      ],
+      "adverse_effects": [
+        "Increased drowsiness and sedation.",
+        "Persistent constipation.",
+        "Respiratory depression (severe).",
+        "Nausea and vomiting.",
+        "Orthostatic hypotension."
+      ],
+      "interactions": [
+        "Benzodiazepines and other CNS depressants increase respiratory depression.",
+        "Alcohol enhances sedation and overdose risk.",
+        "CYP3A4 inhibitors can raise opioid levels."
+      ],
+      "nursing_care": [
+        "Assess pain level before and after dose.",
+        "Monitor respiratory rate, O₂ saturation, and level of consciousness.",
+        "Hold dose if RR < 12/min or excessive drowsiness and notify provider.",
+        "Document dose changes and analgesic response."
+      ],
+      "patient_teaching": [
+        "Do not increase dose without health professional authorization.",
+        "Take medication exactly as directed.",
+        "Avoid alcohol and other CNS depressants.",
+        "Store opioids out of reach of children and pets."
+      ],
+      "antidote_overdose": [
+        "Naloxone 0.4‑2 mg IV/IM/SC; repeat every 2‑3 min as needed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "chronic opioid use",
+          "dose escalation without supervision",
+          "combination with CNS depressants"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient will maintain safe dose per prescription within 48 h.",
+          "Patient will demonstrate understanding of overdose signs within 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain level and overdose signs before each dose.",
+            "rationale": "Detect early respiratory depression or excessive sedation."
+          },
+          {
+            "action": "Monitor respiratory rate and oxygen saturation every 4 h.",
+            "rationale": "Identify early respiratory depression."
+          },
+          {
+            "action": "Educate patient on correct use and risks of self‑medication.",
+            "rationale": "Prevent unauthorized dose increases."
+          },
+          {
+            "action": "Review concomitant medications that depress the CNS.",
+            "rationale": "Reduce interactions that increase toxicity."
+          },
+          {
+            "action": "Keep naloxone available in the care area.",
+            "rationale": "Allow rapid intervention in case of possible overdose."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "opioid-dependence",
+    "opioid-addiction",
+    "pain-management",
+    "opioid-induced-hyperalgesia"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Opioid Agonists and Antagonists",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/14-3-opioid-agonists-and-antagonists",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Opioid Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-2-opioid-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21",
+  "factcheck": {
+    "checked": "2026-10-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 14,
+      "contradicted": 0,
+      "total": 25
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Tolerance will rapidly develop to the analgesic and euphoric properties of the opioids, which leads to a rapid dose escalation to achieve the same effects that the client had been experiencing at lower doses.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Serious, life-threatening, or fatal respiratory depression may occur with use of opioid agonists.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Mix opioids with other CNS depressants, including sedatives, alcohol, and muscle relaxants, because their interaction increases the risk for potentially fatal respiratory failure.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "As the body adapts to the presence of the drug, the client will become accustomed to some of the side effects, including sedation, and it may appear as if the dose that previously treated the client’s pain is no longer adequate.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "Nearly all clients receiving chronic opioid therapy will develop constipation, so nurses should assess for this to help determine which type of constipation treatment (laxatives, stool softeners, stimulants, fiber supplements) the client needs to ensure regular bowel movements.",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Opioid analgesics are extremely effective when used to manage moderate to severe forms of pain but can cause potentially life-threatening CNS and respiratory depression when the recommended dos",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "The most common are gastrointestinal effects, including nausea, vomiting, and constipation.",
+        "source": 0
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "supported",
+        "quote": "Concomitant use of opioids with benzodiazepines or other CNS depressants, including alcohol, may result in profound sedation, respiratory depression, coma, and death.",
+        "source": 0
+      },
+      "sections.interactions.1": {
+        "status": "supported",
+        "quote": "nurses should instruct clients not to mix opioids with other CNS depressants, including sedatives, alcohol, and muscle relaxants, because this interaction will increase the risk for potentially fatal respiratory failure.",
+        "source": 0
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "“Do not drink alcohol while you’re taking this medication.”",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Keep all medication out of the reach of children and pets.",
+        "source": 0
+      },
+      "sections.antidote_overdose.0": {
+        "status": "not_found"
+      }
+    }
+  }
+}

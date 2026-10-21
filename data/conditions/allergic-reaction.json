@@ -1,0 +1,534 @@
+{
+  "id": "allergic-reaction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Reacción alérgica",
+    "aliases": [
+      "alergia",
+      "reaccion alergica",
+      "hipersensibilidad",
+      "anafilaxis"
+    ],
+    "summary": "Respuesta inmunológica exagerada a un alérgeno que puede variar de síntomas leves a anafilaxia potencialmente mortal.",
+    "key_points": [
+      "Mediada principalmente por IgE y mastocitos.",
+      "Los síntomas pueden afectar piel, vías respiratorias y sistema cardiovascular.",
+      "El diagnóstico se basa en pruebas cutáneas o de IgE específica.",
+      "El tratamiento de primera línea en anafilaxia es epinefrina IM.",
+      "La educación del paciente sobre evitación y uso de autoinyectores es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exposición al alérgeno activa células B que producen IgE.",
+        "IgE se une a receptores FcεRI en mastocitos y basófilos.",
+        "Reexposición provoca cruce de IgE y desgranulación celular.",
+        "Liberación de histamina, leucotrienos y prostaglandinas.",
+        "Aumento de permeabilidad capilar y broncoconstricción."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de atopia.",
+        "Exposición temprana a alérgenos (pólenes, ácaros, alimentos).",
+        "Enfermedades cutáneas como dermatitis atópica.",
+        "Uso de ciertos fármacos (penicilina, AINES).",
+        "Picaduras de insectos en individuos sensibilizados."
+      ],
+      "signs_symptoms": [
+        "Urticaria, prurito y angioedema.",
+        "Rinorrea, estornudos y congestión nasal.",
+        "Sibilancias, disnea y tos.",
+        "Hipotensión, taquicardia y mareos (anafilaxia).",
+        "Sensación de opresión en la garganta."
+      ],
+      "diagnostics": [
+        "Prueba cutánea (prick) positiva al alérgeno sospechoso.",
+        "IgE específica sérica elevada (UI/mL).",
+        "Tryptasa sérica aumentada en anafilaxia aguda.",
+        "Hemograma: eosinofilia en reacciones tardías.",
+        "Examen físico para descartar compromiso respiratorio."
+      ],
+      "treatment": [
+        "Antihistamínicos de segunda generación (cetirizina).",
+        "Corticoides sistémicos (prednisona) para reacciones moderadas.",
+        "Epinefrina 0.01 mg/kg IM en anafilaxia.",
+        "Broncodilatadores (salbutamol) si hay broncoespasmo.",
+        "Evitar alérgeno y considerar inmunoterapia subcutánea."
+      ],
+      "complications": [
+        "Anafilaxia con shock circulatorio.",
+        "Obstrucción de vía aérea por edema de labios y lengua.",
+        "Broncoespasmo severo que lleva a insuficiencia respiratoria.",
+        "Reacción biphasica 4‑12 h después del episodio inicial.",
+        "Infecciones secundarias por daño cutáneo."
+      ],
+      "nursing_care": [
+        "Evaluar rápidamente la vía aérea, respiración y circulación (ABCs).",
+        "Monitorear presión arterial, frecuencia cardíaca y saturación O₂.",
+        "Administrar epinefrina según protocolo y observar respuesta.",
+        "Iniciar fluidos IV isotónicos si hay hipotensión.",
+        "Observar signos de reacción biphasica durante al menos 24 h."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar alérgenos desencadenantes.",
+        "Leer etiquetas de alimentos y medicamentos.",
+        "Llevar siempre autoinyector de epinefrina y saber usarlo.",
+        "Reconocer signos tempranos de anafilaxia y buscar ayuda inmediata.",
+        "Programar citas de seguimiento para pruebas de alergia y posible inmunoterapia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómitos",
+          "diarrea",
+          "edema cutáneo",
+          "aumento de permeabilidad capilar",
+          "anafilaxia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida de líquidos equilibradas (±500 mL/24 h).",
+          "Peso corporal estable (variación < 0.5 kg en 24 h)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada hora.",
+            "rationale": "Detectar rápidamente desequilibrios y prevenir deshidratación."
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (turgencia capilar, pulso).",
+            "rationale": "Identificar disminución del volumen circulante."
+          },
+          {
+            "action": "Administrar fluidos IV isotónicos según prescripción.",
+            "rationale": "Restaurar el volumen intravascular y mantener presión arterial."
+          },
+          {
+            "action": "Registrar peso diario y comparar con peso basal.",
+            "rationale": "Detectar cambios de volumen rápidamente."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación oral.",
+            "rationale": "Promover autocuidado y prevención de déficit de líquidos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos",
+          "uso de diuréticos",
+          "vómitos",
+          "diarrea",
+          "anafilaxia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Niveles séricos de Na+ 135‑145 mEq/L y K+ 3.5‑5.0 mEq/L mantenidos.",
+          "Electrolitos en orina dentro de rangos esperados para edad."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos al ingreso y cada 12 h.",
+            "rationale": "Detectar alteraciones tempranas y guiar terapia."
+          },
+          {
+            "action": "Monitorear signos de hiperkalemia o hipocalemia (arritmias, debilidad).",
+            "rationale": "Prevenir complicaciones cardíacas."
+          },
+          {
+            "action": "Administrar soluciones IV con electrolitos según prescripción.",
+            "rationale": "Corregir desequilibrios y mantener homeostasis."
+          },
+          {
+            "action": "Evaluar estado neuromuscular (reflejos, tono muscular).",
+            "rationale": "Identificar efectos de alteraciones electrolíticas."
+          },
+          {
+            "action": "Enseñar al paciente la importancia de una dieta equilibrada en sodio y potasio.",
+            "rationale": "Fomentar autocontrol y prevención de futuros desequilibrios."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Allergic reaction",
+    "aliases": [
+      "allergy",
+      "allergic reaction",
+      "hypersensitivity",
+      "anaphylaxis"
+    ],
+    "summary": "An exaggerated immune response to an allergen that can range from mild symptoms to potentially fatal anaphylaxis.",
+    "key_points": [
+      "Primarily mediated by IgE and mast cells.",
+      "Symptoms can affect skin, respiratory tract, and cardiovascular system.",
+      "Diagnosis is based on skin tests or specific IgE.",
+      "First‑line treatment for anaphylaxis is intramuscular epinephrine.",
+      "Patient education on avoidance and use of auto‑injectors is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exposure to the allergen activates B cells that produce IgE.",
+        "IgE binds to FcεRI receptors on mast cells and basophils.",
+        "Re‑exposure triggers IgE cross‑linking and cellular degranulation.",
+        "Release of histamine, leukotrienes, and prostaglandins.",
+        "Increased capillary permeability and bronchoconstriction."
+      ],
+      "risk_factors": [
+        "Family history of atopy.",
+        "Early exposure to allergens (pollen, dust mites, foods).",
+        "Skin diseases such as atopic dermatitis.",
+        "Use of certain medications (penicillin, NSAIDs).",
+        "Insect stings in sensitized individuals."
+      ],
+      "signs_symptoms": [
+        "Urticaria, pruritus, and angioedema.",
+        "Rhinorrhea, sneezing, and nasal congestion.",
+        "Wheezing, dyspnea, and cough.",
+        "Hypotension, tachycardia, and dizziness (anaphylaxis).",
+        "Feeling of throat tightness."
+      ],
+      "diagnostics": [
+        "Positive skin prick test to the suspected allergen.",
+        "Elevated serum specific IgE (IU/mL).",
+        "Increased serum tryptase in acute anaphylaxis.",
+        "CBC: eosinophilia in late reactions.",
+        "Physical exam to rule out respiratory compromise."
+      ],
+      "treatment": [
+        "Second‑generation antihistamines (cetirizine).",
+        "Systemic corticosteroids (prednisone) for moderate reactions.",
+        "Epinephrine 0.01 mg/kg IM in anaphylaxis.",
+        "Bronchodilators (albuterol) if bronchospasm present.",
+        "Avoid allergen and consider subcutaneous immunotherapy."
+      ],
+      "complications": [
+        "Anaphylaxis with circulatory shock.",
+        "Airway obstruction from lip and tongue edema.",
+        "Severe bronchospasm leading to respiratory failure.",
+        "Biphasic reaction 4‑12 h after the initial episode.",
+        "Secondary infections from skin damage."
+      ],
+      "nursing_care": [
+        "Rapidly assess airway, breathing, and circulation (ABCs).",
+        "Monitor blood pressure, heart rate, and O₂ saturation.",
+        "Administer epinephrine per protocol and observe response.",
+        "Initiate isotonic IV fluids if hypotension present.",
+        "Observe for biphasic reaction signs for at least 24 h."
+      ],
+      "patient_teaching": [
+        "Identify and avoid triggering allergens.",
+        "Read labels on foods and medications.",
+        "Always carry an epinephrine auto‑injector and know how to use it.",
+        "Recognize early signs of anaphylaxis and seek immediate help.",
+        "Schedule follow‑up appointments for allergy testing and possible immunotherapy."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "vomiting",
+          "diarrhea",
+          "cutaneous edema",
+          "increased capillary permeability",
+          "anaphylaxis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output balanced (±500 mL/24 h).",
+          "Stable body weight (variation <0.5 kg in 24 h)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor intake and output hourly.",
+            "rationale": "Detect imbalances quickly and prevent dehydration."
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill, pulse).",
+            "rationale": "Identify decreased circulating volume."
+          },
+          {
+            "action": "Administer isotonic IV fluids as prescribed.",
+            "rationale": "Restore intravascular volume and maintain blood pressure."
+          },
+          {
+            "action": "Record daily weight and compare to baseline.",
+            "rationale": "Detect volume changes rapidly."
+          },
+          {
+            "action": "Educate patient on importance of oral hydration.",
+            "rationale": "Promote self‑care and prevention of fluid deficit."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "fluid loss",
+          "diuretic use",
+          "vomiting",
+          "diarrhea",
+          "anaphylaxis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L maintained.",
+          "Urine electrolytes within expected age ranges."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes on admission and every 12 h.",
+            "rationale": "Detect early changes and guide therapy."
+          },
+          {
+            "action": "Monitor signs of hyperkalemia or hypokalemia (arrhythmias, weakness).",
+            "rationale": "Prevent cardiac complications."
+          },
+          {
+            "action": "Administer IV solutions with electrolytes as prescribed.",
+            "rationale": "Correct imbalances and maintain homeostasis."
+          },
+          {
+            "action": "Assess neuromuscular status (reflexes, muscle tone).",
+            "rationale": "Identify effects of electrolyte disturbances."
+          },
+          {
+            "action": "Teach patient the importance of a balanced diet in sodium and potassium.",
+            "rationale": "Encourage self‑control and prevention of future imbalances."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "anaphylaxis",
+    "hypersensitivity",
+    "ige-mediated-reaction",
+    "mast-cell-degranulation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Allergy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/allergy.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Allergic Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-1-allergic-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Allergic Rhinitis",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-2-allergic-rhinitis",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21",
+  "factcheck": {
+    "checked": "2026-10-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 28,
+      "contradicted": 1,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "These physiologic events that result from immediate hypersensitivity may range from mild to life-threatening symptoms.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A mast cell of the skin and mucous membranes perform a key role in IgE-mediated immediate hypersensitivity.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Diagnostics and Laboratory Values Diagnostic tests include peripheral blood counts, total serum IgE, serum-specific IgE, nasal smears, nasal provocation tests, and epicutaneous (on the skin) and intradermal (just below the skin) skin testing.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Activated Th cells stimulate B cells to produce antibodies, specifically immunoglobulin E (IgE) antibodies.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.4": {
+        "status": "supported",
+        "quote": "This chemical mediator causes bronchoconstriction, increased vascular permeability, and vasodilation.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "The nurse should also document the patient’s personal and family history of allergies, if any.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "The genetic tendency to develop allergic diseases such as allergic rhinitis , asthma, and atopic dermatitis is called atopy .",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "The primary symptoms of allergic rhinitis are nasal congestion, sneezing, nose and throat itching, and abundant amounts of serous nasal drainage.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "A positive skin test, positive allergy history, and the inability to avoid an allergen is indicative that immunotherapy is needed.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "supported",
+        "quote": "assess the patient is safe to proceed with testing; for example, ruling out current signs of bronchospasms or other signs of current allergic response",
+        "source": 1
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "The use of multiple avoidance measures can greatly reduce the severity of symptoms.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "This type of reaction can be seen in allergic rhinitis, allergic dermatitis, bronchial asthma, food allergy, anaphylactic shock, and conjunctivitis (Vaillant et al., 2023).",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "This can lead to a drop in blood pressure (anaphylaxis); difficulty breathing; swelling of the face, tongue, or throat; and can be life-threatening.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "contradicted",
+        "quote": "Patients must be monitored for at least thirty minutes after administration due to the possibility of severe reactions like anaphylaxis.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Treatments include medicines, allergy shots, and avoiding the substances that cause the reactions.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine as ordered, and activating a rapid response in the event of anaphylaxis.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

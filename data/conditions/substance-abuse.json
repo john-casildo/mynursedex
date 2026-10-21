@@ -1,0 +1,424 @@
+{
+  "id": "substance-abuse",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Abuso de sustancias (AS)",
+    "aliases": [
+      "abuso",
+      "sustancias",
+      "adicción",
+      "droga",
+      "dependencia"
+    ],
+    "summary": "Consumo nocivo y compulsivo de drogas, alcohol o tabaco que genera deterioro físico, psicológico y social.",
+    "key_points": [
+      "Afecta múltiples sistemas (cardiovascular, respiratorio, neurológico).",
+      "Incrementa riesgo de infecciones, lesiones y complicaciones obstétricas.",
+      "El diagnóstico combina historia, examen físico y pruebas toxicológicas.",
+      "El tratamiento es multidisciplinario: desintoxicación, terapia conductual y farmacoterapia.",
+      "El rol de enfermería incluye detección temprana, educación y apoyo al proceso de recuperación."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La sustancia activa neurotransmisores, alterando la recompensa dopaminérgica.",
+        "Uso crónico produce tolerancia y dependencia fisiológica.",
+        "La abstinencia genera hiperactividad del sistema nervioso simpático."
+      ],
+      "risk_factors": [
+        "Historia familiar de consumo, estrés crónico y trastornos mentales.",
+        "Disponibilidad de la sustancia y presión social.",
+        "Embarazo, enfermedades crónicas y uso de medicamentos prescritos."
+      ],
+      "signs_symptoms": [
+        "Cambios en el estado de ánimo, irritabilidad o euforia.",
+        "Pupilas dilatadas o contraídas según la sustancia.",
+        "Signos de intoxicación: somnolencia, temblor, sudoración, náuseas."
+      ],
+      "diagnostics": [
+        "Historia de consumo y escala de cribado (AUDIT, DAST).",
+        "Análisis de sangre: nivel de alcohol (g/dL), toxicología (ng/mL).",
+        "Orina: prueba de drogas (cannabinoides, cocaína, opiáceos)."
+      ],
+      "treatment": [
+        "Desintoxicación supervisada: hidratación IV, monitorización de signos vitales.",
+        "Farmacoterapia: metadona, buprenorfina, naltrexona, acamprosato.",
+        "Intervenciones psicosociales: terapia cognitivo‑conductual, grupos de apoyo."
+      ],
+      "complications": [
+        "Sobredosis → depresión respiratoria, coma, muerte.",
+        "Infecciones: hepatitis B/C, VIH por uso de agujas.",
+        "Problemas obstétricos: bajo peso al nacer, parto prematuro."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 2‑4 h durante desintoxicación.",
+        "Monitorear nivel de conciencia y escala de Glasgow.",
+        "Mantener vía IV patenta, registrar ingesta y salida de líquidos.",
+        "Proveer ambiente seguro, libre de objetos punzantes."
+      ],
+      "patient_teaching": [
+        "Informar sobre riesgos de la sustancia y beneficios de la abstinencia.",
+        "Enseñar técnicas de manejo del estrés y prevención de recaídas.",
+        "Orientar sobre recursos comunitarios: clínicas de adicción, líneas de ayuda."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "uso crónico de alcohol",
+          "consumo de opiáceos",
+          "ingestión de drogas ilícitas",
+          "polifarmacia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Estado de toxicidad – El paciente permanecerá sin signos de sobredosis durante la hospitalización.",
+          "NOC: Seguridad del paciente – No se presentarán eventos adversos relacionados con intoxicación."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia cada hora.",
+            "rationale": "Detectar precozmente deterioro respiratorio o neurológico."
+          },
+          {
+            "action": "Mantener vía aérea permeable y administrar oxígeno según necesidad.",
+            "rationale": "Prevenir hipoxia secundaria a depresión respiratoria."
+          },
+          {
+            "action": "Obtener y registrar resultados de pruebas toxicológicas.",
+            "rationale": "Identificar la sustancia y guiar la terapia específica."
+          },
+          {
+            "action": "Administrar antagonistas o antídotos (ej. naloxona) bajo prescripción.",
+            "rationale": "Revertir rápidamente los efectos de sobredosis de opioides."
+          },
+          {
+            "action": "Documentar ingesta de sustancias y episodios de uso.",
+            "rationale": "Facilitar la planificación del alta y seguimiento."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso de agujas compartidas",
+          "consumo de tabaco",
+          "alcoholismo",
+          "prácticas sexuales de riesgo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Integridad de la piel y mucosas – No se observarán lesiones ni signos de infección.",
+          "NOC: Estado inmunológico – Pruebas serológicas permanecerán negativas para hepatitis y VIH."
+        ],
+        "interventions": [
+          {
+            "action": "Realizar evaluación de sitios de inyección y piel cada turno.",
+            "rationale": "Detectar tempranamente cellulitis o abscesos."
+          },
+          {
+            "action": "Enseñar técnica de uso de agujas estériles y descarte seguro.",
+            "rationale": "Reducir transmisión de patógenos sanguíneos."
+          },
+          {
+            "action": "Promover vacunación contra hepatitis B y antirretrovirales según indicación.",
+            "rationale": "Prevenir infecciones de transmisión sanguínea."
+          },
+          {
+            "action": "Fomentar higiene bucal y oral para evitar infecciones dentales.",
+            "rationale": "Disminuir riesgo de bacteriemia en consumidores de alcohol."
+          },
+          {
+            "action": "Coordinar pruebas de detección (VDRL, VIH, hepatitis) y seguimiento.",
+            "rationale": "Identificar infecciones oportunas y tratar a tiempo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Substance Abuse (SA)",
+    "aliases": [
+      "substance abuse",
+      "drug abuse",
+      "addiction",
+      "drug dependence",
+      "alcohol abuse"
+    ],
+    "summary": "Nocuous and compulsive consumption of drugs, alcohol, or tobacco that causes physical, psychological, and social deterioration.",
+    "key_points": [
+      "Affects multiple systems (cardiovascular, respiratory, neurological).",
+      "Increases risk of infections, injuries, and obstetric complications.",
+      "Diagnosis combines history, physical exam, and toxicology tests.",
+      "Treatment is multidisciplinary: detoxification, behavioral therapy, and pharmacotherapy.",
+      "Nursing role includes early detection, education, and support in the recovery process."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Active substances alter neurotransmitters, disrupting dopaminergic reward pathways.",
+        "Chronic use produces tolerance and physiological dependence.",
+        "Withdrawal triggers hyperactivity of the sympathetic nervous system."
+      ],
+      "risk_factors": [
+        "Family history of use, chronic stress, and mental disorders.",
+        "Availability of the substance and social pressure.",
+        "Pregnancy, chronic illnesses, and prescription medication use."
+      ],
+      "signs_symptoms": [
+        "Mood changes, irritability or euphoria.",
+        "Pupil dilation or constriction depending on the substance.",
+        "Signs of intoxication: drowsiness, tremor, sweating, nausea."
+      ],
+      "diagnostics": [
+        "History of use and screening scales (AUDIT, DAST).",
+        "Blood tests: alcohol level (g/dL), toxicology (ng/mL).",
+        "Urine: drug test (cannabinoids, cocaine, opioids)."
+      ],
+      "treatment": [
+        "Supervised detoxification: IV hydration, vital sign monitoring.",
+        "Pharmacotherapy: Methadone (Generic), Buprenorphine (Generic), Naltrexone (Generic), Acamprosate (Generic).",
+        "Psychosocial interventions: cognitive‑behavioral therapy, support groups."
+      ],
+      "complications": [
+        "Overdose → respiratory depression, coma, death.",
+        "Infections: hepatitis B/C, HIV from needle sharing.",
+        "Obstetric problems: low birth weight, preterm birth."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 2‑4 h during detoxification.",
+        "Monitor level of consciousness and Glasgow Coma Scale.",
+        "Maintain patent IV line, record fluid intake and output.",
+        "Provide a safe environment free of sharp objects."
+      ],
+      "patient_teaching": [
+        "Inform about substance risks and benefits of abstinence.",
+        "Teach stress‑management techniques and relapse prevention.",
+        "Guide on community resources: addiction clinics, helplines."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "chronic alcohol use",
+          "opioid use",
+          "illicit drug ingestion",
+          "polypharmacy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Toxicity Status – The patient will remain free of overdose signs during hospitalization.",
+          "NOC: Patient Safety – No adverse events related to intoxication will occur."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and level of consciousness hourly.",
+            "rationale": "Detect early respiratory or neurological deterioration."
+          },
+          {
+            "action": "Maintain airway patency and administer oxygen as needed.",
+            "rationale": "Prevent hypoxia secondary to respiratory depression."
+          },
+          {
+            "action": "Obtain and record toxicology test results.",
+            "rationale": "Identify the substance and guide specific therapy."
+          },
+          {
+            "action": "Administer antagonists or antidotes (e.g., Naloxone (Generic)) as prescribed.",
+            "rationale": "Rapidly reverse opioid overdose effects."
+          },
+          {
+            "action": "Document substance intake and usage episodes.",
+            "rationale": "Facilitate discharge planning and follow‑up."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "shared needle use",
+          "tobacco use",
+          "alcoholism",
+          "high‑risk sexual practices"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Skin and Mucous Membrane Integrity – No lesions or infection signs will be observed.",
+          "NOC: Immune Status – Serologic tests will remain negative for hepatitis and HIV."
+        ],
+        "interventions": [
+          {
+            "action": "Perform injection site and skin assessment each shift.",
+            "rationale": "Detect early cellulitis or abscesses."
+          },
+          {
+            "action": "Teach sterile needle use and safe disposal.",
+            "rationale": "Reduce transmission of bloodborne pathogens."
+          },
+          {
+            "action": "Promote hepatitis B vaccination and antiretroviral therapy as indicated.",
+            "rationale": "Prevent blood‑borne infections."
+          },
+          {
+            "action": "Encourage oral hygiene to prevent dental infections.",
+            "rationale": "Reduce bacteremia risk in alcohol consumers."
+          },
+          {
+            "action": "Coordinate screening tests (VDRL, HIV, hepatitis) and follow‑up.",
+            "rationale": "Identify infections promptly and treat in time."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "addiction",
+    "withdrawal",
+    "overdose",
+    "harm-reduction",
+    "substance-use-disorder"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pregnancy and Substance Use",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pregnancyandsubstanceuse.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Abuse and Neglect Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/20-3-abuse-and-neglect-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Safety: Violence",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/9-2-safety-violence",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21",
+  "factcheck": {
+    "checked": "2026-10-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 31
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "They may cause low birth weight babies, birth defects, or miscarriage .",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

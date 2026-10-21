@@ -1,0 +1,365 @@
+{
+  "id": "nephrotoxic-drugs",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Gentamicina",
+    "aliases": [
+      "gentamicina",
+      "aminoglucósido",
+      "gentamicina nefrotoxicidad",
+      "gentamicina ototoxicidad",
+      "gentamicina dosis"
+    ],
+    "summary": "Antibiótico aminoglucósido de amplio espectro usado para infecciones graves; su uso está asociado a nefrotoxicidad y ototoxicidad.",
+    "key_points": [
+      "Monitorear función renal antes y durante el tratamiento.",
+      "Controlar niveles séricos (pico y valle) para evitar toxicidad.",
+      "Mantener hidratación adecuada para reducir acumulación tubular.",
+      "Informar al paciente sobre signos de daño renal y auditivo."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une a la subunidad 30S del ribosoma bacteriano e inhibe la síntesis proteica.",
+        "Acumula en los túbulos proximales renales provocando necrosis tubular.",
+        "Penetra en la cóclea y el nervio vestibular, causando ototoxicidad."
+      ],
+      "indications": [
+        "Infecciones graves por gram‑negativos (p. ej., Pseudomonas, E. coli).",
+        "Sepsis hospitalaria y peritonitis intraabdominal.",
+        "Infecciones del tracto urinario complicadas.",
+        "Profilaxis en cirugías de alto riesgo cuando se indica."
+      ],
+      "contraindications": [
+        "Hipersenibilidad conocida a gentamicina o a otros aminoglucósidos.",
+        "Insuficiencia renal grave sin ajuste de dosis.",
+        "Uso prolongado sin monitoreo de niveles séricos.",
+        "Embarazo (categoría D) salvo indicación vital."
+      ],
+      "adverse_effects": [
+        "Nefrotoxicidad (aumento de BUN/creatinina, oliguria).",
+        "Ototoxicidad (zumbido, pérdida auditiva, vértigo).",
+        "Reacciones cutáneas (erupción, prurito).",
+        "Serious: daño renal agudo irreversible.",
+        "Serious: pérdida auditiva permanente."
+      ],
+      "interactions": [
+        "Otros nefrotoxicos (vancomicina, ciclosporina) aumentan riesgo renal.",
+        "Diuréticos de asa (furosemida) potencian acumulación tubular.",
+        "Fármacos ototóxicos (cisplatino, vancomicina) aumentan daño auditivo.",
+        "Anestésicos neuromusculares pueden potenciar bloqueo neuromuscular."
+      ],
+      "nursing_care": [
+        "Obtener BUN, creatinina y audición basal antes de iniciar.",
+        "Monitorear diuresis cada 8 h y signos de edema.",
+        "Controlar niveles séricos de gentamicina (pico y valle) según orden.",
+        "Retener dosis si creatinina >2 mg/dL o nivel valle >2 µg/mL; notificar al médico.",
+        "Mantener hidratación IV adecuada (ej. 0.9% NaCl) para reducir toxicidad."
+      ],
+      "patient_teaching": [
+        "Beber al menos 2 L de agua al día, salvo indicación contraria.",
+        "Reportar disminución de la cantidad de orina, hinchazón o dolor lumbar.",
+        "Informar cualquier zumbido, pérdida de audición o mareos inmediatamente.",
+        "No usar antiinflamatorios no esteroideos sin autorización."
+      ],
+      "antidote_overdose": [
+        "No existe antídoto específico; tratamiento de soporte con hemodiálisis si niveles tóxicos o insuficiencia renal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "uso de aminoglucósidos",
+          "deshidratación",
+          "insuficiencia renal previa",
+          "uso concomitante de diuréticos de asa",
+          "edad avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Función renal: creatinina ≤1.2 mg/dL al final del tratamiento",
+          "Balance de líquidos: ingesta y salida equilibradas (±10 % del peso corporal) durante la terapia"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener valores de BUN y creatinina antes de iniciar y cada 48 h.",
+            "rationale": "Detectar deterioro renal temprano permite ajustar la dosis o suspender el fármaco."
+          },
+          {
+            "action": "Registrar diuresis cada 8 h y observar cambios en el color o volumen de la orina.",
+            "rationale": "Disminución de la diuresis es un signo precoz de nefrotoxicidad."
+          },
+          {
+            "action": "Mantener hidratación adecuada mediante fluidos IV según prescripción.",
+            "rationale": "La hidratación reduce la concentración tubular de gentamicina y protege los riñones."
+          },
+          {
+            "action": "Monitorear niveles séricos de gentamicina (pico y valle) según protocolo.",
+            "rationale": "Mantener niveles dentro del rango terapéutico minimiza el riesgo de toxicidad."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si creatinina aumenta >0.3 mg/dL en 24 h o nivel valle >2 µg/mL.",
+            "rationale": "Intervención oportuna previene daño renal irreversible."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gentamicin",
+    "aliases": [
+      "gentamicin",
+      "aminoglycoside",
+      "gentamicin nephrotoxicity",
+      "gentamicin ototoxicity",
+      "gentamicin dose"
+    ],
+    "summary": "Broad‑spectrum aminoglycoside antibiotic used for severe infections; its use is associated with nephrotoxicity and ototoxicity.",
+    "key_points": [
+      "Monitor renal function before and during treatment.",
+      "Check serum levels (peak and trough) to avoid toxicity.",
+      "Maintain adequate hydration to reduce tubular accumulation.",
+      "Inform the patient about signs of renal and auditory damage."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds to the 30S subunit of the bacterial ribosome, inhibiting protein synthesis.",
+        "Accumulates in the proximal renal tubules, causing tubular necrosis.",
+        "Penetrates the cochlea and vestibular nerve, causing ototoxicity."
+      ],
+      "indications": [
+        "Severe gram‑negative infections (e.g., Pseudomonas, E. coli).",
+        "Hospital‑acquired sepsis and intraabdominal peritonitis.",
+        "Complicated urinary tract infections.",
+        "Prophylaxis in high‑risk surgeries when indicated."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to gentamicin or other aminoglycosides.",
+        "Severe renal insufficiency without dose adjustment.",
+        "Prolonged use without monitoring serum levels.",
+        "Pregnancy (Category D) unless absolutely necessary."
+      ],
+      "adverse_effects": [
+        "Nephrotoxicity (elevated BUN/creatinine, oliguria).",
+        "Ototoxicity (tinnitus, hearing loss, vertigo).",
+        "Skin reactions (rash, pruritus).",
+        "Serious: irreversible acute renal failure.",
+        "Serious: permanent hearing loss."
+      ],
+      "interactions": [
+        "Other nephrotoxins (vancomycin, cyclosporine) increase renal risk.",
+        "Loop diuretics (furosemide) enhance tubular accumulation.",
+        "Ototoxic drugs (cisplatin, vancomycin) increase auditory damage.",
+        "Neuromuscular blockers may potentiate neuromuscular blockade."
+      ],
+      "nursing_care": [
+        "Obtain baseline BUN, creatinine, and hearing assessment before starting.",
+        "Monitor urine output every 8 h and signs of edema.",
+        "Check serum gentamicin levels (peak and trough) as ordered.",
+        "Hold dose if creatinine >2 mg/dL or trough >2 µg/mL; notify the physician.",
+        "Maintain adequate IV hydration (e.g., 0.9% NaCl) to reduce toxicity."
+      ],
+      "patient_teaching": [
+        "Drink at least 2 L of water daily unless contraindicated.",
+        "Report decreased urine output, swelling, or lower back pain.",
+        "Inform any tinnitus, hearing loss, or dizziness immediately.",
+        "Do not use NSAIDs without authorization."
+      ],
+      "antidote_overdose": [
+        "No specific antidote; supportive care with hemodialysis if toxic levels or renal failure occur."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "use of aminoglycosides",
+          "dehydration",
+          "pre‑existing renal insufficiency",
+          "concurrent loop diuretic use",
+          "advanced age"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal function: creatinine ≤1.2 mg/dL at end of therapy",
+          "Fluid balance: intake and output balanced (±10 % of body weight) during treatment"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain BUN and creatinine values before starting and every 48 h.",
+            "rationale": "Early detection of renal decline allows dose adjustment or discontinuation."
+          },
+          {
+            "action": "Record urine output every 8 h and observe changes in color or volume.",
+            "rationale": "Reduced urine output is an early sign of nephrotoxicity."
+          },
+          {
+            "action": "Maintain adequate hydration with IV fluids as prescribed.",
+            "rationale": "Hydration lowers tubular gentamicin concentration and protects kidneys."
+          },
+          {
+            "action": "Monitor serum gentamicin levels (peak and trough) per protocol.",
+            "rationale": "Keeping levels within the therapeutic range minimizes toxicity risk."
+          },
+          {
+            "action": "Hold the dose and notify the physician if creatinine rises >0.3 mg/dL in 24 h or trough >2 µg/mL.",
+            "rationale": "Timely intervention prevents irreversible renal damage."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-kidney-injury",
+    "nephrotoxicity",
+    "ototoxicity",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Drug Sources, Forms, and Names",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/1-2-drug-sources-forms-and-names",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21",
+  "factcheck": {
+    "checked": "2026-10-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Monitor the following laboratory studies: serum uric acid levels to assess effectiveness of medications in reducing uric acid levels, liver function for hepatotoxicity, renal function for nephrotoxicity, and electrolyte levels, which may be impacted by the use of these drugs.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "not_found"
+      }
+    }
+  }
+}

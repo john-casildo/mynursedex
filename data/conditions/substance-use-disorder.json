@@ -1,0 +1,334 @@
+{
+  "id": "substance-use-disorder",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trastorno por consumo de sustancias (TCS)",
+    "aliases": [
+      "trastorno consumo sustancias",
+      "tcs",
+      "adicción",
+      "uso de drogas",
+      "dependencia"
+    ],
+    "summary": "El TCS es un patrón problemático de uso de alcohol, drogas u otras sustancias que persiste a pesar de consecuencias negativas.",
+    "key_points": [
+      "Incluye dependencia física y psicológica.",
+      "Se diagnostica con criterios DSM‑5 y herramientas de cribado (AUDIT, DAST).",
+      "El manejo combina desintoxicación, terapia conductual y farmacoterapia.",
+      "Complicaciones comunes: sobredosis, infecciones transmisibles y trastornos psiquiátricos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La sustancia altera neurotransmisores (dopamina, GABA) produciendo refuerzo positivo.",
+        "Uso repetido genera tolerancia y dependencia fisiológica.",
+        "La retirada provoca síndrome de abstinencia por desequilibrio neuroquímico."
+      ],
+      "risk_factors": [
+        "Historia familiar de adicción.",
+        "Trastornos mentales (depresión, ansiedad).",
+        "Consumo temprano de alcohol o tabaco.",
+        "Entorno social con disponibilidad de drogas."
+      ],
+      "signs_symptoms": [
+        "Cambios en el estado de ánimo y motivación.",
+        "Deterioro del rendimiento académico o laboral.",
+        "Síntomas de abstinencia (temblores, náuseas, sudoración).",
+        "Conductas de riesgo (conducción bajo efectos, uso intravenoso)."
+      ],
+      "diagnostics": [
+        "Entrevista estructurada y criterios DSM‑5.",
+        "Escalas de cribado: AUDIT (alcohol), DAST (drogas).",
+        "Pruebas toxicológicas en sangre/urina para confirmar consumo.",
+        "Laboratorio básico: LFT, CBC, panel metabólico para detectar complicaciones."
+      ],
+      "treatment": [
+        "Desintoxicación supervisada con monitoreo de signos vitales.",
+        "Terapia cognitivo‑conductual y grupos de apoyo (AA, NA).",
+        "Fármacos de sustitución: metadona, buprenorfina para opioides.",
+        "Antagonistas: naltrexona (opioides, alcohol), disulfiram (alcohol).",
+        "Vareniclina para dependencia de nicotina."
+      ],
+      "complications": [
+        "Sobredosis y depresión respiratoria.",
+        "Infecciones: hepatitis B/C, VIH por uso intravenoso.",
+        "Trastornos cardiovasculares (infarto, arritmias).",
+        "Problemas psiquiátricos: psicosis, depresión severa."
+      ],
+      "nursing_care": [
+        "Evaluar historial de consumo y factores desencadenantes.",
+        "Monitorear signos vitales y escala de abstinencia (CIWA‑Ar).",
+        "Garantizar seguridad del entorno (eliminar objetos peligrosos).",
+        "Administrar y observar efectos de fármacos de sustitución.",
+        "Documentar consumo, síntomas y respuesta al tratamiento."
+      ],
+      "patient_teaching": [
+        "Explicar riesgos del consumo y beneficios del tratamiento.",
+        "Enseñar técnicas de afrontamiento y manejo del estrés.",
+        "Informar sobre recursos comunitarios y grupos de apoyo.",
+        "Promover adherencia a la farmacoterapia y citas de seguimiento.",
+        "Educar sobre prevención de infecciones (uso de agujas limpias)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "uso de opioides",
+          "uso de alcohol",
+          "uso de estimulantes",
+          "consumo de altas dosis",
+          "policonsumo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado de intoxicación: permanecer sin signos de intoxicación durante la hospitalización",
+          "Seguridad: sin eventos adversos relacionados con sobredosis"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de conciencia y escala de intoxicación cada 2 h",
+            "rationale": "Detectar precozmente deterioro neurológico y necesidad de intervención"
+          },
+          {
+            "action": "Monitorear signos vitales y saturación de O₂ continuamente",
+            "rationale": "Identificar depresión respiratoria o inestabilidad hemodinámica"
+          },
+          {
+            "action": "Mantener acceso venoso y estar preparado para administrar antagonistas (ej. naloxona)",
+            "rationale": "Permite reversión rápida de intoxicación por opioides"
+          },
+          {
+            "action": "Registrar tipo, cantidad y hora de la sustancia consumida",
+            "rationale": "Facilita la toma de decisiones terapéuticas y la comunicación interprofesional"
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de sobredosis y cuándo buscar ayuda",
+            "rationale": "Promueve la detección temprana y la intervención fuera del entorno hospitalario"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "estado de intoxicación",
+          "alteración del juicio",
+          "conducta de riesgo",
+          "uso de sustancias inyectables"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Prevención de lesiones: sin caídas ni autolesiones durante la estancia",
+          "Seguridad personal: entorno libre de objetos peligrosos"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar evaluación de riesgo de caídas al ingreso y cada turno",
+            "rationale": "Identificar factores que aumentan la probabilidad de lesiones"
+          },
+          {
+            "action": "Mantener el área del paciente libre de cables, objetos punzantes y superficies resbaladizas",
+            "rationale": "Reducir oportunidades de accidentes físicos"
+          },
+          {
+            "action": "Proveer supervisión constante cuando el paciente presente alteración del estado mental",
+            "rationale": "Evitar conductas impulsivas que puedan causar daño"
+          },
+          {
+            "action": "Enseñar al paciente técnicas de autocontrol y uso de estrategias de afrontamiento",
+            "rationale": "Disminuir la probabilidad de conductas de riesgo bajo influencia"
+          },
+          {
+            "action": "Coordinar con el equipo de salud mental para manejo de impulsividad y agresividad",
+            "rationale": "Abordar factores psicológicos que predisponen a lesiones"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Substance Use Disorder (SUD)",
+    "aliases": [
+      "substance use disorder",
+      "sud",
+      "addiction",
+      "drug use",
+      "dependency"
+    ],
+    "summary": "SUD is a persistent pattern of problematic use of alcohol, drugs, or other substances despite negative consequences.",
+    "key_points": [
+      "Includes physical and psychological dependence.",
+      "Diagnosed with DSM‑5 criteria and screening tools (AUDIT, DAST).",
+      "Management combines detoxification, behavioral therapy, and pharmacotherapy.",
+      "Common complications: overdose, transmissible infections, psychiatric disorders."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The substance alters neurotransmitters (dopamine, GABA) producing positive reinforcement.",
+        "Repeated use generates tolerance and physiological dependence.",
+        "Withdrawal causes an abstinence syndrome due to neurochemical imbalance."
+      ],
+      "risk_factors": [
+        "Family history of addiction.",
+        "Mental disorders (depression, anxiety).",
+        "Early alcohol or tobacco use.",
+        "Social environment with drug availability."
+      ],
+      "signs_symptoms": [
+        "Mood and motivation changes.",
+        "Decline in academic or work performance.",
+        "Abstinence symptoms (tremors, nausea, sweating).",
+        "Risky behaviors (driving under influence, intravenous use)."
+      ],
+      "diagnostics": [
+        "Structured interview and DSM‑5 criteria.",
+        "Screening scales: AUDIT (alcohol), DAST (drugs).",
+        "Blood/urine toxicology to confirm use.",
+        "Basic labs: LFT, CBC, metabolic panel to detect complications."
+      ],
+      "treatment": [
+        "Supervised detox with vital sign monitoring.",
+        "Cognitive‑behavioral therapy and support groups (AA, NA).",
+        "Replacement medications: methadone, buprenorphine for opioids.",
+        "Antagonists: naltrexone (opioids, alcohol), disulfiram (alcohol).",
+        "Varenicline for nicotine dependence."
+      ],
+      "complications": [
+        "Overdose and respiratory depression.",
+        "Infections: hepatitis B/C, HIV from intravenous use.",
+        "Cardiovascular disorders (MI, arrhythmias).",
+        "Psychiatric problems: psychosis, severe depression."
+      ],
+      "nursing_care": [
+        "Assess consumption history and triggers.",
+        "Monitor vital signs and abstinence scale (CIWA‑Ar).",
+        "Ensure environmental safety (remove hazardous objects).",
+        "Administer and observe effects of replacement medications.",
+        "Document consumption, symptoms, and treatment response."
+      ],
+      "patient_teaching": [
+        "Explain risks of use and benefits of treatment.",
+        "Teach coping skills and stress management.",
+        "Provide information on community resources and support groups.",
+        "Promote adherence to pharmacotherapy and follow‑up appointments.",
+        "Educate on infection prevention (use of clean needles)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "opioid use",
+          "alcohol use",
+          "stimulant use",
+          "high dose consumption",
+          "polysubstance use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intoxication status: remain free of intoxication signs during hospitalization",
+          "Safety: no adverse events related to overdose"
+        ],
+        "interventions": [
+          {
+            "action": "Assess level of consciousness and intoxication scale every 2 h",
+            "rationale": "Detect early neurological decline and need for intervention"
+          },
+          {
+            "action": "Monitor vital signs and O₂ saturation continuously",
+            "rationale": "Identify respiratory depression or hemodynamic instability"
+          },
+          {
+            "action": "Maintain venous access and be prepared to administer antagonists (e.g., naloxone)",
+            "rationale": "Allows rapid reversal of opioid intoxication"
+          },
+          {
+            "action": "Record type, amount, and time of substance consumed",
+            "rationale": "Facilitates therapeutic decision‑making and interprofessional communication"
+          },
+          {
+            "action": "Educate patient and family on overdose signs and when to seek help",
+            "rationale": "Promotes early detection and intervention outside the hospital"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "intoxication status",
+          "judgment impairment",
+          "risk behavior",
+          "injectable substance use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Injury prevention: no falls or self‑harm during stay",
+          "Personal safety: environment free of hazardous objects"
+        ],
+        "interventions": [
+          {
+            "action": "Perform fall risk assessment upon admission and each shift",
+            "rationale": "Identify factors increasing injury probability"
+          },
+          {
+            "action": "Keep patient area free of cords, sharp objects, and slippery surfaces",
+            "rationale": "Reduce opportunities for physical accidents"
+          },
+          {
+            "action": "Provide constant supervision when patient has altered mental status",
+            "rationale": "Prevent impulsive behaviors that could cause harm"
+          },
+          {
+            "action": "Teach patient self‑control techniques and coping strategies",
+            "rationale": "Decrease likelihood of risk behaviors under influence"
+          },
+          {
+            "action": "Coordinate with mental health team for impulsivity and aggression management",
+            "rationale": "Address psychological factors predisposing to injury"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "addiction",
+    "withdrawal-syndrome",
+    "substance-abuse",
+    "opioid-dependence"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Drug Use and Addiction",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/druguseandaddiction.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Substance Use Disorder Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/20-2-substance-use-disorder-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Substance Use Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-1-introduction-to-substance-use-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-21"
+}
