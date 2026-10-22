@@ -1,0 +1,515 @@
+{
+  "id": "angina-pectoris",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Angina de pecho (AP)",
+    "aliases": [
+      "angina",
+      "angina de pecho",
+      "dolor torácico",
+      "angina pectoral",
+      "angina estable"
+    ],
+    "summary": "Dolor u opresión retroesternal que aparece cuando el miocardio no recibe suficiente oxígeno, típicamente por enfermedad coronaria.",
+    "key_points": [
+      "Se desencadena por aumento de la demanda de oxígeno o reducción del flujo coronario.",
+      "Alivio con reposo o nitratos en ≤5 minutos.",
+      "Tipos: estable, inestable y variante.",
+      "Factores de riesgo: hipertensión, tabaquismo, diabetes, dislipidemia.",
+      "Complicación principal: infarto agudo de miocardio."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Placa aterosclerótica reduce el diámetro de la arteria coronaria.",
+        "Disminución del flujo sanguíneo coronario durante el esfuerzo.",
+        "Isquemia miocárdica produce dolor de pecho y síntomas asociados."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Tabaquismo activo o pasivo.",
+        "Diabetes mellitus tipo 2.",
+        "Dislipidemia (colesterol LDL elevado).",
+        "Edad >45 años y antecedentes familiares de enfermedad coronaria."
+      ],
+      "signs_symptoms": [
+        "Dolor opresivo retroesternal, a veces irradiado a brazo izquierdo, cuello o mandíbula.",
+        "Inicia con el ejercicio o estrés emocional y desaparece con reposo o nitratos.",
+        "Duración típica <5 minutos.",
+        "Disnea, náuseas o sensación de ahogo pueden acompañar.",
+        "Sensación de presión o ardor similar a indigestión."
+      ],
+      "diagnostics": [
+        "ECG: depresión del segmento ST o inversión de la onda T durante el episodio.",
+        "Prueba de esfuerzo: aparición de cambios isquémicos a bajas cargas.",
+        "En angina estable, enzimas cardíacas (troponina, CK‑MB) normales.",
+        "Perfil lipídico y glucemia en ayunas para evaluar factores de riesgo."
+      ],
+      "treatment": [
+        "Nitroglicerina sublingual (0,3‑0,4 mg) al inicio del dolor.",
+        "Aspirina 81‑325 mg para inhibir la agregación plaquetaria.",
+        "Betabloqueadores o bloqueadores de canales de calcio para reducir la demanda de oxígeno.",
+        "Oxígeno suplementario si SaO₂ <94 %.",
+        "Reposo y control de factores de riesgo (tabaquismo, dieta, ejercicio)."
+      ],
+      "complications": [
+        "Infarto agudo de miocardio.",
+        "Arritmias ventriculares o supraventriculares.",
+        "Insuficiencia cardíaca congestiva.",
+        "Muerte súbita por arritmia fatal."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y dolor cada 5‑10 min durante episodios.",
+        "Realizar ECG de 12 derivaciones al presentar dolor.",
+        "Administrar nitroglicerina según protocolo y observar respuesta.",
+        "Mantener posición semisentada o semi Fowler para disminuir la carga cardíaca.",
+        "Proveer oxígeno y asegurar vía aérea permeable."
+      ],
+      "patient_teaching": [
+        "Reconocer los signos de angina y cuándo buscar ayuda inmediata.",
+        "Uso correcto de nitroglicerina sublingual y almacenamiento seguro.",
+        "Importancia de adherirse a aspirina y otros fármacos prescritos.",
+        "Modificaciones del estilo de vida: dejar de fumar, dieta baja en grasas, ejercicio regular.",
+        "Control periódico de presión arterial, glucosa y lípidos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "angina de pecho",
+          "esfuerzo físico"
+        ],
+        "evidenced_by": [
+          "dolor torácico al ejercicio",
+          "disnea al subir escaleras",
+          "fatiga precoz"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: caminar 30 min sin dolor (Escala de dolor ≤2/10).",
+          "Frecuencia cardíaca estable durante actividad (60‑100 lpm)."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de dolor antes, durante y después de la actividad.",
+            "rationale": "Permite ajustar el plan de ejercicio y prevenir isquemia."
+          },
+          {
+            "action": "Planificar actividades graduales con períodos de descanso programados.",
+            "rationale": "Reduce la demanda de oxígeno y evita episodios de angina."
+          },
+          {
+            "action": "Enseñar uso correcto de nitroglicerina sublingual antes de actividad programada.",
+            "rationale": "Previene dolor al inicio del ejercicio."
+          },
+          {
+            "action": "Monitorear signos vitales y ECG durante la actividad física.",
+            "rationale": "Detecta cambios de perfusión tempranos."
+          },
+          {
+            "action": "Promover técnicas de relajación y control del estrés.",
+            "rationale": "Disminuye la respuesta simpática y la demanda cardíaca."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "angina inestable",
+          "obstrucción coronaria >70 %",
+          "hipertensión",
+          "hipercolesterolemia",
+          "tabaquismo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cardíaca mantenida: ECG sin cambios isquémicos durante 24 h.",
+          "Niveles de troponina dentro de rango normal en controles seriados."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar aspirina según indicación médica.",
+            "rationale": "Previene formación de trombos que empeoren la obstrucción coronaria."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentada.",
+            "rationale": "Facilita la respiración y reduce el trabajo del corazón."
+          },
+          {
+            "action": "Controlar presión arterial y glucemia cada 4 h.",
+            "rationale": "Control de factores que pueden reducir la perfusión miocárdica."
+          },
+          {
+            "action": "Observar cambios en ECG y troponina cada 6 h.",
+            "rationale": "Detecta deterioro precoz de la perfusión tisular."
+          },
+          {
+            "action": "Educar al paciente sobre signos de infarto y necesidad de buscar ayuda inmediata.",
+            "rationale": "Facilita la intervención temprana y reduce daño miocárdico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Angina pectoris (AP)",
+    "aliases": [
+      "angina",
+      "angina de pecho",
+      "chest pain",
+      "angina pectoral",
+      "stable angina"
+    ],
+    "summary": "Pain or pressure behind the sternum that occurs when the myocardium does not receive enough oxygen, typically due to coronary artery disease.",
+    "key_points": [
+      "Triggered by increased oxygen demand or reduced coronary flow.",
+      "Relief with rest or nitrates within ≤5 minutes.",
+      "Types: stable, unstable, and variant.",
+      "Risk factors: hypertension, smoking, diabetes, dyslipidemia.",
+      "Primary complication: acute myocardial infarction."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Atherosclerotic plaque narrows the coronary artery lumen.",
+        "Reduced coronary blood flow during exertion.",
+        "Myocardial ischemia produces chest pain and associated symptoms."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Active or passive smoking.",
+        "Type 2 diabetes mellitus.",
+        "Dyslipidemia (elevated LDL cholesterol).",
+        "Age >45 years and family history of coronary artery disease."
+      ],
+      "signs_symptoms": [
+        "Obstructive retrosternal pain, sometimes radiating to the left arm, neck, or jaw.",
+        "Begins with exercise or emotional stress and resolves with rest or nitrates.",
+        "Typical duration <5 minutes.",
+        "Dyspnea, nausea, or a feeling of suffocation may accompany.",
+        "Pressure or burning sensation similar to indigestion."
+      ],
+      "diagnostics": [
+        "ECG: ST segment depression or T wave inversion during the episode.",
+        "Exercise test: appearance of ischemic changes at low workloads.",
+        "In stable angina, cardiac enzymes (troponin, CK‑MB) are normal.",
+        "Lipid profile and fasting glucose to assess risk factors."
+      ],
+      "treatment": [
+        "Sublingual nitroglycerin (0.3‑0.4 mg) at onset of pain.",
+        "Aspirin 81‑325 mg to inhibit platelet aggregation.",
+        "Beta‑blockers or calcium‑channel blockers to reduce oxygen demand.",
+        "Supplemental oxygen if SaO₂ <94 %.",
+        "Rest and control of risk factors (smoking, diet, exercise)."
+      ],
+      "complications": [
+        "Acute myocardial infarction.",
+        "Ventricular or supraventricular arrhythmias.",
+        "Congestive heart failure.",
+        "Sudden death from fatal arrhythmia."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and pain every 5‑10 min during episodes.",
+        "Perform a 12‑lead ECG when pain occurs.",
+        "Administer nitroglycerin per protocol and observe response.",
+        "Maintain a semi‑recumbent or semi‑Fowler position to reduce cardiac load.",
+        "Provide oxygen and ensure a clear airway."
+      ],
+      "patient_teaching": [
+        "Recognize signs of angina and when to seek immediate help.",
+        "Proper use of sublingual nitroglycerin and secure storage.",
+        "Importance of adhering to aspirin and other prescribed medications.",
+        "Lifestyle modifications: quit smoking, low‑fat diet, regular exercise.",
+        "Periodic monitoring of blood pressure, glucose, and lipids."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "angina pectoris",
+          "physical exertion"
+        ],
+        "evidenced_by": [
+          "chest pain with exercise",
+          "dyspnea when climbing stairs",
+          "early fatigue"
+        ],
+        "outcomes": [
+          "Activity tolerance: walk 30 min without pain (pain scale ≤2/10).",
+          "Stable heart rate during activity (60‑100 bpm)."
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain level before, during, and after activity.",
+            "rationale": "Allows adjustment of exercise plan and prevents ischemia."
+          },
+          {
+            "action": "Plan gradual activities with scheduled rest periods.",
+            "rationale": "Reduces oxygen demand and avoids angina episodes."
+          },
+          {
+            "action": "Teach correct use of sublingual nitroglycerin before planned activity.",
+            "rationale": "Prevents pain at the start of exercise."
+          },
+          {
+            "action": "Monitor vital signs and ECG during physical activity.",
+            "rationale": "Detects early perfusion changes."
+          },
+          {
+            "action": "Promote relaxation techniques and stress control.",
+            "rationale": "Reduces sympathetic response and cardiac demand."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "unstable angina",
+          "coronary obstruction >70 %",
+          "hypertension",
+          "hypercholesterolemia",
+          "smoking"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintained cardiac perfusion: ECG without ischemic changes for 24 h.",
+          "Troponin levels within normal range on serial checks."
+        ],
+        "interventions": [
+          {
+            "action": "Administer aspirin as ordered.",
+            "rationale": "Prevents thrombus formation that worsens coronary obstruction."
+          },
+          {
+            "action": "Keep patient in a semi‑recumbent position.",
+            "rationale": "Facilitates breathing and reduces cardiac workload."
+          },
+          {
+            "action": "Monitor blood pressure and glucose every 4 h.",
+            "rationale": "Controls factors that may reduce myocardial perfusion."
+          },
+          {
+            "action": "Observe ECG and troponin changes every 6 h.",
+            "rationale": "Detects early deterioration of tissue perfusion."
+          },
+          {
+            "action": "Educate patient on signs of infarction and need to seek immediate help.",
+            "rationale": "Facilitates early intervention and reduces myocardial damage."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "myocardial-infarction",
+    "coronary-artery-disease",
+    "stable-angina",
+    "unstable-angina",
+    "nitroglycerin"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Angina",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/angina.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Hypertension and Angina",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-1-hypertension-and-angina",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-22",
+  "factcheck": {
+    "checked": "2026-10-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 26,
+      "contradicted": 1,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Angina (also called angina pectoris) is characterized by discomfort in the front of the chest, neck, shoulders, jaw, or arms that is precipitated by physical exertions and relieved by rest within 5 minutes or sublingual nitrates (Ueng et al., 2023).",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "contradicted",
+        "quote": "The four types of angina (AHA, 2022a) are: Stable angina is the most common form.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Risk factors for stable, unstable, and microvascular angina include age, family history, tobacco use, diabetes, hypertension, high cholesterol, obesity, and metabolic syndrome.",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "CAD happens when a sticky substance called plaque builds up in the arteries that supply blood to the heart, reducing blood flow.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Angina (also called angina pectoris) is characterized by discomfort in the front of the chest, neck, shoulders, jaw, or arms that is precipitated by physical exertions and relieved by rest within 5 minutes or sublingual nitrates (Ueng et al., 2023).",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Angina is chest pain or discomfort you feel when there is not enough blood flow to your heart muscle.",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Primary hypertension is caused by unknown elements; however, some studies have implicated genetics and behavioral and environmental factors, including age, high salt intake, insulin resistance, obesity, high alcohol intake, sedentary lifestyle, smoking, and stress (Aggarwal et al., 2023; Iqbal & Jamal, 2022).",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "You may also feel pain in your shoulders, arms, neck, jaw, or back.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Angina (also called angina pectoris) is characterized by discomfort in the front of the chest, neck, shoulders, jaw, or arms that is precipitated by physical exertions and relieved by rest within 5 minutes or sublingual nitrates (Ueng et al., 2023).",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Angina may feel like pressure or a squeezing pain in your chest.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Supplemental oxygen may be used if the client’s oxygen saturation is less than 94% on room air.",
+        "source": 2
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "These changes may include diet modification, increased physical activity and exercise, smoking cessation, alcohol consumption reduction, relaxation techniques, and self-monitoring.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Acute Myocardial Infarction and Unstable Angina Drugs Four classifications of drugs may be used in emergency situations for AMI and unstable angina: aspirin, oxygen, nitroglycerin, and, occasionally, morphine.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Diltiazem can cause asystole; atrial flutter; first-, second-, and third-degree atrioventricular block; bradycardia; chest pain; congestive heart failure; sinus pause; sinus node dysfunction; syncope; ventricular dysrhythmia; ventricular fibrillation; ventricular tachycardia; dizziness; allergic reaction; Stevens–Johnson syndrome; and angioedema.",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "In emergency situations, nitroglycerin is administered either sublingually or intravenously.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "These changes may include diet modification, increased physical activity and exercise, smoking cessation, alcohol consumption reduction, relaxation techniques, and self-monitoring.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

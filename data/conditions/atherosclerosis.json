@@ -1,0 +1,525 @@
+{
+  "id": "atherosclerosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Aterosclerosis (AS)",
+    "aliases": [
+      "aterosclerosis",
+      "ateroesclerosis",
+      "plaque arterial",
+      "endurecimiento arterial",
+      "arterias coronarias",
+      "enfermedad arterial"
+    ],
+    "summary": "Acumulación de placa de colesterol, grasa, calcio y células en la íntima arterial que produce estrechamiento y endurecimiento, limitando el flujo sanguíneo.",
+    "key_points": [
+      "Placa aterogénica compuesta por colesterol LDL, lípidos y calcio.",
+      "Factores de riesgo modificables: hipertensión, hipercolesterolemia, tabaquismo, diabetes.",
+      "Complicaciones principales: infarto de miocardio, accidente cerebrovascular, enfermedad arterial periférica.",
+      "Diagnóstico mediante ecografía Doppler, angiografía y perfil lipídico.",
+      "Tratamiento incluye estatinas, antiagregantes y cambios en estilo de vida."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño endotelial → infiltración de LDL oxidado.",
+        "Formación de espuma de macrófagos y acumulación de lípidos.",
+        "Desarrollo de placa fibrosa con calcio y tejido conectivo.",
+        "Estrechamiento luminal y reducción del flujo sanguíneo."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Hipercolesterolemia y niveles elevados de LDL.",
+        "Tabaquismo activo o exposición al humo.",
+        "Diabetes mellitus tipo 2.",
+        "Sedentarismo y obesidad."
+      ],
+      "signs_symptoms": [
+        "Dolor torácico anginoso (angina) en enfermedad coronaria.",
+        "Claudicación intermitente en extremidades inferiores.",
+        "Disnea de esfuerzo.",
+        "Síntomas de accidente cerebrovascular: debilidad unilateral, alteración del habla.",
+        "Pulsos periféricos disminuidos o ausentes."
+      ],
+      "diagnostics": [
+        "Perfil lipídico: colesterol total >200 mg/dL, LDL >130 mg/dL.",
+        "Glucosa en ayunas >126 mg/dL si diabético.",
+        "Ecografía Doppler arterial para evaluar flujo y estrechamiento.",
+        "Angiografía coronaria o carotídea para confirmar obstrucción.",
+        "Pruebas de función renal y hepática antes de iniciar estatinas."
+      ],
+      "treatment": [
+        "Estatinas (ej. atorvastatina) para reducir LDL.",
+        "Aspirina u otro antiagregante plaquetario.",
+        "Control de presión arterial con IECA o ARA II.",
+        "Modificación de estilo de vida: dieta baja en grasas saturadas, ejercicio ≥150 min/semana.",
+        "Cesación del tabaco y manejo del peso."
+      ],
+      "complications": [
+        "Infarto agudo de miocardio.",
+        "Accidente cerebrovascular isquémico.",
+        "Enfermedad arterial periférica con riesgo de gangrena.",
+        "Aneurisma arterial por debilidad de la pared.",
+        "Insuficiencia renal crónica por arterioesclerosis renal."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales, presión arterial y pulso regularidad.",
+        "Monitorear dolor torácico y cambios en la intensidad.",
+        "Observar pulsos periféricos y perfusión capilar.",
+        "Registrar resultados de pruebas de laboratorio y estudios de imagen.",
+        "Promover posición semisentado para mejorar la oxigenación."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la dieta DASH y reducción de grasas saturadas.",
+        "Instruir sobre la toma regular de estatinas y antiagregantes.",
+        "Fomentar actividad física progresiva y control de peso.",
+        "Enseñar técnicas de cesación del tabaco y recursos de apoyo.",
+        "Programar controles de laboratorio cada 3‑6 meses."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "aterosclerosis coronaria",
+          "plaque carotídea",
+          "hipertensión",
+          "hipercolesterolemia",
+          "diabetes mellitus"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener presión arterial sistólica ≥ 110 mmHg",
+          "Mantener nivel de conciencia alerta",
+          "Evitar eventos isquémicos durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial cada 4 horas y registrar valores.",
+            "rationale": "Detectar hipotensión o hipertensión que puedan comprometer la perfusión cerebral."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y escala de Glasgow cada turno.",
+            "rationale": "Identificar cambios neurológicos tempranos que indiquen disminución de perfusión."
+          },
+          {
+            "action": "Administrar antiagregantes según prescripción y observar signos de sangrado.",
+            "rationale": "Prevenir formación de trombos que puedan obstruir la circulación cerebral."
+          },
+          {
+            "action": "Educar al paciente sobre control estricto de presión arterial y colesterol.",
+            "rationale": "Reducir factores de riesgo que favorecen la progresión de la placa cerebral."
+          },
+          {
+            "action": "Mantener hidratación adecuada, ofreciendo líquidos según tolerancia.",
+            "rationale": "Preservar volumen intravascular y evitar hipovolemia que disminuya el flujo cerebral."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "aterosclerosis renal",
+          "hipertensión",
+          "hipercolesterolemia",
+          "diabetes",
+          "uso de AINEs"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener creatinina sérica < 1.2 mg/dL",
+          "Mantener diuresis ≥ 0.5 mL/kg/h",
+          "Mantener presión arterial dentro de rango objetivo (90‑130/60‑80 mmHg)"
+        ],
+        "interventions": [
+          {
+            "action": "Controlar presión arterial cada 4 horas y ajustar medicación antihipertensiva.",
+            "rationale": "Presión adecuada es esencial para perfusión renal óptima."
+          },
+          {
+            "action": "Monitorear salida de orina y registrar volumen cada 8 horas.",
+            "rationale": "Detectar oliguria temprana que indique disminución del flujo renal."
+          },
+          {
+            "action": "Evaluar niveles de creatinina y BUN diariamente.",
+            "rationale": "Identificar deterioro de la función renal de forma oportuna."
+          },
+          {
+            "action": "Limitar uso de AINEs y otros nefrotóxicos según indicación médica.",
+            "rationale": "Prevenir daño renal adicional."
+          },
+          {
+            "action": "Educar al paciente sobre hidratación adecuada y dieta baja en sodio.",
+            "rationale": "Apoyar la función renal y controlar la presión arterial."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Atherosclerosis (AS)",
+    "aliases": [
+      "atherosclerosis",
+      "plaque arterial",
+      "arterial hardening",
+      "coronary arteries",
+      "arterial disease"
+    ],
+    "summary": "Accumulation of cholesterol, fat, calcium, and cells in the arterial intima that causes narrowing and hardening, limiting blood flow.",
+    "key_points": [
+      "Atherogenic plaque composed of LDL cholesterol, lipids, and calcium.",
+      "Modifiable risk factors: hypertension, hypercholesterolemia, smoking, diabetes.",
+      "Primary complications: myocardial infarction, stroke, peripheral arterial disease.",
+      "Diagnosis via Doppler ultrasound, angiography, and lipid profile.",
+      "Treatment includes statins, antiplatelets, and lifestyle changes."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Endothelial injury → infiltration of oxidized LDL.",
+        "Foam cell formation and lipid accumulation.",
+        "Development of fibrous plaque with calcium and connective tissue.",
+        "Luminal narrowing and reduced blood flow."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Hypercholesterolemia and high LDL levels.",
+        "Active smoking or exposure to smoke.",
+        "Type 2 diabetes mellitus.",
+        "Sedentary lifestyle and obesity."
+      ],
+      "signs_symptoms": [
+        "Angina-like chest pain in coronary disease.",
+        "Intermittent claudication in lower extremities.",
+        "Exertional dyspnea.",
+        "Stroke symptoms: unilateral weakness, speech disturbance.",
+        "Reduced or absent peripheral pulses."
+      ],
+      "diagnostics": [
+        "Lipid profile: total cholesterol >200 mg/dL, LDL >130 mg/dL.",
+        "Fasting glucose >126 mg/dL if diabetic.",
+        "Arterial Doppler ultrasound to assess flow and narrowing.",
+        "Coronary or carotid angiography to confirm obstruction.",
+        "Renal and hepatic function tests before starting statins."
+      ],
+      "treatment": [
+        "Statins (e.g., atorvastatin) to lower LDL.",
+        "Aspirin or other antiplatelet agents.",
+        "Blood pressure control with ACE inhibitors or ARBs.",
+        "Lifestyle modification: low saturated fat diet, exercise ≥150 min/week.",
+        "Smoking cessation and weight management."
+      ],
+      "complications": [
+        "Acute myocardial infarction.",
+        "Ischemic stroke.",
+        "Peripheral arterial disease with risk of gangrene.",
+        "Arterial aneurysm due to wall weakness.",
+        "Chronic kidney disease from renal arteriosclerosis."
+      ],
+      "nursing_care": [
+        "Assess vital signs, blood pressure, and regular pulse.",
+        "Monitor chest pain and changes in intensity.",
+        "Observe peripheral pulses and capillary refill.",
+        "Record laboratory and imaging results.",
+        "Promote semi‑upright position to improve oxygenation."
+      ],
+      "patient_teaching": [
+        "Explain the importance of the DASH diet and reducing saturated fats.",
+        "Instruct on regular statin and antiplatelet use.",
+        "Encourage progressive physical activity and weight control.",
+        "Teach smoking cessation techniques and support resources.",
+        "Schedule lab checks every 3‑6 months."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "coronary atherosclerosis",
+          "carotid plaque",
+          "hypertension",
+          "hypercholesterolemia",
+          "type 2 diabetes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain systolic blood pressure ≥110 mmHg",
+          "Maintain alert level of consciousness",
+          "Prevent ischemic events during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure every 4 hours and record values.",
+            "rationale": "Detect hypotension or hypertension that may compromise cerebral perfusion."
+          },
+          {
+            "action": "Assess level of consciousness and Glasgow scale each shift.",
+            "rationale": "Identify early neurological changes indicating decreased perfusion."
+          },
+          {
+            "action": "Administer antiplatelets per prescription and observe for bleeding.",
+            "rationale": "Prevent thrombus formation that could obstruct cerebral circulation."
+          },
+          {
+            "action": "Educate patient on strict blood pressure and cholesterol control.",
+            "rationale": "Reduce risk factors that favor progression of cerebral plaque."
+          },
+          {
+            "action": "Maintain adequate hydration, offering fluids as tolerated.",
+            "rationale": "Preserve intravascular volume and avoid hypovolemia that reduces cerebral flow."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "renal atherosclerosis",
+          "hypertension",
+          "hypercholesterolemia",
+          "diabetes",
+          "NSAID use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain serum creatinine <1.2 mg/dL",
+          "Maintain urine output ≥0.5 mL/kg/h",
+          "Maintain blood pressure within target range (90‑130/60‑80 mmHg)"
+        ],
+        "interventions": [
+          {
+            "action": "Control blood pressure every 4 hours and adjust antihypertensive medication.",
+            "rationale": "Adequate pressure is essential for optimal renal perfusion."
+          },
+          {
+            "action": "Monitor urine output and record volume every 8 hours.",
+            "rationale": "Detect early oliguria indicating reduced renal flow."
+          },
+          {
+            "action": "Assess creatinine and BUN daily.",
+            "rationale": "Identify renal function decline promptly."
+          },
+          {
+            "action": "Limit NSAID and other nephrotoxic use per medical order.",
+            "rationale": "Prevent additional renal damage."
+          },
+          {
+            "action": "Educate patient on adequate hydration and low‑sodium diet.",
+            "rationale": "Support renal function and blood pressure control."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "coronary-artery-disease",
+    "peripheral-artery-disease",
+    "stroke",
+    "myocardial-infarction",
+    "hyperlipidemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Ateroesclerosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/atherosclerosis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Ischemic Stroke",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-2-ischemic-stroke",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Peripheral Vascular System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-2-peripheral-vascular-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-22",
+  "factcheck": {
+    "checked": "2026-10-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Type of Risk Factor Factors Modifiable Alcohol consumption Atrial fibrillation Cardiac disease Diabetes mellitus Hyperlipidemia Hypertension Obesity Physical inactivity Sleep apnea Smoking Unhealthy diet Nonmodifiable Age (older adults at greater risk) Family history Prior stroke or TIA Race/ethnicity (Black and Hispanic/Latinx populations at gre",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "A condition in which oxygen-rich blood flow is restricted or reduced in a part of the body is called ischemia.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Hypercholesterolemia is a primary cause of this thickening of the arteries in the form of plaque buildup known as atherosclerosis.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Education should also be provided regarding modifiable and nonmodifiable risk factors ( Table 15.3 ). Type of Risk Factor Factors Modifiable Alcohol consumption Atrial fibrillation Cardiac disease Diabetes mellitus Hyperlipidemia Hypertension Obesity Physical inactivity Sleep apnea Smoking Unhealthy diet Nonmodifiable Age (older adults at greater risk) Family history Prior stroke or TIA Race/ethnicity (Black and Hispanic/Latinx populations at gre",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "The most affected areas are the lower extremities because of their distance from the heart. A primary symptom of peripheral vascular disease is intermittent claudication , a cramp-like muscle pain, burning sensation, or extreme fatigue in the calf, thigh, or buttocks that is induced by exercise and relieved by rest.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "A patient with a large artery ischemic stroke may have weakness or paralysis on one side of the body, a loss of sensation to one side of the body, visual changes, problems with balance or coordination, issues with word-finding, or aphasia .",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Pharmacotherapy, such as statin therapy, reduces the risk of subsequent strokes and is most often administered in the form of atorvastatin (80 mg daily).",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "An aspirin regimen should be started for stroke patients.",
+        "source": 1
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Prevention The primary stroke prevention recommendations by the American Heart Association / American Stroke Association are to stop cigarette smoking, increase physical activity, maintain a healthy weight, and control cholesterol, blood pressure, and di",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "About 87 percent of all strokes are ischemic ( American Stroke Association , 2023).",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Care is comprised of cardiac monitoring, routine neurological assessment , and frequent vital signs checks.",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "The primary stroke prevention recommendations by the American Heart Association / American Stroke Association are to stop cigarette smoking, increase physical activity, maintain a healthy weight, and control cholesterol, blood pressure, and diabetes.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "id": "alkalosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Alcalosis",
+    "aliases": [
+      "alcalosis",
+      "alkalosis",
+      "ph alto",
+      "hiperventilación",
+      "pérdida de ácido",
+      "bicarbonato alto"
+    ],
+    "summary": "Aumento del pH sanguíneo >7.45 por exceso de bicarbonato o pérdida de iones H+. Puede ser respiratoria o metabólica.",
+    "key_points": [
+      "pH >7.45 indica alcalosis.",
+      "Alcalosis metabólica: aumento de HCO3‑ o pérdida de ácido gástrico.",
+      "Alcalosis respiratoria: hiperventilación que reduce PaCO2.",
+      "Compensación renal disminuye excreción de HCO3‑.",
+      "Síntomas incluyen parestesias, espasmos y arritmias por hipocalemia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exceso de HCO3‑ o pérdida de H+ eleva el pH.",
+        "En alcalosis respiratoria, la hiperventilación disminuye PaCO2, reduciendo ácido carbónico.",
+        "Los riñones retienen HCO3‑ y excretan iones H+ para compensar."
+      ],
+      "risk_factors": [
+        "Vómitos o aspiración gástrica prolongada.",
+        "Uso de diuréticos de asa (ej. furosemida).",
+        "Hiperventilación por ansiedad, dolor o enfermedad pulmonar.",
+        "Administración excesiva de bicarbonato o antiácidos."
+      ],
+      "signs_symptoms": [
+        "Parestesias y hormigueo en extremidades.",
+        "Espasmos musculares (tetania).",
+        "Arritmias por hipocalemia.",
+        "Confusión o disminución del nivel de conciencia en casos graves."
+      ],
+      "diagnostics": [
+        "pH arterial >7.45.",
+        "PaCO2 bajo (<35 mm Hg) en alcalosis respiratoria.",
+        "HCO3‑ >26 mEq/L en alcalosis metabólica.",
+        "Electrolitos: K+ bajo, Ca2+ bajo."
+      ],
+      "treatment": [
+        "Corregir causa subyacente (ej. detener diuréticos, tratar vómitos).",
+        "Reposición de líquidos y electrolitos (solución salina, KCl).",
+        "En alcalosis respiratoria, controlar la hiperventilación (ansiedad, dolor).",
+        "En casos graves, administrar ácido clorhídrico diluido bajo supervisión."
+      ],
+      "complications": [
+        "Hipocalemia e hipocalcemia que provocan arritmias.",
+        "Disminución de la contractilidad cardíaca.",
+        "Alteración del flujo cerebral y riesgo de convulsiones."
+      ],
+      "nursing_care": [
+        "Monitorear pH, PaCO2 y HCO3‑ mediante ABG cada 2‑4 h según gravedad.",
+        "Evaluar signos neurológicos: nivel de conciencia, parestesias.",
+        "Controlar electrolitos séricos, especialmente K+ y Ca2+.",
+        "Mantener hidratación adecuada y registrar ingesta y salida de líquidos."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de informar vómitos persistentes o uso de antiácidos.",
+        "Enseñar técnicas de respiración para evitar hiperventilación por ansiedad.",
+        "Instruir sobre la toma de medicamentos diuréticos según prescripción.",
+        "Reforzar la necesidad de acudir al servicio de salud si aparecen temblores o palpitaciones."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida gástrica",
+          "diuréticos de asa",
+          "hiperventilación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: K+ ≥3.5 mEq/L en 24 h",
+          "Balance ácido‑base: pH 7.35‑7.45 en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ABG y electrolitos séricos cada 4 h",
+            "rationale": "Detectar rápidamente desviaciones y guiar el tratamiento."
+          },
+          {
+            "action": "Administrar solución salina isotónica según prescripción",
+            "rationale": "Reemplaza volumen y ayuda a corregir hipocalemia."
+          },
+          {
+            "action": "Proveer suplementos de potasio oral o IV según orden",
+            "rationale": "Previene arritmias y mejora la contractilidad muscular."
+          },
+          {
+            "action": "Evaluar y registrar signos de tetania o parestesias",
+            "rationale": "Indicadores clínicos de desequilibrio iónico."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómitos prolongados",
+          "diuréticos",
+          "hiperventilación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta ≈ salida en 24 h",
+          "Presión arterial: mantener >90/60 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno",
+            "rationale": "Permite identificar déficit de volumen temprano."
+          },
+          {
+            "action": "Ofrecer líquidos orales cada 2 h si está permitido",
+            "rationale": "Reemplaza pérdidas y previene hipovolemia."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas)",
+            "rationale": "Detecta complicaciones de bajo volumen."
+          },
+          {
+            "action": "Administrar solución salina IV según orden médica",
+            "rationale": "Restablece el volumen intravascular rápidamente."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar vómitos persistentes",
+            "rationale": "Facilita intervención temprana y prevención de déficit."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Alkalosis",
+    "aliases": [
+      "alkalosis",
+      "high ph",
+      "hyperventilation",
+      "acid loss",
+      "high bicarbonate"
+    ],
+    "summary": "An increase in blood pH >7.45 due to excess bicarbonate or loss of H+ ions. It can be respiratory or metabolic.",
+    "key_points": [
+      "pH >7.45 indicates alkalosis.",
+      "Metabolic alkalosis: increased HCO3‑ or loss of gastric acid.",
+      "Respiratory alkalosis: hyperventilation that lowers PaCO2.",
+      "Renal compensation decreases HCO3‑ excretion.",
+      "Symptoms include paresthesias, spasms, and arrhythmias from hypokalemia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Excess HCO3‑ or loss of H+ raises pH.",
+        "In respiratory alkalosis, hyperventilation lowers PaCO2, reducing carbonic acid.",
+        "The kidneys retain HCO3‑ and excrete H+ to compensate."
+      ],
+      "risk_factors": [
+        "Prolonged vomiting or gastric aspiration.",
+        "Use of loop diuretics (e.g., furosemide).",
+        "Hyperventilation from anxiety, pain, or pulmonary disease.",
+        "Excessive administration of bicarbonate or antacids."
+      ],
+      "signs_symptoms": [
+        "Paresthesias and tingling in extremities.",
+        "Muscle spasms (tetany).",
+        "Arrhythmias from hypokalemia.",
+        "Confusion or decreased level of consciousness in severe cases."
+      ],
+      "diagnostics": [
+        "Arterial pH >7.45.",
+        "Low PaCO2 (<35 mm Hg) in respiratory alkalosis.",
+        "HCO3‑ >26 mEq/L in metabolic alkalosis.",
+        "Electrolytes: low K+, low Ca2+."
+      ],
+      "treatment": [
+        "Correct underlying cause (e.g., stop diuretics, treat vomiting).",
+        "Replace fluids and electrolytes (saline solution, KCl).",
+        "In respiratory alkalosis, control hyperventilation (anxiety, pain).",
+        "In severe cases, administer diluted hydrochloric acid under supervision."
+      ],
+      "complications": [
+        "Hypokalemia and hypocalcemia causing arrhythmias.",
+        "Reduced cardiac contractility.",
+        "Altered cerebral blood flow and risk of seizures."
+      ],
+      "nursing_care": [
+        "Monitor pH, PaCO2, and HCO3‑ via ABG every 2‑4 h based on severity.",
+        "Assess neurological signs: level of consciousness, paresthesias.",
+        "Check serum electrolytes, especially K+ and Ca2+.",
+        "Maintain adequate hydration and record fluid intake and output."
+      ],
+      "patient_teaching": [
+        "Explain the importance of reporting persistent vomiting or antacid use.",
+        "Teach breathing techniques to avoid anxiety-induced hyperventilation.",
+        "Instruct on taking loop diuretics as prescribed.",
+        "Emphasize the need to seek medical care if tremors or palpitations occur."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "gastric loss",
+          "loop diuretics",
+          "hyperventilation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: K+ ≥3.5 mEq/L in 24 h",
+          "Acid-base balance: pH 7.35‑7.45 in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor ABG and serum electrolytes every 4 h",
+            "rationale": "Detect deviations quickly and guide treatment."
+          },
+          {
+            "action": "Administer isotonic saline as prescribed",
+            "rationale": "Replaces volume and helps correct hypokalemia."
+          },
+          {
+            "action": "Provide oral or IV potassium supplements as ordered",
+            "rationale": "Prevents arrhythmias and improves muscle contractility."
+          },
+          {
+            "action": "Assess and record signs of tetany or paresthesias",
+            "rationale": "Clinical indicators of ionic imbalance."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "prolonged vomiting",
+          "diuretics",
+          "hyperventilation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake ≈ output in 24 h",
+          "Blood pressure: maintain >90/60 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output each shift",
+            "rationale": "Allows early identification of volume deficit."
+          },
+          {
+            "action": "Offer oral fluids every 2 h if tolerated",
+            "rationale": "Replaces losses and prevents hypovolemia."
+          },
+          {
+            "action": "Assess signs of dehydration (skin turgor, dry mucous membranes)",
+            "rationale": "Detects complications of low volume."
+          },
+          {
+            "action": "Administer IV saline as ordered",
+            "rationale": "Rapidly restores intravascular volume."
+          },
+          {
+            "action": "Educate patient on the importance of reporting persistent vomiting",
+            "rationale": "Facilitates early intervention and prevention of deficit."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypokalemia",
+    "respiratory-alkalosis",
+    "metabolic-alkalosis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Lung Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/lungdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acid-Base Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-4-acid-base-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Acid-Base Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-2-acid-base-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-22",
+  "factcheck": {
+    "checked": "2026-10-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Metabolic Alkalosis Alkalosis— when the pH is greater than 7.45—is any process that causes a net increase in bicarbonate ions in the plasma.",
+        "source": 2
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Conversely, a pH exceeding 7.45 suggests alkalosis , indicating a shortage of hydrogen ions in the blood (Hopkins et al., 2022).",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Increasing the rate and depth of respirations allows the body to exhale more CO 2 , which lowers the net carbonic acid level in the blood.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Metabolic alkalosis has a variety of causes, including prolonged vomiting and nasogastric suctioning.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "For example, loop and thiazide diuretics can create a secondary hyperaldosteronism that leads to excess urine excretion of hydrogen.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Intravenous administration of sodium bicarbonate can also cause metabolic alkalosis due to increased levels of bases introduced into the body.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Patients experiencing respiratory alkalosis often report feelings of shortness of breath, dizziness or light-headedness, chest pain or tightness, paresthesia, and palpitations.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Other signs and symptoms of metabolic acidosis include confusion decreased level of consciousness electrolyte disturbances that can progress to circulatory collapse and death if not treated promptly GI distress: diarrhea hypotension",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "For example, orders may include treating the cause of the vomiting, stopping the GI suctioning, or stopping the administration of diuretics.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "If not corrected, it can lead to decreased myocardial contractility, arrhythmias, decreased cerebral blood flow, confusion, and even death.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The main nursing interventions for patients with acid-base imbalances include closely monitoring respiratory and neurological status for deviations from baseline that would indicate worsening of the imbalance monitoring and recording accurate intake and output monitoring and treating the specific acid-base imbalance monitoring vital signs",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

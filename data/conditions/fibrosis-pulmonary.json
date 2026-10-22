@@ -1,0 +1,504 @@
+{
+  "id": "fibrosis-pulmonary",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Fibrosis pulmonar (FP)",
+    "aliases": [
+      "fibrosis pulmonar",
+      "fibrosis",
+      "pulmonar",
+      "fibrosis pulmonar idiopática",
+      "enfermedad intersticial",
+      "fp"
+    ],
+    "summary": "La fibrosis pulmonar es una enfermedad crónica en la que el tejido intersticial de los pulmones se cicatriza, reduciendo la elasticidad y la capacidad de intercambio gaseoso.",
+    "key_points": [
+      "Patrón respiratorio ineficaz por pérdida de compliance pulmonar.",
+      "Disnea progresiva y tos seca son los síntomas cardinales.",
+      "Diagnóstico mediante TC de alta resolución y pruebas de función pulmonar.",
+      "Antifibróticos (pirfenidona, nintedanib) ralentizan la progresión.",
+      "Complicaciones incluyen hipertensión pulmonar y cor pulmonale."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño alveolar crónico → inflamación → depósito de colágeno.",
+        "Engrosamiento del intersticio disminuye la elasticidad pulmonar.",
+        "Reducción del volumen residual y capacidad vital forzada.",
+        "Ventilación‑perfusión alterada → hipoxemia."
+      ],
+      "risk_factors": [
+        "Exposición a polvo de sílice, asbesto o gases tóxicos.",
+        "Medicamentos como amiodarona, nitrofurantoína o quimioterapia.",
+        "Enfermedades del tejido conectivo (esclerodermia, artritis reumatoide).",
+        "Historia familiar de fibrosis idiopática."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo que progresa a reposo.",
+        "Tos seca persistente sin expectoración.",
+        "Fatiga y pérdida de peso involuntaria.",
+        "Acropaquia (dedos en palillo de tambor)."
+      ],
+      "diagnostics": [
+        "TC de alta resolución: patrón en vidrio esmerilado y bronquiectasias de tracción.",
+        "Espirometría: FVC < 80% predicho, relación FEV1/FVC normal o alta.",
+        "DLCO reducido (< 60% predicho).",
+        "Gasometría arterial: PaO2 < 80 mmHg, SaO2 < 92%."
+      ],
+      "treatment": [
+        "Antifibróticos: pirfenidona, nintedanib.",
+        "Oxígeno suplementario para SaO2 < 90%.",
+        "Rehabilitación pulmonar: ejercicios de respiración y entrenamiento aeróbico.",
+        "Trasplante pulmonar en enfermedad avanzada.",
+        "Control de comorbilidades (HTA, enfermedad cardíaca)."
+      ],
+      "complications": [
+        "Hipertensión pulmonar secundaria.",
+        "Cor pulmonale y insuficiencia cardíaca derecha.",
+        "Insuficiencia respiratoria aguda.",
+        "Infecciones respiratorias recurrentes."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, esfuerzo y uso de musculatura accesoria.",
+        "Monitorear SpO2 y PaO2; mantener SaO2 ≥ 92% con oxígeno.",
+        "Posicionar semi‑Fowler para mejorar expansión torácica.",
+        "Administrar antifibróticos según prescripción y observar hepatotoxicidad.",
+        "Educar sobre técnicas de drenaje postural y respiración diafragmática."
+      ],
+      "patient_teaching": [
+        "Evitar exposición a contaminantes y humo de cigarro.",
+        "Adherir al tratamiento antifibrótico y reportar síntomas hepáticos.",
+        "Uso seguro del oxígeno domiciliario (no fumar, revisar conexiones).",
+        "Planificar actividades con descansos para conservar energía.",
+        "Vacunarse contra influenza y neumococo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "fibrosis pulmonar",
+          "disminución de compliance",
+          "hipoxemia"
+        ],
+        "evidenced_by": [
+          "disnea de esfuerzo",
+          "uso de musculatura accesoria",
+          "taquipnea",
+          "SpO2 < 92%"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: SpO2 ≥ 92% en reposo",
+          "Disminución de la disnea: escala Borg ≤ 3 durante actividades de la vida diaria"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar frecuencia respiratoria y auscultar campos pulmonares cada turno",
+            "rationale": "Detecta cambios tempranos en la función respiratoria"
+          },
+          {
+            "action": "Administrar oxígeno suplementario según orden médica, ajustando flujo para mantener SaO2 ≥ 92%",
+            "rationale": "Previene hipoxemia y reduce el trabajo respiratorio"
+          },
+          {
+            "action": "Enseñar respiración diafragmática y ejercicios de expansión torácica",
+            "rationale": "Mejora la ventilación y disminuye la disnea"
+          },
+          {
+            "action": "Posicionar al paciente en semi‑Fowler con soporte lumbar",
+            "rationale": "Facilita la expansión pulmonar y reduce el esfuerzo respiratorio"
+          },
+          {
+            "action": "Monitorear signos de toxicidad hepática al iniciar pirfenidona o nintedanib",
+            "rationale": "Los antifibróticos pueden causar hepatotoxicidad"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "fibrosis pulmonar",
+          "disnea de esfuerzo",
+          "debilidad muscular"
+        ],
+        "evidenced_by": [
+          "cansancio al caminar < 100 m",
+          "reducción de la tolerancia al ejercicio",
+          "quejas de fatiga"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: caminar 150 metros sin disnea significativa",
+          "Nivel de energía: puntuación ≥ 5 en escala de energía de 0‑10"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar actividades en bloques de 10‑15 minutos con descansos programados",
+            "rationale": "Conserva energía y evita la sobrecarga respiratoria"
+          },
+          {
+            "action": "Implementar programa de rehabilitación pulmonar supervisado",
+            "rationale": "Mejora la capacidad aeróbica y la resistencia muscular"
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse para tareas, usar ayudas de movilidad)",
+            "rationale": "Reduce el gasto energético durante actividades diarias"
+          },
+          {
+            "action": "Evaluar nutrición y peso; referir a dietista si hay pérdida de peso >5% en 6 meses",
+            "rationale": "Mantener masa muscular es esencial para la tolerancia al ejercicio"
+          },
+          {
+            "action": "Monitorear signos vitales antes y después de la actividad física",
+            "rationale": "Detecta descompensación temprana y guía ajustes en el plan de ejercicio"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pulmonary fibrosis (PF)",
+    "aliases": [
+      "pulmonary fibrosis",
+      "fibrosis",
+      "pulmonary",
+      "idiopathic pulmonary fibrosis",
+      "interstitial lung disease",
+      "pf"
+    ],
+    "summary": "Pulmonary fibrosis is a chronic disease in which the lung interstitium scars, reducing elasticity and gas exchange capacity.",
+    "key_points": [
+      "Ineffective respiratory pattern due to loss of pulmonary compliance.",
+      "Progressive dyspnea and dry cough are cardinal symptoms.",
+      "Diagnosis via high‑resolution CT and pulmonary function tests.",
+      "Antifibrotics (pirfenidone, nintedanib) slow progression.",
+      "Complications include pulmonary hypertension and cor pulmonale."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic alveolar injury → inflammation → collagen deposition.",
+        "Interstitial thickening reduces pulmonary elasticity.",
+        "Reduced residual volume and forced vital capacity.",
+        "Ventilation‑perfusion mismatch → hypoxemia."
+      ],
+      "risk_factors": [
+        "Exposure to silica dust, asbestos, or toxic gases.",
+        "Medications such as amiodarone, nitrofurantoin, or chemotherapy.",
+        "Connective tissue diseases (scleroderma, rheumatoid arthritis).",
+        "Family history of idiopathic fibrosis."
+      ],
+      "signs_symptoms": [
+        "Exertional dyspnea progressing to rest.",
+        "Persistent dry cough without sputum.",
+        "Fatigue and unintended weight loss.",
+        "Acropachy (thumb‑tack fingers)."
+      ],
+      "diagnostics": [
+        "High‑resolution CT: ground‑glass pattern and traction bronchiectasis.",
+        "Spirometry: FVC < 80% predicted, normal or high FEV1/FVC ratio.",
+        "DLCO reduced (< 60% predicted).",
+        "Arterial blood gas: PaO2 < 80 mmHg, SaO2 < 92%."
+      ],
+      "treatment": [
+        "Antifibrotics: pirfenidone, nintedanib.",
+        "Supplemental oxygen for SaO2 < 90%.",
+        "Pulmonary rehabilitation: breathing exercises and aerobic training.",
+        "Lung transplantation in advanced disease.",
+        "Manage comorbidities (HTN, cardiac disease)."
+      ],
+      "complications": [
+        "Secondary pulmonary hypertension.",
+        "Cor pulmonale and right‑heart failure.",
+        "Acute respiratory failure.",
+        "Recurrent respiratory infections."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, effort, and accessory muscle use.",
+        "Monitor SpO2 and PaO2; maintain SaO2 ≥ 92% with oxygen.",
+        "Position semi‑Fowler to improve thoracic expansion.",
+        "Administer antifibrotics per prescription and monitor hepatotoxicity.",
+        "Educate on postural drainage and diaphragmatic breathing techniques."
+      ],
+      "patient_teaching": [
+        "Avoid exposure to pollutants and cigarette smoke.",
+        "Adhere to antifibrotic therapy and report hepatic symptoms.",
+        "Use home oxygen safely (no smoking, check connections).",
+        "Plan activities with rest breaks to conserve energy.",
+        "Get vaccinated against influenza and pneumococcus."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "pulmonary fibrosis",
+          "decreased compliance",
+          "hypoxemia"
+        ],
+        "evidenced_by": [
+          "exertional dyspnea",
+          "use of accessory muscles",
+          "tachypnea",
+          "SpO2 < 92%"
+        ],
+        "outcomes": [
+          "Effective respiratory pattern: SpO2 ≥ 92% at rest",
+          "Reduced dyspnea: Borg scale ≤ 3 during activities of daily living"
+        ],
+        "interventions": [
+          {
+            "action": "Assess respiratory rate and auscultate lung fields each shift",
+            "rationale": "Detect early changes in respiratory function"
+          },
+          {
+            "action": "Administer supplemental oxygen per order, adjusting flow to maintain SaO2 ≥ 92%",
+            "rationale": "Prevents hypoxemia and reduces work of breathing"
+          },
+          {
+            "action": "Teach diaphragmatic breathing and thoracic expansion exercises",
+            "rationale": "Improves ventilation and decreases dyspnea"
+          },
+          {
+            "action": "Position patient in semi‑Fowler with lumbar support",
+            "rationale": "Facilitates lung expansion and reduces respiratory effort"
+          },
+          {
+            "action": "Monitor hepatic toxicity signs when starting pirfenidone or nintedanib",
+            "rationale": "Antifibrotics can cause hepatotoxicity"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "pulmonary fibrosis",
+          "exertional dyspnea",
+          "muscle weakness"
+        ],
+        "evidenced_by": [
+          "fatigue walking < 100 m",
+          "reduced exercise tolerance",
+          "fatigue complaints"
+        ],
+        "outcomes": [
+          "Activity tolerance: walk 150 meters without significant dyspnea",
+          "Energy level: score ≥ 5 on 0‑10 energy scale"
+        ],
+        "interventions": [
+          {
+            "action": "Schedule activities in 10‑15 minute blocks with planned rest",
+            "rationale": "Conserves energy and avoids respiratory overload"
+          },
+          {
+            "action": "Implement supervised pulmonary rehabilitation program",
+            "rationale": "Improves aerobic capacity and muscular endurance"
+          },
+          {
+            "action": "Teach energy conservation techniques (sit for tasks, use mobility aids)",
+            "rationale": "Reduces energy expenditure during daily activities"
+          },
+          {
+            "action": "Assess nutrition and weight; refer to dietitian if weight loss >5% in 6 months",
+            "rationale": "Maintaining muscle mass is essential for exercise tolerance"
+          },
+          {
+            "action": "Monitor vital signs before and after physical activity",
+            "rationale": "Detects early decompensation and guides exercise plan adjustments"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "idiopathic-pulmonary-fibrosis",
+    "interstitial-lung-disease",
+    "hypoxemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pulmonary Fibrosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pulmonaryfibrosis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Fibrosis pulmonar",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pulmonaryfibrosis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-22",
+  "factcheck": {
+    "checked": "2026-10-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Interstitial lung disease is the name for a large group of diseases that inflame or scar the lungs.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Symptoms include: Shortness of breath A dry, hacking cough that doesn't get better Fatigue Weight loss for no known reason Aching muscles and joints Clubbing, which is the widening and rounding of the tips of the fingers or toes",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Employment-related exposure may also include populations who mine granite or sandstone and are therefore exposed to silica dust, and coal miners, who are exposed to coal dust and at risk for pneumoconiosis (“black lung”).",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Symptoms include: Shortness of breath A dry, hacking cough that doesn't get better Fatigue Weight loss for no known reason Aching muscles and joints Clubbing, which is the widening and rounding of the tips of the fingers or toes Your doctor may use your medical history, imaging tests, a biopsy, and lung function tests to diagnose pulmonary fibrosis.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Symptoms include: Shortness of breath A dry, hacking cough that doesn't get better Fatigue Weight loss for no known reason Aching muscles and joints Clubbing, which is the widening and rounding of the tips of the fingers or toes Your doctor may use your medical history, imaging tests, a biopsy, and lung function tests to diagnose pulmonary fibrosis.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Smoking causes a disruption of the mucociliary elevator in the lungs, which can lead to increased colonization of bacteria in the lower respiratory tract and frequent infections.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

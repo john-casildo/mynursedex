@@ -1,0 +1,477 @@
+{
+  "id": "clostridioides-difficile-infection",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infección por Clostridioides difficile (C. diff)",
+    "aliases": [
+      "c diff",
+      "clostridioides",
+      "c difficile",
+      "infección intestinal",
+      "colitis pseudomembranosa"
+    ],
+    "summary": "Infección gastrointestinal causada por la bacteria C. difficile, frecuentemente asociada al uso prolongado de antibióticos y que produce diarrea acuosa y colitis.",
+    "key_points": [
+      "Antibióticos alteran la flora intestinal y permiten el sobrecrecimiento de C. difficile.",
+      "Diarrea profusa y fiebre son los signos clínicos más comunes.",
+      "Se transmite por esporas en heces; requiere aislamiento de contacto.",
+      "El tratamiento de primera línea incluye vancomicina oral o fidaxomicina.",
+      "Complicaciones graves: colitis pseudomembranosa, megacolon tóxico y sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los antibióticos destruyen la microbiota protectora del colon.",
+        "C. difficile produce toxinas A y B que dañan la mucosa colónica.",
+        "El daño mucoso genera inflamación y secreción de líquido, provocando diarrea."
+      ],
+      "risk_factors": [
+        "Uso de antibióticos > 7 días (esp. clindamicina, cefalosporinas).",
+        "Edad > 65 años o comorbilidades graves.",
+        "Estancia hospitalaria o residencia de ancianos.",
+        "Uso de inhibidores de bomba de protones."
+      ],
+      "signs_symptoms": [
+        "Diarrea acuosa ≥ 3 deposiciones/día.",
+        "Dolor abdominal y distensión.",
+        "Fiebre > 38 °C.",
+        "Leucocitosis y elevación de PCR."
+      ],
+      "diagnostics": [
+        "Técnica de detección de toxina en heces (ELISA) o PCR para genes de toxina.",
+        "Cultivo anaeróbico de heces (confirmatorio).",
+        "CBC: leucocitosis; electrolitos: hipopotasemia.",
+        "Imagen: radiografía abdominal para descartar megacolon tóxico."
+      ],
+      "treatment": [
+        "Vancomicina oral 125 mg cada 6 h (primer línea).",
+        "Fidaxomicina 200 mg cada 12 h (alternativa).",
+        "Metronidazol solo si no hay disponibilidad de vancomicina oral.",
+        "Reposición de líquidos y electrolitos por vía oral o IV.",
+        "Probiotics pueden considerarse para prevenir recurrencia."
+      ],
+      "complications": [
+        "Colitis pseudomembranosa.",
+        "Megacolon tóxico.",
+        "Sepsis y shock.",
+        "Recurrencia de infección (≈20 %)."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia, volumen y características de las deposiciones.",
+        "Monitorear signos vitales cada 4 h; prestar atención a fiebre y taquicardia.",
+        "Registrar ingesta y salida de líquidos; mantener balance hídrico.",
+        "Aplicar aislamiento de contacto: guantes y bata al entrar/salir de la habitación.",
+        "Educar al personal sobre desinfección de superficies con lejía al 1 %."
+      ],
+      "patient_teaching": [
+        "Lavado de manos con agua y jabón o alcohol gel antes y después de usar el baño.",
+        "Mantener la habitación bien ventilada y limpiar superficies con desinfectante aprobado.",
+        "Informar al médico si la diarrea persiste > 3 días o aparecen sangre en heces.",
+        "Evitar el uso innecesario de antibióticos y preguntar al médico antes de tomarlos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "diarrea profusa",
+          "pérdida de electrolitos",
+          "fiebre",
+          "edad avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h.",
+          "Peso corporal: permanecer estable (variación < 0.5 kg en 48 h)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Detectar rápidamente déficit hídrico y guiar la reposición."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, presión arterial).",
+            "rationale": "Identificar deterioro antes de que se produzca shock."
+          },
+          {
+            "action": "Administrar solución de rehidratación oral o IV según prescripción.",
+            "rationale": "Reemplazar pérdidas de agua y electrolitos."
+          },
+          {
+            "action": "Registrar peso diario y comparar con peso basal.",
+            "rationale": "Controlar la tendencia de pérdida o ganancia de peso."
+          },
+          {
+            "action": "Informar al médico si el balance hídrico es negativo > 500 mL/24 h.",
+            "rationale": "Permite ajuste oportuno de la terapia de fluidos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por diarrea",
+          "uso prolongado de antibióticos",
+          "edad avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: mantener potasio 3.5‑5.0 mEq/L y sodio 135‑145 mEq/L.",
+          "No presentar arritmias relacionadas con alteraciones electrolíticas."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos cada 24 h mientras persista la diarrea.",
+            "rationale": "Detectar desequilibrios tempranos."
+          },
+          {
+            "action": "Evaluar signos neuromusculares (calambres, debilidad).",
+            "rationale": "Los síntomas pueden indicar hipopotasemia o hiponatremia."
+          },
+          {
+            "action": "Administrar suplementos de potasio o sodio según orden médica.",
+            "rationale": "Corregir déficits y prevenir complicaciones cardíacas."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio (plátano, papaya).",
+            "rationale": "Apoyo dietético para mantener niveles adecuados."
+          },
+          {
+            "action": "Monitorear ritmo cardíaco y presión arterial cada 4 h.",
+            "rationale": "Identificar arritmias inducidas por desequilibrios electrolíticos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Clostridioides difficile infection (C. diff)",
+    "aliases": [
+      "c diff",
+      "clostridioides",
+      "c difficile",
+      "intestinal infection",
+      "pseudomembranous colitis"
+    ],
+    "summary": "Gastrointestinal infection caused by the bacterium C. difficile, frequently associated with prolonged antibiotic use and producing watery diarrhea and colitis.",
+    "key_points": [
+      "Antibiotics alter intestinal flora and allow overgrowth of C. difficile.",
+      "Profuse diarrhea and fever are the most common clinical signs.",
+      "It is transmitted by spores in feces; requires contact isolation.",
+      "First‑line treatment includes oral vancomycin or fidaxomicin.",
+      "Severe complications: pseudomembranous colitis, toxic megacolon, and sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Antibiotics destroy the protective microbiota of the colon.",
+        "C. difficile produces toxins A and B that damage colonic mucosa.",
+        "Mucosal damage causes inflammation and fluid secretion, leading to diarrhea."
+      ],
+      "risk_factors": [
+        "Antibiotic use > 7 days (especially clindamycin, cephalosporins).",
+        "Age > 65 years or severe comorbidities.",
+        "Hospital stay or nursing home residency.",
+        "Use of proton pump inhibitors."
+      ],
+      "signs_symptoms": [
+        "Watery diarrhea ≥ 3 stools/day.",
+        "Abdominal pain and distension.",
+        "Fever > 38 °C (100.4 °F).",
+        "Leukocytosis and elevated CRP."
+      ],
+      "diagnostics": [
+        "Stool toxin detection by ELISA or PCR for toxin genes.",
+        "Anaerobic stool culture (confirmatory).",
+        "CBC: leukocytosis; electrolytes: hypokalemia.",
+        "Imaging: abdominal X‑ray to rule out toxic megacolon."
+      ],
+      "treatment": [
+        "Oral vancomycin 125 mg every 6 h (first line).",
+        "Fidaxomicin 200 mg every 12 h (alternative).",
+        "Metronidazole only if oral vancomycin unavailable.",
+        "Rehydration and electrolyte replacement orally or IV.",
+        "Probiotics may be considered to prevent recurrence."
+      ],
+      "complications": [
+        "Pseudomembranous colitis.",
+        "Toxic megacolon.",
+        "Sepsis and shock.",
+        "Recurrence of infection (≈20 %)."
+      ],
+      "nursing_care": [
+        "Assess frequency, volume, and characteristics of stools.",
+        "Monitor vital signs every 4 h; watch for fever and tachycardia.",
+        "Record intake and output; maintain fluid balance.",
+        "Apply contact isolation: gloves and gown when entering/exiting the room.",
+        "Educate staff on surface disinfection with 1 % bleach."
+      ],
+      "patient_teaching": [
+        "Wash hands with soap and water or alcohol gel before and after using the bathroom.",
+        "Keep the room well ventilated and clean surfaces with approved disinfectant.",
+        "Notify the physician if diarrhea persists > 3 days or blood appears in stool.",
+        "Avoid unnecessary antibiotic use and ask the physician before taking them."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "profuse diarrhea",
+          "electrolyte loss",
+          "fever",
+          "advanced age"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL/24 h.",
+          "Body weight: remain stable (variation < 0.5 kg in 48 h)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor intake and output every 8 h.",
+            "rationale": "Detect fluid deficit early and guide replacement."
+          },
+          {
+            "action": "Assess signs of dehydration (turgor, mucous membranes, blood pressure).",
+            "rationale": "Identify deterioration before shock."
+          },
+          {
+            "action": "Administer oral or IV rehydration solution as prescribed.",
+            "rationale": "Replace water and electrolyte losses."
+          },
+          {
+            "action": "Record daily weight and compare with baseline weight.",
+            "rationale": "Track trend of weight loss or gain."
+          },
+          {
+            "action": "Notify the physician if fluid balance is negative > 500 mL/24 h.",
+            "rationale": "Allows timely adjustment of fluid therapy."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "fluid loss from diarrhea",
+          "prolonged antibiotic use",
+          "advanced age"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: maintain potassium 3.5‑5.0 mEq/L and sodium 135‑145 mEq/L.",
+          "No arrhythmias related to electrolyte disturbances."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel every 24 h while diarrhea persists.",
+            "rationale": "Detect early imbalances."
+          },
+          {
+            "action": "Assess neuromuscular signs (cramps, weakness).",
+            "rationale": "Symptoms may indicate hypokalemia or hyponatremia."
+          },
+          {
+            "action": "Administer potassium or sodium supplements as ordered.",
+            "rationale": "Correct deficits and prevent cardiac complications."
+          },
+          {
+            "action": "Educate patient on potassium‑rich foods (banana, papaya).",
+            "rationale": "Dietary support to maintain adequate levels."
+          },
+          {
+            "action": "Monitor heart rhythm and blood pressure every 4 h.",
+            "rationale": "Identify arrhythmias induced by electrolyte imbalances."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "pseudomembranous-colitis",
+    "antibiotic-associated-diarrhea",
+    "toxic-megacolon"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: C. diff Infections",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cdiffinfections.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Infecciones por Clostridium difficile",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/cdiffinfections.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Infection Cycle",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-1-infection-cycle",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Infection Cycle",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/10-1-infection-cycle",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-22",
+  "factcheck": {
+    "checked": "2026-10-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 35,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "C. diff is a bacterium that can cause diarrhea and more serious intestinal conditions such as colitis.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The symptoms of C. diff infections include: Diarrhea (loose, watery stools) or frequent bowel movements for several days Fever Stomach tenderness or pain Loss of appetite Nausea Severe diarrhea causes you to lose a lot of fluids.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "You are at more likely to get a C. diff infection if you: Are taking antibiotics Are 65 or older Recently stayed in a hospital or nursing home Have a weakened immune system Have had a previous infection with C.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "C. diff Infections Also called: Clostridioides difficile infections, Clostridium difficile Infections, Clostridium enterocolitis, Pseudomembranous colitis",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "contradicted",
+        "quote": "Wash your hands with soap and water after you use the bathroom and before you eat.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

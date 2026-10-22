@@ -1,0 +1,414 @@
+{
+  "id": "cyp3a4-inhibition",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Macrólidos (inhibidores de CYP3A4)",
+    "aliases": [
+      "macrolidos",
+      "azitromicina",
+      "eritromicina",
+      "claritromicina",
+      "inhibidor cyp3a4"
+    ],
+    "summary": "Los macrólidos son antibióticos que inhiben la síntesis proteica bacteriana y la enzima hepática CYP3A4, aumentando la concentración de fármacos metabolizados por esta vía.",
+    "key_points": [
+      "Inhiben la subunidad 50S del ribosoma y la CYP3A4 hepática.",
+      "Usados para neumonía, infecciones respiratorias y de piel.",
+      "Pueden prolongar el QT y causar arritmias graves.",
+      "Interaccionan con estatinas, anticoagulantes y anticonceptivos hormonales.",
+      "Reacciones alérgicas graves y hepatotoxicidad son efectos serios."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se unen a la subunidad 50S del ribosoma e impiden la translocación del péptido.",
+        "Bloquean la síntesis de proteínas bacterianas, deteniendo el crecimiento.",
+        "Inhiben la enzima hepática CYP3A4, reduciendo el metabolismo de fármacos coadministrados.",
+        "Aumentan la concentración plasmática de medicamentos dependientes de CYP3A4."
+      ],
+      "indications": [
+        "Neumonía adquirida en la comunidad.",
+        "Bronquitis y sinusitis agudas.",
+        "Infecciones de piel y tejidos blandos.",
+        "Infección por Chlamydia trachomatis.",
+        "Profilaxis de infecciones en cirugía torácica."
+      ],
+      "contraindications": [
+        "Hipersenibilidad conocida a cualquier macrólido.",
+        "Historia de arritmia con QT prolongado.",
+        "Insuficiencia hepática grave.",
+        "Uso concomitante de antiarrítmicos que prolongan el QT (p. ej., sotalol)."
+      ],
+      "adverse_effects": [
+        "Náuseas y vómitos.",
+        "Diarrea o dolor abdominal.",
+        "Erupción cutánea.",
+        "Prolongación del QT → torsades de pointes (serious).",
+        "Hepatotoxicidad (serious).",
+        "Reacción anafiláctica (serious)."
+      ],
+      "interactions": [
+        "Aumenta niveles de simvastatina → riesgo de miopatía.",
+        "Potencia efecto anticoagulante de warfarina → INR elevado.",
+        "Reduce la eficacia de anticonceptivos hormonales.",
+        "Incrementa niveles de ciclosporina y tacrolimus."
+      ],
+      "nursing_care": [
+        "Verificar alergias a macrólidos antes de administrar.",
+        "Obtener ECG basal y monitorizar intervalo QT durante el tratamiento.",
+        "Controlar pruebas de función hepática al iniciar y durante la terapia.",
+        "Observar signos de arritmia: palpitaciones, síncope.",
+        "Retener la dosis si QT >500 ms o si aparecen reacciones alérgicas graves.",
+        "Notificar al médico ante cualquier alteración significativa."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento según indicación, con o sin alimentos según prescripción.",
+        "Completar todo el ciclo aunque los síntomas mejoren.",
+        "Reportar palpitaciones, mareos o erupciones cutáneas inmediatamente.",
+        "Evitar iniciar nuevos medicamentos sin consultar al profesional de salud.",
+        "Usar método anticonceptivo adicional durante el tratamiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de reacción alérgica",
+        "type": "risk",
+        "related_to": [
+          "Uso de macrólidos",
+          "Historia de alergia a antibióticos",
+          "Exposición a fármacos estructuralmente similares"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de hipersensibilidad durante 48 h del inicio del tratamiento",
+          "Mantener signos vitales dentro de rangos normales"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar historial de alergias y reacciones previas a antibióticos antes de la administración.",
+            "rationale": "Identificar pacientes con mayor probabilidad de reacción alérgica."
+          },
+          {
+            "action": "Obtener y monitorear ECG basal y cada 48 h para detectar prolongación del QT.",
+            "rationale": "Prevenir arritmias graves asociadas a la inhibición de CYP3A4."
+          },
+          {
+            "action": "Vigilar signos vitales y síntomas de anafilaxia (urticaria, dificultad respiratoria).",
+            "rationale": "Detectar rápidamente una reacción alérgica y actuar a tiempo."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si aparecen erupciones, prurito o dificultad para respirar.",
+            "rationale": "Evitar progresión a una reacción alérgica severa."
+          },
+          {
+            "action": "Administrar oxígeno y preparar epinefrina 0.3 mg IM si se presenta anafilaxia.",
+            "rationale": "Tratar emergencias alérgicas según protocolos de soporte vital."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Macrolides (CYP3A4 inhibitors)",
+    "aliases": [
+      "macrolides",
+      "azithromycin",
+      "erythromycin",
+      "clarithromycin",
+      "cyp3a4 inhibitor"
+    ],
+    "summary": "Macrolides are antibiotics that inhibit bacterial protein synthesis and the hepatic enzyme CYP3A4, increasing the concentration of drugs metabolized by this pathway.",
+    "key_points": [
+      "Inhibit the 50S ribosomal subunit and hepatic CYP3A4.",
+      "Used for pneumonia, respiratory and skin infections.",
+      "Can prolong the QT interval and cause serious arrhythmias.",
+      "Interact with statins, anticoagulants and hormonal contraceptives.",
+      "Severe allergic reactions and hepatotoxicity are serious effects."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bind to the 50S ribosomal subunit and block peptide translocation.",
+        "Block bacterial protein synthesis, stopping growth.",
+        "Inhibit hepatic CYP3A4, reducing metabolism of coadministered drugs.",
+        "Increase plasma concentrations of CYP3A4-dependent medications."
+      ],
+      "indications": [
+        "Community-acquired pneumonia.",
+        "Acute bronchitis and sinusitis.",
+        "Skin and soft tissue infections.",
+        "Chlamydia trachomatis infection.",
+        "Prophylaxis of infections in thoracic surgery."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to any macrolide.",
+        "History of QT-prolonging arrhythmia.",
+        "Severe hepatic insufficiency.",
+        "Concurrent use of QT-prolonging antiarrhythmics (e.g., sotalol)."
+      ],
+      "adverse_effects": [
+        "Nausea and vomiting.",
+        "Diarrhea or abdominal pain.",
+        "Skin rash.",
+        "QT prolongation → torsades de pointes (serious).",
+        "Hepatotoxicity (serious).",
+        "Anaphylactic reaction (serious)."
+      ],
+      "interactions": [
+        "Increases simvastatin levels → risk of myopathy.",
+        "Potentiates warfarin anticoagulant effect → elevated INR.",
+        "Reduces efficacy of hormonal contraceptives.",
+        "Increases levels of cyclosporine and tacrolimus."
+      ],
+      "nursing_care": [
+        "Check for macrolide allergies before administration.",
+        "Obtain baseline ECG and monitor QT interval during therapy.",
+        "Check liver function tests at initiation and during treatment.",
+        "Observe for arrhythmia signs: palpitations, syncope.",
+        "Hold dose if QT >500 ms or if severe allergic reactions occur.",
+        "Notify physician of any significant changes."
+      ],
+      "patient_teaching": [
+        "Take medication as prescribed, with or without food as directed.",
+        "Complete the full course even if symptoms improve.",
+        "Report palpitations, dizziness, or skin rashes immediately.",
+        "Avoid starting new medications without consulting a health professional.",
+        "Use additional contraceptive method during treatment."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for allergy reaction",
+        "type": "risk",
+        "related_to": [
+          "Use of macrolides",
+          "History of antibiotic allergy",
+          "Exposure to structurally similar drugs"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of hypersensitivity within 48 h of treatment start",
+          "Vital signs remain within normal ranges"
+        ],
+        "interventions": [
+          {
+            "action": "Assess allergy history and prior antibiotic reactions before administration.",
+            "rationale": "Identify patients at higher risk of allergic reaction."
+          },
+          {
+            "action": "Obtain and monitor baseline ECG and every 48 h to detect QT prolongation.",
+            "rationale": "Prevent serious arrhythmias associated with CYP3A4 inhibition."
+          },
+          {
+            "action": "Monitor vital signs and anaphylaxis symptoms (hives, respiratory distress).",
+            "rationale": "Rapidly detect an allergic reaction and act promptly."
+          },
+          {
+            "action": "Hold dose and notify physician if rashes, itching or breathing difficulty occur.",
+            "rationale": "Prevent progression to severe allergic reaction."
+          },
+          {
+            "action": "Administer oxygen and prepare 0.3 mg IM epinephrine if anaphylaxis occurs.",
+            "rationale": "Treat allergic emergencies per advanced life support protocols."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "qt-prolongation",
+    "drug-interactions",
+    "antibiotic-resistance",
+    "hepatic-metabolism"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-22",
+  "factcheck": {
+    "checked": "2026-10-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 23,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Macrolides inhibit the liver enzyme cytochrome P450 3A4 (CYP3A4), which is responsible for metabolizing many medications.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "contradicted",
+        "quote": "When a penicillin is administered, the beta-lactam ring of penicillin will bind to the penicillin-binding protein and inhibit it.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "Oxazolidinones work by inhibiting bacterial protein synthesis to suppress further growth and multiplication of the bacteria.",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "Macrolides inhibit the liver enzyme cytochrome P450 3A4 (CYP3A4), which is responsible for metabolizing many medications.",
+        "source": 0
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Macrolide Azithromycin ( Zithromax ) Pneumonia, community acquired: Adults: 500 mg orally on day 1, then 250 mg once daily for 4 days.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Because fluoroquinolones have been associated with serious adverse reactions, ciprofloxacin is reserved for use in clients who have no alternative treatment options for the following indications: acute exacerbation of chronic bronchitis, acute sinusitis, and acute uncomplicated cystitis.",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "Cephalosporin Cephalexin ( Keflex ) Skin or soft tissue infection: Adults and children ≥15 years: 250 mg capsule orally every 6 hours or 500 mg orally every 12 hours for 7–14 days.",
+        "source": 0
+      },
+      "sections.indications.3": {
+        "status": "supported",
+        "quote": "Therefore, macrolides are useful for treating a variety of respiratory conditions, such as pneumonia and Legionnaires’ disease, as well as chlamydia, a sexually transmitted infection (STI).",
+        "source": 0
+      },
+      "sections.indications.4": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Most oral antibiotics can cause gastrointestinal discomfort, including nausea, vomiting, and diarrhea.",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "Adverse Effects Headache Skin rash Abdominal pain Diarrhea Dizziness QT interval prolongation Contraindications Hypersensitivity Pregnancy Coadministration with QT interval–prolonging drugs",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Adverse Effects Headache Skin rash Abdominal pain Diarrhea Dizziness QT interval prolongation Contraindications Hypersensitivity Pregnancy Coadministration with QT interval–prolonging drugs",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "Macrolides are also capable of inhibiting potassium efflux out of myocardial cells, leading to prolongation of the heart rate–corrected QT interval (QTc) on an electrocardiogram (ECG/EKG) and increasing the client’s risk for developing torsades de pointes, a potentially fatal ventricular dysrhythmia.",
+        "source": 0
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.5": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Monitor the ECG for prolongation of the QTc interval when clients are taking systemically acting agents.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Monitor liver function tests to assess for liver injury.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "Notify prescriber if blood counts drop.",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Take the entire course of antibiotics, even if they begin to feel better.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Alert their health care provider about starting any new medications that may interact with their antifungal therapy.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
