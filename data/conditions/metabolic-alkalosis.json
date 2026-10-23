@@ -1,0 +1,466 @@
+{
+  "id": "metabolic-alkalosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Alkalosis metabólica",
+    "aliases": [
+      "alkalosis metabolica",
+      "alkalosis",
+      "ph alto",
+      "bicarbonato elevado",
+      "vomitos prolongados"
+    ],
+    "summary": "La alkalosis metabólica es un trastorno del equilibrio ácido‑base caracterizado por pH >7.45 y aumento del HCO₃⁻ en sangre. Se produce por pérdida de ácido o ganancia de bicarbonato.",
+    "key_points": [
+      "pH >7.45 y HCO₃⁻ >26 mEq/L indican alkalosis metabólica.",
+      "Compensación respiratoria: hipoventilación para retener CO₂.",
+      "Causas comunes: vómitos prolongados, diuréticos de asa, hipopotasemia.",
+      "Tratamiento: corregir la causa, reposición de K⁺ y Cl⁻, ácido clorhídrico si es grave.",
+      "Complicaciones: arritmias, disminución de perfusión cerebral."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Pérdida de ácido gástrico (vómitos) reduce H⁺ y aumenta HCO₃⁻.",
+        "Uso de diuréticos de asa provoca pérdida de Na⁺, Cl⁻ y K⁺, generando reabsorción de HCO₃⁻.",
+        "El aumento de HCO₃⁻ eleva el pH sanguíneo.",
+        "El cuerpo intenta compensar mediante hipoventilación para retener CO₂."
+      ],
+      "risk_factors": [
+        "Vómitos o aspiración gástrica prolongada.",
+        "Uso de diuréticos de asa (furosemida, bumetanida).",
+        "Hipopotasemia crónica.",
+        "Administración excesiva de bicarbonato o soluciones salinas hipertónicas."
+      ],
+      "signs_symptoms": [
+        "pH arterial >7.45, HCO₃⁻ >26 mEq/L.",
+        "Hipoventilación (frecuencia respiratoria ↓).",
+        "Calambres musculares, debilidad, parestesias.",
+        "Arritmias por hipopotasemia."
+      ],
+      "diagnostics": [
+        "Gasometría arterial: pH ↑, PaCO₂ ↑ (compensación), HCO₃⁻ ↑.",
+        "Electrolitos séricos: K⁺ ↓, Cl⁻ ↓, Na⁺ normal o ↑.",
+        "Análisis de orina: excreción de H⁺ disminuida."
+      ],
+      "treatment": [
+        "Suspender diuréticos de asa o reducir su dosis.",
+        "Reposición de potasio con cloruro de potasio (KCl) IV o PO.",
+        "Reposición de cloro con solución salina 0.9 % IV.",
+        "Acetazolamida para aumentar excreción de bicarbonato en casos graves."
+      ],
+      "complications": [
+        "Arritmias ventriculares por hipopotasemia.",
+        "Disminución del flujo cerebral → mareos, síncope.",
+        "Hipocalcemia secundaria."
+      ],
+      "nursing_care": [
+        "Monitorear pH, HCO₃⁻, PaCO₂ y electrolitos cada 4‑6 h.",
+        "Evaluar signos de hipoventilación y nivel de conciencia.",
+        "Administrar KCl y NaCl según prescripción, vigilar irritación venosa.",
+        "Registrar ingesta y pérdida de líquidos; mantener balance hídrico."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de no interrumpir tratamientos sin consultar al médico.",
+        "Instruir sobre signos de hipopotasemia (calambres, palpitaciones).",
+        "Recomendar dieta rica en potasio (plátano, papaya) si es apropiado.",
+        "Enseñar técnicas de respiración lenta para evitar hiperventilación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "vómitos prolongados",
+          "uso de diuréticos de asa",
+          "hipopotasemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Mantener electrolitos dentro de rangos normales (K⁺ 3.5‑5.0 mEq/L) en 24 h",
+          "NOC: Evitar arritmias relacionadas a desequilibrio electrolítico"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles séricos de K⁺, Na⁺ y Cl⁻ cada 4 h",
+            "rationale": "Detectar rápidamente desviaciones y permitir intervención oportuna"
+          },
+          {
+            "action": "Administrar cloruro de potasio IV según orden médica",
+            "rationale": "Reponer K⁺ y prevenir arritmias"
+          },
+          {
+            "action": "Evaluar ingesta y pérdidas de líquidos, registrar balance hídrico",
+            "rationale": "Identificar fuentes de pérdida de electrolitos"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio",
+            "rationale": "Facilitar la reposición natural de K⁺"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "pH >7.45",
+          "hipoventilación",
+          "calambres musculares"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades leves",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "NOC: Incrementar la tolerancia a la actividad en 2 niveles de escala de Borg en 48 h",
+          "NOC: Mantener nivel de energía reportado ≥7/10 en 3 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar escala de Borg antes y después",
+            "rationale": "Establecer línea base y medir progreso"
+          },
+          {
+            "action": "Planificar períodos de descanso cada 10‑15 min durante actividades",
+            "rationale": "Prevenir fatiga excesiva y caídas"
+          },
+          {
+            "action": "Administrar reposición de potasio y cloro según prescripción",
+            "rationale": "Corregir causa fisiológica de la intolerancia"
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática para mejorar ventilación",
+            "rationale": "Reducir hipoventilación y mejorar oxigenación"
+          },
+          {
+            "action": "Coordinar con fisioterapia para ejercicios de bajo impacto",
+            "rationale": "Mejorar fuerza muscular sin sobrecargar el sistema"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Metabolic alkalosis",
+    "aliases": [
+      "metabolic alkalosis",
+      "alkalosis",
+      "high ph",
+      "elevated bicarbonate",
+      "prolonged vomiting"
+    ],
+    "summary": "Metabolic alkalosis is an acid-base disorder characterized by pH >7.45 and increased HCO₃⁻ in blood. It occurs due to loss of acid or gain of bicarbonate.",
+    "key_points": [
+      "pH >7.45 and HCO₃⁻ >26 mEq/L indicate metabolic alkalosis.",
+      "Respiratory compensation: hypoventilation to retain CO₂.",
+      "Common causes: prolonged vomiting, loop diuretics, hypokalemia.",
+      "Treatment: correct the cause, replace K⁺ and Cl⁻, hydrochloric acid if severe.",
+      "Complications: arrhythmias, decreased cerebral perfusion."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Loss of gastric acid (vomiting) reduces H⁺ and increases HCO₃⁻.",
+        "Use of loop diuretics causes loss of Na⁺, Cl⁻ and K⁺, leading to HCO₃⁻ reabsorption.",
+        "The increase in HCO₃⁻ raises blood pH.",
+        "The body attempts to compensate by hypoventilation to retain CO₂."
+      ],
+      "risk_factors": [
+        "Prolonged vomiting or gastric aspiration.",
+        "Use of loop diuretics (furosemide, bumetanide).",
+        "Chronic hypokalemia.",
+        "Excessive administration of bicarbonate or hypertonic saline solutions."
+      ],
+      "signs_symptoms": [
+        "Arterial pH >7.45, HCO₃⁻ >26 mEq/L.",
+        "Hypoventilation (decreased respiratory rate).",
+        "Muscle cramps, weakness, paresthesias.",
+        "Arrhythmias due to hypokalemia."
+      ],
+      "diagnostics": [
+        "Arterial blood gas: ↑pH, ↑PaCO₂ (compensation), ↑HCO₃⁻.",
+        "Serum electrolytes: ↓K⁺, ↓Cl⁻, Na⁺ normal or ↑.",
+        "Urine analysis: decreased H⁺ excretion."
+      ],
+      "treatment": [
+        "Discontinue or reduce loop diuretic dose.",
+        "Replace potassium with potassium chloride (KCl) IV or PO.",
+        "Replace chloride with 0.9 % saline IV.",
+        "Acetazolamide to increase bicarbonate excretion in severe cases."
+      ],
+      "complications": [
+        "Ventricular arrhythmias from hypokalemia.",
+        "Reduced cerebral blood flow → dizziness, syncope.",
+        "Secondary hypocalcemia."
+      ],
+      "nursing_care": [
+        "Monitor pH, HCO₃⁻, PaCO₂ and electrolytes every 4‑6 h.",
+        "Assess for hypoventilation and level of consciousness.",
+        "Administer KCl and NaCl per order, monitor for venous irritation.",
+        "Record intake and output; maintain fluid balance."
+      ],
+      "patient_teaching": [
+        "Explain the importance of not interrupting treatments without consulting the physician.",
+        "Instruct on signs of hypokalemia (cramps, palpitations).",
+        "Recommend a potassium-rich diet (banana, papaya) if appropriate.",
+        "Teach slow breathing techniques to avoid hyperventilation."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "prolonged vomiting",
+          "loop diuretic use",
+          "hypokalemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Maintain electrolytes within normal ranges (K⁺ 3.5‑5.0 mEq/L) within 24 h",
+          "NOC: Prevent arrhythmias related to electrolyte imbalance"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum levels of K⁺, Na⁺ and Cl⁻ every 4 h",
+            "rationale": "Detect deviations quickly and allow timely intervention"
+          },
+          {
+            "action": "Administer IV potassium chloride as ordered",
+            "rationale": "Replace K⁺ and prevent arrhythmias"
+          },
+          {
+            "action": "Assess intake and output, record fluid balance",
+            "rationale": "Identify sources of electrolyte loss"
+          },
+          {
+            "action": "Educate patient on potassium-rich foods",
+            "rationale": "Facilitate natural K⁺ replenishment"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "pH >7.45",
+          "hypoventilation",
+          "muscle cramps"
+        ],
+        "evidenced_by": [
+          "fatigue during light activities",
+          "decreased exercise tolerance"
+        ],
+        "outcomes": [
+          "NOC: Increase activity tolerance by 2 levels on the Borg scale within 48 h",
+          "NOC: Maintain reported energy level ≥7/10 for 3 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record Borg scale before and after",
+            "rationale": "Establish baseline and measure progress"
+          },
+          {
+            "action": "Plan rest periods every 10‑15 min during activities",
+            "rationale": "Prevent excessive fatigue and falls"
+          },
+          {
+            "action": "Administer potassium and chloride replacement as prescribed",
+            "rationale": "Correct physiological cause of intolerance"
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques to improve ventilation",
+            "rationale": "Reduce hypoventilation and improve oxygenation"
+          },
+          {
+            "action": "Coordinate with physical therapy for low-impact exercises",
+            "rationale": "Improve muscle strength without overloading the system"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypokalemia",
+    "respiratory-compensation",
+    "diuretic-therapy",
+    "acid-base-balance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Metabolic Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/metabolicdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acid-Base Imbalance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-4-acid-base-imbalance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Acid-Base Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-2-acid-base-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-23",
+  "factcheck": {
+    "checked": "2026-10-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 25,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Identifying and treating the root cause, either hydrogen ion loss or bicarbonate ion gain, is essential because the risk of mortality increases as pH increases (Tinawi, 2021).",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "A nurse may first suspect that a patient has metabolic alkalosis because they may have a decreased respiratory rate; this is the result of the lungs trying to retain additional CO 2 to increase the acidity of the blood and resolve the alkalosis.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "If not corrected, it can lead to decreased myocardial contractility, arrhythmias, decreased cerebral blood flow, confusion, and even death.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Gastrointestinal loss of hydrogen ions can occur as a result of vomiting or gastric suctioning.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "This is because gastric secretions have high levels of hydrogen ions: as acid is lost, the pH level of the bloodstream increases."
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Metabolic alkalosis has a variety of causes, including prolonged vomiting and nasogastric suctioning.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "For example, loop and thiazide diuretics can create a secondary hyperaldosteronism that leads to excess urine excretion of hydrogen.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Parameter Normal Range pH 7.35–7.45 Partial pressure of oxygen (Pao 2 ) 80–100 mm Hg Partial pressure of carbon dioxide (Paco 2 ) 35–45 mm Hg Bicarbonate (HCO 3 − ) 22–26 mEq/L Oxygen saturation (Sao 2 ) 95%–98% Table 10.13 Normal ABG Values Interpreting ABGs Arterial blood gas values can be interpreted t",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "A nurse may first suspect that a patient has metabolic alkalosis because they may have a decreased respiratory rate; this is the result of the lungs trying to retain additional CO 2 to increase the acidity of the blood and resolve the alkalosis.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Extended or severe alkalemia results in a relative hypocalcemia, as ionized calcium tends to bind more readily to proteins in an alkalotic environment (Hopkins et al., 2022).",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "When a patient demonstrates signs of potential hypercapnia, the nurse should assess airway, breathing, and circulation.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The main nursing interventions for patients with acid-base imbalances include closely monitoring respiratory and neurological status for deviations from baseline that would indicate worsening of the imbalance monitoring and recording accurate intake and output monitoring and treating the specific acid-base imbalance monitoring vital signs",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

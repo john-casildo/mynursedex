@@ -1,0 +1,470 @@
+{
+  "id": "respiratory-alkalosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Alcalosis respiratoria",
+    "aliases": [
+      "alkalosis respiratoria",
+      "hiperventilación",
+      "ph alto",
+      "co2 bajo",
+      "respiración rápida",
+      "disnea"
+    ],
+    "summary": "Aumento del pH sanguíneo por disminución de PaCO₂ debido a hiperventilación. Puede ser aguda o crónica.",
+    "key_points": [
+      "pH > 7.45 y PaCO₂ < 35 mmHg en gases arteriales.",
+      "Causas comunes: ansiedad, dolor, fiebre, sepsis, insuficiencia respiratoria.",
+      "Compensación renal disminuye HCO₃⁻, pero es lenta.",
+      "Puede producir hipocalemia, hipocalcemia y vasoconstricción cerebral.",
+      "El tratamiento se centra en corregir la causa y controlar la ventilación."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hiperventilación → disminución de PaCO₂.",
+        "Menor CO₂ reduce la concentración de ácido carbónico, elevando el pH.",
+        "Los riñones intentan compensar excretando HCO₃⁻, pero tardan horas‑días."
+      ],
+      "risk_factors": [
+        "Ansiedad o ataques de pánico.",
+        "Dolor agudo, fiebre o sepsis.",
+        "Hipoxia, insuficiencia cardíaca o enfermedad pulmonar obstructiva.",
+        "Uso de estimulantes (cafeína, anfetaminas)."
+      ],
+      "signs_symptoms": [
+        "Respiración rápida y profunda (respiración de Kussmaul).",
+        "Entumecimiento y hormigueo en manos y cara.",
+        "Palpitaciones, temblores y ansiedad.",
+        "Mareos, confusión o convulsiones en casos graves."
+      ],
+      "diagnostics": [
+        "Gases arteriales: pH 7.46‑7.55, PaCO₂ <35 mmHg, HCO₃⁻ normal o ligeramente bajo.",
+        "Electrolitos: K⁺ <3.5 mEq/L, Ca²⁺ bajo.",
+        "Oxígeno arterial (PaO₂) normalmente normal o elevado.",
+        "ECG: puede mostrar arritmias por hipocalemia."
+      ],
+      "treatment": [
+        "Identificar y tratar la causa subyacente (ansiedad, dolor, fiebre).",
+        "Técnicas de respiración controlada (respiración con labios fruncidos).",
+        "Reemplazo de electrolitos: potasio y calcio por vía oral o IV según necesidad.",
+        "Oxígeno suplementario solo si hay hipoxemia.",
+        "Ansiólitos leves (ej. lorazepam) bajo prescripción."
+      ],
+      "complications": [
+        "Hipocalemia e hipocalcemia → arritmias cardíacas.",
+        "Vasoconstricción cerebral → disminución del flujo sanguíneo y posible síncope.",
+        "Convulsiones por alcalosis severa.",
+        "Descompensación respiratoria si la causa subyacente empeora."
+      ],
+      "nursing_care": [
+        "Monitorear gases arteriales cada 2‑4 h hasta estabilización.",
+        "Evaluar signos de desequilibrio electrolítico (ECG, debilidad muscular).",
+        "Enseñar respiración lenta y profunda; posición semi‑Fowler.",
+        "Registrar frecuencia respiratoria, ritmo cardíaco y saturación de O₂.",
+        "Administrar reposición de K⁺/Ca²⁺ según indicación médica."
+      ],
+      "patient_teaching": [
+        "Practicar técnicas de respiración diafragmática para evitar hiperventilación.",
+        "Reconocer síntomas de desequilibrio electrolítico y buscar ayuda.",
+        "Mantener hidratación adecuada y seguir dieta rica en potasio (plátano, papaya).",
+        "Informar al profesional de salud sobre episodios de ansiedad o dolor intenso."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiperventilación",
+          "ansiedad",
+          "dolor",
+          "fiebre"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Equilibrio electrolítico – mantener K⁺ ≥3.5 mEq/L",
+          "NOC: Estado neurológico – ausencia de parestesias"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles séricos de K⁺ y Ca²⁺ cada 4 h.",
+            "rationale": "Detectar rápidamente desequilibrios que pueden causar arritmias."
+          },
+          {
+            "action": "Administrar suplementos de potasio o calcio según prescripción.",
+            "rationale": "Corregir la hipocalemia/hypocalcemia y prevenir complicaciones."
+          },
+          {
+            "action": "Evaluar ECG al menos una vez al día o si aparecen palpitaciones.",
+            "rationale": "Identificar arritmias relacionadas con alteraciones electrolíticas."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de respiración controlada.",
+            "rationale": "Reducir la hiperventilación y la pérdida de CO₂."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "disnea al realizar actividades leves",
+          "fatiga",
+          "taquicardia durante el esfuerzo"
+        ],
+        "outcomes": [
+          "NOC: Tolerancia a la actividad – paciente completa actividades de la vida diaria sin disnea",
+          "NOC: Fatiga – puntuación de escala de fatiga ≤2/10"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar signos vitales antes y después.",
+            "rationale": "Establecer línea base y detectar deterioro."
+          },
+          {
+            "action": "Planificar períodos de descanso cada 10‑15 min durante actividades.",
+            "rationale": "Prevenir sobrecarga respiratoria y fatiga."
+          },
+          {
+            "action": "Aplicar técnicas de respiración diafragmática durante el esfuerzo.",
+            "rationale": "Mejorar ventilación y reducir sensación de falta de aire."
+          },
+          {
+            "action": "Colaborar con fisioterapia para programa de ejercicios graduados.",
+            "rationale": "Incrementar gradualmente la capacidad aeróbica y la tolerancia."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de evitar hiperventilación durante el ejercicio.",
+            "rationale": "Mantener PaCO₂ dentro de rangos normales y prevenir alcalosis."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Respiratory alkalosis",
+    "aliases": [
+      "respiratory alkalosis",
+      "hyperventilation",
+      "high ph",
+      "low co2",
+      "rapid breathing",
+      "dyspnea"
+    ],
+    "summary": "Increase in blood pH due to decreased PaCO₂ from hyperventilation. Can be acute or chronic.",
+    "key_points": [
+      "pH > 7.45 and PaCO₂ < 35 mmHg in arterial blood gases.",
+      "Common causes: anxiety, pain, fever, sepsis, respiratory failure.",
+      "Renal compensation decreases HCO₃⁻, but it is slow.",
+      "May produce hypokalemia, hypocalcemia and cerebral vasoconstriction.",
+      "Treatment focuses on correcting the cause and controlling ventilation."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hyperventilation → decreased PaCO₂.",
+        "Lower CO₂ reduces carbonic acid concentration, raising pH.",
+        "The kidneys attempt to compensate by excreting HCO₃⁻, but take hours‑days."
+      ],
+      "risk_factors": [
+        "Anxiety or panic attacks.",
+        "Acute pain, fever or sepsis.",
+        "Hypoxia, heart failure or obstructive lung disease.",
+        "Use of stimulants (caffeine, amphetamines)."
+      ],
+      "signs_symptoms": [
+        "Rapid and deep breathing (Kussmaul breathing).",
+        "Numbness and tingling in hands and face.",
+        "Palpitations, tremors and anxiety.",
+        "Dizziness, confusion or seizures in severe cases."
+      ],
+      "diagnostics": [
+        "Arterial blood gases: pH 7.46‑7.55, PaCO₂ <35 mmHg, HCO₃⁻ normal or slightly low.",
+        "Electrolytes: K⁺ <3.5 mEq/L, low Ca²⁺.",
+        "Arterial oxygen (PaO₂) usually normal or elevated.",
+        "ECG: may show arrhythmias from hypokalemia."
+      ],
+      "treatment": [
+        "Identify and treat the underlying cause (anxiety, pain, fever).",
+        "Controlled breathing techniques (pursed‑lip breathing).",
+        "Electrolyte replacement: potassium and calcium orally or IV as needed.",
+        "Supplemental oxygen only if hypoxemia is present.",
+        "Mild anxiolytics (e.g., lorazepam) under prescription."
+      ],
+      "complications": [
+        "Hypokalemia and hypocalcemia → cardiac arrhythmias.",
+        "Cerebral vasoconstriction → decreased blood flow and possible syncope.",
+        "Seizures from severe alkalosis.",
+        "Respiratory decompensation if the underlying cause worsens."
+      ],
+      "nursing_care": [
+        "Monitor arterial blood gases every 2‑4 h until stabilization.",
+        "Assess signs of electrolyte imbalance (ECG, muscle weakness).",
+        "Teach slow, deep breathing; semi‑Fowler position.",
+        "Record respiratory rate, heart rate and O₂ saturation.",
+        "Administer K⁺/Ca²⁺ replacement as ordered."
+      ],
+      "patient_teaching": [
+        "Practice diaphragmatic breathing techniques to avoid hyperventilation.",
+        "Recognize symptoms of electrolyte imbalance and seek help.",
+        "Maintain adequate hydration and follow a potassium‑rich diet (banana, papaya).",
+        "Inform healthcare provider about anxiety or intense pain episodes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyperventilation",
+          "anxiety",
+          "pain",
+          "fever"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Electrolyte balance – maintain K⁺ ≥3.5 mEq/L",
+          "NOC: Neurological status – absence of paresthesias"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum K⁺ and Ca²⁺ levels every 4 h.",
+            "rationale": "Detect electrolyte imbalances that can cause arrhythmias."
+          },
+          {
+            "action": "Administer potassium or calcium supplements as prescribed.",
+            "rationale": "Correct hypokalemia/hypocalcemia and prevent complications."
+          },
+          {
+            "action": "Evaluate ECG at least once daily or if palpitations occur.",
+            "rationale": "Identify arrhythmias related to electrolyte disturbances."
+          },
+          {
+            "action": "Teach the patient controlled breathing techniques.",
+            "rationale": "Reduce hyperventilation and CO₂ loss."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "dyspnea with light activity",
+          "fatigue",
+          "tachycardia during exertion"
+        ],
+        "outcomes": [
+          "NOC: Activity tolerance – patient completes daily activities without dyspnea",
+          "NOC: Fatigue – fatigue scale score ≤2/10"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record vital signs before and after.",
+            "rationale": "Establish baseline and detect deterioration."
+          },
+          {
+            "action": "Plan rest periods every 10‑15 min during activities.",
+            "rationale": "Prevent respiratory overload and fatigue."
+          },
+          {
+            "action": "Apply diaphragmatic breathing techniques during exertion.",
+            "rationale": "Improve ventilation and reduce shortness of breath."
+          },
+          {
+            "action": "Collaborate with physical therapy for a graded exercise program.",
+            "rationale": "Gradually increase aerobic capacity and tolerance."
+          },
+          {
+            "action": "Educate the patient on the importance of avoiding hyperventilation during exercise.",
+            "rationale": "Maintain PaCO₂ within normal ranges and prevent alkalosis."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypokalemia",
+    "hyperventilation-syndrome",
+    "respiratory-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Lung Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/lungdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-23",
+  "factcheck": {
+    "checked": "2026-10-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 32,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Acute asthma exacerbations, pulmonary embolisms, or other respiratory disorders can initially cause respiratory alkalosis as the lungs breathe faster in an attempt to increase oxygenation, which decreases the PaCO 2 .",
+        "source": 1
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Anxiety, pain, fear, asthma exacerbation, pulmonary embolus Hyperventilation Respiratory alkalosis (pH >7.45; PaCO 2 <35 mm Hg) Hypoventilation in response to alka"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Acute asthma exacerbations, pulmonary embolisms, or other respiratory disorders can initially cause respiratory alkalosis as the lungs breathe faster in an attempt to increase oxygenation, which decreases the PaCO 2 .",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Hyperventilation can occur due to anxiety, panic attacks, pain, fear, head injuries, or mechanical ventilation .",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "contradicted",
+        "quote": "A specific type of hypoxia is hypoxemia , defined as decreased partial pressure of oxygen in the blood (PaO 2 ) indicated in an ABG result.",
+        "source": 1
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Hyperventilation can occur due to anxiety, panic attacks, pain, fear, head injuries, or mechanical ventilation .",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "As hypoxia worsens, the patient’s level of consciousness and vital signs will worsen with an increased respiratory rate and heart rate and decreased pulse oximetry readings.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Respiration is a critical function and is included as one of the vital signs, which most commonly include respiratory rate, heart rate, temperature, and blood pressure.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

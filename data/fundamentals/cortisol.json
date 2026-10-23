@@ -1,0 +1,333 @@
+{
+  "id": "cortisol",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Cortisol",
+    "aliases": [
+      "cortisol",
+      "hormona del estrés",
+      "glucocorticoide",
+      "cortisol sérico",
+      "cortisol plasma"
+    ],
+    "summary": "El cortisol es un glucocorticoide producido por la corteza suprarrenal que regula el metabolismo, la respuesta al estrés, la presión arterial y la glucemia.",
+    "key_points": [
+      "Se libera en respuesta al eje HPA y al estrés físico o psicológico.",
+      "Aumenta la gluconeogénesis y eleva la glucosa sanguínea.",
+      "Tiene efectos antiinflamatorios y suprime la respuesta inmune.",
+      "El exceso produce síndrome de Cushing; la deficiencia causa insuficiencia suprarrenal.",
+      "Los niveles varían diurnamente: pico matutino y mínimo nocturno."
+    ],
+    "sections": {
+      "purpose": [
+        "Regular el metabolismo de carbohidratos, proteínas y grasas.",
+        "Modular la respuesta inflamatoria e inmunológica.",
+        "Mantener la presión arterial y el equilibrio de agua y electrolitos.",
+        "Facilitar la adaptación al estrés."
+      ],
+      "procedure": [
+        "Obtener muestra de sangre venosa en ayunas, preferiblemente entre 06:00 y 08:00 h.",
+        "Usar tubo sin anticoagulante; centrifugar y separar suero.",
+        "Enviar el suero al laboratorio para inmunoensayo de cortisol.",
+        "Registrar hora de extracción y cualquier medicación glucocorticoide reciente."
+      ],
+      "safety": [
+        "Verificar alergia a material de venopunción.",
+        "Aplicar técnica aséptica para evitar infección.",
+        "Informar al paciente que el cortisol puede estar elevado por estrés agudo o ejercicio intenso.",
+        "Mantener la muestra refrigerada si el análisis se retrasa >2 h."
+      ],
+      "nursing_care": [
+        "Evaluar signos de exceso: hipertensión, aumento de peso central, hiperglucemia.",
+        "Observar signos de deficiencia: fatiga, hipotensión, hipoglucemia.",
+        "Monitorear glucosa capilar y presión arterial antes y después de la prueba.",
+        "Reportar resultados fuera del rango normal (matutino 5‑25 µg/dL) al médico."
+      ],
+      "documentation": [
+        "Hora y fecha de la extracción de sangre.",
+        "Condiciones del paciente (ayuno, estrés reciente, medicación glucocorticoide).",
+        "Método de análisis (inmunoensayo, espectrometría).",
+        "Resultado del cortisol y rango de referencia del laboratorio."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de nivel de glucemia inestable",
+        "type": "risk",
+        "related_to": [
+          "exceso de cortisol",
+          "síndrome de Cushing",
+          "terapia prolongada con glucocorticoides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de glucemia: glucosa en ayunas < 140 mg/dL",
+          "Estabilidad glucémica: ausencia de hiperglucemia > 180 mg/dL durante 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear glucosa capilar cada 4 h y antes de cada comida.",
+            "rationale": "Detectar rápidamente aumentos de glucosa provocados por el cortisol."
+          },
+          {
+            "action": "Educar al paciente sobre dieta baja en azúcares simples y alta en fibra.",
+            "rationale": "Ayuda a controlar la gluconeogénesis inducida por cortisol."
+          },
+          {
+            "action": "Evaluar presión arterial y peso diariamente.",
+            "rationale": "El cortisol elevado puede contribuir a hipertensión y retención de líquidos."
+          },
+          {
+            "action": "Coordinar con el médico para ajustar la dosis de glucocorticoides si es necesario.",
+            "rationale": "Reducir la exposición al glucocorticoide disminuye la hiperglucemia."
+          },
+          {
+            "action": "Registrar todas las lecturas de glucosa y signos de hiperglucemia en la hoja de cuidados.",
+            "rationale": "Facilita la detección de tendencias y la toma de decisiones clínicas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cortisol",
+    "aliases": [
+      "cortisol",
+      "stress hormone",
+      "glucocorticoid",
+      "serum cortisol",
+      "plasma cortisol"
+    ],
+    "summary": "Cortisol is a glucocorticoid produced by the adrenal cortex that regulates metabolism, the stress response, blood pressure, and blood glucose.",
+    "key_points": [
+      "Released in response to the HPA axis and physical or psychological stress.",
+      "Increases gluconeogenesis and raises blood glucose.",
+      "Has anti‑inflammatory effects and suppresses the immune response.",
+      "Excess causes Cushing syndrome; deficiency leads to adrenal insufficiency.",
+      "Levels vary diurnally: morning peak and nighttime trough."
+    ],
+    "sections": {
+      "purpose": [
+        "Regulate carbohydrate, protein, and fat metabolism.",
+        "Modulate inflammatory and immune responses.",
+        "Maintain blood pressure and water/electrolyte balance.",
+        "Facilitate adaptation to stress."
+      ],
+      "procedure": [
+        "Obtain fasting venous blood sample, preferably between 06:00 and 08:00 a.m.",
+        "Use a tube without anticoagulant; centrifuge and separate serum.",
+        "Send serum to the laboratory for cortisol immunoassay.",
+        "Record time of draw and any recent glucocorticoid medication."
+      ],
+      "safety": [
+        "Check for allergy to venipuncture materials.",
+        "Apply aseptic technique to prevent infection.",
+        "Inform patient that cortisol may be elevated by acute stress or intense exercise.",
+        "Keep sample refrigerated if analysis is delayed >2 h."
+      ],
+      "nursing_care": [
+        "Assess signs of excess: hypertension, central weight gain, hyperglycemia.",
+        "Observe signs of deficiency: fatigue, hypotension, hypoglycemia.",
+        "Monitor capillary glucose and blood pressure before and after the test.",
+        "Report results outside the normal range (morning 5‑25 µg/dL) to the physician."
+      ],
+      "documentation": [
+        "Time and date of blood draw.",
+        "Patient conditions (fasting, recent stress, glucocorticoid medication).",
+        "Method of analysis (immunoassay, spectrometry).",
+        "Cortisol result and laboratory reference range."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for unstable blood glucose level",
+        "type": "risk",
+        "related_to": [
+          "excess cortisol",
+          "Cushing syndrome",
+          "prolonged glucocorticoid therapy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood glucose control: fasting glucose < 140 mg/dL",
+          "Glucose stability: no hyperglycemia > 180 mg/dL for 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor capillary glucose every 4 h and before each meal.",
+            "rationale": "Detect rapid glucose increases caused by cortisol."
+          },
+          {
+            "action": "Educate patient on a low‑simple‑sugar, high‑fiber diet.",
+            "rationale": "Helps control cortisol‑induced gluconeogenesis."
+          },
+          {
+            "action": "Assess blood pressure and weight daily.",
+            "rationale": "Elevated cortisol can contribute to hypertension and fluid retention."
+          },
+          {
+            "action": "Coordinate with physician to adjust glucocorticoid dosage if necessary.",
+            "rationale": "Reducing glucocorticoid exposure decreases hyperglycemia."
+          },
+          {
+            "action": "Record all glucose readings and signs of hyperglycemia on the care sheet.",
+            "rationale": "Facilitates trend detection and clinical decision making."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cushing-syndrome",
+    "glucocorticoid-therapy",
+    "hyperglycemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cushing Syndrome",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cushingsyndrome.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedades de las glándulas suprarrenales",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/adrenalglanddisorders.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Adrenal Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-5-adrenal-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Stress and Adaptation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/34-3-factors-affecting-stress-and-adaptation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-23",
+  "factcheck": {
+    "checked": "2026-10-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 16,
+      "contradicted": 1,
+      "total": 26
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The adrenal cortex produces several key steroid hormones, including glucocorticoids like cortisol, which help regulate metabolism and the body’s stress response; mineralocorticoids such as aldosterone, which are crucial for managing blood pressure and electrolyte balance; and androgens, which influence sexual development and function.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "These symptoms are mediated by the hormones of the adrenal cortex, especially cortisol, released as a result of signals from the hypothalamic-pituitary-adrenal (HPA) axis.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The cortisol deficiency can result in low blood glucose levels, as it prevents the formation of glucose from molecules that aren’t carbohydrates (gluconeogenesis), which is necessary for the body to maintain steady glucose levels.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "In this stage, individuals may begin to experience depression, the suppression of their immune response, severe fatigue, or even a fatal heart attack.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Cushing’s syndrome is most commonly caused by long-term use or high doses of glucocorticoids (exogenous Cushing’s syndrome) but can also be caused by excess production of cortisol by the adrenal glands (endogenous Cushing’s syndrome).",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.purpose.0": {
+        "status": "supported",
+        "quote": "The adrenal cortex produces several key steroid hormones, including glucocorticoids like cortisol, which help regulate metabolism and the body’s stress response; mineralocorticoids such as aldosterone, which are crucial for managing blood pressure and electrolyte balance; and androgens, which influence sexual development and function.",
+        "source": 2
+      },
+      "sections.purpose.1": {
+        "status": "supported",
+        "quote": "Immune responses, including inflammation and the potential for autoimmune implications, are also promoted by the renin-angiotensin-aldosterone system.",
+        "source": 3
+      },
+      "sections.purpose.2": {
+        "status": "supported",
+        "quote": "The adrenal cortex produces several key steroid hormones, including glucocorticoids like cortisol, which help regulate metabolism and the body’s stress response; mineralocorticoids such as aldosterone, which are crucial for managing blood pressure and electrolyte balance; and androgens, which influence sexual development and function.",
+        "source": 2
+      },
+      "sections.purpose.3": {
+        "status": "supported",
+        "quote": "The body responds in different ways to short-term stress and long-term stress, following the pattern of General Adaptation Syndrome (GAS).",
+        "source": 2
+      },
+      "sections.procedure.0": {
+        "status": "not_found"
+      },
+      "sections.procedure.1": {
+        "status": "not_found"
+      },
+      "sections.procedure.2": {
+        "status": "not_found"
+      },
+      "sections.procedure.3": {
+        "status": "not_found"
+      },
+      "sections.safety.0": {
+        "status": "not_found"
+      },
+      "sections.safety.1": {
+        "status": "not_found"
+      },
+      "sections.safety.2": {
+        "status": "not_found"
+      },
+      "sections.safety.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "contradicted",
+        "quote": "A morning serum cortisol level less than 3 mcg/dL will be present.",
+        "source": 2
+      },
+      "sections.documentation.0": {
+        "status": "not_found"
+      },
+      "sections.documentation.1": {
+        "status": "not_found"
+      },
+      "sections.documentation.2": {
+        "status": "not_found"
+      },
+      "sections.documentation.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,416 @@
+{
+  "id": "antibiotic-resistance",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Resistencia a los antibióticos",
+    "aliases": [
+      "resistencia antibióticos",
+      "antibiotic resistance",
+      "resistencia a antibióticos",
+      "bacterias resistentes",
+      "resistencia antibiótica"
+    ],
+    "summary": "La resistencia a los antibióticos ocurre cuando las bacterias adquieren mecanismos que les permiten sobrevivir a la acción de los fármacos, dificultando el tratamiento de infecciones.",
+    "key_points": [
+      "Mecanismos bacterianos: alteración del sitio de unión, bombas de eflujo, enzimas inactivadoras.",
+      "Uso inadecuado de antibióticos (dosis, duración, automedicación) es el principal factor de riesgo.",
+      "Infecciones resistentes pueden requerir hospitalización prolongada y terapias costosas.",
+      "La vigilancia y el programa de stewardship son esenciales para prevenir la propagación."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exposición repetida a antibióticos genera presión selectiva sobre la flora bacteriana.",
+        "Bacterias con mutaciones o genes de resistencia sobreviven y se multiplican.",
+        "Transferencia horizontal de genes (plásmidos, transposones) difunde resistencia entre especies.",
+        "Los mecanismos incluyen degradación del fármaco, alteración del blanco y reducción de permeabilidad."
+      ],
+      "risk_factors": [
+        "Uso prolongado o innecesario de antibióticos.",
+        "Hospitalizaciones previas y cuidados intensivos.",
+        "Procedimientos invasivos (catéteres, ventilación mecánica).",
+        "Viaje a regiones con alta prevalencia de bacterias resistentes."
+      ],
+      "signs_symptoms": [
+        "Fiebre persistente a pesar del tratamiento antibiótico.",
+        "Empeoramiento del sitio de infección (dolor, inflamación).",
+        "Cultivo positivo para microorganismos resistentes.",
+        "Síntomas sistémicos de sepsis en casos graves."
+      ],
+      "diagnostics": [
+        "Cultivo y antibiograma para identificar sensibilidad.",
+        "Pruebas moleculares (PCR) para genes de resistencia específicos.",
+        "Monitoreo de marcadores inflamatorios (PCR, leucocitos).",
+        "Radiografía o ecografía según localización de la infección."
+      ],
+      "treatment": [
+        "Cambio a antibiótico de espectro amplio basado en antibiograma.",
+        "Terapia combinada para prevenir desarrollo adicional de resistencia.",
+        "Medidas de soporte: hidratación, control de temperatura, oxigenoterapia.",
+        "Implementación de programa de antibiotic stewardship en la unidad."
+      ],
+      "complications": [
+        "Sepsis y shock séptico.",
+        "Mayor duración de estancia hospitalaria.",
+        "Aumento de morbilidad y mortalidad.",
+        "Costos elevados y toxicidad por fármacos de segunda línea."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4‑8 h; vigilar fiebre y presión arterial.",
+        "Monitorear resultados de laboratorio (leucocitos, PCR, función renal).",
+        "Administrar antibiótico según orden, verificar vía y tiempo.",
+        "Mantener higiene de vías invasivas y cambiar apósitos estériles.",
+        "Documentar respuesta clínica y notificar cambios al médico."
+      ],
+      "patient_teaching": [
+        "Importancia de completar el ciclo completo del antibiótico.",
+        "No compartir antibióticos ni automedicarse.",
+        "Reconocer signos de empeoramiento y buscar atención inmediata.",
+        "Practicar medidas de prevención: lavado de manos y vacunación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso inapropiado de antibióticos",
+          "hospitalización previa",
+          "dispositivos invasivos",
+          "exposición a bacterias resistentes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reducción del riesgo de infección a <5 % durante la estancia hospitalaria",
+          "NOC: Mantener temperatura corporal entre 36.5‑37.5 °C"
+        ],
+        "interventions": [
+          {
+            "action": "Revisar la prescripción de antibióticos y confirmar indicación adecuada.",
+            "rationale": "Previene uso innecesario que favorece resistencia."
+          },
+          {
+            "action": "Aplicar técnica aséptica al manipular catéteres y vías invasivas.",
+            "rationale": "Disminuye la introducción de microorganismos patógenos."
+          },
+          {
+            "action": "Monitorear signos vitales y reporte de fiebre o escalofríos.",
+            "rationale": "Detección temprana de infección emergente."
+          },
+          {
+            "action": "Educar al paciente sobre higiene de manos y cuidados de heridas.",
+            "rationale": "Reduce la transmisión de bacterias resistentes."
+          },
+          {
+            "action": "Coordinar con el equipo de stewardship para revisión diaria de antibióticos.",
+            "rationale": "Optimiza la terapia y minimiza exposición innecesaria."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Antibiotic resistance",
+    "aliases": [
+      "antibiotic resistance",
+      "resistance to antibiotics",
+      "bacteria resistant"
+    ],
+    "summary": "Antibiotic resistance occurs when bacteria acquire mechanisms that allow them to survive the action of drugs, making infection treatment difficult.",
+    "key_points": [
+      "Bacterial mechanisms: alteration of binding site, efflux pumps, inactivating enzymes.",
+      "Inappropriate antibiotic use (dose, duration, self-medication) is the main risk factor.",
+      "Resistant infections may require prolonged hospitalization and costly therapies.",
+      "Surveillance and stewardship programs are essential to prevent spread."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Repeated exposure to antibiotics creates selective pressure on bacterial flora.",
+        "Bacteria with resistance mutations or genes survive and multiply.",
+        "Horizontal gene transfer (plasmids, transposons) spreads resistance among species.",
+        "Mechanisms include drug degradation, target alteration, and reduced permeability."
+      ],
+      "risk_factors": [
+        "Prolonged or unnecessary antibiotic use.",
+        "Previous hospitalizations and intensive care.",
+        "Invasive procedures (catheters, mechanical ventilation).",
+        "Travel to regions with high prevalence of resistant bacteria."
+      ],
+      "signs_symptoms": [
+        "Persistent fever despite antibiotic treatment.",
+        "Worsening of infection site (pain, inflammation).",
+        "Positive culture for resistant microorganisms.",
+        "Systemic sepsis symptoms in severe cases."
+      ],
+      "diagnostics": [
+        "Culture and antibiogram to identify sensitivity.",
+        "Molecular tests (PCR) for specific resistance genes.",
+        "Monitoring inflammatory markers (CRP, leukocytes).",
+        "X-ray or ultrasound as needed for infection location."
+      ],
+      "treatment": [
+        "Switch to a broad-spectrum antibiotic based on antibiogram.",
+        "Combination therapy to prevent further resistance development.",
+        "Supportive measures: hydration, temperature control, oxygen therapy.",
+        "Implement antibiotic stewardship program in the unit."
+      ],
+      "complications": [
+        "Sepsis and septic shock.",
+        "Longer hospital stay.",
+        "Increased morbidity and mortality.",
+        "High costs and toxicity from second-line drugs."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4‑8 h; monitor fever and blood pressure.",
+        "Monitor lab results (leukocytes, CRP, renal function).",
+        "Administer antibiotic per order, verify route and timing.",
+        "Maintain hygiene of invasive lines and change sterile dressings.",
+        "Document clinical response and notify physician of changes."
+      ],
+      "patient_teaching": [
+        "Importance of completing the full antibiotic course.",
+        "Do not share antibiotics or self-medicate.",
+        "Recognize signs of worsening and seek immediate care.",
+        "Practice preventive measures: hand washing and vaccination."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "inappropriate antibiotic use",
+          "previous hospitalization",
+          "invasive devices",
+          "exposure to resistant bacteria"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reduce risk of infection to <5 % during hospital stay",
+          "NOC: Maintain core temperature between 36.5‑37.5 °C"
+        ],
+        "interventions": [
+          {
+            "action": "Review antibiotic prescription and confirm appropriate indication.",
+            "rationale": "Prevents unnecessary use that promotes resistance."
+          },
+          {
+            "action": "Apply aseptic technique when handling catheters and invasive lines.",
+            "rationale": "Reduces introduction of pathogenic microorganisms."
+          },
+          {
+            "action": "Monitor vital signs and report fever or chills.",
+            "rationale": "Early detection of emerging infection."
+          },
+          {
+            "action": "Educate patient on hand hygiene and wound care.",
+            "rationale": "Reduces transmission of resistant bacteria."
+          },
+          {
+            "action": "Coordinate with stewardship team for daily antibiotic review.",
+            "rationale": "Optimizes therapy and minimizes unnecessary exposure."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "antibiotic-stewardship",
+    "multidrug-resistant-bacteria",
+    "sepsis",
+    "infection-control"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Antibiotic Resistance",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/antibioticresistance.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Resistencia a los antibióticos",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/antibioticresistance.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Antibiotic Resistance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-3-antibiotic-resistance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-23",
+  "factcheck": {
+    "checked": "2026-10-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 23,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Superinfections can occur when the use of broad-spectrum antibiotics kills off normal nonpathogenic bacteria and leaves behind drug-resistant bacteria that can produce a new infection that is more difficult to treat ( Figure 7.3 ).",
+        "source": 3
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Monitoring and surveillance: Track resistance patterns: Monitor and track antibiotic resistance patterns in health-care settings to inform treatment decisions and policy adjustments.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "As bacteria are exposed to antibiotics, evolutionary changes occur, leading to the development of resistant strains that can withstand the antibiotic exposure and continue to thrive.",
+        "source": 3
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "doing so only ensures that more bacteria survive to pass on resistance to new generations.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Risk factors for infection with VRE include (Doganci et al., 2023): history of invasive surgical procedures or medical device placement long-term hospitalization previous use of vancomycin to treat an infection weak immune system (e.g., HIV, critically ill patients)",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Risk factors for infection with VRE include (Doganci et al., 2023): history of invasive surgical procedures or medical device placement long-term hospitalization previous use of vancomycin to treat an infection weak immune system (e.g., HIV, critically ill patients)",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Though MRSA is usually confined to the skin, in some cases, it can spread deeper into the underlying tissues, bones, or organs, leading to severe systemic infection and sepsis if left untreated.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Broader-spectrum antibiotics: Use antibiotics with a broader spectrum of activity when appropriate, based on susceptibility testing.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Combination therapy: Use combination antibiotic therapy to enhance efficacy and prevent resistance development in cases where one antibiotic may help the other be more effective.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "This may simply mean adhering to best practices for using antibiotics and providing patient education, or it may involve active participation on a committee that is attempting to implement the initiatives on a specific unit or within the institution.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "If you get a resistant infection, you might need: A long hospital stay A long recovery Follow-up visits with health care providers Treatments that are expensive and may have severe side effects Antibiotic resistance is one type of antimicrobial resistance.",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Having fewer options to treat a client’s infection leads to worsened morbidity and mortality, higher health care costs, and the potential for bacteria to develop against which effective treatment does not exist.",
+        "source": 3
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "prescribing the correct route, dose, and duration of antibiotic treatment regiments",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "nurses must emphasize the importance of finishing the entire course of antibiotics, even if the patient reports improved symptoms, and not sharing medications with others.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Don't share your antibiotics with others.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

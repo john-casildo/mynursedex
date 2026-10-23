@@ -1,0 +1,491 @@
+{
+  "id": "ischemic-stroke",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Accidente cerebrovascular isquémico (ACI)",
+    "aliases": [
+      "ictus isquemico",
+      "stroke isquemico",
+      "accidente cerebrovascular isquemico",
+      "ictus",
+      "cerebrovascular",
+      "isquemico"
+    ],
+    "summary": "Obstrucción de una arteria cerebral por trombo o émbolo que reduce el flujo sanguíneo y causa daño neuronal en minutos.",
+    "key_points": [
+      "Representa ~87 % de los accidentes cerebrovasculares.",
+      "Tiempo crítico: tratamiento trombolítico dentro de 3‑4 h mejora pronóstico.",
+      "Factores de riesgo principales: aterosclerosis, fibrilación auricular, hipertensión.",
+      "Diagnóstico inmediato con TC sin contraste para descartar hemorragia.",
+      "Manejo incluye reperfusión, control de presión arterial y prevención secundaria."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Formación de trombo en arteria cerebral (trombosis) o embolia desde corazón/vasos periféricos.",
+        "Obstrucción impide la perfusión, provocando isquemia neuronal.",
+        "Falta de oxígeno → falla de la bomba de Na⁺/K⁺ → edema celular y muerte neuronal en <5 min.",
+        "Zona central de infarto rodeada por penumbra viable que puede salvarse con reperfusión."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Aterosclerosis y colesterol LDL >130 mg/dL.",
+        "Fibrilación auricular o cualquier arritmia que favorezca formación de émbolos.",
+        "Diabetes mellitus, tabaquismo y obesidad."
+      ],
+      "signs_symptoms": [
+        "Déficit neurológico súbito: hemiparesia, pérdida de sensibilidad, afasia.",
+        "Alteración de la visión (campo visual homónimo).",
+        "Dificultad para hablar o entender el lenguaje.",
+        "Cefalea súbita (menos frecuente en isquémico que en hemorrágico)."
+      ],
+      "diagnostics": [
+        "TC craneal sin contraste: descarta hemorragia, muestra hipodensidad tardía.",
+        "MRI difusión: identifica infarto en minutos.",
+        "Angiografía cerebral o CTA para localizar la oclusión.",
+        "Laboratorios: glucosa >200 mg/dL, perfil lipídico, INR (si está en anticoagulación)."
+      ],
+      "treatment": [
+        "Terapia trombolítica con alteplasa (tPA) IV dentro de 3‑4 h.",
+        "Antiplaquetarios: aspirina 81‑325 mg/día, clopidogrel si contraindicación a tPA.",
+        "Anticoagulantes (warfarina, dabigatrán) en fibrilación auricular crónica.",
+        "Control de presión arterial: labetalol, nicardipino para mantener PA <185/110 mmHg.",
+        "Manejo de la vía aérea y posición semisentada (30‑45°)."
+      ],
+      "complications": [
+        "Edema cerebral y herniación.",
+        "Hemorragia intracraneal secundaria al tPA.",
+        "Pérdida de función motora y cognitiva permanente.",
+        "Trombosis venosa profunda por inmovilidad."
+      ],
+      "nursing_care": [
+        "Evaluar escala NIHSS y monitorizar cambios neurológicos cada 15 min.",
+        "Controlar PA, FC, saturación O₂; mantener PA sistólica 140‑180 mmHg.",
+        "Mantener vía aérea permeable; posición semisentada para reducir presión intracraneal.",
+        "Administrar tPA según protocolo, observar signos de sangrado.",
+        "Prevención de complicaciones: movilización temprana, profilaxis de TVP."
+      ],
+      "patient_teaching": [
+        "Importancia de buscar ayuda en <3 h ante síntomas (FAST).",
+        "Adherencia a medicación antiplaquetaria/anticoagulante.",
+        "Control de factores de riesgo: dieta baja en sodio, ejercicio, dejar tabaco.",
+        "Reconocer signos de sangrado (hematuria, hematomas) si está en anticoagulación.",
+        "Plan de rehabilitación: fisioterapia y terapia ocupacional."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "trombosis cerebral",
+          "aterosclerosis",
+          "fibrilación auricular"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cerebral: presión arterial sistólica ≥90 mmHg en 90 % de los controles.",
+          "Función neurológica: escala NIHSS ≤4 al alta hospitalaria."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial cada 15 min y registrar valores.",
+            "rationale": "Detectar hipotensión que pueda empeorar la isquemia cerebral."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y escala NIHSS cada hora.",
+            "rationale": "Identificar deterioro neurológico precoz para intervención rápida."
+          },
+          {
+            "action": "Mantener posición semisentada (30‑45°) y evitar maniobras que aumenten la presión intracraneal.",
+            "rationale": "Facilita el retorno venoso cerebral y reduce edema."
+          },
+          {
+            "action": "Administrar terapia trombolítica según orden médica y observar signos de sangrado.",
+            "rationale": "Restaurar flujo sanguíneo y prevenir complicaciones hemorrágicas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatiga",
+          "debilidad unilateral",
+          "dificultad para caminar"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: completar actividades de la vida diaria al 80 % del nivel previo en 7 días.",
+          "Fatiga: puntuación ≤3 en escala de fatiga de 0‑10 al alta."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de tolerancia al ejercicio mediante pruebas de marcha corta cada 24 h.",
+            "rationale": "Establecer capacidad funcional y ajustar actividades."
+          },
+          {
+            "action": "Planificar descansos programados cada 10‑15 min durante actividades.",
+            "rationale": "Prevenir agotamiento y caída de la presión arterial."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse para vestirse, usar dispositivos de asistencia).",
+            "rationale": "Optimizar desempeño funcional mientras se recupera la fuerza."
+          },
+          {
+            "action": "Coordinar con fisioterapia para iniciar ejercicios de rango de movimiento y fortalecimiento gradual.",
+            "rationale": "Mejorar fuerza muscular y coordinación neurológica."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Ischemic cerebrovascular accident (ICA)",
+    "aliases": [
+      "ischemic stroke",
+      "ischemic cerebrovascular accident",
+      "stroke",
+      "cerebrovascular",
+      "ischemic"
+    ],
+    "summary": "Obstruction of a cerebral artery by thrombus or embolus that reduces blood flow and causes neuronal damage within minutes.",
+    "key_points": [
+      "Represents ~87 % of cerebrovascular accidents.",
+      "Critical time: thrombolytic treatment within 3‑4 h improves prognosis.",
+      "Main risk factors: atherosclerosis, atrial fibrillation, hypertension.",
+      "Immediate diagnosis with non‑contrast CT to rule out hemorrhage.",
+      "Management includes reperfusion, blood pressure control, and secondary prevention."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Formation of thrombus in cerebral artery (thrombosis) or embolism from heart/peripheral vessels.",
+        "Obstruction prevents perfusion, causing neuronal ischemia.",
+        "Lack of oxygen → Na⁺/K⁺ pump failure → cellular edema and neuronal death in <5 min.",
+        "Central infarct zone surrounded by viable penumbra that can be salvaged with reperfusion."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Atherosclerosis and LDL cholesterol >130 mg/dL.",
+        "Atrial fibrillation or any arrhythmia that favors embolus formation.",
+        "Diabetes mellitus, smoking, and obesity."
+      ],
+      "signs_symptoms": [
+        "Sudden neurological deficit: hemiparesis, sensory loss, aphasia.",
+        "Visual changes (homonymous visual field defect).",
+        "Difficulty speaking or understanding language.",
+        "Sudden headache (less frequent in ischemic than hemorrhagic)."
+      ],
+      "diagnostics": [
+        "Non‑contrast head CT: rules out hemorrhage, shows late hypodensity.",
+        "Diffusion MRI: identifies infarct within minutes.",
+        "Cerebral angiography or CTA to locate occlusion.",
+        "Laboratories: glucose >200 mg/dL, lipid profile, INR (if on anticoagulation)."
+      ],
+      "treatment": [
+        "Thrombolytic therapy with alteplase (tPA) IV within 3‑4 h.",
+        "Antiplatelets: aspirin 81‑325 mg/day, clopidogrel if contraindicated to tPA.",
+        "Anticoagulants (warfarin, dabigatran) in chronic atrial fibrillation.",
+        "Blood pressure control: labetalol, nicardipine to maintain BP <185/110 mmHg.",
+        "Airway management and semi‑recumbent position (30‑45°)."
+      ],
+      "complications": [
+        "Cerebral edema and herniation.",
+        "Secondary intracranial hemorrhage from tPA.",
+        "Permanent motor and cognitive deficits.",
+        "Deep vein thrombosis from immobility."
+      ],
+      "nursing_care": [
+        "Assess NIHSS and monitor neurological changes every 15 min.",
+        "Monitor BP, HR, O₂ saturation; keep systolic BP 140‑180 mmHg.",
+        "Maintain airway patency; semi‑recumbent position to reduce intracranial pressure.",
+        "Administer tPA per protocol, observe for bleeding signs.",
+        "Prevent complications: early mobilization, DVT prophylaxis."
+      ],
+      "patient_teaching": [
+        "Importance of seeking help within <3 h for symptoms (FAST).",
+        "Adherence to antiplatelet/anticoagulant medication.",
+        "Control risk factors: low‑sodium diet, exercise, quit smoking.",
+        "Recognize bleeding signs (hematuria, bruising) if on anticoagulation.",
+        "Rehabilitation plan: physiotherapy and occupational therapy."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "cerebral thrombosis",
+          "atherosclerosis",
+          "atrial fibrillation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral tissue perfusion: systolic blood pressure ≥90 mmHg in 90 % of checks.",
+          "Neurological function: NIHSS ≤4 at hospital discharge."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure every 15 min and record values.",
+            "rationale": "Detect hypotension that could worsen cerebral ischemia."
+          },
+          {
+            "action": "Assess level of consciousness and NIHSS hourly.",
+            "rationale": "Identify early neurological decline for prompt intervention."
+          },
+          {
+            "action": "Maintain semi‑recumbent position (30‑45°) and avoid maneuvers that increase intracranial pressure.",
+            "rationale": "Facilitates cerebral venous return and reduces edema."
+          },
+          {
+            "action": "Administer thrombolytic therapy per physician order and monitor for bleeding.",
+            "rationale": "Restore blood flow and prevent hemorrhagic complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatigue",
+          "unilateral weakness",
+          "difficulty walking"
+        ],
+        "outcomes": [
+          "Activity tolerance: complete activities of daily living at 80 % of prior level within 7 days.",
+          "Fatigue: score ≤3 on 0‑10 fatigue scale at discharge."
+        ],
+        "interventions": [
+          {
+            "action": "Assess exercise tolerance using short walk tests every 24 h.",
+            "rationale": "Determine functional capacity and adjust activities."
+          },
+          {
+            "action": "Plan scheduled rest breaks every 10‑15 min during activities.",
+            "rationale": "Prevent exhaustion and drop in blood pressure."
+          },
+          {
+            "action": "Teach energy conservation techniques (sit to dress, use assistive devices).",
+            "rationale": "Optimize functional performance while strength recovers."
+          },
+          {
+            "action": "Coordinate with physical therapy to initiate range‑of‑motion and gradual strengthening exercises.",
+            "rationale": "Improve muscle strength and neurological coordination."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hemorrhagic-stroke",
+    "atrial-fibrillation",
+    "atherosclerosis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Ischemic Stroke",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ischemicstroke.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Accidente cerebrovascular isquémico",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/ischemicstroke.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Ischemic Stroke",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-2-ischemic-stroke",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: The Cerebrovascular System and Cerebral Vascular Accidents",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-1-the-cerebrovascular-system-and-cerebral-vascular-accidents",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-23",
+  "factcheck": {
+    "checked": "2026-10-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 24,
+      "contradicted": 2,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The most important thing to know is that brain cells die within minutes of not receiving adequate oxygen through cerebral perfusion, so early recognition and intervention are essential for reducing poor outcomes.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "This medication is given intravenously after a hemorrhage has been ruled out by head CT (because a thrombolytic agent could make a hemorrhage worse).",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "These deposits can form a cerebral thrombus , which is essentially a clot within a blood vessel that blocks cerebral perfusion . Alternately, the clot preventing perfusion could be a cerebrovascular embolus , which forms elsewhere in the body (such as the heart or carotid arteries), breaks off, and travels to the blood vessels of the brain.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Any time there is an obstruction of the arteries responsible for blood flow to the brain, perfusion becomes limited, thereby causing brain cells to be deprived of vital oxygenation.",
+        "source": 3
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Isolated systolic hypertension is associated with increased risk of stroke.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Such embolisms most commonly form in the left atrium of the heart in patients with atrial fibrillation, a heart dysrhythmia discussed in Chapter 12 Cardiovascular System (American Stroke Association, 2023).",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Type of Risk Factor Factors Modifiable Alcohol consumption Atrial fibrillation Cardiac disease Diabetes mellitus Hyperlipidemia Hypertension Obesity Physical inactivity Sleep apnea Smoking Unhealthy diet Nonmodifiable Age (older adults at greater risk) Family history Prior stroke or TIA Race/ethnicity (Black and Hispanic/Latinx populations at gre",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Depending on the involvement of one to up to four of the MCA branches, signs and symptoms of an occlusion could include: hemiplegia , or complete paralysis on the side of the body opposite the CVA hemiparesis , or weakness on the side of the body opposite the CVA sensory changes of the face and arm on the side of the body opposite the CVA aphasia , or loss of language skills affecting expression, comprehension, or both, depending on the severity",
+        "source": 3
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Table 15.2 summarizes these deficits for the major stroke locations. Stroke Location Common Deficits MCA hemiplegia hemiparesis aphasia homonymous hemianopsia ICA paralysis of and sensory changes in the face, leg, and arm on the side of the body opposite to the stroke aphasia apraxia homonymous hemianopsia one-sided neglect ACA paralysis and sensory changes of the foot or leg on the side of the body opposite to the stroke gait impairments cogniti",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "They include: Sudden numbness or weakness of the face, arm or leg (especially on one side of the body) Sudden confusion, trouble speaking or understanding speech Sudden trouble seeing in one or both eyes Sudden trouble walking, dizziness, loss of balance or coordination Sudden severe headache with no known cause If you think someone is having a stroke, the F.A.S.T. test can help you remember what to look for.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Patients with hemorrhagic strokes will more often complain of neck pain, photosensitivity, or nausea and vomiting; patients often present with subjective complaints of the worst headache of their life.",
+        "source": 3
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "MRAs and CTAs are noninvasive scans that provide a view of the vessels within the brain and neck and allow vascular abnormalities, such as occlusions and stenoses, to be visualized.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "contradicted",
+        "quote": "The systolic goal is < 160–180 mmHg for patients who have received tPA, but it may be even higher (up to 220/120) for those who did not receive tPA.",
+        "source": 2
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "The major risk associated with tPA is bleeding, particularly intracranial hemorrhage .",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "contradicted",
+        "quote": "The systolic goal is < 160–180 mmHg for patients who have received tPA, but it may be even higher (up to 220/120) for those who did not receive tPA.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The major risk associated with tPA is bleeding, particularly intracranial hemorrhage .",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Other members of the interdisciplinary team may include: diagnostic imaging team members pharmacists nutritionists social workers therapists, including occupational, physical, recreational, and speech language mental, behavioral, or neuropsychological therapists primary care providers neurologists and specialists in stroke care various health educators rehabilitation nurses home care providers",
+        "source": 3
+      }
+    }
+  }
+}

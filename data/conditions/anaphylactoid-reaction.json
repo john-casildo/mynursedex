@@ -1,0 +1,404 @@
+{
+  "id": "anaphylactoid-reaction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Reacción anafilactoide",
+    "aliases": [
+      "reaccion anafilactoide",
+      "anafilactoid",
+      "reaccion al transfusion",
+      "reaccion alergenica",
+      "reaccion al sangre"
+    ],
+    "summary": "Respuesta inmunológica exagerada que se asemeja a la anafilaxia pero sin mediación de IgE, frecuentemente asociada a transfusiones o a ciertos fármacos.",
+    "key_points": [
+      "Puede presentarse minutos después de la exposición al alérgeno",
+      "Compromiso de vías aéreas y caída brusca de presión arterial son críticos",
+      "El tratamiento de primera línea es epinefrina intramuscular",
+      "Se requiere monitorización continua de signos vitales y oxigenación"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Desencadenante libera mediadores (histamina, leucotrienos) sin IgE",
+        "Aumento de permeabilidad capilar → extravasación de plasma",
+        "Broncoconstricción y edema de mucosas respiratorias",
+        "Vasodilatación sistémica → hipotensión"
+      ],
+      "risk_factors": [
+        "Historia previa de reacciones alérgicas a sangre o medicamentos",
+        "Múltiples transfusiones o exposición a productos biológicos",
+        "Enfermedades crónicas con alteración inmunológica",
+        "Ansiedad o estrés que potencian respuesta histamínica"
+      ],
+      "signs_symptoms": [
+        "Prurito, urticaria o eritema cutáneo",
+        "Disnea, sibilancias y tos",
+        "Hipotensión (PA <90/60 mmHg) y taquicardia (>100 lpm)",
+        "Dolor torácico, náuseas o vómitos"
+      ],
+      "diagnostics": [
+        "Monitor de signos vitales cada 5‑15 min",
+        "Oximetría de pulso <94% indica compromiso respiratorio",
+        "Gasometría arterial: PaO2 ↓, pH ↓ si hay shock",
+        "Examen físico: edema de labios, lengua o faringe"
+      ],
+      "treatment": [
+        "Epinefrina 0.3‑0.5 mg IM, repetir cada 5‑15 min si persiste",
+        "Antihistamínico H1 (difenhidramina) IV/IM",
+        "Corticoide (metilprednisolona) IV para prevenir fase tardía",
+        "Oxígeno suplementario 2‑6 L/min por cánula nasal",
+        "Fluidos cristaloides isotónicos (solución salina 0.9%) para mantener PA"
+      ],
+      "complications": [
+        "Shock hipovolémico o distributivo",
+        "Edema pulmonar agudo (ARDS)"
+      ],
+      "nursing_care": [
+        "Evaluar ABC al iniciar la reacción y cada 5 min",
+        "Obtener y registrar PA, FC, FR, temperatura y saturación",
+        "Administrar epinefrina según orden y observar respuesta",
+        "Mantener vía IV abierta, iniciar fluidos según protocolo",
+        "Documentar tiempo de inicio, signos, intervenciones y respuesta"
+      ],
+      "patient_teaching": [
+        "Informar sobre signos de alerta que requieren atención inmediata",
+        "Explicar la importancia de premedicación antes de transfusiones si tiene antecedentes",
+        "Enseñar uso de autoinyector de epinefrina si está indicado",
+        "Recomendar evitar alérgenos conocidos y llevar identificación médica"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vasodilatación sistémica",
+          "aumento de permeabilidad capilar",
+          "pérdida de plasma"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen intravascular mantenido: PA ≥90/60 mmHg",
+          "Balance hídrico equilibrado: ingesta y salida registradas sin déficit"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear PA, FC y diuresis cada 15 min",
+            "rationale": "Detectar precozmente hipotensión y pérdida de líquidos"
+          },
+          {
+            "action": "Iniciar fluidos cristaloides isotónicos por vía IV según orden",
+            "rationale": "Reemplazar el volumen intravascular perdido"
+          },
+          {
+            "action": "Evaluar signos de edema periférico y turgencia de piel",
+            "rationale": "Identificar acumulación de líquidos o hipovolemia"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos en hoja de observación",
+            "rationale": "Facilitar cálculo del balance hídrico"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar sudoración y mareos",
+            "rationale": "Promover detección temprana de déficit de volumen"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Anaphylactoid reaction",
+    "aliases": [
+      "anaphylactoid reaction",
+      "anaphylactoid",
+      "transfusion reaction",
+      "allergic reaction",
+      "blood reaction"
+    ],
+    "summary": "An exaggerated immune response resembling anaphylaxis but not mediated by IgE, frequently associated with transfusions or certain drugs.",
+    "key_points": [
+      "May occur minutes after exposure to the allergen",
+      "Airway compromise and sudden drop in blood pressure are critical",
+      "First-line treatment is intramuscular epinephrine",
+      "Continuous monitoring of vital signs and oxygenation is required"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Trigger releases mediators (histamine, leukotrienes) without IgE",
+        "Increased capillary permeability → plasma extravasation",
+        "Bronchoconstriction and edema of respiratory mucosa",
+        "Systemic vasodilation → hypotension"
+      ],
+      "risk_factors": [
+        "History of prior allergic reactions to blood or medications",
+        "Multiple transfusions or exposure to biologic products",
+        "Chronic diseases with immune dysfunction",
+        "Anxiety or stress that amplify histamine response"
+      ],
+      "signs_symptoms": [
+        "Pruritus, urticaria or cutaneous erythema",
+        "Dyspnea, wheezing and cough",
+        "Hypotension (BP <90/60 mmHg) and tachycardia (>100 bpm)",
+        "Chest pain, nausea or vomiting"
+      ],
+      "diagnostics": [
+        "Vital sign monitor every 5‑15 min",
+        "Pulse oximetry <94% indicates respiratory compromise",
+        "Arterial blood gas: ↓PaO2, ↓pH if shock present",
+        "Physical exam: lip, tongue or pharyngeal edema"
+      ],
+      "treatment": [
+        "Epinephrine 0.3‑0.5 mg IM, repeat every 5‑15 min if persistent",
+        "H1 antihistamine (diphenhydramine) IV/IM",
+        "Corticosteroid (methylprednisolone) IV to prevent late phase",
+        "Supplemental oxygen 2‑6 L/min via nasal cannula",
+        "Isotonic crystalloid fluids (0.9% saline) to maintain BP"
+      ],
+      "complications": [
+        "Hypovolemic or distributive shock",
+        "Acute pulmonary edema (ARDS)"
+      ],
+      "nursing_care": [
+        "Assess ABCs at onset and every 5 min",
+        "Obtain and record BP, HR, RR, temperature and saturation",
+        "Administer epinephrine per order and observe response",
+        "Maintain IV access, initiate fluids per protocol",
+        "Document time of onset, signs, interventions and response"
+      ],
+      "patient_teaching": [
+        "Inform about warning signs that require immediate attention",
+        "Explain the importance of premedication before transfusions if history exists",
+        "Teach use of epinephrine auto‑injector if indicated",
+        "Recommend avoiding known allergens and carrying medical identification"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "systemic vasodilation",
+          "increased capillary permeability",
+          "plasma loss"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intravascular volume maintained: BP ≥90/60 mmHg",
+          "Fluid balance balanced: intake and output recorded without deficit"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor BP, HR and urine output every 15 min",
+            "rationale": "Detect early hypotension and fluid loss"
+          },
+          {
+            "action": "Initiate isotonic crystalloid fluids IV per order",
+            "rationale": "Replace lost intravascular volume"
+          },
+          {
+            "action": "Assess for peripheral edema and skin turgor",
+            "rationale": "Identify fluid accumulation or hypovolemia"
+          },
+          {
+            "action": "Record fluid intake and output on observation sheet",
+            "rationale": "Facilitate calculation of fluid balance"
+          },
+          {
+            "action": "Educate patient on importance of reporting sweating and dizziness",
+            "rationale": "Promote early detection of fluid deficit"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "anaphylaxis",
+    "hypotension",
+    "bronchospasm"
+  ],
+  "sources": [
+    {
+      "name": "Clinical Nursing Skills: Blood Transfusions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Allergic Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-1-allergic-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-23",
+  "factcheck": {
+    "checked": "2026-10-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 19,
+      "contradicted": 3,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "contradicted",
+        "quote": "This type of reaction may also include asthma, allergic rhinitis, and systemic anaphylaxis , which is a potentially life-threatening type I hypersensitivity response resulting from the rapid release of IgE-mediated chemicals in an attempt to eliminate a triggering allergen.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Types I, II, and III occur within 24 hours of exposure, whereas type IV reactions occur 1 to 3 days after allergen exposure.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "This can lead to a drop in blood pressure (anaphylaxis); difficulty breathing; swelling of the face, tongue, or throat; and can be life-threatening.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "As such, it is critical that the nurse remain with the patient for at least the first fifteen minutes of the transfusion (or longer if required by the agency’s policy) and monitor vital signs.",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "contradicted",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Edema results from increased capillary permeability.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "It can cause vasodilation, hypotension, increased vascular permeability, and smooth muscle contraction (for example, of the bronchi).",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Indications for premedication may include patients with a history of an allergic reaction to blood transfusions, multiple transfusions, chronic illnesses, anxiety, febrile reaction s, or autoimmune disorders.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Indications for premedication may include patients with a history of an allergic reaction to blood transfusions, multiple transfusions, chronic illnesses, anxiety, febrile reaction s, or autoimmune disorders.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Effects of histamine include erythema, pruritus, localized edema (wheals), contraction of bronchial smooth muscle (resulting in bronchospasms and wheezing), and enhanced secretion of mucosal and gastric cells (diarrhea), as the role of histamine is to create vasodilation, which promotes oxygen and white blood cells to the area of attack.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The nurse must also explain the procedure to the patient and inform the patient to immediately report symptoms of a possible blood transfusion reaction, such as sweating, chills, chest pain, shortness of breath, headache, back pain, nausea, vomiting, or itching.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "contradicted",
+        "quote": "Remain with the patient and monitor vital signs every fifteen minutes.",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "This can lead to a drop in blood pressure (anaphylaxis); difficulty breathing; swelling of the face, tongue, or throat; and can be life-threatening.",
+        "source": 1
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine as ordered, and activating a rapid response in the event of anaphylaxis.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Prepare to administer emergency medications, such as antihistamines, fluids, steroids, or vasopressors, depending on the provider’s orders or standing protocols that may be in place.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Any reaction to an allergen should be assessed and documented, including patient symptoms or discomfort, severity, treatments (if any), and response to interventions.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "The nurse must also explain the procedure to the patient and inform the patient to immediately report symptoms of a possible blood transfusion reaction, such as sweating, chills, chest pain, shortness of breath, headache, back pain, nausea, vomiting, or itc",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Indications for premedication may include patients with a history of an allergic reaction to blood transfusions, multiple transfusions, chronic illnesses, anxiety, febrile reaction s, or autoimmune disorders.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
