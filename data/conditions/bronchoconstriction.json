@@ -1,0 +1,490 @@
+{
+  "id": "bronchoconstriction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Broncoconstricción",
+    "aliases": [
+      "bronco",
+      "broncoestriccion",
+      "bronco constriccion",
+      "bronquios",
+      "asma"
+    ],
+    "summary": "Contracción del músculo liso bronquial que reduce el calibre de las vías aéreas, dificultando el flujo de aire.",
+    "key_points": [
+      "Provoca sibilancias, disnea y sensación de opresión torácica.",
+      "Desencadenada por alérgenos, aire frío, ejercicio y agentes irritantes.",
+      "Los agonistas beta‑2 de corta duración son el tratamiento de rescate.",
+      "El monitoreo de SpO2 y del flujo espiratorio máximo (PEF) guía la intervención."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los estímulos desencadenan liberación de mediadores (histamina, leucotrienos).",
+        "Los mediadores provocan contracción del músculo liso bronquial.",
+        "Se reduce el diámetro de la luz bronquial y aumenta la resistencia al flujo de aire.",
+        "La inflamación y el moco aumentan la obstrucción en la fase tardía."
+      ],
+      "risk_factors": [
+        "Alergenos domésticos: ácaros, moho, pelos de mascotas.",
+        "Exposición a aire frío o cambios bruscos de temperatura.",
+        "Ejercicio intenso sin precaución (asma inducida por ejercicio).",
+        "Fumar, contaminación del aire y vapores químicos."
+      ],
+      "signs_symptoms": [
+        "Sibilancias audibles, especialmente en espiración.",
+        "Disnea de inicio súbito o progresiva.",
+        "Tos seca o productiva con secreción mucosa.",
+        "Sensación de opresión torácica y dificultad para hablar frases completas."
+      ],
+      "diagnostics": [
+        "Espirometría: FEV1 disminuido, relación FEV1/FVC < 0.70.",
+        "Flujo espiratorio máximo (PEF) < 80% del predicho en crisis.",
+        "Gasometría arterial: PaO2 ↓, PaCO2 puede estar normal o ↓.",
+        "SpO2 < 92% indica hipoxemia y necesidad de intervención."
+      ],
+      "treatment": [
+        "Agonistas beta‑2 de corta duración (albuterol, salbutamol) por inhalación.",
+        "Agonistas beta‑2 de larga duración y corticoides inhalados para control crónico.",
+        "Antileucotrienos (montelukast) en asma alérgica.",
+        "Oxígeno suplementario si SpO2 < 92%."
+      ],
+      "complications": [
+        "Insuficiencia respiratoria aguda.",
+        "Hipoxemia prolongada → daño tisular.",
+        "Broncoespasmo refractario que requiere intubación.",
+        "Aumento del trabajo respiratorio → fatiga muscular."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, uso de músculos accesorios y SpO2 cada 15‑30 min.",
+        "Administrar SABA según orden y observar respuesta clínica.",
+        "Posicionar al paciente en semi‑Fowler para facilitar la expansión pulmonar.",
+        "Registrar PEF y comparar con valores basales.",
+        "Mantener vía aérea libre; aspirar secreciones si es necesario."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar desencadenantes personales.",
+        "Uso correcto del inhalador y del espaciador.",
+        "Reconocer signos de empeoramiento y cuándo usar el plan de acción.",
+        "Importancia de llevar siempre el inhalador de rescate.",
+        "Realizar control de PEF diario y registrar resultados."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "broncoestricción",
+          "inflamación bronquial",
+          "exposición a alérgenos"
+        ],
+        "evidenced_by": [
+          "sibilancias",
+          "disnea",
+          "uso de músculos accesorios",
+          "SpO2 < 92%"
+        ],
+        "outcomes": [
+          "Patrón respiratorio: mantener SpO2 ≥ 92% en reposo",
+          "Control de síntomas: ausencia de sibilancias audibles en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear frecuencia respiratoria, SpO2 y uso de músculos accesorios cada 15 minutos.",
+            "rationale": "Detectar deterioro respiratorio temprano y guiar la intervención."
+          },
+          {
+            "action": "Administrar agonista beta‑2 de corta duración por inhalación según orden.",
+            "rationale": "Broncodilata rápidamente y reduce la broncoconstricción."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑Fowler y fomentar respiración diafragmática.",
+            "rationale": "Optimiza la expansión pulmonar y disminuye el trabajo respiratorio."
+          },
+          {
+            "action": "Evaluar y registrar el flujo espiratorio máximo (PEF) antes y después del tratamiento.",
+            "rationale": "Permite medir la respuesta al broncodilatador y ajustar el plan."
+          },
+          {
+            "action": "Enseñar al paciente el uso correcto del inhalador y del espaciador.",
+            "rationale": "Asegura la entrega adecuada del medicamento y mejora el control."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "exceso de secreciones",
+          "tos intensa",
+          "uso de dispositivos de ventilación no invasiva"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: ausencia de signos de aspiración en 48 h",
+          "Integridad pulmonar: mantener auscultación pulmonar sin crepitantes"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener al paciente en posición semi‑Fowler o lateral izquierda durante la tos.",
+            "rationale": "Facilita el drenaje de secreciones y reduce el riesgo de ingreso a vías bajas."
+          },
+          {
+            "action": "Evaluar la consistencia y cantidad de secreciones; aspirar solo cuando sea necesario.",
+            "rationale": "Previene la manipulación excesiva que puede inducir aspiración."
+          },
+          {
+            "action": "Enseñar técnicas de tos eficaz y respiración profunda.",
+            "rationale": "Mejora la eliminación de secreciones sin forzar la vía aérea."
+          },
+          {
+            "action": "Revisar la correcta colocación del tubo de alimentación o máscara si se usan.",
+            "rationale": "Evita la entrada accidental de contenido al tracto respiratorio."
+          },
+          {
+            "action": "Monitorear signos de aspiración: fiebre, aumento de secreciones, cambios en auscultación.",
+            "rationale": "Detectar precozmente complicaciones y actuar rápidamente."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Bronchoconstriction",
+    "aliases": [
+      "bronco",
+      "broncoestriccion",
+      "bronco constriccion",
+      "bronquios",
+      "asthma"
+    ],
+    "summary": "Contraction of the bronchial smooth muscle that reduces the caliber of the airways, making airflow difficult.",
+    "key_points": [
+      "Causes wheezing, dyspnea, and a sensation of chest tightness.",
+      "Triggered by allergens, cold air, exercise, and irritants.",
+      "Short‑acting beta‑2 agonists are the rescue treatment.",
+      "Monitoring SpO2 and peak expiratory flow (PEF) guides intervention."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Stimuli trigger the release of mediators (histamine, leukotrienes).",
+        "Mediators cause contraction of bronchial smooth muscle.",
+        "The bronchial lumen diameter decreases and airway resistance increases.",
+        "Inflammation and mucus increase obstruction in the late phase."
+      ],
+      "risk_factors": [
+        "Household allergens: dust mites, mold, pet dander.",
+        "Exposure to cold air or sudden temperature changes.",
+        "Intense exercise without precautions (exercise‑induced asthma).",
+        "Smoking, air pollution, and chemical vapors."
+      ],
+      "signs_symptoms": [
+        "Audible wheezing, especially on expiration.",
+        "Sudden or progressive dyspnea.",
+        "Dry or productive cough with mucous secretions.",
+        "Chest tightness and difficulty speaking full sentences."
+      ],
+      "diagnostics": [
+        "Spirometry: decreased FEV1, FEV1/FVC < 0.70.",
+        "Peak expiratory flow (PEF) < 80% of predicted during crisis.",
+        "Arterial blood gas: ↓PaO2, PaCO2 may be normal or ↓.",
+        "SpO2 < 92% indicates hypoxemia and need for intervention."
+      ],
+      "treatment": [
+        "Short‑acting beta‑2 agonists (albuterol, salbutamol) by inhalation.",
+        "Long‑acting beta‑2 agonists and inhaled corticosteroids for chronic control.",
+        "Antileukotrienes (montelukast) in allergic asthma.",
+        "Supplemental oxygen if SpO2 < 92%."
+      ],
+      "complications": [
+        "Acute respiratory failure.",
+        "Prolonged hypoxemia → tissue damage.",
+        "Refractory bronchospasm requiring intubation.",
+        "Increased work of breathing → muscle fatigue."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, accessory muscle use, and SpO2 every 15‑30 minutes.",
+        "Administer SABA as ordered and observe clinical response.",
+        "Position patient in semi‑Fowler to facilitate lung expansion.",
+        "Record PEF and compare with baseline values.",
+        "Maintain airway patency; suction secretions if necessary."
+      ],
+      "patient_teaching": [
+        "Identify and avoid personal triggers.",
+        "Proper use of inhaler and spacer.",
+        "Recognize worsening signs and when to use the action plan.",
+        "Importance of carrying rescue inhaler at all times.",
+        "Perform daily PEF monitoring and record results."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "bronchoconstriction",
+          "bronchial inflammation",
+          "exposure to allergens"
+        ],
+        "evidenced_by": [
+          "wheezing",
+          "dyspnea",
+          "use of accessory muscles",
+          "SpO2 < 92%"
+        ],
+        "outcomes": [
+          "Breathing pattern: maintain SpO2 ≥ 92% at rest",
+          "Symptom control: absence of audible wheezing within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor respiratory rate, SpO2, and accessory muscle use every 15 minutes.",
+            "rationale": "Detect early respiratory deterioration and guide intervention."
+          },
+          {
+            "action": "Administer short‑acting beta‑2 agonist by inhalation as ordered.",
+            "rationale": "Rapid bronchodilation and reduces bronchoconstriction."
+          },
+          {
+            "action": "Place patient in semi‑Fowler position and encourage diaphragmatic breathing.",
+            "rationale": "Optimizes lung expansion and reduces work of breathing."
+          },
+          {
+            "action": "Assess and record peak expiratory flow (PEF) before and after treatment.",
+            "rationale": "Measures bronchodilator response and adjusts plan."
+          },
+          {
+            "action": "Teach patient correct inhaler and spacer use.",
+            "rationale": "Ensures proper medication delivery and improves control."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "excess secretions",
+          "intense cough",
+          "use of non‑invasive ventilation devices"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: absence of aspiration signs within 48 h",
+          "Pulmonary integrity: maintain clear lung auscultation without crackles"
+        ],
+        "interventions": [
+          {
+            "action": "Keep patient in semi‑Fowler or left lateral position during coughing.",
+            "rationale": "Facilitates secretion drainage and reduces risk of lower airway entry."
+          },
+          {
+            "action": "Assess secretion consistency and quantity; suction only when necessary.",
+            "rationale": "Prevents excessive manipulation that may induce aspiration."
+          },
+          {
+            "action": "Teach effective coughing and deep breathing techniques.",
+            "rationale": "Improves secretion clearance without forcing airway."
+          },
+          {
+            "action": "Check correct placement of feeding tube or mask if used.",
+            "rationale": "Avoids accidental entry of contents into respiratory tract."
+          },
+          {
+            "action": "Monitor aspiration signs: fever, increased secretions, changes in auscultation.",
+            "rationale": "Detect complications early and act promptly."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "asthma",
+    "bronchospasm",
+    "airway-obstruction",
+    "beta-agonist",
+    "inhaled-corticosteroid"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Asthma",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/asthma.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower Respiratory System: Asthma",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-4-disorders-of-the-lower-respiratory-system-asthma",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Shock Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-3-shock-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-24",
+  "factcheck": {
+    "checked": "2026-10-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The symptoms of asthma include: Chest tightness Coughing, especially at night or early morning Shortness of breath Wheezing, which causes a whistling sound when you breathe out These symptoms can range from mild to severe.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "In the early phase, triggers, such as exercise, cold air, hormonal fluctuations, allergens, and fumes, cause antibodies to be released.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Mast cells release leukotrienes, histamine, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "In the late phase, white blood cells, including basophils, eosinophils, neutrophils, and helper and memory T-cells, flow to the lungs. Inflammation, further bronchoconstriction, and increased mucous production occur.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "They can include: Dust mites Mold Pets Pollen from grass, trees, and weeds Waste from pests such as cockroaches and mice",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "These include allergies, allergic conditions like eczema, viral respiratory infections, cigarette smoking , air pollution, and exposure to substances including dust, fumes, mold, and vapor (Morales et al., 2021).",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Wheezing, which causes a whistling sound when you breathe out",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Leukotriene inhibitors Montelukast Oral Can prevent asthma symptoms and treat allergy symptoms",
+        "source": 1
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "If not treated rapidly, decreased perfusion will cause hypoxia and eventually cell and tissue death.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Identifying triggers and controlling exposure is important for patients with asthma.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "They include an inhaler to carry with you all the time.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

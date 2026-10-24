@@ -1,0 +1,511 @@
+{
+  "id": "myocardial-ischemia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Isquemia miocárdica (IM)",
+    "aliases": [
+      "isquemia",
+      "miocardia",
+      "dolor torácico",
+      "angina"
+    ],
+    "summary": "Reducción transitoria del flujo sanguíneo coronario que provoca daño isquémico al miocardio y dolor torácico típico.",
+    "key_points": [
+      "Causada por aterosclerosis que estrecha la arteria coronaria ≥50 %.",
+      "Dolor torácico opresivo que empeora con el esfuerzo y mejora con reposo o nitroglicerina.",
+      "Diagnóstico basado en ECG, marcadores de daño miocárdico y pruebas de imagen.",
+      "Tratamiento inmediato: aspirina, oxígeno, nitroglicerina y, según gravedad, anticoagulación o reperfusión."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Placa aterosclerótica reduce el diámetro luminal de la arteria coronaria.",
+        "Disminución del flujo coronario → hipoxia miocárdica.",
+        "Desbalance entre demanda y suministro de oxígeno genera dolor y disfunción contractil.",
+        "Si la isquemia persiste, se produce necrosis (infarto)."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial sistémica.",
+        "Diabetes mellitus tipo 2.",
+        "Tabaquismo crónico.",
+        "Dislipidemia (LDL alto, HDL bajo).",
+        "Edad avanzada y antecedentes familiares de enfermedad coronaria."
+      ],
+      "signs_symptoms": [
+        "Dolor torácico opresivo, a menudo irradiado a brazo izquierdo, mandíbula o espalda.",
+        "Disnea de inicio súbito o con el esfuerzo.",
+        "Sudoración profusa, náuseas o vómitos.",
+        "Fatiga y sensación de presión en el pecho."
+      ],
+      "diagnostics": [
+        "ECG: depresión o elevación del ST, ondas T invertidas.",
+        "Troponina I o T >0.04 ng/mL y CK‑MB elevadas.",
+        "Prueba de esfuerzo o angiografía coronaria para confirmar estenosis ≥50 %.",
+        "Perfil lipídico y glucemia en ayunas para identificar factores de riesgo."
+      ],
+      "treatment": [
+        "Aspirina 325 mg vía oral (antiagregante plaquetario).",
+        "Nitroglicerina sublingual 0.4 mg para aliviar dolor.",
+        "Oxígeno suplementario para mantener SaO₂ > 94 %.",
+        "Heparina de bajo peso molecular o unfractionated para anticoagulación.",
+        "Terapia de reperfusión (PCI o trombolíticos como alteplasa) según indicación.",
+        "Betabloqueadores y estatinas en fase subaguda."
+      ],
+      "complications": [
+        "Infarto agudo de miocardio.",
+        "Arritmias ventriculares o fibrilación auricular.",
+        "Insuficiencia cardíaca congestiva.",
+        "Shock cardiogénico y muerte súbita."
+      ],
+      "nursing_care": [
+        "Evaluar dolor antes, durante y después del esfuerzo (escala 0‑10).",
+        "Monitorear signos vitales y ECG continuo.",
+        "Mantener vía IV de acceso rápido y administrar medicamentos según prescripción.",
+        "Posicionar al paciente en semi‑Fowler para reducir la demanda cardíaca.",
+        "Administrar oxígeno y nitroglicerina según protocolo.",
+        "Registrar respuesta a la terapia y notificar cambios al médico."
+      ],
+      "patient_teaching": [
+        "Reconocer y reportar dolor torácico o disnea inmediata.",
+        "Tomar aspirina y otros fármacos según indicación, sin omitir dosis.",
+        "Adoptar hábitos saludables: dieta baja en grasas, ejercicio regular y abandono del tabaco.",
+        "Controlar presión arterial, glucemia y lípidos en controles periódicos.",
+        "Programar citas de seguimiento y pruebas de estrés según indicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "dolor torácico por isquemia",
+          "disminución del gasto cardíaco"
+        ],
+        "evidenced_by": [
+          "dolor torácico al esfuerzo",
+          "disnea al subir escaleras"
+        ],
+        "outcomes": [
+          "Nivel de tolerancia a la actividad: paciente caminará 100 m sin dolor en 7 días.",
+          "Frecuencia cardíaca permanecerá entre 60‑100 lpm durante actividad leve."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor torácico y frecuencia cardíaca antes de iniciar cualquier actividad.",
+            "rationale": "Permite identificar intolerancia y prevenir isquemia adicional."
+          },
+          {
+            "action": "Administrar nitroglicerina sublingual 5 min antes de actividad programada si está prescrita.",
+            "rationale": "Reduce la demanda de oxígeno al vasodilatación coronaria."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de pacing (descansos breves cada 5 min).",
+            "rationale": "Distribuye la carga de trabajo y evita sobrecarga cardíaca."
+          },
+          {
+            "action": "Monitorear saturación de oxígeno y presión arterial durante la actividad.",
+            "rationale": "Detecta deterioro hemodinámico temprano."
+          },
+          {
+            "action": "Documentar nivel de dolor y signos de fatiga después de la actividad.",
+            "rationale": "Facilita la evaluación de la efectividad del plan de cuidados."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "obstrucción coronaria ≥50 %",
+          "hipertensión no controlada",
+          "hipercolesterolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin episodios de dolor torácico durante 48 h de observación.",
+          "Presión arterial mantenida > 90/60 mmHg y SaO₂ > 94 %."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ECG continuo y reportar cualquier cambio de ST o arritmia.",
+            "rationale": "Detecta precozmente disminución de perfusión miocárdica."
+          },
+          {
+            "action": "Administrar aspirina según orden y registrar respuesta.",
+            "rationale": "Previene formación de nuevos trombos que comprometan el flujo."
+          },
+          {
+            "action": "Mantener al paciente en posición semi‑Fowler (30‑45°).",
+            "rationale": "Reduce la presión intratorácica y mejora el retorno venoso."
+          },
+          {
+            "action": "Proveer oxígeno suplementario para mantener SaO₂ > 94 %.",
+            "rationale": "Aumenta la disponibilidad de oxígeno para el miocardio isquémico."
+          },
+          {
+            "action": "Evaluar y registrar signos de insuficiencia cardíaca (edema, disnea ortopédica).",
+            "rationale": "Identifica complicaciones tempranas de perfusión insuficiente."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Myocardial ischemia (MI)",
+    "aliases": [
+      "ischemia",
+      "myocardium",
+      "chest pain",
+      "angina"
+    ],
+    "summary": "Transient reduction of coronary blood flow that causes ischemic damage to the myocardium and typical chest pain.",
+    "key_points": [
+      "Caused by atherosclerosis that narrows the coronary artery ≥50 %.",
+      "Oppressive chest pain that worsens with exertion and improves with rest or nitroglycerin.",
+      "Diagnosis based on ECG, myocardial injury markers, and imaging tests.",
+      "Immediate treatment: aspirin, oxygen, nitroglycerin and, depending on severity, anticoagulation or reperfusion."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Atherosclerotic plaque reduces the luminal diameter of the coronary artery.",
+        "Reduced coronary flow → myocardial hypoxia.",
+        "Imbalance between oxygen demand and supply generates pain and contractile dysfunction.",
+        "If ischemia persists, necrosis (infarction) occurs."
+      ],
+      "risk_factors": [
+        "Systemic arterial hypertension.",
+        "Type 2 diabetes mellitus.",
+        "Chronic smoking.",
+        "Dyslipidemia (high LDL, low HDL).",
+        "Advanced age and family history of coronary disease."
+      ],
+      "signs_symptoms": [
+        "Oppressive chest pain, often radiating to the left arm, jaw, or back.",
+        "Sudden onset dyspnea or with exertion.",
+        "Profuse sweating, nausea or vomiting.",
+        "Fatigue and a sense of pressure in the chest."
+      ],
+      "diagnostics": [
+        "ECG: ST depression or elevation, inverted T waves.",
+        "Troponin I or T >0.04 ng/mL and elevated CK‑MB.",
+        "Exercise test or coronary angiography to confirm stenosis ≥50 %.",
+        "Lipid profile and fasting glucose to identify risk factors."
+      ],
+      "treatment": [
+        "Aspirin 325 mg orally (antiplatelet).",
+        "Sublingual nitroglycerin 0.4 mg to relieve pain.",
+        "Supplemental oxygen to maintain SaO₂ > 94 %.",
+        "Low‑molecular‑weight heparin or unfractionated heparin for anticoagulation.",
+        "Reperfusion therapy (PCI or thrombolytics such as alteplase) as indicated.",
+        "Beta‑blockers and statins in the subacute phase."
+      ],
+      "complications": [
+        "Acute myocardial infarction.",
+        "Ventricular arrhythmias or atrial fibrillation.",
+        "Congestive heart failure.",
+        "Cardiogenic shock and sudden death."
+      ],
+      "nursing_care": [
+        "Assess pain before, during, and after exertion (0‑10 scale).",
+        "Monitor vital signs and continuous ECG.",
+        "Maintain a rapid‑access IV line and administer medications per prescription.",
+        "Position patient in semi‑Fowler to reduce cardiac demand.",
+        "Administer oxygen and nitroglycerin per protocol.",
+        "Document response to therapy and notify physician of changes."
+      ],
+      "patient_teaching": [
+        "Recognize and report chest pain or immediate dyspnea.",
+        "Take aspirin and other medications as prescribed, do not skip doses.",
+        "Adopt healthy habits: low‑fat diet, regular exercise, and smoking cessation.",
+        "Monitor blood pressure, glucose, and lipids during routine checkups.",
+        "Schedule follow‑up appointments and stress tests as indicated."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "chest pain due to ischemia",
+          "decreased cardiac output"
+        ],
+        "evidenced_by": [
+          "chest pain with exertion",
+          "dyspnea when climbing stairs"
+        ],
+        "outcomes": [
+          "Activity tolerance level: patient will walk 100 m without pain in 7 days.",
+          "Heart rate will remain between 60‑100 bpm during light activity."
+        ],
+        "interventions": [
+          {
+            "action": "Assess chest pain and heart rate before initiating any activity.",
+            "rationale": "Allows identification of intolerance and prevents additional ischemia."
+          },
+          {
+            "action": "Administer sublingual nitroglycerin 5 min before scheduled activity if prescribed.",
+            "rationale": "Reduces oxygen demand by coronary vasodilation."
+          },
+          {
+            "action": "Teach patient pacing techniques (brief rests every 5 min).",
+            "rationale": "Distributes workload and avoids cardiac overload."
+          },
+          {
+            "action": "Monitor oxygen saturation and blood pressure during activity.",
+            "rationale": "Detects early hemodynamic deterioration."
+          },
+          {
+            "action": "Document pain level and fatigue signs after activity.",
+            "rationale": "Facilitates evaluation of care plan effectiveness."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "coronary obstruction ≥50 %",
+          "uncontrolled hypertension",
+          "hypercholesterolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No chest pain episodes during 48 h observation.",
+          "Blood pressure maintained > 90/60 mmHg and SaO₂ > 94 %."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor continuous ECG and report any ST changes or arrhythmia.",
+            "rationale": "Early detection of myocardial perfusion decrease."
+          },
+          {
+            "action": "Administer aspirin as ordered and record response.",
+            "rationale": "Prevents formation of new thrombi that compromise flow."
+          },
+          {
+            "action": "Maintain patient in semi‑Fowler position (30‑45°).",
+            "rationale": "Reduces intrathoracic pressure and improves venous return."
+          },
+          {
+            "action": "Provide supplemental oxygen to maintain SaO₂ > 94 %.",
+            "rationale": "Increases oxygen availability for ischemic myocardium."
+          },
+          {
+            "action": "Assess and record signs of heart failure (edema, orthopnea).",
+            "rationale": "Identifies early complications of insufficient perfusion."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "myocardial-infarction",
+    "coronary-artery-disease",
+    "angina-pectoris",
+    "ischemic-heart-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Coronary Artery Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/coronaryarterydisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Myocardial Infarction",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-5-myocardial-infarction",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-24",
+  "factcheck": {
+    "checked": "2026-10-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 27,
+      "contradicted": 1,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Under the first condition of physical duress, called ischemia , the coronary artery becomes constricted to the point where blood flow is temporarily stopped but resumes with medication or rest.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Obstructive CAD is when a large coronary artery is narrowed by 50% or more, significantly reducing blood flow.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Four classifications of drugs may be used in emergency situations for AMI and unstable angina: aspirin, oxygen, nitroglycerin, and, occasionally, morphine.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "CAD develops slowly over time when plaque builds up inside your coronary arteries.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "If the same conditions occur, but blood flow to the myocardium is cut off completely, the cells die, called infarction .",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Have a family history of heart disease, especially in a parent or sibling who had it before age 50 Are getting older, especially men, who tend to develop CAD earlier in life than women",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Classic symptoms include chest pain; pain radiating to the jaw, arms, neck, back, or stomach; shortness of breath; lightheadedness; and excessive sweating, also known as diaphoresis .",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "An EKG may demonstrate abnormalities with the T waves, in which the T waves will be flipped or the ST segment will be depressed ( Figure 12.23 ).",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Order blood tests, including checking your cholesterol and blood glucose",
+        "source": 0
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "For acute myocardial infarction or unstable angina: 325 mg orally (chewed) once.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "contradicted",
+        "quote": "Supplemental oxygen may be used if the client’s oxygen saturation is less than 94% on room air.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "An umbrella term, acute coronary syndrome (ACS) includes the following: non-ST-elevated myocardial infarction (NSTEMI), ST-elevated myocardial infarction (STEMI), and unstable angina ( Figure 12.24 ).",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "If the patient has a depressed EF (less than 40%), ACE inhibitor s/ARBs will be initiated to reduce the risk of congestive heart failure.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Place the client on continuous cardiac monitoring.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "They notice chest pain; dyspnea; or numbness, tingling, or burning in their extremities.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Education is directed at dietary adjustments (low saturated fat, low cholesterol, monitor processed foods), smoking cessation, and limiting/omitting alcohol.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,482 @@
+{
+  "id": "multidrug-resistant-bacteria",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Bacterias multirresistentes (BMR)",
+    "aliases": [
+      "bacterias multirresistente",
+      "resistencia antibiótica",
+      "bacterias mdr",
+      "infección resistente",
+      "bacterias resistentes",
+      "resistencia a antibióticos"
+    ],
+    "summary": "Las bacterias multirresistentes son cepas que no responden a varios antibióticos de diferentes clases, complicando el tratamiento.",
+    "key_points": [
+      "Mecanismos de resistencia: bombas de eflujo, enzimas inactivadoras y alteración de dianas.",
+      "Factores de riesgo: uso prolongado de antibióticos, hospitalizaciones y dispositivos invasivos.",
+      "Importancia del control de infecciones y la administración adecuada de antibióticos.",
+      "Los pacientes pueden presentar sepsis, fallo orgánico y mayor mortalidad.",
+      "El diagnóstico se basa en cultivos y pruebas de sensibilidad.",
+      "El manejo incluye aislamiento, terapia dirigida y medidas de stewardship."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exposición repetida a antibióticos genera presión selectiva.",
+        "Bacterias adquieren genes de resistencia por mutación o transferencia horizontal.",
+        "Los mecanismos (bombas, enzimas, alteración de dianas) reducen la eficacia del fármaco."
+      ],
+      "risk_factors": [
+        "Uso prolongado o inadecuado de antibióticos.",
+        "Estancias prolongadas en unidades de cuidados intensivos.",
+        "Uso de catéteres, ventilación mecánica o sondas urinarias.",
+        "Inmunosupresión o enfermedades crónicas."
+      ],
+      "signs_symptoms": [
+        "Fiebre persistente o recurrente.",
+        "Escalofríos, taquicardia y taquipnea.",
+        "Signos de sepsis: hipotensión, confusión, oliguria.",
+        "Falta de respuesta clínica a antibióticos habituales."
+      ],
+      "diagnostics": [
+        "Cultivo de sangre, orina, exudado o tejido.",
+        "Pruebas de sensibilidad ( antibiograma ) para identificar resistencia.",
+        "Marcadores de infección: leucocitosis, PCR > 10 mg/L, procalcitonina elevada."
+      ],
+      "treatment": [
+        "Aislamiento de contacto y precauciones de transmisión aérea según patógeno.",
+        "Terapia antibiótica dirigida basada en antibiograma (p. ej., vancomicina, linezolid, colistina).",
+        "Apoyo hemodinámico: fluidos IV, vasopresores si es necesario.",
+        "Remoción de dispositivos invasivos cuando sea posible."
+      ],
+      "complications": [
+        "Sepsis y shock séptico.",
+        "Fallo multiorgánico (renal, hepático, respiratorio).",
+        "Mayor estancia hospitalaria y costos.",
+        "Mortalidad aumentada."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada hora y detectar cambios de perfusión.",
+        "Evaluar y registrar resultados de cultivos y antibiogramas.",
+        "Administrar antibióticos según orden y observar reacciones adversas.",
+        "Mantener aislamiento adecuado y educar al personal sobre precauciones.",
+        "Controlar balance hídrico y diuresis."
+      ],
+      "patient_teaching": [
+        "Importancia de completar el esquema antibiótico prescrito.",
+        "Higiene de manos y uso correcto de mascarilla si corresponde.",
+        "Reconocer signos de empeoramiento (fiebre, dolor, dificultad respiratoria).",
+        "Evitar automedicación y consultar al médico ante cualquier síntoma."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso prolongado de antibióticos",
+          "estancia en UCI",
+          "dispositivos invasivos",
+          "inmunosupresión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reducción de la incidencia de infección: paciente sin signos de infección durante la hospitalización.",
+          "NOC: Cumplimiento de medidas de aislamiento: 100% del personal sigue precauciones de contacto."
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar precauciones de aislamiento de contacto y/o transmisión aérea según el patógeno.",
+            "rationale": "Previene la transmisión cruzada de bacterias resistentes."
+          },
+          {
+            "action": "Enseñar al paciente y familia la técnica correcta de lavado de manos.",
+            "rationale": "Reduce la carga microbiana y el riesgo de infección."
+          },
+          {
+            "action": "Monitorear temperatura, frecuencia cardíaca y presión arterial cada 4 h.",
+            "rationale": "Detecta tempranamente signos de infección."
+          },
+          {
+            "action": "Revisar y registrar resultados de cultivos y antibiogramas diariamente.",
+            "rationale": "Permite ajustar la terapia antibiótica oportunamente."
+          },
+          {
+            "action": "Evaluar la necesidad de dispositivos invasivos y retirarlos cuando ya no sean esenciales.",
+            "rationale": "Disminuye la fuente potencial de bacterias resistentes."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de antibióticos nefrotóxicos (p. ej., aminoglucósidos)",
+          "sepsis",
+          "administración masiva de fluidos IV"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Equilibrio electrolítico mantenido: valores de Na⁺ y K⁺ dentro de 135‑145 mEq/L y 3.5‑5.0 mEq/L respectivamente.",
+          "NOC: Función renal estable: creatinina sérica < 1.2 mg/dL."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos y creatinina cada 24 h.",
+            "rationale": "Detecta alteraciones tempranas y guía la terapia."
+          },
+          {
+            "action": "Administrar fluidos IV según prescripción y monitorizar balance hídrico.",
+            "rationale": "Previene tanto la hipovolemia como la sobrecarga que alteran electrolitos."
+          },
+          {
+            "action": "Evaluar signos de toxicidad por antibióticos (p. ej., ototoxicidad con aminoglucósidos).",
+            "rationale": "Identifica efectos adversos que pueden afectar electrolitos y función renal."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar síntomas como debilidad muscular o arritmias.",
+            "rationale": "Facilita la detección precoz de desequilibrios electrolíticos."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar dosis de antibióticos según función renal.",
+            "rationale": "Evita acumulación y toxicidad que pueden provocar desequilibrios."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Multidrug-resistant bacteria (MDR)",
+    "aliases": [
+      "multidrug-resistant bacteria",
+      "antibiotic resistance",
+      "mdr bacteria",
+      "resistant infection",
+      "resistant bacteria"
+    ],
+    "summary": "Multidrug-resistant bacteria are strains that do not respond to several antibiotics from different classes, complicating treatment.",
+    "key_points": [
+      "Resistance mechanisms: efflux pumps, inactivating enzymes, and target alteration.",
+      "Risk factors: prolonged antibiotic use, hospitalizations, and invasive devices.",
+      "Importance of infection control and appropriate antibiotic administration.",
+      "Patients may develop sepsis, organ failure, and increased mortality.",
+      "Diagnosis is based on cultures and sensitivity testing.",
+      "Management includes isolation, targeted therapy, and stewardship measures."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Repeated exposure to antibiotics creates selective pressure.",
+        "Bacteria acquire resistance genes through mutation or horizontal transfer.",
+        "The mechanisms (pumps, enzymes, target alteration) reduce drug efficacy."
+      ],
+      "risk_factors": [
+        "Prolonged or inappropriate antibiotic use.",
+        "Extended stays in intensive care units.",
+        "Use of catheters, mechanical ventilation, or urinary catheters.",
+        "Immunosuppression or chronic diseases."
+      ],
+      "signs_symptoms": [
+        "Persistent or recurrent fever.",
+        "Chills, tachycardia, and tachypnea.",
+        "Signs of sepsis: hypotension, confusion, oliguria.",
+        "Lack of clinical response to usual antibiotics."
+      ],
+      "diagnostics": [
+        "Blood, urine, exudate, or tissue cultures.",
+        "Sensitivity tests (antibiogram) to identify resistance.",
+        "Infection markers: leukocytosis, CRP > 10 mg/L, elevated procalcitonin."
+      ],
+      "treatment": [
+        "Contact isolation and airborne precautions as appropriate for the pathogen.",
+        "Targeted antibiotic therapy based on antibiogram (e.g., vancomycin, linezolid, colistin).",
+        "Hemodynamic support: IV fluids, vasopressors if needed.",
+        "Removal of invasive devices when possible."
+      ],
+      "complications": [
+        "Sepsis and septic shock.",
+        "Multi‑organ failure (renal, hepatic, respiratory).",
+        "Longer hospital stay and higher costs.",
+        "Increased mortality."
+      ],
+      "nursing_care": [
+        "Monitor vital signs hourly and detect perfusion changes.",
+        "Assess and record culture and antibiogram results.",
+        "Administer antibiotics as ordered and monitor for adverse reactions.",
+        "Maintain proper isolation and educate staff on precautions.",
+        "Control fluid balance and urine output."
+      ],
+      "patient_teaching": [
+        "Importance of completing the prescribed antibiotic regimen.",
+        "Hand hygiene and proper mask use when indicated.",
+        "Recognize worsening signs (fever, pain, respiratory difficulty).",
+        "Avoid self‑medication and seek medical advice for any symptoms."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "prolonged antibiotic use",
+          "ICU stay",
+          "invasive devices",
+          "immunosuppression"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reduction in infection incidence: patient without signs of infection during hospitalization.",
+          "NOC: Compliance with isolation measures: 100% of staff follows contact precautions."
+        ],
+        "interventions": [
+          {
+            "action": "Apply contact isolation and/or airborne transmission precautions as appropriate for the pathogen.",
+            "rationale": "Prevents cross‑transmission of resistant bacteria."
+          },
+          {
+            "action": "Teach the patient and family proper hand‑washing technique.",
+            "rationale": "Reduces microbial load and infection risk."
+          },
+          {
+            "action": "Monitor temperature, heart rate, and blood pressure every 4 h.",
+            "rationale": "Detects early signs of infection."
+          },
+          {
+            "action": "Review and record culture and antibiogram results daily.",
+            "rationale": "Allows timely adjustment of antibiotic therapy."
+          },
+          {
+            "action": "Assess the need for invasive devices and remove them when no longer essential.",
+            "rationale": "Reduces potential source of resistant bacteria."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "use of nephrotoxic antibiotics (e.g., aminoglycosides)",
+          "sepsis",
+          "massive IV fluid administration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Electrolyte balance maintained: Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L.",
+          "NOC: Stable renal function: serum creatinine < 1.2 mg/dL."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes and creatinine every 24 h.",
+            "rationale": "Detects early changes and guides therapy."
+          },
+          {
+            "action": "Administer IV fluids per prescription and monitor fluid balance.",
+            "rationale": "Prevents both hypovolemia and overload that alter electrolytes."
+          },
+          {
+            "action": "Assess signs of antibiotic toxicity (e.g., ototoxicity with aminoglycosides).",
+            "rationale": "Identifies adverse effects that can affect electrolytes and renal function."
+          },
+          {
+            "action": "Educate the patient on the importance of reporting symptoms such as muscle weakness or arrhythmias.",
+            "rationale": "Facilitates early detection of electrolyte disturbances."
+          },
+          {
+            "action": "Collaborate with the physician to adjust antibiotic doses based on renal function.",
+            "rationale": "Avoids accumulation and toxicity that can cause imbalances."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "antibiotic-resistance",
+    "mrsa",
+    "nosocomial-infection",
+    "infection-control",
+    "antibiotic-stewardship"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Tuberculosis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/tuberculosis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Antibiotic Resistance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-3-antibiotic-resistance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-24",
+  "factcheck": {
+    "checked": "2026-10-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 25,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "These changes can include modification of antibiotic targets (e.g., bacterial DNA or proteins) or the ability to remove a drug from the bacterial cell more effectively.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Risk factors for the development of MRSA infection include (Mayo Clinic, 2022): HIV infection long-term hospitalization participation in contact sports residence in crowded environments (e.g., jail, dorms) residence in nursing home or long-term care facility treatment with invasive medical devices",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "More and more, we are seeing bacterial infections that resist antibiotic treatment, highlighting the need for more education about the importance of adhering to prescribed medication regimens and other measures to prevent resistance from developing.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "supported",
+        "quote": "Use isolation techniques for patients with resistant infections to prevent transmission to others.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "As bacteria are exposed to antibiotics, evolutionary changes occur, leading to the development of resistant strains that can withstand the antibiotic exposure and continue to thrive.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "These changes can include modification of antibiotic targets (e.g., bacterial DNA or proteins) or the ability to remove a drug from the bacterial cell more effectively.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Have other diseases, such as diabetes , that make it hard for your body to fight TB germs",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "General symptoms may include: Chills and fever Night sweats (heavy sweating during sleep) Losing weight without trying Loss of appetite Weakness or fatigue",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "Cultured bacterial samples from clients at that hospital are used to determine regional bacterial resistance patterns against antibiotics.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Though MRSA is usually confined to the skin, in some cases, it can spread deeper into the underlying tissues, bones, or organs, leading to severe systemic infection and sepsis if left untreated.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Having fewer options to treat a client’s infection leads to worsened morbidity and mortality, higher health care costs, and the potential for bacteria to develop against which effective treatment does not exist.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Monitor serum concentrations of aminoglycosides when feasible to ensure adequate levels and to avoid potentially toxic levels.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "For this reason, nurses must emphasize the importance of finishing the entire course of antibiotics, even if the patient reports improved symptoms, and not sharing medications with others.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

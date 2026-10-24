@@ -1,0 +1,516 @@
+{
+  "id": "intestinal-obstruction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Obstrucción intestinal",
+    "aliases": [
+      "obstrucción intestinal",
+      "obstruccion",
+      "intestino bloqueado",
+      "obstrucción",
+      "intestino obstruido"
+    ],
+    "summary": "Bloqueo parcial o total del tránsito del contenido intestinal que impide el paso de alimentos, gases y líquidos.",
+    "key_points": [
+      "Obstrucción completa es emergencia que requiere cirugía.",
+      "Causas más frecuentes: adherencias, hernias, tumores y algunos fármacos.",
+      "Síntomas: dolor abdominal severo, vómitos, distensión y ruidos intestinales hiperactivos o ausentes.",
+      "Diagnóstico por imágenes (radiografía, TAC) y laboratorios que pueden mostrar leucocitosis y desequilibrio electrolítico.",
+      "Tratamiento inicial: ayuno, sonda nasogástrica y reposición de líquidos; cirugía si no mejora."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción impide el paso del contenido, generando acumulación proximal.",
+        "Aumento de presión intraluminal provoca edema de la mucosa y disminución de perfusión.",
+        "Se produce translocación bacteriana y pérdida de líquidos y electrolitos al lumen.",
+        "Si persiste, puede haber isquemia, necrosis y perforación intestinal."
+      ],
+      "risk_factors": [
+        "Adherencias postoperatorias de cirugías abdominales.",
+        "Hernias inguinales o umbilicales que estrangulan el intestino.",
+        "Tumores malignos o benignos que invaden la luz intestinal.",
+        "Medicamentos que reducen la motilidad (opioides, anticolinérgicos).",
+        "Enfermedades inflamatorias crónicas (enfermedad de Crohn)."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal cólico o constante, de intensidad variable.",
+        "Vómitos biliosos o fecaloides, especialmente en obstrucción distal.",
+        "Distensión abdominal visible y sensación de plenitud.",
+        "Ruidos intestinales hiperactivos (obstrucción parcial) o ausentes (completa).",
+        "Incapacidad para eliminar gases y heces."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen: niveles de aire‑líquido y dilatación de asas.",
+        "Tomografía axial computarizada: localiza sitio y causa de la obstrucción.",
+        "Laboratorio: leucocitosis, aumento de lactato, desequilibrio de Na+, K+ y Cl‑.",
+        "Evaluación de signos de isquemia: ácido láctico elevado, acidosis metabólica."
+      ],
+      "treatment": [
+        "Mantener NPO (nada por vía oral).",
+        "Colocación de sonda nasogástrica para descompresión.",
+        "Reposición de líquidos IV y corrección de electrolitos.",
+        "Analgesia según orden y medidas no farmacológicas.",
+        "Antibióticos si se sospecha perforación o peritonitis.",
+        "Cirugía (resección o descompresión) cuando no hay mejoría o hay compromiso vascular."
+      ],
+      "complications": [
+        "Necrosis e isquemia intestinal.",
+        "Perforación con peritonitis secundaria.",
+        "Sepsis y shock hipovolémico.",
+        "Deshidratación y desequilibrio electrolítico grave.",
+        "Formación de fístulas post‑quirúrgicas."
+      ],
+      "nursing_care": [
+        "Evaluar dolor cada 2 h usando escala numérica.",
+        "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+        "Registrar ingesta y salida; medir peso diario para detectar pérdida de líquidos.",
+        "Observar y anotar ruidos abdominales y distensión.",
+        "Cuidar la sonda nasogástrica: posición, patencia y registro de volumen aspirado.",
+        "Mantener higiene de la piel y prevenir úlceras por inmovilidad."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de ayuno y la función de la sonda nasogástrica.",
+        "Enseñar signos de alarma: aumento del dolor, fiebre, vómitos persistentes.",
+        "Instruir sobre la importancia de la hidratación IV y el control de electrolitos.",
+        "Promover movilización temprana post‑operatoria según indicaciones.",
+        "Advertir sobre evitar medicamentos que disminuyan la motilidad sin prescripción."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos persistentes",
+          "Pérdida de líquidos por obstrucción",
+          "Ayuno NPO",
+          "Sonda nasogástrica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida de líquidos dentro de rangos normales en 24 h.",
+          "Electrolitos séricos (Na+, K+) dentro de valores de referencia en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 4 h y registrar peso diario.",
+            "rationale": "Permite detectar déficit de volumen y guiar la reposición de fluidos."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, frecuencia cardíaca).",
+            "rationale": "Identifica tempranamente la pérdida de volumen corporal."
+          },
+          {
+            "action": "Administrar fluidos IV según orden médica y ajustar según balance hídrico.",
+            "rationale": "Restituye el volumen intravascular y previene hipotensión."
+          },
+          {
+            "action": "Controlar electrolitos séricos cada 12 h y reportar valores críticos.",
+            "rationale": "Corrige desequilibrios que pueden afectar la función cardíaca y neuromuscular."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de informar vómitos persistentes o diarrea.",
+            "rationale": "Facilita la detección precoz de pérdida adicional de líquidos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "Distensión intestinal",
+          "Espasmos musculares",
+          "Obstrucción parcial"
+        ],
+        "evidenced_by": [
+          "Dolor abdominal severo",
+          "Expresión facial de dolor",
+          "Taquicardia"
+        ],
+        "outcomes": [
+          "Dolor reportado ≤3/10 en escala numérica dentro de 2 h después de la intervención.",
+          "Paciente tolera movilización ligera sin aumento significativo del dolor."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor cada 2 h usando escala numérica y describir localización.",
+            "rationale": "Proporciona datos objetivos para ajustar el manejo analgésico."
+          },
+          {
+            "action": "Administrar analgésicos prescritos (p. ej., opioides o NSAIDs) según protocolo.",
+            "rationale": "Alivia el dolor y reduce la respuesta al estrés fisiológico."
+          },
+          {
+            "action": "Aplicar medidas no farmacológicas: posición semi‑Fowler y compresas tibias.",
+            "rationale": "Facilita la relajación de la musculatura abdominal y disminuye el dolor."
+          },
+          {
+            "action": "Revaluar la intensidad del dolor 30 min después de la medicación.",
+            "rationale": "Permite determinar la efectividad y necesidad de dosis adicionales."
+          },
+          {
+            "action": "Documentar respuesta al tratamiento y notificar al médico si el dolor persiste >5/10.",
+            "rationale": "Garantiza una intervención oportuna y evita complicaciones relacionadas con el dolor."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intestinal obstruction",
+    "aliases": [
+      "intestinal obstruction",
+      "blocked intestine",
+      "obstruction",
+      "obstructed intestine"
+    ],
+    "summary": "Partial or complete blockage of intestinal transit that prevents the passage of food, gas, and liquids.",
+    "key_points": [
+      "Complete obstruction is an emergency requiring surgery.",
+      "Most common causes: adhesions, hernias, tumors, and certain medications.",
+      "Symptoms: severe abdominal pain, vomiting, distension, and either hyperactive or absent bowel sounds.",
+      "Diagnosis by imaging (X‑ray, CT) and labs that may show leukocytosis and electrolyte imbalance.",
+      "Initial treatment: fasting, nasogastric tube, and fluid replacement; surgery if no improvement."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstruction prevents passage of contents, causing proximal accumulation.",
+        "Intraluminal pressure increases, leading to mucosal edema and reduced perfusion.",
+        "Bacterial translocation and loss of fluids and electrolytes into the lumen occur.",
+        "If persistent, ischemia, necrosis, and intestinal perforation may develop."
+      ],
+      "risk_factors": [
+        "Post‑operative abdominal adhesions.",
+        "Inguinal or umbilical hernias that strangulate the intestine.",
+        "Malignant or benign tumors invading the intestinal lumen.",
+        "Medications that reduce motility (opioids, anticholinergics).",
+        "Chronic inflammatory diseases (Crohn’s disease)."
+      ],
+      "signs_symptoms": [
+        "Cyclical or constant abdominal pain of variable intensity.",
+        "Bilious or fecaloid vomiting, especially in distal obstruction.",
+        "Visible abdominal distension and a sense of fullness.",
+        "Hyperactive bowel sounds (partial obstruction) or absent sounds (complete).",
+        "Inability to pass gas or stool."
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: air‑fluid levels and bowel dilation.",
+        "Computed tomography: localizes site and cause of obstruction.",
+        "Laboratory: leukocytosis, elevated lactate, Na+, K+, and Cl‑ imbalance.",
+        "Assessment of ischemia signs: elevated lactate, metabolic acidosis."
+      ],
+      "treatment": [
+        "Maintain NPO (nothing by mouth).",
+        "Insert nasogastric tube for decompression.",
+        "IV fluid replacement and electrolyte correction.",
+        "Analgesia as ordered and non‑pharmacologic measures.",
+        "Antibiotics if perforation or peritonitis is suspected.",
+        "Surgery (resection or decompression) when no improvement or vascular compromise occurs."
+      ],
+      "complications": [
+        "Intestinal necrosis and ischemia.",
+        "Perforation with secondary peritonitis.",
+        "Sepsis and hypovolemic shock.",
+        "Severe dehydration and electrolyte imbalance.",
+        "Post‑operative fistula formation."
+      ],
+      "nursing_care": [
+        "Assess pain every 2 h using a numeric scale.",
+        "Monitor vital signs, especially blood pressure and heart rate.",
+        "Record intake and output; weigh daily to detect fluid loss.",
+        "Observe and document bowel sounds and distension.",
+        "Care for the nasogastric tube: position, patency, and aspirate volume.",
+        "Maintain skin hygiene and prevent pressure ulcers due to immobility."
+      ],
+      "patient_teaching": [
+        "Explain the need for fasting and the function of the nasogastric tube.",
+        "Teach warning signs: increased pain, fever, persistent vomiting.",
+        "Instruct on the importance of IV hydration and electrolyte monitoring.",
+        "Encourage early mobilization post‑operatively as directed.",
+        "Warn against using medications that reduce motility without prescription."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Persistent vomiting",
+          "Fluid loss from obstruction",
+          "NPO fasting",
+          "Nasogastric tube"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output within normal ranges in 24 h.",
+          "Serum electrolytes (Na+, K+) within reference values in 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output every 4 h and record daily weight.",
+            "rationale": "Detects fluid volume deficit and guides fluid replacement."
+          },
+          {
+            "action": "Assess signs of dehydration (turgor, mucous membranes, heart rate).",
+            "rationale": "Identifies early loss of body fluid."
+          },
+          {
+            "action": "Administer IV fluids per physician order and adjust based on fluid balance.",
+            "rationale": "Restores intravascular volume and prevents hypotension."
+          },
+          {
+            "action": "Check serum electrolytes every 12 h and report critical values.",
+            "rationale": "Corrects imbalances that can affect cardiac and neuromuscular function."
+          },
+          {
+            "action": "Educate the patient on the importance of reporting persistent vomiting or diarrhea.",
+            "rationale": "Facilitates early detection of additional fluid loss."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "Intestinal distension",
+          "Muscle spasms",
+          "Partial obstruction"
+        ],
+        "evidenced_by": [
+          "Severe abdominal pain",
+          "Facial expression of pain",
+          "Tachycardia"
+        ],
+        "outcomes": [
+          "Pain reported ≤3/10 on numeric scale within 2 h after intervention.",
+          "Patient tolerates light mobilization without significant increase in pain."
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain every 2 h using a numeric scale and describe location.",
+            "rationale": "Provides objective data to adjust analgesic management."
+          },
+          {
+            "action": "Administer prescribed analgesics (e.g., opioids or NSAIDs) per protocol.",
+            "rationale": "Relieves pain and reduces the physiological stress response."
+          },
+          {
+            "action": "Apply non‑pharmacologic measures: semi‑Fowler position and warm compresses.",
+            "rationale": "Facilitates abdominal muscle relaxation and reduces pain."
+          },
+          {
+            "action": "Reassess pain intensity 30 min after medication.",
+            "rationale": "Determines effectiveness and need for additional dosing."
+          },
+          {
+            "action": "Document treatment response and notify the physician if pain persists >5/10.",
+            "rationale": "Ensures timely intervention and prevents pain‑related complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bowel-obstruction",
+    "adhesions",
+    "hernia",
+    "intestinal-ischemia",
+    "peritonitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Intestinal Obstruction",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/intestinalobstruction.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Obstrucción intestinal",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/intestinalobstruction.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Gastrointestinal Tract Structures and Functions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-1-gastrointestinal-tract-structures-and-functions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Gastrointestinal System and Oral Cavity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/29-1-introduction-to-the-gastrointestinal-system-and-oral-cavity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-24",
+  "factcheck": {
+    "checked": "2026-10-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 42,
+      "contradicted": 0,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An intestinal obstruction occurs when food or stool cannot move through the i",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A complete intestinal obstruction is a medical emergency.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common are adhesions , hernias , cancers, and certain medicines.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Symptoms include: Severe abdominal pain or cramping Vomiting Bloating Loud bowel sounds Swelling of the abdomen Inability to pass gas Constipation A complete intestinal obstruction is a medical emergency.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

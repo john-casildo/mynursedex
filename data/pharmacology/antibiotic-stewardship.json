@@ -1,0 +1,322 @@
+{
+  "id": "antibiotic-stewardship",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Manejo de antibióticos (Antibiotic Stewardship)",
+    "aliases": [
+      "manejo antibiótico",
+      "antibiotic stewardship",
+      "uso responsable antibióticos",
+      "resistencia bacteriana",
+      "prescripción adecuada"
+    ],
+    "summary": "Conjunto de estrategias para optimizar el uso de antibióticos, reducir la resistencia y mejorar los resultados del paciente.",
+    "key_points": [
+      "Uso basado en guías y resultados de cultivos",
+      "Duración mínima eficaz del tratamiento",
+      "Preferir antibióticos de espectro estrecho cuando sea posible",
+      "Monitoreo continuo de efectos y respuesta clínica",
+      "Educación al paciente sobre adherencia y riesgos"
+    ],
+    "sections": {
+      "mechanism": [
+        "Implementar guías basadas en evidencia para selección de antibiótico",
+        "Obtener cultivos antes de iniciar terapia y ajustar según sensibilidad",
+        "Desescalar a antibiótico de espectro estrecho cuando sea viable",
+        "Limitar la duración al tiempo mínimo necesario para curar la infección",
+        "Revisar la terapia diariamente para detectar oportunidades de discontinuación"
+      ],
+      "indications": [
+        "Todo paciente que requiera terapia antibiótica",
+        "Pacientes hospitalizados con riesgo elevado de infección",
+        "Profilaxis quirúrgica y procedimientos invasivos"
+      ],
+      "contraindications": [
+        "No existen contraindicaciones específicas al concepto; se aplica a todas las prescripciones antibióticas"
+      ],
+      "nursing_care": [
+        "Verificar orden médica y diagnóstico antes de administrar antibiótico",
+        "Obtener y enviar muestras para cultivo antes de iniciar la terapia",
+        "Monitorear signos de infección y posibles efectos adversos",
+        "Retener el antibiótico si falta indicación clara y notificar al profesional de salud",
+        "Documentar duración, cambios y respuesta al tratamiento"
+      ],
+      "patient_teaching": [
+        "Tomar el antibiótico exactamente como se indica, sin omitir dosis",
+        "Completar el curso completo aunque los síntomas mejoren",
+        "No compartir antibióticos con otras personas",
+        "Reportar cualquier reacción adversa inmediatamente",
+        "Entender la importancia de no exigir antibióticos innecesarios"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso inapropiado de antibióticos",
+          "exposición a patógenos resistentes",
+          "hospitalización prolongada",
+          "procedimientos invasivos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Paciente sin signos de infección durante la hospitalización",
+          "Cultivos negativos al final de la terapia antibiótica"
+        ],
+        "interventions": [
+          {
+            "action": "Revisar órdenes de antibióticos con el farmacéutico para asegurar indicación adecuada",
+            "rationale": "Previene uso innecesario y reduce resistencia"
+          },
+          {
+            "action": "Obtener cultivos antes de iniciar antibiótico y ajustar según resultados",
+            "rationale": "Permite seleccionar el agente más efectivo y de espectro estrecho"
+          },
+          {
+            "action": "Monitorear temperatura, frecuencia cardíaca y signos locales de infección cada 4 h",
+            "rationale": "Detecta tempranamente deterioro o fracaso terapéutico"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de completar el tratamiento y evitar automedicación",
+            "rationale": "Mejora adherencia y disminuye riesgo de resistencia"
+          },
+          {
+            "action": "Documentar duración prevista y cualquier cambio en la terapia en la historia clínica",
+            "rationale": "Facilita la continuidad del cuidado y la evaluación de la efectividad"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Antibiotic Stewardship",
+    "aliases": [
+      "antibiotic stewardship",
+      "responsible antibiotic use",
+      "antibiotic resistance",
+      "appropriate prescription"
+    ],
+    "summary": "Set of strategies to optimize antibiotic use, reduce resistance, and improve patient outcomes.",
+    "key_points": [
+      "Use based on guidelines and culture results",
+      "Minimum effective treatment duration",
+      "Prefer narrow-spectrum antibiotics when possible",
+      "Continuous monitoring of effects and clinical response",
+      "Patient education on adherence and risks"
+    ],
+    "sections": {
+      "mechanism": [
+        "Implement evidence-based guidelines for antibiotic selection",
+        "Obtain cultures before starting therapy and adjust based on sensitivity",
+        "De-escalate to narrow-spectrum antibiotic when feasible",
+        "Limit duration to the minimum necessary to cure the infection",
+        "Review therapy daily to identify opportunities for discontinuation"
+      ],
+      "indications": [
+        "Any patient requiring antibiotic therapy",
+        "Hospitalized patients at high risk of infection",
+        "Surgical prophylaxis and invasive procedures"
+      ],
+      "contraindications": [
+        "No specific contraindications to the concept; applies to all antibiotic prescriptions"
+      ],
+      "nursing_care": [
+        "Verify medical order and diagnosis before administering antibiotic",
+        "Obtain and send samples for culture before initiating therapy",
+        "Monitor signs of infection and potential adverse effects",
+        "Withhold antibiotic if no clear indication and notify health professional",
+        "Document duration, changes, and response to treatment"
+      ],
+      "patient_teaching": [
+        "Take the antibiotic exactly as prescribed, do not skip doses",
+        "Complete the full course even if symptoms improve",
+        "Do not share antibiotics with others",
+        "Report any adverse reaction immediately",
+        "Understand the importance of not demanding unnecessary antibiotics"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "inappropriate antibiotic use",
+          "exposure to resistant pathogens",
+          "prolonged hospitalization",
+          "invasive procedures"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient without signs of infection during hospitalization",
+          "Negative cultures at the end of antibiotic therapy"
+        ],
+        "interventions": [
+          {
+            "action": "Review antibiotic orders with the pharmacist to ensure appropriate indication",
+            "rationale": "Prevents unnecessary use and reduces resistance"
+          },
+          {
+            "action": "Obtain cultures before starting antibiotic and adjust based on results",
+            "rationale": "Allows selection of the most effective narrow-spectrum agent"
+          },
+          {
+            "action": "Monitor temperature, heart rate, and local infection signs every 4 h",
+            "rationale": "Detects early deterioration or therapeutic failure"
+          },
+          {
+            "action": "Educate the patient on the importance of completing treatment and avoiding self-medication",
+            "rationale": "Improves adherence and reduces resistance risk"
+          },
+          {
+            "action": "Document planned duration and any changes in therapy in the medical record",
+            "rationale": "Facilitates continuity of care and effectiveness evaluation"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "antibiotic-resistance",
+    "infection-control",
+    "pharmacovigilance",
+    "clinical-guidelines",
+    "microbiology"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Antibiotic Resistance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-3-antibiotic-resistance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-24",
+  "factcheck": {
+    "checked": "2026-10-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 13,
+      "contradicted": 0,
+      "total": 25
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The term antibiotic stewardship refers to efforts to improve antibiotic prescribing strategies so infections are treated effectively without contributing to the development of antibiotic resistance.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Use antibiotics with a broader spectrum of activity when appropriate, based on susceptibility testing.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "prescribing the correct route, dose, and duration of antibiotic treatment regiments",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "tailoring antibiotic therapy to specific organisms as opposed to immediately implementing broad-spectrum antibiotics",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "This may simply mean adhering to best practices for using antibiotics and providing patient education, or it may involve active participation on a committee that is attempting to implement the initiatives on a specific unit or within the institution.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "The CDC (2024) has developed a set of core elements that serve as guidelines for improving antibiotic use in practice.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "tailoring antibiotic therapy to specific organisms as opposed to immediately implementing broad-spectrum antibiotics",
+        "source": 0
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.4": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Risk factors for infection with VRE include (Doganci et al., 2023): history of invasive surgical procedures or medical device placement long-term hospitalization previous use of vancomycin to treat an infection weak immune system (e.g., HIV, critically ill patients)",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "For this reason, antibiotics should be used with caution in this population, and patients prescribed antibiotics should be monitored closely for the duration of therapy",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "It is also important for individuals who are prescribed a course of antibiotics not to miss a dose or stop taking the medication before they complete all doses—doing so only ensures that more bacteria survive to pass on resistance to new generations.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "For this reason, nurses must emphasize the importance of finishing the entire course of antibiotics, even if the patient reports improved symptoms, and not sharing medications with others.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "For this reason, nurses must emphasize the importance of finishing the entire course of antibiotics, even if the patient reports improved symptoms, and not sharing medications with others."
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

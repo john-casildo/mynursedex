@@ -1,0 +1,510 @@
+{
+  "id": "angioedema-hereditary",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Angioedema hereditario (AEH)",
+    "aliases": [
+      "angioedema",
+      "hereditario",
+      "ae",
+      "hereditario angioedema",
+      "edema hereditario"
+    ],
+    "summary": "Trastorno genético por deficiencia o disfunción del inhibidor C1 que produce edema súbito de piel y mucosas, especialmente cara, extremidades y vías respiratorias.",
+    "key_points": [
+      "Deficiencia del inhibidor C1 (C1‑INH) aumenta bradiquinina, provocando edema no urticarial.",
+      "Los ataques pueden desencadenarse por trauma, estrés, hormonas o inhibidores de la ECA.",
+      "El edema de vías aéreas puede comprometer la respiración y es una emergencia.",
+      "Diagnóstico se basa en niveles bajos de C4 y C1‑INH funcional.",
+      "Tratamiento de primera línea: concentrado de C1‑INH, icatibant o ecallantide.",
+      "Educación sobre evitación de desencadenantes y uso de autoinyección es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutación del gen SERPING1 → deficiencia o disfunción del inhibidor C1.",
+        "Desregulación de la vía del complemento y del sistema de bradiquinina.",
+        "Aumento de bradiquinina → vasodilatación y aumento de la permeabilidad capilar.",
+        "Filtración de plasma al espacio intersticial → edema súbito de piel y mucosas."
+      ],
+      "risk_factors": [
+        "Historia familiar de AEH.",
+        "Estrógenos (píldoras, embarazo).",
+        "Trauma físico, cirugía o procedimientos dentales.",
+        "Uso de inhibidores de la ECA o ARA II.",
+        "Estrés emocional o infecciones."
+      ],
+      "signs_symptoms": [
+        "Edema no doloroso, no urticarial de cara, labios, lengua y extremidades.",
+        "Dolor abdominal, náuseas, vómitos por edema visceral.",
+        "Disnea o estridor si hay compromiso de vías aéreas superiores.",
+        "Urticaria puede estar ausente; prurito ocasional."
+      ],
+      "diagnostics": [
+        "C4 sérico bajo persistente.",
+        "Actividad funcional de C1‑INH < 30% (tipo I) o nivel normal con función reducida (tipo II).",
+        "Prueba genética del gen SERPING1 (cuando está disponible).",
+        "Hemograma y química básica normales; descartar otras causas de edema."
+      ],
+      "treatment": [
+        "Concentrado de C1‑INH (p. ej., Berinert, Cinryze) intravenoso.",
+        "Icatibant (antagonista del receptor B2 de bradiquinina) subcutáneo.",
+        "Ecallantide (inhibidor de la calicreína) subcutáneo.",
+        "Plasma fresco congelado si no hay C1‑INH disponible.",
+        "Evitar inhibidores de la ECA y antihistamínicos como terapia de primera línea."
+      ],
+      "complications": [
+        "Obstrucción de la vía aérea y asfixia.",
+        "Edema intestinal que puede causar íleo o hemorragia.",
+        "Hipotensión secundaria a pérdida de volumen intravascular.",
+        "Ansiedad y miedo recurrente a ataques."
+      ],
+      "nursing_care": [
+        "Evaluar rápidamente la vía aérea; estar preparado para intubación de emergencia.",
+        "Monitorear signos vitales cada 15‑30 min durante el ataque.",
+        "Mantener acceso venoso de calibre adecuado para administración de C1‑INH.",
+        "Registrar extensión del edema y cambios en la respiración.",
+        "Administrar medicación prescrita según protocolo y observar reacciones."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar desencadenantes personales (estrógenos, trauma, estrés).",
+        "Llevar siempre consigo el concentrado de C1‑INH o icatibant para uso de emergencia.",
+        "Buscar atención médica inmediata si aparecen síntomas de compromiso de vías aéreas.",
+        "Informar a familiares y compañeros de trabajo sobre la enfermedad y el plan de acción.",
+        "Programar visitas regulares para control de niveles de C1‑INH y ajuste de terapia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida de plasma al espacio intersticial por edema",
+          "uso de inhibidores de la ECA sin reposición de C1‑INH",
+          "edema de vías respiratorias que limita la ingesta oral"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen intravascular mantenido: peso estable ±0.5 kg en 48 h",
+          "Hematocrito dentro del rango normal (40‑50 %) en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y balance hídrico estricto.",
+            "rationale": "Detectar rápidamente cambios de volumen que indiquen déficit."
+          },
+          {
+            "action": "Mantener acceso venoso de calibre adecuado para infusión de C1‑INH o suero.",
+            "rationale": "Facilita la reposición de volumen y el tratamiento específico."
+          },
+          {
+            "action": "Evaluar signos de hipovolemia (taquicardia, presión arterial baja, mucosas secas).",
+            "rationale": "Permite intervención temprana antes de deterioro clínico."
+          },
+          {
+            "action": "Administrar concentrado de C1‑INH según prescripción.",
+            "rationale": "Corrige la causa subyacente y reduce la pérdida de plasma al intersticio."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación adecuada entre ataques.",
+            "rationale": "Previene la deshidratación y ayuda a mantener el volumen circulante."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "edema facial y de vías aéreas que limita la respiración",
+          "dolor abdominal por edema visceral"
+        ],
+        "evidenced_by": [
+          "disnea al hablar o comer",
+          "dolor abdominal y náuseas",
+          "fatiga durante actividades cotidianas"
+        ],
+        "outcomes": [
+          "Paciente reporta disminución del dolor y disnea ≤3/10 en escala de 0‑10 en 24 h",
+          "Capacidad para realizar actividades de la vida diaria sin limitación significativa en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de disnea y dolor antes y después de la administración de C1‑INH.",
+            "rationale": "Determina efectividad del tratamiento y guía ajustes de actividad."
+          },
+          {
+            "action": "Planificar períodos de descanso y evitar esfuerzos físicos intensos durante 24‑48 h posteriores al ataque.",
+            "rationale": "Reduce la demanda metabólica y previene exacerbación del edema."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática para aliviar la sensación de falta de aire.",
+            "rationale": "Mejora la oxigenación y disminuye la ansiedad asociada."
+          },
+          {
+            "action": "Proveer analgésicos y antieméticos según indicación para controlar dolor y náuseas.",
+            "rationale": "Facilita la tolerancia a la actividad cotidiana."
+          },
+          {
+            "action": "Reforzar el plan de acción de emergencia y uso de autoinyección de C1‑INH.",
+            "rationale": "Empodera al paciente para manejar futuros ataques y reducir interrupciones de actividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hereditary Angioedema (HAE)",
+    "aliases": [
+      "angioedema",
+      "hereditary",
+      "ae",
+      "hereditary angioedema",
+      "hereditary edema"
+    ],
+    "summary": "Genetic disorder due to deficiency or dysfunction of C1 inhibitor that produces sudden swelling of skin and mucous membranes, especially face, extremities and airways.",
+    "key_points": [
+      "C1 inhibitor (C1‑INH) deficiency increases bradykinin, causing non‑urticarial edema.",
+      "Attacks can be triggered by trauma, stress, hormones or ACE inhibitors.",
+      "Airway edema can compromise breathing and is an emergency.",
+      "Diagnosis is based on low C4 and functional C1‑INH levels.",
+      "First‑line treatment: C1‑INH concentrate, icatibant or ecallantide.",
+      "Education on trigger avoidance and use of self‑injection is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "SERPING1 gene mutation → C1 inhibitor deficiency or dysfunction.",
+        "Deregulation of the complement pathway and bradykinin system.",
+        "Increased bradykinin → vasodilation and increased capillary permeability.",
+        "Plasma leaks into interstitial space → sudden skin and mucous membrane edema."
+      ],
+      "risk_factors": [
+        "Family history of HAE.",
+        "Estrogens (pills, pregnancy).",
+        "Physical trauma, surgery or dental procedures.",
+        "Use of ACE inhibitors or ARBs.",
+        "Emotional stress or infections."
+      ],
+      "signs_symptoms": [
+        "Non‑painful, non‑urticarial swelling of face, lips, tongue and extremities.",
+        "Abdominal pain, nausea, vomiting from visceral edema.",
+        "Dyspnea or stridor if upper airway is involved.",
+        "Urticaria may be absent; occasional pruritus."
+      ],
+      "diagnostics": [
+        "Persistently low serum C4.",
+        "Functional C1‑INH activity <30% (type I) or normal level with reduced function (type II).",
+        "SERPING1 genetic testing (when available).",
+        "CBC and basic chemistries normal; rule out other causes of edema."
+      ],
+      "treatment": [
+        "C1‑INH concentrate (e.g., Berinert, Cinryze) IV.",
+        "Icatibant (B2 bradykinin receptor antagonist) SC.",
+        "Ecallantide (plasmin inhibitor) SC.",
+        "Fresh frozen plasma if C1‑INH not available.",
+        "Avoid ACE inhibitors and use antihistamines as first‑line therapy."
+      ],
+      "complications": [
+        "Airway obstruction and asphyxiation.",
+        "Intestinal edema that can cause ileus or bleeding.",
+        "Hypotension secondary to intravascular volume loss.",
+        "Anxiety and fear of future attacks."
+      ],
+      "nursing_care": [
+        "Rapidly assess airway; be prepared for emergency intubation.",
+        "Monitor vital signs every 15‑30 min during the attack.",
+        "Maintain appropriate venous access for C1‑INH administration.",
+        "Document edema extent and respiratory changes.",
+        "Administer prescribed medication per protocol and observe reactions."
+      ],
+      "patient_teaching": [
+        "Identify and avoid personal triggers (estrogens, trauma, stress).",
+        "Always carry C1‑INH concentrate or icatibant for emergency use.",
+        "Seek immediate medical care if airway compromise symptoms appear.",
+        "Inform family and coworkers about the condition and action plan.",
+        "Schedule regular visits for C1‑INH level monitoring and therapy adjustment."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "plasma loss into interstitial space due to edema",
+          "use of ACE inhibitors without C1‑INH replacement",
+          "airway edema limiting oral intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intravascular volume maintained: weight stable ±0.5 kg in 48 h",
+          "Hematocrit within normal range (40‑50 %) in 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and strict fluid balance.",
+            "rationale": "Detect rapid volume changes indicating deficit."
+          },
+          {
+            "action": "Maintain appropriate venous access for C1‑INH or fluid infusion.",
+            "rationale": "Facilitates volume replacement and specific treatment."
+          },
+          {
+            "action": "Assess signs of hypovolemia (tachycardia, low BP, dry mucous membranes).",
+            "rationale": "Allows early intervention before clinical deterioration."
+          },
+          {
+            "action": "Administer C1‑INH concentrate as prescribed.",
+            "rationale": "Corrects underlying cause and reduces plasma loss into interstitium."
+          },
+          {
+            "action": "Educate patient on importance of adequate hydration between attacks.",
+            "rationale": "Prevents dehydration and helps maintain circulating volume."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "facial and airway edema limiting breathing",
+          "abdominal pain from visceral edema"
+        ],
+        "evidenced_by": [
+          "dyspnea when speaking or eating",
+          "abdominal pain and nausea",
+          "fatigue during daily activities"
+        ],
+        "outcomes": [
+          "Patient reports decreased pain and dyspnea ≤3/10 on 0‑10 scale within 24 h",
+          "Ability to perform activities of daily living without significant limitation within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess dyspnea and pain before and after C1‑INH administration.",
+            "rationale": "Determines treatment effectiveness and guides activity adjustments."
+          },
+          {
+            "action": "Plan rest periods and avoid intense physical exertion for 24‑48 h post‑attack.",
+            "rationale": "Reduces metabolic demand and prevents edema exacerbation."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques to alleviate shortness of breath.",
+            "rationale": "Improves oxygenation and reduces anxiety."
+          },
+          {
+            "action": "Provide analgesics and antiemetics as indicated to control pain and nausea.",
+            "rationale": "Facilitates tolerance of daily activities."
+          },
+          {
+            "action": "Reinforce emergency action plan and use of self‑injection of C1‑INH.",
+            "rationale": "Empowers patient to manage future attacks and reduce activity interruptions."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "c1-inhibitor-deficiency",
+    "bradykinin-mediated-edema",
+    "ace-inhibitor-induced-angioedema",
+    "hereditary-angioedema-type-i",
+    "hereditary-angioedema-type-ii"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Vascular Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/vasculardiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hereditary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-2-hereditary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Urticaria and Angioneurotic Edema",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-4-urticaria-and-angioneurotic-edema",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-24",
+  "factcheck": {
+    "checked": "2026-10-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 30,
+      "contradicted": 2,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Bradykinin-mediated angioedema is either due to genetics, angiotensin-converting enzyme inhibitor-associated angioedema, or acquired C1-inhibitor deficiency.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Hereditary angioedema is either secondary to angiopoietin-1, F12 gene, plasminogen, or an unknown gene mutation that contributes to abnormal accumulation of C1 inhibitor or bradykinin (Memo & Tiwari, 2023).",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "However, the patient should be monitored for airway obstruction; a tracheostomy may be a necessary intervention should this type of emergency happen.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "supported",
+        "quote": "Discharge planning includes educating the patient and family on self-care at home and the importance of adhering to the treatment plan, correctly using medications, and minimizing exposure to triggering allergens and other substances that aggravate the reaction.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "contradicted",
+        "quote": "Hereditary angioedema is either secondary to angiopoietin-1, F12 gene, plasminogen, or an unknown gene mutation that contributes to abnormal accumulation of C1 inhibitor or bradykinin (Memo & Tiwari, 2023).",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Angioedema, or angioneurotic edema , is a condition that is manifested by urticaria and dispersed swelling of the deeper skin layers.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "The use of angiotensin-converting enzyme (ACE) inhibitors should also be assessed in the event the angioedema is a result of ACE inhibitor–associated angioedema.",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "People with the genetic abnormality for sickle cell disease may be asymptomatic for years until a crisis occurs, which often is due to another issue, such as an infection, trauma, accident, or emotional upset.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "contradicted",
+        "quote": "As previously stated, it can occur alongside the presence of urticaria, alone, or as a component of anaphylaxis.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "I observed nonverbal signals of anxiety and distress in our dialogue.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Nurses play a pivotal role in providing necessary treatments such as blood transfusions or iron chelation therapy (discussed in detail in Medical Therapies and Related Care ), monitoring dosage accuracy, and tracking potential adverse reactions.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,484 @@
+{
+  "id": "hemorrhagic-stroke",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Accidente cerebrovascular hemorrágico (ACV hemorrágico)",
+    "aliases": [
+      "acv hemorrágico",
+      "hemorragia cerebral",
+      "stroke hemorrágico",
+      "hemorragia intracerebral",
+      "hemorragia subaracnoidea"
+    ],
+    "summary": "El ACV hemorrágico ocurre cuando un vaso cerebral se rompe, provocando sangrado dentro o alrededor del cerebro y aumento de la presión intracraneal.",
+    "key_points": [
+      "Ruptura de vaso → sangrado intracraneal y aumento de presión intracraneal.",
+      "Hipertensión crónica es el factor de riesgo más frecuente.",
+      "Diagnóstico rápido con tomografía axial computarizada (TC) sin contraste.",
+      "Control estricto de la presión arterial y de la presión intracraneal es esencial.",
+      "Manejo quirúrgico según localización y volumen del hematoma."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ruptura de arteria cerebral por hipertensión, aneurisma o malformación.",
+        "El sangrado llena el parénquima o el espacio subaracnoideo, elevando la presión intracraneal.",
+        "Compresión del tejido cerebral reduce el flujo sanguíneo y causa isquemia secundaria.",
+        "El edema vasogénico y la herniación pueden desarrollarse en horas."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica no controlada.",
+        "Aneurisma cerebral o malformación arteriovenosa.",
+        "Uso de anticoagulantes o antiagregantes.",
+        "Consumo excesivo de alcohol y tabaquismo."
+      ],
+      "signs_symptoms": [
+        "Dolor de cabeza súbito y severo (tipo “explosivo”).",
+        "Náuseas, vómitos y pérdida de conciencia.",
+        "Déficits neurológicos focales (paresia, visión borrosa).",
+        "Rigidez de nuca (hemorragia subaracnoidea)."
+      ],
+      "diagnostics": [
+        "TC cerebral sin contraste: hiperdensidad que indica sangre.",
+        "LCR: sangre en el líquido cefalorraquídeo si hay hemorragia subaracnoidea.",
+        "Hemograma: hemoglobina y hematocrito para evaluar pérdida sanguínea.",
+        "Presión arterial: mantener <140/90 mmHg; monitorizar continuamente."
+      ],
+      "treatment": [
+        "Control de presión arterial con labetalol o nicardipina.",
+        "Reversión de anticoagulación: vitamina K, protamina, factor VIIa.",
+        "Manejo de presión intracraneal: manitol 20% o solución salina hipertónica.",
+        "Cirugía de evacuación de hematoma o clipado de aneurisma según indicación."
+      ],
+      "complications": [
+        "Hernia cerebral (cerebelosa, transtentorial).",
+        "Vasoespasmo y isquemia secundaria.",
+        "Hidrocefalia obstructiva.",
+        "Convulsiones y déficits neurológicos permanentes."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia con escala de Glasgow cada hora.",
+        "Monitorear presión arterial, frecuencia cardíaca y presión intracraneal.",
+        "Mantener posición semisentada (30°) para favorecer drenaje venoso.",
+        "Controlar equilibrio de líquidos y signos de hipovolemia.",
+        "Administrar medicamentos según prescripción y observar efectos adversos."
+      ],
+      "patient_teaching": [
+        "Importancia de controlar la presión arterial en casa (≤140/90 mmHg).",
+        "Adherir al tratamiento anticoagulante o antihipertensivo según indicación.",
+        "Reconocer signos de alarma: dolor de cabeza intenso, visión borrosa, debilidad súbita.",
+        "Evitar esfuerzos físicos intensos y consumo de alcohol o tabaco."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "ruptura de vaso cerebral",
+          "hipertensión crónica",
+          "uso de anticoagulantes",
+          "aneurisma no tratado"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener escala de Glasgow ≥ 15 durante 24 h",
+          "Presión arterial sistólica 100‑140 mmHg y diastólica <90 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear nivel de conciencia y escala de Glasgow cada hora",
+            "rationale": "Detectar deterioro neurológico temprano permite intervención rápida."
+          },
+          {
+            "action": "Controlar presión arterial invasiva cada 15 min y ajustar antihipertensivos",
+            "rationale": "Mantener presión arterial dentro del rango reduce expansión del hematoma."
+          },
+          {
+            "action": "Mantener posición semisentada (30°) y evitar maniobras que aumenten presión intracraneal",
+            "rationale": "Facilita el drenaje venoso y disminuye la presión intracraneal."
+          },
+          {
+            "action": "Evaluar signos de aumento de presión intracraneal (pupilas, vómitos, hipertensión) y notificar al médico",
+            "rationale": "La detección precoz permite medidas terapéuticas urgentes."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida sanguínea intracraneal",
+          "administración de manitol",
+          "cirugía neurológica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial sistólica 100‑140 mmHg mantenida",
+          "Hematocrito ≥ 30 % en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 2 h",
+            "rationale": "Permite identificar desequilibrio de volumen rápidamente."
+          },
+          {
+            "action": "Monitorear signos vitales (PA, frecuencia cardíaca) y perfusión periférica",
+            "rationale": "Indicadores tempranos de hipovolemia o sobrecarga."
+          },
+          {
+            "action": "Administrar soluciones cristaloides según prescripción y observar respuesta hemodinámica",
+            "rationale": "Reemplaza el volumen perdido y mantiene perfusión cerebral."
+          },
+          {
+            "action": "Evaluar nivel de hemoglobina y hematocrito cada 12 h",
+            "rationale": "Detecta anemia por sangrado y guía transfusión si es necesario."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de reportar sangrado o vómitos persistentes",
+            "rationale": "Facilita la detección precoz de pérdida adicional de volumen."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hemorrhagic stroke (hemorrhagic cerebrovascular accident)",
+    "aliases": [
+      "hemorrhagic stroke",
+      "cerebral hemorrhage",
+      "intracerebral hemorrhage",
+      "subarachnoid hemorrhage"
+    ],
+    "summary": "Hemorrhagic stroke occurs when a cerebral vessel ruptures, causing bleeding inside or around the brain and increasing intracranial pressure.",
+    "key_points": [
+      "Vessel rupture → intracranial bleeding and increased intracranial pressure.",
+      "Chronic hypertension is the most common risk factor.",
+      "Rapid diagnosis with non‑contrast computed tomography (CT).",
+      "Strict control of blood pressure and intracranial pressure is essential.",
+      "Surgical management based on location and hematoma volume."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Rupture of a cerebral artery due to hypertension, aneurysm, or malformation.",
+        "Bleeding fills the parenchyma or subarachnoid space, raising intracranial pressure.",
+        "Compression of brain tissue reduces blood flow and causes secondary ischemia.",
+        "Vasogenic edema and herniation can develop within hours."
+      ],
+      "risk_factors": [
+        "Uncontrolled chronic arterial hypertension.",
+        "Cerebral aneurysm or arteriovenous malformation.",
+        "Use of anticoagulants or antiplatelets.",
+        "Excessive alcohol consumption and smoking."
+      ],
+      "signs_symptoms": [
+        "Sudden, severe “explosive” headache.",
+        "Nausea, vomiting, and loss of consciousness.",
+        "Focal neurological deficits (paresis, blurred vision).",
+        "Nuchal rigidity (subarachnoid hemorrhage)."
+      ],
+      "diagnostics": [
+        "Non‑contrast brain CT: hyperdensity indicating blood.",
+        "CSF: blood in cerebrospinal fluid if subarachnoid hemorrhage present.",
+        "CBC: hemoglobin and hematocrit to assess blood loss.",
+        "Blood pressure: maintain <140/90 mmHg; continuous monitoring."
+      ],
+      "treatment": [
+        "Blood pressure control with labetalol or nicardipine.",
+        "Reversal of anticoagulation: vitamin K, protamine, factor VIIa.",
+        "Intracranial pressure management: 20% mannitol or hypertonic saline.",
+        "Surgical evacuation of hematoma or aneurysm clipping as indicated."
+      ],
+      "complications": [
+        "Brain herniation (cerebellar, transtentorial).",
+        "Vasospasm and secondary ischemia.",
+        "Obstructive hydrocephalus.",
+        "Seizures and permanent neurological deficits."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness with Glasgow Coma Scale hourly.",
+        "Monitor blood pressure, heart rate, and intracranial pressure.",
+        "Maintain semi‑upright position (30°) to promote venous drainage.",
+        "Monitor fluid balance and signs of hypovolemia.",
+        "Administer medications per order and observe for adverse effects."
+      ],
+      "patient_teaching": [
+        "Importance of home blood pressure control (≤140/90 mmHg).",
+        "Adhere to anticoagulant or antihypertensive therapy as prescribed.",
+        "Recognize alarm signs: intense headache, blurred vision, sudden weakness.",
+        "Avoid intense physical exertion and consumption of alcohol or tobacco."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "cerebral vessel rupture",
+          "chronic hypertension",
+          "use of anticoagulants",
+          "untreated aneurysm"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain Glasgow Coma Scale ≥15 for 24 h",
+          "Systolic blood pressure 100‑140 mmHg and diastolic <90 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor level of consciousness and Glasgow Coma Scale hourly",
+            "rationale": "Early detection of neurological decline allows prompt intervention."
+          },
+          {
+            "action": "Control invasive blood pressure every 15 min and adjust antihypertensives",
+            "rationale": "Keeping blood pressure within range reduces hematoma expansion."
+          },
+          {
+            "action": "Maintain semi‑upright position (30°) and avoid maneuvers that increase intracranial pressure",
+            "rationale": "Facilitates venous drainage and decreases intracranial pressure."
+          },
+          {
+            "action": "Assess signs of increased intracranial pressure (pupils, vomiting, hypertension) and notify the physician",
+            "rationale": "Early detection permits urgent therapeutic measures."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "intracranial blood loss",
+          "administration of mannitol",
+          "neurosurgery"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Systolic blood pressure 100‑140 mmHg maintained",
+          "Hematocrit ≥30 % within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 2 h",
+            "rationale": "Allows rapid identification of volume imbalance."
+          },
+          {
+            "action": "Monitor vital signs (BP, heart rate) and peripheral perfusion",
+            "rationale": "Early indicators of hypovolemia or overload."
+          },
+          {
+            "action": "Administer crystalloid solutions per order and observe hemodynamic response",
+            "rationale": "Replaces lost volume and maintains cerebral perfusion."
+          },
+          {
+            "action": "Assess hemoglobin and hematocrit every 12 h",
+            "rationale": "Detects anemia from bleeding and guides transfusion if needed."
+          },
+          {
+            "action": "Educate patient and family on the importance of reporting persistent bleeding or vomiting",
+            "rationale": "Facilitates early detection of additional volume loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "intracerebral-hemorrhage",
+    "subarachnoid-hemorrhage",
+    "cerebral-edema",
+    "brain-herniation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hemorrhagic Stroke",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hemorrhagicstroke.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Accidente cerebrovascular hemorrágico",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hemorrhagicstroke.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hemorrhagic Stroke",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-3-hemorrhagic-stroke",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Ischemic Stroke",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-2-ischemic-stroke",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-24",
+  "factcheck": {
+    "checked": "2026-10-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 25,
+      "contradicted": 1,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "It occurs when a blood vessel in the brain bursts, causing bleeding (hemorrhage) in or around the brain. This bleeding increases pressure inside the skull and damages brain tissue.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A hemorrhage is a bleed, which can be from a rupture or leak in a cerebral vessel, either within the brain or around the brain. Bleeding in either location can take up room in the finite space of the skull, causing increased cerebral pressure and cerebral edema.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Bleeding in either location can take up room in the finite space of the skull, causing increased cerebral pressure and cerebral edema.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Cerebral trauma and bleeding from a brain tumor can cause ICH, as well as aneurysm ruptures and arteriovenous malformations.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Patients taking anticoagulants or antiplatelets are at risk for ICH because their blood is “thinner,” meaning that clotting times are increased.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Modifiable risk factors for hemorrhagic stroke are: hypertension smoking alcohol consumption antiplatelet or anticoagulant therapy sympathomimetic drug usage",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "thunderclap headache , a severe, sudden headache that peaks in intensity in seconds, lasts at least five minutes, and lingers and fades within a few hours",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "These include: decreased level of consciousness or coma thunderclap headache , a severe, sudden headache that peaks in intensity in seconds, lasts at least five minutes, and lingers and fades within a few hours vomiting seizure activity neck stiffness or pain",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "A head CT is the first imaging done in response to the signs and symptoms of a stroke because it determines whether a bleed is present, dictating the course of treatment.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "contradicted",
+        "quote": "The systolic goal is < 160–180 mmHg for patients who have received tPA, but it may be even higher (up to 220/120) for those who did not receive tPA.",
+        "source": 3
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Control within these parameters may require intravenous administration of labetalol or nicardipine.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Surgical interventions for hemorrhagic stroke aim to stop bleeding, aspirate the hematoma, or relieve pressure on the brain.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Fisher scale Modified Fisher scale To index risk for vasospasm and delayed cerebral ischemia related to vasospasm after SAH",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Sudden severe headache with no known cause",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
