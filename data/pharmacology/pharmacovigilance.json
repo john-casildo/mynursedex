@@ -1,0 +1,266 @@
+{
+  "id": "pharmacovigilance",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Farmacovigilancia",
+    "aliases": [
+      "farmacovigilancia",
+      "monitorizacion de fármacos",
+      "seguridad de medicamentos",
+      "reacciones adversas",
+      "notificacion de eventos"
+    ],
+    "summary": "Proceso sistemático de detección, evaluación, comprensión y prevención de los efectos adversos de los medicamentos. Es responsabilidad de todo el equipo de salud, incluida la enfermera.",
+    "key_points": [
+      "Definición: vigilancia de la seguridad de los fármacos después de su comercialización.",
+      "Fuentes de información: reportes espontáneos, estudios de cohorte, bases de datos nacionales (INVIMA).",
+      "Etapas: detección → evaluación → gestión → comunicación de la reacción adversa.",
+      "Rol de la enfermera: observar, registrar, notificar y educar al paciente sobre efectos adversos.",
+      "Importancia del reporte oportuno para prevenir eventos graves y actualizar la información del producto.",
+      "Diferencia entre reacción adversa a medicamento y error de medicación."
+    ],
+    "sections": {
+      "mechanism": [
+        "Recopila datos de eventos adversos mediante observación clínica y reportes del paciente.",
+        "Evalúa causalidad usando criterios como Naranjo o WHO-UMC.",
+        "Clasifica la gravedad y la frecuencia del evento.",
+        "Comunica los hallazgos a autoridades regulatorias y al fabricante."
+      ],
+      "indications": [
+        "Todo paciente que recibe terapia farmacológica.",
+        "Situaciones de uso de medicamentos de alto riesgo (anticoagulantes, quimioterapia).",
+        "Después de la introducción de un nuevo fármaco al mercado."
+      ],
+      "nursing_care": [
+        "Evaluar signos y síntomas de posibles reacciones adversas antes y después de la administración.",
+        "Documentar fecha, hora, dosis, vía y descripción del evento en la historia clínica.",
+        "Notificar inmediatamente al médico y al sistema de farmacovigilancia (INVIMA).",
+        "Mantener registro de todos los reportes para seguimiento y análisis.",
+        "Revisar laboratorios pertinentes según el fármaco involucrado."
+      ],
+      "patient_teaching": [
+        "Informar al paciente sobre los posibles efectos secundarios del medicamento.",
+        "Enseñar a reconocer signos de reacción adversa grave (erupción, dificultad respiratoria, edema).",
+        "Instruir a reportar cualquier síntoma nuevo o inesperado al personal de salud.",
+        "Recomendar llevar una lista actualizada de medicamentos y compartirla en cada visita."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de reacción alérgica",
+        "type": "risk",
+        "related_to": [
+          "uso de medicamentos",
+          "historial de alergias",
+          "exposición a nuevos fármacos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin reacciones alérgicas durante la estancia hospitalaria",
+          "Reporte de cualquier síntoma sospechoso dentro de 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar antecedentes de alergias y reacciones previas antes de iniciar cualquier fármaco",
+            "rationale": "Identifica pacientes con mayor probabilidad de reacción alérgica."
+          },
+          {
+            "action": "Monitorear signos vitales y síntomas cutáneos después de la administración",
+            "rationale": "Detecta tempranamente reacciones alérgicas leves o graves."
+          },
+          {
+            "action": "Documentar y notificar cualquier sospecha de reacción alérgica al médico y al sistema de farmacovigilancia",
+            "rationale": "Facilita la intervención oportuna y el registro oficial."
+          },
+          {
+            "action": "Educar al paciente sobre signos de anafilaxia y cuándo buscar ayuda de emergencia",
+            "rationale": "Promueve la autovigilancia y reduce el tiempo de respuesta."
+          },
+          {
+            "action": "Mantener a mano equipo de emergencia (epinefrina, oxígeno) según protocolo institucional",
+            "rationale": "Permite una respuesta rápida ante una reacción alérgica grave."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pharmacovigilance",
+    "aliases": [
+      "pharmacovigilance",
+      "drug monitoring",
+      "medication safety",
+      "adverse reactions",
+      "event reporting"
+    ],
+    "summary": "A systematic process of detecting, evaluating, understanding, and preventing adverse drug effects. It is the responsibility of the entire health team, including the nurse.",
+    "key_points": [
+      "Definition: monitoring drug safety after market release.",
+      "Information sources: spontaneous reports, cohort studies, national databases (INVIMA).",
+      "Stages: detection → evaluation → management → communication of adverse reaction.",
+      "Nurse's role: observe, record, report, and educate patients about adverse effects.",
+      "Importance of timely reporting to prevent serious events and update product information.",
+      "Difference between drug adverse reaction and medication error."
+    ],
+    "sections": {
+      "mechanism": [
+        "Collects data on adverse events through clinical observation and patient reports.",
+        "Assesses causality using criteria such as Naranjo or WHO-UMC.",
+        "Classifies severity and frequency of the event.",
+        "Communicates findings to regulatory authorities and the manufacturer."
+      ],
+      "indications": [
+        "All patients receiving pharmacologic therapy.",
+        "High-risk medication use situations (anticoagulants, chemotherapy).",
+        "After introduction of a new drug to the market."
+      ],
+      "nursing_care": [
+        "Assess signs and symptoms of potential adverse reactions before and after administration.",
+        "Document date, time, dose, route, and event description in the medical record.",
+        "Immediately notify the physician and the pharmacovigilance system (INVIMA).",
+        "Maintain a record of all reports for follow-up and analysis.",
+        "Review relevant labs based on the involved drug."
+      ],
+      "patient_teaching": [
+        "Inform the patient about possible side effects of the medication.",
+        "Teach recognition of signs of severe adverse reaction (rash, breathing difficulty, swelling).",
+        "Instruct to report any new or unexpected symptoms to health staff.",
+        "Recommend keeping an updated medication list and sharing it at each visit."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for allergy reaction",
+        "type": "risk",
+        "related_to": [
+          "medication use",
+          "allergy history",
+          "exposure to new drugs"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No allergic reactions during hospital stay",
+          "Report any suspicious symptoms within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess allergy history and prior reactions before starting any drug",
+            "rationale": "Identifies patients with higher likelihood of allergic reaction."
+          },
+          {
+            "action": "Monitor vital signs and cutaneous symptoms after administration",
+            "rationale": "Detects early mild or severe allergic reactions."
+          },
+          {
+            "action": "Document and report any suspicion of allergic reaction to the physician and pharmacovigilance system",
+            "rationale": "Facilitates timely intervention and official record."
+          },
+          {
+            "action": "Educate the patient about anaphylaxis signs and when to seek emergency help",
+            "rationale": "Promotes self-monitoring and reduces response time."
+          },
+          {
+            "action": "Keep emergency equipment (epinephrine, oxygen) on hand per institutional protocol",
+            "rationale": "Allows rapid response to a severe allergic reaction."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "adverse-drug-reaction",
+    "drug-safety",
+    "pharmacovigilance-system",
+    "medication-error",
+    "clinical-monitoring"
+  ],
+  "sources": [],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-25",
+  "factcheck": {
+    "checked": "2026-10-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 24,
+      "contradicted": 0,
+      "total": 24
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

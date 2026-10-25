@@ -1,0 +1,528 @@
+{
+  "id": "nosocomial-infection",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infección nosocomial",
+    "aliases": [
+      "infección nosocomial",
+      "infección hospitalaria",
+      "infección adquirida en hospital",
+      "nosocomial",
+      "infección intrahospitalaria"
+    ],
+    "summary": "Infección adquirida durante la estancia hospitalaria que no estaba presente o incubándose al ingreso. Es causada por microorganismos patógenos que se transmiten por contacto directo, superficies o dispositivos invasivos.",
+    "key_points": [
+      "Se produce después de 48 h de hospitalización o tras procedimientos invasivos.",
+      "La cadena de infección incluye agente, reservorio, vía de transmisión y huésped susceptible.",
+      "La higiene de manos es la medida más eficaz para prevenirla.",
+      "El uso prudente de antibióticos reduce la resistencia y el riesgo de infección.",
+      "El aislamiento y la desinfección ambiental son esenciales en el control."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Un microorganismo patógeno coloniza un reservorio (p. ej., piel, dispositivos).",
+        "Se transmite al paciente mediante contacto directo, aire o fluidos.",
+        "El huésped con factores de riesgo permite la invasión y multiplicación.",
+        "Se desencadena una respuesta inflamatoria que puede progresar a sepsis."
+      ],
+      "risk_factors": [
+        "Estancia hospitalaria >48 h.",
+        "Uso de catéteres, ventilación mecánica o sondas.",
+        "Inmunosupresión o comorbilidades crónicas.",
+        "Uso prolongado de antibióticos de amplio espectro.",
+        "Mala higiene de manos del personal y visitantes."
+      ],
+      "signs_symptoms": [
+        "Fiebre ≥38 °C o hipotermia.",
+        "Leucocitosis >12 000 mm³ o leucopenia <4 000 mm³.",
+        "Enrojecimiento, calor, dolor y exudado en sitio de catéter o herida.",
+        "Escalofríos, taquicardia y aumento de la frecuencia respiratoria.",
+        "Cambios en resultados de laboratorio: PCR ↑, procalcitonina ↑."
+      ],
+      "diagnostics": [
+        "Cultivo de sangre, orina, exudado o sitio invasivo.",
+        "Hemograma completo con diferencial.",
+        "Proteína C‑reactiva y procalcitonina para evaluar inflamación.",
+        "Radiografía de tórax o ecografía según sospecha de foco.",
+        "Sensibilidad antibiótica para guiar terapia."
+      ],
+      "treatment": [
+        "Antibiótico de amplio espectro inicial, ajustado según cultivo.",
+        "Control de la fuente: retirar o cambiar catéteres contaminados.",
+        "Aislamiento de contacto o gotas según agente identificado.",
+        "Reposición de líquidos y soporte hemodinámico si hay sepsis.",
+        "Educación al paciente y familia sobre medidas de prevención."
+      ],
+      "complications": [
+        "Sepsis y shock séptico.",
+        "Fallo multiorgánico (renal, respiratorio, cardiovascular).",
+        "Resistencia bacteriana a antibióticos.",
+        "Trombosis asociada a catéteres infectados.",
+        "Prolongación de la estancia hospitalaria y mayor mortalidad."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4 h y observar cambios en temperatura.",
+        "Inspeccionar diariamente sitios de catéteres y heridas.",
+        "Aplicar técnica aséptica al manipular dispositivos invasivos.",
+        "Registrar y reportar cualquier signo de infección al médico.",
+        "Mantener aislamiento y uso correcto de EPP (guantes, mascarilla).",
+        "Promover hidratación adecuada y nutrición para favorecer la inmunidad."
+      ],
+      "patient_teaching": [
+        "Lavado de manos con agua y jabón 20 s o uso de alcohol gel antes y después de contacto.",
+        "Informar al personal cualquier enrojecimiento, dolor o secreción.",
+        "Completar el ciclo completo de antibióticos aunque mejore.",
+        "Evitar tocar o manipular catéteres sin ayuda del personal.",
+        "Practicar tos y estornudo cubriendo boca y nariz con pañuelo o codo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso de catéteres",
+          "estancia prolongada",
+          "inmunosupresión",
+          "higiene de manos deficiente"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección (temperatura <38 °C, sin enrojecimiento) en 48 h",
+          "Higiene de manos adecuada 100 % del tiempo durante la estancia"
+        ],
+        "interventions": [
+          {
+            "action": "Enseñar y supervisar el lavado de manos antes y después de cada contacto con el paciente",
+            "rationale": "Reduce la transmisión de microorganismos patógenos"
+          },
+          {
+            "action": "Aplicar técnica aséptica al manipular dispositivos invasivos",
+            "rationale": "Previene la introducción de agentes infecciosos"
+          },
+          {
+            "action": "Mantener el entorno limpio y desinfectar superficies de alto contacto cada 4 h",
+            "rationale": "Elimina reservorios potenciales de patógenos"
+          },
+          {
+            "action": "Revisar diariamente la necesidad de catéteres y retirarlos cuando no sean imprescindibles",
+            "rationale": "Disminuye la vía de transmisión de infecciones"
+          },
+          {
+            "action": "Colocar señalización de aislamiento cuando sea necesario",
+            "rationale": "Facilita la aplicación de precauciones de contacto o gotas"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deterioro de la integridad cutánea",
+        "type": "actual",
+        "related_to": [
+          "catéter venoso periférico contaminado",
+          "herida quirúrgica infectada"
+        ],
+        "evidenced_by": [
+          "enrojecimiento",
+          "calor",
+          "dolor",
+          "exudado purulento"
+        ],
+        "outcomes": [
+          "Integridad cutánea restaurada sin exudado en 7 días",
+          "Reducción del enrojecimiento y dolor a <2/10 en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Inspeccionar el sitio de inserción del catéter cada 8 h y registrar hallazgos",
+            "rationale": "Detecta precozmente signos de infección y permite intervención temprana"
+          },
+          {
+            "action": "Realizar curación estéril con solución salina y apósitos no adherentes",
+            "rationale": "Mantiene un ambiente húmedo y reduce la colonización bacteriana"
+          },
+          {
+            "action": "Cambiar el catéter según protocolo o cuando haya signos de infección",
+            "rationale": "Elimina la fuente de contaminación"
+          },
+          {
+            "action": "Administrar antibiótico prescrito y monitorizar respuesta clínica",
+            "rationale": "Controla la infección sistémica y local"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de no manipular el sitio y reportar cambios",
+            "rationale": "Fomenta la participación activa y previene empeoramiento"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hospital-acquired infection",
+    "aliases": [
+      "hospital-acquired infection",
+      "nosocomial infection",
+      "hospital acquired infection",
+      "nosocomial",
+      "intrahospital infection"
+    ],
+    "summary": "Infection acquired during hospital stay that was not present or incubating at admission. It is caused by pathogenic microorganisms transmitted by direct contact, surfaces or invasive devices.",
+    "key_points": [
+      "Occurs after 48 h of hospitalization or after invasive procedures.",
+      "The infection chain includes agent, reservoir, transmission route and susceptible host.",
+      "Hand hygiene is the most effective measure to prevent it.",
+      "Prudent antibiotic use reduces resistance and infection risk.",
+      "Isolation and environmental disinfection are essential for control."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "A pathogenic microorganism colonizes a reservoir (e.g., skin, devices).",
+        "It is transmitted to the patient via direct contact, air or fluids.",
+        "The host with risk factors allows invasion and multiplication.",
+        "An inflammatory response is triggered that may progress to sepsis."
+      ],
+      "risk_factors": [
+        "Hospital stay >48 h.",
+        "Use of catheters, mechanical ventilation or tubes.",
+        "Immunosuppression or chronic comorbidities.",
+        "Prolonged use of broad-spectrum antibiotics.",
+        "Poor hand hygiene by staff and visitors."
+      ],
+      "signs_symptoms": [
+        "Fever ≥38 °C or hypothermia.",
+        "Leukocytosis >12 000 mm³ or leukopenia <4 000 mm³.",
+        "Redness, warmth, pain and drainage at catheter or wound site.",
+        "Chills, tachycardia and increased respiratory rate.",
+        "Laboratory changes: CRP ↑, procalcitonin ↑."
+      ],
+      "diagnostics": [
+        "Blood, urine, exudate or invasive site cultures.",
+        "Complete blood count with differential.",
+        "C‑reactive protein and procalcitonin to assess inflammation.",
+        "Chest X‑ray or ultrasound as indicated for focus suspicion.",
+        "Antibiotic susceptibility to guide therapy."
+      ],
+      "treatment": [
+        "Initial broad‑spectrum antibiotic, adjusted per culture.",
+        "Source control: remove or change contaminated catheters.",
+        "Contact or droplet isolation per identified agent.",
+        "Fluid resuscitation and hemodynamic support if sepsis present.",
+        "Patient and family education on prevention measures."
+      ],
+      "complications": [
+        "Sepsis and septic shock.",
+        "Multi‑organ failure (renal, respiratory, cardiovascular).",
+        "Antibiotic resistance.",
+        "Catheter‑associated thrombosis.",
+        "Prolonged hospital stay and higher mortality."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4 h and monitor temperature changes.",
+        "Inspect catheter and wound sites daily.",
+        "Apply aseptic technique when handling invasive devices.",
+        "Document and report any infection signs to the physician.",
+        "Maintain isolation and proper PPE use (gloves, mask).",
+        "Promote adequate hydration and nutrition to support immunity."
+      ],
+      "patient_teaching": [
+        "Wash hands with soap and water for 20 s or use alcohol gel before and after contact.",
+        "Inform staff of any redness, pain or discharge.",
+        "Complete the full antibiotic course even if symptoms improve.",
+        "Avoid touching or manipulating catheters without staff assistance.",
+        "Practice cough and sneeze etiquette by covering mouth and nose with tissue or elbow."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "catheter use",
+          "prolonged stay",
+          "immunosuppression",
+          "poor hand hygiene"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection (temperature <38 °C, no redness) within 48 h",
+          "Hand hygiene compliance 100 % during stay"
+        ],
+        "interventions": [
+          {
+            "action": "Teach and supervise hand washing before and after each patient contact",
+            "rationale": "Reduces transmission of pathogenic microorganisms"
+          },
+          {
+            "action": "Apply aseptic technique when handling invasive devices",
+            "rationale": "Prevents introduction of infectious agents"
+          },
+          {
+            "action": "Keep environment clean and disinfect high‑contact surfaces every 4 h",
+            "rationale": "Eliminates potential pathogen reservoirs"
+          },
+          {
+            "action": "Review daily catheter necessity and remove when not essential",
+            "rationale": "Reduces transmission route of infections"
+          },
+          {
+            "action": "Place isolation signage when necessary",
+            "rationale": "Facilitates contact or droplet precautions"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Impaired skin integrity",
+        "type": "actual",
+        "related_to": [
+          "contaminated peripheral venous catheter",
+          "infected surgical wound"
+        ],
+        "evidenced_by": [
+          "redness",
+          "warmth",
+          "pain",
+          "purulent drainage"
+        ],
+        "outcomes": [
+          "Restored skin integrity without drainage in 7 days",
+          "Redness and pain reduced to <2/10 within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Inspect catheter insertion site every 8 h and document findings",
+            "rationale": "Detects early infection signs and allows prompt intervention"
+          },
+          {
+            "action": "Perform sterile dressing with saline solution and non‑adherent dressings",
+            "rationale": "Maintains a moist environment and reduces bacterial colonization"
+          },
+          {
+            "action": "Change catheter per protocol or when infection signs appear",
+            "rationale": "Eliminates contamination source"
+          },
+          {
+            "action": "Administer prescribed antibiotic and monitor clinical response",
+            "rationale": "Controls systemic and local infection"
+          },
+          {
+            "action": "Educate patient on importance of not manipulating site and reporting changes",
+            "rationale": "Encourages active participation and prevents worsening"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hospital-acquired-infection",
+    "antibiotic-resistance",
+    "sepsis",
+    "infection-control",
+    "hand-hygiene"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Infection Control",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/infectioncontrol.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Infection Cycle",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-1-infection-cycle",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Infection Cycle",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/10-1-infection-cycle",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-25",
+  "factcheck": {
+    "checked": "2026-10-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 36,
+      "contradicted": 1,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "contradicted",
+        "quote": "The six links are a causative agent, a source, a means of exit from the body, a method of spread, a way into the body, and a susceptible host .",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Proper hand washing is the most effective way to prevent the spread of infections in hospitals.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "The process of infection control includes handwashing, environmental sanitizing, proper waste management, and adherence to isolation precautions.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Germs can be transmitted via multiple routes, which include direct contact, indirect contact, droplets, the air, water, food, and vectors.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Factors that increase susceptibility include age, chronic illnesses, a compromised immune system, or immune deficiency.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Indirect transmission can occur in a hospital from, for example, ineffective hand hygiene, improper cleaning of medical equipment, and failure to change gloves between patients.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "A nurse assessing a patient who has a suspected infection will consider findings related to an inflammatory process, such as increased body temperature, heat at the site, redness, or swelling.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "If you are a patient, don't be afraid to remind friends, family and health care providers to wash their hands before getting close to you.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "The body’s extreme response to widespread infection, called sepsis , is the outcome of an inappropriate immune response to an infection that results in function failure in multiple organ systems within the body.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "The body’s extreme response to widespread infection, called sepsis , is the outcome of an inappropriate immune response to an infection that results in function failure in multiple organ systems within the body.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Patients who develop any infection are at risk for prolonged hospital stays, long-term complications, and/or death, but HAIs are specifically dangerous as they are typically resistant to bacterial treatment and spread rapidly to often immunocompromised hospitalized patients.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

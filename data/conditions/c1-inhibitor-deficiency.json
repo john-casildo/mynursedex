@@ -1,0 +1,474 @@
+{
+  "id": "c1-inhibitor-deficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Deficiencia de inhibidor C1 (hereditario)",
+    "aliases": [
+      "deficiencia c1",
+      "inhibidor c1",
+      "angioedema hereditario",
+      "hereditario c1"
+    ],
+    "summary": "Trastorno genético por falta o disfunción del inhibidor C1 que produce episodios de edema subcutáneo y de vías respiratorias por exceso de bradiquinina.",
+    "key_points": [
+      "Deficiencia de C1‑INH → aumento de bradiquinina y edema.",
+      "Herencia autosómica dominante; mutación del gen SERPING1.",
+      "Edema de laringe puede comprometer la vía aérea rápidamente.",
+      "Diagnóstico: C4 bajo y C1‑INH bajo o disfuncional.",
+      "Tratamiento de rescate: concentrado de C1‑INH, icatibant o ecallantide.",
+      "Paciente debe llevar medicación de emergencia y alerta médica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutación del gen SERPING1 reduce la síntesis o función del inhibidor C1.",
+        "Disminuye la inactivación del sistema de complemento y de la vía del kallikrein.",
+        "Se genera exceso de bradiquinina, provocando vasodilatación y aumento de la permeabilidad capilar.",
+        "Resultado: edema localizado en piel, mucosas y vías respiratorias."
+      ],
+      "risk_factors": [
+        "Historia familiar de angioedema hereditario.",
+        "Estrés emocional o físico, trauma, infecciones respiratorias.",
+        "Uso de estrógenos (píldoras anticonceptivas, terapia hormonal).",
+        "Procedimientos dentales o quirúrgicos invasivos."
+      ],
+      "signs_symptoms": [
+        "Edema cutáneo no pruriginoso, doloroso, de rápida aparición.",
+        "Edema de labios, lengua o faringe que puede dificultar la deglución.",
+        "Dolor abdominal intenso con náuseas y diarrea.",
+        "Falta de respuesta a antihistamínicos y corticoides."
+      ],
+      "diagnostics": [
+        "C4 sérico bajo en estado basal.",
+        "Nivel cuantitativo de C1‑INH bajo o actividad funcional < 50%.",
+        "Historia clínica de episodios recurrentes de edema sin urticaria.",
+        "Pruebas genéticas del gen SERPING1 (cuando están disponibles)."
+      ],
+      "treatment": [
+        "Concentrado de inhibidor de C1 (p. ej., Berinert, Cinryze) por vía intravenosa.",
+        "Icatibant, antagonista del receptor B2 de bradiquinina, vía subcutánea.",
+        "Ecallantide, inhibidor de kallikrein, vía subcutánea.",
+        "Oxígeno suplementario y soporte de vía aérea si hay compromiso respiratorio.",
+        "Evitar antihistamínicos y corticoides como terapia de primera línea."
+      ],
+      "complications": [
+        "Obstrucción de la vía aérea y asfixia.",
+        "Shock hipovolémico por extravasación de líquidos al tejido.",
+        "Dolor abdominal severo que puede simular abdomen agudo.",
+        "Ansiedad crónica por temor a episodios de edema."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y saturación de O₂ cada 15‑30 min durante un episodio.",
+        "Evaluar rápidamente la ubicación y extensión del edema (labio, lengua, vías respiratorias).",
+        "Mantener acceso venoso de calibre adecuado para administración de C1‑INH.",
+        "Preparar equipo de intubación y llamar a soporte de emergencias si hay compromiso de la vía aérea.",
+        "Registrar ingesta y pérdida de líquidos; observar signos de déficit de volumen."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar desencadenantes personales (estrógenos, trauma, estrés).",
+        "Enseñar el uso autoadministrado de C1‑INH o icatibant en caso de edema.",
+        "Recomendar llevar brazalete o tarjeta de alerta médica indicando deficiencia de C1‑INH.",
+        "Instruir a buscar atención médica inmediata si el edema afecta la cara o la garganta.",
+        "Explicar que antihistamínicos y corticoides no son efectivos para este tipo de edema."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "deficiencia de inhibidor C1",
+          "edema subcutáneo extenso",
+          "pérdida de líquidos al tejido"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen intravascular mantenido: peso estable ± 0.5 kg en 48 h",
+          "Signos de perfusión adecuados: PA ≥ 90/60 mmHg y FC ≤ 100 lpm"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener acceso venoso de calibre adecuado y registrar flujo.",
+            "rationale": "Facilita la administración rápida de C1‑INH y permite reposición de líquidos si es necesario."
+          },
+          {
+            "action": "Monitorear peso diario y balance hídrico (ingesta‑pérdida).",
+            "rationale": "Detecta cambios tempranos en el volumen intravascular."
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (capilaridad, temperatura, pulso).",
+            "rationale": "Identifica déficit de volumen antes de que se presenten alteraciones hemodinámicas graves."
+          },
+          {
+            "action": "Administrar solución salina isotónica si se observa hipotensión o taquicardia.",
+            "rationale": "Restablece la volemia y previene shock hipovolémico."
+          },
+          {
+            "action": "Documentar la extensión y localización del edema en cada turno.",
+            "rationale": "Permite correlacionar la pérdida de líquido con la gravedad del edema."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Ansiedad",
+        "type": "actual",
+        "related_to": [
+          "episodios de edema facial",
+          "temor a obstrucción de la vía aérea"
+        ],
+        "evidenced_by": [
+          "inquietud verbal",
+          "taquicardia",
+          "dificultad para concentrarse"
+        ],
+        "outcomes": [
+          "Nivel de ansiedad ≤ 3/10 en escala de ansiedad en 24 h",
+          "Participa en técnicas de relajación 10 min, 3 veces al día"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de ansiedad usando escala de 0‑10 al ingreso y cada 4 h.",
+            "rationale": "Proporciona medida objetiva para guiar intervenciones."
+          },
+          {
+            "action": "Proveer información clara sobre el plan de manejo y uso de medicación de rescate.",
+            "rationale": "Reduce la incertidumbre y el miedo al desconocimiento."
+          },
+          {
+            "action": "Enseñar respiración diafragmática y relajación muscular progresiva.",
+            "rationale": "Disminuye la respuesta fisiológica al estrés y la taquicardia."
+          },
+          {
+            "action": "Facilitar acceso inmediato a la medicación de emergencia y explicar su efecto rápido.",
+            "rationale": "Aumenta la sensación de control del paciente sobre la enfermedad."
+          },
+          {
+            "action": "Ofrecer apoyo emocional activo y escuchar las preocupaciones del paciente.",
+            "rationale": "Promueve la expresión de temores y reduce la carga emocional."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "C1 inhibitor deficiency (hereditary)",
+    "aliases": [
+      "c1 deficiency",
+      "c1 inhibitor",
+      "hereditary angioedema",
+      "hereditary c1"
+    ],
+    "summary": "Genetic disorder due to lack or dysfunction of C1 inhibitor that causes episodes of subcutaneous and airway edema from excess bradykinin.",
+    "key_points": [
+      "C1‑INH deficiency → increased bradykinin and edema.",
+      "Autosomal dominant inheritance; SERPING1 gene mutation.",
+      "Laryngeal edema can rapidly compromise the airway.",
+      "Diagnosis: low C4 and low or dysfunctional C1‑INH.",
+      "Rescue treatment: C1‑INH concentrate, icatibant or ecallantide.",
+      "Patient should carry emergency medication and medical alert."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "SERPING1 gene mutation reduces synthesis or function of C1 inhibitor.",
+        "Decreases inactivation of the complement system and kallikrein pathway.",
+        "Excess bradykinin is produced, causing vasodilation and increased capillary permeability.",
+        "Result: localized edema in skin, mucous membranes and airways."
+      ],
+      "risk_factors": [
+        "Family history of hereditary angioedema.",
+        "Emotional or physical stress, trauma, respiratory infections.",
+        "Use of estrogen (birth control pills, hormone therapy).",
+        "Invasive dental or surgical procedures."
+      ],
+      "signs_symptoms": [
+        "Non‑itchy, painful, rapidly appearing cutaneous edema.",
+        "Edema of lips, tongue or pharynx that may impair swallowing.",
+        "Severe abdominal pain with nausea and diarrhea.",
+        "No response to antihistamines and corticosteroids."
+      ],
+      "diagnostics": [
+        "Low serum C4 at baseline.",
+        "Quantitative C1‑INH level low or functional activity < 50%.",
+        "Clinical history of recurrent edema without hives.",
+        "SERPING1 genetic testing when available."
+      ],
+      "treatment": [
+        "C1 inhibitor concentrate (e.g., Berinert, Cinryze) IV.",
+        "Icatibant, B2 bradykinin receptor antagonist, SC.",
+        "Ecallantide, kallikrein inhibitor, SC.",
+        "Supplemental oxygen and airway support if respiratory compromise.",
+        "Avoid antihistamines and corticosteroids as first‑line therapy."
+      ],
+      "complications": [
+        "Airway obstruction and asphyxiation.",
+        "Hypovolemic shock from fluid extravasation into tissue.",
+        "Severe abdominal pain mimicking acute abdomen.",
+        "Chronic anxiety from fear of edema episodes."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and O₂ saturation every 15‑30 min during an episode.",
+        "Rapidly assess location and extent of edema (lip, tongue, airways).",
+        "Maintain appropriately sized venous access for C1‑INH administration.",
+        "Prepare intubation equipment and call emergency support if airway compromise.",
+        "Record intake and output; watch for signs of volume deficit."
+      ],
+      "patient_teaching": [
+        "Identify and avoid personal triggers (estrogen, trauma, stress).",
+        "Teach self‑administration of C1‑INH or icatibant during edema.",
+        "Recommend wearing a medical alert bracelet or card indicating C1‑INH deficiency.",
+        "Instruct to seek immediate medical care if facial or throat edema occurs.",
+        "Explain that antihistamines and corticosteroids are ineffective for this type of edema."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "c1 inhibitor deficiency",
+          "extensive subcutaneous edema",
+          "fluid loss to tissue"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intravascular volume maintained: weight stable ± 0.5 kg in 48 h",
+          "Adequate perfusion signs: BP ≥ 90/60 mmHg and HR ≤ 100 bpm"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain appropriately sized venous access and record flow.",
+            "rationale": "Facilitates rapid C1‑INH administration and fluid replacement if needed."
+          },
+          {
+            "action": "Monitor daily weight and fluid balance (intake‑output).",
+            "rationale": "Detects early changes in intravascular volume."
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill, temperature, pulse).",
+            "rationale": "Identifies volume deficit before severe hemodynamic changes."
+          },
+          {
+            "action": "Administer isotonic saline if hypotension or tachycardia is observed.",
+            "rationale": "Restores volemia and prevents hypovolemic shock."
+          },
+          {
+            "action": "Document edema extent and location each shift.",
+            "rationale": "Allows correlation of fluid loss with edema severity."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Anxiety",
+        "type": "actual",
+        "related_to": [
+          "facial edema episodes",
+          "fear of airway obstruction"
+        ],
+        "evidenced_by": [
+          "verbal agitation",
+          "tachycardia",
+          "difficulty concentrating"
+        ],
+        "outcomes": [
+          "Anxiety level ≤ 3/10 on anxiety scale within 24 h",
+          "Participates in relaxation techniques 10 min, 3 times daily"
+        ],
+        "interventions": [
+          {
+            "action": "Assess anxiety level using 0‑10 scale at admission and every 4 h.",
+            "rationale": "Provides objective measure to guide interventions."
+          },
+          {
+            "action": "Provide clear information about management plan and rescue medication use.",
+            "rationale": "Reduces uncertainty and fear of the unknown."
+          },
+          {
+            "action": "Teach diaphragmatic breathing and progressive muscle relaxation.",
+            "rationale": "Reduces physiological stress response and tachycardia."
+          },
+          {
+            "action": "Facilitate immediate access to emergency medication and explain its rapid effect.",
+            "rationale": "Increases patient sense of control over the condition."
+          },
+          {
+            "action": "Offer active emotional support and listen to patient concerns.",
+            "rationale": "Promotes expression of fears and reduces emotional burden."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hereditary-angioedema",
+    "bradykinin",
+    "c1-esterase-inhibitor",
+    "airway-obstruction"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Angiotensin-Converting Enzyme (ACE) Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-2-angiotensin-converting-enzyme-ace-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Histamine Blockers and Proton-Pump Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-2-histamine-blockers-and-proton-pump-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-25",
+  "factcheck": {
+    "checked": "2026-10-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 2,
+      "not_found": 40,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Report side effects such as low blood pressure, cough, heart palpitations, nausea, vomiting, fever, chills, sore throat, swelling of the eyes and lips, or difficulty breathing to their health care provider.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Typical adverse effects include headache, dizziness, nausea, vomiting, abdominal pain, diarrhea, and cough.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

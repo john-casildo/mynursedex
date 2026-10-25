@@ -1,0 +1,345 @@
+{
+  "id": "sedation",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Midazolam",
+    "aliases": [
+      "midazolam",
+      "sedación",
+      "benzodiacepina",
+      "ansiedad",
+      "preoperatorio"
+    ],
+    "summary": "Midazolam es una benzodiacepina de acción corta utilizada para sedación, ansiolisis y amnesia durante procedimientos diagnósticos o quirúrgicos.",
+    "key_points": [
+      "Sedación de corta duración con rápido inicio de acción.",
+      "Produce amnesia anterógrada, útil para procedimientos invasivos.",
+      "Depresión respiratoria y cardiovascular son efectos adversos críticos.",
+      "Se revierte con flumazenil en caso de sobredosis."
+    ],
+    "sections": {
+      "mechanism": [
+        "Potencia la actividad del GABA al unirse al sitio modulador del receptor GABA‑A.",
+        "Aumenta la conductancia al cloro, generando hiperpolarización neuronal.",
+        "Reduce la excitabilidad del sistema nervioso central."
+      ],
+      "indications": [
+        "Sedación consciente para procedimientos diagnósticos (endoscopia, colonoscopia).",
+        "Inducción y mantenimiento de anestesia general de corta duración.",
+        "Pre‑medicación preoperatoria para reducir ansiedad."
+      ],
+      "contraindications": [
+        "Hipersensibilidad conocida al midazolam o a otras benzodiacepinas.",
+        "Insuficiencia respiratoria grave sin soporte ventilatorio.",
+        "Miastenia gravis (puede empeorar la debilidad muscular)."
+      ],
+      "adverse_effects": [
+        "Somnolencia y mareos.",
+        "Hipotensión ortostática.",
+        "Depresión respiratoria (RR < 10 rpm) (grave).",
+        "Paradoja de excitación (agitación, alucinaciones) (grave)."
+      ],
+      "interactions": [
+        "Potenciación de depresión respiratoria con opioides (morfina, fentanilo).",
+        "Aumento de sedación con alcohol, antihistamínicos y barbitúricos.",
+        "Inhibidores de CYP3A4 (ketoconazol, eritromicina) pueden elevar niveles plasmáticos."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia (Escala de Glasgow) antes y después de la dosis.",
+        "Monitorear frecuencia respiratoria, saturación de O₂ y presión arterial cada 5‑15 min.",
+        "Retener la dosis si RR < 10 rpm, SpO₂ < 90 % o PA < 90/60 mmHg; notificar al médico.",
+        "Mantener equipo de reanimación y flumazenil a la mano.",
+        "Registrar tiempo de inicio y duración de la sedación."
+      ],
+      "patient_teaching": [
+        "No conducir ni operar maquinaria por al menos 24 h después del procedimiento.",
+        "Evitar consumo de alcohol y sedantes durante 24 h.",
+        "Asegurarse de que un adulto responsable lo acompañe a casa.",
+        "Informar cualquier dificultad respiratoria o somnolencia prolongada."
+      ],
+      "antidote_overdose": [
+        "Flumazenil 0.2 mg IV bolus; repetir cada 1‑2 min hasta 1 mg total si persiste depresión respiratoria."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "sedación profunda",
+          "depresión del reflejo de deglución",
+          "posición supina"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener vía aérea permeable durante y después de la sedación",
+          "Sin episodios de aspiración durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de conciencia y reflejo de deglución antes de la sedación.",
+            "rationale": "Identifica pacientes con mayor riesgo de aspiración."
+          },
+          {
+            "action": "Colocar al paciente en posición lateral de seguridad después del procedimiento.",
+            "rationale": "Facilita el drenaje de secreciones y reduce riesgo de aspiración."
+          },
+          {
+            "action": "Mantener ayuno según protocolo preoperatorio y verificar cumplimiento.",
+            "rationale": "Disminuye contenido gástrico que pueda ser aspirado."
+          },
+          {
+            "action": "Monitorear signos de aspiración: tos, sibilancias, cambios en SpO₂.",
+            "rationale": "Permite detección temprana y tratamiento oportuno."
+          },
+          {
+            "action": "Notificar al médico si se observa aspiración o deterioro respiratorio.",
+            "rationale": "Intervención rápida previene complicaciones graves."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Midazolam",
+    "aliases": [
+      "midazolam",
+      "sedation",
+      "benzodiazepine",
+      "anxiety",
+      "preoperative"
+    ],
+    "summary": "Midazolam is a short‑acting benzodiazepine used for sedation, anxiolysis, and amnesia during diagnostic or surgical procedures.",
+    "key_points": [
+      "Short‑duration sedation with rapid onset.",
+      "Produces anterograde amnesia, useful for invasive procedures.",
+      "Respiratory and cardiovascular depression are critical adverse effects.",
+      "Reversed with flumazenil in case of overdose."
+    ],
+    "sections": {
+      "mechanism": [
+        "Potentiates GABA activity by binding to the modulatory site of the GABA‑A receptor.",
+        "Increases chloride conductance, generating neuronal hyperpolarization.",
+        "Reduces central nervous system excitability."
+      ],
+      "indications": [
+        "Conscious sedation for diagnostic procedures (endoscopy, colonoscopy).",
+        "Induction and maintenance of short‑duration general anesthesia.",
+        "Pre‑operative premedication to reduce anxiety."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to midazolam or other benzodiazepines.",
+        "Severe respiratory insufficiency without ventilatory support.",
+        "Myasthenia gravis (may worsen muscle weakness)."
+      ],
+      "adverse_effects": [
+        "Somnolence and dizziness.",
+        "Orthostatic hypotension.",
+        "Respiratory depression (RR < 10 rpm) (severe).",
+        "Paradoxical excitation (agitation, hallucinations) (severe)."
+      ],
+      "interactions": [
+        "Potentiation of respiratory depression with opioids (morphine, fentanyl).",
+        "Increased sedation with alcohol, antihistamines, and barbiturates.",
+        "CYP3A4 inhibitors (ketoconazole, erythromycin) can raise plasma levels."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness (Glasgow Scale) before and after the dose.",
+        "Monitor respiratory rate, O₂ saturation, and blood pressure every 5‑15 min.",
+        "Hold the dose if RR < 10 rpm, SpO₂ < 90 %, or BP < 90/60 mmHg; notify the physician.",
+        "Keep resuscitation equipment and flumazenil readily available.",
+        "Record start time and duration of sedation."
+      ],
+      "patient_teaching": [
+        "Do not drive or operate machinery for at least 24 h after the procedure.",
+        "Avoid alcohol and sedatives for 24 h.",
+        "Ensure a responsible adult accompanies you home.",
+        "Report any prolonged respiratory difficulty or drowsiness."
+      ],
+      "antidote_overdose": [
+        "Flumazenil 0.2 mg IV bolus; repeat every 1‑2 min up to 1 mg total if respiratory depression persists."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "deep sedation",
+          "deglutition reflex depression",
+          "supine position"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain a patent airway during and after sedation",
+          "No aspiration episodes during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Assess level of consciousness and deglutition reflex before sedation.",
+            "rationale": "Identifies patients at higher risk of aspiration."
+          },
+          {
+            "action": "Place the patient in a safety lateral position after the procedure.",
+            "rationale": "Facilitates drainage of secretions and reduces aspiration risk."
+          },
+          {
+            "action": "Maintain fasting per preoperative protocol and verify compliance.",
+            "rationale": "Reduces gastric content that could be aspirated."
+          },
+          {
+            "action": "Monitor for signs of aspiration: cough, wheezing, changes in SpO₂.",
+            "rationale": "Allows early detection and timely treatment."
+          },
+          {
+            "action": "Notify the physician if aspiration or respiratory deterioration is observed.",
+            "rationale": "Rapid intervention prevents serious complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "respiratory-depression",
+    "hypotension",
+    "amnesia",
+    "anxiolysis"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Intraoperative Considerations",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/26-2-intraoperative-considerations",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Diagnostic Evaluation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-3-diagnostic-evaluation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-25",
+  "factcheck": {
+    "checked": "2026-10-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 31
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Also known as conscious sedation , moderate sedation is a medical technique used to induce a state of reduced consciousness and relaxation in patients undergo",
+        "source": 1
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "supported",
+        "quote": "By targeting pain from different angles, this approach aims to reduce reliance on opioids and to minimize the associated side effects such as respiratory depression and nausea.",
+        "source": 0
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "A key component of preprocedural education for a GI test or procedure under moderate sedation is to ensure that the patient will have a responsible adult available to take them home and stay with them for twenty-four hours.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "not_found"
+      }
+    }
+  }
+}

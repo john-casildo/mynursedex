@@ -1,0 +1,474 @@
+{
+  "id": "hereditary-angioedema-type-i",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Angioedema hereditario tipo I",
+    "aliases": [
+      "angioedema",
+      "hereditario",
+      "tipo i",
+      "c1 inhibidor",
+      "edema"
+    ],
+    "summary": "Trastorno genético por deficiencia funcional del inhibidor C1, que produce episodios de edema subcutáneo y de vías respiratorias por exceso de bradiquinina.",
+    "key_points": [
+      "Deficiencia cuantitativa o funcional del inhibidor C1 (C1-INH).",
+      "Edema no pruriginoso que afecta cara, extremidades y laringe.",
+      "Los ataques pueden ser desencadenados por estrés, trauma o infecciones.",
+      "Tratamiento de primera línea: concentrado de C1‑INH, icatibant o ecallantide.",
+      "Riesgo de obstrucción de la vía aérea y shock hipovolémico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutación del gen SERPING1 → disminución del C1‑INH funcional.",
+        "Falta de inhibición de la vía del complemento y del sistema de bradiquinina.",
+        "Acumulación de bradiquinina → vasodilatación y aumento de la permeabilidad capilar.",
+        "Flujo de plasma al espacio intersticial → edema subcutáneo y de mucosas."
+      ],
+      "risk_factors": [
+        "Historia familiar de angioedema hereditario.",
+        "Estrés emocional o físico, traumatismo dental, cirugía.",
+        "Infecciones respiratorias o gastrointestinales.",
+        "Uso de estrógenos (p. ej., anticonceptivos orales)."
+      ],
+      "signs_symptoms": [
+        "Edema no urticario de cara, labios, lengua y vías aéreas superiores.",
+        "Dolor abdominal, náuseas y vómitos durante ataques abdominales.",
+        "Sin prurito ni eritema típico de urticaria.",
+        "Puede presentarse dificultad para respirar o estridor."
+      ],
+      "diagnostics": [
+        "Nivel bajo de C4 complementario (< 8 mg/dL).",
+        "Actividad funcional de C1‑INH < 30% (tipo I).",
+        "C1q normal ayuda a diferenciar de angioedema adquirido.",
+        "Historia clínica y examen físico durante un episodio."
+      ],
+      "treatment": [
+        "Concentrado de inhibidor de C1 (p. ej., Berinert) intravenoso.",
+        "Icatibant, antagonista del receptor B2 de bradiquinina, subcutáneo.",
+        "Ecallantida, inhibidor de la calicreína, subcutáneo.",
+        "Plasma fresco congelado solo si no hay disponibilidad de C1‑INH.",
+        "Antihistamínicos y corticoides son poco efectivos."
+      ],
+      "complications": [
+        "Obstrucción de la vía aérea por edema laríngeo → asfixia.",
+        "Shock hipovolémico por pérdida de plasma al intersticio.",
+        "Dolor abdominal severo que puede simular abdomen agudo.",
+        "Ansiedad y disminución de la calidad de vida."
+      ],
+      "nursing_care": [
+        "Evaluar rápidamente la vía aérea; estar preparado para intubación de emergencia.",
+        "Monitorear signos vitales, saturación de O₂ y presión arterial cada 15‑30 min.",
+        "Mantener acceso venoso de calibre adecuado para administración de C1‑INH.",
+        "Registrar extensión del edema y cambios en peso corporal.",
+        "Administrar terapia prescrita y observar reacciones adversas."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar desencadenantes personales (estrés, trauma, EE).",
+        "Llevar siempre consigo un autoinyector de C1‑INH o icatibant.",
+        "Buscar atención médica inmediata ante edema de labios, lengua o dificultad respiratoria.",
+        "Informar a familiares y compañeros de trabajo sobre la enfermedad y el plan de emergencia.",
+        "Mantener un registro de la frecuencia y duración de los ataques."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "deficiencia de inhibidor C1",
+          "edema facial y de vías aéreas",
+          "pérdida de plasma al espacio intersticial"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación adecuada mantenida: ingesta oral ≥ 1500 mL/día",
+          "Peso corporal estable (variación < 0,5 kg en 24 h)",
+          "Presión arterial dentro de rango normal (90‑120/60‑80 mmHg)"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de deshidratación y registrar peso cada 8 h.",
+            "rationale": "Detectar pérdida de volumen temprano permite intervención oportuna."
+          },
+          {
+            "action": "Mantener acceso venoso y administrar solución salina isotónica si hay evidencia de hipovolemia.",
+            "rationale": "Reemplaza el volumen intravascular perdido por el edema."
+          },
+          {
+            "action": "Monitorear ingesta y salida de líquidos, registrando balance hídrico.",
+            "rationale": "Garantiza que la reposición sea adecuada y evita sobrecarga."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación y registrar la ingesta de líquidos.",
+            "rationale": "Promueve autocuidado y prevención de déficit de volumen."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "fluctuaciones bruscas de edema",
+          "uso de terapias intravenosas",
+          "pérdida de plasma al intersticio"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen intravascular mantenido: presión arterial estable y frecuencia cardíaca < 100 lpm",
+          "Electrolitos séricos dentro de rangos normales (Na 135‑145 mEq/L, K 3,5‑5,0 mEq/L)"
+        ],
+        "interventions": [
+          {
+            "action": "Observar y registrar edema de extremidades y cara cada 4 h.",
+            "rationale": "Permite detectar cambios rápidos en el volumen intersticial."
+          },
+          {
+            "action": "Realizar pruebas de laboratorio de electrolitos y complemento cada 24‑48 h durante un ataque.",
+            "rationale": "Evalúa el impacto del edema en el equilibrio de líquidos y electrolitos."
+          },
+          {
+            "action": "Administrar C1‑INH según prescripción y observar respuesta clínica.",
+            "rationale": "Reduce la fuga de plasma y estabiliza el volumen circulatorio."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑sentada para facilitar la respiración y disminuir edema facial.",
+            "rationale": "Optimiza la ventilación y reduce la acumulación de líquido en la cabeza."
+          },
+          {
+            "action": "Informar al paciente sobre signos de sobrecarga hídrica (edema periférico, disnea) y cuándo notificar al personal.",
+            "rationale": "Facilita la detección precoz de desequilibrio de volumen."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hereditary Angioedema Type I",
+    "aliases": [
+      "angioedema",
+      "hereditary",
+      "type i",
+      "c1 inhibitor",
+      "edema"
+    ],
+    "summary": "Genetic disorder caused by functional deficiency of C1 inhibitor, leading to episodes of subcutaneous and airway edema due to excess bradykinin.",
+    "key_points": [
+      "Quantitative or functional deficiency of C1 inhibitor (C1-INH).",
+      "Non‑pruritic edema affecting face, extremities, and larynx.",
+      "Attacks can be triggered by stress, trauma, or infections.",
+      "First‑line treatment: C1‑INH concentrate, icatibant, or ecallantide.",
+      "Risk of airway obstruction and hypovolemic shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutation in SERPING1 gene → decreased functional C1‑INH.",
+        "Loss of inhibition of complement pathway and bradykinin system.",
+        "Bradykinin accumulation → vasodilation and increased capillary permeability.",
+        "Plasma shifts into interstitial space → subcutaneous and mucosal edema."
+      ],
+      "risk_factors": [
+        "Family history of hereditary angioedema.",
+        "Emotional or physical stress, dental trauma, surgery.",
+        "Respiratory or gastrointestinal infections.",
+        "Use of estrogen (e.g., oral contraceptives)."
+      ],
+      "signs_symptoms": [
+        "Non‑urticarial edema of face, lips, tongue, and upper airway.",
+        "Abdominal pain, nausea, and vomiting during abdominal attacks.",
+        "No itching or typical urticaria erythema.",
+        "May present with breathing difficulty or stridor."
+      ],
+      "diagnostics": [
+        "Low complement C4 level (< 8 mg/dL).",
+        "Functional C1‑INH activity < 30% (type I).",
+        "Normal C1q helps differentiate from acquired angioedema.",
+        "Clinical history and physical exam during an episode."
+      ],
+      "treatment": [
+        "Intravenous C1‑INH concentrate (e.g., Berinert).",
+        "Subcutaneous icatibant, a bradykinin B2 receptor antagonist.",
+        "Subcutaneous ecallantide, a kallikrein inhibitor.",
+        "Fresh frozen plasma only if C1‑INH unavailable.",
+        "Antihistamines and corticosteroids are minimally effective."
+      ],
+      "complications": [
+        "Airway obstruction from laryngeal edema → asphyxiation.",
+        "Hypovolemic shock from plasma loss into interstitium.",
+        "Severe abdominal pain mimicking acute abdomen.",
+        "Anxiety and reduced quality of life."
+      ],
+      "nursing_care": [
+        "Rapidly assess airway; be prepared for emergency intubation.",
+        "Monitor vital signs, O₂ saturation, and blood pressure every 15‑30 minutes.",
+        "Maintain appropriate venous access for C1‑INH administration.",
+        "Document edema extent and changes in body weight.",
+        "Administer prescribed therapy and monitor for adverse reactions."
+      ],
+      "patient_teaching": [
+        "Identify and avoid personal triggers (stress, trauma, infections).",
+        "Always carry a self‑injector of C1‑INH or icatibant.",
+        "Seek immediate medical care for lip, tongue, or breathing difficulty edema.",
+        "Inform family and coworkers about the condition and emergency plan.",
+        "Keep a record of attack frequency and duration."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "C1 inhibitor deficiency",
+          "facial and airway edema",
+          "plasma loss into interstitial space"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate hydration maintained: oral intake ≥ 1500 mL/day",
+          "Stable body weight (variation < 0.5 kg in 24 h)",
+          "Blood pressure within normal range (90‑120/60‑80 mmHg)"
+        ],
+        "interventions": [
+          {
+            "action": "Assess signs of dehydration and record weight every 8 h.",
+            "rationale": "Early detection of volume loss allows timely intervention."
+          },
+          {
+            "action": "Maintain venous access and administer isotonic saline if evidence of hypovolemia.",
+            "rationale": "Replaces intravascular volume lost to edema."
+          },
+          {
+            "action": "Monitor fluid intake and output, recording fluid balance.",
+            "rationale": "Ensures adequate replacement and prevents overload."
+          },
+          {
+            "action": "Educate patient on importance of hydration and record fluid intake.",
+            "rationale": "Promotes self‑care and prevention of volume deficit."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Sudden edema fluctuations",
+          "use of intravenous therapies",
+          "plasma loss into interstitium"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intravascular volume maintained: stable blood pressure and heart rate < 100 bpm",
+          "Serum electrolytes within normal ranges (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L)"
+        ],
+        "interventions": [
+          {
+            "action": "Observe and record extremity and facial edema every 4 h.",
+            "rationale": "Detects rapid changes in interstitial volume."
+          },
+          {
+            "action": "Perform laboratory tests for electrolytes and complement every 24‑48 h during an attack.",
+            "rationale": "Assesses impact of edema on fluid and electrolyte balance."
+          },
+          {
+            "action": "Administer C1‑INH per prescription and observe clinical response.",
+            "rationale": "Reduces plasma leakage and stabilizes circulating volume."
+          },
+          {
+            "action": "Place patient in semi‑upright position to facilitate breathing and reduce facial edema.",
+            "rationale": "Optimizes ventilation and decreases fluid accumulation in the head."
+          },
+          {
+            "action": "Inform patient about signs of fluid overload (peripheral edema, dyspnea) and when to notify staff.",
+            "rationale": "Facilitates early detection of volume imbalance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bradykinin",
+    "c1-inhibitor-deficiency",
+    "laryngeal-edema",
+    "hereditary-angioedema",
+    "complement-system"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Hereditary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-2-hereditary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Urticaria and Angioneurotic Edema",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-4-urticaria-and-angioneurotic-edema",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-25",
+  "factcheck": {
+    "checked": "2026-10-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 32,
+      "contradicted": 1,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "This reaction is usually the result of exposure to triggers like food, medications, insect stings, physical stimuli, latex , blood transfusions, bacterial or viral infections, pet dander, plants, and pollen.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "This disorder involves swelling of the deeper skin layers and most commonly occurs in the face (eyelids, lips, tongue, cheeks), hands, feet, genitalia or throat.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "contradicted",
+        "quote": "I noticed urticaria and erythema on his trunk and arms.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The patient should also be able to demonstrate how to properly administer their medications and be able to describe signs and symptoms like anaphylaxis, angioedema, difficulty swallowing, wheezing, difficulty breathing, peripheral",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Recognizing and analyzing cues requires the nurse to complete a physical examination and take both a personal and family history of allergies.",
+        "source": 1
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "I observed nonverbal signals of anxiety and distress in our dialogue.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Nurses play a pivotal role in providing necessary treatments such as blood transfusions or iron chelation therapy (discussed in detail in Medical Therapies and Related Care ), monitoring dosage accuracy, and tracking potential adverse reactions.",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "The nurse should also help the patient identify any potential provoking factors, such as temperature variations.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

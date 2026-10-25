@@ -1,0 +1,476 @@
+{
+  "id": "hereditary-angioedema-type-ii",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Angioedema hereditario tipo II (AH tipo II)",
+    "aliases": [
+      "angioedema",
+      "hereditario",
+      "tipo ii",
+      "c1 inhibitor",
+      "hereditario tipo ii"
+    ],
+    "summary": "Trastorno genético caracterizado por deficiencia funcional del inhibidor de C1, que produce episodios de edema subcutáneo y de vías aéreas sin urticaria.",
+    "key_points": [
+      "Defecto funcional del inhibidor de C1 (C1‑INH) con niveles normales o elevados pero actividad reducida.",
+      "Edema puede comprometer la vía aérea y causar asfixia rápidamente.",
+      "C4 sérico está típicamente bajo durante los ataques.",
+      "Tratamiento de primera línea: concentrado de C1‑INH, icatibant o ecallantide.",
+      "Factores desencadenantes: estrés, trauma, infecciones, estrógenos y AINES."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutación del gen SERPING1 produce C1‑INH disfuncional.",
+        "La falta de inhibición de la vía del complemento y del sistema de bradiquinina genera exceso de bradiquinina.",
+        "La bradiquinina aumenta la permeabilidad capilar, provocando edema profundo.",
+        "Los episodios son autolimitados, duran 24‑72 h y pueden repetirse frecuentemente."
+      ],
+      "risk_factors": [
+        "Historia familiar de angioedema hereditario.",
+        "Uso de estrógenos (píldoras anticonceptivas, terapia hormonal).",
+        "Infecciones respiratorias o dentales.",
+        "Estrés físico o emocional intenso."
+      ],
+      "signs_symptoms": [
+        "Edema no urticarial de labios, cara, lengua y vías aéreas superiores.",
+        "Dolor abdominal, náuseas, vómitos o diarrea durante ataques abdominales.",
+        "Sensación de opresión en la garganta y dificultad para tragar.",
+        "Sin prurito ni eritema típico de la urticaria."
+      ],
+      "diagnostics": [
+        "C4 sérico bajo (< 10 mg/dL) en fase aguda y basal.",
+        "Actividad funcional de C1‑INH < 50 % (niveles cuantitativos normales o elevados).",
+        "Prueba genética del gen SERPING1 para confirmación definitiva.",
+        "Descartar alergia mediante pruebas cutáneas si se sospecha angioedema adquirido."
+      ],
+      "treatment": [
+        "Concentrado de C1‑INH (p. ej., Berinert) IV al inicio del ataque.",
+        "Icatibant, antagonista del receptor B2 de bradiquinina, vía subcutánea.",
+        "Ecallantida, inhibidor de la calicreína, IV en casos graves.",
+        "Plasma fresco congelado solo si no se dispone de C1‑INH.",
+        "Evitar desencadenantes conocidos y uso de AINES/IECA."
+      ],
+      "complications": [
+        "Obstrucción de la vía aérea y asfixia.",
+        "Deshidratación por vómitos y diarrea recurrentes.",
+        "Dolor abdominal intenso que puede simular abdomen agudo.",
+        "Ansiedad y miedo a nuevos episodios."
+      ],
+      "nursing_care": [
+        "Evaluar rápidamente la permeabilidad de la vía aérea y saturación de O₂.",
+        "Mantener acceso IV de calibre amplio y preparado para medicación de emergencia.",
+        "Administrar C1‑INH o icatibant según prescripción y monitorizar respuesta.",
+        "Registrar frecuencia, localización y duración de cada episodio.",
+        "Proveer ambiente tranquilo y reducir estímulos estresantes."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar factores desencadenantes (estrógenos, trauma, estrés).",
+        "Llevar siempre consigo el autoinyector o vial de C1‑INH y saber cómo usarlo.",
+        "Buscar atención médica inmediata ante edema de lengua, labios o dificultad para respirar.",
+        "Informar a familiares y compañeros de trabajo sobre la enfermedad y el plan de acción.",
+        "Programar visitas regulares para control de niveles de C4 y C1‑INH."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "edema de vías aéreas que dificulta la ingesta",
+          "vómitos y diarrea durante ataques abdominales",
+          "uso de diuréticos o AINES"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro de límites normales durante 24 h.",
+          "Estado nutricional: peso estable (variación < 2 % en 1 mes)."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas, turgencia venosa) cada 2 h.",
+            "rationale": "Detectar temprano la pérdida de líquidos y prevenir complicaciones."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos, incluyendo vómitos y diarrea.",
+            "rationale": "Facilita el cálculo del balance hídrico y la toma de decisiones terapéuticas."
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según prescripción para mantener perfusión.",
+            "rationale": "Reemplaza pérdidas y previene hipovolemia."
+          },
+          {
+            "action": "Ofrecer alimentos blandos y líquidos claros cuando el paciente pueda tragar.",
+            "rationale": "Mantiene aporte calórico y evita irritación de la mucosa."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar episodios de vómitos o diarrea prolongada.",
+            "rationale": "Promueve la detección temprana y el manejo oportuno."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "edema de orofaringe y lengua",
+          "dificultad para tragar",
+          "uso de medicamentos que reducen la conciencia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: sin episodios de aspiración durante la hospitalización.",
+          "Función respiratoria: saturación de O₂ ≥ 95 % en reposo."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la capacidad de deglución antes de ofrecer alimentos o medicación oral.",
+            "rationale": "Previene la entrada de contenido a las vías respiratorias."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentada (30‑45°) durante y después de la alimentación.",
+            "rationale": "Facilita el paso del bolo alimenticio y reduce riesgo de aspiración."
+          },
+          {
+            "action": "Utilizar técnicas de alimentación segura (pequeñas porciones, ritmo lento).",
+            "rationale": "Disminuye la probabilidad de que el contenido sea aspirado."
+          },
+          {
+            "action": "Tener a mano equipo de reanimación y oxígeno suplementario.",
+            "rationale": "Permite una respuesta rápida ante obstrucción de la vía aérea."
+          },
+          {
+            "action": "Enseñar al paciente y familiares el uso del autoinyector de C1‑INH para tratar ataques rápidamente.",
+            "rationale": "Reduce la duración del edema y el riesgo de compromiso de la vía aérea."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hereditary angioedema type II (AH type II)",
+    "aliases": [
+      "angioedema",
+      "hereditary",
+      "type ii",
+      "c1 inhibitor",
+      "hereditary type ii"
+    ],
+    "summary": "Genetic disorder characterized by functional deficiency of C1 inhibitor, producing episodes of subcutaneous and airway edema without urticaria.",
+    "key_points": [
+      "Functional defect of C1 inhibitor (C1‑INH) with normal or elevated levels but reduced activity.",
+      "Edema can compromise the airway and cause rapid asphyxiation.",
+      "Serum C4 is typically low during attacks.",
+      "First‑line treatment: C1‑INH concentrate, icatibant or ecallantide.",
+      "Trigger factors: stress, trauma, infections, estrogen and NSAIDs."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutation in the SERPING1 gene produces dysfunctional C1‑INH.",
+        "Lack of inhibition of the complement pathway and bradykinin system leads to excess bradykinin.",
+        "Bradykinin increases capillary permeability, causing deep edema.",
+        "Episodes are self‑limited, lasting 24‑72 h and can recur frequently."
+      ],
+      "risk_factors": [
+        "Family history of hereditary angioedema.",
+        "Use of estrogen (birth control pills, hormone therapy).",
+        "Respiratory or dental infections.",
+        "Intense physical or emotional stress."
+      ],
+      "signs_symptoms": [
+        "Non‑urticarial edema of lips, face, tongue and upper airway.",
+        "Abdominal pain, nausea, vomiting or diarrhea during abdominal attacks.",
+        "Feeling of throat tightness and difficulty swallowing.",
+        "No itching or typical urticaria erythema."
+      ],
+      "diagnostics": [
+        "Low serum C4 (< 10 mg/dL) in acute and baseline phases.",
+        "Functional C1‑INH activity < 50 % (quantitative levels normal or elevated).",
+        "Genetic testing of SERPING1 for definitive confirmation.",
+        "Rule out allergy with skin testing if acquired angioedema suspected."
+      ],
+      "treatment": [
+        "C1‑INH concentrate (e.g., Berinert) IV at onset of attack.",
+        "Icatibant, a bradykinin B2 receptor antagonist, subcutaneously.",
+        "Ecallantide, a kallikrein inhibitor, IV in severe cases.",
+        "Fresh frozen plasma only if C1‑INH unavailable.",
+        "Avoid known triggers and use of NSAIDs/ACE inhibitors."
+      ],
+      "complications": [
+        "Airway obstruction and asphyxiation.",
+        "Dehydration from recurrent vomiting and diarrhea.",
+        "Severe abdominal pain that may mimic acute abdomen.",
+        "Anxiety and fear of future episodes."
+      ],
+      "nursing_care": [
+        "Rapidly assess airway permeability and O₂ saturation.",
+        "Maintain large‑caliber IV access and be prepared for emergency medication.",
+        "Administer C1‑INH or icatibant per prescription and monitor response.",
+        "Document frequency, location and duration of each episode.",
+        "Provide a calm environment and reduce stressful stimuli."
+      ],
+      "patient_teaching": [
+        "Identify and avoid trigger factors (estrogen, trauma, stress).",
+        "Always carry the autoinjector or vial of C1‑INH and know how to use it.",
+        "Seek immediate medical attention for tongue, lip or breathing difficulty edema.",
+        "Inform family and coworkers about the condition and action plan.",
+        "Schedule regular visits to monitor C4 and C1‑INH levels."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "airway edema that impairs intake",
+          "vomiting and diarrhea during abdominal attacks",
+          "use of diuretics or NSAIDs"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within normal limits for 24 h.",
+          "Nutritional status: stable weight (variation < 2 % in 1 month)."
+        ],
+        "interventions": [
+          {
+            "action": "Assess signs of dehydration (skin turgor, dry mucous membranes, venous turgor) every 2 h.",
+            "rationale": "Detect early fluid loss and prevent complications."
+          },
+          {
+            "action": "Record intake and output, including vomiting and diarrhea.",
+            "rationale": "Facilitates calculation of fluid balance and therapeutic decision‑making."
+          },
+          {
+            "action": "Administer isotonic saline IV per prescription to maintain perfusion.",
+            "rationale": "Replaces losses and prevents hypovolemia."
+          },
+          {
+            "action": "Offer bland foods and clear liquids when the patient can swallow.",
+            "rationale": "Maintains caloric intake and avoids mucosal irritation."
+          },
+          {
+            "action": "Educate the patient on the importance of reporting prolonged vomiting or diarrhea episodes.",
+            "rationale": "Promotes early detection and timely management."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "oropharyngeal and tongue edema",
+          "difficulty swallowing",
+          "use of medications that reduce consciousness"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: no aspiration episodes during hospitalization.",
+          "Respiratory function: O₂ saturation ≥ 95 % at rest."
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing ability before offering food or oral medication.",
+            "rationale": "Prevents entry of contents into the airway."
+          },
+          {
+            "action": "Keep the patient in a semi‑upright position (30‑45°) during and after meals.",
+            "rationale": "Facilitates bolus passage and reduces aspiration risk."
+          },
+          {
+            "action": "Use safe feeding techniques (small portions, slow pace).",
+            "rationale": "Decreases likelihood of aspiration."
+          },
+          {
+            "action": "Have resuscitation equipment and supplemental oxygen readily available.",
+            "rationale": "Allows rapid response to airway obstruction."
+          },
+          {
+            "action": "Teach the patient and family the use of the C1‑INH autoinjector to treat attacks promptly.",
+            "rationale": "Reduces edema duration and airway compromise risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "c1-inhibitor-deficiency",
+    "bradykinin",
+    "hereditary-angioedema",
+    "ace-inhibitor-induced-angioedema",
+    "complement-system"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Hereditary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-2-hereditary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Urticaria and Angioneurotic Edema",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-4-urticaria-and-angioneurotic-edema",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-25",
+  "factcheck": {
+    "checked": "2026-10-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 34,
+      "contradicted": 2,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Vascular permeability is increased and results in edema.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "contradicted",
+        "quote": "This condition may appear within minutes and can take three weeks or longer to resolve.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "This disorder involves swelling of the deeper skin layers and most commonly occurs in the face (eyelids, lips, tongue, cheeks), hands, feet, genitalia or throat.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "contradicted",
+        "quote": "I noticed urticaria and erythema on his trunk and arms.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Medical therapies include avoiding the use of NSAIDs, limiting the use of items that can further aggravate the reaction, and eliminating the known or suspected allergen that caused the reaction.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Recognizing that repeated crises take an emotional toll, I engaged Jamal in conversation by sharing stories and inviting him to open up about his experiences.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
