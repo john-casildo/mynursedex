@@ -1,0 +1,510 @@
+{
+  "id": "airway-obstruction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Obstrucción de la vía aérea (OVA)",
+    "aliases": [
+      "obstrucción",
+      "via aérea",
+      "obstruccion",
+      "asfixia",
+      "ahogo"
+    ],
+    "summary": "Bloqueo parcial o total de la vía aérea que impide el paso de aire a los pulmones, comprometiendo la oxigenación.",
+    "key_points": [
+      "La obstrucción puede ser por cuerpo extraño, alimentos o edema.",
+      "En niños, alimentos como uvas y salchichas son causas frecuentes.",
+      "La falta de oxígeno >4 min causa daño cerebral irreversible.",
+      "Maniobras de desobstrucción (golpes dorsales, Heimlich) son urgentes.",
+      "Evaluar siempre la permeabilidad antes de iniciar cualquier intervención."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El cuerpo extraño bloquea la luz de la tráquea o laringe.",
+        "Se reduce el flujo de aire, disminuye la presión alveolar y la oxigenación.",
+        "El aumento de CO₂ y la hipoxia activan el centro respiratorio, provocando taquipnea y uso de músculos accesorios."
+      ],
+      "risk_factors": [
+        "Edad pediátrica (<5 años) por tamaño de vía aérea.",
+        "Consumo de alimentos duros o redondos sin masticar bien.",
+        "Presencia de prótesis dentales o dentaduras sueltas.",
+        "Alteraciones del reflejo de tos (sedación, intoxicación)."
+      ],
+      "signs_symptoms": [
+        "Incapacidad para hablar o emitir sonidos.",
+        "Cianosis facial o de labios.",
+        "Uso de músculos accesorios y tiraje intercostal.",
+        "Ruidos respiratorios ausentes o estridor.",
+        "Ansiedad y agitación por falta de aire."
+      ],
+      "diagnostics": [
+        "Evaluación visual de la vía aérea y observación de signos clínicos.",
+        "Oximetría de pulso: SpO₂ < 94 % indica hipoxemia.",
+        "Capnografía: EtCO₂ disminuido o ausente.",
+        "Radiografía de tórax si se sospecha aspiración o cuerpo extraño distal."
+      ],
+      "treatment": [
+        "Maniobra de Heimlich (compresiones abdominales) en adultos y niños mayores.",
+        "Golpes dorsales en posición supina para lactantes.",
+        "Administrar oxígeno suplementario por máscara facial o cánula nasal.",
+        "Intubación endotraqueal si la obstrucción persiste.",
+        "Succión de secreciones o cuerpo extraño con catéter de aspiración."
+      ],
+      "complications": [
+        "Hipoxia cerebral y daño neurológico irreversible.",
+        "Paro cardiorrespiratorio.",
+        "Neumonía por aspiración.",
+        "Edema pulmonar secundario a esfuerzo respiratorio intenso."
+      ],
+      "nursing_care": [
+        "Evaluar permeabilidad de la vía aérea cada 2 min y registrar cambios.",
+        "Mantener al paciente en posición semisentada o decúbito lateral según convenga.",
+        "Aplicar oxígeno y monitorizar SpO₂ continuamente.",
+        "Preparar equipo de emergencia: balón de resucitación, cánula de intubación, succión.",
+        "Documentar la intervención de desobstrucción y respuesta del paciente."
+      ],
+      "patient_teaching": [
+        "Cortar alimentos en trozos pequeños y masticar bien.",
+        "Supervisar siempre a niños pequeños durante la alimentación.",
+        "Enseñar a familiares la maniobra de Heimlich y cuándo llamar al 911.",
+        "Reconocer signos de asfixia: incapacidad para hablar, cianosis, tiraje.",
+        "Evitar objetos pequeños al alcance de niños."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "Obstrucción de la vía aérea",
+          "Cuerpo extraño",
+          "Edema de vías respiratorias"
+        ],
+        "evidenced_by": [
+          "Cianosis",
+          "Uso de músculos accesorios",
+          "Taquipnea",
+          "Ruidos respiratorios anormales"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: frecuencia respiratoria 12-20 rpm en 24 h.",
+          "Oxigenación adecuada: SpO₂ ≥ 95 % en reposo.",
+          "Sin signos de fatiga respiratoria al final del turno."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar permeabilidad de la vía aérea cada 2 min y registrar hallazgos.",
+            "rationale": "Detectar rápidamente deterioro y actuar antes de la hipoxia."
+          },
+          {
+            "action": "Aplicar maniobra de Heimlich o golpes dorsales según edad y nivel de conciencia.",
+            "rationale": "Desobstruir la vía aérea de forma inmediata y salvar la vida."
+          },
+          {
+            "action": "Administrar oxígeno suplementario por máscara facial al 100 % hasta lograr SpO₂ ≥ 95 %.",
+            "rationale": "Mejorar la saturación y reducir el riesgo de daño cerebral."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentada (30‑45°).",
+            "rationale": "Facilita la expansión pulmonar y el drenaje de secreciones."
+          },
+          {
+            "action": "Preparar y usar succión de vía aérea si hay secreciones o cuerpo extraño visible.",
+            "rationale": "Eliminar obstrucción residual y prevenir aspiración."
+          },
+          {
+            "action": "Documentar la frecuencia respiratoria, SpO₂ y respuesta a la intervención.",
+            "rationale": "Proveer información continua al equipo y evaluar efectividad del plan."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "Obstrucción parcial de la vía aérea",
+          "Disfagia",
+          "Alteración del reflejo de tos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin evidencia de aspiración: ausencia de fiebre y crepitantes pulmonares en 48 h.",
+          "Mantener saturación de oxígeno > 95 % durante la alimentación."
+        ],
+        "interventions": [
+          {
+            "action": "Mantener la cabeza del paciente en posición de 30‑45° durante la alimentación.",
+            "rationale": "Facilita el paso del bolo alimenticio y reduce riesgo de ingreso a vías bajas."
+          },
+          {
+            "action": "Evaluar capacidad de deglución antes de iniciar la ingesta oral.",
+            "rationale": "Identificar pacientes con riesgo y adaptar la dieta o usar técnicas compensatorias."
+          },
+          {
+            "action": "Educar al cuidador sobre técnicas de alimentación segura y signos de aspiración.",
+            "rationale": "Prevención primaria mediante conocimiento y vigilancia."
+          },
+          {
+            "action": "Vigilar signos de aspiración: tos, cambios en auscultación, aumento de frecuencia respiratoria.",
+            "rationale": "Detección temprana permite intervención rápida."
+          },
+          {
+            "action": "Mantener higiene bucal adecuada antes de la alimentación.",
+            "rationale": "Disminuye la carga bacteriana y el riesgo de neumonía por aspiración."
+          },
+          {
+            "action": "Registrar cualquier episodio de tos o dificultad durante la alimentación.",
+            "rationale": "Documentar para ajustar plan de cuidados y comunicar al equipo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Airway obstruction (AO)",
+    "aliases": [
+      "obstruction",
+      "airway",
+      "asphyxiation",
+      "choking"
+    ],
+    "summary": "Partial or complete blockage of the airway that prevents air from reaching the lungs, compromising oxygenation.",
+    "key_points": [
+      "The obstruction may be caused by a foreign body, food, or edema.",
+      "In children, foods such as grapes and sausages are common causes.",
+      "Oxygen deprivation >4 min causes irreversible brain damage.",
+      "Deobstruction maneuvers (back blows, Heimlich) are urgent.",
+      "Always assess airway patency before initiating any intervention."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "A foreign body blocks the lumen of the trachea or larynx.",
+        "Airflow is reduced, alveolar pressure and oxygenation decrease.",
+        "Increased CO₂ and hypoxia activate the respiratory center, causing tachypnea and use of accessory muscles."
+      ],
+      "risk_factors": [
+        "Pediatric age (<5 years) due to airway size.",
+        "Consumption of hard or round foods without proper chewing.",
+        "Presence of dental prostheses or loose dentures.",
+        "Impaired cough reflex (sedation, intoxication)."
+      ],
+      "signs_symptoms": [
+        "Inability to speak or make sounds.",
+        "Facial or lip cyanosis.",
+        "Use of accessory muscles and intercostal retractions.",
+        "Absent respiratory sounds or stridor.",
+        "Anxiety and agitation due to lack of air."
+      ],
+      "diagnostics": [
+        "Visual airway assessment and observation of clinical signs.",
+        "Pulse oximetry: SpO₂ < 94 % indicates hypoxemia.",
+        "Capnography: EtCO₂ decreased or absent.",
+        "Chest X‑ray if aspiration or distal foreign body is suspected."
+      ],
+      "treatment": [
+        "Heimlich maneuver (abdominal compressions) in adults and older children.",
+        "Back blows in supine position for infants.",
+        "Administer supplemental oxygen via face mask or nasal cannula.",
+        "Endotracheal intubation if obstruction persists.",
+        "Suction of secretions or foreign body with aspiration catheter."
+      ],
+      "complications": [
+        "Cerebral hypoxia and irreversible neurological damage.",
+        "Cardiorespiratory arrest.",
+        "Aspiration pneumonia.",
+        "Pulmonary edema secondary to intense respiratory effort."
+      ],
+      "nursing_care": [
+        "Assess airway patency every 2 min and record changes.",
+        "Maintain the patient in a semi‑upright or lateral decubitus position as appropriate.",
+        "Apply oxygen and continuously monitor SpO₂.",
+        "Prepare emergency equipment: resuscitation bag, intubation set, suction device.",
+        "Document the deobstruction intervention and patient response."
+      ],
+      "patient_teaching": [
+        "Cut food into small pieces and chew thoroughly.",
+        "Always supervise young children during feeding.",
+        "Teach family the Heimlich maneuver and when to call 911.",
+        "Recognize asphyxiation signs: inability to speak, cyanosis, retractions.",
+        "Avoid small objects within reach of children."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "Airway obstruction",
+          "Foreign body",
+          "Airway edema"
+        ],
+        "evidenced_by": [
+          "Cyanosis",
+          "Use of accessory muscles",
+          "Tachypnea",
+          "Abnormal respiratory sounds"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: respiratory rate 12‑20 rpm within 24 h.",
+          "Adequate oxygenation: SpO₂ ≥ 95 % at rest.",
+          "No signs of respiratory fatigue at shift end."
+        ],
+        "interventions": [
+          {
+            "action": "Assess airway patency every 2 min and record findings.",
+            "rationale": "Detect rapid deterioration and act before hypoxia."
+          },
+          {
+            "action": "Perform Heimlich maneuver or back blows as appropriate for age and level of consciousness.",
+            "rationale": "Immediately relieve airway obstruction and save life."
+          },
+          {
+            "action": "Administer supplemental oxygen via 100 % face mask until SpO₂ ≥ 95 %.",
+            "rationale": "Improve saturation and reduce risk of brain damage."
+          },
+          {
+            "action": "Maintain the patient in a semi‑upright (30‑45°) position.",
+            "rationale": "Facilitates lung expansion and secretion drainage."
+          },
+          {
+            "action": "Prepare and use airway suction if secretions or visible foreign body are present.",
+            "rationale": "Remove residual obstruction and prevent aspiration."
+          },
+          {
+            "action": "Document respiratory rate, SpO₂, and response to intervention.",
+            "rationale": "Provide continuous information to the team and evaluate plan effectiveness."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "Partial airway obstruction",
+          "Dysphagia",
+          "Impaired cough reflex"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No evidence of aspiration: absence of fever and pulmonary crackles within 48 h.",
+          "Maintain oxygen saturation > 95 % during feeding."
+        ],
+        "interventions": [
+          {
+            "action": "Keep the patient’s head in a 30‑45° position during feeding.",
+            "rationale": "Facilitates passage of the food bolus and reduces risk of lower airway entry."
+          },
+          {
+            "action": "Assess swallowing ability before initiating oral intake.",
+            "rationale": "Identify high‑risk patients and adapt diet or use compensatory techniques."
+          },
+          {
+            "action": "Educate the caregiver on safe feeding techniques and aspiration signs.",
+            "rationale": "Primary prevention through knowledge and vigilance."
+          },
+          {
+            "action": "Monitor for aspiration signs: cough, changes in auscultation, increased respiratory rate.",
+            "rationale": "Early detection allows prompt intervention."
+          },
+          {
+            "action": "Maintain adequate oral hygiene before feeding.",
+            "rationale": "Reduces bacterial load and aspiration pneumonia risk."
+          },
+          {
+            "action": "Record any coughing or difficulty during feeding.",
+            "rationale": "Document to adjust care plan and communicate to the team."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "aspiration",
+    "hypoxia",
+    "choking",
+    "airway-management"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Choking",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/choking.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Triage and Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/33-1-triage-and-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-26",
+  "factcheck": {
+    "checked": "2026-10-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "They can choke on foods like hot dogs, nuts and grapes, and on small objects like toy pieces and coins.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "When someone is choking, quick action can be lifesaving.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "A patient’s airway, breathing, and circulation must be assessed and prioritized before any other interventions.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "In addition to the respiratory rate, nursing assessment of the respiratory system also includes auscultation of breath sounds and observation of depth and regularity of breathing, symmetry, whether the patient relies on the use of accessory muscles to breathe, their desired position, and how they breathe (e.g., pursed lips, gasping, apneic pauses), as well as apparent anxiety.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Learn how to do back blows, the Heimlich maneuver (abdominal thrusts), and CPR .",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "If the patient is in respiratory distress, the nurse will utilize emergency equipment, such as a crash cart, bag-mask for ventilation, suction, and an emergency intubation kit, to help stabilize the patient’s breathing.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Keep hazards out of their reach and supervise them when they eat.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Keep hazards out of their reach and supervise them when they eat.",
+        "source": 0
+      }
+    }
+  }
+}

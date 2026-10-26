@@ -1,0 +1,515 @@
+{
+  "id": "allergic-rhinitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Rinitis alérgica (RA)",
+    "aliases": [
+      "rinitis",
+      "alergica",
+      "estornudos",
+      "congestion",
+      "nasal"
+    ],
+    "summary": "Inflamación de la mucosa nasal mediada por IgE ante alérgenos como polen, provocando congestión, estornudos y secreción clara.",
+    "key_points": [
+      "Respuesta IgE desencadena liberación de histamina y leucotrienos.",
+      "Síntomas estacionales coinciden con la exposición a polen.",
+      "Diagnóstico clínico; pruebas cutáneas o IgE sérica confirman alergenos.",
+      "Tratamiento de primera línea: antihistamínicos y corticoides nasales.",
+      "Evitar el uso prolongado de descongestionantes tópicos para prevenir rinitis medicamentosa."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Alérgeno inhalado se une a IgE en mastocitos de la mucosa nasal.",
+        "Activación de mastocitos libera histamina, prostaglandinas y leucotrienos.",
+        "Aumento de permeabilidad capilar produce edema y secreción acuosa.",
+        "Ciclo inflamatorio crónico genera hiperreactividad nasal."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de atopia.",
+        "Exposición frecuente a polen, ácaros o moho.",
+        "Tabaquismo o contaminación del aire.",
+        "Infecciones respiratorias previas que sensibilizan la mucosa."
+      ],
+      "signs_symptoms": [
+        "Estornudos repetitivos, >4 por episodio.",
+        "Congestión nasal y secreción clara acuosa.",
+        "Prurito ocular, nasal y faríngeo.",
+        "Ojos rojos y lagrimación.",
+        "Fatiga por alteración del sueño."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico de la cavidad nasal.",
+        "Prueba cutánea de prick o IgE específica (valor >0.35 IU/mL sugiere sensibilización).",
+        "Rinomanometría opcional para evaluar obstrucción.",
+        "Descartar infección: PCR <5 mg/L y ausencia de fiebre."
+      ],
+      "treatment": [
+        "Antihistamínicos orales de segunda generación (cetirizina, loratadina).",
+        "Corticoides intranasales (fluticasona, mometasona).",
+        "Descongestionantes tópicos (oxymetazolina) ≤3 días.",
+        "Cromoglicato de sodio nasal para prevención.",
+        "Inmunoterapia subcutánea o sublingual para alergenos específicos."
+      ],
+      "complications": [
+        "Sinusitis bacteriana secundaria.",
+        "Otitis media por obstrucción de la trompa de Eustaquio.",
+        "Exacerbación de asma en pacientes con enfermedad pulmonar.",
+        "Rinitis medicamentosa por uso crónico de descongestionantes.",
+        "Trastorno del sueño y disminución de la calidad de vida."
+      ],
+      "nursing_care": [
+        "Evaluar patrón de estornudos, secreción y grado de congestión.",
+        "Monitorear uso y técnica de spray nasal; registrar frecuencia.",
+        "Observar signos de irritación nasal o epistaxis.",
+        "Controlar nivel de IgE si se solicita laboratorio.",
+        "Promover hidratación y uso de solución salina isotónica."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar alergenos desencadenantes (p. ej., polen, ácaros).",
+        "Aplicar spray nasal con cabeza ligeramente inclinada y no aspirar.",
+        "Limitar descongestionantes tópicos a máximo 3 días.",
+        "Realizar irrigación nasal con solución salina estéril 2‑3 veces al día.",
+        "Buscar atención médica si aparecen fiebre, dolor facial intenso o secreción purulenta."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "inflamación de la mucosa nasal",
+          "uso frecuente de antihistamínicos que resecan mucosa",
+          "exposición continua a alérgenos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener integridad de la mucosa nasal sin signos de infección",
+          "Ausencia de fiebre >38°C durante el periodo de tratamiento"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar diariamente la mucosa nasal en busca de enrojecimiento, edema o secreción purulenta.",
+            "rationale": "Detección temprana permite intervención oportuna para prevenir infección."
+          },
+          {
+            "action": "Enseñar al paciente la técnica correcta de irrigación nasal con solución salina.",
+            "rationale": "La limpieza mecánica reduce la carga microbiana y la irritación."
+          },
+          {
+            "action": "Limitar el uso de descongestionantes tópicos a ≤3 días y registrar la frecuencia.",
+            "rationale": "Previene rinitis medicamentosa que favorece colonización bacteriana."
+          },
+          {
+            "action": "Informar al paciente sobre signos de infección (fiebre, dolor facial, secreción amarilla) y cuándo buscar ayuda.",
+            "rationale": "Promueve la búsqueda temprana de atención médica."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "obstrucción nasal",
+          "congestión",
+          "fatiga por alteración del sueño"
+        ],
+        "evidenced_by": [
+          "disnea al realizar actividades leves",
+          "fatiga constante",
+          "sueño interrumpido por congestión"
+        ],
+        "outcomes": [
+          "Realizar caminata de 30 minutos sin disnea ni fatiga",
+          "Reducir episodios de estornudos a <2 por día"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar limitaciones en cada turno.",
+            "rationale": "Establece línea base para medir mejoría."
+          },
+          {
+            "action": "Administrar antihistamínicos y corticoides nasales según prescripción y observar respuesta.",
+            "rationale": "Controlar síntomas mejora la capacidad funcional."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y ejercicios de apertura nasal.",
+            "rationale": "Facilita la ventilación y reduce la sensación de falta de aire."
+          },
+          {
+            "action": "Planificar actividades graduales, iniciando con tareas ligeras y aumentando progresivamente.",
+            "rationale": "Previene agotamiento y fomenta la tolerancia a la actividad."
+          },
+          {
+            "action": "Reforzar la higiene del sueño: uso de humidificador y posición semi‑sentada.",
+            "rationale": "Mejora la calidad del sueño y disminuye la fatiga diurna."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Allergic rhinitis (AR)",
+    "aliases": [
+      "rhinitis",
+      "allergic",
+      "sneezing",
+      "congestion",
+      "nasal"
+    ],
+    "summary": "Inflammation of the nasal mucosa mediated by IgE in response to allergens such as pollen, causing congestion, sneezing, and clear discharge.",
+    "key_points": [
+      "IgE response triggers release of histamine and leukotrienes.",
+      "Seasonal symptoms coincide with pollen exposure.",
+      "Clinical diagnosis; skin tests or serum IgE confirm allergens.",
+      "First‑line treatment: antihistamines and nasal corticosteroids.",
+      "Avoid prolonged use of topical decongestants to prevent medication‑induced rhinitis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Inhaled allergen binds IgE on nasal mucosal mast cells.",
+        "Mast cell activation releases histamine, prostaglandins, and leukotrienes.",
+        "Increased capillary permeability causes edema and watery secretion.",
+        "Chronic inflammatory cycle generates nasal hyperreactivity."
+      ],
+      "risk_factors": [
+        "Family history of atopy.",
+        "Frequent exposure to pollen, dust mites, or mold.",
+        "Smoking or air pollution.",
+        "Previous respiratory infections that sensitize mucosa."
+      ],
+      "signs_symptoms": [
+        "Repetitive sneezing, >4 per episode.",
+        "Nasal congestion and clear watery discharge.",
+        "Itchy eyes, nose, and pharynx.",
+        "Red, watery eyes.",
+        "Fatigue from sleep disturbance."
+      ],
+      "diagnostics": [
+        "Medical history and physical exam of nasal cavity.",
+        "Skin prick test or specific IgE (value >0.35 IU/mL suggests sensitization).",
+        "Optional rhinomanometry to assess obstruction.",
+        "Rule out infection: CRP <5 mg/L and no fever."
+      ],
+      "treatment": [
+        "Second‑generation oral antihistamines (cetirizine, loratadine).",
+        "Intranasal corticosteroids (fluticasone, mometasone).",
+        "Topical decongestants (oxymetazoline) ≤3 days.",
+        "Intranasal sodium cromoglycate for prevention.",
+        "Subcutaneous or sublingual immunotherapy for specific allergens."
+      ],
+      "complications": [
+        "Secondary bacterial sinusitis.",
+        "Otitis media from Eustachian tube obstruction.",
+        "Asthma exacerbation in patients with pulmonary disease.",
+        "Medication‑induced rhinitis from chronic decongestant use.",
+        "Sleep disorder and reduced quality of life."
+      ],
+      "nursing_care": [
+        "Assess pattern of sneezing, discharge, and degree of congestion.",
+        "Monitor use and technique of nasal spray; record frequency.",
+        "Observe for nasal irritation or epistaxis.",
+        "Check IgE level if laboratory requested.",
+        "Promote hydration and use of isotonic saline solution."
+      ],
+      "patient_teaching": [
+        "Identify and avoid trigger allergens (e.g., pollen, dust mites).",
+        "Apply nasal spray with head slightly tilted and do not inhale.",
+        "Limit topical decongestants to a maximum of 3 days.",
+        "Perform nasal irrigation with sterile saline 2‑3 times daily.",
+        "Seek medical care if fever, severe facial pain, or purulent discharge develops."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "nasal mucosal inflammation",
+          "frequent use of antihistamines that dry mucosa",
+          "continuous allergen exposure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain nasal mucosal integrity without signs of infection",
+          "No fever >38°C during treatment period"
+        ],
+        "interventions": [
+          {
+            "action": "Assess nasal mucosa daily for redness, edema, or purulent discharge.",
+            "rationale": "Early detection allows timely intervention to prevent infection."
+          },
+          {
+            "action": "Teach patient correct nasal irrigation technique with saline solution.",
+            "rationale": "Mechanical cleaning reduces microbial load and irritation."
+          },
+          {
+            "action": "Limit topical decongestant use to ≤3 days and record frequency.",
+            "rationale": "Prevents medication‑induced rhinitis that favors bacterial colonization."
+          },
+          {
+            "action": "Inform patient about infection signs (fever, facial pain, yellow discharge) and when to seek help.",
+            "rationale": "Promotes early medical attention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "nasal obstruction",
+          "congestion",
+          "fatigue from sleep disturbance"
+        ],
+        "evidenced_by": [
+          "shortness of breath during light activities",
+          "constant fatigue",
+          "interrupted sleep due to congestion"
+        ],
+        "outcomes": [
+          "Walk 30 minutes without shortness of breath or fatigue",
+          "Reduce sneezing episodes to <2 per day"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record limitations each shift.",
+            "rationale": "Establishes baseline for measuring improvement."
+          },
+          {
+            "action": "Administer antihistamines and nasal corticosteroids as prescribed and observe response.",
+            "rationale": "Symptom control improves functional capacity."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques and nasal opening exercises.",
+            "rationale": "Facilitates ventilation and reduces sensation of breathlessness."
+          },
+          {
+            "action": "Plan gradual activities, starting with light tasks and increasing progressively.",
+            "rationale": "Prevents exhaustion and promotes activity tolerance."
+          },
+          {
+            "action": "Reinforce sleep hygiene: use humidifier and semi‑upright position.",
+            "rationale": "Improves sleep quality and reduces daytime fatigue."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "asthma",
+    "sinusitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hay Fever",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hayfever.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Allergic Rhinitis",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-2-allergic-rhinitis",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Allergic Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-1-allergic-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-26",
+  "factcheck": {
+    "checked": "2026-10-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 19,
+      "not_found": 23,
+      "contradicted": 1,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Since allergic rhinitis is provoked by airborne molds or pollens, it is distinguished by the seasonal occurrences described in ( Table 24.2 ).",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Skin test results should be combined with patient history, physical findings, and other lab tests like serum IgE, CBC with differential, and an eosinophil count in order for the physician to make a proper diagnosis.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "the topical route has fewer side effects, but prolonged use can lead to rebound congestion.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "If the sensitized individual is re-exposed to the same allergen, the allergen binds to the IgE antibodies on the surface of mast cells or basophils.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "The nurse should also document the patient’s personal and family history of allergies, if any.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Common allergic responses are to seasonal allergens like various trees, ragweed, or pollens; medications; perennial allergens like dust or molds; latex ; animal dander; foods; household chemicals; fragrances; and insect stings or bites, as shown in Figure 24.2 .",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "maintaining a smoke-free environment",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "The primary symptoms of allergic rhinitis are nasal congestion, sneezing, nose and throat itching, and abundant amounts of serous nasal drainage.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Symptoms can include: Sneezing, often with a runny or clogged nose Coughing and postnasal drip Itching eyes, nose and throat Red and watery eyes Dark circles under the eyes Your health care provider may diagnose hay fever based on a physical exam and your symptoms.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Symptoms can include: Sneezing, often with a runny or clogged nose Coughing and postnasal drip Itching eyes, nose and throat Red and watery eyes Dark circles under the eyes Your health care provider may diagnose hay fever based on a physical exam and your symptoms.",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Your health care provider may diagnose hay fever based on a physical exam and your symptoms.",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "This type of medication is used prior to or at the initial onset of symptoms.",
+        "source": 1
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "The three methods of immunotherapy include subcutaneous immunotherapy (SIT), epicutaneous immunotherapy (EPIT), and sublingual immunotherapy (SLIT).",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Allergic rhinitis can be severe and impedes a person’s sleep, leisure, educational or professional success, and overall quality of life.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "The primary symptoms of allergic rhinitis are nasal congestion, sneezing, nose and throat itching, and abundant amounts of serous nasal drainage.",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Diagnostics and Laboratory Values Diagnostic tests include peripheral blood counts, total serum IgE, serum-specific IgE, nasal smears, nasal provocation tests, and epicutaneous (on the skin) and intradermal (just below the skin) skin testing.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Avoidance of triggers can be effective in decreasing symptoms of allergic rhinitis.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "contradicted",
+        "quote": "These medications may take several days to two weeks to take full effect and should not be used for more than 30 days.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

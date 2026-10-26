@@ -1,0 +1,449 @@
+{
+  "id": "ace-inhibitor-induced-angioedema",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Angioedema inducido por inhibidores de la ECA (IEA)",
+    "aliases": [
+      "angioedema",
+      "iea",
+      "inhibidor eca",
+      "edema facial",
+      "edema garganta"
+    ],
+    "summary": "Hinchazón súbita de la piel y mucosas, especialmente cara, labios y vías respiratorias, provocada por la acumulación de bradiquinina tras uso de inhibidores de la ECA.",
+    "key_points": [
+      "Aparece minutos a horas después de iniciar o aumentar la dosis del IE.",
+      "Puede comprometer la vía aérea y requerir intervención de emergencia.",
+      "No se asocia a prurito ni a erupción urticarial típica.",
+      "Suspender el IE y evitar futuros ARA II o sacubitril/valsartán."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los IE inhiben la degradación de bradiquinina, aumentando su concentración.",
+        "La bradiquinina incrementa la permeabilidad capilar y causa edema profundo.",
+        "En pacientes susceptibles, la respuesta inflamatoria se intensifica sin edema urticarial."
+      ],
+      "risk_factors": [
+        "Historia previa de angioedema o reacción alérgica a IE.",
+        "Origen afrodescendiente o asiático (mayor riesgo genético).",
+        "Uso concomitante de ARA II, sucralfato o inhibidores de DPP‑4.",
+        "Dosis altas o inicio rápido del IE."
+      ],
+      "signs_symptoms": [
+        "Edema rápido de labios, lengua, cara y/o párpados.",
+        "Dificultad para hablar, tragar o respirar; sensación de opresión en la garganta.",
+        "Ausencia de prurito o ronchas superficiales.",
+        "Posible urticaria asociada, pero no siempre presente."
+      ],
+      "diagnostics": [
+        "Evaluación clínica de la vía aérea (auscultar ruidos respiratorios, observar edema).",
+        "C4 complementario y niveles de bradiquinina pueden confirmarse, pero no son rutinarios.",
+        "Descartar otras causas: alergia IgE (prueba cutánea), infección."
+      ],
+      "treatment": [
+        "Suspender inmediatamente el inhibidor de la ECA.",
+        "Administrar epinefrina 0.3 mg IM en caso de compromiso respiratorio.",
+        "Antihistamínicos H1 (difenhidramina) y corticoides IV para reducir inflamación.",
+        "Oxígeno suplementario y monitorización continua de la saturación."
+      ],
+      "complications": [
+        "Obstrucción de la vía aérea superior → asfixia.",
+        "Hipotensión secundaria a vasodilatación masiva.",
+        "Ansiedad y pánico por dificultad respiratoria."
+      ],
+      "nursing_care": [
+        "Evaluar rápidamente la permeabilidad de la vía aérea y registrar signos de obstrucción.",
+        "Mantener al paciente en posición semi‑sentada (30‑45°) para facilitar la respiración.",
+        "Administrar oxígeno por máscara facial y monitorizar SpO₂ ≥ 94 %.",
+        "Preparar y administrar epinefrina según protocolo; registrar tiempo y respuesta.",
+        "Notificar al médico de inmediato y documentar la reacción adversa al IE."
+      ],
+      "patient_teaching": [
+        "Informar que debe suspender el IE y evitar futuros ARA II sin autorización médica.",
+        "Enseñar a reconocer signos de edema facial o de garganta y buscar ayuda emergente.",
+        "Recomendar llevar una pulsera de alerta médica indicando “Angioedema por IE”.",
+        "Explicar la importancia de informar a todos los profesionales de salud sobre la reacción."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "edema de orofaringe",
+          "dificultad para tragar",
+          "compromiso de la vía aérea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantenimiento de la permeabilidad de la vía aérea: SpO₂ ≥ 94 % en 24 h.",
+          "Sin episodios de aspiración documentados durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar signos de obstrucción de la vía aérea cada 5 min.",
+            "rationale": "Detectar deterioro respiratorio temprano permite intervención rápida."
+          },
+          {
+            "action": "Mantener al paciente en posición semi‑sentada.",
+            "rationale": "Facilita la ventilación y reduce el riesgo de aspiración."
+          },
+          {
+            "action": "Administrar oxígeno suplementario y registrar SpO₂.",
+            "rationale": "Garantiza una oxigenación adecuada mientras se controla la vía aérea."
+          },
+          {
+            "action": "Preparar epinefrina IM y administrarla si aparecen signos de compromiso respiratorio.",
+            "rationale": "Reduce rápidamente el edema y previene la obstrucción total."
+          },
+          {
+            "action": "Educar al paciente y acompañante sobre signos de empeoramiento y cuándo buscar ayuda.",
+            "rationale": "Promueve la detección precoz y la respuesta adecuada fuera del entorno hospitalario."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "hipotensión por vasodilatación",
+          "edema masivo",
+          "uso de IE"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial mantenida dentro de rangos seguros (≥ 90/60 mmHg) en 24 h.",
+          "Sin evidencia de isquemia miocárdica (troponina normal)."
+        ],
+        "interventions": [
+          {
+            "action": "Controlar presión arterial cada 15 min durante la fase aguda.",
+            "rationale": "Detectar hipotensión temprana permite intervención hemodinámica."
+          },
+          {
+            "action": "Administrar fluidos IV isotónicos según indicación médica.",
+            "rationale": "Mantiene el volumen intravascular y la perfusión coronaria."
+          },
+          {
+            "action": "Monitorizar ritmo cardíaco y signos de isquemia (dolor torácico, cambios en ECG).",
+            "rationale": "Previene complicaciones cardíacas asociadas a hipoperfusión."
+          },
+          {
+            "action": "Evitar la reintroducción de inhibidores de la ECA o ARA II.",
+            "rationale": "Previene recurrencia del edema y la hipotensión asociada."
+          },
+          {
+            "action": "Documentar y comunicar cualquier cambio hemodinámico al equipo médico.",
+            "rationale": "Facilita decisiones terapéuticas oportunas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Angioedema induced by ACE inhibitors",
+    "aliases": [
+      "angioedema",
+      "acei",
+      "ace inhibitor",
+      "facial swelling",
+      "throat swelling"
+    ],
+    "summary": "Sudden swelling of skin and mucous membranes, especially face, lips, and airways, caused by bradykinin accumulation after use of ACE inhibitors.",
+    "key_points": [
+      "Appears minutes to hours after starting or increasing the ACEI dose.",
+      "Can compromise the airway and require emergency intervention.",
+      "Not associated with itching or typical hives.",
+      "Discontinue the ACEI and avoid future ARBs or sacubitril/valsartan."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "ACEI inhibit bradykinin degradation, increasing its concentration.",
+        "Bradykinin increases capillary permeability and causes deep edema.",
+        "In susceptible patients, the inflammatory response intensifies without hives."
+      ],
+      "risk_factors": [
+        "History of angioedema or allergic reaction to ACEI.",
+        "African or Asian ancestry (higher genetic risk).",
+        "Concurrent use of ARBs, sucralfate, or DPP‑4 inhibitors.",
+        "High doses or rapid initiation of ACEI."
+      ],
+      "signs_symptoms": [
+        "Rapid swelling of lips, tongue, face, and/or eyelids.",
+        "Difficulty speaking, swallowing, or breathing; sensation of throat pressure.",
+        "Absence of itching or superficial welts.",
+        "Possible associated hives, but not always present."
+      ],
+      "diagnostics": [
+        "Clinical airway assessment (listen for respiratory sounds, observe edema).",
+        "C4 complement and bradykinin levels can confirm, but are not routine.",
+        "Rule out other causes: IgE allergy (skin test), infection."
+      ],
+      "treatment": [
+        "Immediately discontinue the ACE inhibitor.",
+        "Administer epinephrine 0.3 mg IM if respiratory compromise.",
+        "H1 antihistamine (diphenhydramine) and IV corticosteroids to reduce inflammation.",
+        "Supplemental oxygen and continuous SpO₂ monitoring."
+      ],
+      "complications": [
+        "Upper airway obstruction → asphyxiation.",
+        "Secondary hypotension from massive vasodilation.",
+        "Anxiety and panic from breathing difficulty."
+      ],
+      "nursing_care": [
+        "Rapidly assess airway patency and document obstruction signs.",
+        "Keep patient in semi‑upright position (30‑45°) to facilitate breathing.",
+        "Administer oxygen via face mask and monitor SpO₂ ≥ 94 %.",
+        "Prepare and administer epinephrine per protocol; record timing and response.",
+        "Notify physician immediately and document the adverse reaction to ACEI."
+      ],
+      "patient_teaching": [
+        "Inform that they must discontinue the ACEI and avoid future ARBs without medical authorization.",
+        "Teach recognition of facial or throat swelling signs and seek emergency help.",
+        "Recommend wearing a medical alert bracelet indicating “Angioedema due to ACEI.”",
+        "Explain the importance of informing all healthcare professionals about the reaction."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "oropharyngeal edema",
+          "difficulty swallowing",
+          "airway compromise"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain airway patency: SpO₂ ≥ 94 % within 24 h.",
+          "No documented aspiration episodes during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor airway obstruction signs every 5 min.",
+            "rationale": "Early detection of respiratory deterioration allows rapid intervention."
+          },
+          {
+            "action": "Keep patient in semi‑upright position.",
+            "rationale": "Facilitates ventilation and reduces aspiration risk."
+          },
+          {
+            "action": "Administer supplemental oxygen and record SpO₂.",
+            "rationale": "Ensures adequate oxygenation while airway is monitored."
+          },
+          {
+            "action": "Prepare IM epinephrine and administer if respiratory compromise signs appear.",
+            "rationale": "Rapidly reduces edema and prevents total obstruction."
+          },
+          {
+            "action": "Educate patient and companion on worsening signs and when to seek help.",
+            "rationale": "Promotes early detection and appropriate response outside the hospital setting."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypotension from vasodilation",
+          "massive edema",
+          "ACEI use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood pressure maintained within safe ranges (≥ 90/60 mmHg) within 24 h.",
+          "No evidence of myocardial ischemia (normal troponin)."
+        ],
+        "interventions": [
+          {
+            "action": "Check blood pressure every 15 min during the acute phase.",
+            "rationale": "Early detection of hypotension allows hemodynamic intervention."
+          },
+          {
+            "action": "Administer isotonic IV fluids as ordered.",
+            "rationale": "Maintains intravascular volume and coronary perfusion."
+          },
+          {
+            "action": "Monitor heart rhythm and ischemia signs (chest pain, ECG changes).",
+            "rationale": "Prevents cardiac complications associated with hypoperfusion."
+          },
+          {
+            "action": "Avoid reintroduction of ACE inhibitors or ARBs.",
+            "rationale": "Prevents recurrence of edema and associated hypotension."
+          },
+          {
+            "action": "Document and communicate any hemodynamic changes to the medical team.",
+            "rationale": "Facilitates timely therapeutic decisions."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ace-inhibitor",
+    "hereditary-angioedema",
+    "airway-obstruction",
+    "hypotension",
+    "cough"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Urticaria and Angioneurotic Edema",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-4-urticaria-and-angioneurotic-edema",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Drugs Affecting the Renin-Angiotensin-Aldosterone System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-2-drugs-affecting-the-renin-angiotensin-aldosterone-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-26",
+  "factcheck": {
+    "checked": "2026-10-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 26,
+      "contradicted": 2,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "However, the patient should be monitored for airway obstruction; a tracheostomy may be a necessary intervention should this type of emergency happen.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Vascular permeability is increased and results in edema.",
+        "source": 0
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "contradicted",
+        "quote": "Clients with a previous hypersensitivity reaction or angioedema to an ARB inhibitor should not be prescribed this classification of drug.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "This disorder involves swelling of the deeper skin layers and most commonly occurs in the face (eyelids, lips, tongue, cheeks), hands, feet, genitalia or throat.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "As previously stated, it can occur alongside the presence of urticaria, alone, or as a component of anaphylaxis."
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "contradicted",
+        "quote": "ACE inhibitors cause fetal toxicity and should be immediately discontinued if pregnancy occurs.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Report side effects such as cough, angioedema, or anaphylactic reactions to their health care provider.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "The patient and family should be educated on proper use of an EpiPen or use of inhaled epinephrine and the need to call 911 for emergency treatment and monitoring following usage.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

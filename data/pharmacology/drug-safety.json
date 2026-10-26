@@ -1,0 +1,266 @@
+{
+  "id": "drug-safety",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Seguridad de la medicación",
+    "aliases": [
+      "seguridad medicación",
+      "prevención errores",
+      "seguridad farmacológica",
+      "administración segura",
+      "error de medicación",
+      "seguridad del paciente"
+    ],
+    "summary": "Conjunto de prácticas que garantizan la correcta prescripción, dispensación y administración de medicamentos para evitar errores y eventos adversos.",
+    "key_points": [
+      "Aplicar los 5 derechos: paciente, medicamento, dosis, vía, tiempo.",
+      "Utilizar doble verificación y sistemas de código de barras.",
+      "Mantener un entorno libre de distracciones durante la administración.",
+      "Reportar y analizar errores sin culpa para mejorar procesos.",
+      "Educar al paciente sobre su terapia y signos de alerta."
+    ],
+    "sections": {
+      "nursing_care": [
+        "Verificar la orden médica y comparar con la etiqueta del medicamento.",
+        "Confirmar la identidad del paciente usando al menos dos identificadores.",
+        "Revisar la dosis, vía, frecuencia y tiempo antes de administrar.",
+        "Utilizar dispositivos de doble verificación o escáner de código de barras.",
+        "Observar al paciente durante y después de la administración para detectar reacciones.",
+        "Retener la medicación y notificar al médico si hay discrepancia o alergia conocida."
+      ],
+      "patient_teaching": [
+        "Explicar el nombre genérico y la finalidad del medicamento.",
+        "Enseñar al paciente a leer la etiqueta y a reconocer la dosis correcta.",
+        "Indicar los posibles efectos secundarios y cuándo buscar ayuda.",
+        "Recomendar almacenar los medicamentos en un lugar seco y fuera del alcance de niños.",
+        "Fomentar la adherencia y la comunicación de cualquier cambio en su estado."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "errores de medicación",
+          "entorno ruidoso",
+          "fatiga del personal",
+          "falta de doble verificación",
+          "uso de abreviaturas confusas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Seguridad del paciente: 100% de las dosis administradas sin errores.",
+          "NOC: Conocimiento del paciente: 90% del paciente identifica su medicación y dosis correcta."
+        ],
+        "interventions": [
+          {
+            "action": "Revisar la orden médica y la etiqueta del medicamento antes de la administración.",
+            "rationale": "Previene errores de selección y dosificación."
+          },
+          {
+            "action": "Aplicar la regla de los 5 derechos y documentar cada paso.",
+            "rationale": "Asegura la correcta coincidencia entre paciente y medicación."
+          },
+          {
+            "action": "Utilizar sistemas de doble verificación o escáner de código de barras.",
+            "rationale": "Reduce la probabilidad de errores humanos."
+          },
+          {
+            "action": "Mantener el área de administración libre de interrupciones y ruidos.",
+            "rationale": "Disminuye la distracción que puede llevar a errores."
+          },
+          {
+            "action": "Educar al paciente sobre su terapia y signos de alerta.",
+            "rationale": "Facilita la detección temprana de reacciones adversas."
+          },
+          {
+            "action": "Reportar cualquier error o casi error al sistema de gestión de riesgos.",
+            "rationale": "Permite análisis y mejora continua del proceso."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Medication Safety",
+    "aliases": [
+      "medication safety",
+      "error prevention",
+      "pharmacologic safety",
+      "safe administration",
+      "medication error",
+      "patient safety"
+    ],
+    "summary": "Set of practices that ensure correct prescription, dispensing, and administration of medications to avoid errors and adverse events.",
+    "key_points": [
+      "Apply the 5 rights: patient, medication, dose, route, time.",
+      "Use double verification and barcode scanning systems.",
+      "Maintain a distraction-free environment during administration.",
+      "Report and analyze errors without blame to improve processes.",
+      "Educate the patient about their therapy and warning signs."
+    ],
+    "sections": {
+      "nursing_care": [
+        "Verify the medical order and compare it with the medication label.",
+        "Confirm the patient’s identity using at least two identifiers.",
+        "Review dose, route, frequency, and timing before administering.",
+        "Use double verification devices or barcode scanners.",
+        "Observe the patient during and after administration to detect reactions.",
+        "Hold the medication and notify the physician if there is a discrepancy or known allergy."
+      ],
+      "patient_teaching": [
+        "Explain the generic name and purpose of the medication.",
+        "Teach the patient to read the label and recognize the correct dose.",
+        "Indicate possible side effects and when to seek help.",
+        "Recommend storing medications in a dry place out of reach of children.",
+        "Encourage adherence and communication of any changes in their condition."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "medication errors",
+          "noisy environment",
+          "staff fatigue",
+          "lack of double verification",
+          "confusing abbreviations"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Patient Safety: 100% of doses administered without error.",
+          "NOC: Patient Knowledge: 90% of patients identify their medication and correct dose."
+        ],
+        "interventions": [
+          {
+            "action": "Review the medical order and medication label before administration.",
+            "rationale": "Prevents selection and dosing errors."
+          },
+          {
+            "action": "Apply the 5 rights rule and document each step.",
+            "rationale": "Ensures correct match between patient and medication."
+          },
+          {
+            "action": "Use double verification systems or barcode scanners.",
+            "rationale": "Reduces the likelihood of human errors."
+          },
+          {
+            "action": "Keep the administration area free of interruptions and noise.",
+            "rationale": "Decreases distraction that can lead to errors."
+          },
+          {
+            "action": "Educate the patient about their therapy and warning signs.",
+            "rationale": "Facilitates early detection of adverse reactions."
+          },
+          {
+            "action": "Report any error or near miss to the risk management system.",
+            "rationale": "Allows analysis and continuous improvement of the process."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "medication-errors",
+    "infection-control",
+    "patient-safety"
+  ],
+  "sources": [
+    {
+      "name": "Fundamentals of Nursing: Safety: Individual and Environmental",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Infection Control and Patient Safety",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-4-infection-control-and-patient-safety",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-26",
+  "factcheck": {
+    "checked": "2026-10-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 13,
+      "contradicted": 0,
+      "total": 17
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Creating a just culture in which employees are not afraid to report errors is a highly successful way to enhance patient safety, increase staff and patient satisfaction, and improve outcomes.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Despite being a seasoned nurse, I was a little nervous about administering the medication correctly, but I double-checked the dose and the medication order before administering it.",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Despite being a seasoned nurse, I was a little nervous about administering the medication correctly, but I double-checked the dose and the medication order before administering it.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "For example, a nurse scans a patient’s medication with a barcode scanner prior to administration, but an error message appears on the scanner.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

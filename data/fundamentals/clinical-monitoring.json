@@ -1,0 +1,290 @@
+{
+  "id": "clinical-monitoring",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Monitoreo clínico de signos vitales",
+    "aliases": [
+      "monitoreo",
+      "signos vitales",
+      "vitales",
+      "monitorizacion"
+    ],
+    "summary": "Observación sistemática de presión arterial, frecuencia cardíaca, respiratoria, temperatura y saturación para detectar cambios fisiológicos.",
+    "key_points": [
+      "Los signos vitales reflejan la homeostasis y deben registrarse al menos cada 4 h en pacientes estables.",
+      "Variaciones súbitas pueden indicar deterioro y requieren intervención inmediata.",
+      "Usar equipos calibrados y técnica adecuada para evitar lecturas erróneas.",
+      "Documentar hora, valores y cualquier factor que pueda influir (ej. actividad, medicación)."
+    ],
+    "sections": {
+      "purpose": [
+        "Detectar alteraciones tempranas del estado clínico.",
+        "Guiar decisiones de tratamiento y priorizar cuidados.",
+        "Evaluar respuesta a intervenciones terapéuticas."
+      ],
+      "procedure": [
+        "Lavarse las manos y colocar guantes si se manipulan dispositivos invasivos.",
+        "Medir presión arterial con esfigmomanómetro adecuado; registrar mmHg.",
+        "Contar frecuencia cardíaca y respiratoria durante 60 s; anotar latidos/min y respiraciones/min.",
+        "Tomar temperatura axilar o rectal con termómetro digital; registrar °C.",
+        "Obtener saturación de oxígeno con pulsioxímetro; registrar %."
+      ],
+      "safety": [
+        "Verificar que el manguito del tensiómetro sea del tamaño correcto.",
+        "No aplicar el pulsioxímetro en dedos fríos o con esmalte grueso.",
+        "Informar al paciente antes de cada medición para evitar ansiedad.",
+        "Reportar valores fuera de rango al médico de turno."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia y dolor antes de medir.",
+        "Observar color de piel, sudoración y nivel de hidratación.",
+        "Notificar hipotensión, taquicardia, fiebre >38 °C o saturación <92 %.",
+        "Revaluar signos después de intervenciones (ej. fluidoterapia)."
+      ],
+      "documentation": [
+        "Registrar fecha, hora y valores exactos en la hoja de signos vitales.",
+        "Anotar método usado (ej. esfigmomanómetro aneroide, termómetro digital).",
+        "Incluir observaciones relevantes (ej. paciente en reposo, después de medicación).",
+        "Mantener registro accesible para todo el equipo de salud."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por fiebre",
+          "diarrea o vómitos",
+          "ingesta insuficiente de agua",
+          "uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida de líquidos dentro de ±10 % del requerimiento en 24 h",
+          "Estado hemodinámico: presión arterial dentro de rango normal para la edad en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta oral y salida de orina cada 4 h.",
+            "rationale": "Permite identificar déficit o exceso de líquidos rápidamente."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas).",
+            "rationale": "Los cambios físicos son indicadores tempranos de desequilibrio."
+          },
+          {
+            "action": "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+            "rationale": "Alteraciones hemodinámicas reflejan cambios en el volumen intravascular."
+          },
+          {
+            "action": "Administrar fluidos según prescripción y revaluar después de cada bolus.",
+            "rationale": "Corrige déficit de volumen y previene complicaciones de hipovolemia."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación y registrar consumo.",
+            "rationale": "Fomenta la autogestión y reduce riesgo de déficit de líquidos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Clinical monitoring of vital signs",
+    "aliases": [
+      "monitoring",
+      "vital signs",
+      "vitals",
+      "monitorization"
+    ],
+    "summary": "Systematic observation of blood pressure, heart rate, respiratory rate, temperature, and saturation to detect physiological changes.",
+    "key_points": [
+      "Vital signs reflect homeostasis and should be recorded at least every 4 h in stable patients.",
+      "Sudden variations may indicate deterioration and require immediate intervention.",
+      "Use calibrated equipment and proper technique to avoid erroneous readings.",
+      "Document time, values, and any factors that may influence (e.g., activity, medication)."
+    ],
+    "sections": {
+      "purpose": [
+        "Detect early alterations in clinical status.",
+        "Guide treatment decisions and prioritize care.",
+        "Evaluate response to therapeutic interventions."
+      ],
+      "procedure": [
+        "Wash hands and wear gloves if invasive devices are handled.",
+        "Measure blood pressure with an appropriate sphygmomanometer; record mmHg.",
+        "Count heart rate and respiratory rate for 60 s; note beats/min and breaths/min.",
+        "Take axillary or rectal temperature with a digital thermometer; record °C.",
+        "Obtain oxygen saturation with a pulse oximeter; record %."
+      ],
+      "safety": [
+        "Verify that the blood pressure cuff is the correct size.",
+        "Do not apply the pulse oximeter to cold or thickly painted fingers.",
+        "Inform the patient before each measurement to avoid anxiety.",
+        "Report out-of-range values to the on‑call physician.]",
+        "nursing_care",
+        ":",
+        "documentation",
+        ":"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "fluid loss due to fever",
+          "diarrhea or vomiting",
+          "insufficient water intake",
+          "diuretic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output within ±10 % of requirement in 24 h",
+          "Hemodynamic status: blood pressure within normal range for age in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record oral intake and urine output every 4 h.",
+            "rationale": "Allows rapid identification of fluid deficit or excess."
+          },
+          {
+            "action": "Assess signs of dehydration (skin turgor, dry mucous membranes).",
+            "rationale": "Physical changes are early indicators of imbalance."
+          },
+          {
+            "action": "Monitor vital signs, especially blood pressure and heart rate.",
+            "rationale": "Hemodynamic changes reflect intravascular volume shifts."
+          },
+          {
+            "action": "Administer fluids per prescription and re-evaluate after each bolus.",
+            "rationale": "Corrects volume deficit and prevents hypovolemia complications."
+          },
+          {
+            "action": "Educate the patient on the importance of hydration and record consumption.",
+            "rationale": "Promotes self‑management and reduces risk of fluid deficit."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "fluid-balance",
+    "vital-signs",
+    "clinical-judgment",
+    "patient-monitoring",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Vaccine Safety",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/vaccinesafety.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Clinical Judgment Measurement Model Overview",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/4-2-clinical-judgment-measurement-model-overview",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Clinical Judgment within the Nursing Process",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/27-1-clinical-judgment-within-the-nursing-process",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-26",
+  "factcheck": {
+    "checked": "2026-10-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 18,
+      "contradicted": 0,
+      "total": 21
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.purpose.0": {
+        "status": "not_found"
+      },
+      "sections.purpose.1": {
+        "status": "supported",
+        "quote": "Nurses use clinical judgment to organize and prioritize nursing knowledge and skills into nursing actions based on the clinical situation.",
+        "source": 2
+      },
+      "sections.purpose.2": {
+        "status": "supported",
+        "quote": "Nurse reviews patient response to actions and interventions.",
+        "source": 1
+      },
+      "sections.procedure.0": {
+        "status": "not_found"
+      },
+      "sections.procedure.1": {
+        "status": "not_found"
+      },
+      "sections.procedure.2": {
+        "status": "not_found"
+      },
+      "sections.procedure.3": {
+        "status": "not_found"
+      },
+      "sections.procedure.4": {
+        "status": "not_found"
+      },
+      "sections.safety.0": {
+        "status": "not_found"
+      },
+      "sections.safety.1": {
+        "status": "not_found"
+      },
+      "sections.safety.2": {
+        "status": "not_found"
+      },
+      "sections.safety.3": {
+        "status": "not_found"
+      },
+      "sections.safety.4": {
+        "status": "not_found"
+      },
+      "sections.safety.5": {
+        "status": "not_found"
+      },
+      "sections.safety.6": {
+        "status": "supported",
+        "quote": "Documentation of all steps in the nursing process is essential.",
+        "source": 2
+      },
+      "sections.safety.7": {
+        "status": "not_found"
+      }
+    }
+  }
+}
