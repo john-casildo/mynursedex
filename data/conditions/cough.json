@@ -1,0 +1,515 @@
+{
+  "id": "cough",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Tos",
+    "aliases": [
+      "tos",
+      "toser",
+      "tos seca",
+      "tos productiva",
+      "tos persistente"
+    ],
+    "summary": "La tos es un reflejo protector que elimina secreciones o irritantes de las vías respiratorias. Puede ser seca (no productiva) o productiva según la presencia de esputo.",
+    "key_points": [
+      "Diferenciar tos seca (no productiva) de productiva para elegir tratamiento.",
+      "Los antitusígenos no se usan en tos productiva por riesgo de retención de secreciones.",
+      "Los inhibidores de la ECA pueden causar tos seca persistente por acumulación de bradiquinina.",
+      "Hidratación y humidificación facilitan la expectoración.",
+      "Evaluar causa subyacente (infección, alergia, irritantes, ACE‑i)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Irritación de receptores periféricos en tráquea y bronquios envía impulsos al centro de la tos en el bulbo raquídeo.",
+        "En tos seca, la señal es fuerte pero no hay producción de moco.",
+        "En tos productiva, el moco se moviliza y se expulsa mediante contracciones espiratorias.",
+        "Los inhibidores de la ECA aumentan bradiquinina y sustancia P, estimulando el centro de la tos."
+      ],
+      "risk_factors": [
+        "Infecciones virales del tracto respiratorio superior.",
+        "Exposición a humo de tabaco, contaminación o químicos irritantes.",
+        "Uso de inhibidores de la ECA.",
+        "Alergias, asma, reflujo gastroesofágico.",
+        "Climas fríos y aire seco."
+      ],
+      "signs_symptoms": [
+        "Tos seca, ronca y persistente, a menudo nocturna.",
+        "Tos productiva con expectoración clara, amarilla o verdosa.",
+        "Sensación de irritación o picor en la garganta.",
+        "Fiebre, malestar general si hay infección.",
+        "Disnea o sibilancias en casos de broncoespasmo."
+      ],
+      "diagnostics": [
+        "Historia clínica y caracterización de la tos (seca vs productiva, duración).",
+        "Auscultación pulmonar para detectar roncus o crepitantes.",
+        "Radiografía de tórax si la tos persiste >2 semanas o hay signos de neumonía.",
+        "Cultivo de esputo si se sospecha infección bacteriana.",
+        "Espirometría si se considera asma o EPOC."
+      ],
+      "treatment": [
+        "Identificar y tratar la causa subyacente (antibiótico si hay infección bacteriana).",
+        "Antitusígenos (dextrometorfano, codeína) para tos seca no productiva.",
+        "Expectorantes (guaifenesina) y mucolíticos para facilitar la eliminación de moco.",
+        "Descongestionantes nasales y antihistamínicos si hay rinitis alérgica.",
+        "Suspender inhibidor de la ECA si la tos es persistente y sin otra causa.",
+        "Hidratación adecuada y humidificador."
+      ],
+      "complications": [
+        "Retención de secreciones → bronquitis o neumonía.",
+        "Fatiga y alteración del sueño por tos nocturna.",
+        "Ruptura de costillas por tos violenta prolongada.",
+        "Deshidratación por pérdida de líquidos al respirar rápidamente."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia, intensidad, tipo de tos y presencia de esputo.",
+        "Monitorear signos vitales y saturación de O₂ cada 4 h.",
+        "Colocar al paciente en posición semi Fowler para facilitar la expansión pulmonar.",
+        "Fomentar ingesta de 2 L de líquidos diarios y uso de humidificador.",
+        "Administrar antitusígeno o expectorante según prescripción y observar efectos adversos.",
+        "Registrar cambios en la tos y notificar al médico si empeora."
+      ],
+      "patient_teaching": [
+        "Beber líquidos tibios y evitar bebidas con cafeína o alcohol.",
+        "Usar humidificador o vapor de agua caliente antes de dormir.",
+        "Evitar irritantes como humo de cigarro y ambientes polvorientos.",
+        "Tomar la medicación exactamente como se indica; no combinar antitusivo con tos productiva.",
+        "Buscar atención médica si la tos dura más de 3 semanas, hay fiebre alta o sangre en el esputo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "exposición a patógenos respiratorios",
+          "tos productiva con secreción",
+          "uso de inhaladores contaminados"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: No evidencia de infección: paciente mantiene temperatura <37.5 °C y leucocitos dentro de rango normal.",
+          "NOC: Mantiene integridad de vías respiratorias: ausencia de aumento de secreciones purulentas."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de infección (fiebre, leucocitosis, cambios en esputo) cada 8 h.",
+            "rationale": "Detección temprana permite iniciar tratamiento oportuno."
+          },
+          {
+            "action": "Promover higiene de manos y uso de mascarilla al toser.",
+            "rationale": "Reduce la transmisión de microorganismos a otros pacientes."
+          },
+          {
+            "action": "Instruir al paciente sobre la correcta técnica de expectoración y eliminación de secreciones.",
+            "rationale": "Facilita la eliminación de patógenos y previene estancamiento."
+          },
+          {
+            "action": "Mantener hidratación adecuada (≥2 L/día) y humidificación del ambiente.",
+            "rationale": "Disuelve moco y favorece su expulsión, disminuyendo riesgo de colonización."
+          },
+          {
+            "action": "Revisar la necesidad de continuar inhibidor de la ECA y notificar al médico si la tos persiste.",
+            "rationale": "El ACE‑i puede ser causa de tos seca y predisponer a infecciones secundarias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "tos persistente",
+          "disnea asociada",
+          "fatiga muscular por esfuerzo de tos"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "NOC: Aumento de la tolerancia a la actividad: paciente completa ADL sin reportar fatiga excesiva.",
+          "NOC: Mejora del patrón respiratorio: frecuencia respiratoria <20 rpm en reposo."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de fatiga y capacidad funcional usando escala de Borg antes y después de la intervención.",
+            "rationale": "Proporciona medida objetiva del progreso."
+          },
+          {
+            "action": "Planificar períodos de descanso entre actividades y enseñar técnicas de respiración diafragmática.",
+            "rationale": "Reduce el trabajo respiratorio y mejora la energía disponible."
+          },
+          {
+            "action": "Administrar antitusivo o expectorante según indicación para disminuir la frecuencia de la tos.",
+            "rationale": "Menos episodios de tos reducen interrupciones del ejercicio."
+          },
+          {
+            "action": "Fomentar ejercicio leve (caminar 5‑10 min) y aumentar gradualmente la duración.",
+            "rationale": "Mejora la resistencia cardiovascular y muscular sin sobrecargar el sistema respiratorio."
+          },
+          {
+            "action": "Monitorear saturación de O₂ y signos de dificultad respiratoria durante la actividad.",
+            "rationale": "Detecta deterioro temprano y permite ajustar el plan de actividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cough",
+    "aliases": [
+      "cough",
+      "dry cough",
+      "productive cough",
+      "persistent cough"
+    ],
+    "summary": "Cough is a protective reflex that removes secretions or irritants from the airways. It can be dry (non‑productive) or productive depending on the presence of sputum.",
+    "key_points": [
+      "Differentiate dry (non‑productive) from productive cough to choose treatment.",
+      "Antitussives are not used in productive cough due to risk of secretion retention.",
+      "ACE inhibitors can cause persistent dry cough by accumulating bradykinin.",
+      "Hydration and humidification facilitate expectoration.",
+      "Evaluate underlying cause (infection, allergy, irritants, ACE‑i)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Irritation of peripheral receptors in the trachea and bronchi sends impulses to the cough center in the medulla.",
+        "In dry cough, the signal is strong but no mucus is produced.",
+        "In productive cough, mucus is mobilized and expelled through expiratory contractions.",
+        "ACE inhibitors increase bradykinin and substance P, stimulating the cough center."
+      ],
+      "risk_factors": [
+        "Upper respiratory viral infections.",
+        "Exposure to tobacco smoke, pollution or irritating chemicals.",
+        "Use of ACE inhibitors.",
+        "Allergies, asthma, gastroesophageal reflux.",
+        "Cold climates and dry air."
+      ],
+      "signs_symptoms": [
+        "Dry, harsh, persistent cough, often nocturnal.",
+        "Productive cough with clear, yellow or greenish sputum.",
+        "Feeling of irritation or itch in the throat.",
+        "Fever, general malaise if infection present.",
+        "Dyspnea or wheeze in cases of bronchospasm."
+      ],
+      "diagnostics": [
+        "Medical history and characterization of cough (dry vs productive, duration).",
+        "Pulmonary auscultation to detect rales or crackles.",
+        "Chest X‑ray if cough persists >2 weeks or signs of pneumonia present.",
+        "Sputum culture if bacterial infection suspected.",
+        "Spirometry if asthma or COPD considered."
+      ],
+      "treatment": [
+        "Identify and treat underlying cause (antibiotic if bacterial infection suspected).",
+        "Antitussives (dextromethorphan, codeine) for dry non‑productive cough.",
+        "Expectorants (guaifenesin) and mucolytics to facilitate mucus removal.",
+        "Nasal decongestants and antihistamines if allergic rhinitis present.",
+        "Discontinue ACE inhibitor if cough is persistent and no other cause.",
+        "Adequate hydration and humidifier."
+      ],
+      "complications": [
+        "Retention of secretions → bronchitis or pneumonia.",
+        "Fatigue and sleep disturbance from nocturnal cough.",
+        "Rib fracture from prolonged violent coughing.",
+        "Dehydration from fluid loss during rapid breathing."
+      ],
+      "nursing_care": [
+        "Assess frequency, intensity, type of cough and presence of sputum.",
+        "Monitor vital signs and O₂ saturation every 4 h.",
+        "Place patient in semi‑Fowler position to facilitate lung expansion.",
+        "Encourage intake of 2 L of fluids daily and use of humidifier.",
+        "Administer antitussive or expectorant per prescription and observe adverse effects.",
+        "Document changes in cough and notify physician if it worsens."
+      ],
+      "patient_teaching": [
+        "Drink warm fluids and avoid caffeinated or alcoholic beverages.",
+        "Use humidifier or hot water vapor before bedtime.",
+        "Avoid irritants such as cigarette smoke and dusty environments.",
+        "Take medication exactly as directed; do not combine antitussive with productive cough.",
+        "Seek medical attention if cough lasts >3 weeks, high fever or blood in sputum."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "exposure to respiratory pathogens",
+          "productive cough with secretion",
+          "use of contaminated inhalers"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: No evidence of infection: patient maintains temperature <37.5 °C and leukocytes within normal range.",
+          "NOC: Maintains airway integrity: absence of increased purulent secretions."
+        ],
+        "interventions": [
+          {
+            "action": "Assess signs of infection (fever, leukocytosis, sputum changes) every 8 h.",
+            "rationale": "Early detection allows timely initiation of treatment."
+          },
+          {
+            "action": "Promote hand hygiene and mask use when coughing.",
+            "rationale": "Reduces transmission of microorganisms to other patients."
+          },
+          {
+            "action": "Instruct patient on proper expectoration technique and secretion removal.",
+            "rationale": "Facilitates pathogen elimination and prevents stasis."
+          },
+          {
+            "action": "Maintain adequate hydration (≥2 L/day) and ambient humidification.",
+            "rationale": "Dilutes mucus and promotes its expulsion, reducing colonization risk."
+          },
+          {
+            "action": "Review need to continue ACE inhibitor and notify physician if cough persists.",
+            "rationale": "ACE‑i may cause dry cough and predispose to secondary infections."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "persistent cough",
+          "associated dyspnea",
+          "muscle fatigue from coughing effort"
+        ],
+        "evidenced_by": [
+          "fatigue during activities of daily living",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "NOC: Increased endurance: patient completes ADL without reporting excessive fatigue.",
+          "NOC: Improved respiratory pattern: respiratory rate <20 rpm at rest."
+        ],
+        "interventions": [
+          {
+            "action": "Assess fatigue level and functional capacity using Borg scale before and after intervention.",
+            "rationale": "Provides objective measure of progress."
+          },
+          {
+            "action": "Plan rest periods between activities and teach diaphragmatic breathing techniques.",
+            "rationale": "Reduces respiratory work and improves available energy."
+          },
+          {
+            "action": "Administer antitussive or expectorant as indicated to reduce cough frequency.",
+            "rationale": "Fewer cough episodes reduce exercise interruptions."
+          },
+          {
+            "action": "Encourage light exercise (walk 5‑10 min) and gradually increase duration.",
+            "rationale": "Improves cardiovascular and muscular endurance without overloading respiratory system."
+          },
+          {
+            "action": "Monitor O₂ saturation and signs of respiratory distress during activity.",
+            "rationale": "Detects early deterioration and allows activity plan adjustment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "upper-respiratory-infection",
+    "ace-inhibitor-cough",
+    "bronchitis",
+    "asthma",
+    "pneumonia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Medicinas para la tos y el resfrío",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/coldandcoughmedicines.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Antitussives",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/24-2-antitussives",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Drugs Affecting the Renin-Angiotensin-Aldosterone System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-2-drugs-affecting-the-renin-angiotensin-aldosterone-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-27",
+  "factcheck": {
+    "checked": "2026-10-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 40,
+      "contradicted": 2,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Antitussives are not recommended for productive coughs where the client is coughing up mucus due to the infection risk that can result from the buildup of mucus in the respiratory system.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "ACE inhibitors have been shown to decrease morbidity and mortality in clients with heart failure (Heidenreich et al., 2022).",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Clients may develop an ACE inhibitor–associated cough (a persistent, dry, itchy cough).",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Prior to administering, assess the client’s medical history, current drug list, and allergies for potential interactions and contraindications.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "contradicted",
+        "quote": "For clients taking opioid antitussives, monitor vital signs for hypotension and respiratory depression before and after administration.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Avoid irritants, such as smoking, that can cause more coughing.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "contradicted",
+        "quote": "Clients should inform their health care provider if their cough lasts longer than 1 week or is accompanied by other symptoms such as fever or rash.",
+        "source": 1
+      }
+    }
+  }
+}

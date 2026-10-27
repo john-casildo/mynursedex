@@ -1,0 +1,482 @@
+{
+  "id": "confusion",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Confusión",
+    "aliases": [
+      "confusión",
+      "desorientación",
+      "alteración mental",
+      "cambio de conciencia",
+      "delirio"
+    ],
+    "summary": "Estado de alteración de la conciencia que produce desorientación, dificultad para pensar y recordar. Puede ser aguda y reversible o indicar una condición subyacente grave.",
+    "key_points": [
+      "La confusión aguda es una urgencia médica que requiere identificación rápida de la causa.",
+      "Factores precipitantes comunes: TBI, infecciones, desequilibrios electrolíticos, hipoglucemia, intoxicaciones.",
+      "Evaluación neurológica incluye escala de Glasgow y pruebas de orientación.",
+      "El tratamiento se centra en corregir la causa subyacente y mantener la seguridad del paciente."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño o disfunción cerebral altera la transmisión sináptica y la perfusión cerebral.",
+        "Los desequilibrios metabólicos (ej. hipoglucemia, hipernatremia) afectan la actividad neuronal.",
+        "Inflamación o edema cerebral aumenta la presión intracraneal y reduce la oxigenación."
+      ],
+      "risk_factors": [
+        "Traumatismo craneoencefálico (caídas, accidentes de tránsito).",
+        "Infecciones sistémicas (UTI, neumonía) y sepsis.",
+        "Deshidratación y desequilibrios electrolíticos (hipernatremia, hipocalemia).",
+        "Uso de sedantes, opioides, anticolinérgicos o abstinencia de alcohol."
+      ],
+      "signs_symptoms": [
+        "Desorientación en tiempo, lugar y persona.",
+        "Dificultad para concentrarse, pensamiento desorganizado.",
+        "Alteraciones del nivel de conciencia (desde somnolencia hasta coma).",
+        "Agitación o letargo, fluctuación del estado mental."
+      ],
+      "diagnostics": [
+        "Escala de Glasgow: puntuación <15 indica alteración.",
+        "Hemograma, glucosa (mg/dL), electrolitos (mEq/L), función renal.",
+        "TC o RM cerebral si se sospecha lesión estructural.",
+        "Cultivos de orina y sangre si hay sospecha de infección."
+      ],
+      "treatment": [
+        "Corrección de causas: rehidratación, reposición de electrolitos, antibióticos, control glucémico.",
+        "Suspender o ajustar medicamentos que provocan confusión.",
+        "Oxigenoterapia si hay hipoxemia.",
+        "Monitorización continua de signos vitales y nivel de conciencia."
+      ],
+      "complications": [
+        "Caídas y lesiones por desorientación.",
+        "Progresión a delirio severo o coma.",
+        "Deterioro cognitivo prolongado.",
+        "Aumento de la morbilidad hospitalaria."
+      ],
+      "nursing_care": [
+        "Evaluar orientación cada 2‑4 h usando preguntas de tiempo, lugar y persona.",
+        "Mantener ambiente tranquilo, luz tenue y reducir estímulos excesivos.",
+        "Seguridad: barandillas, supervisión al deambular, prevención de caídas.",
+        "Registrar signos vitales, glucosa y electrolitos; notificar cambios críticos."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de hidratarse y seguir la dieta prescrita.",
+        "Instruir sobre la toma correcta de medicamentos y evitar automedicación.",
+        "Enseñar a solicitar ayuda al sentir confusión o mareos.",
+        "Promover descanso adecuado y evitar consumo de alcohol o sustancias sedantes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Confusión aguda",
+        "type": "actual",
+        "related_to": [
+          "traumatismo craneoencefálico",
+          "infección sistémica",
+          "desequilibrio electrolítico",
+          "intoxicación por fármacos"
+        ],
+        "evidenced_by": [
+          "desorientación",
+          "dificultad para concentrarse",
+          "alteración del nivel de conciencia",
+          "fluctuación del estado mental"
+        ],
+        "outcomes": [
+          "Orientación: el paciente estará orientado a tiempo, lugar y persona en 80 % de las evaluaciones en 24 h.",
+          "Seguridad: no presentará caídas durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de conciencia con escala de Glasgow cada 2 h.",
+            "rationale": "Permite detectar deterioro temprano y guiar intervenciones."
+          },
+          {
+            "action": "Mantener ambiente tranquilo, reducir ruidos y luz brillante.",
+            "rationale": "Disminuye la sobrecarga sensorial que puede empeorar la confusión."
+          },
+          {
+            "action": "Revisar y ajustar medicamentos que puedan causar alteración mental.",
+            "rationale": "Eliminación de agentes iatrogénicos reduce la causa reversible."
+          },
+          {
+            "action": "Asegurar hidratación adecuada y corregir electrolitos según órdenes médicas.",
+            "rationale": "Previene causas metabólicas de la confusión."
+          },
+          {
+            "action": "Implementar medidas de prevención de caídas (barandillas, acompañamiento).",
+            "rationale": "Reduce riesgo de lesiones secundarias a desorientación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "deshidratación",
+          "pérdida gastrointestinal",
+          "uso de diuréticos",
+          "insuficiencia renal",
+          "hipertermia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos: Na⁺ y K⁺ dentro de rangos normales (Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L) en 48 h.",
+          "Hidratación: peso corporal estable (variación <2 % en 3 días)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada turno.",
+            "rationale": "Detecta déficit o exceso de volumen que afecta electrolitos."
+          },
+          {
+            "action": "Obtener panel de electrolitos y glucosa cada 12 h según indicación.",
+            "rationale": "Identifica alteraciones tempranas para corrección oportuna."
+          },
+          {
+            "action": "Administrar soluciones intravenosas isotónicas según prescripción.",
+            "rationale": "Restablece equilibrio hídrico y electrolítico."
+          },
+          {
+            "action": "Educar al paciente sobre signos de deshidratación y consumo de líquidos.",
+            "rationale": "Fomenta autocuidado y prevención de futuros desequilibrios."
+          },
+          {
+            "action": "Revisar uso de diuréticos y ajustar dosis con el médico.",
+            "rationale": "Previene pérdida excesiva de sodio y potasio."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Confusion",
+    "aliases": [
+      "confusion",
+      "disorientation",
+      "mental alteration",
+      "change of consciousness",
+      "delirium"
+    ],
+    "summary": "State of altered consciousness that produces disorientation, difficulty thinking and remembering. It can be acute and reversible or indicate a serious underlying condition.",
+    "key_points": [
+      "Acute confusion is a medical emergency that requires rapid identification of the cause.",
+      "Common precipitating factors: TBI, infections, electrolyte imbalances, hypoglycemia, intoxications.",
+      "Neurologic assessment includes Glasgow scale and orientation tests.",
+      "Treatment focuses on correcting the underlying cause and maintaining patient safety."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Brain damage or dysfunction alters synaptic transmission and cerebral perfusion.",
+        "Metabolic imbalances (e.g., hypoglycemia, hypernatremia) affect neuronal activity.",
+        "Inflammation or cerebral edema increases intracranial pressure and reduces oxygenation."
+      ],
+      "risk_factors": [
+        "Traumatic brain injury (falls, motor vehicle accidents).",
+        "Systemic infections (UTI, pneumonia) and sepsis.",
+        "Dehydration and electrolyte imbalances (hypernatremia, hypokalemia).",
+        "Use of sedatives, opioids, anticholinergics or alcohol withdrawal."
+      ],
+      "signs_symptoms": [
+        "Disorientation in time, place, and person.",
+        "Difficulty concentrating, disorganized thinking.",
+        "Alterations in level of consciousness (from drowsiness to coma).",
+        "Agitation or lethargy, fluctuation of mental status."
+      ],
+      "diagnostics": [
+        "Glasgow scale: score <15 indicates alteration.",
+        "CBC, glucose (mg/dL), electrolytes (mEq/L), renal function.",
+        "CT or MRI brain if structural injury suspected.",
+        "Urine and blood cultures if infection suspected."
+      ],
+      "treatment": [
+        "Correct causes: rehydration, electrolyte replacement, antibiotics, glucose control.",
+        "Discontinue or adjust medications that cause confusion.",
+        "Oxygen therapy if hypoxemia.",
+        "Continuous monitoring of vital signs and level of consciousness."
+      ],
+      "complications": [
+        "Falls and injuries from disorientation.",
+        "Progression to severe delirium or coma.",
+        "Prolonged cognitive decline.",
+        "Increased hospital morbidity."
+      ],
+      "nursing_care": [
+        "Assess orientation every 2‑4 h using time, place, and person questions.",
+        "Maintain a calm environment, dim lighting, and reduce excessive stimuli.",
+        "Safety: handrails, supervision when ambulating, fall prevention.",
+        "Record vital signs, glucose, and electrolytes; notify critical changes."
+      ],
+      "patient_teaching": [
+        "Explain the importance of staying hydrated and following prescribed diet.",
+        "Instruct on proper medication intake and avoid self-medication.",
+        "Teach to request help when feeling confused or dizzy.",
+        "Promote adequate rest and avoid alcohol or sedative substances."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute confusion",
+        "type": "actual",
+        "related_to": [
+          "traumatic brain injury",
+          "systemic infection",
+          "electrolyte imbalance",
+          "drug intoxication"
+        ],
+        "evidenced_by": [
+          "disorientation",
+          "difficulty concentrating",
+          "altered level of consciousness",
+          "fluctuating mental status"
+        ],
+        "outcomes": [
+          "Orientation: the patient will be oriented to time, place, and person in 80 % of assessments within 24 h.",
+          "Safety: no falls will occur during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Assess level of consciousness with Glasgow scale every 2 h.",
+            "rationale": "Allows early detection of deterioration and guides interventions."
+          },
+          {
+            "action": "Maintain a calm environment, reduce noise and bright light.",
+            "rationale": "Reduces sensory overload that can worsen confusion."
+          },
+          {
+            "action": "Review and adjust medications that may cause mental alteration.",
+            "rationale": "Elimination of iatrogenic agents reduces reversible causes."
+          },
+          {
+            "action": "Ensure adequate hydration and correct electrolytes per medical orders.",
+            "rationale": "Prevents metabolic causes of confusion."
+          },
+          {
+            "action": "Implement fall prevention measures (handrails, accompaniment).",
+            "rationale": "Reduces risk of secondary injuries from disorientation."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "dehydration",
+          "gastrointestinal loss",
+          "diuretic use",
+          "renal failure",
+          "hyperthermia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes: Na⁺ and K⁺ within normal ranges (Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L) within 48 h.",
+          "Hydration: body weight stable (variation <2 % over 3 days)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output each shift.",
+            "rationale": "Detects volume deficit or excess that affects electrolytes."
+          },
+          {
+            "action": "Obtain electrolyte and glucose panel every 12 h as indicated.",
+            "rationale": "Identifies early alterations for timely correction."
+          },
+          {
+            "action": "Administer isotonic IV solutions per prescription.",
+            "rationale": "Restores fluid and electrolyte balance."
+          },
+          {
+            "action": "Educate patient on signs of dehydration and fluid consumption.",
+            "rationale": "Encourages self-care and prevention of future imbalances."
+          },
+          {
+            "action": "Review diuretic use and adjust dose with the physician.",
+            "rationale": "Prevents excessive sodium and potassium loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "delirium",
+    "traumatic-brain-injury",
+    "electrolyte-imbalance",
+    "hypoglycemia",
+    "dehydration"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Traumatic Brain Injury",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/traumaticbraininjury.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Delirio",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/delirium.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Anti-Parkinsonian Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-2-anti-parkinsonian-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Fluid Disturbances and Replacement",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-2-fluid-disturbances-and-replacement",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-27",
+  "factcheck": {
+    "checked": "2026-10-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "May use a tool such as the Glasgow coma scale to determine how severe the TBI is.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Administer slowly and cautiously to prevent cardiovascular collapse and increased intracranial pressure from cerebral edema.",
+        "source": 3
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Some of the common causes of a closed head injury include Falls .",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "May do imaging tests , such as a CT scan or MRI",
+        "source": 0
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Keep lighting dim to avoid discomfort due to pupillary dilation.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "For example, you can install railings on the stairs and grab bars in the tub, get rid of tripping hazards, and use window guards and stair safety gates for young children.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Avoid alcohol and sedatives, including over-the-counter medications that contain these.",
+        "source": 2
+      }
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "id": "medication-errors",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Errores de medicación",
+    "aliases": [
+      "errores",
+      "medicacion",
+      "administracion",
+      "seguridad",
+      "dosis",
+      "fallos"
+    ],
+    "summary": "Los errores de medicación son fallas en cualquier etapa del proceso que pueden causar daño al paciente.",
+    "key_points": [
+      "Los cinco derechos: paciente, medicamento, dosis, vía, tiempo.",
+      "La doble verificación es obligatoria para medicamentos de alto riesgo.",
+      "Reportar cualquier error o casi error inmediatamente al sistema de notificación.",
+      "Mantener una lista actualizada de todos los medicamentos del paciente.",
+      "Utilizar tecnología (códigos de barras, EMR) para reducir errores.",
+      "Educar al paciente y al cuidador sobre su terapia."
+    ],
+    "sections": {
+      "purpose": [
+        "Garantizar la seguridad del paciente durante la administración de medicamentos.",
+        "Prevenir eventos adversos relacionados con errores de medicación.",
+        "Promover la precisión y la responsabilidad del personal de salud."
+      ],
+      "procedure": [
+        "Revisar la orden médica completa (dosis, vía, frecuencia, duración).",
+        "Verificar la identidad del paciente con al menos dos identificadores.",
+        "Confirmar los cinco derechos antes de preparar el medicamento.",
+        "Etiquetar y preparar la dosis siguiendo la técnica aséptica.",
+        "Administrar el medicamento y observar la respuesta inmediata.",
+        "Documentar la administración y cualquier reacción."
+      ],
+      "safety": [
+        "Usar sistemas de códigos de barras o EMR para la verificación.",
+        "Eliminar distracciones durante la preparación y administración.",
+        "Realizar doble verificación para fármacos de alto riesgo (ej. anticoagulantes).",
+        "Consultar al farmacéutico cuando haya dudas sobre la orden.",
+        "Mantener el área de trabajo limpia y bien iluminada."
+      ],
+      "nursing_care": [
+        "Evaluar alergias, función renal/hepática y signos vitales antes de la dosis.",
+        "Observar al paciente durante y después de la administración para detectar reacciones.",
+        "Informar al paciente sobre el medicamento, su propósito y posibles efectos.",
+        "Registrar cualquier efecto adverso o error y notificar al equipo.",
+        "Revisar y actualizar la lista de medicamentos del paciente diariamente."
+      ],
+      "documentation": [
+        "Anotar fecha, hora, dosis, vía, y nombre genérico del medicamento.",
+        "Registrar el número de lote y la fecha de expiración cuando corresponde.",
+        "Describir la respuesta del paciente y cualquier evento adverso.",
+        "Documentar la verificación de los cinco derechos y la firma del enfermero/a.",
+        "Reportar errores o casi errores en el formulario institucional."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "administración sin verificación",
+          "etiquetas confusas",
+          "dosis incorrecta",
+          "comunicación deficiente",
+          "distracciones"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad del paciente: sin eventos adversos por medicación",
+          "Exactitud de la administración: 100% de dosis correctas"
+        ],
+        "interventions": [
+          {
+            "action": "Verificar los cinco derechos antes de cada administración.",
+            "rationale": "Reduce la probabilidad de errores de identificación y dosis."
+          },
+          {
+            "action": "Utilizar doble verificación para medicamentos de alto riesgo.",
+            "rationale": "Detecta errores que pueden pasar desapercibidos en una sola revisión."
+          },
+          {
+            "action": "Aplicar tecnología de códigos de barras o EMR para validar la orden.",
+            "rationale": "Automatiza la comparación entre orden y medicamento, disminuyendo fallos humanos."
+          },
+          {
+            "action": "Educar al paciente y al cuidador sobre su terapia y pedir que repitan la información.",
+            "rationale": "Involucra al paciente como guardián adicional contra errores."
+          },
+          {
+            "action": "Reportar inmediatamente cualquier error o casi error al sistema de notificación institucional.",
+            "rationale": "Permite la intervención temprana y la mejora continua del proceso."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Medication errors",
+    "aliases": [
+      "errors",
+      "medication",
+      "administration",
+      "safety",
+      "dose",
+      "failures"
+    ],
+    "summary": "Medication errors are failures at any stage of the process that can cause harm to the patient.",
+    "key_points": [
+      "The five rights: patient, medication, dose, route, time.",
+      "Double verification is mandatory for high‑risk medications.",
+      "Report any error or near miss immediately to the notification system.",
+      "Maintain an up‑to‑date list of all patient medications.",
+      "Use technology (barcodes, EMR) to reduce errors.",
+      "Educate the patient and caregiver about their therapy."
+    ],
+    "sections": {
+      "purpose": [
+        "Ensure patient safety during medication administration.",
+        "Prevent adverse events related to medication errors.",
+        "Promote accuracy and accountability of health‑care staff."
+      ],
+      "procedure": [
+        "Review the complete medication order (dose, route, frequency, duration).",
+        "Verify the patient’s identity with at least two identifiers.",
+        "Confirm the five rights before preparing the medication.",
+        "Label and prepare the dose using aseptic technique.",
+        "Administer the medication and observe the immediate response.",
+        "Document the administration and any reaction."
+      ],
+      "safety": [
+        "Use barcode or EMR systems for verification.",
+        "Eliminate distractions during preparation and administration.",
+        "Perform double verification for high‑risk drugs (e.g., anticoagulants).",
+        "Consult the pharmacist when there is uncertainty about the order.",
+        "Keep the work area clean and well lit."
+      ],
+      "nursing_care": [
+        "Assess allergies, renal/hepatic function, and vital signs before the dose.",
+        "Observe the patient during and after administration for reactions.",
+        "Inform the patient about the medication, its purpose, and possible effects.",
+        "Record any adverse effect or error and notify the team.",
+        "Review and update the patient’s medication list daily."
+      ],
+      "documentation": [
+        "Record date, time, dose, route, and generic name of the medication.",
+        "Document lot number and expiration date when applicable.",
+        "Describe the patient’s response and any adverse event.",
+        "Document verification of the five rights and the nurse’s signature.",
+        "Report errors or near misses on the institutional form."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "unverified administration",
+          "confusing labels",
+          "incorrect dose",
+          "poor communication",
+          "distractions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient safety: no medication‑related adverse events",
+          "Accuracy of administration: 100% correct doses"
+        ],
+        "interventions": [
+          {
+            "action": "Verify the five rights before each administration.",
+            "rationale": "Reduces the likelihood of identification and dosing errors."
+          },
+          {
+            "action": "Use double verification for high‑risk medications.",
+            "rationale": "Detects errors that may be missed with a single review."
+          },
+          {
+            "action": "Apply barcode or EMR technology to validate the order.",
+            "rationale": "Automates comparison between order and medication, reducing human error."
+          },
+          {
+            "action": "Educate the patient and caregiver about their therapy and ask them to repeat the information.",
+            "rationale": "Engages the patient as an additional safeguard against errors."
+          },
+          {
+            "action": "Report immediately any error or near miss to the institutional notification system.",
+            "rationale": "Allows early intervention and continuous improvement of the process."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "medication-safety",
+    "adverse-drug-events",
+    "patient-education"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Medication Errors",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/medicationerrors.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Errores en la administración de medicamentos",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/medicationerrors.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: The Medication Administration Process",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/11-3-the-medication-administration-process",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Rights of Medication Administration",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/11-1-rights-of-medication-administration",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-27"
+}

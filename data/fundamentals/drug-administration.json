@@ -1,0 +1,336 @@
+{
+  "id": "drug-administration",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Administración de medicamentos (AM)",
+    "aliases": [
+      "administración",
+      "medicamentos",
+      "dosis",
+      "vía",
+      "farmacología",
+      "siete derechos"
+    ],
+    "summary": "Proceso sistemático para dar fármacos al paciente respetando los siete derechos y garantizando seguridad y efectividad.",
+    "key_points": [
+      "Conocer y aplicar los siete derechos de la medicación.",
+      "Identificar la vía adecuada según la forma farmacéutica.",
+      "Verificar alergias y posibles interacciones antes de administrar.",
+      "Observar y documentar la respuesta del paciente después de la dosis."
+    ],
+    "sections": {
+      "purpose": [
+        "Garantizar la entrega segura y eficaz del fármaco.",
+        "Optimizar el efecto terapéutico esperado.",
+        "Prevenir errores y reacciones adversas."
+      ],
+      "procedure": [
+        "1. Verificar la orden médica: paciente, medicamento, dosis, vía, frecuencia y hora.",
+        "2. Confirmar los siete derechos (paciente, medicamento, dosis, vía, tiempo, documentación, respuesta).",
+        "3. Preparar el medicamento siguiendo asepsia y técnica de cálculo de dosis.",
+        "4. Administrar por la vía indicada, observando técnica específica (p. ej., aspirar antes de inyectar).",
+        "5. Evaluar la respuesta inmediata y registrar hallazgos."
+      ],
+      "safety": [
+        "Lavado de manos y uso de guantes cuando sea necesario.",
+        "Revisar historial de alergias y reacciones previas.",
+        "Comprobar compatibilidad y estabilidad del fármaco.",
+        "Utilizar dispositivos de medición calibrados y evitar interrupciones."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales y estado clínico antes de la dosis.",
+        "Observar efectos esperados y signos de reacción adversa (erupción, dificultad respiratoria).",
+        "Educar al paciente sobre propósito, posibles efectos y cuándo reportar.",
+        "Reportar cualquier reacción inesperada al médico inmediatamente."
+      ],
+      "documentation": [
+        "Hora y fecha de administración.",
+        "Nombre genérico del medicamento, dosis, vía y forma farmacéutica.",
+        "Iniciales o firma del enfermero/a.",
+        "Respuesta del paciente y cualquier evento adverso."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de reacción alérgica",
+        "type": "risk",
+        "related_to": [
+          "historial de alergias",
+          "uso de múltiples medicamentos",
+          "exposición a nuevos fármacos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad del paciente: sin signos de reacción alérgica durante la hospitalización",
+          "Conocimiento del paciente: demuestra comprensión de signos de alergia y cuándo buscar ayuda"
+        ],
+        "interventions": [
+          {
+            "action": "Revisar el historial de alergias y registrar cualquier reacción previa antes de cada administración.",
+            "rationale": "Permite anticipar y prevenir reacciones alérgicas."
+          },
+          {
+            "action": "Observar al paciente durante los primeros 15 minutos después de la dosis.",
+            "rationale": "La mayoría de reacciones inmediatas aparecen en este periodo."
+          },
+          {
+            "action": "Mantener a mano equipo de emergencia (epinefrina, oxígeno, vía IV).",
+            "rationale": "Facilita una respuesta rápida ante una reacción anafiláctica."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de alergia (urticaria, dificultad respiratoria, edema).",
+            "rationale": "Promueve la detección temprana y el reporte oportuno."
+          },
+          {
+            "action": "Documentar cualquier síntoma sospechoso y la intervención realizada.",
+            "rationale": "Provee evidencia para el equipo de salud y seguimiento."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Medication Administration (MA)",
+    "aliases": [
+      "administration",
+      "medication",
+      "dose",
+      "route",
+      "pharmacology",
+      "seven rights"
+    ],
+    "summary": "Systematic process for giving drugs to the patient while respecting the seven rights and ensuring safety and effectiveness.",
+    "key_points": [
+      "Know and apply the seven medication rights.",
+      "Identify the appropriate route based on the pharmaceutical form.",
+      "Verify allergies and potential interactions before administering.",
+      "Observe and document the patient’s response after the dose."
+    ],
+    "sections": {
+      "purpose": [
+        "Ensure safe and effective delivery of the drug.",
+        "Optimize the expected therapeutic effect.",
+        "Prevent errors and adverse reactions."
+      ],
+      "procedure": [
+        "1. Verify the medical order: patient, medication, dose, route, frequency, and time.",
+        "2. Confirm the seven rights (patient, medication, dose, route, time, documentation, response).",
+        "3. Prepare the medication following asepsis and dose calculation technique.",
+        "4. Administer via the indicated route, observing specific technique (e.g., aspirate before injecting).",
+        "5. Evaluate the immediate response and record findings."
+      ],
+      "safety": [
+        "Hand washing and use of gloves when necessary.",
+        "Review allergy history and prior reactions.",
+        "Check drug compatibility and stability.",
+        "Use calibrated measuring devices and avoid interruptions."
+      ],
+      "nursing_care": [
+        "Assess vital signs and clinical status before the dose.",
+        "Observe expected effects and signs of adverse reaction (rash, breathing difficulty).",
+        "Educate the patient about purpose, possible effects, and when to report.",
+        "Report any unexpected reaction to the physician immediately."
+      ],
+      "documentation": [
+        "Time and date of administration.",
+        "Generic name of the medication, dose, route, and pharmaceutical form.",
+        "Nurse’s initials or signature.",
+        "Patient response and any adverse event."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for allergy reaction",
+        "type": "risk",
+        "related_to": [
+          "allergy history",
+          "use of multiple medications",
+          "exposure to new drugs"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient safety: no signs of allergic reaction during hospitalization",
+          "Patient knowledge: demonstrates understanding of allergy signs and when to seek help"
+        ],
+        "interventions": [
+          {
+            "action": "Review allergy history and record any prior reaction before each administration.",
+            "rationale": "Allows anticipation and prevention of allergic reactions."
+          },
+          {
+            "action": "Observe the patient for the first 15 minutes after the dose.",
+            "rationale": "Most immediate reactions appear in this period."
+          },
+          {
+            "action": "Keep emergency equipment (epinephrine, oxygen, IV access) on hand.",
+            "rationale": "Facilitates rapid response to an anaphylactic reaction."
+          },
+          {
+            "action": "Educate the patient and family about allergy signs (hives, breathing difficulty, swelling).",
+            "rationale": "Promotes early detection and timely reporting."
+          },
+          {
+            "action": "Document any suspected symptom and the intervention performed.",
+            "rationale": "Provides evidence for the health team and follow-up."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "adverse-drug-reaction",
+    "pharmacokinetics",
+    "patient-education",
+    "drug-interactions",
+    "medication-errors"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Over-the-Counter Medicines",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/overthecountermedicines.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Drug Administration Routes, Preparation, and Administration",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-3-drug-administration-routes-preparation-and-administration",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Drug Administration and the Nursing Process",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-1-drug-administration-and-the-nursing-process",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-27",
+  "factcheck": {
+    "checked": "2026-10-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 10,
+      "contradicted": 1,
+      "total": 25
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Medication safety means ensuring that the right dosage of the right drug is administered to the right client at the right time by the right route or the right reason, and it is documented correctly (the seven rights of medication administration ; see Figure 2.2 ).",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "When considering these questions, it is important to analyze what is known about the client—the medical diagnosis; whether or not the client has taken the drug in the past; potential adverse reactions, contraindications, and allergies; comorbidities that might affect the response to the drug; potential drug–drug interactions; and current laboratory data.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Document administration within the MAR. Evaluate the client’s response to the drug(s) within the appropriate time frame.",
+        "source": 1
+      },
+      "sections.purpose.0": {
+        "status": "supported",
+        "quote": "Will the proposed treatment be safe and effective?",
+        "source": 2
+      },
+      "sections.purpose.1": {
+        "status": "not_found"
+      },
+      "sections.purpose.2": {
+        "status": "supported",
+        "quote": "This check is completed by verifying that the medication name, dosage, route, and time match the medication administration record (this is the last opportunity to prevent an error from occurring).",
+        "source": 1
+      },
+      "sections.procedure.0": {
+        "status": "not_found"
+      },
+      "sections.procedure.1": {
+        "status": "not_found"
+      },
+      "sections.procedure.2": {
+        "status": "not_found"
+      },
+      "sections.procedure.3": {
+        "status": "contradicted",
+        "quote": "Do not aspirate for subcutaneous injections.",
+        "source": 1
+      },
+      "sections.procedure.4": {
+        "status": "not_found"
+      },
+      "sections.safety.0": {
+        "status": "supported",
+        "quote": "Wash hands and don clean gloves.",
+        "source": 1
+      },
+      "sections.safety.1": {
+        "status": "supported",
+        "quote": "Once the nurse obtains the information about both the allergy and the reaction(s), it is important to document this clearly in the client record for future providers.",
+        "source": 2
+      },
+      "sections.safety.2": {
+        "status": "supported",
+        "quote": "Check the compatibility of the medication with the IV fluids that are hanging.",
+        "source": 1
+      },
+      "sections.safety.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Assess safety prior to administering the medication (check vital signs and laboratory values).",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "General information about the safe use of the drug, how to report side effects, and ingredients are also listed.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.documentation.0": {
+        "status": "supported",
+        "quote": "Label the medication syringe with the client’s name, date of birth, medication name, dosage and volume, time, and initials.",
+        "source": 1
+      },
+      "sections.documentation.1": {
+        "status": "supported",
+        "quote": "Explain the medication to the client: Name (brand and generic) Dosage Indication, rationale, or reason for the drug to be given Frequency Route Adverse effects",
+        "source": 1
+      },
+      "sections.documentation.2": {
+        "status": "supported",
+        "quote": "Label the patch prior to placing it on the client with the nurse’s initials, the date, and the time administered.",
+        "source": 1
+      },
+      "sections.documentation.3": {
+        "status": "supported",
+        "quote": "Did the client have any adverse reactions to the medication? This ongoing process evaluates the client’s response to the drug—for the therapeutic effect, the development of adverse effects, and teaching needs—and anticipates discharge needs.",
+        "source": 2
+      }
+    }
+  }
+}

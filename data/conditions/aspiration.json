@@ -1,0 +1,505 @@
+{
+  "id": "aspiration",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Aspiración",
+    "aliases": [
+      "aspiración",
+      "aspiracion",
+      "pneumonia por aspiración",
+      "aspirado",
+      "riesgo aspiración",
+      "aspiración pulmonar"
+    ],
+    "summary": "Entrada de contenido oral, gástrico o de secreciones en la vía aérea inferior que puede producir inflamación e infección pulmonar.",
+    "key_points": [
+      "La aspiración ocurre cuando los contenidos del tracto superior ingresan al bronquio.",
+      "Factores de riesgo incluyen alteración del nivel de conciencia y disfagia.",
+      "Puede desencadenar neumonía por aspiración con infiltrados basales en radiografía.",
+      "El manejo incluye posicionamiento, succión y antibióticos cuando hay infección."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Pérdida del reflejo de protección de la vía aérea (tos, deglución).",
+        "Los contenidos llegan a los bronquios y al alvéolo, provocando irritación.",
+        "Inflamación local → edema, aumento de secreciones y posible infección.",
+        "Si la aspiración es química (ácido gástrico) causa daño tisular inmediato."
+      ],
+      "risk_factors": [
+        "Alteración del estado de conciencia (sedación, intoxicación, accidente cerebrovascular).",
+        "Trastornos de deglución o disfagia neuromuscular.",
+        "Uso de tubos endotraqueales o nasogástricos.",
+        "Posición supina prolongada o reclinada.",
+        "Reflujo gastroesofágico y enfermedad de reflujo."
+      ],
+      "signs_symptoms": [
+        "Tos súbita, a veces con expectoración.",
+        "Disminución de ruidos respiratorios en la zona afectada.",
+        "Cianosis o desaturación (SpO2 < 95%).",
+        "Fiebre y escalofríos si se desarrolla infección.",
+        "Dolor torácico o sensación de ahogo."
+      ],
+      "diagnostics": [
+        "Radiografía de tórax: infiltrados basales o en lóbulos superiores según posición.",
+        "Oxígeno arterial (PaO2) bajo, SpO2 < 95% en reposo.",
+        "Cultivo de esputo si se sospecha infección.",
+        "Evaluación de deglución (prueba de videofluoroscopia) en pacientes de alto riesgo."
+      ],
+      "treatment": [
+        "Posicionamiento en decúbito lateral izquierdo o semi-Fowler para prevenir más aspiración.",
+        "Succión de secreciones con catéter de aspiración.",
+        "Oxigenoterapia para mantener SpO2 ≥ 95%.",
+        "Antibióticos de amplio espectro (p. ej., amoxicilina‑ácido clavulánico) si hay neumonía.",
+        "Rehabilitación de deglución y terapia del habla."
+      ],
+      "complications": [
+        "Neumonía por aspiración.",
+        "Absceso pulmonar.",
+        "Insuficiencia respiratoria aguda.",
+        "Sepsis secundaria."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia y reflejo de tos cada 2‑4 h.",
+        "Mantener cabeza del paciente entre 30‑45° (semi‑Fowler).",
+        "Monitorear SpO2 y signos vitales; notificar desaturación.",
+        "Realizar succión de secreciones antes de cada alimentación o medicación oral.",
+        "Documentar cambios en el patrón respiratorio y presencia de secreciones."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de sentarse erguido durante y después de comer.",
+        "Enseñar técnicas de deglución segura y pausas entre bocados.",
+        "Informar signos de aspiración (tos, dificultad para respirar) y cuándo buscar ayuda.",
+        "Recomendar evitar alcohol y sedantes que disminuyan la conciencia.",
+        "Promover higiene bucal para reducir carga bacteriana."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "alteración del nivel de conciencia",
+          "disfagia",
+          "uso de tubos endotraqueales",
+          "posición supina prolongada",
+          "reflujo gastroesofágico"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin episodios de aspiración durante la hospitalización",
+          "SpO2 ≥ 95% en reposo",
+          "Mantener vía aérea permeable (ausencia de obstrucción)"
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en posición semi‑Fowler (30‑45°) al iniciar alimentación o medicación oral.",
+            "rationale": "Reduce la probabilidad de que los contenidos fluyan hacia la vía aérea."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y reflejo de tos antes de cada ingesta.",
+            "rationale": "Identifica pacientes que no pueden proteger su vía aérea."
+          },
+          {
+            "action": "Realizar succión de secreciones antes y después de la alimentación si hay acumulación.",
+            "rationale": "Previene la entrada de secreciones en los bronquios."
+          },
+          {
+            "action": "Mantener la cabecera de la cama elevada al menos 30° durante el periodo de ayuno preoperatorio.",
+            "rationale": "Disminuye el riesgo de aspiración durante anestesia."
+          },
+          {
+            "action": "Educar al paciente y familia sobre técnicas de deglución segura y postura adecuada.",
+            "rationale": "Fomenta la autocuidado y previene futuros eventos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Limpieza ineficaz de las vías aéreas",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "tos productiva",
+          "disminución de ruidos respiratorios en zona afectada",
+          "crepitantes en auscultación",
+          "oxigenación disminuida (SpO2 < 95%)"
+        ],
+        "outcomes": [
+          "Secreciones expectoradas efectivamente sin dificultad",
+          "SpO2 ≥ 95% y frecuencia respiratoria dentro de rango normal",
+          "Auscultación sin crepitantes al final del turno"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar succión de secreciones con catéter de aspiración según necesidad.",
+            "rationale": "Elimina material que obstruye las vías respiratorias."
+          },
+          {
+            "action": "Fomentar la tos eficaz mediante instrucción y apoyo físico del abdomen.",
+            "rationale": "Facilita la movilización de secreciones hacia la vía superior."
+          },
+          {
+            "action": "Administrar humidificación del aire (nebulizador o humidificador) para fluidificar secreciones.",
+            "rationale": "Reduce la viscosidad de las secreciones y facilita su expulsión."
+          },
+          {
+            "action": "Monitorear signos vitales y SpO2 cada hora; notificar cambios significativos.",
+            "rationale": "Detecta deterioro respiratorio temprano."
+          },
+          {
+            "action": "Posicionar al paciente en decúbito lateral izquierdo cada 2 h para favorecer drenaje de secreciones.",
+            "rationale": "Optimiza la gravedad para la eliminación de secreciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Aspiration",
+    "aliases": [
+      "aspiration",
+      "aspiración",
+      "aspiracion",
+      "aspiration pneumonia",
+      "aspirated",
+      "aspiration risk",
+      "pulmonary aspiration"
+    ],
+    "summary": "Entry of oral, gastric, or secretory material into the lower airway that can cause inflammation and pulmonary infection.",
+    "key_points": [
+      "Aspiration occurs when contents of the upper tract enter the bronchus.",
+      "Risk factors include altered level of consciousness and dysphagia.",
+      "It can trigger aspiration pneumonia with basal infiltrates on X‑ray.",
+      "Management includes positioning, suction, and antibiotics when infection is present."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Loss of airway protective reflexes (cough, swallow).",
+        "Contents reach the bronchi and alveoli, causing irritation.",
+        "Local inflammation → edema, increased secretions, and possible infection.",
+        "If aspiration is chemical (gastric acid) it causes immediate tissue damage."
+      ],
+      "risk_factors": [
+        "Altered level of consciousness (sedation, intoxication, stroke).",
+        "Neuromuscular swallowing disorders or dysphagia.",
+        "Use of endotracheal or nasogastric tubes.",
+        "Prolonged supine or reclined position.",
+        "Gastroesophageal reflux disease."
+      ],
+      "signs_symptoms": [
+        "Sudden cough, sometimes with sputum.",
+        "Decreased breath sounds in the affected area.",
+        "Cyanosis or desaturation (SpO2 < 95%).",
+        "Fever and chills if infection develops.",
+        "Chest pain or sensation of choking."
+      ],
+      "diagnostics": [
+        "Chest X‑ray: basal or upper lobe infiltrates depending on position.",
+        "Low arterial oxygen (PaO2) and SpO2 < 95% at rest.",
+        "Sputum culture if infection suspected.",
+        "Swallow evaluation (videofluoroscopic test) in high‑risk patients."
+      ],
+      "treatment": [
+        "Position in left lateral decubitus or semi‑Fowler to prevent further aspiration.",
+        "Suction secretions with aspiration catheter.",
+        "Oxygen therapy to maintain SpO2 ≥ 95%.",
+        "Broad‑spectrum antibiotics (e.g., amoxicillin‑clavulanate) if pneumonia present.",
+        "Swallow rehabilitation and speech therapy."
+      ],
+      "complications": [
+        "Aspiration pneumonia.",
+        "Pulmonary abscess.",
+        "Acute respiratory failure.",
+        "Secondary sepsis."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness and cough reflex every 2‑4 h.",
+        "Keep head of patient between 30‑45° (semi‑Fowler).",
+        "Monitor SpO2 and vital signs; notify desaturation.",
+        "Suction secretions before each oral feeding or medication.",
+        "Document changes in respiratory pattern and presence of secretions."
+      ],
+      "patient_teaching": [
+        "Explain importance of sitting upright during and after meals.",
+        "Teach safe swallowing techniques and pauses between bites.",
+        "Inform signs of aspiration (cough, breathing difficulty) and when to seek help.",
+        "Recommend avoiding alcohol and sedatives that lower consciousness.",
+        "Promote oral hygiene to reduce bacterial load."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "altered level of consciousness",
+          "dysphagia",
+          "use of endotracheal tubes",
+          "prolonged supine position",
+          "gastroesophageal reflux"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No aspiration episodes during hospitalization",
+          "SpO2 ≥ 95% at rest",
+          "Maintain patent airway (absence of obstruction)"
+        ],
+        "interventions": [
+          {
+            "action": "Place patient in semi‑Fowler position (30‑45°) when starting oral feeding or medication.",
+            "rationale": "Reduces probability of contents flowing into airway."
+          },
+          {
+            "action": "Assess level of consciousness and cough reflex before each ingestion.",
+            "rationale": "Identifies patients who cannot protect airway."
+          },
+          {
+            "action": "Suction secretions before and after feeding if accumulation present.",
+            "rationale": "Prevents entry of secretions into bronchi."
+          },
+          {
+            "action": "Keep head of bed elevated at least 30° during pre‑operative fasting period.",
+            "rationale": "Reduces aspiration risk during anesthesia."
+          },
+          {
+            "action": "Educate patient and family on safe swallowing techniques and proper posture.",
+            "rationale": "Encourages self‑care and prevents future events."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Ineffective airway clearance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "productive cough",
+          "decreased breath sounds in affected area",
+          "crackles on auscultation",
+          "decreased oxygenation (SpO2 < 95%)"
+        ],
+        "outcomes": [
+          "Secretions expectorated effectively without difficulty",
+          "SpO2 ≥ 95% and respiratory rate within normal range",
+          "Auscultation without crackles at shift end"
+        ],
+        "interventions": [
+          {
+            "action": "Suction secretions with aspiration catheter as needed.",
+            "rationale": "Removes material obstructing airways."
+          },
+          {
+            "action": "Encourage effective coughing with abdominal support instruction.",
+            "rationale": "Facilitates mobilization of secretions to upper airway."
+          },
+          {
+            "action": "Administer humidified air (nebulizer or humidifier) to thin secretions.",
+            "rationale": "Reduces viscosity of secretions and facilitates expulsion."
+          },
+          {
+            "action": "Monitor vital signs and SpO2 hourly; report significant changes.",
+            "rationale": "Detects early respiratory deterioration."
+          },
+          {
+            "action": "Position patient in left lateral decubitus every 2 h to aid secretion drainage.",
+            "rationale": "Optimizes gravity for secretion removal."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "aspiration-pneumonia",
+    "dysphagia",
+    "reflux-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Childbirth Problems",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/childbirthproblems.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower Respiratory System: Pneumonia and Aspiration",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-7-disorders-of-the-lower-respiratory-system-pneumonia-and-aspiration",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Preoperative Nursing Care Plan",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/25-3-preoperative-nursing-care-plan",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-27",
+  "factcheck": {
+    "checked": "2026-10-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "In aspiration pneumonia , food, fluid, upper airway secretions, or emesis enter the trachea and respiratory tract, causing an inflammatory response ( Figure 11.28 )."
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "In aspiration pneumonia , food, fluid, upper airway secretions, or emesis enter the trachea and respiratory tract, causing an inflammatory response ( Figure 11.28 ).",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "A cough is common and may be productive of yellow, green, brown, or blood-tinged sputum.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Lung auscultation can reveal crackles or decreased breath sounds.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Many patients with pneumonia will display signs of systemic infection, such as fatigue, fever, chills, muscle pain, and decreased appetite.",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Viral swabs and sputum cultures are done to identify the responsible organism so appropriate medications are given to the patient.",
+        "source": 1
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "When aspiration risk is related to swallowing problems, collaborate with speech-language pathologists for expert guidance on strategies for safe swallowing.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "In aspiration pneumonia , food, fluid, upper airway secretions, or emesis enter the trachea and respiratory tract, causing an inflammatory response ( Figure 11.28 ).",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "An upright position (at least 30 degrees), appropriate head position, and maintaining an upright position after eating can decrease the risk.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Smoking, heavy alcohol use, and opioid use increase the risk of pneumonia.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Improve oral hygiene and increase access to dental care to decrease the likelihood of harmful bacteria in the oral cavity.",
+        "source": 1
+      }
+    }
+  }
+}

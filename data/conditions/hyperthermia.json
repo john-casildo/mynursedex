@@ -1,0 +1,482 @@
+{
+  "id": "hyperthermia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipertermia",
+    "aliases": [
+      "hipertermia",
+      "fiebre alta",
+      "temperatura elevada",
+      "calor extremo",
+      "golpe de calor"
+    ],
+    "summary": "Elevación de la temperatura central > 41 °C, generalmente por exposición al calor, infecciones o reacciones a anestésicos. Es una urgencia que requiere enfriamiento rápido.",
+    "key_points": [
+      "Temperatura > 41 °C indica hipertermia grave",
+      "Puede ser primaria (ej. hipertermia maligna) o secundaria (ej. golpe de calor)",
+      "Complicaciones incluyen daño cerebral, rabdomiolisis y falla renal",
+      "El enfriamiento rápido y la reposición de líquidos son esenciales"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El cuerpo supera la capacidad de disipar calor por sudoración y vasodilatación.",
+        "Aumento de la producción metabólica (ej. MH) eleva la temperatura interna.",
+        "Daño a proteínas y membranas celulares produce inflamación y disfunción orgánica."
+      ],
+      "risk_factors": [
+        "Exposición prolongada a ambientes > 35 °C y alta humedad.",
+        "Ejercicio intenso sin hidratación adecuada.",
+        "Infecciones febriles, especialmente en niños y ancianos.",
+        "Uso de anestésicos desencadenantes (halotano, sevoflurano) en MH."
+      ],
+      "signs_symptoms": [
+        "Temperatura rectal > 41 °C.",
+        "Piel caliente, seca o sudorosa, enrojecida.",
+        "Taquicardia, hipotensión, confusión o pérdida de conciencia.",
+        "Náuseas, vómitos, calambres musculares."
+      ],
+      "diagnostics": [
+        "Temperatura central medida por termómetro rectal o timpánico.",
+        "CBC, CK (elevado en MH), electrolitos (Na+, K+), función renal (creatinina).",
+        "Gasometría arterial si hay alteración respiratoria."
+      ],
+      "treatment": [
+        "Enfriamiento activo: compresas frías, baño de agua tibia, ventilación con aire frío.",
+        "Paracetamol o ibuprofeno para reducir fiebre secundaria.",
+        "Dantroleno (para hipertermia maligna) vía IV.",
+        "Reposición de líquidos IV (solución cristaloide) y corrección de electrolitos."
+      ],
+      "complications": [
+        "Golpe de calor con daño cerebral irreversible.",
+        "Rabdomiolisis → mioglobinuria → insuficiencia renal aguda.",
+        "Coagulopatía por consumo de factores de coagulación.",
+        "Arritmias y shock circulatorio."
+      ],
+      "nursing_care": [
+        "Medir temperatura cada 5‑15 min y registrar tendencia.",
+        "Iniciar medidas de enfriamiento inmediato y monitorizar la respuesta.",
+        "Evaluar estado mental, pulso, presión arterial y saturación de O₂.",
+        "Administrar líquidos IV según orden y vigilar balance hídrico.",
+        "Observar signos de complicaciones: color de orina, dolor muscular, alteración del ritmo cardíaco."
+      ],
+      "patient_teaching": [
+        "Beber al menos 2 L de agua al día y más si hay sudoración excesiva.",
+        "Evitar exposición directa al sol entre 10:00 y 16:00 h.",
+        "Usar ropa ligera, sombrero y protector solar.",
+        "Reconocer síntomas de sobrecalentamiento y buscar atención médica inmediata."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Hipertermia",
+        "type": "actual",
+        "related_to": [
+          "exposición al calor",
+          "infección febril",
+          "anestesia con agentes desencadenantes"
+        ],
+        "evidenced_by": [
+          "Temperatura > 41 °C",
+          "Piel caliente y enrojecida",
+          "Confusión o pérdida de conciencia"
+        ],
+        "outcomes": [
+          "Temperatura corporal dentro de rango normal (36.5‑37.5 °C) en 2 h",
+          "Piel fresca y húmeda en 30 min",
+          "Sin signos de daño neurológico al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Medir temperatura rectal cada 5 min y registrar",
+            "rationale": "Permite detectar rápidamente la respuesta al enfriamiento"
+          },
+          {
+            "action": "Aplicar compresas frías en cuello, axilas y región inguinal",
+            "rationale": "Facilita la pérdida de calor por conducción"
+          },
+          {
+            "action": "Iniciar ventilación con aire frío y oxígeno suplementario si es necesario",
+            "rationale": "Previene hipoxia y ayuda a reducir la temperatura central"
+          },
+          {
+            "action": "Administrar dantroleno IV según protocolo si se sospecha hipertermia maligna",
+            "rationale": "Bloquea la liberación de calcio muscular y detiene el aumento metabólico"
+          },
+          {
+            "action": "Reemplazar líquidos con solución cristaloide isotónica y monitorizar balance hídrico",
+            "rationale": "Corrige la deshidratación y previene hipotensión"
+          },
+          {
+            "action": "Evaluar CK y función renal cada 6 h",
+            "rationale": "Detecta rabdomiolisis y daño renal precozmente"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida excesiva de sudor por hipertermia",
+          "vomitos o diarrea asociados",
+          "uso de diuréticos o fármacos antipiréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos (Na+, K+, Cl-) dentro de rangos normales en 24 h",
+          "Hidratación adecuada evidenciada por presión venosa central < 8 cm H₂O"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos cada 12 h",
+            "rationale": "Identifica alteraciones tempranas y permite corrección oportuna"
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según necesidad",
+            "rationale": "Reemplaza pérdidas de sodio y agua"
+          },
+          {
+            "action": "Ofrecer líquidos orales con electrolitos cuando el paciente esté consciente",
+            "rationale": "Mantiene balance hídrico y electrolítico"
+          },
+          {
+            "action": "Evaluar signos de hiperkalemia o hipocalemia (arritmias, debilidad muscular)",
+            "rationale": "Previene complicaciones cardíacas"
+          },
+          {
+            "action": "Documentar ingesta y eliminación de líquidos cada turno",
+            "rationale": "Facilita el cálculo del balance hídrico"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de rehidratarse y reconocer calambres o palpitaciones",
+            "rationale": "Promueve autocuidado y prevención de recaídas"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hyperthermia",
+    "aliases": [
+      "hyperthermia",
+      "high fever",
+      "elevated temperature",
+      "extreme heat",
+      "heat stroke"
+    ],
+    "summary": "Central temperature elevation > 41 °C, usually due to heat exposure, infections or anesthetic reactions. It is an emergency requiring rapid cooling.",
+    "key_points": [
+      "Temperature > 41 °C indicates severe hyperthermia",
+      "Can be primary (e.g., malignant hyperthermia) or secondary (e.g., heat stroke)",
+      "Complications include brain injury, rhabdomyolysis, and renal failure",
+      "Rapid cooling and fluid replacement are essential"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The body exceeds its ability to dissipate heat via sweating and vasodilation.",
+        "Increased metabolic production (e.g., MH) raises internal temperature.",
+        "Protein and cellular membrane damage causes inflammation and organ dysfunction."
+      ],
+      "risk_factors": [
+        "Prolonged exposure to environments > 35 °C and high humidity.",
+        "Intense exercise without adequate hydration.",
+        "Febrile infections, especially in children and the elderly.",
+        "Use of triggering anesthetics (halothane, sevoflurane) in MH."
+      ],
+      "signs_symptoms": [
+        "Rectal temperature > 41 °C.",
+        "Warm, dry or sweaty, reddened skin.",
+        "Tachycardia, hypotension, confusion or loss of consciousness.",
+        "Nausea, vomiting, muscle cramps."
+      ],
+      "diagnostics": [
+        "Central temperature measured by rectal or tympanic thermometer.",
+        "CBC, CK (elevated in MH), electrolytes (Na⁺, K⁺), renal function (creatinine).",
+        "Arterial blood gas if respiratory alteration."
+      ],
+      "treatment": [
+        "Active cooling: cold compresses, lukewarm bath, ventilation with cool air.",
+        "Paracetamol or ibuprofen to reduce secondary fever.",
+        "Dantrolene (for malignant hyperthermia) IV.",
+        "IV fluid replacement (crystalloid solution) and electrolyte correction."
+      ],
+      "complications": [
+        "Heat stroke with irreversible brain damage.",
+        "Rhabdomyolysis → myoglobinuria → acute renal failure.",
+        "Coagulopathy from consumption of clotting factors.",
+        "Arrhythmias and circulatory shock."
+      ],
+      "nursing_care": [
+        "Measure temperature every 5‑15 min and record trend.",
+        "Initiate immediate cooling measures and monitor response.",
+        "Assess mental status, pulse, blood pressure, and O₂ saturation.",
+        "Administer IV fluids per order and monitor fluid balance.",
+        "Observe for complications: urine color, muscle pain, cardiac rhythm changes."
+      ],
+      "patient_teaching": [
+        "Drink at least 2 L of water daily and more if excessive sweating.",
+        "Avoid direct sun exposure between 10:00 and 16:00 h.",
+        "Wear light clothing, hat, and sunscreen.",
+        "Recognize overheating symptoms and seek medical attention immediately."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Hyperthermia",
+        "type": "actual",
+        "related_to": [
+          "heat exposure",
+          "febrile infection",
+          "anesthesia with triggering agents"
+        ],
+        "evidenced_by": [
+          "Temperature > 41 °C",
+          "Warm, reddened skin",
+          "Confusion or loss of consciousness"
+        ],
+        "outcomes": [
+          "Body temperature within normal range (36.5‑37.5 °C) in 2 h",
+          "Skin cool and moist within 30 min",
+          "No signs of neurological damage at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Measure rectal temperature every 5 min and record",
+            "rationale": "Allows rapid detection of response to cooling"
+          },
+          {
+            "action": "Apply cold compresses to neck, axillae, and groin",
+            "rationale": "Facilitates heat loss by conduction"
+          },
+          {
+            "action": "Initiate ventilation with cool air and supplemental oxygen if needed",
+            "rationale": "Prevents hypoxia and aids in lowering core temperature"
+          },
+          {
+            "action": "Administer IV dantrolene per protocol if malignant hyperthermia suspected",
+            "rationale": "Blocks muscle calcium release and stops metabolic rise"
+          },
+          {
+            "action": "Replace fluids with isotonic crystalloid solution and monitor fluid balance",
+            "rationale": "Corrects dehydration and prevents hypotension"
+          },
+          {
+            "action": "Assess CK and renal function every 6 h",
+            "rationale": "Detects rhabdomyolysis and early renal injury"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "excessive sweat loss from hyperthermia",
+          "vomiting or diarrhea associated",
+          "use of diuretics or antipyretics"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes (Na⁺, K⁺, Cl⁻) within normal ranges in 24 h",
+          "Adequate hydration evidenced by central venous pressure < 8 cm H₂O"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes every 12 h",
+            "rationale": "Identifies early changes and allows timely correction"
+          },
+          {
+            "action": "Administer isotonic saline IV as needed",
+            "rationale": "Replaces sodium and water losses"
+          },
+          {
+            "action": "Offer oral electrolyte solutions when patient is alert",
+            "rationale": "Maintains fluid and electrolyte balance"
+          },
+          {
+            "action": "Assess signs of hyperkalemia or hypokalemia (arrhythmias, muscle weakness)",
+            "rationale": "Prevents cardiac complications"
+          },
+          {
+            "action": "Document fluid intake and output each shift",
+            "rationale": "Facilitates fluid balance calculation"
+          },
+          {
+            "action": "Educate patient on importance of rehydration and recognizing cramps or palpitations",
+            "rationale": "Promotes self‑care and prevention of recurrences"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heat-stroke",
+    "malignant-hyperthermia",
+    "dehydration",
+    "electrolyte-imbalance",
+    "rhabdomyolysis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hemorrhagic Fevers",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hemorrhagicfevers.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Intraoperative Phase",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/31-3-intraoperative-phase",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Temperature",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/15-4-temperature",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-27",
+  "factcheck": {
+    "checked": "2026-10-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 32,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "When the core body temperature is more than 105.8°F (41°C), hyperthermia occurs.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Other team members institute prompt cooling measures: administer cold IV fluids; pack the patient’s neck and head, groin, axilla, and any open cavities with ice; change the forced-air blanket to cool air; and provide supportive care, which is crucial for successful MH management.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Common antipyretics are acetaminophen and nonsteroidal anti-inflammatory drugs (NSAIDs), such as acetylsalicylic acid (aspirin) and ibuprofen .",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Other team members institute prompt cooling measures: administer cold IV fluids; pack the patient’s neck and head, groin, axilla, and any open cavities with ice; change the forced-air blanket to cool air; and provide supportive care, which is crucial for successful MH ma",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "This results in a hypermetabolic reaction during which body heat can reach beyond life-sustaining temperatures (e.g., 106°F [41.1°C]), which can quickly lead to organ damage and death if not recognized and treated immediately.",
+        "source": 1
+      }
+    }
+  }
+}

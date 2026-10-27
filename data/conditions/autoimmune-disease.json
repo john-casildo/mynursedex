@@ -1,0 +1,489 @@
+{
+  "id": "autoimmune-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad autoinmune",
+    "aliases": [
+      "autoimmune",
+      "autoinmune",
+      "enfermedad autoinmune",
+      "trastorno autoinmune",
+      "autoimunidad"
+    ],
+    "summary": "Desorden en el que el sistema inmunitario ataca tejidos propios, produciendo inflamación crónica y daño orgánico.",
+    "key_points": [
+      "Pérdida de tolerancia al propio antígeno",
+      "Producción de autoanticuerpos y citocinas inflamatorias",
+      "Factores genéticos y ambientales desencadenantes",
+      "Tratamiento con inmunosupresores y biológicos"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Fallos en la tolerancia central y periférica generan linfocitos autoreactivos.",
+        "Los linfocitos B producen autoanticuerpos que forman complejos inmunes.",
+        "Los complejos activan complemento y citocinas, provocando inflamación tisular.",
+        "Daño progresivo de órganos según el antígeno objetivo."
+      ],
+      "risk_factors": [
+        "Predisposición genética (HLA, antecedentes familiares).",
+        "Sexo femenino y edad reproductiva.",
+        "Infecciones virales o bacterianas previas.",
+        "Exposición a químicos, tabaco y radiación."
+      ],
+      "signs_symptoms": [
+        "Fatiga y malestar general.",
+        "Fiebre baja, artralgias o dolor articular.",
+        "Erupciones cutáneas, pérdida de cabello o ictericia según órgano afectado.",
+        "Síntomas específicos del órgano (ej. disnea en lupus pulmonar)."
+      ],
+      "diagnostics": [
+        "Pruebas de autoanticuerpos: ANA, anti‑dsDNA, RF, anti‑CCP.",
+        "Marcadores inflamatorios elevados: VSG, PCR.",
+        "Estudios de función orgánica (enzimas hepáticas, creatinina, glucosa).",
+        "Biopsia de tejido cuando el diagnóstico es incierto."
+      ],
+      "treatment": [
+        "Corticoides (prednisona) para control rápido de la inflamación.",
+        "Fármacos inmunosupresores: metotrexato, azatioprina, micofenolato.",
+        "Biológicos dirigidos: infliximab, rituximab, belimumab.",
+        "AINEs para dolor articular y antiagregantes cuando sea necesario."
+      ],
+      "complications": [
+        "Daño irreversible de órganos (riñón, pulmón, corazón).",
+        "Mayor riesgo de infecciones oportunistas.",
+        "Efectos adversos de fármacos: osteoporosis, hepatotoxicidad, neoplasias.",
+        "Anemia y trastornos metabólicos."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales y nivel de dolor cada 4 h.",
+        "Monitorear laboratorio: hemograma, glucosa, función hepática y renal, electrolitos.",
+        "Observar signos de infección: fiebre, leucocitosis, secreciones.",
+        "Educar sobre la toma correcta de inmunosupresores y efectos secundarios.",
+        "Fomentar descanso y actividades de bajo impacto según tolerancia."
+      ],
+      "patient_teaching": [
+        "Importancia de la adherencia al tratamiento y no suspender sin indicación.",
+        "Reconocer signos de recaída o infección y reportarlos inmediatamente.",
+        "Medidas de prevención: higiene de manos, evitar multitudes durante neutropenia.",
+        "Mantener una dieta balanceada rica en calcio y vitamina D.",
+        "No fumar y limitar consumo de alcohol."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "inflamación crónica",
+          "anemia",
+          "uso de corticoides"
+        ],
+        "evidenced_by": [
+          "cansancio persistente",
+          "disminución de la energía al realizar actividades diarias"
+        ],
+        "outcomes": [
+          "Nivel de energía: paciente reporta 7/10 en escala de 0‑10 en 1 semana.",
+          "Capacidad para realizar ADL: paciente completa actividades básicas sin ayuda en 2 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y capacidad funcional cada turno",
+            "rationale": "Permite detectar cambios y ajustar el plan de cuidados."
+          },
+          {
+            "action": "Planificar períodos de descanso y actividades de bajo esfuerzo",
+            "rationale": "Reduce la demanda energética y previene agotamiento."
+          },
+          {
+            "action": "Promover una nutrición adecuada con proteínas y calorías suficientes",
+            "rationale": "Mejora la reserva energética y la reparación tisular."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse al vestirse, dividir tareas)",
+            "rationale": "Facilita la realización de ADL sin exacerbar la fatiga."
+          },
+          {
+            "action": "Monitorear efectos secundarios de corticoides que puedan contribuir a la fatiga",
+            "rationale": "Identifica causas modificables del cansancio."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso de inmunosupresores",
+          "corticoides de alta dosis",
+          "disminución de la inmunidad celular"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No se presentan signos de infección durante la hospitalización.",
+          "Temperatura corporal se mantiene < 37.5 °C en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Realizar vigilancia de temperatura y signos de infección cada 4 h",
+            "rationale": "Detección temprana permite intervención oportuna."
+          },
+          {
+            "action": "Aplicar técnicas de asepsia al manipular vías invasivas",
+            "rationale": "Reduce la exposición a patógenos."
+          },
+          {
+            "action": "Educar al paciente sobre higiene de manos y evitar contacto con personas enfermas",
+            "rationale": "Previene la transmisión de infecciones."
+          },
+          {
+            "action": "Evaluar recuento de leucocitos y neutrófilos diariamente",
+            "rationale": "Monitorea la inmunosupresión y riesgo infeccioso."
+          },
+          {
+            "action": "Administrar vacunas inactivas según calendario y protocolos institucionales",
+            "rationale": "Proporciona protección sin riesgo de infección activa."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Autoimmune disease",
+    "aliases": [
+      "autoimmune",
+      "autoinmune",
+      "enfermedad autoinmune",
+      "trastorno autoinmune",
+      "autoimunidad"
+    ],
+    "summary": "A disorder in which the immune system attacks the body's own tissues, producing chronic inflammation and organ damage.",
+    "key_points": [
+      "Loss of tolerance to self-antigen",
+      "Production of autoantibodies and inflammatory cytokines",
+      "Genetic and environmental triggers",
+      "Treatment with immunosuppressants and biologics"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Failures in central and peripheral tolerance generate autoreactive lymphocytes.",
+        "B lymphocytes produce autoantibodies that form immune complexes.",
+        "The complexes activate complement and cytokines, causing tissue inflammation.",
+        "Progressive organ damage occurs according to the target antigen."
+      ],
+      "risk_factors": [
+        "Genetic predisposition (HLA, family history).",
+        "Female sex and reproductive age.",
+        "Prior viral or bacterial infections.",
+        "Exposure to chemicals, tobacco, and radiation."
+      ],
+      "signs_symptoms": [
+        "Fatigue and general malaise.",
+        "Low-grade fever, arthralgia or joint pain.",
+        "Skin rashes, hair loss or jaundice depending on affected organ.",
+        "Organ-specific symptoms (e.g., dyspnea in pulmonary lupus)."
+      ],
+      "diagnostics": [
+        "Autoantibody tests: ANA, anti‑dsDNA, RF, anti‑CCP.",
+        "Elevated inflammatory markers: ESR, CRP.",
+        "Organ function studies (liver enzymes, creatinine, glucose).",
+        "Tissue biopsy when diagnosis is uncertain."
+      ],
+      "treatment": [
+        "Corticosteroids (prednisone) for rapid inflammation control.",
+        "Immunosuppressive drugs: methotrexate, azathioprine, mycophenolate mofetil.",
+        "Targeted biologics: infliximab, rituximab, belimumab.",
+        "NSAIDs for joint pain and antiplatelets when needed."
+      ],
+      "complications": [
+        "Irreversible organ damage (kidney, lung, heart).",
+        "Increased risk of opportunistic infections.",
+        "Drug adverse effects: osteoporosis, hepatotoxicity, neoplasms.",
+        "Anemia and metabolic disorders."
+      ],
+      "nursing_care": [
+        "Assess vital signs and pain level every 4 h.",
+        "Monitor labs: CBC, glucose, liver and kidney function, electrolytes.",
+        "Observe for signs of infection: fever, leukocytosis, secretions.",
+        "Educate on proper intake of immunosuppressants and side effects.",
+        "Encourage rest and low-impact activities as tolerated."
+      ],
+      "patient_teaching": [
+        "Importance of medication adherence and not discontinuing without indication.",
+        "Recognize relapse or infection signs and report immediately.",
+        "Preventive measures: hand hygiene, avoid crowds during neutropenia.",
+        "Maintain a balanced diet rich in calcium and vitamin D.",
+        "Do not smoke and limit alcohol consumption."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "chronic inflammation",
+          "anemia",
+          "corticosteroid use"
+        ],
+        "evidenced_by": [
+          "persistent tiredness",
+          "decreased energy during daily activities"
+        ],
+        "outcomes": [
+          "Energy level: patient reports 7/10 on 0‑10 scale in 1 week.",
+          "Ability to perform ADLs: patient completes basic activities without assistance in 2 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and functional capacity each shift",
+            "rationale": "Detects changes and allows plan adjustment."
+          },
+          {
+            "action": "Plan rest periods and low-effort activities",
+            "rationale": "Reduces energy demand and prevents exhaustion."
+          },
+          {
+            "action": "Promote adequate nutrition with sufficient protein and calories",
+            "rationale": "Improves energy reserves and tissue repair."
+          },
+          {
+            "action": "Teach energy conservation techniques (sit while dressing, divide tasks)",
+            "rationale": "Facilitates ADLs without exacerbating fatigue."
+          },
+          {
+            "action": "Monitor corticosteroid side effects that may contribute to fatigue",
+            "rationale": "Identifies modifiable causes of tiredness."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "use of immunosuppressants",
+          "high-dose corticosteroids",
+          "decreased cellular immunity"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection during hospitalization.",
+          "Body temperature remains < 37.5 °C for 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor temperature and infection signs every 4 h",
+            "rationale": "Early detection allows timely intervention."
+          },
+          {
+            "action": "Apply aseptic techniques when handling invasive lines",
+            "rationale": "Reduces pathogen exposure."
+          },
+          {
+            "action": "Educate patient on hand hygiene and avoiding sick contacts",
+            "rationale": "Prevents infection transmission."
+          },
+          {
+            "action": "Assess leukocyte and neutrophil counts daily",
+            "rationale": "Monitors immunosuppression and infection risk."
+          },
+          {
+            "action": "Administer inactivated vaccines per schedule and institutional protocols",
+            "rationale": "Provides protection without active infection risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "autoimmunity",
+    "inflammation",
+    "immunosuppression",
+    "autoantibodies"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Autoimmune Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/autoimmunediseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Autoimmunity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-2-autoimmunity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-27",
+  "factcheck": {
+    "checked": "2026-10-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "With this disorder, the immune system attacks its own tissues, causing widespread inflammation and tissue damage affecting the joints, skin, kidneys, brain, lungs, and blood vessels.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "With autoimmunity , the immune system fails at this fundamental task; it mistakenly targets and attacks the body’s own healthy tissues, organs, and cells.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "This is thought to be due to an altered balance of the innate and acquired immune systems that leads to an overabundance of cytokines, chemokines, and autoantibodies that stimulate the activation of fibroblasts (Rosendahl et al., 2022).",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Genetic predisposition and environmental factors trigger an immune response that leads to neuronal cell death, nerve demyelination, and neuronal dysfunction.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Biologic drugs such as adalimumab, etanercept, infliximab, and rituximab are discussed in Immunosuppressants, Biologics, Monoclonal Antibodies, and Biosimilar Drugs .",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Recall that T-helper cells stimulate B cells to produce autoantibodies, and cytotoxic T cells kill or d",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "Elevated levels of CRP or an accelerated ESR suggest the presence of inflammation in the body.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Biopsy: In some cases, a tissue sample may be obtained through a biopsy to determine the cause and severity of inflammation.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Your doctor may give you corticosteroids or other medicines to help you feel better.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Adverse Effects Deep vein thrombosis/pulmonary emboli Hypotension Hyperglycemia Optic neuropathy Pancreatitis Anemia Hepatoxicity Osteoporosis Alopec",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Common adverse effects for non-biologic DMARDs include nausea/vomiting, diarrhea, abdominal pain, hepatotoxicity, rash, anemia, thrombocytopenia, neutropenia, photosensitivity, elevated blood pressure, hair loss, hypotension, pancreatitis, and with methotrexate, optic neuritis.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Educate the client about the drug’s purpose, potential side effects, and benefits to help the client make an informed decision about the treatment plan.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Consistent adherence to the medication regimen helps control uric acid levels and prevent gout attacks.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
