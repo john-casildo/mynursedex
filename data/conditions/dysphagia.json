@@ -1,0 +1,543 @@
+{
+  "id": "dysphagia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Disfagia",
+    "aliases": [
+      "disfagia",
+      "dificultad al tragar",
+      "problemas de deglución",
+      "tragar",
+      "dificultad para tragar",
+      "degustación"
+    ],
+    "summary": "Alteración en el proceso de deglución que dificulta o causa dolor al tragar alimentos, líquidos o saliva.",
+    "key_points": [
+      "Aumenta el riesgo de aspiración y neumonía por aspiración.",
+      "La evaluación interdisciplinaria (enfermería, SLP, médico) es esencial.",
+      "Modificación de la consistencia dietética previene complicaciones.",
+      "Pacientes mayores y con enfermedades neurológicas son más vulnerables.",
+      "El reflujo crónico puede producir estenosis esofágica y empeorar la disfagia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Alteración del control neuromuscular de las fases oral, faríngea y esofágica.",
+        "Disminución de la sensibilidad faríngea y reflejo de protección de la vía aérea.",
+        "Obstrucción mecánica por estenosis, tumor o anillos esofágicos.",
+        "Inflamación crónica por reflujo gastroesofágico que produce fibrosis.",
+        "Lesión de nervios craneales IX‑XII o de la médula espinal."
+      ],
+      "risk_factors": [
+        "Accidente cerebrovascular.",
+        "Enfermedad de Parkinson y otras demencias.",
+        "Reflujo gastroesofágico crónico.",
+        "Cirugía de cabeza, cuello o esófago.",
+        "Envejecimiento y sarcopenia.",
+        "Uso de sedantes o relajantes musculares."
+      ],
+      "signs_symptoms": [
+        "Tos o atragantamiento durante la ingesta.",
+        "Sensación de alimento atrapado en la garganta.",
+        "Pérdida de peso y desnutrición.",
+        "Deshidratación.",
+        "Cambios en la voz (voz nasal o ronca)."
+      ],
+      "diagnostics": [
+        "Evaluación clínica de deglución por enfermera y SLP.",
+        "Videofluoroscopia de deglución (VFSS) para observar penetración/aspiración.",
+        "Endoscopia flexible para detectar estenosis o lesiones estructurales.",
+        "Prueba de deglución con bario para identificar fase afectada.",
+        "Escalas de valoración de disfagia (e.g., MASA)."
+      ],
+      "treatment": [
+        "Terapia de deglución con patólogo del lenguaje.",
+        "Modificación de la consistencia de la dieta (suave, puré, espesado).",
+        "Ejercicios de fortalecimiento orofaríngeo.",
+        "Posicionamiento del cuerpo: tronco 90° al comer.",
+        "Uso de tubo de alimentación cuando el riesgo de aspiración es alto.",
+        "Control del reflujo con inhibidores de bomba de protones (omeprazol)."
+      ],
+      "complications": [
+        "Neumonía por aspiración.",
+        "Desnutrición e hipoglucemia.",
+        "Deshidratación severa.",
+        "Pérdida de masa muscular y sarcopenia.",
+        "Reducción de la calidad de vida y aislamiento social."
+      ],
+      "nursing_care": [
+        "Evaluar capacidad de deglución antes de cada comida.",
+        "Monitorear signos de aspiración: tos, cambios en saturación de O₂.",
+        "Mantener al paciente sentado 30‑45° durante y 30 min después de comer.",
+        "Registrar ingesta, peso y balance hídrico diariamente.",
+        "Administrar dieta según orden (suave, puré, líquidos espesados).",
+        "Coordinar con SLP para plan de ejercicios y reevaluaciones."
+      ],
+      "patient_teaching": [
+        "Masticar bien y no hablar mientras se come.",
+        "Mantener postura erguida (inclinar tronco) al tragar.",
+        "Reconocer signos de aspiración y buscar ayuda inmediata.",
+        "Seguir la dieta prescrita y evitar alimentos duros o granulares.",
+        "Beber suficiente líquido, preferiblemente espesado si lo indica.",
+        "Asistir a sesiones de terapia de deglución y practicar ejercicios en casa."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "Accidente cerebrovascular",
+          "Enfermedad de Parkinson",
+          "Reflujo gastroesofágico",
+          "Cirugía de cabeza/cuello",
+          "Envejecimiento",
+          "Uso de sedantes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: ausencia de episodios de aspiración durante la hospitalización.",
+          "Estado nutricional: mantener ingesta calórica ≥ 1500 kcal/día."
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en posición sentada 30‑45° antes, durante y 30 min después de la alimentación",
+            "rationale": "Facilita el paso del bolo y reduce el riesgo de ingreso a la vía aérea."
+          },
+          {
+            "action": "Evaluar la capacidad de deglución con escala de valoración antes de cada comida",
+            "rationale": "Identifica cambios que aumenten el riesgo de aspiración."
+          },
+          {
+            "action": "Administrar dieta según orden (suave, puré o líquidos espesados) y evitar alimentos sólidos duros",
+            "rationale": "Disminuye la probabilidad de penetración y aspiración."
+          },
+          {
+            "action": "Supervisar la alimentación y observar tos, cambios en saturación de O₂ o cianosis",
+            "rationale": "Detecta aspiración temprana para intervención inmediata."
+          },
+          {
+            "action": "Coordinar con el patólogo del habla para ejercicios de deglución y técnicas de compensación",
+            "rationale": "Mejora la función muscular y la coordinación de la deglución."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deterioro de la deglución",
+        "type": "actual",
+        "related_to": [
+          "Accidente cerebrovascular",
+          "Reflujo gastroesofágico crónico"
+        ],
+        "evidenced_by": [
+          "tos durante la alimentación",
+          "sensación de alimento atrapado",
+          "pérdida de peso",
+          "deshidratación"
+        ],
+        "outcomes": [
+          "Capacidad de deglución: el paciente podrá tragar alimentos sólidos sin tos en 5 días.",
+          "Estado nutricional: ganancia de peso ≥ 0.5 kg en una semana."
+        ],
+        "interventions": [
+          {
+            "action": "Realizar ejercicios de fortalecimiento orofaríngeo según indicación del SLP",
+            "rationale": "Mejora la coordinación y fuerza muscular para una deglución segura."
+          },
+          {
+            "action": "Ofrecer alimentos de consistencia adecuada (suave o puré) según evaluación",
+            "rationale": "Facilita la deglución y previene la aspiración."
+          },
+          {
+            "action": "Monitorear ingesta calórica y registrar peso diariamente",
+            "rationale": "Evalúa la efectividad del plan nutricional y detecta desnutrición precoz."
+          },
+          {
+            "action": "Enseñar al paciente la maniobra de chin‑tuck (cabeza flexionada) al tragar",
+            "rationale": "Reduce el riesgo de ingreso de alimentos a la vía aérea."
+          },
+          {
+            "action": "Mantener hidratación adecuada ofreciendo líquidos espesados",
+            "rationale": "Previene deshidratación y facilita la deglución de líquidos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Dysphagia",
+    "aliases": [
+      "dysphagia",
+      "difficulty swallowing",
+      "deglutition problems",
+      "swallowing",
+      "difficulty to swallow",
+      "degustation"
+    ],
+    "summary": "Alteration in the swallowing process that makes it difficult or painful to swallow food, liquids, or saliva.",
+    "key_points": [
+      "Increases the risk of aspiration and aspiration pneumonia.",
+      "Interdisciplinary assessment (nursing, SLP, physician) is essential.",
+      "Modifying food consistency prevents complications.",
+      "Older adults and those with neurological diseases are more vulnerable.",
+      "Chronic reflux can cause esophageal stenosis and worsen dysphagia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Altered neuromuscular control of the oral, pharyngeal, and esophageal phases.",
+        "Reduced pharyngeal sensitivity and airway protection reflex.",
+        "Mechanical obstruction from stenosis, tumor, or esophageal rings.",
+        "Chronic inflammation from gastroesophageal reflux causing fibrosis.",
+        "Lesion of cranial nerves IX‑XII or the spinal cord."
+      ],
+      "risk_factors": [
+        "Stroke.",
+        "Parkinson disease and other dementias.",
+        "Chronic gastroesophageal reflux.",
+        "Head, neck, or esophageal surgery.",
+        "Aging and sarcopenia.",
+        "Use of sedatives or muscle relaxants."
+      ],
+      "signs_symptoms": [
+        "Cough or choking during intake.",
+        "Feeling of food stuck in the throat.",
+        "Weight loss and malnutrition.",
+        "Dehydration.",
+        "Voice changes (nasal or hoarse)."
+      ],
+      "diagnostics": [
+        "Clinical swallowing assessment by nurse and SLP.",
+        "Videofluoroscopic swallowing study (VFSS) to observe penetration/aspiration.",
+        "Flexible endoscopy to detect stenosis or structural lesions.",
+        "Barium swallow test to identify affected phase.",
+        "Dysphagia rating scales (e.g., MASA)."
+      ],
+      "treatment": [
+        "Swallowing therapy with speech‑language pathologist.",
+        "Diet consistency modification (soft, puree, thickened).",
+        "Oropharyngeal strengthening exercises.",
+        "Body positioning: trunk 90° while eating.",
+        "Use of feeding tube when aspiration risk is high.",
+        "Control reflux with proton pump inhibitors (omeprazole)."
+      ],
+      "complications": [
+        "Aspiration pneumonia.",
+        "Malnutrition and hypoglycemia.",
+        "Severe dehydration.",
+        "Muscle mass loss and sarcopenia.",
+        "Reduced quality of life and social isolation."
+      ],
+      "nursing_care": [
+        "Assess swallowing ability before each meal.",
+        "Monitor aspiration signs: cough, changes in O₂ saturation.",
+        "Keep patient seated 30‑45° during and 30 min after eating.",
+        "Record intake, weight, and fluid balance daily.",
+        "Administer diet per order (soft, puree, thickened liquids).",
+        "Coordinate with SLP for exercise plan and re‑evaluations."
+      ],
+      "patient_teaching": [
+        "Chew well and do not talk while eating.",
+        "Maintain upright posture (lean trunk) when swallowing.",
+        "Recognize aspiration signs and seek immediate help.",
+        "Follow prescribed diet and avoid hard or granular foods.",
+        "Drink adequate fluid, preferably thickened if indicated.",
+        "Attend swallowing therapy sessions and practice exercises at home."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "Stroke",
+          "Parkinson disease",
+          "Gastroesophageal reflux",
+          "Head/neck surgery",
+          "Aging",
+          "Use of sedatives"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: no aspiration episodes during hospitalization.",
+          "Nutritional status: maintain caloric intake ≥ 1500 kcal/day."
+        ],
+        "interventions": [
+          {
+            "action": "Place patient in seated position 30‑45° before, during, and 30 min after feeding",
+            "rationale": "Facilitates bolus passage and reduces airway entry risk."
+          },
+          {
+            "action": "Assess swallowing ability with rating scale before each meal",
+            "rationale": "Identifies changes that increase aspiration risk."
+          },
+          {
+            "action": "Administer diet per order (soft, puree, or thickened liquids) and avoid hard solids",
+            "rationale": "Decreases likelihood of penetration and aspiration."
+          },
+          {
+            "action": "Supervise feeding and observe cough, changes in O₂ saturation or cyanosis",
+            "rationale": "Detects early aspiration for immediate intervention."
+          },
+          {
+            "action": "Coordinate with speech‑language pathologist for swallowing exercises and compensatory techniques",
+            "rationale": "Improves muscle function and swallowing coordination."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Impaired swallowing",
+        "type": "actual",
+        "related_to": [
+          "Stroke",
+          "Chronic gastroesophageal reflux"
+        ],
+        "evidenced_by": [
+          "cough during feeding",
+          "feeling of food stuck",
+          "weight loss",
+          "dehydration"
+        ],
+        "outcomes": [
+          "Swallowing ability: patient will swallow solid foods without coughing in 5 days.",
+          "Nutritional status: weight gain ≥ 0.5 kg in one week."
+        ],
+        "interventions": [
+          {
+            "action": "Perform oropharyngeal strengthening exercises as directed by SLP",
+            "rationale": "Improves coordination and muscle strength for safe swallowing."
+          },
+          {
+            "action": "Offer foods of appropriate consistency (soft or puree) per assessment",
+            "rationale": "Facilitates swallowing and prevents aspiration."
+          },
+          {
+            "action": "Monitor caloric intake and record weight daily",
+            "rationale": "Evaluates effectiveness of nutritional plan and detects early malnutrition."
+          },
+          {
+            "action": "Teach patient the chin‑tuck maneuver when swallowing",
+            "rationale": "Reduces risk of food entering airway."
+          },
+          {
+            "action": "Maintain adequate hydration with thickened liquids",
+            "rationale": "Prevents dehydration and facilitates liquid swallowing."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "aspiration-pneumonia",
+    "stroke",
+    "gerd",
+    "esophageal-stricture",
+    "neurological-disorder"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Swallowing Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/swallowingdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Specialized Diets",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/17-3-specialized-diets",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Specialized Diets",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/21-3-specialized-diets",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-28",
+  "factcheck": {
+    "checked": "2026-10-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 43,
+      "contradicted": 0,
+      "total": 50
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Others may have trouble swallowing liquids, foods, or saliva.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Anyone can have a swallowing disorder, but it is more common in older adults.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Gastroesophageal reflux disease can cause esophageal strictures that can cause dysphagia (difficulty swallowing).",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "It often happens because of other conditions, including: Nervous system disorders , such as Parkinson's disease and cerebral palsy Problems with your esophagus, including GERD (gastroesophageal reflux disease) Stroke Head or spinal cord injury Cancer of the head, neck , or esophagus Medicines can help some people, while others may need surgery.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Problems with your esophagus, including GERD (gastroesophageal reflux disease)",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.5": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Swallowing treatment with a speech-language pathologist can help.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Consistency Modification Diets Some diets are designed to alter the texture and consistency of foods rather than the nutritional content.",
+        "source": 1
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

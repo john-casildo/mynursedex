@@ -1,0 +1,525 @@
+{
+  "id": "sinusitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Sinusitis",
+    "aliases": [
+      "sinusitis",
+      "inflamación senos paranasales",
+      "sinusitis aguda",
+      "sinusitis crónica",
+      "sinusitis recurrente"
+    ],
+    "summary": "Inflamación de los senos paranasales, generalmente por infección viral o bacteriana, que produce obstrucción del drenaje y dolor facial. Puede ser aguda (<4 sem), subaguda (4‑12 sem), crónica (>12 sem) o recurrente.",
+    "key_points": [
+      "Obstrucción del drenaje mucoso produce presión y dolor facial",
+      "Fiebre y secreción purulenta sugieren etiología bacteriana",
+      "Diagnóstico se basa en historia, examen físico y, de ser necesario, TC sinusal",
+      "Tratamiento incluye antibiótico, descongestionante y medidas locales",
+      "Complicaciones graves: celulitis orbital, absceso subdural, meningitis"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infección o irritante causa inflamación de la mucosa sinusal",
+        "Mucosa inflamada produce edema y aumenta la viscosidad del moco",
+        "Obstrucción del ostio impide el drenaje al nasofaringe",
+        "Acumulación de secreción genera presión y dolor",
+        "Si persiste, puede haber necrosis y extensión a estructuras adyacentes"
+      ],
+      "risk_factors": [
+        "Resfriado o infección viral previa",
+        "Alergias nasales crónicas",
+        "Desviación del tabique o pólipos nasales",
+        "Tabaquismo y exposición a contaminantes",
+        "Inmunosupresión o enfermedades crónicas (diabetes)"
+      ],
+      "signs_symptoms": [
+        "Dolor facial localizado (frente, mejillas) que empeora al inclinarse",
+        "Congestión nasal y secreción espesa (purulenta o amarilla)",
+        "Fiebre ≥ 38 °C, malestar general",
+        "Tos y goteo retronasal",
+        "Reducción del sentido del olfato"
+      ],
+      "diagnostics": [
+        "Exploración física: sensibilidad a la palpación de los senos",
+        "Rinorrea purulenta y edema de mucosa nasal",
+        "TC de senos paranasales: opacificación y engrosamiento mucoso",
+        "CBC: leucocitosis con neutrofilia si es bacteriana",
+        "Cultivo de secreción nasal solo si se sospecha patógeno resistente"
+      ],
+      "treatment": [
+        "Antibiótico de amplio espectro (p. ej. amoxicilina, cefdinir) si se sospecha bacteriana",
+        "Descongestionante oral o tópico (p. ej. pseudoefedrina, oximetazolina)",
+        "Analgesia: paracetamol o ibuprofeno para dolor y fiebre",
+        "Irrigación nasal con solución salina isotónica",
+        "Corticoide nasal tópico (fluticasona) en casos crónicos"
+      ],
+      "complications": [
+        "Celulitis orbital o absceso periorbital",
+        "Meningitis o absceso subdural",
+        "Sinusitis crónica con pólipos nasales",
+        "Bronquitis o exacerbación de asma"
+      ],
+      "nursing_care": [
+        "Evaluar dolor facial usando escala de 0‑10 y localizar zona de sensibilidad",
+        "Monitorear temperatura y signos de infección sistémica",
+        "Mantener hidratación adecuada (≥ 2 L/día) para fluidificar secreciones",
+        "Posicionar al paciente semi‑Fowler para favorecer drenaje",
+        "Aplicar compresas tibias en zona frontal/malar 10‑15 min, 3‑4 veces/día"
+      ],
+      "patient_teaching": [
+        "Realizar irrigación nasal con solución salina dos veces al día",
+        "Evitar exposición a humo, polvo y alérgenos",
+        "Completar el ciclo completo de antibiótico aunque mejore antes",
+        "Usar humidificador en ambiente seco y descansar adecuadamente",
+        "Buscar atención si empeora fiebre, visión borrosa o dolor ocular"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "inflamación de los senos paranasales",
+          "obstrucción del drenaje nasal"
+        ],
+        "evidenced_by": [
+          "dolor facial a la palpación",
+          "cefalea que empeora al inclinarse",
+          "sensación de presión en frente y mejillas"
+        ],
+        "outcomes": [
+          "Alivio del dolor reportado ≤3/10 en 48 h",
+          "Disminución de la necesidad de analgésicos en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar analgésico según prescripción y evaluar efecto en 30 min",
+            "rationale": "Controlar la intensidad del dolor y prevenir la respuesta inflamatoria"
+          },
+          {
+            "action": "Aplicar compresa tibia en zona frontal/malar 10‑15 min, 3‑4 veces/día",
+            "rationale": "Facilita la vasodilatación y reduce la presión sinusoidal"
+          },
+          {
+            "action": "Enseñar al paciente técnicas de relajación y uso de analgésico PRN",
+            "rationale": "Promueve autocontrol del dolor y uso adecuado de medicación"
+          },
+          {
+            "action": "Revaluar escala de dolor cada 2 h y registrar cambios",
+            "rationale": "Permite ajustar intervenciones y detectar mejoría o deterioro"
+          },
+          {
+            "action": "Mantener hidratación oral de al menos 2 L/día",
+            "rationale": "Ayuda a fluidificar secreciones y disminuir irritación"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "obstrucción nasal prolongada",
+          "secreción mucosa estancada",
+          "uso incompleto de antibiótico"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No se presenten signos de infección secundaria en 7 días",
+          "Temperatura ≤37.5 °C durante el periodo de riesgo"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear temperatura cada 4 h y registrar valores",
+            "rationale": "Detección temprana de fiebre indica posible infección secundaria"
+          },
+          {
+            "action": "Observar y describir la cantidad y color de la secreción nasal",
+            "rationale": "Cambios en la secreción pueden señalar progresión infecciosa"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de completar el antibiótico prescrito",
+            "rationale": "Previene recaídas y resistencia bacteriana"
+          },
+          {
+            "action": "Instruir en higiene nasal con solución salina dos veces al día",
+            "rationale": "Facilita eliminación de patógenos y reduce colonización"
+          },
+          {
+            "action": "Fomentar evitar irritantes (humo, polvo) y mantener ambiente humidificado",
+            "rationale": "Disminuye la irritación de la mucosa y el riesgo de infección"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Sinusitis",
+    "aliases": [
+      "sinusitis",
+      "sinus inflammation",
+      "acute sinusitis",
+      "chronic sinusitis",
+      "recurrent sinusitis"
+    ],
+    "summary": "Inflammation of the paranasal sinuses, usually due to viral or bacterial infection, causing obstruction of drainage and facial pain. It can be acute (<4 weeks), subacute (4‑12 weeks), chronic (>12 weeks) or recurrent.",
+    "key_points": [
+      "Obstruction of mucous drainage produces pressure and facial pain",
+      "Fever and purulent discharge suggest bacterial etiology",
+      "Diagnosis is based on history, physical exam and, if necessary, sinus CT",
+      "Treatment includes antibiotic, decongestant and local measures",
+      "Severe complications: orbital cellulitis, subdural abscess, meningitis"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infection or irritant causes inflammation of sinus mucosa",
+        "Inflamed mucosa produces edema and increases mucus viscosity",
+        "Obstruction of the ostium prevents drainage to the nasopharynx",
+        "Accumulation of secretions generates pressure and pain",
+        "If persistent, necrosis and extension to adjacent structures may occur"
+      ],
+      "risk_factors": [
+        "Previous cold or viral infection",
+        "Chronic nasal allergies",
+        "Septal deviation or nasal polyps",
+        "Smoking and exposure to pollutants",
+        "Immunosuppression or chronic diseases (diabetes)"
+      ],
+      "signs_symptoms": [
+        "Localized facial pain (forehead, cheeks) worsened by leaning forward",
+        "Nasal congestion and thick (purulent or yellow) discharge",
+        "Fever ≥ 38 °C, general malaise",
+        "Cough and postnasal drip",
+        "Reduced sense of smell"
+      ],
+      "diagnostics": [
+        "Physical exam: tenderness to palpation of sinuses",
+        "Purulent rhinorrhea and nasal mucosa edema",
+        "Sinus CT: opacification and mucosal thickening",
+        "CBC: leukocytosis with neutrophilia if bacterial",
+        "Nasal secretion culture only if resistant pathogen suspected"
+      ],
+      "treatment": [
+        "Broad‑spectrum antibiotic (e.g., amoxicillin, cefdinir) if bacterial suspected",
+        "Oral or topical decongestant (e.g., pseudoephedrine, oxymetazoline)",
+        "Analgesia: acetaminophen or ibuprofen for pain and fever",
+        "Nasal irrigation with isotonic saline solution",
+        "Topical nasal steroid (fluticasone) in chronic cases"
+      ],
+      "complications": [
+        "Orbital cellulitis or periorbital abscess",
+        "Meningitis or subdural abscess",
+        "Chronic sinusitis with nasal polyps",
+        "Bronchitis or asthma exacerbation"
+      ],
+      "nursing_care": [
+        "Assess facial pain using a 0‑10 scale and locate sensitivity area",
+        "Monitor temperature and systemic infection signs",
+        "Maintain adequate hydration (≥ 2 L/day) to thin secretions",
+        "Position patient semi‑Fowler to aid drainage",
+        "Apply warm compresses to frontal/malar area 10‑15 min, 3‑4 times/day"
+      ],
+      "patient_teaching": [
+        "Perform nasal irrigation with saline twice daily",
+        "Avoid exposure to smoke, dust, and allergens",
+        "Complete the full antibiotic course even if symptoms improve",
+        "Use a humidifier in dry environments and rest adequately",
+        "Seek care if fever worsens, vision blurs, or ocular pain occurs"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "sinus inflammation",
+          "nasal drainage obstruction"
+        ],
+        "evidenced_by": [
+          "facial pain on palpation",
+          "headache worsened by leaning forward",
+          "pressure sensation in forehead and cheeks"
+        ],
+        "outcomes": [
+          "Pain relief reported ≤3/10 within 48 h",
+          "Reduced need for analgesics within 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administer analgesic per prescription and assess effect in 30 min",
+            "rationale": "Control pain intensity and prevent inflammatory response"
+          },
+          {
+            "action": "Apply warm compress to frontal/malar area 10‑15 min, 3‑4 times/day",
+            "rationale": "Facilitates vasodilation and reduces sinus pressure"
+          },
+          {
+            "action": "Teach patient relaxation techniques and PRN analgesic use",
+            "rationale": "Promotes self‑management of pain and appropriate medication use"
+          },
+          {
+            "action": "Reassess pain scale every 2 h and record changes",
+            "rationale": "Allows adjustment of interventions and detection of improvement or deterioration"
+          },
+          {
+            "action": "Maintain oral hydration of at least 2 L/day",
+            "rationale": "Helps thin secretions and reduce irritation"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "prolonged nasal obstruction",
+          "stagnant mucous secretion",
+          "incomplete antibiotic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of secondary infection within 7 days",
+          "Temperature ≤37.5 °C during risk period"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor temperature every 4 h and record values",
+            "rationale": "Early detection of fever indicates possible secondary infection"
+          },
+          {
+            "action": "Observe and describe amount and color of nasal discharge",
+            "rationale": "Changes in discharge may signal infectious progression"
+          },
+          {
+            "action": "Educate patient on importance of completing prescribed antibiotic",
+            "rationale": "Prevents relapse and bacterial resistance"
+          },
+          {
+            "action": "Instruct nasal hygiene with saline solution twice daily",
+            "rationale": "Facilitates removal of pathogens and reduces colonization"
+          },
+          {
+            "action": "Encourage avoidance of irritants (smoke, dust) and maintain humidified environment",
+            "rationale": "Reduces mucosal irritation and infection risk"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "rhinitis",
+    "nasal-polyps",
+    "upper-respiratory-infection"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Sinusitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/sinusitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Sinusitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/sinusitis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Mouth, Throat, Nose, and Sinuses",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/22-4-mouth-throat-nose-and-sinuses",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Upper Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/23-1-introduction-to-the-upper-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-28",
+  "factcheck": {
+    "checked": "2026-10-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 34,
+      "contradicted": 1,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The medical diagnosis for inflamed sinuses that can be caused by a viral or bacterial infection is sinusitis . When the nasal membranes become swollen, the drainage of mucous is blocked and causes pain.",
+        "source": 2
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "There are several types of sinusitis, including: Acute, which lasts up to 4 weeks Subacute, which lasts 4 to 12 weeks Chronic, which lasts more than 12 weeks and can continue for months or even years Recurrent, with several attacks within a year",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "When the nasal membranes become swollen, the drainage of mucous is blocked and causes pain.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Treatments include antibiotics, decongestants, and pain relievers.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Common causes of pharyngitis are the cold viruses, influenza, strep throat caused by group A streptococcus, and mononucleosis.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Allergies, nasal problems, and certain diseases can also cause acute and chronic sinusitis.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Assess the nasal septum for any deviation, perforation, or bleeding.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Nosebleeds can range from mild to more severe and can be caused by various factors, such as dry air, nasal trauma, nasal irrigation (such as allergies, sinus infections, exposure to irritants like smoke or chemicals), overuse of nasal decongestant sprays, blood-thinning medications (like aspirin , anticoagulants, and antiplatelets), nasal polyp s, hypertension, or foreign objects being inserted into the nose.",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Symptoms of sinusitis can include fever, weakness, fatigue, cough, and congestion.",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Nasal polyps can cause nasal congestion, difficulty breathing, and reduced sense of smell.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "In cases of suspected sinusitis or sinus discomfort, gentle palpation can be applied to the sinus areas (forehead, cheeks) to check for tenderness, which can indicate inflammation.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "contradicted",
+        "quote": "Applying a cold compress to the nose and forehead can help constrict blood vessels and slow bleeding.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

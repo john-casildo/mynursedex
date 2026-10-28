@@ -1,0 +1,501 @@
+{
+  "id": "malignant-hyperthermia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipertermia Maligna (HM)",
+    "aliases": [
+      "hipertermia maligna",
+      "mh",
+      "hipertermia intraoperatoria",
+      "malignant hyperthermia",
+      "hipertermia",
+      "crisis mh"
+    ],
+    "summary": "Trastorno genético de hipermetabolismo muscular desencadenado por anestésicos volátiles o succinilcolina, que produce aumento rápido de la temperatura corporal y crisis sistémica.",
+    "key_points": [
+      "Es una emergencia intraoperatoria que requiere diagnóstico y tratamiento en minutos.",
+      "El dantroleno es el fármaco de elección para revertir la crisis.",
+      "Se asocia a hiperpotasemia, acidosis metabólica y rabdomiólisis.",
+      "Control estricto de la temperatura, ventilación y volumen intravascular es esencial.",
+      "Los pacientes deben ser identificados preoperatoriamente y se debe disponer de dantroleno en el quirófano."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutación en el receptor de rianodina (RYR1) o CACNA1S produce liberación descontrolada de Ca2+ del retículo sarcoplásmico.",
+        "El exceso de Ca2+ genera hipercontracción muscular y aumento del consumo de O2.",
+        "Se produce generación de calor, acidosis láctica y liberación de potasio y CK al torrente sanguíneo."
+      ],
+      "risk_factors": [
+        "Historia familiar de HM o prueba de contractura muscular.",
+        "Uso de anestésicos volátiles (sevoflurano, desflurano) o succinilcolina.",
+        "Edad pediátrica o juvenil, mayor susceptibilidad muscular.",
+        "Trastornos musculares subyacentes (miopatías)."
+      ],
+      "signs_symptoms": [
+        "Aumento rápido de la temperatura corporal > 38 °C, a menudo > 41 °C.",
+        "Taquicardia, hipertensión, arritmias.",
+        "Rigidez muscular, especialmente de la mandíbula (trismo).",
+        "Hipercapnia, aumento de la presión end‑tidal de CO2.",
+        "Acidosis metabólica (pH < 7.35) y hiperpotasemia."
+      ],
+      "diagnostics": [
+        "Monitorización continua de temperatura, EtCO2 y gases arteriales.",
+        "CK sérica > 1000 U/L indica rabdomiólisis.",
+        "K+ > 5.5 mEq/L, pH < 7.35, PaCO2 ↑.",
+        "Electrocardiograma para detectar arritmias."
+      ],
+      "treatment": [
+        "Administrar dantroleno IV 2.5 mg/kg, repetir cada 5‑10 min hasta control.",
+        "Ventilación mecánica con 100 % O2 para corregir hipoxia e hipercapnia.",
+        "Enfriamiento activo: bolsas de hielo, mantas refrigerantes, lavado con agua fría.",
+        "Reemplazo de líquidos con solución cristaloide fría; monitorizar diuresis.",
+        "Tratar hiperpotasemia con gluconato de calcio, insulina‑glucosa y diuréticos."
+      ],
+      "complications": [
+        "Rabdomiólisis con insuficiencia renal aguda.",
+        "Coagulopatía por consumo de factores y DIC.",
+        "Arritmias ventriculares por hiperpotasemia.",
+        "Hipotensión y shock circulatorio.",
+        "Muerte si no se trata rápidamente."
+      ],
+      "nursing_care": [
+        "Evaluar temperatura cada minuto y registrar cambios.",
+        "Monitorear EtCO2, presión arterial, frecuencia cardíaca y saturación de O2.",
+        "Mantener vía aérea segura; aspirar secreciones y observar rigidez facial.",
+        "Registrar diuresis y balance hídrico; administrar líquidos fríos según orden.",
+        "Preparar y administrar dantroleno según protocolo; observar respuesta clínica."
+      ],
+      "patient_teaching": [
+        "Informar al paciente y familia sobre la predisposición genética y la necesidad de informar a futuros anestesiólogos.",
+        "Explicar la importancia de llevar una tarjeta de alerta de HM.",
+        "Enseñar signos de rigidez muscular y fiebre postoperatoria que requieren atención inmediata.",
+        "Reforzar la necesidad de evitar anestésicos desencadenantes en procedimientos futuros."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hipertermia maligna",
+          "liberación masiva de potasio",
+          "rabdomiólisis",
+          "uso de succinilcolina",
+          "uso de anestésicos volátiles"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico mantenido: K+ 3.5‑5.0 mEq/L",
+          "CK sérica < 200 U/L dentro de 24 h",
+          "pH arterial 7.35‑7.45"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos cada 30 min durante la crisis y cada 4 h después.",
+            "rationale": "Detectar y corregir rápidamente hiperpotasemia y otras alteraciones."
+          },
+          {
+            "action": "Administrar dantroleno según protocolo y registrar tiempo de respuesta.",
+            "rationale": "Detener la liberación de Ca2+ y reducir el metabolismo muscular."
+          },
+          {
+            "action": "Aplicar enfriamiento activo y registrar temperatura corporal cada minuto.",
+            "rationale": "Disminuir la producción de calor y prevenir daño tisular."
+          },
+          {
+            "action": "Iniciar hidratación con solución cristaloide fría y monitorizar diuresis cada hora.",
+            "rationale": "Mantener perfusión renal y favorecer la eliminación de CK y potasio."
+          },
+          {
+            "action": "Administrar gluconato de calcio IV si K+ > 5.5 mEq/L o arritmia presente.",
+            "rationale": "Estabilizar la membrana cardíaca y prevenir arritmias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertermia maligna",
+          "temperatura > 41 °C",
+          "hipoxia",
+          "hipotensión",
+          "acidosis metabólica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial media ≥ 65 mmHg",
+          "Temperatura corporal ≤ 38 °C dentro de 30 min",
+          "Escala de Glasgow 15/15"
+        ],
+        "interventions": [
+          {
+            "action": "Controlar presión arterial invasiva cada 5 min y ajustar fluidos o vasopresores según necesidad.",
+            "rationale": "Garantizar perfusión cerebral adecuada."
+          },
+          {
+            "action": "Mantener ventilación con FiO2 100 % y ajustar Vt para mantener PaCO2 35‑45 mmHg.",
+            "rationale": "Prevenir hipoxia e hipercapnia que comprometen la perfusión cerebral."
+          },
+          {
+            "action": "Aplicar enfriamiento activo rápido y registrar temperatura rectal cada minuto.",
+            "rationale": "Reducir la demanda metabólica cerebral."
+          },
+          {
+            "action": "Evaluar nivel de conciencia cada 5 min usando la escala de Glasgow.",
+            "rationale": "Detectar deterioro neurológico precoz."
+          },
+          {
+            "action": "Administrar analgésicos y sedantes leves según orden para evitar agitación que eleve la presión intracraneal.",
+            "rationale": "Minimizar aumento de consumo de O2 cerebral."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Malignant Hyperthermia (MH)",
+    "aliases": [
+      "malignant hyperthermia",
+      "mh",
+      "intraoperative hyperthermia",
+      "hyperthermia",
+      "crisis mh"
+    ],
+    "summary": "A genetic disorder of muscle hypermetabolism triggered by volatile anesthetics or succinylcholine, causing rapid rise in body temperature and systemic crisis.",
+    "key_points": [
+      "It is an intraoperative emergency requiring diagnosis and treatment within minutes.",
+      "Dantrolene is the drug of choice to reverse the crisis.",
+      "It is associated with hyperkalemia, metabolic acidosis, and rhabdomyolysis.",
+      "Strict control of temperature, ventilation, and intravascular volume is essential.",
+      "Patients should be identified preoperatively and dantrolene must be available in the operating room."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutation in the ryanodine receptor (RYR1) or CACNA1S leads to uncontrolled release of Ca2+ from the sarcoplasmic reticulum.",
+        "Excess Ca2+ causes muscle hypercontraction and increased O2 consumption.",
+        "Heat generation, lactic acidosis, and release of potassium and CK into the bloodstream occur."
+      ],
+      "risk_factors": [
+        "Family history of MH or positive contracture test.",
+        "Use of volatile anesthetics (sevoflurane, desflurane) or succinylcholine.",
+        "Pediatric or young age, higher muscle susceptibility.",
+        "Underlying muscular disorders (myopathies)."
+      ],
+      "signs_symptoms": [
+        "Rapid rise in body temperature > 38 °C, often > 41 °C.",
+        "Tachycardia, hypertension, arrhythmias.",
+        "Muscle rigidity, especially of the jaw (trismus).",
+        "Hypercapnia, increased end‑tidal CO2 pressure.",
+        "Metabolic acidosis (pH < 7.35) and hyperkalemia."
+      ],
+      "diagnostics": [
+        "Continuous monitoring of temperature, EtCO2, and arterial blood gases.",
+        "Serum CK > 1000 U/L indicates rhabdomyolysis.",
+        "K+ > 5.5 mEq/L, pH < 7.35, PaCO2 ↑.",
+        "Electrocardiogram to detect arrhythmias."
+      ],
+      "treatment": [
+        "Administer dantrolene IV 2.5 mg/kg, repeat every 5‑10 min until controlled.",
+        "Mechanical ventilation with 100 % O2 to correct hypoxia and hypercapnia.",
+        "Active cooling: ice packs, cooling blankets, cold water lavage.",
+        "Replace fluids with cold crystalloid solution; monitor urine output.",
+        "Treat hyperkalemia with calcium gluconate, insulin‑glucose, and diuretics."
+      ],
+      "complications": [
+        "Rhabdomyolysis with acute kidney injury.",
+        "Coagulopathy from factor consumption and DIC.",
+        "Ventricular arrhythmias from hyperkalemia.",
+        "Hypotension and circulatory shock.",
+        "Death if not treated promptly."
+      ],
+      "nursing_care": [
+        "Assess temperature every minute and record changes.",
+        "Monitor EtCO2, blood pressure, heart rate, and O2 saturation.",
+        "Maintain airway security; suction secretions and observe facial rigidity.",
+        "Record urine output and fluid balance; administer cold fluids as ordered.",
+        "Prepare and administer dantrolene per protocol; observe clinical response."
+      ],
+      "patient_teaching": [
+        "Inform patient and family about genetic predisposition and the need to inform future anesthesiologists.",
+        "Explain the importance of carrying an MH alert card.",
+        "Teach signs of muscle rigidity and postoperative fever that require immediate attention.",
+        "Emphasize the need to avoid triggering anesthetics in future procedures."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "malignant hyperthermia",
+          "massive potassium release",
+          "rhabdomyolysis",
+          "succinylcholine use",
+          "volatile anesthetic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance maintained: K+ 3.5‑5.0 mEq/L",
+          "Serum CK < 200 U/L within 24 h",
+          "Arterial pH 7.35‑7.45"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes every 30 min during crisis and every 4 h afterward.",
+            "rationale": "Detect and correct hyperkalemia and other abnormalities quickly."
+          },
+          {
+            "action": "Administer dantrolene per protocol and record response time.",
+            "rationale": "Stop Ca2+ release and reduce muscle metabolism."
+          },
+          {
+            "action": "Apply active cooling and record body temperature every minute.",
+            "rationale": "Reduce heat production and prevent tissue damage."
+          },
+          {
+            "action": "Initiate hydration with cold crystalloid solution and monitor urine output hourly.",
+            "rationale": "Maintain renal perfusion and facilitate elimination of CK and potassium."
+          },
+          {
+            "action": "Administer IV calcium gluconate if K+ > 5.5 mEq/L or arrhythmia present.",
+            "rationale": "Stabilize cardiac membrane and prevent arrhythmias."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "malignant hyperthermia",
+          "temperature > 41 °C",
+          "hypoxia",
+          "hypotension",
+          "metabolic acidosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mean arterial pressure ≥ 65 mmHg",
+          "Body temperature ≤ 38 °C within 30 min",
+          "Glasgow Coma Scale 15/15"
+        ],
+        "interventions": [
+          {
+            "action": "Control invasive blood pressure every 5 min and adjust fluids or vasopressors as needed.",
+            "rationale": "Ensure adequate cerebral perfusion."
+          },
+          {
+            "action": "Maintain ventilation with FiO2 100 % and adjust tidal volume to keep PaCO2 35‑45 mmHg.",
+            "rationale": "Prevent hypoxia and hypercapnia that compromise cerebral perfusion."
+          },
+          {
+            "action": "Apply rapid active cooling and record rectal temperature every minute.",
+            "rationale": "Reduce cerebral metabolic demand."
+          },
+          {
+            "action": "Assess level of consciousness every 5 min using the Glasgow Coma Scale.",
+            "rationale": "Detect early neurological deterioration."
+          },
+          {
+            "action": "Administer analgesics and light sedatives as ordered to avoid agitation that raises intracranial pressure.",
+            "rationale": "Minimize increase in cerebral O2 consumption."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "rhabdomyolysis",
+    "hyperkalemia",
+    "malignant-hyperthermia-susceptibility"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Anesthesia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/anesthesia.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Malignant Neoplasms",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/6-4-malignant-neoplasms",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Intraoperative Phase",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/31-3-intraoperative-phase",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-28",
+  "factcheck": {
+    "checked": "2026-10-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Malignant hyperthermia is a rare, potentially life-threatening genetic predisposition to uncontrolled muscle breakdown (hypermetabolism) typically triggered by certain anesthetic medications, most commonly inhalant medications and muscle relaxants.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Meanwhile, other perioperative team members should quickly obtain the MH cart and begin reconstituting dantrolene sodium (e.g., Dantrium, Ryanodex), the specific antidote for MH.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The MH reaction presents with a cascade of symptoms, including masseter muscle rigidity, hyperkalemia, and muscle breakdown (rhabdomyolysis).",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "During the preoperative assessment, the RN circulator should ask the patient if they or any immediate family member has ever had a problem with anesthesia.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Another indication of MH susceptibility is a history of a muscular or neuromuscular disorder (e.g., muscular dystrophy).",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The MH reaction presents with a cascade of symptoms, including masseter muscle rigidity, hyperkalemia, and muscle breakdown (rhabdomyolysis).",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Other team members institute prompt cooling measures: administer cold IV fluids; pack the patient’s neck and head, groin, axilla, and any open cavities with ice; change the forced-air blanket to cool air; and provide supportive care, which is crucial for successful MH management.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "This results in a hypermetabolic reaction during which body heat can reach beyond life-sustaining temperatures (e.g., 106°F [41.1°C]), which can quickly lead to organ damage and death if not recognized and treated immediately.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "the RN circulator assigns another nurse to reconstitute and administer dantrolene sodium according to the anesthesia provider’s orders, and other tea",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "The surgeon and anesthesia provider inform the patient and family members of the event and counsel first-degree family members to undergo genetic testing for MH susceptibility.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Recognize cues: Identify the key signs and symptoms of MH (e.g., masseter muscle rigidity, metabolic acidosis, and extremely high temperature [e.g., 106°F {41.1°C}]).",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

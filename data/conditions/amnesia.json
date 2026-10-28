@@ -1,0 +1,498 @@
+{
+  "id": "amnesia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Amnesia",
+    "aliases": [
+      "amnesia",
+      "pérdida de memoria",
+      "olvido",
+      "memoria",
+      "amnesia anterógrada",
+      "amnesia retrograda"
+    ],
+    "summary": "Pérdida parcial o total de la capacidad para almacenar o recuperar información. Puede ser temporal (p. ej., por anestesia) o permanente (p. ej., por lesión cerebral).",
+    "key_points": [
+      "La amnesia se clasifica en anterógrada (incapacidad para formar nuevos recuerdos) y retrograda (pérdida de recuerdos previos).",
+      "Lesiones en el hipocampo, lóbulo temporal o redes de memoria son causas frecuentes.",
+      "Factores como anestesia, traumatismo craneal, intoxicaciones y enfermedades neurodegenerativas aumentan el riesgo.",
+      "El diagnóstico se basa en pruebas neuropsicológicas y estudios de imagen para descartar causas estructurales.",
+      "El manejo incluye tratar la causa subyacente, medidas de seguridad y rehabilitación cognitiva."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La información se codifica en el hipocampo y se consolida en la corteza temporal.",
+        "Daño al hipocampo o a sus conexiones interrumpe la consolidación, produciendo amnesia.",
+        "Los anestésicos y sedantes alteran la actividad sináptica, provocando amnesia temporal.",
+        "En la amnesia retrograda, los recuerdos ya consolidados se pierden por daño cortical extenso."
+      ],
+      "risk_factors": [
+        "Traumatismo craneoencefálico (TCE).",
+        "Anestesia general o sedación profunda.",
+        "Enfermedades neurodegenerativas (Alzheimer, demencia).",
+        "Intoxicación por alcohol, benzodiacepinas o anticolinérgicos.",
+        "Deficiencias de vitaminas B12 o tiamina."
+      ],
+      "signs_symptoms": [
+        "Incapacidad para recordar eventos recientes (anterógrada).",
+        "Pérdida de recuerdos previos al evento (retrograda).",
+        "Desorientación temporal y espacial.",
+        "Ansiedad o frustración por la falta de recuerdo.",
+        "Dificultad para aprender información nueva."
+      ],
+      "diagnostics": [
+        "Entrevista clínica y escala MMSE o MoCA: puntuaciones bajas indican déficit cognitivo.",
+        "Pruebas neuropsicológicas específicas de memoria (prueba de recuerdo libre, reconocimiento).",
+        "Imágenes cerebrales (TC o RM) para descartar lesiones estructurales.",
+        "Laboratorio: TSH, B12, ácido fólico, electrolitos para causas metabólicas."
+      ],
+      "treatment": [
+        "Tratar la causa subyacente (ej. suspender fármacos neurotóxicos, controlar hipertensión intracraneal).",
+        "Rehabilitación cognitiva: ejercicios de memoria y estrategias de compensación.",
+        "Uso de orientadores ambientales (relojes, calendarios, etiquetas).",
+        "Seguridad: eliminar riesgos de caídas y supervisión durante actividades peligrosas."
+      ],
+      "complications": [
+        "Lesiones por caídas o accidentes por desorientación.",
+        "Deterioro de la capacidad para autocuidado y adherencia al tratamiento.",
+        "Depresión y ansiedad secundarias a la pérdida de independencia.",
+        "Progresión a demencia si la causa subyacente es neurodegenerativa."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de orientación (tiempo, lugar, persona) en cada turno.",
+        "Mantener ambiente seguro: luz adecuada, eliminar obstáculos, usar barandillas.",
+        "Documentar déficits de memoria y cambios en la conducta.",
+        "Facilitar la comunicación usando preguntas cerradas y repetir información.",
+        "Colaborar con terapia ocupacional para entrenar estrategias de memoria."
+      ],
+      "patient_teaching": [
+        "Uso de agendas, alarmas y notas adhesivas para recordar actividades y medicación.",
+        "Importancia de seguir una rutina diaria estructurada.",
+        "Evitar consumo de alcohol y sedantes sin prescripción.",
+        "Buscar apoyo familiar y notificar al médico ante empeoramiento.",
+        "Participar en ejercicios mentales y actividades sociales para estimular la memoria."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "confusión",
+          "pérdida de memoria",
+          "desorientación",
+          "uso de sedantes",
+          "entorno inseguro"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin caídas: 0 incidentes en 30 días",
+          "Mantener integridad cutánea: sin lesiones en 30 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de orientación y seguridad del entorno al ingreso y cada turno.",
+            "rationale": "Detectar desorientación temprana permite implementar medidas preventivas."
+          },
+          {
+            "action": "Colocar la cama en posición baja y usar barandillas laterales.",
+            "rationale": "Reduce el riesgo de caídas en pacientes desorientados."
+          },
+          {
+            "action": "Eliminar objetos peligrosos del área del paciente y asegurar buena iluminación.",
+            "rationale": "Un entorno seguro previene accidentes relacionados con la amnesia."
+          },
+          {
+            "action": "Instruir al paciente y familia sobre el uso de recordatorios visuales (etiquetas, alarmas).",
+            "rationale": "Los apoyos externos compensan la pérdida de memoria y disminuyen errores."
+          },
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia cada 4 h.",
+            "rationale": "Cambios neurológicos pueden preceder a eventos de lesión."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "lesión cerebral",
+          "hipoxia",
+          "presión intracraneal elevada",
+          "anestésicos",
+          "hipotensión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial mantenida entre 90‑120 mmHg en 24 h",
+          "Nivel de conciencia estable (Escala de Glasgow ≥ 14) durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial, frecuencia cardíaca y saturación de O₂ cada hora.",
+            "rationale": "Detectar alteraciones hemodinámicas que comprometan la perfusión cerebral."
+          },
+          {
+            "action": "Mantener posición semisentada (30‑45°) para favorecer drenaje venoso cerebral.",
+            "rationale": "Reduce la presión intracraneal y mejora el flujo sanguíneo cerebral."
+          },
+          {
+            "action": "Administrar oxígeno suplementario si SaO₂ < 94 %.",
+            "rationale": "Previene hipoxia cerebral que agrava la amnesia."
+          },
+          {
+            "action": "Evaluar nivel de conciencia con escala de Glasgow cada 2 h.",
+            "rationale": "Cambios en la conciencia pueden indicar deterioro de la perfusión."
+          },
+          {
+            "action": "Informar al médico sobre cualquier signo de aumento de presión intracraneal (cefalea, náuseas, vómitos).",
+            "rationale": "Intervención temprana evita daño cerebral adicional."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Amnesia",
+    "aliases": [
+      "amnesia",
+      "memory loss",
+      "forgetting",
+      "memory",
+      "anterograde amnesia",
+      "retrograde amnesia"
+    ],
+    "summary": "Partial or total loss of the ability to store or retrieve information. It may be temporary (e.g., due to anesthesia) or permanent (e.g., due to brain injury).",
+    "key_points": [
+      "Amnesia is classified as anterograde (inability to form new memories) and retrograde (loss of prior memories).",
+      "Damage to the hippocampus, temporal lobe, or memory networks are common causes.",
+      "Factors such as anesthesia, head trauma, intoxication, and neurodegenerative diseases increase risk.",
+      "Diagnosis is based on neuropsychological testing and imaging studies to rule out structural causes.",
+      "Management includes treating the underlying cause, safety measures, and cognitive rehabilitation."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Information is encoded in the hippocampus and consolidated in the temporal cortex.",
+        "Damage to the hippocampus or its connections interrupts consolidation, producing amnesia.",
+        "Anesthetics and sedatives alter synaptic activity, causing temporary amnesia.",
+        "In retrograde amnesia, already consolidated memories are lost due to extensive cortical damage."
+      ],
+      "risk_factors": [
+        "Traumatic brain injury (TBI).",
+        "General anesthesia or deep sedation.",
+        "Neurodegenerative diseases (Alzheimer’s, dementia).",
+        "Intoxication with alcohol, benzodiazepines, or anticholinergics.",
+        "Vitamin B12 or thiamine deficiencies."
+      ],
+      "signs_symptoms": [
+        "Inability to recall recent events (anterograde).",
+        "Loss of memories prior to the event (retrograde).",
+        "Temporal and spatial disorientation.",
+        "Anxiety or frustration due to memory loss.",
+        "Difficulty learning new information."
+      ],
+      "diagnostics": [
+        "Clinical interview and MMSE or MoCA: low scores indicate cognitive deficit.",
+        "Specific neuropsychological memory tests (free recall, recognition).",
+        "Brain imaging (CT or MRI) to rule out structural lesions.",
+        "Laboratory: TSH, B12, folate, electrolytes for metabolic causes."
+      ],
+      "treatment": [
+        "Treat the underlying cause (e.g., discontinue neurotoxic drugs, control intracranial hypertension).",
+        "Cognitive rehabilitation: memory exercises and compensatory strategies.",
+        "Use environmental cues (clocks, calendars, labels).",
+        "Safety: remove fall hazards and supervise during risky activities."
+      ],
+      "complications": [
+        "Falls or accidents due to disorientation.",
+        "Impaired self‑care and medication adherence.",
+        "Depression and anxiety secondary to loss of independence.",
+        "Progression to dementia if the underlying cause is neurodegenerative."
+      ],
+      "nursing_care": [
+        "Assess orientation level (time, place, person) each shift.",
+        "Maintain a safe environment: adequate lighting, remove obstacles, use railings.",
+        "Document memory deficits and behavioral changes.",
+        "Facilitate communication using closed questions and repeat information.",
+        "Collaborate with occupational therapy to train memory strategies."
+      ],
+      "patient_teaching": [
+        "Use planners, alarms, and sticky notes to remember activities and medication.",
+        "Importance of following a structured daily routine.",
+        "Avoid alcohol and sedatives without prescription.",
+        "Seek family support and notify the physician if condition worsens.",
+        "Engage in mental exercises and social activities to stimulate memory."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "confusion",
+          "memory loss",
+          "disorientation",
+          "sedative use",
+          "unsafe environment"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No falls: 0 incidents in 30 days",
+          "Maintain skin integrity: no lesions in 30 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess orientation level and environmental safety upon admission and each shift.",
+            "rationale": "Early detection of disorientation allows preventive measures."
+          },
+          {
+            "action": "Place bed in low position and use side rails.",
+            "rationale": "Reduces fall risk in disoriented patients."
+          },
+          {
+            "action": "Remove hazardous objects from patient area and ensure good lighting.",
+            "rationale": "A safe environment prevents accidents related to amnesia."
+          },
+          {
+            "action": "Instruct patient and family on using visual reminders (labels, alarms).",
+            "rationale": "External supports compensate for memory loss and reduce errors."
+          },
+          {
+            "action": "Monitor vital signs and level of consciousness every 4 h.",
+            "rationale": "Neurologic changes may precede injury events."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "brain injury",
+          "hypoxia",
+          "elevated intracranial pressure",
+          "anesthetics",
+          "hypotension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood pressure maintained between 90‑120 mmHg in 24 h",
+          "Level of consciousness stable (Glasgow ≥ 14) during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure, heart rate, and O₂ saturation hourly.",
+            "rationale": "Detect hemodynamic changes that compromise cerebral perfusion."
+          },
+          {
+            "action": "Maintain semi‑upright position (30‑45°) to favor cerebral venous drainage.",
+            "rationale": "Reduces intracranial pressure and improves cerebral blood flow."
+          },
+          {
+            "action": "Administer supplemental oxygen if SaO₂ < 94 %.",
+            "rationale": "Prevents cerebral hypoxia that worsens amnesia."
+          },
+          {
+            "action": "Assess level of consciousness with Glasgow scale every 2 h.",
+            "rationale": "Changes in consciousness may indicate perfusion deterioration."
+          },
+          {
+            "action": "Notify physician of any signs of increased intracranial pressure (headache, nausea, vomiting).",
+            "rationale": "Early intervention prevents additional brain injury."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "memory-loss",
+    "cognitive-impairment",
+    "traumatic-brain-injury",
+    "dementia",
+    "anesthesia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Memory",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/memory.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Memoria",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/memory.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Surgical Concepts",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/31-1-surgical-concepts",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anxiolytics and Sedative-Hypnotics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-4-anxiolytics-and-sedative-hypnotics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-28",
+  "factcheck": {
+    "checked": "2026-10-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 40,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "General anesthesia induces amnesia (temporary or permanent loss of memory).",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "General anesthesia induces amnesia (temporary or permanent loss of memory).",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Postoperative disorientation: Some patients may experience confusion or disorientation after waking up from general anesthesia, while others have different reactions, such as tearfulness or agitation.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

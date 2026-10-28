@@ -1,0 +1,509 @@
+{
+  "id": "reflux-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad por reflujo gastroesofágico (ERGE)",
+    "aliases": [
+      "reflujo",
+      "reflujo gastroesofágico",
+      "erge",
+      "acidez",
+      "ardor",
+      "pirosis"
+    ],
+    "summary": "El ERGE es la regurgitación crónica de contenido gástrico al esófago por incompetencia del esfínter esofágico inferior, provocando irritación y síntomas típicos.",
+    "key_points": [
+      "Incompetencia del esfínter esofágico inferior permite el reflujo ácido.",
+      "Factores de riesgo: obesidad, embarazo, tabaquismo y hernia hiatal.",
+      "Síntomas principales: pirosis, regurgitación y dolor torácico retroesternal.",
+      "Complicaciones: esofagitis erosiva, esófago de Barrett y estenosis.",
+      "Tratamiento de primera línea: cambios de estilo de vida y inhibidores de la bomba de protones."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El esfínter esofágico inferior (EEI) pierde tono o se relaja inadecuadamente.",
+        "El contenido ácido del estómago retrocede al esófago.",
+        "El ácido daña la mucosa escamosa, desencadenando inflamación y reparación crónica."
+      ],
+      "risk_factors": [
+        "Obesidad (IMC >30 kg/m²).",
+        "Embarazo por aumento de presión intraabdominal.",
+        "Tabaquismo y exposición a humo de segunda mano.",
+        "Hernia hiatal.",
+        "Consumo frecuente de alimentos grasos, chocolate, cafeína, alcohol y menta."
+      ],
+      "signs_symptoms": [
+        "Pirosis (ardor retroesternal) después de comer o al acostarse.",
+        "Regurgitación de contenido ácido al nivel de la faringe.",
+        "Dolor torácico que puede confundirse con angina.",
+        "Disfagia o odinofagia en casos de esofagitis.",
+        "Tos crónica, ronquera y sensación de cuerpo extraño en la garganta."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico.",
+        "Endoscopia digestiva alta: erosiones, esófago de Barrett o estenosis.",
+        "pH-metría esofágica de 24 h: pH < 4 > 4 % del tiempo es diagnóstico.",
+        "Radiografía con bario: puede mostrar reflujo y hernia hiatal."
+      ],
+      "treatment": [
+        "Modificaciones de estilo de vida: elevar cabecera 15‑20 cm, evitar comidas 2‑3 h antes de acostarse.",
+        "Inhibidores de la bomba de protones (omeprazol, esomeprazol).",
+        "Antagonistas H2 (ranitidina, famotidina) para casos leves.",
+        "Antiácidos (hidróxido de aluminio/magnesio) para alivio rápido.",
+        "Procinéticos (metoclopramida) si hay retraso gástrico."
+      ],
+      "complications": [
+        "Esofagitis erosiva y ulceración.",
+        "Esofago de Barrett (metaplasia escamosa‑columnar).",
+        "Estenosis esofágica por cicatrización.",
+        "Sangrado gastrointestinal.",
+        "Adenocarcinoma de esófago."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia e intensidad de pirosis y regurgitación.",
+        "Monitorear signos de aspiración: tos, cambios en auscultación pulmonar.",
+        "Registrar peso y patrón de alimentación.",
+        "Enseñar posición semisentada después de comer y uso de almohada elevadora.",
+        "Reforzar adherencia a medicación y cambios dietéticos."
+      ],
+      "patient_teaching": [
+        "Evitar comidas copiosas, grasas, chocolate, cafeína y alcohol.",
+        "No acostarse ≤ 2 h después de comer; elevar la cabecera de la cama.",
+        "Mantener peso corporal adecuado; ejercicio regular.",
+        "No fumar y evitar exposición a humo de segunda mano.",
+        "Tomar los inhibidores de bomba de protones según indicación, sin interrumpir sin consultar."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "reflujo ácido frecuente",
+          "regurgitación nocturna",
+          "acostarse después de comer",
+          "obesidad"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Mantener vía aérea libre de aspiración – No presenta tos ni cambios en auscultación pulmonar en 48 h.",
+          "NOC: Reducción de episodios de tos nocturna – ≤ 1 episodio por semana al final de la semana de cuidados."
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en posición semisentada (30‑45°) después de cada comida",
+            "rationale": "Reduce el reflujo y el riesgo de que el contenido gástrico sea aspirado."
+          },
+          {
+            "action": "Evaluar signos de aspiración cada 4 h (tos, sibilancias, cambios en saturación)",
+            "rationale": "Permite detección temprana y respuesta oportuna."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de deglución segura y evitar beber grandes volúmenes de líquido durante las comidas",
+            "rationale": "Disminuye la probabilidad de que el contenido regurgite y sea aspirado."
+          },
+          {
+            "action": "Administrar antiácidos o inhibidores de bomba de protones según prescripción antes de la alimentación",
+            "rationale": "Reduce la acidez del contenido gástrico, disminuyendo daño pulmonar si ocurre aspiración."
+          },
+          {
+            "action": "Mantener la cabecera de la cama elevada 15‑20 cm durante la noche",
+            "rationale": "Previene el reflujo nocturno y la aspiración mientras el paciente está acostado."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatiga al realizar actividades cotidianas",
+          "disminución de la tolerancia al ejercicio",
+          "dolor torácico o ardor después de caminar"
+        ],
+        "outcomes": [
+          "NOC: Aumentar tolerancia a la actividad – Caminar 30 min sin síntomas de pirosis al cabo de 2 semanas.",
+          "NOC: Mejorar nivel de energía – Reporta nivel de energía ≥ 7/10 en escala de valoración en 1 semana."
+        ],
+        "interventions": [
+          {
+            "action": "Planificar actividades en intervalos cortos con descansos frecuentes",
+            "rationale": "Permite al paciente acumular actividad sin desencadenar síntomas de reflujo."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática durante el ejercicio",
+            "rationale": "Reduce la presión intraabdominal y el riesgo de reflujo."
+          },
+          {
+            "action": "Monitorear signos vitales y nivel de dolor antes y después de la actividad",
+            "rationale": "Detecta intolerancia temprana y evita exacerbación."
+          },
+          {
+            "action": "Reforzar el uso de medicación antiácida antes de la actividad física programada",
+            "rationale": "Disminuye la acidez gástrica durante el esfuerzo."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de evitar comidas copiosas 2 h antes del ejercicio",
+            "rationale": "Previene el aumento del contenido gástrico que favorece el reflujo durante la actividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastroesophageal reflux disease (GERD)",
+    "aliases": [
+      "reflux",
+      "gastroesophageal reflux",
+      "gerd",
+      "acid",
+      "burn",
+      "heartburn"
+    ],
+    "summary": "GERD is chronic regurgitation of gastric contents into the esophagus due to lower esophageal sphincter incompetence, causing irritation and typical symptoms.",
+    "key_points": [
+      "Lower esophageal sphincter incompetence allows acid reflux.",
+      "Risk factors: obesity, pregnancy, smoking, and hiatal hernia.",
+      "Primary symptoms: heartburn, regurgitation, and retrosternal chest pain.",
+      "Complications: erosive esophagitis, Barrett’s esophagus, and stenosis.",
+      "First‑line treatment: lifestyle changes and proton pump inhibitors."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The lower esophageal sphincter (LES) loses tone or relaxes inappropriately.",
+        "Acidic gastric content flows back into the esophagus.",
+        "Acid damages the squamous mucosa, triggering inflammation and chronic repair."
+      ],
+      "risk_factors": [
+        "Obesity (BMI >30 kg/m²).",
+        "Pregnancy due to increased intraabdominal pressure.",
+        "Smoking and exposure to second‑hand smoke.",
+        "Hiatal hernia.",
+        "Frequent consumption of fatty foods, chocolate, caffeine, alcohol, and mint."
+      ],
+      "signs_symptoms": [
+        "Heartburn (retrosternal burning) after meals or when lying down.",
+        "Regurgitation of acidic content to the pharynx.",
+        "Chest pain that may be mistaken for angina.",
+        "Dysphagia or odynophagia in cases of esophagitis.",
+        "Chronic cough, hoarseness, and sensation of a foreign body in the throat."
+      ],
+      "diagnostics": [
+        "History and physical examination.",
+        "Upper endoscopy: erosions, Barrett’s esophagus, or stenosis.",
+        "24‑hour esophageal pH monitoring: pH < 4 > 4 % of the time is diagnostic.",
+        "Barium swallow X‑ray: may show reflux and hiatal hernia."
+      ],
+      "treatment": [
+        "Lifestyle modifications: elevate head of bed 15‑20 cm, avoid meals 2‑3 h before bedtime.",
+        "Proton pump inhibitors (omeprazole, esomeprazole).",
+        "H2 antagonists (ranitidine, famotidine) for mild cases.",
+        "Antacids (aluminum/magnesium hydroxide) for rapid relief.",
+        "Prokinetics (metoclopramide) if delayed gastric emptying."
+      ],
+      "complications": [
+        "Erosive esophagitis and ulceration.",
+        "Barrett’s esophagus (squamous‑to‑columnar metaplasia).",
+        "Esophageal stenosis from scarring.",
+        "Gastrointestinal bleeding.",
+        "Esophageal adenocarcinoma."
+      ],
+      "nursing_care": [
+        "Assess frequency and intensity of heartburn and regurgitation.",
+        "Monitor for aspiration signs: cough, changes in lung auscultation.",
+        "Record weight and feeding pattern.",
+        "Teach semi‑upright position after meals and use of an elevating pillow.",
+        "Reinforce medication adherence and dietary changes."
+      ],
+      "patient_teaching": [
+        "Avoid large, fatty meals, chocolate, caffeine, and alcohol.",
+        "Do not lie down ≤ 2 h after eating; elevate the bed head.",
+        "Maintain a healthy body weight; exercise regularly.",
+        "Do not smoke and avoid second‑hand smoke exposure.",
+        "Take proton pump inhibitors as prescribed, do not discontinue without consulting."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "frequent acid reflux",
+          "nocturnal regurgitation",
+          "lying down after meals",
+          "obesity"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Maintain airway free of aspiration – No cough or changes in lung auscultation in 48 h.",
+          "NOC: Reduce nocturnal cough episodes – ≤ 1 episode per week by end of care week."
+        ],
+        "interventions": [
+          {
+            "action": "Place patient in semi‑upright position (30‑45°) after each meal",
+            "rationale": "Reduces reflux and the risk of gastric content being aspirated."
+          },
+          {
+            "action": "Assess aspiration signs every 4 h (cough, wheeze, saturation changes)",
+            "rationale": "Allows early detection and timely response."
+          },
+          {
+            "action": "Teach patient safe swallowing techniques and avoid large volumes of liquid during meals",
+            "rationale": "Decreases likelihood of regurgitation and aspiration."
+          },
+          {
+            "action": "Administer antacids or proton pump inhibitors as prescribed before meals",
+            "rationale": "Reduces gastric acidity, decreasing lung injury if aspiration occurs."
+          },
+          {
+            "action": "Keep head of bed elevated 15‑20 cm during the night",
+            "rationale": "Prevents nocturnal reflux and aspiration while patient is supine."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "reduced exercise tolerance",
+          "chest pain or burning after walking"
+        ],
+        "outcomes": [
+          "NOC: Increase activity tolerance – Walk 30 min without heartburn symptoms after 2 weeks.",
+          "NOC: Improve energy level – Report energy level ≥ 7/10 on assessment scale in 1 week."
+        ],
+        "interventions": [
+          {
+            "action": "Plan activities in short intervals with frequent rest breaks",
+            "rationale": "Allows patient to accumulate activity without triggering reflux symptoms."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques during exercise",
+            "rationale": "Reduces intraabdominal pressure and reflux risk."
+          },
+          {
+            "action": "Monitor vital signs and pain level before and after activity",
+            "rationale": "Detects early intolerance and prevents exacerbation."
+          },
+          {
+            "action": "Reinforce use of antacid medication before scheduled physical activity",
+            "rationale": "Decreases gastric acidity during exertion."
+          },
+          {
+            "action": "Educate patient on importance of avoiding large meals 2 h before exercise",
+            "rationale": "Prevents increased gastric content that promotes reflux during activity."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "esophageal-stricture",
+    "barrett-s-esophagus",
+    "gastroesophageal-reflux"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: GERD",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/gerd.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Mouth, Throat, Nose, and Sinuses",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/22-4-mouth-throat-nose-and-sinuses",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Upper GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-4-disorders-of-the-upper-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-28",
+  "factcheck": {
+    "checked": "2026-10-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "GERD can happen when the muscle at the bottom of your esophagus becomes weak or relaxes at the wrong time.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Stomach contents can then move back up and irritate the esophagus.",
+        "source": 0
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "researchers believe that damage to the squamous esophageal cells resulting from gastroesophageal reflux disease (GERD) causes the cells to undergo constant repair and wound healing.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "You are more likely to have GERD if you: Are overweight or have obesity Are pregnant Smoke or are around secondhand smoke Have a hiatal hernia (when part of the stomach pushes up into the chest)"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Have a hiatal hernia (when part of the stomach pushes up into the chest)",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "In some cases, Barrett’s esophagus can cause ulceration and stricture, and patients may have the symptoms of dysphagia or odynophagia (painful swallowing).",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Gastroesophageal reflux disease (GERD): Chronic acid reflux, gastroesophageal reflux disease (GERD) can lead to irritation of the throat, causing hoarseness, cough, and throat discomfort.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "An upper endoscopy will confirm visual changes to the tissues in the esophagus.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "An upper GI series, or barium swallow, can check for GERD, dysphagia , hiatal hernia, ulcers, tumors, or achalasia.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Raberprazole GERD Peptic and esophageal ulcers Erosive esophagitis H. pylori infection Zollinger-Ellison syndrome May cause kidney damage Can interfere with the liver metabolism of other drugs Long-term therapy can cause hypomagnesemia.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "The cells that develop on the esophagus can be precancerous and increase the patient’s chance of developing esophageal adenocarcinoma (Souza & Spechler, 2022).",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "The nurse inquires about the frequency, severity, and duration of symptoms, and if symptoms interrupt the patient’s sleep.",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Symptom improvement and patient understanding of the importance of diet modification and medication adherence are the goals of treatment for Barrett’s esophagus .",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Foods that are spicy, fatty, acidic, or contain caffeine, carbonation, or alcohol can exacerbate symptoms of reflux and heartburn and trigger episodes of odynophagia or dysphagia.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Lifestyle changes can include: Eating smaller meals and avoiding lying down for at least 2-3 hours after eating Avoiding foods that trigger symptoms, such as spicy foods, chocolate, caffeine, or fatty foods Losing weight if needed Raising the head of your bed Quitting smoking",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

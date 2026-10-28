@@ -1,0 +1,226 @@
+{
+  "id": "oxygen-therapy",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Oxigenoterapia",
+    "aliases": [
+      "oxigenoterapia",
+      "oxígeno suplementario",
+      "terapia con oxígeno",
+      "oxígeno",
+      "suplemento de oxígeno"
+    ],
+    "summary": "La oxigenoterapia suministra oxígeno adicional vía dispositivos para mantener una saturación adecuada y prevenir hipoxemia.",
+    "key_points": [
+      "Indicación cuando SpO2 < 90% o PaO2 < 60 mmHg.",
+      "Dispositivos: cánula nasal, mascarilla simple, mascarilla con reservorio, concentrador o tanque.",
+      "Flujo típico: 1‑6 L/min para cánula, 6‑15 L/min para mascarilla, ajustado a la saturación objetivo (≥ 92%).",
+      "Riesgos: toxicidad por oxígeno, sequedad de mucosas y riesgo de incendio.",
+      "Monitoreo continuo de SpO2 y evaluación de signos de hiperventilación o irritación."
+    ],
+    "sections": {
+      "purpose": [
+        "Mantener saturación de oxígeno ≥ 92 % en pacientes con hipoxemia.",
+        "Reducir la carga de trabajo respiratorio y prevenir daño tisular.",
+        "Mejorar la oxigenación de órganos vitales."
+      ],
+      "procedure": [
+        "Verificar prescripción y flujo/FiO2 indicado.",
+        "Seleccionar dispositivo adecuado según necesidad y comodidad.",
+        "Conectar el equipo, ajustar el regulador y fijar la cánula o mascarilla.",
+        "Encender el concentrador o abrir la válvula del tanque; confirmar flujo con medidor.",
+        "Revisar SpO2 cada 5‑10 min hasta estabilizar, luego cada 4 h."
+      ],
+      "safety": [
+        "Mantener fuente de ignición alejada (no fumar, no usar llamas abiertas).",
+        "Usar humidificador si flujo > 4 L/min para evitar resequedad.",
+        "Inspeccionar tubería y conexiones por fugas antes de iniciar.",
+        "Cambiar cánula cada 48 h o según indicación del fabricante."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia, frecuencia respiratoria y uso de musculatura accesoria.",
+        "Registrar SpO2, ritmo cardíaco y presión arterial antes y después de iniciar terapia.",
+        "Observar signos de toxicidad por oxígeno: tos, irritación, visión borrosa.",
+        "Educar al paciente y familia sobre uso seguro y signos de alarma."
+      ],
+      "documentation": [
+        "Prescripción completa (flujo, dispositivo, objetivo de SpO2).",
+        "Hora de inicio, ajustes de flujo y valores de SpO2 registrados.",
+        "Observaciones de tolerancia, irritación de mucosas y medidas de seguridad tomadas.",
+        "Plan de reevaluación y criterios de discontinuación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "alto flujo de oxígeno prolongado",
+          "FiO2 > 0.6",
+          "uso de oxígeno en fumadores",
+          "presencia de fuentes de ignición"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Saturación de oxígeno ≥ 92 % en 24 h",
+          "Ausencia de signos de toxicidad por oxígeno en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear SpO2 y signos vitales cada 4 h",
+            "rationale": "Detectar hipoxemia o hiperventilación tempranamente."
+          },
+          {
+            "action": "Evaluar mucosas y vías respiratorias por irritación o sequedad",
+            "rationale": "Identificar efectos adversos del oxígeno seco."
+          },
+          {
+            "action": "Ajustar flujo o FiO2 según objetivo de saturación y evitar valores > 0.6 cuando no sea necesario",
+            "rationale": "Reducir riesgo de toxicidad por oxígeno."
+          },
+          {
+            "action": "Educar al paciente sobre no fumar y mantener alejadas llamas abiertas",
+            "rationale": "Prevenir incendio asociado al oxígeno suplementario."
+          },
+          {
+            "action": "Utilizar humidificador cuando el flujo supere 4 L/min",
+            "rationale": "Prevenir resequedad y daño de mucosas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Oxygen Therapy",
+    "aliases": [
+      "oxygen therapy",
+      "supplemental oxygen",
+      "oxygen treatment",
+      "oxygen",
+      "oxygen supplement"
+    ],
+    "summary": "Oxygen therapy delivers additional oxygen via devices to maintain adequate saturation and prevent hypoxemia.",
+    "key_points": [
+      "Indicated when SpO2 < 90% or PaO2 < 60 mmHg.",
+      "Devices: nasal cannula, simple mask, mask with reservoir, concentrator or tank.",
+      "Typical flow: 1‑6 L/min for cannula, 6‑15 L/min for mask, adjusted to target saturation (≥ 92%).",
+      "Risks: oxygen toxicity, mucosal dryness, fire hazard.",
+      "Continuous monitoring of SpO2 and assessment for hyperventilation or irritation signs."
+    ],
+    "sections": {
+      "purpose": [
+        "Maintain oxygen saturation ≥ 92 % in hypoxemic patients.",
+        "Reduce respiratory work and prevent tissue damage.",
+        "Improve oxygenation of vital organs."
+      ],
+      "procedure": [
+        "Verify prescription and indicated flow/FiO2.",
+        "Select appropriate device based on need and comfort.",
+        "Connect equipment, adjust regulator, secure cannula or mask.",
+        "Turn on concentrator or open tank valve; confirm flow with meter.",
+        "Check SpO2 every 5‑10 min until stable, then every 4 h."
+      ],
+      "safety": [
+        "Keep ignition sources away (no smoking, no open flames).",
+        "Use humidifier if flow > 4 L/min to avoid dryness.",
+        "Inspect tubing and connections for leaks before starting.",
+        "Replace cannula every 48 h or as manufacturer recommends."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness, respiratory rate, and accessory muscle use.",
+        "Record SpO2, heart rate, and blood pressure before and after starting therapy.",
+        "Observe for signs of oxygen toxicity: cough, irritation, blurred vision.",
+        "Educate patient and family on safe use and warning signs."
+      ],
+      "documentation": [
+        "Complete prescription (flow, device, target SpO2).",
+        "Start time, flow adjustments, and SpO2 values recorded.",
+        "Notes on tolerance, mucosal irritation, and safety measures taken.",
+        "Reevaluation plan and discontinuation criteria."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "prolonged high-flow oxygen",
+          "FiO2 > 0.6",
+          "oxygen use in smokers",
+          "presence of ignition sources"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Oxygen saturation ≥ 92 % within 24 h",
+          "No signs of oxygen toxicity within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor SpO2 and vital signs every 4 h",
+            "rationale": "Detect hypoxemia or hyperventilation early."
+          },
+          {
+            "action": "Assess mucosa and airways for irritation or dryness",
+            "rationale": "Identify adverse effects of dry oxygen."
+          },
+          {
+            "action": "Adjust flow or FiO2 to target saturation and avoid values > 0.6 when unnecessary",
+            "rationale": "Reduce risk of oxygen toxicity."
+          },
+          {
+            "action": "Educate patient about not smoking and keeping open flames away",
+            "rationale": "Prevent oxygen-associated fire."
+          },
+          {
+            "action": "Use humidifier when flow exceeds 4 L/min",
+            "rationale": "Prevent dryness and mucosal damage."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoxia",
+    "oxygen-toxicity",
+    "respiratory-failure",
+    "fire-hazard"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Oxygen Therapy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/oxygentherapy.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Terapia con oxígeno",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/oxygentherapy.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Wound Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/8-3-wound-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Concepts of Oxygenation and Perfusion",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-1-concepts-of-oxygenation-and-perfusion",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-28"
+}
