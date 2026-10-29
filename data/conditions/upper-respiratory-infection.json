@@ -1,0 +1,337 @@
+{
+  "id": "upper-respiratory-infection",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infección del tracto respiratorio superior (ITRS)",
+    "aliases": [
+      "infección respiratoria",
+      "resfriado",
+      "gripe leve",
+      "rinofaringitis",
+      "catarro"
+    ],
+    "summary": "Infección viral aguda que afecta la nariz, senos paranasales y faringe, caracterizada por congestión, secreción y tos. Es autolimitada en la mayoría de los casos.",
+    "key_points": [
+      "Causada mayormente por rinovirus; más de 200 virus pueden producirla.",
+      "Se transmite por gotas respiratorias y contacto directo con superficies contaminadas.",
+      "Síntomas típicos: estornudos, congestión, rinorrea, dolor de garganta y tos.",
+      "El tratamiento es sintomático: hidratación, antitérmicos y descongestionantes.",
+      "Complicaciones posibles: sinusitis, otitis media, bronquitis o exacerbación de asma."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El virus se adhiere a la epitelial nasal y se replica, provocando inflamación.",
+        "Se libera mediadores inflamatorios que aumentan la permeabilidad capilar.",
+        "Edema de la mucosa y producción excesiva de moco generan congestión y rinorrea.",
+        "La irritación de terminaciones nerviosas produce estornudos y tos."
+      ],
+      "risk_factors": [
+        "Exposición a personas infectadas, especialmente en invierno y primavera.",
+        "Ambientes cerrados y con alta densidad de población.",
+        "Sistema inmune comprometido (niños, ancianos, pacientes con VIH).",
+        "Tabaquismo y contaminación del aire."
+      ],
+      "signs_symptoms": [
+        "Estornudos frecuentes.",
+        "Congestión nasal y secreción clara o purulenta.",
+        "Dolor de garganta y tos seca o productiva.",
+        "Cefalea frontal y, ocasionalmente, fiebre ≤38 °C."
+      ],
+      "diagnostics": [
+        "Diagnóstico clínico basado en historia y examen físico.",
+        "En casos dudosos, hemograma: leucocitosis leve posible.",
+        "Pruebas virales (PCR) solo si se sospecha influenza o complicaciones."
+      ],
+      "treatment": [
+        "Hidratación oral adecuada (≥2 L/día según tolerancia).",
+        "Paracetamol 500 mg cada 6‑8 h para fiebre o dolor.",
+        "Descongestionantes nasales (pseudoefedrina) según indicación.",
+        "Antitusivo suave (dextrometorfano) si la tos interfiere el descanso.",
+        "Uso de humidificador o vapor para aliviar la mucosa."
+      ],
+      "complications": [
+        "Sinusitis bacteriana.",
+        "Otitis media aguda.",
+        "Bronquitis o bronquiolitis, especialmente en niños.",
+        "Exacerbación de asma o enfermedad pulmonar obstructiva crónica."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4 h; prestar atención a temperatura y frecuencia respiratoria.",
+        "Monitorear ingesta y salida de líquidos; observar signos de deshidratación.",
+        "Escuchar campos pulmonares para detectar crepitantes o sibilancias.",
+        "Educar sobre higiene de manos y medidas de aislamiento.",
+        "Observar cambios en el patrón de tos o aparición de fiebre alta."
+      ],
+      "patient_teaching": [
+        "Lavarse las manos frecuentemente con agua y jabón durante al menos 20 s.",
+        "Evitar contacto cercano con personas enfermas y cubrir boca al toser o estornudar.",
+        "Mantener una adecuada hidratación y reposo.",
+        "Usar solución salina nasal para aliviar congestión.",
+        "Buscar atención médica si la fiebre supera 38.5 °C, hay dificultad respiratoria o secreción purulenta."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "fiebre",
+          "aumento de secreciones nasales",
+          "disminución de ingesta oral"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida de líquidos equilibradas en 24 h",
+          "Peso corporal estable (variación <0.5 kg en 48 h)"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 4 h y registrar en hoja de control",
+            "rationale": "Permite detectar déficit o exceso de líquidos tempranamente"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (piel seca, mucosas, turgor)",
+            "rationale": "Identifica rápidamente la necesidad de intervención"
+          },
+          {
+            "action": "Ofrecer líquidos claros (agua, suero oral) cada 1‑2 h según tolerancia",
+            "rationale": "Mantiene hidratación y ayuda a fluidificar secreciones"
+          },
+          {
+            "action": "Registrar peso diario a la misma hora y con ropa ligera",
+            "rationale": "Control objetivo del estado de hidratación"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación y signos de deshidratación",
+            "rationale": "Fomenta autocuidado y prevención de complicaciones"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "tos frecuente",
+          "congestión nasal",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades de la vida diaria",
+          "aumento de frecuencia respiratoria con esfuerzo"
+        ],
+        "outcomes": [
+          "Paciente completa ADL con mínima fatiga en 48 h",
+          "Frecuencia respiratoria en reposo ≤20 rpm dentro de 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de tolerancia a la actividad mediante escala de esfuerzo percibido",
+            "rationale": "Establece línea base para planificar descansos"
+          },
+          {
+            "action": "Planificar períodos de descanso cada 30‑45 min durante actividades leves",
+            "rationale": "Previene agotamiento y facilita recuperación"
+          },
+          {
+            "action": "Enseñar respiración diafragmática y técnicas de tos controlada",
+            "rationale": "Mejora ventilación y reduce esfuerzo respiratorio"
+          },
+          {
+            "action": "Promover hidratación adecuada para mantener secreciones fluidas",
+            "rationale": "Facilita expectoración y disminuye trabajo respiratorio"
+          },
+          {
+            "action": "Administrar antitérmico y descongestionante según prescripción",
+            "rationale": "Alivia síntomas que limitan la actividad"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Upper respiratory tract infection (URTI)",
+    "aliases": [
+      "respiratory infection",
+      "cold",
+      "mild flu",
+      "rhinopharyngitis",
+      "sneezing"
+    ],
+    "summary": "Acute viral infection affecting the nose, paranasal sinuses, and pharynx, characterized by congestion, discharge, and cough. It is self-limited in most cases.",
+    "key_points": [
+      "Mostly caused by rhinovirus; over 200 viruses can produce it.",
+      "It spreads via respiratory droplets and direct contact with contaminated surfaces.",
+      "Typical symptoms: sneezing, congestion, rhinorrhea, sore throat, and cough.",
+      "Treatment is symptomatic: hydration, antipyretics, and decongestants.",
+      "Possible complications: sinusitis, otitis media, bronchitis, or asthma exacerbation."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The virus attaches to nasal epithelium and replicates, causing inflammation.",
+        "Inflammatory mediators are released, increasing capillary permeability.",
+        "Edema of the mucosa and excess mucus production cause congestion and rhinorrhea.",
+        "Irritation of nerve endings produces sneezing and cough."
+      ],
+      "risk_factors": [
+        "Exposure to infected individuals, especially in winter and spring.",
+        "Closed environments with high population density.",
+        "Compromised immune system (children, elderly, HIV patients).",
+        "Smoking and air pollution."
+      ],
+      "signs_symptoms": [
+        "Frequent sneezing.",
+        "Nasal congestion and clear or purulent discharge.",
+        "Sore throat and dry or productive cough.",
+        "Frontal headache and, occasionally, fever ≤38 °C."
+      ],
+      "diagnostics": [
+        "Clinical diagnosis based on history and physical exam.",
+        "In doubtful cases, CBC: mild leukocytosis possible.",
+        "Viral tests (PCR) only if influenza or complications are suspected."
+      ],
+      "treatment": [
+        "Adequate oral hydration (≥2 L/day as tolerated).",
+        "Paracetamol 500 mg every 6‑8 h for fever or pain.",
+        "Nasal decongestants (pseudoephedrine) as indicated.",
+        "Mild antitussive (dextromethorphan) if cough interferes with rest.",
+        "Use of humidifier or steam to relieve mucosa."
+      ],
+      "complications": [
+        "Bacterial sinusitis.",
+        "Acute otitis media.",
+        "Bronchitis or bronchiolitis, especially in children.",
+        "Asthma or chronic obstructive pulmonary disease exacerbation."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4 h; pay attention to temperature and respiratory rate.",
+        "Monitor intake and output; look for signs of dehydration.",
+        "Listen to lung fields for crackles or wheezes.",
+        "Educate on hand hygiene and isolation measures.",
+        "Observe changes in cough pattern or onset of high fever."
+      ],
+      "patient_teaching": [
+        "Wash hands frequently with soap and water for at least 20 s.",
+        "Avoid close contact with sick people and cover mouth when coughing or sneezing.",
+        "Maintain adequate hydration and rest.",
+        "Use saline nasal spray to relieve congestion.",
+        "Seek medical attention if fever exceeds 38.5 °C, there is respiratory difficulty, or purulent discharge."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "fever",
+          "increased nasal secretions",
+          "decreased oral intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output balanced in 24 h",
+          "Stable body weight (variation <0.5 kg in 48 h)"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor intake and output every 4 h and record on control sheet",
+            "rationale": "Allows early detection of fluid deficit or excess"
+          },
+          {
+            "action": "Assess for signs of dehydration (dry skin, mucous membranes, turgor)",
+            "rationale": "Rapidly identifies need for intervention"
+          },
+          {
+            "action": "Offer clear fluids (water, oral rehydration solution) every 1‑2 h as tolerated",
+            "rationale": "Maintains hydration and helps thin secretions"
+          },
+          {
+            "action": "Record daily weight at the same time and with light clothing",
+            "rationale": "Objective control of hydration status"
+          },
+          {
+            "action": "Educate patient on importance of hydration and signs of dehydration",
+            "rationale": "Promotes self-care and prevention of complications"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "frequent cough",
+          "nasal congestion",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "increased respiratory rate with exertion"
+        ],
+        "outcomes": [
+          "Patient completes ADL with minimal fatigue in 48 h",
+          "Resting respiratory rate ≤20 rpm within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity tolerance using perceived exertion scale",
+            "rationale": "Establish baseline for planning rest periods"
+          },
+          {
+            "action": "Plan rest periods every 30‑45 min during light activities",
+            "rationale": "Prevents exhaustion and facilitates recovery"
+          },
+          {
+            "action": "Teach diaphragmatic breathing and controlled coughing techniques",
+            "rationale": "Improves ventilation and reduces respiratory effort"
+          },
+          {
+            "action": "Promote adequate hydration to keep secretions thin",
+            "rationale": "Facilitates expectoration and reduces work of breathing"
+          },
+          {
+            "action": "Administer antipyretic and decongestant as prescribed",
+            "rationale": "Relieves symptoms that limit activity"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "common-cold",
+    "rhinovirus",
+    "viral-upper-respiratory-infection",
+    "nasal-congestion",
+    "sinusitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Common Cold",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/commoncold.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Upper and Lower Respiratory Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-2-upper-and-lower-respiratory-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-29"
+}

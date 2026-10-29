@@ -1,0 +1,468 @@
+{
+  "id": "traumatic-brain-injury",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Lesión cerebral traumática (LCT)",
+    "aliases": [
+      "lesion cerebral",
+      "tbi",
+      "trauma craneal",
+      "conmocion",
+      "lesion cerebral traumática"
+    ],
+    "summary": "Daño súbito al cerebro causado por golpe, impacto o penetración del cráneo, que puede ser leve (conmoción) o grave con riesgo de coma y muerte.",
+    "key_points": [
+      "Clasificación según gravedad: leve, moderada, grave",
+      "Mecanismo cerrado vs. penetrante",
+      "Control de la presión intracraneal es prioridad",
+      "Intervenciones tempranas reducen morbilidad y mortalidad"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Impacto mecánico produce contusión y/o laceración cerebral",
+        "Daño primario genera edema, hemorragia y ruptura de la barrera hematoencefálica",
+        "Respuesta inflamatoria produce edema secundario y aumento de la presión intracraneal (PIC)",
+        "Disminución del flujo cerebral lleva a hipoxia y necrosis neuronal"
+      ],
+      "risk_factors": [
+        "Caídas (mayores de 65 años)",
+        "Accidentes de tránsito (jóvenes)",
+        "Lesiones deportivas y violencia (niños)",
+        "Explosiones y armas de fuego (penetrantes)"
+      ],
+      "signs_symptoms": [
+        "Pérdida de conciencia o amnesia post‑traumática",
+        "Vómitos, cefalea intensa y visión borrosa",
+        "Déficits neurológicos focales (paresia, habla)",
+        "Alteraciones del nivel de conciencia (Escala de Glasgow)"
+      ],
+      "diagnostics": [
+        "TC de cráneo: hemorragia subdural, contusión, fractura",
+        "ICP monitor: presión >20 mm Hg indica hipertensión intracraneal",
+        "CBC, glucosa, electrolitos (Na⁺, K⁺ en mEq/L) para detectar desequilibrios",
+        "ABG: PaO₂/FiO₂ para valorar oxigenación"
+      ],
+      "treatment": [
+        "Elevación de la cabecera 30° y control de la PIC (mannitol, solución salina hipertónica)",
+        "Ventilación mecánica con control de PaCO₂ (35‑40 mm Hg)",
+        "Anticonvulsivos profilácticos (p. ej. levetiracetam)",
+        "Neurocirugía: descompresión, evacuación de hematoma"
+      ],
+      "complications": [
+        "Hernia cerebral, hidrocefalia, infección meningea",
+        "Síndrome de apnea central, trombosis venosa profunda",
+        "Déficits cognitivos y trastornos del sueño",
+        "Secuelas motoras y sensoriales permanentes"
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia cada hora (Escala de Glasgow)",
+        "Monitorear PIC, MAP y signos de hipertensión intracraneal (pupilas, vómitos)",
+        "Mantener hidratación y equilibrio electrolítico; registrar ingesta y salida",
+        "Posicionar al paciente en decúbito supino con cabeza neutra; evitar estímulos dolorosos"
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de evitar esfuerzos que aumenten la PIC"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "caída",
+          "pérdida de conciencia",
+          "alteraciones motoras",
+          "confusión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener integridad cutánea sin lesiones durante la hospitalización",
+          "No presentar caídas ni traumatismos adicionales"
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en cama con barandillas elevadas y supervisión constante",
+            "rationale": "Previene caídas y protege la cabeza de nuevos traumatismos"
+          },
+          {
+            "action": "Evaluar nivel de conciencia y pupilas cada hora",
+            "rationale": "Detecta deterioro neurológico temprano"
+          },
+          {
+            "action": "Mantener el entorno libre de obstáculos y con iluminación adecuada",
+            "rationale": "Reduce riesgo de tropiezos y caídas"
+          },
+          {
+            "action": "Aplicar dispositivos de inmovilización según indicación médica",
+            "rationale": "Evita movimientos bruscos que puedan aumentar la presión intracraneal"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "aumento de la presión intracraneal",
+          "fatiga",
+          "dolor de cabeza"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades de la vida diaria",
+          "taquicardia al esfuerzo",
+          "aumento de la presión arterial durante actividad"
+        ],
+        "outcomes": [
+          "Participar en actividades de ADL con ayuda mínima sin aumento de la PIC",
+          "Mantener nivel de actividad tolerado sin signos de deterioro neurológico"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de reposo cada 30‑45 min de actividad ligera",
+            "rationale": "Previene el agotamiento y controla la presión intracraneal"
+          },
+          {
+            "action": "Monitorizar signos vitales y nivel de conciencia antes y después de la actividad",
+            "rationale": "Detecta intolerancia temprana al esfuerzo"
+          },
+          {
+            "action": "Enseñar técnicas de respiración profunda y relajación",
+            "rationale": "Reduce la respuesta simpática y la presión arterial"
+          },
+          {
+            "action": "Coordinar con fisioterapia para ejercicios de bajo impacto y progresivos",
+            "rationale": "Mejora la tolerancia física sin sobrecargar el cerebro"
+          },
+          {
+            "action": "Registrar nivel de fatiga usando escala de Borg y ajustar actividades",
+            "rationale": "Permite individualizar el plan de cuidados"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Traumatic brain injury (TBI)",
+    "aliases": [
+      "brain injury",
+      "tbi",
+      "head trauma",
+      "concussion",
+      "traumatic brain injury"
+    ],
+    "summary": "Sudden damage to the brain caused by a blow, impact, or penetration of the skull, which can be mild (concussion) or severe with risk of coma and death.",
+    "key_points": [
+      "Classification by severity: mild, moderate, severe",
+      "Closed vs. penetrating mechanism",
+      "Intracranial pressure control is a priority",
+      "Early interventions reduce morbidity and mortality"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mechanical impact produces contusion and/or cerebral laceration",
+        "Primary injury generates edema, hemorrhage, and blood‑brain barrier rupture",
+        "Inflammatory response produces secondary edema and increased intracranial pressure (ICP)",
+        "Reduced cerebral blood flow leads to hypoxia and neuronal necrosis"
+      ],
+      "risk_factors": [
+        "Falls (older adults >65 years)",
+        "Motor vehicle accidents (young adults)",
+        "Sports injuries and violence (children)",
+        "Explosions and firearms (penetrating injuries)"
+      ],
+      "signs_symptoms": [
+        "Loss of consciousness or post‑traumatic amnesia",
+        "Vomiting, severe headache, blurred vision",
+        "Focal neurological deficits (paresis, speech)",
+        "Altered level of consciousness (Glasgow Coma Scale)"
+      ],
+      "diagnostics": [
+        "Head CT: subdural hemorrhage, contusion, fracture",
+        "ICP monitor: pressure >20 mm Hg indicates intracranial hypertension",
+        "CBC, glucose, electrolytes (Na⁺, K⁺ in mEq/L) to detect imbalances",
+        "ABG: PaO₂/FiO₂ to assess oxygenation"
+      ],
+      "treatment": [
+        "Head elevation 30° and ICP control (mannitol, hypertonic saline)",
+        "Mechanical ventilation with PaCO₂ control (35‑40 mm Hg)",
+        "Prophylactic anticonvulsants (e.g., levetiracetam)",
+        "Neurosurgery: decompression, hematoma evacuation"
+      ],
+      "complications": [
+        "Brain herniation, hydrocephalus, meningitis",
+        "Central apnea syndrome, deep vein thrombosis",
+        "Cognitive deficits and sleep disorders",
+        "Permanent motor and sensory sequelae"
+      ],
+      "nursing_care": [
+        "Assess level of consciousness hourly (Glasgow Coma Scale)",
+        "Monitor ICP, MAP, and signs of intracranial hypertension (pupils, vomiting)",
+        "Maintain hydration and electrolyte balance; record intake and output",
+        "Position patient supine with neutral head; avoid painful stimuli"
+      ],
+      "patient_teaching": [
+        "Explain the importance of avoiding activities that increase ICP"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "fall",
+          "loss of consciousness",
+          "motor changes",
+          "confusion"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain skin integrity without lesions during hospitalization",
+          "No falls or additional trauma"
+        ],
+        "interventions": [
+          {
+            "action": "Place patient in bed with raised rails and constant supervision",
+            "rationale": "Prevents falls and protects the head from new trauma"
+          },
+          {
+            "action": "Assess level of consciousness and pupils hourly",
+            "rationale": "Detects early neurological deterioration"
+          },
+          {
+            "action": "Keep environment free of obstacles and with adequate lighting",
+            "rationale": "Reduces risk of tripping and falls"
+          },
+          {
+            "action": "Apply immobilization devices as ordered by the physician",
+            "rationale": "Prevents sudden movements that could increase intracranial pressure"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "increased intracranial pressure",
+          "fatigue",
+          "headache"
+        ],
+        "evidenced_by": [
+          "tiredness during activities of daily living",
+          "tachycardia with exertion",
+          "blood pressure rise during activity"
+        ],
+        "outcomes": [
+          "Participate in ADL activities with minimal assistance without ICP increase",
+          "Maintain tolerated activity level without signs of neurological decline"
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods every 30‑45 min of light activity",
+            "rationale": "Prevents exhaustion and controls intracranial pressure"
+          },
+          {
+            "action": "Monitor vital signs and level of consciousness before and after activity",
+            "rationale": "Detects early intolerance to exertion"
+          },
+          {
+            "action": "Teach deep breathing and relaxation techniques",
+            "rationale": "Reduces sympathetic response and blood pressure"
+          },
+          {
+            "action": "Coordinate with physical therapy for low‑impact, progressive exercises",
+            "rationale": "Improves physical tolerance without overloading the brain"
+          },
+          {
+            "action": "Record fatigue level using the Borg scale and adjust activities",
+            "rationale": "Allows individualized care planning"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "increased-intracranial-pressure",
+    "cerebral-edema",
+    "concussion",
+    "brain-herniation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Traumatic Brain Injury",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/traumaticbraininjury.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Lesión cerebral traumática",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/traumaticbraininjury.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acute Disorders of the Nervous System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-2-acute-disorders-of-the-nervous-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Neurological Injuries",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-9-neurological-injuries",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-29",
+  "factcheck": {
+    "checked": "2026-10-29",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 20,
+      "contradicted": 0,
+      "total": 34
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "More severe TBI can lead to serious physical and psychological symptoms, coma , and even death.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Symptoms of a TBI can be mild, moderate, or severe.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "A TBI can also happen when an object penetrates the skull.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "This is the most common cause in adults age 65 and older.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Motor vehicle crashes. This is the most common cause in young adults.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Some of the common causes of a penetrating injury include Being hit by a bullet or shrapnel Being hit by a weapon such as a hammer, knife, or baseball bat A head injury that causes a bone fragment to penetrate the skull Some accidents such as explosions, natural disasters, or other extreme events can cause both closed and penetrating TBI in the same person.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Physical symptoms may include headaches, double or blurred vision, seizure s, convulsions, tremors, nausea and vomiting, slurred speech and/or difficulty swallowing, muscle weakness, paralysis, balance and coordination issues, drainage in the ears or nose, and bowel and/or bladder control issues.",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Slurred speech Weakness or numbness in the arms and legs Loss of coordination Increased confusion, restlessness, or agitation How is traumatic brain injury (TBI) diagnosed?",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The Glasgow Coma Scale (GCS) can be used to assess the patient’s consciousness level.",
+        "source": 3
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Surgery to reduce additional damage to your brain, for example to Remove hematomas (clotted blood) Get rid of damaged or dead brain tissue Repair skull fractures Relieve pressure in the skull",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Cognitive and behavioral symptoms may include lack of consciousness, coma, disorientation and confusion, concentration issues, loss of memory, difficulty thinking, short attention span, mood changes, irritability, frustration, loss of inhibitions, and sleep disorders.",
+        "source": 3
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Nurses should help patients prepare for surgery and provide care after surgery, such as dressing patients’ wound(s), maintaining oxygenation, positioning the patient, monitoring ICP, and assessing with GCS.",
+        "source": 3
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Monitor and maintain fluid and electrolyte balance.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Avoiding or minimizing bowel straining, coughing, or bearing down will reduce the risk of increases in ICP.",
+        "source": 2
+      }
+    }
+  }
+}

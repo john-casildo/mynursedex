@@ -1,0 +1,447 @@
+{
+  "id": "autoimmunity",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Lupus eritematoso sistémico (LES)",
+    "aliases": [
+      "lupus",
+      "les",
+      "lupus eritematoso",
+      "autoimmune",
+      "enfermedad autoinmune"
+    ],
+    "summary": "Enfermedad crónica en la que el sistema inmunitario ataca tejidos propios, generando inflamación multisistémica.",
+    "key_points": [
+      "Presencia de anticuerpos antinucleares (ANA) y anti‑dsDNA.",
+      "Afecta piel, articulaciones, riñón, sistema nervioso y hematopoyesis.",
+      "Los brotes pueden ser precipitados por la exposición al sol y estrés.",
+      "El tratamiento combina antipalúdicos, corticoides e inmunosupresores."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Pérdida de tolerancia inmunológica → generación de autoanticuerpos.",
+        "Formación de complejos inmunes que se depositan en vasos y tejidos.",
+        "Activación del complemento y reclutamiento de células inflamatorias.",
+        "Daño tisular crónico con episodios de inflamación aguda (brotes)."
+      ],
+      "risk_factors": [
+        "Genética: alelos HLA‑DR2, HLA‑DR3.",
+        "Sexo femenino (9:1) y edad reproductiva.",
+        "Exposición a luz ultravioleta.",
+        "Infecciones virales que pueden desencadenar la respuesta autoinmune."
+      ],
+      "signs_symptoms": [
+        "Erupción malar fotosensible.",
+        "Artritis no erosiva de manos y muñecas.",
+        "Fatiga y fiebre baja intermitente.",
+        "Proteinuria y edema (nefritis lúpica)."
+      ],
+      "diagnostics": [
+        "ANA positivo (sensibilidad >95%).",
+        "Anti‑dsDNA y anti‑Sm específicos (correlación con actividad).",
+        "Complemento C3/C4 bajo durante brotes.",
+        "CBC: anemia hemolítica, leucopenia, trombocitopenia."
+      ],
+      "treatment": [
+        "Antipalúdico: hidroxicloroquina.",
+        "Corticoides sistémicos o tópicos según gravedad.",
+        "Inmunosupresores: azatioprina, micofenolato, ciclofosfamida.",
+        "Biológicos: belimumab para casos refractarios."
+      ],
+      "complications": [
+        "Nefritis lúpica → insuficiencia renal.",
+        "Trombosis arterial o venosa por antiphospholipidismo.",
+        "Daño neurológico (convulsiones, psicosis).",
+        "Osteoporosis por corticoides crónicos."
+      ],
+      "nursing_care": [
+        "Evaluar dolor articular, erupción y nivel de energía cada turno.",
+        "Monitorear presión arterial, peso y edema para detectar nefritis.",
+        "Controlar laboratorio: CBC, creatinina, proteinuria, complementos.",
+        "Administrar medicamentos según orden y observar efectos adversos.",
+        "Promover posición supina con almohadas para aliviar dolor articular."
+      ],
+      "patient_teaching": [
+        "Uso diario de protector solar SPF 30+ y ropa protectora.",
+        "Importancia de la adherencia a hidroxicloroquina y controles de laboratorio.",
+        "Reconocer signos de infección o brote (fiebre, aumento de dolor, erupción).",
+        "Evitar el tabaquismo y limitar la exposición a luz UV."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "inflamación sistémica",
+          "anemia hemolítica",
+          "uso prolongado de corticoides"
+        ],
+        "evidenced_by": [
+          "quejas de cansancio constante",
+          "disminución de la tolerancia a la actividad",
+          "hipotensión ortostática"
+        ],
+        "outcomes": [
+          "Nivel de energía mejorado a 7/10 en escala de 0‑10 dentro de 2 semanas",
+          "Participación en actividades de autocuidado sin ayuda en 3 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y patrones de sueño cada turno",
+            "rationale": "Permite identificar fluctuaciones y planificar descansos adecuados"
+          },
+          {
+            "action": "Fomentar actividades de bajo impacto (caminar 5‑10 min) y aumentar gradualmente",
+            "rationale": "Mejora la resistencia y reduce la sensación de fatiga"
+          },
+          {
+            "action": "Educar sobre nutrición rica en hierro y vitaminas del complejo B",
+            "rationale": "Previene anemia y apoya la producción de energía"
+          },
+          {
+            "action": "Coordinar con el médico la revisión de dosis de corticoides",
+            "rationale": "Reducir la dosis cuando sea posible disminuye la fatiga inducida por esteroides"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "inmunosupresión por corticoides",
+          "uso de azatioprina",
+          "leucopenia",
+          "exposición a ambientes con alta carga microbiana"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección (fiebre, leucocitosis) durante la hospitalización",
+          "Paciente identifica y reporta signos tempranos de infección en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear temperatura cada 4 h y CBC diario",
+            "rationale": "Detección precoz de fiebre o leucopenia"
+          },
+          {
+            "action": "Aplicar técnica aséptica al administrar medicamentos intravenosos",
+            "rationale": "Previene la introducción de patógenos"
+          },
+          {
+            "action": "Educar al paciente sobre higiene de manos y evitar multitudes durante brotes",
+            "rationale": "Reduce la exposición a agentes infecciosos"
+          },
+          {
+            "action": "Evaluar sitio de inserción de catéteres y cambiar apósitos según protocolo",
+            "rationale": "Previene infecciones locales y sistémicas"
+          },
+          {
+            "action": "Reforzar la adherencia a la profilaxis antibiótica si está prescrita",
+            "rationale": "Disminuye riesgo de infecciones oportunistas"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Systemic lupus erythematosus (SLE)",
+    "aliases": [
+      "lupus",
+      "sle",
+      "systemic lupus",
+      "autoimmune",
+      "autoimmune disease"
+    ],
+    "summary": "Chronic disease in which the immune system attacks the body's own tissues, causing multisystem inflammation.",
+    "key_points": [
+      "Presence of antinuclear antibodies (ANA) and anti‑dsDNA.",
+      "Affects skin, joints, kidney, nervous system, and hematopoiesis.",
+      "Flare-ups can be precipitated by sun exposure and stress.",
+      "Treatment combines antimalarials, corticosteroids, and immunosuppressants."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Loss of immune tolerance → generation of autoantibodies.",
+        "Formation of immune complexes that deposit in vessels and tissues.",
+        "Complement activation and recruitment of inflammatory cells.",
+        "Chronic tissue damage with episodes of acute inflammation (flare-ups)."
+      ],
+      "risk_factors": [
+        "Genetics: HLA‑DR2, HLA‑DR3 alleles.",
+        "Female sex (9:1) and reproductive age.",
+        "Exposure to ultraviolet light.",
+        "Viral infections that can trigger the autoimmune response."
+      ],
+      "signs_symptoms": [
+        "Photosensitive malar rash.",
+        "Non-erosive arthritis of hands and wrists.",
+        "Intermittent fatigue and low-grade fever.",
+        "Proteinuria and edema (lupus nephritis)."
+      ],
+      "diagnostics": [
+        "Positive ANA (sensitivity >95%).",
+        "Specific anti‑dsDNA and anti‑Sm (correlate with activity).",
+        "Low complement C3/C4 during flare-ups.",
+        "CBC: hemolytic anemia, leukopenia, thrombocytopenia."
+      ],
+      "treatment": [
+        "Antimalarial: hydroxychloroquine.",
+        "Systemic or topical corticosteroids depending on severity.",
+        "Immunosuppressants: azathioprine, mycophenolate, cyclophosphamide.",
+        "Biologics: belimumab for refractory cases."
+      ],
+      "complications": [
+        "Lupus nephritis → renal failure.",
+        "Arterial or venous thrombosis from antiphospholipid syndrome.",
+        "Neurologic damage (seizures, psychosis).",
+        "Osteoporosis from chronic corticosteroids."
+      ],
+      "nursing_care": [
+        "Assess joint pain, rash, and energy level each shift.",
+        "Monitor blood pressure, weight, and edema to detect nephritis.",
+        "Track labs: CBC, creatinine, proteinuria, complements.",
+        "Administer medications as ordered and monitor for adverse effects.",
+        "Promote supine position with pillows to relieve joint pain."
+      ],
+      "patient_teaching": [
+        "Daily use of SPF 30+ sunscreen and protective clothing.",
+        "Importance of adherence to hydroxychloroquine and lab monitoring.",
+        "Recognize signs of infection or flare (fever, increased pain, rash).",
+        "Avoid smoking and limit UV exposure."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "systemic inflammation",
+          "hemolytic anemia",
+          "prolonged corticosteroid use"
+        ],
+        "evidenced_by": [
+          "constant complaints of tiredness",
+          "reduced tolerance to activity",
+          "orthostatic hypotension"
+        ],
+        "outcomes": [
+          "Energy level improved to 7/10 on 0‑10 scale within 2 weeks",
+          "Participation in self‑care activities without assistance in 3 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and sleep patterns each shift",
+            "rationale": "Allows identification of fluctuations and planning of adequate rest"
+          },
+          {
+            "action": "Encourage low‑impact activities (walk 5‑10 min) and gradually increase",
+            "rationale": "Improves endurance and reduces fatigue sensation"
+          },
+          {
+            "action": "Educate on iron‑rich nutrition and B‑complex vitamins",
+            "rationale": "Prevents anemia and supports energy production"
+          },
+          {
+            "action": "Coordinate with physician to review corticosteroid dosage",
+            "rationale": "Reducing dose when possible decreases steroid‑induced fatigue"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "immunosuppression from corticosteroids",
+          "use of azathioprine",
+          "leukopenia",
+          "exposure to high‑microbial‑load environments"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection (fever, leukocytosis) during hospitalization",
+          "Patient identifies and reports early signs of infection within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor temperature every 4 h and daily CBC",
+            "rationale": "Early detection of fever or leukopenia"
+          },
+          {
+            "action": "Apply aseptic technique when administering IV medications",
+            "rationale": "Prevents introduction of pathogens"
+          },
+          {
+            "action": "Educate patient on hand hygiene and avoiding crowds during flare-ups",
+            "rationale": "Reduces exposure to infectious agents"
+          },
+          {
+            "action": "Assess catheter insertion sites and change dressings per protocol",
+            "rationale": "Prevents local and systemic infections"
+          },
+          {
+            "action": "Reinforce adherence to antibiotic prophylaxis if prescribed",
+            "rationale": "Reduces risk of opportunistic infections"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "autoimmune-disease",
+    "systemic-lupus-erythematosus",
+    "immune-complex-deposition",
+    "renal-involvement",
+    "photosensitivity"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Autoimmunity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-2-autoimmunity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-29",
+  "factcheck": {
+    "checked": "2026-10-29",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Multiple Systems Lupus With this disorder, the immune system attacks its own tissues, causing widespread inflammation and tissue damage affecting the joints, skin, kidneys, brain, lungs, and blood vessels.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Multiple Systems Lupus With this disorder, the immune system attacks its own tissues, causing widespread inflammation and tissue damage affecting the joints, skin, kidneys, brain, lungs, and blood vessels.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Recall that T-helper cells stimulate B cells to produce autoantibodies, and cytotoxic T cells kill or d",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The autoantibodies, a critical diagnostic finding for autoimmune disease, form immune complexes that deposit within tissues and activate the complement system, which produces inflammation .",
+        "source": 0
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

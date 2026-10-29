@@ -1,0 +1,472 @@
+{
+  "id": "dementia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Demencia",
+    "aliases": [
+      "demencia",
+      "dementia",
+      "cognición",
+      "memoria",
+      "alzheimer",
+      "cuerpo de lewy"
+    ],
+    "summary": "Pérdida progresiva de funciones mentales que interfiere con la vida diaria, causada por enfermedades neurodegenerativas.",
+    "key_points": [
+      "Afecta memoria, lenguaje, juicio y habilidades visuoespaciales.",
+      "Alzheimer es la forma más frecuente; se caracteriza por placas de beta‑amiloide y ovillos neurofibrilares.",
+      "El diagnóstico combina historia clínica, pruebas cognitivas (MMSE) y neuroimagen.",
+      "No hay cura; el manejo se centra en retardar la progresión y mantener la calidad de vida.",
+      "Riesgo elevado de caídas, desnutrición y deterioro de la integridad cutánea."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Acumulación de beta‑amiloide forma placas extracelulares que alteran la transmisión sináptica.",
+        "Ovillos de proteína tau provocan neurofibrillas que destruyen la estructura neuronal.",
+        "Pérdida progresiva de neuronas y sinapsis reduce la capacidad cognitiva.",
+        "En demencia vascular, infartos cerebrales múltiples causan daño focal y deterioro cognitivo."
+      ],
+      "risk_factors": [
+        "Edad avanzada (≥65 años).",
+        "Historia familiar de enfermedad de Alzheimer.",
+        "Factores cardiovasculares: hipertensión, diabetes, tabaquismo.",
+        "Bajo nivel educativo y aislamiento social."
+      ],
+      "signs_symptoms": [
+        "Pérdida de memoria a corto plazo y dificultad para recordar eventos recientes.",
+        "Desorientación en tiempo y espacio.",
+        "Alteraciones del lenguaje (anomia, discurso incoherente).",
+        "Cambios de personalidad, apatía o irritabilidad.",
+        "Dificultad para realizar actividades de la vida diaria."
+      ],
+      "diagnostics": [
+        "Mini‑Mental State Examination (MMSE) < 24 sugiere deterioro cognitivo.",
+        "Escala de Alzheimer (ADAS‑Cog) para seguimiento.",
+        "Tomografía axial computarizada (TAC) o resonancia magnética (RM) muestra atrofia cortical y ventrículos dilatados.",
+        "Exámenes de laboratorio: glucosa, TSH, vitamina B12 para descartar causas reversibles."
+      ],
+      "treatment": [
+        "Inhibidores de la acetilcolinesterasa: donepezilo, rivastigmina.",
+        "Antagonista NMDA: memantina para enfermedad moderada‑grave.",
+        "Control de comorbilidades: antihipertensivos, manejo de diabetes.",
+        "Terapias no farmacológicas: estimulación cognitiva, ejercicio físico, apoyo familiar."
+      ],
+      "complications": [
+        "Caídas y lesiones por desorientación.",
+        "Desnutrición y pérdida de peso por olvido de comidas.",
+        "Infecciones respiratorias por aspiración.",
+        "Deterioro de la integridad cutánea por inmovilidad."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de orientación y capacidad funcional cada turno.",
+        "Mantener ambiente seguro: eliminar obstáculos, usar pasamanos.",
+        "Promover la hidratación y alimentación frecuente con alimentos fáciles de ingerir.",
+        "Registrar cambios en comportamiento y cognición para el equipo médico.",
+        "Facilitar la comunicación usando preguntas cerradas y recordatorios visuales."
+      ],
+      "patient_teaching": [
+        "Instruir a la familia sobre la importancia de rutinas estructuradas.",
+        "Enseñar técnicas de seguridad en el hogar (iluminación, suelos antideslizantes).",
+        "Promover actividades cognitivas diarias (puzzles, lectura).",
+        "Explicar la necesidad de adherencia a la medicación y visitas médicas regulares."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Confusión aguda",
+        "type": "actual",
+        "related_to": [
+          "pérdida de memoria",
+          "desorientación",
+          "deterioro cognitivo"
+        ],
+        "evidenced_by": [
+          "desorientación temporal y espacial",
+          "incapacidad para seguir instrucciones",
+          "olvido de eventos recientes"
+        ],
+        "outcomes": [
+          "Seguridad del paciente: permanecer sin episodios de desorientación que pongan en riesgo la integridad física durante la estancia.",
+          "Conocimiento: el paciente o cuidador demostrará comprensión de estrategias para reducir la confusión en un 80%."
+        ],
+        "interventions": [
+          {
+            "action": "Reorientar al paciente cada hora usando reloj, calendario y preguntas simples.",
+            "rationale": "Refuerza la orientación temporal y espacial, reduciendo la ansiedad y el riesgo de caídas."
+          },
+          {
+            "action": "Mantener un ambiente tranquilo con ruido y luces reducidas.",
+            "rationale": "Minimiza estímulos que pueden exacerbar la desorientación."
+          },
+          {
+            "action": "Proveer una rutina estructurada y usar etiquetas visuales en objetos cotidianos.",
+            "rationale": "Facilita la comprensión y la independencia en actividades diarias."
+          },
+          {
+            "action": "Evaluar signos vitales y glucemia antes de cambios de medicación.",
+            "rationale": "Descarta causas fisiológicas de la confusión como hipoglucemia o hipotensión."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "desorientación",
+          "pérdida de equilibrio",
+          "cognición deteriorada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad del paciente: no presentar caídas ni lesiones durante la hospitalización.",
+          "Movilidad: mantener la capacidad de movilizarse de forma segura con asistencia mínima."
+        ],
+        "interventions": [
+          {
+            "action": "Instalar barandillas en la cama y en el baño.",
+            "rationale": "Previene caídas al levantarse o al usar el baño."
+          },
+          {
+            "action": "Realizar evaluaciones de riesgo de caída al ingreso y cada 24 h.",
+            "rationale": "Identifica cambios en el estado cognitivo o físico que aumenten el riesgo."
+          },
+          {
+            "action": "Asegurar que el paciente use calzado antideslizante y ropa cómoda.",
+            "rationale": "Mejora la estabilidad al caminar y reduce el riesgo de resbalones."
+          },
+          {
+            "action": "Supervisar la ingesta de líquidos y ofrecer asistencia para ir al baño.",
+            "rationale": "Evita urgencias que puedan provocar intentos de levantarse sin ayuda."
+          },
+          {
+            "action": "Educar al cuidador sobre técnicas de transferencia segura.",
+            "rationale": "Reduce la probabilidad de lesiones durante la movilización."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Dementia",
+    "aliases": [
+      "dementia",
+      "cognition",
+      "memory",
+      "alzheimer",
+      "lewy body"
+    ],
+    "summary": "Progressive loss of mental functions that interferes with daily life, caused by neurodegenerative diseases.",
+    "key_points": [
+      "Affects memory, language, judgment, and visuospatial skills.",
+      "Alzheimer is the most common form; characterized by beta‑amyloid plaques and neurofibrillary tangles.",
+      "Diagnosis combines medical history, cognitive tests (MMSE), and neuroimaging.",
+      "No cure; management focuses on slowing progression and maintaining quality of life.",
+      "High risk of falls, malnutrition, and skin integrity deterioration."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Accumulation of beta‑amyloid forms extracellular plaques that disrupt synaptic transmission.",
+        "Tau protein tangles create neurofibrils that destroy neuronal structure.",
+        "Progressive loss of neurons and synapses reduces cognitive capacity.",
+        "In vascular dementia, multiple cerebral infarcts cause focal damage and cognitive decline."
+      ],
+      "risk_factors": [
+        "Advanced age (≥65 years).",
+        "Family history of Alzheimer disease.",
+        "Cardiovascular factors: hypertension, diabetes, smoking.",
+        "Low educational level and social isolation."
+      ],
+      "signs_symptoms": [
+        "Short‑term memory loss and difficulty recalling recent events.",
+        "Disorientation in time and space.",
+        "Language changes (anomia, incoherent speech).",
+        "Personality changes, apathy, or irritability.",
+        "Difficulty performing activities of daily living."
+      ],
+      "diagnostics": [
+        "Mini‑Mental State Examination (MMSE) < 24 suggests cognitive decline.",
+        "Alzheimer’s Disease Assessment Scale‑Cognitive (ADAS‑Cog) for monitoring.",
+        "Computed tomography (CT) or magnetic resonance imaging (MRI) shows cortical atrophy and enlarged ventricles.",
+        "Laboratory tests: glucose, TSH, vitamin B12 to rule out reversible causes."
+      ],
+      "treatment": [
+        "Acetylcholinesterase inhibitors: donepezil, rivastigmine.",
+        "NMDA antagonist: memantine for moderate‑to‑severe disease.",
+        "Control of comorbidities: antihypertensives, diabetes management.",
+        "Non‑pharmacologic therapies: cognitive stimulation, physical exercise, family support."
+      ],
+      "complications": [
+        "Falls and injuries from disorientation.",
+        "Malnutrition and weight loss from forgetting meals.",
+        "Respiratory infections from aspiration.",
+        "Skin integrity deterioration from immobility."
+      ],
+      "nursing_care": [
+        "Assess orientation level and functional ability each shift.",
+        "Maintain a safe environment: remove obstacles, use handrails.",
+        "Promote hydration and frequent meals with easy‑to‑eat foods.",
+        "Document changes in behavior and cognition for the medical team.",
+        "Facilitate communication using closed questions and visual reminders."
+      ],
+      "patient_teaching": [
+        "Educate family on the importance of structured routines.",
+        "Teach home safety techniques (lighting, non‑slip flooring).",
+        "Encourage daily cognitive activities (puzzles, reading).",
+        "Explain the need for medication adherence and regular medical visits."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute confusion",
+        "type": "actual",
+        "related_to": [
+          "memory loss",
+          "disorientation",
+          "cognitive decline"
+        ],
+        "evidenced_by": [
+          "temporal and spatial disorientation",
+          "inability to follow instructions",
+          "forgetting recent events"
+        ],
+        "outcomes": [
+          "Patient safety: remain free of disorientation episodes that threaten physical integrity during the stay.",
+          "Knowledge: the patient or caregiver will demonstrate understanding of strategies to reduce confusion by 80%."
+        ],
+        "interventions": [
+          {
+            "action": "Reorient the patient hourly using a clock, calendar, and simple questions.",
+            "rationale": "Reinforces temporal and spatial orientation, reducing anxiety and fall risk."
+          },
+          {
+            "action": "Maintain a calm environment with reduced noise and lighting.",
+            "rationale": "Minimizes stimuli that may exacerbate disorientation."
+          },
+          {
+            "action": "Provide a structured routine and use visual labels on everyday objects.",
+            "rationale": "Facilitates understanding and independence in daily activities."
+          },
+          {
+            "action": "Check vital signs and blood glucose before medication changes.",
+            "rationale": "Rules out physiological causes of confusion such as hypoglycemia or hypotension."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "disorientation",
+          "balance loss",
+          "impaired cognition"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient safety: no falls or injuries during hospitalization.",
+          "Mobility: maintain the ability to mobilize safely with minimal assistance."
+        ],
+        "interventions": [
+          {
+            "action": "Install railings on the bed and in the bathroom.",
+            "rationale": "Prevents falls when getting up or using the bathroom."
+          },
+          {
+            "action": "Conduct fall risk assessments upon admission and every 24 h.",
+            "rationale": "Identifies changes in cognitive or physical status that increase risk."
+          },
+          {
+            "action": "Ensure the patient wears non‑slip footwear and comfortable clothing.",
+            "rationale": "Improves stability while walking and reduces slip risk."
+          },
+          {
+            "action": "Monitor fluid intake and offer assistance to use the bathroom.",
+            "rationale": "Prevents emergencies that may prompt unassisted attempts to stand."
+          },
+          {
+            "action": "Educate the caregiver on safe transfer techniques.",
+            "rationale": "Reduces the likelihood of injury during mobilization."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "alzheimer-disease",
+    "vascular-dementia",
+    "lewy-body-dementia",
+    "cognitive-impairment",
+    "falls"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Demencia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/dementia.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Health Risks for Older Adults",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/41-3-health-risks-for-older-adults",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Recognizing Common Neurological Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/26-3-recognizing-common-neurological-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-29",
+  "factcheck": {
+    "checked": "2026-10-29",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Poor nutrition can contribute to health challenges for older adults, including the following (Norman et al., 2021): frailty fatigue increased fall risk worsening dementia increased fracture risk reduced skin integrity poor immune function",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "One in 10 Americans age 65 years or older has Alzheimer disease (Alzheimer’s Association, 2021).",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Contributing factors to the cause of strokes include diabetes, smoking, hypertension, dyslipidemia, obesity, obstructive sleep apnea, sedentary lifestyle, excess alcohol consumption, anticoagulant use, drug use, vasculitis, a high-fat diet, and heart disorders that predispose an individual to emboli, such as atrial fibrillation or myocardial infarction.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Behavioral and psychiatric symptoms include poor attention, irritability that can lead to outbursts and aggression, impulsivity, apathy later in the disease, depression, suicidal ideation, psychoses in later stages, lack of awareness, and a lack of insight into the symptoms the ind",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
