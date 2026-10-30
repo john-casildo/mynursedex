@@ -1,0 +1,460 @@
+{
+  "id": "autoantibodies",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad de Addison (EA)",
+    "aliases": [
+      "addison",
+      "enfermedad de addison",
+      "insuficiencia adrenal",
+      "insuficiencia suprarrenal"
+    ],
+    "summary": "Trastorno endocrino por destrucción autoinmune de la corteza suprarrenal que produce deficiencia de glucocorticoides y mineralocorticoides.",
+    "key_points": [
+      "Deficiencia de cortisol y aldosterona causa hipotensión y desequilibrio electrolítico.",
+      "Autoanticuerpos contra antígenos suprarrenales son hallazgos diagnósticos.",
+      "El tratamiento de por vida incluye glucocorticoides y mineralocorticoides.",
+      "El estrés fisiológico requiere dosis de rescate para evitar crisis adrenal."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los linfocitos T‑helper activan B para producir autoanticuerpos contra la corteza adrenal.",
+        "Los autoanticuerpos y la respuesta de complemento dañan tejido adrenal.",
+        "La pérdida de zona glomerulosa reduce aldosterona → retención de K+ y pérdida de Na+.",
+        "La pérdida de zona fasciculata reduce cortisol → hipoglucemia y respuesta inadecuada al estrés."
+      ],
+      "risk_factors": [
+        "Enfermedades autoinmunes asociadas (tiroiditis, vitíligo).",
+        "Historia familiar de trastornos autoinmunes.",
+        "Infecciones crónicas (tuberculosis) y metástasis suprarrenales.",
+        "Uso prolongado de inhibidores de la síntesis de cortisol."
+      ],
+      "signs_symptoms": [
+        "Hipotensión ortostática y presión arterial < 100/60 mmHg.",
+        "Hipercalemia (K+ > 5.0 mEq/L) y hiponatremia (Na+ < 135 mEq/L).",
+        "Pérdida de peso, debilidad muscular y fatiga progresiva.",
+        "Hiperpigmentación cutánea en áreas expuestas y pliegues."
+      ],
+      "diagnostics": [
+        "Cortisol plasmático basal < 5 µg/dL (variación según laboratorio).",
+        "ACTH elevado > 2× límite superior normal.",
+        "Prueba de estimulación con ACTH (cosintropina) muestra respuesta < 18 µg/dL.",
+        "Detección de autoanticuerpos anti‑21‑hidroxilasa o anti‑adrenocorticotropina."
+      ],
+      "treatment": [
+        "Glucocorticoide de reemplazo (hidrocortisona) por vía oral.",
+        "Mineralocorticoide (fludrocortisona) para controlar Na+/K+.",
+        "Educación para dosis de rescate en situaciones de estrés o enfermedad.",
+        "Portador de identificación médica de emergencia."
+      ],
+      "complications": [
+        "Crisis adrenal aguda: hipotensión severa, shock y coma.",
+        "Desequilibrio electrolítico grave (hiperkalemia, hiponatremia).",
+        "Hipoglucemia recurrente.",
+        "Osteoporosis por uso crónico de glucocorticoides."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial cada 4 h y signos de hipotensión.",
+        "Registrar ingesta y eliminación; mantener balance hídrico positivo.",
+        "Controlar electrolitos (Na+, K+) y glucosa cada 24 h.",
+        "Administrar hidrocortisona según prescripción y dosis de rescate cuando sea necesario.",
+        "Evaluar nivel de energía y tolerancia a la actividad."
+      ],
+      "patient_teaching": [
+        "Tomar medicamentos a la misma hora todos los días y no omitir dosis.",
+        "Reconocer signos de crisis adrenal (mareos, náuseas, debilidad) y usar dosis de rescate.",
+        "Incrementar ingesta de sal bajo indicación médica para evitar hiponatremia.",
+        "Llevar identificación médica y lista de medicamentos en todo momento.",
+        "Informar al médico antes de iniciar cualquier vacuna o cirugía."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "Pérdida de aldosterona",
+          "Hipotensión ortostática",
+          "Vómitos o diarrea",
+          "Deshidratación"
+        ],
+        "evidenced_by": [
+          "Presión arterial < 100/60 mmHg",
+          "Tono de piel seco",
+          "Mucosas secas",
+          "Disminución del gasto urinario"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta ≥ 2000 mL/día",
+          "Presión arterial: mantener ≥ 100/60 mmHg en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y eliminación cada 8 h y comparar con objetivo de 30 mL/kg/día.",
+            "rationale": "Permite detectar déficit de líquidos y ajustar reposición."
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 4 h.",
+            "rationale": "Identifica hipotensión temprana y riesgo de choque."
+          },
+          {
+            "action": "Administrar fludrocortisona según prescripción y observar signos de retención de sodio.",
+            "rationale": "Reemplaza la aldosterona y ayuda a mantener el volumen intravascular."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la ingesta de líquidos y la señal de alerta de deshidratación.",
+            "rationale": "Promueve autocuidado y prevención de complicaciones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Deficiencia de aldosterona",
+          "Pérdida de sodio",
+          "Retención de potasio"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sodio sérico: mantener ≥ 135 mEq/L",
+          "Potasio sérico: mantener ≤ 5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel electrolítico (Na+, K+, Cl-) cada 24 h.",
+            "rationale": "Detecta alteraciones tempranas y guía el manejo."
+          },
+          {
+            "action": "Evaluar edema, turgencia cutánea y signos de hiperkalemia (palpitaciones, debilidad).",
+            "rationale": "Permite identificar complicaciones clínicas del desequilibrio."
+          },
+          {
+            "action": "Ajustar la dosis de fludrocortisona o recomendar aumento de ingesta de sal según resultados.",
+            "rationale": "Corrige la pérdida de sodio y controla la hiperkalemia."
+          },
+          {
+            "action": "Enseñar al paciente a reconocer síntomas de hiperkalemia y a reportarlos inmediatamente.",
+            "rationale": "Facilita la intervención temprana y previene arritmias."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Addison's disease (AD)",
+    "aliases": [
+      "addison",
+      "addison disease",
+      "adrenal insufficiency",
+      "primary adrenal insufficiency"
+    ],
+    "summary": "Endocrine disorder caused by autoimmune destruction of the adrenal cortex resulting in glucocorticoid and mineralocorticoid deficiency.",
+    "key_points": [
+      "Cortisol and aldosterone deficiency causes hypotension and electrolyte imbalance.",
+      "Autoantibodies against adrenal antigens are diagnostic findings.",
+      "Lifetime treatment includes glucocorticoids and mineralocorticoids.",
+      "Physiologic stress requires rescue doses to prevent adrenal crisis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "T‑helper lymphocytes activate B cells to produce autoantibodies against the adrenal cortex.",
+        "Autoantibodies and complement activation damage adrenal tissue.",
+        "Loss of the glomerulosa zone reduces aldosterone → potassium retention and sodium loss.",
+        "Loss of the fasciculata zone reduces cortisol → hypoglycemia and inadequate stress response."
+      ],
+      "risk_factors": [
+        "Associated autoimmune diseases (thyroiditis, vitiligo).",
+        "Family history of autoimmune disorders.",
+        "Chronic infections (tuberculosis) and adrenal metastases.",
+        "Long‑term use of cortisol synthesis inhibitors."
+      ],
+      "signs_symptoms": [
+        "Orthostatic hypotension and blood pressure < 100/60 mmHg.",
+        "Hyperkalemia (K+ > 5.0 mEq/L) and hyponatremia (Na+ < 135 mEq/L).",
+        "Weight loss, muscle weakness, and progressive fatigue.",
+        "Hyperpigmentation of exposed skin and skin folds."
+      ],
+      "diagnostics": [
+        "Baseline plasma cortisol < 5 µg/dL (laboratory dependent).",
+        "Elevated ACTH > 2× upper normal limit.",
+        "ACTH stimulation test (cosyntropin) shows response < 18 µg/dL.",
+        "Detection of anti‑21‑hydroxylase or anti‑adrenocorticotropic hormone antibodies."
+      ],
+      "treatment": [
+        "Oral glucocorticoid replacement (hydrocortisone).",
+        "Mineralocorticoid (fludrocortisone) to control Na+/K+.",
+        "Education on rescue doses during stress or illness.",
+        "Carry emergency medical identification."
+      ],
+      "complications": [
+        "Acute adrenal crisis: severe hypotension, shock, and coma.",
+        "Severe electrolyte imbalance (hyperkalemia, hyponatremia).",
+        "Recurrent hypoglycemia.",
+        "Osteoporosis from chronic glucocorticoid use."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure every 4 h and watch for hypotension signs.",
+        "Record intake and output; maintain positive fluid balance.",
+        "Check electrolytes (Na+, K+) and glucose every 24 h.",
+        "Administer hydrocortisone per prescription and rescue doses as needed.",
+        "Assess energy level and activity tolerance."
+      ],
+      "patient_teaching": [
+        "Take medications at the same time each day and do not miss doses.",
+        "Recognize signs of adrenal crisis (dizziness, nausea, weakness) and use rescue dose.",
+        "Increase salt intake as directed to prevent hyponatremia.",
+        "Carry medical identification and medication list at all times.",
+        "Inform the physician before any vaccine or surgery."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "Aldosterone loss",
+          "Orthostatic hypotension",
+          "Vomiting or diarrhea",
+          "Dehydration"
+        ],
+        "evidenced_by": [
+          "Blood pressure < 100/60 mmHg",
+          "Dry skin tone",
+          "Dry mucous membranes",
+          "Reduced urine output"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake ≥ 2000 mL/day",
+          "Blood pressure: maintain ≥ 100/60 mmHg within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 8 h and compare to goal of 30 mL/kg/day.",
+            "rationale": "Detects fluid deficit and guides replacement."
+          },
+          {
+            "action": "Monitor blood pressure and heart rate every 4 h.",
+            "rationale": "Identifies early hypotension and shock risk."
+          },
+          {
+            "action": "Administer fludrocortisone per prescription and observe sodium retention signs.",
+            "rationale": "Replaces aldosterone and helps maintain intravascular volume."
+          },
+          {
+            "action": "Educate patient on importance of fluid intake and dehydration warning signs.",
+            "rationale": "Promotes self‑care and complication prevention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Aldosterone deficiency",
+          "Sodium loss",
+          "Potassium retention"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum sodium: maintain ≥ 135 mEq/L",
+          "Serum potassium: maintain ≤ 5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel (Na+, K+, Cl-) every 24 h.",
+            "rationale": "Detects early changes and guides management."
+          },
+          {
+            "action": "Assess edema, skin turgor, and hyperkalemia signs (palpitations, weakness).",
+            "rationale": "Identifies clinical complications of imbalance."
+          },
+          {
+            "action": "Adjust fludrocortisone dose or recommend increased salt intake based on results.",
+            "rationale": "Corrects sodium loss and controls hyperkalemia."
+          },
+          {
+            "action": "Teach patient to recognize hyperkalemia symptoms and report immediately.",
+            "rationale": "Facilitates early intervention and prevents arrhythmias."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "autoimmune-adrenalitis",
+    "primary-adrenal-insufficiency",
+    "hypotension",
+    "hyperkalemia",
+    "adrenal-crisis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Addison Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/addisondisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Autoimmunity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-2-autoimmunity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Connective Tissue Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/13-5-connective-tissue-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-30",
+  "factcheck": {
+    "checked": "2026-10-30",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The autoantibodies, a critical diagnostic finding for autoimmune disease, form immune complexes that deposit within tissues and activate the complement system, which produces inflammation .",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Symptoms include: Weight loss Muscle weakness Fatigue that gets worse over time Low blood pressure Patchy or dark skin Lab tests can confirm that you have Addison disease.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "If you have Addison disease, you should carry an emergency ID.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "If you have Addison disease, you should carry an emergency ID.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

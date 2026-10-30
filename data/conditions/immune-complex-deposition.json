@@ -1,0 +1,481 @@
+{
+  "id": "immune-complex-deposition",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Depósito de complejos inmunes (hipersensibilidad tipo III)",
+    "aliases": [
+      "complejos inmunes",
+      "hipersensibilidad tipo iii",
+      "deposito inmunologico",
+      "vasculitis inmunocompleja",
+      "enfermedad autoinmune"
+    ],
+    "summary": "Formación de complejos antígeno‑anticuerpo que se depositan en vasos y tejidos, activando complemento y provocando inflamación.",
+    "key_points": [
+      "Mecanismo de hipersensibilidad tipo III",
+      "Activación del complemento genera quimiotaxis de neutrófilos",
+      "Daño vascular produce edema, dolor y posible necrosis",
+      "Se asocia a enfermedades como lupus eritematoso sistémico, vasculitis y serum sickness",
+      "El diagnóstico combina clínica y pruebas de laboratorio (C3, C4, anticuerpos)"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Antígeno + anticuerpo forman complejos inmunes de tamaño intermedio",
+        "Los complejos circulan y se depositan en paredes capilares o glomerulares",
+        "Activan la vía clásica del complemento (C1‑C4)",
+        "C5a atrae neutrófilos que liberan enzimas y radicales libres",
+        "Daño endotelial produce edema, hemorragia y necrosis tisular"
+      ],
+      "risk_factors": [
+        "Infecciones crónicas (streptococo, hepatitis B)",
+        "Enfermedades autoinmunes (LUP, artritis reumatoide)",
+        "Exposición a antígenos exógenos (serum, fármacos)",
+        "Deficiencia de factores reguladores del complemento"
+      ],
+      "signs_symptoms": [
+        "Erupción cutánea palpable o purpura",
+        "Artralgias y mialgias",
+        "Edema localizado o generalizado",
+        "Fiebre de bajo grado",
+        "Dolor abdominal o hematuria si afecta riñón"
+      ],
+      "diagnostics": [
+        "Biopsia de piel/riñón: depósito granular de IgG y C3 en inmunofluorescencia",
+        "Niveles bajos de C3 y C4 en sangre",
+        "Pruebas de anticuerpos específicos (ANA, anti‑DNA, anti‑GBM)",
+        "Exámenes de función renal: creatinina y proteinuria"
+      ],
+      "treatment": [
+        "Corticoides sistémicos (prednisona) para reducir inflamación",
+        "Inmunosupresores (azatioprina, ciclofosfamida) en casos graves",
+        "Plasmaféresis para eliminar complejos circulantes",
+        "Antihistamínicos y AINES para manejo sintomático"
+      ],
+      "complications": [
+        "Insuficiencia renal aguda o crónica",
+        "Vasculitis sistémica con necrosis cutánea",
+        "Trombosis por daño endotelial",
+        "Hipertensión secundaria a daño renal"
+      ],
+      "nursing_care": [
+        "Evaluar dolor, edema y cambios cutáneos cada 4 h",
+        "Monitorear signos vitales, especialmente presión arterial y temperatura",
+        "Controlar ingreso de líquidos y balance hídrico",
+        "Observar resultados de laboratorio (C3, C4, creatinina) y notificar alteraciones",
+        "Mantener posición cómoda que reduzca presión sobre áreas inflamadas"
+      ],
+      "patient_teaching": [
+        "Explicar la naturaleza de la enfermedad y la importancia de la adherencia al tratamiento",
+        "Enseñar a reconocer signos de empeoramiento: aumento de edema, hematuria, fiebre alta",
+        "Instruir sobre la toma correcta de medicamentos y efectos secundarios comunes",
+        "Promover hidratación adecuada y dieta baja en sodio para proteger la función renal",
+        "Fomentar evitar exposición a agentes desencadenantes (fármacos nuevos, infecciones)"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "Inflamación tisular por depósito de complejos inmunes"
+        ],
+        "evidenced_by": [
+          "Queja de dolor",
+          "Rubor e hinchazón en zona afectada",
+          "Sensibilidad a la palpación"
+        ],
+        "outcomes": [
+          "Control del dolor: nivel de dolor ≤3/10 en escala numérica en 48 h",
+          "Reducción de inflamación: disminución del edema visible en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar intensidad y localización del dolor cada 4 h usando escala numérica",
+            "rationale": "Permite monitorear la respuesta al tratamiento y ajustar intervenciones"
+          },
+          {
+            "action": "Administrar analgésicos según prescripción y registrar efecto",
+            "rationale": "Alivio del dolor facilita la movilidad y reduce el estrés fisiológico"
+          },
+          {
+            "action": "Aplicar compresas frías o tibias según indicación para disminuir inflamación",
+            "rationale": "El frío vasoconstrictor reduce edema; el calor mejora la circulación cuando sea apropiado"
+          },
+          {
+            "action": "Enseñar técnicas de relajación y respiración profunda",
+            "rationale": "Disminuye la percepción del dolor mediante modulación del sistema nervioso"
+          },
+          {
+            "action": "Promover posición de reposo con elevación del miembro afectado",
+            "rationale": "Reduce la presión capilar y ayuda a controlar el edema"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "Depósito de complejos inmunes con daño cutáneo",
+          "Uso de inmunosupresores",
+          "Vasculitis con ulceración"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección (fiebre, pus, aumento de dolor) durante la hospitalización",
+          "Cultivos negativos si se realizan pruebas de control"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar higiene de la piel y de sitios de inserción de catéteres con técnica aséptica",
+            "rationale": "Previene colonización bacteriana en áreas vulnerables"
+          },
+          {
+            "action": "Monitorear temperatura corporal cada 4 h y reportar fiebre >38 °C",
+            "rationale": "Detección temprana de infección permite intervención oportuna"
+          },
+          {
+            "action": "Evaluar integridad de la piel y registrar cualquier ruptura o exudado",
+            "rationale": "Las úlceras son puertas de entrada para microorganismos"
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección y la importancia de reportarlos inmediatamente",
+            "rationale": "Facilita la detección precoz y el tratamiento rápido"
+          },
+          {
+            "action": "Mantener una nutrición adecuada y control de glucosa en pacientes con corticoides",
+            "rationale": "Mejora la respuesta inmune y reduce el riesgo de infecciones"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Immune complex deposition (type III hypersensitivity)",
+    "aliases": [
+      "immune complexes",
+      "type iii hypersensitivity",
+      "immune deposition",
+      "complex vasculitis",
+      "autoimmune disease"
+    ],
+    "summary": "Formation of antigen‑antibody complexes that deposit in vessels and tissues, activating complement and causing inflammation.",
+    "key_points": [
+      "Type III hypersensitivity mechanism",
+      "Complement activation generates neutrophil chemotaxis",
+      "Vascular damage causes edema, pain and possible necrosis",
+      "Associated with diseases such as systemic lupus erythematosus, vasculitis and serum sickness",
+      "Diagnosis combines clinical presentation and laboratory tests (C3, C4, antibodies)"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Antigen + antibody form intermediate‑sized immune complexes",
+        "The complexes circulate and deposit in capillary or glomerular walls",
+        "They activate the classical complement pathway (C1‑C4)",
+        "C5a attracts neutrophils that release enzymes and free radicals",
+        "Endothelial damage produces edema, hemorrhage and tissue necrosis"
+      ],
+      "risk_factors": [
+        "Chronic infections (streptococcal, hepatitis B)",
+        "Autoimmune diseases (SLE, rheumatoid arthritis)",
+        "Exposure to exogenous antigens (serum, drugs)",
+        "Deficiency of complement regulatory factors"
+      ],
+      "signs_symptoms": [
+        "Palpable rash or purpura",
+        "Arthralgia and myalgia",
+        "Localized or generalized edema",
+        "Low‑grade fever",
+        "Abdominal pain or hematuria if kidneys are involved"
+      ],
+      "diagnostics": [
+        "Skin/renal biopsy: granular IgG and C3 deposits on immunofluorescence",
+        "Low serum C3 and C4 levels",
+        "Specific antibody tests (ANA, anti‑DNA, anti‑GBM)",
+        "Renal function tests: creatinine and proteinuria"
+      ],
+      "treatment": [
+        "Systemic corticosteroids (prednisone) to reduce inflammation",
+        "Immunosuppressants (azathioprine, cyclophosphamide) in severe cases",
+        "Plasmapheresis to remove circulating complexes",
+        "Antihistamines and NSAIDs for symptomatic relief"
+      ],
+      "complications": [
+        "Acute or chronic renal failure",
+        "Systemic vasculitis with cutaneous necrosis",
+        "Thrombosis from endothelial damage",
+        "Hypertension secondary to renal injury"
+      ],
+      "nursing_care": [
+        "Assess pain, edema and skin changes every 4 h",
+        "Monitor vital signs, especially blood pressure and temperature",
+        "Control fluid intake and fluid balance",
+        "Observe laboratory results (C3, C4, creatinine) and report abnormalities",
+        "Maintain a comfortable position that reduces pressure on inflamed areas"
+      ],
+      "patient_teaching": [
+        "Explain the nature of the disease and the importance of treatment adherence",
+        "Teach recognition of worsening signs: increased edema, hematuria, high fever",
+        "Instruct on proper medication use and common side effects",
+        "Promote adequate hydration and a low‑sodium diet to protect renal function",
+        "Encourage avoidance of triggering agents (new drugs, infections)"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "Tissue inflammation from immune complex deposition"
+        ],
+        "evidenced_by": [
+          "Pain complaint",
+          "Redness and swelling in affected area",
+          "Tenderness to palpation"
+        ],
+        "outcomes": [
+          "Pain control: pain level ≤3/10 on numeric scale within 48 h",
+          "Reduction of inflammation: visible edema decrease within 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain intensity and location every 4 h using numeric scale",
+            "rationale": "Allows monitoring of treatment response and adjustment of interventions"
+          },
+          {
+            "action": "Administer analgesics as prescribed and record effect",
+            "rationale": "Pain relief facilitates mobility and reduces physiological stress"
+          },
+          {
+            "action": "Apply cold or warm compresses as indicated to reduce inflammation",
+            "rationale": "Cold vasoconstricts to reduce edema; heat improves circulation when appropriate"
+          },
+          {
+            "action": "Teach relaxation and deep breathing techniques",
+            "rationale": "Reduces pain perception through nervous system modulation"
+          },
+          {
+            "action": "Promote rest position with elevation of affected limb",
+            "rationale": "Reduces capillary pressure and helps control edema"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "Immune complex deposition with skin damage",
+          "Use of immunosuppressants",
+          "Vasculitis with ulceration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection (fever, pus, increased pain) during hospitalization",
+          "Negative cultures if control tests are performed"
+        ],
+        "interventions": [
+          {
+            "action": "Perform skin hygiene and catheter insertion site care with aseptic technique",
+            "rationale": "Prevents bacterial colonization in vulnerable areas"
+          },
+          {
+            "action": "Monitor body temperature every 4 h and report fever >38 °C",
+            "rationale": "Early detection of infection allows timely intervention"
+          },
+          {
+            "action": "Assess skin integrity and record any breaks or exudate",
+            "rationale": "Ulcers are entry points for microorganisms"
+          },
+          {
+            "action": "Educate patient on infection signs and importance of immediate reporting",
+            "rationale": "Facilitates early detection and rapid treatment"
+          },
+          {
+            "action": "Maintain adequate nutrition and glucose control in patients on corticosteroids",
+            "rationale": "Improves immune response and reduces infection risk"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "type-iii-hypersensitivity",
+    "systemic-lupus-erythematosus",
+    "vasculitis"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Immune Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-1-immune-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-30",
+  "factcheck": {
+    "checked": "2026-10-30",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "It is used to manage conditions such as systemic lupus erythematosus (SLE) and rheumatoid arthritis (RA).",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "The nurse will also check the skin and mucous membranes for any lesions, purpura, urticaria, dermatitis, inflammation , or discharge.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Take the patient’s temperature and assess their joints for tenderness, edema, warmth, or limited range of motion.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Glucocorticoids , also known as corticosteroids or simply steroids, are a class of anti-inflammatory drugs that mimic the action of naturally occurring hormones produced by the adrenal glands.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "The patient should be educated on signs and symptoms of infection and the need to immediately report symptoms, such as a fever of 100.5°F (38°C) or greater, decreased urine output, bloody urine, flu-like symptoms, tenderness around the transplanted orga",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "The nurse or prescriber must educate the patient to take their medications as prescribed, despite any side effects, as skipping a dose can result in a flare-up or worsening of the condition the drug is intended to treat.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

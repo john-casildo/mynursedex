@@ -1,0 +1,497 @@
+{
+  "id": "barrett-s-esophagus",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Esófago de Barrett (EB)",
+    "aliases": [
+      "esófago",
+      "barrett",
+      "esofago barrett",
+      "metaplasia",
+      "reflujo",
+      "esofagitis crónica"
+    ],
+    "summary": "El esófago de Barrett es una metaplasia del epitelio escamoso del esófago distal a causa del reflujo gastroesofágico crónico, con riesgo de adenocarcinoma.",
+    "key_points": [
+      "Resultado de daño crónico por ERGE.",
+      "Metaplasia columnar intestinal en el esófago distal.",
+      "Diagnóstico mediante endoscopia y biopsia.",
+      "Mayor riesgo de adenocarcinoma esofágico.",
+      "Manejo con control del ácido y vigilancia endoscópica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El reflujo ácido repetido irrita el epitelio escamoso del esófago distal.",
+        "El daño crónico induce metaplasia a epitelio columnar con goblet cells (tipo intestinal).",
+        "La nueva mucosa es menos resistente al ácido, perpetuando la lesión.",
+        "La displasia puede progresar a adenocarcinoma si no se controla."
+      ],
+      "risk_factors": [
+        "ERGE crónico y sin tratamiento.",
+        "Obesidad (IMC >30 kg/m²).",
+        "Tabaquismo y consumo de alcohol.",
+        "Edad >50 años y antecedentes familiares de cáncer esofágico."
+      ],
+      "signs_symptoms": [
+        "Disfagia intermitente o progresiva.",
+        "Sensación de ardor retroesternal (pirosis).",
+        "Regurgitación de contenido ácido.",
+        "Dolor torácico que no mejora con antiinflamatorios."
+      ],
+      "diagnostics": [
+        "Endoscopia alta: visualiza mucosa columnar en esófago distal.",
+        "Biopsia esofágica: confirma metaplasia intestinal (células caliciformes).",
+        "pH-metría de 24 h: evidencia de exposición ácida prolongada.",
+        "Imágenes (TC de tórax) solo si se sospecha complicación."
+      ],
+      "treatment": [
+        "Inhibidores de la bomba de protones (omeprazol, esomeprazol).",
+        "Modificaciones de estilo de vida: perder peso, elevar cabecera, evitar comidas grasosas y cafeína.",
+        "En casos de displasia alta: ablación endoscópica o resección mucosa.",
+        "Vigilancia endoscópica cada 3‑5 años según grado de displasia."
+      ],
+      "complications": [
+        "Adenocarcinoma de esófago.",
+        "Estenosis esofágica por cicatrización.",
+        "Hemorragia por ulceración erosiva.",
+        "Aspiration de contenido ácido."
+      ],
+      "nursing_care": [
+        "Evaluar dolor y dysphagia antes y después de la medicación.",
+        "Monitorear signos de aspiración: tos, sibilancias, fiebre.",
+        "Registrar peso y IMC para valorar control de obesidad.",
+        "Verificar adherencia al tratamiento con inhibidores de bomba de protones.",
+        "Preparar al paciente para endoscopia: ayuno 6‑8 h, explicar procedimiento."
+      ],
+      "patient_teaching": [
+        "Tomar el inhibidor de bomba de protones 30‑60 min antes de la comida.",
+        "Elevar la cabecera de la cama 15‑20 cm y evitar acostarse justo después de comer.",
+        "Mantener dieta baja en grasa, evitar chocolate, cítricos y alcohol.",
+        "Informar signos de alarma: sangrado, pérdida de peso rápida, dificultad para tragar.",
+        "Importancia de la vigilancia endoscópica regular."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "disfagia",
+          "reflujo gastroesofágico crónico",
+          "esófago de Barrett"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: el paciente permanecerá sin episodios de aspiración durante la hospitalización.",
+          "Integridad pulmonar: ausencia de signos de neumonía por aspiración al alta."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la capacidad de deglución antes de cada ingesta.",
+            "rationale": "Detectar dificultad que pueda provocar aspiración."
+          },
+          {
+            "action": "Mantener al paciente en posición semi-Fowler (30‑45°) durante y después de comer.",
+            "rationale": "Facilita el paso del bolo y reduce el reflujo."
+          },
+          {
+            "action": "Administrar antiácidos o inhibidores de bomba de protones según prescripción.",
+            "rationale": "Disminuye la acidez del contenido gástrico, reduciendo daño pulmonar si ocurre aspiración."
+          },
+          {
+            "action": "Enseñar técnicas de respiración profunda y tos eficaz después de comer.",
+            "rationale": "Ayuda a eliminar secreciones y prevenir ingreso a vías bajas."
+          },
+          {
+            "action": "Documentar cualquier episodio de tos, sibilancia o cambios en la saturación de O₂.",
+            "rationale": "Permite intervención temprana ante posible aspiración."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "esófago de Barrett",
+          "disfagia",
+          "esofagitis crónica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Integridad tisular esofágica: el paciente no presentará sangrado ni ulceración durante el periodo de cuidado.",
+          "Conocimiento del paciente: describirá al menos tres medidas para prevenir lesión esofágica al alta."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor torácico y signos de sangrado antes y después de la medicación.",
+            "rationale": "Detectar lesiones mucosas tempranas."
+          },
+          {
+            "action": "Instruir al paciente a masticar bien los alimentos y tomar líquidos entre bocados.",
+            "rationale": "Reduce el riesgo de trauma mecánico al esófago."
+          },
+          {
+            "action": "Programar endoscopia de vigilancia según indicaciones médicas.",
+            "rationale": "Identifica cambios precancerosos o lesiones antes de que progresen."
+          },
+          {
+            "action": "Monitorear peso y signos de pérdida de nutrientes.",
+            "rationale": "La malnutrición puede empeorar la integridad de la mucosa."
+          },
+          {
+            "action": "Documentar cualquier episodio de hemorragia o melena.",
+            "rationale": "Facilita la detección de complicaciones hemorrágicas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Barrett's Esophagus (BE)",
+    "aliases": [
+      "esophagus",
+      "barrett",
+      "barrett esophagus",
+      "metaplasia",
+      "reflux",
+      "chronic esophagitis"
+    ],
+    "summary": "Barrett's esophagus is a metaplasia of the distal esophageal squamous epithelium caused by chronic gastroesophageal reflux, with a risk of adenocarcinoma.",
+    "key_points": [
+      "Result of chronic damage from GERD.",
+      "Intestinal columnar metaplasia in the distal esophagus.",
+      "Diagnosis via endoscopy and biopsy.",
+      "Increased risk of esophageal adenocarcinoma.",
+      "Management with acid control and endoscopic surveillance."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Repeated acid reflux irritates the distal esophageal squamous epithelium.",
+        "Chronic injury induces metaplasia to columnar epithelium with goblet cells (intestinal type).",
+        "The new mucosa is less resistant to acid, perpetuating injury.",
+        "Dysplasia may progress to adenocarcinoma if not controlled."
+      ],
+      "risk_factors": [
+        "Chronic untreated GERD.",
+        "Obesity (BMI >30 kg/m²).",
+        "Smoking and alcohol use.",
+        "Age >50 years and family history of esophageal cancer."
+      ],
+      "signs_symptoms": [
+        "Intermittent or progressive dysphagia.",
+        "Retrosternal burning sensation (heartburn).",
+        "Regurgitation of acidic contents.",
+        "Chest pain not relieved by anti‑inflammatories."
+      ],
+      "diagnostics": [
+        "Upper endoscopy: visualizes columnar mucosa in distal esophagus.",
+        "Esophageal biopsy: confirms intestinal metaplasia (goblet cells).",
+        "24‑hour pH monitoring: evidence of prolonged acid exposure.",
+        "Imaging (CT chest) only if complication suspected."
+      ],
+      "treatment": [
+        "Proton pump inhibitors (omeprazole, esomeprazole).",
+        "Lifestyle modifications: weight loss, head‑of‑bed elevation, avoid fatty foods and caffeine.",
+        "In high‑grade dysplasia: endoscopic ablation or mucosal resection.",
+        "Endoscopic surveillance every 3‑5 years depending on dysplasia grade."
+      ],
+      "complications": [
+        "Esophageal adenocarcinoma.",
+        "Esophageal stenosis from scarring.",
+        "Hemorrhage from erosive ulceration.",
+        "Aspiration of acidic contents."
+      ],
+      "nursing_care": [
+        "Assess pain and dysphagia before and after medication.",
+        "Monitor for aspiration signs: cough, wheezing, fever.",
+        "Record weight and BMI to evaluate obesity control.",
+        "Verify adherence to proton pump inhibitor therapy.",
+        "Prepare patient for endoscopy: 6‑8 h fast, explain procedure."
+      ],
+      "patient_teaching": [
+        "Take proton pump inhibitor 30‑60 min before meals.",
+        "Elevate bed head 15‑20 cm and avoid lying down immediately after eating.",
+        "Maintain low‑fat diet, avoid chocolate, citrus, and alcohol.",
+        "Report alarm signs: bleeding, rapid weight loss, difficulty swallowing.",
+        "Importance of regular endoscopic surveillance."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "dysphagia",
+          "chronic gastroesophageal reflux",
+          "Barrett's esophagus"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: patient will remain free of aspiration episodes during hospitalization.",
+          "Pulmonary integrity: no signs of aspiration pneumonia at discharge."
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing ability before each intake.",
+            "rationale": "Detect difficulty that may lead to aspiration."
+          },
+          {
+            "action": "Keep patient in semi‑Fowler position (30‑45°) during and after meals.",
+            "rationale": "Facilitates bolus passage and reduces reflux."
+          },
+          {
+            "action": "Administer antacids or proton pump inhibitors as prescribed.",
+            "rationale": "Reduces gastric acidity, decreasing lung injury if aspiration occurs."
+          },
+          {
+            "action": "Teach deep breathing and effective coughing techniques after meals.",
+            "rationale": "Helps clear secretions and prevent lower airway entry."
+          },
+          {
+            "action": "Document any episodes of cough, wheeze, or changes in O₂ saturation.",
+            "rationale": "Allows early intervention for possible aspiration."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "Barrett's esophagus",
+          "dysphagia",
+          "chronic esophagitis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Esophageal tissue integrity: patient will not experience bleeding or ulceration during care period.",
+          "Patient knowledge: will describe at least three measures to prevent esophageal injury at discharge."
+        ],
+        "interventions": [
+          {
+            "action": "Assess chest pain and bleeding signs before and after medication.",
+            "rationale": "Detect early mucosal lesions."
+          },
+          {
+            "action": "Instruct patient to chew food thoroughly and sip liquids between bites.",
+            "rationale": "Reduces risk of mechanical trauma to esophagus."
+          },
+          {
+            "action": "Schedule surveillance endoscopy per medical indications.",
+            "rationale": "Identifies precancerous changes or lesions before progression."
+          },
+          {
+            "action": "Monitor weight and signs of nutrient loss.",
+            "rationale": "Malnutrition can worsen mucosal integrity."
+          },
+          {
+            "action": "Document any episodes of bleeding or melena.",
+            "rationale": "Facilitates detection of hemorrhagic complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "gastroesophageal-reflux-disease",
+    "esophageal-adenocarcinoma",
+    "esophageal-dysplasia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Esophagus Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/esophagusdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedades del esófago",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/esophagusdisorders.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Esophagus and Stomach",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/29-2-introduction-to-the-esophagus-and-stomach",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Upper GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-4-disorders-of-the-upper-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-30",
+  "factcheck": {
+    "checked": "2026-10-30",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The cells that develop on the esophagus can be precancerous and increase the patient’s chance of developing esophageal adenocarcinoma (Souza & Spechler, 2022).",
+        "source": 3
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "researchers believe that damage to the squamous esophageal cells resulting from gastroesophageal reflux disease (GERD) causes the cells to undergo constant repair and wound healing.",
+        "source": 3
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "A condition called Barrett’s esophagus entails the cells lining the esophagus change, becoming more like intestinal cells.",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The cells that develop on the esophagus can be precancerous and increase the patient’s chance of developing esophageal adenocarcinoma (Souza & Spechler, 2022).",
+        "source": 3
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "researchers believe that damage to the squamous esophageal cells resulting from gastroesophageal reflux disease (GERD) causes the cells to undergo constant repair and wound healing.",
+        "source": 3
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "The cells that develop on the esophagus can be precancerous and increase the patient’s chance of developing esophageal adenocarcinoma (Souza & Spechler, 2022).",
+        "source": 3
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "You can help prevent or reduce symptoms by: Not smoking and limiting alcohol Eating smaller meals Avoiding eating close to bedtime Wearing loose-fitting clothes Sleeping on your left side or raising the head of your bed Maintaining a healthy weight NIH: National Institute of Diabetes and Digestive and Kidney Diseases Start Here Overview of Swallowing and the Esophagus (Merck & Co., Inc.) Also in Spanish Diagn",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Inquire about any history of smoking, alcohol use, regular NSAID or aspirin use, or high stress levels.",
+        "source": 3
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Heartburn is a burning feeling in your chest or throat.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Food or liquid coming back up into your mouth (regurgitation)",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Foods that are spicy, fatty, acidic, or contain caffeine, carbonation, or alcohol can exacerbate symptoms of reflux and heartburn and trigger episodes of odynophagia or dysphagia.",
+        "source": 3
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "The cells that develop on the esophagus can be precancerous and increase the patient’s chance of developing esophageal adenocarcinoma (Souza & Spechler, 2022).",
+        "source": 3
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The nurse may ensure the patient receives prescribed proton pump inhibitor s as ordered.",
+        "source": 3
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "For PUD, life-threatening, or alarm symptoms that warrant immediate action are bleeding or anemia early satiety family history of GI cancers progressive dysphagia or odynophagia recurrent vomiting unexplained weight loss",
+        "source": 3
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

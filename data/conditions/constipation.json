@@ -1,0 +1,534 @@
+{
+  "id": "constipation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Estreñimiento",
+    "aliases": [
+      "estreñimiento",
+      "constipacion",
+      "evacuaciones",
+      "heces duras",
+      "dificultad defecar"
+    ],
+    "summary": "El estreñimiento se define como menos de tres evacuaciones semanales con heces duras y dolorosas. Es frecuente y suele responder a cambios en la dieta, hidratación y actividad física.",
+    "key_points": [
+      "Frecuencia <3 evacuaciones/semana es criterio diagnóstico.",
+      "Factores modificables: fibra, líquidos, ejercicio y uso de laxantes.",
+      "Medicamentos como opioides y anticolinérgicos pueden precipitarlo.",
+      "Complicaciones incluyen impactación fecal, hemorroides y desequilibrio electrolítico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reducción del contenido de agua y fibra ralentiza el tránsito colónico.",
+        "Absorción excesiva de agua produce heces secas y compactas.",
+        "El aumento del tono del esfínter anal y el esfuerzo aumentan el dolor."
+      ],
+      "risk_factors": [
+        "Dieta baja en fibra (<25 g/día).",
+        "Ingesta insuficiente de líquidos (<1,5 L/día).",
+        "Estilo de vida sedentario.",
+        "Uso de opioides, anticolinérgicos o suplementos de hierro.",
+        "Retención voluntaria de la evacuación."
+      ],
+      "signs_symptoms": [
+        "Menos de 3 evacuaciones por semana.",
+        "Heces duras, secas y en forma de bolitas.",
+        "Esfuerzo y dolor al defecar.",
+        "Sensación de evacuación incompleta.",
+        "Distensión abdominal."
+      ],
+      "diagnostics": [
+        "Historia clínica y registro de patrón de evacuación.",
+        "Examen abdominal: distensión, timpanismo.",
+        "Radiografía de abdomen si se sospecha impactación fecal.",
+        "Electrolitos séricos si hay uso prolongado de laxantes (K+, Na+)."
+      ],
+      "treatment": [
+        "Aumento de fibra dietética (frutas, verduras, granos integrales).",
+        "Ingesta de agua ≥2 L/día.",
+        "Ejercicio regular, al menos 30 min/día.",
+        "Laxantes de primera línea: docusato (suavizante).",
+        "Laxantes formadores de masa: psyllium, metilcelulosa.",
+        "Laxantes osmóticos (lactulosa) o estimulantes (senna) si persiste."
+      ],
+      "complications": [
+        "Impactación fecal.",
+        "Hemorroides y fisura anal por esfuerzo excesivo.",
+        "Desequilibrio electrolítico (hipopotasemia).",
+        "Incontinencia fecal secundaria a impactación."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia, consistencia (Escala de Bristol) y esfuerzo.",
+        "Monitorear ingesta de líquidos y fibra.",
+        "Promover ambulación y ejercicios de abdomen.",
+        "Administrar laxantes según prescripción y observar respuesta.",
+        "Registrar dolor y distensión abdominal."
+      ],
+      "patient_teaching": [
+        "Incluir al menos 25 g de fibra dietética diaria.",
+        "Beber ≥2 L de agua al día, especialmente al usar laxantes.",
+        "Establecer horarios regulares para ir al baño sin apresurarse.",
+        "Evitar la retención de la necesidad de evacuar.",
+        "Usar laxantes solo bajo indicación médica y no prolongadamente."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Estreñimiento",
+        "type": "actual",
+        "related_to": [
+          "dieta baja en fibra",
+          "ingesta insuficiente de líquidos",
+          "sedentarismo",
+          "uso de opioides",
+          "retención voluntaria"
+        ],
+        "evidenced_by": [
+          "<3 evacuaciones/semana",
+          "heces duras y secas",
+          "esfuerzo al defecar",
+          "sensación de evacuación incompleta"
+        ],
+        "outcomes": [
+          "Patrón de evacuación intestinal: ≥3 evacuaciones semanales sin esfuerzo excesivo",
+          "Consistencia de heces: tipo 3‑4 en escala de Bristol",
+          "Dolor abdominal durante la evacuación: ausente o ≤2/10"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar patrón de evacuación y consistencia de heces cada 24 h",
+            "rationale": "Permite identificar mejoría o deterioro y ajustar el plan de cuidados"
+          },
+          {
+            "action": "Educar al paciente sobre aumento de fibra dietética y consumo de agua",
+            "rationale": "La fibra y la hidratación suavizan las heces y facilitan el tránsito"
+          },
+          {
+            "action": "Promover la movilización temprana y ejercicios abdominales",
+            "rationale": "La actividad física estimula la motilidad intestinal"
+          },
+          {
+            "action": "Administrar docusato según prescripción y observar efecto en 24‑48 h",
+            "rationale": "Suaviza las heces sin causar dependencia"
+          },
+          {
+            "action": "Reforzar la necesidad de acudir al baño cuando surge la urgencia, sin retrasar",
+            "rationale": "Evita la retención que empeora el estreñimiento"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de laxantes osmóticos",
+          "uso prolongado de estimulantes",
+          "diarrea secundaria a laxantes",
+          "deshidratación por ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos (Na+, K+) dentro de rangos normales",
+          "Estado de hidratación: ingesta y salida de líquidos equilibradas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y balance hídrico cada turno",
+            "rationale": "Detecta precozmente deshidratación o alteraciones electrolíticas"
+          },
+          {
+            "action": "Obtener y registrar niveles de electrolitos cada 48 h mientras se usan laxantes",
+            "rationale": "Permite identificar desequilibrios y ajustar tratamiento"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de ingerir al menos 2 L de agua al día",
+            "rationale": "Previene la pérdida de electrolitos y la deshidratación"
+          },
+          {
+            "action": "Revisar la medicación del paciente para identificar fármacos constipantes",
+            "rationale": "Reducir la exposición a agentes que puedan requerir laxantes"
+          },
+          {
+            "action": "Enseñar el uso correcto de laxantes, evitando dosis excesivas o uso prolongado",
+            "rationale": "Minimiza el riesgo de pérdida de electrolitos y dependencia"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Constipation",
+    "aliases": [
+      "constipacion",
+      "evacuaciones",
+      "heces duras",
+      "dificultad defecar"
+    ],
+    "summary": "Constipation is defined as fewer than three bowel movements per week with hard, painful stools. It is common and usually responds to dietary changes, hydration, and physical activity.",
+    "key_points": [
+      "Frequency <3 bowel movements/week is the diagnostic criterion.",
+      "Modifiable factors: fiber, fluids, exercise, and laxant use.",
+      "Medications such as opioids and anticholinergics can precipitate it.",
+      "Complications include fecal impaction, hemorrhoids, and electrolyte imbalance."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced water and fiber content slows colonic transit.",
+        "Excessive water absorption produces dry, compact stools.",
+        "Increased anal sphincter tone and straining increase pain."
+      ],
+      "risk_factors": [
+        "Low-fiber diet (<25 g/day).",
+        "Insufficient fluid intake (<1.5 L/day).",
+        "Sedentary lifestyle.",
+        "Use of opioids, anticholinergics, or iron supplements.",
+        "Voluntary withholding of bowel movements."
+      ],
+      "signs_symptoms": [
+        "Fewer than 3 bowel movements per week.",
+        "Hard, dry, pellet-shaped stools.",
+        "Straining and pain during defecation.",
+        "Feeling of incomplete evacuation.",
+        "Abdominal distension."
+      ],
+      "diagnostics": [
+        "Medical history and bowel pattern charting.",
+        "Abdominal exam: distension, tympany.",
+        "Abdominal X‑ray if fecal impaction is suspected.",
+        "Serum electrolytes if prolonged laxant use (K+, Na+)."
+      ],
+      "treatment": [
+        "Increase dietary fiber (fruits, vegetables, whole grains).",
+        "Drink ≥2 L of water per day.",
+        "Regular exercise, at least 30 min/day.",
+        "First‑line laxatives: docusate (softener).",
+        "Bulk‑forming laxatives: psyllium, methylcellulose.",
+        "Osmotic (lactulose) or stimulant (senna) laxatives if needed."
+      ],
+      "complications": [
+        "Fecal impaction.",
+        "Hemorrhoids and anal fissure from excessive straining.",
+        "Electrolyte imbalance (hypokalemia).",
+        "Fecal incontinence secondary to impaction."
+      ],
+      "nursing_care": [
+        "Assess frequency, consistency (Bristol Scale), and straining.",
+        "Monitor fluid and fiber intake.",
+        "Promote ambulation and abdominal exercises.",
+        "Administer laxatives as prescribed and observe response.",
+        "Document pain and abdominal distension."
+      ],
+      "patient_teaching": [
+        "Include at least 25 g of dietary fiber daily.",
+        "Drink ≥2 L of water daily, especially when using laxatives.",
+        "Establish regular bathroom times without rushing.",
+        "Avoid withholding the urge to evacuate.",
+        "Use laxatives only under medical guidance and not for prolonged periods."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Constipation",
+        "type": "actual",
+        "related_to": [
+          "low-fiber diet",
+          "insufficient fluid intake",
+          "sedentary lifestyle",
+          "opioid use",
+          "voluntary withholding"
+        ],
+        "evidenced_by": [
+          "<3 bowel movements/week",
+          "hard, dry stools",
+          "straining during defecation",
+          "feeling of incomplete evacuation"
+        ],
+        "outcomes": [
+          "Bowel pattern: ≥3 bowel movements per week without excessive straining",
+          "Stool consistency: type 3‑4 on Bristol Scale",
+          "Abdominal pain during evacuation: absent or ≤2/10"
+        ],
+        "interventions": [
+          {
+            "action": "Assess and record bowel pattern and stool consistency every 24 h",
+            "rationale": "Allows identification of improvement or deterioration and adjustment of care plan"
+          },
+          {
+            "action": "Educate patient on increasing dietary fiber and fluid intake",
+            "rationale": "Fiber and hydration soften stools and facilitate transit"
+          },
+          {
+            "action": "Promote early mobilization and abdominal exercises",
+            "rationale": "Physical activity stimulates intestinal motility"
+          },
+          {
+            "action": "Administer docusate as prescribed and observe effect in 24‑48 h",
+            "rationale": "Softens stools without causing dependence"
+          },
+          {
+            "action": "Reinforce the need to use the bathroom promptly when the urge arises, without delay",
+            "rationale": "Prevents withholding that worsens constipation"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "use of osmotic laxatives",
+          "prolonged use of stimulants",
+          "diarrhea secondary to laxatives",
+          "dehydration from insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes (Na+, K+) within normal ranges",
+          "Hydration status: fluid intake and output balanced"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and fluid balance each shift",
+            "rationale": "Early detection of dehydration or electrolyte disturbances"
+          },
+          {
+            "action": "Obtain and record electrolyte levels every 48 h while using laxatives",
+            "rationale": "Identifies imbalances and allows treatment adjustment"
+          },
+          {
+            "action": "Educate patient on the importance of ingesting at least 2 L of water daily",
+            "rationale": "Prevents electrolyte loss and dehydration"
+          },
+          {
+            "action": "Review patient medication list to identify constipating drugs",
+            "rationale": "Reduce exposure to agents that may require laxatives"
+          },
+          {
+            "action": "Teach proper laxative use, avoiding excessive doses or prolonged use",
+            "rationale": "Minimizes risk of electrolyte loss and dependence"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "fecal-impaction",
+    "hemorrhoids",
+    "anal-fissure",
+    "laxatives",
+    "fiber-intake"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Constipation",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/constipation.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Estreñimiento",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/constipation.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Common Conditions Affecting Bowel Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-4-common-conditions-affecting-bowel-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Laxatives and Stool Softeners",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/30-3-laxatives-and-stool-softeners",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-30",
+  "factcheck": {
+    "checked": "2026-10-30",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 25,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Constipation means having fewer than three bowel movements a week. The stool (poop) can be hard and dry.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "They include: Eating more fruits, vegetables and grains, which are high in fiber Drinking plenty of water and other liquids Getting enough exercise Taking time to have a bowel movement when you need to Using laxatives only if your health care provider says you should",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Certain medications can also promote constipation, such as anticholinergics and opioids.",
+        "source": 3
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "It can be caused by slowed peristalsis caused by decreased activity, dehydration, lack of fiber, medications (e.g., opioids, diuretics), depression, or abdominal surgical procedures.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "As the stool moves slowly through the large intestine , additional water is reabsorbed, resulting in the stool becoming hard, dry, and difficult to move through the lower intestines."
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "It often results from low fiber intake, dehydration, and a sedentary lifestyle.",
+        "source": 3
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The straining with defecation can lead to complications such as a hemorrhoids (swollen and inflamed vein in the rectum and anus that can cause discomfort, itching, and bleeding) or an anal fissure (a small tear or cut in the lining of the anus, which can cause pain, bleeding, and discomfort during bowel movements).",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Constipation is an unpleasant symptom or disorder that results in difficult stool evacuation or irregular and inconsistent stool passage, with common complaints like straining, incomplete or difficulty passing stools, or not defecating for a prolonged time.",
+        "source": 3
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "The accumulation of stool in the colon can also lead to distension, gas, and bloating (sensation of fullness or swelling in the abdomen), contributing to abdominal discomfort.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Figure 27.6 The Bristol Stool Chart is used to assess the characteristics of stools according to seven types, ranging from constipation to diarrhea.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Nurses provide personalized guidance on dietary modifications, emphasizing the importance of incorporating fruits, vegetables, whole grains, and other high-fiber foods into daily meals.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Bulk-forming laxatives containing fiber (e.g., psyllium powder [Metamucil], methylcellulose [Citrucel]) increase the bulk and water content of stool, facilitating its passage.",
+        "source": 2
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Chronic constipation may result in fecal impaction , where a large mass of hardened stool becomes lodged in the rectum, resulting in a palpable abdominal mass and rectal pressure due to the buildup of stool, making it difficult or impossible to pass stool normally (Clevelan",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "The straining with defecation can lead to complications such as a hemorrhoids (swollen and inflamed vein in the rectum and anus that can cause discomfort, itching, and bleeding) or an anal fissure (a small tear or cut in the lining of the anus, which can cause pain, bleeding, and discomfort during bowel movements).",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Fecal incontinence can be caused by a variety of factors, including the following: ongoing (chronic) constipation, causing the anus muscles and intestines to stretch and weaken, leading to diarrhea and stool leakage fecal impaction with a lump of hard stool that partly blocks the large intestine long-term laxative use colectomy or bowel surgery lack of sensation of the need to have a bowel movement gynecological, prostate, or rectal surgery injur",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Assess client’s bowel habits including frequency, consistency, and ease of bowel movements.",
+        "source": 3
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "The client taking a laxative or a stool softener should: Increase their dietary intake of fiber and increase their fluid intake, if not contraindicated, to help reduce the risk of constipation.",
+        "source": 3
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "While laxatives can provide relief from constipation, they should be used cautiously and under the guidance of a healthcare provider to avoid dependence and potential complications, and they are typically recommended for short-term use rather than as long-term solutions.",
+        "source": 2
+      }
+    }
+  }
+}

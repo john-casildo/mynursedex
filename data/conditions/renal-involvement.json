@@ -1,0 +1,464 @@
+{
+  "id": "renal-involvement",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia renal aguda (IRA)",
+    "aliases": [
+      "insuficiencia renal",
+      "ira",
+      "insuficiencia renal aguda",
+      "renal aguda"
+    ],
+    "summary": "Pérdida súbita de la función renal que reduce el filtrado glomerular y provoca acumulación de toxinas y desequilibrios hidroelectrolíticos.",
+    "key_points": [
+      "Disminución rápida del GFR < 60 mL/min/1.73 m²",
+      "Causas comunes: hipotensión, nefrotoxinas, sepsis",
+      "Marcadores: aumento de BUN y creatinina, oliguria < 0,5 mL/kg/h",
+      "Complicaciones: hiperpotasemia, acidosis metabólica, sobrecarga de volumen"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño súbito a nefronas → caída del filtrado glomerular (GFR).",
+        "Retención de agua, sodio y desechos nitrogenados.",
+        "Alteración de la autorregulación renal y aumento de presión intrarrenal.",
+        "Desarrollo de desequilibrios electrolíticos y ácido‑base."
+      ],
+      "risk_factors": [
+        "Hipotensión prolongada o shock.",
+        "Exposición a nefrotoxinas (aminoglucósidos, contraste, AINE).",
+        "Sepsis y síndrome inflamatorio sistémico.",
+        "Obstrucción urinaria no tratada."
+      ],
+      "signs_symptoms": [
+        "Oliguria o anuria (< 0,5 mL/kg/h).",
+        "Edema periférico y aumento de peso rápido.",
+        "Elevación de BUN > 20 mg/dL y creatinina > 1,5 mg/dL.",
+        "Náuseas, vómitos, fatiga y confusión."
+      ],
+      "diagnostics": [
+        "Panel metabólico: BUN y creatinina elevados; relación BUN/creatinina > 20:1 sugiere prerrenal.",
+        "Electrolitos: K+ > 5,0 mEq/L, Na+ < 135 mEq/L, HCO₃‑ < 22 mEq/L.",
+        "Ecografía renal: descarta obstrucción.",
+        "UO monitorizada cada hora; objetivo > 0,5 mL/kg/h."
+      ],
+      "treatment": [
+        "Reposición de volumen con cristaloides isotónicos (solución salina al 0,9%).",
+        "Diuréticos de asa (furosemida) para manejo de sobrecarga de líquido.",
+        "Corrección de electrolitos: quelantes de potasio, bicarbonato si pH < 7,35.",
+        "Diálisis (hemodiálisis o peritoneal) si UO < 0,3 mL/kg/h > 24 h o complicaciones graves."
+      ],
+      "complications": [
+        "Hiperkalemia que puede causar arritmias.",
+        "Acidosis metabólica con depresión respiratoria.",
+        "Sobrecarga de volumen → insuficiencia cardíaca congestiva.",
+        "Hemorragia por alteración de la coagulación."
+      ],
+      "nursing_care": [
+        "Monitorear UO, peso diario y signos de edema.",
+        "Controlar presión arterial, frecuencia cardíaca y saturación de O₂.",
+        "Revisar laboratorios de electrolitos y gases arteriales cada 4‑6 h.",
+        "Mantener acceso venoso patógeno‑libre y registrar infusiones.",
+        "Posicionar al paciente en decúbito supino con piernas ligeramente elevadas si hay hipotensión."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la hidratación adecuada y evitar automedicarse.",
+        "Instruir sobre dieta baja en sodio y potasio según indicaciones del médico.",
+        "Alertar sobre signos de sobrecarga de líquido (edema, dificultad respiratoria).",
+        "Informar sobre la necesidad de reportar cualquier cambio en la diuresis."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiperpotasemia",
+          "acidosis metabólica",
+          "uso de diuréticos",
+          "insuficiencia renal aguda"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico mantenido: K+ 3,5‑5,0 mEq/L",
+          "pH arterial dentro de rango: 7,35‑7,45"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles de potasio, sodio y bicarbonato cada 4 h.",
+            "rationale": "Detectar rápidamente desviaciones y permitir intervención oportuna."
+          },
+          {
+            "action": "Evaluar signos neurológicos (confusión, debilidad muscular) cada turno.",
+            "rationale": "Los desequilibrios electrolíticos pueden manifestarse con alteraciones neurológicas."
+          },
+          {
+            "action": "Administrar diurético de asa (furosemida) según orden y registrar respuesta diurética.",
+            "rationale": "Facilita la eliminación de exceso de potasio y exceso de líquido."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos bajos en potasio y sodio.",
+            "rationale": "La dieta ayuda a prevenir acumulaciones peligrosas de electrolitos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipotensión",
+          "hipovolemia",
+          "sepsis",
+          "insuficiencia renal aguda"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial media mantenida > 65 mmHg",
+          "UO > 0,5 mL/kg/h durante 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial invasiva cada 15 min en fase aguda.",
+            "rationale": "Mantener perfusión renal adecuada requiere presión arterial estable."
+          },
+          {
+            "action": "Evaluar estado de hidratación (turgor, mucosas, CVP) y registrar balance hídrico.",
+            "rationale": "Identificar hipovolemia o sobrecarga para ajustar la terapia de fluidos."
+          },
+          {
+            "action": "Administrar cristaloides isotónicos por vía intravenosa según protocolo de reposición.",
+            "rationale": "Restaurar volumen intravascular y mejorar el flujo renal."
+          },
+          {
+            "action": "Posicionar al paciente en decúbito supino con piernas ligeramente elevadas si hay hipotensión.",
+            "rationale": "Facilita el retorno venoso y la perfusión renal."
+          },
+          {
+            "action": "Evitar nefrotoxinas (AINE, contraste) y notificar al médico si se requieren.",
+            "rationale": "Prevenir daño adicional a las nefronas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acute renal failure (ARF)",
+    "aliases": [
+      "acute renal failure",
+      "arf",
+      "acute kidney injury",
+      "kidney failure"
+    ],
+    "summary": "Sudden loss of kidney function that reduces glomerular filtration and causes accumulation of toxins and hydroelectrolytic imbalances.",
+    "key_points": [
+      "Rapid decline in GFR < 60 mL/min/1.73 m²",
+      "Common causes: hypotension, nephrotoxins, sepsis",
+      "Markers: increased BUN and creatinine, oliguria < 0.5 mL/kg/h",
+      "Complications: hyperkalemia, metabolic acidosis, volume overload"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Sudden damage to nephrons → drop in glomerular filtration rate (GFR).",
+        "Retention of water, sodium, and nitrogenous waste.",
+        "Disruption of renal autoregulation and increased intrarenal pressure.",
+        "Development of electrolyte and acid-base imbalances."
+      ],
+      "risk_factors": [
+        "Prolonged hypotension or shock.",
+        "Exposure to nephrotoxins (aminoglycosides, contrast, NSAIDs).",
+        "Sepsis and systemic inflammatory response.",
+        "Unresolved urinary obstruction."
+      ],
+      "signs_symptoms": [
+        "Oliguria or anuria (< 0.5 mL/kg/h).",
+        "Peripheral edema and rapid weight gain.",
+        "Elevated BUN > 20 mg/dL and creatinine > 1.5 mg/dL.",
+        "Nausea, vomiting, fatigue, confusion."
+      ],
+      "diagnostics": [
+        "Metabolic panel: elevated BUN and creatinine; BUN/creatinine ratio > 20:1 suggests prerenal.",
+        "Electrolytes: K+ > 5.0 mEq/L, Na+ < 135 mEq/L, HCO₃‑ < 22 mEq/L.",
+        "Renal ultrasound: rule out obstruction.",
+        "Urine output monitored hourly; target > 0.5 mL/kg/h."
+      ],
+      "treatment": [
+        "Volume replacement with isotonic crystalloids (0.9% saline solution).",
+        "Loop diuretics (furosemide) for fluid overload management.",
+        "Electrolyte correction: potassium binders, bicarbonate if pH < 7.35.",
+        "Dialysis (hemodialysis or peritoneal) if urine output < 0.3 mL/kg/h for > 24 h or severe complications."
+      ],
+      "complications": [
+        "Hyperkalemia that can cause arrhythmias.",
+        "Metabolic acidosis with respiratory depression.",
+        "Volume overload → congestive heart failure.",
+        "Bleeding due to coagulation abnormalities."
+      ],
+      "nursing_care": [
+        "Monitor urine output, daily weight, and edema signs.",
+        "Check blood pressure, heart rate, and O₂ saturation.",
+        "Review electrolyte and arterial blood gas labs every 4‑6 h.",
+        "Maintain a pathogen‑free venous access and record infusions.",
+        "Position patient supine with legs slightly elevated if hypotension is present."
+      ],
+      "patient_teaching": [
+        "Explain the importance of adequate hydration and avoiding self‑medication.",
+        "Instruct on a low‑sodium and potassium diet as directed by the physician.",
+        "Warn about signs of fluid overload (edema, shortness of breath).",
+        "Inform about the need to report any changes in urine output."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyperkalemia",
+          "metabolic acidosis",
+          "diuretic use",
+          "acute renal failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintained electrolyte balance: K+ 3.5‑5.0 mEq/L",
+          "Arterial pH within range: 7.35‑7.45"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor potassium, sodium, and bicarbonate levels every 4 h.",
+            "rationale": "Detect deviations quickly and allow timely intervention."
+          },
+          {
+            "action": "Assess neurological signs (confusion, muscle weakness) each shift.",
+            "rationale": "Electrolyte imbalances may manifest with neurological changes."
+          },
+          {
+            "action": "Administer loop diuretic (furosemide) as ordered and record diuretic response.",
+            "rationale": "Facilitates elimination of excess potassium and fluid."
+          },
+          {
+            "action": "Educate patient about low‑potassium and low‑sodium foods.",
+            "rationale": "Diet helps prevent dangerous electrolyte accumulations."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypotension",
+          "hypovolemia",
+          "sepsis",
+          "acute renal failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mean arterial pressure maintained > 65 mmHg",
+          "Urine output > 0.5 mL/kg/h for 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor invasive blood pressure every 15 min during the acute phase.",
+            "rationale": "Adequate renal perfusion requires stable blood pressure."
+          },
+          {
+            "action": "Assess hydration status (turgor, mucous membranes, CVP) and record fluid balance.",
+            "rationale": "Identify hypovolemia or overload to adjust fluid therapy."
+          },
+          {
+            "action": "Administer isotonic crystalloids intravenously per replacement protocol.",
+            "rationale": "Restore intravascular volume and improve renal flow."
+          },
+          {
+            "action": "Position patient supine with legs slightly elevated if hypotension is present.",
+            "rationale": "Facilitates venous return and renal perfusion."
+          },
+          {
+            "action": "Avoid nephrotoxins (NSAIDs, contrast) and notify the physician if needed.",
+            "rationale": "Prevent additional nephron damage."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "chronic-kidney-disease",
+    "electrolyte-imbalance",
+    "fluid-overload",
+    "sepsis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Movement Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/movementdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Renal System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/33-1-introduction-to-the-renal-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Renal Concerns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-6-renal-concerns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-30",
+  "factcheck": {
+    "checked": "2026-10-30",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "We define acute kidney injury (AKI) as a sudden reduction in kidney function.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Etiology Causes Hypovolemia Burn injury GI fluid loss (e.g., vomiting, diarrhea) Sepsis Severe hypotension from decreased CO Cardiogenic shock GI bleed Massive pulmonary embolism MI Severe hypotension from widespread vasodilation Anaphylactic shock Effects of general anesthesia Septic shock Renal vasoconstriction Nephrotoxic med",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "It is caused by an insult to the nephron unit that manifests with alteration in laboratory values and decreased urine output."
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Prolonged ischemia from prerenal causes"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Nephrotoxic medications (e.g., aminoglycosides, contrast media)",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Sepsis",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Stones may be asymptomatic and excreted without further intervention; however, large stones can move from the kidney pelvis to the ureteral junction or further in the ureter, causing obstruction and pain ( renal colic ).",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Elevated levels of potassium can result in life-threatening cardiac dysrhythmias.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Additionally, weighing the patient at the same time daily and comparing measurements is important.",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "A decrease in urine output can be one of the first signs of AKI; hence, it is vital that the nurse be attentive to any changes in urination, even subtle ones.",
+        "source": 2
+      }
+    }
+  }
+}

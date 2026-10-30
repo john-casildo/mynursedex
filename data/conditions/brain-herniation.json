@@ -1,0 +1,427 @@
+{
+  "id": "brain-herniation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Herniación cerebral",
+    "aliases": [
+      "herniacion",
+      "herniación",
+      "herniacion cerebral",
+      "herniación cerebral",
+      "hernia cerebral",
+      "herniacion intracraneal"
+    ],
+    "summary": "Desplazamiento del tejido cerebral a través de una abertura intracraneal debido a aumento de la presión intracraneal. Es una emergencia neuroquirúrgica que compromete la perfusión y la función cerebral.",
+    "key_points": [
+      "Aumento de la presión intracraneal (PIC) provoca desplazamiento del cerebro",
+      "Tipos principales: subfalcina, uncal, tonsilar y transcalárica",
+      "La herniación produce compresión de tronco encefálico y deterioro neurológico rápido",
+      "El diagnóstico temprano depende de imagen y signos de Cushing"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aumento de la PIC por edema, tumor, hematoma o hidrocefalia",
+        "Desplazamiento del parénquima cerebral hacia una abertura (foramen magno, tentorio, etc.)",
+        "Compresión de vasos cerebrales reduce el flujo sanguíneo y causa isquemia",
+        "Compresión del tronco encefálico altera la respiración y la presión arterial"
+      ],
+      "risk_factors": [
+        "Tumor cerebral o metastásico",
+        "Hematoma subdural, epidural o intracerebral",
+        "Edema cerebral por infección o lesión traumática",
+        "Hidrocefalia obstructiva o comunicante"
+      ],
+      "signs_symptoms": [
+        "Deterioro progresivo del nivel de conciencia (Escala de Glasgow)",
+        "Pupilas anisocóricas, respuesta lenta a la luz",
+        "Hipertensión de Cushing: hipertensión, bradicardia, respiración irregular",
+        "Hemiparesia o paresia contralateral al sitio de herniación",
+        "Apnea o patrones respiratorios anormales"
+      ],
+      "diagnostics": [
+        "Tomografía axial computarizada (TC) de urgencia: muestra desplazamiento y masa",
+        "Resonancia magnética (RM) para detalle anatómico",
+        "Monitor de presión intracraneal (PIC) > 20 mmHg indica riesgo",
+        "Examen de fondo de ojo: papiledema sugiere hipertensión crónica"
+      ],
+      "treatment": [
+        "Manejo de la PIC: solución salina hipertónica 3 % y manitol 20 %",
+        "Diuréticos como furosemida para reducir edema",
+        "Elevación de la cabecera a 30° y sedación ligera",
+        "Ventilación controlada para mantener PaCO₂ ≈ 35 mmHg",
+        "Descompresión quirúrgica (craniectomía) cuando la herniación es irreversible"
+      ],
+      "complications": [
+        "Isquemia cerebral irreversible y necrosis"
+      ],
+      "nursing_care": [
+        "Monitorizar escala de Glasgow cada 15 min y registrar cambios",
+        "Controlar signos de Cushing: presión arterial, frecuencia cardíaca, respiración"
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de cumplir con la terapia osmótica y diurética"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "aumento de la presión intracraneal",
+          "tumor cerebral",
+          "hematoma intracraneal",
+          "edema cerebral"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral adecuada: mantener presión arterial media ≥ 70 mmHg",
+          "Estado neurológico estable: escala de Glasgow ≥ 13 durante 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial, frecuencia cardíaca y escala de Glasgow cada 15 min",
+            "rationale": "Detectar rápidamente deterioro de la perfusión cerebral"
+          },
+          {
+            "action": "Mantener cabecera elevada a 30° y evitar maniobras que aumenten la PIC",
+            "rationale": "Facilita drenaje venoso y reduce la presión intracraneal"
+          },
+          {
+            "action": "Administrar manitol según orden y observar respuesta de PIC",
+            "rationale": "Disminuye el volumen intracraneal mediante efecto osmótico"
+          },
+          {
+            "action": "Asegurar ventilación adecuada y PaCO₂ entre 35‑40 mmHg",
+            "rationale": "Hipocapnia ayuda a reducir la PIC"
+          },
+          {
+            "action": "Comunicar cambios neurológicos al médico inmediatamente",
+            "rationale": "Intervención temprana mejora pronóstico"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "uso de manitol",
+          "administración de furosemida",
+          "pérdida de líquidos por diuresis osmótica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico mantenido: ingesta y salida < 10 % del peso corporal en 24 h",
+          "Electrolitos séricos dentro de rangos normales (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L)"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada hora",
+            "rationale": "Detectar déficit de volumen temprano"
+          },
+          {
+            "action": "Pesar al paciente diariamente y comparar con peso basal",
+            "rationale": "Identificar pérdida de peso por deshidratación"
+          },
+          {
+            "action": "Monitorear electrolitos séricos cada 6‑8 h mientras se usan diuréticos",
+            "rationale": "Prevenir desequilibrios que pueden empeorar la PIC"
+          },
+          {
+            "action": "Administrar fluidos intravenosos isotónicos según prescripción",
+            "rationale": "Reemplazar el volumen perdido y mantener perfusión"
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de la hidratación oral adecuada",
+            "rationale": "Promueve autocuidado y reduce riesgo de déficit de volumen"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Brain herniation",
+    "aliases": [
+      "herniation",
+      "brain herniation",
+      "intracranial herniation",
+      "cerebral herniation"
+    ],
+    "summary": "Displacement of brain tissue through an intracranial opening due to increased intracranial pressure. It is a neurosurgical emergency that compromises perfusion and brain function.",
+    "key_points": [
+      "Increased intracranial pressure (ICP) causes brain displacement",
+      "Main types: subfalcine, uncinate, tonsillar, and transtentorial",
+      "Herniation compresses the brainstem and causes rapid neurological decline",
+      "Early diagnosis depends on imaging and Cushing’s signs"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased ICP from edema, tumor, hematoma, or hydrocephalus",
+        "Displacement of cerebral parenchyma through an opening (foramen magnum, tentorium, etc.)",
+        "Compression of cerebral vessels reduces blood flow and causes ischemia",
+        "Brainstem compression alters respiration and blood pressure"
+      ],
+      "risk_factors": [
+        "Cerebral or metastatic tumor",
+        "Subdural, epidural, or intracerebral hematoma",
+        "Cerebral edema from infection or traumatic injury",
+        "Obstructive or communicating hydrocephalus"
+      ],
+      "signs_symptoms": [
+        "Progressive loss of consciousness (Glasgow Coma Scale)",
+        "Anisocoric pupils, sluggish light response",
+        "Cushing’s hypertension: hypertension, bradycardia, irregular breathing",
+        "Hemiparesis or contralateral paresis to the herniation site",
+        "Apnea or abnormal respiratory patterns"
+      ],
+      "diagnostics": [
+        "Urgent CT scan: shows displacement and mass",
+        "MRI for detailed anatomy",
+        "ICP monitor > 20 mmHg indicates risk",
+        "Fundoscopic exam: papilledema suggests chronic hypertension"
+      ],
+      "treatment": [
+        "ICP management: 3% hypertonic saline and 20% mannitol",
+        "Diuretics such as furosemide to reduce edema",
+        "Head elevation to 30° and light sedation",
+        "Controlled ventilation to maintain PaCO₂ ≈ 35 mmHg",
+        "Surgical decompression (craniectomy) when herniation is irreversible"
+      ],
+      "complications": [
+        "Irreversible cerebral ischemia and necrosis"
+      ],
+      "nursing_care": [
+        "Monitor Glasgow Coma Scale every 15 min and record changes",
+        "Check for Cushing’s signs: blood pressure, heart rate, respiration"
+      ],
+      "patient_teaching": [
+        "Explain the importance of adhering to osmotic and diuretic therapy"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "increased intracranial pressure",
+          "cerebral tumor",
+          "intracranial hematoma",
+          "cerebral edema"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate cerebral perfusion: maintain mean arterial pressure ≥ 70 mmHg",
+          "Stable neurological status: Glasgow Coma Scale ≥ 13 for 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure, heart rate, and Glasgow Coma Scale every 15 min",
+            "rationale": "Detect rapid deterioration of cerebral perfusion"
+          },
+          {
+            "action": "Keep head elevated at 30° and avoid maneuvers that increase ICP",
+            "rationale": "Facilitates venous drainage and reduces intracranial pressure"
+          },
+          {
+            "action": "Administer mannitol as ordered and observe ICP response",
+            "rationale": "Decreases intracranial volume via osmotic effect"
+          },
+          {
+            "action": "Ensure adequate ventilation and PaCO₂ between 35‑40 mmHg",
+            "rationale": "Hypocapnia helps reduce ICP"
+          },
+          {
+            "action": "Notify physician immediately of neurological changes",
+            "rationale": "Early intervention improves prognosis"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "use of mannitol",
+          "administration of furosemide",
+          "fluid loss from osmotic diuresis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance maintained: intake and output < 10 % of body weight in 24 h",
+          "Serum electrolytes within normal ranges (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L)"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output hourly",
+            "rationale": "Detect early fluid deficit"
+          },
+          {
+            "action": "Weigh patient daily and compare to baseline weight",
+            "rationale": "Identify weight loss from dehydration"
+          },
+          {
+            "action": "Monitor serum electrolytes every 6‑8 h while diuretics are used",
+            "rationale": "Prevent imbalances that can worsen ICP"
+          },
+          {
+            "action": "Administer isotonic IV fluids as prescribed",
+            "rationale": "Replace lost volume and maintain perfusion"
+          },
+          {
+            "action": "Educate patient and family on importance of adequate oral hydration",
+            "rationale": "Promotes self-care and reduces risk of fluid deficit"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "increased-intracranial-pressure",
+    "brain-tumor",
+    "stroke",
+    "cerebral-edema",
+    "subdural-hematoma"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Brain Tumors",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/braintumors.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acute Disorders of the Nervous System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-2-acute-disorders-of-the-nervous-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: The Cerebrovascular System and Cerebral Vascular Accidents",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-1-the-cerebrovascular-system-and-cerebral-vascular-accidents",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-30",
+  "factcheck": {
+    "checked": "2026-10-30",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 2,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 32
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Some are primary brain tumors, which start in the brain. Others are metastatic, and they start somewhere else in the body and move to the brain.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "A disruption in the blood supply to the brain—that is, a stroke—can have catastrophic results; a lack of perfusion in an area of the brain can cause irreversible damage to the tissue in minutes.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      }
+    }
+  }
+}

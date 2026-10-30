@@ -1,0 +1,481 @@
+{
+  "id": "cerebral-edema",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Edema cerebral",
+    "aliases": [
+      "edema cerebral",
+      "hinchazón cerebral",
+      "acumulación de líquido",
+      "edema intracraneal",
+      "icp"
+    ],
+    "summary": "Acumulación excesiva de líquido en el tejido cerebral que aumenta la presión intracraneal y compromete la función neurológica.",
+    "key_points": [
+      "Aumento de la presión intracraneal (PIC) > 20 mmHg es crítico.",
+      "Causas comunes: trauma, tumor, infección, insuficiencia cardíaca y desequilibrios de proteínas plasmáticas.",
+      "Síntomas incluyen cefalea, vómitos, alteración del nivel de conciencia y papiledema.",
+      "Diagnóstico se basa en TC o RMN y medición de PIC mediante monitor invasivo.",
+      "Tratamiento: manejo de la causa, diuréticos osmóticos y control de la PIC."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño o inflamación cerebral altera la barrera hematoencefálica.",
+        "Se incrementa la permeabilidad capilar y se retiene líquido intersticial.",
+        "El volumen intracraneal aumenta, elevando la presión intracraneal.",
+        "La perfusión cerebral disminuye por compresión de vasos arteriales."
+      ],
+      "risk_factors": [
+        "Traumatismo craneal grave.",
+        "Tumores cerebrales o metástasis.",
+        "Infecciones como meningitis o encefalitis.",
+        "Insuficiencia cardíaca congestiva con hipoproteinemia."
+      ],
+      "signs_symptoms": [
+        "Cefalea intensa que empeora al acostarse.",
+        "Vómitos sin náuseas o con contenido alimenticio.",
+        "Alteración del nivel de conciencia (confusión, somnolencia).",
+        "Pupilas desiguales o reacción lenta a la luz.",
+        "Papiledema al examen de fondo de ojo."
+      ],
+      "diagnostics": [
+        "Tomografía computarizada (TC) de cráneo: hipodensidad difusa.",
+        "Resonancia magnética (RMN): edema vasogénico o citotóxico.",
+        "Monitor invasivo de PIC: valores >20 mmHg indican hipertensión intracraneal.",
+        "Laboratorio: glucosa 70‑100 mg/dL, electrolitos Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L."
+      ],
+      "treatment": [
+        "Elevación de la cabecera 30°‑45° para favorecer drenaje venoso.",
+        "Diuréticos osmóticos (manitol) para reducir la PIC.",
+        "Control de la causa subyacente (antibióticos, cirugía, control de insuficiencia cardíaca).",
+        "Ventilación mecánica con presión positiva al final de la espiración (PEEP) si hay compromiso respiratorio."
+      ],
+      "complications": [
+        "Herniación cerebral con compromiso de la tronco encefálico.",
+        "Isquemia cerebral por disminución del flujo sanguíneo.",
+        "Convulsiones secundarias al edema."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y presión arterial cada hora.",
+        "Evaluar nivel de conciencia usando la escala de Glasgow.",
+        "Mantener la cabeza elevada y evitar maniobras que aumenten la PIC.",
+        "Registrar salida de orina y balance hídrico.",
+        "Administrar diuréticos osmóticos según indicación médica."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de mantener la cabeza elevada.",
+        "Enseñar a reconocer signos de empeoramiento (cefalea intensa, vómitos).",
+        "Instruir sobre la necesidad de cumplir con el tratamiento y controles de imagen.",
+        "Promover evitar esfuerzos que aumenten la presión intratorácica (toser, maniobras de Valsalva)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "edema cerebral",
+          "aumento de la presión intracraneal"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades simples",
+          "disminución de la tolerancia al esfuerzo",
+          "cambios en la escala de Glasgow con actividad"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad aumentada a 30 min sin signos de fatiga (Escala de Borg <3)",
+          "Nivel de fatiga ≤3 en escala de 0‑10 dentro de 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de conciencia y escala de Glasgow cada 2 h",
+            "rationale": "Detectar deterioro neurológico temprano."
+          },
+          {
+            "action": "Monitorear signos vitales y presión arterial cada hora",
+            "rationale": "Identificar cambios hemodinámicos que puedan empeorar la PIC."
+          },
+          {
+            "action": "Mantener la cabecera de la cama en posición semi-Fowler (30°‑45°)",
+            "rationale": "Facilita el drenaje venoso cerebral y reduce la presión intracraneal."
+          },
+          {
+            "action": "Programar períodos de descanso cada 15‑20 min durante la actividad",
+            "rationale": "Previene la fatiga y permite recuperación neurológica."
+          },
+          {
+            "action": "Educar al paciente sobre la técnica de pacing de actividades",
+            "rationale": "Promueve la autogestión y evita sobrecarga física."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "aumento de la presión intracraneal",
+          "hipertensión intracraneal",
+          "edema cerebral"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial media (MAP) mantenida ≥70 mmHg durante 24 h",
+          "Presión intracraneal (PIC) controlada <20 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar MAP cada hora y registrar valores",
+            "rationale": "Garantiza perfusión cerebral adecuada."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y pupilas cada 2 h",
+            "rationale": "Detecta signos tempranos de hipoperfusión cerebral."
+          },
+          {
+            "action": "Elevar la cabecera de la cama 30° y evitar posición supina prolongada",
+            "rationale": "Reduce la presión intracraneal y mejora el retorno venoso."
+          },
+          {
+            "action": "Administrar diurético osmótico (manitol) según prescripción médica",
+            "rationale": "Disminuye el volumen intracraneal y la PIC."
+          },
+          {
+            "action": "Mantener hidratación adecuada, registrar ingesta y salida de líquidos",
+            "rationale": "Previene hipovolemia que podría disminuir la perfusión cerebral."
+          },
+          {
+            "action": "Evitar maniobras que aumenten la presión intratorácica (toser, Valsalva)",
+            "rationale": "Previene aumento secundario de la PIC."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cerebral edema",
+    "aliases": [
+      "cerebral edema",
+      "brain swelling",
+      "fluid accumulation",
+      "intracranial edema",
+      "icp"
+    ],
+    "summary": "Excessive fluid accumulation in brain tissue that increases intracranial pressure and impairs neurological function.",
+    "key_points": [
+      "Intracranial pressure (ICP) > 20 mmHg is critical.",
+      "Common causes: trauma, tumor, infection, heart failure, and plasma protein imbalances.",
+      "Symptoms include headache, vomiting, altered level of consciousness, and papilledema.",
+      "Diagnosis is based on CT or MRI and ICP measurement via invasive monitor.",
+      "Treatment: manage the cause, osmotic diuretics, and control ICP."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Brain injury or inflammation disrupts the blood‑brain barrier.",
+        "Capillary permeability increases and interstitial fluid is retained.",
+        "Intracranial volume rises, elevating ICP.",
+        "Cerebral perfusion decreases due to arterial compression."
+      ],
+      "risk_factors": [
+        "Severe head trauma.",
+        "Brain tumors or metastases.",
+        "Infections such as meningitis or encephalitis.",
+        "Congestive heart failure with hypoproteinemia."
+      ],
+      "signs_symptoms": [
+        "Severe headache that worsens when lying down.",
+        "Vomiting without nausea or with food content.",
+        "Altered level of consciousness (confusion, drowsiness).",
+        "Unequal pupils or sluggish light reaction.",
+        "Papilledema on fundoscopy."
+      ],
+      "diagnostics": [
+        "Head CT: diffuse hypodensity.",
+        "MRI: vasogenic or cytotoxic edema.",
+        "Invasive ICP monitor: values >20 mmHg indicate intracranial hypertension.",
+        "Lab: glucose 70‑100 mg/dL, electrolytes Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L."
+      ],
+      "treatment": [
+        "Elevate head 30°‑45° to promote venous drainage.",
+        "Osmotic diuretics (mannitol) to reduce ICP.",
+        "Treat underlying cause (antibiotics, surgery, heart failure control).",
+        "Mechanical ventilation with positive end‑expiratory pressure (PEEP) if respiratory compromise."
+      ],
+      "complications": [
+        "Brain herniation with brainstem compromise.",
+        "Cerebral ischemia from decreased blood flow.",
+        "Secondary seizures due to edema."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and blood pressure hourly.",
+        "Assess level of consciousness using Glasgow Coma Scale.",
+        "Keep head elevated and avoid maneuvers that increase ICP.",
+        "Record urine output and fluid balance.",
+        "Administer osmotic diuretics as ordered."
+      ],
+      "patient_teaching": [
+        "Explain importance of keeping head elevated.",
+        "Teach recognition of worsening signs (severe headache, vomiting).",
+        "Instruct on need to adhere to treatment and imaging follow‑ups.",
+        "Encourage avoiding activities that raise intrathoracic pressure (coughing, Valsalva)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "cerebral edema",
+          "increased intracranial pressure"
+        ],
+        "evidenced_by": [
+          "fatigue during simple activities",
+          "decreased exercise tolerance",
+          "changes in Glasgow scale with activity"
+        ],
+        "outcomes": [
+          "Activity tolerance increased to 30 min without fatigue (Borg <3)",
+          "Fatigue level ≤3 on 0‑10 scale within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess level of consciousness and Glasgow scale every 2 h",
+            "rationale": "Detect early neurological decline."
+          },
+          {
+            "action": "Monitor vital signs and blood pressure hourly",
+            "rationale": "Identify hemodynamic changes that may worsen ICP."
+          },
+          {
+            "action": "Maintain bed head in semi‑Fowler (30°‑45°)",
+            "rationale": "Facilitates cerebral venous drainage and reduces ICP."
+          },
+          {
+            "action": "Schedule rest periods every 15‑20 min during activity",
+            "rationale": "Prevents fatigue and allows neurological recovery."
+          },
+          {
+            "action": "Educate patient on pacing technique for activities",
+            "rationale": "Promotes self‑management and avoids physical overload."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "increased intracranial pressure",
+          "intracranial hypertension",
+          "cerebral edema"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mean arterial pressure (MAP) maintained ≥70 mmHg for 24 h",
+          "ICP controlled <20 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor MAP hourly and record values",
+            "rationale": "Ensures adequate cerebral perfusion."
+          },
+          {
+            "action": "Assess level of consciousness and pupils every 2 h",
+            "rationale": "Detect early signs of cerebral hypoperfusion."
+          },
+          {
+            "action": "Elevate bed head 30° and avoid prolonged supine position",
+            "rationale": "Reduces ICP and improves venous return."
+          },
+          {
+            "action": "Administer osmotic diuretic (mannitol) as prescribed",
+            "rationale": "Reduces intracranial volume and ICP."
+          },
+          {
+            "action": "Maintain adequate hydration, record intake and output",
+            "rationale": "Prevents hypovolemia that could lower cerebral perfusion."
+          },
+          {
+            "action": "Avoid maneuvers that increase intrathoracic pressure (coughing, Valsalva)",
+            "rationale": "Prevents secondary ICP rise."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "intracranial-pressure",
+    "cerebral-ischemia",
+    "brain-herniation",
+    "hydrocephalus"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Fallo cardíaco",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/heartfailure.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Peripheral Vascular System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-2-peripheral-vascular-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: The Cerebrovascular System and Cerebral Vascular Accidents",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-1-the-cerebrovascular-system-and-cerebral-vascular-accidents",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-30",
+  "factcheck": {
+    "checked": "2026-10-30",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Any time there is an obstruction of the arteries responsible for blood flow to the brain, perfusion becomes limited, thereby causing brain cells to be deprived of vital oxygenation.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "These patients are much more likely to have a decreased level of consciousness than patients with ischemic strokes.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "It is important to understand that edema is not a discrete disorder but a sign of an underlying disorder that must be addressed.",
+        "source": 1
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Ischemia, deprivation of oxygen, and infarction as the result of decreased perfusion cause diminished function but not always cellular death.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Patients with hemorrhagic strokes will more often complain of neck pain, photosensitivity, or nausea and vomiting; patients often present with subjective complaints of the worst headache of their life.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
