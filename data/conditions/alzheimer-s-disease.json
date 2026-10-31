@@ -1,0 +1,499 @@
+{
+  "id": "alzheimer-s-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad de Alzheimer (EA)",
+    "aliases": [
+      "alzheimer",
+      "demencia",
+      "enfermedad de alzheimer",
+      "cognitiva",
+      "memoria",
+      "pérdida de memoria"
+    ],
+    "summary": "Trastorno neurodegenerativo progresivo que causa pérdida de memoria, deterioro cognitivo y funcional, y afecta la capacidad de autocuidado.",
+    "key_points": [
+      "Es la causa más frecuente de demencia en adultos mayores",
+      "Se caracteriza por placas de beta‑amiloide y ovillos neurofibrilares",
+      "El diagnóstico se basa en pruebas neuropsicológicas y neuroimagen",
+      "El tratamiento es sintomático: inhibidores de la colinesterasa y memantina",
+      "El cuidado integral incluye seguridad, apoyo al cuidador y estimulación cognitiva"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Acumulación de beta‑amiloide forma placas extracelulares",
+        "Tau hiperfosforilada genera ovillos neurofibrilares intra‑celulares",
+        "Daño sináptico y pérdida neuronal, especialmente en hipocampo y corteza",
+        "Reducción de acetilcolina compromete la transmisión cognitiva"
+      ],
+      "risk_factors": [
+        "Edad >65 años",
+        "Antecedentes familiares o genéticos (APOE‑ε4)",
+        "Historia de traumatismo craneal moderado‑severo",
+        "Factores vasculares: hipertensión, diabetes, tabaquismo"
+      ],
+      "signs_symptoms": [
+        "Pérdida progresiva de memoria a corto plazo",
+        "Desorientación temporal y espacial",
+        "Dificultad para encontrar palabras y seguir conversaciones",
+        "Alteraciones del juicio y del razonamiento",
+        "Cambios de humor: apatía, irritabilidad, ansiedad"
+      ],
+      "diagnostics": [
+        "Mini‑Mental State Examination (MMSE) <24 sugiere deterioro cognitivo",
+        "Neuropsicología: pruebas de memoria, lenguaje y funciones ejecutivas",
+        "Resonancia magnética o TC: atrofia cortical y del hipocampo",
+        "Laboratorios: TSH, B12, glucosa para descartar causas reversibles"
+      ],
+      "treatment": [
+        "Inhibidores de la colinesterasa: donepezilo, rivastigmina, galantamina",
+        "Antagonista NMDA: memantina (para etapas moderadas‑avanzadas)",
+        "Intervenciones no farmacológicas: estimulación cognitiva, ejercicio físico, rutina estructurada",
+        "Manejo de comorbilidades: control de presión arterial, glucemia y lípidos"
+      ],
+      "complications": [
+        "Caídas y fracturas por desorientación y pérdida de equilibrio",
+        "Neumonía por aspiración debido a deterioro de la deglución",
+        "Incontinencia urinaria y presión de úlceras por inmovilidad",
+        "Agotamiento y estrés del cuidador"
+      ],
+      "nursing_care": [
+        "Evaluar nivel de orientación y MMSE en cada turno",
+        "Garantizar ambiente seguro: eliminar obstáculos, usar barandillas",
+        "Monitorear adherencia a medicación y efectos adversos",
+        "Asistir en actividades de la vida diaria según nivel de dependencia",
+        "Fomentar comunicación usando preguntas cerradas y recordatorios visuales"
+      ],
+      "patient_teaching": [
+        "Importancia de tomar los fármacos a la misma hora diariamente",
+        "Adaptar el hogar: luces nocturnas, etiquetas en cajones, calendario visible",
+        "Promover actividad física ligera y ejercicios de memoria",
+        "Educar al cuidador sobre signos de caídas y manejo del estrés"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "desorientación",
+          "pérdida de equilibrio",
+          "confusión",
+          "debilidad muscular"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad: sin caídas durante la estancia hospitalaria",
+          "Integridad cutánea: sin úlceras por presión al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar entorno y retirar objetos que puedan causar tropiezos",
+            "rationale": "Reduce la probabilidad de caídas"
+          },
+          {
+            "action": "Colocar barandillas en la cama y en el baño",
+            "rationale": "Proporciona apoyo físico al paciente desorientado"
+          },
+          {
+            "action": "Enseñar al cuidador técnicas de transferencia segura",
+            "rationale": "Previene lesiones durante movilizaciones"
+          },
+          {
+            "action": "Registrar y reportar cualquier episodio de caída o intento de caída",
+            "rationale": "Permite intervención temprana y ajuste de medidas de seguridad"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Ansiedad",
+        "type": "actual",
+        "related_to": [
+          "conciencia de pérdida cognitiva",
+          "incertidumbre sobre el futuro"
+        ],
+        "evidenced_by": [
+          "expresión verbal de preocupación",
+          "tensión muscular",
+          "inquietud al intentar dormir"
+        ],
+        "outcomes": [
+          "Ansiedad: nivel de ansiedad ≤3 en escala de 0‑10 al alta",
+          "Sueño: paciente reporta dormir ≥6 h sin interrupciones"
+        ],
+        "interventions": [
+          {
+            "action": "Crear un ambiente tranquilo con luz tenue y ruido mínimo",
+            "rationale": "Disminuye estímulos que aumentan la ansiedad"
+          },
+          {
+            "action": "Practicar técnicas de respiración profunda y relajación guiada",
+            "rationale": "Reduce la respuesta fisiológica al estrés"
+          },
+          {
+            "action": "Proveer información clara y sencilla sobre la enfermedad y el plan de cuidados",
+            "rationale": "Alivia la incertidumbre y brinda sensación de control"
+          },
+          {
+            "action": "Facilitar la presencia de un cuidador familiar durante la estancia",
+            "rationale": "Apoyo emocional disminuye la ansiedad del paciente"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Alzheimer's Disease (AD)",
+    "aliases": [
+      "alzheimer",
+      "dementia",
+      "alzheimer disease",
+      "cognitive",
+      "memory",
+      "memory loss"
+    ],
+    "summary": "Progressive neurodegenerative disorder that causes memory loss, cognitive and functional decline, and affects self‑care ability.",
+    "key_points": [
+      "It is the most common cause of dementia in older adults",
+      "Characterized by beta‑amyloid plaques and neurofibrillary tangles",
+      "Diagnosis is based on neuropsychological tests and neuroimaging",
+      "Treatment is symptomatic: cholinesterase inhibitors and memantine",
+      "Comprehensive care includes safety, caregiver support, and cognitive stimulation"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Accumulation of beta‑amyloid forms extracellular plaques",
+        "Hyperphosphorylated tau generates intracellular neurofibrillary tangles",
+        "Synaptic damage and neuronal loss, especially in hippocampus and cortex",
+        "Reduced acetylcholine impairs cognitive transmission"
+      ],
+      "risk_factors": [
+        "Age >65 years",
+        "Family or genetic history (APOE‑ε4)",
+        "History of moderate‑to‑severe head trauma",
+        "Vascular factors: hypertension, diabetes, smoking"
+      ],
+      "signs_symptoms": [
+        "Progressive short‑term memory loss",
+        "Temporal and spatial disorientation",
+        "Difficulty finding words and following conversations",
+        "Judgment and reasoning impairment",
+        "Mood changes: apathy, irritability, anxiety"
+      ],
+      "diagnostics": [
+        "Mini‑Mental State Examination (MMSE) <24 suggests cognitive decline",
+        "Neuropsychology: memory, language, executive function tests",
+        "MRI or CT: cortical and hippocampal atrophy",
+        "Labs: TSH, B12, glucose to rule out reversible causes"
+      ],
+      "treatment": [
+        "Cholinesterase inhibitors: donepezil, rivastigmine, galantamine",
+        "NMDA antagonist: memantine (for moderate‑to‑advanced stages)",
+        "Non‑pharmacologic interventions: cognitive stimulation, physical exercise, structured routine",
+        "Managing comorbidities: control blood pressure, glucose, and lipids"
+      ],
+      "complications": [
+        "Falls and fractures due to disorientation and loss of balance",
+        "Aspiration pneumonia due to dysphagia decline",
+        "Urinary incontinence and pressure ulcers from immobility",
+        "Caregiver fatigue and stress"
+      ],
+      "nursing_care": [
+        "Assess orientation level and MMSE each shift",
+        "Ensure a safe environment: remove obstacles, use handrails",
+        "Monitor medication adherence and adverse effects",
+        "Assist with activities of daily living per dependency level",
+        "Encourage communication using closed questions and visual reminders"
+      ],
+      "patient_teaching": [
+        "Importance of taking medications at the same time daily",
+        "Adapt home: night lights, drawer labels, visible calendar",
+        "Promote light physical activity and memory exercises",
+        "Educate caregiver on fall signs and stress management"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "disorientation",
+          "loss of balance",
+          "confusion",
+          "muscle weakness"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Safety: no falls during hospital stay",
+          "Skin integrity: no pressure ulcers at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Assess environment and remove objects that could cause tripping",
+            "rationale": "Reduces fall probability"
+          },
+          {
+            "action": "Install handrails on bed and in bathroom",
+            "rationale": "Provides physical support for disoriented patient"
+          },
+          {
+            "action": "Teach caregiver safe transfer techniques",
+            "rationale": "Prevents injuries during mobilization"
+          },
+          {
+            "action": "Document and report any fall or fall attempt",
+            "rationale": "Allows early intervention and adjustment of safety measures"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Anxiety",
+        "type": "actual",
+        "related_to": [
+          "awareness of cognitive loss",
+          "uncertainty about the future"
+        ],
+        "evidenced_by": [
+          "verbal expression of concern",
+          "muscle tension",
+          "restlessness when trying to sleep"
+        ],
+        "outcomes": [
+          "Anxiety: level ≤3 on 0‑10 scale at discharge",
+          "Sleep: patient reports ≥6 h uninterrupted sleep"
+        ],
+        "interventions": [
+          {
+            "action": "Create a calm environment with dim light and minimal noise",
+            "rationale": "Reduces stimuli that increase anxiety"
+          },
+          {
+            "action": "Practice deep breathing and guided relaxation techniques",
+            "rationale": "Reduces physiological stress response"
+          },
+          {
+            "action": "Provide clear, simple information about the disease and care plan",
+            "rationale": "Relieves uncertainty and provides a sense of control"
+          },
+          {
+            "action": "Facilitate presence of a family caregiver during stay",
+            "rationale": "Emotional support decreases patient anxiety"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dementia",
+    "cognitive-decline",
+    "hippocampal-atrophy",
+    "caregiver-stress",
+    "neurodegeneration"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Alzheimer 's Caregivers",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/alzheimerscaregivers.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedad de Alzheimer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/alzheimersdisease.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Major Neurocognitive Disorder and Neurodegenerative Diseases",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-4-major-neurocognitive-disorder-and-neurodegenerative-diseases",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Alzheimer’s Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/10-3-introduction-to-alzheimers-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-31",
+  "factcheck": {
+    "checked": "2026-10-31",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 22,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The most common form of MND is Alzheimer disease, which is also a neurodegenerative disease , a chronic condition that damages the brain and central nervous system , causing problems with cognitive abilities as well as physical movement.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "This disease is the most frequent cause of dementia in older adults .",
+        "source": 3
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Current potential causes of AD include: Degeneration of neurons in the hippocampus and cerebral cortex that subsequently cause cerebral atrophy Formation of beta-amyloid plaques Accumulation of neurofibrillary tangles and chemically altered tau protein Oxidative stress forming free radicals that damage cellular components caused by ROS (This is discussed more in the following section.) Deficiency of acetylcholine Genetics Figure 10.3 compares a c",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The medical therapies used for patients with MND may include medications, such as cholinesterase inhibitor s, which can decrease acetylcholine breakdown, enabling nerve cells to communicate; and memantine, which can decrease neurotoxicity (damage to nerve cells) and protect nerve cells from damage.",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Two major goals of care are maintaining socialization and providing support for caregivers.",
+        "source": 3
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Beta-amyloid plaques: These plaques form outside neurons.",
+        "source": 3
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Degeneration of neurons in the hippocampus and cerebral cortex that subsequently cause cerebral atrophy",
+        "source": 3
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Genetic research has shown that those with one or two copies of the gene that codes for apolipoprotein E4 (APOE-e4) are at a higher risk for developing AD.",
+        "source": 3
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "The degeneration of these neurons will cause short-term memory loss.",
+        "source": 3
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "The symptoms of MND include cognitive problems such as memory loss, disorientation, and confusion; difficulty reasoning and using abstract thinking, logic, and judgment to think and solve problems; decreased ability to organize and plan; communication difficulties, including forgetting simple words; spatial awareness issues, whic",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The symptoms of MND include cognitive problems such as memory loss, disorientation, and confusion; difficulty reasoning and using abstract thinking, logic, and judgment to think and solve problems; decreased ability to organize and plan; communication difficulties, including forgetting simple words; spatial awareness issues, whic",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The symptoms of MND include cognitive problems such as memory loss, disorientation, and confusion; difficulty reasoning and using abstract thinking, logic, and judgment to think and solve problems; decreased ability to organize and plan; communication difficulties, including forgetting simple words; spatial awareness issues, whic",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "In 2014, a capsule containing a combination of memantine hydrochloride ER (NMDA receptor antagonist) and donepezil hydrochloride (AChE inhibitor) was approved for the treatment of moderate to severe dementia of the Alzheimer’s type.",
+        "source": 3
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Goals for patients with MND include helping them live at home if possible, maintaining a routine of physical activity, engaging in activities that provide mental stimulation, and avoiding hospitalization.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Some patients with MND may benefit from occupational therapy, which can teach coping behaviors, particularly how to keep patients with MND safe from threats such as losing their balance and falling.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Patients with ALS should receive prescribed drugs as appropriate and side effects should be monitored.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "They become reliant on others for assistance.",
+        "source": 3
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Goals for patients with MND include helping them live at home if possible, maintaining a routine of physical activity, engaging in activities that provide mental stimulation, and avoiding hospitalization.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

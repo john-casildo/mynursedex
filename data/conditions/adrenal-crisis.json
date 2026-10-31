@@ -1,0 +1,438 @@
+{
+  "id": "adrenal-crisis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Crisis adrenal (CA)",
+    "aliases": [
+      "crisis adrenal",
+      "insuficiencia adrenal",
+      "shock adrenal",
+      "addison agudo",
+      "crisis de addison"
+    ],
+    "summary": "Emergencia potencialmente mortal por deficiencia aguda de cortisol y aldosterona, que produce hipotensión, hipoglucemia y desequilibrio electrolítico.",
+    "key_points": [
+      "Hipotensión severa y shock circulatorio",
+      "Hipoglucemia, hiponatremia e hiperkalemia",
+      "Desencadenantes: estrés, infección, suspensión abrupta de glucocorticoides",
+      "Tratamiento inmediato: hidratación con solución salina y hidrocortisona IV",
+      "Monitoreo continuo de signos vitales y electrolitos"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Fallo súbito de la glándula adrenal para liberar cortisol y aldosterona.",
+        "Disminución del tono vascular y retención de agua por falta de aldosterona.",
+        "Hipoglucemia por falta de glucocorticoides que estimulan la gluconeogénesis."
+      ],
+      "risk_factors": [
+        "Enfermedad de Addison o insuficiencia suprarrenal crónica.",
+        "Suspensión abrupta de glucocorticoides orales o inyectables.",
+        "Infección grave, trauma, cirugía o estrés fisiológico intenso."
+      ],
+      "signs_symptoms": [
+        "Hipotensión ortostática o choque séptico‑like.",
+        "Náuseas, vómitos, dolor abdominal y debilidad general.",
+        "Hipoglucemia (glucosa <70 mg/dL), confusión o pérdida de conciencia."
+      ],
+      "diagnostics": [
+        "Cortisol sérico <3 µg/dL (muestra basal) o <18 µg/dL después de ACTH.",
+        "Sodio 120‑130 mEq/L, potasio 5.5‑6.5 mEq/L.",
+        "Glucosa <70 mg/dL; hemograma y cultivos si se sospecha infección."
+      ],
+      "treatment": [
+        "Hidrocortisona 100 mg IV bolus, luego 200 mg/24 h por infusión.",
+        "Solución salina isotónica 1 L en la primera hora, luego según respuesta.",
+        "Glucosa 5 % IV si glucosa <70 mg/dL; corrección de electrolitos según labs."
+      ],
+      "complications": [
+        "Shock irreversible y falla multiorgánica.",
+        "Edema cerebral por hiponatremia severa.",
+        "Muerte si no se trata en <2 h."
+      ],
+      "nursing_care": [
+        "Monitorizar presión arterial cada 5‑15 min y frecuencia cardíaca.",
+        "Controlar glucosa capilar cada 30 min hasta estabilizar.",
+        "Evaluar estado de hidratación: turgor, mucosas, diuresis.",
+        "Administrar hidrocortisona y fluidos según orden médica.",
+        "Registrar electrolitos y ajustar terapia de reposición."
+      ],
+      "patient_teaching": [
+        "Importancia de no suspender glucocorticoides sin indicación médica.",
+        "Uso de tarjeta de alerta médica y dosis de estrés (hidrocortisona oral).",
+        "Reconocer signos de crisis: mareos, vómitos, debilidad.",
+        "Mantener hidratación adecuada y acudir al servicio de urgencias ante síntomas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por vómitos",
+          "hipotensión por insuficiencia adrenal",
+          "estado de shock"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado de hidratación: volumen intravascular mantenido (presión arterial >90/60 mmHg) en 24 h",
+          "Diuresis ≥0.5 mL/kg/h en 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar solución salina isotónica 0.9% IV según orden y registrar velocidad.",
+            "rationale": "Restablece el volumen circulante y corrige la hipotensión."
+          },
+          {
+            "action": "Monitorear signos vitales y presión arterial cada 15 min durante la fase aguda.",
+            "rationale": "Detecta respuesta al tratamiento y previene deterioro hemodinámico."
+          },
+          {
+            "action": "Evaluar turgor cutáneo, mucosas y diuresis cada hora.",
+            "rationale": "Provee indicadores directos del estado de hidratación."
+          },
+          {
+            "action": "Registrar y reportar cambios en la presión arterial o frecuencia cardíaca al médico.",
+            "rationale": "Permite ajustes rápidos en la terapia de fluidos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "deficiencia de aldosterona",
+          "pérdida de sodio por vómitos",
+          "hiperkalemia por falta de excreción"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na⁺ 135‑145 mEq/L y K⁺ 3.5‑5.0 mEq/L en 24 h",
+          "Sin síntomas neuromusculares relacionados con alteraciones electrolíticas"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos (Na⁺, K⁺, Cl⁻) cada 4‑6 h.",
+            "rationale": "Detecta rápidamente desviaciones y guía la reposición."
+          },
+          {
+            "action": "Administrar solución salina 0.9% o solución de Ringer lactato según prescripción.",
+            "rationale": "Corrige hiponatremia y mejora la perfusión renal."
+          },
+          {
+            "action": "Ajustar la velocidad de infusión de glucosa 5 % si la glucosa <70 mg/dL.",
+            "rationale": "Previene hipoglucemia que puede agravar el desequilibrio iónico."
+          },
+          {
+            "action": "Educar al paciente sobre la necesidad de tomar suplementos de sodio si se indica.",
+            "rationale": "Mantiene el equilibrio electrolítico después del alta."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Adrenal crisis (AC)",
+    "aliases": [
+      "adrenal crisis",
+      "addisonian crisis",
+      "adrenal insufficiency crisis",
+      "addison acute",
+      "addison crisis"
+    ],
+    "summary": "Potentially fatal emergency due to acute cortisol and aldosterone deficiency, causing hypotension, hypoglycemia, and electrolyte imbalance.",
+    "key_points": [
+      "Severe hypotension and circulatory shock",
+      "Hypoglycemia, hyponatremia, and hyperkalemia",
+      "Triggers: stress, infection, abrupt cessation of glucocorticoids",
+      "Immediate treatment: saline hydration and IV hydrocortisone",
+      "Continuous monitoring of vital signs and electrolytes"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Sudden failure of the adrenal gland to release cortisol and aldosterone.",
+        "Reduced vascular tone and water retention due to lack of aldosterone.",
+        "Hypoglycemia from lack of glucocorticoids that stimulate gluconeogenesis."
+      ],
+      "risk_factors": [
+        "Addison disease or chronic adrenal insufficiency.",
+        "Abrupt cessation of oral or injectable glucocorticoids.",
+        "Severe infection, trauma, surgery, or intense physiological stress."
+      ],
+      "signs_symptoms": [
+        "Orthostatic hypotension or septic‑like shock.",
+        "Nausea, vomiting, abdominal pain, and generalized weakness.",
+        "Hypoglycemia (glucose <70 mg/dL), confusion, or loss of consciousness."
+      ],
+      "diagnostics": [
+        "Serum cortisol <3 µg/dL (basal sample) or <18 µg/dL after ACTH.",
+        "Sodium 120‑130 mEq/L, potassium 5.5‑6.5 mEq/L.",
+        "Glucose <70 mg/dL; CBC and cultures if infection suspected."
+      ],
+      "treatment": [
+        "Hydrocortisone 100 mg IV bolus, then 200 mg/24 h infusion.",
+        "Isotonic saline 1 L in the first hour, then as needed.",
+        "5 % dextrose IV if glucose <70 mg/dL; correct electrolytes per labs."
+      ],
+      "complications": [
+        "Irreversible shock and multi‑organ failure.",
+        "Cerebral edema from severe hyponatremia.",
+        "Death if untreated within <2 h."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure every 5‑15 min and heart rate.",
+        "Check capillary glucose every 30 min until stable.",
+        "Assess hydration status: turgor, mucous membranes, urine output.",
+        "Administer hydrocortisone and fluids per physician order.",
+        "Document electrolytes and adjust replacement therapy."
+      ],
+      "patient_teaching": [
+        "Importance of not stopping glucocorticoids without medical indication.",
+        "Use of medical alert card and stress dose (oral hydrocortisone).",
+        "Recognize crisis signs: dizziness, vomiting, weakness.",
+        "Maintain adequate hydration and seek emergency care if symptoms occur."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "fluid loss from vomiting",
+          "hypotension from adrenal insufficiency",
+          "shock state"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration status: intravascular volume maintained (blood pressure >90/60 mmHg) in 24 h",
+          "Urine output ≥0.5 mL/kg/h in 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate 0.9% isotonic saline IV per order and record rate.",
+            "rationale": "Restores circulating volume and corrects hypotension."
+          },
+          {
+            "action": "Monitor vital signs and blood pressure every 15 min during the acute phase.",
+            "rationale": "Detects response to treatment and prevents hemodynamic deterioration."
+          },
+          {
+            "action": "Assess skin turgor, mucous membranes, and urine output hourly.",
+            "rationale": "Provides direct indicators of hydration status."
+          },
+          {
+            "action": "Document and report changes in blood pressure or heart rate to the physician.",
+            "rationale": "Allows rapid adjustments in fluid therapy."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "aldosterone deficiency",
+          "sodium loss from vomiting",
+          "hyperkalemia from impaired excretion"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L in 24 h",
+          "No neuromuscular symptoms related to electrolyte disturbances"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel (Na⁺, K⁺, Cl⁻) every 4‑6 h.",
+            "rationale": "Rapidly detects deviations and guides replacement."
+          },
+          {
+            "action": "Administer 0.9% saline or Ringer lactate per prescription.",
+            "rationale": "Corrects hyponatremia and improves renal perfusion."
+          },
+          {
+            "action": "Adjust 5 % dextrose infusion rate if glucose <70 mg/dL.",
+            "rationale": "Prevents hypoglycemia that can worsen ionic imbalance."
+          },
+          {
+            "action": "Educate patient on the need to take sodium supplements if indicated.",
+            "rationale": "Maintains electrolyte balance after discharge."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "addison-disease",
+    "hypoglycemia",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Adrenal Gland Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/adrenalglanddisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Adrenal Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-5-adrenal-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Adrenal Cortex, Pituitary, and Hypothalamus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/26-1-introduction-to-the-adrenal-cortex-pituitary-and-hypothalamus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-31",
+  "factcheck": {
+    "checked": "2026-10-31",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 18,
+      "contradicted": 1,
+      "total": 33
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An adrenal crisis is an acute, rapid onset of severe cortisol and aldosterone insufficiency, causing the patient to become critically ill and go into shock.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "An adrenal crisis is an acute, rapid onset of severe cortisol and aldosterone insufficiency, causing the patient to become critically ill and go into shock.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Serum chemistry results may reveal hyponatremia, hypoglycemia, hypercalcemia, and hyperkalemia.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The crisis is initially treated by administering intravenous fluids, dextrose, and hydrocortisone, followed by diagnostic testing to discover and treat the underlying cause.",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "The nurse should also monitor vital signs, electrolytes, daily weights, intake and output, and serum blood glucose for imbalances (Vera, 2023).",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "An adrenal crisis is an acute, rapid onset of severe cortisol and aldosterone insufficiency, causing the patient to become critically ill and go into shock."
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "The cortisol deficiency can result in low blood glucose levels, as it prevents the formation of glucose from molecules that aren’t carbohydrates (gluconeogenesis), which is necessary for the body to maintain steady glucose levels.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Causes of adrenal insufficiency include: Autoimmune disease and creation of antibodies that react against adrenal tissue (also known as Addison’s disease)"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "It can be caused by abrupt discontinuation of steroid therapy or inadequate dosing of current steroid therapy in patients with adrenal insufficiency or by recent infection or trauma.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "It can be caused by abrupt discontinuation of steroid therapy or inadequate dosing of current steroid therapy in patients with adrenal insufficiency or by recent infection or trauma.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "An adrenal crisis is an acute, rapid onset of severe cortisol and aldosterone insufficiency, causing the patient to become critically ill and go into shock.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Signs and symptoms include rapid, progressive onset of adrenal insufficiency symptoms such as nausea, vomiting, abdominal pain, hypotension, altered mental status, or obtundation.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The crisis is initially treated by administering intravenous fluids, dextrose, and hydrocortisone, followed by diagnostic testing to discover and treat the underlying cause.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Similar to adrenal insufficiency, adrenal crisis can occur in Cushing’s syndrome if glucocorticoid medications are abruptly stopped.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "contradicted",
+        "quote": "Utilization of an alert bracelet stating the patient has adrenal insufficiency",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

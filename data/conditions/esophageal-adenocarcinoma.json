@@ -1,0 +1,491 @@
+{
+  "id": "esophageal-adenocarcinoma",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Adenocarcinoma esofágico (AE)",
+    "aliases": [
+      "adenocarcinoma esofágico",
+      "cáncer esófago",
+      "cáncer esofágico",
+      "adenocarcinoma esofago",
+      "cáncer de esófago"
+    ],
+    "summary": "Neoplasia maligna que se origina en la mucosa glandular del esófago, frecuentemente asociada a esófago de Barrett y reflujo gastroesofágico.",
+    "key_points": [
+      "Se relaciona con enfermedad por reflujo gastroesofágico crónica y esófago de Barrett.",
+      "Presenta disfagia progresiva y pérdida de peso significativa.",
+      "Diagnóstico se confirma con endoscopia y biopsia histológica.",
+      "El tratamiento combina cirugía, quimioterapia y radioterapia.",
+      "Complicaciones incluyen obstrucción, perforación y metástasis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El reflujo ácido daña el epitelio escamoso del esófago.",
+        "La lesión crónica induce metaplasia de Barrett (células columnares).",
+        "La metaplasia progresa a displasia y, finalmente, a adenocarcinoma.",
+        "Las células neoplásicas invaden la capa muscular y pueden diseminarse."
+      ],
+      "risk_factors": [
+        "Enfermedad por reflujo gastroesofágico (ERGE) prolongada.",
+        "Esófago de Barrett.",
+        "Obesidad abdominal y tabaquismo.",
+        "Historia familiar de cáncer de esófago."
+      ],
+      "signs_symptoms": [
+        "Disfagia progresiva, primero a sólidos y luego a líquidos.",
+        "Pérdida de peso no intencional >10% del peso corporal.",
+        "Dolor retroesternal o epigástrico que empeora al tragar.",
+        "Regurgitación de alimentos y posible hemorragia digestiva."
+      ],
+      "diagnostics": [
+        "Endoscopia digestiva alta con biopsia: hallazgos de lesión ulcerada o masa.",
+        "Tomografía axial computarizada (TAC) torácica para estadificación.",
+        "PET-CT para detección de metástasis distantes.",
+        "Laboratorio: hemoglobina <12 g/dL (anemia), albumina <3.5 g/dL (malnutrición)."
+      ],
+      "treatment": [
+        "Esophagectomía transhiatal o transtóraxica con linfadenectomía.",
+        "Quimioterapia neoadyuvante (cisplatino + 5‑fluorouracilo).",
+        "Radioterapia concurrente o adyuvante según estadio.",
+        "Inhibidores de la bomba de protones (omeprazol, pantoprazol) para controlar ERGE.",
+        "Soporte nutricional: dieta blanda, suplementos orales o nutrición enteral."
+      ],
+      "complications": [
+        "Obstrucción esofágica por tumor.",
+        "Perforación esofágica durante diagnóstico o tratamiento.",
+        "Metástasis a hígado, pulmones o ganglios linfáticos.",
+        "Malnutrición y déficit de volumen de líquidos.",
+        "Aspiración pulmonar por regurgitación."
+      ],
+      "nursing_care": [
+        "Evaluar disfagia, peso, ingesta calórica y signos de deshidratación.",
+        "Monitorear signos vitales, saturación O2 y presencia de tos o sibilancias.",
+        "Mantener posición semisentada (30‑45°) durante y después de la alimentación.",
+        "Administrar analgésicos según prescripción y evaluar control del dolor.",
+        "Vigilar signos de aspiración: cambios en auscultación, fiebre, aumento de secreciones."
+      ],
+      "patient_teaching": [
+        "Seguir dieta blanda, comer despacio y masticar bien los alimentos.",
+        "Informar signos de obstrucción o aspiración (tos, dificultad para respirar).",
+        "Importancia de la adherencia a la quimioterapia y radioterapia programada.",
+        "Evitar tabaco, alcohol y alimentos grasos que empeoren el reflujo.",
+        "Mantener citas de seguimiento endoscópico y de oncología."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "disfagia",
+          "reflujo gastroesofágico",
+          "tumor obstructivo",
+          "procedimientos quirúrgicos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: sin episodios de aspiración durante la hospitalización",
+          "Oxigenación: SpO2 ≥ 95% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la capacidad de deglución antes de cada alimentación.",
+            "rationale": "Detectar alteraciones que aumenten el riesgo de ingreso de contenido a la vía aérea."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentada (30‑45°) durante y después de comer.",
+            "rationale": "Facilita el paso del bolo y reduce la probabilidad de reflujo y aspiración."
+          },
+          {
+            "action": "Administrar medicamentos antiácidos/PPI según indicación.",
+            "rationale": "Disminuye la acidez gástrica y el daño de la mucosa que favorece el reflujo."
+          },
+          {
+            "action": "Observar signos de aspiración: tos, cambios en auscultación, fiebre.",
+            "rationale": "Permite intervención temprana y prevención de neumonía por aspiración."
+          },
+          {
+            "action": "Educar al paciente y familia sobre técnicas de alimentación segura (pequeñas porciones, masticar bien).",
+            "rationale": "Reduce la incidencia de aspiración fuera del entorno hospitalario."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "disfagia",
+          "náuseas y vómitos",
+          "pérdida de peso",
+          "tratamiento oncológico"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación: ingesta de líquidos ≥ 2 L/día",
+          "Peso corporal: estabilidad del peso (±0.5 kg) en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno.",
+            "rationale": "Identificar déficit temprano y ajustar el plan de hidratación."
+          },
+          {
+            "action": "Ofrecer líquidos en pequeñas cantidades frecuentes y a temperatura agradable.",
+            "rationale": "Facilita la tolerancia en pacientes con disfagia."
+          },
+          {
+            "action": "Evaluar signos de deshidratación: mucosas secas, turgencia cutánea, taquicardia.",
+            "rationale": "Permite detección precoz y prevención de complicaciones."
+          },
+          {
+            "action": "Colaborar con nutricionista para iniciar soporte nutricional enteral si la ingesta oral es insuficiente.",
+            "rationale": "Garantiza aporte calórico y de líquidos adecuado."
+          },
+          {
+            "action": "Monitorear electrolitos (Na+, K+, Cl-) y glucosa en sangre diariamente.",
+            "rationale": "Detectar desequilibrios que pueden acompañar la deshidratación."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de mantener una ingesta adecuada de líquidos y reconocer síntomas de deshidratación.",
+            "rationale": "Promueve autocuidado y adherencia al plan de hidratación."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Esophageal adenocarcinoma (EA)",
+    "aliases": [
+      "esophageal adenocarcinoma",
+      "esophageal cancer",
+      "adenocarcinoma esophagus"
+    ],
+    "summary": "Malignant neoplasm originating in the glandular mucosa of the esophagus, frequently associated with Barrett's esophagus and gastroesophageal reflux.",
+    "key_points": [
+      "Associated with chronic gastroesophageal reflux disease and Barrett's esophagus.",
+      "Presents progressive dysphagia and significant weight loss.",
+      "Diagnosis confirmed with endoscopy and histologic biopsy.",
+      "Treatment combines surgery, chemotherapy, and radiotherapy.",
+      "Complications include obstruction, perforation, and metastasis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Acid reflux damages the squamous epithelium of the esophagus.",
+        "Chronic injury induces Barrett's metaplasia (columnar cells).",
+        "Metaplasia progresses to dysplasia and ultimately to adenocarcinoma.",
+        "Neoplastic cells invade the muscular layer and may disseminate."
+      ],
+      "risk_factors": [
+        "Prolonged gastroesophageal reflux disease (GERD).",
+        "Barrett's esophagus.",
+        "Abdominal obesity and smoking.",
+        "Family history of esophageal cancer."
+      ],
+      "signs_symptoms": [
+        "Progressive dysphagia, first solids then liquids.",
+        "Unintentional weight loss >10% of body weight.",
+        "Retrosternal or epigastric pain worsened by swallowing.",
+        "Regurgitation of food and possible gastrointestinal bleeding."
+      ],
+      "diagnostics": [
+        "Upper endoscopy with biopsy: findings of ulcerated lesion or mass.",
+        "Thoracic CT for staging.",
+        "PET-CT for detection of distant metastasis.",
+        "Laboratory: hemoglobin <12 g/dL (anemia), albumin <3.5 g/dL (malnutrition)."
+      ],
+      "treatment": [
+        "Transhiatal or transthoracic esophagectomy with lymphadenectomy.",
+        "Neoadjuvant chemotherapy (cisplatin + 5‑fluorouracil).",
+        "Concurrent or adjuvant radiotherapy depending on stage.",
+        "Proton pump inhibitors (omeprazole, pantoprazole) to control GERD.",
+        "Nutritional support: soft diet, oral supplements or enteral nutrition."
+      ],
+      "complications": [
+        "Esophageal obstruction by tumor.",
+        "Esophageal perforation during diagnosis or treatment.",
+        "Metastasis to liver, lungs, or lymph nodes.",
+        "Malnutrition and fluid volume deficit.",
+        "Pulmonary aspiration from regurgitation."
+      ],
+      "nursing_care": [
+        "Assess dysphagia, weight, caloric intake, and signs of dehydration.",
+        "Monitor vital signs, O2 saturation, and presence of cough or wheezing.",
+        "Maintain semi‑upright position (30‑45°) during and after feeding.",
+        "Administer analgesics as prescribed and evaluate pain control.",
+        "Watch for aspiration signs: changes in auscultation, fever, increased secretions."
+      ],
+      "patient_teaching": [
+        "Follow a soft diet, eat slowly and chew food thoroughly.",
+        "Report signs of obstruction or aspiration (cough, difficulty breathing).",
+        "Importance of adherence to scheduled chemotherapy and radiotherapy.",
+        "Avoid tobacco, alcohol, and fatty foods that worsen reflux.",
+        "Keep follow‑up endoscopic and oncology appointments."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "dysphagia",
+          "gastroesophageal reflux",
+          "obstructive tumor",
+          "surgical procedures"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: no aspiration episodes during hospitalization",
+          "Oxygenation: SpO2 ≥ 95% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing ability before each meal.",
+            "rationale": "Detect alterations that increase risk of airway entry of contents."
+          },
+          {
+            "action": "Keep patient in semi‑upright position (30‑45°) during and after eating.",
+            "rationale": "Facilitates bolus passage and reduces reflux and aspiration."
+          },
+          {
+            "action": "Administer antacids/PPI as ordered.",
+            "rationale": "Reduces gastric acidity and mucosal damage that promotes reflux."
+          },
+          {
+            "action": "Observe for aspiration signs: cough, changes in auscultation, fever.",
+            "rationale": "Allows early intervention and prevention of aspiration pneumonia."
+          },
+          {
+            "action": "Educate patient and family on safe eating techniques (small portions, thorough chewing).",
+            "rationale": "Reduces incidence of aspiration outside the hospital setting."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "dysphagia",
+          "nausea and vomiting",
+          "weight loss",
+          "oncologic treatment"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration: fluid intake ≥ 2 L/day",
+          "Body weight: weight stability (±0.5 kg) within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output each shift.",
+            "rationale": "Identify early deficit and adjust hydration plan."
+          },
+          {
+            "action": "Offer fluids in small, frequent amounts at a pleasant temperature.",
+            "rationale": "Facilitates tolerance in patients with dysphagia."
+          },
+          {
+            "action": "Assess dehydration signs: dry mucous membranes, skin turgor, tachycardia.",
+            "rationale": "Allows early detection and prevention of complications."
+          },
+          {
+            "action": "Collaborate with dietitian to initiate enteral nutrition if oral intake is insufficient.",
+            "rationale": "Ensures adequate caloric and fluid intake."
+          },
+          {
+            "action": "Monitor electrolytes (Na+, K+, Cl-) and blood glucose daily.",
+            "rationale": "Detect imbalances that may accompany dehydration."
+          },
+          {
+            "action": "Educate patient on importance of maintaining adequate fluid intake and recognizing dehydration symptoms.",
+            "rationale": "Promotes self‑care and adherence to hydration plan."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "barrett-s-esophagus",
+    "gerd",
+    "esophageal-stricture",
+    "esophagectomy",
+    "metastasis"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Esophagus and Stomach",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/29-2-introduction-to-the-esophagus-and-stomach",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Upper GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-4-disorders-of-the-upper-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-31",
+  "factcheck": {
+    "checked": "2026-10-31",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "researchers believe that damage to the squamous esophageal cells resulting from gastroesophageal reflux disease (GERD) causes the cells to undergo constant repair and wound healing.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "An upper endoscopy will confirm visual changes to the tissues in the esophagus.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "researchers believe that damage to the squamous esophageal cells resulting from gastroesophageal reflux disease (GERD) causes the cells to undergo constant repair and wound healing.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "A condition called Barrett’s esophagus entails the cells lining the esophagus change, becoming more like intestinal cells.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Along with GERD, other risk factors for developing Barrett’s esophagus include central obesity , smoking, and family history.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Patients diagnosed with Barrett’s esophagus are prescribed a PPI, such as omeprazole or pantoprazole, to eliminate GERD symptoms and prevent further esophageal irritation.",
+        "source": 1
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "A properly functioning upper esophageal sphincter is vital to prevent aspiration of food and liquids into the airways.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

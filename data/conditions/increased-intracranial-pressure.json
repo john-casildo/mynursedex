@@ -1,0 +1,475 @@
+{
+  "id": "increased-intracranial-pressure",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipertensión intracraneal (HIC)",
+    "aliases": [
+      "hipertension intracraneal",
+      "presion intracraneal",
+      "icp",
+      "presion cerebral",
+      "aumento presion cerebrospinal"
+    ],
+    "summary": "Elevación sostenida de la presión dentro del cráneo que compromete la perfusión cerebral y puede causar daño neurológico.",
+    "key_points": [
+      "Presión intracraneal normal: 5‑15 mmHg; HIC >20 mmHg.",
+      "La rigidez de la fontanela en niños y papiledema son signos de alerta.",
+      "Mannitol y solución salina hipertónica son tratamientos de primera línea.",
+      "Elevación de la cabecera a 30°‑45° ayuda a reducir la presión.",
+      "Monitoreo continuo de ICP y MAP es esencial para guiar la terapia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El cráneo es un compartimento rígido; cualquier aumento de volumen (sangre, edema, masa) eleva la presión.",
+        "Según la ley de Monro‑Kellie, la suma de sangre, CSF y tejido cerebral es constante.",
+        "Cuando la compensación se agota, la presión intracraneal aumenta y reduce el flujo sanguíneo cerebral.",
+        "La hipoperfusión cerebral provoca isquemia y edema vasogénico, creando un círculo vicioso."
+      ],
+      "risk_factors": [
+        "Tumores cerebrales, hemorragia intracraneal, edema post‑traumático.",
+        "Infecciones del SNC (meningitis, encefalitis).",
+        "Hidrocefalia obstructiva o comunicante.",
+        "Uso de diuréticos osmóticos sin reposición adecuada de líquidos."
+      ],
+      "signs_symptoms": [
+        "Cefalea peor al acostarse, náuseas y vómitos sin contenido gástrico.",
+        "Alteraciones del nivel de conciencia (confusión, somnolencia).",
+        "Papiledema al examen de fondo de ojo.",
+        "Rigidez de la fontanela en lactantes."
+      ],
+      "diagnostics": [
+        "Tomografía computarizada (TC) o resonancia magnética (RM) para identificar masa o hemorragia.",
+        "Monitor de presión intracraneal (ICP) invasivo: valores >20 mmHg indican HIC.",
+        "Examen de fondo de ojo: papiledema sugiere aumento de presión.",
+        "Análisis de sangre: glucosa, electrolitos (Na+, K+ en mEq/L) para guiar terapia osmótica."
+      ],
+      "treatment": [
+        "Mannitol 20% IV (hiperosmolar) para reducir volumen intracraneal.",
+        "Solución salina hipertónica 3% IV para disminuir edema cerebral.",
+        "Furosemida IV para promover diuresis y disminuir volumen plasmático.",
+        "Elevación de la cabecera a 30°‑45°, sedación ligera y control del dolor.",
+        "Hiperventilación controlada (PaCO2 30‑35 mmHg) para vasoconstricción cerebral transitoria."
+      ],
+      "complications": [
+        "Isquemia cerebral irreversible.",
+        "Hernia cerebral (tentorial, uncal) con compromiso de la vía aérea y la función cardiovascular.",
+        "Hiponatremia por exceso de diuréticos osmóticos.",
+        "Infección del sitio de monitor de ICP."
+      ],
+      "nursing_care": [
+        "Monitorear ICP y MAP cada hora; mantener diferencia de perfusión cerebral (CPP) >60 mmHg.",
+        "Evaluar nivel de conciencia usando escala de Glasgow cada 2‑4 h.",
+        "Mantener la cabecera elevada y evitar maniobras que aumenten la presión intratorácica.",
+        "Controlar entrada y salida de líquidos; registrar balance hídrico estricto.",
+        "Observar signos de hiponatremia y desequilibrio electrolítico."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de mantener la cabeza elevada y evitar tos o esfuerzo.",
+        "Instruir sobre signos de alarma: empeoramiento de cefalea, vómitos, visión borrosa.",
+        "Enseñar la técnica de respiración profunda controlada para evitar hiperventilación excesiva.",
+        "Informar sobre la necesidad de adherirse al plan de medicación osmótica y diurética."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "presión intracraneal >20 mmHg",
+          "edema cerebral",
+          "hipertensión arterial sistémica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral: mantener presión intracraneal <20 mmHg durante 24 h.",
+          "Presión de perfusión cerebral (CPP) >60 mmHg en todas las mediciones."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ICP y MAP cada hora y registrar valores.",
+            "rationale": "Detectar rápidamente aumentos de presión y ajustar intervenciones."
+          },
+          {
+            "action": "Elevar la cabecera de la cama a 30°‑45° y mantener posición neutral del cuello.",
+            "rationale": "Facilita el drenaje venoso cerebral y reduce la presión intracraneal."
+          },
+          {
+            "action": "Administrar manitol o solución salina hipertónica según orden médica.",
+            "rationale": "Disminuye el volumen intracraneal mediante efecto osmótico."
+          },
+          {
+            "action": "Controlar balance hídrico y ajustar ingesta de líquidos según prescripción.",
+            "rationale": "Previene sobrecarga de volumen que pueda elevar la ICP."
+          },
+          {
+            "action": "Evaluar nivel de conciencia con escala de Glasgow cada 2 h.",
+            "rationale": "Cambios en la conciencia indican deterioro de la perfusión cerebral."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al esfuerzo físico",
+          "cambios en la escala de Glasgow con actividad"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: el paciente podrá realizar ADL básicas sin aumento de ICP en 48 h.",
+          "Nivel de energía: reportar disminución de fatiga a <3/10 en escala de 0‑10."
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de descanso cada 30‑45 min durante actividades.",
+            "rationale": "Previene el aumento de la presión intracraneal por esfuerzo sostenido."
+          },
+          {
+            "action": "Enseñar técnicas de respiración lenta y controlada.",
+            "rationale": "Evita hiperventilación que puede alterar la presión intracraneal."
+          },
+          {
+            "action": "Coordinar con fisioterapia para ejercicios de bajo impacto y progresión gradual.",
+            "rationale": "Mejora la resistencia sin sobrecargar el sistema nervioso central."
+          },
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia antes y después de la actividad.",
+            "rationale": "Detecta deterioro temprano que requiera ajuste del plan de cuidados."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de respetar los límites de actividad.",
+            "rationale": "Promueve la adherencia y reduce el riesgo de recaídas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intracranial hypertension (ICH)",
+    "aliases": [
+      "intracranial hypertension",
+      "intracranial pressure",
+      "icp",
+      "brain pressure",
+      "increased cerebrospinal fluid pressure"
+    ],
+    "summary": "Sustained elevation of pressure within the skull that compromises cerebral perfusion and can cause neurological damage.",
+    "key_points": [
+      "Normal intracranial pressure: 5‑15 mmHg; ICH >20 mmHg.",
+      "Fontanelle rigidity in children and papilledema are warning signs.",
+      "Mannitol and hypertonic saline are first‑line treatments.",
+      "Head elevation to 30°‑45° helps reduce pressure.",
+      "Continuous monitoring of ICP and MAP is essential to guide therapy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The skull is a rigid compartment; any increase in volume (blood, edema, mass) raises pressure.",
+        "According to the Monro‑Kellie law, the sum of blood, CSF, and brain tissue is constant.",
+        "When compensation is exhausted, intracranial pressure rises and reduces cerebral blood flow.",
+        "Cerebral hypoperfusion causes ischemia and vasogenic edema, creating a vicious cycle."
+      ],
+      "risk_factors": [
+        "Brain tumors, intracranial hemorrhage, post‑traumatic edema.",
+        "Central nervous system infections (meningitis, encephalitis).",
+        "Obstructive or communicating hydrocephalus.",
+        "Use of osmotic diuretics without adequate fluid replacement."
+      ],
+      "signs_symptoms": [
+        "Headache worse when lying down, nausea and vomiting without gastric content.",
+        "Alterations in level of consciousness (confusion, drowsiness).",
+        "Papilledema on fundoscopy.",
+        "Fontanelle rigidity in infants."
+      ],
+      "diagnostics": [
+        "Computed tomography (CT) or magnetic resonance imaging (MRI) to identify mass or hemorrhage.",
+        "Invasive intracranial pressure (ICP) monitor: values >20 mmHg indicate ICH.",
+        "Fundoscopic exam: papilledema suggests increased pressure.",
+        "Blood tests: glucose, electrolytes (Na+, K+ in mEq/L) to guide osmotic therapy."
+      ],
+      "treatment": [
+        "Mannitol 20% IV (hyperosmolar) to reduce intracranial volume.",
+        "3% hypertonic saline IV to decrease cerebral edema.",
+        "IV furosemide to promote diuresis and reduce plasma volume.",
+        "Head elevation to 30°‑45°, light sedation and pain control.",
+        "Controlled hyperventilation (PaCO₂ 30‑35 mmHg) for transient cerebral vasoconstriction."
+      ],
+      "complications": [
+        "Irreversible cerebral ischemia.",
+        "Cerebral herniation (tentorial, uncal) with airway and cardiovascular compromise.",
+        "Hyponatremia from excess osmotic diuretics.",
+        "ICP monitor site infection."
+      ],
+      "nursing_care": [
+        "Monitor ICP and MAP hourly; maintain cerebral perfusion pressure (CPP) >60 mmHg.",
+        "Assess level of consciousness using Glasgow scale every 2‑4 h.",
+        "Keep head elevated and avoid maneuvers that increase intrathoracic pressure.",
+        "Control fluid input and output; record strict fluid balance.",
+        "Observe for signs of hyponatremia and electrolyte imbalance."
+      ],
+      "patient_teaching": [
+        "Explain the importance of keeping the head elevated and avoiding coughing or straining.",
+        "Teach warning signs: worsening headache, vomiting, blurred vision.",
+        "Show controlled deep breathing technique to avoid excessive hyperventilation.",
+        "Inform about the need to adhere to osmotic and diuretic medication plan."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "intracranial pressure >20 mmHg",
+          "cerebral edema",
+          "systemic arterial hypertension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral perfusion: maintain intracranial pressure <20 mmHg for 24 h.",
+          "Cerebral perfusion pressure (CPP) >60 mmHg on all measurements."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor ICP and MAP hourly and record values.",
+            "rationale": "Detect rapid pressure increases and adjust interventions."
+          },
+          {
+            "action": "Elevate the bed head to 30°‑45° and maintain neutral neck position.",
+            "rationale": "Facilitates cerebral venous drainage and reduces intracranial pressure."
+          },
+          {
+            "action": "Administer mannitol or hypertonic saline as ordered.",
+            "rationale": "Decreases intracranial volume via osmotic effect."
+          },
+          {
+            "action": "Control fluid balance and adjust fluid intake per prescription.",
+            "rationale": "Prevents volume overload that could raise ICP."
+          },
+          {
+            "action": "Assess level of consciousness with Glasgow scale every 2 h.",
+            "rationale": "Changes in consciousness indicate cerebral perfusion deterioration."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "decreased tolerance to physical exertion",
+          "changes in Glasgow scale with activity"
+        ],
+        "outcomes": [
+          "Activity tolerance: the patient will perform basic ADLs without increased ICP in 48 h.",
+          "Energy level: report fatigue <3/10 on a 0‑10 scale."
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods every 30‑45 min during activities.",
+            "rationale": "Prevents ICP rise from sustained effort."
+          },
+          {
+            "action": "Teach slow, controlled breathing techniques.",
+            "rationale": "Avoids hyperventilation that can alter intracranial pressure."
+          },
+          {
+            "action": "Coordinate with physical therapy for low‑impact exercises and gradual progression.",
+            "rationale": "Improves endurance without overloading the central nervous system."
+          },
+          {
+            "action": "Monitor vital signs and level of consciousness before and after activity.",
+            "rationale": "Detects early deterioration requiring adjustment of care plan."
+          },
+          {
+            "action": "Educate patient and family on the importance of respecting activity limits.",
+            "rationale": "Promotes adherence and reduces risk of setbacks."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cerebral-edema",
+    "hydrocephalus",
+    "intracranial-hemorrhage"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Brain Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/braindiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Intracranial Emergencies and Intracranial Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-3-intracranial-emergencies-and-intracranial-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Hypertension and Angina",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-1-hypertension-and-angina",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-31",
+  "factcheck": {
+    "checked": "2026-10-31",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 33,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "contradicted",
+        "quote": "Normal cerebrospinal fluid pressure varies with age but generally should not exceed 250 mm H 2 O in adults (Sharma et al., 2023).",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Any increase in the volume of components within the skull or an addition of a pathological element, such as a brain tumor, will result in increased pressure within the skull since the skull’s volume is considered constant.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Non-pharmaceutical treatments—such as radiation or surgery—may also be needed as adjuvant treatment, particularly if there is a mass, tumor, bleeding, or trauma to the brain.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Altered mental status, including drowsiness, confusion, or coma",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Clinical manifestations of increased intracranial pressure may include: Headache Seizures Papilledema Altered mental status, including drowsiness, confusion, or coma Changes in vital signs, such as bradycardia (slow heart rate) or hypertension In severe cases, increased intracranial pressure can le",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Adverse effects include dehydration, heart failure due to the shift of free water, hyponatremia, hypokalemia, and hypocalcemia.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Clinical Tip Nursing Interventions to Lower/Stabilize Increased Intracranial Pressure Along with administering drugs to decrease elevated intracranial pressure, the nurse must keep the head of the client’s bed at a 30-degree angle, or as directed by the health care provider, and keep the client’s neck in a neutral position to help stabilize and lower intracranial pressure (Faraj et al., 2022).",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,493 @@
+{
+  "id": "autoimmune-adrenalitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Adrenocorticalitis autoinmune (AA)",
+    "aliases": [
+      "adrenocorticalitis",
+      "autoinmune",
+      "addison",
+      "insuficiencia adrenal",
+      "aa"
+    ],
+    "summary": "Enfermedad autoinmune que destruye la corteza suprarrenal, produciendo insuficiencia adrenal primaria.",
+    "key_points": [
+      "Destrucción autoinmune de la zona fasciculada y glomerulosa.",
+      "Deficiencia de cortisol y aldosterona → hiponatremia, hiperkalemia, hipotensión.",
+      "Diagnóstico: cortisol bajo, ACTH alto, anticuerpos anti‑21‑hidroxilasa.",
+      "Tratamiento de por vida con glucocorticoides y mineralocorticoides.",
+      "Riesgo de crisis adrenal ante estrés o interrupción de la medicación."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Autoanticuerpos atacan enzimas de la síntesis de hormonas suprarrenales.",
+        "Daño progresivo de la zona fasciculada → disminución de cortisol.",
+        "Daño de la zona glomerulosa → pérdida de aldosterona.",
+        "Disminución de Na+ y agua, aumento de K+ y glucosa baja."
+      ],
+      "risk_factors": [
+        "Predisposición genética (HLA‑DR3, DR4).",
+        "Otras enfermedades autoinmunes (tiroiditis, diabetes tipo 1).",
+        "Factores ambientales: infecciones virales, estrés.",
+        "Historia familiar de enfermedades autoinmunes."
+      ],
+      "signs_symptoms": [
+        "Fatiga crónica, debilidad muscular.",
+        "Hipotensión ortostática, mareos.",
+        "Hiponatremia → náuseas, vómitos.",
+        "Hiperkalemia → arritmias, parestesias.",
+        "Hiperpigmentación cutánea (ACTH alta)."
+      ],
+      "diagnostics": [
+        "Cortisol sérico <5 µg/dL (mañana).",
+        "ACTH >200 pg/mL.",
+        "Electrolitos: Na+ <135 mEq/L, K+ >5.0 mEq/L.",
+        "Prueba de estimulación con ACTH (cosintropina) → respuesta mínima.",
+        "Anticuerpos anti‑21‑hidroxilasa positivos."
+      ],
+      "treatment": [
+        "Glucocorticoide: hidrocortisona IV/IM, luego oral.",
+        "Mineralocorticoide: fludrocortisona para reemplazo de aldosterona.",
+        "Dosis de estrés: duplicar la dosis ante cirugía, infección o trauma.",
+        "Suplementación de sodio y líquidos según necesidad.",
+        "Educación sobre uso de inyección de emergencia (hidrocortisona IM)."
+      ],
+      "complications": [
+        "Crisis adrenal aguda → shock, coma.",
+        "Hiponatremia severa → edema cerebral.",
+        "Hiperkalemia → arritmias ventriculares.",
+        "Hipoglucemia prolongada.",
+        "Osteoporosis por glucocorticoides crónicos."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y signos de hipotensión.",
+        "Registrar ingesta y salida de líquidos cada turno.",
+        "Controlar electrolitos y glucosa cada 24 h o según indicación.",
+        "Administrar hidrocortisona y fludrocortisona según prescripción.",
+        "Preparar equipo de emergencia para crisis adrenal."
+      ],
+      "patient_teaching": [
+        "Tomar medicación a la misma hora todos los días.",
+        "Incrementar la dosis de corticoides ante fiebre >38 °C o cirugía.",
+        "Llevar identificación médica que indique insuficiencia adrenal.",
+        "Reconocer signos de crisis (dolor abdominal, mareos, confusión).",
+        "Mantener dieta con suficiente sodio y bajo en potasio según indicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "Pérdida de sodio por insuficiencia adrenal",
+          "Hiponatremia",
+          "Hipovolemia"
+        ],
+        "evidenced_by": [
+          "Presión arterial <90/60 mmHg",
+          "Taquicardia",
+          "Mucosas secas",
+          "Peso corporal ↓"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro del rango esperado en 48 h.",
+          "Presión arterial: mantener >90/60 mmHg en reposo."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h y comparar con orden médica.",
+            "rationale": "Permite detectar déficit de volumen y ajustar reposición de fluidos."
+          },
+          {
+            "action": "Pesar al paciente diariamente a la misma hora.",
+            "rationale": "Cambio de peso refleja alteraciones en el balance hídrico."
+          },
+          {
+            "action": "Administrar fludrocortisona según prescripción y observar respuesta hemodinámica.",
+            "rationale": "Reemplaza la aldosterona y ayuda a retener sodio y agua."
+          },
+          {
+            "action": "Educar al paciente sobre aumento de ingesta de sal dietética si es indicado.",
+            "rationale": "Mejora la retención de agua y previene hipotensión."
+          },
+          {
+            "action": "Monitorear presión arterial cada 4 h y notificar cambios significativos.",
+            "rationale": "Detecta precozmente hipotensión que requiere intervención."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Deficiencia de aldosterona",
+          "Hiponatremia",
+          "Hiperkalemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Niveles séricos de Na+ y K+ dentro de rangos normales (Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L) en 72 h.",
+          "Paciente sin síntomas de alteración electrolítica (palpitaciones, debilidad)."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener electrolitos séricos (Na+, K+) cada 24 h o según orden.",
+            "rationale": "Permite detectar y corregir desequilibrios tempranamente."
+          },
+          {
+            "action": "Observar signos de hiperkalemia: arritmias, parestesias.",
+            "rationale": "La detección precoz reduce riesgo de complicaciones cardíacas."
+          },
+          {
+            "action": "Administrar fludrocortisona y ajustar dosis según resultados de Na+ y K+.",
+            "rationale": "Reemplazo hormonal corrige la pérdida de sodio y retención de potasio."
+          },
+          {
+            "action": "Enseñar al paciente una dieta baja en potasio y adecuada en sodio según indicación.",
+            "rationale": "Apoya el control de los niveles electrolíticos entre dosis de medicación."
+          },
+          {
+            "action": "Registrar ritmo cardíaco y ECG si K+ >5.5 mEq/L.",
+            "rationale": "Detecta arritmias potencialmente mortales asociadas a hiperkalemia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Addison disease (AA)",
+    "aliases": [
+      "addison disease",
+      "addison",
+      "adrenocorticalitis",
+      "autoinmune",
+      "insuficiencia adrenal",
+      "aa"
+    ],
+    "summary": "Autoimmune disease that destroys the adrenal cortex, producing primary adrenal insufficiency.",
+    "key_points": [
+      "Autoimmune destruction of the fasciculata and glomerulosa zones.",
+      "Cortisol and aldosterone deficiency → hyponatremia, hyperkalemia, hypotension.",
+      "Diagnosis: low cortisol, high ACTH, anti‑21‑hydroxylase antibodies.",
+      "Lifetime treatment with glucocorticoids and mineralocorticoids.",
+      "Risk of adrenal crisis with stress or medication interruption."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Autoantibodies attack enzymes of adrenal hormone synthesis.",
+        "Progressive damage to the fasciculata zone → cortisol decrease.",
+        "Damage to the glomerulosa zone → loss of aldosterone.",
+        "↓ Na+ and water, ↑ K+ and low glucose."
+      ],
+      "risk_factors": [
+        "Genetic predisposition (HLA‑DR3, DR4).",
+        "Other autoimmune diseases (thyroiditis, type 1 diabetes).",
+        "Environmental factors: viral infections, stress.",
+        "Family history of autoimmune diseases."
+      ],
+      "signs_symptoms": [
+        "Chronic fatigue, muscle weakness.",
+        "Orthostatic hypotension, dizziness.",
+        "Hyponatremia → nausea, vomiting.",
+        "Hyperkalemia → arrhythmias, paresthesias.",
+        "Hyperpigmentation of skin (high ACTH)."
+      ],
+      "diagnostics": [
+        "Serum cortisol <5 µg/dL (morning).",
+        "ACTH >200 pg/mL.",
+        "Electrolytes: Na+ <135 mEq/L, K+ >5.0 mEq/L.",
+        "ACTH stimulation test (cosyntropin) → minimal response.",
+        "Positive anti‑21‑hydroxylase antibodies."
+      ],
+      "treatment": [
+        "Glucocorticoid: hydrocortisone IV/IM, then oral.",
+        "Mineralocorticoid: fludrocortisone for aldosterone replacement.",
+        "Stress dose: double dose for surgery, infection or trauma.",
+        "Sodium and fluid supplementation as needed.",
+        "Education on emergency injection use (hydrocortisone IM)."
+      ],
+      "complications": [
+        "Acute adrenal crisis → shock, coma.",
+        "Severe hyponatremia → cerebral edema.",
+        "Hyperkalemia → ventricular arrhythmias.",
+        "Prolonged hypoglycemia.",
+        "Osteoporosis from chronic glucocorticoids."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate and signs of hypotension.",
+        "Record fluid intake and output each shift.",
+        "Check electrolytes and glucose every 24 h or as ordered.",
+        "Administer hydrocortisone and fludrocortisone per prescription.",
+        "Prepare emergency equipment for adrenal crisis."
+      ],
+      "patient_teaching": [
+        "Take medication at the same time each day.",
+        "Increase steroid dose with fever >38 °C or surgery.",
+        "Carry medical ID indicating adrenal insufficiency.",
+        "Recognize crisis signs (abdominal pain, dizziness, confusion).",
+        "Maintain a diet with adequate sodium and low potassium as directed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "Sodium loss from adrenal insufficiency",
+          "Hyponatremia",
+          "Hypovolemia"
+        ],
+        "evidenced_by": [
+          "Blood pressure <90/60 mmHg",
+          "Tachycardia",
+          "Dry mucous membranes",
+          "Weight loss"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within expected range in 48 h.",
+          "Blood pressure: maintain >90/60 mmHg at rest."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h and compare with medical orders.",
+            "rationale": "Detects volume deficit and allows fluid replacement adjustment."
+          },
+          {
+            "action": "Weigh the patient daily at the same time.",
+            "rationale": "Weight change reflects fluid balance alterations."
+          },
+          {
+            "action": "Administer fludrocortisone per prescription and observe hemodynamic response.",
+            "rationale": "Replaces aldosterone and helps retain sodium and water."
+          },
+          {
+            "action": "Educate the patient on increasing dietary salt if indicated.",
+            "rationale": "Improves water retention and prevents hypotension."
+          },
+          {
+            "action": "Monitor blood pressure every 4 h and report significant changes.",
+            "rationale": "Early detection of hypotension requiring intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Aldosterone deficiency",
+          "Hyponatremia",
+          "Hyperkalemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum Na+ and K+ within normal ranges (Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L) in 72 h.",
+          "Patient without symptoms of electrolyte disturbance (palpitations, weakness)."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain serum electrolytes (Na+, K+) every 24 h or as ordered.",
+            "rationale": "Detects and corrects imbalances early."
+          },
+          {
+            "action": "Observe signs of hyperkalemia: arrhythmias, paresthesias.",
+            "rationale": "Early detection reduces risk of cardiac complications."
+          },
+          {
+            "action": "Administer fludrocortisone and adjust dose based on Na+ and K+ results.",
+            "rationale": "Hormonal replacement corrects sodium loss and potassium retention."
+          },
+          {
+            "action": "Teach the patient a low‑potassium, adequate‑sodium diet as directed.",
+            "rationale": "Supports control of electrolyte levels between medication doses."
+          },
+          {
+            "action": "Record heart rhythm and ECG if K+ >5.5 mEq/L.",
+            "rationale": "Detects potentially fatal arrhythmias associated with hyperkalemia."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "addison-disease",
+    "autoimmune-polyendocrine-syndrome",
+    "hypothyroidism",
+    "type-1-diabetes-mellitus"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Autoimmunity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-2-autoimmunity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-10-31",
+  "factcheck": {
+    "checked": "2026-10-31",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 41,
+      "contradicted": 0,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Type 1 diabetes mellitus In patients with this disorder, the body’s immune system destroys the insulin-producing islet cells in the pancreas.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Adverse Effects Deep vein thrombosis/pulmonary emboli Hypotension Hyperglycemia Optic neuropathy Pancreatitis Anemia Hepatoxicity Osteoporosis Alopec",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Chloroquine ( Chloroquine FNA ) 500 mg orally once per week on exactly the same day of each week.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
