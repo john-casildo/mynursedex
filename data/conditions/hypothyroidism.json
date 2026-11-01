@@ -1,0 +1,540 @@
+{
+  "id": "hypothyroidism",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipotiroidismo (HT)",
+    "aliases": [
+      "hipotiroidismo",
+      "tiroides hipoactiva",
+      "baja tiroides",
+      "ht",
+      "baja hormona tiroidea"
+    ],
+    "summary": "El hipotiroidismo es la deficiencia de hormonas tiroideas (T3, T4) que reduce el metabolismo corporal. Se manifiesta con fatiga, aumento de peso y intolerancia al frío.",
+    "key_points": [
+      "TSH elevado y T4 libre bajo son hallazgos de laboratorio típicos.",
+      "La enfermedad de Hashimoto es la causa autoinmune más frecuente.",
+      "El tratamiento de primera línea es levotiroxina oral.",
+      "Complicación grave: coma mixedémico, que requiere atención de urgencia.",
+      "El control regular de TSH es esencial para ajustar la dosis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Autoanticuerpos (anti‑TPO) destruyen la glándula tiroides.",
+        "Disminuye la síntesis de T3 y T4.",
+        "El hipotálamo aumenta la liberación de TRH.",
+        "La hipófisis eleva la secreción de TSH en respuesta.",
+        "Metabolismo basal se reduce, afectando todos los órganos."
+      ],
+      "risk_factors": [
+        "Mujeres, especialmente mayores de 60 años.",
+        "Antecedentes familiares de enfermedad tiroidea.",
+        "Exposición a radiación cervical o tratamientos con yodo.",
+        "Enfermedades autoinmunes (p. ej., lupus, artritis reumatoide).",
+        "Uso crónico de litio, amiodarona o interferón."
+      ],
+      "signs_symptoms": [
+        "Fatiga y debilidad generalizada.",
+        "Aumento de peso y edema facial leve.",
+        "Intolerancia al frío y piel seca.",
+        "Bradicardia, reflejos lentos.",
+        "Estreñimiento, caída del cabello y menorragia."
+      ],
+      "diagnostics": [
+        "TSH > 4.5 µIU/mL (elevado).",
+        "T4 libre < 0.8 ng/dL (bajo).",
+        "Anticuerpos anti‑TPO positivos.",
+        "Perfil lipídico con colesterol LDL elevado.",
+        "ECG: frecuencia cardíaca < 60 lat/min."
+      ],
+      "treatment": [
+        "Levotiroxina (levotiroxina) vía oral, dosis individualizada.",
+        "Reevaluar TSH cada 6‑8 semanas hasta estabilizar.",
+        "Corregir deficiencias de yodo solo si están presentes.",
+        "Tratar causas subyacentes (ej. retirar litio).",
+        "Educación sobre toma correcta del fármaco."
+      ],
+      "complications": [
+        "Coma mixedémico (hipotermia, hipotensión, hiponatremia).",
+        "Pericarditis y derrame pericárdico.",
+        "Hipercolesterolemia y enfermedad cardiovascular.",
+        "Infertilidad y complicaciones del embarazo.",
+        "Miopatía y debilidad muscular."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales, especialmente temperatura y frecuencia cardíaca.",
+        "Monitorear peso y edema diariamente.",
+        "Observar cambios en la piel, cabello y patrón intestinal.",
+        "Revisar resultados de TSH y T4 libre según orden médica.",
+        "Administrar levotiroxina 30 min antes del desayuno."
+      ],
+      "patient_teaching": [
+        "Tomar levotiroxina con el estómago vacío, 30 min antes de alimentos.",
+        "Evitar calcio, hierro o suplementos de soja dentro de 4 h de la dosis.",
+        "Informar signos de sobredosis (palpitaciones, temblores) o insuficiencia (fatiga extrema).",
+        "Acudir a controles de laboratorio cada 6‑8 semanas.",
+        "Mantener una dieta balanceada y ejercicio moderado."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "fatiga",
+          "hipometabolismo",
+          "bradicardia"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Actividad tolerada sin fatiga excesiva: paciente completa ADL con mínima fatiga en 2 semanas",
+          "Frecuencia cardíaca en reposo entre 60‑80 lat/min al final de la semana 3"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía antes y después de actividades diarias",
+            "rationale": "Permite identificar límites funcionales y planificar descansos"
+          },
+          {
+            "action": "Programar períodos de descanso cada 30‑45 min durante actividades prolongadas",
+            "rationale": "Previene agotamiento y mejora la tolerancia al esfuerzo"
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse al cocinar, usar ayudas de movilidad)",
+            "rationale": "Reduce la demanda física y conserva energía"
+          },
+          {
+            "action": "Monitorear signos vitales (FC, presión arterial) antes y después del ejercicio",
+            "rationale": "Detecta bradicardia o descompensación cardiovascular"
+          },
+          {
+            "action": "Coordinar con el médico para ajustar la dosis de levotiroxina si persiste intolerancia",
+            "rationale": "Optimiza el control hormonal y mejora la capacidad funcional"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiponatremia por retención de agua",
+          "hipoglucemia",
+          "uso de levotiroxina sin monitoreo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rangos normales (Na 135‑145 mEq/L) en 4 semanas",
+          "Sin signos clínicos de hiponatremia ni hipoglucemia durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar niveles de Na, K, glucosa cada 48 h",
+            "rationale": "Detecta alteraciones tempranas y permite intervención oportuna"
+          },
+          {
+            "action": "Evaluar ingesta y pérdida de líquidos, registrar balance hídrico",
+            "rationale": "Ayuda a prevenir retención excesiva o deshidratación"
+          },
+          {
+            "action": "Educar al paciente sobre evitar consumo excesivo de agua sin reposición de electrolitos",
+            "rationale": "Reduce riesgo de hiponatremia dilucional"
+          },
+          {
+            "action": "Revisar interacciones de levotiroxina con suplementos de calcio o hierro",
+            "rationale": "Previene alteraciones en absorción y posibles desequilibrios"
+          },
+          {
+            "action": "Notificar al médico cualquier valor de Na < 130 mEq/L o glucosa < 70 mg/dL",
+            "rationale": "Facilita intervención médica inmediata"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hypothyroidism (HT)",
+    "aliases": [
+      "hypothyroidism",
+      "hypoactive thyroid",
+      "low thyroid",
+      "ht",
+      "low thyroid hormone"
+    ],
+    "summary": "Hypothyroidism is the deficiency of thyroid hormones (T3, T4) that reduces body metabolism. It presents with fatigue, weight gain, and cold intolerance.",
+    "key_points": [
+      "Elevated TSH and low free T4 are typical laboratory findings.",
+      "Hashimoto disease is the most common autoimmune cause.",
+      "First‑line treatment is oral levothyroxine.",
+      "Severe complication: myxedema coma, requiring emergency care.",
+      "Regular TSH monitoring is essential to adjust the dose."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Autoantibodies (anti‑TPO) destroy the thyroid gland.",
+        "Decreases synthesis of T3 and T4.",
+        "The hypothalamus increases TRH release.",
+        "The pituitary raises TSH secretion in response.",
+        "Basal metabolism is reduced, affecting all organs."
+      ],
+      "risk_factors": [
+        "Women, especially over 60 years old.",
+        "Family history of thyroid disease.",
+        "Exposure to cervical radiation or iodine treatments.",
+        "Other autoimmune diseases (e.g., lupus, rheumatoid arthritis).",
+        "Chronic use of lithium, amiodarone, or interferon."
+      ],
+      "signs_symptoms": [
+        "Generalized fatigue and weakness.",
+        "Weight gain and mild facial edema.",
+        "Cold intolerance and dry skin.",
+        "Bradycardia, slow reflexes.",
+        "Constipation, hair loss, menorrhagia."
+      ],
+      "diagnostics": [
+        "TSH > 4.5 µIU/mL (elevated).",
+        "Free T4 < 0.8 ng/dL (low).",
+        "Positive anti‑TPO antibodies.",
+        "Lipid profile with elevated LDL cholesterol.",
+        "ECG: heart rate < 60 beats/min."
+      ],
+      "treatment": [
+        "Oral levothyroxine, individualized dose.",
+        "Reevaluate TSH every 6‑8 weeks until stable.",
+        "Correct iodine deficiency only if present.",
+        "Treat underlying causes (e.g., discontinue lithium).",
+        "Education on proper medication intake."
+      ],
+      "complications": [
+        "Myxedema coma (hypothermia, hypotension, hyponatremia).",
+        "Pericarditis and pericardial effusion.",
+        "Hypercholesterolemia and cardiovascular disease.",
+        "Infertility and pregnancy complications.",
+        "Myopathy and muscle weakness."
+      ],
+      "nursing_care": [
+        "Assess vital signs, especially temperature and heart rate.",
+        "Monitor weight and edema daily.",
+        "Observe changes in skin, hair, and bowel pattern.",
+        "Review TSH and free T4 results as ordered.",
+        "Administer levothyroxine 30 min before breakfast."
+      ],
+      "patient_teaching": [
+        "Take levothyroxine on an empty stomach, 30 min before meals.",
+        "Avoid calcium, iron, or soy supplements within 4 h of dose.",
+        "Report overdose signs (palpitations, tremors) or deficiency (excessive fatigue).",
+        "Attend lab checks every 6‑8 weeks.",
+        "Maintain a balanced diet and moderate exercise."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "fatigue",
+          "hypometabolism",
+          "bradycardia"
+        ],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Activity tolerated without excessive fatigue: patient completes ADL with minimal fatigue in 2 weeks",
+          "Resting heart rate 60‑80 beats/min by week 3"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level before and after daily activities",
+            "rationale": "Identifies functional limits and plans rest periods"
+          },
+          {
+            "action": "Schedule rest periods every 30‑45 min during prolonged activities",
+            "rationale": "Prevents exhaustion and improves exercise tolerance"
+          },
+          {
+            "action": "Teach energy conservation techniques (sitting while cooking, using mobility aids)",
+            "rationale": "Reduces physical demand and conserves energy"
+          },
+          {
+            "action": "Monitor vital signs (HR, BP) before and after exercise",
+            "rationale": "Detects bradycardia or cardiovascular decompensation"
+          },
+          {
+            "action": "Coordinate with physician to adjust levothyroxine dose if intolerance persists",
+            "rationale": "Optimizes hormonal control and improves functional capacity"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyponatremia from water retention",
+          "hypoglycemia",
+          "levothyroxine use without monitoring"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal ranges (Na 135‑145 mEq/L) in 4 weeks",
+          "No clinical signs of hyponatremia or hypoglycemia during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record Na, K, glucose levels every 48 h",
+            "rationale": "Detects early changes and allows timely intervention"
+          },
+          {
+            "action": "Assess fluid intake and output, record fluid balance",
+            "rationale": "Helps prevent excessive retention or dehydration"
+          },
+          {
+            "action": "Educate patient on avoiding excessive water intake without electrolyte replacement",
+            "rationale": "Reduces risk of dilutional hyponatremia"
+          },
+          {
+            "action": "Review levothyroxine interactions with calcium or iron supplements",
+            "rationale": "Prevents absorption alterations and potential imbalances"
+          },
+          {
+            "action": "Notify physician of any Na < 130 mEq/L or glucose < 70 mg/dL",
+            "rationale": "Facilitates immediate medical intervention"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "myxedema-coma",
+    "autoimmune-thyroiditis",
+    "levothyroxine",
+    "tsh"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hypothyroidism",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hypothyroidism.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hipotiroidismo",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hypothyroidism.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thyroid and Parathyroid Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Thyroid and Parathyroid",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/27-1-introduction-to-the-thyroid-and-parathyroid",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-01",
+  "factcheck": {
+    "checked": "2026-11-01",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 30,
+      "contradicted": 2,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Hashimoto thyroiditis is the most common cause of hypothyroidism.",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "About 6 to 8 weeks after you start taking the medicine, you will get a blood test to check your thyroid hormone level.",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "The hypothalamus releases thyrotropin-releasing hormone (TRH) which stimulates the pituitary gland to release TSH, which stimulates the thyroid to release T3 and T4.",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "In response to TRH, the anterior pituitary gland releases thyrotropin, also known as thyroid-stimulating hormone (TSH).",
+        "source": 3
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "You are at higher risk for hypothyroidism if you: Are a woman Are older than age 60 Have had a thyroid problem before, such as a goiter Have had surgery to correct a thyroid problem Have received radiation treatment to the thyroid, neck, or chest Have a family history of thyroid disease Were pregnant or had a baby in the past 6 months Have Turner syndrome , a genetic disorder that affects females Have pernicious anemia , in which the body cannot",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "You are at higher risk for hypothyroidism if you: Are a woman Are older than age 60 Have had a thyroid problem before, such as a goiter Have had surgery to correct a thyroid problem Have received radiation treatment to the thyroid, neck, or chest Have a family history of thyroid disease Were pregnant or had a baby in the past 6 months Have Turner syndrome , a genetic disorder that affects females Have pernicious anemia , in which the body cannot",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "You are at higher risk for hypothyroidism if you: Are a woman Are older than age 60 Have had a thyroid problem before, such as a goiter Have had surgery to correct a thyroid problem Have received radiation treatment to the thyroid, neck, or chest Have a family history of thyroid disease Were pregnant or had a baby in the past 6 months Have Turner syndrome , a genetic disorder that affects females Have pernicious anemia , in which the body cannot"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Hyperthyroidism Hypothyroidism Nervousness/irritability Fatigue/muscle weakness Mood swings Heat intolerance Insomnia Tremors Tachycardia/irregular heart rhythm Weight loss Diarrhea Goiter Depression Fatigue Dry skin Dry, thinning hair Cold intolerance Puffy face Joint/muscle pain Bradycardia Decreased sweating Constipation Heavy/irregular menstrual periods and fertility problems Table 21.9 Signs and Symptoms of Hyperthyroidism and Hypothyroidism",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "The symptoms of hypothyroidism can vary from person to person and may include: Fatigue Weight gain A puffy face Trouble tolerating cold Joint and muscle pain Constipation Dry skin Dry, thinning hair Decreased sweating Heavy or irregular menstrual periods Fertility problems in women Depression Slowed heart rate Goiter, an enlarged thyroid that may cause your neck to look swollen.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Hyperthyroidism Hypothyroidism Nervousness/irritability Fatigue/muscle weakness Mood swings Heat intolerance Insomnia Tremors Tachycardia/irregular heart rhythm Weight loss Diarrhea Goiter Depression Fatigue Dry skin Dry, thinning hair Cold intolerance Puffy face Joint/muscle pain Bradycardia Decreased sweating Constipation Heavy/irregular menstrual periods and fertility problems Table 21.9 Signs and Symptoms of Hyperthyroidism and Hypothyroidism",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Hyperthyroidism Hypothyroidism Nervousness/irritability Fatigue/muscle weakness Mood swings Heat intolerance Insomnia Tremors Tachycardia/irregular heart rhythm Weight loss Diarrhea Goiter Depression Fatigue Dry skin Dry, thinning hair Cold intolerance Puffy face Joint/muscle pain Bradycardia Decreased sweating Constipation Heavy/irregular menstrual periods and fertility problems Table 21.9 Signs and Symptoms of Hyperthyroidism and Hypothyroidism",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Hypothyroidism is primarily treated with thyroid hormone replacement therapy, such as levothyroxine.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "contradicted",
+        "quote": "Initial bloodwork to monitor thyroid hormone levels and taper levothyroxine dosing are completed every four to eight weeks until a target level is reached, then bloodwork is checked at six months, then yearly.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "If hypothyroidism is left untreated, the client may develop a myxedema coma , which is a life-threatening disorder that leads to hypothermia, cardiovascular collapse, hypoventilation, hyponatremia, hypoglycemia, lactic acidosis, and coma.",
+        "source": 3
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The symptoms of hypothyroidism can vary from person to person and may include: Fatigue Weight gain A puffy face Trouble tolerating cold Joint and muscle pain Constipation Dry skin Dry, thinning hair Decreased sweating Heavy or irregular menstrual periods Fertility problems in women Depression Slowed heart rate Goiter, an enlarged thyroid that may cause your neck to look swollen.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "The patient should be able to state the importance of therapy compliance, maintain a positive body image, and state what symptoms should be reported to the provider, such as changes in weight, energy levels, and mood, with specific attention to symptoms like rapid heartbeat or tremors in hyperthyroidism, and fatigue or weight gain in hypothyroidism.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "contradicted",
+        "quote": "Initial bloodwork to monitor thyroid hormone levels and taper levothyroxine dosing are completed every four to eight weeks until a target level is reached, then bloodwork is checked at six months, then yearly.",
+        "source": 2
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

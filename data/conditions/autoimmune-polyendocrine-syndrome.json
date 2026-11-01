@@ -1,0 +1,436 @@
+{
+  "id": "autoimmune-polyendocrine-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome poliautoinmune endocrino (APS)",
+    "aliases": [
+      "síndrome poliautoinmune",
+      "síndrome poliautoinmune endocrino",
+      "aps",
+      "autoimmune",
+      "poliautoinmune"
+    ],
+    "summary": "Trastorno raro en el que el sistema inmunitario ataca a varias glándulas endocrinas, provocando insuficiencia múltiple.",
+    "key_points": [
+      "Involucra al menos dos endocrinopatías autoinmunes simultáneas.",
+      "Frecuente insuficiencia suprarrenal (Addison) y tiroiditis.",
+      "Puede presentar hipoglucemia, hipotensión y desequilibrio electrolítico.",
+      "Diagnóstico basado en autoanticuerpos y pruebas hormonales."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Desregulación de la tolerancia inmunológica lleva a producción de autoanticuerpos contra glándulas endocrinas.",
+        "Destrucción de tejido glandular reduce la síntesis hormonal (cortisol, tiroxina, insulina).",
+        "Deficiencia hormonal produce alteraciones metabólicas y hemodinámicas."
+      ],
+      "risk_factors": [
+        "Predisposición genética (HLA-DR3, HLA-DR4).",
+        "Historia familiar de enfermedades autoinmunes.",
+        "Sexo femenino (mayor prevalencia).",
+        "Exposición a infecciones virales que pueden desencadenar autoimunidad."
+      ],
+      "signs_symptoms": [
+        "Fatiga, debilidad y pérdida de peso.",
+        "Hipotensión ortostática y mareos.",
+        "Hipoglucemia, poliuria y polidipsia (si hay diabetes tipo 1).",
+        "Hiperpigmentación cutánea (insuficiencia suprarrenal)."
+      ],
+      "diagnostics": [
+        "Panel de hormonas: cortisol bajo, ACTH alta, TSH alta con T4 libre baja.",
+        "Autoanticuerpos: anti‑21‑hidroxilasa, anti‑TPO, anti‑GAD65.",
+        "Electrolitos: hiponatremia, hiperkalemia en insuficiencia suprarrenal.",
+        "Prueba de estimulación con ACTH (cosintropina) para confirmar insuficiencia adrenal."
+      ],
+      "treatment": [
+        "Reposición hormonal: hidrocortisona, levotiroxina, insulina según necesidad.",
+        "Suplementos de minerales (flúor, sodio) si hay desequilibrio electrolítico.",
+        "Antiinflamatorios no esteroideos o corticoides en brotes autoinmunes agudos.",
+        "Monitoreo regular de niveles hormonales y glucosa."
+      ],
+      "complications": [
+        "Crisis adrenal (hipotensión severa, shock).",
+        "Hipoglucemia grave en diabetes tipo 1.",
+        "Hipotiroidismo no tratado → mixedema.",
+        "Aumento del riesgo de infecciones por inmunosupresión."
+      ],
+      "nursing_care": [
+        "Evaluar presión arterial, frecuencia cardíaca y signos de hipotensión cada 4 h.",
+        "Monitorear glucosa capilar y electrolitos (Na, K) según orden médica.",
+        "Administrar hormonas según prescripción y observar reacciones adversas.",
+        "Mantener hidratación oral o IV según balance de líquidos.",
+        "Documentar cambios en nivel de energía y tolerancia a la actividad."
+      ],
+      "patient_teaching": [
+        "Importancia de tomar la medicación hormonal a la misma hora todos los días.",
+        "Reconocer signos de crisis adrenal (dolor abdominal, mareos) y buscar ayuda inmediata.",
+        "Control de glucosa y dieta adecuada para diabetes tipo 1.",
+        "Uso de brazalete de alerta médica indicando insuficiencia adrenal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "insuficiencia suprarrenal",
+          "hiponatremia",
+          "hiperkalemia",
+          "pérdida de líquidos",
+          "uso de corticoides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na 135‑145 mEq/L y K 3.5‑5.0 mEq/L en 48 h.",
+          "Volumen intravascular: presión arterial >90/60 mmHg en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear Na⁺ y K⁺ séricos cada 12 h.",
+            "rationale": "Detectar rápidamente desviaciones y ajustar reposición."
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según orden.",
+            "rationale": "Restaurar volumen y corregir hiponatremia."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas).",
+            "rationale": "Identificar pérdida de líquidos que pueda empeorar el desequilibrio."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la ingesta adecuada de sodio y evitar diuréticos sin indicación.",
+            "rationale": "Prevenir fluctuaciones electrolíticas por hábitos dietéticos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "insuficiencia adrenal",
+          "hipotensión ortostática",
+          "pérdida gastrointestinal",
+          "uso de corticoides",
+          "actividad física intensa"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen intravascular: mantener presión arterial sistólica ≥100 mmHg en 24 h.",
+          "Hidratación: orina clara y >30 mL/h en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Balance hídrico preciso para detectar déficit temprano."
+          },
+          {
+            "action": "Proveer líquidos orales cada 2 h o según tolerancia.",
+            "rationale": "Reemplazar pérdidas y prevenir hipotensión."
+          },
+          {
+            "action": "Posicionar al paciente en decúbito supino con piernas elevadas si hay hipotensión.",
+            "rationale": "Mejorar retorno venoso y presión arterial."
+          },
+          {
+            "action": "Enseñar al paciente a reconocer signos de deshidratación y a reportarlos.",
+            "rationale": "Fomentar autocuidado y detección precoz."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Autoimmune endocrine syndrome (APS)",
+    "aliases": [
+      "autoimmune syndrome",
+      "autoimmune endocrine syndrome",
+      "aps",
+      "autoimmune",
+      "polyautoimmune"
+    ],
+    "summary": "Rare disorder in which the immune system attacks multiple endocrine glands, causing multiple insufficiencies.",
+    "key_points": [
+      "Involves at least two simultaneous autoimmune endocrinopathies.",
+      "Common adrenal insufficiency (Addison) and thyroiditis.",
+      "May present with hypoglycemia, hypotension, and electrolyte imbalance.",
+      "Diagnosis based on autoantibodies and hormone tests."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Loss of immune tolerance leads to production of autoantibodies against endocrine glands.",
+        "Destruction of glandular tissue reduces hormone synthesis (cortisol, thyroxine, insulin).",
+        "Hormonal deficiency produces metabolic and hemodynamic disturbances."
+      ],
+      "risk_factors": [
+        "Genetic predisposition (HLA-DR3, HLA-DR4).",
+        "Family history of autoimmune diseases.",
+        "Female sex (higher prevalence).",
+        "Exposure to viral infections that may trigger autoimmunity."
+      ],
+      "signs_symptoms": [
+        "Fatigue, weakness, and weight loss.",
+        "Orthostatic hypotension and dizziness.",
+        "Hypoglycemia, polyuria, and polydipsia (if type 1 diabetes).",
+        "Hyperpigmented skin (adrenal insufficiency)."
+      ],
+      "diagnostics": [
+        "Hormone panel: low cortisol, high ACTH, high TSH with low free T4.",
+        "Autoantibodies: anti‑21‑hydroxylase, anti‑TPO, anti‑GAD65.",
+        "Electrolytes: hyponatremia, hyperkalemia in adrenal insufficiency.",
+        "ACTH stimulation test (cosyntropin) to confirm adrenal insufficiency."
+      ],
+      "treatment": [
+        "Hormone replacement: hydrocortisone, levothyroxine, insulin as needed.",
+        "Mineral supplements (fluoride, sodium) if electrolyte imbalance present.",
+        "Nonsteroidal anti‑inflammatories or steroids during acute autoimmune flares.",
+        "Regular monitoring of hormone levels and glucose."
+      ],
+      "complications": [
+        "Adrenal crisis (severe hypotension, shock).",
+        "Severe hypoglycemia in type 1 diabetes.",
+        "Untreated hypothyroidism → myxedema.",
+        "Increased infection risk due to immunosuppression."
+      ],
+      "nursing_care": [
+        "Assess blood pressure, heart rate, and signs of hypotension every 4 h.",
+        "Monitor capillary glucose and electrolytes (Na, K) as ordered.",
+        "Administer hormones per prescription and observe for adverse reactions.",
+        "Maintain oral or IV hydration based on fluid balance.",
+        "Document changes in energy level and activity tolerance."
+      ],
+      "patient_teaching": [
+        "Importance of taking hormone medication at the same time each day.",
+        "Recognize signs of adrenal crisis (abdominal pain, dizziness) and seek immediate help.",
+        "Glucose control and appropriate diet for type 1 diabetes.",
+        "Use of medical alert bracelet indicating adrenal insufficiency."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "adrenal insufficiency",
+          "hyponatremia",
+          "hyperkalemia",
+          "fluid loss",
+          "corticosteroid use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na 135‑145 mEq/L and K 3.5‑5.0 mEq/L within 48 h.",
+          "Intravascular volume: blood pressure >90/60 mmHg within 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum Na⁺ and K⁺ every 12 h.",
+            "rationale": "Detect deviations quickly and adjust replacement."
+          },
+          {
+            "action": "Administer isotonic saline IV as ordered.",
+            "rationale": "Restore volume and correct hyponatremia."
+          },
+          {
+            "action": "Assess dehydration signs (turgor, mucous membranes).",
+            "rationale": "Identify fluid loss that may worsen imbalance."
+          },
+          {
+            "action": "Educate patient on importance of adequate sodium intake and avoiding unnecessary diuretics.",
+            "rationale": "Prevent electrolyte fluctuations from dietary habits."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "adrenal insufficiency",
+          "orthostatic hypotension",
+          "gastrointestinal loss",
+          "corticosteroid use",
+          "intense physical activity"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intravascular volume: maintain systolic blood pressure ≥100 mmHg within 24 h.",
+          "Hydration: clear urine and >30 mL/h over 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Accurate fluid balance to detect early deficit."
+          },
+          {
+            "action": "Provide oral fluids every 2 h or as tolerated.",
+            "rationale": "Replace losses and prevent hypotension."
+          },
+          {
+            "action": "Position patient supine with legs elevated if hypotension present.",
+            "rationale": "Improve venous return and blood pressure."
+          },
+          {
+            "action": "Teach patient to recognize dehydration signs and report them.",
+            "rationale": "Encourage self‑care and early detection."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "autoimmune-disease",
+    "adrenal-insufficiency",
+    "type-1-diabetes-mellitus",
+    "hypothyroidism",
+    "autoantibodies"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Autoimmunity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-2-autoimmunity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-01",
+  "factcheck": {
+    "checked": "2026-11-01",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 36,
+      "contradicted": 1,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "contradicted",
+        "quote": "Because the body depends on insulin to move sugar from the bloodstream into cells, patients can develop life-threatening hyperglycemia (Shimura & Kobayashi, 2004).",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

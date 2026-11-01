@@ -1,0 +1,486 @@
+{
+  "id": "neurodegeneration",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad de Parkinson (EP)",
+    "aliases": [
+      "parkinson",
+      "enfermedad de parkinson",
+      "ep",
+      "temblor",
+      "rigidez"
+    ],
+    "summary": "Trastorno neurodegenerativo crónico que afecta el control motor por pérdida de neuronas dopaminérgicas en la sustancia negra. Se caracteriza por temblor en reposo, rigidez, bradicinesia e inestabilidad postural.",
+    "key_points": [
+      "Temblor en reposo, rigidez y bradicinesia son los signos cardinales",
+      "Pérdida progresiva de dopamina en la sustancia negra",
+      "Tratamiento sintomático con levodopa y agonistas dopaminérgicos",
+      "Riesgo elevado de caídas y aspiración",
+      "Complicaciones incluyen depresión y demencia"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneración de neuronas dopaminérgicas en la sustancia negra",
+        "Disminución de la dopamina intracerebral",
+        "Alteración del circuito basal ganglia‑cortical",
+        "Incremento de la actividad del núcleo subtalámico → inhibición del tálamo",
+        "Manifestaciones motoras por desequilibrio excitatorio/inhibitorio"
+      ],
+      "risk_factors": [
+        "Edad avanzada (≥60 años)",
+        "Historia familiar de Parkinson",
+        "Exposición a pesticidas/solventes",
+        "Lesiones cerebrales traumáticas",
+        "Enfermedades neuroinflamatorias"
+      ],
+      "signs_symptoms": [
+        "Temblor de reposo, típicamente en mano derecha",
+        "Rigidez muscular (rigor cogwheel)",
+        "Bradicinesia: lentitud de movimientos voluntarios",
+        "Inestabilidad postural y caídas frecuentes",
+        "Cambios no motores: depresión, insomnio, constipación"
+      ],
+      "diagnostics": [
+        "Examen neurológico con escala UPDRS",
+        "Respuesta positiva a prueba de levodopa (mejora >30%)",
+        "Imagen cerebral (RM) para descartar otras causas",
+        "Evaluación de función cognitiva (MMSE)",
+        "Laboratorios básicos para descartar causas secundarias"
+      ],
+      "treatment": [
+        "Levodopa/Carbidopa (precursor de dopamina)",
+        "Agonistas dopaminérgicos (pramipexol, ropinirol)",
+        "Inhibidores de MAO‑B (selegilina, rasagilina)",
+        "Fisioterapia y ejercicio regular",
+        "Terapia ocupacional y logopedia",
+        "Estimulación cerebral profunda en casos avanzados"
+      ],
+      "complications": [
+        "Caídas y fracturas óseas",
+        "Disfagia y riesgo de aspiración",
+        "Depresión y ansiedad",
+        "Demencia tipo Parkinson",
+        "Síndrome de \"off\" por fluctuaciones de medicación"
+      ],
+      "nursing_care": [
+        "Evaluar tono muscular, ritmo y amplitud de movimientos",
+        "Monitorear horarios y efectos de levodopa (respuesta y efectos adversos)",
+        "Implementar precauciones contra caídas (pasamanos, calzado antideslizante)",
+        "Observar signos de disfagia y aspiración al alimentar",
+        "Registrar estado de ánimo y cognición diariamente"
+      ],
+      "patient_teaching": [
+        "Tomar levodopa con alimentos ligeros y a la misma hora cada día",
+        "No interrumpir la medicación sin consultar al médico",
+        "Realizar ejercicios de estiramiento y marcha diaria",
+        "Mantener ambiente libre de obstáculos y usar calzado seguro",
+        "Reportar cambios bruscos en movimiento o episodios de confusión"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "fatiga",
+          "rigidez muscular",
+          "bradicinesia"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Actividad física: nivel de tolerancia – paciente realiza actividades de ADL con <30% de fatiga en 2 semanas",
+          "Movilidad: nivel de independencia – paciente mantiene movilidad independiente en casa en 4 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y capacidad funcional antes y después de la actividad",
+            "rationale": "Permite identificar límites y planificar descansos adecuados"
+          },
+          {
+            "action": "Programar descansos breves cada 15‑20 minutos durante actividades prolongadas",
+            "rationale": "Reduce la fatiga y previene la sobrecarga muscular"
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse mientras se viste, dividir tareas)",
+            "rationale": "Optimiza la realización de ADL sin agotar al paciente"
+          },
+          {
+            "action": "Coordinar fisioterapia para ejercicios de resistencia y flexibilidad",
+            "rationale": "Mejora la tolerancia al ejercicio y la fuerza muscular"
+          },
+          {
+            "action": "Monitorear signos de cansancio excesivo y reportar al médico",
+            "rationale": "Detecta necesidad de ajuste de medicación o intervención adicional"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de caídas",
+        "type": "risk",
+        "related_to": [
+          "temblor en reposo",
+          "rigidez muscular",
+          "inestabilidad postural"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad: prevención de caídas – paciente no presenta caídas durante la hospitalización de 5 días",
+          "Movilidad: nivel de independencia – paciente mantiene marcha segura con ayuda mínima en 1 semana"
+        ],
+        "interventions": [
+          {
+            "action": "Instalar barandillas en la cama y en el baño",
+            "rationale": "Proporciona apoyo físico y reduce riesgo de caída"
+          },
+          {
+            "action": "Colocar el paciente en posición lateral izquierda al dormir",
+            "rationale": "Facilita la respiración y disminuye riesgo de aspiración en caso de caída"
+          },
+          {
+            "action": "Revisar y asegurar que el calzado sea antideslizante antes de cada movilización",
+            "rationale": "Mejora la adherencia al suelo y previene resbalones"
+          },
+          {
+            "action": "Realizar evaluación de equilibrio (prueba de levantarse y sentarse) cada turno",
+            "rationale": "Detecta deterioro temprano del control postural"
+          },
+          {
+            "action": "Educar al paciente y familiares sobre levantar objetos lentamente y usar bastón según indicación",
+            "rationale": "Fomenta conductas seguras y reduce esfuerzos bruscos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Parkinson's Disease (PD)",
+    "aliases": [
+      "parkinson",
+      "parkinson disease",
+      "pd",
+      "tremor",
+      "rigidity"
+    ],
+    "summary": "Chronic neurodegenerative disorder that affects motor control due to loss of dopaminergic neurons in the substantia nigra. It is characterized by resting tremor, rigidity, bradykinesia, and postural instability.",
+    "key_points": [
+      "Resting tremor, rigidity, and bradykinesia are the cardinal signs",
+      "Progressive loss of dopamine in the substantia nigra",
+      "Symptomatic treatment with levodopa and dopaminergic agonists",
+      "High risk of falls and aspiration",
+      "Complications include depression and dementia"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneration of dopaminergic neurons in the substantia nigra",
+        "Decrease in intracerebral dopamine",
+        "Alteration of the basal ganglia‑cortical circuit",
+        "Increase in subthalamic nucleus activity → inhibition of the thalamus",
+        "Motor manifestations from excitatory/inhibitory imbalance"
+      ],
+      "risk_factors": [
+        "Advanced age (≥60 years)",
+        "Family history of Parkinson's",
+        "Exposure to pesticides/solvents",
+        "Traumatic brain injury",
+        "Neuroinflammatory diseases"
+      ],
+      "signs_symptoms": [
+        "Resting tremor, typically in the right hand",
+        "Muscle rigidity (cogwheel rigidity)",
+        "Bradykinesia: slowness of voluntary movements",
+        "Postural instability and frequent falls",
+        "Non‑motor changes: depression, insomnia, constipation"
+      ],
+      "diagnostics": [
+        "Neurological exam with UPDRS scale",
+        "Positive levodopa response test (improvement >30%)",
+        "Brain imaging (MRI) to rule out other causes",
+        "Cognitive function assessment (MMSE)",
+        "Basic labs to rule out secondary causes"
+      ],
+      "treatment": [
+        "Levodopa/Carbidopa (dopamine precursor)",
+        "Dopaminergic agonists (pramipexole, ropinirole)",
+        "MAO‑B inhibitors (selegiline, rasagiline)",
+        "Physiotherapy and regular exercise",
+        "Occupational therapy and speech therapy",
+        "Deep brain stimulation in advanced cases"
+      ],
+      "complications": [
+        "Falls and bone fractures",
+        "Dysphagia and aspiration risk",
+        "Depression and anxiety",
+        "Parkinsonian dementia",
+        "\"Off\" syndrome from medication fluctuations"
+      ],
+      "nursing_care": [
+        "Assess muscle tone, rhythm, and movement amplitude",
+        "Monitor levodopa timing and effects (response and adverse effects)",
+        "Implement fall precautions (handrails, non‑slip footwear)",
+        "Observe signs of dysphagia and aspiration during feeding",
+        "Record mood and cognition daily"
+      ],
+      "patient_teaching": [
+        "Take levodopa with light meals at the same time each day",
+        "Do not discontinue medication without consulting the physician",
+        "Perform stretching and daily walking exercises",
+        "Keep environment obstacle‑free and wear safe footwear",
+        "Report sudden changes in movement or confusion episodes"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "fatigue",
+          "muscle rigidity",
+          "bradykinesia"
+        ],
+        "evidenced_by": [
+          "fatigue during activities of daily living",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Physical activity: tolerance level – patient performs ADL with <30% fatigue in 2 weeks",
+          "Mobility: independence level – patient maintains independent mobility at home in 4 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and functional capacity before and after activity",
+            "rationale": "Identifies limits and plans appropriate rest"
+          },
+          {
+            "action": "Schedule brief breaks every 15‑20 minutes during prolonged activities",
+            "rationale": "Reduces fatigue and prevents muscle overload"
+          },
+          {
+            "action": "Teach energy conservation techniques (sit while dressing, divide tasks)",
+            "rationale": "Optimizes ADL performance without exhausting the patient"
+          },
+          {
+            "action": "Coordinate physiotherapy for resistance and flexibility exercises",
+            "rationale": "Improves exercise tolerance and muscle strength"
+          },
+          {
+            "action": "Monitor signs of excessive fatigue and report to physician",
+            "rationale": "Detects need for medication adjustment or additional intervention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for falls",
+        "type": "risk",
+        "related_to": [
+          "resting tremor",
+          "muscle rigidity",
+          "postural instability"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Safety: fall prevention – patient has no falls during 5‑day hospitalization",
+          "Mobility: independence level – patient maintains safe gait with minimal assistance in 1 week"
+        ],
+        "interventions": [
+          {
+            "action": "Install handrails on bed and in bathroom",
+            "rationale": "Provides physical support and reduces fall risk"
+          },
+          {
+            "action": "Place patient in left lateral position when sleeping",
+            "rationale": "Facilitates breathing and decreases aspiration risk if falling"
+          },
+          {
+            "action": "Check and ensure footwear is non‑slip before each mobilization",
+            "rationale": "Improves ground adherence and prevents slips"
+          },
+          {
+            "action": "Perform balance assessment (sit‑to‑stand test) each shift",
+            "rationale": "Detects early deterioration of postural control"
+          },
+          {
+            "action": "Educate patient and family on lifting objects slowly and using cane as indicated",
+            "rationale": "Encourages safe behaviors and reduces abrupt effort"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "tremor",
+    "rigidity",
+    "bradykinesia",
+    "dopamine-deficiency"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Degenerative Nerve Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/degenerativenervediseases.html",
+      "lang": "en"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-01",
+  "factcheck": {
+    "checked": "2026-11-01",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 48,
+      "contradicted": 0,
+      "total": 48
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
