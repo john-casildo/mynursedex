@@ -1,0 +1,251 @@
+{
+  "id": "radiation-therapy",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Radioterapia",
+    "aliases": [
+      "radioterapia",
+      "radiación",
+      "cáncer",
+      "tratamiento radiológico",
+      "terapia de radiación"
+    ],
+    "summary": "Terapia que emplea altas dosis de radiación ionizante para destruir células cancerosas y aliviar síntomas. Puede ser externa (máquinas) o interna (braquiterapia).",
+    "key_points": [
+      "Usa altas dosis de radiación para destruir células malignas",
+      "Se administra en fracciones diarias o bidías durante varias semanas",
+      "Tipos: externa (linac) e interna (braquiterapia)",
+      "Efectos secundarios comunes: fatiga, dermatitis, náuseas, alopecia",
+      "Planificación cuidadosa protege tejidos sanos mediante blindaje y campos precisos",
+      "Requiere monitoreo continuo de toxicidad y respuesta tumoral"
+    ],
+    "sections": {
+      "purpose": [
+        "Eliminar o reducir masa tumoral",
+        "Controlar síntomas como dolor o sangrado",
+        "Mejorar pronóstico y calidad de vida"
+      ],
+      "procedure": [
+        "Evaluar diagnóstico, estadio y objetivo terapéutico",
+        "Planificar dosis total y fraccionamiento según protocolo",
+        "Realizar simulación y marcación del campo con imágenes",
+        "Posicionar al paciente y aplicar blindaje protector",
+        "Entregar la fracción de radiación según tiempo y energía programados",
+        "Registrar parámetros de exposición y observaciones"
+      ],
+      "safety": [
+        "Verificar identidad del paciente y orden del oncólogo",
+        "Confirmar sitio y dosis antes de iniciar cada fracción",
+        "Usar barreras protectoras para el personal y visitantes",
+        "Monitorear signos vitales y reacciones agudas antes y después",
+        "Reportar cualquier quemadura, dolor intenso o malestar inesperado",
+        "Mantener distancia segura del haz fuera del campo tratado"
+      ],
+      "nursing_care": [
+        "Inspeccionar piel del área irradiada antes y después de cada sesión",
+        "Evaluar nivel de fatiga, náuseas, dolor y alteraciones mucosas",
+        "Educar al paciente sobre hidratación, uso de cremas suaves y evitar irritantes",
+        "Fomentar reposo adecuado y nutrición calórica suficiente",
+        "Observar signos de infección (fiebre, enrojecimiento) y notificar",
+        "Coordinar con el equipo para ajustes de dosis o interrupción si hay toxicidad grave"
+      ],
+      "documentation": [
+        "Fecha, hora y número de fracción administrada",
+        "Dosis entregada en Gray (Gy) y energía del haz",
+        "Área tratada, posición del paciente y uso de blindaje",
+        "Reacciones del paciente durante y después de la sesión",
+        "Instrucciones de cuidados de la piel y manejo de síntomas",
+        "Comunicación de hallazgos relevantes al oncólogo"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "exposición a radiación ionizante",
+          "neutropenia inducida por terapia",
+          "daño de mucosa oral y cutánea",
+          "cambio en flora bacteriana"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de la infección: ausencia de fiebre (>38°C) y signos locales durante el ciclo de radioterapia",
+          "Integridad de la piel: zona irradiada sin ulceración ni necrosis al final del tratamiento"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar temperatura y signos de infección antes y después de cada fracción",
+            "rationale": "Detección temprana permite intervención oportuna"
+          },
+          {
+            "action": "Mantener higiene adecuada de la zona irradiada y usar apósitos estériles si hay erosiones",
+            "rationale": "Reduce colonización bacteriana y riesgo de infección"
+          },
+          {
+            "action": "Promover ingesta de líquidos y dieta balanceada rica en proteínas",
+            "rationale": "Apoya la respuesta inmune y la reparación tisular"
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección y cuándo buscar ayuda médica",
+            "rationale": "Facilita la detección precoz y la búsqueda de atención"
+          },
+          {
+            "action": "Coordinar con el oncólogo para monitorear recuentos de neutrófilos y ajustar el plan si es necesario",
+            "rationale": "Neutropenia aumenta significativamente el riesgo infeccioso"
+          },
+          {
+            "action": "Aplicar medidas de aislamiento estándar si el paciente presenta neutropenia severa",
+            "rationale": "Previene transmisión de patógenos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Radiotherapy",
+    "aliases": [
+      "radiotherapy",
+      "radiation",
+      "cancer",
+      "radiologic treatment",
+      "radiation therapy"
+    ],
+    "summary": "Therapy that uses high doses of ionizing radiation to destroy cancer cells and relieve symptoms. It can be external (machines) or internal (brachytherapy).",
+    "key_points": [
+      "Uses high doses of radiation to destroy malignant cells",
+      "Administered in daily or every-other-day fractions over several weeks",
+      "Types: external (linac) and internal (brachytherapy)",
+      "Common side effects: fatigue, dermatitis, nausea, alopecia",
+      "Careful planning protects healthy tissues with shielding and precise fields",
+      "Requires continuous monitoring of toxicity and tumor response"
+    ],
+    "sections": {
+      "purpose": [
+        "Eliminate or reduce tumor mass",
+        "Control symptoms such as pain or bleeding",
+        "Improve prognosis and quality of life"
+      ],
+      "procedure": [
+        "Assess diagnosis, stage, and therapeutic goal",
+        "Plan total dose and fractionation per protocol",
+        "Perform simulation and field marking with imaging",
+        "Position patient and apply protective shielding",
+        "Deliver radiation fraction according to scheduled time and energy",
+        "Record exposure parameters and observations"
+      ],
+      "safety": [
+        "Verify patient identity and oncologist order",
+        "Confirm site and dose before each fraction",
+        "Use protective barriers for staff and visitors",
+        "Monitor vital signs and acute reactions before and after",
+        "Report any burns, severe pain, or unexpected discomfort",
+        "Maintain safe distance from beam outside treated field"
+      ],
+      "nursing_care": [
+        "Inspect skin of irradiated area before and after each session",
+        "Assess fatigue, nausea, pain, and mucosal changes",
+        "Educate patient on hydration, use of gentle creams, and avoidance of irritants",
+        "Encourage adequate rest and caloric nutrition",
+        "Observe infection signs (fever, redness) and notify",
+        "Coordinate with team for dose adjustments or interruption if severe toxicity occurs"
+      ],
+      "documentation": [
+        "Date, time, and fraction number administered",
+        "Dose delivered in Gray (Gy) and beam energy",
+        "Treated area, patient position, and shielding used",
+        "Patient reactions during and after session",
+        "Skin care instructions and symptom management",
+        "Communication of relevant findings to oncologist"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "exposure to ionizing radiation",
+          "neutropenia induced by therapy",
+          "damage to oral and skin mucosa",
+          "change in bacterial flora"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: absence of fever (>38°C) and local signs during radiotherapy cycle",
+          "Skin integrity: irradiated zone without ulceration or necrosis at treatment end"
+        ],
+        "interventions": [
+          {
+            "action": "Assess temperature and infection signs before and after each fraction",
+            "rationale": "Early detection allows timely intervention"
+          },
+          {
+            "action": "Maintain proper hygiene of irradiated area and use sterile dressings if erosions present",
+            "rationale": "Reduces bacterial colonization and infection risk"
+          },
+          {
+            "action": "Promote fluid intake and protein-rich balanced diet",
+            "rationale": "Supports immune response and tissue repair"
+          },
+          {
+            "action": "Educate patient on infection signs and when to seek medical help",
+            "rationale": "Facilitates early detection and care seeking"
+          },
+          {
+            "action": "Coordinate with oncologist to monitor neutrophil counts and adjust plan if needed",
+            "rationale": "Neutropenia significantly increases infection risk"
+          },
+          {
+            "action": "Apply standard isolation precautions if patient has severe neutropenia",
+            "rationale": "Prevents pathogen transmission"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "radiation-dermatitis",
+    "neutropenia",
+    "fatigue",
+    "pain",
+    "cancer"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Radiation Therapy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/radiationtherapy.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Radioterapia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/radiationtherapy.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Care of the Patient with Cancer",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/31-3-care-of-the-patient-with-cancer",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Cancer of the Breast",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/8-2-cancer-of-the-breast",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-02"
+}

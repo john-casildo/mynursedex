@@ -1,0 +1,500 @@
+{
+  "id": "brain-edema",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Edema cerebral",
+    "aliases": [
+      "edema cerebral",
+      "hinchazón cerebro",
+      "presión intracraneal",
+      "cerebral edema",
+      "edema cerebral agudo",
+      "acumulación de líquido cerebral"
+    ],
+    "summary": "Acumulación excesiva de líquido en el parénquima cerebral que aumenta la presión intracraneal y compromete la perfusión neuronal.",
+    "key_points": [
+      "Aumento de la presión intracraneal (PIC) > 20 mmHg es crítico.",
+      "Causas comunes: trauma, tumor, infección, hipoxia y síndrome de fuga de líquido cefalorraquídeo.",
+      "Manifiesta con cefalea, náuseas, vómitos y alteración del nivel de conciencia.",
+      "El diagnóstico se basa en neuroimagen (TC o RM) y evaluación clínica.",
+      "El manejo incluye control de la PIC, osmoterapia y medidas de soporte neurológico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño o inflamación rompe la barrera hematoencefálica.",
+        "Se produce extravasación de plasma al intersticio cerebral.",
+        "El aumento de volumen eleva la presión intracraneal.",
+        "La PIC alta reduce el flujo sanguíneo cerebral, provocando isquemia."
+      ],
+      "risk_factors": [
+        "Traumatismo craneoencefálico grave.",
+        "Tumores intracraneales o metástasis.",
+        "Meningitis, encefalitis y otras infecciones del SNC.",
+        "Hipoxia prolongada o insuficiencia respiratoria.",
+        "Síndrome de fuga de LCR tras cirugía o punción lumbar."
+      ],
+      "signs_symptoms": [
+        "Cefalea intensa, peor al acostarse.",
+        "Náuseas y vómitos sin causa gastrointestinal.",
+        "Alteración del nivel de conciencia (confusión, somnolencia).",
+        "Pupilas desiguales o reactivas lentas.",
+        "Rigidez de nuca y signos de herniación (pupila dilatada, bradicardia)."
+      ],
+      "diagnostics": [
+        "TC de cráneo: hipodensidad difusa, compresión ventricular.",
+        "RM cerebral: edema vasogénico o citotóxico, realce de la sustancia blanca.",
+        "Monitor de presión intracraneal (PIC) > 20 mmHg indica edema significativo.",
+        "Exámenes de laboratorio: glucosa, electrolitos, hemograma para descartar infección."
+      ],
+      "treatment": [
+        "Elevación de la cabecera a 30°‑45° para favorecer drenaje venoso.",
+        "Osmoterapia con manitol o solución salina hipertónica (sin dosis específicas).",
+        "Ventilación controlada para mantener PaCO₂ 35‑40 mmHg (vasoconstricción cerebral).",
+        "Diuréticos como furosemida para controlar la sobrecarga de volumen.",
+        "Control de la fiebre y analgesia adecuada."
+      ],
+      "complications": [
+        "Herencia cerebral (herniación) con compromiso respiratorio.",
+        "Isquemia cerebral irreversible.",
+        "Hiponatremia por terapia osmótica.",
+        "Infección del sitio quirúrgico o catéter de ICP."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia cada hora usando la escala de Glasgow.",
+        "Monitorear PIC, presión arterial, frecuencia respiratoria y saturación O₂.",
+        "Mantener la cabecera elevada y evitar maniobras que aumenten la PIC.",
+        "Registrar tamaño y reactividad pupilar cada 2 h.",
+        "Controlar balance hídrico y signos de sobrecarga o deshidratación."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de mantener la cabeza elevada y evitar tos o Valsalva.",
+        "Instruir sobre signos de alerta: empeoramiento de la cefalea, vómitos o cambios en la visión.",
+        "Enseñar la técnica de respiración profunda para evitar hipercapnia.",
+        "Informar sobre la necesidad de cumplir con estudios de imagen y controles de presión intracraneal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "presión intracraneal elevada",
+          "edema cerebral",
+          "hipoxia",
+          "trauma craneal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral: mantener presión intracraneal < 20 mmHg",
+          "Oxigenación: SpO2 ≥ 95% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Elevar la cabecera de la cama a 30‑45° y mantener posición neutral del cuello.",
+            "rationale": "Facilita el drenaje venoso y reduce la presión intracraneal."
+          },
+          {
+            "action": "Monitorear la presión intracraneal cada hora y registrar valores.",
+            "rationale": "Detecta aumentos tempranos que requieren intervención."
+          },
+          {
+            "action": "Evaluar nivel de conciencia con la escala de Glasgow cada 30 min.",
+            "rationale": "Cambios en la conciencia indican deterioro de la perfusión cerebral."
+          },
+          {
+            "action": "Administrar osmóticos (manitol o solución salina hipertónica) según indicación médica.",
+            "rationale": "Reduce el volumen intracraneal mediante ósmosis."
+          },
+          {
+            "action": "Mantener ventilación controlada para PaCO₂ 35‑40 mmHg.",
+            "rationale": "La hipocapnia produce vasoconstricción cerebral y disminuye la PIC."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "edema cerebral",
+          "aumento de la presión intracraneal"
+        ],
+        "evidenced_by": [
+          "fatiga",
+          "disminución de la tolerancia al esfuerzo",
+          "cambios en la conciencia con actividad"
+        ],
+        "outcomes": [
+          "Actividad: el paciente tolerará actividades de la vida diaria sin aumento de la fatiga en 48 h",
+          "Nivel de energía: reportará nivel de energía ≥ 4/10 en escala de Likert"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de reposo cada 30‑45 min durante actividades leves.",
+            "rationale": "Previene el agotamiento y la elevación de la PIC."
+          },
+          {
+            "action": "Evaluar signos de intolerancia (taquicardia, sudoración, aumento de la PIC) antes y después de la actividad.",
+            "rationale": "Identifica límites seguros de esfuerzo."
+          },
+          {
+            "action": "Fomentar técnicas de relajación y respiración profunda.",
+            "rationale": "Reduce la demanda metabólica y ayuda a mantener la presión intracraneal estable."
+          },
+          {
+            "action": "Coordinar con fisioterapia para iniciar ejercicios pasivos y progresar gradualmente.",
+            "rationale": "Mantiene la movilidad sin sobrecargar el sistema neurológico."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia del descanso y la señal de alerta de fatiga.",
+            "rationale": "Promueve la autogestión y la detección temprana de deterioro."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cerebral edema",
+    "aliases": [
+      "cerebral edema",
+      "brain swelling",
+      "intracranial pressure",
+      "brain swelling acute",
+      "brain fluid accumulation"
+    ],
+    "summary": "Excessive accumulation of fluid in the cerebral parenchyma that increases intracranial pressure and compromises neuronal perfusion.",
+    "key_points": [
+      "Intracranial pressure (ICP) > 20 mmHg is critical.",
+      "Common causes: trauma, tumor, infection, hypoxia, and cerebrospinal fluid leak syndrome.",
+      "Manifested with headache, nausea, vomiting, and altered level of consciousness.",
+      "Diagnosis is based on neuroimaging (CT or MRI) and clinical assessment.",
+      "Management includes controlling ICP, osmotherapy, and neuro‑supportive measures."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Damage or inflammation breaks the blood‑brain barrier.",
+        "Plasma extravasates into the cerebral interstitium.",
+        "The volume increase raises ICP.",
+        "High ICP reduces cerebral blood flow, causing ischemia."
+      ],
+      "risk_factors": [
+        "Severe traumatic brain injury.",
+        "Intracranial tumors or metastases.",
+        "Meningitis, encephalitis, and other CNS infections.",
+        "Prolonged hypoxia or respiratory failure.",
+        "CSF leak syndrome after surgery or lumbar puncture."
+      ],
+      "signs_symptoms": [
+        "Severe headache, worse when lying down.",
+        "Nausea and vomiting without gastrointestinal cause.",
+        "Altered level of consciousness (confusion, drowsiness).",
+        "Unequal or sluggishly reactive pupils.",
+        "Nuchal rigidity and herniation signs (dilated pupil, bradycardia)."
+      ],
+      "diagnostics": [
+        "Head CT: diffuse hypodensity, ventricular compression.",
+        "Brain MRI: vasogenic or cytotoxic edema, white matter enhancement.",
+        "ICP monitor > 20 mmHg indicates significant edema.",
+        "Laboratory tests: glucose, electrolytes, CBC to rule out infection."
+      ],
+      "treatment": [
+        "Elevate head of bed 30°‑45° to promote venous drainage.",
+        "Osmotherapy with mannitol or hypertonic saline solution (no specific dose).",
+        "Controlled ventilation to maintain PaCO₂ 35‑40 mmHg (cerebral vasoconstriction).",
+        "Diuretics such as furosemide to control volume overload.",
+        "Fever control and adequate analgesia."
+      ],
+      "complications": [
+        "Cerebral herniation with respiratory compromise.",
+        "Irreversible cerebral ischemia.",
+        "Hyponatremia from osmotic therapy.",
+        "Surgical site or ICP catheter infection."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness hourly using the Glasgow Coma Scale.",
+        "Monitor ICP, blood pressure, respiratory rate, and O₂ saturation.",
+        "Keep head elevated and avoid maneuvers that increase ICP.",
+        "Record pupil size and reactivity every 2 h.",
+        "Track fluid balance and signs of overload or dehydration."
+      ],
+      "patient_teaching": [
+        "Explain the importance of keeping the head elevated and avoiding coughing or Valsalva maneuvers.",
+        "Teach warning signs: worsening headache, vomiting, or vision changes.",
+        "Show deep breathing technique to avoid hypercapnia.",
+        "Inform about the need to comply with imaging studies and ICP checks."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "elevated intracranial pressure",
+          "cerebral edema",
+          "hypoxia",
+          "cranial trauma"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral perfusion: maintain ICP < 20 mmHg",
+          "Oxygenation: SpO₂ ≥ 95% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Elevate the bed head 30‑45° and maintain neutral neck position.",
+            "rationale": "Facilitates venous drainage and reduces ICP."
+          },
+          {
+            "action": "Monitor ICP hourly and record values.",
+            "rationale": "Detects early increases that require intervention."
+          },
+          {
+            "action": "Assess level of consciousness with the Glasgow Coma Scale every 30 min.",
+            "rationale": "Changes in consciousness indicate deterioration of cerebral perfusion."
+          },
+          {
+            "action": "Administer osmotic agents (mannitol or hypertonic saline) as ordered.",
+            "rationale": "Reduces intracranial volume via osmosis."
+          },
+          {
+            "action": "Maintain controlled ventilation for PaCO₂ 35‑40 mmHg.",
+            "rationale": "Hypocapnia causes cerebral vasoconstriction and lowers ICP."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "cerebral edema",
+          "increased intracranial pressure"
+        ],
+        "evidenced_by": [
+          "fatigue",
+          "reduced tolerance to exertion",
+          "changes in consciousness with activity"
+        ],
+        "outcomes": [
+          "Activity: patient will tolerate activities of daily living without increased fatigue within 48 h",
+          "Energy level: patient will report energy level ≥ 4/10 on Likert scale"
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods every 30‑45 min during light activities.",
+            "rationale": "Prevents exhaustion and ICP elevation."
+          },
+          {
+            "action": "Assess intolerance signs (tachycardia, sweating, ICP rise) before and after activity.",
+            "rationale": "Identifies safe effort limits."
+          },
+          {
+            "action": "Encourage relaxation and deep breathing techniques.",
+            "rationale": "Reduces metabolic demand and helps maintain stable ICP."
+          },
+          {
+            "action": "Coordinate with physical therapy to initiate passive exercises and gradually progress.",
+            "rationale": "Maintains mobility without overloading the nervous system."
+          },
+          {
+            "action": "Educate patient and family on the importance of rest and fatigue warning signs.",
+            "rationale": "Promotes self‑management and early detection of deterioration."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cerebral-herniation",
+    "intracranial-pressure",
+    "hypoxia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Acute Disorders of the Nervous System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-2-acute-disorders-of-the-nervous-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: The Cerebrovascular System and Cerebral Vascular Accidents",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-1-the-cerebrovascular-system-and-cerebral-vascular-accidents",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-02",
+  "factcheck": {
+    "checked": "2026-11-02",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 32,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Patients with hemorrhagic strokes will more often complain of neck pain, photosensitivity, or nausea and vomiting; patients often present with subjective complaints of the worst headache of their life.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Meningitis can be diagnosed through blood tests, lumbar puncture s of CSF, and imaging with CT scan s or MRI s.",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "meningioma — the most common type of benign intracranial tumor.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Meningitis is an infection that causes inflammation in the brain and spinal cord.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "If the infection progresses, patients may experience neurological symptoms, such as altered mental status, confusion, difficulty focusing, irritability, and seizure s.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "a lack of perfusion in an area of the brain can cause irreversible damage to the tissue in minutes.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Avoiding or minimizing bowel straining, coughing, or bearing down will reduce the risk of increases in ICP.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Monitor and maintain fluid and electrolyte balance.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Avoiding or minimizing bowel straining, coughing, or bearing down will reduce the risk of increases in ICP.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Patients may require respiratory care, including deep breathing exercises, to ensure adequate oxygenation and ventilation.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

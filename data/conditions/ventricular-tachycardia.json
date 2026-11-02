@@ -1,0 +1,337 @@
+{
+  "id": "ventricular-tachycardia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Taquicardia ventricular (TV)",
+    "aliases": [
+      "taquicardia ventricular",
+      "tv",
+      "ventricular tachycardia",
+      "vt",
+      "arritmia ventricular"
+    ],
+    "summary": "Arritmia rápida que se origina en los ventrículos, con frecuencia >100 latidos/min y QRS ancho. Puede comprometer la perfusión sistémica.",
+    "key_points": [
+      "Frecuencia ventricular >100 lpm con QRS >120 ms",
+      "Puede ser sostenida o no sostenida",
+      "Riesgo de deterioro hemodinámico y fibrilación ventricular",
+      "Tratamiento incluye antiarrítmicos y cardioversión eléctrica"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Despolarización ectópica en el miocardio ventricular genera impulsos prematuros.",
+        "El foco ventricular supera al nodo SA, produciendo ritmo rápido y regular.",
+        "Con frecuencia alta, el tiempo de llenado diastólico disminuye, reduciendo gasto cardíaco."
+      ],
+      "risk_factors": [
+        "Isquemia miocárdica o infarto previo",
+        "Cardiomiopatías estructurales",
+        "Desequilibrios electrolíticos (K⁺ <3.5 mEq/L, Mg²⁺ <1.5 mEq/L)",
+        "Uso de fármacos proarrítmicos (classe I y III)"
+      ],
+      "signs_symptoms": [
+        "Palpitaciones fuertes y regulares",
+        "Síncope o presíncope",
+        "Disnea y fatiga por bajo gasto cardíaco",
+        "Presión arterial sistólica <90 mmHg en casos inestables"
+      ],
+      "diagnostics": [
+        "ECG: ritmo regular, QRS ancho >120 ms, frecuencia 150‑250 lpm",
+        "Monitor Holter para episodios intermitentes",
+        "Laboratorio: electrolitos, glucosa, troponina si se sospecha isquemia"
+      ],
+      "treatment": [
+        "Antiarrítmicos de clase III: amiodarona, sotalol",
+        "Antiarrítmicos de clase Ib: lidocaína, procainamida",
+        "Cardioversión eléctrica sincronizada si está inestable",
+        "Desfibrilación inmediata si evoluciona a fibrilación ventricular"
+      ],
+      "complications": [
+        "Hipotensión y shock cardiogénico",
+        "Fibrilación ventricular y muerte súbita",
+        "Insuficiencia cardíaca congestiva",
+        "Tromboembolismo por estasis ventricular"
+      ],
+      "nursing_care": [
+        "Monitorear ECG continuo y signos vitales cada 5‑15 min",
+        "Evaluar perfusión periférica (pulso, capilaridad, nivel de conciencia)",
+        "Mantener acceso venoso de calibre amplio para medicamentos y cardioversión",
+        "Preparar desfibrilador y equipos de emergencias antes de la administración de antiarrítmicos"
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de tomar los antiarrítmicos según prescripción",
+        "Identificar y evitar desencadenantes (cafeína, alcohol, estrés)",
+        "Reportar palpitaciones, síncopes o sensación de mareo inmediatamente",
+        "Programar controles ECG y laboratorio de electrolitos regularmente"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "Taquicardia ventricular",
+          "Isquemia miocárdica",
+          "Hipoxia"
+        ],
+        "evidenced_by": [
+          "Pulso débil",
+          "Presión arterial sistólica <90 mmHg",
+          "Disnea de reposo",
+          "Fatiga"
+        ],
+        "outcomes": [
+          "Presión arterial sistólica ≥90 mmHg en 24 h",
+          "Nivel de conciencia alerta y orientado",
+          "Frecuencia respiratoria ≤20 rpm"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ECG y signos vitales cada 5 min",
+            "rationale": "Detectar deterioro hemodinámico precozmente"
+          },
+          {
+            "action": "Evaluar perfusión periférica (pulso, llenado capilar)",
+            "rationale": "Identificar signos de bajo gasto cardíaco"
+          },
+          {
+            "action": "Administrar antiarrítmico según orden médica",
+            "rationale": "Restablecer ritmo ventricular estable"
+          },
+          {
+            "action": "Preparar y ejecutar cardioversión sincronizada si está inestable",
+            "rationale": "Restaurar circulación eficaz rápidamente"
+          },
+          {
+            "action": "Posicionar al paciente en semi-Fowler (30‑45 %)",
+            "rationale": "Facilita la expansión pulmonar y reduce la demanda cardíaca"
+          },
+          {
+            "action": "Educar al paciente sobre signos de alarma y adherencia al tratamiento",
+            "rationale": "Promueve detección temprana y cumplimiento terapéutico"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "Taquicardia ventricular",
+          "Desequilibrio electrolítico",
+          "Hipertensión no controlada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin episodios de hipotensión (<90 mmHg) durante la hospitalización",
+          "Frecuencia cardíaca mantenida ≤200 lpm"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 15 min",
+            "rationale": "Detectar cambios que comprometan la perfusión"
+          },
+          {
+            "action": "Controlar electrolitos séricos (K⁺, Mg²⁺) cada 12 h",
+            "rationale": "Prevenir factores precipitantes de arritmia"
+          },
+          {
+            "action": "Mantener hidratación adecuada vía IV según prescripción",
+            "rationale": "Optimizar el volumen intravascular y la perfusión"
+          },
+          {
+            "action": "Evitar estímulos que aumenten la frecuencia (cafeína, nicotina)",
+            "rationale": "Reducir riesgo de aceleración ventricular"
+          },
+          {
+            "action": "Enseñar al paciente la importancia de la adherencia al tratamiento y seguimiento",
+            "rationale": "Disminuir probabilidad de recurrencia de arritmia"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Ventricular tachycardia (VT)",
+    "aliases": [
+      "ventricular tachycardia",
+      "vt",
+      "arritmia ventricular"
+    ],
+    "summary": "Rapid arrhythmia originating in the ventricles, with a rate >100 beats/min and wide QRS. It can compromise systemic perfusion.",
+    "key_points": [
+      "Ventricular rate >100 bpm with QRS >120 ms",
+      "Can be sustained or non‑sustained",
+      "Risk of hemodynamic deterioration and ventricular fibrillation",
+      "Treatment includes antiarrhythmics and electrical cardioversion"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ectopic depolarization in the ventricular myocardium generates premature impulses.",
+        "The ventricular focus overrides the SA node, producing a rapid and regular rhythm.",
+        "With a high rate, diastolic filling time decreases, reducing cardiac output."
+      ],
+      "risk_factors": [
+        "Myocardial ischemia or prior infarction",
+        "Structural cardiomyopathies",
+        "Electrolyte imbalances (K⁺ <3.5 mEq/L, Mg²⁺ <1.5 mEq/L)",
+        "Use of pro‑arrhythmic drugs (class I and III)"
+      ],
+      "signs_symptoms": [
+        "Strong and regular palpitations",
+        "Syncope or presyncope",
+        "Dyspnea and fatigue from low cardiac output",
+        "Systolic blood pressure <90 mmHg in unstable cases"
+      ],
+      "diagnostics": [
+        "ECG: regular rhythm, wide QRS >120 ms, rate 150‑250 bpm",
+        "Holter monitor for intermittent episodes",
+        "Laboratory: electrolytes, glucose, troponin if ischemia suspected"
+      ],
+      "treatment": [
+        "Class III antiarrhythmics: amiodarone, sotalol",
+        "Class Ib antiarrhythmics: lidocaine, procainamide",
+        "Synchronized electrical cardioversion if unstable",
+        "Immediate defibrillation if it progresses to ventricular fibrillation"
+      ],
+      "complications": [
+        "Hypotension and cardiogenic shock",
+        "Ventricular fibrillation and sudden death",
+        "Congestive heart failure",
+        "Thromboembolism from ventricular stasis"
+      ],
+      "nursing_care": [
+        "Monitor continuous ECG and vital signs every 5‑15 min",
+        "Assess peripheral perfusion (pulse, capillary refill, level of consciousness)",
+        "Maintain a wide‑caliber venous access for medications and cardioversion",
+        "Prepare defibrillator and emergency equipment before administering antiarrhythmics"
+      ],
+      "patient_teaching": [
+        "Explain the importance of taking antiarrhythmics as prescribed",
+        "Identify and avoid triggers (caffeine, alcohol, stress)",
+        "Report palpitations, syncope, or dizziness immediately",
+        "Schedule regular ECG and electrolyte labs"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "Ventricular tachycardia",
+          "Myocardial ischemia",
+          "Hypoxia"
+        ],
+        "evidenced_by": [
+          "Weak pulse",
+          "Systolic blood pressure <90 mmHg",
+          "Resting dyspnea",
+          "Fatigue"
+        ],
+        "outcomes": [
+          "Systolic blood pressure ≥90 mmHg within 24 h",
+          "Alert and oriented level of consciousness",
+          "Respiratory rate ≤20 rpm"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor ECG and vital signs every 5 min",
+            "rationale": "Detect early hemodynamic deterioration"
+          },
+          {
+            "action": "Assess peripheral perfusion (pulse, capillary refill)",
+            "rationale": "Identify signs of low cardiac output"
+          },
+          {
+            "action": "Administer antiarrhythmic as ordered",
+            "rationale": "Restore a stable ventricular rhythm"
+          },
+          {
+            "action": "Prepare and perform synchronized cardioversion if unstable",
+            "rationale": "Rapidly restore effective circulation"
+          },
+          {
+            "action": "Position patient in semi‑Fowler (30‑45 %)",
+            "rationale": "Facilitates lung expansion and reduces cardiac demand"
+          },
+          {
+            "action": "Educate patient on warning signs and treatment adherence",
+            "rationale": "Promotes early detection and therapeutic compliance"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "Ventricular tachycardia",
+          "Electrolyte imbalance",
+          "Uncontrolled hypertension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No episodes of hypotension (<90 mmHg) during hospitalization",
+          "Heart rate maintained ≤200 bpm"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 15 min",
+            "rationale": "Detect changes that compromise perfusion"
+          },
+          {
+            "action": "Check serum electrolytes (K⁺, Mg²⁺) every 12 h",
+            "rationale": "Prevent precipitating factors for arrhythmia"
+          },
+          {
+            "action": "Maintain adequate IV hydration as prescribed",
+            "rationale": "Optimize intravascular volume and perfusion"
+          },
+          {
+            "action": "Avoid stimuli that increase heart rate (caffeine, nicotine)",
+            "rationale": "Reduce risk of ventricular acceleration"
+          },
+          {
+            "action": "Teach patient the importance of adherence to treatment and follow‑up",
+            "rationale": "Decrease likelihood of arrhythmia recurrence"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ventricular-fibrillation",
+    "cardiac-arrest",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Arrhythmia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/arrhythmia.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Dysrhythmia",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-2-dysrhythmia",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-02"
+}

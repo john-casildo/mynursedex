@@ -1,0 +1,523 @@
+{
+  "id": "cerebral-ischemia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Accidente cerebrovascular isquémico (ACI)",
+    "aliases": [
+      "accidente cerebrovascular",
+      "stroke",
+      "isquemia cerebral",
+      "aci",
+      "ictus isquémico"
+    ],
+    "summary": "El ACI ocurre cuando un coágulo bloquea una arteria cerebral, interrumpiendo el flujo sanguíneo y provocando daño neuronal.",
+    "key_points": [
+      "Bloqueo arterial (trombosis o embolia) es la causa principal.",
+      "Factores de riesgo: hipertensión, fibrilación auricular, diabetes, tabaquismo y aterosclerosis.",
+      "El tiempo es crítico: cada minuto sin reperfusión aumenta la lesión cerebral.",
+      "El tratamiento agudo incluye trombólisis intravenosa y/o trombectomía mecánica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Un coágulo obstruye una arteria cerebral, reduciendo el flujo de oxígeno y glucosa.",
+        "La isquemia provoca pérdida de la función de la bomba de Na+/K+ y edema celular.",
+        "Si la perfusión no se restablece en < 4‑6 h, ocurre necrosis irreversible del tejido.",
+        "La inflamación secundaria y la excitotoxicidad aumentan el daño."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Fibrilación auricular y otras arritmias.",
+        "Aterosclerosis y enfermedad de las arterias carótidas.",
+        "Diabetes mellitus y dislipidemia.",
+        "Tabaquismo y consumo excesivo de alcohol."
+      ],
+      "signs_symptoms": [
+        "Debilidad súbita o parálisis facial unilateral.",
+        "Pérdida de visión o visión doble.",
+        "Alteración del habla (disartria, afasia).",
+        "Dolor de cabeza intenso y repentino.",
+        "Alteración del nivel de conciencia."
+      ],
+      "diagnostics": [
+        "TC o RM cerebral: evidencia de infarto y descarta hemorragia.",
+        "Angiografía cerebral o CTA para localizar la oclusión.",
+        "Escala de NIHSS para cuantificar gravedad.",
+        "Laboratorios: glucosa < 70 mg/dL o > 200 mg/dL, INR según anticoagulación."
+      ],
+      "treatment": [
+        "Trombólisis con alteplasa (tPA) dentro de 3‑4.5 h del inicio.",
+        "Trombectomía mecánica si la oclusión es en arteria grande.",
+        "Control estricto de la presión arterial (120‑140 mm Hg sistólica).",
+        "Antiplaquetarios (ácido acetilsalicílico) y estatinas a largo plazo.",
+        "Manejo de la glucemia y de la temperatura corporal."
+      ],
+      "complications": [
+        "Edema cerebral y aumento de la presión intracraneal.",
+        "Hemorragia intracraneal secundaria a reperfusión.",
+        "Déficits neurológicos permanentes (parálisis, afasia).",
+        "Trombosis venosa profunda por inmovilización."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y presión arterial cada 15 min en fase aguda.",
+        "Evaluar nivel de conciencia con escala de Glasgow y escala NIHSS.",
+        "Mantener cabeza elevada 30° para favorecer drenaje venoso.",
+        "Controlar glucemia capilar cada 4 h y temperatura corporal.",
+        "Observar signos de sangrado (hematuria, hematomas)."
+      ],
+      "patient_teaching": [
+        "Importancia de iniciar tratamiento dentro de la ventana terapéutica.",
+        "Adherencia a antihipertensivos, anticoagulantes y estatinas.",
+        "Reconocer signos de alarma: debilidad súbita, dificultad para hablar.",
+        "Modificaciones del estilo de vida: dieta DASH, ejercicio regular, dejar de fumar.",
+        "Plan de rehabilitación: fisioterapia y terapia ocupacional."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "fibrilación auricular",
+          "aterosclerosis",
+          "diabetes mellitus",
+          "tabaquismo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral adecuada: presión arterial sistólica 120‑140 mm Hg mantenida en 24 h.",
+          "Nivel de conciencia estable: Glasgow ≥ 15 durante 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y presión arterial cada 15 min.",
+            "rationale": "Detectar rápidamente hipertensión o hipotensión que comprometan la perfusión cerebral."
+          },
+          {
+            "action": "Evaluar nivel de conciencia con escala de Glasgow cada hora.",
+            "rationale": "Identificar deterioro neurológico precoz."
+          },
+          {
+            "action": "Mantener la cabeza del paciente elevada 30°.",
+            "rationale": "Facilita el retorno venoso y reduce la presión intracraneal."
+          },
+          {
+            "action": "Administrar anticoagulante según prescripción y observar signos de sangrado.",
+            "rationale": "Prevenir extensión del trombo y reducir riesgo de embolia secundaria."
+          },
+          {
+            "action": "Controlar glucemia capilar cada 4 h y corregir hipoglucemia o hiperglucemia.",
+            "rationale": "La hiperglucemia agrava el daño neuronal en isquemia."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "déficit de perfusión tisular cerebral",
+          "debilidad unilateral"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disnea leve al caminar",
+          "debilidad en extremidad afectada"
+        ],
+        "outcomes": [
+          "Capacidad para realizar ADL básicas con mínima fatiga en 7 días.",
+          "Tolerancia a caminar 30 min sin detenerse en 10 días."
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de descanso cada 20‑30 min durante actividades.",
+            "rationale": "Conservar energía y prevenir agotamiento."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse al vestirse, usar dispositivos de asistencia).",
+            "rationale": "Facilitar la realización de ADL sin sobrecargar al paciente."
+          },
+          {
+            "action": "Establecer un programa de ejercicios de fisioterapia progresiva.",
+            "rationale": "Mejorar fuerza y resistencia muscular de forma segura."
+          },
+          {
+            "action": "Monitorear saturación de O₂ y frecuencia respiratoria durante la actividad.",
+            "rationale": "Detectar signos de intolerancia respiratoria temprana."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de la actividad gradual.",
+            "rationale": "Promover la adherencia al plan de rehabilitación y evitar recaídas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Ischemic cerebrovascular accident (stroke)",
+    "aliases": [
+      "stroke",
+      "ischemic stroke",
+      "ischemic cerebrovascular accident",
+      "ischemic cerebrovascular event",
+      "ischemic cerebrovascular injury"
+    ],
+    "summary": "An ischemic stroke occurs when a clot blocks a cerebral artery, interrupting blood flow and causing neuronal damage.",
+    "key_points": [
+      "Arterial blockage (thrombosis or embolism) is the primary cause.",
+      "Risk factors: hypertension, atrial fibrillation, diabetes, smoking, and atherosclerosis.",
+      "Time is critical: each minute without reperfusion increases brain injury.",
+      "Acute treatment includes intravenous thrombolysis and/or mechanical thrombectomy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "A clot obstructs a cerebral artery, reducing oxygen and glucose delivery.",
+        "Ischemia causes loss of Na⁺/K⁺ pump function and cellular edema.",
+        "If perfusion is not restored within <4‑6 h, irreversible tissue necrosis occurs.",
+        "Secondary inflammation and excitotoxicity increase damage."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Atrial fibrillation and other arrhythmias.",
+        "Atherosclerosis and carotid artery disease.",
+        "Diabetes mellitus and dyslipidemia.",
+        "Smoking and excessive alcohol consumption."
+      ],
+      "signs_symptoms": [
+        "Sudden weakness or unilateral facial paralysis.",
+        "Loss of vision or double vision.",
+        "Speech disturbance (dysarthria, aphasia).",
+        "Severe, sudden headache.",
+        "Altered level of consciousness."
+      ],
+      "diagnostics": [
+        "CT or MRI brain: evidence of infarct and rule out hemorrhage.",
+        "Cerebral angiography or CTA to locate the occlusion.",
+        "NIHSS scale to quantify severity.",
+        "Laboratories: glucose <70 mg/dL or >200 mg/dL, INR per anticoagulation status."
+      ],
+      "treatment": [
+        "Thrombolysis with alteplase (tPA) within 3‑4.5 h of onset.",
+        "Mechanical thrombectomy if the occlusion is in a large artery.",
+        "Strict blood pressure control (120‑140 mm Hg systolic).",
+        "Antiplatelets (acetylsalicylic acid) and statins long-term.",
+        "Glucose and body temperature management."
+      ],
+      "complications": [
+        "Cerebral edema and increased intracranial pressure.",
+        "Secondary intracranial hemorrhage from reperfusion.",
+        "Permanent neurological deficits (paralysis, aphasia).",
+        "Deep vein thrombosis from immobilization."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and blood pressure every 15 min in the acute phase.",
+        "Assess level of consciousness with Glasgow and NIHSS scales.",
+        "Keep head elevated 30° to promote venous drainage.",
+        "Check capillary glucose every 4 h and body temperature.",
+        "Observe for bleeding signs (hematuria, bruising)."
+      ],
+      "patient_teaching": [
+        "Importance of initiating treatment within the therapeutic window.",
+        "Adherence to antihypertensives, anticoagulants, and statins.",
+        "Recognize alarm signs: sudden weakness, speech difficulty.",
+        "Lifestyle modifications: DASH diet, regular exercise, smoking cessation.",
+        "Rehabilitation plan: physical and occupational therapy."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "atrial fibrillation",
+          "atherosclerosis",
+          "diabetes mellitus",
+          "smoking"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate cerebral perfusion: systolic blood pressure 120‑140 mm Hg maintained for 24 h.",
+          "Stable level of consciousness: Glasgow ≥ 15 for 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and blood pressure every 15 min.",
+            "rationale": "Detect hypertension or hypotension that compromise cerebral perfusion."
+          },
+          {
+            "action": "Assess level of consciousness with Glasgow scale hourly.",
+            "rationale": "Identify early neurological deterioration."
+          },
+          {
+            "action": "Keep the patient’s head elevated 30°.",
+            "rationale": "Facilitates venous return and reduces intracranial pressure."
+          },
+          {
+            "action": "Administer anticoagulant per prescription and monitor for bleeding.",
+            "rationale": "Prevent thrombus extension and reduce risk of secondary embolism."
+          },
+          {
+            "action": "Check capillary glucose every 4 h and correct hypo- or hyperglycemia.",
+            "rationale": "Hyperglycemia worsens neuronal damage during ischemia."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "inadequate cerebral tissue perfusion deficit",
+          "unilateral weakness"
+        ],
+        "evidenced_by": [
+          "fatigue during activities of daily living",
+          "mild dyspnea when walking",
+          "weakness in affected limb"
+        ],
+        "outcomes": [
+          "Ability to perform basic ADLs with minimal fatigue in 7 days.",
+          "Tolerance to walking 30 min without stopping in 10 days."
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods every 20‑30 min during activities.",
+            "rationale": "Conserve energy and prevent exhaustion."
+          },
+          {
+            "action": "Teach energy conservation techniques (sitting while dressing, using assistive devices).",
+            "rationale": "Facilitate ADL performance without overloading the patient."
+          },
+          {
+            "action": "Establish a progressive physiotherapy exercise program.",
+            "rationale": "Improve muscle strength and endurance safely."
+          },
+          {
+            "action": "Monitor O₂ saturation and respiratory rate during activity.",
+            "rationale": "Detect early signs of respiratory intolerance."
+          },
+          {
+            "action": "Educate patient and family on the importance of gradual activity.",
+            "rationale": "Promote adherence to rehabilitation plan and prevent setbacks."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ischemic-stroke",
+    "atrial-fibrillation",
+    "atherosclerosis",
+    "thrombolysis",
+    "cerebral-edema"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Ischemic Stroke",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/ischemicstroke.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: The Cerebrovascular System and Cerebral Vascular Accidents",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-1-the-cerebrovascular-system-and-cerebral-vascular-accidents",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hemorrhagic Stroke",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/15-3-hemorrhagic-stroke",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-02",
+  "factcheck": {
+    "checked": "2026-11-02",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 19,
+      "not_found": 22,
+      "contradicted": 1,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An ischemic stroke happens when a blood clot blocks a blood vessel in the brain.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Ischemic strokes are usually caused by one or more of the following: A blood clot. A clot can form in an artery that supplies the brain (thrombosis), or it can travel from another part of the body (embolism).",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "contradicted",
+        "quote": "a lack of perfusion in an area of the brain can cause irreversible damage to the tissue in minutes.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Modifiable risk factors for hemorrhagic stroke are: hypertension smoking alcohol consumption antiplatelet or anticoagulant therapy sympathomimetic drug usage",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Conditions like atrial fibrillation can cause clots to form in the heart, which may travel to the brain.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Atherosclerosis . A disease in which plaque, a sticky substance made up of cholesterol, fat, and other substances, builds up inside your arteries.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Your provider may also order other medicines to manage your blood pressure , cholesterol , or other health problems such as diabetes that may increase your risk for stroke.",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Modifiable risk factors for hemorrhagic stroke are: hypertension smoking alcohol consumption antiplatelet or anticoagulant therapy sympathomimetic drug usage",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Occlusions in the internal carotid artery (ICA) can result in: paralysis of and sensory changes in the face, leg, and arm on the side of the body opposite to the CVA",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Do they have a new onset of double or blurry vision?",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Occlusions in the internal carotid artery (ICA) can result in: paralysis of and sensory changes in the face, leg, and arm on the side of the body opposite to the CVA aphasia apraxia , or the inability to perform tasks, movements, or gestures homonymous hemianopsia",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Sudden severe headache with no known cause",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "These patients are much more likely to have a decreased level of consciousness than patients with ischemic strokes.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "The NIHSS is performed by a physician or other trained individual (often a registered nurse) to determine the severity of the stroke.",
+        "source": 1
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "To be effective at reversing brain ischemia, tPA must be administered within 3 to 4.5 hours of stroke onset, or the time when the patient was last seen as normal (“last known well”).",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Bleeding in either location can take up room in the finite space of the skull, causing increased cerebral pressure and cerebral edema.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "The longer the time to treatment, the more brain cells die, causing irreparable neurological damage that may result in paralysis, permanent disability, or even death.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Recognizing the signs of a CVA and initiating quick treatment are essential for preserving as much brain tissue, and therefore function, as possible.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "They include: Sudden numbness or weakness of the face, arm or leg (especially on one side of the body) Sudden confusion, trouble speaking or understanding speech Sudden trouble seeing in one or both eyes Sudden trouble walking, dizziness, loss of balance or coordination Sudden severe headache with no known cause If you think someone is having a stroke, the F.A.S.T. test can help you remember what to look for.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Other members of the interdisciplinary team may include: diagnostic imaging team members pharmacists nutritionists social workers therapists, including occupational, physical, recreational, and speech language mental, behavioral, or neuropsychological therapists primary care providers neurologists and specialists in stroke care various health educators rehabilitation nurses home care providers",
+        "source": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,457 @@
+{
+  "id": "bradykinesia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Bradicinesia",
+    "aliases": [
+      "bradicinesia",
+      "lentitud de movimiento",
+      "dificultad iniciar movimiento",
+      "rigidez facial",
+      "akinesia"
+    ],
+    "summary": "Disminución de la velocidad y amplitud del movimiento, característica principal de la enfermedad de Parkinson. Se manifiesta como dificultad para iniciar la marcha, levantar de una silla y expresión facial escasa.",
+    "key_points": [
+      "Es el síntoma motor más distintivo de la enfermedad de Parkinson.",
+      "Puede progresar a akinesia (ausencia total de movimiento).",
+      "Se asocia con rigidez muscular y temblor de reposo.",
+      "El tratamiento incluye fármacos dopaminérgicos y estimulación cerebral profunda.",
+      "Afecta la capacidad para realizar actividades de la vida diaria."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneración de neuronas dopaminérgicas en la sustancia negra.",
+        "Disminución de dopamina en los ganglios basales altera la vía motora directa.",
+        "Se produce exceso de actividad inhibitoria, ralentizando la iniciación del movimiento."
+      ],
+      "risk_factors": [
+        "Edad avanzada (≥60 años).",
+        "Historia familiar de enfermedad de Parkinson.",
+        "Exposición a pesticidas o metales pesados.",
+        "Genética (mutaciones en LRRK2, PARK7, etc.)."
+      ],
+      "signs_symptoms": [
+        "Movimientos lentos y pequeños (micrografía).",
+        "Dificultad para iniciar la marcha o levantarse de una silla.",
+        "Expresión facial escasa (hipomimia).",
+        "Rigidez muscular y temblor de reposo pueden coexistir."
+      ],
+      "diagnostics": [
+        "Evaluación clínica con escala UPDRS; puntuación alta en ítem de bradicinesia.",
+        "Imagen cerebral (MRI) para descartar otras causas, pero suele ser normal.",
+        "Respuesta positiva a levodopa confirma diagnóstico."
+      ],
+      "treatment": [
+        "Levodopa/Carbidopa – aumenta la disponibilidad de dopamina.",
+        "Agonistas dopaminérgicos (pramipexol, ropinirol).",
+        "Inhibidores de MAO‑B (selegilina, rasagilina).",
+        "Estimulación cerebral profunda (DBS) en casos refractarios."
+      ],
+      "complications": [
+        "Caídas por lentitud y pérdida de equilibrio.",
+        "Desarrollo de akinesia y rigidez severa.",
+        "Depresión y deterioro cognitivo asociados."
+      ],
+      "nursing_care": [
+        "Evaluar capacidad de iniciar movimiento y nivel de independencia en ADL.",
+        "Monitorear respuesta a medicación (mejora de velocidad de marcha).",
+        "Implementar medidas de seguridad para prevenir caídas.",
+        "Fomentar ejercicios de estiramiento y marcha asistida."
+      ],
+      "patient_teaching": [
+        "Tomar levodopa con alimentos ligeros y a la misma hora cada día.",
+        "Informar sobre efectos secundarios como náuseas o hipotensión ortostática.",
+        "Practicar técnicas de inicio de marcha (paso pequeño, usar apoyos).",
+        "Mantener actividad física regular para preservar movilidad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "bradicinesia",
+          "rigidez muscular",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "dificultad para iniciar marcha",
+          "movimientos lentos al vestirse",
+          "cansancio al realizar ADL"
+        ],
+        "outcomes": [
+          "Movilidad: caminar 50 m sin asistencia en 2 semanas",
+          "Autocuidado: realizar higiene personal sin ayuda en 1 semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de independencia en cada actividad de la vida diaria y registrar limitaciones",
+            "rationale": "Permite identificar áreas específicas donde la bradicinesia afecta la función."
+          },
+          {
+            "action": "Programar sesiones de fisioterapia para ejercicios de iniciación de movimiento y marcha asistida",
+            "rationale": "Mejora la velocidad y la confianza al caminar."
+          },
+          {
+            "action": "Administrar levodopa según prescripción y observar respuesta motora",
+            "rationale": "Optimiza la disponibilidad de dopamina y reduce la bradicinesia."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de uso de bastón o andador",
+            "rationale": "Proporciona apoyo físico y disminuye el esfuerzo al iniciar el movimiento."
+          },
+          {
+            "action": "Planificar descansos programados durante actividades prolongadas",
+            "rationale": "Previene la fatiga que exacerba la intolerancia a la actividad."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "bradicinesia",
+          "caídas",
+          "pérdida de equilibrio"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad: sin caídas durante la hospitalización",
+          "Integridad cutánea: piel intacta sin lesiones por caídas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar riesgo de caída usando escala de Morse al ingreso",
+            "rationale": "Identifica pacientes con mayor probabilidad de lesión."
+          },
+          {
+            "action": "Mantener el entorno libre de obstáculos y asegurar buena iluminación",
+            "rationale": "Reduce factores ambientales que provocan caídas."
+          },
+          {
+            "action": "Colocar barra de apoyo y asiento firme al lado de la cama",
+            "rationale": "Facilita el levantamiento seguro y previene caídas al iniciar movimiento."
+          },
+          {
+            "action": "Instruir al paciente a solicitar ayuda antes de levantarse o caminar",
+            "rationale": "Promueve la seguridad y evita intentos de movimiento sin apoyo."
+          },
+          {
+            "action": "Monitorear signos de hipotensión ortostática después de la medicación",
+            "rationale": "Previene desmayos que pueden causar lesiones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Bradykinesia",
+    "aliases": [
+      "bradykinesia",
+      "slowness of movement",
+      "difficulty initiating movement",
+      "facial rigidity",
+      "akinesia"
+    ],
+    "summary": "Decreased speed and amplitude of movement, the primary hallmark of Parkinson’s disease. It presents as difficulty starting gait, rising from a chair, and reduced facial expression.",
+    "key_points": [
+      "It is the most distinctive motor symptom of Parkinson’s disease.",
+      "It can progress to akinesia (complete absence of movement).",
+      "It is associated with muscular rigidity and resting tremor.",
+      "Treatment includes dopaminergic medications and deep brain stimulation.",
+      "It affects the ability to perform activities of daily living."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneration of dopaminergic neurons in the substantia nigra.",
+        "Reduced dopamine in the basal ganglia disrupts the direct motor pathway.",
+        "Excess inhibitory activity slows initiation of movement."
+      ],
+      "risk_factors": [
+        "Advanced age (≥60 years).",
+        "Family history of Parkinson’s disease.",
+        "Exposure to pesticides or heavy metals.",
+        "Genetics (mutations in LRRK2, PARK7, etc.)."
+      ],
+      "signs_symptoms": [
+        "Slow and small movements (micrographia).",
+        "Difficulty initiating gait or rising from a chair.",
+        "Reduced facial expression (hypomimia).",
+        "Muscular rigidity and resting tremor may coexist."
+      ],
+      "diagnostics": [
+        "Clinical evaluation with the UPDRS scale; high score on the bradykinesia item.",
+        "Brain imaging (MRI) to rule out other causes, usually normal.",
+        "Positive response to levodopa confirms diagnosis."
+      ],
+      "treatment": [
+        "Levodopa/Carbidopa – increases dopamine availability.",
+        "Dopaminergic agonists (pramipexole, ropinirole).",
+        "MAO‑B inhibitors (selegiline, rasagiline).",
+        "Deep brain stimulation (DBS) in refractory cases."
+      ],
+      "complications": [
+        "Falls due to slowness and loss of balance.",
+        "Development of severe akinesia and rigidity.",
+        "Associated depression and cognitive decline."
+      ],
+      "nursing_care": [
+        "Assess ability to initiate movement and level of independence in ADLs.",
+        "Monitor medication response (improvement in gait speed).",
+        "Implement safety measures to prevent falls.",
+        "Encourage stretching and assisted walking exercises."
+      ],
+      "patient_teaching": [
+        "Take levodopa with light meals at the same time each day.",
+        "Inform about side effects such as nausea or orthostatic hypotension.",
+        "Practice gait initiation techniques (small step, use supports).",
+        "Maintain regular physical activity to preserve mobility."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "bradykinesia",
+          "muscular rigidity",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "difficulty initiating gait",
+          "slow movements when dressing",
+          "fatigue during ADLs"
+        ],
+        "outcomes": [
+          "Mobility: walk 50 m without assistance in 2 weeks",
+          "Self‑care: perform personal hygiene without help in 1 week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess level of independence in each activity of daily living and record limitations",
+            "rationale": "Identifies specific areas where bradykinesia affects function."
+          },
+          {
+            "action": "Schedule physiotherapy sessions for movement initiation and assisted walking exercises",
+            "rationale": "Improves walking speed and confidence."
+          },
+          {
+            "action": "Administer levodopa per prescription and observe motor response",
+            "rationale": "Optimizes dopamine availability and reduces bradykinesia."
+          },
+          {
+            "action": "Teach the patient techniques for using a cane or walker",
+            "rationale": "Provides physical support and reduces effort to initiate movement."
+          },
+          {
+            "action": "Plan scheduled rest breaks during prolonged activities",
+            "rationale": "Prevents fatigue that exacerbates activity intolerance."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "bradykinesia",
+          "falls",
+          "loss of balance"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Safety: no falls during hospitalization",
+          "Skin integrity: intact skin without fall‑related lesions"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fall risk using the Morse scale upon admission",
+            "rationale": "Identifies patients with higher likelihood of injury."
+          },
+          {
+            "action": "Keep the environment free of obstacles and ensure good lighting",
+            "rationale": "Reduces environmental factors that cause falls."
+          },
+          {
+            "action": "Place a grab bar and firm chair beside the bed",
+            "rationale": "Facilitates safe rising and prevents falls when initiating movement."
+          },
+          {
+            "action": "Instruct the patient to request help before standing or walking",
+            "rationale": "Promotes safety and avoids attempts at unsupported movement."
+          },
+          {
+            "action": "Monitor for orthostatic hypotension after medication",
+            "rationale": "Prevents fainting that can cause injury."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "parkinson-s-disease",
+    "tremor",
+    "rigidity"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Introduction to Parkinson’s Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-1-introduction-to-parkinsons-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-02",
+  "factcheck": {
+    "checked": "2026-11-02",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 23,
+      "contradicted": 0,
+      "total": 36
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Clients with PD have difficulties initiating movement, such as walking or getting up out of a chair.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Bradykinesia may progress to akinesia, which is the inability to move.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Rigidity: Rigidity involves stiffness—the resistance to movement by both flexors and extensors.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "occupational therapy to teach clients how to use adapted tools and methods to make activities of daily living easier",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Parkinson’s disease (PD) is a progressive neurologic condition that destroys some of the dopamine-secreting neurons of the substantia nigra, a critical area of the brain that produces dopamine and has an important role in controlling an individual’s movements.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Their writing becomes small and cramped, which is referred to as micrographia .",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Clients with PD have difficulties initiating movement, such as walking or getting up out of a chair.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Also, clients usually present with an expressionless face or flat affect due to facial rigidity.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The four primary motor manifestations of overt PD (shown in Figure 11.3 ) are (Capriotti, 2020; National Institute of Neurological Disorders and Stroke, 2023b): Tremors: This involuntary quivering is progressive and often begins in one isolated area, such as the head or hands, and then often spreads to the legs.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "Brain scans to rule out other disorders (Note that computed tomography [CT] and magnetic resonance imaging [MRI] scans of people with PD usually appear unremarkable.)",
+        "source": 0
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "The result is impaired balance and increased risk of falls.",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Bradykinesia may progress to akinesia, which is the inability to move.",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "The loss of NE may explain several nonmotor manifestations seen in PD, including: Mood changes, such as depression and anxiety Cognitive changes, such as memory loss, impaired judgment, poor decision-making, and dementia",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "id": "anticipatory-nausea",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Náuseas anticipatorias",
+    "aliases": [
+      "náuseas anticipatorias",
+      "náuseas antes de quimioterapia",
+      "anticipatory nausea",
+      "náuseas pretratamiento",
+      "náuseas condicionadas",
+      "náuseas psicogénicas"
+    ],
+    "summary": "Náuseas que aparecen antes de iniciar un tratamiento, típicamente quimioterapia, como respuesta aprendida al estímulo asociado al procedimiento.",
+    "key_points": [
+      "Se desencadenan por asociación condicionada entre el entorno del tratamiento y la experiencia previa de vómitos.",
+      "Factores de riesgo incluyen ansiedad, experiencias previas de náuseas, sexo femenino y edad <50 años.",
+      "El manejo primario es no farmacológico: técnicas de relajación, terapia cognitivo‑conductual y desensibilización sistemática.",
+      "Los antieméticos pueden usarse como medida preventiva, pero son menos eficaces que las intervenciones conductuales.",
+      "Complicaciones potenciales: deshidratación, desequilibrio electrolítico y disminución de la adherencia al tratamiento."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El estímulo del entorno (sala de quimioterapia, olores) se asocia al CTZ mediante aprendizaje clásico.",
+        "El cerebro anticipa la náusea y activa la zona gatadora del quimiorreceptor, liberando dopamina y serotonina.",
+        "Se produce una respuesta fisiológica de náusea antes de la exposición al agente quimioterápico."
+      ],
+      "risk_factors": [
+        "Experiencias previas de náuseas o vómitos durante tratamientos.",
+        "Ansiedad o miedo al procedimiento.",
+        "Sexo femenino y edad menor a 50 años.",
+        "Sensibilidad a olores o estímulos visuales del entorno de tratamiento."
+      ],
+      "signs_symptoms": [
+        "Queja subjetiva de náusea antes de iniciar la terapia.",
+        "Salivación excesiva, palidez, sudoración fría.",
+        "Aumento de la frecuencia respiratoria y sensación de malestar abdominal."
+      ],
+      "diagnostics": [
+        "Historia clínica enfocada en episodios previos y factores desencadenantes.",
+        "Evaluación de signos vitales y estado de hidratación.",
+        "Exámenes de laboratorio solo si se sospecha deshidratación: Na+, K+ en mEq/L, glucosa en mg/dL."
+      ],
+      "treatment": [
+        "Técnicas de relajación profunda y respiración diafragmática antes del tratamiento.",
+        "Terapia cognitivo‑conductual o desensibilización sistemática.",
+        "Antieméticos de primera línea como fenotiazinas (p. ej., proclorperazina) o antagonistas 5‑HT3 (ondansetrón) como medida preventiva.",
+        "Control del ambiente: reducir olores fuertes, iluminación tenue y ruido mínimo."
+      ],
+      "complications": [
+        "Deshidratación y déficit de volumen de líquidos.",
+        "Desequilibrio electrolítico (hiponatremia, hipopotasemia).",
+        "Interrupción o retraso del esquema de quimioterapia."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de náusea usando escala de 0‑10 antes y después del tratamiento.",
+        "Monitorear ingesta y salida; registrar I/O cada 8 h.",
+        "Proveer ambiente tranquilo, minimizar estímulos desencadenantes.",
+        "Administrar antiemético según prescripción 30‑60 min antes del procedimiento.",
+        "Documentar respuesta a intervenciones no farmacológicas."
+      ],
+      "patient_teaching": [
+        "Enseñar técnicas de respiración y relajación para usar antes de la sesión.",
+        "Informar sobre la importancia de tomar el antiemético preventivo según indicación.",
+        "Identificar y evitar estímulos que desencadenen la náusea (olor, alimentos).",
+        "Fomentar hidratación adecuada y consumo de alimentos ligeros antes del tratamiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Náuseas",
+        "type": "actual",
+        "related_to": [
+          "anticipación del tratamiento",
+          "ansiedad",
+          "experiencia previa de vómitos"
+        ],
+        "evidenced_by": [
+          "queja de náusea antes de la quimioterapia",
+          "salivación excesiva",
+          "palidez"
+        ],
+        "outcomes": [
+          "Náuseas controladas: paciente reporta ≤2 episodios por día",
+          "Ingesta nutricional ≥75 % de requerimientos diarios"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de náusea con escala numérica antes del tratamiento",
+            "rationale": "Permite cuantificar la intensidad y monitorizar la respuesta"
+          },
+          {
+            "action": "Aplicar técnicas de respiración diafragmática y relajación guiada 10 min antes del procedimiento",
+            "rationale": "Reduce la respuesta de ansiedad que desencadena la náusea"
+          },
+          {
+            "action": "Administrar antiemético preventivo (p. ej., proclorperazina) según orden médica 30 min antes",
+            "rationale": "Bloquea receptores dopaminérgicos en el CTZ"
+          },
+          {
+            "action": "Crear ambiente tranquilo: luz tenue, minimizar olores fuertes",
+            "rationale": "Disminuye estímulos desencadenantes"
+          },
+          {
+            "action": "Reforzar educación sobre uso de técnicas de afrontamiento y registro de síntomas",
+            "rationale": "Fomenta autocontrol y detección temprana"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómitos frecuentes",
+          "ansiedad que aumenta pérdida de fluidos",
+          "hiperhidrosis asociada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico mantenido: I/O equilibrado en ±100 mL/24 h",
+          "Electrolitos (Na+, K+) dentro de rangos normales"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida cada 8 h y registrar valores",
+            "rationale": "Detecta temprano desequilibrio hídrico"
+          },
+          {
+            "action": "Ofrecer líquidos claros en pequeños sorbos cada 15 min si la náusea está controlada",
+            "rationale": "Previene deshidratación sin sobrecargar el estómago"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, presión arterial)",
+            "rationale": "Identifica complicación temprana"
+          },
+          {
+            "action": "Administrar antiemético según indicación para reducir episodios de vómito",
+            "rationale": "Disminuye pérdida de fluidos"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación y reconocer síntomas de déficit de líquidos",
+            "rationale": "Promueve autocuidado y prevención"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Anticipatory nausea",
+    "aliases": [
+      "anticipatory nausea",
+      "nausea before chemotherapy",
+      "pre-treatment nausea",
+      "conditioned nausea",
+      "psychogenic nausea"
+    ],
+    "summary": "Nausea that appears before starting a treatment, typically chemotherapy, as a learned response to the stimulus associated with the procedure.",
+    "key_points": [
+      "Triggered by a conditioned association between the treatment environment and prior vomiting experiences.",
+      "Risk factors include anxiety, previous nausea experiences, female sex, and age <50 years.",
+      "Primary management is non-pharmacologic: relaxation techniques, cognitive-behavioral therapy, and systematic desensitization.",
+      "Antiemetics can be used prophylactically but are less effective than behavioral interventions.",
+      "Potential complications: dehydration, electrolyte imbalance, and reduced treatment adherence."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The environmental stimulus (chemotherapy room, odors) is associated with the CTZ via classical conditioning.",
+        "The brain anticipates nausea and activates the trigger zone of the chemoreceptor, releasing dopamine and serotonin.",
+        "A physiological nausea response occurs before exposure to the chemotherapeutic agent."
+      ],
+      "risk_factors": [
+        "Previous nausea or vomiting during treatments.",
+        "Anxiety or fear of the procedure.",
+        "Female sex and age under 50 years.",
+        "Sensitivity to odors or visual stimuli in the treatment environment."
+      ],
+      "signs_symptoms": [
+        "Subjective complaint of nausea before starting therapy.",
+        "Excessive salivation, pallor, cold sweating.",
+        "Increased respiratory rate and abdominal discomfort."
+      ],
+      "diagnostics": [
+        "Focused medical history of prior episodes and triggers.",
+        "Vital sign assessment and hydration status.",
+        "Laboratory tests only if dehydration suspected: Na+, K+ in mEq/L, glucose in mg/dL."
+      ],
+      "treatment": [
+        "Deep relaxation and diaphragmatic breathing techniques before treatment.",
+        "Cognitive-behavioral therapy or systematic desensitization.",
+        "First-line antiemetics such as phenothiazines (e.g., prochlorperazine) or 5‑HT3 antagonists (ondansetron) as a preventive measure.",
+        "Environmental control: reduce strong odors, dim lighting, and minimal noise."
+      ],
+      "complications": [
+        "Dehydration and fluid volume deficit.",
+        "Electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Interruption or delay of the chemotherapy regimen."
+      ],
+      "nursing_care": [
+        "Assess nausea level using a 0‑10 scale before and after treatment.",
+        "Monitor intake and output; record I/O every 8 h.",
+        "Provide a calm environment, minimize triggering stimuli.",
+        "Administer antiemetic per prescription 30‑60 min before the procedure.",
+        "Document response to non-pharmacologic interventions."
+      ],
+      "patient_teaching": [
+        "Teach breathing and relaxation techniques to use before the session.",
+        "Inform about the importance of taking the preventive antiemetic as directed.",
+        "Identify and avoid stimuli that trigger nausea (odor, food).",
+        "Encourage adequate hydration and light meals before treatment."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Nausea",
+        "type": "actual",
+        "related_to": [
+          "anticipation of treatment",
+          "anxiety",
+          "previous vomiting experience"
+        ],
+        "evidenced_by": [
+          "nausea complaint before chemotherapy",
+          "excessive salivation",
+          "pallor"
+        ],
+        "outcomes": [
+          "Controlled nausea: patient reports ≤2 episodes per day",
+          "Nutritional intake ≥75 % of daily requirements"
+        ],
+        "interventions": [
+          {
+            "action": "Assess nausea level with a numeric scale before treatment",
+            "rationale": "Allows quantification of intensity and monitoring of response"
+          },
+          {
+            "action": "Apply diaphragmatic breathing and guided relaxation 10 min before the procedure",
+            "rationale": "Reduces the anxiety response that triggers nausea"
+          },
+          {
+            "action": "Administer preventive antiemetic (e.g., prochlorperazine) per medical order 30 min before",
+            "rationale": "Blocks dopaminergic receptors in the CTZ"
+          },
+          {
+            "action": "Create a calm environment: dim light, minimize strong odors",
+            "rationale": "Reduces triggering stimuli"
+          },
+          {
+            "action": "Reinforce education on coping techniques and symptom logging",
+            "rationale": "Promotes self-control and early detection"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "frequent vomiting",
+          "increased fluid loss due to anxiety",
+          "associated hyperhidrosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintained fluid balance: I/O within ±100 mL/24 h",
+          "Electrolytes (Na+, K+) within normal ranges"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor intake and output every 8 h and record values",
+            "rationale": "Detects early fluid imbalance"
+          },
+          {
+            "action": "Offer clear fluids in small sips every 15 min if nausea is controlled",
+            "rationale": "Prevents dehydration without overloading the stomach"
+          },
+          {
+            "action": "Assess signs of dehydration (turgor, mucous membranes, blood pressure)",
+            "rationale": "Identifies early complication"
+          },
+          {
+            "action": "Administer antiemetic as indicated to reduce vomiting episodes",
+            "rationale": "Reduces fluid loss"
+          },
+          {
+            "action": "Educate patient on the importance of hydration and recognizing fluid deficit symptoms",
+            "rationale": "Promotes self-care and prevention"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "conditioned-response",
+    "chemotherapy-induced-nausea-and-vomiting",
+    "anxiety",
+    "behavioral-therapy",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antiemetics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/30-1-antiemetics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Chemotherapeutic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/8-2-chemotherapeutic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-02",
+  "factcheck": {
+    "checked": "2026-11-02",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Nausea and vomiting may occur as anticipatory, beginning before a treatment begins, or during or soon after a treatment.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Risk factors for chemotherapy-induced nausea and vomiting include female sex, clients who experienced nausea and vomiting during pregnancy, age less than 50 years, and incidence of nausea and vomiting with previous chemotherapy treatments.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "These include myelosuppression, stomatitis, nausea, vomiting, diarrhea, and electrolyte imbalances including hypomagnesemia and hypokalemia.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Bone marrow suppression may be severe, requiring interruption of therapy.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

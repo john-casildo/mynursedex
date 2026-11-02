@@ -1,0 +1,487 @@
+{
+  "id": "seizure",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Crisis convulsiva (seizure)",
+    "aliases": [
+      "convulsión",
+      "crisis epiléptica",
+      "sacudidas",
+      "pérdida de conciencia",
+      "epilepsia"
+    ],
+    "summary": "Descarga eléctrica súbita y desorganizada de neuronas que produce alteraciones temporales de la conciencia y/o movimientos involuntarios.",
+    "key_points": [
+      "Duración típica 30 s‑2 min; >5 min es emergencia (estatus epiléptico).",
+      "Puede ser focal (parcial) o generalizada según la zona cerebral involucrada.",
+      "Factores desencadenantes incluyen fiebre, traumatismo, desequilibrios electrolíticos y abstinencia de fármacos.",
+      "El tratamiento agudo incluye benzodiacepinas; la profilaxis usa antiepilépticos de mantenimiento."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Descarga eléctrica anómala de grupos neuronales sincronizados.",
+        "Aumento de la liberación de neurotransmisores excitatorios (glutamato).",
+        "Reducción de la inhibición GABAérgica favorece la propagación del impulso.",
+        "Alteración transitoria de la función cerebral produce síntomas clínicos."
+      ],
+      "risk_factors": [
+        "Traumatismo craneoencefálico.",
+        "Fiebre alta en niños (<5 años).",
+        "Desequilibrios de Na+, Ca2+, Mg2+.",
+        "Abstinencia de alcohol o de benzodiacepinas.",
+        "Tumores cerebrales, ictus o malformaciones congénitas."
+      ],
+      "signs_symptoms": [
+        "Pérdida súbita de la conciencia.",
+        "Movimientos rítmicos y sacudidas de extremidades.",
+        "Aura sensorial o visual (en crisis focales).",
+        "Salivación, incontinencia y mordedura de lengua.",
+        "Confusión postictal tras la crisis."
+      ],
+      "diagnostics": [
+        "EEG: descargas epileptiformes interictales o ictales.",
+        "TC/MRI cerebral: descarta lesión estructural.",
+        "Glucosa sérica: <70 mg/dL o >200 mg/dL pueden precipitar crisis.",
+        "Electrolitos: Na+ <135 mEq/L, Ca2+ <8.5 mg/dL, Mg2+ <1.7 mg/dL."
+      ],
+      "treatment": [
+        "Benzodiacepinas (diazepam, lorazepam) para crisis aguda.",
+        "Antiepilépticos de mantenimiento: fenitoína, carbamazepina, ácido valproico, levetiracetam.",
+        "Control de factores desencadenantes (ej. temperatura, alcohol).",
+        "Oxígeno suplementario si hay hipoxemia.",
+        "Vía intravenosa si la vía oral está comprometida."
+      ],
+      "complications": [
+        "Lesiones traumáticas por caídas durante la crisis.",
+        "Status epiléptico (crisis >5 min o series sin recuperación).",
+        "Hipoxia cerebral prolongada.",
+        "Efectos adversos de fármacos (rash, hepatotoxicidad)."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia y seguridad del entorno antes de la crisis.",
+        "Mantener la vía aérea libre; girar al paciente a posición lateral de seguridad.",
+        "Monitorear signos vitales, glucosa y electrolitos cada 30‑60 min durante y después.",
+        "Administrar medicación según orden y observar respuesta clínica.",
+        "Registrar duración, tipo de movimiento y estado postictal."
+      ],
+      "patient_teaching": [
+        "Tomar la medicación antiepiléptica exactamente como se indica.",
+        "Evitar privación de sueño, consumo excesivo de alcohol y estímulos luminosos intensos.",
+        "Reconocer aura y buscar ayuda antes de que evolucione a crisis generalizada.",
+        "Usar identificación médica (pulsera) que indique epilepsia y medicación.",
+        "Mantener registro de crisis (fecha, hora, duración, factores desencadenantes)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "convulsiones prolongadas",
+          "pérdida de conciencia",
+          "entorno con objetos peligrosos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Seguridad del paciente: sin lesiones relacionadas a crisis durante la hospitalización",
+          "NOC: Integridad cutánea: piel intacta al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar el entorno y retirar objetos duros o punzantes del área del paciente.",
+            "rationale": "Reduce la probabilidad de traumatismo durante una crisis."
+          },
+          {
+            "action": "Colocar al paciente en posición lateral de seguridad al inicio de la crisis.",
+            "rationale": "Mantiene la vía aérea permeable y previene aspiración."
+          },
+          {
+            "action": "Aplicar protectores de cabeza o almohadillas suaves si la crisis es frecuente.",
+            "rationale": "Disminuye el riesgo de lesiones craneales."
+          },
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia cada 5‑10 min durante la crisis.",
+            "rationale": "Permite detección temprana de deterioro hemodinámico."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatiga postictal",
+          "disminución de la tolerancia a ejercicio leve",
+          "dolor muscular después de crisis"
+        ],
+        "outcomes": [
+          "NOC: Actividad física: paciente tolera actividades de la vida diaria sin fatiga excesiva",
+          "NOC: Energía: nivel de energía percibido ≥7/10 al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de descanso entre actividades y evaluar nivel de energía antes de iniciar ejercicio.",
+            "rationale": "Previene agotamiento y recaídas de crisis."
+          },
+          {
+            "action": "Enseñar técnicas de respiración profunda y relajación para reducir estrés.",
+            "rationale": "El estrés puede desencadenar crisis y disminuir la tolerancia a la actividad."
+          },
+          {
+            "action": "Coordinar con fisioterapia para establecer un programa de ejercicio gradual.",
+            "rationale": "Mejora la resistencia física sin sobrecargar al paciente."
+          },
+          {
+            "action": "Registrar nivel de fatiga usando escala de 0‑10 después de cada actividad.",
+            "rationale": "Facilita la evaluación del progreso y ajuste del plan de cuidados."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Seizure (Crisis convulsiva)",
+    "aliases": [
+      "seizure",
+      "epileptic crisis",
+      "shaking",
+      "loss of consciousness",
+      "epilepsy"
+    ],
+    "summary": "Sudden, disorganized electrical discharge of neurons that produces temporary alterations in consciousness and/or involuntary movements.",
+    "key_points": [
+      "Typical duration 30 s‑2 min; >5 min is an emergency (status epilepticus).",
+      "Can be focal (partial) or generalized depending on the brain region involved.",
+      "Triggers include fever, trauma, electrolyte imbalances, and drug withdrawal.",
+      "Acute treatment includes benzodiazepines; prophylaxis uses maintenance antiepileptics."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Abnormal electrical discharge of synchronized neuronal groups.",
+        "Increased release of excitatory neurotransmitters (glutamate).",
+        "Reduced GABAergic inhibition facilitates impulse propagation.",
+        "Transient alteration of cerebral function produces clinical symptoms."
+      ],
+      "risk_factors": [
+        "Head trauma.",
+        "High fever in children (<5 years).",
+        "Na+, Ca2+, Mg2+ imbalances.",
+        "Alcohol or benzodiazepine withdrawal.",
+        "Brain tumors, stroke, or congenital malformations."
+      ],
+      "signs_symptoms": [
+        "Sudden loss of consciousness.",
+        "Rhythmic movements and shaking of limbs.",
+        "Sensory or visual aura (in focal seizures).",
+        "Salivation, incontinence, and tongue biting.",
+        "Postictal confusion after the seizure."
+      ],
+      "diagnostics": [
+        "EEG: interictal or ictal epileptiform discharges.",
+        "CT/MRI brain: rule out structural lesion.",
+        "Serum glucose: <70 mg/dL or >200 mg/dL can precipitate seizures.",
+        "Electrolytes: Na+ <135 mEq/L, Ca2+ <8.5 mg/dL, Mg2+ <1.7 mg/dL."
+      ],
+      "treatment": [
+        "Benzodiazepines (diazepam, lorazepam) for acute seizure.",
+        "Maintenance antiepileptics: phenytoin, carbamazepine, valproic acid, levetiracetam.",
+        "Control of triggers (e.g., temperature, alcohol).",
+        "Supplemental oxygen if hypoxemia present.",
+        "Intravenous route if oral route is compromised."
+      ],
+      "complications": [
+        "Traumatic injuries from falls during seizure.",
+        "Status epilepticus (seizure >5 min or series without recovery).",
+        "Prolonged cerebral hypoxia.",
+        "Adverse drug effects (rash, hepatotoxicity)."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness and environment safety before seizure.",
+        "Keep airway clear; turn patient to recovery position.",
+        "Monitor vital signs, glucose, and electrolytes every 30‑60 min during and after.",
+        "Administer medication per order and observe clinical response.",
+        "Document duration, type of movement, and postictal state."
+      ],
+      "patient_teaching": [
+        "Take antiepileptic medication exactly as prescribed.",
+        "Avoid sleep deprivation, excessive alcohol, and intense light stimuli.",
+        "Recognize aura and seek help before it progresses to generalized seizure.",
+        "Wear medical identification (bracelet) indicating epilepsy and medication.",
+        "Keep a seizure log (date, time, duration, triggers)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "prolonged seizures",
+          "loss of consciousness",
+          "environment with dangerous objects"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Patient safety: no injury related to seizure during hospitalization",
+          "NOC: Skin integrity: intact skin at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Assess environment and remove hard or sharp objects from patient area.",
+            "rationale": "Reduces likelihood of trauma during a seizure."
+          },
+          {
+            "action": "Place patient in recovery position at onset of seizure.",
+            "rationale": "Keeps airway clear and prevents aspiration."
+          },
+          {
+            "action": "Apply head protectors or soft pads if seizures are frequent.",
+            "rationale": "Decreases risk of head injuries."
+          },
+          {
+            "action": "Monitor vital signs and level of consciousness every 5‑10 min during seizure.",
+            "rationale": "Allows early detection of hemodynamic deterioration."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "postictal fatigue",
+          "reduced tolerance to light exercise",
+          "muscle soreness after seizures"
+        ],
+        "outcomes": [
+          "NOC: Physical activity: patient tolerates activities of daily living without excessive fatigue",
+          "NOC: Energy: perceived energy level ≥7/10 at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods between activities and assess energy level before starting exercise.",
+            "rationale": "Prevents exhaustion and seizure recurrence."
+          },
+          {
+            "action": "Teach deep breathing and relaxation techniques to reduce stress.",
+            "rationale": "Stress can trigger seizures and decrease activity tolerance."
+          },
+          {
+            "action": "Coordinate with physical therapy to establish a gradual exercise program.",
+            "rationale": "Improves physical endurance without overloading patient."
+          },
+          {
+            "action": "Record fatigue level using 0‑10 scale after each activity.",
+            "rationale": "Facilitates progress assessment and care plan adjustment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "epilepsy",
+    "status-epilepticus",
+    "antiepileptic-drugs"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Seizures",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/seizures.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Seizures",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-5-seizures",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Epilepsy and Anticonvulsant Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-02",
+  "factcheck": {
+    "checked": "2026-11-02",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Seizures are a sudden and temporary disturbance in the electrical activity of the brain that can cause changes in behavior, movement, or consciousness.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Focal seizures, also called partial seizures, happen in just one part of the brain.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Etiology Seizures can have various causes such as fever, head injury, brain infection, drug or alcohol withdrawal or overdose, electrolyte imbalances, and metabolic disorders.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Anticonvulsant drugs are used to either control acute seizures or as maintenance to prevent seizures from occurring.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The abnormal electrical activity in the brain that occurs during an epileptic seizure is thought to be caused by a sudden release of excitatory neurotransmitters or a sudden decrease in inhibitory neurotransmitters (Centers for Disease Control and Prevention, 2020a, 2020c).",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "This activity can disrupt normal brain function and lead to a variety of symptoms, such as convulsions , loss of consciousness, and sensory or motor disturbances (Centers for Disease Control and Prevention, 2020a, 2020c).",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Seizures can be triggered by a variety of factors, including high fever, brain tumors, strokes, head trauma, heart attacks, and infections such as encephalitis and meningitis .",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Etiology Seizures can have various causes such as fever, head injury, brain infection, drug or alcohol withdrawal or overdose, electrolyte imbalances, and metabolic disorders.",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "This activity can disrupt normal brain function and lead to a variety of symptoms, such as convulsions , loss of consciousness, and sensory or motor disturbances (Centers for Disease Control and Prevention, 2020a, 2020c).",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "When people think of seizures, they often think of convulsions in which a person's body shakes rapidly and uncontrollably.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "During the postictal phase, which may last minutes or hours, patients may be confused, scared, frustrated, and anxious.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "The health care provider may order one or more of the following diagnostic tests to identify seizures or rule out other causes or structural abnormalities that could be contributing to the seizure diagnosis: Electroencephalogram (EEG) An EEG is a test that measures changes in the brain’s electrical patterns that relate to seizures or other neurological conditions.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Apply supplemental oxygen and provide suction to prevent the patient from aspirating.",
+        "source": 1
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Place a pillow under their head and turn the patient on their side to keep their tongue from blocking the airway.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Documentation of a seizure includes time of onset, duration of the active seizure, and the length of the postal state.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Take the drug as prescribed and do not skip doses or stop therapy.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
