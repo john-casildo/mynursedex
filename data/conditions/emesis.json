@@ -1,0 +1,476 @@
+{
+  "id": "emesis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Vómito (Emesis)",
+    "aliases": [
+      "vomito",
+      "emesis",
+      "nausea",
+      "náuseas",
+      "vómito"
+    ],
+    "summary": "El vómito es la expulsión forzada del contenido gástrico a través de la boca, a menudo acompañado de náuseas.",
+    "key_points": [
+      "Puede ser síntoma de múltiples patologías o efectos de medicamentos.",
+      "El vómito prolongado produce deshidratación y desequilibrio electrolítico.",
+      "El control de la causa subyacente y la reposición de líquidos son prioridades.",
+      "Los antieméticos se administran según indicación médica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Estimulación del centro emético en el bulbo raquídeo por quimiorreceptores, mecánicos o vestibulares.",
+        "Aumento del tono del esfínter esofágico inferior y contracción del músculo diafragmático.",
+        "Contracción coordinada del estómago y relajación del esfínter pilórico impulsa el contenido al esófago y boca."
+      ],
+      "risk_factors": [
+        "Embarazo (náuseas matutinas).",
+        "Infecciones gastrointestinales (gastroenteritis).",
+        "Quimioterapia y radioterapia.",
+        "Medicamentos como opioides, antiinflamatorios y anestésicos.",
+        "Movimientos bruscos o mareo (cinetosis)."
+      ],
+      "signs_symptoms": [
+        "Sensación de náuseas precedentes.",
+        "Contracciones abdominales visibles.",
+        "Salivación abundante y pérdida de apetito.",
+        "Posible presencia de sangre o bilis en el vómito.",
+        "Signos de deshidratación: mucosas secas, turgencia cutánea disminuida."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico enfocado en signos de deshidratación.",
+        "Pruebas de laboratorio: glucosa, electrolitos (Na+, K+, Cl- en mEq/L), BUN/creatinina.",
+        "Hemograma completo si se sospecha infección.",
+        "Radiografía o TC abdominal si se considera obstrucción intestinal."
+      ],
+      "treatment": [
+        "Antieméticos: ondansetrón, metoclopramida, proclorperazina (según orden médica).",
+        "Reposición de líquidos por vía oral o IV (solución salina isotónica).",
+        "Corrección de electrolitos según resultados de laboratorio.",
+        "Identificación y tratamiento de la causa subyacente (ej. antibiótico para infección)."
+      ],
+      "complications": [
+        "Deshidratación e hipovolemia.",
+        "Hipocalemia, hiponatremia y otros desequilibrios electrolíticos.",
+        "Esofagitis o úlceras por irritación gástrica.",
+        "Aspiración pulmonar y neumonía por aspiración."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia, volumen y contenido del vómito.",
+        "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+        "Registrar ingesta y pérdida de líquidos; calcular balance hídrico.",
+        "Observar mucosas, turgencia cutánea y diuresis para detectar deshidratación.",
+        "Administrar antieméticos y fluidos IV según orden, vigilando reacciones adversas."
+      ],
+      "patient_teaching": [
+        "Instruir sobre técnicas de control de náuseas (respiración profunda, ingesta de líquidos claros).",
+        "Explicar la importancia de mantener hidratación y consumir alimentos blandos gradualmente.",
+        "Advertir signos de deshidratación que requieren atención médica.",
+        "Informar sobre posibles efectos secundarios de los antieméticos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómito frecuente",
+          "pérdida de líquidos > 500 mL/24h",
+          "fiebre",
+          "diarrea concomitante"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta ≥ 1500 mL/día y pérdida ≤ 1000 mL/día en 48 h.",
+          "Hidratación: mucosas húmedas y turgencia cutánea normal en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 4 h.",
+            "rationale": "Permite detectar déficit de volumen temprano."
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según orden.",
+            "rationale": "Reemplaza el volumen perdido y previene hipovolemia."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia, frecuencia cardíaca, presión arterial).",
+            "rationale": "Facilita la intervención oportuna."
+          },
+          {
+            "action": "Ofrecer sorbos de agua o solución de rehidratación oral cada 30 min.",
+            "rationale": "Mantiene hidratación oral cuando es posible."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar vómitos persistentes.",
+            "rationale": "Promueve la detección precoz de complicaciones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "vómito repetido",
+          "pérdida de ácido gástrico",
+          "uso de diuréticos",
+          "insuficiente reposición de electrolitos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L en 48 h.",
+          "Ausencia de arritmias o debilidad muscular relacionadas con desequilibrio electrolítico."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos al ingreso y cada 24 h.",
+            "rationale": "Detecta alteraciones tempranas."
+          },
+          {
+            "action": "Administrar suplementos de potasio o magnesio según orden.",
+            "rationale": "Corrige déficit y previene complicaciones cardíacas."
+          },
+          {
+            "action": "Monitorear ritmo cardíaco y presión arterial continuamente.",
+            "rationale": "Identifica efectos de desequilibrios electrolíticos."
+          },
+          {
+            "action": "Documentar contenido del vómito (presencia de bilis, sangre).",
+            "rationale": "Ayuda a estimar pérdida de ácido y electrolitos."
+          },
+          {
+            "action": "Enseñar al paciente a consumir alimentos ricos en potasio (plátano, papaya) cuando tolerado.",
+            "rationale": "Facilita reposición natural de electrolitos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Vomiting (Emesis)",
+    "aliases": [
+      "vomito",
+      "emesis",
+      "nausea",
+      "náuseas",
+      "vómito"
+    ],
+    "summary": "Vomiting is the forced expulsion of gastric contents through the mouth, often accompanied by nausea.",
+    "key_points": [
+      "It can be a symptom of multiple pathologies or medication effects.",
+      "Prolonged vomiting leads to dehydration and electrolyte imbalance.",
+      "Addressing the underlying cause and replacing fluids are priorities.",
+      "Antiemetics are administered as ordered by a clinician."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Stimulation of the emetic center in the medulla by chemoreceptors, mechanical or vestibular triggers.",
+        "Increased tone of the lower esophageal sphincter and contraction of the diaphragm.",
+        "Coordinated contraction of the stomach and relaxation of the pyloric sphincter propels contents into the esophagus and mouth."
+      ],
+      "risk_factors": [
+        "Pregnancy (morning sickness).",
+        "Gastrointestinal infections (gastroenteritis).",
+        "Chemotherapy and radiotherapy.",
+        "Medications such as opioids, NSAIDs, and anesthetics.",
+        "Sudden movements or dizziness (cykosis)."
+      ],
+      "signs_symptoms": [
+        "Preceding sensation of nausea.",
+        "Visible abdominal contractions.",
+        "Excessive salivation and loss of appetite.",
+        "Possible presence of blood or bile in vomitus.",
+        "Signs of dehydration: dry mucous membranes, decreased skin turgor."
+      ],
+      "diagnostics": [
+        "Focused medical history and physical exam for dehydration signs.",
+        "Laboratory tests: glucose, electrolytes (Na+, K+, Cl- in mEq/L), BUN/creatinine.",
+        "Complete blood count if infection suspected.",
+        "Abdominal X‑ray or CT if intestinal obstruction is considered."
+      ],
+      "treatment": [
+        "Antiemetics: ondansetron, metoclopramide, prochlorperazine (as ordered).",
+        "Fluid replacement orally or IV (normal saline).",
+        "Correct electrolytes per lab results.",
+        "Identify and treat underlying cause (e.g., antibiotic for infection)."
+      ],
+      "complications": [
+        "Dehydration and hypovolemia.",
+        "Hypokalemia, hyponatremia, and other electrolyte disturbances.",
+        "Esophagitis or ulcers from gastric irritation.",
+        "Pulmonary aspiration and aspiration pneumonia."
+      ],
+      "nursing_care": [
+        "Assess frequency, volume, and content of vomiting.",
+        "Monitor vital signs, especially blood pressure and heart rate.",
+        "Record intake and output; calculate fluid balance.",
+        "Observe mucous membranes, skin turgor, and urine output for dehydration.",
+        "Administer antiemetics and IV fluids as ordered, monitoring for adverse reactions."
+      ],
+      "patient_teaching": [
+        "Teach nausea control techniques (deep breathing, clear fluids).",
+        "Explain the importance of staying hydrated and gradually eating bland foods.",
+        "Warn of dehydration signs that require medical attention.",
+        "Inform about possible side effects of antiemetics."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "frequent vomiting",
+          "fluid loss > 500 mL/24h",
+          "fever",
+          "concurrent diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake ≥ 1500 mL/day and loss ≤ 1000 mL/day within 48 h.",
+          "Hydration: moist mucous membranes and normal skin turgor within 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 4 h.",
+            "rationale": "Allows early detection of volume deficit."
+          },
+          {
+            "action": "Administer normal saline IV as ordered.",
+            "rationale": "Replaces lost volume and prevents hypovolemia."
+          },
+          {
+            "action": "Assess dehydration signs (turgor, heart rate, blood pressure).",
+            "rationale": "Facilitates timely intervention."
+          },
+          {
+            "action": "Offer sips of water or oral rehydration solution every 30 min.",
+            "rationale": "Maintains oral hydration when possible."
+          },
+          {
+            "action": "Educate the patient on the importance of reporting persistent vomiting.",
+            "rationale": "Promotes early detection of complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "repeated vomiting",
+          "gastric acid loss",
+          "diuretic use",
+          "insufficient electrolyte replacement"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L within 48 h.",
+          "Absence of arrhythmias or muscle weakness related to electrolyte imbalance."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte panel on admission and every 24 h.",
+            "rationale": "Detects early alterations."
+          },
+          {
+            "action": "Administer potassium or magnesium supplements as ordered.",
+            "rationale": "Corrects deficits and prevents cardiac complications."
+          },
+          {
+            "action": "Continuously monitor heart rhythm and blood pressure.",
+            "rationale": "Identifies effects of electrolyte imbalances."
+          },
+          {
+            "action": "Document vomitus content (presence of bile, blood).",
+            "rationale": "Helps estimate acid and electrolyte loss."
+          },
+          {
+            "action": "Teach the patient to consume potassium‑rich foods (banana, papaya) when tolerated.",
+            "rationale": "Facilitates natural electrolyte replenishment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dehydration",
+    "electrolyte-imbalance",
+    "gastroenteritis",
+    "chemotherapy-induced-nausea",
+    "motion-sickness"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Nausea and Vomiting",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/nauseaandvomiting.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Chapter 26",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/chapter-26",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-03",
+  "factcheck": {
+    "checked": "2026-11-03",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Nausea and vomiting can be symptoms of many different conditions, including: Morning sickness during pregnancy Gastroenteritis (infection of your intestines) and other infections Migraines Motion sickness Food poisoning Medicines, including those for cancer chemotherapy GERD (reflux) and ulcers Intestinal obstruction When do I need to see a health care provider for nausea and vomiting?",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The nurse must be prepared for nursing interventions, such as having antiemetics readily available, as well as the potential of hypotension as a result of the anesthetic medications along with hyperemesis and fluid and electrolyte imbalance.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Treatments for nausea and vomiting depend on the cause. You may get treatment for the underlying problem.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Emesis, PONV Administer an antiemetic per provider order.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Nausea and vomiting can be symptoms of many different conditions, including: Morning sickness during pregnancy Gastroenteritis (infection of your intestines) and other infections Migraines Motion sickness Food poisoning Medicines, including those for cancer chemotherapy GERD (reflux) and ulcers Intestinal obstruction When do I need to see a health care provider for nausea and vomiting?",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Nausea and vomiting can be symptoms of many different conditions, including: Morning sickness during pregnancy Gastroenteritis (infection of your intestines) and other infections Migraines Motion sickness Food poisoning Medicines, including those for cancer chemotherapy GERD (reflux) and ulcers Intestinal obstruction When do I need to see a health care provider for nausea and vomiting?",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "They are usually not serious. However, you should contact your health care provider immediately if you have: A reason to think that your vomiting is from poisoning Vomited for longer than 24 hours Blood in the vomit Severe abdominal pain Severe headache and stiff neck Signs of dehydration , such as dry mouth, infrequent urination or dark urine How is the cause of nausea and vomiting diagnosed?",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Your health care provider will take your medical history, ask about your symptoms and do a physical exam.",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "You may get treatment for the underlying problem.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Hypovolemia Provide appropriate IV fluid management per provider order.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Eat bland foods; stay away from spicy, fatty, or salty foods Eat smaller meals more often Avoid strong smells, since they can sometimes trigger nausea and vomiting If you are pregnant and have morning sickness, eat crackers before you get out of bed in the morning Start Here Nausea and Vomiting (American College of Gastroenterology) Also in Spanish Nausea",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "However, you should contact your health care provider immediately if you have: A reason to think that your vomiting is from poisoning Vomited for longer than 24 hours Blood in the vomit Severe abdominal pain Severe headache and stiff neck Signs of dehydration , such as dry mouth, infrequent urination or dark urine How is the cause of nausea and vomiting diagnosed? Your health care provider will take your medical history, ask about your symptoms a",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

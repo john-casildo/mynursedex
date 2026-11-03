@@ -1,0 +1,515 @@
+{
+  "id": "neutropenia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Neutropenia",
+    "aliases": [
+      "neutropenia",
+      "neutrófilos",
+      "bajo recuento",
+      "leucopenia",
+      "neutropenia febril"
+    ],
+    "summary": "Disminución anormal del recuento absoluto de neutrófilos, que compromete la defensa inmunológica y aumenta el riesgo de infecciones.",
+    "key_points": [
+      "Neutropenia severa: ANC < 500 células/µL.",
+      "Febrile neutropenia se define por ANC < 500 células/µL y temperatura ≥ 38.3°C.",
+      "Causas frecuentes: quimioterapia, radioterapia, enfermedades hematológicas y fármacos inmunosupresores.",
+      "El aislamiento y la vigilancia estrecha son esenciales para prevenir infecciones.",
+      "Los factores estimulantes de colonias (filgrastim, pegfilgrastim) aceleran la recuperación de neutrófilos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los neutrófilos son la primera línea de defensa contra bacterias y hongos.",
+        "Quimioterapia o daño medular reduce la producción de neutrófilos en la médula ósea.",
+        "La disminución del recuento disminuye la capacidad de fagocitosis y respuesta inflamatoria.",
+        "Sin neutrófilos suficientes, los patógenos pueden proliferar sin signos clínicos evidentes."
+      ],
+      "risk_factors": [
+        "Quimioterapia de alta dosis o radioterapia abdominal.",
+        "Enfermedades hematológicas (leucemia, mieloma).",
+        "Uso prolongado de corticoides o inmunosupresores.",
+        "Deficiencias nutricionales de vitamina B12 o folato."
+      ],
+      "signs_symptoms": [
+        "Frecuentemente asintomática hasta que ocurre una infección.",
+        "Fiebre inexplicada (neutropenia febril).",
+        "Mialgias, malestar general.",
+        "Úlceras orales o mucositis en pacientes con quimioterapia."
+      ],
+      "diagnostics": [
+        "Hemograma completo con recuento diferencial: ANC < 1,500 células/µL indica neutropenia.",
+        "Neutropenia severa: ANC < 500 células/µL; moderada: 500‑1,000; leve: 1,000‑1,500.",
+        "Cultivos de sangre, orina y sitio de posible infección si hay fiebre.",
+        "Radiografía de tórax si se sospecha neumonía."
+      ],
+      "treatment": [
+        "Antibióticos de amplio espectro al primer signo de fiebre (p. ej., cefepima, piperacilina‑tazobactam).",
+        "Factores estimulantes de colonias (filgrastim, pegfilgrastim) para acelerar la recuperación de neutrófilos.",
+        "Aislamiento de protección (habitación con presión positiva, higiene de manos estricta).",
+        "Control estricto de la temperatura (medir cada 4 h)."
+      ],
+      "complications": [
+        "Infecciones bacterianas o fúngicas graves.",
+        "Sepsis y shock séptico.",
+        "Retraso o interrupción de la terapia oncológica.",
+        "Mucositis y ulceraciones que favorecen la entrada de microorganismos."
+      ],
+      "nursing_care": [
+        "Monitorear ANC diariamente y registrar tendencias.",
+        "Evaluar temperatura cada 4 h; notificar fiebre ≥ 38.3°C inmediatamente.",
+        "Mantener aislamiento de protección y reforzar higiene de manos del personal y del paciente.",
+        "Inspeccionar piel, mucosas y sitios de catéter en busca de signos de infección.",
+        "Administrar antibióticos y G‑CSF según prescripción y observar reacciones adversas."
+      ],
+      "patient_teaching": [
+        "Lavado de manos frecuente con agua y jabón o alcohol gel.",
+        "Evitar multitudes, contacto cercano con personas enfermas y alimentos crudos.",
+        "Reportar cualquier fiebre, escalofríos o dolor de garganta inmediatamente.",
+        "Cumplir con el esquema de filgrastim/pegfilgrastim y asistir a controles de laboratorio.",
+        "Mantener buena hidratación y nutrición adecuada."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "neutropenia severa (<500 células/µL)",
+          "quimioterapia",
+          "cáncer hematológico",
+          "uso de corticoides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección durante la hospitalización",
+          "Temperatura ≤ 37.5°C en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Medir temperatura cada 4 h y registrar resultados.",
+            "rationale": "Detección temprana de fiebre permite iniciar tratamiento antibiótico rápido."
+          },
+          {
+            "action": "Aplicar aislamiento de protección y reforzar higiene de manos del personal y del paciente.",
+            "rationale": "Reduce la exposición a patógenos externos."
+          },
+          {
+            "action": "Evaluar piel, mucosas y sitios de catéter cada turno para detectar signos de infección.",
+            "rationale": "Identifica infecciones locales antes de que se diseminen."
+          },
+          {
+            "action": "Administrar antibióticos de amplio espectro según orden médica al presentar fiebre.",
+            "rationale": "Previene progresión a sepsis en pacientes neutropénicos."
+          },
+          {
+            "action": "Educar al paciente sobre reporte inmediato de fiebre o síntomas infecciosos.",
+            "rationale": "Facilita la intervención temprana y mejora el pronóstico."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "fiebre",
+          "náuseas",
+          "vómitos",
+          "diarrea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Peso estable (+/- 0.5 kg) durante la estancia hospitalaria",
+          "Orina ≥ 0.5 mL/kg/h en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Permite detectar desequilibrio hídrico tempranamente."
+          },
+          {
+            "action": "Ofrecer líquidos orales claros cada 2 h si no hay contraindicación.",
+            "rationale": "Mantiene hidratación y previene hipovolemia."
+          },
+          {
+            "action": "Administrar soluciones intravenosas según prescripción y monitorizar signos vitales.",
+            "rationale": "Reemplaza pérdidas de líquidos y electrolitos."
+          },
+          {
+            "action": "Evaluar mucosas y turgencia de la piel para signos de deshidratación.",
+            "rationale": "Identifica rápidamente la necesidad de intervención."
+          },
+          {
+            "action": "Enseñar al paciente la importancia de ingerir líquidos y reconocer signos de deshidratación.",
+            "rationale": "Promueve autocuidado y prevención post‑alta."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Neutropenia",
+    "aliases": [
+      "neutropenia",
+      "neutrophils",
+      "low count",
+      "leukopenia",
+      "febrile neutropenia"
+    ],
+    "summary": "An abnormal decrease in the absolute neutrophil count, compromising immune defense and increasing infection risk.",
+    "key_points": [
+      "Severe neutropenia: ANC < 500 cells/µL.",
+      "Febrile neutropenia is defined by ANC < 500 cells/µL and temperature ≥ 38.3°C.",
+      "Common causes: chemotherapy, radiotherapy, hematologic diseases and immunosuppressive drugs.",
+      "Isolation and close monitoring are essential to prevent infections.",
+      "Colony-stimulating factors (filgrastim (Neupogen), pegfilgrastim (Neulasta)) accelerate neutrophil recovery."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Neutrophils are the first line of defense against bacteria and fungi.",
+        "Chemotherapy or marrow damage reduces neutrophil production in the bone marrow.",
+        "A decreased count reduces phagocytosis and inflammatory response.",
+        "Without sufficient neutrophils, pathogens can proliferate without obvious clinical signs."
+      ],
+      "risk_factors": [
+        "High-dose chemotherapy or abdominal radiotherapy.",
+        "Hematologic diseases (leukemia, myeloma).",
+        "Prolonged use of corticosteroids or immunosuppressants.",
+        "Nutritional deficiencies of vitamin B12 or folate."
+      ],
+      "signs_symptoms": [
+        "Often asymptomatic until an infection occurs.",
+        "Unexplained fever (febrile neutropenia).",
+        "Myalgias, general malaise.",
+        "Oral ulcers or mucositis in chemotherapy patients."
+      ],
+      "diagnostics": [
+        "Complete blood count with differential: ANC < 1,500 cells/µL indicates neutropenia.",
+        "Severe neutropenia: ANC < 500 cells/µL; moderate: 500‑1,000; mild: 1,000‑1,500.",
+        "Blood, urine, and site cultures if fever is present.",
+        "Chest X‑ray if pneumonia is suspected."
+      ],
+      "treatment": [
+        "Broad‑spectrum antibiotics at first sign of fever (e.g., cefepime, piperacillin‑tazobactam).",
+        "Colony‑stimulating factors (filgrastim (Neupogen), pegfilgrastim (Neulasta)) to accelerate neutrophil recovery.",
+        "Protective isolation (positive‑pressure room, strict hand hygiene).",
+        "Strict temperature control (measure every 4 h)."
+      ],
+      "complications": [
+        "Severe bacterial or fungal infections.",
+        "Sepsis and septic shock.",
+        "Delay or interruption of oncologic therapy.",
+        "Mucositis and ulcerations that facilitate microbial entry."
+      ],
+      "nursing_care": [
+        "Monitor ANC daily and record trends.",
+        "Check temperature every 4 h; notify immediately if fever ≥ 38.3°C.",
+        "Maintain protective isolation and reinforce hand hygiene for staff and patient.",
+        "Inspect skin, mucous membranes, and catheter sites for infection signs.",
+        "Administer antibiotics and G‑CSF per order and monitor for adverse reactions."
+      ],
+      "patient_teaching": [
+        "Frequent hand washing with soap and water or alcohol gel.",
+        "Avoid crowds, close contact with sick individuals, and raw foods.",
+        "Report any fever, chills, or sore throat immediately.",
+        "Adhere to the filgrastim/pegfilgrastim schedule and attend lab appointments.",
+        "Maintain adequate hydration and nutrition."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "severe neutropenia (<500 cells/µL)",
+          "chemotherapy",
+          "hematologic cancer",
+          "corticosteroid use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection during hospitalization",
+          "Temperature ≤ 37.5°C within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Measure temperature every 4 h and record results.",
+            "rationale": "Early detection of fever allows rapid initiation of antibiotic therapy."
+          },
+          {
+            "action": "Apply protective isolation and reinforce hand hygiene for staff and patient.",
+            "rationale": "Reduces exposure to external pathogens."
+          },
+          {
+            "action": "Assess skin, mucous membranes, and catheter sites each shift for infection signs.",
+            "rationale": "Identifies local infections before they spread."
+          },
+          {
+            "action": "Administer broad‑spectrum antibiotics per order when fever occurs.",
+            "rationale": "Prevents progression to sepsis in neutropenic patients."
+          },
+          {
+            "action": "Educate the patient on immediate reporting of fever or infectious symptoms.",
+            "rationale": "Facilitates early intervention and improves prognosis."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "fever",
+          "nausea",
+          "vomiting",
+          "diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Stable weight (+/- 0.5 kg) during hospitalization",
+          "Urine output ≥ 0.5 mL/kg/h in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Allows early detection of fluid imbalance."
+          },
+          {
+            "action": "Offer clear oral fluids every 2 h if no contraindication.",
+            "rationale": "Maintains hydration and prevents hypovolemia."
+          },
+          {
+            "action": "Administer intravenous solutions per order and monitor vital signs.",
+            "rationale": "Replaces fluid and electrolyte losses."
+          },
+          {
+            "action": "Assess mucous membranes and skin turgor for dehydration signs.",
+            "rationale": "Rapidly identifies need for intervention."
+          },
+          {
+            "action": "Teach the patient the importance of fluid intake and recognition of dehydration signs.",
+            "rationale": "Promotes self‑care and post‑discharge prevention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "infection",
+    "febrile-neutropenia",
+    "colony-stimulating-factors",
+    "chemotherapy",
+    "sepsis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Blood Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/blooddisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Problemas de la sangre",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/blooddisorders.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Neutropenia",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-5-neutropenia",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Chemotherapeutic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/8-2-chemotherapeutic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-03",
+  "factcheck": {
+    "checked": "2026-11-03",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 19,
+      "not_found": 19,
+      "contradicted": 2,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Febrile neutropenia occurs when a client has an absolute neutrophil count that is less than 1.5 per microliter, accompanied by a body temperature above 100.4ºF.",
+        "source": 3
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Someone with mild neutropenia has WBC levels of 1,000–1,500/μL; moderate neutropenia is characterized by WBC levels of 500–1,000/μL, and severe neutropenia by WBC levels below 500/μL (Yale Medicine, n.d.).",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "contradicted",
+        "quote": "Febrile neutropenia occurs when a client has an absolute neutrophil count that is less than 1.5 per microliter, accompanied by a body temperature above 100.4ºF.",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "To reduce infection transmission, patients are typically given their own room, a positive pressure isolation room if available, and placed on reverse precautions , also known as neutropenic precautions, which are measures to avoid introducing additional pathogens to the patient, such as: Fresh flowers are avoided to decrease exposure to chemicals or Aspergillus fungi infection.",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "These drugs stimulate increases in stem cell production of white blood cells, accelerating a client’s recovery from white blood cell destruction.",
+        "source": 3
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "There are many causes of neutropenia, including chemotherapy, which suppresses bone marrow production of neutrophils.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Cancers of the blood, such as leukemia and myeloma",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Diets that are deficient in folate and vitamin B 12 may lead to neutropenia (Yale Medicine, n.d.).",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Febrile neutropenia occurs when a client has an absolute neutrophil count that is less than 1.5 per microliter, accompanied by a body temperature above 100.4ºF.",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Adverse Effects Mucositis Diarrhea Hand-foot syndrome Myelosuppression Neurotoxicity Gastrointestinal ulcers",
+        "source": 3
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "Someone with mild neutropenia has WBC levels of 1,000–1,500/μL; moderate neutropenia is characterized by WBC levels of 500–1,000/μL, and severe neutropenia by WBC levels below 500/μL (Yale Medicine, n.d.).",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Typically, blood cultures will be obtained, and the client will begin empiric broad-spectrum antibiotics.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "During this time of decreased immunity, clients may also be treated with biologic colony stimulating agents such as filgrastim or pegfilgrastim.",
+        "source": 3
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "To reduce infection transmission, patients are typically given their own room, a positive pressure isolation room if available, and placed on reverse precautions , also known as neutropenic precautions, which are measures to avoid introducing additional pathogens to the patient, such as: Fresh flowers are avoided to decrease exposure to chemicals or Aspergillus fungi infection.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Secondary (acquired) neutropenia is caused by another condition such as a bacterial, fungal, or viral infection.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Without proper support during this myelosuppression, clients may experience sepsis, bleeding, and hypoxemia, which may result in increased mortality rates.",
+        "source": 3
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Bone marrow suppression may be severe, requiring interruption of therapy.",
+        "source": 3
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "Regularly monitor neutrophil count Assess for trends and notify provider of progress or decline.",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "contradicted",
+        "quote": "Notify their health care provider for a temperature greater than 100.4°F (38°C), productive cough, diarrhea, or urinary burning, urgency, or frequency.",
+        "source": 3
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Meticulous hand hygiene and upholding aseptic techniques all are directed at reducing nosocomial infection.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "To optimize immune functioning, adequate hydration and protein in nutrition are instrumental.",
+        "source": 2
+      }
+    }
+  }
+}

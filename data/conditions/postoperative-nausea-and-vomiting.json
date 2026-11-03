@@ -1,0 +1,483 @@
+{
+  "id": "postoperative-nausea-and-vomiting",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Náuseas y vómitos postoperatorios (PONV)",
+    "aliases": [
+      "náuseas",
+      "vómitos",
+      "postoperatorio",
+      "ponv",
+      "náuseas postoperatorias"
+    ],
+    "summary": "Sensación de náuseas y/o vómitos que ocurre después de la anestesia y la cirugía, afectando la recuperación.",
+    "key_points": [
+      "Incidencia mayor en mujeres, no fumadores y con historia previa de PONV.",
+      "Factores desencadenantes: anestésicos volátiles, opioides, movimiento intestinal.",
+      "Prevención multimodal: antieméticos, hidratación y analgesia no opioide.",
+      "Complicaciones: deshidratación, desequilibrio electrolítico y riesgo de aspiración."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los anestésicos volátiles estimulan el centro del vómito en el tronco encefálico.",
+        "Los opioides aumentan la motilidad gástrica y la sensibilidad del quimiorreceptor.",
+        "Distensión gástrica y estimulación vestibular activan el nervio vago.",
+        "Liberación de serotonina en el intestino desencadena el reflejo emético."
+      ],
+      "risk_factors": [
+        "Sexo femenino y edad joven.",
+        "No fumador y antecedentes de PONV o cinetosis.",
+        "Uso de anestesia inhalatoria y opioides postoperatorios.",
+        "Cirugías de abdomen, torácica o otorrinolaringología."
+      ],
+      "signs_symptoms": [
+        "Sensación de náuseas descrita por el paciente.",
+        "Retching o vómitos espontáneos.",
+        "Palidez, sudoración y aumento de la salivación.",
+        "Ansiedad y malestar general."
+      ],
+      "diagnostics": [
+        "Escala de náuseas 0‑10 para cuantificar intensidad.",
+        "Conteo de episodios de vómito en 24 h.",
+        "Evaluación de hidratación: turgencia cutánea, presión arterial y frecuencia cardíaca.",
+        "Electrolitos séricos; se pueden observar hiponatremia si hay pérdida significativa."
+      ],
+      "treatment": [
+        "Antieméticos: ondansetrón, dexametasona, metoclopramida.",
+        "Hidratación intravenosa con solución cristaloide si hay vómitos persistentes.",
+        "Analgesia multimodal: acetaminofén, AINE, bloqueos nerviosos para reducir opioides.",
+        "Posición semisentada y control de estímulos olfatorios.",
+        "Cuidado oral: enjuague con agua y succión de secreciones."
+      ],
+      "complications": [
+        "Deshidratación y déficit de volumen de líquidos.",
+        "Desequilibrio electrolítico (hiponatremia, hipopotasemia).",
+        "Riesgo de aspiración pulmonar.",
+        "Retraso en el alta hospitalaria."
+      ],
+      "nursing_care": [
+        "Evaluar intensidad de náuseas cada 15‑30 min usando escala numérica.",
+        "Monitorear signos vitales y nivel de conciencia para detectar aspiración.",
+        "Administrar antieméticos según orden y registrar tiempo de efecto.",
+        "Mantener vía aérea permeable; aspirar secreciones si es necesario.",
+        "Registrar ingesta y pérdida de líquidos; incentivar ingesta oral cuando sea tolerada."
+      ],
+      "patient_teaching": [
+        "Tomar los antieméticos antes de que aparezca la náusea según indicación.",
+        "Evitar olores fuertes y alimentos grasos durante las primeras 24 h.",
+        "Ingerir pequeños sorbos de líquidos claros cada 15 min.",
+        "Reportar vómitos persistentes o signos de deshidratación.",
+        "Practicar respiración profunda y relajación para disminuir la sensación de náuseas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Náuseas",
+        "type": "actual",
+        "related_to": [
+          "uso de anestésicos volátiles",
+          "administración de opioides",
+          "estimulación vestibular"
+        ],
+        "evidenced_by": [
+          "Reporta sensación de náuseas",
+          "Vómitos espontáneos",
+          "Palidez",
+          "Sudoración"
+        ],
+        "outcomes": [
+          "Control de náuseas: intensidad ≤2/10 en 4 h.",
+          "Hidratación adecuada: ingesta oral ≥500 mL en 8 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar intensidad de náuseas con escala 0‑10 cada 30 min.",
+            "rationale": "Permite medir la respuesta al tratamiento y ajustar intervenciones."
+          },
+          {
+            "action": "Administrar ondansetrón IV según prescripción antes de la aparición de náuseas.",
+            "rationale": "Bloquea receptores de serotonina y previene el reflejo emético."
+          },
+          {
+            "action": "Ofrecer líquidos claros en pequeños sorbos cada 10‑15 min.",
+            "rationale": "Mantiene hidratación y reduce irritación gástrica."
+          },
+          {
+            "action": "Colocar al paciente en posición semisentada y evitar olores fuertes.",
+            "rationale": "Facilita el vaciamiento gástrico y disminuye estímulos que provocan náuseas."
+          },
+          {
+            "action": "Educar al paciente sobre la toma preventiva de antieméticos según indicación.",
+            "rationale": "Mejora la adherencia y reduce la aparición de síntomas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómitos frecuentes",
+          "ayuno preoperatorio prolongado",
+          "uso de diuréticos perioperatorios",
+          "hipoglucemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: peso estable ±0,5 kg en 24 h.",
+          "Electrolitos séricos dentro de rango: Na 135‑145 mEq/L, K 3,5‑5,0 mEq/L."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y pérdida de líquidos cada hora.",
+            "rationale": "Detecta rápidamente déficit de volumen y permite intervención temprana."
+          },
+          {
+            "action": "Administrar solución cristaloide IV según orden si hay signos de deshidratación.",
+            "rationale": "Restablece el volumen intravascular y previene hipotensión."
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (turgencia cutánea, tiempo de llenado capilar).",
+            "rationale": "Indicadores tempranos de hipovolemia."
+          },
+          {
+            "action": "Registrar peso diario y comparar con peso preoperatorio.",
+            "rationale": "Ayuda a cuantificar cambios en el estado de líquidos."
+          },
+          {
+            "action": "Enseñar al paciente la importancia de rehidratarse y reconocer signos de deshidratación.",
+            "rationale": "Fomenta autocuidado y prevención de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Postoperative nausea and vomiting (PONV)",
+    "aliases": [
+      "nausea",
+      "vomiting",
+      "postoperative",
+      "ponv",
+      "postoperative nausea"
+    ],
+    "summary": "Feeling of nausea and/or vomiting that occurs after anesthesia and surgery, affecting recovery.",
+    "key_points": [
+      "Higher incidence in women, non-smokers, and those with prior PONV history.",
+      "Trigger factors: volatile anesthetics, opioids, intestinal motility.",
+      "Multimodal prevention: antiemetics, hydration, non-opioid analgesia.",
+      "Complications: dehydration, electrolyte imbalance, aspiration risk."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Volatile anesthetics stimulate the vomiting center in the brainstem.",
+        "Opioids increase gastric motility and chemoreceptor sensitivity.",
+        "Gastric distension and vestibular stimulation activate the vagus nerve.",
+        "Serotonin release in the gut triggers the emetic reflex."
+      ],
+      "risk_factors": [
+        "Female sex and young age.",
+        "Non-smoker and history of PONV or motion sickness.",
+        "Use of inhalation anesthesia and postoperative opioids.",
+        "Abdominal, thoracic, or ENT surgeries."
+      ],
+      "signs_symptoms": [
+        "Patient-reported nausea sensation.",
+        "Retching or spontaneous vomiting.",
+        "Pallor, sweating, increased salivation.",
+        "Anxiety and general discomfort."
+      ],
+      "diagnostics": [
+        "Nausea scale 0‑10 to quantify intensity.",
+        "Count of vomiting episodes in 24 h.",
+        "Hydration assessment: skin turgor, blood pressure, heart rate.",
+        "Serum electrolytes; hyponatremia may be seen with significant loss."
+      ],
+      "treatment": [
+        "Antiemetics: ondansetron, dexamethasone, metoclopramide.",
+        "Intravenous crystalloid hydration if persistent vomiting.",
+        "Multimodal analgesia: acetaminophen, NSAIDs, nerve blocks to reduce opioids.",
+        "Semi‑upright position and control of olfactory stimuli.",
+        "Oral care: rinse with water and suction secretions."
+      ],
+      "complications": [
+        "Dehydration and fluid volume deficit.",
+        "Electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Pulmonary aspiration risk.",
+        "Delayed hospital discharge."
+      ],
+      "nursing_care": [
+        "Assess nausea intensity every 15‑30 min using numeric scale.",
+        "Monitor vital signs and level of consciousness for aspiration signs.",
+        "Administer antiemetics per order and record onset time.",
+        "Maintain airway patency; suction secretions if needed.",
+        "Record intake and output; encourage oral intake when tolerated."
+      ],
+      "patient_teaching": [
+        "Take antiemetics before nausea appears as directed.",
+        "Avoid strong odors and fatty foods during the first 24 h.",
+        "Take small sips of clear fluids every 15 min.",
+        "Report persistent vomiting or signs of dehydration.",
+        "Practice deep breathing and relaxation to reduce nausea sensation."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Nausea",
+        "type": "actual",
+        "related_to": [
+          "volatile anesthetics",
+          "opioid administration",
+          "vestibular stimulation"
+        ],
+        "evidenced_by": [
+          "Reports of nausea",
+          "Spontaneous vomiting",
+          "Pallor",
+          "Sweating"
+        ],
+        "outcomes": [
+          "Nausea control: intensity ≤2/10 within 4 h.",
+          "Adequate hydration: oral intake ≥500 mL in 8 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess nausea intensity with 0‑10 scale every 30 min.",
+            "rationale": "Allows measurement of treatment response and adjustment of interventions."
+          },
+          {
+            "action": "Administer IV ondansetron per prescription before nausea onset.",
+            "rationale": "Blocks serotonin receptors and prevents the emetic reflex."
+          },
+          {
+            "action": "Offer clear fluids in small sips every 10‑15 min.",
+            "rationale": "Maintains hydration and reduces gastric irritation."
+          },
+          {
+            "action": "Place patient in semi‑upright position and avoid strong odors.",
+            "rationale": "Facilitates gastric emptying and reduces nausea triggers."
+          },
+          {
+            "action": "Educate patient on preventive antiemetic use as directed.",
+            "rationale": "Improves adherence and reduces symptom occurrence."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "frequent vomiting",
+          "prolonged preoperative fasting",
+          "perioperative diuretic use",
+          "hypoglycemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: weight stable ±0.5 kg in 24 h.",
+          "Serum electrolytes within range: Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor intake and output hourly.",
+            "rationale": "Rapidly detects volume deficit and allows early intervention."
+          },
+          {
+            "action": "Administer IV crystalloid per order if signs of dehydration.",
+            "rationale": "Restores intravascular volume and prevents hypotension."
+          },
+          {
+            "action": "Assess peripheral perfusion signs (skin turgor, capillary refill).",
+            "rationale": "Early indicators of hypovolemia."
+          },
+          {
+            "action": "Record daily weight and compare to preoperative weight.",
+            "rationale": "Helps quantify fluid status changes."
+          },
+          {
+            "action": "Teach patient the importance of rehydration and recognizing dehydration signs.",
+            "rationale": "Encourages self‑care and complication prevention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "postoperative-pain",
+    "aspiration",
+    "electrolyte-imbalance",
+    "fluid-overload",
+    "anesthesia"
+  ],
+  "sources": [
+    {
+      "name": "Fundamentals of Nursing: Postoperative Phase",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/31-4-postoperative-phase",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Postoperative Nursing Care Plan",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-4-postoperative-nursing-care-plan",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-03",
+  "factcheck": {
+    "checked": "2026-11-03",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Postoperative nausea and vomiting affects roughly 30 percent of patients (Gan et al., 2020).",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "This distressing combination of gagging, dry heaves, and full-blown emesis not only disrupts comfort but also carries potential complications like dehydration, electrolyte imbalances, and aspiration pneumonia.",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "The nurse also must manage the patient’s pain, resolve any problems with postoperative nausea and vomiting (PONV), and implement measures to prevent infection.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "It is especially crucial to prevent PONV after abdominal surgery because the act of retching and vomiting can stress the abdominal wall and might lead to wound dehiscence.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Aspiration can pose serious danger, particularly to postoperative individuals who may experience altered consciousness or compromised protective airway reflexes.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "To ensure optimal respiratory function in the postoperative period, nurses must prioritize maintaining a patient’s airway patency through proper positioning, suctioning as needed, and monitoring respiratory rate.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Serotonin (5-HT3) receptor antagonists (ondansetron [Zofran]), glucocorticoids (dexamethasone [Decadron]), and NK1 receptor antagonists (aprepitant [Emend]) are the first line of defense, often administered preemptively.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

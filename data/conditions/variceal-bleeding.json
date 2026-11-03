@@ -1,0 +1,455 @@
+{
+  "id": "variceal-bleeding",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hemorragia variceal (HV)",
+    "aliases": [
+      "hemorragia variceal",
+      "varices esofágicas",
+      "sangrado variceal",
+      "varices",
+      "hemorragia gastrointestinal"
+    ],
+    "summary": "Sangrado profuso proveniente de varices dilatadas, típicamente en el esófago, asociado a hipertensión portal.",
+    "key_points": [
+      "Es una emergencia que requiere control rápido del sangrado.",
+      "Frecuente en pacientes con cirrosis y hipertensión portal.",
+      "El manejo incluye terapia farmacológica, endoscópica y posible cirugía.",
+      "El monitoreo de hemoglobina, INR y signos vitales es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La hipertensión portal eleva la presión en el sistema venoso esofágico.",
+        "Las venas esofágicas se dilatan formando varices vulnerables a ruptura.",
+        "Ruptura → pérdida aguda de sangre en el lumen gastrointestinal."
+      ],
+      "risk_factors": [
+        "Cirrosis hepática (alcoholismo, hepatitis viral).",
+        "Trombosis de la vena porta.",
+        "Consumo crónico de alcohol.",
+        "Uso de anticoagulantes o coagulopatías."
+      ],
+      "signs_symptoms": [
+        "Vómito con sangre (hematemesis) o melena.",
+        "Taquicardia, hipotensión ortostática.",
+        "Palidez, sudoración fría.",
+        "Dolor epigástrico o retroesternal."
+      ],
+      "diagnostics": [
+        "Endoscopia digestiva alta: visualiza varices sangrantes.",
+        "Hemoglobina < 10 g/dL indica pérdida significativa.",
+        "INR > 1.5 o aPTT prolongado sugiere coagulopatía.",
+        "Ecografía Doppler: confirma hipertensión portal."
+      ],
+      "treatment": [
+        "Vasoconstrictores: octreotida (infusión).",
+        "Endoscopia con ligadura elástica o escleroterapia.",
+        "Antibióticos profilácticos (ceftriaxona).",
+        "Transfusión de concentrado de glóbulos rojos si Hb < 7 g/dL.",
+        "Beta‑bloqueadores no selectivos (propranolol) para prevención secundaria."
+      ],
+      "complications": [
+        "Shock hipovolémico.",
+        "Insuficiencia renal aguda por hipoperfusión.",
+        "Re‑sangrado dentro de 48‑72 h.",
+        "Infección bacteriana (peritonitis)."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 15 min hasta estabilización.",
+        "Evaluar Hb, hematocrito, INR y balance de líquidos cada 4 h.",
+        "Mantener acceso venoso amplio y preparar sangre para transfusión.",
+        "Posicionar al paciente en decúbito supino con cabeza ligeramente elevada.",
+        "Administrar octreotida según orden y observar efectos secundarios."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de evitar alcohol y seguir dieta baja en sodio.",
+        "Instruir sobre signos de re‑sangrado: vómitos con sangre, mareos.",
+        "Enseñar la toma regular de beta‑bloqueadores y la necesidad de controles endoscópicos.",
+        "Promover la adherencia a antibióticos profilácticos para prevenir infecciones."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hemorragia variceal",
+          "hipertensión portal",
+          "cirrosis hepática",
+          "uso de anticoagulantes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h.",
+          "NOC: Perfusión tisular: presión arterial sistólica ≥ 100 mmHg en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Establecer acceso venoso de calibre adecuado y iniciar fluidoterapia isotónica.",
+            "rationale": "Compensa la pérdida de volumen y previene hipotensión."
+          },
+          {
+            "action": "Monitorear balance de líquidos cada 4 h y registrar en la hoja de enfermería.",
+            "rationale": "Detecta rápidamente desequilibrios y permite ajustes."
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (capilar, pulso, temperatura).",
+            "rationale": "Identifica deterioro circulatorio temprano."
+          },
+          {
+            "action": "Administrar transfusión de concentrado de glóbulos rojos según indicación médica.",
+            "rationale": "Restablece la capacidad de transporte de oxígeno."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar cualquier sangrado nuevo.",
+            "rationale": "Facilita la detección precoz de re‑sangrado."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida sanguínea masiva",
+          "diuresis por octreotida",
+          "insuficiencia hepática"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Equilibrio electrolítico: mantener Na⁺ 135‑145 mEq/L y K⁺ 3.5‑5.0 mEq/L.",
+          "NOC: Función renal: creatinina ≤ 1.2 mg/dL en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos cada 6 h.",
+            "rationale": "Detecta alteraciones tempranas y guía la terapia."
+          },
+          {
+            "action": "Administrar solución salina o de lactato de Ringer según prescripción.",
+            "rationale": "Corrige déficit de sodio y volumen."
+          },
+          {
+            "action": "Vigilar signos de hiperkalemia o hipokalemia (ECG, debilidad muscular).",
+            "rationale": "Previene complicaciones cardíacas."
+          },
+          {
+            "action": "Ajustar la dosis de octreotida si se observa diuresis excesiva.",
+            "rationale": "Evita pérdida excesiva de electrolitos."
+          },
+          {
+            "action": "Educar al paciente sobre la ingesta adecuada de líquidos y alimentos ricos en potasio según indicación.",
+            "rationale": "Promueve el mantenimiento del equilibrio electrolítico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Variceal hemorrhage (VH)",
+    "aliases": [
+      "variceal hemorrhage",
+      "esophageal varices",
+      "variceal bleeding",
+      "varices",
+      "gastrointestinal bleeding"
+    ],
+    "summary": "Profuse bleeding from dilated varices, typically in the esophagus, associated with portal hypertension.",
+    "key_points": [
+      "It is an emergency requiring rapid control of bleeding.",
+      "Common in patients with cirrhosis and portal hypertension.",
+      "Management includes pharmacologic, endoscopic, and possible surgical therapy.",
+      "Monitoring hemoglobin, INR, and vital signs is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Portal hypertension increases pressure in the esophageal venous system.",
+        "Esophageal veins dilate forming varices vulnerable to rupture.",
+        "Rupture → acute blood loss into the gastrointestinal lumen."
+      ],
+      "risk_factors": [
+        "Hepatic cirrhosis (alcoholism, viral hepatitis).",
+        "Portal vein thrombosis.",
+        "Chronic alcohol use.",
+        "Use of anticoagulants or coagulopathies."
+      ],
+      "signs_symptoms": [
+        "Vomiting blood (hematemesis) or melena.",
+        "Tachycardia, orthostatic hypotension.",
+        "Pallor, cold sweating.",
+        "Epigastric or retrosternal pain."
+      ],
+      "diagnostics": [
+        "Upper endoscopy: visualizes bleeding varices.",
+        "Hemoglobin < 10 g/dL indicates significant loss.",
+        "INR > 1.5 or prolonged aPTT suggests coagulopathy.",
+        "Doppler ultrasound: confirms portal hypertension."
+      ],
+      "treatment": [
+        "Vasoconstrictors: octreotide (infusion).",
+        "Endoscopy with band ligation or sclerotherapy.",
+        "Prophylactic antibiotics (ceftriaxone).",
+        "Red blood cell concentrate transfusion if Hb < 7 g/dL.",
+        "Non‑selective beta‑blockers (propranolol) for secondary prevention."
+      ],
+      "complications": [
+        "Hypovolemic shock.",
+        "Acute renal failure from hypoperfusion.",
+        "Re‑bleeding within 48‑72 h.",
+        "Bacterial infection (peritonitis)."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15 minutes until stabilization.",
+        "Assess Hb, hematocrit, INR, and fluid balance every 4 hours.",
+        "Maintain wide venous access and prepare blood for transfusion.",
+        "Position patient supine with head slightly elevated.",
+        "Administer octreotide as ordered and observe for side effects."
+      ],
+      "patient_teaching": [
+        "Explain the importance of avoiding alcohol and following a low‑sodium diet.",
+        "Instruct on signs of re‑bleeding: vomiting blood, dizziness.",
+        "Teach regular beta‑blocker intake and need for endoscopic follow‑ups.",
+        "Encourage adherence to prophylactic antibiotics to prevent infections."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "variceal hemorrhage",
+          "portal hypertension",
+          "hepatic cirrhosis",
+          "use of anticoagulants"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Fluid balance: maintain intake and output within ±500 mL/24 h.",
+          "NOC: Tissue perfusion: systolic blood pressure ≥ 100 mmHg in 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Establish appropriate caliber venous access and initiate isotonic fluid therapy.",
+            "rationale": "Compensates for volume loss and prevents hypotension."
+          },
+          {
+            "action": "Monitor fluid balance every 4 hours and record in the nursing chart.",
+            "rationale": "Detects rapid imbalances and allows adjustments."
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill, pulse, temperature).",
+            "rationale": "Identifies early circulatory deterioration."
+          },
+          {
+            "action": "Administer red blood cell concentrate transfusion as ordered by physician.",
+            "rationale": "Restores oxygen‑carrying capacity."
+          },
+          {
+            "action": "Educate the patient on the importance of reporting any new bleeding.",
+            "rationale": "Facilitates early detection of re‑bleeding."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "massive blood loss",
+          "octreotide diuresis",
+          "hepatic insufficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Electrolyte balance: maintain Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L.",
+          "NOC: Renal function: creatinine ≤ 1.2 mg/dL in 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes every 6 hours.",
+            "rationale": "Detects early changes and guides therapy."
+          },
+          {
+            "action": "Administer saline or lactated Ringer’s solution as prescribed.",
+            "rationale": "Corrects sodium and volume deficits."
+          },
+          {
+            "action": "Monitor for hyperkalemia or hypokalemia (ECG, muscle weakness).",
+            "rationale": "Prevents cardiac complications."
+          },
+          {
+            "action": "Adjust octreotide dose if excessive diuresis is observed.",
+            "rationale": "Avoids excessive electrolyte loss."
+          },
+          {
+            "action": "Educate the patient on adequate fluid and potassium‑rich food intake as directed.",
+            "rationale": "Promotes maintenance of electrolyte balance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "portal-hypertension",
+    "esophageal-varices",
+    "cirrhosis",
+    "coagulopathy",
+    "gastric-ulcer"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-03",
+  "factcheck": {
+    "checked": "2026-11-03",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 2,
+      "not_found": 35,
+      "contradicted": 1,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Pale skin, tachycardia, and hypotension may indicate significant blood loss.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Patients often experience signs and symptoms of preeclampsia, such as epigastric pain, headache, and vision changes, but the patient may not necessarily develop hypertension or proteinuria (Alese et al., 2021).",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "contradicted",
+        "quote": "Lower the head of the bed to < 30 degrees.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

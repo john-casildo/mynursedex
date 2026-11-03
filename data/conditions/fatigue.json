@@ -1,0 +1,503 @@
+{
+  "id": "fatigue",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Fatiga",
+    "aliases": [
+      "cansancio",
+      "agotamiento",
+      "falta de energía",
+      "sensación de cansancio",
+      "fatiga crónica",
+      "fatiga"
+    ],
+    "summary": "Sensación de cansancio, agotamiento o falta de energía que interfiere con las actividades diarias. Puede ser fisiológica o señal de enfermedad subyacente.",
+    "key_points": [
+      "Es un síntoma, no una enfermedad; siempre buscar causa subyacente.",
+      "Factores comunes: enfermedades crónicas, anemia, trastornos del sueño, depresión y tratamientos oncológicos.",
+      "Evaluar nivel de energía, patrón de sueño y signos de comorbilidades.",
+      "El manejo incluye descanso, higiene del sueño, nutrición adecuada y tratamiento de la causa.",
+      "Complicaciones: disminución de la movilidad, riesgo de caídas y deterioro psicológico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución de la producción de ATP en células por enfermedad o desnutrición.",
+        "Elevación de citocinas inflamatorias (IL‑1, TNF‑α) que alteran el centro de vigilia.",
+        "Alteraciones hormonales (tiroides, cortisol) que reducen la energía disponible."
+      ],
+      "risk_factors": [
+        "Enfermedades crónicas: diabetes, EPOC, insuficiencia cardíaca, enfermedad renal.",
+        "Anemia, hipotiroidismo, trastornos del sueño (apnea).",
+        "Depresión, ansiedad y estrés prolongado.",
+        "Quimioterapia, radioterapia y otros tratamientos oncológicos."
+      ],
+      "signs_symptoms": [
+        "Sensación persistente de cansancio o agotamiento.",
+        "Disminución de la tolerancia a la actividad física.",
+        "Dificultad para concentrarse y motivación reducida.",
+        "Sueño no reparador o somnolencia diurna."
+      ],
+      "diagnostics": [
+        "Hemograma completo: buscar anemia (Hb <12 g/dL en mujeres, <13 g/dL en hombres).",
+        "TSH y T4 libre para descartar hipotiroidismo.",
+        "Glucosa en ayunas: detectar hipoglucemia o diabetes.",
+        "Perfil de electrolitos (Na, K, Ca) y función renal (creatinina).",
+        "Escala de fatiga (por ejemplo, escala de Borg o Fatigue Severity Scale)."
+      ],
+      "treatment": [
+        "Tratar la causa subyacente (ej. suplementación de hierro, terapia tiroidea).",
+        "Promover higiene del sueño: horarios regulares, ambiente oscuro y sin pantallas.",
+        "Plan de actividad gradual: ejercicio aeróbico leve 2‑3 veces/semana.",
+        "Nutrición balanceada con suficiente calorías y proteínas.",
+        "Apoyo psicológico o terapia cognitivo‑conductual si hay depresión o ansiedad."
+      ],
+      "complications": [
+        "Reducción de la capacidad funcional y dependencia en ADL.",
+        "Mayor riesgo de caídas y lesiones por falta de energía.",
+        "Empeoramiento de enfermedades crónicas por inactividad.",
+        "Aislamiento social y deterioro de salud mental."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de energía, patrón de sueño y signos de comorbilidades.",
+        "Monitorear signos vitales y nivel de actividad; registrar cambios.",
+        "Planificar períodos de descanso y actividades de bajo esfuerzo.",
+        "Fomentar hidratación y alimentación adecuada.",
+        "Coordinar con fisioterapia para programa de ejercicio progresivo."
+      ],
+      "patient_teaching": [
+        "Establecer horarios de sueño consistentes y ambiente propicio.",
+        "Dividir tareas diarias en bloques con descansos breves.",
+        "Mantener una dieta rica en hierro, vitaminas B y proteínas.",
+        "Realizar actividad física ligera (caminar 10‑15 min) diariamente.",
+        "Buscar ayuda médica si la fatiga persiste >4 semanas o empeora."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "Enfermedad crónica",
+          "Anemia",
+          "Trastorno del sueño",
+          "Depresión"
+        ],
+        "evidenced_by": [
+          "Sensación de cansancio constante",
+          "Disminución de la tolerancia a la actividad",
+          "Sueño no reparador"
+        ],
+        "outcomes": [
+          "Nivel de energía: aumento a ≥4/10 en escala de 0‑10 dentro de 2 semanas",
+          "Capacidad para realizar ADL sin agotamiento: ≥80 % de las veces en 1 mes"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y patrones de sueño usando escala estandarizada.",
+            "rationale": "Permite cuantificar la fatiga y monitorear la respuesta al tratamiento."
+          },
+          {
+            "action": "Planificar descansos programados cada 60‑90 min durante actividades prolongadas.",
+            "rationale": "Reduce la sobrecarga física y previene el agotamiento."
+          },
+          {
+            "action": "Educar al paciente sobre higiene del sueño y crear rutina nocturna.",
+            "rationale": "Mejora la calidad del sueño, disminuyendo la fatiga diurna."
+          },
+          {
+            "action": "Coordinar con nutricionista para asegurar ingesta adecuada de hierro y vitaminas.",
+            "rationale": "Corrige deficiencias que pueden contribuir a la fatiga."
+          },
+          {
+            "action": "Fomentar actividad física ligera (caminar 10‑15 min) y registrar tolerancia.",
+            "rationale": "El ejercicio gradual aumenta la resistencia y reduce la sensación de cansancio."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Fatiga",
+          "Debilidad muscular",
+          "Enfermedad pulmonar crónica"
+        ],
+        "evidenced_by": [
+          "Disminución de la tolerancia al ejercicio",
+          "Aumento de la frecuencia cardíaca con esfuerzo leve"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: completar 30 min de caminata ligera sin síntomas adversos en 3 semanas",
+          "Frecuencia cardíaca post‑ejercicio: <100 lat/min después de actividad moderada en 2 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar evaluación de capacidad funcional (prueba de 6 min de caminata).",
+            "rationale": "Establece línea base y guía la progresión del ejercicio."
+          },
+          {
+            "action": "Diseñar programa de ejercicio gradual con incrementos de 5 min cada 2 días.",
+            "rationale": "Mejora la resistencia sin provocar sobrecarga."
+          },
+          {
+            "action": "Monitorear signos vitales antes, durante y después de la actividad.",
+            "rationale": "Detecta intolerancia temprana y previene complicaciones."
+          },
+          {
+            "action": "Enseñar técnicas de pacing (alternar actividad y reposo).",
+            "rationale": "Ayuda al paciente a conservar energía y evitar agotamiento."
+          },
+          {
+            "action": "Reforzar hidratación adecuada antes y después del ejercicio.",
+            "rationale": "Previene deshidratación que puede empeorar la intolerancia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fatigue",
+    "aliases": [
+      "tiredness",
+      "exhaustion",
+      "lack of energy",
+      "feeling of fatigue",
+      "chronic fatigue",
+      "fatigue"
+    ],
+    "summary": "Feeling of tiredness, exhaustion, or lack of energy that interferes with daily activities. It can be physiological or a sign of an underlying disease.",
+    "key_points": [
+      "It is a symptom, not a disease; always look for an underlying cause.",
+      "Common factors: chronic diseases, anemia, sleep disorders, depression, and oncology treatments.",
+      "Assess energy level, sleep pattern, and signs of comorbidities.",
+      "Management includes rest, sleep hygiene, adequate nutrition, and treatment of the cause.",
+      "Complications: decreased mobility, fall risk, and psychological decline."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced ATP production in cells due to disease or malnutrition.",
+        "Elevated inflammatory cytokines (IL‑1, TNF‑α) that alter the wakefulness center.",
+        "Hormonal changes (thyroid, cortisol) that reduce available energy."
+      ],
+      "risk_factors": [
+        "Chronic diseases: diabetes, COPD, heart failure, kidney disease.",
+        "Anemia, hypothyroidism, sleep disorders (apnea).",
+        "Depression, anxiety, and prolonged stress.",
+        "Chemotherapy, radiotherapy, and other oncology treatments."
+      ],
+      "signs_symptoms": [
+        "Persistent feeling of tiredness or exhaustion.",
+        "Reduced tolerance to physical activity.",
+        "Difficulty concentrating and reduced motivation.",
+        "Non‑restorative sleep or daytime sleepiness."
+      ],
+      "diagnostics": [
+        "Complete blood count: look for anemia (Hb <12 g/dL in women, <13 g/dL in men).",
+        "TSH and free T4 to rule out hypothyroidism.",
+        "Fasting glucose: detect hypoglycemia or diabetes.",
+        "Electrolyte panel (Na, K, Ca) and renal function (creatinine).",
+        "Fatigue scale (e.g., Borg scale or Fatigue Severity Scale)."
+      ],
+      "treatment": [
+        "Treat the underlying cause (e.g., iron supplementation, thyroid therapy).",
+        "Promote sleep hygiene: regular schedules, dark environment, no screens.",
+        "Gradual activity plan: light aerobic exercise 2‑3 times/week.",
+        "Balanced nutrition with adequate calories and protein.",
+        "Psychological support or cognitive‑behavioral therapy if depression or anxiety is present."
+      ],
+      "complications": [
+        "Reduced functional capacity and dependence in ADLs.",
+        "Increased risk of falls and injuries due to lack of energy.",
+        "Worsening of chronic diseases due to inactivity.",
+        "Social isolation and mental health decline."
+      ],
+      "nursing_care": [
+        "Assess energy level, sleep pattern, and signs of comorbidities.",
+        "Monitor vital signs and activity level; record changes.",
+        "Plan rest periods and low‑effort activities.",
+        "Encourage hydration and adequate nutrition.",
+        "Coordinate with physical therapy for progressive exercise program."
+      ],
+      "patient_teaching": [
+        "Establish consistent sleep schedules and a conducive environment.",
+        "Divide daily tasks into blocks with brief breaks.",
+        "Maintain a diet rich in iron, B vitamins, and protein.",
+        "Engage in light physical activity (walk 10‑15 min) daily.",
+        "Seek medical help if fatigue persists >4 weeks or worsens."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "Chronic disease",
+          "Anemia",
+          "Sleep disorder",
+          "Depression"
+        ],
+        "evidenced_by": [
+          "Constant feeling of tiredness",
+          "Reduced tolerance to activity",
+          "Non‑restorative sleep"
+        ],
+        "outcomes": [
+          "Energy level: increase to ≥4/10 on 0‑10 scale within 2 weeks",
+          "Ability to perform ADLs without exhaustion: ≥80 % of the time in 1 month"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and sleep patterns using a standardized scale.",
+            "rationale": "Allows quantification of fatigue and monitoring of treatment response."
+          },
+          {
+            "action": "Plan scheduled rest breaks every 60‑90 min during prolonged activities.",
+            "rationale": "Reduces physical overload and prevents exhaustion."
+          },
+          {
+            "action": "Educate the patient on sleep hygiene and create a nighttime routine.",
+            "rationale": "Improves sleep quality, reducing daytime fatigue."
+          },
+          {
+            "action": "Coordinate with a dietitian to ensure adequate iron and vitamin intake.",
+            "rationale": "Corrects deficiencies that may contribute to fatigue."
+          },
+          {
+            "action": "Encourage light physical activity (walk 10‑15 min) and record tolerance.",
+            "rationale": "Gradual exercise increases endurance and reduces the feeling of tiredness."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Fatigue",
+          "Muscle weakness",
+          "Chronic pulmonary disease"
+        ],
+        "evidenced_by": [
+          "Reduced tolerance to exercise",
+          "Increased heart rate with mild exertion"
+        ],
+        "outcomes": [
+          "Activity tolerance: complete 30 min of light walking without adverse symptoms in 3 weeks",
+          "Post‑exercise heart rate: <100 bpm after moderate activity in 2 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Perform functional capacity assessment (6‑minute walk test).",
+            "rationale": "Establishes baseline and guides exercise progression."
+          },
+          {
+            "action": "Design a gradual exercise program with 5‑minute increments every 2 days.",
+            "rationale": "Improves endurance without causing overload."
+          },
+          {
+            "action": "Monitor vital signs before, during, and after activity.",
+            "rationale": "Detects early intolerance and prevents complications."
+          },
+          {
+            "action": "Teach pacing techniques (alternating activity and rest).",
+            "rationale": "Helps the patient conserve energy and avoid exhaustion."
+          },
+          {
+            "action": "Reinforce adequate hydration before and after exercise.",
+            "rationale": "Prevents dehydration that can worsen intolerance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "anemia",
+    "sleep-apnea",
+    "depression"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Fatiga",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/fatigue.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Viral and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-2-viral-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Assessing Mobility",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/9-2-assessing-mobility",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-03",
+  "factcheck": {
+    "checked": "2026-11-03",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "This can cause complications such as decreased stability and balance , muscle atrophy, joint contractures, foot drop, and increased risk for falls.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Limited mobility can also cause anxiety, stress-related alienation from family and friends, emotional dysfunction, and a poor sense of belonging (Gyasi et al., 2023).",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Congenital heart defects Low tolerance for activity Increased fatigue Muscular dystrophy Muscle weakness Possible defo",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Immobility can also decrease flexibility, making movements more difficult and increasing the risk of falls and injuries.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "This could negatively affect mood and increase the patient’s risk for depression.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "To evaluate outcomes, the nurse will assess the patient’s overall health status, monitor vital signs and laboratory values, and observe the patient’s understanding of and compliance with their care plan.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "For patients with hepatitis B and C infections, some actions the nurse might take include administering prescribed antiviral medications alternating rest and activity periods to improve fatigue educating patients and families about hepatitis, including transmission routes, symptom management, and the importance of maintaining medication regimen and follow-up schedule, as well as vaccination education encouraging fluids to prevent dehydration prov",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Per the CDC (2023), common nursing interventions for patients with HIV include alternating rest and activity periods for patients with severe fatigue checking laboratory values to monitor the progression of the disease and the effectiveness of treatment maintaining adequate nutritional status (e.g., offering high-calorie foods, administering enteral",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

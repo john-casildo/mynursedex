@@ -1,0 +1,488 @@
+{
+  "id": "hypersensitivity-reaction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Reacción de hipersensibilidad (alérgica)",
+    "aliases": [
+      "hipersensibilidad",
+      "alergia",
+      "reacción alérgica",
+      "anafilaxia"
+    ],
+    "summary": "Respuesta exagerada del sistema inmunitario a un alérgeno que produce síntomas que van desde leves hasta anafilaxia potencialmente mortal.",
+    "key_points": [
+      "Involucra IgE y mastocitos liberando histamina y mediadores inflamatorios.",
+      "Los síntomas dependen del tipo (cutáneo, respiratorio, gastrointestinal, sistémico).",
+      "Diagnóstico se basa en historia, pruebas cutáneas o de IgE sérica.",
+      "El tratamiento inmediato de anafilaxia es epinefrina IM y soporte vital.",
+      "Prevención incluye evitar alérgenos y premedicación en transfusiones."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Alérgeno se une a IgE específica en la superficie de mastocitos y basófilos.",
+        "Cross‑linking de IgE provoca degranulación y liberación de histamina, leucotrienos y prostaglandinas.",
+        "Mediadores causan vasodilatación, aumento de permeabilidad capilar y broncoconstricción.",
+        "En anafilaxia, la liberación masiva lleva a choque distributivo y edema de vías aéreas."
+      ],
+      "risk_factors": [
+        "Antecedentes personales de alergia o asma.",
+        "Exposición repetida a alérgenos comunes (pólenes, alimentos, medicamentos).",
+        "Historia de reacciones previas a transfusiones o vacunas.",
+        "Enfermedades atópicas familiares."
+      ],
+      "signs_symptoms": [
+        "Urticaria, prurito y angioedema cutáneo.",
+        "Estornudos, rinorrea, congestión nasal.",
+        "Sibilancias, disnea y tos.",
+        "Síntomas sistémicos: hipotensión, taquicardia, mareos, náuseas.",
+        "Anafilaxia: dificultad respiratoria severa, choque, pérdida de conciencia."
+      ],
+      "diagnostics": [
+        "Prueba cutánea de prick o intradérmica para identificar alérgeno.",
+        "IgE específica sérica (U/mL) – valores elevados según laboratorio.",
+        "Tryptasa sérica (ng/mL) aumentada en anafilaxia aguda.",
+        "Hemograma: eosinofilia puede estar presente."
+      ],
+      "treatment": [
+        "Epinefrina 0.01 mg/kg IM (máx 0.5 mg) para anafilaxia.",
+        "Antihistamínicos H1 (cetirizina, difenhidramina) para síntomas cutáneos.",
+        "Corticoides sistémicos (prednisona) para prevenir reacción tardía.",
+        "Broncodilatadores (salbutamol) en broncoespasmo.",
+        "Oxígeno suplementario y soporte de vía aérea si es necesario."
+      ],
+      "complications": [
+        "Shock anafiláctico con insuficiencia circulatoria.",
+        "Edema de vías aéreas que puede requerir intubación.",
+        "Daño renal por hipotensión prolongada.",
+        "Reacción tardía (urticaria, artralgia) 4‑24 h después."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 5‑15 min durante la fase aguda.",
+        "Monitorear vía aérea, oxigenación (SpO₂) y nivel de conciencia.",
+        "Administrar epinefrina según orden y registrar tiempo de aplicación.",
+        "Mantener acceso venoso de calibre amplio y preparar fluidos cristaloides.",
+        "Documentar alérgeno sospechoso y notificar al equipo de salud."
+      ],
+      "patient_teaching": [
+        "Enseñar uso del autoinyector de epinefrina y cuándo administrarlo.",
+        "Identificar y evitar alérgenos desencadenantes.",
+        "Importancia de llevar pulsera de alerta alérgica.",
+        "Buscar atención médica inmediata si aparecen síntomas de anafilaxia.",
+        "Revisar la necesidad de inmunoterapia o vacunas de desensibilización."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hipotensión por vasodilatación",
+          "edema capilar",
+          "pérdida de plasma en anafilaxia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h.",
+          "NOC: Perfusión tisular: presión arterial sistólica ≥100 mmHg en 2 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial, frecuencia cardíaca y diuresis cada 15 min.",
+            "rationale": "Detectar rápidamente signos de hipovolemia y guiar reposición de líquidos."
+          },
+          {
+            "action": "Administrar fluidos cristaloides IV según orden médica.",
+            "rationale": "Restaurar el volumen intravascular y prevenir shock."
+          },
+          {
+            "action": "Evaluar signos de edema y turgencia de la piel.",
+            "rationale": "Identificar fuga capilar y ajustar la terapia de fluidos."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos en hoja de observación.",
+            "rationale": "Facilitar el cálculo del balance hídrico y la toma de decisiones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "angioedema de vías aéreas",
+          "hipotensión súbita",
+          "caídas por mareo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Seguridad del paciente: sin eventos de caída ni lesión durante la hospitalización.",
+          "NOC: Integridad de la piel: ausencia de úlceras por presión en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en posición semisentado o de Trendelenburg según tolerancia.",
+            "rationale": "Optimizar la perfusión cerebral y reducir riesgo de caída."
+          },
+          {
+            "action": "Mantener el entorno libre de obstáculos y usar barandillas de cama.",
+            "rationale": "Prevenir caídas mientras el paciente está inestable hemodinámicamente."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y capacidad de respuesta cada 5 min.",
+            "rationale": "Detectar deterioro neurológico que aumente el riesgo de lesión."
+          },
+          {
+            "action": "Aplicar medidas de protección de la piel si hay edema facial o de extremidades.",
+            "rationale": "Evitar daño cutáneo por estiramiento y fricción."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Allergic hypersensitivity reaction",
+    "aliases": [
+      "hypersensitivity",
+      "allergy",
+      "allergic reaction",
+      "anaphylaxis"
+    ],
+    "summary": "An exaggerated immune response to an allergen producing symptoms ranging from mild to potentially fatal anaphylaxis.",
+    "key_points": [
+      "Involves IgE and mast cells releasing histamine and inflammatory mediators.",
+      "Symptoms depend on type (cutaneous, respiratory, gastrointestinal, systemic).",
+      "Diagnosis is based on history, skin tests or serum IgE.",
+      "Immediate treatment of anaphylaxis is IM epinephrine and life support.",
+      "Prevention includes avoiding allergens and premedication for transfusions."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Allergen binds specific IgE on mast cells and basophils.",
+        "Cross‑linking of IgE triggers degranulation and release of histamine, leukotrienes and prostaglandins.",
+        "Mediators cause vasodilation, increased capillary permeability and bronchoconstriction.",
+        "In anaphylaxis, massive release leads to distributive shock and airway edema."
+      ],
+      "risk_factors": [
+        "Personal history of allergy or asthma.",
+        "Repeated exposure to common allergens (pollens, foods, medications).",
+        "History of prior transfusion or vaccine reactions.",
+        "Family history of atopic disease."
+      ],
+      "signs_symptoms": [
+        "Urticaria, pruritus and cutaneous angioedema.",
+        "Sneezing, rhinorrhea, nasal congestion.",
+        "Wheezing, dyspnea and cough.",
+        "Systemic symptoms: hypotension, tachycardia, dizziness, nausea.",
+        "Anaphylaxis: severe respiratory distress, shock, loss of consciousness."
+      ],
+      "diagnostics": [
+        "Prick or intradermal skin test to identify allergen.",
+        "Serum specific IgE (U/mL) – elevated values per laboratory.”,”Serum tryptase (ng/mL) increased in acute anaphylaxis.",
+        "Complete blood count: eosinophilia may be present."
+      ],
+      "treatment": [
+        "Epinephrine 0.01 mg/kg IM (max 0.5 mg) for anaphylaxis.",
+        "H1 antihistamines (cetirizine, diphenhydramine) for cutaneous symptoms.",
+        "Systemic corticosteroids (prednisone) to prevent late reaction.",
+        "Bronchodilators (salbutamol) for bronchospasm.",
+        "Supplemental oxygen and airway support if needed."
+      ],
+      "complications": [
+        "Anaphylactic shock with circulatory failure.",
+        "Airway edema that may require intubation.",
+        "Renal injury from prolonged hypotension.",
+        "Late reaction (urticaria, arthralgia) 4‑24 h later."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 5‑15 min during acute phase.",
+        "Monitor airway, oxygenation (SpO₂) and level of consciousness.",
+        "Administer epinephrine per order and record time of administration.",
+        "Maintain large‑caliber IV access and prepare crystalloid fluids.",
+        "Document suspected allergen and notify health team."
+      ],
+      "patient_teaching": [
+        "Teach use of epinephrine auto‑injector and when to use it.",
+        "Identify and avoid trigger allergens.",
+        "Importance of wearing an allergy alert bracelet.",
+        "Seek immediate medical care if anaphylaxis symptoms appear.",
+        "Review need for immunotherapy or desensitization vaccines."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "hypotension from vasodilation",
+          "capillary edema",
+          "plasma loss in anaphylaxis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Fluid balance: maintain intake and output within ±500 mL/24 h.",
+          "NOC: Tissue perfusion: systolic blood pressure ≥100 mmHg within 2 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure, heart rate and urine output every 15 min.",
+            "rationale": "Detect early signs of hypovolemia and guide fluid replacement."
+          },
+          {
+            "action": "Administer crystalloid IV fluids per medical order.",
+            "rationale": "Restore intravascular volume and prevent shock."
+          },
+          {
+            "action": "Assess for edema and skin turgor.",
+            "rationale": "Identify capillary leak and adjust fluid therapy."
+          },
+          {
+            "action": "Record intake and output on observation sheet.",
+            "rationale": "Facilitate fluid balance calculation and decision making."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "airway angioedema",
+          "sudden hypotension",
+          "falls from dizziness"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Patient safety: no falls or injuries during hospitalization.",
+          "NOC: Skin integrity: no pressure ulcers within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Position patient semi‑upright or Trendelenburg as tolerated.",
+            "rationale": "Optimize cerebral perfusion and reduce fall risk."
+          },
+          {
+            "action": "Keep environment free of obstacles and use bed rails.",
+            "rationale": "Prevent falls while patient is hemodynamically unstable."
+          },
+          {
+            "action": "Assess level of consciousness and responsiveness every 5 min.",
+            "rationale": "Detect neurological decline that increases injury risk."
+          },
+          {
+            "action": "Apply skin protection measures if facial or limb edema is present.",
+            "rationale": "Prevent cutaneous damage from stretching and friction."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "allergy",
+    "anaphylaxis",
+    "ige-mediated-hypersensitivity",
+    "immune-response"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Allergy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/allergy.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Allergic Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-1-allergic-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Blood Transfusions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/13-4-blood-transfusions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-03",
+  "factcheck": {
+    "checked": "2026-11-03",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 22,
+      "contradicted": 1,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "These physiologic events that result from immediate hypersensitivity may range from mild to life-threatening symptoms.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Skin test results should be combined with patient history, physical findings, and other lab tests like serum IgE, CBC with differential, and an eosinophil count in order for the physician to make a proper diagnosis.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "If the sensitized individual is re-exposed to the same allergen, the allergen binds to the IgE antibodies on the surface of mast cells or basophils.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "This chemical mediator causes bronchoconstriction, increased vascular permeability, and vasodilation.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Common allergic responses are to seasonal allergens like various trees, ragweed, or pollens; medications; perennial allergens like dust or molds; latex ; animal dander; foods; household chemicals; fragrances; and insect stings or bites, as shown in Figure 24.2 .",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Indications for premedication may include patients with a history of an allergic reaction to blood transfusions, multiple transfusions, chronic illnesses, anxiety, febrile reaction s, or autoimmune disorders.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "perform scratch or prick tests before other methods in order to limit the risk of a systemic reaction.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Eosinophils are elevated in an allergic response and may be tested from either blood samples or smears of nasal secretions.",
+        "source": 1
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine as ordered, and activating a rapid response in the event of anaphylaxis.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "contradicted",
+        "quote": "Obtain and document vital signs every hour for the duration of the transfusion.",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine as ordered, and activating a rapid response in the event of anaphylaxis.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "If you suspect a reaction, immediately stop the transfusion, and notify the provider.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Patients with allergies to insect stings or various food may also be prescribed an Epi-Pen ( Figure 24.1 ) to keep with them in the event of an exposure to an allergen.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Treatments include medicines, allergy shots, and avoiding the substances that cause the reactions.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Some patients may be recommended to wear a medical alert bracelet to notify others of their allergies in the event of an emergency such as an extreme allergic reaction to peanuts, bee stings, or other allergens.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
