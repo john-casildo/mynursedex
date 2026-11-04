@@ -1,0 +1,389 @@
+{
+  "id": "toxic-megacolon",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Megacolon tóxico",
+    "aliases": [
+      "megacolon toxico",
+      "megacolon tóxico",
+      "megacolon",
+      "colitis ulcerosa",
+      "megacolon ulcerosa"
+    ],
+    "summary": "Distensión colónica severa asociada a colitis inflamatoria que puede llevar a perforación y shock.",
+    "key_points": [
+      "Dilata la colon >6 cm y presenta toxicidad sistémica.",
+      "Frecuente complicación de colitis ulcerosa y enfermedad de Crohn.",
+      "Requiere descompresión y antibióticos intravenosos.",
+      "Mortalidad alta si no se trata rápidamente."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Inflamación profunda daña la musculatura colónica.",
+        "Pérdida de tono muscular produce dilatación excesiva.",
+        "Acumulación de gases y líquido aumenta la presión intraluminal.",
+        "Compromiso de la perfusión colónica → necrosis y perforación."
+      ],
+      "risk_factors": [
+        "Colitis ulcerosa activa o enfermedad de Crohn.",
+        "Infecciones por C. difficile.",
+        "Uso de anticolinérgicos o opioides que reducen motilidad.",
+        "Hipovolemia y sepsis previa."
+      ],
+      "signs_symptoms": [
+        "Distensión abdominal marcada, dolor difuso.",
+        "Fiebre >38 °C, taquicardia >100 lpm.",
+        "Hipotensión ortostática, confusión.",
+        "Estreñimiento o diarrea con sangre."
+      ],
+      "diagnostics": [
+        "Radiografía abdominal: colon >6 cm, pared engrosada.",
+        "TC abdomen: descarta perforación, muestra megacolon.",
+        "Laboratorio: leucocitosis >12 000 /µL, lactato >2 mmol/L.",
+        "Electrolitos: hipopotasemia o hiponatremia frecuente."
+      ],
+      "treatment": [
+        "Reposo intestinal, NPO y descompresión con tubo nasogástrico.",
+        "Antibióticos de amplio espectro (p. ej., ciprofloxacino).",
+        "Corticosteroides IV para controlar inflamación.",
+        "Fluidos IV isotónicos, corrección de electrolitos.",
+        "Cirugía de colectomía de rescate si no mejora en 24‑48 h."
+      ],
+      "complications": [
+        "Perforación colónica → peritonitis.",
+        "Sepsis y shock hipovolémico.",
+        "Insuficiencia renal aguda por hipoperfusión.",
+        "Desequilibrio electrolítico grave."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 15‑30 min (TA, FC, temperatura).",
+        "Evaluar abdomen: distensión, dolor, presencia de ruidos.",
+        "Registrar ingesta y salida; mantener balance hídrico estricto.",
+        "Administrar antibióticos y corticoides según orden.",
+        "Preparar al paciente para posible cirugía de urgencia."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de ayuno y descompresión.",
+        "Enseñar signos de alarma: aumento del dolor, fiebre, vómitos.",
+        "Instruir sobre la importancia de la hidratación oral post‑alta.",
+        "Educar sobre el seguimiento de colonoscopia y medicación antiinflamatoria."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por diarrea",
+          "vómitos",
+          "sepsis",
+          "uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L al alta",
+          "Ausencia de arritmias relacionadas a desequilibrios iónicos"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel metabólico básico cada 12 h.",
+            "rationale": "Detectar rápidamente alteraciones de Na, K, Cl y bicarbonato."
+          },
+          {
+            "action": "Administrar suplementos de potasio o sodio según orden.",
+            "rationale": "Corregir hipopotasemia o hiponatremia y prevenir complicaciones."
+          },
+          {
+            "action": "Evaluar estado neuromuscular: debilidad, calambres.",
+            "rationale": "Los cambios electrolíticos pueden manifestarse como alteraciones neuromusculares."
+          },
+          {
+            "action": "Mantener registro de diarrea y vómitos, cuantificando pérdidas.",
+            "rationale": "Cuantificar pérdidas ayuda a estimar reposición necesaria."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación con soluciones electrolíticas.",
+            "rationale": "Previene futuros desequilibrios después del alta."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Toxic megacolon",
+    "aliases": [
+      "toxic megacolon",
+      "megacolon",
+      "ulcerative colitis",
+      "ulcerative megacolon"
+    ],
+    "summary": "Severe colonic distension associated with inflammatory bowel disease that can lead to perforation and shock.",
+    "key_points": [
+      "Colon dilates >6 cm and exhibits systemic toxicity.",
+      "Common complication of ulcerative colitis and Crohn's disease.",
+      "Requires decompression and intravenous antibiotics.",
+      "High mortality if not treated promptly."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Deep inflammation damages colonic muscle.",
+        "Loss of muscle tone causes excessive dilation.",
+        "Accumulation of gas and fluid increases intraluminal pressure.",
+        "Compromised colonic perfusion leads to necrosis and perforation."
+      ],
+      "risk_factors": [
+        "Active ulcerative colitis or Crohn's disease.",
+        "Clostridioides difficile infection.",
+        "Use of anticholinergics or opioids that reduce motility.",
+        "Hypovolemia and prior sepsis."
+      ],
+      "signs_symptoms": [
+        "Marked abdominal distension, diffuse pain.",
+        "Fever >38 °C, tachycardia >100 bpm.",
+        "Orthostatic hypotension, confusion.",
+        "Constipation or bloody diarrhea."
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: colon >6 cm, thickened wall.",
+        "Abdominal CT: rules out perforation, shows megacolon.",
+        "Lab: leukocytosis >12,000/µL, lactate >2 mmol/L.",
+        "Electrolytes: hypokalemia or hyponatremia common."
+      ],
+      "treatment": [
+        "NPO and decompression with nasogastric tube.",
+        "Broad‑spectrum antibiotics (e.g., ciprofloxacin).",
+        "IV corticosteroids to control inflammation.",
+        "Isotonic IV fluids, electrolyte correction.",
+        "Rescue colectomy if no improvement in 24‑48 h."
+      ],
+      "complications": [
+        "Colonic perforation → peritonitis.",
+        "Sepsis and hypovolemic shock.",
+        "Acute renal failure from hypoperfusion.",
+        "Severe electrolyte imbalance."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 min (BP, HR, temperature).",
+        "Assess abdomen: distension, pain, presence of bowel sounds.",
+        "Record intake and output; maintain strict fluid balance.",
+        "Administer antibiotics and steroids as ordered.",
+        "Prepare patient for possible emergency surgery."
+      ],
+      "patient_teaching": [
+        "Explain the need for fasting and decompression.",
+        "Teach warning signs: increased pain, fever, vomiting.",
+        "Instruct on importance of oral hydration after discharge.",
+        "Educate about follow‑up colonoscopy and anti‑inflammatory medication."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "fluid loss from diarrhea",
+          "vomiting",
+          "sepsis",
+          "diuretic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L at discharge",
+          "No arrhythmias related to ionic imbalances"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain basic metabolic panel every 12 h.",
+            "rationale": "Rapidly detect changes in Na, K, Cl, and bicarbonate."
+          },
+          {
+            "action": "Administer potassium or sodium supplements as ordered.",
+            "rationale": "Correct hypokalemia or hyponatremia and prevent complications."
+          },
+          {
+            "action": "Assess neuromuscular status: weakness, cramps.",
+            "rationale": "Electrolyte changes may present as neuromuscular alterations."
+          },
+          {
+            "action": "Maintain record of diarrhea and vomiting, quantifying losses.",
+            "rationale": "Quantifying losses helps estimate required replacement."
+          },
+          {
+            "action": "Educate patient on importance of hydration with electrolyte solutions.",
+            "rationale": "Prevents future imbalances after discharge."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ulcerative-colitis",
+    "colon-perforation",
+    "sepsis",
+    "hypovolemia",
+    "intestinal-obstruction"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Colonic Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/colonicdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Safety: Individual and Environmental",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/9-1-safety-individual-and-environmental",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Barrier Methods of Contraception",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/5-3-barrier-methods-of-contraception",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-04",
+  "factcheck": {
+    "checked": "2026-11-04",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 38,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Ulcerative colitis - ulcers of the colon and rectum",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

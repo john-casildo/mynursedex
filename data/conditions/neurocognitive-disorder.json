@@ -1,0 +1,542 @@
+{
+  "id": "neurocognitive-disorder",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Demencia",
+    "aliases": [
+      "demencia",
+      "deterioro cognitivo",
+      "pérdida de memoria",
+      "enfermedad de alzheimer",
+      "cognición"
+    ],
+    "summary": "La demencia es un trastorno neurocognitivo progresivo que afecta la memoria, el lenguaje y la capacidad de razonamiento, interfiriendo con la vida diaria.",
+    "key_points": [
+      "Pérdida progresiva de memoria y funciones ejecutivas.",
+      "Principalmente enfermedad de Alzheimer, pero incluye demencia vascular y con cuerpos de Lewy.",
+      "Diagnóstico basado en pruebas cognitivas y neuroimagen.",
+      "Tratamiento farmacológico sintomático y medidas no farmacológicas.",
+      "Prevención de complicaciones como caídas y úlceras por presión."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Acumulación de placas de beta‑amiloide y ovillos neurofibrilares de tau.",
+        "Pérdida sináptica y muerte neuronal en corteza y hipocampo.",
+        "Disminución de acetilcolina y otros neurotransmisores.",
+        "Reducción del metabolismo cerebral detectable en PET."
+      ],
+      "risk_factors": [
+        "Edad avanzada (≥65 años).",
+        "Antecedentes familiares y alelos APOE ε4.",
+        "Hipertensión, diabetes mellitus y dislipidemia.",
+        "Tabaquismo y bajo nivel educativo.",
+        "Historia de traumatismo craneoencefálico."
+      ],
+      "signs_symptoms": [
+        "Pérdida de memoria reciente y dificultad para recordar eventos.",
+        "Desorientación temporal y espacial.",
+        "Problemas de lenguaje (anomia, discurso incoherente).",
+        "Alteraciones del juicio y cambios de personalidad.",
+        "Dificultad para realizar actividades de la vida diaria."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico completo.",
+        "Mini-Mental State Examination (MMSE) <24 o MoCA <26.",
+        "Resonancia magnética: atrofia cortical y ventricular.",
+        "Análisis de LCR para beta‑amiloide y proteína tau (cuando está disponible).",
+        "Exámenes de laboratorio para descartar causas reversibles (TSH, B12, electrolitos)."
+      ],
+      "treatment": [
+        "Inhibidores de la colinesterasa: donepezilo, rivastigmina.",
+        "Antagonista NMDA: memantina (en etapas moderadas‑avanzadas).",
+        "Control de comorbilidades: HTA, DM, dislipidemia.",
+        "Terapia ocupacional y estimulación cognitiva.",
+        "Apoyo psicosocial a paciente y familia.",
+        "Medidas no farmacológicas: ejercicio regular, rutina estructurada."
+      ],
+      "complications": [
+        "Deterioro funcional y dependencia total.",
+        "Caídas y fracturas.",
+        "Infecciones respiratorias (neumonía).",
+        "Úlceras por presión.",
+        "Depresión y ansiedad.",
+        "Abuso o negligencia."
+      ],
+      "nursing_care": [
+        "Evaluar nivel cognitivo diariamente con herramientas breves.",
+        "Monitorear seguridad: eliminar obstáculos, usar barandillas.",
+        "Promover actividades de autocuidado adaptadas al nivel funcional.",
+        "Registrar cambios en comportamiento y estado de ánimo.",
+        "Coordinar con equipo interdisciplinario para manejo de comorbilidades.",
+        "Apoyar al cuidador: educación y recursos de alivio."
+      ],
+      "patient_teaching": [
+        "Explicar la naturaleza progresiva de la demencia y la importancia de la adherencia al tratamiento.",
+        "Enseñar técnicas de memoria (listas, calendarios, notas adhesivas).",
+        "Recomendar ejercicio aeróbico y actividades cognitivas diarias.",
+        "Instruir sobre medidas de seguridad en el hogar (iluminación, suelos antideslizantes).",
+        "Fomentar una dieta balanceada rica en antioxidantes.",
+        "Orientar sobre recursos comunitarios y grupos de apoyo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Fatiga al realizar actividades de la vida diaria",
+          "Necesidad de descanso frecuente",
+          "Disminución de la tolerancia al ejercicio",
+          "Dificultad para completar tareas domésticas"
+        ],
+        "outcomes": [
+          "Mantener nivel de actividad tolerado sin aumento de fatiga",
+          "Participar en actividades de autocuidado al menos 30 min/día"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y capacidad funcional cada turno",
+            "rationale": "Permite ajustar actividades y prevenir agotamiento."
+          },
+          {
+            "action": "Planificar períodos de descanso programados",
+            "rationale": "Reduce la fatiga y mejora la participación en ADL."
+          },
+          {
+            "action": "Dividir tareas complejas en pasos más pequeños",
+            "rationale": "Facilita la ejecución y conserva energía."
+          },
+          {
+            "action": "Fomentar ejercicio aeróbico leve (caminar 10‑15 min) según tolerancia",
+            "rationale": "Mejora la resistencia física y cognitiva."
+          },
+          {
+            "action": "Educar al cuidador sobre signos de sobreesfuerzo",
+            "rationale": "Previene deterioro adicional y caídas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión por presión",
+        "type": "risk",
+        "related_to": [
+          "Inmovilidad por deterioro cognitivo",
+          "Desorientación y caídas",
+          "Desnutrición o deshidratación",
+          "Incontinencia urinaria"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin desarrollo de úlceras por presión durante la hospitalización",
+          "Mantener integridad cutánea intacta"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar valoración de la piel cada 8 horas, enfocando áreas óseas",
+            "rationale": "Detecta cambios tempranos y permite intervención precoz."
+          },
+          {
+            "action": "Reposicionar al paciente cada 2 horas o según tolerancia",
+            "rationale": "Alivia presión y mejora perfusión tisular."
+          },
+          {
+            "action": "Usar colchón antiescaras o almohadillas de gel",
+            "rationale": "Distribuye la presión y reduce riesgo de úlceras."
+          },
+          {
+            "action": "Mantener hidratación y nutrición adecuada (proteína ≥ 1.2 g/kg/día)",
+            "rationale": "Favorece la integridad cutánea y cicatrización."
+          },
+          {
+            "action": "Educar al cuidador sobre inspección diaria de la piel y signos de irritación",
+            "rationale": "Promueve detección temprana y prevención."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Dementia",
+    "aliases": [
+      "dementia",
+      "cognitive decline",
+      "memory loss",
+      "alzheimer's disease",
+      "cognition"
+    ],
+    "summary": "Dementia is a progressive neurocognitive disorder that affects memory, language, and reasoning ability, interfering with daily life.",
+    "key_points": [
+      "Progressive loss of memory and executive functions.",
+      "Primarily Alzheimer’s disease, but includes vascular dementia and Lewy body dementia.",
+      "Diagnosis based on cognitive testing and neuroimaging.",
+      "Symptomatic pharmacologic treatment and non-pharmacologic measures.",
+      "Prevention of complications such as falls and pressure ulcers."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Accumulation of beta‑amyloid plaques and tau neurofibrillary tangles.",
+        "Synaptic loss and neuronal death in cortex and hippocampus.",
+        "Decreased acetylcholine and other neurotransmitters.",
+        "Reduced cerebral metabolism detectable on PET."
+      ],
+      "risk_factors": [
+        "Advanced age (≥65 years).",
+        "Family history and APOE ε4 allele.",
+        "Hypertension, diabetes mellitus, and dyslipidemia.",
+        "Smoking and low educational level.",
+        "History of traumatic brain injury."
+      ],
+      "signs_symptoms": [
+        "Recent memory loss and difficulty recalling events.",
+        "Temporal and spatial disorientation.",
+        "Language problems (anomia, incoherent speech).",
+        "Judgment impairment and personality changes.",
+        "Difficulty performing activities of daily living."
+      ],
+      "diagnostics": [
+        "Comprehensive medical history and physical exam.",
+        "Mini-Mental State Examination (MMSE) <24 or MoCA <26.",
+        "MRI: cortical and ventricular atrophy.",
+        "CSF analysis for beta‑amyloid and tau protein (when available).",
+        "Laboratory tests to rule out reversible causes (TSH, B12, electrolytes)."
+      ],
+      "treatment": [
+        "Cholinesterase inhibitors: donepezil, rivastigmine.",
+        "NMDA antagonist: memantine (in moderate‑to‑advanced stages).",
+        "Control of comorbidities: hypertension, diabetes, dyslipidemia.",
+        "Occupational therapy and cognitive stimulation.",
+        "Psychosocial support for patient and family.",
+        "Non-pharmacologic measures: regular exercise, structured routine."
+      ],
+      "complications": [
+        "Functional decline and total dependence.",
+        "Falls and fractures.",
+        "Respiratory infections (pneumonia).",
+        "Pressure ulcers.",
+        "Depression and anxiety.",
+        "Abuse or neglect."
+      ],
+      "nursing_care": [
+        "Assess cognitive level daily with brief tools.",
+        "Monitor safety: remove obstacles, use railings.",
+        "Promote self‑care activities adapted to functional level.",
+        "Document changes in behavior and mood.",
+        "Coordinate with interdisciplinary team for comorbidity management.",
+        "Support the caregiver: education and respite resources."
+      ],
+      "patient_teaching": [
+        "Explain the progressive nature of dementia and importance of treatment adherence.",
+        "Teach memory techniques (lists, calendars, sticky notes).",
+        "Recommend aerobic exercise and daily cognitive activities.",
+        "Instruct on home safety measures (lighting, non‑slip flooring).",
+        "Encourage a balanced diet rich in antioxidants.",
+        "Guide on community resources and support groups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Fatigue during activities of daily living",
+          "Frequent need for rest",
+          "Reduced exercise tolerance",
+          "Difficulty completing household tasks"
+        ],
+        "outcomes": [
+          "Maintain tolerated activity level without increased fatigue",
+          "Participate in self‑care activities at least 30 min/day"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and functional capacity each shift",
+            "rationale": "Allows adjustment of activities and prevents exhaustion."
+          },
+          {
+            "action": "Plan scheduled rest periods",
+            "rationale": "Reduces fatigue and improves participation in ADL."
+          },
+          {
+            "action": "Break complex tasks into smaller steps",
+            "rationale": "Facilitates execution and conserves energy."
+          },
+          {
+            "action": "Encourage light aerobic exercise (walk 10‑15 min) as tolerated",
+            "rationale": "Improves physical and cognitive endurance."
+          },
+          {
+            "action": "Educate caregiver on signs of overexertion",
+            "rationale": "Prevents additional decline and falls."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for pressure injury",
+        "type": "risk",
+        "related_to": [
+          "Immobility due to cognitive decline",
+          "Disorientation and falls",
+          "Malnutrition or dehydration",
+          "Urinary incontinence"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No development of pressure ulcers during hospitalization",
+          "Maintain intact skin integrity"
+        ],
+        "interventions": [
+          {
+            "action": "Perform skin assessment every 8 hours, focusing on bony prominences",
+            "rationale": "Detects early changes and allows early intervention."
+          },
+          {
+            "action": "Reposition patient every 2 hours or as tolerated",
+            "rationale": "Relieves pressure and improves tissue perfusion."
+          },
+          {
+            "action": "Use pressure‑relieving mattress or gel pads",
+            "rationale": "Distributes pressure and reduces ulcer risk."
+          },
+          {
+            "action": "Maintain adequate hydration and nutrition (protein ≥ 1.2 g/kg/day)",
+            "rationale": "Promotes skin integrity and healing."
+          },
+          {
+            "action": "Educate caregiver on daily skin inspection and irritation signs",
+            "rationale": "Promotes early detection and prevention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "alzheimer-s-disease",
+    "lewy-body-dementia",
+    "vascular-dementia",
+    "cognitive-impairment",
+    "neurodegeneration"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Dementia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/dementia.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Major Neurocognitive Disorder and Neurodegenerative Diseases",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-4-major-neurocognitive-disorder-and-neurodegenerative-diseases",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Substance Use Disorder Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/20-2-substance-use-disorder-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-04",
+  "factcheck": {
+    "checked": "2026-11-04",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 49
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Dementia is a loss of mental functions that is severe enough to affect your daily life and activities.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "If the results of brain scans, lumbar punctures, PET scans, and/or cognitive and neurological tests show abnormal results, these may be cues that indicate the patient has MND.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Some patients with MND may benefit from occupational therapy, which can teach coping behaviors, particularly how to keep patients with MND safe from threats such as losing their balance and falling.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Beta-amyloid protein clumps up and forms plaques in between your brain cells.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "PET scan s can show areas of the brain that have poor metabolism, which is an indicator of Alzheimer disease.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Chronic traumatic encephalopathy (CTE), caused by repeated traumatic brain injury",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "The symptoms of MND include cognitive problems such as memory loss, disorientation, and confusion",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "The condition progressively gets worse and causes personality and behavior changes.",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "A medical history, which includes asking about your symptoms A physical exam",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "Nurses can help patients identify exercise opportunities and formulate a plan to make exercise part of their daily routine.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "At this stage, patients typically need round-the-clock care, and they may become more susceptible to infections, such as pneumonia.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "MND symptoms may also include psychological issues, such as changes in personality, which may include losing interest in favorite activities and/or no longer caring about others; feelings of paranoia; being irrational and/or impulsive; hallucinations; anxiety; and depression.",
+        "source": 1
+      },
+      "sections.complications.5": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "The nurse needs to take an interdisciplinary and collaborative approach to planning that involves the patient’s support system, other healthcare providers, and community resources.",
+        "source": 2
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Although results are not definitive, research suggests that exercise such as walking and swimming may improve brain functioning.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "supported",
+        "quote": "For example, the nurse may discuss coping skills and stress-management techniques with the patient, encourage them to take part in community resources such as support groups, and connect them with other healthcare providers such as therapists.",
+        "source": 2
+      }
+    }
+  }
+}

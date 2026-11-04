@@ -1,0 +1,472 @@
+{
+  "id": "antibiotic-associated-diarrhea",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diarrea asociada a antibióticos (DAA)",
+    "aliases": [
+      "diarrea antibiótico",
+      "diarrea asociada antibiótico",
+      "diarrea por antibiótico",
+      "diarrea medicamentosa",
+      "diarrea asociada a antibióticos"
+    ],
+    "summary": "Es la aparición de deposiciones líquidas y frecuentes después de iniciar un antibiótico, causada por alteración de la flora intestinal. Generalmente es aguda y se resuelve al suspender o ajustar el fármaco.",
+    "key_points": [
+      "Ocurre tras 3‑7 días de iniciar antibiótico",
+      "Puede ser leve o preceder a infección por C. difficile",
+      "El principal riesgo es deshidratación y desequilibrio electrolítico",
+      "El manejo incluye rehidratación, probióticos y revisión del antibiótico"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los antibióticos reducen bacterias comensales, permitiendo sobrecrecimiento de microorganismos patógenos",
+        "Disminuye la producción de ácido láctico, alterando la osmolaridad intestinal",
+        "Aumento de la motilidad colónica produce evacuaciones líquidas"
+      ],
+      "risk_factors": [
+        "Uso reciente de antibióticos de amplio espectro (penicilinas, cefalosporinas, clindamicina)",
+        "Edad avanzada o pediátrica",
+        "Enfermedades gastrointestinales previas",
+        "Uso de antiácidos con magnesio o inmunosupresores"
+      ],
+      "signs_symptoms": [
+        "≥3 deposiciones sueltas en 24 h",
+        "Heces acuosas, a veces con moco",
+        "Dolor o cólico abdominal leve",
+        "Urgencia y sensación de evacuación incompleta"
+      ],
+      "diagnostics": [
+        "Historia de antibiótico reciente",
+        "Evaluación de frecuencia y consistencia (Escala de Bristol)",
+        "Hemograma: posible leucocitosis si hay infección secundaria",
+        "Electrolitos séricos: Na⁺, K⁺, Cl⁻ (buscar hiponatremia o hipopotasemia)",
+        "Cultivo de heces si se sospecha C. difficile"
+      ],
+      "treatment": [
+        "Suspender o cambiar el antibiótico cuando sea posible",
+        "Rehidratación oral con solución de sales de rehidratación (SRO) 2‑4 mL/kg cada 15 min según deshidratación",
+        "Probióticos (Lactobacillus, Saccharomyces boulardii) para restaurar flora",
+        "Loperamida solo si no hay sospecha de C. difficile",
+        "Monitorizar signos vitales y balance hídrico"
+      ],
+      "complications": [
+        "Deshidratación y choque hipovolémico",
+        "Desequilibrio electrolítico (hipopotasemia, hiponatremia)",
+        "Dermatitis perianal por irritación",
+        "Infección por Clostridioides difficile"
+      ],
+      "nursing_care": [
+        "Evaluar número, volumen y consistencia de deposiciones cada 4 h",
+        "Registrar temperatura, presión arterial, frecuencia cardíaca y signos de deshidratación",
+        "Controlar peso diario y balance de líquidos (ingesta‑pérdida)",
+        "Observar piel perianal y prevenir dermatitis con barreras cutáneas",
+        "Notificar al médico si hay sangre, fiebre >38 ° C o empeoramiento"
+      ],
+      "patient_teaching": [
+        "Beber 2‑3 L de líquidos claros al día; usar SRO si hay vómitos",
+        "Completar el curso de antibiótico solo bajo indicación médica",
+        "Tomar probiótico según indicación y no suspender sin consultar",
+        "Higiene de manos y desinfección de superficies para evitar transmisión",
+        "Buscar atención si hay sangre, fiebre alta o diarrea >7 días"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "uso reciente de antibióticos de amplio espectro",
+          "edad avanzada o pediátrica",
+          "pérdida de >3 deposiciones líquidas/24 h"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación: mantener balance hídrico dentro de ±500 mL/24 h",
+          "Peso corporal: no perder >2 % del peso basal en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar ingesta y pérdida de líquidos cada 4 h",
+            "rationale": "Permite detectar déficit hídrico temprano"
+          },
+          {
+            "action": "Administrar solución de rehidratación oral según prescripción",
+            "rationale": "Reemplaza agua y electrolitos perdidos"
+          },
+          {
+            "action": "Observar signos de deshidratación (turgor, mucosas, presión arterial)",
+            "rationale": "Facilita intervención oportuna"
+          },
+          {
+            "action": "Colocar barrera cutánea en zona perianal",
+            "rationale": "Previene dermatitis por irritación"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación continua",
+            "rationale": "Promueve autocuidado y prevención"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida frecuente de líquidos con diarrea",
+          "uso de loperamida sin control",
+          "edad avanzada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L en 48 h",
+          "Ausencia de arritmias o síntomas neuromusculares"
+        ],
+        "interventions": [
+          {
+            "action": "Solicitar y revisar panel metabólico básico cada 24 h",
+            "rationale": "Detecta alteraciones tempranas de Na⁺ y K⁺"
+          },
+          {
+            "action": "Administrar suplementos de potasio según orden médica si K⁺ <3.5 mEq/L",
+            "rationale": "Previene hipopotasemia y sus complicaciones"
+          },
+          {
+            "action": "Monitorear ritmo cardíaco y presión arterial cada 4 h",
+            "rationale": "Identifica efectos de desequilibrios electrolíticos"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio (plátano, papaya)",
+            "rationale": "Ayuda a mantener niveles adecuados de K⁺"
+          },
+          {
+            "action": "Revisar uso de loperamida y suspender si aparecen signos de estreñimiento",
+            "rationale": "Evita retención de líquidos y alteración electrolítica"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Antibiotic-associated diarrhea (AAD)",
+    "aliases": [
+      "antibiotic diarrhea",
+      "diarrhea associated with antibiotic",
+      "diarrhea due to antibiotic",
+      "medication-induced diarrhea",
+      "diarrhea associated with antibiotics"
+    ],
+    "summary": "It is the appearance of liquid, frequent stools after starting an antibiotic, caused by alteration of intestinal flora. It is usually acute and resolves when the drug is stopped or adjusted.",
+    "key_points": [
+      "Occurs 3‑7 days after starting antibiotic",
+      "Can be mild or precede C. difficile infection",
+      "Main risk is dehydration and electrolyte imbalance",
+      "Management includes rehydration, probiotics and antibiotic review"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Antibiotics reduce commensal bacteria, allowing overgrowth of pathogenic microorganisms",
+        "Decrease lactate production, altering intestinal osmolarity",
+        "Increased colonic motility produces liquid evacuations"
+      ],
+      "risk_factors": [
+        "Recent use of broad‑spectrum antibiotics (penicillins, cephalosporins, clindamycin)",
+        "Advanced age or pediatrics",
+        "Pre‑existing gastrointestinal disease",
+        "Use of magnesium antacids or immunosuppressants"
+      ],
+      "signs_symptoms": [
+        "≥3 loose stools in 24 h",
+        "Watery stools, sometimes with mucus",
+        "Mild abdominal pain or cramping",
+        "Urgency and feeling of incomplete evacuation"
+      ],
+      "diagnostics": [
+        "History of recent antibiotic use",
+        "Assessment of frequency and consistency (Bristol Stool Scale)",
+        "CBC: possible leukocytosis if secondary infection",
+        "Serum electrolytes: Na⁺, K⁺, Cl⁻ (look for hyponatremia or hypokalemia)",
+        "Stool culture if C. difficile suspected"
+      ],
+      "treatment": [
+        "Stop or change antibiotic when possible",
+        "Oral rehydration with oral rehydration solution (ORS) 2‑4 mL/kg every 15 min based on dehydration",
+        "Probiotics (Lactobacillus, Saccharomyces boulardii) to restore flora",
+        "Loperamide only if no suspicion of C. difficile",
+        "Monitor vital signs and fluid balance"
+      ],
+      "complications": [
+        "Dehydration and hypovolemic shock",
+        "Electrolyte imbalance (hypokalemia, hyponatremia)",
+        "Perianal dermatitis from irritation",
+        "Clostridioides difficile infection"
+      ],
+      "nursing_care": [
+        "Assess number, volume, and consistency of stools every 4 h",
+        "Record temperature, blood pressure, heart rate and signs of dehydration",
+        "Monitor daily weight and fluid balance (intake‑output)",
+        "Observe perianal skin and prevent dermatitis with barrier creams",
+        "Notify physician if blood, fever >38 °C or worsening"
+      ],
+      "patient_teaching": [
+        "Drink 2‑3 L of clear fluids daily; use ORS if vomiting",
+        "Complete antibiotic course only as directed by physician",
+        "Take probiotic as prescribed and do not stop without consulting",
+        "Hand hygiene and surface disinfection to prevent transmission",
+        "Seek care if blood, high fever or diarrhea >7 days"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "recent use of broad‑spectrum antibiotics",
+          "advanced age or pediatrics",
+          "loss of >3 liquid stools/24 h"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration: maintain fluid balance within ±500 mL/24 h",
+          "Body weight: no loss >2 % of baseline weight in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess and record fluid intake and output every 4 h",
+            "rationale": "Allows early detection of fluid deficit"
+          },
+          {
+            "action": "Administer oral rehydration solution as prescribed",
+            "rationale": "Replaces lost water and electrolytes"
+          },
+          {
+            "action": "Observe signs of dehydration (turgor, mucous membranes, blood pressure)",
+            "rationale": "Facilitates timely intervention"
+          },
+          {
+            "action": "Apply barrier cream to perianal area",
+            "rationale": "Prevents dermatitis from irritation"
+          },
+          {
+            "action": "Educate patient on importance of continuous hydration",
+            "rationale": "Promotes self‑care and prevention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "frequent fluid loss with diarrhea",
+          "uncontrolled loperamide use",
+          "advanced age"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L in 48 h",
+          "Absence of arrhythmias or neuromuscular symptoms"
+        ],
+        "interventions": [
+          {
+            "action": "Order and review basic metabolic panel every 24 h",
+            "rationale": "Detects early changes in Na⁺ and K⁺"
+          },
+          {
+            "action": "Administer potassium supplements as ordered if K⁺ <3.5 mEq/L",
+            "rationale": "Prevents hypokalemia and its complications"
+          },
+          {
+            "action": "Monitor heart rhythm and blood pressure every 4 h",
+            "rationale": "Identifies effects of electrolyte imbalances"
+          },
+          {
+            "action": "Educate patient on potassium‑rich foods (banana, papaya)",
+            "rationale": "Helps maintain adequate K⁺ levels"
+          },
+          {
+            "action": "Review loperamide use and discontinue if constipation signs appear",
+            "rationale": "Avoids fluid retention and electrolyte disturbance"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "clostridioides-difficile-infection",
+    "dehydration",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diarrhea",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diarrhea.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Antidiarrheals",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/30-2-antidiarrheals",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-04",
+  "factcheck": {
+    "checked": "2026-11-04",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 37,
+      "contradicted": 1,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Symptoms may include abdominal distress, cramping, bloating, nausea, and urgency.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Medicines such as antibiotics, cancer drugs, and antacids that contain magnesium",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Mointor vital signs and for signs of dehydration such as poor skin turgor, reduced or dark urine, tachycardia, and dry mucous membranes.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "contradicted",
+        "quote": "A fever of 102 degrees or higher",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
