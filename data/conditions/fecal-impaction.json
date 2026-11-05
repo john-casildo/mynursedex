@@ -1,0 +1,556 @@
+{
+  "id": "fecal-impaction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Impactación fecal",
+    "aliases": [
+      "impactación fecal",
+      "fecal impaction",
+      "obstrucción intestinal",
+      "estreñimiento severo",
+      "masa fecal"
+    ],
+    "summary": "Acumulación de heces endurecidas en el colon recto que impide el paso de gas y materia fecal.",
+    "key_points": [
+      "La impactación fecal es una masa dura de heces en el recto que bloquea el tránsito intestinal",
+      "Factores de riesgo principales: dieta baja en fibra, inmovilidad, uso de opioides y anticolinérgicos",
+      "Signos típicos: dolor abdominal, distensión, ausencia de evacuación y ruidos intestinales disminuidos",
+      "Diagnóstico se basa en examen físico y radiografía abdominal que muestra masa fecal",
+      "Tratamiento inicial: hidratación, laxantes osmóticos, enemas; cirugía si no responde",
+      "Complicaciones graves: perforación colónica, desequilibrio electrolítico, sepsis"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Acumulación de heces secas en el colon recto",
+        "Absorción excesiva de agua de la masa fecal provoca deshidratación del bolo",
+        "Obstrucción parcial o total impide paso de gas y heces",
+        "Estiramiento de la pared colónica reduce la motilidad peristáltica"
+      ],
+      "risk_factors": [
+        "Dieta baja en fibra y consumo insuficiente de líquidos",
+        "Inmovilidad prolongada (postoperatoria, enfermedad)",
+        "Uso de opioides, anticolinérgicos o suplementos de calcio",
+        "Trastornos neurológicos que disminuyen la sensibilidad rectal",
+        "Edad avanzada"
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal intermitente o constante",
+        "Distensión abdominal y sensación de plenitud",
+        "Náuseas y vómitos ocasionales",
+        "Ausencia de evacuación o evacuaciones de heces muy duras",
+        "Ruidos intestinales disminuidos o ausentes"
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico: masa dura palpable en recto",
+        "Radiografía abdominal: masa fecal en colon, niveles hidroaéreos",
+        "Enema de contraste si se necesita confirmar la localización",
+        "Laboratorios: electrolitos, BUN y creatinina para evaluar deshidratación"
+      ],
+      "treatment": [
+        "Aumento de ingesta de fibra (≥25 g/día) y líquidos (1.5‑2 L)",
+        "Laxantes osmóticos (p. ej., polietilenglicol) o supositorios de glicerina",
+        "Enemas de mineral oil o fosfato sódico bajo indicación",
+        "Descompresión manual (digital) si la masa es accesible",
+        "Evacuación mecánica o cirugía en casos de obstrucción completa o perforación"
+      ],
+      "complications": [
+        "Úlcera por presión fecal y posible perforación colónica",
+        "Hemorragia rectal",
+        "Desequilibrio electrolítico, especialmente hipopotasemia",
+        "Infección sistémica por translocación bacteriana",
+        "Obstrucción intestinal completa que requiere cirugía"
+      ],
+      "nursing_care": [
+        "Evaluar dolor, distensión y patrón de evacuación cada 4 h",
+        "Monitorear signos vitales y balance hídrico (ingesta‑salida)",
+        "Administrar laxantes/enemas según orden y registrar respuesta",
+        "Posicionar al paciente semisentado o decúbito lateral izquierdo para facilitar evacuación",
+        "Documentar características de las heces y cualquier sangrado"
+      ],
+      "patient_teaching": [
+        "Consumir ≥25 g de fibra y 1.5‑2 L de agua al día",
+        "No retener el impulso de defecar; acudir al baño cuando sienta necesidad",
+        "Uso correcto de laxantes y enemas en el hogar",
+        "Señales de alarma: dolor intenso, vómitos, fiebre o sangrado rectal",
+        "Realizar actividad física regular para estimular la motilidad intestinal"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Impactación fecal",
+          "Vómitos",
+          "Deshidratación",
+          "Ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida de líquidos equilibradas (±500 mL) en 24 h",
+          "Mucosas y piel sin sequedad en 48 h",
+          "Peso corporal estable (variación <0.5 kg)"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 4 h",
+            "rationale": "Permite detectar pérdida de volumen antes de que se produzca deshidratación"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, frecuencia cardíaca)",
+            "rationale": "Identifica rápidamente la necesidad de reposición de líquidos"
+          },
+          {
+            "action": "Administrar solución salina isotónica según orden médica",
+            "rationale": "Restablece el volumen intravascular y corrige déficit de agua"
+          },
+          {
+            "action": "Fomentar consumo de al menos 1500 mL de agua u otras bebidas no azucaradas al día",
+            "rationale": "Previene la deshidratación y facilita la ablandación de la masa fecal"
+          },
+          {
+            "action": "Registrar peso diario del paciente",
+            "rationale": "Monitoriza cambios en el estado de hidratación"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación y la ingesta de fibra",
+            "rationale": "Promueve autocuidado y prevención de recurrencias"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Dolor abdominal",
+          "Distensión abdominal",
+          "Fatiga al realizar ADL"
+        ],
+        "evidenced_by": [
+          "Fatiga al realizar actividades de la vida diaria",
+          "Disminución de la tolerancia al ejercicio",
+          "Dolor que empeora con el movimiento"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: paciente realiza ADL con mínima fatiga en 3 días",
+          "Dolor durante la actividad ≤3/10 en escala de 0‑10",
+          "Ambula 10 m sin ayuda en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de dolor antes y después de cada actividad",
+            "rationale": "Permite ajustar el plan de cuidados y evitar sobrecarga"
+          },
+          {
+            "action": "Planificar períodos de descanso entre actividades programadas",
+            "rationale": "Reduce la fatiga y previene el empeoramiento del dolor"
+          },
+          {
+            "action": "Enseñar técnicas de respiración profunda y relajación para disminuir la percepción del dolor",
+            "rationale": "Facilita el manejo del dolor y mejora la tolerancia al esfuerzo"
+          },
+          {
+            "action": "Fomentar movilización temprana en posición semisentada o decúbito lateral izquierdo",
+            "rationale": "Optimiza la gravedad para facilitar el tránsito fecal y reduce la distensión"
+          },
+          {
+            "action": "Coordinar con fisioterapia para ejercicios de bajo impacto y progresión gradual",
+            "rationale": "Mejora la fuerza muscular y la capacidad funcional sin sobrecargar al paciente"
+          },
+          {
+            "action": "Monitorear signos vitales y saturación de oxígeno durante la actividad",
+            "rationale": "Detecta intolerancia cardiovascular o respiratoria temprana"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fecal impaction",
+    "aliases": [
+      "fecal impaction",
+      "intestinal obstruction",
+      "severe constipation",
+      "fecal mass"
+    ],
+    "summary": "Accumulation of hardened stool in the rectum and colon that prevents the passage of gas and fecal matter.",
+    "key_points": [
+      "Fecal impaction is a hard mass of stool in the rectum that blocks intestinal transit",
+      "Primary risk factors: low‑fiber diet, immobility, opioid use, anticholinergics",
+      "Typical signs: abdominal pain, distension, absence of evacuation, decreased bowel sounds",
+      "Diagnosis is based on physical exam and abdominal X‑ray showing fecal mass",
+      "Initial treatment: hydration, osmotic laxatives, enemas; surgery if no response",
+      "Severe complications: colonic perforation, electrolyte imbalance, sepsis"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Accumulation of dry stool in the rectum and colon",
+        "Excessive water absorption from the fecal mass causes dehydration of the stool bulk",
+        "Partial or complete obstruction prevents passage of gas and stool",
+        "Stretching of the colonic wall reduces peristaltic motility"
+      ],
+      "risk_factors": [
+        "Low‑fiber diet and inadequate fluid intake",
+        "Prolonged immobility (post‑operative, illness)",
+        "Use of opioids, anticholinergics, or calcium supplements",
+        "Neurologic disorders that reduce rectal sensation",
+        "Advanced age"
+      ],
+      "signs_symptoms": [
+        "Intermittent or constant abdominal pain",
+        "Abdominal distension and fullness sensation",
+        "Occasional nausea and vomiting",
+        "Absence of evacuation or very hard stool evacuations",
+        "Decreased or absent bowel sounds"
+      ],
+      "diagnostics": [
+        "Medical history and physical exam: hard mass palpable in rectum",
+        "Abdominal X‑ray: fecal mass in colon, air‑fluid levels",
+        "Contrast enema if location confirmation needed",
+        "Labs: electrolytes, BUN and creatinine to assess dehydration"
+      ],
+      "treatment": [
+        "Increase fiber intake (≥25 g/day) and fluids (1.5‑2 L)",
+        "Osmotic laxatives (e.g., polyethylene glycol) or glycerin suppositories",
+        "Mineral oil or sodium phosphate enemas as indicated",
+        "Manual decompression (digital) if mass is accessible",
+        "Mechanical evacuation or surgery for complete obstruction or perforation"
+      ],
+      "complications": [
+        "Pressure ulcer from fecal impaction and possible colonic perforation",
+        "Rectal bleeding",
+        "Electrolyte imbalance, especially hypokalemia",
+        "Systemic infection from bacterial translocation",
+        "Complete intestinal obstruction requiring surgery"
+      ],
+      "nursing_care": [
+        "Assess pain, distension, and evacuation pattern every 4 h",
+        "Monitor vital signs and fluid balance (intake‑output)",
+        "Administer laxatives/enemas per order and document response",
+        "Position patient semi‑upright or left lateral decubitus to facilitate evacuation",
+        "Document stool characteristics and any bleeding"
+      ],
+      "patient_teaching": [
+        "Consume ≥25 g of fiber and 1.5‑2 L of water daily",
+        "Do not hold the urge to defecate; use the bathroom when needed",
+        "Use laxatives and enemas correctly at home",
+        "Alarm signs: severe pain, vomiting, fever, rectal bleeding",
+        "Engage in regular physical activity to stimulate intestinal motility"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Fecal impaction",
+          "Vomiting",
+          "Dehydration",
+          "Inadequate fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output balanced (±500 mL) in 24 h",
+          "Mucous membranes and skin without dryness in 48 h",
+          "Stable body weight (variation <0.5 kg)"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output every 4 h",
+            "rationale": "Detects volume loss before dehydration occurs"
+          },
+          {
+            "action": "Assess signs of dehydration (turgor, mucous membranes, heart rate)",
+            "rationale": "Rapidly identifies need for fluid replacement"
+          },
+          {
+            "action": "Administer isotonic saline per physician order",
+            "rationale": "Restores intravascular volume and corrects water deficit"
+          },
+          {
+            "action": "Encourage consumption of at least 1500 mL of water or other non‑sugary beverages daily",
+            "rationale": "Prevents dehydration and aids stool softening"
+          },
+          {
+            "action": "Record daily patient weight",
+            "rationale": "Monitors changes in hydration status"
+          },
+          {
+            "action": "Educate patient on importance of hydration and fiber intake",
+            "rationale": "Promotes self‑care and recurrence prevention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Abdominal pain",
+          "Abdominal distension",
+          "Fatigue during ADLs"
+        ],
+        "evidenced_by": [
+          "Fatigue during daily activities",
+          "Reduced exercise tolerance",
+          "Pain worsening with movement"
+        ],
+        "outcomes": [
+          "Activity tolerance: patient performs ADLs with minimal fatigue in 3 days",
+          "Pain during activity ≤3/10 on 0‑10 scale",
+          "Walks 10 m unaided in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain level before and after each activity",
+            "rationale": "Allows adjustment of care plan and avoids overload"
+          },
+          {
+            "action": "Plan rest periods between scheduled activities",
+            "rationale": "Reduces fatigue and prevents pain escalation"
+          },
+          {
+            "action": "Teach deep breathing and relaxation techniques to reduce pain perception",
+            "rationale": "Facilitates pain management and improves tolerance to exertion"
+          },
+          {
+            "action": "Encourage early mobilization in semi‑upright or left lateral decubitus",
+            "rationale": "Optimizes gravity to aid fecal transit and reduces distension"
+          },
+          {
+            "action": "Coordinate with physical therapy for low‑impact exercises and gradual progression",
+            "rationale": "Improves muscle strength and functional capacity without overloading patient"
+          },
+          {
+            "action": "Monitor vital signs and oxygen saturation during activity",
+            "rationale": "Detects early cardiovascular or respiratory intolerance"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "constipation",
+    "intestinal-obstruction",
+    "electrolyte-imbalance",
+    "colonic-perforation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Intestinal Obstruction",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/intestinalobstruction.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Common Conditions Affecting Bowel Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-4-common-conditions-affecting-bowel-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Laxatives and Stool Softeners",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/30-3-laxatives-and-stool-softeners",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-05",
+  "factcheck": {
+    "checked": "2026-11-05",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 25,
+      "contradicted": 2,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Chronic constipation may result in fecal impaction , where a large mass of hardened stool becomes lodged in the rectum, resulting in a palpable abdominal mass and rectal pressure due to the buildup of stool, making it difficult or impossible to pass stool normally (Clevelan",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "fecal impaction with a lump of hard stool that partly blocks the large intestine",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "It often results from low fiber intake, dehydration, and a sedentary lifestyle. Certain medications can also promote constipation, such as anticholinergics and opioids.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Chronic constipation may result in fecal impaction , where a large mass of hardened stool becomes lodged in the rectum, resulting in a palpable abdominal mass and rectal pressure due to the buildup of stool, making it difficult or impossible to pass stool normally (Clevelan",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "contradicted",
+        "quote": "The salts are absorbed, causing osmotic action to draw water into the intestinal lumen of the colon and causing the fecal mass to increase in size, or “swell.”",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "An intestinal obstruction occurs when food or stool cannot move through the i",
+        "source": 0
+      },
+      "sections.pathophysiology.3": {
+        "status": "contradicted",
+        "quote": "The increase in bulk softens the stool for easier evacuation while also stretching the intestinal wall, causing peristaltic movement.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "It often results from low fiber intake, dehydration, and a sedentary lifestyle.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "This condition is accompanied by abdominal discomfort and pain, characterized by cramping sensations and bloating.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "The accumulation of stool in the colon can also lead to distension, gas, and bloating (sensation of fullness or swelling in the abdomen), contributing to abdominal discomfort.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Constipation is an unpleasant symptom or disorder that results in difficult stool evacuation or irregular and inconsistent stool passage, with common complaints like straining, incomplete or difficulty passing stools, or not defecating for a prolonged time.",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Chronic constipation may result in fecal impaction , where a large mass of hardened stool becomes lodged in the rectum, resulting in a palpable abdominal mass and rectal pressure due to the buildup of stool, making it difficult or impossible to pass stool normally (Cleveland Clinic, 2023a).",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Osmotic laxatives (e.g., polyethylene glycol [MiraLAX], magnesium hydroxide [Milk of Magnesia]) draw water into the intestines, softening stool and increasing bowel movements.",
+        "source": 1
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "A complete intestinal obstruction is a medical emergency. It often requires surgery.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Clinical Tip Fecal Impaction and Bowel Obstruction When administering laxatives and stool softeners, the nurse should assess the client for signs and symptoms of fecal impaction and bowel obstruction, which include severe abdominal bloating and cramping, stool leakage or sudden watery diarrhea (around impaction), rectal bleeding, small semi-formed stools, severe abdominal pain, vomiting, loud sounds from the abdomen, and inability to pass flatule",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "A complete intestinal obstruction is a medical emergency. It often requires surgery.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Assist the client to a comfortable left side–lying position with their right knee raised to their chest.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "This also includes encouraging the patient to go to the bathroom when feeling the urge to do so and not ignoring it.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "When administering laxatives and stool softeners, the nurse should assess the client for signs and symptoms of fecal impaction and bowel obstruction, which include severe abdominal bloating and cramping, stool leakage or sudden watery diarrhea (around impaction), rectal bleeding, small semi-formed stools, severe abdominal pain, vomiting, loud sounds from the abdomen, and inability to pass flatule",
+        "source": 2
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "After performing an assessment, nurses play a crucial role in patient education, sharing knowledge about the significance of fiber-rich diets, adequate hydration, and regular physical activity in promoting bowel regularity.",
+        "source": 1
+      }
+    }
+  }
+}

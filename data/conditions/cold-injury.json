@@ -1,0 +1,488 @@
+{
+  "id": "cold-injury",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Congelación (frostbite)",
+    "aliases": [
+      "congelación",
+      "frostbite",
+      "lesion por frio",
+      "daño por frio"
+    ],
+    "summary": "Lesión de la piel y tejidos subyacentes causada por exposición prolongada a temperaturas bajo cero que congela los tejidos.",
+    "key_points": [
+      "Afecta áreas expuestas: nariz, orejas, mejillas, dedos y pies.",
+      "La piel pasa de roja a blanca o grisácea y se vuelve dura y sin sensibilidad.",
+      "El tratamiento temprano con re‑calentamiento evita necrosis y amputación.",
+      "Complicaciones incluyen infección, gangrena y pérdida de función."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El frío extremo provoca vasoconstricción y disminución del flujo sanguíneo.",
+        "Se forman cristales de hielo dentro de las células, dañando membranas.",
+        "La lesión vascular y la inflamación secundaria aumentan el edema y la necrosis.",
+        "Si la congelación persiste, ocurre muerte tisular irreversible."
+      ],
+      "risk_factors": [
+        "Exposición prolongada a temperaturas ≤ 0 °C, especialmente en viento.",
+        "Ropa húmeda o inadecuada que reduce la aislación térmica.",
+        "Enfermedades que alteran la perfusión periférica (diabetes, enfermedad vascular).",
+        "Alcohol o drogas que disminuyen la percepción del frío."
+      ],
+      "signs_symptoms": [
+        "Piel pálida, grisácea o amarillenta; sensación de hormigueo o entumecimiento.",
+        "Sensación de piel dura, “cera de abejas” al tacto.",
+        "Dolor intenso al inicio, luego pérdida de sensibilidad.",
+        "Hinchazón y ampollas claras o hemorrágicas en etapas avanzadas."
+      ],
+      "diagnostics": [
+        "Inspección visual y palpación cuidadosa del área afectada.",
+        "Clasificación por grados (I‑IV) según profundidad del daño.",
+        "Radiografía o resonancia si se sospecha daño óseo profundo.",
+        "Cultivo si hay signos de infección secundaria."
+      ],
+      "treatment": [
+        "Re‑calentamiento rápido en agua tibia (37‑40 °C) 20‑30 min, sin fricción.",
+        "Analgesia y manejo de la ansiedad (paracetamol, opioides según necesidad).",
+        "Desbridamiento de tejido necrótico cuando sea necesario.",
+        "Antibióticos profilácticos si hay exposición prolongada o ampollas hemorrágicas.",
+        "Elevación del miembro y vendaje suelto para reducir edema."
+      ],
+      "complications": [
+        "Infección bacteriana del tejido dañado.",
+        "Gangrena y posible amputación.",
+        "Hipotermia sistémica si la exposición es extensa.",
+        "Dolor crónico y pérdida de sensibilidad permanente."
+      ],
+      "nursing_care": [
+        "Evaluar color, temperatura y sensibilidad de la zona cada 2 h.",
+        "Mantener la zona en posición neutral y evitar presión adicional.",
+        "Aplicar apósitos estériles no adherentes; cambiar según protocolo.",
+        "Monitorear signos vitales y temperatura corporal central.",
+        "Documentar grado de congelación y respuesta al re‑calentamiento."
+      ],
+      "patient_teaching": [
+        "Usar ropa interior térmica, guantes y calcetines secos en climas fríos.",
+        "No frotar ni masajear áreas congeladas; buscar ayuda médica inmediata.",
+        "Reconocer signos tempranos de congelación y buscar refugio cálido.",
+        "Evitar caminar sobre pies o dedos congelados para prevenir daño adicional."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Perfusión tisular periférica ineficaz",
+        "type": "actual",
+        "related_to": [
+          "exposición prolongada al frío",
+          "vasoconstricción",
+          "daño tisular"
+        ],
+        "evidenced_by": [
+          "piel pálida y fría",
+          "entumecimiento",
+          "dolor intenso",
+          "ampollas"
+        ],
+        "outcomes": [
+          "Color de piel rosado y tibio en 48 h",
+          "Dolor ≤ 3 en escala de 0‑10 dentro de 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Re‑calentar la zona afectada en agua tibia (37‑40 °C) durante 20‑30 min.",
+            "rationale": "Restablece el flujo sanguíneo y detiene la formación de cristales de hielo."
+          },
+          {
+            "action": "Monitorear temperatura periférica y color de la piel cada 2 h.",
+            "rationale": "Detecta mejoría o deterioro de la perfusión tempranamente."
+          },
+          {
+            "action": "Elevar el miembro afectado y aplicar vendaje suelto.",
+            "rationale": "Reduce edema y favorece el retorno venoso."
+          },
+          {
+            "action": "Administrar analgesia según prescripción y evaluar respuesta al dolor.",
+            "rationale": "Control del dolor mejora la perfusión al disminuir la respuesta simpática."
+          },
+          {
+            "action": "Educar al paciente y acompañante sobre signos de empeoramiento y cuándo buscar ayuda.",
+            "rationale": "Promueve la detección precoz y la continuidad del cuidado."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión por presión",
+        "type": "risk",
+        "related_to": [
+          "inmovilidad",
+          "exposición al frío",
+          "ropa húmeda",
+          "disminución de la sensibilidad"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No se desarrollan úlceras por presión durante la hospitalización",
+          "Integridad cutánea mantenida en áreas de riesgo"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar inspección de la piel cada 4 h, enfocándose en áreas expuestas al frío.",
+            "rationale": "Identifica cambios tempranos antes de que se conviertan en lesiones."
+          },
+          {
+            "action": "Reposicionar al paciente cada 2 h o según tolerancia.",
+            "rationale": "Alivia la presión prolongada sobre tejidos vulnerables."
+          },
+          {
+            "action": "Mantener la piel seca y usar apósitos absorbentes si hay humedad.",
+            "rationale": "La humedad aumenta el riesgo de daño por presión."
+          },
+          {
+            "action": "Proveer ropa interior térmica y calcetines secos para mantener la temperatura corporal.",
+            "rationale": "Previene la vasoconstricción y protege la piel."
+          },
+          {
+            "action": "Documentar hallazgos de la piel y cualquier intervención realizada.",
+            "rationale": "Facilita la continuidad del cuidado y la evaluación de la efectividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Frostbite",
+    "aliases": [
+      "frostbite",
+      "cold injury",
+      "freezing injury",
+      "cold damage"
+    ],
+    "summary": "Skin and underlying tissue injury caused by prolonged exposure to subzero temperatures that freeze the tissues.",
+    "key_points": [
+      "Affects exposed areas: nose, ears, cheeks, fingers, and toes.",
+      "Skin changes from red to white or grayish and becomes hard and insensate.",
+      "Early treatment with rewarming prevents necrosis and amputation.",
+      "Complications include infection, gangrene, and loss of function."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Extreme cold causes vasoconstriction and reduced blood flow.",
+        "Ice crystals form inside cells, damaging membranes.",
+        "Vascular injury and secondary inflammation increase edema and necrosis.",
+        "If frostbite persists, irreversible tissue death occurs."
+      ],
+      "risk_factors": [
+        "Prolonged exposure to temperatures ≤ 0 °C, especially in wind.",
+        "Wet or inadequate clothing that reduces thermal insulation.",
+        "Diseases that alter peripheral perfusion (diabetes, vascular disease).",
+        "Alcohol or drugs that decrease cold perception."
+      ],
+      "signs_symptoms": [
+        "Pale, grayish, or yellowish skin; tingling or numbness sensation.",
+        "Skin feels hard, “beeswax” texture to touch.",
+        "Intense pain at onset, then loss of sensation.",
+        "Swelling and clear or hemorrhagic blisters in advanced stages."
+      ],
+      "diagnostics": [
+        "Visual inspection and careful palpation of the affected area.",
+        "Classification by degrees (I‑IV) based on depth of damage.",
+        "X‑ray or MRI if deep bone injury is suspected.",
+        "Culture if secondary infection signs are present."
+      ],
+      "treatment": [
+        "Rapid rewarming in warm water (37‑40 °C) for 20‑30 min, no friction.",
+        "Analgesia and anxiety management (acetaminophen, opioids as needed).",
+        "Debridement of necrotic tissue when necessary.",
+        "Prophylactic antibiotics if prolonged exposure or hemorrhagic blisters.",
+        "Elevation of the limb and loose dressing to reduce edema."
+      ],
+      "complications": [
+        "Bacterial infection of damaged tissue.",
+        "Gangrene and possible amputation.",
+        "Systemic hypothermia if exposure is extensive.",
+        "Chronic pain and permanent loss of sensation."
+      ],
+      "nursing_care": [
+        "Assess color, temperature, and sensitivity of the area every 2 h.",
+        "Keep the area in a neutral position and avoid additional pressure.",
+        "Apply non‑adherent sterile dressings; change per protocol.",
+        "Monitor vital signs and core body temperature.",
+        "Document frostbite degree and response to rewarming."
+      ],
+      "patient_teaching": [
+        "Use thermal underwear, gloves, and dry socks in cold climates.",
+        "Do not rub or massage frozen areas; seek immediate medical help.",
+        "Recognize early signs of frostbite and seek warm shelter.",
+        "Avoid walking on frozen feet or fingers to prevent further damage."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective peripheral tissue perfusion",
+        "type": "actual",
+        "related_to": [
+          "prolonged cold exposure",
+          "vasoconstriction",
+          "tissue damage"
+        ],
+        "evidenced_by": [
+          "pale and cold skin",
+          "numbness",
+          "intense pain",
+          "blisters"
+        ],
+        "outcomes": [
+          "Pink and warm skin within 48 h",
+          "Pain ≤ 3 on 0‑10 scale within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Rewarm the affected area in warm water (37‑40 °C) for 20‑30 min.",
+            "rationale": "Restores blood flow and stops ice crystal formation."
+          },
+          {
+            "action": "Monitor peripheral temperature and skin color every 2 h.",
+            "rationale": "Detects improvement or deterioration of perfusion early."
+          },
+          {
+            "action": "Elevate the affected limb and apply a loose dressing.",
+            "rationale": "Reduces edema and promotes venous return."
+          },
+          {
+            "action": "Administer analgesia per prescription and assess pain response.",
+            "rationale": "Pain control improves perfusion by reducing sympathetic response."
+          },
+          {
+            "action": "Educate patient and caregiver about worsening signs and when to seek help.",
+            "rationale": "Promotes early detection and continuity of care."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for pressure injury",
+        "type": "risk",
+        "related_to": [
+          "immobility",
+          "cold exposure",
+          "wet clothing",
+          "reduced sensation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No pressure ulcers develop during hospitalization",
+          "Skin integrity maintained in risk areas"
+        ],
+        "interventions": [
+          {
+            "action": "Inspect skin every 4 h, focusing on areas exposed to cold.",
+            "rationale": "Identifies early changes before they become injuries."
+          },
+          {
+            "action": "Reposition patient every 2 h or as tolerated.",
+            "rationale": "Relieves prolonged pressure on vulnerable tissues."
+          },
+          {
+            "action": "Keep skin dry and use absorbent dressings if moisture present.",
+            "rationale": "Moisture increases pressure injury risk."
+          },
+          {
+            "action": "Provide thermal underwear and dry socks to maintain body temperature.",
+            "rationale": "Prevents vasoconstriction and protects skin."
+          },
+          {
+            "action": "Document skin findings and any interventions performed.",
+            "rationale": "Facilitates continuity of care and effectiveness evaluation."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypothermia",
+    "tissue-necrosis",
+    "peripheral-vascular-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Frostbite",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/frostbite.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Pressure Injury",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/28-3-pressure-injury",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Wound Classification",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/24-3-wound-classification",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-05",
+  "factcheck": {
+    "checked": "2026-11-05",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "It most often affects the nose, ears, cheeks, chin, fingers, or toes.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "This ischemia also leads to inflammation and edema.",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Systemic diseases Diseases such as diabetes and immunodeficiencies may impact the body’s ability to heal naturally.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "If you have frostbite, the skin in that area may turn white or grayish-yellow.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "It may feel firm or waxy when you touch it.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Noticeable changes in sensation, temperature, or firmness may precede visual changes.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Expect to culture for biological, viral, and fungal agents.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Frostbite can permanently damage the body, and severe cases can lead to amputation .",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Don't rub the frostbitten area with snow or massage it at all.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "If you have symptoms of frostbite, seek medical care.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "If possible, do not walk on frostbitten feet or toes.",
+        "source": 0
+      }
+    }
+  }
+}
