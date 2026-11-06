@@ -1,0 +1,528 @@
+{
+  "id": "diverticulosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diverticulosis",
+    "aliases": [
+      "diverticulosis",
+      "bolsas colon",
+      "pouch colon",
+      "enfermedad diverticular",
+      "diverticulitis",
+      "colon bajo"
+    ],
+    "summary": "Presencia de pequeñas bolsas (divertículos) en la pared del colon, generalmente asintomática, que pueden inflamarse o sangrar.",
+    "key_points": [
+      "Afecta al 20% de adultos 40‑60 años y hasta 60% >60 años.",
+      "Mayormente asintomática; cuando hay síntomas aparecen dolor en cuadrante inferior izquierdo y cambios en el hábito intestinal.",
+      "Factores de riesgo: dieta baja en fibra, edad avanzada, obesidad, sedentarismo y antecedentes familiares.",
+      "Complicaciones incluyen diverticulitis, sangrado, perforación y absceso."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aumento de presión intraluminal colónica por estreñimiento.",
+        "Debilidad en la capa muscular de la pared colónica permite protrusión de mucosa y submucosa.",
+        "Formación de divertículos, principalmente en el colon sigmoide."
+      ],
+      "risk_factors": [
+        "Dieta pobre en fibra y alta en carnes rojas.",
+        "Edad > 60 años.",
+        "Obesidad y falta de actividad física.",
+        "Estreñimiento crónico y consumo insuficiente de líquidos.",
+        "Antecedentes familiares de enfermedad diverticular."
+      ],
+      "signs_symptoms": [
+        "Generalmente asintomática.",
+        "Dolor abdominal crónico, típicamente en cuadrante inferior izquierdo.",
+        "Distensión abdominal y cambios en el hábito intestinal (diarrea o estreñimiento).",
+        "Sangrado rectal de bajo flujo."
+      ],
+      "diagnostics": [
+        "Colonoscopia: visualiza divertículos y descarta malignidad.",
+        "Tomografía axial computarizada (TAC) abdomen para complicaciones.",
+        "Enema de bario: muestra sacos colónicos.",
+        "Hemograma: leucocitosis si hay inflamación.",
+        "PCR: elevación en diverticulitis."
+      ],
+      "treatment": [
+        "Aumento de fibra dietética (frutas, verduras, granos integrales).",
+        "Suplementos de fibra soluble (psyllium).",
+        "Hidratación adecuada (≥2 L/día).",
+        "Antibióticos (ciprofloxacino + metronidazol) en caso de diverticulitis.",
+        "Laxantes suaves o ablandadores de heces si hay estreñimiento.",
+        "Cirugía (resección segmentaria) si hay perforación, absceso grande o sangrado persistente."
+      ],
+      "complications": [
+        "Diverticulitis aguda.",
+        "Perforación intestinal y peritonitis.",
+        "Absceso intraabdominal.",
+        "Hemorragia diverticular.",
+        "Obstrucción colónica y fístulas."
+      ],
+      "nursing_care": [
+        "Evaluar dolor abdominal, localización y escala de intensidad cada turno.",
+        "Monitorear signos vitales, especialmente temperatura y presión arterial.",
+        "Registrar patrón de evacuación y consistencia de heces.",
+        "Mantener hidratación oral y registrar ingesta/salida de líquidos.",
+        "Observar signos de infección o sangrado (fiebre, leucocitosis, sangre en heces).",
+        "Facilitar movilización temprana para mejorar motilidad intestinal."
+      ],
+      "patient_teaching": [
+        "Consumir ≥25 g de fibra diaria y 2‑3 L de agua.",
+        "Evitar alimentos que provoquen estreñimiento (poco fibra, exceso de carnes rojas).",
+        "Reconocer signos de diverticulitis: dolor intenso, fiebre, náuseas, cambios en heces.",
+        "Buscar atención médica inmediata ante sangrado rectal o dolor abdominal súbito.",
+        "Seguir el esquema antibiótico completo si se prescribe."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "diverticulitis",
+          "perforación intestinal",
+          "procedimientos invasivos",
+          "uso de antibióticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de la infección: temperatura < 37.5°C en 48 h",
+          "Sin signos de infección: ausencia de leucocitosis en CBC"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear temperatura cada 4 horas y registrar",
+            "rationale": "Detectar fiebre temprana indica posible infección"
+          },
+          {
+            "action": "Observar y registrar signos de inflamación abdominal",
+            "rationale": "Cambios pueden indicar progresión de diverticulitis"
+          },
+          {
+            "action": "Administrar antibióticos según prescripción y verificar alergias",
+            "rationale": "Controlar la flora bacteriana y prevenir sepsis"
+          },
+          {
+            "action": "Promover ingesta adecuada de líquidos (≥2 L/día)",
+            "rationale": "Mantener perfusión y ayudar a eliminar toxinas"
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección y cuándo buscar ayuda",
+            "rationale": "Facilita intervención temprana"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "sangrado diverticular",
+          "vómitos",
+          "diarrea",
+          "uso de laxantes",
+          "ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta ≥ 2 L/día y salida ≤ 1500 mL/día",
+          "Peso estable: variación < 0.5 kg en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada turno",
+            "rationale": "Detectar déficit o exceso de volumen"
+          },
+          {
+            "action": "Pesar al paciente diariamente",
+            "rationale": "Monitorear cambios de peso que reflejen pérdida o retención de líquidos"
+          },
+          {
+            "action": "Administrar solución salina isotónica IV si está indicado",
+            "rationale": "Reponer volumen intravascular"
+          },
+          {
+            "action": "Fomentar consumo de alimentos ricos en fibra y líquidos",
+            "rationale": "Previene estreñimiento y reduce riesgo de sangrado"
+          },
+          {
+            "action": "Observar signos de deshidratación (piel seca, turgor, mucosas)",
+            "rationale": "Identificar temprano déficit de volumen"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Diverticulosis",
+    "aliases": [
+      "diverticulosis",
+      "pouch colon",
+      "enfermedad diverticular",
+      "diverticulitis",
+      "colon bajo"
+    ],
+    "summary": "Presence of small pouches (diverticula) in the colon wall, usually asymptomatic, that can become inflamed or bleed.",
+    "key_points": [
+      "Affects 20% of adults 40‑60 years and up to 60% >60 years.",
+      "Mostly asymptomatic; when symptoms occur, pain in the left lower quadrant and changes in bowel habits appear.",
+      "Risk factors: low-fiber diet, advanced age, obesity, sedentary lifestyle, and family history.",
+      "Complications include diverticulitis, bleeding, perforation, and abscess."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased intraluminal colonic pressure due to constipation.",
+        "Weakness in the muscular layer of the colonic wall allows protrusion of mucosa and submucosa.",
+        "Formation of diverticula, mainly in the sigmoid colon."
+      ],
+      "risk_factors": [
+        "Poor fiber diet and high red meat intake.",
+        "Age > 60 years.",
+        "Obesity and lack of physical activity.",
+        "Chronic constipation and insufficient fluid intake.",
+        "Family history of diverticular disease."
+      ],
+      "signs_symptoms": [
+        "Generally asymptomatic.",
+        "Chronic abdominal pain, typically in the left lower quadrant.",
+        "Abdominal distension and changes in bowel habits (diarrhea or constipation).",
+        "Low-flow rectal bleeding."
+      ],
+      "diagnostics": [
+        "Colonoscopy: visualizes diverticula and rules out malignancy.",
+        "CT scan of the abdomen for complications.",
+        "Barium enema: shows colonic sacs.",
+        "CBC: leukocytosis if inflammation present.",
+        "CRP: elevation in diverticulitis."
+      ],
+      "treatment": [
+        "Increase dietary fiber (fruits, vegetables, whole grains).",
+        "Soluble fiber supplements (psyllium).",
+        "Adequate hydration (≥2 L/day).",
+        "Antibiotics (ciprofloxacin + metronidazole) if diverticulitis present.",
+        "Gentle laxatives or stool softeners if constipation occurs.",
+        "Surgery (segmental resection) if perforation, large abscess, or persistent bleeding."
+      ],
+      "complications": [
+        "Acute diverticulitis.",
+        "Intestinal perforation and peritonitis.",
+        "Intraabdominal abscess.",
+        "Diverticular hemorrhage.",
+        "Colonic obstruction and fistulas."
+      ],
+      "nursing_care": [
+        "Assess abdominal pain, location, and intensity scale each shift.",
+        "Monitor vital signs, especially temperature and blood pressure.",
+        "Record evacuation pattern and stool consistency.",
+        "Maintain oral hydration and record intake/output fluids.",
+        "Observe signs of infection or bleeding (fever, leukocytosis, blood in stool).",
+        "Facilitate early mobilization to improve intestinal motility."
+      ],
+      "patient_teaching": [
+        "Consume ≥25 g of fiber daily and 2‑3 L of water.",
+        "Avoid foods that cause constipation (low fiber, excess red meat).",
+        "Recognize signs of diverticulitis: intense pain, fever, nausea, changes in stool.",
+        "Seek immediate medical attention for rectal bleeding or sudden abdominal pain.",
+        "Complete the full antibiotic course if prescribed."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "diverticulitis",
+          "intestinal perforation",
+          "invasive procedures",
+          "antibiotic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: temperature < 37.5°C within 48 h",
+          "No signs of infection: absence of leukocytosis on CBC"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor temperature every 4 hours and record",
+            "rationale": "Early fever detection indicates possible infection"
+          },
+          {
+            "action": "Observe and record abdominal inflammation signs",
+            "rationale": "Changes may indicate progression of diverticulitis"
+          },
+          {
+            "action": "Administer antibiotics per prescription and verify allergies",
+            "rationale": "Control bacterial flora and prevent sepsis"
+          },
+          {
+            "action": "Promote adequate fluid intake (≥2 L/day)",
+            "rationale": "Maintain perfusion and aid toxin elimination"
+          },
+          {
+            "action": "Educate patient on infection signs and when to seek help",
+            "rationale": "Facilitates early intervention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "diverticular bleeding",
+          "vomiting",
+          "diarrhea",
+          "laxative use",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake ≥ 2 L/day and output ≤ 1500 mL/day",
+          "Stable weight: variation < 0.5 kg in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output each shift",
+            "rationale": "Detect volume deficit or excess"
+          },
+          {
+            "action": "Weigh patient daily",
+            "rationale": "Monitor weight changes reflecting fluid loss or retention"
+          },
+          {
+            "action": "Administer isotonic saline IV if indicated",
+            "rationale": "Restore intravascular volume"
+          },
+          {
+            "action": "Encourage consumption of fiber-rich foods and fluids",
+            "rationale": "Prevents constipation and reduces bleeding risk"
+          },
+          {
+            "action": "Observe signs of dehydration (dry skin, turgor, mucous membranes)",
+            "rationale": "Identify early volume deficit"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "diverticulitis",
+    "colonic-perforation",
+    "intestinal-bleeding",
+    "peritonitis",
+    "colonic-obstruction"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diverticulosis and Diverticulitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diverticulosisanddiverticulitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Diverticulosis y diverticulitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/diverticulosisanddiverticulitis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-06",
+  "factcheck": {
+    "checked": "2026-11-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 21,
+      "not_found": 23,
+      "contradicted": 0,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Diverticulosis is the asymptomatic presence of diverticula, or protrusions, on the walls of the large intestine.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Diverticulosis occurrence is 20% in adults aged 40 to 60 years, but up to 60% after the age of 60 (Pemberton & Strate, 2023).",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "People with diverticulitis can also develop serious problems such as: Abscess , a painful, swollen, pus-filled area caused by infection",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Presence of inflamed diverticula in the sigmoid colon with pericolonic fat stranding.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Lifestyle factors such as: Diets low in fiber and high in red meat",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Diverticulosis occurrence is 20% in adults aged 40 to 60 years, but up to 60% after the age of 60 (Pemberton & Strate, 2023).",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Lifestyle factors such as: Diets low in fiber and high in red meat Lack of physical activity Taking certain medicines, such as nonsteroidal anti-inflammatory drugs (NSAIDs) and steroids Having obesity Smoking",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "The condition diverticulosis is the asymptomatic presence of diverticula , or sac-like protrusions, on the wal",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Your provider may recommend lifestyle changes to prevent diverticulitis: Eating a diet high in fiber and low in red meat Being physically active on a regular basis Not smoking (and quitting smoking if you are a smoker) Reaching and maintaining a healthy weigh t NIH: National Institute of Diabetes and Digestive and Kidney Diseases Start Here Diverticular Disease (National Institute of Diabetes and Digestive and Kidney Diseases) Also in Spanish Div",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "If you have diverticulitis without complications, your provider may recommend treatment at home.",
+        "source": 0
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Treatment typically includes a prescribed daily bowel regimen, such as oral stool softeners (e.g., docusate) and a mild stimulant laxative (e.g., a sennoside).",
+        "source": 2
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Diverticulitis is usually found when you are having an acute attack.",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Perforation causes the spilling of bacteria and bowel contents into the peritoneal cavity, causing a contained abscess or peritonitis.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Gut microbial changes and certain medications are believed to cause acute diverticulitis and diverticular hemorrhage.",
+        "source": 2
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "People with diverticulitis can also develop serious problems such as: Abscess , a painful, swollen, pus-filled area caused by infection Fistula , an abnormal opening or passage between the colon and another part of the body, such as the bladder or vagina Intestinal obstruction , a partial or total blockage that keeps food, fluids, air, or stool from moving through your intestines Perforation, or a hole, in your colon Peritonitis , an infection of",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Monitor the patient’s vital signs for an increase in temperature and heart rate, or reduction in blood pressure.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The nurse evaluates how often the patient is having bowel movements to see if there is improvement in the consistency and frequency of stools.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Nurses should administer IV fluids as ordered and encourage oral intake of fluids.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Signs of acute infection or bleeding are a high priority.",
+        "source": 2
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Eating a diet high in fiber and low in red meat",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Diverticulitis may cause acute symptoms such as: Abdominal pain, most often in the lower left side of your abdomen Constipation or diarrhea Fevers and chills Nausea or vomiting",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "id": "bronchitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Bronquitis aguda",
+    "aliases": [
+      "bronquitis",
+      "aguda",
+      "tos",
+      "mucosidad",
+      "inflamación bronquial"
+    ],
+    "summary": "Inflamación de los bronquios, generalmente de origen viral, que produce tos productiva, fiebre leve y disnea. Mejora en días, pero la tos puede persistir semanas.",
+    "key_points": [
+      "Causa más frecuente: virus respiratorios (resfrío, gripe).",
+      "Factores irritantes (humo de cigarrillo, contaminación) aumentan el riesgo.",
+      "Diagnóstico clínico; radiografía de tórax suele ser normal.",
+      "Tratamiento sintomático: hidratación, antitérmicos y broncodilatadores si hay sibilancias.",
+      "Complicación principal: evolución a neumonía."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infección viral irrita epitelio bronquial.",
+        "Se libera mediadores inflamatorios → edema y aumento de secreción mucosa.",
+        "Moco espeso obstruye vías pequeñas, provocando tos y sibilancias."
+      ],
+      "risk_factors": [
+        "Exposición a virus respiratorios (resfrío, influenza).",
+        "Humo de cigarrillo, contaminación del aire, polvo y vapores.",
+        "Inmunosupresión o enfermedades crónicas respiratorias.",
+        "Ambientes cerrados y contacto cercano con personas enfermas."
+      ],
+      "signs_symptoms": [
+        "Tos productiva con esputo claro o amarillento.",
+        "Fiebre baja (≤38 °C) y escalofríos.",
+        "Disnea leve y sibilancias al auscultar.",
+        "Dolor o presión torácica y sensación de opresión."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico con auscultación de crepitantes.",
+        "Radiografía de tórax: generalmente sin infiltrados.",
+        "Hemograma: leucocitosis leve o normal.",
+        "Pruebas virales (PCR) si se sospecha infección específica."
+      ],
+      "treatment": [
+        "Reposo y aumento de ingesta de líquidos (≥1500 mL/día).",
+        "Paracetamol o ibuprofeno para fiebre y dolor.",
+        "Humidificador o vapor para aflojar secreciones.",
+        "Broncodilatador inhalado (salbutamol) si hay sibilancias.",
+        "Acetilcisteína nebulizada como mucolítico en secreciones espesas."
+      ],
+      "complications": [
+        "Neumonía bacteriana secundaria.",
+        "Bronquitis crónica o exacerbación de EPOC.",
+        "Insuficiencia respiratoria en pacientes vulnerables.",
+        "Deshidratación por fiebre y pérdida de secreciones."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y SpO₂ cada 4 h.",
+        "Auscultar pulmones y registrar cambios en ruidos.",
+        "Fomentar posición semi‑Fowler para facilitar la expansión pulmonar.",
+        "Promover hidratación y uso de humidificador.",
+        "Administrar medicamentos según prescripción y observar efectos."
+      ],
+      "patient_teaching": [
+        "Beber al menos 1500 mL de líquidos al día y evitar bebidas alcohólicas.",
+        "No fumar ni exponerse a humo o contaminantes.",
+        "Practicar tos productiva y respiración con labios fruncidos.",
+        "Usar inhalador correctamente y registrar dosis.",
+        "Buscar atención médica si la fiebre persiste >3 días o hay dificultad respiratoria creciente."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "tos productiva",
+          "sibilancias",
+          "disnea leve",
+          "crepitantes en auscultación"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: respiración sin disnea en reposo en 48 h.",
+          "Oxigenación adecuada: SpO₂ ≥ 95% en reposo."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar frecuencia respiratoria y esfuerzo al respirar cada 4 h.",
+            "rationale": "Detectar cambios tempranos de deterioro respiratorio."
+          },
+          {
+            "action": "Auscultar campos pulmonares y registrar ruidos.",
+            "rationale": "Identificar presencia de sibilancias o crepitantes."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑Fowler.",
+            "rationale": "Facilita la expansión pulmonar y reduce el trabajo respiratorio."
+          },
+          {
+            "action": "Administrar broncodilatador inhalado según indicación.",
+            "rationale": "Alivia broncoconstricción y mejora el flujo de aire."
+          },
+          {
+            "action": "Enseñar técnica de respiración con labios fruncidos.",
+            "rationale": "Ayuda a mantener vías abiertas y reduce la disnea."
+          },
+          {
+            "action": "Fomentar ingesta de líquidos y uso de humidificador.",
+            "rationale": "Disuelve secreciones y facilita la expectoración."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "fiebre",
+          "pérdida de secreciones por tos",
+          "ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico mantenido: ingesta ≥ 1500 mL/día en 24 h.",
+          "Peso estable: variación ≤ 0,5 kg en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y eliminación de líquidos cada 8 h.",
+            "rationale": "Detectar déficit o exceso de volumen rápidamente."
+          },
+          {
+            "action": "Ofrecer agua, jugos claros y sopas entre comidas.",
+            "rationale": "Aumenta la hidratación y ayuda a fluidificar secreciones."
+          },
+          {
+            "action": "Evaluar turgencia cutánea y mucosas cada turno.",
+            "rationale": "Indicadores clínicos de deshidratación."
+          },
+          {
+            "action": "Recordar al paciente evitar bebidas con cafeína o alcohol.",
+            "rationale": "Reducen la retención de líquidos y aumentan la pérdida urinaria."
+          },
+          {
+            "action": "Educar sobre la importancia de hidratarse al presentar fiebre o tos.",
+            "rationale": "Previene complicaciones por deshidratación."
+          },
+          {
+            "action": "Notificar al médico si la ingesta es < 1000 mL/día o hay signos de deshidratación.",
+            "rationale": "Permite intervención temprana y ajuste de terapia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acute bronchitis",
+    "aliases": [
+      "bronchitis",
+      "acute",
+      "cough",
+      "mucus",
+      "bronchial inflammation"
+    ],
+    "summary": "Inflammation of the bronchi, usually viral in origin, producing productive cough, mild fever, and dyspnea. Improves in days, but cough may persist for weeks.",
+    "key_points": [
+      "Most common cause: respiratory viruses (cold, flu).",
+      "Irritating factors (cigarette smoke, pollution) increase risk.",
+      "Clinical diagnosis; chest X‑ray usually normal.",
+      "Symptomatic treatment: hydration, antipyretics and bronchodilators if wheezing.",
+      "Main complication: progression to pneumonia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Viral infection irritates bronchial epithelium.",
+        "Release of inflammatory mediators → edema and increased mucous secretion.",
+        "Thick mucus obstructs small airways, causing cough and wheezing."
+      ],
+      "risk_factors": [
+        "Exposure to respiratory viruses (cold, influenza).",
+        "Cigarette smoke, air pollution, dust and vapors.",
+        "Immunosuppression or chronic respiratory diseases.",
+        "Closed environments and close contact with sick individuals."
+      ],
+      "signs_symptoms": [
+        "Productive cough with clear or yellow sputum.",
+        "Low fever (≤38 °C) and chills.",
+        "Mild dyspnea and wheezing on auscultation.",
+        "Chest pain or pressure and sensation of oppression."
+      ],
+      "diagnostics": [
+        "Medical history and physical exam with auscultation of crackles.",
+        "Chest X‑ray: usually without infiltrates.",
+        "CBC: mild leukocytosis or normal.",
+        "Viral tests (PCR) if specific infection suspected."
+      ],
+      "treatment": [
+        "Rest and increased fluid intake (≥1500 mL/day).",
+        "Paracetamol or ibuprofen for fever and pain.",
+        "Humidifier or steam to loosen secretions.",
+        "Inhaled bronchodilator (salbutamol) if wheezing present.",
+        "Nebulized acetylcysteine as mucolytic for thick secretions."
+      ],
+      "complications": [
+        "Secondary bacterial pneumonia.",
+        "Chronic bronchitis or COPD exacerbation.",
+        "Respiratory failure in vulnerable patients.",
+        "Dehydration from fever and loss of secretions."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and SpO₂ every 4 h.",
+        "Auscultate lungs and record changes in sounds.",
+        "Encourage semi‑Fowler position to facilitate lung expansion.",
+        "Promote hydration and use of humidifier.",
+        "Administer medications as prescribed and observe effects."
+      ],
+      "patient_teaching": [
+        "Drink at least 1500 mL of fluids per day and avoid alcoholic beverages.",
+        "Do not smoke or expose yourself to smoke or contaminants.",
+        "Practice productive cough and pursed‑lip breathing.",
+        "Use inhaler correctly and record doses.",
+        "Seek medical attention if fever persists >3 days or if breathing difficulty increases."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "productive cough",
+          "wheezing",
+          "mild dyspnea",
+          "crackles on auscultation"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: breathing without dyspnea at rest within 48 h.",
+          "Adequate oxygenation: SpO₂ ≥ 95% at rest."
+        ],
+        "interventions": [
+          {
+            "action": "Assess respiratory rate and effort every 4 h.",
+            "rationale": "Detect early changes in respiratory deterioration."
+          },
+          {
+            "action": "Auscultate lung fields and record sounds.",
+            "rationale": "Identify presence of wheezing or crackles."
+          },
+          {
+            "action": "Place patient in semi‑Fowler position.",
+            "rationale": "Facilitates lung expansion and reduces work of breathing."
+          },
+          {
+            "action": "Administer inhaled bronchodilator as indicated.",
+            "rationale": "Relieves bronchoconstriction and improves airflow."
+          },
+          {
+            "action": "Teach pursed‑lip breathing technique.",
+            "rationale": "Helps keep airways open and reduces dyspnea."
+          },
+          {
+            "action": "Encourage fluid intake and use of humidifier.",
+            "rationale": "Dilutes secretions and facilitates expectoration."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "fever",
+          "loss of secretions from cough",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintained fluid balance: intake ≥ 1500 mL/day in 24 h.",
+          "Stable weight: variation ≤ 0.5 kg in 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Detect deficit or excess volume quickly."
+          },
+          {
+            "action": "Offer water, clear juices and soups between meals.",
+            "rationale": "Increases hydration and helps fluidify secretions."
+          },
+          {
+            "action": "Assess skin turgor and mucous membranes each shift.",
+            "rationale": "Clinical indicators of dehydration."
+          },
+          {
+            "action": "Remind patient to avoid caffeinated or alcoholic beverages.",
+            "rationale": "Reduce fluid retention and increase urine output."
+          },
+          {
+            "action": "Educate on importance of hydration when fever or cough present.",
+            "rationale": "Prevents complications from dehydration."
+          },
+          {
+            "action": "Notify physician if intake < 1000 mL/day or signs of dehydration appear.",
+            "rationale": "Allows early intervention and therapy adjustment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cough",
+    "viral-infection",
+    "airway-inflammation",
+    "bronchospasm",
+    "respiratory-secretions"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Acute Bronchitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/acutebronchitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Bronquitis aguda",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/acutebronchitis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Lower Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/23-2-introduction-to-the-lower-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Expectorants and Mucolytics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/24-3-expectorants-and-mucolytics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-06",
+  "factcheck": {
+    "checked": "2026-11-06",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Most cases of acute bronchitis get better within several days.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The same viruses that cause colds and the flu often cause acute bronchitis.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Being exposed to tobacco smoke, air pollution, dust, vapors, and fumes can also cause acute bronchitis.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "It causes a cough that often brings up mucus.",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Symptoms can be worsened by respiratory viruses such as influenza.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Being exposed to tobacco smoke, air pollution, dust, vapors, and fumes can also cause acute bronchitis.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "These viruses spread through the air when people cough, or through physical contact (for example, on unwashed hands).",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "A humidifier or steam can also help.",
+        "source": 0
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Acetylcysteine is used to help clients clear thick, tenacious mucus from the airways.",
+        "source": 3
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Chronic obstructive pulmonary disease (COPD) is a group of conditions that cause the blockage of air flow and result in breathing issues.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Treatments include rest, fluids, and aspirin (for adults) or acetaminophen to treat fever.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Being exposed to tobacco smoke, air pollution, dust, vapors, and fumes can also cause acute bronchitis.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
