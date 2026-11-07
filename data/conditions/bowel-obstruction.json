@@ -1,0 +1,461 @@
+{
+  "id": "bowel-obstruction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Obstrucción intestinal",
+    "aliases": [
+      "obstrucción intestinal",
+      "obstruccion intestinal",
+      "obstrucción",
+      "intestino bloqueado",
+      "obstrucción del intestino",
+      "obstrucción gastrointestinal"
+    ],
+    "summary": "Bloqueo parcial o total del tránsito del contenido gastrointestinal que impide el paso de alimentos y gases.",
+    "key_points": [
+      "Puede ser completa o parcial y requiere evaluación urgente.",
+      "Causas frecuentes: adherencias, hernias, tumores y algunos fármacos.",
+      "Los vómitos y la incapacidad de expulsar gases son signos de obstrucción alta.",
+      "El manejo incluye descompresión, reposición de líquidos y, a menudo, cirugía."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción mecánica impide el paso del contenido luminal.",
+        "Aumento de presión proximal genera distensión y edema de la mucosa.",
+        "Se reduce la perfusión intestinal, favoreciendo isquemia y posible perforación."
+      ],
+      "risk_factors": [
+        "Cirugías abdominales previas → adherencias.",
+        "Hernias inguinales o umbilicales.",
+        "Neoplasias gastrointestinales.",
+        "Uso de opioides o anticolinérgicos que disminuyen motilidad."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal cólico o constante, empeora con el tiempo.",
+        "Vómitos biliosos o fecaloides.",
+        "Distensión abdominal visible y tenso.",
+        "Ruidos intestinales hiperactivos al inicio, luego ausentes."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen: niveles hidroaéreos y dilatación de asas.",
+        "Tomografía axial computarizada: localiza nivel y causa de la obstrucción.",
+        "Laboratorio: CBC (leucocitosis), electrolitos, BUN/creatinina para evaluar deshidratación."
+      ],
+      "treatment": [
+        "NPO (nothing by mouth) para evitar mayor distensión.",
+        "Descompresión nasogástrica para eliminar contenido y gases.",
+        "Reposición de líquidos intravenosos (solución cristaloide isotónica).",
+        "Antibióticos profilácticos si se sospecha perforación o peritonitis.",
+        "Cirugía (resección o adhesiolisis) cuando la obstrucción es completa o no responde."
+      ],
+      "complications": [
+        "Perforación intestinal → peritonitis y sepsis.",
+        "Desequilibrio electrolítico por vómitos y succión NG.",
+        "Hipovolemia y shock hipovolémico.",
+        "Isquemia intestinal prolongada → necrosis."
+      ],
+      "nursing_care": [
+        "Evaluar dolor, distensión y sonidos intestinales cada 2‑4 h.",
+        "Monitorear signos vitales, presión arterial y diuresis.",
+        "Mantener y registrar el drenaje del tubo nasogástrico.",
+        "Administrar fluidos IV según órdenes y registrar balance hídrico.",
+        "Preparar al paciente para cirugía: ayuno, higiene y consentimiento."
+      ],
+      "patient_teaching": [
+        "Mantener ayuno completo hasta indicación médica.",
+        "Reportar aumento del dolor, fiebre o cambios en el drenaje NG.",
+        "Después de la cirugía, seguir dieta progresiva según tolerancia.",
+        "Importancia de movilizarse temprano para prevenir complicaciones respiratorias y trombóticas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos persistentes",
+          "Pérdida de líquidos por succión nasogástrica",
+          "Fiebre",
+          "Restricción de ingesta oral"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos equilibradas (±250 mL) en 24 h.",
+          "Peso corporal: no perder >2 % del peso corporal en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar ingesta y salida de líquidos cada 2 h.",
+            "rationale": "Permite detectar rápidamente desequilibrios de volumen."
+          },
+          {
+            "action": "Administrar fluidos IV según prescripción y monitorizar presión arterial y frecuencia cardíaca.",
+            "rationale": "Reemplaza pérdidas y previene hipotensión."
+          },
+          {
+            "action": "Mantener el tubo nasogástrico en posición adecuada y registrar volumen de aspirado.",
+            "rationale": "Evita pérdida excesiva de líquidos y controla la descompresión."
+          },
+          {
+            "action": "Observar signos de deshidratación (piel seca, turgencia, mucosas).",
+            "rationale": "Identifica temprano la necesidad de intervención adicional."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia del ayuno y la reposición de líquidos.",
+            "rationale": "Facilita la cooperación y reduce la ansiedad."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Vómitos y succión nasogástrica",
+          "Uso de diuréticos",
+          "Pérdida de líquidos intestinales"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: mantener Na⁺ 135‑145 mEq/L y K⁺ 3.5‑5.0 mEq/L.",
+          "ECG: sin alteraciones relacionadas con desequilibrios electrolíticos."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y comparar panel de electrolitos cada 12 h.",
+            "rationale": "Detecta desviaciones tempranas y guía la reposición."
+          },
+          {
+            "action": "Administrar soluciones electrolíticas IV según prescripción (ej. solución salina, Ringer lactato).",
+            "rationale": "Corrige déficit y previene complicaciones cardíacas."
+          },
+          {
+            "action": "Monitorear ritmo cardíaco y presión arterial continuamente.",
+            "rationale": "Los desequilibrios pueden producir arritmias."
+          },
+          {
+            "action": "Evaluar estado neurológico (confusión, debilidad) cada 4 h.",
+            "rationale": "Cambios pueden indicar alteraciones de Na⁺ o Ca²⁺."
+          },
+          {
+            "action": "Enseñar al paciente la importancia de reportar vómitos persistentes o diarrea.",
+            "rationale": "Facilita la detección precoz de pérdida de electrolitos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intestinal obstruction",
+    "aliases": [
+      "intestinal obstruction",
+      "obstruction",
+      "blocked intestine",
+      "intestinal blockage",
+      "gastrointestinal obstruction"
+    ],
+    "summary": "Partial or complete blockage of gastrointestinal transit that prevents the passage of food and gases.",
+    "key_points": [
+      "Can be complete or partial and requires urgent evaluation.",
+      "Common causes: adhesions, hernias, tumors and certain medications.",
+      "Vomiting and inability to pass gas are signs of high obstruction.",
+      "Management includes decompression, fluid replacement and often surgery."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mechanical obstruction prevents passage of luminal contents.",
+        "Proximal pressure increase causes distension and mucosal edema.",
+        "Reduced intestinal perfusion favors ischemia and possible perforation."
+      ],
+      "risk_factors": [
+        "Previous abdominal surgeries → adhesions.",
+        "Inguinal or umbilical hernias.",
+        "Gastrointestinal neoplasms.",
+        "Use of opioids or anticholinergics that decrease motility."
+      ],
+      "signs_symptoms": [
+        "Colicky or constant abdominal pain worsening over time.",
+        "Bilious or fecaloid vomiting.",
+        "Visible and tense abdominal distension.",
+        "Hyperactive bowel sounds initially, then absent."
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: air‑fluid levels and bowel dilation.",
+        "CT scan: localizes level and cause of obstruction.",
+        "Lab: CBC (leukocytosis), electrolytes, BUN/creatinine to assess dehydration."
+      ],
+      "treatment": [
+        "NPO (nothing by mouth) to avoid further distension.",
+        "Nasogastric decompression to remove contents and gases.",
+        "IV fluid replacement (isotonic crystalloid solution).",
+        "Prophylactic antibiotics if perforation or peritonitis suspected.",
+        "Surgery (resection or adhesiolysis) when obstruction is complete or unresponsive."
+      ],
+      "complications": [
+        "Intestinal perforation → peritonitis and sepsis.",
+        "Electrolyte imbalance from vomiting and NG suction.",
+        "Hypovolemia and hypovolemic shock.",
+        "Prolonged intestinal ischemia → necrosis."
+      ],
+      "nursing_care": [
+        "Assess pain, distension, and bowel sounds every 2‑4 h.",
+        "Monitor vital signs, blood pressure, and urine output.",
+        "Maintain and document NG tube drainage.",
+        "Administer IV fluids per orders and record fluid balance.",
+        "Prepare patient for surgery: fasting, hygiene, and consent."
+      ],
+      "patient_teaching": [
+        "Maintain complete fasting until medical instruction.",
+        "Report increased pain, fever, or changes in NG drainage.",
+        "After surgery, follow progressive diet as tolerated.",
+        "Importance of early mobilization to prevent respiratory and thrombotic complications."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Persistent vomiting",
+          "Fluid loss from nasogastric suction",
+          "Fever",
+          "Restriction of oral intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±250 mL in 24 h.",
+          "Body weight: do not lose >2 % of body weight in 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess and record fluid intake and output every 2 h.",
+            "rationale": "Allows rapid detection of volume imbalances."
+          },
+          {
+            "action": "Administer IV fluids per prescription and monitor blood pressure and heart rate.",
+            "rationale": "Replaces losses and prevents hypotension."
+          },
+          {
+            "action": "Keep NG tube in proper position and record aspirate volume.",
+            "rationale": "Prevents excessive fluid loss and controls decompression."
+          },
+          {
+            "action": "Observe signs of dehydration (dry skin, turgor, mucous membranes).",
+            "rationale": "Identifies early need for additional intervention."
+          },
+          {
+            "action": "Educate patient and family on the importance of fasting and fluid replacement.",
+            "rationale": "Facilitates cooperation and reduces anxiety."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Vomiting and NG suction",
+          "Use of diuretics",
+          "Intestinal fluid loss"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: maintain Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L.",
+          "ECG: no changes related to electrolyte imbalances."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and compare electrolyte panel every 12 h.",
+            "rationale": "Detects early deviations and guides replacement."
+          },
+          {
+            "action": "Administer IV electrolyte solutions per prescription (e.g., saline, Ringer lactate).",
+            "rationale": "Corrects deficits and prevents cardiac complications."
+          },
+          {
+            "action": "Continuously monitor heart rhythm and blood pressure.",
+            "rationale": "Electrolyte imbalances can cause arrhythmias."
+          },
+          {
+            "action": "Assess neurological status (confusion, weakness) every 4 h.",
+            "rationale": "Changes may indicate Na⁺ or Ca²⁺ alterations."
+          },
+          {
+            "action": "Teach patient the importance of reporting persistent vomiting or diarrhea.",
+            "rationale": "Facilitates early detection of electrolyte loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "intestinal-perforation",
+    "fluid-imbalance",
+    "electrolyte-disturbance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Intestinal Obstruction",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/intestinalobstruction.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Bowel Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-2-factors-affecting-bowel-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Diagnostic Evaluation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-3-diagnostic-evaluation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-07",
+  "factcheck": {
+    "checked": "2026-11-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An intestinal obstruction occurs when food or stool cannot move through the intestines.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The nurse promptly recognizes the need for urgent medical evaluation and intervention.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common are adhesions , hernias , cancers, and certain medicines.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "These medications bind to opioid receptors in the GI tract, slowing bowel motility and reducing intestinal secretions.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Abnormal findings (e.g., air-fluid levels, dilated loops of bowel, free air under the diaphragm) may indicate pathology.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Vomiting, a common symptom of various GI disorders (e.g., gastroenteritis, gastritis, GI obstruction) can disrupt electrolyte balance through loss of gastric fluid containing electrolytes.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

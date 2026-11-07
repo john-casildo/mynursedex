@@ -1,0 +1,471 @@
+{
+  "id": "critical-limb-ischemia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Isquemia Crítica de Extremidad (ICE)",
+    "aliases": [
+      "isquemia critica",
+      "isquemia critica de extremidad",
+      "claudicación",
+      "dolor en reposo",
+      "ulcera arterial",
+      "peripheral arterial disease"
+    ],
+    "summary": "Obstrucción arterial severa que produce dolor en reposo, úlceras y riesgo de gangrena en la extremidad afectada.",
+    "key_points": [
+      "Dolor en reposo y úlcera que no cicatriza son signos cardinales.",
+      "ABPI < 0.4 o presión transcutánea <30 mmHg indica isquemia crítica.",
+      "Revascularización (angioplastia o bypass) es el tratamiento definitivo.",
+      "Control de factores de riesgo (tabaquismo, diabetes, hipertensión) es esencial.",
+      "Cuidado de la herida y off‑loading reducen complicaciones."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aterosclerosis progresa hasta ocluir >70% del diámetro arterial.",
+        "Disminución del flujo sanguíneo distal produce hipoxia tisular.",
+        "El tejido responde con dolor en reposo y necrosis progresiva.",
+        "La falta de colateral suficiente lleva a ulceración y gangrena."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus tipo 2.",
+        "Tabaquismo crónico.",
+        "Hipertensión arterial y dislipidemia.",
+        "Enfermedad arterial periférica previa."
+      ],
+      "signs_symptoms": [
+        "Dolor intenso en reposo, a menudo nocturno.",
+        "Úlcera o gangrena en dedos o pie, con bordes bien delimitados.",
+        "Pulsos periféricos débiles o ausentes.",
+        "Cambios de coloración: piel pálida o cianótica."
+      ],
+      "diagnostics": [
+        "Índice tobillo‑braquial (ABPI) < 0.4.",
+        "Presión transcutánea del tejido (TcPO2) <30 mmHg.",
+        "Doppler arterial y ecografía duplex para localizar la lesión.",
+        "Angiografía por TC o MR para planificar revascularización."
+      ],
+      "treatment": [
+        "Antiplaquetario (ácido acetilsalicílico) y estatina para estabilizar placa.",
+        "Anticoagulación (heparina) en casos agudos o post‑intervención.",
+        "Revascularización: angioplastia con stent o bypass quirúrgico.",
+        "Cuidado de la herida: desbridamiento, apósitos húmedos y off‑loading."
+      ],
+      "complications": [
+        "Gangrena y pérdida de extremidad.",
+        "Infección de la úlcera (celulitis, osteomielitis).",
+        "Trombosis distal y embolia.",
+        "Insuficiencia renal por enfermedad vascular sistémica."
+      ],
+      "nursing_care": [
+        "Evaluar dolor (escala 0‑10) cada 2 h y registrar cambios.",
+        "Monitorear pulsos, temperatura y coloración distal cada turno.",
+        "Realizar cuidados de la herida según protocolo y registrar exudado.",
+        "Mantener extremidad en posición neutra y evitar compresión.",
+        "Controlar glucemia, presión arterial y lípidos según orden médica."
+      ],
+      "patient_teaching": [
+        "Dejar de fumar y evitar exposición al humo.",
+        "Inspeccionar pies diariamente y reportar cualquier lesión.",
+        "Usar calzado adecuado y evitar presión prolongada en la zona afectada.",
+        "Adherir al tratamiento con antiplaquetarios y estatinas.",
+        "Controlar diabetes, presión arterial y colesterol mediante dieta y ejercicio."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Perfusión tisular periférica ineficaz",
+        "type": "actual",
+        "related_to": [
+          "obstrucción arterial",
+          "diabetes mellitus",
+          "tabaquismo"
+        ],
+        "evidenced_by": [
+          "dolor en reposo",
+          "úlcera arterial",
+          "pulsos disminuidos",
+          "ABPI < 0.4",
+          "cambio de coloración"
+        ],
+        "outcomes": [
+          "Mejora de la perfusión tisular: ABPI ≥ 0.5 en 2 semanas",
+          "Alivio del dolor: escala de dolor ≤ 3 en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor y ABPI cada 4 h; registrar valores.",
+            "rationale": "Permite detectar mejoría o deterioro temprano de la perfusión."
+          },
+          {
+            "action": "Mantener la extremidad en posición neutra y elevar ligeramente el pie.",
+            "rationale": "Facilita el retorno venoso y reduce edema."
+          },
+          {
+            "action": "Aplicar apósitos húmedos y realizar desbridamiento según indicación.",
+            "rationale": "Promueve un ambiente óptimo para la cicatrización."
+          },
+          {
+            "action": "Administrar antiplaquetario y estatina según prescripción.",
+            "rationale": "Reduce progresión de la placa y mejora flujo sanguíneo."
+          },
+          {
+            "action": "Educar al paciente sobre inspección diaria del pie y signos de infección.",
+            "rationale": "Previene complicaciones y permite intervención temprana."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión por presión",
+        "type": "risk",
+        "related_to": [
+          "inmovilidad",
+          "úlcera arterial",
+          "malnutrición"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin desarrollo de úlceras por presión en 1 semana",
+          "Mantener integridad cutánea de la extremidad afectada"
+        ],
+        "interventions": [
+          {
+            "action": "Revisar la piel y los puntos de presión cada 2 h.",
+            "rationale": "Detecta cambios tempranos antes de que se forme úlcera."
+          },
+          {
+            "action": "Reposicionar al paciente cada 2 h, evitando presión directa sobre la zona afectada.",
+            "rationale": "Alivia la presión y mejora la perfusión local."
+          },
+          {
+            "action": "Utilizar colchón o almohadilla anti‑úlceras de baja densidad.",
+            "rationale": "Distribuye el peso y reduce el riesgo de daño tisular."
+          },
+          {
+            "action": "Mantener la piel limpia y bien hidratada con emolientes sin fragancia.",
+            "rationale": "Preserva la barrera cutánea y previene desgarros."
+          },
+          {
+            "action": "Fomentar ingesta adecuada de proteínas y calorías.",
+            "rationale": "Apoya la integridad y reparación de la piel."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Critical Limb Ischemia (CLI)",
+    "aliases": [
+      "critical ischemia",
+      "critical limb ischemia",
+      "claudication",
+      "rest pain",
+      "arterial ulcer",
+      "peripheral arterial disease"
+    ],
+    "summary": "Severe arterial obstruction that causes rest pain, ulcers, and risk of gangrene in the affected limb.",
+    "key_points": [
+      "Rest pain and non-healing ulcer are cardinal signs.",
+      "ABPI < 0.4 or transcutaneous pressure <30 mmHg indicates critical ischemia.",
+      "Revascularization (angioplasty or bypass) is definitive treatment.",
+      "Control of risk factors (smoking, diabetes, hypertension) is essential.",
+      "Wound care and off‑loading reduce complications."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Atherosclerosis progresses until >70% arterial diameter occlusion.",
+        "Reduced distal blood flow causes tissue hypoxia.",
+        "Tissue responds with rest pain and progressive necrosis.",
+        "Insufficient collateral circulation leads to ulceration and gangrene."
+      ],
+      "risk_factors": [
+        "Type 2 diabetes mellitus.",
+        "Chronic smoking.",
+        "Hypertension and dyslipidemia.",
+        "Prior peripheral arterial disease."
+      ],
+      "signs_symptoms": [
+        "Severe rest pain, often nocturnal.",
+        "Ulcer or gangrene on toes or foot with well‑defined edges.",
+        "Weak or absent peripheral pulses.",
+        "Color changes: pale or cyanotic skin."
+      ],
+      "diagnostics": [
+        "Ankle‑Brachial Index (ABPI) < 0.4.",
+        "Transcutaneous tissue pressure (TcPO2) <30 mmHg.",
+        "Arterial Doppler and duplex ultrasound to locate lesion.",
+        "CT or MR angiography to plan revascularization."
+      ],
+      "treatment": [
+        "Antiplatelet (acetylsalicylic acid) and statin to stabilize plaque.",
+        "Anticoagulation (heparin) in acute cases or post‑intervention.",
+        "Revascularization: angioplasty with stent or surgical bypass.",
+        "Wound care: debridement, moist dressings, and off‑loading."
+      ],
+      "complications": [
+        "Gangrene and limb loss.",
+        "Ulcer infection (cellulitis, osteomyelitis).",
+        "Distal thrombosis and embolism.",
+        "Renal failure from systemic vascular disease."
+      ],
+      "nursing_care": [
+        "Assess pain (0‑10 scale) every 2 h and record changes.",
+        "Monitor pulses, temperature, and distal color each shift.",
+        "Perform wound care per protocol and record exudate.",
+        "Keep limb in neutral position and avoid compression.",
+        "Control blood glucose, blood pressure, and lipids as ordered."
+      ],
+      "patient_teaching": [
+        "Quit smoking and avoid smoke exposure.",
+        "Inspect feet daily and report any lesions promptly.",
+        "Wear appropriate footwear and avoid prolonged pressure on affected area.",
+        "Adhere to antiplatelet and statin therapy.",
+        "Manage diabetes, blood pressure, and cholesterol with diet and exercise."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective peripheral tissue perfusion",
+        "type": "actual",
+        "related_to": [
+          "arterial obstruction",
+          "diabetes mellitus",
+          "smoking"
+        ],
+        "evidenced_by": [
+          "rest pain",
+          "arterial ulcer",
+          "decreased pulses",
+          "ABPI < 0.4",
+          "color change"
+        ],
+        "outcomes": [
+          "Improved tissue perfusion: ABPI ≥ 0.5 within 2 weeks",
+          "Pain relief: pain scale ≤ 3 within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain and ABPI every 4 h; record values.",
+            "rationale": "Allows early detection of improvement or deterioration in perfusion."
+          },
+          {
+            "action": "Keep limb in neutral position and slightly elevate the foot.",
+            "rationale": "Facilitates venous return and reduces edema."
+          },
+          {
+            "action": "Apply moist dressings and perform debridement as indicated.",
+            "rationale": "Promotes an optimal environment for healing."
+          },
+          {
+            "action": "Administer antiplatelet and statin as prescribed.",
+            "rationale": "Reduces plaque progression and improves blood flow."
+          },
+          {
+            "action": "Educate patient on daily foot inspection and infection signs.",
+            "rationale": "Prevents complications and enables early intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for pressure injury",
+        "type": "risk",
+        "related_to": [
+          "immobility",
+          "arterial ulcer",
+          "malnutrition"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No development of pressure ulcers within 1 week",
+          "Maintain skin integrity of affected limb"
+        ],
+        "interventions": [
+          {
+            "action": "Inspect skin and pressure points every 2 h.",
+            "rationale": "Detects early changes before ulcer formation."
+          },
+          {
+            "action": "Reposition patient every 2 h, avoiding direct pressure on affected area.",
+            "rationale": "Relieves pressure and improves local perfusion."
+          },
+          {
+            "action": "Use low‑density pressure‑relieving mattress or pad.",
+            "rationale": "Distributes weight and reduces tissue damage risk."
+          },
+          {
+            "action": "Keep skin clean and well‑hydrated with fragrance‑free emollients.",
+            "rationale": "Preserves skin barrier and prevents tears."
+          },
+          {
+            "action": "Encourage adequate protein and calorie intake.",
+            "rationale": "Supports skin integrity and repair."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "peripheral-arterial-disease",
+    "ulcer",
+    "gangrene",
+    "revascularization",
+    "diabetes-mellitus"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Assessment and Management of the Critically Ill Patient",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-1-assessment-and-management-of-the-critically-ill-patient",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Developing Critical Thinking Skills",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/28-2-developing-critical-thinking-skills",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-07",
+  "factcheck": {
+    "checked": "2026-11-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 40,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

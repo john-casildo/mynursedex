@@ -1,0 +1,501 @@
+{
+  "id": "colonic-perforation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Perforación colónica",
+    "aliases": [
+      "perforacion colonica",
+      "perforacion del colon",
+      "perforacion intestinal",
+      "perforacion gastrointestinal"
+    ],
+    "summary": "Ruptura de la pared del colon que permite el escape de contenido fecal y bacteriano al peritoneo, provocando peritonitis y sepsis.",
+    "key_points": [
+      "Es una emergencia quirúrgica que requiere estabilización hemodinámica inmediata",
+      "El aire libre bajo el diafragma en radiografía indica perforación",
+      "La causa más frecuente es diverticulitis complicada",
+      "El manejo incluye reposición de líquidos, antibióticos de amplio espectro y cirugía"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aumento de presión intraluminal por obstrucción o inflamación",
+        "Isquemia de la pared colónica → necrosis y ruptura",
+        "Salida de contenido fecal y bacterias al peritoneo",
+        "Respuesta inflamatoria → peritonitis y posible shock séptico"
+      ],
+      "risk_factors": [
+        "Diverticulitis complicada",
+        "Obstrucción mecánica (tumor, fecaloma)",
+        "Isquemia colónica (mesenteric ischemia)",
+        "Enfermedad inflamatoria intestinal",
+        "Uso crónico de AINES",
+        "Procedimientos invasivos (colonoscopia, enema)"
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal súbito, intenso y localizado",
+        "Rigidez y distensión abdominal",
+        "Fiebre >38 °C, taquicardia >100 lpm",
+        "Náuseas, vómitos, hipotensión arterial"
+      ],
+      "diagnostics": [
+        "Radiografía abdominal erecta: aire libre bajo diafragma",
+        "TC abdomen con contraste: perforación y colección",
+        "Leucocitosis >12 000 mm³ y lactato >2 mmol/L",
+        "Pruebas de función renal y electrolitos para guiar reposición"
+      ],
+      "treatment": [
+        "Reposición rápida de líquidos IV (cristaloides isotónicos)",
+        "Antibióticos de amplio espectro (p. ej. ceftriaxona + metronidazol)",
+        "Cirugía urgente: resección segmentaria o colostomía",
+        "Control del dolor y mantenimiento de NPO hasta cirugía"
+      ],
+      "complications": [
+        "Peritonitis generalizada",
+        "Sepsis y shock séptico",
+        "Absceso intraabdominal o fístula colónica",
+        "Insuficiencia renal aguda por hipoperfusión"
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 15‑30 min y reporte de cambios",
+        "Evaluar dolor y abdomen (tensión, ruidos) frecuentemente",
+        "Iniciar y registrar fluidos IV, balance hídrico estricto",
+        "Administrar antibióticos según prescripción y observar reacciones",
+        "Preparar al paciente para cirugía y mantener NPO"
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad del ayuno preoperatorio y la hidratación IV",
+        "Enseñar signos de infección o empeoramiento a reportar (fiebre, dolor creciente)",
+        "Instruir sobre movilización temprana y cuidados de la herida post‑operatoria",
+        "Orientar sobre dieta progresiva y prevención de estreñimiento (fibra, líquidos)"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "perforación colónica",
+          "pérdida de líquidos por vómitos",
+          "sepsis",
+          "hemorragia intraabdominal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h",
+          "Presión arterial: mantener MAP ≥65 mmHg",
+          "Peso: no variar más de 2 % del peso basal en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar fluidos IV con cristaloides isotónicos según cálculo de reposición",
+            "rationale": "Compensa la pérdida de líquidos y previene hipovolemia"
+          },
+          {
+            "action": "Monitorear entrada y salida de líquidos cada hora",
+            "rationale": "Permite detectar desequilibrios rápidamente"
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (turgencia capilar, temperatura distal)",
+            "rationale": "Detecta deterioro circulatorio temprano"
+          },
+          {
+            "action": "Ajustar la velocidad de infusión según presión arterial y diuresis",
+            "rationale": "Mantiene la hemodinámica estable"
+          },
+          {
+            "action": "Registrar peso diario y comparar con peso basal",
+            "rationale": "Identifica cambios de volumen corporal"
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de la hidratación IV y signos de deshidratación",
+            "rationale": "Fomenta la colaboración y detección precoz"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "perforación colónica",
+          "contaminación peritoneal",
+          "catéteres intravenosos",
+          "procedimiento quirúrgico"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Temperatura: mantener 36.5‑37.5 °C durante 48 h post‑operatorio",
+          "Leucocitos: mantener <10 000 mm³ en análisis de sangre",
+          "Sitio quirúrgico: ausencia de eritema, calor o secreción"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar técnica aséptica al manipular catéteres y curaciones",
+            "rationale": "Previene la introducción de microorganismos"
+          },
+          {
+            "action": "Administrar antibióticos profilácticos según orden médica y completar el ciclo",
+            "rationale": "Reduce la carga bacteriana y previene sepsis"
+          },
+          {
+            "action": "Realizar higiene de manos antes y después de cada contacto con el paciente",
+            "rationale": "Medida básica para evitar transmisión de infecciones"
+          },
+          {
+            "action": "Inspeccionar el sitio quirúrgico cada 4 h y reportar cambios",
+            "rationale": "Detecta infección temprana"
+          },
+          {
+            "action": "Monitorear temperatura y valores de leucocitos cada 8 h",
+            "rationale": "Identifica respuesta inflamatoria sistémica"
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección a reportar (fiebre, dolor, enrojecimiento)",
+            "rationale": "Facilita la detección precoz y el tratamiento oportuno"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Colonic perforation",
+    "aliases": [
+      "colonic perforation",
+      "colon perforation",
+      "intestinal perforation",
+      "gastrointestinal perforation"
+    ],
+    "summary": "Rupture of the colon wall allowing fecal and bacterial contents to escape into the peritoneum, causing peritonitis and sepsis.",
+    "key_points": [
+      "It is a surgical emergency requiring immediate hemodynamic stabilization",
+      "Free air under the diaphragm on X‑ray indicates perforation",
+      "The most common cause is complicated diverticulitis",
+      "Management includes fluid resuscitation, broad‑spectrum antibiotics, and surgery"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased intraluminal pressure from obstruction or inflammation",
+        "Colonic wall ischemia → necrosis and rupture",
+        "Release of fecal and bacterial contents into the peritoneum",
+        "Inflammatory response → peritonitis and possible septic shock"
+      ],
+      "risk_factors": [
+        "Complicated diverticulitis",
+        "Mechanical obstruction (tumor, fecaloma)",
+        "Colonic ischemia (mesenteric ischemia)",
+        "Inflammatory bowel disease",
+        "Chronic NSAID use",
+        "Invasive procedures (colonoscopy, enema)"
+      ],
+      "signs_symptoms": [
+        "Sudden, intense, localized abdominal pain",
+        "Abdominal rigidity and distension",
+        "Fever >38 °C, tachycardia >100 bpm",
+        "Nausea, vomiting, hypotension"
+      ],
+      "diagnostics": [
+        "Standing abdominal X‑ray: free air under diaphragm",
+        "Contrast abdominal CT: perforation and collection",
+        "Leukocytosis >12 000 mm³ and lactate >2 mmol/L",
+        "Renal function and electrolytes to guide replacement"
+      ],
+      "treatment": [
+        "Rapid IV fluid resuscitation with isotonic crystalloids",
+        "Broad‑spectrum antibiotics (e.g., ceftriaxone + metronidazole)",
+        "Urgent surgery: segmental resection or colostomy",
+        "Pain control and NPO until surgery"
+      ],
+      "complications": [
+        "Generalized peritonitis",
+        "Sepsis and septic shock",
+        "Intraabdominal abscess or colonic fistula",
+        "Acute renal failure from hypoperfusion"
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 min and report changes",
+        "Assess pain and abdomen (tension, sounds) frequently",
+        "Initiate and document IV fluids, strict fluid balance",
+        "Administer antibiotics per order and observe reactions",
+        "Prepare patient for surgery and maintain NPO"
+      ],
+      "patient_teaching": [
+        "Explain the need for preoperative fasting and IV hydration",
+        "Teach signs of infection or worsening to report (fever, increasing pain)",
+        "Instruct on early mobilization and postoperative wound care",
+        "Advise on progressive diet and constipation prevention (fiber, fluids)"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "colonic perforation",
+          "fluid loss from vomiting",
+          "sepsis",
+          "intraabdominal hemorrhage"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL/24 h",
+          "Blood pressure: maintain MAP ≥65 mmHg",
+          "Weight: not vary more than 2 % of baseline in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate IV fluids with isotonic crystalloids per replacement calculation",
+            "rationale": "Compensates for fluid loss and prevents hypovolemia"
+          },
+          {
+            "action": "Monitor fluid input and output hourly",
+            "rationale": "Allows rapid detection of imbalances"
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill, distal temperature)",
+            "rationale": "Detects early circulatory deterioration"
+          },
+          {
+            "action": "Adjust infusion rate based on blood pressure and diuresis",
+            "rationale": "Maintains stable hemodynamics"
+          },
+          {
+            "action": "Record daily weight and compare to baseline",
+            "rationale": "Identifies changes in body volume"
+          },
+          {
+            "action": "Educate patient and family on importance of IV hydration and dehydration signs",
+            "rationale": "Promotes collaboration and early detection"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "colonic perforation",
+          "peritoneal contamination",
+          "intravenous catheters",
+          "surgical procedure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Temperature: maintain 36.5‑37.5 °C for 48 h post‑op",
+          "Leukocytes: maintain <10 000 mm³ on blood count",
+          "Surgical site: absence of erythema, warmth, or drainage"
+        ],
+        "interventions": [
+          {
+            "action": "Apply aseptic technique when handling catheters and dressings",
+            "rationale": "Prevents introduction of microorganisms"
+          },
+          {
+            "action": "Administer prophylactic antibiotics per order and complete the course",
+            "rationale": "Reduces bacterial load and prevents sepsis"
+          },
+          {
+            "action": "Perform hand hygiene before and after each patient contact",
+            "rationale": "Basic measure to prevent infection transmission"
+          },
+          {
+            "action": "Inspect surgical site every 4 h and report changes",
+            "rationale": "Detects early infection"
+          },
+          {
+            "action": "Monitor temperature and leukocyte values every 8 h",
+            "rationale": "Identifies systemic inflammatory response"
+          },
+          {
+            "action": "Educate patient on infection signs to report (fever, pain, redness)",
+            "rationale": "Facilitates early detection and timely treatment"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "peritonitis",
+    "sepsis",
+    "diverticulitis",
+    "colonic-obstruction"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diverticulosis and Diverticulitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diverticulosisanddiverticulitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Ear",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/18-2-disorders-of-the-ear",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-07",
+  "factcheck": {
+    "checked": "2026-11-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Perforation causes the spilling of bacteria and bowel contents into the peritoneal cavity, causing a contained abscess or peritonitis.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Treatment for peritonitis depends on the severity of the infection, and can range from IV antibiotics, surgery, medications for organ support, IV fluids, or a combination of treatments (Jones et al., 2023)",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Perforation causes the spilling of bacteria and bowel contents into the peritoneal cavity, causing a contained abscess or peritonitis."
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "When peritonitis is left untreated, it can lead to fatal complications, such as sepsis and septic shock.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Patients may have a history of colorectal polyps, a genetic condition such as Lynch syndrome, chronic inflammatory bowel disease , heavy alcohol use, obesity , smoking, or a family history of colorectal cancer.",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.5": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Perforation causes the spilling of bacteria and bowel contents into the peritoneal cavity, causing a contained abscess or peritonitis.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "When peritonitis is left untreated, it can lead to fatal complications, such as sepsis and septic shock.",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "People with diverticulitis can also develop serious problems such as: Abscess , a painful, swollen, pus-filled area caused by infection Fistula , an abnormal opening or passage between the colon and another part of the body, such as the bladder or vagina",
+        "source": 0
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Monitor for worsening symptoms, increased pain, swelling, or fever.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

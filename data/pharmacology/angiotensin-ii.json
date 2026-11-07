@@ -1,0 +1,380 @@
+{
+  "id": "angiotensin-ii",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Angiotensina II",
+    "aliases": [
+      "angiotensina ii",
+      "angiotensina2",
+      "vasoconstrictor",
+      "shock distributivo",
+      "giapreza",
+      "angiotensin ii"
+    ],
+    "summary": "Hormona sintética que actúa como vasoconstrictor potente para elevar la presión arterial en choque séptico u otros choques distributivos.",
+    "key_points": [
+      "Incrementa la resistencia vascular sistémica mediante estimulación de receptores AT1.",
+      "Indicada en choque séptico refractario a fluidos y catecolaminas.",
+      "Mayor riesgo de eventos trombóticos; se requiere profilaxis de VTE.",
+      "Se monitoriza MAP y presión sistólica; se suspende si MAP >115 mmHg o SBP >180 mmHg.",
+      "No tiene contraindicaciones absolutas, pero se usa con precaución en pacientes con alto riesgo trombótico."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une a receptores AT1 en vasos sanguíneos, provocando vasoconstricción.",
+        "Aumenta la resistencia vascular sistémica y, por ende, la presión arterial media (MAP).",
+        "Estimula la liberación de aldosterona, favoreciendo retención de sodio y agua."
+      ],
+      "indications": [
+        "Choque séptico o distributivo que no responde a reposición voluminosa y catecolaminas.",
+        "Hipotensión grave en pacientes adultos bajo monitorización invasiva."
+      ],
+      "contraindications": [
+        "No existen contraindicaciones absolutas documentadas.",
+        "Precaución en pacientes con alto riesgo de trombosis arterial o venosa."
+      ],
+      "adverse_effects": [
+        "Eventos tromboembólicos (arteriales y venosos) – >10 % de los pacientes.",
+        "Hipertensión súbita, cefalea, palpitaciones.",
+        "Isquemia distal, dolor en extremidades (serious).",
+        "Infarto de miocardio o accidente cerebrovascular (serious)."
+      ],
+      "interactions": [
+        "Potenciación de hipertensión con otros vasoconstrictores (noradrenalina, vasopresina).",
+        "Aumento del riesgo trombótico con agentes procoagulantes.",
+        "Efecto disminuido si se administra simultáneamente vasodilatadores (nitroglicerina)."
+      ],
+      "nursing_care": [
+        "Evaluar MAP, presión sistólica y frecuencia cardíaca antes de la infusión.",
+        "Monitorear MAP cada 5 min; mantener MAP ≥65 mmHg y <115 mmHg.",
+        "Observar signos de trombosis: dolor, edema, cambio de color en extremidades.",
+        "Controlar gasto urinario cada hora; diuresis ≥0.5 mL/kg/h indica perfusión renal adecuada.",
+        "Suspender la infusión y notificar al médico si MAP >115 mmHg o SBP >180 mmHg.",
+        "Mantener profilaxis de VTE según protocolo institucional."
+      ],
+      "patient_teaching": [
+        "Explicar que el medicamento eleva la presión arterial para mantener órganos vitales perfundidos.",
+        "Informar sobre signos de coágulos (dolor, hinchazón, enrojecimiento) y reportarlos inmediatamente.",
+        "Indicar que la terapia es de corta duración y bajo estricta vigilancia.",
+        "Reforzar la importancia de la movilización temprana y el uso de medias de compresión si se indica."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión renal ineficaz",
+        "type": "risk",
+        "related_to": [
+          "Choque séptico",
+          "Hipotensión persistente",
+          "Uso de vasoconstrictores",
+          "Disfunción endotelial"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión renal: mantener diuresis ≥0.5 mL/kg/h en 24 h.",
+          "Presión arterial media: mantener MAP ≥65 mmHg durante la terapia."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear MAP invasivo cada 5 min y registrar valores.",
+            "rationale": "Permite ajustar la dosis rápidamente y prevenir hipertensión excesiva."
+          },
+          {
+            "action": "Evaluar gasto urinario cada hora y registrar volumen.",
+            "rationale": "Indicador directo de perfusión renal y respuesta al tratamiento."
+          },
+          {
+            "action": "Aplicar profilaxis de trombosis venosa profunda según orden médica.",
+            "rationale": "Reduce el riesgo de eventos trombóticos asociados al fármaco."
+          },
+          {
+            "action": "Observar y documentar cualquier signo de trombosis distal (dolor, edema, coloración).",
+            "rationale": "Detección temprana de complicaciones trombóticas para intervención oportuna."
+          },
+          {
+            "action": "Suspender la infusión y notificar al médico si MAP >115 mmHg o SBP >180 mmHg.",
+            "rationale": "Previene daño por hipertensión severa y complicaciones vasculares."
+          },
+          {
+            "action": "Revisar electrolitos y función renal cada 12 h.",
+            "rationale": "Asegura que la terapia no comprometa la homeostasis renal y electrolítica."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Angiotensin II",
+    "aliases": [
+      "angiotensin ii",
+      "angiotensin2",
+      "vasoconstrictor",
+      "distributive shock",
+      "giapreza"
+    ],
+    "summary": "Synthetic hormone that acts as a potent vasoconstrictor to raise blood pressure in septic or other distributive shock.",
+    "key_points": [
+      "Increases systemic vascular resistance by stimulating AT1 receptors.",
+      "Indicated for septic shock refractory to fluids and catecholamines.",
+      "Higher risk of thrombotic events; VTE prophylaxis required.",
+      "MAP and systolic blood pressure are monitored; infusion is stopped if MAP >115 mmHg or SBP >180 mmHg.",
+      "No absolute contraindications, but used with caution in patients at high thrombotic risk."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds to AT1 receptors in blood vessels, causing vasoconstriction.",
+        "Raises systemic vascular resistance and thus mean arterial pressure (MAP).",
+        "Stimulates aldosterone release, promoting sodium and water retention."
+      ],
+      "indications": [
+        "Septic or distributive shock unresponsive to volume resuscitation and catecholamines.",
+        "Severe hypotension in adults under invasive monitoring."
+      ],
+      "contraindications": [
+        "No documented absolute contraindications.",
+        "Caution in patients with high risk of arterial or venous thrombosis."
+      ],
+      "adverse_effects": [
+        "Thromboembolic events (arterial and venous) – >10 % of patients.",
+        "Sudden hypertension, headache, palpitations.",
+        "Distal ischemia, limb pain (serious).",
+        "Myocardial infarction or stroke (serious)."
+      ],
+      "interactions": [
+        "Potentiation of hypertension with other vasoconstrictors (norepinephrine, vasopressin).",
+        "Increased thrombotic risk with procoagulant agents.",
+        "Effect diminished if administered simultaneously with vasodilators (nitroglycerin)."
+      ],
+      "nursing_care": [
+        "Assess MAP, systolic pressure, and heart rate before infusion.",
+        "Monitor MAP every 5 min; maintain MAP ≥65 mmHg and <115 mmHg.",
+        "Observe for signs of thrombosis: pain, edema, color change in extremities.",
+        "Track hourly urine output; diuresis ≥0.5 mL/kg/h indicates adequate renal perfusion.",
+        "Stop infusion and notify physician if MAP >115 mmHg or SBP >180 mmHg.",
+        "Maintain VTE prophylaxis per institutional protocol."
+      ],
+      "patient_teaching": [
+        "Explain that the medication raises blood pressure to keep vital organs perfused.",
+        "Inform about signs of clots (pain, swelling, redness) and report them immediately.",
+        "Emphasize that therapy is short‑term and under strict monitoring.",
+        "Reinforce the importance of early mobilization and use of compression stockings if indicated."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective renal perfusion",
+        "type": "risk",
+        "related_to": [
+          "Septic shock",
+          "Persistent hypotension",
+          "Use of vasoconstrictors",
+          "Endothelial dysfunction"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Renal perfusion: maintain urine output ≥0.5 mL/kg/h in 24 h.",
+          "Mean arterial pressure: maintain MAP ≥65 mmHg during therapy."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor invasive MAP every 5 min and record values.",
+            "rationale": "Allows rapid dose adjustment and prevents excessive hypertension."
+          },
+          {
+            "action": "Assess hourly urine output and record volume.",
+            "rationale": "Direct indicator of renal perfusion and treatment response."
+          },
+          {
+            "action": "Apply deep vein thrombosis prophylaxis as ordered.",
+            "rationale": "Reduces risk of thrombotic events associated with the drug."
+          },
+          {
+            "action": "Observe and document any signs of distal thrombosis (pain, edema, discoloration).",
+            "rationale": "Early detection of thrombotic complications for timely intervention."
+          },
+          {
+            "action": "Stop infusion and notify physician if MAP >115 mmHg or SBP >180 mmHg.",
+            "rationale": "Prevents damage from severe hypertension and vascular complications."
+          },
+          {
+            "action": "Review electrolytes and renal function every 12 h.",
+            "rationale": "Ensures therapy does not compromise renal and electrolyte homeostasis."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "septic-shock",
+    "vasoconstriction",
+    "thromboembolism",
+    "renin-angiotensin-system",
+    "hypotension"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: ANGIOTENSIN II label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=727d1102-fc46-46f8-b78e-fd13f0738fe4",
+      "lang": "en"
+    },
+    {
+      "name": "RxNorm: angiotensin II",
+      "publisher": "National Library of Medicine",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=1999003",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Angiotensin II Receptor Blockers (ARBs)",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-3-angiotensin-ii-receptor-blockers-arbs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Drugs Affecting the Renin-Angiotensin-Aldosterone System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-2-drugs-affecting-the-renin-angiotensin-aldosterone-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-07",
+  "factcheck": {
+    "checked": "2026-11-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 17,
+      "contradicted": 1,
+      "total": 30
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Angiotensin II Injection is a sterile, aqueous solution of synthetic human angiotensin II for intravenous administration by infusion.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Direct action of angiotensin II on the vessel wall is mediated by binding to the G-protein coupled-angiotensin II receptor type 1 on vascular smooth muscle cells, which stimulates Ca 2+ /calmodulin-dependent phosphorylation of myosin and causes smooth muscle contraction.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The Angiotensin II for the Treatment of High-Output Shock (ATHOS-3) trial was a double-blind study in which 321 adults with septic or other distributive shock who remained hypotensive despite fluid and vasopressor therapy were randomized 1:1 to Angiotensin II or placebo.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "There was a higher incidence of arterial and venous thrombotic and thromboembolic events in patients who received Angiotensin II compared to placebo-treated patients in the ATHOS-3 study (13% vs.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "4 CONTRAINDICATIONS None.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Direct action of angiotensin II on the vessel wall is mediated by binding to the G-protein coupled-angiotensin II receptor type 1 on vascular smooth muscle cells, which stimulates Ca 2+ /calmodulin-dependent phosphorylation of myosin and causes smooth muscle contraction.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "At ≥ 450 ng/kg, Angiotensin II caused significantly elevated MAP and systemic vascular resistance, as expected.",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "4 CONTRAINDICATIONS None.",
+        "source": 0
+      },
+      "sections.contraindications.1": {
+        "status": "supported",
+        "quote": "There was a higher incidence of arterial and venous thrombotic and thromboembolic events in patients who received Angiotensin II compared to placebo-treated patients in the ATHOS-3 study (13% vs.",
+        "source": 0
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "supported",
+        "quote": "There was a higher incidence of arterial and venous thrombotic and thromboembolic events in patients who received Angiotensin II compared to placebo-treated patients in the ATHOS-3 study (13% vs.",
+        "source": 0
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "contradicted",
+        "quote": "Doses of Angiotensin II or placebo were titrated to a target mean arterial pressure (MAP) of ≥ 75 mmHg during the first 3 hours of treatment while doses of other vasopres",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "Use concurrent venous thromboembolism (VTE) prophylaxis.",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Angiotensin II raises blood pressure by vasoconstriction and increased aldosterone release.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

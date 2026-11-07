@@ -1,0 +1,550 @@
+{
+  "id": "viral-infection",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infección viral",
+    "aliases": [
+      "virus",
+      "infeccion viral",
+      "infeccion",
+      "viral",
+      "contagio",
+      "patogenico"
+    ],
+    "summary": "Enfermedad causada por la invasión y replicación de virus en las células del huésped, provocando respuesta inflamatoria y síntomas sistémicos.",
+    "key_points": [
+      "Los virus usan la maquinaria celular para replicarse.",
+      "Transmisión principalmente por gotas respiratorias y contacto directo.",
+      "El diagnóstico se basa en pruebas de detección de antígeno, PCR o serología.",
+      "El tratamiento es mayormente de soporte; antivirales específicos según el virus.",
+      "Complicaciones graves incluyen neumonía y sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El virus se adhiere a receptores celulares y penetra la membrana.",
+        "Libera su material genético (ADN o ARN) dentro de la célula.",
+        "Utiliza la maquinaria del huésped para producir nuevas partículas virales.",
+        "La lisis celular y la respuesta inmune generan inflamación y síntomas."
+      ],
+      "risk_factors": [
+        "Contacto cercano con personas infectadas.",
+        "Sistema inmune comprometido (VIH, quimioterapia).",
+        "Viajes a áreas endémicas.",
+        "Falta de vacunación contra influenza o VPH.",
+        "Higiene de manos deficiente."
+      ],
+      "signs_symptoms": [
+        "Fiebre y escalofríos.",
+        "Mialgias y cefalea.",
+        "Tos, congestión nasal o rinorrea.",
+        "Dolor de garganta y odinofagia.",
+        "Diarrea o erupción cutánea según el virus."
+      ],
+      "diagnostics": [
+        "PCR o cultivo viral del sitio afectado.",
+        "Prueba rápida de antígeno (influenza, COVID‑19).",
+        "Serología IgM/IgG para determinar fase aguda o pasada.",
+        "Hemograma: leucocitosis o linfocitosis.",
+        "Radiografía de tórax si se sospecha neumonía."
+      ],
+      "treatment": [
+        "Aislamiento de transmisión según vía (gotas o contacto).",
+        "Terapia de soporte: hidratación oral o IV, control de temperatura.",
+        "Antipiréticos (paracetamol).",
+        "Antivirales específicos (oseltamivir, aciclovir, remdesivir) según etiología.",
+        "Vacunación preventiva (influenza, VPH, COVID‑19)."
+      ],
+      "complications": [
+        "Neumonía viral o bacteriana secundaria.",
+        "Insuficiencia respiratoria aguda.",
+        "Sepsis y shock séptico.",
+        "Exacerbación de enfermedades crónicas (asma, EPOC).",
+        "Síndrome de Guillain‑Barré o encefalitis."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4 h y registrar temperatura.",
+        "Monitorear hidratación: ingesta, salida de orina y turgencia cutánea.",
+        "Administrar antipiréticos según indicación y observar respuesta.",
+        "Aplicar medidas de aislamiento y educar al personal y familia.",
+        "Observar cambios respiratorios y notificar dificultad creciente."
+      ],
+      "patient_teaching": [
+        "Lavado de manos frecuente con agua y jabón o alcohol gel.",
+        "Cubrir boca y nariz al toser o estornudar con pañuelo o codo.",
+        "Evitar contacto cercano con personas enfermas durante la enfermedad.",
+        "Mantener hidratación adecuada (≥ 2 L/día) y reposo.",
+        "Completar el curso de antivirales y acudir a control si empeora."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "contacto cercano con personas infectadas",
+          "sistema inmune comprometido",
+          "uso de dispositivos invasivos",
+          "ambiente hospitalario"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado de infección: sin evidencia de infección secundaria en 48 h",
+          "Prevención: paciente demostrará técnicas de control de infecciones en 100 % de oportunidades"
+        ],
+        "interventions": [
+          {
+            "action": "Enseñar y reforzar lavado de manos antes y después de cada contacto",
+            "rationale": "Reduce la transmisión de patógenos por vía manual"
+          },
+          {
+            "action": "Aplicar aislamiento de contacto o gotas según orden médica",
+            "rationale": "Previene la diseminación del virus a otros pacientes y al personal"
+          },
+          {
+            "action": "Verificar y registrar uso correcto de equipo de protección personal (EPP)",
+            "rationale": "Asegura la barrera adecuada contra exposición"
+          },
+          {
+            "action": "Monitorear signos de infección secundaria (fiebre, aumento de leucocitos)",
+            "rationale": "Permite detección temprana y tratamiento oportuno"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de completar el esquema de vacunación",
+            "rationale": "Reduce riesgo de futuras infecciones virales"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "fiebre alta",
+          "vómitos",
+          "diarrea",
+          "pérdida de apetito"
+        ],
+        "evidenced_by": [
+          "piel seca",
+          "turgencia cutánea disminuida",
+          "orina oscura",
+          "taquicardia",
+          "presión arterial baja"
+        ],
+        "outcomes": [
+          "Hidratación: ingesta de líquidos ≥ 2 L/día en 48 h",
+          "Balance hídrico: peso estable ± 0.5 kg en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada 4 h",
+            "rationale": "Permite identificar déficit y ajustar reposición"
+          },
+          {
+            "action": "Administrar solución cristaloide IV según orden médica",
+            "rationale": "Restablece el volumen intravascular y perfusión tisular"
+          },
+          {
+            "action": "Ofrecer líquidos orales frecuentemente (agua, suero oral) si está permitido",
+            "rationale": "Facilita la rehidratación y reduce necesidad de IV"
+          },
+          {
+            "action": "Monitorear signos vitales y turgencia cutánea después de reposición",
+            "rationale": "Evalúa efectividad de la terapia y detecta sobrecarga"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de mantener hidratación adecuada",
+            "rationale": "Promueve autocuidado y prevención de recaídas"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Viral infection",
+    "aliases": [
+      "virus",
+      "viral infection",
+      "infection",
+      "viral",
+      "contagion",
+      "pathogenic"
+    ],
+    "summary": "Disease caused by the invasion and replication of viruses in host cells, leading to inflammatory response and systemic symptoms.",
+    "key_points": [
+      "Viruses use host cellular machinery to replicate.",
+      "Transmission mainly via respiratory droplets and direct contact.",
+      "Diagnosis is based on antigen detection, PCR or serology tests.",
+      "Treatment is mostly supportive; specific antivirals depending on the virus.",
+      "Severe complications include pneumonia and sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The virus attaches to cellular receptors and penetrates the membrane.",
+        "It releases its genetic material (DNA or RNA) into the cell.",
+        "It uses the host machinery to produce new viral particles.",
+        "Cell lysis and immune response generate inflammation and symptoms."
+      ],
+      "risk_factors": [
+        "Close contact with infected individuals.",
+        "Compromised immune system (HIV, chemotherapy).",
+        "Travel to endemic areas.",
+        "Lack of vaccination against influenza or HPV.",
+        "Poor hand hygiene."
+      ],
+      "signs_symptoms": [
+        "Fever and chills.",
+        "Myalgia and headache.",
+        "Cough, nasal congestion or rhinorrhea.",
+        "Sore throat and odynophagia.",
+        "Diarrhea or rash depending on the virus."
+      ],
+      "diagnostics": [
+        "PCR or viral culture from affected site.",
+        "Rapid antigen test (influenza, COVID‑19).",
+        "IgM/IgG serology to determine acute or past phase.",
+        "CBC: leukocytosis or lymphocytosis.",
+        "Chest X‑ray if pneumonia is suspected."
+      ],
+      "treatment": [
+        "Isolation based on transmission route (droplet or contact).",
+        "Supportive therapy: oral or IV hydration, temperature control.",
+        "Antipyretics (acetaminophen).",
+        "Specific antivirals (oseltamivir, acyclovir, remdesivir) per etiology.",
+        "Preventive vaccination (influenza, HPV, COVID‑19)."
+      ],
+      "complications": [
+        "Secondary viral or bacterial pneumonia.",
+        "Acute respiratory failure.",
+        "Sepsis and septic shock.",
+        "Exacerbation of chronic diseases (asthma, COPD).",
+        "Guillain‑Barré syndrome or encephalitis."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4 h and record temperature.",
+        "Monitor hydration: intake, urine output, and skin turgor.",
+        "Administer antipyretics as ordered and observe response.",
+        "Implement isolation measures and educate staff and family.",
+        "Observe respiratory changes and report increasing difficulty."
+      ],
+      "patient_teaching": [
+        "Frequent hand washing with soap and water or alcohol gel.",
+        "Cover mouth and nose when coughing or sneezing with a tissue or elbow.",
+        "Avoid close contact with sick individuals during illness.",
+        "Maintain adequate hydration (≥ 2 L/day) and rest.",
+        "Complete the full course of antivirals and seek follow‑up if worsening."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "close contact with infected individuals",
+          "compromised immune system",
+          "use of invasive devices",
+          "hospital environment"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection status: no evidence of secondary infection within 48 h",
+          "Prevention: patient demonstrates infection control techniques 100 % of the time"
+        ],
+        "interventions": [
+          {
+            "action": "Teach and reinforce hand washing before and after each contact",
+            "rationale": "Reduces transmission of pathogens via manual route"
+          },
+          {
+            "action": "Apply contact or droplet isolation as ordered by physician",
+            "rationale": "Prevents spread of virus to other patients and staff"
+          },
+          {
+            "action": "Verify and record correct use of personal protective equipment (PPE)",
+            "rationale": "Ensures adequate barrier against exposure"
+          },
+          {
+            "action": "Monitor signs of secondary infection (fever, increased leukocytes)",
+            "rationale": "Allows early detection and timely treatment"
+          },
+          {
+            "action": "Educate patient on importance of completing vaccination schedule",
+            "rationale": "Reduces risk of future viral infections"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "high fever",
+          "vomiting",
+          "diarrhea",
+          "loss of appetite"
+        ],
+        "evidenced_by": [
+          "dry skin",
+          "decreased skin turgor",
+          "dark urine",
+          "tachycardia",
+          "low blood pressure"
+        ],
+        "outcomes": [
+          "Hydration: fluid intake ≥ 2 L/day within 48 h",
+          "Fluid balance: weight stable ± 0.5 kg within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output every 4 h",
+            "rationale": "Identifies deficit and adjusts replacement"
+          },
+          {
+            "action": "Administer IV crystalloid solution as ordered by physician",
+            "rationale": "Restores intravascular volume and tissue perfusion"
+          },
+          {
+            "action": "Offer oral fluids frequently (water, oral rehydration) if tolerated",
+            "rationale": "Facilitates rehydration and reduces need for IV"
+          },
+          {
+            "action": "Monitor vital signs and skin turgor after replacement",
+            "rationale": "Evaluates effectiveness of therapy and detects overload"
+          },
+          {
+            "action": "Educate patient on importance of maintaining adequate hydration",
+            "rationale": "Promotes self‑care and prevention of relapse"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "viral-replication",
+    "immune-response",
+    "antiviral-therapy",
+    "infection-control",
+    "fever"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Viral Infections",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/viralinfections.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Infecciones virales",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/viralinfections.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Viral and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-2-viral-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Sexually Transmitted Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/7-1-sexually-transmitted-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-07",
+  "factcheck": {
+    "checked": "2026-11-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 19,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Following the initial infection, the virus invades the host’s cells, injects its genetic material, and uses the host cell’s components to replicate and produce more viruses.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "For all types of hepatitis, supportive therapy including rest and fluids are indicated.",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "They can develop fetal hydrops (abnormal accumulation of fluid in the fetal tissues), myocarditis, pneumonia, sepsis, and central nervous system dysfunction that can lead to hydrocephalus, cranial nerve palsies, optic atrophy, blindness, deafness, neurodevelopmental regression, seizures, and fetal death (Arrieta, 2023).",
+        "source": 3
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Following the initial infection, the virus invades the host’s cells, injects its genetic material, and uses the host cell’s components to replicate and produce more viruses.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Following the initial infection, the virus invades the host’s cells, injects its genetic material, and uses the host cell’s components to replicate and produce more viruses.",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "The hepatitis A virus is generally transmitted through the fecal-oral route, close personal contact, or exposure to contaminated water or food.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "If you travel to an area that has a high risk of diseases from insect bites, also wear long pants, shirts, and socks.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Beyond treatment, it also remains important to receive annual influenza vaccinations to decrease the risk of infection.",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Infection control: Nurses should perform adequate hand hygiene when caring for all patients, but especially patients with infections that are easily spread.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Early symptoms that may be indicative of influenza include: cough fatigue fever or chills headache muscle and body aches shortness of breath",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Most viral infections cause vague general symptoms, including fatigue, muscle aches, and headache.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Coronaviruses are often the cause of the relatively mild cluster of symptoms, including sore throat, congestion, and cough, known as the “common cold.”",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Nausea, vomiting, or diarrhea",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "HSV NAAT assay PCR serum Viral culture",
+        "source": 3
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "providers often order rapid influenza and COVID-19 tests to see if either of those infections is the cause of the symptoms, because they both present similarly.",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "For all types of hepatitis, supportive therapy including rest and fluids are indicated.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Complications Most often, HSV causes oral infection or genital lesions, but more severe cases can lead to disseminated infection, pneumonitis, hepatitis, or CNS complications such as meningitis or encephalitis.",
+        "source": 3
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Symptom management: This includes administering antipyretics to decrease fever, analgesics for pain, and cough suppressants as needed.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Avoiding close contact with people who are sick.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,453 @@
+{
+  "id": "wound-infection",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infección de la herida (IH)",
+    "aliases": [
+      "infeccion herida",
+      "herida infectada",
+      "infeccion cutanea",
+      "ulcera infectada",
+      "signos infección"
+    ],
+    "summary": "Infección de la herida ocurre cuando microorganismos colonizan el tejido lesionado, provocando inflamación y retraso de la cicatrización.",
+    "key_points": [
+      "Presencia de calor, enrojecimiento, dolor, edema y secreción purulenta.",
+      "Factores de riesgo incluyen diabetes, mala perfusión y manejo inadecuado del apósito.",
+      "Cultivo de exudado guía la terapia antibiótica.",
+      "El control del dolor y la higiene son esenciales para la curación."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los microorganismos ingresan al tejido dañado y se multiplican.",
+        "Se libera citocinas que aumentan la permeabilidad capilar y atraen leucocitos.",
+        "El exudado purulento contiene neutrófilos, bacterias y tejido necrosado.",
+        "La respuesta inflamatoria prolongada retrasa la proliferación de fibroblastos."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus con glucemia > 180 mg/dL.",
+        "Perfusión periférica pobre (presión arterial < 90 mmHg).",
+        "Manejo inadecuado del apósito o falta de asepsia.",
+        "Lesiones profundas, exposición a cuerpos extraños o mordeduras."
+      ],
+      "signs_symptoms": [
+        "Enrojecimiento y calor local > 2 °C sobre la zona normal.",
+        "Dolor que aumenta al tocar la herida.",
+        "Edema y secreción purulenta o maloliente.",
+        "Fiebre > 38 °C y taquicardia > 100 lpm en casos sistémicos."
+      ],
+      "diagnostics": [
+        "Inspección visual: exudado purulento, bordes inflamados.",
+        "Cultivo de exudado: crecimiento bacteriano, guía antibiótico.",
+        "Hemograma: leucocitosis > 12 ×10^3 µL.",
+        "Glucemia: > 180 mg/dL indica mayor riesgo de infección."
+      ],
+      "treatment": [
+        "Limpieza con solución salina estéril y desbridamiento si es necesario.",
+        "Aplicación de apósitos estériles con agente antimicrobiano (p. ej., sulfadiazina de plata).",
+        "Antibiótico sistémico según cultivo (p. ej., amoxicilina‑ácido clavulánico).",
+        "Control del dolor con analgésicos (paracetamol, ibuprofeno)."
+      ],
+      "complications": [
+        "Celulitis o fascitis necrotizante.",
+        "Septicemia y choque séptico.",
+        "Retardo de la cicatrización y formación de absceso.",
+        "Desbalance electrolítico por pérdida de exudado."
+      ],
+      "nursing_care": [
+        "Evaluar signos de infección cada 4 h y registrar temperatura y aspecto de la herida.",
+        "Mantener técnica aséptica al cambiar apósitos.",
+        "Controlar dolor antes y después del curativo.",
+        "Monitorear glucemia y presión arterial para detectar factores de riesgo."
+      ],
+      "patient_teaching": [
+        "Enseñar lavado de manos y cuidado del apósito en casa.",
+        "Informar signos de alarma: aumento de dolor, fiebre, secreción maloliente.",
+        "Reforzar la importancia del control glucémico en diabéticos.",
+        "Indicar evitar presión o fricción sobre la zona lesionada."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "diabetes",
+          "perfusión periférica pobre",
+          "manejo inadecuado del apósito",
+          "lesión profunda"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reducción de signos de infección: ausencia de enrojecimiento y secreción en 72 h",
+          "NOC: Conocimiento del autocuidado: paciente identifica 3 signos de infección en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar evaluación de la herida cada 4 h usando escala de signos de infección.",
+            "rationale": "Detectar cambios tempranos permite intervención oportuna."
+          },
+          {
+            "action": "Aplicar apósitos estériles siguiendo técnica aséptica.",
+            "rationale": "Previene la colonización de nuevos microorganismos."
+          },
+          {
+            "action": "Enseñar al paciente el procedimiento de cambio de apósito en casa.",
+            "rationale": "Promueve la continuidad del cuidado y reduce riesgo de reinfección."
+          },
+          {
+            "action": "Registrar y reportar cualquier aumento de temperatura > 38 °C al médico.",
+            "rationale": "La fiebre puede indicar propagación sistémica de la infección."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "inflamación de la herida",
+          "presión sobre la zona lesionada"
+        ],
+        "evidenced_by": [
+          "expresión verbal de dolor",
+          "aumento de frecuencia cardíaca",
+          "tensión facial"
+        ],
+        "outcomes": [
+          "NOC: Control del dolor: nivel de dolor ≤ 3/10 en 30 min después de la analgesia",
+          "NOC: Mejora del confort: paciente reporta mayor comodidad al cambiar apósitos"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar intensidad del dolor con escala numérica antes y después de la analgesia.",
+            "rationale": "Permite medir la efectividad del tratamiento."
+          },
+          {
+            "action": "Administrar analgésico según prescripción antes del curativo.",
+            "rationale": "Reduce la percepción de dolor durante la manipulación de la herida."
+          },
+          {
+            "action": "Aplicar técnicas de relajación y respiración profunda durante el cambio de apósito.",
+            "rationale": "Disminuye la respuesta fisiológica al dolor."
+          },
+          {
+            "action": "Documentar respuesta al analgésico y notificar al médico si el dolor persiste > 5/10.",
+            "rationale": "Facilita ajustes terapéuticos oportunos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Wound Infection (WI)",
+    "aliases": [
+      "wound infection",
+      "infected wound",
+      "cutaneous infection",
+      "infected ulcer",
+      "infection signs"
+    ],
+    "summary": "Wound infection occurs when microorganisms colonize damaged tissue, causing inflammation and delayed healing.",
+    "key_points": [
+      "Presence of heat, redness, pain, edema, and purulent drainage.",
+      "Risk factors include diabetes, poor perfusion, and inadequate dressing management.",
+      "Exudate culture guides antibiotic therapy.",
+      "Pain control and hygiene are essential for healing."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Microorganisms enter damaged tissue and multiply.",
+        "Cytokines are released, increasing capillary permeability and attracting leukocytes.",
+        "Purulent exudate contains neutrophils, bacteria, and necrotic tissue.",
+        "Prolonged inflammatory response delays fibroblast proliferation."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus with glucose > 180 mg/dL.",
+        "Poor peripheral perfusion (blood pressure < 90 mmHg).",
+        "Inadequate dressing management or lack of asepsis.",
+        "Deep wounds, foreign body exposure, or bites."
+      ],
+      "signs_symptoms": [
+        "Local redness and heat > 2 °C above normal.",
+        "Pain that increases with touch.",
+        "Edema and purulent or foul-smelling drainage.",
+        "Fever > 38 °C and tachycardia > 100 bpm in systemic cases."
+      ],
+      "diagnostics": [
+        "Visual inspection: purulent exudate, inflamed edges.",
+        "Exudate culture: bacterial growth guides antibiotic choice.",
+        "CBC: leukocytosis > 12 ×10^3 µL.",
+        "Glucose: > 180 mg/dL indicates higher infection risk."
+      ],
+      "treatment": [
+        "Clean with sterile saline and debride if necessary.",
+        "Apply sterile dressings with antimicrobial agent (e.g., silver sulfadiazine).",
+        "Systemic antibiotic per culture (e.g., amoxicillin‑clavulanate).",
+        "Pain control with analgesics (acetaminophen, ibuprofen)."
+      ],
+      "complications": [
+        "Cellulitis or necrotizing fasciitis.",
+        "Septicemia and septic shock.",
+        "Delayed healing and abscess formation.",
+        "Electrolyte imbalance from exudate loss."
+      ],
+      "nursing_care": [
+        "Assess infection signs every 4 h and record temperature and wound appearance.",
+        "Maintain aseptic technique when changing dressings.",
+        "Control pain before and after dressing changes.",
+        "Monitor glucose and blood pressure to detect risk factors."
+      ],
+      "patient_teaching": [
+        "Teach handwashing and dressing care at home.",
+        "Inform alarm signs: increased pain, fever, foul drainage.",
+        "Emphasize importance of glucose control in diabetics.",
+        "Advise avoiding pressure or friction on the wound area."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "diabetes",
+          "poor peripheral perfusion",
+          "inadequate dressing management",
+          "deep wound"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reduction of infection signs: absence of redness and drainage within 72 h",
+          "NOC: Self-care knowledge: patient identifies 3 infection signs within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Perform wound assessment every 4 h using infection sign scale.",
+            "rationale": "Early detection allows timely intervention."
+          },
+          {
+            "action": "Apply sterile dressings following aseptic technique.",
+            "rationale": "Prevents colonization by new microorganisms."
+          },
+          {
+            "action": "Teach the patient how to change dressings at home.",
+            "rationale": "Promotes continuity of care and reduces reinfection risk."
+          },
+          {
+            "action": "Record and report any temperature increase > 38 °C to the physician.",
+            "rationale": "Fever may indicate systemic spread of infection."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "wound inflammation",
+          "pressure on the wound area"
+        ],
+        "evidenced_by": [
+          "verbal pain expression",
+          "increased heart rate",
+          "facial tension"
+        ],
+        "outcomes": [
+          "NOC: Pain control: pain level ≤ 3/10 within 30 min after analgesia",
+          "NOC: Comfort improvement: patient reports greater comfort during dressing changes"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain intensity with numeric scale before and after analgesia.",
+            "rationale": "Measures treatment effectiveness."
+          },
+          {
+            "action": "Administer analgesic per prescription before dressing change.",
+            "rationale": "Reduces pain perception during wound manipulation."
+          },
+          {
+            "action": "Apply relaxation and deep breathing techniques during dressing change.",
+            "rationale": "Decreases physiological response to pain."
+          },
+          {
+            "action": "Document analgesic response and notify physician if pain persists > 5/10.",
+            "rationale": "Facilitates timely therapeutic adjustments."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cellulitis",
+    "sepsis",
+    "wound-dehiscence",
+    "diabetes-mellitus"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Wounds and Injuries",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/woundsandinjuries.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Wound Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/8-3-wound-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Wound Healing",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/24-4-wound-healing",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-07",
+  "factcheck": {
+    "checked": "2026-11-07",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "You should also seek attention if the wound is deep, you cannot close it yourself, you cannot stop the bleeding or get the dirt out, or it does not heal.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Upon assessment, the wound is red with purulent drainage and surrounded by edematous tissue.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Upon assessment, the wound is red with purulent drainage and surrounded by edematous tissue.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Normal saline solution (i.e., 0.9 percent sodium chloride) is the typical cleaning agent used in wound care.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Appropriate aseptic techniques should be used to prevent infection or reinfection.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Dressing changes allow for an opportune teaching moment, so that the nurse can demonstrate dressing changes that the patient can do at home.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Signs and symptoms include fever, flu-like symptoms, increased pain, thick drainage with a foul odor that may be yellow tinged, and red or separated wound edges.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
