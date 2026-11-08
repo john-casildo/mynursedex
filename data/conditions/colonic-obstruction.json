@@ -1,0 +1,473 @@
+{
+  "id": "colonic-obstruction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Obstrucción colónica",
+    "aliases": [
+      "obstrucción colónica",
+      "obstruccion colon",
+      "obstrucción del colon",
+      "obstrucción intestinal",
+      "obstruccion gastrointestinal",
+      "obstrucción del intestino"
+    ],
+    "summary": "Bloqueo parcial o total del colon que impide el paso del contenido intestinal, pudiendo deberse a diverticulitis, fecaloma, tumor o vólvulo. Produce distensión, dolor y riesgo de isquemia intestinal.",
+    "key_points": [
+      "Obstrucción mecánica vs funcional del colon",
+      "Dolor abdominal colico y distensión son signos tempranos",
+      "Radiografía y TAC confirman nivel de obstrucción",
+      "Manejo inicial incluye hidratación, descompresión y cirugía",
+      "Complicaciones graves: perforación, peritonitis y sepsis"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción mecánica impide el tránsito del bolo fecal",
+        "Aumento de presión intraluminal reduce perfusión mucosa",
+        "Isquemia prolongada lleva a necrosis y perforación",
+        "Respuesta inflamatoria aumenta edema y empeora la obstrucción"
+      ],
+      "risk_factors": [
+        "Diverticulitis complicada",
+        "Fecaloma por estreñimiento crónico",
+        "Neoplasia colónica",
+        "Vólvulo sigmoide",
+        "Cirugías abdominales previas y adherencias"
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal tipo cólico, empeora después de comer",
+        "Distensión abdominal visible y tensa",
+        "Náuseas y vómitos, a veces biliosos",
+        "Ausencia de gases y heces (obstrucción completa)",
+        "Taquicardia y presión arterial baja si hay compromiso sistémico"
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen: niveles de aire‑líquido y distensión",
+        "Tomografía axial computarizada: localiza nivel y causa",
+        "Hemograma: leucocitosis >10,000 cél/mcL sugiere infección",
+        "Electrolitos: hipopotasemia o hipernatremia por pérdidas",
+        "Pruebas de función renal: creatinina ↑ si hay deshidratación"
+      ],
+      "treatment": [
+        "Reposición de líquidos IV (solución cristaloide)",
+        "Descompresión nasogástrica para aliviar presión",
+        "Analgesia con opioides o AINE según indicación",
+        "Antibióticos de amplio espectro si se sospecha perforación o peritonitis",
+        "Cirugía (colectomía o resección) si obstrucción completa o complicaciones"
+      ],
+      "complications": [
+        "Isquemia y necrosis intestinal",
+        "Perforación con peritonitis secundaria"
+      ],
+      "nursing_care": [
+        "Evaluar dolor, distensión y patrón de eliminación cada 2 h",
+        "Monitorear signos vitales, especialmente TA y FC",
+        "Registrar salida de líquidos y balance hídrico"
+      ],
+      "patient_teaching": [
+        "Promover actividad física moderada para estimular motilidad intestinal",
+        "Instruir sobre signos de recaída: dolor intenso, vómitos persistentes"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "Vómitos biliosos",
+          "NPO preoperatorio",
+          "Pérdida de líquidos por drenaje"
+        ],
+        "evidenced_by": [
+          "Taquicardia >100 lpm",
+          "Presión arterial <90/60 mmHg",
+          "Mucosas secas",
+          "Orina <30 mL/h"
+        ],
+        "outcomes": [
+          "Balance hídrico: ingreso neto ≥0 mL en 24 h",
+          "Presión arterial estabilizada >100/70 mmHg en 12 h",
+          "Hidratación adecuada: piel húmeda y turgencia normal"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar solución cristaloide IV según orden y registrar velocidad",
+            "rationale": "Restablece el volumen intravascular y previene shock hipovolémico"
+          },
+          {
+            "action": "Monitorear balance hídrico cada 2 h y reportar déficit >500 mL",
+            "rationale": "Permite detectar rápidamente la necesidad de reposición adicional"
+          },
+          {
+            "action": "Evaluar signos de perfusión periférica (capilaridad, temperatura)",
+            "rationale": "Detecta deterioro circulatorio temprano"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación oral cuando sea permitido",
+            "rationale": "Facilita la transición a hidratación oral y previene recaídas"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Dolor abdominal intenso",
+          "Distensión abdominal marcada"
+        ],
+        "evidenced_by": [
+          "Limitación para movilizarse fuera de la cama",
+          "Fatiga al intentar cambiar de posición"
+        ],
+        "outcomes": [
+          "Paciente tolera movilización a silla 30 min sin aumento de dolor en 48 h",
+          "Frecuencia respiratoria <22 rpm durante actividad ligera"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar movilización gradual: primero en cama, luego silla, luego deambulación corta",
+            "rationale": "Previene agotamiento y mejora la tolerancia al ejercicio"
+          },
+          {
+            "action": "Administrar analgesia antes de la actividad según prescripción",
+            "rationale": "Control del dolor permite mayor participación en la movilización"
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática durante el movimiento",
+            "rationale": "Reduce dolor y mejora la oxigenación"
+          },
+          {
+            "action": "Evaluar nivel de dolor antes y después de cada sesión y ajustar plan",
+            "rationale": "Asegura que la actividad sea segura y bien tolerada"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Colonic obstruction",
+    "aliases": [
+      "colonic obstruction",
+      "obstruction colon",
+      "obstruction of the colon",
+      "intestinal obstruction",
+      "gastrointestinal obstruction",
+      "obstruction of the intestine"
+    ],
+    "summary": "Partial or complete blockage of the colon that prevents intestinal contents from passing, which may be due to diverticulitis, fecaloma, tumor, or volvulus. It causes distension, pain, and risk of intestinal ischemia.",
+    "key_points": [
+      "Mechanical vs functional colon obstruction",
+      "Colicky abdominal pain and distension are early signs",
+      "X‑ray and CT confirm obstruction level",
+      "Initial management includes hydration, decompression, and surgery",
+      "Severe complications: perforation, peritonitis, and sepsis"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mechanical obstruction blocks fecal bolus transit",
+        "Intraluminal pressure rise reduces mucosal perfusion",
+        "Prolonged ischemia leads to necrosis and perforation",
+        "Inflammatory response increases edema and worsens obstruction"
+      ],
+      "risk_factors": [
+        "Complicated diverticulitis",
+        "Fecaloma from chronic constipation",
+        "Colonic neoplasia",
+        "Sigmoid volvulus",
+        "Previous abdominal surgeries and adhesions"
+      ],
+      "signs_symptoms": [
+        "Colicky abdominal pain, worsens after eating",
+        "Visible and tense abdominal distension",
+        "Nausea and vomiting, sometimes bilious",
+        "Absence of gas and stool (complete obstruction)",
+        "Tachycardia and low blood pressure if systemic compromise"
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: air‑fluid levels and distension",
+        "Computed tomography: localizes level and cause",
+        "CBC: leukocytosis >10,000 cells/µL suggests infection",
+        "Electrolytes: hypokalemia or hypernatremia from losses",
+        "Renal function tests: creatinine ↑ if dehydration"
+      ],
+      "treatment": [
+        "IV fluid replacement (crystalloid solution)",
+        "Nasogastric decompression to relieve pressure",
+        "Analgesia with opioids or NSAIDs as indicated",
+        "Broad‑spectrum antibiotics if perforation or peritonitis suspected",
+        "Surgery (colectomy or resection) if complete obstruction or complications"
+      ],
+      "complications": [
+        "Intestinal ischemia and necrosis",
+        "Perforation with secondary peritonitis"
+      ],
+      "nursing_care": [
+        "Assess pain, distension, and elimination pattern every 2 h",
+        "Monitor vital signs, especially BP and HR",
+        "Record fluid output and fluid balance"
+      ],
+      "patient_teaching": [
+        "Encourage moderate physical activity to stimulate intestinal motility",
+        "Teach signs of recurrence: intense pain, persistent vomiting"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "Bilious vomiting",
+          "NPO pre‑operative",
+          "Fluid loss from drainage"
+        ],
+        "evidenced_by": [
+          "Tachycardia >100 bpm",
+          "Blood pressure <90/60 mmHg",
+          "Dry mucous membranes",
+          "Urine <30 mL/h"
+        ],
+        "outcomes": [
+          "Fluid balance: net intake ≥0 mL in 24 h",
+          "Blood pressure stabilized >100/70 mmHg in 12 h",
+          "Adequate hydration: skin moist and normal turgor"
+        ],
+        "interventions": [
+          {
+            "action": "Administer IV crystalloid solution per order and record rate",
+            "rationale": "Restores intravascular volume and prevents hypovolemic shock"
+          },
+          {
+            "action": "Monitor fluid balance every 2 h and report deficit >500 mL",
+            "rationale": "Allows rapid detection of need for additional replacement"
+          },
+          {
+            "action": "Assess peripheral perfusion signs (capillary refill, temperature)",
+            "rationale": "Detects early circulatory deterioration"
+          },
+          {
+            "action": "Educate patient on importance of oral hydration when permitted",
+            "rationale": "Facilitates transition to oral intake and prevents relapse"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Severe abdominal pain",
+          "Marked abdominal distension"
+        ],
+        "evidenced_by": [
+          "Limited ability to mobilize out of bed",
+          "Fatigue when changing position"
+        ],
+        "outcomes": [
+          "Patient tolerates chair mobilization for 30 min without increased pain in 48 h",
+          "Respiratory rate <22 rpm during light activity"
+        ],
+        "interventions": [
+          {
+            "action": "Plan gradual mobilization: bed, then chair, then short ambulation",
+            "rationale": "Prevents exhaustion and improves exercise tolerance"
+          },
+          {
+            "action": "Administer analgesia before activity per prescription",
+            "rationale": "Pain control allows greater participation in mobilization"
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques during movement",
+            "rationale": "Reduces pain and improves oxygenation"
+          },
+          {
+            "action": "Assess pain level before and after each session and adjust plan",
+            "rationale": "Ensures activity is safe and well tolerated"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bowel-obstruction",
+    "diverticulitis",
+    "fecal-impaction",
+    "intestinal-ischemia",
+    "sepsis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diverticulosis and Diverticulitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diverticulosisanddiverticulitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Diagnostic Evaluation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-3-diagnostic-evaluation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower GI System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-5-disorders-of-the-lower-gi-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-08",
+  "factcheck": {
+    "checked": "2026-11-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An intestinal obstruction is a partial or complete blockage of the intestines so that contents of the intestine cannot pass through.",
+        "source": 2
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Perforation causes the spilling of bacteria and bowel contents into the peritoneal cavity, causing a contained abscess or peritonitis.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "This creates an inflammatory response, which can lead to local ischemia and perforation.",
+        "source": 2
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Vital signs should be completed with a focus on blood pressure and heart rate, especially in the patient having diarrhea, to evaluate for signs of dehydration, such as tachycardia and hypotension.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Abnormal findings (e.g., air-fluid levels, dilated loops of bowel, free air under the diaphragm) may indicate pathology.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Dehydration can lead to electrolyte disturbances, particularly hypernatremia.",
+        "source": 1
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Perforation causes the spilling of bacteria and bowel contents into the peritoneal cavity, causing a contained abscess or peritonitis.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Vital signs should be completed with a focus on blood pressure and heart rate, especially in the patient having diarrhea, to evaluate for signs of dehydration, such as tachycardia and hypotension.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The nurse evaluates trends in the patient’s intake and output, vital signs, and electrolytes to assess care.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Nurses encourage patients to engage in regular physical activity because exercise can stimulate bowel motility and promote regular bowel movements.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      }
+    }
+  }
+}

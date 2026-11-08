@@ -1,0 +1,524 @@
+{
+  "id": "crohn-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad de Crohn (EC)",
+    "aliases": [
+      "crohn",
+      "enfermedad de crohn",
+      "ec",
+      "ibd",
+      "inflamación intestinal",
+      "colitis"
+    ],
+    "summary": "La enfermedad de Crohn es una enfermedad inflamatoria crónica que afecta cualquier parte del tracto gastrointestinal, con predilección por el íleon y el colon proximal.",
+    "key_points": [
+      "Inflamación transmural que puede producir fístulas y estenosis.",
+      "Presenta diarrea crónica, dolor abdominal y pérdida de peso.",
+      "Marcadores inflamatorios como PCR y VSG están elevados.",
+      "El manejo combina fármacos antiinflamatorios, inmunomoduladores y terapia biológica.",
+      "Complicaciones incluyen malabsorción, fístulas y riesgo de carcinoma colorrectal."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Respuesta inmune anormal con predominio de células Th1 y liberación de citocinas proinflamatorias.",
+        "Inflamación transmural que afecta toda la pared intestinal.",
+        "Formación de úlceras, estenosis y fístulas por daño continuo.",
+        "Alteración de la barrera mucosa favorece la translocación bacteriana."
+      ],
+      "risk_factors": [
+        "Historia familiar de enfermedad inflamatoria intestinal.",
+        "Tabaquismo, que duplica el riesgo de aparición y empeora el curso.",
+        "Factores genéticos (mutaciones en NOD2, ATG16L1).",
+        "Exposición a microbiota intestinal disbiótica."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal crónico, típicamente en fosa iliaca derecha.",
+        "Diarrea persistente, a veces con sangre o moco.",
+        "Pérdida de peso y fatiga.",
+        "Fiebre de bajo grado y malestar general."
+      ],
+      "diagnostics": [
+        "Colonoscopia con biopsia: inflamación segmentaria y granulomas no caseosos.",
+        "Radiografía de abdomen o enterografía por TC: engrosamiento de la pared y fístulas.",
+        "Laboratorio: PCR >10 mg/L, VSG elevada, anemia ferropénica, albúmina <3.5 g/dL.",
+        "Calprotectina fecal >200 µg/g indica actividad inflamatoria."
+      ],
+      "treatment": [
+        "Aminosalicilatos (mesalina) para enfermedad leve‑moderada.",
+        "Corticoides (prednisona) en brotes agudos.",
+        "Inmunomoduladores (azatioprina, 6‑mercaptopurina) para mantenimiento.",
+        "Biológicos anti‑TNF (infliximab, adalimumab) en enfermedad moderada‑grave.",
+        "Nutrición enteral o parenteral en casos de malabsorción severa.",
+        "Cirugía de resección cuando hay obstrucción, fístulas o perforación."
+      ],
+      "complications": [
+        "Fístulas enterocutáneas o enteroenterales.",
+        "Obstrucción intestinal por estenosis.",
+        "Malabsorción de vitaminas liposolubles y minerales.",
+        "Anemia por deficiencia de hierro o B12.",
+        "Mayor riesgo de cáncer colorrectal después de 8‑10 años de enfermedad."
+      ],
+      "nursing_care": [
+        "Evaluar dolor (escala 0‑10), patrón de deposiciones y pérdida de peso.",
+        "Monitorear signos vitales, temperatura y estado de hidratación.",
+        "Controlar electrolitos y niveles de albúmina en laboratorio.",
+        "Administrar medicamentos según prescripción y observar efectos adversos.",
+        "Mantener registro de ingesta y salida de líquidos; prevenir déficit hídrico.",
+        "Preparar al paciente para procedimientos diagnósticos (colonoscopia)."
+      ],
+      "patient_teaching": [
+        "Adherir al esquema farmacológico y no interrumpir sin indicación.",
+        "Seguir dieta baja en residuos durante brotes; evitar alimentos irritantes.",
+        "Reconocer signos de empeoramiento: fiebre, sangrado, aumento del dolor.",
+        "Importancia de la suspensión del tabaco y manejo del estrés.",
+        "Programar controles regulares de laboratorio y colonoscopia de vigilancia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "diarrea crónica",
+          "fístulas intestinales",
+          "vómitos",
+          "pérdida de absorción",
+          "fiebre"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance de líquidos: ingesta oral ≥1500 mL/día",
+          "Peso corporal: mantener peso estable (±2 kg en 1 mes)"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada turno.",
+            "rationale": "Detectar déficit hídrico temprano y guiar reposición."
+          },
+          {
+            "action": "Ofrecer líquidos claros y soluciones de rehidratación oral según tolerancia.",
+            "rationale": "Reemplazar pérdidas por diarrea y prevenir deshidratación."
+          },
+          {
+            "action": "Monitorear signos de deshidratación (turgencia cutánea, frecuencia cardíaca, presión arterial).",
+            "rationale": "Identificar cambios hemodinámicos que requieran intervención."
+          },
+          {
+            "action": "Administrar suplementos electrolíticos por vía oral o intravenosa según orden médica.",
+            "rationale": "Corregir desequilibrios de sodio, potasio y cloro."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de mantener una ingesta adecuada de líquidos.",
+            "rationale": "Fomentar autocuidado y prevención de recaídas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Dolor crónico",
+        "type": "actual",
+        "related_to": [
+          "inflamación intestinal",
+          "úlceras mucosas",
+          "estenosis intestinal"
+        ],
+        "evidenced_by": [
+          "dolor abdominal persistente",
+          "malestar al defecar",
+          "uso frecuente de analgésicos"
+        ],
+        "outcomes": [
+          "Dolor controlado: puntuación ≤3 en escala de 0‑10",
+          "Actividad diaria: sin limitaciones por dolor"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar intensidad, localización y factores que alivian o agravan el dolor cada turno.",
+            "rationale": "Facilita ajuste de analgesia y medidas no farmacológicas."
+          },
+          {
+            "action": "Administrar analgésicos según prescripción (por ejemplo, acetaminofén, opioides leves) y registrar respuesta.",
+            "rationale": "Aliviar el dolor y prevenir escalada de la intensidad."
+          },
+          {
+            "action": "Aplicar técnicas de relajación y terapia de calor local cuando sea apropiado.",
+            "rationale": "Reducir la percepción del dolor mediante métodos no farmacológicos."
+          },
+          {
+            "action": "Promover posición semi‑sentada o decúbito lateral izquierdo para disminuir la presión abdominal.",
+            "rationale": "Mejora la distensión intestinal y alivia el dolor."
+          },
+          {
+            "action": "Educar al paciente sobre el uso correcto de la medicación y la importancia de reportar dolor no controlado.",
+            "rationale": "Fomenta la adherencia y permite intervención temprana."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Crohn's Disease (CD)",
+    "aliases": [
+      "crohn",
+      "crohn's disease",
+      "cd",
+      "ibd",
+      "intestinal inflammation",
+      "colitis"
+    ],
+    "summary": "Crohn's disease is a chronic inflammatory disease that can affect any part of the gastrointestinal tract, with a preference for the ileum and proximal colon.",
+    "key_points": [
+      "Transmural inflammation that can produce fistulas and strictures.",
+      "Chronic diarrhea, abdominal pain, and weight loss.",
+      "Inflammatory markers such as CRP and ESR are elevated.",
+      "Management combines anti-inflammatory drugs, immunomodulators, and biologic therapy.",
+      "Complications include malabsorption, fistulas, and increased risk of colorectal cancer."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Abnormal immune response dominated by Th1 cells and release of pro-inflammatory cytokines.",
+        "Transmural inflammation affecting the entire intestinal wall.",
+        "Formation of ulcers, strictures, and fistulas due to ongoing damage.",
+        "Disruption of the mucosal barrier promotes bacterial translocation."
+      ],
+      "risk_factors": [
+        "Family history of inflammatory bowel disease.",
+        "Smoking, which doubles the risk of onset and worsens the course.",
+        "Genetic factors (mutations in NOD2, ATG16L1).",
+        "Exposure to dysbiotic gut microbiota."
+      ],
+      "signs_symptoms": [
+        "Chronic abdominal pain, typically in the right iliac fossa.",
+        "Persistent diarrhea, sometimes with blood or mucus.",
+        "Weight loss and fatigue.",
+        "Low-grade fever and general malaise."
+      ],
+      "diagnostics": [
+        "Colonoscopy with biopsy: segmental inflammation and non-caseating granulomas.",
+        "Abdominal X-ray or CT enterography: wall thickening and fistulas.",
+        "Laboratory: CRP >10 mg/L, elevated ESR, iron deficiency anemia, albumin <3.5 g/dL.",
+        "Fecal calprotectin >200 µg/g indicates inflammatory activity."
+      ],
+      "treatment": [
+        "Aminosalicylates (mesalamine) for mild‑moderate disease.",
+        "Corticosteroids (prednisone) for acute flares.",
+        "Immunomodulators (azathioprine, 6‑mercaptopurine) for maintenance.",
+        "Anti‑TNF biologics (infliximab, adalimumab) for moderate‑severe disease.",
+        "Enteral or parenteral nutrition in severe malabsorption cases.",
+        "Resection surgery when obstruction, fistulas, or perforation occur."
+      ],
+      "complications": [
+        "Enterocutaneous or enteroenteric fistulas.",
+        "Intestinal obstruction from strictures.",
+        "Malabsorption of fat-soluble vitamins and minerals.",
+        "Anemia from iron or B12 deficiency.",
+        "Increased risk of colorectal cancer after 8‑10 years of disease."
+      ],
+      "nursing_care": [
+        "Assess pain (0‑10 scale), bowel pattern, and weight loss.",
+        "Monitor vital signs, temperature, and hydration status.",
+        "Check electrolytes and albumin levels in labs.",
+        "Administer medications per prescription and observe for adverse effects.",
+        "Maintain fluid intake/output records; prevent fluid deficit.",
+        "Prepare patient for diagnostic procedures (colonoscopy)."
+      ],
+      "patient_teaching": [
+        "Adhere to medication regimen and do not discontinue without indication.",
+        "Follow a low-residue diet during flares; avoid irritating foods.",
+        "Recognize worsening signs: fever, bleeding, increased pain.",
+        "Importance of smoking cessation and stress management.",
+        "Schedule regular lab checks and surveillance colonoscopy."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "chronic diarrhea",
+          "intestinal fistulas",
+          "vomiting",
+          "absorption loss",
+          "fever"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: oral intake ≥1500 mL/day",
+          "Body weight: maintain stable weight (±2 kg in 1 month)"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output each shift.",
+            "rationale": "Detect early fluid deficit and guide replacement."
+          },
+          {
+            "action": "Offer clear fluids and oral rehydration solutions as tolerated.",
+            "rationale": "Replace losses from diarrhea and prevent dehydration."
+          },
+          {
+            "action": "Monitor signs of dehydration (skin turgor, heart rate, blood pressure).",
+            "rationale": "Identify hemodynamic changes that require intervention."
+          },
+          {
+            "action": "Administer electrolyte supplements orally or intravenously as ordered.",
+            "rationale": "Correct sodium, potassium, and chloride imbalances."
+          },
+          {
+            "action": "Educate patient on the importance of adequate fluid intake.",
+            "rationale": "Promote self-care and prevent relapses."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Chronic pain",
+        "type": "actual",
+        "related_to": [
+          "intestinal inflammation",
+          "mucosal ulcers",
+          "intestinal strictures"
+        ],
+        "evidenced_by": [
+          "persistent abdominal pain",
+          "discomfort with defecation",
+          "frequent analgesic use"
+        ],
+        "outcomes": [
+          "Pain controlled: score ≤3 on 0‑10 scale",
+          "Daily activity: no limitations due to pain"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain intensity, location, and factors that relieve or worsen it each shift.",
+            "rationale": "Facilitate analgesic adjustment and non-pharmacologic measures."
+          },
+          {
+            "action": "Administer analgesics per prescription (e.g., acetaminophen, mild opioids) and record response.",
+            "rationale": "Alleviate pain and prevent escalation."
+          },
+          {
+            "action": "Apply relaxation techniques and local heat therapy when appropriate.",
+            "rationale": "Reduce pain perception through non-pharmacologic methods."
+          },
+          {
+            "action": "Promote semi‑upright or left lateral decubitus position to reduce abdominal pressure.",
+            "rationale": "Improve intestinal distension and relieve pain."
+          },
+          {
+            "action": "Educate patient on correct medication use and importance of reporting uncontrolled pain.",
+            "rationale": "Encourage adherence and allow early intervention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ulcerative-colitis",
+    "fistula-formation",
+    "malabsorption"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Crohn 's Disease",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/crohnsdisease.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedad de Crohn",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/crohnsdisease.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Diagnostic Evaluation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-3-diagnostic-evaluation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Autoimmunity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-2-autoimmunity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-08",
+  "factcheck": {
+    "checked": "2026-11-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 32,
+      "contradicted": 0,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "But it usually affects your small intestine and the beginning of your large intestine.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common symptoms include: Diarrhea Cramping and pain in your abdomen Weight loss",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "C-reactive protein (CRP) and erythrocyte sedimentation rate (ESR) are markers of inflammation that can change in response to bowel-related diseases.",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Crohn's disease can cause other problems, including: Intestinal obstruction , a blockage in the intestine Fistulas , abnormal connections between two parts inside of the body Abscesses , pus-filled pockets of infection Anal fissures, small tears in your anus that may cause itching, pain, or bleeding Ulcers, open sores in your mouth, intestines, anus, or perineum Malnutrition , when your body does not",
+        "source": 0
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Family history of the disease.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "This may double your risk of developing Crohn's disease.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The most common symptoms include: Diarrhea Cramping and pain in your abdomen Weight loss Some other possible symptoms are: Anemia , a condition in which you have fewer red blood cells than normal Eye redness or pain Fatigue",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "The surgery will involve removing a damaged part of your digestive tract to treat: Fistulas Bleeding that is life threatening Intestinal obstructions Side effects from medicines when they threaten your health Symptoms when medicines do not improve your condition Changing your diet can help reduce symptoms.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "They monitor patients’ hydration status, vital signs, and overall well-being, and communicate any pertinent information to the healthcare team.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Nurses administer prescribed medications to manage symptoms of bowel dysfunction, such as laxatives for constipation or antidiarrheal agents for diarrhea.",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "For example, when preparing a patient for a colonoscopy, nurses explain the necessity of bowel preparation to cleanse the colon and facilitate optimal visualization during the procedure."
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "In some cases, your provider may ask you to go on a special diet, such as a diet that is: High calorie Lactose free Low fat Low fiber Low salt",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

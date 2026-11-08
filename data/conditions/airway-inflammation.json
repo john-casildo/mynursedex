@@ -1,0 +1,502 @@
+{
+  "id": "airway-inflammation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Asma",
+    "aliases": [
+      "asma",
+      "asma bronquial",
+      "inflamación de vías respiratorias",
+      "broncoespasmo",
+      "asma alérgica",
+      "asma no alérgica"
+    ],
+    "summary": "Enfermedad crónica caracterizada por inflamación y estrechamiento reversible de las vías respiratorias, que produce sibilancias, tos y disnea.",
+    "key_points": [
+      "Inflamación de la mucosa bronquial produce hiperreactividad y broncoconstricción.",
+      "Los desencadenantes pueden ser alérgicos (ácaros, polen) o no alérgicos (frío, ejercicio).",
+      "El manejo combina broncodilatadores de acción rápida y antiinflamatorios de mantenimiento.",
+      "Monitoreo de la función pulmonar (espirometría) y uso de inhalador es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exposición a desencadenante → liberación de mediadores inflamatorios.",
+        "Inflamación de epitelio bronquial → edema y aumento de moco.",
+        "Broncoconstricción por contracción del músculo liso bronquial.",
+        "Obstrucción reversible del flujo aéreo y aumento de la resistencia."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de asma o alergias.",
+        "Exposición a alérgenos domésticos (ácaros, moho, mascotas).",
+        "Tabaquismo pasivo y contaminación del aire.",
+        "Infecciones respiratorias frecuentes en la infancia."
+      ],
+      "signs_symptoms": [
+        "Sibilancias espiratorias, especialmente durante la espiración.",
+        "Tos seca o productiva, peor por la noche o al ejercicio.",
+        "Sensación de opresión torácica y disnea.",
+        "Uso de músculos accesorios y aleteo nasal en crisis."
+      ],
+      "diagnostics": [
+        "Espirometría: disminución del VEF1 y relación VEF1/FVC < 0.8, reversible >12% tras broncodilatador.",
+        "Peak flow (flujo máximo) para seguimiento domiciliario.",
+        "Pruebas de alergia cutánea o IgE sérica si se sospecha asma alérgica.",
+        "Radiografía de tórax: generalmente normal, usada para descartar otras patologías."
+      ],
+      "treatment": [
+        "Broncodilatadores de acción corta (salbutamol) para alivio rápido.",
+        "Corticosteroides inhalados (budesonida, fluticasona) como terapia de mantenimiento.",
+        "Broncodilatadores de acción prolongada (formoterol) combinados con corticoides.",
+        "Modificadores de leucotrienos (montelukast) en asma persistente.",
+        "Educación sobre evitación de desencadenantes y uso correcto del inhalador."
+      ],
+      "complications": [
+        "Exacerbaciones graves que pueden requerir hospitalización.",
+        "Remodelado de vías respiratorias con pérdida de función pulmonar.",
+        "Efectos secundarios de corticoides crónicos (candidiasis oral, osteoporosis).",
+        "Hipoxia crónica y disminución de la calidad de vida."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, uso de músculos accesorios y SpO2.",
+        "Administrar broncodilatador según orden y observar respuesta clínica.",
+        "Enseñar técnica de inhalación con espaciador y lavado bucal post‑corticoide.",
+        "Monitorear signos de hipoxia y preparar equipo de reanimación respiratoria.",
+        "Registrar pico de flujo y comparar con valores basales."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar desencadenantes personales.",
+        "Uso correcto del inhalador y del espaciador; frecuencia de dosis de mantenimiento.",
+        "Reconocer signos de empeoramiento y cuándo buscar atención de urgencia.",
+        "Importancia del lavado bucal después de corticoides inhalados.",
+        "Mantener registro de pico de flujo y acudir a controles de espirometría."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "inflamación de vías respiratorias",
+          "broncoespasmo",
+          "exposición a desencadenantes"
+        ],
+        "evidenced_by": [
+          "sibilancias",
+          "disnea al reposo o actividad",
+          "uso de músculos accesorios",
+          "SpO2 < 95%"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: SpO2 ≥ 95% en reposo durante 24 h.",
+          "Disminución de la disnea: puntuación ≤ 2 en escala de Borg en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar broncodilatador de acción corta según prescripción y evaluar mejoría respiratoria.",
+            "rationale": "Relaja el músculo liso bronquial y reduce la obstrucción."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑Fowler para facilitar la expansión pulmonar.",
+            "rationale": "Optimiza la capacidad vital y disminuye el trabajo respiratorio."
+          },
+          {
+            "action": "Monitorear SpO2 y frecuencia respiratoria cada 2 h; notificar si SpO2 < 92%.",
+            "rationale": "Detecta hipoxemia temprana y permite intervención oportuna."
+          },
+          {
+            "action": "Enseñar y supervisar el uso del inhalador con espaciador.",
+            "rationale": "Asegura la entrega adecuada del fármaco al sitio de acción."
+          },
+          {
+            "action": "Fomentar técnicas de respiración diafragmática y control de la ansiedad.",
+            "rationale": "Reduce la frecuencia respiratoria y mejora la oxigenación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "hiperreactividad bronquial",
+          "exacerbación del asma",
+          "descondicionamiento físico"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disnea al subir escaleras",
+          "limitación de ejercicio"
+        ],
+        "outcomes": [
+          "Capacidad para realizar actividades de la vida diaria sin disnea en 2 semanas.",
+          "Tolerancia al ejercicio: caminar 30 min sin síntomas en 4 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Planificar actividades graduales y programar descansos frecuentes.",
+            "rationale": "Previene la sobrecarga respiratoria y permite adaptación progresiva."
+          },
+          {
+            "action": "Evaluar nivel de disnea antes y después de la actividad usando escala de Borg.",
+            "rationale": "Proporciona datos objetivos para ajustar el plan de ejercicio."
+          },
+          {
+            "action": "Administrar medicación de mantenimiento antes de la actividad física según indicación.",
+            "rationale": "Mantiene la inflamación bajo control y reduce el riesgo de broncoespasmo."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de control de la respiración (pursed‑lip).",
+            "rationale": "Mejora la ventilación y disminuye la sensación de falta de aire."
+          },
+          {
+            "action": "Fomentar participación en programa de rehabilitación pulmonar o ejercicio supervisado.",
+            "rationale": "Incrementa la capacidad aeróbica y reduce la intolerancia a la actividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Asthma",
+    "aliases": [
+      "asthma",
+      "bronchial asthma",
+      "airway inflammation",
+      "bronchospasm",
+      "allergic asthma",
+      "non‑allergic asthma"
+    ],
+    "summary": "Chronic disease characterized by inflammation and reversible narrowing of the airways, producing wheezing, cough, and dyspnea.",
+    "key_points": [
+      "Bronchial mucosal inflammation causes hyperreactivity and bronchoconstriction.",
+      "Triggers can be allergic (dust mites, pollen) or non‑allergic (cold, exercise).",
+      "Management combines rapid‑acting bronchodilators and maintenance anti‑inflammatories.",
+      "Monitoring pulmonary function (spirometry) and inhaler use is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Exposure to trigger → release of inflammatory mediators.",
+        "Bronchial epithelium inflammation → edema and increased mucus.",
+        "Bronchoconstriction from contraction of bronchial smooth muscle.",
+        "Reversible airflow obstruction and increased resistance."
+      ],
+      "risk_factors": [
+        "Family history of asthma or allergies.",
+        "Exposure to household allergens (dust mites, mold, pets).",
+        "Passive smoking and air pollution.",
+        "Frequent respiratory infections in childhood."
+      ],
+      "signs_symptoms": [
+        "Expiratory wheezing, especially during exhalation.",
+        "Dry or productive cough, worse at night or with exercise.",
+        "Chest tightness and dyspnea.",
+        "Use of accessory muscles and nasal flaring during attacks."
+      ],
+      "diagnostics": [
+        "Spirometry: ↓FEV1 and FEV1/FVC < 0.8, reversible >12% after bronchodilator.",
+        "Peak flow for home monitoring.",
+        "Skin allergy testing or serum IgE if allergic asthma suspected.",
+        "Chest X‑ray: usually normal, used to rule out other pathologies."
+      ],
+      "treatment": [
+        "Short‑acting bronchodilators (albuterol) for quick relief.",
+        "Inhaled corticosteroids (budesonide, fluticasone) as maintenance therapy.",
+        "Long‑acting bronchodilators (formoterol) combined with corticosteroids.",
+        "Leukotriene modifiers (montelukast) in persistent asthma.",
+        "Education on trigger avoidance and proper inhaler use."
+      ],
+      "complications": [
+        "Severe exacerbations that may require hospitalization.",
+        "Airway remodeling with loss of lung function.",
+        "Side effects of chronic corticosteroids (oral candidiasis, osteoporosis).",
+        "Chronic hypoxia and reduced quality of life."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, use of accessory muscles, and SpO2.",
+        "Administer bronchodilator per order and observe clinical response.",
+        "Teach inhalation technique with spacer and post‑inhaler oral rinse.",
+        "Monitor for hypoxia and prepare respiratory resuscitation equipment.",
+        "Record peak flow and compare with baseline values."
+      ],
+      "patient_teaching": [
+        "Identify and avoid personal triggers.",
+        "Proper inhaler and spacer use; maintenance dose frequency.",
+        "Recognize worsening signs and when to seek urgent care.",
+        "Importance of oral rinse after inhaled corticosteroids.",
+        "Maintain peak flow log and attend spirometry follow‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "airway inflammation",
+          "bronchospasm",
+          "trigger exposure"
+        ],
+        "evidenced_by": [
+          "wheezing",
+          "dyspnea at rest or activity",
+          "use of accessory muscles",
+          "SpO2 < 95%"
+        ],
+        "outcomes": [
+          "Effective breathing pattern: SpO2 ≥ 95% at rest for 24 h.",
+          "Reduced dyspnea: Borg score ≤ 2 within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Administer short‑acting bronchodilator per prescription and assess respiratory improvement.",
+            "rationale": "Relaxes bronchial smooth muscle and reduces obstruction."
+          },
+          {
+            "action": "Place patient in semi‑Fowler position to facilitate lung expansion.",
+            "rationale": "Optimizes vital capacity and decreases work of breathing."
+          },
+          {
+            "action": "Monitor SpO2 and respiratory rate every 2 h; notify if SpO2 < 92%.",
+            "rationale": "Detects early hypoxemia and allows timely intervention."
+          },
+          {
+            "action": "Teach and supervise inhaler use with spacer.",
+            "rationale": "Ensures proper drug delivery to the site of action."
+          },
+          {
+            "action": "Encourage diaphragmatic breathing techniques and anxiety control.",
+            "rationale": "Reduces respiratory rate and improves oxygenation."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "bronchial hyperreactivity",
+          "asthma exacerbation",
+          "physical deconditioning"
+        ],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "dyspnea when climbing stairs",
+          "exercise limitation"
+        ],
+        "outcomes": [
+          "Ability to perform daily activities without dyspnea in 2 weeks.",
+          "Exercise tolerance: walk 30 min without symptoms in 4 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Plan gradual activities with frequent rest breaks.",
+            "rationale": "Prevents respiratory overload and allows progressive adaptation."
+          },
+          {
+            "action": "Assess dyspnea level before and after activity using Borg scale.",
+            "rationale": "Provides objective data to adjust exercise plan."
+          },
+          {
+            "action": "Administer maintenance medication before physical activity as indicated.",
+            "rationale": "Keeps inflammation under control and reduces bronchospasm risk."
+          },
+          {
+            "action": "Teach patient pursed‑lip breathing techniques.",
+            "rationale": "Improves ventilation and decreases sensation of breathlessness."
+          },
+          {
+            "action": "Encourage participation in pulmonary rehabilitation or supervised exercise program.",
+            "rationale": "Increases aerobic capacity and reduces activity intolerance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bronchoconstriction",
+    "allergic-reaction",
+    "airway-hyperresponsiveness",
+    "inflammation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Asthma",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/asthma.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Inflammation: Cellular Response to Stress",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/8-6-inflammation-cellular-response-to-stress",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-08",
+  "factcheck": {
+    "checked": "2026-11-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Nonallergic asthma is caused by triggers that are not allergens, such as: Breathing in cold air Certain medicines Household chemicals Infections such as colds and the flu Outdoor air pollution Tobacco smoke Occupational asthma is caused by breathing in chemicals or industrial dusts at work Exercise-induced asthma happens during",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Release of chemical mediators: Upon recognition of the threat, immune cells release signaling molecules called cytokines, such as interleukins and TNF-α, which trigger the cascade of events that lead to inflammation.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Shrinking the muscle reduces your airway's ability to tighten and allows you to breathe more easily.",
+        "source": 0
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "You are more likely to have asthma if one of your parents has it, especially if it's your mother.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "They can include: Dust mites Mold Pets Pollen from grass, trees, and weeds Waste from pests such as cockroaches and mice",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Nonallergic asthma is caused by triggers that are not allergens, such as: Breathing in cold air Certain medicines Household chemicals Infections such as colds and the flu Outdoor air pollution Tobacco smoke",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Often having viral respiratory infections as a young child.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Wheezing, which causes a whistling sound when you breathe out",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The symptoms of asthma include: Chest tightness Coughing, especially at night or early morning Shortness of breath Wheezing, which causes a whistling sound when you breathe out",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Strategies to avoid triggers.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

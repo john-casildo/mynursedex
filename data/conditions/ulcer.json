@@ -1,0 +1,498 @@
+{
+  "id": "ulcer",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Úlcera péptica (UP)",
+    "aliases": [
+      "ulcera",
+      "ulcera peptica",
+      "ulcera gastrica",
+      "ulcera duodenal",
+      "ulcera estomac"
+    ],
+    "summary": "Lesión erosiva de la mucosa gástrica o duodenal causada principalmente por H. pylori o por AINE crónicos.",
+    "key_points": [
+      "Dolor epigástrico que empeora entre comidas y mejora con alimentos o antiácidos.",
+      "H. pylori y AINE son los factores de riesgo más frecuentes.",
+      "Diagnóstico: prueba de aliento/serología/hemocultivo y endoscopia con biopsia.",
+      "Tratamiento: inhibidores de la bomba de protones + terapia antibiótica si hay H. pylori.",
+      "Complicaciones: sangrado gastrointestinal, perforación y obstrucción."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El ácido gástrico daña la mucosa cuando la barrera protectora está comprometida.",
+        "H. pylori produce ureasa que neutraliza el ácido y genera inflamación crónica.",
+        "Los AINE inhiben la prostaglandina, reduciendo la secreción de moco y flujo sanguíneo mucosal."
+      ],
+      "risk_factors": [
+        "Infección por Helicobacter pylori.",
+        "Uso prolongado de AINE (aspirina, ibuprofeno).",
+        "Tabaquismo y consumo excesivo de alcohol.",
+        "Estrés crónico y antecedentes familiares de úlcera."
+      ],
+      "signs_symptoms": [
+        "Dolor ardiente epigástrico, peor en ayunas o nocturno.",
+        "Náuseas, vómitos (a veces con sangre).",
+        "Pérdida de apetito y pérdida de peso.",
+        "Hematemesis o melena en casos de sangrado."
+      ],
+      "diagnostics": [
+        "Prueba de aliento con urea (positiva para H. pylori).",
+        "Serología o antígeno en heces para H. pylori.",
+        "Endoscopia digestiva alta con biopsia para confirmar úlcera y descartar malignidad.",
+        "Hemograma: Hb <12 g/dL sugiere sangrado oculto."
+      ],
+      "treatment": [
+        "Inhibidor de la bomba de protones (p. ej., omeprazol, pantoprazol).",
+        "Bloqueador H2 (ranitidina, famotidina) si PPI no está disponible.",
+        "Terapia triple para H. pylori: claritromicina + amoxicilina + PPI (14 días).",
+        "Suspender AINE y evitar irritantes (café, alcohol, tabaco).",
+        "Antisépticos gástricos (sucralfato) en úlceras complicadas."
+      ],
+      "complications": [
+        "Hemorragia gastrointestinal aguda.",
+        "Perforación gástrica o duodenal → peritonitis.",
+        "Obstrucción gástrica por edema o cicatrización.",
+        "Transformación maligna (úlcera gástrica)."
+      ],
+      "nursing_care": [
+        "Evaluar dolor usando escala numérica cada 4 h.",
+        "Monitorear signos vitales y hemoglobina cada 24 h si hay sangrado.",
+        "Verificar ingesta de alimentos y tolerancia a la dieta blanda.",
+        "Administrar PPI según orden y observar efectos adversos (cefalea, diarrea).",
+        "Mantener reposo relativo y posición semisentada para reducir irritación."
+      ],
+      "patient_teaching": [
+        "Tomar los medicamentos exactamente como se indica, sin omitir dosis.",
+        "Evitar AINE, alcohol, tabaco y comidas muy picantes.",
+        "Seguir dieta blanda: evitar café, cítricos y chocolate.",
+        "Reportar sangrado (vómito con sangre o heces negras) inmediatamente.",
+        "Completar el esquema antibiótico aunque los síntomas mejoren."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "úlcera péptica",
+          "inflamación de la mucosa gástrica"
+        ],
+        "evidenced_by": [
+          "dolor epigástrico que empeora entre comidas",
+          "alivio con antiácidos",
+          "sensación de ardor nocturna"
+        ],
+        "outcomes": [
+          "Dolor controlado: escala ≤3/10 en 48 h",
+          "Paciente reporta disminución del malestar al ingerir alimentos"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor con escala numérica cada 4 h y registrar cambios.",
+            "rationale": "Permite medir la efectividad del tratamiento y ajustar la terapia."
+          },
+          {
+            "action": "Administrar inhibidor de bomba de protones según prescripción y observar efectos adversos.",
+            "rationale": "Reduce la secreción ácida y favorece la cicatrización de la úlcera."
+          },
+          {
+            "action": "Ofrecer alimentos blandos y fraccionados cada 2‑3 h.",
+            "rationale": "Minimiza la irritación gástrica y mejora la tolerancia al alimento."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de relajación y respiración profunda.",
+            "rationale": "Disminuye la percepción del dolor y el estrés asociado."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hemorragia gastrointestinal",
+          "uso prolongado de AINE",
+          "infección por H. pylori"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener hidratación adecuada: ingesta ≥2 L/día",
+          "Hemoglobina estable o sin descenso >1 g/dL en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia cada 4 h.",
+            "rationale": "Detecta precozmente signos de hipovolemia o shock."
+          },
+          {
+            "action": "Registrar ingesta y eliminación de líquidos; comparar con balance esperado.",
+            "rationale": "Identifica déficit de volumen y guía reposición hídrica."
+          },
+          {
+            "action": "Administrar solución salina isotónica si hay evidencia de pérdida de sangre o deshidratación.",
+            "rationale": "Restablece el volumen intravascular y previene hipotensión."
+          },
+          {
+            "action": "Observar orina: color claro y volumen ≥30 mL/h.",
+            "rationale": "Indicador de perfusión renal adecuada."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar vómitos con sangre o melena.",
+            "rationale": "Facilita la detección temprana de sangrado y permite intervención rápida."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Peptic ulcer (UP)",
+    "aliases": [
+      "ulcer",
+      "peptic ulcer",
+      "gastric ulcer",
+      "duodenal ulcer",
+      "stomach ulcer"
+    ],
+    "summary": "Erosive lesion of the gastric or duodenal mucosa primarily caused by H. pylori or chronic NSAIDs.",
+    "key_points": [
+      "Epigastric pain worsens between meals and improves with food or antacids.",
+      "H. pylori and NSAIDs are the most common risk factors.",
+      "Diagnosis: breath test/serology/heme culture and endoscopy with biopsy.",
+      "Treatment: proton pump inhibitors + antibiotic therapy if H. pylori present.",
+      "Complications: gastrointestinal bleeding, perforation, obstruction."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Gastric acid damages the mucosa when the protective barrier is compromised.",
+        "H. pylori produces urease that neutralizes acid and induces chronic inflammation.",
+        "NSAIDs inhibit prostaglandins, reducing mucus secretion and mucosal blood flow."
+      ],
+      "risk_factors": [
+        "Helicobacter pylori infection.",
+        "Long‑term NSAID use (aspirin, ibuprofen).",
+        "Smoking and excessive alcohol consumption.",
+        "Chronic stress and family history of ulcer."
+      ],
+      "signs_symptoms": [
+        "Burning epigastric pain, worse in fasting or at night.",
+        "Nausea, vomiting (sometimes with blood).",
+        "Loss of appetite and weight loss.",
+        "Hematemesis or melena in bleeding cases."
+      ],
+      "diagnostics": [
+        "Urea breath test (positive for H. pylori).",
+        "Serology or fecal antigen for H. pylori.",
+        "Upper endoscopy with biopsy to confirm ulcer and rule out malignancy.",
+        "CBC: Hb <12 g/dL suggests occult bleeding."
+      ],
+      "treatment": [
+        "Proton pump inhibitor (e.g., omeprazole, pantoprazole).",
+        "H2 blocker (ranitidine, famotidine) if PPI unavailable.",
+        "Triple therapy for H. pylori: clarithromycin + amoxicillin + PPI (14 days).",
+        "Discontinue NSAIDs and avoid irritants (coffee, alcohol, tobacco).",
+        "Gastric antiseptics (sucralfate) for complicated ulcers."
+      ],
+      "complications": [
+        "Acute gastrointestinal hemorrhage.",
+        "Gastric or duodenal perforation → peritonitis.",
+        "Gastric obstruction from edema or scarring.",
+        "Malignant transformation (gastric ulcer)."
+      ],
+      "nursing_care": [
+        "Assess pain using numeric scale every 4 h.",
+        "Monitor vital signs and hemoglobin every 24 h if bleeding present.",
+        "Verify food intake and tolerance to soft diet.",
+        "Administer PPI as ordered and observe for adverse effects (headache, diarrhea).",
+        "Maintain relative rest and semi‑recumbent position to reduce irritation."
+      ],
+      "patient_teaching": [
+        "Take medications exactly as prescribed, do not skip doses.",
+        "Avoid NSAIDs, alcohol, tobacco, and very spicy foods.",
+        "Follow a soft diet: avoid coffee, citrus, chocolate.",
+        "Report bleeding (vomiting blood or black stools) immediately.",
+        "Complete the antibiotic course even if symptoms improve."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "peptic ulcer",
+          "gastric mucosal inflammation"
+        ],
+        "evidenced_by": [
+          "epigastric pain worsens between meals",
+          "relief with antacids",
+          "nighttime burning sensation"
+        ],
+        "outcomes": [
+          "Pain controlled: numeric scale ≤3/10 within 48 h",
+          "Patient reports decreased discomfort after eating"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain with numeric scale every 4 h and record changes.",
+            "rationale": "Allows measurement of treatment effectiveness and therapy adjustment."
+          },
+          {
+            "action": "Administer proton pump inhibitor as prescribed and monitor for adverse effects.",
+            "rationale": "Reduces acid secretion and promotes ulcer healing."
+          },
+          {
+            "action": "Offer small, frequent meals every 2‑3 h.",
+            "rationale": "Minimizes gastric irritation and improves food tolerance."
+          },
+          {
+            "action": "Teach patient relaxation and deep‑breathing techniques.",
+            "rationale": "Reduces pain perception and associated stress."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "gastrointestinal bleeding",
+          "long‑term NSAID use",
+          "H. pylori infection"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain adequate hydration: intake ≥2 L/day",
+          "Stable hemoglobin or no drop >1 g/dL in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and level of consciousness every 4 h.",
+            "rationale": "Detects early signs of hypovolemia or shock."
+          },
+          {
+            "action": "Record fluid intake and output; compare with expected balance.",
+            "rationale": "Identifies volume deficit and guides fluid replacement."
+          },
+          {
+            "action": "Administer isotonic saline if evidence of blood loss or dehydration.",
+            "rationale": "Restores intravascular volume and prevents hypotension."
+          },
+          {
+            "action": "Observe urine: clear color and output ≥30 mL/h.",
+            "rationale": "Indicator of adequate renal perfusion."
+          },
+          {
+            "action": "Educate patient on importance of reporting vomiting with blood or melena.",
+            "rationale": "Facilitates early detection of bleeding and allows prompt intervention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "gastric-ulcer",
+    "helicobacter-pylori-infection",
+    "nonsteroidal-anti-inflammatory-drugs",
+    "peptic-disease",
+    "gastrointestinal-bleeding"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Peptic Ulcer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pepticulcer.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Úlcera péptica",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pepticulcer.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Wound Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/8-2-wound-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Histamine Blockers and Proton-Pump Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-2-histamine-blockers-and-proton-pump-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-08",
+  "factcheck": {
+    "checked": "2026-11-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "The most common cause is infection with a bacterium called Helicobacter pylori . Another cause is the long-term use of nonsteroidal anti-inflammatory medicines (NSAIDs) such as aspirin and ibuprofen.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The pain: Starts between meals or during the night Briefly stops if you eat or take antacids Lasts for minutes to hours Comes and goes for several days or weeks",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common cause is infection with a bacterium called Helicobacter pylori . Another cause is the long-term use of nonsteroidal anti-inflammatory medicines (NSAIDs) such as aspirin and ibuprofen.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Treatment may include medicines to reduce stomach acids or antibiotics to kill H. pylori.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Famotidine reduces the output of hydrochloric acid from the parietal cells, which in turn reduces the erosive damage to the gastric mucosa that may occur from hyperacidity.",
+        "source": 3
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "The most common cause is infection with a bacterium called Helicobacter pylori .",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Another cause is the long-term use of nonsteroidal anti-inflammatory medicines (NSAIDs) such as aspirin and ibuprofen.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Not smoking and avoiding alcohol can help.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "A burning stomach pain is the most common symptom.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "To see if you have an H. pylori infection, your doctor will test your blood, breath, or stool.",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Pantoprazole suppresses gastric acid production by inhibiting the proton pump in the parietal cells.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "“While I am taking this medication I will avoid alcohol, spicy foods, and ibuprofen.”",
+        "source": 3
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Typical adverse effects include headache, dizziness, nausea, vomiting, abdominal pain, diarrhea, and cough.",
+        "source": 3
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Adhere to dosing regimen as prescribed by the health care provider, typically short-term administration of 4–8 weeks.",
+        "source": 3
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

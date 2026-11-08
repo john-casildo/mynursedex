@@ -1,0 +1,319 @@
+{
+  "id": "electrolyte-disturbance",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Desequilibrio electrolítico",
+    "aliases": [
+      "desequilibrio electrolitico",
+      "electrolitos",
+      "alteración electrolítica",
+      "desequilibrio de electrolitos",
+      "electrolitos alterados"
+    ],
+    "summary": "Alteración de los niveles séricos de iones como Na+, K+, Cl‑, Ca2+ y Mg2+ que afecta la función celular y la homeostasis.",
+    "key_points": [
+      "Los electrolitos regulan el volumen extracelular y la actividad muscular.",
+      "Los rangos normales varían ligeramente entre laboratorios.",
+      "Los cambios pueden ser causados por pérdidas gastrointestinales, renales o por fármacos.",
+      "Los signos clínicos dependen del ion afectado y pueden incluir arritmias, debilidad y alteraciones neurológicas."
+    ],
+    "sections": {
+      "normal_values": [
+        "Na⁺: 135‑145 mEq/L",
+        "K⁺: 3.5‑5.0 mEq/L",
+        "Cl‑: 98‑106 mEq/L",
+        "Ca²⁺ (total): 8.5‑10.5 mg/dL",
+        "Mg²⁺: 1.7‑2.2 mg/dL",
+        "PO₄³⁻: 2.5‑4.5 mg/dL"
+      ],
+      "high_values": [
+        "Hipernatremia – exceso de Na⁺; causas: deshidratación, solución salina hipertónica; signos: sed intensa, confusión, temblores.",
+        "Hiperkalemia – exceso de K⁺; causas: insuficiencia renal, suplementos de K⁺, bloqueadores de canales; signos: arritmias, debilidad muscular.",
+        "Hipercalemia – exceso de Ca²⁺; causas: hiperparatiroidismo, suplementos de calcio; signos: náuseas, estreñimiento, arritmias.",
+        "Hipermagnesemia – exceso de Mg²⁺; causas: insuficiencia renal, laxantes con Mg; signos: hipotensión, depresión respiratoria."
+      ],
+      "low_values": [
+        "Hiponatremia – déficit de Na⁺; causas: pérdida de agua, diuréticos, SIADH; signos: cefalea, convulsiones, edema cerebral.",
+        "Hipokalemia – déficit de K⁺; causas: vómitos, diarrea, diuréticos de asa; signos: calambres, arritmias, fatiga.",
+        "Hipocalcemia – déficit de Ca²⁺; causas: deficiencia de vitamina D, hipoparatiroidismo; signos: parestesias, tetania, prolongación del QT.",
+        "Hipomagnesemia – déficit de Mg²⁺; causas: diarrea crónica, alcoholismo; signos: temblores, irritabilidad, arritmias."
+      ],
+      "specimen": [
+        "Sangre venosa, suero o plasma; tubo rojo (sin anticoagulante) o verde (heparina).",
+        "Ayuno no necesario, salvo que se solicite glucosa simultánea.",
+        "Preferir muestra en la mañana para comparabilidad.",
+        "Errores comunes: hemólisis (falsa hiperpotasemia), contaminación con EDTA, tiempo prolongado antes de centrifugar."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y ritmo cardíaco; ECG si K⁺ >5.5 mEq/L o <3.0 mEq/L.",
+        "Evaluar balance hídrico: ingesta, pérdidas, peso diario.",
+        "Revisar medicamentos que alteran electrolitos (diuréticos, suplementos, AINEs).",
+        "Administrar reposición según prescripción y registrar respuesta.",
+        "Educar al paciente sobre dieta rica o pobre en el ion alterado."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "administración de diuréticos",
+          "pérdida gastrointestinal",
+          "insuficiencia renal",
+          "hiperhidratación",
+          "dieta inadecuada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: mantener Na⁺ entre 135‑145 mEq/L.",
+          "Estado de hidratación: mantener variación de peso ≤2 % en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar valores séricos de electrolitos al menos una vez al día.",
+            "rationale": "Permite detectar desviaciones tempranas y ajustar el plan de cuidados."
+          },
+          {
+            "action": "Evaluar ingesta y pérdidas de líquidos; registrar balance hídrico cada turno.",
+            "rationale": "El balance hídrico influye directamente en la concentración de electrolitos."
+          },
+          {
+            "action": "Revisar la medicación del paciente y notificar al médico ante fármacos que alteren electrolitos.",
+            "rationale": "Algunos fármacos (diuréticos, AINEs) pueden precipitar desequilibrios."
+          },
+          {
+            "action": "Implementar medidas de seguridad: monitorizar ECG si K⁺ >5.5 mEq/L o <3.0 mEq/L.",
+            "rationale": "Las alteraciones de K⁺ pueden provocar arritmias potencialmente mortales."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos o bajos en el ion afectado según la orden médica.",
+            "rationale": "La dieta es una fuente importante para mantener niveles electrolíticos adecuados."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Electrolyte imbalance",
+    "aliases": [
+      "electrolyte imbalance",
+      "electrolytes",
+      "electrolyte alteration",
+      "altered electrolytes"
+    ],
+    "summary": "Alteration of serum ion levels such as Na+, K+, Cl‑, Ca2+ and Mg2+ that affects cellular function and homeostasis.",
+    "key_points": [
+      "Electrolytes regulate extracellular volume and muscle activity.",
+      "Normal ranges vary slightly between laboratories.",
+      "Changes can be caused by gastrointestinal losses, renal losses, or medications.",
+      "Clinical signs depend on the affected ion and may include arrhythmias, weakness, and neurological changes."
+    ],
+    "sections": {
+      "normal_values": [
+        "Na⁺: 135‑145 mEq/L",
+        "K⁺: 3.5‑5.0 mEq/L",
+        "Cl‑: 98‑106 mEq/L",
+        "Ca²⁺ (total): 8.5‑10.5 mg/dL",
+        "Mg²⁺: 1.7‑2.2 mg/dL",
+        "PO₄³⁻: 2.5‑4.5 mg/dL"
+      ],
+      "high_values": [
+        "Hypernatremia – excess Na⁺; causes: dehydration, hypertonic saline; signs: intense thirst, confusion, tremors.",
+        "Hyperkalemia – excess K⁺; causes: renal failure, K⁺ supplements, channel blockers; signs: arrhythmias, muscle weakness.",
+        "Hypercalcemia – excess Ca²⁺; causes: hyperparathyroidism, calcium supplements; signs: nausea, constipation, arrhythmias.",
+        "Hypermagnesemia – excess Mg²⁺; causes: renal failure, Mg‑containing laxatives; signs: hypotension, respiratory depression."
+      ],
+      "low_values": [
+        "Hyponatremia – deficit of Na⁺; causes: water loss, diuretics, SIADH; signs: headache, seizures, cerebral edema.",
+        "Hypokalemia – deficit of K⁺; causes: vomiting, diarrhea, loop diuretics; signs: cramps, arrhythmias, fatigue.",
+        "Hypocalcemia – deficit of Ca²⁺; causes: vitamin D deficiency, hypoparathyroidism; signs: paresthesias, tetany, prolonged QT.",
+        "Hypomagnesemia – deficit of Mg²⁺; causes: chronic diarrhea, alcoholism; signs: tremors, irritability, arrhythmias."
+      ],
+      "specimen": [
+        "Venous blood, serum or plasma; red tube (no anticoagulant) or green tube (heparin).",
+        "Fasting not required unless simultaneous glucose is requested.",
+        "Prefer morning sample for comparability.",
+        "Common errors: hemolysis (false hyperkalemia), EDTA contamination, prolonged time before centrifugation."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and heart rhythm; ECG if K⁺ >5.5 mEq/L or <3.0 mEq/L.",
+        "Assess fluid balance: intake, losses, daily weight.",
+        "Review medications that alter electrolytes (diuretics, supplements, NSAIDs).",
+        "Administer replacement per prescription and document response.",
+        "Educate patient on diet high or low in the altered ion as ordered."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "diuretic administration",
+          "gastrointestinal loss",
+          "renal failure",
+          "hyperhydration",
+          "inadequate diet"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: maintain Na⁺ between 135‑145 mEq/L.",
+          "Hydration status: maintain weight variation ≤2 % in 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolyte values at least once daily.",
+            "rationale": "Allows early detection of deviations and adjustment of the care plan."
+          },
+          {
+            "action": "Assess fluid intake and losses; record fluid balance each shift.",
+            "rationale": "Fluid balance directly influences electrolyte concentration."
+          },
+          {
+            "action": "Review patient medication and notify the physician of drugs that alter electrolytes.",
+            "rationale": "Some medications (diuretics, NSAIDs) can precipitate imbalances."
+          },
+          {
+            "action": "Implement safety measures: monitor ECG if K⁺ >5.5 mEq/L or <3.0 mEq/L.",
+            "rationale": "K⁺ alterations can cause potentially fatal arrhythmias."
+          },
+          {
+            "action": "Educate the patient about foods high or low in the affected ion as per medical order.",
+            "rationale": "Diet is a major source for maintaining adequate electrolyte levels."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypokalemia",
+    "hypernatremia",
+    "fluid-overload",
+    "acid-base-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Fluid and Electrolyte Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-1-fluid-and-electrolyte-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-08",
+  "factcheck": {
+    "checked": "2026-11-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 26,
+      "contradicted": 1,
+      "total": 28
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "supported",
+        "quote": "The normal serum sodium range is 135 to 145 mEq/L.",
+        "source": 1
+      },
+      "sections.normal_values.1": {
+        "status": "not_found"
+      },
+      "sections.normal_values.2": {
+        "status": "contradicted",
+        "quote": "Chloride Helps maintain fluid balance and is an important component of stomach acid 96–106 mEq/L",
+        "source": 1
+      },
+      "sections.normal_values.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.4": {
+        "status": "not_found"
+      },
+      "sections.normal_values.5": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.high_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.3": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.low_values.3": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

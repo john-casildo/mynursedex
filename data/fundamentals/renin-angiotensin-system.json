@@ -1,0 +1,306 @@
+{
+  "id": "renin-angiotensin-system",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Inhibidores de la enzima convertidora de angiotensina (IECA)",
+    "aliases": [
+      "ieca",
+      "inhibidor eca",
+      "captopril",
+      "enalapril",
+      "angiotensina",
+      "inhibidor renina"
+    ],
+    "summary": "Los IECA bloquean la conversión de angiotensina I a II, reduciendo la presión arterial y la poscarga en insuficiencia cardíaca.",
+    "key_points": [
+      "Disminuyen la resistencia vascular y la presión arterial.",
+      "Mejoran la supervivencia en insuficiencia cardíaca sistólica.",
+      "Pueden causar tos seca, hiperpotasemia y aumento de creatinina.",
+      "Se deben evitar en embarazo y en pacientes con estenosis bilateral de arterias renales."
+    ],
+    "sections": {
+      "purpose": [
+        "Reducir la poscarga y la presión arterial.",
+        "Prevenir remodelado ventricular.",
+        "Mejorar el gasto cardíaco en insuficiencia."
+      ],
+      "procedure": [
+        "Verificar orden médica y dosis prescrita.",
+        "Administrar por vía oral con vaso de agua.",
+        "Controlar presión arterial 30‑60 min después de la dosis inicial.",
+        "Repetir según esquema (una o dos veces al día)."
+      ],
+      "safety": [
+        "Observar signos de hipotensión (mareo, síncope).",
+        "Monitorear potasio sérico y creatinina cada 1‑2 semanas al iniciar.",
+        "Evitar uso concomitante con ARA II o suplementos de potasio.",
+        "Informar al paciente sobre tos persistente y necesidad de reportarla."
+      ],
+      "nursing_care": [
+        "Evaluar presión arterial y frecuencia cardíaca antes y después de la dosis.",
+        "Registrar ingesta y salida de líquidos; observar edema.",
+        "Educar al paciente sobre la importancia de la adherencia y la dieta baja en sodio.",
+        "Reportar aumento de creatinina >0.5 mg/dL o K+ >5.5 mEq/L."
+      ],
+      "documentation": [
+        "Dosis, vía y hora de administración.",
+        "Valores de presión arterial y frecuencia cardíaca pre‑ y post‑administración.",
+        "Resultados de laboratorio (K+, creatinina).",
+        "Reacciones adversas observadas y educación brindada."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de IECA",
+          "insuficiencia cardíaca",
+          "hipertensión arterial",
+          "suplementos de potasio"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: nivel de potasio entre 3.5‑5.0 mEq/L en 48 h.",
+          "Función renal: creatinina sérica estable, sin aumento >0.5 mg/dL en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar niveles de potasio y creatinina antes de iniciar y 1‑2 semanas después.",
+            "rationale": "Detectar precozmente hiperpotasemia o deterioro renal inducido por IECA."
+          },
+          {
+            "action": "Controlar presión arterial cada 30‑60 min tras la primera dosis y luego cada 8 h.",
+            "rationale": "Prevenir hipotensión que pueda comprometer perfusión tisular."
+          },
+          {
+            "action": "Educar al paciente sobre evitar alimentos ricos en potasio y suplementos sin indicación.",
+            "rationale": "Reducir riesgo de hiperpotasemia asociada al fármaco."
+          },
+          {
+            "action": "Evaluar presencia de tos seca y documentar su intensidad.",
+            "rationale": "Identificar efecto adverso frecuente que puede requerir cambio de terapia."
+          },
+          {
+            "action": "Informar al paciente de signos de edema, dificultad respiratoria y palpitaciones.",
+            "rationale": "Facilitar detección temprana de retención de líquidos o arritmias."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Angiotensin-converting enzyme inhibitors (ACE inhibitors)",
+    "aliases": [
+      "acei",
+      "ace inhibitor",
+      "captopril",
+      "enalapril",
+      "angiotensin",
+      "renin inhibitor"
+    ],
+    "summary": "ACE inhibitors block the conversion of angiotensin I to II, reducing blood pressure and afterload in heart failure.",
+    "key_points": [
+      "Reduce vascular resistance and blood pressure.",
+      "Improve survival in systolic heart failure.",
+      "May cause dry cough, hyperkalemia, and increased creatinine.",
+      "Should be avoided in pregnancy and in patients with bilateral renal artery stenosis."
+    ],
+    "sections": {
+      "purpose": [
+        "Reduce afterload and blood pressure.",
+        "Prevent ventricular remodeling.",
+        "Improve cardiac output in heart failure."
+      ],
+      "procedure": [
+        "Verify medical order and prescribed dose.",
+        "Administer orally with a glass of water.",
+        "Check blood pressure 30‑60 minutes after the initial dose.",
+        "Repeat according to schedule (once or twice daily)."
+      ],
+      "safety": [
+        "Observe signs of hypotension (dizziness, syncope).",
+        "Monitor serum potassium and creatinine every 1‑2 weeks at initiation.",
+        "Avoid concurrent use with ARBs or potassium supplements.",
+        "Inform patient about persistent cough and the need to report it."
+      ],
+      "nursing_care": [
+        "Assess blood pressure and heart rate before and after dose.",
+        "Record fluid intake and output; monitor for edema.",
+        "Educate patient on the importance of adherence and a low‑sodium diet.",
+        "Report creatinine increase >0.5 mg/dL or K+ >5.5 mEq/L."
+      ],
+      "documentation": [
+        "Dose, route, and time of administration.",
+        "Pre‑ and post‑administration blood pressure and heart rate values.",
+        "Laboratory results (K+, creatinine).",
+        "Observed adverse reactions and education provided."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "use of ACE inhibitors",
+          "heart failure",
+          "hypertension",
+          "potassium supplements"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: potassium level 3.5‑5.0 mEq/L within 48 h.",
+          "Renal function: stable serum creatinine, no increase >0.5 mg/dL within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record potassium and creatinine levels before initiation and 1‑2 weeks after.",
+            "rationale": "Detect early hyperkalemia or ACE‑induced renal dysfunction."
+          },
+          {
+            "action": "Check blood pressure every 30‑60 minutes after the first dose and then every 8 hours.",
+            "rationale": "Prevent hypotension that could compromise tissue perfusion."
+          },
+          {
+            "action": "Educate patient to avoid potassium‑rich foods and unprescribed supplements.",
+            "rationale": "Reduce risk of drug‑associated hyperkalemia."
+          },
+          {
+            "action": "Assess for dry cough and document its severity.",
+            "rationale": "Identify a common adverse effect that may necessitate therapy change."
+          },
+          {
+            "action": "Inform patient of signs of edema, shortness of breath, and palpitations.",
+            "rationale": "Facilitate early detection of fluid retention or arrhythmias."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperkalemia",
+    "heart-failure",
+    "renal-insufficiency",
+    "angiotensin-ii-receptor-blockers"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Drugs Affecting the Renin-Angiotensin-Aldosterone System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-2-drugs-affecting-the-renin-angiotensin-aldosterone-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-08",
+  "factcheck": {
+    "checked": "2026-11-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 19,
+      "contradicted": 0,
+      "total": 24
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Inhibits the enzyme that converts angiotensin I to angiotensin II and thereby suppresses the renin-angiotensin-aldosterone system",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Clients may develop an ACE inhibitor–associated cough (a persistent, dry, itchy cough).",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.purpose.0": {
+        "status": "not_found"
+      },
+      "sections.purpose.1": {
+        "status": "not_found"
+      },
+      "sections.purpose.2": {
+        "status": "not_found"
+      },
+      "sections.procedure.0": {
+        "status": "not_found"
+      },
+      "sections.procedure.1": {
+        "status": "not_found"
+      },
+      "sections.procedure.2": {
+        "status": "not_found"
+      },
+      "sections.procedure.3": {
+        "status": "supported",
+        "quote": "Enalapril ( Vasotec ) 2.5–20 mg orally twice daily.",
+        "source": 0
+      },
+      "sections.safety.0": {
+        "status": "supported",
+        "quote": "Adverse Effects Angioedema Hyperkalemia Fatigue Orthostatic hypotension Asthenia Diarrhea Nausea/vomiting Headache Dizziness/vertigo Cough Rash Abdominal pain Angina Contraindications Hyp",
+        "source": 0
+      },
+      "sections.safety.1": {
+        "status": "not_found"
+      },
+      "sections.safety.2": {
+        "status": "not_found"
+      },
+      "sections.safety.3": {
+        "status": "supported",
+        "quote": "Be aware that a persistent cough may develop when taking ACE inhibitors.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.documentation.0": {
+        "status": "not_found"
+      },
+      "sections.documentation.1": {
+        "status": "not_found"
+      },
+      "sections.documentation.2": {
+        "status": "not_found"
+      },
+      "sections.documentation.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

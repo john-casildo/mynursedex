@@ -1,0 +1,482 @@
+{
+  "id": "fluid-imbalance",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Desequilibrio de líquidos y electrolitos",
+    "aliases": [
+      "desequilibrio",
+      "hidroelectrolitos",
+      "volumen",
+      "líquidos",
+      "electrolitos",
+      "hiponatremia",
+      "hipernatremia"
+    ],
+    "summary": "Alteración del balance entre la ingesta y la pérdida de agua y electrolitos que afecta la homeostasis corporal.",
+    "key_points": [
+      "Los electrolitos regulan el pH, la contractilidad muscular y la presión arterial.",
+      "Los mecanismos de compensación incluyen ADH, aldosterona y sistema renina‑angiotensina.",
+      "Los desequilibrios pueden presentarse como déficit o exceso de volumen.",
+      "Los signos clínicos dependen del tipo de electrolito alterado y del volumen corporal.",
+      "El monitoreo de peso, ingesta/salida y laboratorios es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El cuerpo mantiene equilibrio mediante intercambio entre compartimentos intracelular y extracelular.",
+        "ADH aumenta la reabsorción de agua en los túbulos colectores.",
+        "Aldosterona favorece la retención de Na⁺ y agua, excreción de K⁺.",
+        "Alteraciones en estos sistemas provocan hipovolemia o hipervolemia y cambios electrolíticos."
+      ],
+      "risk_factors": [
+        "Insuficiencia cardíaca congestiva.",
+        "Enfermedad renal crónica o diálisis.",
+        "Vómitos, diarrea o fiebre prolongada.",
+        "Uso de diuréticos, laxantes o corticoides.",
+        "Cirugías mayores y pérdida sanguínea."
+      ],
+      "signs_symptoms": [
+        "Edema periférico o pulmonar (exceso).",
+        "Hipotensión, taquicardia, mareos (déficit).",
+        "Alteraciones neurológicas: confusión, convulsiones (Na⁺, Ca²⁺).",
+        "Debilidad muscular, arritmias (K⁺, Mg²⁺).",
+        "Cambios en la turgencia cutánea y mucosa."
+      ],
+      "diagnostics": [
+        "Peso diario y balance hídrico (I/O).",
+        "Electrolitos séricos: Na⁺, K⁺, Cl⁻, Ca²⁺, Mg²⁺ (mEq/L).",
+        "Bicarbonato y pH arterial (mmol/L, pH).",
+        "Osmolaridad plasmática y urinaria (mOsm/kg).",
+        "Ecocardiograma o ecografía abdominal si se sospecha sobrecarga."
+      ],
+      "treatment": [
+        "Reposición de líquidos: solución salina 0.9% o Ringer lactato según déficit/exceso.",
+        "Corrección de electrolitos: cloruro de potasio, gluconato de calcio, magnesio sulfato.",
+        "Diuréticos de asa (furosemida) o tiazídicos para eliminar exceso de volumen.",
+        "Restricción de sodio (<2 g/día) y control de ingesta de líquidos.",
+        "Monitoreo continuo de presión arterial, frecuencia cardíaca y saturación."
+      ],
+      "complications": [
+        "Edema cerebral o pulmonar por sobrecarga.",
+        "Shock hipovolémico y falla multiorgánica.",
+        "Arritmias ventriculares por hipopotasemia o hipercalemia.",
+        "Crisis convulsiva por hiponatremia severa.",
+        "Acidosis o alcalosis metabólica."
+      ],
+      "nursing_care": [
+        "Evaluar peso, turgencia cutánea, mucosas y edema en cada turno.",
+        "Registrar ingesta y salida de líquidos cada 8 h; comparar con órdenes.",
+        "Controlar signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+        "Observar cambios en nivel de conciencia y ritmo cardíaco.",
+        "Administrar soluciones IV según prescripción y verificar concentraciones."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la dieta baja en sodio y la restricción de líquidos cuando sea indicado.",
+        "Enseñar a reconocer signos de edema, mareos o palpitaciones.",
+        "Instruir sobre la correcta toma de medicamentos (diuréticos, suplementos de potasio).",
+        "Promover el registro diario de ingesta de líquidos y peso.",
+        "Fomentar la adherencia a controles de laboratorio y citas médicas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Exceso de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "insuficiencia cardíaca",
+          "enfermedad renal crónica",
+          "síndrome nefrótico"
+        ],
+        "evidenced_by": [
+          "edema periférico",
+          "disminución de la presión arterial",
+          "aumento de peso >2 kg/semana",
+          "crepitantes pulmonares",
+          "ingesta > salida"
+        ],
+        "outcomes": [
+          "Peso corporal estable (variación <0.5 kg en 48 h)",
+          "Intake/output equilibrado (I/O dentro de ±500 mL/24 h)",
+          "Ausencia de crepitantes pulmonares al final de la jornada"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y registrar balance hídrico cada 8 h.",
+            "rationale": "Detecta rápidamente la acumulación o pérdida de líquidos."
+          },
+          {
+            "action": "Administrar diurético de asa según orden y observar respuesta urinaria.",
+            "rationale": "Facilita la eliminación de exceso de sodio y agua."
+          },
+          {
+            "action": "Aplicar restricción de sodio (<2 g/día) y educar al paciente sobre alimentos altos en sal.",
+            "rationale": "Reduce la retención de agua mediada por Na⁺."
+          },
+          {
+            "action": "Evaluar signos de insuficiencia respiratoria (auscultación, saturación).",
+            "rationale": "Previene complicaciones como edema pulmonar."
+          },
+          {
+            "action": "Revisar electrolitos séricos cada 24 h y ajustar terapia según resultados.",
+            "rationale": "Evita desequilibrios iónicos secundarios al uso de diuréticos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "vómitos",
+          "diarrea",
+          "fiebre",
+          "diuresis excesiva"
+        ],
+        "evidenced_by": [
+          "taquicardia",
+          "presión arterial baja",
+          "turgencia cutánea disminuida",
+          "sed intensa",
+          "orina concentrada <30 mL/h"
+        ],
+        "outcomes": [
+          "Presión arterial dentro de rango normal (90‑120/60‑80 mmHg) en 24 h",
+          "Orina con volumen >30 mL/h y color amarillo pálido",
+          "Hidratación adecuada evidenciada por turgencia cutánea normal"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar hidratación IV con solución salina 0.9% según cálculo de déficit.",
+            "rationale": "Restablece el volumen intravascular rápidamente."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 4 h.",
+            "rationale": "Permite ajustar la velocidad de reposición."
+          },
+          {
+            "action": "Evaluar signos vitales cada hora durante la fase de reposición.",
+            "rationale": "Detecta sobrecarga o insuficiencia de la terapia."
+          },
+          {
+            "action": "Ofrecer pequeñas tomas de agua oral cada 15 min si el paciente está consciente.",
+            "rationale": "Facilita la rehidratación gradual y reduce riesgo de aspiración."
+          },
+          {
+            "action": "Monitorear electrolitos (Na⁺, K⁺) y corregir según necesidad.",
+            "rationale": "Previene complicaciones como hiponatremia o hipopotasemia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fluid and electrolyte imbalance",
+    "aliases": [
+      "imbalance",
+      "hydro-electrolytes",
+      "volume",
+      "fluids",
+      "electrolytes",
+      "hyponatremia",
+      "hypernatremia"
+    ],
+    "summary": "Alteration of the balance between water and electrolyte intake and loss that affects bodily homeostasis.",
+    "key_points": [
+      "Electrolytes regulate pH, muscle contractility, and blood pressure.",
+      "Compensatory mechanisms include ADH, aldosterone, and the renin‑angiotensin system.",
+      "Imbalances may present as volume deficit or excess.",
+      "Clinical signs depend on the altered electrolyte and body volume.",
+      "Monitoring weight, intake/output, and labs is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The body maintains balance through exchange between intracellular and extracellular compartments.",
+        "ADH increases water reabsorption in the collecting ducts.",
+        "Aldosterone promotes Na⁺ and water retention, K⁺ excretion.",
+        "Disruptions in these systems cause hypovolemia or hypervolemia and electrolyte changes."
+      ],
+      "risk_factors": [
+        "Congestive heart failure.",
+        "Chronic kidney disease or dialysis.",
+        "Vomiting, diarrhea, or prolonged fever.",
+        "Use of diuretics, laxatives, or corticosteroids.",
+        "Major surgeries and blood loss."
+      ],
+      "signs_symptoms": [
+        "Peripheral or pulmonary edema (excess).",
+        "Hypotension, tachycardia, dizziness (deficit).",
+        "Neurologic changes: confusion, seizures (Na⁺, Ca²⁺).",
+        "Muscle weakness, arrhythmias (K⁺, Mg²⁺).",
+        "Changes in skin and mucosal turgor.]",
+        "diagnostics",
+        ":",
+        "treatment",
+        ":",
+        "complications",
+        ":",
+        "nursing_care",
+        ":",
+        "patient_teaching",
+        ":"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Excess fluid volume",
+        "type": "actual",
+        "related_to": [
+          "congestive heart failure",
+          "chronic kidney disease",
+          "nephrotic syndrome"
+        ],
+        "evidenced_by": [
+          "peripheral edema",
+          "decreased blood pressure",
+          "weight gain >2 kg/week",
+          "pulmonary crackles",
+          "intake > output"
+        ],
+        "outcomes": [
+          "Stable body weight (variation <0.5 kg in 48 h)",
+          "Balanced I/O (±500 mL/24 h)",
+          "No pulmonary crackles at day's end"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and record fluid balance every 8 h.",
+            "rationale": "Rapidly detects fluid accumulation or loss."
+          },
+          {
+            "action": "Administer loop diuretic per order and observe urine output.",
+            "rationale": "Facilitates excess sodium and water elimination."
+          },
+          {
+            "action": "Apply sodium restriction (<2 g/day) and educate patient on high‑salt foods.",
+            "rationale": "Reduces water retention mediated by Na⁺."
+          },
+          {
+            "action": "Assess for respiratory failure signs (auscultation, saturation).",
+            "rationale": "Prevents complications such as pulmonary edema."
+          },
+          {
+            "action": "Check serum electrolytes daily and adjust therapy as needed.",
+            "rationale": "Avoids secondary ionic imbalances from diuretic use."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "vomiting",
+          "diarrhea",
+          "fever",
+          "excessive diuresis"
+        ],
+        "evidenced_by": [
+          "tachycardia",
+          "low blood pressure",
+          "decreased skin turgor",
+          "intense thirst",
+          "urine output <30 mL/h"
+        ],
+        "outcomes": [
+          "Blood pressure within normal range (90‑120/60‑80 mmHg) in 24 h",
+          "Urine volume >30 mL/h and pale yellow color",
+          "Adequate hydration evidenced by normal skin turgor"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate IV hydration with 0.9% saline per deficit calculation.",
+            "rationale": "Rapidly restores intravascular volume."
+          },
+          {
+            "action": "Record fluid intake and output every 4 h.",
+            "rationale": "Allows adjustment of replacement rate."
+          },
+          {
+            "action": "Assess vital signs hourly during rehydration phase.",
+            "rationale": "Detects overload or therapy insufficiency."
+          },
+          {
+            "action": "Offer small oral water sips every 15 min if patient is alert.",
+            "rationale": "Facilitates gradual rehydration and reduces aspiration risk."
+          },
+          {
+            "action": "Monitor electrolytes (Na⁺, K⁺) and correct as needed.",
+            "rationale": "Prevents complications such as hyponatremia or hypokalemia."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dehydration",
+    "edema",
+    "electrolyte-imbalance",
+    "fluid-overload",
+    "hyponatremia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Fluid and Electrolyte Balance",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Fluid and Electrolyte Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-1-fluid-and-electrolyte-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-08",
+  "factcheck": {
+    "checked": "2026-11-08",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 15,
+      "contradicted": 0,
+      "total": 30
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Electrolytes are important because they help: Balance the amount of water in your body Balance your body's acid/base (pH) level Move nutrients into your cells Move wastes out of your cells Support your muscle and nerve function Keep your heart rate and rhythm steady Keep your blood pressure stable Keep your bones and teeth healthy",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Water balance is regulated by several mechanisms, including antidiuretic hormone (ADH), thirst, and the renin-angiotensin-aldosterone system (RAAS).",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "When aldosterone promotes sodium’s movement out of the kidney tubules back into the blood, it also causes potassium to move into the kidney tubules for elimination in urine.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Two types of fluid imbalances are deficient fluid volume (referred to as hypovolemia ) and excessive fluid volume (referred to as hypervolemia ).",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "This is because heart failure is ineffective pumping of blood, which causes the pooling of blood, which increases the pressure on vessels, which “leak” fluid into the interstitial spaces.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Chronic kidney disease affects more than 37 million people in the United States (National Institutes of Health, 2023).",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Common causes of deficient fluid volume are diarrhea, vomiting, excessive sweating, fever, and poor oral fluid intake.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Although headache and peripheral edema are both manifestations of FVE, there is not enough information to determine if these manifestations are from FVE due to increased hydrostatic pressure or from third spacing due to a loss of intravascular oncot",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Adults Infants and Young Children Changes in mental status Dark, concentrated urine Dizziness due to decreased blood pressure Dry mouth Dry skin Elevated heart rate Feeling tired Feeling very thirsty Headache Urinating and sweating less than usual Additional symptoms include: being unusually sleepy or drowsy crying without tears eyes that look sunken irritability no wet diapers for three hours or more sunken fontanel Table 19.2 Signs and Symptoms",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Signs of hypernatremia , or an elevated serum sodium level, include mental confusion, irritability, seizures, severe thirst, and dry mucous membranes.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "This can include a decrease in GI motility, causing nausea and vomiting, peripheral muscle weakness, and slowed conduction creating muscle cramping, cardiac conduction abnormalities causing dysrhythmias, and impaired nerve conduction resulting paresthesia.",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "If dehydration is significant, enophthalmos (or sunken eyes) may be visible, skin turgor may be poor, and skin may look dry.",
+        "source": 1
+      },
+      "sections.signs_symptoms.5": {
+        "status": "supported",
+        "quote": "Recognizing that the infant’s physical assessment is concerning for dehydration, the nurse analyzes other cues to see if additional diagnostic tests may be warranted.",
+        "source": 2
+      },
+      "sections.signs_symptoms.6": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.7": {
+        "status": "supported",
+        "quote": "The treatment for an electrolyte imbalance depends on which electrolytes are out of balance, if there is too little or too many, and what is causing the imbalance.",
+        "source": 0
+      },
+      "sections.signs_symptoms.8": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.9": {
+        "status": "supported",
+        "quote": "The SIADH can be a complication of small cell lung cancer, genetic mutations (nephrogenic SIADH), or brain issues from head injuries or infections.",
+        "source": 1
+      },
+      "sections.signs_symptoms.10": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.11": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.12": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.13": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.14": {
+        "status": "not_found"
+      }
+    }
+  }
+}
