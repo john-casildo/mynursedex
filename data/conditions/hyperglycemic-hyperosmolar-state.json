@@ -1,0 +1,455 @@
+{
+  "id": "hyperglycemic-hyperosmolar-state",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Estado hiperglucémico hiperosmolar (EHH)",
+    "aliases": [
+      "estado hiperglucémico hiperosmolar",
+      "hhso",
+      "hiperglucemia",
+      "hiperosmolaridad",
+      "diabetes tipo 2",
+      "cetoacidosis"
+    ],
+    "summary": "El EHH es una complicación aguda de la diabetes tipo 2 caracterizada por hiperglucemia severa y alta osmolaridad plasmática sin cetosis significativa.",
+    "key_points": [
+      "Glucosa > 600 mg/dL y osmolaridad > 320 mOsm/kg.",
+      "Deshidratación severa por diuresis osmótica.",
+      "Ausencia de cetosis marcada (cuerpos cetónicos < 3 mmol/L).",
+      "Mortalidad mayor que la cetoacidosis diabética si no se trata rápidamente."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hiperglucemia extrema genera diuresis osmótica → pérdida de agua y electrolitos.",
+        "Deshidratación reduce la perfusión tisular y aumenta la osmolaridad plasmática.",
+        "La insuficiencia renal aguda disminuye la excreción de glucosa.",
+        "La falta de insulina suficiente impide la utilización de glucosa, pero no favorece la cetogénesis."
+      ],
+      "risk_factors": [
+        "Diabetes tipo 2 mal controlada.",
+        "Infecciones, infarto de miocardio o ictus.",
+        "Uso de diuréticos o fármacos que aumentan glucosa (corticoides).",
+        "Deshidratación por vómitos, diarrea o ingesta insuficiente de líquidos."
+      ],
+      "signs_symptoms": [
+        "Poliuria y polidipsia intensas.",
+        "Deshidratación: piel seca, mucosas secas, turgencia cutánea disminuida.",
+        "Alteración del estado mental: confusión, somnolencia, coma.",
+        "Frecuencia respiratoria aumentada sin respiración de Kussmaul."
+      ],
+      "diagnostics": [
+        "Glucosa plasmática > 600 mg/dL.",
+        "Osmolaridad plasmática > 320 mOsm/kg.",
+        "Cuerpos cetónicos < 3 mmol/L en suero/urina.",
+        "Na⁺ 130‑145 mEq/L, K⁺ 3‑5 mEq/L (puede variar).",
+        "BUN y creatinina elevadas por deshidratación."
+      ],
+      "treatment": [
+        "Reposición agresiva de líquidos intravenosos (solución salina isotónica).",
+        "Insulina regular IV en infusión continua para reducir glucosa < 250 mg/dL.",
+        "Corrección de electrolitos, especialmente potasio, antes y durante la insulina.",
+        "Monitoreo de glucosa cada 30‑60 min y de osmolaridad.",
+        "Tratar la causa subyacente (antibióticos para infección, etc.)."
+      ],
+      "complications": [
+        "Hipovolemia y shock hipovolémico.",
+        "Insuficiencia renal aguda.",
+        "Hipopotasemia severa.",
+        "Trombosis venosa profunda por hipercoagulabilidad."
+      ],
+      "nursing_care": [
+        "Evaluar signos de deshidratación y nivel de conciencia cada hora.",
+        "Monitorear presión arterial, frecuencia cardíaca y gasto urinario.",
+        "Controlar glucosa, osmolaridad y electrolitos según orden médica.",
+        "Administrar líquidos IV según protocolo y registrar velocidad.",
+        "Observar signos de hipopotasemia (debilidad muscular, arritmias)."
+      ],
+      "patient_teaching": [
+        "Importancia de adherirse al tratamiento de diabetes y monitorear glucosa.",
+        "Reconocer signos de deshidratación y buscar atención temprana.",
+        "Mantener hidratación adecuada, especialmente durante enfermedades.",
+        "Evitar automedicación con corticoides sin supervisión."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "deshidratación por diuresis osmótica",
+          "fiebre/infección",
+          "uso de diuréticos",
+          "ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen intravascular: mantener presión arterial > 90/60 mmHg en 24 h",
+          "Gasto urinario: ≥ 0.5 mL/kg/h en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar hidratación IV con solución salina isotónica según orden médica.",
+            "rationale": "Reemplaza el déficit de agua y sodio y mejora la perfusión tisular."
+          },
+          {
+            "action": "Evaluar signos de deshidratación cada 2 h (turgencia cutánea, mucosas, turgencia capilar).",
+            "rationale": "Permite detectar rápidamente cambios en el estado de hidratación."
+          },
+          {
+            "action": "Registrar y monitorear el gasto urinario cada hora.",
+            "rationale": "Indicador objetivo de la respuesta a la reposición de líquidos."
+          },
+          {
+            "action": "Ajustar la velocidad de infusión según presión arterial y gasto urinario.",
+            "rationale": "Previene sobrecarga de volumen o insuficiente rehidratación."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de la ingesta de líquidos adecuada.",
+            "rationale": "Facilita la prevención de recaídas después del alta."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiperglucemia severa",
+          "uso de insulina",
+          "pérdida renal de potasio",
+          "deshidratación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "K⁺ sérico: mantener entre 3.5‑5.0 mEq/L en 48 h",
+          "Na⁺ sérico: mantener entre 135‑145 mEq/L en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos (Na⁺, K⁺, Cl⁻) cada 4‑6 h.",
+            "rationale": "Detecta rápidamente alteraciones que requieren corrección."
+          },
+          {
+            "action": "Administrar suplementos de potasio IV según prescripción cuando K⁺ < 3.5 mEq/L.",
+            "rationale": "Previene arritmias y debilidad muscular."
+          },
+          {
+            "action": "Ajustar la infusión de líquidos con solución que contenga potasio si es necesario.",
+            "rationale": "Corrige déficit de potasio mientras se rehidrata al paciente."
+          },
+          {
+            "action": "Observar ritmo cardíaco y signos de hiperkalemia o hipokalemia.",
+            "rationale": "Las alteraciones electrolíticas pueden manifestarse como arritmias."
+          },
+          {
+            "action": "Documentar resultados de laboratorio y comunicar al médico cualquier desviación significativa.",
+            "rationale": "Facilita la toma de decisiones terapéuticas oportunas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hyperosmolar Hyperglycemic State (HHS)",
+    "aliases": [
+      "hyperosmolar hyperglycemic state",
+      "hhso",
+      "hyperglycemia",
+      "hyperosmolality",
+      "type 2 diabetes",
+      "diabetic ketoacidosis"
+    ],
+    "summary": "HHS is an acute complication of type 2 diabetes characterized by severe hyperglycemia and high plasma osmolality without significant ketosis.",
+    "key_points": [
+      "Glucose > 600 mg/dL and osmolality > 320 mOsm/kg.",
+      "Severe dehydration from osmotic diuresis.",
+      "Marked absence of ketosis (ketone bodies < 3 mmol/L).",
+      "Higher mortality than diabetic ketoacidosis if not treated promptly."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Extreme hyperglycemia causes osmotic diuresis → loss of water and electrolytes.",
+        "Dehydration reduces tissue perfusion and increases plasma osmolality.",
+        "Acute kidney injury decreases glucose excretion.",
+        "Insufficient insulin prevents glucose utilization but does not promote ketogenesis."
+      ],
+      "risk_factors": [
+        "Poorly controlled type 2 diabetes.",
+        "Infections, myocardial infarction, or stroke.",
+        "Use of diuretics or drugs that raise glucose (corticosteroids).",
+        "Dehydration from vomiting, diarrhea, or inadequate fluid intake."
+      ],
+      "signs_symptoms": [
+        "Intense polyuria and polydipsia.",
+        "Dehydration: dry skin, dry mucous membranes, decreased skin turgor.",
+        "Altered mental status: confusion, somnolence, coma.",
+        "Increased respiratory rate without Kussmaul breathing."
+      ],
+      "diagnostics": [
+        "Plasma glucose > 600 mg/dL.",
+        "Plasma osmolality > 320 mOsm/kg.",
+        "Serum/urine ketone bodies < 3 mmol/L.",
+        "Na⁺ 130‑145 mEq/L, K⁺ 3‑5 mEq/L (may vary).",
+        "Elevated BUN and creatinine from dehydration."
+      ],
+      "treatment": [
+        "Aggressive intravenous fluid replacement (normal saline).",
+        "Regular insulin IV continuous infusion to reduce glucose < 250 mg/dL.",
+        "Correct electrolytes, especially potassium, before and during insulin therapy.",
+        "Monitor glucose every 30‑60 min and osmolality.",
+        "Treat underlying cause (antibiotics for infection, etc.)."
+      ],
+      "complications": [
+        "Hypovolemia and hypovolemic shock.",
+        "Acute kidney injury.",
+        "Severe hypokalemia.",
+        "Deep vein thrombosis from hypercoagulability."
+      ],
+      "nursing_care": [
+        "Assess dehydration signs and level of consciousness hourly.",
+        "Monitor blood pressure, heart rate, and urine output.",
+        "Check glucose, osmolality, and electrolytes per physician orders.",
+        "Administer IV fluids per protocol and record rate.",
+        "Observe for hypokalemia signs (muscle weakness, arrhythmias)."
+      ],
+      "patient_teaching": [
+        "Importance of adhering to diabetes treatment and monitoring glucose.",
+        "Recognize dehydration signs and seek early care.",
+        "Maintain adequate hydration, especially during illness.",
+        "Avoid self‑medication with corticosteroids without supervision."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "osmotic diuresis dehydration",
+          "fever/infection",
+          "diuretic use",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intravascular volume: maintain blood pressure > 90/60 mmHg within 24 h",
+          "Urine output: ≥ 0.5 mL/kg/h within 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate IV hydration with normal saline per physician order.",
+            "rationale": "Replaces water and sodium deficit and improves tissue perfusion."
+          },
+          {
+            "action": "Assess dehydration signs every 2 h (skin turgor, mucous membranes, capillary refill).",
+            "rationale": "Allows rapid detection of hydration status changes."
+          },
+          {
+            "action": "Record and monitor urine output hourly.",
+            "rationale": "Objective indicator of response to fluid replacement."
+          },
+          {
+            "action": "Adjust infusion rate based on blood pressure and urine output.",
+            "rationale": "Prevents volume overload or inadequate rehydration."
+          },
+          {
+            "action": "Educate patient and family on importance of adequate fluid intake.",
+            "rationale": "Facilitates prevention of readmissions after discharge."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "severe hyperglycemia",
+          "insulin use",
+          "renal potassium loss",
+          "dehydration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum K⁺: maintain 3.5‑5.0 mEq/L within 48 h",
+          "Serum Na⁺: maintain 135‑145 mEq/L within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor electrolytes (Na⁺, K⁺, Cl⁻) every 4‑6 h.",
+            "rationale": "Rapidly detects changes requiring correction."
+          },
+          {
+            "action": "Administer IV potassium supplements per prescription when K⁺ < 3.5 mEq/L.",
+            "rationale": "Prevents arrhythmias and muscle weakness."
+          },
+          {
+            "action": "Adjust fluid infusion with potassium‑containing solution if needed.",
+            "rationale": "Corrects potassium deficit while rehydrating the patient."
+          },
+          {
+            "action": "Observe cardiac rhythm and signs of hyperkalemia or hypokalemia.",
+            "rationale": "Electrolyte disturbances may present as arrhythmias."
+          },
+          {
+            "action": "Document lab results and communicate significant deviations to the physician.",
+            "rationale": "Facilitates timely therapeutic decision making."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "diabetes-mellitus",
+    "dehydration",
+    "hyperosmolarity",
+    "acute-kidney-injury",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "Fundamentals of Nursing: Legal Dimensions of Care",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/16-3-legal-dimensions-of-care",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-10",
+  "factcheck": {
+    "checked": "2026-11-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Inappropriate patient monitoring Regularly assess IV sites, vital signs, urinary output, cardiac status, and so on.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,461 @@
+{
+  "id": "macrovascular-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad macrovascular",
+    "aliases": [
+      "macrovascular",
+      "enfermedad macrovascular",
+      "enfermedad cardiovascular",
+      "arteriosclerosis",
+      "aterosclerosis"
+    ],
+    "summary": "Trastorno crónico caracterizado por la acumulación de placa en arterias de gran calibre, reduciendo el flujo sanguíneo y predisponiendo a eventos isquémicos.",
+    "key_points": [
+      "Afecta arterias de gran calibre (aorta, coronarias, carotídeas)",
+      "Factores de riesgo: hipertensión, diabetes, tabaquismo, dislipidemia, obesidad",
+      "Diagnóstico incluye perfil lipídico, glucemia y ABI <0.9",
+      "Manejo integral: cambios de estilo de vida, fármacos antiplaquetarios y estatinas",
+      "Complicaciones: infarto de miocardio, accidente cerebrovascular, enfermedad arterial periférica"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño endotelial por presión o glucosa alta",
+        "Acumulación de lípidos y formación de placa ateromatosa",
+        "Estrechamiento luminal y disminución del flujo",
+        "Ruptura de placa → trombosis y oclusión"
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica",
+        "Diabetes mellitus tipo 2",
+        "Tabaquismo activo o pasivo",
+        "Hipercolesterolemia y triglicéridos elevados",
+        "Obesidad y sedentarismo"
+      ],
+      "signs_symptoms": [
+        "Dolor torácico anginoso",
+        "Disnea de esfuerzo",
+        "Claudicación intermitente en miembros inferiores",
+        "Pérdida de pulsos periféricos",
+        "Síntomas neurológicos por isquemia cerebral"
+      ],
+      "diagnostics": [
+        "Perfil lipídico: LDL >130 mg/dL (varía por laboratorio)",
+        "Glucosa en ayunas >126 mg/dL o HbA1c >6.5 %",
+        "Índice tobillo‑braquial (ABI) <0.9 indica enfermedad arterial periférica",
+        "Ecografía Doppler arterial para evaluar flujo",
+        "Angiografía coronaria o de extremidades según indicación"
+      ],
+      "treatment": [
+        "Modificación de estilo de vida: dieta baja en grasas saturadas, ejercicio ≥150 min/semana",
+        "Aspirina 81‑100 mg/día (antiplaquetario)",
+        "Estatinas (atorvastatina, rosuvastatina) para LDL <70 mg/dL",
+        "Control de presión arterial con IECA o ARA II",
+        "Control glucémico con metformina u otros según protocolo"
+      ],
+      "complications": [
+        "Infarto agudo de miocardio",
+        "Accidente cerebrovascular isquémico",
+        "Enfermedad arterial periférica grave → úlceras, gangrena"
+      ],
+      "nursing_care": [
+        "Evaluar pulsos periféricos y temperatura de extremidades cada turno",
+        "Monitorear presión arterial, frecuencia cardíaca y saturación O₂",
+        "Registrar dolor torácico: localización, intensidad, factores desencadenantes",
+        "Revisar resultados de laboratorio (lipidos, glucosa, creatinina)",
+        "Promover posición semisentado para facilitar la respiración y reducir carga cardíaca"
+      ],
+      "patient_teaching": [
+        "Adoptar dieta DASH: frutas, verduras, granos integrales, limitar sal y grasas",
+        "Dejar de fumar: ofrecer recursos de cesación y terapia de reemplazo nicotínico",
+        "Tomar medicación según prescripción, no omitir aspirina ni estatinas",
+        "Inspeccionar pies diariamente y reportar lesiones",
+        "Realizar actividad física progresiva, iniciar con caminatas cortas"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "hipertensión arterial",
+          "diabetes mellitus",
+          "tabaquismo",
+          "hipercolesterolemia",
+          "obesidad"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca: presión arterial sistólica 110‑130 mmHg",
+          "Perfusión tisular cardíaca: ausencia de dolor torácico",
+          "Perfusión tisular cardíaca: troponina dentro de rango normal"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial cada 4 horas",
+            "rationale": "Detectar hipertensión que empeora la perfusión"
+          },
+          {
+            "action": "Evaluar dolor torácico y describir características",
+            "rationale": "Identificar signos de isquemia miocárdica"
+          },
+          {
+            "action": "Revisar resultados de perfil lipídico y glucemia",
+            "rationale": "Control de factores de riesgo aterogénicos"
+          },
+          {
+            "action": "Educar al paciente sobre dejar de fumar y adherencia a medicación",
+            "rationale": "Reducir progresión de la enfermedad macrovascular"
+          },
+          {
+            "action": "Promover actividad física moderada según tolerancia",
+            "rationale": "Mejorar circulación y control de peso"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "claudicación intermitente",
+          "disminución del flujo sanguíneo periférico"
+        ],
+        "evidenced_by": [
+          "dolor en piernas al caminar >100 m",
+          "fatiga al subir escaleras"
+        ],
+        "outcomes": [
+          "Intolerancia a la actividad: caminar 200 m sin dolor en 2 semanas",
+          "Intolerancia a la actividad: nivel de fatiga ≤2/10 en escala de Borg"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de descanso durante la marcha",
+            "rationale": "Permite al paciente completar actividades sin dolor intenso"
+          },
+          {
+            "action": "Enseñar ejercicios de estiramiento y fortalecimiento de piernas",
+            "rationale": "Mejora perfusión muscular"
+          },
+          {
+            "action": "Monitorear signos vitales antes y después de la actividad",
+            "rationale": "Detectar respuesta cardiovascular adversa"
+          },
+          {
+            "action": "Coordinar con fisioterapia para programa de caminata supervisada",
+            "rationale": "Incrementar tolerancia gradualmente"
+          },
+          {
+            "action": "Reforzar educación sobre control de glucemia y lípidos",
+            "rationale": "Factores que influyen en la perfusión"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Macrovascular disease",
+    "aliases": [
+      "macrovascular",
+      "macrovascular disease",
+      "cardiovascular disease",
+      "arteriosclerosis",
+      "atherosclerosis"
+    ],
+    "summary": "Chronic disorder characterized by plaque accumulation in large-caliber arteries, reducing blood flow and predisposing to ischemic events.",
+    "key_points": [
+      "Affects large-caliber arteries (aorta, coronaries, carotids)",
+      "Risk factors: hypertension, diabetes, smoking, dyslipidemia, obesity",
+      "Diagnosis includes lipid profile, glucose, and ABI <0.9",
+      "Comprehensive management: lifestyle changes, antiplatelet drugs, and statins",
+      "Complications: myocardial infarction, stroke, peripheral arterial disease"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Endothelial damage from pressure or high glucose",
+        "Lipid accumulation and atheromatous plaque formation",
+        "Luminal narrowing and reduced flow",
+        "Plaque rupture → thrombosis and occlusion"
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension",
+        "Type 2 diabetes mellitus",
+        "Active or passive smoking",
+        "Hypercholesterolemia and elevated triglycerides",
+        "Obesity and sedentary lifestyle"
+      ],
+      "signs_symptoms": [
+        "Angina-like chest pain",
+        "Exertional dyspnea",
+        "Intermittent claudication in lower extremities",
+        "Loss of peripheral pulses",
+        "Neurologic symptoms from cerebral ischemia"
+      ],
+      "diagnostics": [
+        "Lipid profile: LDL >130 mg/dL (lab-dependent)",
+        "Fasting glucose >126 mg/dL or HbA1c >6.5 %",
+        "Ankle‑Brachial Index (ABI) <0.9 indicates peripheral arterial disease",
+        "Arterial Doppler ultrasound to assess flow",
+        "Coronary or limb angiography as indicated"
+      ],
+      "treatment": [
+        "Lifestyle modification: low saturated fat diet, exercise ≥150 min/week",
+        "Aspirin 81‑100 mg/day (antiplatelet)",
+        "Statins (atorvastatin, rosuvastatin) to achieve LDL <70 mg/dL",
+        "Blood pressure control with ACE inhibitors or ARBs",
+        "Glucose control with metformin or other agents per protocol"
+      ],
+      "complications": [
+        "Acute myocardial infarction",
+        "Ischemic stroke",
+        "Severe peripheral arterial disease → ulcers, gangrene"
+      ],
+      "nursing_care": [
+        "Assess peripheral pulses and limb temperature each shift",
+        "Monitor blood pressure, heart rate, and O₂ saturation",
+        "Document chest pain: location, intensity, triggers",
+        "Review lab results (lipids, glucose, creatinine)",
+        "Promote semi‑upright position to ease breathing and reduce cardiac load"
+      ],
+      "patient_teaching": [
+        "Adopt DASH diet: fruits, vegetables, whole grains, limit salt and fats",
+        "Quit smoking: provide cessation resources and nicotine replacement therapy",
+        "Take medications as prescribed, do not skip aspirin or statins",
+        "Inspect feet daily and report lesions",
+        "Engage in progressive physical activity, start with short walks"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "arterial hypertension",
+          "diabetes mellitus",
+          "smoking",
+          "hypercholesterolemia",
+          "obesity"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac tissue perfusion: systolic blood pressure 110‑130 mmHg",
+          "Cardiac tissue perfusion: absence of chest pain",
+          "Cardiac tissue perfusion: troponin within normal range"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure every 4 hours",
+            "rationale": "Detect hypertension that worsens perfusion"
+          },
+          {
+            "action": "Assess chest pain and describe characteristics",
+            "rationale": "Identify signs of myocardial ischemia"
+          },
+          {
+            "action": "Review lipid profile and glucose results",
+            "rationale": "Control atherogenic risk factors"
+          },
+          {
+            "action": "Educate patient on smoking cessation and medication adherence",
+            "rationale": "Reduce progression of macrovascular disease"
+          },
+          {
+            "action": "Promote moderate physical activity as tolerated",
+            "rationale": "Improve circulation and weight control"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "intermittent claudication",
+          "reduced peripheral blood flow"
+        ],
+        "evidenced_by": [
+          "leg pain when walking >100 m",
+          "fatigue climbing stairs"
+        ],
+        "outcomes": [
+          "Activity intolerance: walk 200 m without pain in 2 weeks",
+          "Activity intolerance: fatigue level ≤2/10 on Borg scale"
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods during walking",
+            "rationale": "Allows patient to complete activities without intense pain"
+          },
+          {
+            "action": "Teach leg stretching and strengthening exercises",
+            "rationale": "Improve muscle perfusion"
+          },
+          {
+            "action": "Monitor vital signs before and after activity",
+            "rationale": "Detect adverse cardiovascular response"
+          },
+          {
+            "action": "Coordinate with physical therapy for supervised walking program",
+            "rationale": "Gradually increase tolerance"
+          },
+          {
+            "action": "Reinforce education on glucose and lipid control",
+            "rationale": "Factors influencing perfusion"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "atherosclerosis",
+    "peripheral-artery-disease",
+    "myocardial-infarction",
+    "stroke",
+    "hyperlipidemia"
+  ],
+  "sources": [],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-10",
+  "factcheck": {
+    "checked": "2026-11-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 43,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

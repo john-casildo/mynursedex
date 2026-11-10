@@ -1,0 +1,499 @@
+{
+  "id": "intestinal-bleeding",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hemorragia intestinal",
+    "aliases": [
+      "hemorragia intestinal",
+      "sangrado intestinal",
+      "sangrado gastrointestinal",
+      "hemorragia gastrointestinal",
+      "sangrado del intestino",
+      "hemorragia del intestino",
+      "sangrado gi",
+      "hemorragia gi"
+    ],
+    "summary": "Pérdida de sangre del intestino delgado o grueso que puede ser aguda o crónica y se manifiesta con cambios en las heces y signos de hipovolemia.",
+    "key_points": [
+      "Puede presentarse con heces melena o hematochezia según la localización.",
+      "La pérdida sanguínea provoca déficit de volumen y desequilibrio electrolítico.",
+      "Laboratorio: Hb <10 g/dL, hematocrito bajo, BUN/creatinina elevado.",
+      "El manejo incluye reposición de líquidos, transfusión y control endoscópico del foco."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lesión de la mucosa intestinal produce ruptura de vasos sanguíneos.",
+        "La sangre se mezcla con el contenido intestinal y se elimina por heces o vómito.",
+        "La pérdida de sangre reduce el volumen intravascular, activando la respuesta compensatoria catecolaminérgica."
+      ],
+      "risk_factors": [
+        "Úlceras pépticas o de estrés.",
+        "Varices esofágicas o gástricas por hipertensión portal.",
+        "Enfermedad inflamatoria intestinal (enfermedad de Crohn, colitis ulcerosa).",
+        "Uso de AINES, anticoagulantes o antiagregantes."
+      ],
+      "signs_symptoms": [
+        "Heces negras (melena) o rojo brillante (hematochezia).",
+        "Vómito con sangre o aspecto de café molido.",
+        "Hipotensión ortostática, taquicardia, piel fría y húmeda.",
+        "Disminución de la diuresis y mareos."
+      ],
+      "diagnostics": [
+        "Hemograma: Hb y Hct bajos.",
+        "BUN y creatinina: aumento del BUN/creatinina indica hipovolemia.",
+        "Pruebas de sangre oculta en heces si el sangrado es oculto.",
+        "Endoscopia digestiva alta o colonoscopia para localizar el foco."
+      ],
+      "treatment": [
+        "Reposición de volumen con cristaloides (solución salina al 0.9%).",
+        "Transfusión de concentrado de glóbulos rojos si Hb <7 g/dL o síntomas.",
+        "Inhibidores de bomba de protones: omeprazol, pantoprazol.",
+        "Octreotida para hemorragia variceal.",
+        "Antifibrinolítico: tranexámico en sangrado por úlcera."
+      ],
+      "complications": [
+        "Shock hipovolémico.",
+        "Anemia severa.",
+        "Desequilibrio electrolítico (hiponatremia, hipocalemia).",
+        "Insuficiencia renal aguda por perfusión disminuida."
+      ],
+      "nursing_care": [
+        "Monitorizar signos vitales cada 15‑30 min y presión arterial invasiva si está indicada.",
+        "Evaluar ingesta y salida; registrar diuresis cada hora.",
+        "Observar color y consistencia de heces y vómitos.",
+        "Mantener acceso venoso de gran calibre y administrar fluidos según prescripción.",
+        "Preparar al paciente para endoscopia: ayuno y consentimiento."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de reportar cualquier cambio en el color de heces o vómitos.",
+        "Instruir sobre la adherencia a la medicación antiácida y evitar AINES sin indicación.",
+        "Enseñar signos de alarma: mareos, palidez, disminución de la orina.",
+        "Promover una dieta blanda y evitar irritantes gástricos durante la recuperación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida sanguínea activa",
+          "vómitos con sangre",
+          "diarrea con sangre"
+        ],
+        "evidenced_by": [
+          "hipotensión ortostática",
+          "taquicardia >100 lpm",
+          "piel fría y húmeda",
+          "diuresis <30 mL/h",
+          "Hb <10 g/dL"
+        ],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida equilibradas en 24 h",
+          "Presión arterial: mantener >90/60 mmHg",
+          "Hemoglobina: mantener >10 g/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales y nivel de conciencia cada 15 minutos",
+            "rationale": "Detectar rápidamente deterioro hemodinámico"
+          },
+          {
+            "action": "Registrar ingesta y salida, incluyendo diuresis y pérdidas gastrointestinales",
+            "rationale": "Permite calcular el balance hídrico y ajustar la terapia"
+          },
+          {
+            "action": "Administrar cristaloides IV según prescripción y monitorizar respuesta",
+            "rationale": "Restituye el volumen intravascular y mejora perfusión"
+          },
+          {
+            "action": "Preparar y administrar transfusión de concentrado de glóbulos rojos si está indicada",
+            "rationale": "Corrige la anemia y aumenta la capacidad de transporte de oxígeno"
+          },
+          {
+            "action": "Colaborar con el médico para iniciar inhibidores de bomba de protones IV",
+            "rationale": "Reduce la acidez y favorece la hemostasia de úlceras"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar cualquier sangrado nuevo",
+            "rationale": "Facilita la detección precoz de re‑sangrado"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida sanguínea significativa",
+          "administración de diuréticos",
+          "reposiciones masivas de cristaloides sin electrolitos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sodio sérico: mantener 135‑145 mEq/L",
+          "Potasio sérico: mantener 3.5‑5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos cada 6‑8 horas",
+            "rationale": "Detectar alteraciones tempranas y guiar la reposición"
+          },
+          {
+            "action": "Administrar soluciones con electrolitos (por ejemplo, Ringer lactato) según prescripción",
+            "rationale": "Previene hiponatremia e hipocalemia durante la reposición de volumen"
+          },
+          {
+            "action": "Evaluar estado neurológico (confusión, debilidad muscular) cada turno",
+            "rationale": "Los desequilibrios electrolíticos pueden manifestarse con alteraciones neurológicas"
+          },
+          {
+            "action": "Colaborar para reemplazar potasio o magnesio si los valores están bajos",
+            "rationale": "Mantener la función cardíaca y muscular"
+          },
+          {
+            "action": "Enseñar al paciente la importancia de una dieta rica en potasio (plátano, papaya) cuando sea apropiado",
+            "rationale": "Apoya la reposición natural de electrolitos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intestinal hemorrhage",
+    "aliases": [
+      "intestinal hemorrhage",
+      "intestinal bleeding",
+      "gastrointestinal bleeding",
+      "gi bleeding",
+      "intestinal bleed",
+      "gi bleed"
+    ],
+    "summary": "Loss of blood from the small or large intestine that can be acute or chronic and presents with changes in stool and signs of hypovolemia.",
+    "key_points": [
+      "May present with melena or hematochezia depending on location.",
+      "Blood loss causes volume deficit and electrolyte imbalance.",
+      "Lab: Hb <10 g/dL, low hematocrit, elevated BUN/creatinine.",
+      "Management includes fluid replacement, transfusion, and endoscopic control of the source."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Intestinal mucosal injury causes rupture of blood vessels.",
+        "Blood mixes with intestinal contents and is eliminated via stool or vomit.",
+        "Blood loss reduces intravascular volume, triggering catecholamine compensatory response."
+      ],
+      "risk_factors": [
+        "Peptic or stress ulcers.",
+        "Esophageal or gastric varices from portal hypertension.",
+        "Inflammatory bowel disease (Crohn disease, ulcerative colitis).",
+        "Use of NSAIDs, anticoagulants, or antiplatelets."
+      ],
+      "signs_symptoms": [
+        "Black stools (melena) or bright red (hematochezia).",
+        "Vomiting with blood or coffee‑ground appearance.",
+        "Orthostatic hypotension, tachycardia, cold and clammy skin.",
+        "Reduced urine output and dizziness."
+      ],
+      "diagnostics": [
+        "CBC: low Hb and Hct.",
+        "BUN and creatinine: increased BUN/creatinine indicates hypovolemia.",
+        "Fecal occult blood test if bleeding is occult.",
+        "Upper GI endoscopy or colonoscopy to locate the source."
+      ],
+      "treatment": [
+        "Volume replacement with crystalloids (0.9% saline solution).",
+        "Red blood cell concentrate transfusion if Hb <7 g/dL or symptomatic.",
+        "Proton pump inhibitors: omeprazole, pantoprazole.",
+        "Octreotide for variceal bleeding.",
+        "Antifibrinolytic: tranexamic acid for ulcer bleeding."
+      ],
+      "complications": [
+        "Hypovolemic shock.",
+        "Severe anemia.",
+        "Electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Acute renal failure from decreased perfusion."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 minutes and invasive blood pressure if indicated.",
+        "Assess intake and output; record urine hourly.",
+        "Observe stool and vomit color and consistency.",
+        "Maintain large‑bore IV access and administer fluids per order.",
+        "Prepare patient for endoscopy: fasting and consent."
+      ],
+      "patient_teaching": [
+        "Explain importance of reporting any change in stool or vomit color.",
+        "Instruct on adherence to antacid medication and avoid NSAIDs without indication.",
+        "Teach warning signs: dizziness, pallor, decreased urine output.",
+        "Encourage a bland diet and avoid gastric irritants during recovery."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "active blood loss",
+          "bloody vomiting",
+          "bloody diarrhea"
+        ],
+        "evidenced_by": [
+          "orthostatic hypotension",
+          "tachycardia >100 bpm",
+          "cold and clammy skin",
+          "urine <30 mL/h",
+          "Hb <10 g/dL"
+        ],
+        "outcomes": [
+          "Fluid balance: intake and output equal in 24 h",
+          "Blood pressure: maintain >90/60 mmHg",
+          "Hemoglobin: maintain >10 g/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs and level of consciousness every 15 minutes",
+            "rationale": "Detect rapid hemodynamic deterioration"
+          },
+          {
+            "action": "Record intake and output, including urine and GI losses",
+            "rationale": "Allows calculation of fluid balance and therapy adjustment"
+          },
+          {
+            "action": "Administer IV crystalloids per order and monitor response",
+            "rationale": "Restores intravascular volume and improves perfusion"
+          },
+          {
+            "action": "Prepare and administer packed red blood cell transfusion if indicated",
+            "rationale": "Corrects anemia and increases oxygen transport capacity"
+          },
+          {
+            "action": "Collaborate with physician to initiate IV proton pump inhibitors",
+            "rationale": "Reduces acidity and promotes ulcer hemostasis"
+          },
+          {
+            "action": "Educate patient on importance of reporting any new bleeding",
+            "rationale": "Facilitates early detection of re‑bleeding"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "significant blood loss",
+          "diuretic use",
+          "massive crystalloid replacement without electrolytes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum sodium: maintain 135‑145 mEq/L",
+          "Serum potassium: maintain 3.5‑5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes every 6‑8 hours",
+            "rationale": "Detect early changes and guide replacement"
+          },
+          {
+            "action": "Administer electrolyte solutions (e.g., Ringer lactate) per order",
+            "rationale": "Prevents hyponatremia and hypokalemia during volume replacement"
+          },
+          {
+            "action": "Assess neurological status (confusion, muscle weakness) each shift",
+            "rationale": "Electrolyte imbalances may manifest with neurological changes"
+          },
+          {
+            "action": "Collaborate to replace potassium or magnesium if values are low",
+            "rationale": "Maintain cardiac and muscular function"
+          },
+          {
+            "action": "Teach patient the importance of a potassium‑rich diet (banana, papaya) when appropriate",
+            "rationale": "Supports natural electrolyte replenishment"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "upper-gastrointestinal-bleeding",
+    "peptic-ulcer-disease",
+    "variceal-hemorrhage",
+    "anemia",
+    "hypovolemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Small Intestine Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/smallintestinedisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hemorragia gastrointestinal",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/gastrointestinalbleeding.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Gastrointestinal Concerns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-5-gastrointestinal-concerns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-10",
+  "factcheck": {
+    "checked": "2026-11-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Patients with GI bleeding may require IV fluid replacement or multiple blood transfusions to restore lost blood volume (DiGregorio & Alvey, 2022).",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "One of the main causes of GI bleeding is the presence of bleeding stress ulcers, usually in the stomach or intestines.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Another common cause of GI bleeding is related to esophageal varices : small veins that form when portal hypertension is present, often due to alcoholic cirrhosis liver disease.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Common assessment findings for patients with acute GI bleeding are: abdominal pain or cramping anemia cool, clammy skin decreased LOC decreased urine output hematemesis (bloody vomitus) hypoactive bowel sounds hypotension melena (bloody stools) and/or dark tarry stools tachycardia Medical A",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Common assessment findings for patients with acute GI bleeding are: abdominal pain or cramping anemia cool, clammy skin decreased LOC decreased urine output hematemesis (bloody vomitus) hypoactive bowel sounds hypotension melena (bloody stools) and/or dark tarry stools tachycardia Medical A",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Most patients experiencing bleeding from stress ulcers will also be recommended to take a PPI such as omeprazole (e.g., Prilosec) or pantoprazole (Protonix) to decrease gastric acid secretion and allow for complete healing of the ulcer.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "If the bleeding originates from esophageal varices, octreotide (Sandostatin) can be used to stop the bleeding.",
+        "source": 2
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

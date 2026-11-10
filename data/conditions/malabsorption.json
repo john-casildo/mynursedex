@@ -1,0 +1,506 @@
+{
+  "id": "malabsorption",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome de malabsorción",
+    "aliases": [
+      "malabsorción",
+      "síndrome malabsorción",
+      "malabsorción intestinal",
+      "malabsorción crónica",
+      "diarrea crónica"
+    ],
+    "summary": "El síndrome de malabsorción es la incapacidad del intestino delgado para absorber nutrientes, provocando pérdida de peso, diarrea y deficiencias nutricionales.",
+    "key_points": [
+      "Pérdida de nutrientes por daño o resección del intestino delgado",
+      "Diarrea crónica y esteatorrea son signos típicos",
+      "Causas comunes: enfermedad celíaca, intolerancia a la lactosa, intestino corto, enfermedad de Whipple",
+      "Se diagnostica con pruebas de laboratorio, estudios de heces y biopsia intestinal",
+      "El tratamiento se basa en corregir la causa y suplementar nutrientes deficientes"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño o alteración de la mucosa del intestino delgado reduce la superficie de absorción",
+        "Enzimas digestivas o transportadores de nutrientes quedan insuficientes",
+        "Los nutrientes no absorbidos permanecen en el lumen y causan diarrea osmótica",
+        "La pérdida continua lleva a déficit calórico y de vitaminas/minerales"
+      ],
+      "risk_factors": [
+        "Enfermedad celíaca no tratada",
+        "Intolerancia a la lactosa",
+        "Resección extensa del intestino (intestino corto)",
+        "Infección por Tropheryma whipplei",
+        "Medicamentos que alteran la mucosa (p. ej. antibióticos de amplio espectro)"
+      ],
+      "signs_symptoms": [
+        "Diarrea crónica, a veces grasa (esteatorrea)",
+        "Pérdida de peso y masa corporal",
+        "Distensión abdominal y gases",
+        "Fatiga por anemia o deficiencia de vitaminas"
+      ],
+      "diagnostics": [
+        "Análisis de sangre: anemia, bajo albúmina, electrolitos alterados",
+        "Estudio de heces: grasa fecal >7 g/día, calprotectina",
+        "Endoscopia con biopsia duodenal (celiaquía)",
+        "Pruebas de absorción de D‑xylose o lactasa"
+      ],
+      "treatment": [
+        "Dieta libre de gluten para enfermedad celíaca",
+        "Eliminar lactosa si intolerancia confirmada",
+        "Suplementos de vitaminas liposolubles (A, D, E, K)",
+        "Enzimas pancreáticas o lactasa según causa",
+        "Antibióticos específicos para enfermedad de Whipple"
+      ],
+      "complications": [
+        "Deficiencia de hierro, folato y vitamina B12 → anemia megaloblástica",
+        "Osteoporosis por déficit de vitamina D y calcio",
+        "Hipoproteinemia → edema e inmunosupresión",
+        "Retraso del crecimiento en niños"
+      ],
+      "nursing_care": [
+        "Evaluar peso, ingesta y pérdida de líquidos cada 24 h",
+        "Monitorear signos vitales y turgor cutáneo",
+        "Observar características de heces (volumen, grasa)",
+        "Controlar laboratorio de electrolitos, albúmina y hemograma",
+        "Educar sobre dieta y suplementos según diagnóstico"
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de seguir la dieta prescrita (p. ej. sin gluten)",
+        "Enseñar cómo tomar suplementos vitamínicos y enzimas con alimentos",
+        "Identificar signos de deficiencia (fatiga, sangrado, fracturas)",
+        "Instruir sobre hidratación adecuada y registro de evacuaciones"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "diarrea crónica",
+          "pérdida de líquidos por malabsorción"
+        ],
+        "evidenced_by": [
+          "Pérdida de peso",
+          "Piel seca y turgor disminuido",
+          "Presión arterial ortostática"
+        ],
+        "outcomes": [
+          "Volumen de líquidos: ingesta ≥2 L/día mantenida durante 48 h",
+          "Peso corporal: estabilizar peso (±0.5 kg en 3 días)"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h",
+            "rationale": "Permite detectar déficit hídrico y ajustar reposición"
+          },
+          {
+            "action": "Ofrecer soluciones de rehidratación oral con electrolitos",
+            "rationale": "Reemplaza agua y sales perdidas por diarrea"
+          },
+          {
+            "action": "Elevar la cabecera de la cama 30° para facilitar la respiración",
+            "rationale": "Reduce el riesgo de aspiración y mejora la comodidad"
+          },
+          {
+            "action": "Aplicar crema hidratante en piel seca y enseñar autocuidado",
+            "rationale": "Previene daño cutáneo por deshidratación"
+          },
+          {
+            "action": "Monitorear signos vitales y turgor cada 4 h",
+            "rationale": "Detecta cambios tempranos de hipovolemia"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por diarrea crónica",
+          "uso de laxantes o antibióticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: Na 136‑145 mEq/L, K 3.5‑5.0 mEq/L mantenidos"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener muestra de sangre para electrolitos cada 24 h",
+            "rationale": "Identifica alteraciones tempranas y guía la terapia"
+          },
+          {
+            "action": "Administrar suplementos de potasio según indicación médica",
+            "rationale": "Previene hipokalemia asociada a pérdidas fecales"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en sodio y potasio",
+            "rationale": "Facilita el autocontrol de los niveles electrolíticos"
+          },
+          {
+            "action": "Registrar síntomas de desequilibrio (calambres, arritmias)",
+            "rationale": "Permite intervención rápida ante complicaciones"
+          },
+          {
+            "action": "Ajustar la velocidad de reposición de líquidos IV según resultados",
+            "rationale": "Evita sobrecarga o déficit de electrolitos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Malabsorption syndrome",
+    "aliases": [
+      "malabsorption",
+      "malabsorption syndrome",
+      "intestinal malabsorption",
+      "chronic malabsorption",
+      "chronic diarrhea"
+    ],
+    "summary": "Malabsorption syndrome is the inability of the small intestine to absorb nutrients, leading to weight loss, diarrhea, and nutritional deficiencies.",
+    "key_points": [
+      "Loss of nutrients due to damage or resection of the small intestine",
+      "Chronic diarrhea and steatorrhea are typical signs",
+      "Common causes: celiac disease, lactose intolerance, short bowel syndrome, Whipple disease",
+      "Diagnosis involves laboratory tests, stool studies, and intestinal biopsy",
+      "Treatment focuses on correcting the underlying cause and supplementing deficient nutrients"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Damage or alteration of the small intestinal mucosa reduces the absorptive surface",
+        "Digestive enzymes or nutrient transporters become insufficient",
+        "Unabsorbed nutrients remain in the lumen and cause osmotic diarrhea",
+        "Continuous loss leads to caloric and vitamin/mineral deficits"
+      ],
+      "risk_factors": [
+        "Untreated celiac disease",
+        "Lactose intolerance",
+        "Extensive intestinal resection (short bowel)",
+        "Tropheryma whipplei infection",
+        "Medications that alter mucosa (e.g., broad‑spectrum antibiotics)"
+      ],
+      "signs_symptoms": [
+        "Chronic diarrhea, sometimes fatty (steatorrhea)",
+        "Weight loss and body mass loss",
+        "Abdominal distension and gas",
+        "Fatigue from anemia or vitamin deficiencies"
+      ],
+      "diagnostics": [
+        "Blood tests: anemia, low albumin, altered electrolytes",
+        "Stool studies: fecal fat >7 g/day, calprotectin",
+        "Endoscopy with duodenal biopsy (celiac disease)",
+        "D‑xylose or lactase absorption tests"
+      ],
+      "treatment": [
+        "Gluten‑free diet for celiac disease",
+        "Eliminate lactose if intolerance confirmed",
+        "Supplements of fat‑soluble vitamins (A, D, E, K)",
+        "Pancreatic enzymes or lactase as needed",
+        "Specific antibiotics for Whipple disease"
+      ],
+      "complications": [
+        "Iron, folate, and B12 deficiency → megaloblastic anemia",
+        "Osteoporosis from vitamin D and calcium deficiency",
+        "Hypoproteinemia → edema and immunosuppression",
+        "Growth delay in children"
+      ],
+      "nursing_care": [
+        "Assess weight, intake, and fluid loss every 24 h",
+        "Monitor vital signs and skin turgor",
+        "Observe stool characteristics (volume, fat)",
+        "Control laboratory values for electrolytes, albumin, and CBC",
+        "Educate on diet and supplements per diagnosis"
+      ],
+      "patient_teaching": [
+        "Explain the importance of following the prescribed diet (e.g., gluten‑free)",
+        "Teach how to take vitamin and enzyme supplements with food",
+        "Identify signs of deficiency (fatigue, bleeding, fractures)",
+        "Instruct on adequate hydration and stool charting"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "chronic diarrhea",
+          "fluid loss from malabsorption"
+        ],
+        "evidenced_by": [
+          "Weight loss",
+          "Dry skin and decreased turgor",
+          "Orthostatic hypotension"
+        ],
+        "outcomes": [
+          "Fluid volume: intake ≥2 L/day maintained for 48 h",
+          "Body weight: stabilize weight (±0.5 kg in 3 days)"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h",
+            "rationale": "Detects fluid deficit and allows adjustment of replacement"
+          },
+          {
+            "action": "Offer oral rehydration solutions with electrolytes",
+            "rationale": "Replaces water and salts lost with diarrhea"
+          },
+          {
+            "action": "Elevate the head of the bed 30° to facilitate breathing",
+            "rationale": "Reduces aspiration risk and improves comfort"
+          },
+          {
+            "action": "Apply moisturizing cream to dry skin and teach self‑care",
+            "rationale": "Prevents skin damage from dehydration"
+          },
+          {
+            "action": "Monitor vital signs and turgor every 4 h",
+            "rationale": "Detects early changes of hypovolemia"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "fluid loss from chronic diarrhea",
+          "use of laxatives or antibiotics"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: Na 136‑145 mEq/L, K 3.5‑5.0 mEq/L maintained"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain blood sample for electrolytes every 24 h",
+            "rationale": "Identifies early alterations and guides therapy"
+          },
+          {
+            "action": "Administer potassium supplements as ordered",
+            "rationale": "Prevents hypokalemia associated with fecal losses"
+          },
+          {
+            "action": "Educate patient on foods rich in sodium and potassium",
+            "rationale": "Facilitates self‑monitoring of electrolyte levels"
+          },
+          {
+            "action": "Record symptoms of imbalance (cramps, arrhythmias)",
+            "rationale": "Allows rapid intervention for complications"
+          },
+          {
+            "action": "Adjust IV fluid replacement rate based on results",
+            "rationale": "Avoids overload or electrolyte deficit"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "celiac-disease",
+    "lactose-intolerance",
+    "short-bowel-syndrome",
+    "whipple-disease",
+    "nutrient-deficiency"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Malabsorption Syndromes",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/malabsorptionsyndromes.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Síndromes de malabsorción",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/malabsorptionsyndromes.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Nutritional Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-1-nutritional-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Diagnostic Evaluation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-3-diagnostic-evaluation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-10",
+  "factcheck": {
+    "checked": "2026-11-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 26,
+      "contradicted": 2,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "If you have a malabsorption syndrome, your small intestine cannot absorb nutrients from foods.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common clinical manifestations of malabsorption are diarrhea, steatorrhea (fatty stool), fatigue, abdominal bloating and cramping, increased flatulence, and unintentional weight loss.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Causes of malabsorption syndromes include: Celiac disease Lactose intolerance Short bowel syndrome.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Medical treatment is focused on finding and treating the underlying cause of malabsorption, avoiding any food triggers, and symptom management.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Complications of gastric bypass include gastric ulcers from NSAID use or smoking, dumping syndrome, steatorrhea , stricture, reactive hypoglycemia, and vitamin and mineral deficiencies.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Causes of malabsorption syndromes include: Celiac disease Lactose intolerance Short bowel syndrome.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Causes of malabsorption syndromes include: Celiac disease Lactose intolerance Short bowel syndrome.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "The most common clinical manifestations of malabsorption are diarrhea, steatorrhea (fatty stool), fatigue, abdominal bloating and cramping, increased flatulence, and unintentional weight loss.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "The most common clinical manifestations of malabsorption are diarrhea, steatorrhea (fatty stool), fatigue, abdominal bloating and cramping, increased flatulence, and unintentional weight loss.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "contradicted",
+        "quote": "Iron Anemia Vitamin A Night blindness Vitamin B 12 Anemia, poor balance",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "contradicted",
+        "quote": "Vitamin D Osteopenia, osteomalacia, bone pain, motor weakness Calcium Secondary hyperparathyroidism, tetany",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "The nurse monitors vital signs and completes a physical assessment to evaluate symptom improvement.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Nursing assessment of stool characteristics includes carefully observing and documenting various aspects of the stool to gather valuable information about a patient’s GI health.",
+        "source": 3
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "The most common clinical manifestations of malabsorption are diarrhea, steatorrhea (fatty stool), fatigue, abdominal bloating and cramping, increased flatulence, and unintentional weight loss.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Nurses provide patient education on healthy bowel habits, emphasizing the importance of adequate hydration, dietary fiber intake, regular exercise, optimal positioning to promote bowel elimination, and stress management techniques.",
+        "source": 3
+      }
+    }
+  }
+}

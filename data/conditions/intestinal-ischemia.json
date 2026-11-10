@@ -1,0 +1,444 @@
+{
+  "id": "intestinal-ischemia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Isquemia intestinal",
+    "aliases": [
+      "isquemia intestinal",
+      "isquemia mesentérica",
+      "ischemia intestinal",
+      "isquemia del intestino",
+      "isquemia colónica"
+    ],
+    "summary": "Reducción del flujo sanguíneo a la mucosa intestinal que provoca daño tisular y necrosis si no se revierte rápidamente.",
+    "key_points": [
+      "Es una urgencia médica que requiere diagnóstico y tratamiento inmediato.",
+      "El dolor abdominal suele ser desproporcionado al hallazgo físico.",
+      "Elevación de lactato sérico y acidosis metabólica son indicadores clave.",
+      "El manejo incluye reanimación voluminosa, antibióticos y posible cirugía."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción o vasoconstricción de la arteria mesentérica reduce el aporte de oxígeno.",
+        "Hipoxia provoca daño de la barrera mucosa y necrosis celular.",
+        "La inflamación y liberación de mediadores aumentan la permeabilidad y edema.",
+        "Si persiste, se genera sepsis y fallo multiorgánico."
+      ],
+      "risk_factors": [
+        "Enfermedad arterial periférica y aterosclerosis.",
+        "Hipotensión severa, shock o insuficiencia cardíaca.",
+        "Trombosis arterial o embolia (p.ej., fibrilación auricular).",
+        "Cirugía abdominal mayor o uso de vasoconstrictores."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal intenso, a menudo desproporcionado al examen.",
+        "Náuseas, vómitos y diarrea con sangre (si hay necrosis).",
+        "Distensión abdominal y ausencia de ruidos intestinales.",
+        "Taquicardia, hipotensión y fiebre."
+      ],
+      "diagnostics": [
+        "TC abdominal con contraste: hallazgos de engrosamiento de la pared y falta de realce.",
+        "Lactato sérico >2 mmol/L indica hipoperfusión.",
+        "Leucocitosis >12,000 /µL y PCR elevada.",
+        "ABG: acidosis metabólica (pH <7.35, HCO3‑ <22 mEq/L)."
+      ],
+      "treatment": [
+        "Reanimación con cristaloides isotónicos (ej. solución salina 0.9%).",
+        "Antibióticos de amplio espectro (p. ej., piperacilina‑tazobactam).",
+        "Anticoagulación si se sospecha trombosis (heparina no fraccionada).",
+        "Cirugía de desbridamiento o resección si hay necrosis irreversible."
+      ],
+      "complications": [
+        "Perforación intestinal y peritonitis.",
+        "Sepsis y shock séptico.",
+        "Insuficiencia renal aguda por hipoperfusión.",
+        "Fallo multiorgánico."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 15‑30 min; observar hipotensión y taquicardia.",
+        "Evaluar dolor con escala numérica; administrar analgésicos según prescripción.",
+        "Controlar ingreso de líquidos y balance hídrico; registrar salida de orina.",
+        "Observar abdomen: distensión, ruidos, presencia de sangre en heces o vómitos."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de reportar cualquier aumento del dolor o cambios en el hábito intestinal.",
+        "Instruir sobre la necesidad de mantener ayuno preoperatorio si se indica cirugía.",
+        "Enseñar signos de alarma: fiebre, vómitos persistentes, sangrado rectal.",
+        "Promover hidratación adecuada y evitar medicamentos vasoconstrictores sin indicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por vómitos",
+          "necrosis intestinal",
+          "reanimación masiva con cristaloides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na+ 135‑145 mEq/L y K+ 3.5‑5.0 mEq/L en 48 h.",
+          "Ausencia de arritmias relacionadas con alteraciones electrolíticas."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos cada 6‑8 h.",
+            "rationale": "Detectar rápidamente desequilibrios y ajustar la terapia de fluidos."
+          },
+          {
+            "action": "Registrar y comparar balance hídrico estricto.",
+            "rationale": "Evitar sobrecarga o déficit que altere los niveles de sodio y potasio."
+          },
+          {
+            "action": "Administrar soluciones con potasio según orden médica cuando K+ <3.5 mEq/L.",
+            "rationale": "Prevenir hipocalemia que puede causar debilidad muscular y arritmias."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de hiponatremia e hiperkalemia.",
+            "rationale": "Facilita la detección temprana de complicaciones electrolíticas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "dolor abdominal intenso",
+          "fatiga",
+          "hipotensión"
+        ],
+        "evidenced_by": [
+          "dolor ≥7/10 al intentar movilizarse",
+          "cansancio al realizar actividades leves"
+        ],
+        "outcomes": [
+          "Dolor controlado ≤3/10 en escala numérica durante la movilización.",
+          "Capacidad para realizar actividades de autocuidado con mínima ayuda en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de dolor antes y después de cada actividad.",
+            "rationale": "Ajustar analgesia y plan de movilización según necesidad."
+          },
+          {
+            "action": "Planificar movilización gradual: posición supina → semisentado → de pie.",
+            "rationale": "Permite adaptación fisiológica y reduce riesgo de caída."
+          },
+          {
+            "action": "Coordinar con fisioterapia para ejercicios de respiración y movilidad pasiva.",
+            "rationale": "Mantiene la función muscular y previene complicaciones respiratorias."
+          },
+          {
+            "action": "Proveer apoyo para actividades de autocuidado (baño, alimentación) según tolerancia.",
+            "rationale": "Promueve independencia y reduce la sensación de dependencia."
+          },
+          {
+            "action": "Registrar respuesta al ejercicio y ajustar el plan según signos vitales y dolor.",
+            "rationale": "Garantiza seguridad y efectividad del programa de actividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intestinal ischemia",
+    "aliases": [
+      "intestinal ischemia",
+      "mesenteric ischemia",
+      "ischemia intestinal",
+      "colonic ischemia"
+    ],
+    "summary": "Reduction of blood flow to the intestinal mucosa that causes tissue damage and necrosis if not reversed quickly.",
+    "key_points": [
+      "It is a medical emergency requiring immediate diagnosis and treatment.",
+      "Abdominal pain is often disproportionate to physical findings.",
+      "Elevated serum lactate and metabolic acidosis are key indicators.",
+      "Management includes volume resuscitation, antibiotics, and possible surgery."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstruction or vasoconstriction of the mesenteric artery reduces oxygen delivery.",
+        "Hypoxia damages the mucosal barrier and causes cellular necrosis.",
+        "Inflammation and mediator release increase permeability and edema.",
+        "If persistent, sepsis and multiorgan failure ensue."
+      ],
+      "risk_factors": [
+        "Peripheral arterial disease and atherosclerosis.",
+        "Severe hypotension, shock, or heart failure.",
+        "Arterial thrombosis or embolism (e.g., atrial fibrillation).",
+        "Major abdominal surgery or use of vasoconstrictors."
+      ],
+      "signs_symptoms": [
+        "Severe abdominal pain, often disproportionate to exam.",
+        "Nausea, vomiting, and bloody diarrhea if necrosis is present.",
+        "Abdominal distension and absent bowel sounds.",
+        "Tachycardia, hypotension, and fever."
+      ],
+      "diagnostics": [
+        "Contrast abdominal CT: wall thickening and lack of enhancement.",
+        "Serum lactate >2 mmol/L indicates hypoperfusion.",
+        "Leukocytosis >12,000/µL and elevated CRP.",
+        "ABG: metabolic acidosis (pH <7.35, HCO3‑ <22 mEq/L)."
+      ],
+      "treatment": [
+        "Resuscitation with isotonic crystalloids (e.g., 0.9% saline).",
+        "Broad‑spectrum antibiotics (e.g., piperacillin‑tazobactam).",
+        "Anticoagulation if thrombosis is suspected (unfractionated heparin).",
+        "Debridement or resection surgery if irreversible necrosis is present."
+      ],
+      "complications": [
+        "Intestinal perforation and peritonitis.",
+        "Sepsis and septic shock.",
+        "Acute renal failure from hypoperfusion.",
+        "Multiorgan failure."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15‑30 minutes; watch for hypotension and tachycardia.",
+        "Assess pain with a numeric scale; administer analgesics per order.",
+        "Track fluid intake and output; record urine output.",
+        "Observe abdomen for distension, bowel sounds, and presence of blood in stool or vomitus."
+      ],
+      "patient_teaching": [
+        "Explain the importance of reporting any increase in pain or changes in bowel habits.",
+        "Instruct on the need to fast preoperatively if surgery is indicated.",
+        "Teach warning signs: fever, persistent vomiting, rectal bleeding.",
+        "Encourage adequate hydration and avoidance of unprescribed vasoconstrictors."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "fluid loss from vomiting",
+          "intestinal necrosis",
+          "massive crystalloid resuscitation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+ 135‑145 mEq/L and K+ 3.5‑5.0 mEq/L within 48 h.",
+          "No arrhythmias related to electrolyte disturbances."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes every 6‑8 h.",
+            "rationale": "Detect rapid imbalances and adjust fluid therapy."
+          },
+          {
+            "action": "Record and compare strict fluid balance.",
+            "rationale": "Prevent overload or deficit that alters sodium and potassium levels."
+          },
+          {
+            "action": "Administer potassium‑containing solutions per order when K+ <3.5 mEq/L.",
+            "rationale": "Prevent hypokalemia that can cause muscle weakness and arrhythmias."
+          },
+          {
+            "action": "Educate patient and family on signs of hyponatremia and hyperkalemia.",
+            "rationale": "Facilitates early detection of electrolyte complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "severe abdominal pain",
+          "fatigue",
+          "hypotension"
+        ],
+        "evidenced_by": [
+          "pain ≥7/10 when attempting mobilization",
+          "fatigue with light activities"
+        ],
+        "outcomes": [
+          "Pain controlled ≤3/10 on numeric scale during mobilization.",
+          "Ability to perform self‑care activities with minimal assistance within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain level before and after each activity.",
+            "rationale": "Adjust analgesia and mobilization plan as needed."
+          },
+          {
+            "action": "Plan gradual mobilization: supine → semi‑recumbent → standing.",
+            "rationale": "Allows physiological adaptation and reduces fall risk."
+          },
+          {
+            "action": "Coordinate with physical therapy for breathing and passive mobility exercises.",
+            "rationale": "Maintains muscle function and prevents respiratory complications."
+          },
+          {
+            "action": "Provide support for self‑care activities (bathing, feeding) as tolerated.",
+            "rationale": "Promotes independence and reduces dependence."
+          },
+          {
+            "action": "Document exercise response and adjust plan based on vital signs and pain.",
+            "rationale": "Ensures safety and effectiveness of activity program."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "mesenteric-ischemia",
+    "sepsis",
+    "acute-kidney-injury",
+    "necrotizing-enterocolitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Colonic Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/colonicdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Gastrointestinal System and Oral Cavity",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/29-1-introduction-to-the-gastrointestinal-system-and-oral-cavity",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Gastrointestinal Tract Structures and Functions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-1-gastrointestinal-tract-structures-and-functions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-10",
+  "factcheck": {
+    "checked": "2026-11-10",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 37,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
