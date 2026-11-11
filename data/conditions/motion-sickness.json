@@ -1,0 +1,511 @@
+{
+  "id": "motion-sickness",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Cinetosis (mareo por movimiento)",
+    "aliases": [
+      "cinetosis",
+      "mareo",
+      "movimiento",
+      "náuseas",
+      "vómitos"
+    ],
+    "summary": "La cinetosis es una respuesta del sistema vestibular cuando hay incongruencia entre los estímulos visuales, propioceptivos y del oído interno, provocando náuseas, vómitos y vértigo. Es frecuente en niños, embarazadas y al leer durante el viaje.",
+    "key_points": [
+      "Desajuste sensorial vestibular‑visual es la causa principal",
+      "Los síntomas aparecen rápidamente y pueden incluir sudor frío",
+      "Prevención no farmacológica es la medida más eficaz",
+      "Antihistamínicos y escopolamina son los fármacos de primera línea",
+      "Vómitos prolongados pueden producir deshidratación y desequilibrio electrolítico"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Movimiento percibido por el oído interno no coincide con la visión estática",
+        "El cerebro interpreta la discrepancia como señal de toxicidad y activa el centro emético",
+        "Se libera acetilcolina y histamina, generando náuseas y vómitos"
+      ],
+      "risk_factors": [
+        "Niños y adolescentes",
+        "Mujeres embarazadas",
+        "Uso de antihistamínicos, anticolinérgicos, opioides",
+        "Leer, usar dispositivos móviles o mirar objetos fijos dentro del vehículo",
+        "Mala ventilación o olores fuertes"
+      ],
+      "signs_symptoms": [
+        "Mareos y sensación de inestabilidad",
+        "Sudor frío y palidez",
+        "Náuseas y deseo de vomitar",
+        "Vómitos de contenido gástrico",
+        "Vértigo o sensación de giro"
+      ],
+      "diagnostics": [
+        "Historia clínica enfocada en exposición al movimiento",
+        "Examen físico: signos de deshidratación, presión arterial y frecuencia cardíaca",
+        "Descartar causas neurológicas o gastrointestinales",
+        "Si hay vómitos persistentes, evaluar electrolitos (Na+, K+ en mEq/L) y glucosa (mg/dL)"
+      ],
+      "treatment": [
+        "Cambiar de asiento a posición frontal o cerca de las alas",
+        "Mirar el horizonte y evitar leer durante el viaje",
+        "Ventilación adecuada del ambiente",
+        "Dimenhidrinato o meclizina (antihistamínicos)",
+        "Escopolamina transdérmica en casos de alta predisposición"
+      ],
+      "complications": [
+        "Deshidratación y déficit de volumen de líquidos",
+        "Desequilibrio electrolítico (hiponatremia, hipopotasemia)",
+        "Caídas por pérdida de equilibrio",
+        "Empeoramiento de síntomas en embarazo"
+      ],
+      "nursing_care": [
+        "Evaluar intensidad de náuseas (escala 0‑10) y frecuencia de vómitos",
+        "Monitorear signos vitales y estado de hidratación",
+        "Administrar antieméticos según prescripción y observar efectos adversos",
+        "Mantener al paciente en posición semi‑sentada y proporcionar aire fresco",
+        "Registrar ingesta y pérdida de líquidos"
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento antiemético 30‑60 min antes del viaje",
+        "Sentarse en el asiento delantero o mirar siempre al horizonte",
+        "Evitar leer, usar dispositivos o comer alimentos grasos antes y durante el viaje",
+        "Beber pequeños sorbos de agua o bebidas isotónicas cada 15‑20 min",
+        "Informar al profesional si los síntomas persisten >24 h"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Náuseas",
+        "type": "actual",
+        "related_to": [
+          "Desajuste sensorial vestibular‑visual",
+          "Movimiento del vehículo",
+          "Embarazo"
+        ],
+        "evidenced_by": [
+          "Queja de náuseas",
+          "Sensación de mareo",
+          "Sudor frío"
+        ],
+        "outcomes": [
+          "Alivio de náuseas: paciente reporta intensidad ≤2/10 en escala de 0‑10",
+          "Hidratación adecuada: ingesta de líquidos ≥1500 mL/día"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar intensidad de náuseas y frecuencia de vómitos cada 2 h",
+            "rationale": "Permite medir la respuesta al tratamiento y prevenir deshidratación"
+          },
+          {
+            "action": "Administrar dimenhidrinato o meclizina según orden médica",
+            "rationale": "Antihistamínicos bloquean los receptores H1 y reducen la estimulación del centro emético"
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑sentada y proporcionar aire fresco",
+            "rationale": "Facilita la ventilación pulmonar y disminuye la sensación de mareo"
+          },
+          {
+            "action": "Ofrecer pequeños sorbos de agua o solución electrolítica cada 15 min",
+            "rationale": "Previene la deshidratación y mantiene el equilibrio electrolítico"
+          },
+          {
+            "action": "Enseñar técnicas de distracción visual (mirar horizonte) y evitar lectura",
+            "rationale": "Reduce el conflicto sensorial que desencadena la cinetosis"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos frecuentes",
+          "Náuseas persistentes",
+          "Ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Peso corporal estable (variación <0,5 kg en 24 h)",
+          "Presión arterial dentro de rangos normales para la edad"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y pérdida de líquidos cada turno",
+            "rationale": "Detecta rápidamente desequilibrios de volumen"
+          },
+          {
+            "action": "Registrar signos de deshidratación (turgor, mucosas, diuresis)",
+            "rationale": "Permite intervención temprana"
+          },
+          {
+            "action": "Proveer líquidos claros y solución de rehidratación oral según tolerancia",
+            "rationale": "Reemplaza pérdidas y mantiene electrolitos"
+          },
+          {
+            "action": "Evaluar electrolitos y glucosa si el vómito supera 2 veces/24 h",
+            "rationale": "Identifica desequilibrios que requieren corrección"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de hidratarse antes, durante y después del viaje",
+            "rationale": "Previene la recurrencia del déficit de volumen"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Motion sickness (cinetosis)",
+    "aliases": [
+      "motion sickness",
+      "dizziness",
+      "movement",
+      "nausea",
+      "vomiting"
+    ],
+    "summary": "Motion sickness is a vestibular system response when there is incongruence between visual, proprioceptive, and inner ear stimuli, causing nausea, vomiting, and vertigo. It is common in children, pregnant women, and when reading during travel.",
+    "key_points": [
+      "Vestibular‑visual sensory mismatch is the main cause",
+      "Symptoms appear quickly and may include cold sweat",
+      "Non‑pharmacologic prevention is the most effective measure",
+      "Antihistamines and scopolamine are first‑line drugs",
+      "Prolonged vomiting can cause dehydration and electrolyte imbalance"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Perceived movement by the inner ear does not match static vision",
+        "The brain interprets the discrepancy as a toxin signal and activates the emetic center",
+        "Acetylcholine and histamine are released, producing nausea and vomiting"
+      ],
+      "risk_factors": [
+        "Children and adolescents",
+        "Pregnant women",
+        "Use of antihistamines, anticholinergics, opioids",
+        "Reading, using mobile devices, or looking at fixed objects inside the vehicle",
+        "Poor ventilation or strong odors"
+      ],
+      "signs_symptoms": [
+        "Dizziness and feeling of instability",
+        "Cold sweat and pallor",
+        "Nausea and urge to vomit",
+        "Vomiting of gastric contents",
+        "Vertigo or spinning sensation"
+      ],
+      "diagnostics": [
+        "Focused medical history on motion exposure",
+        "Physical exam: signs of dehydration, blood pressure, heart rate",
+        "Exclude neurological or gastrointestinal causes",
+        "If persistent vomiting, evaluate electrolytes (Na+, K+ in mEq/L) and glucose (mg/dL)"
+      ],
+      "treatment": [
+        "Move to a front or near‑wing seat",
+        "Look at the horizon and avoid reading during travel",
+        "Adequate ventilation",
+        "Dimenhydrinate or meclizine (antihistamines)",
+        "Transdermal scopolamine in high‑risk cases"
+      ],
+      "complications": [
+        "Dehydration and fluid volume deficit",
+        "Electrolyte imbalance (hyponatremia, hypokalemia)",
+        "Falls from loss of balance",
+        "Worsening symptoms during pregnancy"
+      ],
+      "nursing_care": [
+        "Assess nausea intensity (0‑10 scale) and vomiting frequency",
+        "Monitor vital signs and hydration status",
+        "Administer antiemetics per prescription and observe adverse effects",
+        "Keep patient semi‑upright and provide fresh air",
+        "Record fluid intake and output"
+      ],
+      "patient_teaching": [
+        "Take antiemetic medication 30‑60 min before travel",
+        "Sit in the front seat or always look at the horizon",
+        "Avoid reading, using devices, or eating greasy foods before and during travel",
+        "Drink small sips of water or isotonic drinks every 15‑20 min",
+        "Inform the provider if symptoms persist >24 h"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Nausea",
+        "type": "actual",
+        "related_to": [
+          "Vestibular‑visual sensory mismatch",
+          "Vehicle motion",
+          "Pregnancy"
+        ],
+        "evidenced_by": [
+          "Nausea complaint",
+          "Dizziness sensation",
+          "Cold sweat"
+        ],
+        "outcomes": [
+          "Nausea relief: patient reports intensity ≤2/10 on 0‑10 scale",
+          "Adequate hydration: fluid intake ≥1500 mL/day"
+        ],
+        "interventions": [
+          {
+            "action": "Assess nausea intensity and vomiting frequency every 2 h",
+            "rationale": "Allows measurement of treatment response and prevents dehydration"
+          },
+          {
+            "action": "Administer dimenhydrinate or meclizine as ordered",
+            "rationale": "Antihistamines block H1 receptors and reduce emetic center stimulation"
+          },
+          {
+            "action": "Place patient semi‑upright and provide fresh air",
+            "rationale": "Facilitates pulmonary ventilation and reduces dizziness"
+          },
+          {
+            "action": "Offer small sips of water or electrolyte solution every 15 min",
+            "rationale": "Prevents dehydration and maintains electrolyte balance"
+          },
+          {
+            "action": "Teach visual distraction techniques (look at horizon) and avoid reading",
+            "rationale": "Reduces sensory conflict that triggers motion sickness"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Frequent vomiting",
+          "Persistent nausea",
+          "Insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Stable body weight (variation <0.5 kg in 24 h)",
+          "Blood pressure within normal age ranges"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output each shift",
+            "rationale": "Rapidly detects volume imbalances"
+          },
+          {
+            "action": "Record dehydration signs (turgor, mucous membranes, urine output)",
+            "rationale": "Enables early intervention"
+          },
+          {
+            "action": "Provide clear fluids and oral rehydration solution as tolerated",
+            "rationale": "Replaces losses and maintains electrolytes"
+          },
+          {
+            "action": "Evaluate electrolytes and glucose if vomiting >2 times/24 h",
+            "rationale": "Identifies imbalances requiring correction"
+          },
+          {
+            "action": "Educate patient on importance of hydration before, during, and after travel",
+            "rationale": "Prevents recurrence of fluid deficit"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dehydration",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Motion Sickness",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/motionsickness.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Mareo (Cinetosis)",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/motionsickness.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Assisting with Hygiene and Health Promotion",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/7-3-assisting-with-hygiene-and-health-promotion",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Health Promotion",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/3-3-health-promotion",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-11",
+  "factcheck": {
+    "checked": "2026-11-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Anyone can get it, but it is more common in children, pregnant women, and people taking certain medicines.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Motion sickness can start suddenly, with a queasy feeling and cold sweats.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "For example, if you are reading on your phone while riding a bus, your eyes are focused on something that is not moving, but your inner ear senses motion.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Anyone can get it, but it is more common in children, pregnant women, and people taking certain medicines.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Anyone can get it, but it is more common in children, pregnant women, and people taking certain medicines.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Looking out into the distance - instead of trying to read or look at something in the vehicle - can also help.",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "It can then lead to dizziness and nausea and vomiting .",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "It can then lead to dizziness and nausea and vomiting .",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "For example, if you are reading on your phone while riding a bus, your eyes are focused on something that is not moving, but your inner ear senses motion.",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "The front seat of a car, forward cars of a train, upper deck on a boat or wing seats in a plane may give you a smoother ride.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Looking out into the distance - instead of trying to read or look at something in the vehicle - can also help.",
+        "source": 0
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "The front seat of a car, forward cars of a train, upper deck on a boat or wing seats in a plane may give you a smoother ride.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,491 @@
+{
+  "id": "laryngitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Laringitis",
+    "aliases": [
+      "laringitis",
+      "inflamación laringe",
+      "voz ronca",
+      "dolor de garganta",
+      "cambio de voz",
+      "ronquera"
+    ],
+    "summary": "Inflamación aguda de la laringe, generalmente por infección viral, que produce ronquera y dolor de garganta.",
+    "key_points": [
+      "Causa más frecuente: virus respiratorio (rinovirus, influenza).",
+      "Síntoma principal: ronquera o pérdida de la voz.",
+      "Duración típica: 5‑7 días, con resolución espontánea.",
+      "Tratamiento: hidratación, humidificación y analgesia; antibiótico solo si se confirma bacteria.",
+      "Complicaciones: laringitis crónica, epiglotitis o absceso periamigdalar."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El virus invade la mucosa de la laringe.",
+        "Se produce inflamación y edema de las cuerdas vocales.",
+        "El edema reduce la vibración normal, generando ronquera.",
+        "La irritación estimula terminaciones nerviosas, provocando dolor."
+      ],
+      "risk_factors": [
+        "Exposición a virus respiratorios (contacto cercano, temporada de gripe).",
+        "Tabaquismo o exposición a humo y contaminantes.",
+        "Reflujo gastroesofágico que irrita la mucosa laringea.",
+        "Uso excesivo o forzado de la voz (cantar, gritar)."
+      ],
+      "signs_symptoms": [
+        "Ronquera o pérdida de la voz.",
+        "Dolor al tragar (odinofagia).",
+        "Tos seca y sensación de picor en la garganta.",
+        "Fiebre leve (≤38 °C) en algunos casos."
+      ],
+      "diagnostics": [
+        "Evaluación clínica: historia y examen de la voz.",
+        "Laringoscopia flexible si los síntomas persisten >2 semanas.",
+        "Cultivo de exudado faríngeo solo si se sospecha infección bacteriana.",
+        "Resultados esperados: edema de cuerdas vocales, ausencia de exudado purulento."
+      ],
+      "treatment": [
+        "Hidratación oral abundante (≥2 L/día).",
+        "Humidificación del ambiente o vapor inhalado.",
+        "Analgesia: paracetamol o ibuprofeno según tolerancia.",
+        "Reposo vocal: evitar hablar, susurrar o cantar.",
+        "Antibiótico (penicilina) solo si se confirma estreptococo."
+      ],
+      "complications": [
+        "Laringitis crónica o disfonía prolongada.",
+        "Epiglotitis o edema supraglótico que compromete la vía aérea.",
+        "Absceso periamigdalar secundario a infección bacteriana.",
+        "Desarrollo de bronquitis o sinusitis asociadas."
+      ],
+      "nursing_care": [
+        "Evaluar calidad de la voz y nivel de dolor cada 4 h.",
+        "Monitorear temperatura y signos de dificultad respiratoria.",
+        "Mantener humidificador a 40‑60 % de humedad relativa.",
+        "Fomentar ingesta de líquidos tibios y evitar irritantes.",
+        "Registrar cambios en la voz y reportar empeoramiento."
+      ],
+      "patient_teaching": [
+        "Beber líquidos tibios y evitar bebidas muy frías o irritantes.",
+        "Descansar la voz; no susurrar, ya que tensiona las cuerdas vocales.",
+        "Usar humidificador o inhalar vapor de agua caliente 3‑4 veces/día.",
+        "Evitar fumar, alcohol y ambientes con humo.",
+        "Buscar atención médica si la fiebre supera 38 °C o hay dificultad para respirar."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "inflamación de la laringe",
+          "irritación de la mucosa faríngea"
+        ],
+        "evidenced_by": [
+          "dolor de garganta",
+          "ronquera",
+          "tos seca"
+        ],
+        "outcomes": [
+          "Alivio del dolor: puntuación ≤3 en escala de 0‑10 en 48 h",
+          "Voz normalizada: retorno a voz clara en ≤7 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de dolor con escala numérica cada 4 h",
+            "rationale": "Permite medir la efectividad del manejo analgésico."
+          },
+          {
+            "action": "Administrar paracetamol según indicación y registrar respuesta",
+            "rationale": "Reduce la inflamación y alivia el dolor."
+          },
+          {
+            "action": "Proveer humidificador y vapor de agua tibia",
+            "rationale": "Humidifica la mucosa y disminuye la irritación."
+          },
+          {
+            "action": "Fomentar hidratación oral con líquidos tibios",
+            "rationale": "Mantiene la humedad de la mucosa y facilita la expectoración."
+          },
+          {
+            "action": "Educar reposo vocal y evitar susurros",
+            "rationale": "Previene el sobreesfuerzo de las cuerdas vocales."
+          },
+          {
+            "action": "Monitorear temperatura y reportar fiebre >38 °C",
+            "rationale": "Detecta posible complicación infecciosa."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "exposición a virus respiratorios",
+          "uso excesivo de la voz",
+          "reflujo gastroesofágico"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección secundaria en 14 días",
+          "Temperatura corporal <37.5 °C durante el periodo de observación"
+        ],
+        "interventions": [
+          {
+            "action": "Observar y registrar signos de infección (fiebre, aumento de dolor, secreción purulenta)",
+            "rationale": "Permite intervención temprana si la infección progresa."
+          },
+          {
+            "action": "Enseñar higiene de manos y evitar compartir utensilios",
+            "rationale": "Reduce la transmisión de patógenos."
+          },
+          {
+            "action": "Mantener hidratación adecuada y ambiente húmedo",
+            "rationale": "Facilita la defensa mucosa y disminuye irritación."
+          },
+          {
+            "action": "Informar al médico si los síntomas persisten >10 días o empeoran",
+            "rationale": "Detecta complicaciones como infección bacteriana secundaria."
+          },
+          {
+            "action": "Reforzar evitar irritantes (tabaco, alcohol, ambientes secos)",
+            "rationale": "Disminuye la vulnerabilidad de la mucosa a infecciones."
+          },
+          {
+            "action": "Revisar uso de antiácidos si hay reflujo gastroesofágico",
+            "rationale": "Controlar el reflujo reduce la irritación y el riesgo de infección."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Laryngitis",
+    "aliases": [
+      "laryngitis",
+      "laryngeal inflammation",
+      "hoarse voice",
+      "sore throat",
+      "voice change",
+      "hoarseness"
+    ],
+    "summary": "Acute inflammation of the larynx, usually due to viral infection, causing hoarseness and sore throat.",
+    "key_points": [
+      "Most common cause: respiratory virus (rhinovirus, influenza).",
+      "Primary symptom: hoarseness or loss of voice.",
+      "Typical duration: 5‑7 days, with spontaneous resolution.",
+      "Treatment: hydration, humidification and analgesia; antibiotic only if bacterial infection is confirmed.",
+      "Complications: chronic laryngitis, epiglottitis or peritonsillar abscess."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The virus invades the laryngeal mucosa.",
+        "Inflammation and edema of the vocal cords occur.",
+        "Edema reduces normal vibration, producing hoarseness.",
+        "Irritation stimulates nerve endings, causing pain."
+      ],
+      "risk_factors": [
+        "Exposure to respiratory viruses (close contact, flu season).",
+        "Smoking or exposure to smoke and pollutants.",
+        "Gastroesophageal reflux irritating the laryngeal mucosa.",
+        "Excessive or forced voice use (singing, shouting)."
+      ],
+      "signs_symptoms": [
+        "Hoarseness or loss of voice.",
+        "Pain when swallowing (odynophagia).",
+        "Dry cough and scratchy throat sensation.",
+        "Mild fever (≤38 °C) in some cases."
+      ],
+      "diagnostics": [
+        "Clinical evaluation: history and voice examination.",
+        "Flexible laryngoscopy if symptoms persist >2 weeks.",
+        "Pharyngeal exudate culture only if bacterial infection is suspected.",
+        "Expected findings: vocal cord edema, absence of purulent exudate."
+      ],
+      "treatment": [
+        "Abundant oral hydration (≥2 L/day).",
+        "Humidify the environment or inhale steam.",
+        "Analgesia: acetaminophen or ibuprofen as tolerated.",
+        "Voice rest: avoid speaking, whispering or singing.",
+        "Antibiotic (penicillin) only if streptococcal infection is confirmed."
+      ],
+      "complications": [
+        "Chronic laryngitis or prolonged dysphonia.",
+        "Epiglottitis or supraglottic edema compromising the airway.",
+        "Secondary peritonsillar abscess from bacterial infection.",
+        "Development of associated bronchitis or sinusitis."
+      ],
+      "nursing_care": [
+        "Assess voice quality and pain level every 4 h.",
+        "Monitor temperature and signs of respiratory distress.",
+        "Maintain humidifier at 40‑60 % relative humidity.",
+        "Encourage intake of warm liquids and avoid irritants.",
+        "Document voice changes and report worsening."
+      ],
+      "patient_teaching": [
+        "Drink warm liquids and avoid very cold or irritating beverages.",
+        "Rest the voice; do not whisper, as it tenses the vocal cords.",
+        "Use a humidifier or inhale hot water vapor 3‑4 times/day.",
+        "Avoid smoking, alcohol and smoky environments.",
+        "Seek medical care if fever exceeds 38 °C or breathing difficulty occurs."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "laryngeal inflammation",
+          "pharyngeal mucosal irritation"
+        ],
+        "evidenced_by": [
+          "sore throat",
+          "hoarseness",
+          "dry cough"
+        ],
+        "outcomes": [
+          "Pain relief: score ≤3 on 0‑10 scale within 48 h",
+          "Voice normalized: return to clear voice within ≤7 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain level with numeric scale every 4 h",
+            "rationale": "Allows measurement of analgesic effectiveness."
+          },
+          {
+            "action": "Administer acetaminophen as ordered and record response",
+            "rationale": "Reduces inflammation and alleviates pain."
+          },
+          {
+            "action": "Provide humidifier and warm water vapor",
+            "rationale": "Humidifies mucosa and reduces irritation."
+          },
+          {
+            "action": "Encourage oral hydration with warm liquids",
+            "rationale": "Maintains mucosal moisture and facilitates expectoration."
+          },
+          {
+            "action": "Educate on voice rest and avoid whispering",
+            "rationale": "Prevents overexertion of vocal cords."
+          },
+          {
+            "action": "Monitor temperature and report fever >38 °C",
+            "rationale": "Detects possible infectious complication."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "exposure to respiratory viruses",
+          "excessive voice use",
+          "gastroesophageal reflux"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of secondary infection within 14 days",
+          "Body temperature <37.5 °C during observation period"
+        ],
+        "interventions": [
+          {
+            "action": "Observe and record signs of infection (fever, increased pain, purulent discharge)",
+            "rationale": "Allows early intervention if infection progresses."
+          },
+          {
+            "action": "Teach hand hygiene and avoid sharing utensils",
+            "rationale": "Reduces pathogen transmission."
+          },
+          {
+            "action": "Maintain adequate hydration and humid environment",
+            "rationale": "Facilitates mucosal defense and reduces irritation."
+          },
+          {
+            "action": "Inform physician if symptoms persist >10 days or worsen",
+            "rationale": "Detects complications such as secondary bacterial infection."
+          },
+          {
+            "action": "Reinforce avoidance of irritants (tobacco, alcohol, dry environments)",
+            "rationale": "Reduces mucosal vulnerability to infection."
+          },
+          {
+            "action": "Review use of antacids if gastroesophageal reflux is present",
+            "rationale": "Controlling reflux reduces irritation and infection risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "pharyngitis",
+    "croup",
+    "reflux-disease",
+    "voice-disorders"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Throat Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/throatdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Upper Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/23-1-introduction-to-the-upper-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-11",
+  "factcheck": {
+    "checked": "2026-11-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Laryngitis - swelling of the voice box, which can cause a hoarse voice or loss of voice",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Laryngitis - swelling of the voice box, which can cause a hoarse voice or loss of voice",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "It can be caused by a variety of factors including allergens such as pollen and animal dander, smoke, temperature, viral infection, and certain drugs.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Laryngitis - swelling of the voice box, which can cause a hoarse voice or loss of voice",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Symptoms of pharyngitis include: Sore, dry, or scratchy throat Pain when swallowing or speaking",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

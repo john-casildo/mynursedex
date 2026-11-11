@@ -1,0 +1,463 @@
+{
+  "id": "gastroenteritis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Gastroenteritis",
+    "aliases": [
+      "gastroenteritis",
+      "inflamación estómago",
+      "diarrea",
+      "vómitos",
+      "intoxicación alimentaria"
+    ],
+    "summary": "Inflamación aguda del estómago y los intestinos que produce vómitos y diarrea, frecuentemente de origen viral.",
+    "key_points": [
+      "Causa más frecuente: virus (norovirus, rotavirus).",
+      "Principal riesgo: deshidratación por pérdida de líquidos.",
+      "Rehidratación oral es el tratamiento de primera línea.",
+      "Control de electrolitos es esencial en casos graves."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El agente patógeno invade la mucosa gastrointestinal.",
+        "Provoca inflamación y aumento de la permeabilidad intestinal.",
+        "Se genera secreción de agua y electrolitos hacia la luz intestinal.",
+        "El reflejo emético se activa por irritación gástrica."
+      ],
+      "risk_factors": [
+        "Consumo de alimentos o agua contaminados.",
+        "Contacto cercano con personas infectadas.",
+        "Viajes a áreas con saneamiento deficiente.",
+        "Inmunidad disminuida (niños, ancianos)."
+      ],
+      "signs_symptoms": [
+        "Vómitos frecuentes, a veces con contenido alimentario.",
+        "Diarrea acuosa, a veces con moco o sangre.",
+        "Dolor abdominal tipo cólico.",
+        "Fiebre leve a moderada."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico.",
+        "Examen de heces: coprocultivo, prueba de antígeno rotavirus/norovirus.",
+        "Hemograma: leucocitosis o leucopenia según etiología.",
+        "Electrolitos séricos (Na+, K+, Cl-) en mEq/L; glucosa en mg/dL."
+      ],
+      "treatment": [
+        "Rehidratación oral con solución de rehidratación oral (SRO) 20‑30 mL/kg cada 4 h.",
+        "Fluidos IV (solución salina isotónica) si deshidratación severa.",
+        "Antieméticos (ondansetrón) si vómitos impiden la SRO.",
+        "Antidiarreicos (loperamida) solo en diarrea no infecciosa.",
+        "Educación sobre higiene de manos y alimentos seguros."
+      ],
+      "complications": [
+        "Deshidratación grave (>10 % pérdida de peso corporal).",
+        "Desequilibrio electrolítico (hiponatremia, hipopotasemia).",
+        "Insuficiencia renal aguda por hipovolemia.",
+        "Síndrome de deshidratación hipovolémica."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 2‑4 h; observar taquicardia y presión arterial baja.",
+        "Monitorear ingesta y salida de líquidos; registrar I/O y peso diario.",
+        "Inspeccionar mucosas y turgencia cutánea para detectar deshidratación.",
+        "Observar color y densidad de la orina; solicitar análisis de electrolitos.",
+        "Administrar SRO o fluidos IV según prescripción y observar respuesta."
+      ],
+      "patient_teaching": [
+        "Beber SRO en pequeñas cantidades frecuentes; evitar bebidas azucaradas.",
+        "Lavarse las manos con agua y jabón antes de comer y después del baño.",
+        "Consumir alimentos bien cocidos y evitar alimentos crudos o en mal estado.",
+        "Buscar atención médica si hay sangre en heces, fiebre >38.5 °C o signos de deshidratación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "Vómitos",
+          "Diarrea",
+          "Fiebre"
+        ],
+        "evidenced_by": [
+          "Pérdida de >5% peso corporal",
+          "Piel seca",
+          "Taquicardia",
+          "Presión arterial baja",
+          "Orina concentrada"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos equilibradas",
+          "Estado de hidratación: mantener hidratación adecuada según peso y signos vitales"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y presión arterial cada 2 h",
+            "rationale": "Detectar cambios tempranos de hipovolemia"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos, comparando con metas de reposición",
+            "rationale": "Evaluar efectividad de la rehidratación"
+          },
+          {
+            "action": "Evaluar turgencia cutánea y mucosas cada turno",
+            "rationale": "Identificar signos de deshidratación"
+          },
+          {
+            "action": "Administrar solución de rehidratación oral según orden",
+            "rationale": "Reemplazar pérdidas de agua y electrolitos"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación frecuente",
+            "rationale": "Promover autocuidado y prevenir recaídas"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Vómitos",
+          "Diarrea",
+          "Fiebre"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado electrolítico: mantener Na+ 135‑145 mEq/L y K+ 3.5‑5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y revisar resultados de electrolitos séricos cada 12 h",
+            "rationale": "Detectar alteraciones tempranas"
+          },
+          {
+            "action": "Ajustar tipo y velocidad de fluidos IV según valores de Na+ y K+",
+            "rationale": "Corregir desequilibrios y evitar complicaciones"
+          },
+          {
+            "action": "Registrar síntomas de hiponatremia o hipopotasemia (confusión, debilidad muscular)",
+            "rationale": "Vigilar manifestaciones clínicas del desequilibrio"
+          },
+          {
+            "action": "Enseñar al paciente a reconocer signos de desequilibrio electrolítico",
+            "rationale": "Facilitar búsqueda de ayuda oportuna"
+          },
+          {
+            "action": "Promover consumo de alimentos ricos en potasio (plátano, papaya) cuando sea apropiado",
+            "rationale": "Ayudar a mantener niveles de K+ dentro del rango normal"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastroenteritis",
+    "aliases": [
+      "gastroenteritis",
+      "stomach inflammation",
+      "diarrhea",
+      "vomiting",
+      "food poisoning"
+    ],
+    "summary": "Acute inflammation of the stomach and intestines that produces vomiting and diarrhea, often of viral origin.",
+    "key_points": [
+      "Most common cause: viruses (norovirus, rotavirus).",
+      "Primary risk: dehydration from fluid loss.",
+      "Oral rehydration is first‑line treatment.",
+      "Electrolyte control is essential in severe cases."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The pathogen invades the gastrointestinal mucosa.",
+        "Causes inflammation and increased intestinal permeability.",
+        "Water and electrolytes are secreted into the intestinal lumen.",
+        "The emetic reflex is triggered by gastric irritation."
+      ],
+      "risk_factors": [
+        "Consumption of contaminated food or water.",
+        "Close contact with infected persons.",
+        "Travel to areas with poor sanitation.",
+        "Reduced immunity (children, elderly)."
+      ],
+      "signs_symptoms": [
+        "Frequent vomiting, sometimes with food content.",
+        "Watery diarrhea, sometimes with mucus or blood.",
+        "Colicky abdominal pain.",
+        "Mild to moderate fever."
+      ],
+      "diagnostics": [
+        "Medical history and physical exam.",
+        "Stool exam: culture, rotavirus/norovirus antigen test.",
+        "CBC: leukocytosis or leukopenia depending on etiology.",
+        "Serum electrolytes (Na+, K+, Cl-) in mEq/L; glucose in mg/dL."
+      ],
+      "treatment": [
+        "Oral rehydration with ORS 20‑30 mL/kg every 4 h.",
+        "IV fluids (normal saline) if severe dehydration.",
+        "Antiemetics (ondansetron) if vomiting prevents ORS intake.",
+        "Antidiarrheals (loperamide) only for non‑infectious diarrhea.",
+        "Education on hand hygiene and safe foods."
+      ],
+      "complications": [
+        "Severe dehydration (>10 % body weight loss).",
+        "Electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Acute renal failure from hypovolemia.",
+        "Hypovolemic dehydration syndrome."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 2‑4 h; watch for tachycardia and low blood pressure.",
+        "Monitor intake and output; record I/O and daily weight.",
+        "Inspect mucous membranes and skin turgor for dehydration signs.",
+        "Observe urine color and density; order electrolyte panel.",
+        "Administer ORS or IV fluids per order and monitor response."
+      ],
+      "patient_teaching": [
+        "Drink ORS in small frequent amounts; avoid sugary drinks.",
+        "Wash hands with soap and water before meals and after bathroom use.",
+        "Eat well‑cooked foods and avoid raw or spoiled foods.",
+        "Seek medical care if stool contains blood, fever >38.5 °C, or signs of dehydration."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "Vomiting",
+          "Diarrhea",
+          "Fever"
+        ],
+        "evidenced_by": [
+          "Loss >5% body weight",
+          "Dry skin",
+          "Tachycardia",
+          "Low blood pressure",
+          "Concentrated urine"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output in equilibrium",
+          "Hydration status: maintain adequate hydration per weight and vital signs"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and blood pressure every 2 h",
+            "rationale": "Detect early changes of hypovolemia"
+          },
+          {
+            "action": "Record intake and output, comparing to replacement goals",
+            "rationale": "Assess effectiveness of rehydration"
+          },
+          {
+            "action": "Evaluate skin turgor and mucous membranes each shift",
+            "rationale": "Identify dehydration signs"
+          },
+          {
+            "action": "Administer oral rehydration solution as ordered",
+            "rationale": "Replace water and electrolytes lost"
+          },
+          {
+            "action": "Educate patient on importance of frequent hydration",
+            "rationale": "Promote self‑care and prevent relapse"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Vomiting",
+          "Diarrhea",
+          "Fever"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte status: maintain Na+ 135‑145 mEq/L and K+ 3.5‑5.0 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and review serum electrolyte results every 12 h",
+            "rationale": "Detect early alterations"
+          },
+          {
+            "action": "Adjust type and rate of IV fluids based on Na+ and K+ values",
+            "rationale": "Correct imbalances and avoid complications"
+          },
+          {
+            "action": "Document symptoms of hyponatremia or hypokalemia (confusion, muscle weakness)",
+            "rationale": "Monitor clinical manifestations of imbalance"
+          },
+          {
+            "action": "Teach patient to recognize signs of electrolyte imbalance",
+            "rationale": "Facilitate timely help-seeking"
+          },
+          {
+            "action": "Encourage consumption of potassium‑rich foods (banana, papaya) when appropriate",
+            "rationale": "Help maintain K+ within normal range"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dehydration",
+    "electrolyte-imbalance",
+    "viral-gastroenteritis",
+    "food-poisoning"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Gastroenteritis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/gastroenteritis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Gastroenteritis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/gastroenteritis.html",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-11",
+  "factcheck": {
+    "checked": "2026-11-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Gastroenteritis is an inflammation of the lining of the stomach and intestines.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Viral gastroenteritis is the most common type.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "When gastroenteritis is caused by consuming foods or drinks contaminated with viruses, bacteria, parasites, or chemicals, this is called food poisoning .",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "The viruses, bacteria, and parasites that cause gastroenteritis can also spread from person to person.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "But proper hand washing , cleaning surfaces that may be infected with germs, and safe food preparation may help prevent some of the infections that can cause gastroenteritis.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

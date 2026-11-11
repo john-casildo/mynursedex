@@ -1,0 +1,521 @@
+{
+  "id": "neurological-disorder",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Accidente cerebrovascular (ACV)",
+    "aliases": [
+      "acv",
+      "stroke",
+      "accidente cerebrovascular",
+      "ictus",
+      "cerebrovascular",
+      "cerebrovascular accidente"
+    ],
+    "summary": "Interrupción súbita del flujo sanguíneo cerebral que causa daño neuronal y déficits neurológicos.",
+    "key_points": [
+      "Hipertensión es el factor de riesgo más importante.",
+      "El tiempo es crítico: terapia trombolítica < 4.5 h.",
+      "Evaluación neurológica rápida con escala NIHSS.",
+      "Control estricto de glucosa y presión arterial durante la fase aguda."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción de una arteria cerebral (trombosis o embolia) → isquemia.",
+        "Falta de oxígeno provoca falla de la bomba de Na+/K+ y edema celular.",
+        "Muerte neuronal en zona central (infarto) y zona periférica (penumbra) reversible.",
+        "Respuesta inflamatoria y liberación de excitotóxicos agravan el daño."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Fibrilación auricular y otras arritmias cardiacas.",
+        "Diabetes mellitus y dislipidemia.",
+        "Tabaquismo y consumo excesivo de alcohol.",
+        "Historia previa de ACV o enfermedad arterial periférica."
+      ],
+      "signs_symptoms": [
+        "Debilidad súbita o parálisis facial unilateral.",
+        "Alteración del habla (disartria o afasia).",
+        "Pérdida de visión parcial o total en un ojo.",
+        "Dolor de cabeza intenso y repentino (especialmente en hemorragia).",
+        "Pérdida de coordinación y equilibrio."
+      ],
+      "diagnostics": [
+        "Tomografía computarizada sin contraste: descarta hemorragia en < 10 min.",
+        "Resonancia magnética con difusión: identifica infarto isquémico precoz.",
+        "Panel metabólico: glucosa, electrolitos, función renal (mg/dL, mEq/L).",
+        "Coagulación: INR, tiempo de tromboplastina parcial.",
+        "Ecocardiograma y monitoreo Holter para buscar fuente emboligénica."
+      ],
+      "treatment": [
+        "Activación del protocolo de ACV y administración de alteplasa (tPA) si <4.5 h.",
+        "Anticoagulación (warfarina, DOAC) en ACV cardioembólico.",
+        "Antiplaquetarios (aspirina, clopidogrel) en ACV aterotrombótico.",
+        "Control de presión arterial (metoprolol, enalapril) según guías.",
+        "Manejo de glucosa (insulina IV) para mantener 140‑180 mg/dL.",
+        "Neurocirugía (descompresión) en hemorragia o edema grave."
+      ],
+      "complications": [
+        "Edema cerebral con aumento de la presión intracraneal.",
+        "Hemorragia de transformación del infarto.",
+        "Convulsiones post‑ACV.",
+        "Neumonía por aspiración.",
+        "Trombosis venosa profunda y embolia pulmonar."
+      ],
+      "nursing_care": [
+        "Valoración neurológica cada 15 min (NIHSS, nivel de conciencia).",
+        "Monitorizar MAP; mantener ≥70 mmHg para perfusión cerebral.",
+        "Posicionar con cabecera a 30° y evitar hiperventilación.",
+        "Control estricto de glucosa y electrolitos; registrar en mEq/L y mg/dL.",
+        "Vigilar signos de aspiración y mantener vía aérea permeable.",
+        "Registrar ingesta y eliminación; observar signos de edema."
+      ],
+      "patient_teaching": [
+        "Reconocer FAST: Face, Arms, Speech, Time.",
+        "Importancia de tomar antihipertensivos y antiplaquetarios según indicación.",
+        "Modificaciones del estilo de vida: dieta DASH, ejercicio regular, dejar de fumar.",
+        "Adherencia a terapia de rehabilitación física y del habla.",
+        "Control de factores de riesgo: glucosa, colesterol, presión arterial."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "fibrilación auricular",
+          "aterosclerosis",
+          "embolismo cardiaco"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión cerebral: MAP ≥ 70 mmHg mantenido durante 24 h",
+          "Estado neurológico: NIHSS ≤ 2 al alta de la unidad de cuidados intensivos"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial cada 5 min y registrar MAP.",
+            "rationale": "Mantener presión adecuada garantiza flujo sanguíneo cerebral."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y escala NIHSS cada hora.",
+            "rationale": "Detectar cambios neurológicos tempranos permite intervención rápida."
+          },
+          {
+            "action": "Administrar antihipertensivos según orden médica para MAP objetivo.",
+            "rationale": "Controlar hipertensión previene disminución de perfusión."
+          },
+          {
+            "action": "Mantener cabeza elevada 30° y evitar maniobras que aumenten ICP.",
+            "rationale": "Facilita drenaje venoso y mejora la perfusión cerebral."
+          },
+          {
+            "action": "Controlar glucosa capilar cada 2 h, mantener 140‑180 mg/dL.",
+            "rationale": "Hiperglucemia empeora daño neuronal isquémico."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "disfagia",
+          "debilidad facial",
+          "alteración del nivel de conciencia",
+          "intubación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad de la vía aérea: ausencia de signos de aspiración durante la hospitalización",
+          "Oxigenación: SpO2 ≥ 95 % en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar deglución con prueba de consistencia antes de iniciar alimentación oral.",
+            "rationale": "Identificar riesgo de aspiración y adaptar la dieta."
+          },
+          {
+            "action": "Mantener posición semisentada (30‑45°) durante y después de la alimentación.",
+            "rationale": "Reduce el reflujo y la entrada de contenido a las vías respiratorias."
+          },
+          {
+            "action": "Administrar antibióticos profilácticos solo si está indicado por el médico.",
+            "rationale": "Previene neumonía aspirativa en pacientes con alto riesgo."
+          },
+          {
+            "action": "Realizar aspiración de secreciones orofaríngeas cada 4 h y registrar cantidad y color.",
+            "rationale": "Detectar acumulación que pueda provocar aspiración."
+          },
+          {
+            "action": "Enseñar al paciente y familia técnicas de autocuidado oral e higiene bucal.",
+            "rationale": "Disminuye la carga bacteriana y el riesgo de infección pulmonar."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Stroke (CVA)",
+    "aliases": [
+      "cva",
+      "stroke",
+      "accidente cerebrovascular",
+      "ictus",
+      "cerebrovascular",
+      "cerebrovascular accidente"
+    ],
+    "summary": "Sudden interruption of cerebral blood flow causing neuronal damage and neurological deficits.",
+    "key_points": [
+      "Hypertension is the most important risk factor.",
+      "Time is critical: thrombolytic therapy < 4.5 h.",
+      "Rapid neurological assessment with NIHSS scale.",
+      "Strict glucose and blood pressure control during the acute phase."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Occlusion of a cerebral artery (thrombosis or embolism) → ischemia.",
+        "Oxygen deprivation causes Na⁺/K⁺ pump failure and cellular edema.",
+        "Neuronal death in the central zone (infarct) and reversible penumbra.",
+        "Inflammatory response and excitotoxic release worsen damage."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Atrial fibrillation and other cardiac arrhythmias.",
+        "Diabetes mellitus and dyslipidemia.",
+        "Smoking and excessive alcohol consumption.",
+        "History of prior CVA or peripheral arterial disease."
+      ],
+      "signs_symptoms": [
+        "Sudden weakness or unilateral facial paralysis.",
+        "Speech disturbance (dysarthria or aphasia).",
+        "Partial or total vision loss in one eye.",
+        "Severe sudden headache (especially in hemorrhage).",
+        "Loss of coordination and balance."
+      ],
+      "diagnostics": [
+        "Non‑contrast CT: rules out hemorrhage in <10 min.",
+        "Diffusion MRI: identifies early ischemic infarct.",
+        "Metabolic panel: glucose, electrolytes, renal function (mg/dL, mEq/L).",
+        "Coagulation: INR, partial thromboplastin time.",
+        "Echocardiogram and Holter monitoring to search for embolic source."
+      ],
+      "treatment": [
+        "Activate stroke protocol and administer alteplase (tPA) if <4.5 h.",
+        "Anticoagulation (warfarin, DOAC) in cardioembolic stroke.",
+        "Antiplatelets (aspirin, clopidogrel) in atherothrombotic stroke.",
+        "Blood pressure control (metoprolol, enalapril) per guidelines.",
+        "Glucose management (IV insulin) to maintain 140‑180 mg/dL.",
+        "Neurosurgery (decompression) for hemorrhage or severe edema."
+      ],
+      "complications": [
+        "Cerebral edema with increased intracranial pressure.",
+        "Hemorrhagic transformation of infarct.",
+        "Post‑stroke seizures.",
+        "Aspiration pneumonia.",
+        "Deep vein thrombosis and pulmonary embolism."
+      ],
+      "nursing_care": [
+        "Neurological assessment every 15 min (NIHSS, level of consciousness).",
+        "Monitor MAP; maintain ≥70 mmHg for cerebral perfusion.",
+        "Position with head at 30° and avoid hyperventilation.",
+        "Strict glucose and electrolyte control; record in mEq/L and mg/dL.",
+        "Watch for aspiration signs and keep airway patent.",
+        "Record intake and output; monitor for edema signs."
+      ],
+      "patient_teaching": [
+        "Recognize FAST: Face, Arms, Speech, Time.",
+        "Importance of taking antihypertensives and antiplatelets as prescribed.",
+        "Lifestyle modifications: DASH diet, regular exercise, smoking cessation.",
+        "Adherence to physical and speech rehabilitation therapy.",
+        "Control of risk factors: glucose, cholesterol, blood pressure."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "atrial fibrillation",
+          "atherosclerosis",
+          "cardiac embolism"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral perfusion: MAP ≥ 70 mmHg maintained for 24 h",
+          "Neurological status: NIHSS ≤ 2 at ICU discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure every 5 min and record MAP.",
+            "rationale": "Maintaining adequate pressure ensures cerebral blood flow."
+          },
+          {
+            "action": "Assess level of consciousness and NIHSS hourly.",
+            "rationale": "Early detection of neurological changes allows rapid intervention."
+          },
+          {
+            "action": "Administer antihypertensives per physician order to achieve target MAP.",
+            "rationale": "Controlling hypertension prevents perfusion decline."
+          },
+          {
+            "action": "Keep head elevated 30° and avoid maneuvers that increase ICP.",
+            "rationale": "Facilitates venous drainage and improves cerebral perfusion."
+          },
+          {
+            "action": "Check capillary glucose every 2 h, maintain 140‑180 mg/dL.",
+            "rationale": "Hyperglycemia worsens ischemic neuronal damage."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "dysphagia",
+          "facial weakness",
+          "altered level of consciousness",
+          "intubation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Airway safety: absence of aspiration signs during hospitalization",
+          "Oxygenation: SpO₂ ≥ 95 % at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing with consistency test before initiating oral feeding.",
+            "rationale": "Identify aspiration risk and tailor diet."
+          },
+          {
+            "action": "Maintain semi‑upright position (30‑45°) during and after meals.",
+            "rationale": "Reduces reflux and entry of contents into airways."
+          },
+          {
+            "action": "Administer prophylactic antibiotics only if indicated by physician.",
+            "rationale": "Prevents aspiration pneumonia in high‑risk patients."
+          },
+          {
+            "action": "Perform oropharyngeal suction every 4 h and record amount and color.",
+            "rationale": "Detect accumulation that may cause aspiration."
+          },
+          {
+            "action": "Teach patient and family oral hygiene and self‑care techniques.",
+            "rationale": "Reduces bacterial load and infection risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "stroke",
+    "ischemic-brain-injury",
+    "cerebral-edema",
+    "dysphagia",
+    "hypertension"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Neurologic Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/neurologicdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Recognizing Common Neurological Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/26-3-recognizing-common-neurological-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Substance Use Disorder Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/20-2-substance-use-disorder-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-11",
+  "factcheck": {
+    "checked": "2026-11-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 35,
+      "contradicted": 1,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Stroke, also called a cerebrovascular accident, is the sudden loss of brain function due to a disruption of blood supply of the arteries in the brain.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Strokes can either be ischemic, due to thrombosis or embolism, or hemorrhagic, due to vascular rupture resulting in bleeding.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Contributing factors to the cause of strokes include diabetes, smoking, hypertension, dyslipidemia, obesity, obstructive sleep apnea, sedentary lifestyle, excess alcohol consumption, anticoagulant use, drug use, vasculitis, a high-fat diet, and heart disorders that predispose an individual to emboli, such as atrial fibrillation or myocardial infarction.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Contributing factors to the cause of strokes include diabetes, smoking, hypertension, dyslipidemia, obesity, obstructive sleep apnea, sedentary lifestyle, excess alcohol consumption, anticoagulant use, drug use, vasculitis, a high-fat diet, and heart disorders that predispose an individual to emboli, such as atrial fibrillation or myocardial infarction.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Contributing factors to the cause of strokes include diabetes, smoking, hypertension, dyslipidemia, obesity, obstructive sleep apnea, sedentary lifestyle, excess alcohol consumption, anticoagulant use, drug use, vasculitis, a high-fat diet, and heart disorders that predispose an individual to emboli, such as atrial fibrillation or myocardial infarction.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Contributing factors to the cause of strokes include diabetes, smoking, hypertension, dyslipidemia, obesity, obstructive sleep apnea, sedentary lifestyle, excess alcohol consumption, anticoagulant use, drug use, vasculitis, a high-fat diet, and heart disorders that predispose an individual to emboli, such as atrial fibrillation or myocardial infarction.",
+        "source": 1
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Bell palsy is a sudden paralysis or weakness in the muscles on one side of the face.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Signs and symptoms of headaches that require immediate medical attention include a sudden, severe headache unlike any the patient has ever had; a sudden headache associated with a stiff neck; a headache associated with convulsions, confusion, or loss of consciousness; a headache occurring after a blow to the head; or a persistent headache in a person who was previously headache free.",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Symptoms may include numbness, weakness of face or limbs, confusion, visual disturbances, diplopia , aphasia , loss of balance and coordination, nausea, coma, and headache.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Individuals who experience seizures are at risk of hypoxia, vomiting, and aspiration.",
+        "source": 1
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "contradicted",
+        "quote": "The acronym BEFAST can be a quick way to assess a patient for the red flag signs and symptoms and key factors of a stroke ( Table 26.6 ).",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

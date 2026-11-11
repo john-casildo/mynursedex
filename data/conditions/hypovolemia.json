@@ -1,0 +1,519 @@
+{
+  "id": "hypovolemia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Déficit de volumen de líquidos (Hipovolemia)",
+    "aliases": [
+      "hipovolemia",
+      "deficit de volumen",
+      "deshidratacion",
+      "baja presion",
+      "volumen bajo",
+      "perdida de fluidos"
+    ],
+    "summary": "Disminución del volumen intravascular que compromete la perfusión tisular y la presión arterial.",
+    "key_points": [
+      "Pérdida de líquido > ingesta produce hipovolemia.",
+      "Disminuye la precarga, gasto cardíaco y presión arterial.",
+      "Signos: taquicardia, hipotensión, mucosas secas, oliguria.",
+      "Laboratorio: hematocrito ↑, BUN/Cr ↑, osmolaridad urinaria alta.",
+      "Tratamiento: reposición con cristaloides isotónicos y corrección de causa."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Pérdida de líquido intravascular reduce la presión de llenado del corazón.",
+        "Disminuye la precarga → gasto cardíaco ↓ → presión arterial sistólica ↓.",
+        "Compensación simpática: taquicardia, vasoconstricción periférica.",
+        "Si persiste, se produce hipoperfusión y shock hipovolémico."
+      ],
+      "risk_factors": [
+        "Hemorragia aguda o crónica.",
+        "Vómitos o diarrea profusa.",
+        "Uso excesivo de diuréticos.",
+        "Quemaduras extensas o tercer espacio.",
+        "Ayuno prolongado o ingesta insuficiente de líquidos."
+      ],
+      "signs_symptoms": [
+        "Taquicardia > 100 lpm.",
+        "Hipotensión ortostática o sistólica < 90 mmHg.",
+        "Mucosas secas, piel turgor disminuida.",
+        "Poliuria seguida de oliguria.",
+        "Sed intensa, confusión o letargo."
+      ],
+      "diagnostics": [
+        "TA baja, FC alta, RR rápida.",
+        "Hematocrito ↑, BUN/Cr > 20:1.",
+        "Osmolaridad urinaria > 1.030, sodio urinario bajo.",
+        "CVP < 5 cm H2O o presión arterial de pulso estrecha."
+      ],
+      "treatment": [
+        "Reposición con solución salina 0.9% isotónica por vía intravenosa.",
+        "Coloides (albumina) si hipovolemia severa o pérdida de proteínas.",
+        "Corrección de electrolitos según resultados de laboratorio.",
+        "Control de la causa subyacente (hemorragia, diarrea, etc.).",
+        "Monitoreo estricto de ingesta y eliminación."
+      ],
+      "complications": [
+        "Shock hipovolémico.",
+        "Insuficiencia renal aguda.",
+        "Desequilibrio electrolítico (hiponatremia, hipocalemia).",
+        "Isquemia tisular y fallo multiorgánico."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 15‑30 min al inicio.",
+        "Registrar ingesta y eliminación; observar diuresis ≥ 0.5 mL/kg/h.",
+        "Inspeccionar mucosas, turgor y nivel de conciencia.",
+        "Mantener acceso venoso de calibre adecuado y posición supina con piernas elevadas.",
+        "Revisar resultados de laboratorio y notificar desviaciones."
+      ],
+      "patient_teaching": [
+        "Beber al menos 2 L de líquidos claros al día, salvo contraindicación.",
+        "Reconocer signos de deshidratación y buscar atención inmediata.",
+        "Seguir dieta con electrolitos (plátano, jugo de naranja) si hay pérdidas gastrointestinales.",
+        "Tomar medicamentos diuréticos según indicación y no suspender sin consultar.",
+        "Mantener registro de ingesta y eliminación en casa."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida de líquidos por diarrea",
+          "vómitos intensos",
+          "hemorragia aguda",
+          "uso excesivo de diuréticos"
+        ],
+        "evidenced_by": [
+          "taquicardia",
+          "hipotensión ortostática",
+          "mucosas secas",
+          "disminución de la diuresis"
+        ],
+        "outcomes": [
+          "Presión arterial estable ≥ 100/60 mmHg en 24 h",
+          "Ingesta de líquidos ≥ 2 L/día en 48 h",
+          "Diuresis ≥ 0.5 mL/kg/h en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear TA, FC y RR cada 15 min y registrar cambios.",
+            "rationale": "Detectar rápidamente deterioro hemodinámico."
+          },
+          {
+            "action": "Administrar solución salina 0.9 % IV según orden y registrar velocidad.",
+            "rationale": "Restituir el volumen intravascular y mejorar la perfusión."
+          },
+          {
+            "action": "Evaluar mucosas, turgor y nivel de conciencia cada turno.",
+            "rationale": "Identificar signos de mejoría o empeoramiento de la hidratación."
+          },
+          {
+            "action": "Mantener acceso venoso de calibre adecuado y posición supina con piernas elevadas.",
+            "rationale": "Facilitar retorno venoso y optimizar la presión de llenado."
+          },
+          {
+            "action": "Educar al paciente sobre ingesta de líquidos y signos de alerta.",
+            "rationale": "Promover autocuidado y prevención de recaídas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos con alto contenido de Na y K",
+          "uso de diuréticos de asa",
+          "vomitos y diarrea prolongados"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sodio sérico 135‑145 mEq/L en 48 h",
+          "Potasio sérico 3.5‑5.0 mEq/L en 48 h",
+          "Sin arritmias evidenciadas en monitor cardíaco"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos cada 12 h.",
+            "rationale": "Detectar alteraciones tempranas y guiar la reposición."
+          },
+          {
+            "action": "Administrar soluciones electrolíticas según prescripción (ej. KCl 20 mEq en 100 mL de suero).",
+            "rationale": "Corregir déficit de potasio y prevenir arritmias."
+          },
+          {
+            "action": "Evaluar ritmo cardíaco mediante monitor continuo.",
+            "rationale": "Identificar arritmias relacionadas con desequilibrios iónicos."
+          },
+          {
+            "action": "Instruir al paciente sobre alimentos ricos en potasio y sodio según necesidad.",
+            "rationale": "Apoyar la reposición natural de electrolitos."
+          },
+          {
+            "action": "Revisar y ajustar dosis de diuréticos en coordinación con el médico.",
+            "rationale": "Evitar pérdidas excesivas de electrolitos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fluid volume deficit (Hypovolemia)",
+    "aliases": [
+      "hypovolemia",
+      "fluid volume deficit",
+      "dehydration",
+      "low blood pressure",
+      "low volume",
+      "fluid loss"
+    ],
+    "summary": "Decrease in intravascular volume that compromises tissue perfusion and arterial pressure.",
+    "key_points": [
+      "Loss of fluid > intake causes hypovolemia.",
+      "Reduces preload, cardiac output and blood pressure.",
+      "Signs: tachycardia, hypotension, dry mucous membranes, oliguria.",
+      "Lab: hematocrit ↑, BUN/Cr ↑, high urine osmolality.",
+      "Treatment: replace with isotonic crystalloids and correct cause."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Intravascular fluid loss reduces cardiac filling pressure.",
+        "Decreases preload → cardiac output ↓ → systolic blood pressure ↓.",
+        "Sympathetic compensation: tachycardia, peripheral vasoconstriction.",
+        "If persistent, hypoperfusion and hypovolemic shock ensue."
+      ],
+      "risk_factors": [
+        "Acute or chronic hemorrhage.",
+        "Profuse vomiting or diarrhea.",
+        "Excessive diuretic use.",
+        "Extensive burns or third space.",
+        "Prolonged fasting or inadequate fluid intake."
+      ],
+      "signs_symptoms": [
+        "Tachycardia > 100 bpm.",
+        "Orthostatic or systolic < 90 mmHg.",
+        "Dry mucous membranes, decreased skin turgor.",
+        "Polyuria followed by oliguria.",
+        "Intense thirst, confusion or lethargy."
+      ],
+      "diagnostics": [
+        "Low BP, high HR, rapid RR.",
+        "Hematocrit ↑, BUN/Cr > 20:1.",
+        "Urine osmolality > 1.030, low urinary sodium.",
+        "CVP < 5 cm H2O or narrow pulse pressure."
+      ],
+      "treatment": [
+        "Replace with 0.9% isotonic saline IV.",
+        "Colloids (albumin) if severe hypovolemia or protein loss.",
+        "Correct electrolytes per lab results.",
+        "Control underlying cause (bleeding, diarrhea, etc.).",
+        "Strict monitoring of intake and output."
+      ],
+      "complications": [
+        "Hypovolemic shock.",
+        "Acute kidney injury.",
+        "Electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Tissue ischemia and multi‑organ failure."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 15‑30 min at initiation.",
+        "Record intake and output; observe urine output ≥ 0.5 mL/kg/h.",
+        "Inspect mucous membranes, turgor and level of consciousness.",
+        "Maintain adequate venous access and supine position with legs elevated.",
+        "Review lab results and notify deviations."
+      ],
+      "patient_teaching": [
+        "Drink at least 2 L of clear fluids daily, unless contraindicated.",
+        "Recognize dehydration signs and seek immediate care.",
+        "Follow an electrolyte‑rich diet (banana, orange juice) if GI losses occur.",
+        "Take diuretics as prescribed and do not discontinue without consulting.",
+        "Keep a home record of intake and output."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "fluid loss from diarrhea",
+          "severe vomiting",
+          "acute hemorrhage",
+          "excessive diuretic use"
+        ],
+        "evidenced_by": [
+          "tachycardia",
+          "orthostatic hypotension",
+          "dry mucous membranes",
+          "reduced urine output"
+        ],
+        "outcomes": [
+          "Stable blood pressure ≥ 100/60 mmHg in 24 h",
+          "Fluid intake ≥ 2 L/day in 48 h",
+          "Urine output ≥ 0.5 mL/kg/h in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor BP, HR and RR every 15 min and record changes.",
+            "rationale": "Detect rapid hemodynamic deterioration."
+          },
+          {
+            "action": "Administer 0.9% saline IV per order and record rate.",
+            "rationale": "Restore intravascular volume and improve perfusion."
+          },
+          {
+            "action": "Assess mucous membranes, turgor and level of consciousness each shift.",
+            "rationale": "Identify improvement or worsening of hydration."
+          },
+          {
+            "action": "Maintain adequate venous access and supine position with legs elevated.",
+            "rationale": "Facilitate venous return and optimize filling pressure."
+          },
+          {
+            "action": "Educate patient on fluid intake and warning signs.",
+            "rationale": "Promote self‑care and prevent relapse."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "fluid loss with high Na and K content",
+          "loop diuretic use",
+          "prolonged vomiting and diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum sodium 135‑145 mEq/L in 48 h",
+          "Serum potassium 3.5‑5.0 mEq/L in 48 h",
+          "No arrhythmias on cardiac monitor"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes every 12 h.",
+            "rationale": "Detect early changes and guide replacement."
+          },
+          {
+            "action": "Administer electrolyte solutions per prescription (e.g., KCl 20 mEq in 100 mL saline).",
+            "rationale": "Correct potassium deficit and prevent arrhythmias."
+          },
+          {
+            "action": "Evaluate cardiac rhythm with continuous monitoring.",
+            "rationale": "Identify arrhythmias related to ionic imbalances."
+          },
+          {
+            "action": "Instruct patient on potassium and sodium‑rich foods as needed.",
+            "rationale": "Support natural electrolyte replenishment."
+          },
+          {
+            "action": "Review and adjust diuretic doses in coordination with the physician.",
+            "rationale": "Avoid excessive electrolyte loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypovolemic-shock",
+    "electrolyte-imbalance",
+    "acute-kidney-injury",
+    "dehydration"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Fluid Disturbances and Replacement",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/10-2-fluid-disturbances-and-replacement",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-11",
+  "factcheck": {
+    "checked": "2026-11-11",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Hypovolemia A decrease in fluid volume in the intravascular space, known as hypovolemia , occurs when fluid loss is greater than fluid intake, resulting in a deficient volume of fluid in the body.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Hypovolemia A decrease in fluid volume in the intravascular space, known as hypovolemia , occurs when fluid loss is greater than fluid intake, resulting in a deficient volume of fluid in the body.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Assessment Findings Associated with Hypovolemia Physical assessment Confusion Decreased level of consciousness Dizziness Dry skin and mucous membranes Excessive thirst Flat neck veins Headache Increased capillary refill time Lethargy Muscle cramps Poor skin turgor ( Figure 10.7 ) Tachycardia Intake and output Dark, concentrated urine Decreased oral fluid intake Oliguria Daily weights Weight loss (>3% over seven days indicates potential dehydratio",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Once the diagnosis has been made, the main goals of nursing care include restoring fluid balance to an optimal level, maintaining homeostasis, and preventing the development of complications such as hypovolemic shock , a life-threatening condition in which the heart cannot get enough blood and oxygen to tissues and organs.",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Common causes of hypovolemia include burns excessive diaphoresis excessive urine loss (from diabetes insipidus or diabetes mellitus) fever malnutrition poor oral fluid intake prolonged diarrhea or vomiting severe hemorrhage",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Common causes of hypovolemia include burns excessive diaphoresis excessive urine loss (from diabetes insipidus or diabetes mellitus) fever malnutrition poor oral fluid intake prolonged diarrhea or vomiting severe hemorrhage",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "These risk factors include chronic disease (e.g., diabetes mellitus, kidney disease) exercising or working outdoors in hot weather old age using diuretic medication young age (e.g., infants, children)",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Common causes of hypovolemia include burns excessive diaphoresis excessive urine loss (from diabetes insipidus or diabetes mellitus) fever malnutrition poor oral fluid intake prolonged diarrhea or vomiting severe hemorrhage",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Common causes of hypovolemia include burns excessive diaphoresis excessive urine loss (from diabetes insipidus or diabetes mellitus) fever malnutrition poor oral fluid intake prolonged diarrhea or vomiting severe hemorrhage",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Dry skin and mucous membranes Excessive thirst Flat neck veins Headache Increased capillary refill time Lethargy Muscle cramps Poor skin turgor ( Figure 10.7 ) Tachycardia",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Some of these early signs include confusion due to decreased perfusion to the brain hypotension, because the lack of fluid results in lower-than-normal blood pressure within blood vessels thirst, including dry mucous membranes",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Examples 0.9% normal saline Lactated Ringer’s solution 0.45% normal saline 3% normal saline 5% normal saline Table 10.4 Types of IV Fluids Figure 10.8 Hypertonic fluids cause water (H2O) to flow out of cells, hypotonic fluids cause water to flow into cells, and isotonic fluids cause no net change in osmosi",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "If they have not been done already, the nurse should begin to measure and document the patient’s intake and output to monitor for a steadily decreasing urine output, another potential early clinical manifestation of hypovolemia.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Once the diagnosis has been made, the main goals of nursing care include restoring fluid balance to an optimal level, maintaining homeostasis, and preventing the development of complications such as hypovolemic shock , a life-threatening condition in which the heart cannot get enough blood and oxygen to tissues and organs.",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "These assessments and their expected findings are described in Table 10.3 . Assessment Findings Associated with Hypovolemia Physical assessment Confusion Decreased level of consciousness Dizziness Dry skin and mucous membranes Excessive thirst Flat neck veins Headache Increased capillary refill time Lethargy Muscle cramps Poor skin turgor ( Figure 10.7 ) Tachycardia Intake and output Dark, concentrated urine Decreased oral fluid intake Oliguria D",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
