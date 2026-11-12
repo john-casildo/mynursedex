@@ -1,0 +1,538 @@
+{
+  "id": "alpha-1-antitrypsin-deficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Deficiencia de alfa-1 antitripsina (AATD)",
+    "aliases": [
+      "deficiencia alfa1",
+      "aat",
+      "deficiencia alfa-1",
+      "deficiencia antitripsina",
+      "aatd"
+    ],
+    "summary": "Trastorno genético autosómico recesivo que reduce la producción de alfa‑1 antitripsina, predisponiendo a enfermedad pulmonar obstructiva crónica y daño hepático.",
+    "key_points": [
+      "Disminución de AAT permite daño alveolar por elastasa neutrófila",
+      "Acumulación de AAT mal plegada en hepatocitos causa cirrosis",
+      "Mayor riesgo de COPD, especialmente en lóbulos inferiores",
+      "El tabaquismo acelera la progresión pulmonar",
+      "Se trata con reposo de AAT, evitar humo y manejo de cirrosis"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutación del gen SERPINA1 → proteína AAT mal plegada",
+        "Disminución de inhibición de elastasa → destrucción de paredes alveolares",
+        "Acumulación de AAT en hepatocitos → inflamación y fibrosis hepática"
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de AATD",
+        "Mutación SERPINA1 (PiZZ, PiSZ)",
+        "Tabaquismo activo o exposición a humo de segunda mano",
+        "Exposición crónica a polvo o contaminantes",
+        "Consumo excesivo de alcohol (daño hepático)"
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo y tos crónica",
+        "Sibilancias y sensación de opresión torácica",
+        "Pérdida de peso y fatiga",
+        "Hepatomegalia, ictericia y elevación de enzimas hepáticas",
+        "Enfisema basal visible en radiografía"
+      ],
+      "diagnostics": [
+        "Nivel sérico de AAT <80 mg/dL",
+        "Fenotipado genético del SERPINA1",
+        "Espirometría: FEV1/FVC <70% con patrón obstructivo",
+        "Radiografía de tórax: enfisema en lóbulos inferiores",
+        "Pruebas hepáticas: AST/ALT, fosfatasa alcalina elevadas"
+      ],
+      "treatment": [
+        "Evitar todo tipo de humo y contaminantes",
+        "Terapia de reemplazo de AAT por infusión intravenosa",
+        "Broncodilatadores y corticoides inhalados para COPD",
+        "Vacunación antigripal y neumocócica anual",
+        "Manejo de cirrosis: restricción de sal, diuréticos, posible trasplante"
+      ],
+      "complications": [
+        "Enfisema avanzado y COPD severo",
+        "Insuficiencia respiratoria crónica",
+        "Cirrosis hepática y riesgo de carcinoma hepatocelular",
+        "Hipertensión pulmonar secundaria",
+        "Desnutrición por aumento del gasto energético"
+      ],
+      "nursing_care": [
+        "Evaluar patrón respiratorio, SpO2 y auscultación cada turno",
+        "Monitorizar gases arteriales y signos de hipoxemia",
+        "Educar sobre abstinencia de tabaco y evitar irritantes",
+        "Vigilar signos de insuficiencia hepática (ictericia, edema)",
+        "Posicionar en semi‑Fowler para facilitar expansión pulmonar"
+      ],
+      "patient_teaching": [
+        "No fumar y evitar ambientes con humo o polvo",
+        "Importancia de la vacunación anual contra gripe y neumococo",
+        "Reconocer empeoramiento de disnea o tos y buscar ayuda médica",
+        "Adherir al programa de reemplazo de AAT según indicación",
+        "Dieta baja en sal y evitar alcohol para proteger el hígado"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "deficiencia de alfa-1 antitripsina",
+          "enfisema basal",
+          "tabaquismo"
+        ],
+        "evidenced_by": [
+          "disnea de esfuerzo",
+          "tos crónica",
+          "sibilancias",
+          "FEV1 reducido"
+        ],
+        "outcomes": [
+          "NOC: Patrón respiratorio eficaz – mantener SpO2 ≥ 92 % en reposo",
+          "NOC: Capacidad de tolerar actividad – caminar 100 m sin disnea excesiva"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar SpO2 y frecuencia respiratoria cada 4 h",
+            "rationale": "Detecta hipoxemia temprana y permite intervención rápida"
+          },
+          {
+            "action": "Administrar terapia de reemplazo de AAT según prescripción",
+            "rationale": "Aumenta la inhibición de elastasa y protege el tejido pulmonar"
+          },
+          {
+            "action": "Enseñar respiración diafragmática y ejercicios de expansión torácica",
+            "rationale": "Mejora la ventilación y reduce el trabajo respiratorio"
+          },
+          {
+            "action": "Promover abstinencia de tabaco y evitar exposición a contaminantes",
+            "rationale": "Previene la progresión del daño pulmonar"
+          },
+          {
+            "action": "Posicionar al paciente en semi‑Fowler (30‑45°)",
+            "rationale": "Facilita la expansión pulmonar y mejora la oxigenación"
+          },
+          {
+            "action": "Registrar y reportar cualquier aumento de disnea o cambios en esputo",
+            "rationale": "Permite detección precoz de exacerbaciones"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "cirrosis hepática",
+          "retención de líquidos",
+          "hipoalbuminemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Balance hídrico – peso estable ± 0.5 kg/semana",
+          "NOC: Integridad de la piel – sin edema periférico ni úlceras"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada turno",
+            "rationale": "Detecta desequilibrio hídrico temprano"
+          },
+          {
+            "action": "Monitorizar peso diario y presencia de edema",
+            "rationale": "Identifica retención de líquidos y ascitis"
+          },
+          {
+            "action": "Restringir sodio a <2 g/día y registrar consumo",
+            "rationale": "Previene acumulación de líquido y ascitis"
+          },
+          {
+            "action": "Administrar diuréticos según orden médica y observar respuesta",
+            "rationale": "Promueve eliminación de exceso de líquido"
+          },
+          {
+            "action": "Educar al paciente sobre signos de descompensación hepática (aumento de abdomen, ictericia)",
+            "rationale": "Facilita búsqueda de atención oportuna"
+          },
+          {
+            "action": "Mantener la piel limpia y seca; cambiar posición cada 2 h si hay edema",
+            "rationale": "Previene lesiones cutáneas y úlceras por presión"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Alpha‑1 antitrypsin deficiency (AATD)",
+    "aliases": [
+      "alpha‑1 deficiency",
+      "aat",
+      "antitrypsin deficiency",
+      "aatd"
+    ],
+    "summary": "Autosomal recessive genetic disorder that reduces production of alpha‑1 antitrypsin, predisposing to chronic obstructive pulmonary disease and liver damage.",
+    "key_points": [
+      "Reduced AAT allows neutrophil elastase‑mediated alveolar damage",
+      "Misfolded AAT accumulates in hepatocytes causing cirrhosis",
+      "Higher risk of COPD, especially in lower lobes",
+      "Smoking accelerates pulmonary progression",
+      "Treatment involves AAT replacement, avoidance of smoke, and cirrhosis management"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "SERPINA1 gene mutation → misfolded AAT protein",
+        "Reduced elastase inhibition → destruction of alveolar walls",
+        "Accumulation of AAT in hepatocytes → inflammation and hepatic fibrosis"
+      ],
+      "risk_factors": [
+        "Family history of AATD",
+        "SERPINA1 mutations (PiZZ, PiSZ)",
+        "Active smoking or second‑hand smoke exposure",
+        "Chronic exposure to dust or pollutants",
+        "Excessive alcohol consumption (liver injury)"
+      ],
+      "signs_symptoms": [
+        "Exercise‑induced dyspnea and chronic cough",
+        "Wheezing and sensation of chest tightness",
+        "Weight loss and fatigue",
+        "Hepatomegaly, jaundice, and elevated liver enzymes",
+        "Basal emphysema visible on chest X‑ray"
+      ],
+      "diagnostics": [
+        "Serum AAT level <80 mg/dL",
+        "SERPINA1 genetic phenotyping",
+        "Spirometry: FEV1/FVC <70% with obstructive pattern",
+        "Chest X‑ray: lower lobe emphysema",
+        "Liver function tests: AST/ALT, alkaline phosphatase elevated"
+      ],
+      "treatment": [
+        "Avoid all forms of smoke and pollutants",
+        "AAT replacement therapy via intravenous infusion",
+        "Bronchodilators and inhaled corticosteroids for COPD",
+        "Annual influenza and pneumococcal vaccination",
+        "Cirrhosis management: salt restriction, diuretics, possible transplant"
+      ],
+      "complications": [
+        "Advanced emphysema and severe COPD",
+        "Chronic respiratory failure",
+        "Hepatic cirrhosis and risk of hepatocellular carcinoma",
+        "Secondary pulmonary hypertension",
+        "Malnutrition due to increased energy expenditure"
+      ],
+      "nursing_care": [
+        "Assess respiratory pattern, SpO2, and auscultation each shift",
+        "Monitor arterial blood gases and signs of hypoxemia",
+        "Educate on smoking cessation and avoidance of irritants",
+        "Monitor signs of hepatic failure (jaundice, edema)",
+        "Position in semi‑Fowler to facilitate lung expansion"
+      ],
+      "patient_teaching": [
+        "Do not smoke and avoid smoke or dusty environments",
+        "Importance of annual flu and pneumococcal vaccination",
+        "Recognize worsening dyspnea or cough and seek medical help",
+        "Adhere to AAT replacement program as prescribed",
+        "Low‑salt diet and avoid alcohol to protect the liver"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "alpha‑1 antitrypsin deficiency",
+          "basal emphysema",
+          "smoking"
+        ],
+        "evidenced_by": [
+          "exercise dyspnea",
+          "chronic cough",
+          "wheezing",
+          "reduced FEV1"
+        ],
+        "outcomes": [
+          "NOC: Effective breathing pattern – maintain SpO2 ≥ 92 % at rest",
+          "NOC: Ability to tolerate activity – walk 100 m without excessive dyspnea"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor SpO2 and respiratory rate every 4 h",
+            "rationale": "Detect early hypoxemia and allow rapid intervention"
+          },
+          {
+            "action": "Administer AAT replacement therapy as prescribed",
+            "rationale": "Increase elastase inhibition and protect lung tissue"
+          },
+          {
+            "action": "Teach diaphragmatic breathing and chest expansion exercises",
+            "rationale": "Improve ventilation and reduce work of breathing"
+          },
+          {
+            "action": "Promote smoking cessation and avoidance of pollutants",
+            "rationale": "Prevent progression of lung damage"
+          },
+          {
+            "action": "Position patient in semi‑Fowler (30‑45°)",
+            "rationale": "Facilitate lung expansion and improve oxygenation"
+          },
+          {
+            "action": "Document and report any increase in dyspnea or sputum changes",
+            "rationale": "Allow early detection of exacerbations"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "hepatic cirrhosis",
+          "fluid retention",
+          "hypoalbuminemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Fluid balance – weight stable ± 0.5 kg/week",
+          "NOC: Skin integrity – no peripheral edema or ulcers"
+        ],
+        "interventions": [
+          {
+            "action": "Assess intake and output each shift",
+            "rationale": "Detect early fluid imbalance"
+          },
+          {
+            "action": "Monitor daily weight and presence of edema",
+            "rationale": "Identify fluid retention and ascites"
+          },
+          {
+            "action": "Restrict sodium to <2 g/day and record intake",
+            "rationale": "Prevent fluid accumulation and ascites"
+          },
+          {
+            "action": "Administer diuretics per order and observe response",
+            "rationale": "Promote elimination of excess fluid"
+          },
+          {
+            "action": "Educate patient on signs of hepatic decompensation (abdominal swelling, jaundice)",
+            "rationale": "Facilitate timely medical attention"
+          },
+          {
+            "action": "Keep skin clean and dry; change position every 2 h if edema present",
+            "rationale": "Prevent skin lesions and pressure ulcers"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "copd",
+    "cirrhosis",
+    "emphysema",
+    "genetic-mutation",
+    "lung-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Alpha-1 Antitrypsin Deficiency",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/alpha1antitrypsindeficiency.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Deficiencia de alfa-1 antitripsina",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/alpha1antitrypsindeficiency.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower Respiratory System: Chronic Obstructive Pulmonary Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-5-disorders-of-the-lower-respiratory-system-chronic-obstructive-pulmonary-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-12",
+  "factcheck": {
+    "checked": "2026-11-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "AAT deficiency may also cause a liver disease called cirrhosis .",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Unlike smoking-related COPD, COPD caused by alpha-1 antitrypsin deficiency typically only affects the lower lobes of the lungs (Agarwal et al., 2023).",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "If your liver doesn't make enough AAT, your lungs may be more easily damaged from smoking , pollution , or dust from the environment.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Alpha-1 antitrypsin deficiency (AAT deficiency, or AATD) is an inherited condition that raises your risk for lung and liver disease.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Most cases are linked to cigarette smoking , though COPD can occur in people who have never smoked.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "If your liver doesn't make enough AAT, your lungs may be more easily damaged from smoking , pollution , or dust from the environment.",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "These symptoms may include: Wheezing Shortness of breath , especially after exercise Chronic cough with phlegm (mucus) Repeated respiratory infections such as colds and the flu Chest pain Fatigue Faster-than-normal heartbeat when you stand up Vision problems Losing weight without trying Some people who have AAT deficiency may have liver damage.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "These symptoms may include: Wheezing Shortness of breath , especially after exercise Chronic cough with phlegm (mucus) Repeated respiratory infections such as colds and the flu Chest pain Fatigue Faster-than-normal heartbeat when you stand up Vision problems Losing weight without trying Some people who have AAT deficiency may have liver damage.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "AAT deficiency is caused by changes in the SERPINA1 gene , which carries instructions for making the AAT protein.",
+        "source": 0
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "If the ratio of forced expiratory volume in one second to forced vital capacity (FEV 1 /FVC) is under 0.7, or 70 percent of predicted, COPD is present.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "To help prevent or delay lung damage, it is important to quit smoking (if you smoke) and avoid secondhand smoke , dust, and air pollution.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Inhaled corticosteroids are commonly used to decrease airway swelling and are used as long-term therapy.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "When alveolar walls become damaged and lose elasticity, resulting in problems with exhalation and CO 2 trapping, emphysema occurs ( Figure 11.19 ).",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "Because of the increased effort required to breathe, patients with chronic COPD can develop muscle wasting and cachexia , a disorder that causes loss of muscle and adipose tissue ( Figure 11.20 ).",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "When a low oxygen level is present or suspected, pulse oximetry and arterial blood gas analysis can provide helpful information that can guide therapy, including oxygen administration.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Educational topics include smoking cessation, infection prevention, vaccination, and how to use inhaled medications.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "To help prevent or delay lung damage, it is important to quit smoking (if you smoke) and avoid secondhand smoke , dust, and air pollution.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

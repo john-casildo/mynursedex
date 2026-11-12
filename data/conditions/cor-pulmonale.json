@@ -1,0 +1,424 @@
+{
+  "id": "cor-pulmonale",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Cor pulmonale (CP)",
+    "aliases": [
+      "cor pulmonale",
+      "insuficiencia derecha",
+      "hipertensión pulmonar crónica",
+      "falla del ventrículo derecho"
+    ],
+    "summary": "El cor pulmonale es la insuficiencia del ventrículo derecho causada por hipertensión pulmonar crónica, generalmente secundaria a enfermedades pulmonares. Conduce a sobrecarga de volumen y presión en la circulación sistémica.",
+    "key_points": [
+      "Hipertensión pulmonar > 25 mmHg en cateterismo de corazón derecho.",
+      "Hipertrofia y dilatación del ventrículo derecho en ecocardiograma.",
+      "Edema periférico, hepatomegalia y ascitis son signos clásicos.",
+      "Manejo combina oxígeno, diuréticos y terapias específicas para la hipertensión pulmonar.",
+      "Complicaciones incluyen arritmias, insuficiencia hepática congestiva y tromboembolismo."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Enfermedad pulmonar crónica → hipoxia → vasoconstricción pulmonar.",
+        "Vasoconstricción → aumento de resistencia vascular pulmonar.",
+        "El ventrículo derecho debe generar mayor presión → hipertrofia y dilatación.",
+        "Falla del ventrículo derecho → congestión sistémica y edema."
+      ],
+      "risk_factors": [
+        "Enfermedades obstructivas crónicas (EPOC, bronquiectasias).",
+        "Apnea obstructiva del sueño y tabaquismo.",
+        "Enfermedades intersticiales y embolia pulmonar recurrente.",
+        "Hipertensión arterial sistémica no controlada."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo que progresa a reposo.",
+        "Edema bilateral de tobillos y piernas.",
+        "Hepatomegalia y sensación de plenitud abdominal.",
+        "Cianosis y fatiga al realizar actividades leves."
+      ],
+      "diagnostics": [
+        "Ecocardiograma: hipertrofia del ventrículo derecho, presión sistólica PA > 35 mmHg.",
+        "Cateterismo de corazón derecho: presión media pulmonar > 25 mmHg.",
+        "Radiografía de tórax: arterias pulmonares prominentes, corazón en forma de «caja».",
+        "BNP/NT‑proBNP elevado; gases arteriales: PaO2 < 80 mmHg, PaCO2 variable."
+      ],
+      "treatment": [
+        "Oxígeno suplementario para mantener SatO2 ≥ 90 %.",
+        "Diuréticos de asa (furosemida) para reducir sobrecarga de volumen.",
+        "Antagonistas de los receptores de endotelina (bosentán) o inhibidores de la fosfodiesterasa‑5 (sildenafil).",
+        "Prostaciclinas (epoprostenol) en casos graves.",
+        "Anticoagulación (warfarina) si hay riesgo de tromboembolismo.",
+        "Rehabilitación cardiopulmonar y educación sobre actividad física."
+      ],
+      "complications": [
+        "Edema pulmonar y ascitis.",
+        "Insuficiencia hepática congestiva.",
+        "Arritmias ventriculares y fibrilación auricular.",
+        "Tromboembolismo pulmonar recurrente.",
+        "Shock cardiogénico en fase terminal."
+      ],
+      "nursing_care": [
+        "Evaluar edema, peso diario y balance hídrico (I/O).",
+        "Monitorear signos vitales, especialmente presión arterial sistólica y SatO2.",
+        "Auscultar ruidos cardíacos: presencia de tercer ruido cardíaco y soplo tricuspidal.",
+        "Posicionar al paciente semi‑Fowler para facilitar la expansión pulmonar.",
+        "Administrar diuréticos según prescripción y observar respuesta urinaria.",
+        "Registrar resultados de pruebas de laboratorio (creatinina, electrolitos, BNP)."
+      ],
+      "patient_teaching": [
+        "Seguir dieta baja en sodio (<2 g/día) y controlar la ingesta de líquidos.",
+        "Tomar los medicamentos exactamente como se indica; no suspender sin consultar.",
+        "Realizar pesaje diario y reportar aumento > 2 kg en 24 h.",
+        "Reconocer signos de empeoramiento: mayor disnea, edema creciente, dolor torácico.",
+        "Mantener actividad física moderada y asistir a sesiones de rehabilitación.",
+        "Evitar el tabaquismo y la exposición a contaminantes respiratorios."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "Hipertensión pulmonar crónica",
+          "Hipoxia persistente",
+          "Sobrecarga de volumen"
+        ],
+        "evidenced_by": [
+          "Disnea de reposo",
+          "Edema periférico",
+          "Taquicardia",
+          "Presión arterial sistólica < 90 mmHg"
+        ],
+        "outcomes": [
+          "Gasto cardíaco: alcanzar valores > 4 L/min en 48 h.",
+          "Presión arterial sistólica: mantener ≥ 90 mmHg en 24 h.",
+          "Edema: reducción del edema periférico en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial, frecuencia cardíaca y SatO2 cada 4 h.",
+            "rationale": "Detectar cambios hemodinámicos tempranos y ajustar tratamiento."
+          },
+          {
+            "action": "Registrar balance hídrico estricto y peso diario.",
+            "rationale": "Evaluar respuesta a diuréticos y prevenir sobrecarga de volumen."
+          },
+          {
+            "action": "Administrar furosemida según orden y observar diuresis ≥ 30 mL/h.",
+            "rationale": "Reducir la sobrecarga de volumen y mejorar el retorno venoso."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la dieta baja en sodio.",
+            "rationale": "Disminuir la retención de líquidos y aliviar la carga del ventrículo derecho."
+          },
+          {
+            "action": "Colaborar con fisioterapia para iniciar ejercicios de respiración y movilidad ligera.",
+            "rationale": "Mejorar la oxigenación y la tolerancia a la actividad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cor pulmonale (CP)",
+    "aliases": [
+      "cor pulmonale",
+      "right heart failure",
+      "chronic pulmonary hypertension",
+      "right ventricular failure"
+    ],
+    "summary": "Cor pulmonale is right ventricular failure caused by chronic pulmonary hypertension, usually secondary to pulmonary diseases. It leads to volume and pressure overload in the systemic circulation.",
+    "key_points": [
+      "Pulmonary hypertension > 25 mmHg on right heart catheterization.",
+      "Right ventricular hypertrophy and dilation on echocardiogram.",
+      "Peripheral edema, hepatomegaly, and ascites are classic signs.",
+      "Management combines oxygen, diuretics, and specific therapies for pulmonary hypertension.",
+      "Complications include arrhythmias, congestive hepatic failure, and thromboembolism."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic pulmonary disease → hypoxia → pulmonary vasoconstriction.",
+        "Vasoconstriction → increased pulmonary vascular resistance.",
+        "The right ventricle must generate higher pressure → hypertrophy and dilation.",
+        "Right ventricular failure → systemic congestion and edema."
+      ],
+      "risk_factors": [
+        "Chronic obstructive diseases (COPD, bronchiectasis).",
+        "Obstructive sleep apnea and smoking.",
+        "Interstitial lung disease and recurrent pulmonary embolism.",
+        "Uncontrolled systemic arterial hypertension."
+      ],
+      "signs_symptoms": [
+        "Exertional dyspnea progressing to rest.",
+        "Bilateral ankle and leg edema.",
+        "Hepatomegaly and abdominal fullness sensation.",
+        "Cyanosis and fatigue with mild activity."
+      ],
+      "diagnostics": [
+        "Echocardiogram: right ventricular hypertrophy, systolic PA pressure > 35 mmHg.",
+        "Right heart catheterization: mean pulmonary pressure > 25 mmHg.",
+        "Chest X‑ray: prominent pulmonary arteries, “box‑shaped” heart.",
+        "Elevated BNP/NT‑proBNP; arterial gases: PaO2 < 80 mmHg, PaCO2 variable."
+      ],
+      "treatment": [
+        "Supplemental oxygen to maintain SatO2 ≥ 90 %.",
+        "Loop diuretics (furosemide) to reduce volume overload.",
+        "Endothelin receptor antagonists (bosentan) or phosphodiesterase‑5 inhibitors (sildenafil).",
+        "Prostacyclin (epoprostenol) in severe cases.",
+        "Anticoagulation (warfarin) if thromboembolism risk.",
+        "Cardiopulmonary rehabilitation and education on physical activity."
+      ],
+      "complications": [
+        "Pulmonary edema and ascites.",
+        "Congestive hepatic failure.",
+        "Ventricular arrhythmias and atrial fibrillation.",
+        "Recurrent pulmonary thromboembolism.",
+        "Cardiogenic shock in terminal phase."
+      ],
+      "nursing_care": [
+        "Assess edema, daily weight, and fluid balance (I/O).",
+        "Monitor vital signs, especially systolic blood pressure and SatO2.",
+        "Listen for cardiac sounds: presence of a third heart sound and tricuspid murmur.",
+        "Position patient semi‑Fowler to facilitate lung expansion.",
+        "Administer diuretics as prescribed and observe urine output.",
+        "Record laboratory results (creatinine, electrolytes, BNP)."
+      ],
+      "patient_teaching": [
+        "Follow a low‑sodium diet (<2 g/day) and monitor fluid intake.",
+        "Take medications exactly as prescribed; do not discontinue without consulting.",
+        "Weigh daily and report an increase > 2 kg in 24 h.",
+        "Recognize worsening signs: increased dyspnea, rising edema, chest pain.",
+        "Maintain moderate physical activity and attend rehabilitation sessions.",
+        "Avoid smoking and exposure to respiratory irritants."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "Chronic pulmonary hypertension",
+          "Persistent hypoxia",
+          "Volume overload"
+        ],
+        "evidenced_by": [
+          "Resting dyspnea",
+          "Peripheral edema",
+          "Tachycardia",
+          "Systolic blood pressure < 90 mmHg"
+        ],
+        "outcomes": [
+          "Cardiac output: achieve > 4 L/min within 48 h.",
+          "Systolic blood pressure: maintain ≥ 90 mmHg within 24 h.",
+          "Edema: reduce peripheral edema within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure, heart rate, and SatO2 every 4 h.",
+            "rationale": "Detect early hemodynamic changes and adjust treatment."
+          },
+          {
+            "action": "Record strict fluid balance and daily weight.",
+            "rationale": "Assess response to diuretics and prevent volume overload."
+          },
+          {
+            "action": "Administer furosemide as ordered and observe diuresis ≥ 30 mL/h.",
+            "rationale": "Reduce volume overload and improve venous return."
+          },
+          {
+            "action": "Educate patient on the importance of a low‑sodium diet.",
+            "rationale": "Decrease fluid retention and relieve right ventricular load."
+          },
+          {
+            "action": "Collaborate with physiotherapy to initiate breathing exercises and light mobility.",
+            "rationale": "Improve oxygenation and tolerance to activity."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "pulmonary-hypertension",
+    "right-ventricular-failure",
+    "chronic-obstructive-pulmonary-disease",
+    "hypoxemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pulmonary Hypertension",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pulmonaryhypertension.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Fallo cardíaco",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/heartfailure.html",
+      "lang": "es"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-12",
+  "factcheck": {
+    "checked": "2026-11-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 41,
+      "contradicted": 1,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Medicine to reduce swelling (diuretics) Oxygen therapy Procedures to reduce pressure in the hea",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "contradicted",
+        "quote": "Pulmonary hypertension can get worse over time and lead to serious problems, including: Anemia , which can cause your body to not get enough oxygen-rich blood Arrhythmias , problems with the rate or rhythm of your heartbeat Blood clots in the pulmonary arteries Bleeding in the lungs Heart failure Liver damage Pericardial effusion, a collection of fluid around the heart Serious pregnancy complications",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "supported",
+        "quote": "Regular physical activity , which may be done through pulmonary rehabilitation",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "The symptoms of pulmonary hypertension may include: Shortness of breath Chest pain or pressure Dizziness that may lead to fainting Fatigue Swelling of the abdomen, legs, or feet Heart palpitations (the feeling that your heart is pounding or beating too fast)",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Regular physical activity , which may be done through pulmonary rehabilitation",
+        "source": 0
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

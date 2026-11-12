@@ -1,0 +1,462 @@
+{
+  "id": "parkinsonism",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Parkinsonismo",
+    "aliases": [
+      "parkinsonismo",
+      "enfermedad de parkinson",
+      "temblor",
+      "rigidez",
+      "bradicinesia"
+    ],
+    "summary": "Trastorno neurodegenerativo caracterizado por temblor en reposo, rigidez muscular, bradicinesia y alteraciones del equilibrio.",
+    "key_points": [
+      "Pérdida progresiva de neuronas dopaminérgicas en sustancia negra.",
+      "Síntomas motores clásicos: temblor, rigidez, bradicinesia, inestabilidad.",
+      "Puede acompañarse de síntomas no motores: depresión, trastornos del sueño y disfunción autonómica.",
+      "El diagnóstico es clínico; se confirma con pruebas de imagen y respuesta a levodopa.",
+      "El manejo combina farmacología, fisioterapia y apoyo psicosocial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneración de neuronas dopaminérgicas en la sustancia negra del mesencéfalo.",
+        "Disminución de dopamina → exceso de actividad colinérgica en los ganglios basales.",
+        "Alteración del circuito cortico-estriado que regula el tono muscular y el movimiento.",
+        "Con el tiempo, se produce pérdida de control motor y aparición de temblor y rigidez."
+      ],
+      "risk_factors": [
+        "Edad avanzada (≥60 años).",
+        "Historia familiar de enfermedad de Parkinson.",
+        "Exposición a pesticidas o metales pesados.",
+        "Traumatismo craneal severo."
+      ],
+      "signs_symptoms": [
+        "Temblor de reposo, típicamente en mano o pie.",
+        "Rigidez muscular (rigor cogwheel).",
+        "Bradicinesia: lentitud y dificultad para iniciar movimientos.",
+        "Inestabilidad postural y caídas frecuentes.",
+        "Dificultad para escribir (micrografía) y expresión facial reducida."
+      ],
+      "diagnostics": [
+        "Examen neurológico completo; hallazgos clásicos de los 4 signos motores.",
+        "Escala UPDRS para cuantificar gravedad.",
+        "Imagen cerebral (MRI) para descartar otras causas.",
+        "Respuesta positiva a prueba de levodopa (mejora temporal de síntomas)."
+      ],
+      "treatment": [
+        "Agonistas dopaminérgicos (pramipexol, ropinirol).",
+        "Levodopa/Carbidopa como terapia de primera línea.",
+        "Inhibidores de MAO‑B (selegilina, rasagilina).",
+        "Fisioterapia y terapia ocupacional para mantener movilidad.",
+        "Inyecciones de toxina botulínica para dystonía focal."
+      ],
+      "complications": [
+        "Caídas y fracturas óseas.",
+        "Dificultad para deglutir → riesgo de aspiración.",
+        "Depresión y ansiedad.",
+        "Síndrome de disfunción cognitiva o demencia."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia, intensidad y patrón del temblor en cada turno.",
+        "Monitorear nivel de actividad y signos de fatiga.",
+        "Implementar medidas de seguridad: pasamanos, suelos antideslizantes.",
+        "Promover ejercicios de estiramiento y marcha asistida.",
+        "Observar signos de disfagia y aspiración; mantener posición semi‑sentada."
+      ],
+      "patient_teaching": [
+        "Tomar la medicación exactamente como lo indica el médico, sin omitir dosis.",
+        "Importancia de la actividad física regular para mantener flexibilidad.",
+        "Uso de calzado antideslizante y dispositivos de apoyo al caminar.",
+        "Reconocer signos de depresión y buscar apoyo psicológico.",
+        "Mantener una dieta rica en fibra y líquidos para prevenir estreñimiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "bradicinesia",
+          "rigidez muscular",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Capacidad para realizar actividades de la vida diaria: 80% de independencia en 2 semanas",
+          "Nivel de fatiga: disminución a <3 en escala de 0‑10 en 1 semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar tiempo de marcha y pausas.",
+            "rationale": "Permite establecer la línea base y detectar deterioro."
+          },
+          {
+            "action": "Planificar descansos programados cada 15‑20 minutos durante actividades.",
+            "rationale": "Reduce la fatiga y previene sobrecarga muscular."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse para vestirse, dividir tareas).",
+            "rationale": "Facilita la realización de actividades sin agotamiento."
+          },
+          {
+            "action": "Coordinar fisioterapia para ejercicios de rango de movimiento y fortalecimiento.",
+            "rationale": "Mejora la fuerza muscular y la tolerancia al ejercicio."
+          },
+          {
+            "action": "Monitorear signos de hipotensión ortostática antes y después de la actividad.",
+            "rationale": "Previene caídas relacionadas con cambios de presión arterial."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "temblor",
+          "inestabilidad postural",
+          "caídas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No se presentarán caídas durante la hospitalización",
+          "Mantener integridad cutánea sin lesiones por presión"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar equilibrio y marcha al ingreso y cada 24 h.",
+            "rationale": "Identifica cambios que aumenten el riesgo de caída."
+          },
+          {
+            "action": "Instalar barandillas en la cama y usar calzado antideslizante.",
+            "rationale": "Proporciona soporte físico y reduce deslizamientos."
+          },
+          {
+            "action": "Mantener la habitación bien iluminada y libre de obstáculos.",
+            "rationale": "Disminuye la probabilidad de tropiezos."
+          },
+          {
+            "action": "Educar al paciente y familia sobre técnicas seguras para levantarse y sentarse.",
+            "rationale": "Fomenta la autogestión y reduce movimientos bruscos."
+          },
+          {
+            "action": "Revisar y ajustar la medicación que pueda causar hipotensión o somnolencia.",
+            "rationale": "Minimiza efectos secundarios que predisponen a caídas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Parkinsonism",
+    "aliases": [
+      "parkinsonism",
+      "parkinson disease",
+      "tremor",
+      "rigidity",
+      "bradykinesia"
+    ],
+    "summary": "Neurodegenerative disorder characterized by resting tremor, muscular rigidity, bradykinesia, and balance disturbances.",
+    "key_points": [
+      "Progressive loss of dopaminergic neurons in the substantia nigra.",
+      "Classic motor symptoms: tremor, rigidity, bradykinesia, instability.",
+      "May be accompanied by non‑motor symptoms: depression, sleep disorders, and autonomic dysfunction.",
+      "Diagnosis is clinical; confirmed with imaging studies and response to levodopa.",
+      "Management combines pharmacology, physiotherapy, and psychosocial support."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Degeneration of dopaminergic neurons in the midbrain substantia nigra.",
+        "Reduced dopamine → excess cholinergic activity in the basal ganglia.",
+        "Alteration of the cortico‑striatal circuit that regulates muscle tone and movement.",
+        "Over time, loss of motor control leads to tremor and rigidity."
+      ],
+      "risk_factors": [
+        "Advanced age (≥60 years).",
+        "Family history of Parkinson disease.",
+        "Exposure to pesticides or heavy metals.",
+        "Severe head trauma."
+      ],
+      "signs_symptoms": [
+        "Resting tremor, typically in hand or foot.",
+        "Muscular rigidity (cogwheel rigidity).",
+        "Bradykinesia: slowness and difficulty initiating movements.",
+        "Postural instability and frequent falls.",
+        "Difficulty writing (micrographia) and reduced facial expression."
+      ],
+      "diagnostics": [
+        "Comprehensive neurological exam; classic findings of the four motor signs.",
+        "UPDRS scale to quantify severity.",
+        "Brain imaging (MRI) to rule out other causes.",
+        "Positive response to levodopa challenge (temporary symptom improvement)."
+      ],
+      "treatment": [
+        "Dopaminergic agonists (pramipexole, ropinirole).",
+        "Levodopa/Carbidopa as first‑line therapy.",
+        "MAO‑B inhibitors (selegiline, rasagiline).",
+        "Physiotherapy and occupational therapy to maintain mobility.",
+        "Botulinum toxin injections for focal dystonia."
+      ],
+      "complications": [
+        "Falls and bone fractures.",
+        "Difficulty swallowing → aspiration risk.",
+        "Depression and anxiety.",
+        "Cognitive dysfunction or dementia syndrome."
+      ],
+      "nursing_care": [
+        "Assess frequency, intensity, and pattern of tremor each shift.",
+        "Monitor activity level and signs of fatigue.",
+        "Implement safety measures: handrails, non‑slip flooring.",
+        "Promote stretching and assisted walking exercises.",
+        "Observe for dysphagia and aspiration signs; maintain semi‑upright position."
+      ],
+      "patient_teaching": [
+        "Take medication exactly as prescribed, do not miss doses.",
+        "Importance of regular physical activity to maintain flexibility.",
+        "Use non‑slip footwear and walking aids.",
+        "Recognize signs of depression and seek psychological support.",
+        "Maintain a high‑fiber, fluid‑rich diet to prevent constipation."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "bradykinesia",
+          "muscular rigidity",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "fatigue during activities of daily living",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Ability to perform activities of daily living: 80% independence in 2 weeks",
+          "Fatigue level: decrease to <3 on 0‑10 scale in 1 week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record walking time and breaks.",
+            "rationale": "Establishes baseline and detects deterioration."
+          },
+          {
+            "action": "Plan scheduled rest breaks every 15‑20 minutes during activities.",
+            "rationale": "Reduces fatigue and prevents muscle overload."
+          },
+          {
+            "action": "Teach energy conservation techniques (sit to dress, divide tasks).",
+            "rationale": "Facilitates activity completion without exhaustion."
+          },
+          {
+            "action": "Coordinate physiotherapy for range‑of‑motion and strengthening exercises.",
+            "rationale": "Improves muscle strength and exercise tolerance."
+          },
+          {
+            "action": "Monitor for orthostatic hypotension before and after activity.",
+            "rationale": "Prevents falls related to blood pressure changes."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "tremor",
+          "postural instability",
+          "falls"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No falls during hospitalization",
+          "Maintain skin integrity without pressure injuries"
+        ],
+        "interventions": [
+          {
+            "action": "Assess balance and gait upon admission and every 24 h.",
+            "rationale": "Identifies changes that increase fall risk."
+          },
+          {
+            "action": "Install bed rails and use non‑slip footwear.",
+            "rationale": "Provides physical support and reduces slipping."
+          },
+          {
+            "action": "Keep the room well lit and free of obstacles.",
+            "rationale": "Decreases likelihood of tripping."
+          },
+          {
+            "action": "Educate patient and family on safe techniques for standing and sitting.",
+            "rationale": "Encourages self‑management and reduces abrupt movements."
+          },
+          {
+            "action": "Review and adjust medications that may cause hypotension or drowsiness.",
+            "rationale": "Minimizes side effects that predispose to falls."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dystonia",
+    "tremor",
+    "bradykinesia",
+    "dopamine-deficiency"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Dystonia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/dystonia.html",
+      "lang": "en"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-12",
+  "factcheck": {
+    "checked": "2026-11-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 40,
+      "contradicted": 2,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "contradicted",
+        "quote": "Dystonia is a movement disorder that causes involuntary contractions of your muscles.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "contradicted",
+        "quote": "Symptoms can include tremors , voice problems or a dragging foot.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

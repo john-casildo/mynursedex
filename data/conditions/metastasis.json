@@ -1,0 +1,509 @@
+{
+  "id": "metastasis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Metástasis",
+    "aliases": [
+      "metastasis",
+      "metastásis",
+      "cancer metastatico",
+      "diseminación"
+    ],
+    "summary": "Diseminación de células cancerosas desde el tumor primario a órganos distantes mediante sangre o linfa.",
+    "key_points": [
+      "Es la causa principal de estadios avanzados y mortalidad en cáncer.",
+      "Se evalúa con el sistema TNM (M = metástasis).",
+      "Los síntomas dependen del órgano metastásico.",
+      "El tratamiento es sistémico y paliativo."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Células tumorales pierden adhesión y penetran la membrana basal.",
+        "Intravasan al torrente sanguíneo o linfático y sobreviven al flujo.",
+        "Se adhieren a endotelio distal, extravasan y forman micro‑metástasis.",
+        "Inducen angiogénesis para obtener nutrientes y crecer.",
+        "Proliferan formando nuevos tumores en órganos distantes."
+      ],
+      "risk_factors": [
+        "Tumor primario de alto grado o tamaño grande.",
+        "Invasión linfovascular detectada en biopsia.",
+        "Mutaciones genéticas (p. ej. KRAS, HER2).",
+        "Inmunosupresión o terapia previa que favorece diseminación."
+      ],
+      "signs_symptoms": [
+        "Dolor localizado según órgano afectado.",
+        "Pérdida de peso y caquexia.",
+        "Síntomas específicos: disnea (pulmón), ictericia (hígado), déficit neurológico (cerebro).",
+        "Fiebre inexplicada o fatiga persistente."
+      ],
+      "diagnostics": [
+        "Tomografía axial computarizada (TAC) o resonancia magnética (RM) para localizar lesiones.",
+        "PET‑CT para detección de actividad metabólica en metástasis.",
+        "Biopsia de lesión distante para confirmar histología.",
+        "Marcadores tumorales séricos (CEA, CA‑125) pueden estar elevados."
+      ],
+      "treatment": [
+        "Quimioterapia sistémica según tipo histológico.",
+        "Terapia dirigida (p. ej. trastuzumab) o inmunoterapia.",
+        "Radioterapia paliativa para control del dolor y sangrado.",
+        "Cirugía metastásica selectiva (p. ej. resección hepática).",
+        "Cuidados paliativos y manejo del dolor."
+      ],
+      "complications": [
+        "Insuficiencia orgánica (hepática, respiratoria, neurológica).",
+        "Hipercalcemia paraneoplásica.",
+        "Trombosis venosa profunda por hipercoagulabilidad.",
+        "Anemia y neutropenia por quimioterapia.",
+        "Síndrome de caquexia."
+      ],
+      "nursing_care": [
+        "Evaluar dolor, nivel de conciencia y signos vitales cada 4 h.",
+        "Monitorear balance hídrico y peso diario.",
+        "Administrar quimioterapia y antieméticos según prescripción.",
+        "Preparar al paciente para estudios de imagen (ayuda para movilidad).",
+        "Proveer medidas de confort: posición semisentado, control de temperatura."
+      ],
+      "patient_teaching": [
+        "Explicar la naturaleza de la metástasis y objetivo del tratamiento.",
+        "Enseñar signos de alarma: aumento de dolor, fiebre, dificultad respiratoria.",
+        "Importancia de la nutrición alta en proteínas y control de hidratación.",
+        "Adherencia a la terapia y citas de seguimiento.",
+        "Disponibilidad de apoyo psicológico y grupos de pacientes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "caquexia",
+          "náuseas por quimioterapia",
+          "pérdida de apetito",
+          "sudoración nocturna"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta ≥1500 mL/día en 48 h",
+          "Peso corporal: pérdida <2 % en 1 semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada turno.",
+            "rationale": "Detectar desequilibrio temprano y guiar reposición."
+          },
+          {
+            "action": "Ofrecer líquidos entre comidas y registrar volumen.",
+            "rationale": "Facilita cumplimiento de metas de hidratación."
+          },
+          {
+            "action": "Administrar antieméticos antes de la quimioterapia.",
+            "rationale": "Reduce náuseas y mejora la ingesta oral."
+          },
+          {
+            "action": "Colaborar con nutricionista para plan de alta energía.",
+            "rationale": "Previene pérdida de peso y déficit de líquidos."
+          },
+          {
+            "action": "Monitorear signos de deshidratación (turgencia, mucosas).",
+            "rationale": "Permite intervención oportuna."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "neutropenia por quimioterapia",
+          "cortes cutáneos",
+          "catéter venoso central"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Temperatura: <38 °C durante 72 h",
+          "Cultivos: negativos en ausencia de síntomas"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar higiene de manos antes y después de contacto.",
+            "rationale": "Reduce transmisión de microorganismos."
+          },
+          {
+            "action": "Inspeccionar piel y sitio de catéter cada turno.",
+            "rationale": "Detectar signos tempranos de infección."
+          },
+          {
+            "action": "Mantener técnica aséptica al manipular dispositivos invasivos.",
+            "rationale": "Previene colonización bacteriana."
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección (fiebre, enrojecimiento).",
+            "rationale": "Facilita reporte y tratamiento precoz."
+          },
+          {
+            "action": "Administrar profilaxis antibiótica según orden médica.",
+            "rationale": "Disminuye riesgo en neutropenia profunda."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Metastasis",
+    "aliases": [
+      "metastasis",
+      "metastásis",
+      "cancer metastatico",
+      "diseminación"
+    ],
+    "summary": "Dissemination of cancerous cells from the primary tumor to distant organs via blood or lymph.",
+    "key_points": [
+      "It is the main cause of advanced stages and mortality in cancer.",
+      "It is evaluated with the TNM system (M = metastasis).",
+      "Symptoms depend on the metastatic organ.",
+      "Treatment is systemic and palliative."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Tumor cells lose adhesion and penetrate the basement membrane.",
+        "They intravasate into the bloodstream or lymphatic system and survive the flow.",
+        "They adhere to distal endothelium, extravasate, and form micrometastases.",
+        "They induce angiogenesis to obtain nutrients and grow.",
+        "They proliferate forming new tumors in distant organs."
+      ],
+      "risk_factors": [
+        "High-grade or large primary tumor.",
+        "Lymphovascular invasion detected on biopsy.",
+        "Genetic mutations (e.g., KRAS, HER2).",
+        "Immunosuppression or prior therapy that favors dissemination."
+      ],
+      "signs_symptoms": [
+        "Localized pain depending on affected organ.",
+        "Weight loss and cachexia.",
+        "Specific symptoms: dyspnea (lung), jaundice (liver), neurological deficit (brain).",
+        "Unexplained fever or persistent fatigue."
+      ],
+      "diagnostics": [
+        "CT scan or MRI to locate lesions.",
+        "PET‑CT for detection of metabolic activity in metastases.",
+        "Biopsy of distant lesion to confirm histology.",
+        "Serum tumor markers (CEA, CA‑125) may be elevated."
+      ],
+      "treatment": [
+        "Systemic chemotherapy based on histologic type.",
+        "Targeted therapy (e.g., trastuzumab) or immunotherapy.",
+        "Palliative radiotherapy for pain and bleeding control.",
+        "Selective metastatic surgery (e.g., hepatic resection).",
+        "Palliative care and pain management."
+      ],
+      "complications": [
+        "Organ failure (hepatic, respiratory, neurological).",
+        "Paraneoplastic hypercalcemia.",
+        "Deep venous thrombosis due to hypercoagulability.",
+        "Anemia and neutropenia from chemotherapy.",
+        "Cachexia syndrome."
+      ],
+      "nursing_care": [
+        "Assess pain, level of consciousness, and vital signs every 4 h.",
+        "Monitor fluid balance and daily weight.",
+        "Administer chemotherapy and antiemetics as prescribed.",
+        "Prepare the patient for imaging studies (mobility assistance).",
+        "Provide comfort measures: semi‑upright position, temperature control."
+      ],
+      "patient_teaching": [
+        "Explain the nature of metastasis and treatment goals.",
+        "Teach warning signs: increased pain, fever, breathing difficulty.",
+        "Importance of high-protein nutrition and hydration control.",
+        "Adherence to therapy and follow-up appointments.",
+        "Availability of psychological support and patient groups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "cachexia",
+          "chemotherapy nausea",
+          "loss of appetite",
+          "night sweats"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake ≥1500 mL/day in 48 h",
+          "Body weight: loss <2 % in 1 week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output each shift.",
+            "rationale": "Detect early imbalance and guide replacement."
+          },
+          {
+            "action": "Offer fluids between meals and record volume.",
+            "rationale": "Facilitates meeting hydration goals."
+          },
+          {
+            "action": "Administer antiemetics before chemotherapy.",
+            "rationale": "Reduces nausea and improves oral intake."
+          },
+          {
+            "action": "Collaborate with dietitian for high‑energy plan.",
+            "rationale": "Prevents weight loss and fluid deficit."
+          },
+          {
+            "action": "Monitor signs of dehydration (turgor, mucous membranes).",
+            "rationale": "Allows timely intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "neutropenia from chemotherapy",
+          "skin cuts",
+          "central venous catheter"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Temperature: <38 °C for 72 h",
+          "Cultures: negative in absence of symptoms"
+        ],
+        "interventions": [
+          {
+            "action": "Perform hand hygiene before and after contact.",
+            "rationale": "Reduces microorganism transmission."
+          },
+          {
+            "action": "Inspect skin and catheter site each shift.",
+            "rationale": "Detect early signs of infection."
+          },
+          {
+            "action": "Maintain aseptic technique when handling invasive devices.",
+            "rationale": "Prevents bacterial colonization."
+          },
+          {
+            "action": "Educate patient on infection signs (fever, redness).",
+            "rationale": "Facilitates reporting and early treatment."
+          },
+          {
+            "action": "Administer antibiotic prophylaxis per order.",
+            "rationale": "Reduces risk in profound neutropenia."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cancer",
+    "angiogenesis",
+    "tumor-invasion",
+    "lymphatic-spread",
+    "tnm-staging"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cancer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cancer.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Cáncer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/cancer.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Detection and Prevention of Cancer",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/31-2-detection-and-prevention-of-cancer",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Oncological Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/31-1-oncological-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-12",
+  "factcheck": {
+    "checked": "2026-11-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "metastasis: cancerous cells can spread, usually via the bloodstream or lymphatic system ( Figure 31.3 )",
+        "source": 3
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The basic TNM system (tumor, node, and metastasis ) represents the anatomic extent of solid tumors, and it gauges the size and extent of tumor (T), lymph node involvement (N), and systemic involvement or metastasis (M) for prognostic implications.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "metastasis: cancerous cells can spread, usually via the bloodstream or lymphatic system ( Figure 31.3 )",
+        "source": 3
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "angiogenesis: cancerous cells can form their own network of blood vessels to obtain needed nutrients and oxygen and to allow tumor cells to leave the primary tumor site",
+        "source": 3
+      },
+      "sections.pathophysiology.4": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Examples of oncogenes include the following: HER2 (certain breast cancers) KRAS (colorectal or pancreatic cancer) ABL1 (chronic myeloid leukemia) EGFR (lung cancer and glioblastoma)",
+        "source": 3
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Symptoms include localized bone pain, swelling, and possible fractures without traumatic injury.",
+        "source": 3
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Weight loss is a common manifestation of cancer.",
+        "source": 3
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Fatigue is the most frequently reported manifestation, affecting as many as 91 percent of patients (NCI, 2024b).",
+        "source": 3
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Diagnostics for cancer identification encompass imaging studies such as computed tomography (CT) scans and magnetic resonance imaging ( MRI ) that are classically used to detect a",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "A biopsy is the most reliable method to confirm a cancer diagnosis.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Treatment depends on the type of cancer and how advanced it is.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Therapies for hematological cancers include chemotherapy medications, targeted drug therapies, immunotherapy , radiation therapy to the bone marrow (often affecting the central nervous system), or a stem cell transplant to reestablish healthy bone marrow.",
+        "source": 3
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "The spread of cancer from one part of the body to another is called metastasis.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Solid and site-specific tumors, usually have symptoms of pain, lumps, swelling, skin changes, difficulty breathing, difficulty swallowing, changes in bowel or bladder habits, the appearance of blood in stool or urine, or persistent cough or voice changes.",
+        "source": 3
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "This includes accessing the correct treatments, symptom management, emotional and social supports, and maintaining or regaining physical and emotional health after treatment has ended.",
+        "source": 2
+      }
+    }
+  }
+}

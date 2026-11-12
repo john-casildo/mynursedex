@@ -1,0 +1,442 @@
+{
+  "id": "hypovolemic-shock",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Shock hipovolémico",
+    "aliases": [
+      "shock",
+      "hipovolémico",
+      "hipovolemia",
+      "baja presión",
+      "pérdida de sangre"
+    ],
+    "summary": "El shock hipovolémico es una emergencia que ocurre por pérdida severa de sangre o fluidos, provocando hipotensión y perfusión tisular insuficiente.",
+    "key_points": [
+      "Pérdida aguda de volumen intravascular >20% del total.",
+      "Hipotensión arterial con pulso débil y rápido.",
+      "Disminución de la diuresis y alteración del estado mental.",
+      "Requiere reposición rápida de líquidos y control de la causa subyacente.",
+      "El diagnóstico se basa en signos vitales, laboratorio y respuesta a la terapia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Pérdida de sangre o fluidos reduce el retorno venoso.",
+        "Disminuye el gasto cardíaco y la presión arterial media.",
+        "Se activa la respuesta compensatoria simpática: taquicardia y vasoconstricción.",
+        "Si la reposición no es suficiente, se produce hipoperfusión tisular y falla orgánica."
+      ],
+      "risk_factors": [
+        "Hemorragia masiva (trauma, cirugía, úlcera).",
+        "Deshidratación por vómitos, diarrea o quemaduras extensas.",
+        "Pérdida de líquidos por diuresis excesiva o nefropatía.",
+        "Uso de diuréticos en pacientes vulnerables."
+      ],
+      "signs_symptoms": [
+        "Presión arterial sistólica <90 mmHg.",
+        "Pulso rápido y débil.",
+        "Piel pálida, fría y húmeda.",
+        "Confusión, agitación o pérdida de conciencia.",
+        "Diuresis <0.5 mL/kg/h y respiración rápida."
+      ],
+      "diagnostics": [
+        "Monitorización continua de PA, FC, SpO2 y temperatura.",
+        "Lactato sérico >2 mmol/L indica hipoperfusión.",
+        "Hemoglobina/hematocrito bajos según la pérdida sanguínea.",
+        "BUN y creatinina elevadas si hay compromiso renal.",
+        "Gasometría arterial: acidosis metabólica en etapas avanzadas."
+      ],
+      "treatment": [
+        "Reposición rápida de cristaloides isotónicos (solución salina al 0.9%).",
+        "Coloides o sangre según la magnitud de la pérdida y hemoglobina.",
+        "Control de la causa: hemostasia, antibióticos si hay infección, quemaduras.",
+        "Oxígeno suplementario para mantener SpO2 >94%.",
+        "Vasopresores (noradrenalina) si la presión no responde a fluidos."
+      ],
+      "complications": [
+        "Falla multiorgánica (renal, pulmonar, cardiovascular).",
+        "Coagulopatía y sangrado continuo.",
+        "Síndrome de respuesta inflamatoria sistémica.",
+        "Acidosis metabólica severa.",
+        "Muerte si no se corrige a tiempo."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 5‑15 min según gravedad.",
+        "Monitorear diuresis mediante catéter Foley o medición de salida.",
+        "Mantener vía IV de calibre amplio y verificar permeabilidad.",
+        "Posicionar al paciente en decúbito supino con piernas elevadas si no hay lesión espinal.",
+        "Registrar nivel de conciencia y coloración de piel cada hora."
+      ],
+      "patient_teaching": [
+        "Reconocer signos de pérdida de sangre o deshidratación.",
+        "Importancia de buscar ayuda inmediata ante sangrado profuso o vómitos persistentes.",
+        "Mantener hidratación adecuada y seguir indicaciones de reposición oral cuando sea seguro.",
+        "Informar al personal de cualquier cambio en la presión arterial o frecuencia cardíaca."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Pulso débil",
+          "PA sistólica <90 mmHg",
+          "Piel pálida y fría",
+          "Diuresis <0.5 mL/kg/h",
+          "Confusión"
+        ],
+        "outcomes": [
+          "Hidratación: Volumen intravascular restaurado (PA >90/60 mmHg) en 4 h.",
+          "Perfusión tisular: Diuresis ≥0.5 mL/kg/h en 2 h."
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar infusión de solución salina al 0.9 % a velocidad rápida según protocolo.",
+            "rationale": "Restituye el volumen intravascular y mejora la presión arterial."
+          },
+          {
+            "action": "Monitorear PA, FC y diuresis cada 15 min durante la reposición.",
+            "rationale": "Permite evaluar la respuesta al tratamiento y ajustar la velocidad de fluidos."
+          },
+          {
+            "action": "Obtener hemograma y lactato sérico antes y después de la reposición.",
+            "rationale": "Ayuda a cuantificar la pérdida sanguínea y la hipoperfusión."
+          },
+          {
+            "action": "Colocar al paciente en posición supina con piernas elevadas si no hay contraindicación.",
+            "rationale": "Facilita el retorno venoso y aumenta el gasto cardíaco."
+          },
+          {
+            "action": "Administrar sangre o concentrado de glóbulos rojos si Hb <7 g/dL o según criterio médico.",
+            "rationale": "Mejora la capacidad de transporte de oxígeno."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hypovolemic shock",
+    "aliases": [
+      "shock",
+      "hypovolemic",
+      "hypovolemia",
+      "low blood pressure",
+      "blood loss"
+    ],
+    "summary": "Hypovolemic shock is an emergency that occurs due to severe loss of blood or fluids, causing hypotension and inadequate tissue perfusion.",
+    "key_points": [
+      "Acute loss of intravascular volume >20% of total.",
+      "Blood pressure drop with weak, rapid pulse.",
+      "Reduced urine output and altered mental status.",
+      "Requires rapid fluid replacement and control of underlying cause.",
+      "Diagnosis is based on vital signs, labs, and response to therapy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Loss of blood or fluids reduces venous return.",
+        "Decreases cardiac output and mean arterial pressure.",
+        "Sympathetic compensatory response activates: tachycardia and vasoconstriction.",
+        "If replacement is insufficient, tissue hypoperfusion and organ failure occur."
+      ],
+      "risk_factors": [
+        "Massive hemorrhage (trauma, surgery, ulcer).",
+        "Dehydration from vomiting, diarrhea, or extensive burns.",
+        "Fluid loss from excessive diuresis or nephropathy.",
+        "Use of diuretics in vulnerable patients."
+      ],
+      "signs_symptoms": [
+        "Systolic blood pressure <90 mmHg.",
+        "Rapid, weak pulse.",
+        "Pale, cold, moist skin.",
+        "Confusion, agitation, or loss of consciousness.",
+        "Urine output <0.5 mL/kg/h and rapid breathing."
+      ],
+      "diagnostics": [
+        "Continuous monitoring of BP, HR, SpO2, and temperature.",
+        "Serum lactate >2 mmol/L indicates hypoperfusion.",
+        "Hemoglobin/hematocrit low according to blood loss.",
+        "BUN and creatinine elevated if renal compromise.",
+        "Arterial blood gas: metabolic acidosis in advanced stages."
+      ],
+      "treatment": [
+        "Rapid replacement of isotonic crystalloids (0.9% saline solution).",
+        "Colloids or blood as needed based on loss magnitude and hemoglobin.",
+        "Control of cause: hemostasis, antibiotics if infection, burns.",
+        "Supplemental oxygen to maintain SpO2 >94%.",
+        "Vasopressors (norepinephrine) if pressure does not respond to fluids."
+      ],
+      "complications": [
+        "Multi‑organ failure (renal, pulmonary, cardiovascular).",
+        "Coagulopathy and ongoing bleeding.",
+        "Systemic inflammatory response syndrome.",
+        "Severe metabolic acidosis.",
+        "Death if not corrected in time."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 5‑15 min based on severity.",
+        "Monitor urine output via Foley catheter or output measurement.",
+        "Maintain wide‑caliber IV line and check patency.",
+        "Position patient supine with legs elevated if no spinal injury.",
+        "Record level of consciousness and skin color hourly."
+      ],
+      "patient_teaching": [
+        "Recognize signs of blood loss or dehydration.",
+        "Importance of seeking immediate help with profuse bleeding or persistent vomiting.",
+        "Maintain adequate hydration and follow oral rehydration instructions when safe.",
+        "Inform staff of any changes in blood pressure or heart rate."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Weak pulse",
+          "Systolic BP <90 mmHg",
+          "Pale, cold skin",
+          "Urine output <0.5 mL/kg/h",
+          "Confusion"
+        ],
+        "outcomes": [
+          "Hydration: Intravascular volume restored (BP >90/60 mmHg) within 4 h.",
+          "Tissue perfusion: Urine output ≥0.5 mL/kg/h within 2 h."
+        ],
+        "interventions": [
+          {
+            "action": "Start 0.9% saline infusion at rapid rate per protocol.",
+            "rationale": "Restores intravascular volume and improves blood pressure."
+          },
+          {
+            "action": "Monitor BP, HR, and urine output every 15 min during replacement.",
+            "rationale": "Allows assessment of treatment response and fluid rate adjustment."
+          },
+          {
+            "action": "Obtain CBC and serum lactate before and after replacement.",
+            "rationale": "Helps quantify blood loss and hypoperfusion."
+          },
+          {
+            "action": "Place patient supine with legs elevated if no contraindication.",
+            "rationale": "Facilitates venous return and increases cardiac output."
+          },
+          {
+            "action": "Administer blood or packed red blood cells if Hb <7 g/dL or per medical criteria.",
+            "rationale": "Improves oxygen transport capacity."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypovolemia",
+    "cardiogenic-shock",
+    "septic-shock",
+    "renal-failure",
+    "fluid-resuscitation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Shock",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/shock.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hypovolemic Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-2-hypovolemic-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Neurogenic Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/23-4-neurogenic-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-12",
+  "factcheck": {
+    "checked": "2026-11-12",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Vital signs associated with the development of hypovolemic shock include marked tachycardia over 100 beats per minute, decreased systolic blood pressure, narrowed pulse pressure, immeasurable diastolic pressure, marked decrease or no urinary output, depressed mental status, cold pale skin, cool clammy skin, delayed capillary refill time, anx",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Other classic manifestations of hypovolemic shock include increased heart rate, decreased blood pressure, increased respiratory rate, decreased urinary output, and cool clammy skin.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The goals of therapy include restoring intravascular circulating blood volume, preserving hemodynamic function, effecting the redistribution of circulating volume, addressing the underlying cause of fluid loss, and reversing the progression of inadequate tissue perfusion.",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "To compensate, the sympathetic nervous system is activated to provide more blood flow to cells. Heart rate and contractility increase, as does the systemic tone of blood vessels.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Causes include internal or external bleeding, dehydration, burns, and severe vomiting and/or diarrhea.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Symptoms of shock include: Confusion or lack of alertness Loss of consciousness Sudden and ongoing rapid heartbeat Sweating Pale skin A weak pulse Rapid breathing Decreased or no urine output Cool hands and feet Shock is a life-threatening medical emergency and it is important to get help right away.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Vital signs associated with the development of hypovolemic shock include marked tachycardia over 100 beats per minute, decreased systolic blood pressure, narrowed pulse pressure, immeasurable diastolic pressure, marked decrease or no urinary output, depressed mental status, cold pale skin, cool clammy skin, delayed capillary refill time, anxiety, pallor, and increased respiratory rate.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Symptoms of shock include: Confusion or lack of alertness Loss of consciousness Sudden and ongoing rapid heartbeat Sweating Pale skin A weak pulse Rapid breathing Decreased or no urine output Cool hands and feet Shock is a life-threatening medical emergency and it is important to get help right away.",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Analysis of the complete blood count (CBC) in hemorrhagic shock may indicate low red blood cell (RBC) counts with a drop in hematocrit and hemoglobin.",
+        "source": 1
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Impaired perfusion to the kidney results in an increase in the markers of renal function such as blood urea nitrogen (BUN) and creatinine (Cr).",
+        "source": 1
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Restoration of vascular volume is achieved by administering intravenous fluid—such as 0.9 percent normal saline or other isotonic solutions—at a rapid and high rate.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Patients receiving blood transfusions are also at risk for dilutional coagulopathy if they do not receive sufficient clotting factors in the blood products they receive.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Lab findings may include lactic acidosis or metabolic acidosis due to the accumulation of waste products.",
+        "source": 1
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Standard treatment for volume replacement includes the insertion of large, 14- to 16-gauge intravenous catheters or the insertion of a central line for fluid administration.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The preferred patient position is lying flat with the legs elevated about 12 inches.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Assessment for hypovolemia Trending of vital signs Dehydration assessment Hourly urine output Assessment orthostatic hypotension Prevention of hypovolemic shock is the best treatment.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
