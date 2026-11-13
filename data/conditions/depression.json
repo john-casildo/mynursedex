@@ -1,0 +1,525 @@
+{
+  "id": "depression",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Depresión",
+    "aliases": [
+      "depresion",
+      "depresión",
+      "tristeza",
+      "ansiedad",
+      "estado de ánimo"
+    ],
+    "summary": "Trastorno del estado de ánimo que produce tristeza persistente, pérdida de interés y deterioro funcional durante al menos dos semanas.",
+    "key_points": [
+      "Diagnóstico clínico basado en criterios DSM-5 y escalas como PHQ‑9.",
+      "Tipos principales: depresión mayor y trastorno depresivo persistente.",
+      "Tratamiento multimodal: psicoterapia + antidepresivos (ISRS, IRSN, TCA).",
+      "Riesgo de suicidio y de deterioro de la adherencia al tratamiento.",
+      "Importancia de la evaluación de factores psicosociales y comorbilidades médicas."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Alteración de neurotransmisores (serotonina, norepinefrina, dopamina).",
+        "Disfunción del eje HPA con aumento de cortisol.",
+        "Cambios neuroplásticos y reducción del volumen hipocampal.",
+        "Inflamación sistémica y aumento de citocinas proinflamatorias."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de depresión.",
+        "Eventos estresantes recientes (pérdida, divorcio, desempleo).",
+        "Enfermedades crónicas (diabetes, enfermedad cardiovascular).",
+        "Abuso de sustancias y consumo de alcohol."
+      ],
+      "signs_symptoms": [
+        "Estado de ánimo deprimido la mayor parte del día.",
+        "Pérdida de interés o placer en actividades habituales.",
+        "Alteraciones del sueño (insomnio o hipersomnia).",
+        "Fatiga, pérdida o aumento de peso sin causa aparente.",
+        "Sentimientos de culpa, inutilidad o pensamientos suicidas."
+      ],
+      "diagnostics": [
+        "Entrevista clínica y criterios DSM‑5.",
+        "Escala PHQ‑9: puntuación ≥10 sugiere depresión moderada‑grave.",
+        "Exámenes de laboratorio básicos (glucosa, TSH, hemograma) para descartar causas orgánicas.",
+        "Evaluación de riesgo suicida mediante preguntas directas."
+      ],
+      "treatment": [
+        "Psicoterapia cognitivo‑conductual (TCC) o terapia interpersonal.",
+        "Antidepresivos: ISRS (fluoxetina, sertralina), IRSN (venlafaxina), TCA (amitriptilina).",
+        "Educación sobre adherencia y efectos adversos (náuseas, insomnio, disfunción sexual).",
+        "Intervención de crisis y plan de seguridad para riesgo suicida."
+      ],
+      "complications": [
+        "Ideación suicida y conductas autolesivas.",
+        "Deterioro funcional y laboral.",
+        "Abuso de sustancias como automedicación.",
+        "Mayor morbilidad en enfermedades crónicas."
+      ],
+      "nursing_care": [
+        "Evaluar humor, sueño, apetito y nivel de energía en cada turno.",
+        "Monitorear signos de suicidio: planes, intentos previos, cambios de comportamiento.",
+        "Administrar antidepresivos según prescripción y observar efectos adversos.",
+        "Facilitar ambiente seguro, retirar objetos potencialmente peligrosos.",
+        "Fomentar apoyo social y derivar a trabajo social o psicología cuando sea necesario."
+      ],
+      "patient_teaching": [
+        "Importancia de tomar la medicación diariamente aunque los síntomas mejoren.",
+        "Posibles efectos secundarios y cuándo reportarlos al profesional.",
+        "Estrategias de autocuidado: ejercicio regular, higiene del sueño y alimentación balanceada.",
+        "Señalar recursos de apoyo (líneas de ayuda, grupos de apoyo).",
+        "Plan de seguridad: quién contactar en caso de pensamientos suicidas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ansiedad",
+        "type": "actual",
+        "related_to": [
+          "pensamientos negativos",
+          "situaciones estresantes",
+          "falta de apoyo social"
+        ],
+        "evidenced_by": [
+          "inquietud",
+          "tensión muscular",
+          "dificultad para concentrarse",
+          "preocupación constante"
+        ],
+        "outcomes": [
+          "Reducción de la ansiedad: puntuación en escala de ansiedad ≤5 en 2 semanas",
+          "Mejora del sueño: dormir ≥6 horas continuas por noche"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de ansiedad usando escala de Hamilton cada 24 h",
+            "rationale": "Permite cuantificar la respuesta al tratamiento y ajustar intervenciones"
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y relajación muscular progresiva",
+            "rationale": "Disminuye la activación fisiológica asociada a la ansiedad"
+          },
+          {
+            "action": "Proveer un ambiente tranquilo, reducir estímulos ruidosos y luz intensa",
+            "rationale": "Minimiza factores que exacerban la ansiedad"
+          },
+          {
+            "action": "Administrar antidepresivo ISRS según prescripción y observar efectos adversos",
+            "rationale": "Los ISRS reducen la ansiedad al modular serotonina"
+          },
+          {
+            "action": "Facilitar contacto con familia o grupo de apoyo",
+            "rationale": "El apoyo social es protector contra la ansiedad"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Afrontamiento ineficaz",
+        "type": "actual",
+        "related_to": [
+          "diagnóstico de depresión",
+          "pérdida de rol",
+          "situaciones de estrés crónico"
+        ],
+        "evidenced_by": [
+          "incapacidad para tomar decisiones",
+          "evitación de actividades",
+          "sentimientos de impotencia"
+        ],
+        "outcomes": [
+          "Demostrar uso de al menos 2 estrategias de afrontamiento adaptativo en 1 semana",
+          "Participar en actividades de autocuidado al menos 3 veces por semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar habilidades de afrontamiento mediante entrevista estructurada",
+            "rationale": "Identifica áreas específicas que requieren refuerzo"
+          },
+          {
+            "action": "Enseñar técnicas de solución de problemas y reestructuración cognitiva",
+            "rationale": "Promueve respuestas más efectivas ante situaciones estresantes"
+          },
+          {
+            "action": "Fomentar la elaboración de un plan de actividades diarias realista",
+            "rationale": "Restablece la rutina y mejora la sensación de control"
+          },
+          {
+            "action": "Derivar a terapia grupal o individual según disponibilidad",
+            "rationale": "La terapia brinda apoyo profesional para desarrollar habilidades de afrontamiento"
+          },
+          {
+            "action": "Monitorear adherencia al tratamiento farmacológico y registrar efectos secundarios",
+            "rationale": "Asegura que la medicación contribuya al mejoramiento del estado de ánimo"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Depression",
+    "aliases": [
+      "depression",
+      "depresion",
+      "depresión",
+      "sadness",
+      "anxiety",
+      "mood"
+    ],
+    "summary": "Mood disorder that produces persistent sadness, loss of interest and functional impairment for at least two weeks.",
+    "key_points": [
+      "Clinical diagnosis based on DSM‑5 criteria and scales such as PHQ‑9.",
+      "Main types: Major Depressive Disorder and Persistent Depressive Disorder.",
+      "Multimodal treatment: psychotherapy + antidepressants (SSRIs, SNRIs, TCAs).",
+      "Risk of suicide and treatment adherence deterioration.",
+      "Importance of evaluating psychosocial factors and medical comorbidities."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Alteration of neurotransmitters (serotonin, norepinephrine, dopamine).",
+        "HPA axis dysfunction with increased cortisol.",
+        "Neuroplastic changes and reduced hippocampal volume.",
+        "Systemic inflammation and increased pro‑inflammatory cytokines."
+      ],
+      "risk_factors": [
+        "Family history of depression.",
+        "Recent stressful events (loss, divorce, unemployment).",
+        "Chronic illnesses (diabetes, cardiovascular disease).",
+        "Substance abuse and alcohol consumption."
+      ],
+      "signs_symptoms": [
+        "Depressed mood most of the day.",
+        "Loss of interest or pleasure in usual activities.",
+        "Sleep disturbances (insomnia or hypersomnia).",
+        "Fatigue, unexplained weight loss or gain.",
+        "Feelings of guilt, worthlessness or suicidal thoughts."
+      ],
+      "diagnostics": [
+        "Clinical interview and DSM‑5 criteria.",
+        "PHQ‑9: score ≥10 suggests moderate‑to‑severe depression.",
+        "Basic labs (glucose, TSH, CBC) to rule out organic causes.",
+        "Suicide risk assessment with direct questioning."
+      ],
+      "treatment": [
+        "Cognitive Behavioral Therapy (CBT) or Interpersonal Therapy.",
+        "Antidepressants: SSRIs (fluoxetine, sertraline), SNRIs (venlafaxine), TCAs (amitriptyline).",
+        "Education on adherence and side effects (nausea, insomnia, sexual dysfunction).",
+        "Crisis intervention and safety plan for suicide risk."
+      ],
+      "complications": [
+        "Suicidal ideation and self‑harm behaviors.",
+        "Functional and occupational decline.",
+        "Substance abuse as self‑medication.",
+        "Increased morbidity in chronic diseases."
+      ],
+      "nursing_care": [
+        "Assess mood, sleep, appetite, and energy level each shift.",
+        "Monitor suicide signs: plans, prior attempts, behavior changes.",
+        "Administer antidepressants per prescription and monitor adverse effects.",
+        "Create a safe environment, remove potentially dangerous objects.",
+        "Encourage social support and refer to social work or psychology when needed."
+      ],
+      "patient_teaching": [
+        "Importance of taking medication daily even if symptoms improve.",
+        "Possible side effects and when to report them to the provider.",
+        "Self‑care strategies: regular exercise, sleep hygiene, balanced diet.",
+        "Mention support resources (helplines, support groups).",
+        "Safety plan: who to contact if suicidal thoughts arise."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Anxiety",
+        "type": "actual",
+        "related_to": [
+          "negative thoughts",
+          "stressful situations",
+          "lack of social support"
+        ],
+        "evidenced_by": [
+          "restlessness",
+          "muscle tension",
+          "difficulty concentrating",
+          "constant worry"
+        ],
+        "outcomes": [
+          "Reduction of anxiety: anxiety scale score ≤5 in 2 weeks",
+          "Improved sleep: sleep ≥6 continuous hours per night"
+        ],
+        "interventions": [
+          {
+            "action": "Assess anxiety level using Hamilton scale every 24 h",
+            "rationale": "Allows quantifying treatment response and adjusting interventions"
+          },
+          {
+            "action": "Teach diaphragmatic breathing and progressive muscle relaxation",
+            "rationale": "Reduces physiological activation associated with anxiety"
+          },
+          {
+            "action": "Provide a calm environment, reduce loud stimuli and intense light",
+            "rationale": "Minimizes factors that exacerbate anxiety"
+          },
+          {
+            "action": "Administer SSRI antidepressant per prescription and monitor adverse effects",
+            "rationale": "SSRIs reduce anxiety by modulating serotonin"
+          },
+          {
+            "action": "Facilitate contact with family or support group",
+            "rationale": "Social support protects against anxiety"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Ineffective coping",
+        "type": "actual",
+        "related_to": [
+          "depression diagnosis",
+          "role loss",
+          "chronic stress situations"
+        ],
+        "evidenced_by": [
+          "inability to make decisions",
+          "avoidance of activities",
+          "feelings of helplessness"
+        ],
+        "outcomes": [
+          "Demonstrate use of at least 2 adaptive coping strategies in 1 week",
+          "Participate in self‑care activities at least 3 times per week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess coping skills via structured interview",
+            "rationale": "Identifies specific areas needing reinforcement"
+          },
+          {
+            "action": "Teach problem‑solving and cognitive restructuring techniques",
+            "rationale": "Promotes more effective responses to stressful situations"
+          },
+          {
+            "action": "Encourage development of a realistic daily activity plan",
+            "rationale": "Restores routine and improves sense of control"
+          },
+          {
+            "action": "Refer to group or individual therapy as available",
+            "rationale": "Therapy provides professional support to develop coping skills"
+          },
+          {
+            "action": "Monitor medication adherence and record side effects",
+            "rationale": "Ensures medication contributes to mood improvement"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "major-depressive-disorder",
+    "persistent-depressive-disorder",
+    "suicide-risk",
+    "psychotherapy",
+    "ssris"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Depression",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/depression.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Depresión",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/depression.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Antidepressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Postpartum Mood Disorders and Psychiatric Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-5-postpartum-mood-disorders-and-psychiatric-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-13",
+  "factcheck": {
+    "checked": "2026-11-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 25,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Major depression symptoms include a depressed mood or a loss of interest. Symptoms affect your daily activities and last for at least two weeks.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common types of depression are major depression and persistent depressive disorder.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Most treatments include medicines and/or psychotherapy (talk therapy): Medicines such as antidepressants may help control your symptoms.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Vortioxetine: Increases the release of several neurotransmitters (serotonin, NE, dopamine, glutamate, acetylcholine, and histamine).",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "A medical history will include asking about your symptoms and family history.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Going through trauma or stressful life events may raise your risk even more.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Other mental disorders or chronic medical conditions such as diabetes , cancer , or heart disease may occur with depression.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "At least one of the symptoms is either depressed mood most of the day nearly every day or loss of interest or pleasure.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "At least one of the symptoms is either depressed mood most of the day nearly every day or loss of interest or pleasure.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Other depressive symptoms include significant changes in weight or appetite, insomnia or hypersomnia , observable psychomotor agitation or retardation, fatigue, feelings of worthlessness or excessive and/or inappropriate guilt, diminished ability to think or concentrate, difficulty with decision making, and recurrent thoughts of",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Other depressive symptoms include significant changes in weight or appetite, insomnia or hypersomnia , observable psychomotor agitation or retardation, fatigue, feelings of worthlessness or excessive and/or inappropriate guilt, diminished ability to think or concentrate, difficulty with decision making, and recurrent thoughts of",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Other depressive symptoms include significant changes in weight or appetite, insomnia or hypersomnia , observable psychomotor agitation or retardation, fatigue, feelings of worthlessness or excessive and/or inappropriate guilt, diminished ability to think or concentrate, difficulty with decision making, and recurrent thoughts of death.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Other treatments for PPD include cognitive behavioral therapy (CBT) , an evidence-based therapy that helps people change their thinking patterns); acupuncture; and hormonal supplementation.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "When the nurse recognizes signs of PPD, the nurse diagnoses ineffective coping, impaired bonding, risk for impaired parenting, and risk for self-harm.",
+        "source": 3
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Social services can be consulted if the family lacks support, either emotionally or financially.",
+        "source": 3
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Contact your provider if you have any concerns about side effects from the medicine.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

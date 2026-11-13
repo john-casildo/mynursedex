@@ -1,0 +1,492 @@
+{
+  "id": "lung-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad pulmonar intersticial (EPI)",
+    "aliases": [
+      "enfermedad pulmonar intersticial",
+      "epi",
+      "fibrosis pulmonar",
+      "enfermedad intersticial",
+      "pulmonar intersticial"
+    ],
+    "summary": "Grupo heterogéneo de patologías que provocan inflamación y fibrosis del parénquima pulmonar, dificultando el intercambio gaseoso.",
+    "key_points": [
+      "La fibrosis reduce la capacidad vital total (CVT) y el volumen de difusión.",
+      "Causas comunes: exposición a polvo (sílice, asbesto, carbón), agentes orgánicos y enfermedades autoinmunes.",
+      "Patrón restrictivo en espirometría: FEV1/FVC > 0.70 y TLC < 80% del predicho.",
+      "Oxigenoterapia y antifibróticos son pilares del tratamiento.",
+      "Complicaciones incluyen insuficiencia respiratoria y hipertensión pulmonar."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Inhalación de partículas irritantes desencadena inflamación alveolar.",
+        "Células inflamatorias liberan citocinas que activan fibroblastos.",
+        "Los fibroblastos depositan colágeno, formando tejido cicatricial.",
+        "El tejido fibroso disminuye la elasticidad y la superficie de intercambio O₂/CO₂."
+      ],
+      "risk_factors": [
+        "Exposición ocupacional a sílice, asbesto, polvo de carbón o metales.",
+        "Enfermedades autoinmunes (artritis reumatoide, esclerodermia).",
+        "Tabaquismo y envejecimiento.",
+        "Historia familiar de fibrosis pulmonar idiopática."
+      ],
+      "signs_symptoms": [
+        "Disnea progresiva, inicialmente al esfuerzo y luego en reposo.",
+        "Tos seca persistente.",
+        "Fatiga y pérdida de peso.",
+        "Cianosis en casos avanzados."
+      ],
+      "diagnostics": [
+        "Espirometría: patrón restrictivo (FEV1/FVC > 0.70, TLC < 80%).",
+        "Radiografía de tórax: opacidades reticulares, patrón en vidrio deslustrado.",
+        "TC de alta resolución: engrosamiento intersticial y bronquiectasias de tracción.",
+        "Pruebas de función pulmonar: DLCO disminuida.",
+        "Biopsia pulmonar en casos inciertos."
+      ],
+      "treatment": [
+        "Corticoides sistémicos (prednisona) para inflamación aguda.",
+        "Antifibróticos: pirfenidona o nintedanib (Esbriet®, Ofev®).",
+        "Oxígeno suplementario para SpO₂ < 90%.",
+        "Rehabilitación pulmonar y ejercicios de respiración.",
+        "Trasplante pulmonar en enfermedad terminal."
+      ],
+      "complications": [
+        "Insuficiencia respiratoria aguda o crónica.",
+        "Hipertensión pulmonar y cor pulmonale.",
+        "Infecciones respiratorias recurrentes.",
+        "Deterioro de la calidad de vida y dependencia funcional."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia respiratoria, uso de músculos accesorios y SpO₂ cada 4 h.",
+        "Auscultar campos pulmonares en busca de crepitantes y disminución de sonidos.",
+        "Mantener posición semi‑sentada o Fowler para optimizar expansión pulmonar.",
+        "Administrar oxígeno según prescripción, vigilar toxicidad por oxígeno prolongado.",
+        "Registrar ingesta y pérdida de líquidos; observar edema periférico."
+      ],
+      "patient_teaching": [
+        "Evitar exposición a polvo, humos y gases irritantes.",
+        "Adherir al esquema de medicamentos antifibróticos y corticoides.",
+        "Realizar ejercicios de respiración diafragmática y caminar diariamente.",
+        "Vacunarse contra influenza y neumococo.",
+        "Reportar aumento de disnea, tos con esputo purulento o cambios en coloración de labios."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "disminución de la capacidad pulmonar",
+          "hipoxemia",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "disnea al realizar actividades de la vida diaria",
+          "taquipnea",
+          "cianosis leve"
+        ],
+        "outcomes": [
+          "Capacidad de ejercicio: SpO₂ ≥ 92% durante actividad leve en 48 h.",
+          "Disnea: puntuación ≤ 3 en escala de Borg en 2 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear SpO₂ y frecuencia respiratoria antes, durante y después de la actividad.",
+            "rationale": "Detectar hipoxemia temprana y ajustar el nivel de esfuerzo."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y pursed‑lip breathing.",
+            "rationale": "Mejoran la ventilación y reducen la sensación de falta de aire."
+          },
+          {
+            "action": "Planificar actividades graduales con intervalos de descanso.",
+            "rationale": "Previene la fatiga excesiva y permite adaptación progresiva."
+          },
+          {
+            "action": "Administrar oxígeno suplementario según orden médica durante ejercicio si SpO₂ < 90%.",
+            "rationale": "Mantiene la saturación adecuada y reduce la disnea."
+          },
+          {
+            "action": "Registrar nivel de disnea en escala de Borg después de cada sesión.",
+            "rationale": "Facilita la evaluación de la respuesta al plan de cuidados."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "edema pulmonar",
+          "insuficiencia cardíaca derecha secundaria",
+          "uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico neto: ±500 mL/24 h durante la hospitalización.",
+          "No se observará edema periférico ni aumento de peso > 2 kg en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y pérdida de líquidos cada 8 h.",
+            "rationale": "Detectar rápidamente desviaciones del balance hídrico."
+          },
+          {
+            "action": "Pesar al paciente diariamente a la misma hora y con ropa ligera.",
+            "rationale": "Identificar retención o pérdida de líquidos de forma objetiva."
+          },
+          {
+            "action": "Evaluar presencia de edema en extremidades inferiores y abdomen.",
+            "rationale": "Detectar signos tempranos de sobrecarga de líquidos."
+          },
+          {
+            "action": "Educar al paciente sobre restricción de líquidos si está indicada (ej. < 2 L/día).",
+            "rationale": "Promueve el autocontrol del volumen de líquidos."
+          },
+          {
+            "action": "Monitorear electrolitos séricos (Na⁺, K⁺) y creatinina cada 24 h.",
+            "rationale": "Detectar desequilibrios asociados a diuréticos o retención."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Interstitial lung disease (ILD)",
+    "aliases": [
+      "interstitial lung disease",
+      "ild",
+      "pulmonary fibrosis",
+      "pulmonary interstitial disease"
+    ],
+    "summary": "A heterogeneous group of pathologies that cause inflammation and fibrosis of the lung parenchyma, impairing gas exchange.",
+    "key_points": [
+      "Fibrosis reduces total lung capacity (TLC) and diffusion capacity.",
+      "Common causes: exposure to dust (silica, asbestos, coal), organic agents, and autoimmune diseases.",
+      "Restrictive pattern on spirometry: FEV1/FVC > 0.70 and TLC < 80% predicted.",
+      "Oxygen therapy and antifibrotics are pillars of treatment.",
+      "Complications include respiratory failure and pulmonary hypertension."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Inhalation of irritating particles triggers alveolar inflammation.",
+        "Inflammatory cells release cytokines that activate fibroblasts.",
+        "Fibroblasts deposit collagen, forming scar tissue.",
+        "Fibrotic tissue reduces elasticity and the surface area for O₂/CO₂ exchange."
+      ],
+      "risk_factors": [
+        "Occupational exposure to silica, asbestos, coal dust or metals.",
+        "Autoimmune diseases (rheumatoid arthritis, scleroderma).",
+        "Smoking and aging.",
+        "Family history of idiopathic pulmonary fibrosis."
+      ],
+      "signs_symptoms": [
+        "Progressive dyspnea, initially with exertion and later at rest.",
+        "Persistent dry cough.",
+        "Fatigue and weight loss.",
+        "Cyanosis in advanced cases."
+      ],
+      "diagnostics": [
+        "Spirometry: restrictive pattern (FEV1/FVC > 0.70, TLC < 80%).",
+        "Chest X‑ray: reticular opacities, ground‑glass pattern.",
+        "High‑resolution CT: interstitial thickening and traction bronchiectasis.",
+        "Pulmonary function tests: decreased DLCO.",
+        "Lung biopsy in uncertain cases."
+      ],
+      "treatment": [
+        "Systemic corticosteroids (prednisone) for acute inflammation.",
+        "Antifibrotics: pirfenidone or nintedanib (Esbriet®, Ofev®).",
+        "Supplemental oxygen for SpO₂ < 90%.",
+        "Pulmonary rehabilitation and breathing exercises.",
+        "Lung transplantation in end‑stage disease."
+      ],
+      "complications": [
+        "Acute or chronic respiratory failure.",
+        "Pulmonary hypertension and cor pulmonale.",
+        "Recurrent respiratory infections.",
+        "Decline in quality of life and functional dependence."
+      ],
+      "nursing_care": [
+        "Assess respiratory rate, accessory muscle use, and SpO₂ every 4 h.",
+        "Auscultate lung fields for crackles and decreased breath sounds.",
+        "Maintain semi‑upright or Fowler position to optimize lung expansion.",
+        "Administer oxygen per prescription, monitor for prolonged oxygen toxicity.",
+        "Record intake and output; monitor for peripheral edema."
+      ],
+      "patient_teaching": [
+        "Avoid exposure to dust, fumes, and irritant gases.",
+        "Adhere to antifibrotic and corticosteroid medication regimen.",
+        "Perform diaphragmatic breathing exercises and walk daily.",
+        "Vaccinate against influenza and pneumococcus.",
+        "Report increased dyspnea, productive cough, or changes in lip color."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "decreased pulmonary capacity",
+          "hypoxemia",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "dyspnea during activities of daily living",
+          "tachypnea",
+          "mild cyanosis"
+        ],
+        "outcomes": [
+          "Exercise capacity: SpO₂ ≥ 92% during light activity within 48 h.",
+          "Dyspnea: score ≤ 3 on Borg scale within 2 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor SpO₂ and respiratory rate before, during, and after activity.",
+            "rationale": "Detect early hypoxemia and adjust effort level."
+          },
+          {
+            "action": "Teach diaphragmatic breathing and pursed‑lip breathing techniques.",
+            "rationale": "Improve ventilation and reduce sensation of breathlessness."
+          },
+          {
+            "action": "Plan gradual activities with rest intervals.",
+            "rationale": "Prevent excessive fatigue and allow progressive adaptation."
+          },
+          {
+            "action": "Administer supplemental oxygen per physician order during exercise if SpO₂ < 90%.",
+            "rationale": "Maintain adequate saturation and reduce dyspnea."
+          },
+          {
+            "action": "Record dyspnea level on Borg scale after each session.",
+            "rationale": "Facilitate assessment of response to care plan."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "pulmonary edema",
+          "secondary right‑heart failure",
+          "diuretic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Net fluid balance: ±500 mL/24 h during hospitalization.",
+          "No peripheral edema or weight gain > 2 kg in 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 8 h.",
+            "rationale": "Rapidly detect deviations in fluid balance."
+          },
+          {
+            "action": "Weigh patient daily at the same time in light clothing.",
+            "rationale": "Objectively identify fluid retention or loss."
+          },
+          {
+            "action": "Assess for edema in lower extremities and abdomen.",
+            "rationale": "Detect early signs of fluid overload."
+          },
+          {
+            "action": "Educate patient on fluid restriction if indicated (e.g., < 2 L/day).",
+            "rationale": "Promote self‑management of fluid volume."
+          },
+          {
+            "action": "Monitor serum electrolytes (Na⁺, K⁺) and creatinine every 24 h.",
+            "rationale": "Detect imbalances associated with diuretics or retention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "pulmonary-fibrosis",
+    "hypoxemia",
+    "restrictive-lung-disease",
+    "interstitial-lung-disease",
+    "pulmonary-hypertension"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Interstitial Lung Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/interstitiallungdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Cardiopulmonary Function",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-3-factors-affecting-cardiopulmonary-function",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-13",
+  "factcheck": {
+    "checked": "2026-11-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Interstitial lung disease is the name for a large group of diseases that inflame or scar th",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Other causes include autoimmune diseases or occupational exposures to molds, gases, or fumes.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Specific types include: Black lung disease among coal miners, from inhaling coal dust Farmer's lung, from inhaling farm dust Asbestosis, from inhaling asbestos fibers Siderosis, from inhaling iron from mines or welding fumes Silicosis, from inhaling silica dust Other causes include autoimmune diseases or occupational exposures to molds, gases, or fumes.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "It may involve medicines, oxygen therapy, or a lung transplant in severe cases.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Smoking causes a disruption of the mucociliary elevator in the lungs, which can lead to increased colonization of bacteria in the lower respiratory tract and frequent infections.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Other causes include autoimmune diseases or occupational exposures to molds, gases, or fumes.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

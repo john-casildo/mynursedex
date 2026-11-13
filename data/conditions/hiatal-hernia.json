@@ -1,0 +1,550 @@
+{
+  "id": "hiatal-hernia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hernia de hiato",
+    "aliases": [
+      "hernia",
+      "hiato",
+      "reflujo",
+      "acidez",
+      "esófago",
+      "pírosis"
+    ],
+    "summary": "Protrusión de la parte superior del estómago a través del hiato esofágico del diafragma, facilitando el reflujo gastroesofágico.",
+    "key_points": [
+      "Debilidad del hiato permite que el estómago suba al tórax.",
+      "Factores de riesgo: edad >50 años, obesidad y tabaquismo.",
+      "Síntomas típicos: pirosis, regurgitación, disfagia y tos seca.",
+      "Diagnóstico mediante radiografía, estudio con bario y endoscopia.",
+      "Tratamiento inicial: cambios de estilo de vida y antiácidos.",
+      "Complicaciones: esofagitis, esófago de Barrett y aspiración pulmonar."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Debilidad o apertura del hiato esofágico del diafragma permite protrusión gástrica al tórax.",
+        "La válvula gastroesofágica inferior pierde presión de cierre, favoreciendo el reflujo ácido.",
+        "El ácido irrita el epitelio esofágico, provocando inflamación y síntomas de GERD.",
+        "Presión intraabdominal aumentada (obesidad, tabaquismo) agrava la hernia."
+      ],
+      "risk_factors": [
+        "Edad mayor a 50 años.",
+        "Obesidad (IMC >30 kg/m²).",
+        "Tabaquismo crónico.",
+        "Embarazo o esfuerzos físicos intensos.",
+        "Cirugías torácicas previas."
+      ],
+      "signs_symptoms": [
+        "Pirosis (acidez) después de las comidas.",
+        "Regurgitación de contenido gástrico.",
+        "Disfagia o sensación de cuerpo extraño al tragar.",
+        "Tos seca y mal aliento.",
+        "Náuseas y/o vómitos.",
+        "Dolor torácico que puede confundirse con angina."
+      ],
+      "diagnostics": [
+        "Radiografía de tórax: aire por encima del diafragma.",
+        "Estudio con bario (esofagografía): visualiza hernia y reflujo.",
+        "Endoscopia digestiva alta: evalúa esofagitis y estenosis.",
+        "pH‑metría esofágica: pH <4 >4% del tiempo indica GERD.",
+        "Hemograma: descartar anemia por sangrado crónico."
+      ],
+      "treatment": [
+        "Elevación de cabecera 30‑45° durante y 2‑3 h después de comer.",
+        "Comidas pequeñas y frecuentes; evitar alimentos grasos, cafeína, alcohol y chocolate.",
+        "Antiácidos (hidróxido de aluminio, carbonato de calcio) para alivio rápido.",
+        "Inhibidores de bomba de protones (omeprazol) o bloqueadores H2 (ranitidina) para control a largo plazo.",
+        "Procinéticos (metoclopramida) si hay retraso gástrico.",
+        "Fundoplicatura laparoscópica cuando los síntomas son refractarios."
+      ],
+      "complications": [
+        "Esofagitis erosiva y úlceras esofágicas.",
+        "Estenosis esofágica por cicatrización.",
+        "Esófago de Barrett (metaplasia).",
+        "Sangrado gastrointestinal y anemia ferropénica.",
+        "Aspiración pulmonar y neumonía por reflujo.",
+        "Dolor torácico crónico que puede limitar la actividad."
+      ],
+      "nursing_care": [
+        "Evaluar frecuencia e intensidad de pirosis y regurgitación cada turno.",
+        "Monitorear signos de aspiración: tos, cambios en auscultación y saturación de O₂.",
+        "Registrar ingesta y salida de líquidos; vigilar peso diario.",
+        "Mantener al paciente en posición semisentada durante y después de las comidas.",
+        "Administrar antiácidos y PPIs según prescripción; observar alivio de síntomas.",
+        "Educar sobre medidas de estilo de vida y signos de complicaciones."
+      ],
+      "patient_teaching": [
+        "Comer porciones pequeñas y evitar comer 2‑3 h antes de acostarse.",
+        "Elevar la cabecera de la cama 30‑45° y dormir en posición izquierda.",
+        "Perder peso gradualmente y evitar el tabaco y el alcohol.",
+        "Limitar alimentos irritantes: fritos, picantes, cítricos y chocolate.",
+        "Tomar antiácidos o PPIs según indicación y no interrumpir el tratamiento sin consultar.",
+        "Reportar tos persistente, dolor torácico nuevo o vómitos con sangre."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "reflujo gastroesofágico",
+          "tos seca",
+          "náuseas y vómitos",
+          "posiciones supinas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener vía aérea libre: sin episodios de aspiración durante la hospitalización",
+          "Saturación de oxígeno ≥ 95% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de aspiración (tos, cambios en auscultación) cada turno",
+            "rationale": "Permite detección temprana y prevención de complicaciones respiratorias"
+          },
+          {
+            "action": "Mantener al paciente en posición semisentada (30‑45°) durante y después de las comidas",
+            "rationale": "Reduce el reflujo y el riesgo de que contenido gástrico sea aspirado"
+          },
+          {
+            "action": "Administrar antiácidos según indicación y observar alivio de síntomas",
+            "rationale": "Disminuye la acidez que favorece la irritación y aspiración"
+          },
+          {
+            "action": "Enseñar técnicas de deglución segura y evitar alimentos irritantes",
+            "rationale": "Previene ingreso de contenido al tracto respiratorio"
+          },
+          {
+            "action": "Monitorear saturación de O₂ y auscultar pulmones cada 4 horas",
+            "rationale": "Detecta deterioro respiratorio precozmente"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómitos",
+          "náuseas",
+          "dolor al tragar",
+          "disminución de ingesta por malestar"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Ingesta de líquidos ≥ 2 L/día mantenida durante la estancia",
+          "Peso estable (variación < 0.5 kg en 24 h)"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno",
+            "rationale": "Identifica déficit de volumen y guía la reposición"
+          },
+          {
+            "action": "Ofrecer líquidos en pequeñas cantidades frecuentes",
+            "rationale": "Mejora tolerancia y reduce episodios de vómito"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, frecuencia cardíaca)",
+            "rationale": "Permite intervención temprana ante pérdida de líquidos"
+          },
+          {
+            "action": "Administrar antieméticos según prescripción",
+            "rationale": "Controla náuseas y facilita la ingesta adecuada"
+          },
+          {
+            "action": "Educar al paciente sobre importancia de hidratación y alimentos blandos",
+            "rationale": "Promueve autocuidado y previene complicaciones por deshidratación"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hiatal hernia",
+    "aliases": [
+      "hernia",
+      "hiatus",
+      "gerd",
+      "acid reflux",
+      "esophagus",
+      "heartburn"
+    ],
+    "summary": "Protrusion of the upper stomach through the esophageal hiatus of the diaphragm, facilitating gastroesophageal reflux.",
+    "key_points": [
+      "Weakness of the hiatus allows the stomach to rise into the chest.",
+      "Risk factors: age >50 years, obesity, and smoking.",
+      "Typical symptoms: heartburn, regurgitation, dysphagia, and dry cough.",
+      "Diagnosis via X‑ray, barium study, and endoscopy.",
+      "Initial treatment: lifestyle changes and antacids.",
+      "Complications: esophagitis, Barrett’s esophagus, and pulmonary aspiration."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Weakness or opening of the diaphragmatic esophageal hiatus allows gastric protrusion into the chest.",
+        "The lower esophageal sphincter loses closing pressure, favoring acid reflux.",
+        "Acid irritates the esophageal epithelium, causing inflammation and GERD symptoms.",
+        "Increased intraabdominal pressure (obesity, smoking) worsens the hernia."
+      ],
+      "risk_factors": [
+        "Age >50 years.",
+        "Obesity (BMI >30 kg/m²).",
+        "Chronic smoking.",
+        "Pregnancy or intense physical exertion.",
+        "Previous thoracic surgeries."
+      ],
+      "signs_symptoms": [
+        "Heartburn after meals.",
+        "Regurgitation of gastric contents.",
+        "Dysphagia or sensation of a foreign body when swallowing.",
+        "Dry cough and bad breath.",
+        "Nausea and/or vomiting.",
+        "Chest pain that may mimic angina."
+      ],
+      "diagnostics": [
+        "Chest X‑ray: air above the diaphragm.",
+        "Barium study (esophagography): visualizes hernia and reflux.",
+        "Upper endoscopy: evaluates esophagitis and stenosis.",
+        "Esophageal pH monitoring: pH <4 >4% of time indicates GERD.",
+        "CBC: rule out anemia from chronic bleeding."
+      ],
+      "treatment": [
+        "Elevate head 30‑45° during and 2‑3 h after meals.",
+        "Small, frequent meals; avoid fatty foods, caffeine, alcohol, and chocolate.",
+        "Antacids (aluminum hydroxide, calcium carbonate) for rapid relief.",
+        "Proton‑pump inhibitors (omeprazole) or H2 blockers (ranitidine) for long‑term control.",
+        "Prokinetics (metoclopramide) if delayed gastric emptying.",
+        "Laparoscopic fundoplication when symptoms are refractory."
+      ],
+      "complications": [
+        "Erosive esophagitis and esophageal ulcers.",
+        "Esophageal stenosis from scarring.",
+        "Barrett’s esophagus (metaplasia).",
+        "Gastrointestinal bleeding and iron‑deficiency anemia.",
+        "Pulmonary aspiration and pneumonia from reflux.",
+        "Chronic chest pain that may limit activity."
+      ],
+      "nursing_care": [
+        "Assess frequency and intensity of heartburn and regurgitation each shift.",
+        "Monitor for aspiration signs: cough, changes in auscultation, and O₂ saturation.",
+        "Record intake and output; monitor daily weight.",
+        "Keep patient in semi‑upright position during and after meals.",
+        "Administer antacids and PPIs as prescribed; observe symptom relief.",
+        "Educate on lifestyle measures and signs of complications."
+      ],
+      "patient_teaching": [
+        "Eat small portions and avoid eating 2‑3 h before bedtime.",
+        "Elevate head of bed 30‑45° and sleep on left side.",
+        "Lose weight gradually and avoid tobacco and alcohol.",
+        "Limit irritant foods: fried, spicy, citrus, and chocolate.",
+        "Take antacids or PPIs as directed and do not stop treatment without consulting.",
+        "Report persistent cough, new chest pain, or vomiting with blood."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "gastroesophageal reflux",
+          "dry cough",
+          "nausea and vomiting",
+          "supine positions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain airway clear: no aspiration episodes during hospitalization",
+          "O₂ saturation ≥ 95% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Assess aspiration signs (cough, auscultation changes) each shift",
+            "rationale": "Allows early detection and prevention of respiratory complications"
+          },
+          {
+            "action": "Keep patient semi‑upright (30‑45°) during and after meals",
+            "rationale": "Reduces reflux and risk of gastric content aspiration"
+          },
+          {
+            "action": "Administer antacids as ordered and observe symptom relief",
+            "rationale": "Decreases acidity that favors irritation and aspiration"
+          },
+          {
+            "action": "Teach safe swallowing techniques and avoid irritant foods",
+            "rationale": "Prevents entry of content into the respiratory tract"
+          },
+          {
+            "action": "Monitor O₂ saturation and auscultate lungs every 4 h",
+            "rationale": "Detects early respiratory deterioration"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "vomiting",
+          "nausea",
+          "pain when swallowing",
+          "reduced intake due to discomfort"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid intake ≥ 2 L/day maintained during stay",
+          "Stable weight (variation < 0.5 kg in 24 h)"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output each shift",
+            "rationale": "Identifies volume deficit and guides replacement"
+          },
+          {
+            "action": "Offer fluids in small frequent amounts",
+            "rationale": "Improves tolerance and reduces vomiting episodes"
+          },
+          {
+            "action": "Assess dehydration signs (turgor, mucous membranes, heart rate)",
+            "rationale": "Allows early intervention for fluid loss"
+          },
+          {
+            "action": "Administer antiemetics as prescribed",
+            "rationale": "Controls nausea and facilitates adequate intake"
+          },
+          {
+            "action": "Educate patient on importance of hydration and soft foods",
+            "rationale": "Promotes self‑care and prevents dehydration complications"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "gastroesophageal-reflux-disease",
+    "esophagitis",
+    "barrett-s-esophagus",
+    "aspiration-pneumonia",
+    "hiatal-hernia-repair"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hiatal Hernia",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hiatalhernia.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hernia de hiato",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hiatalhernia.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Recognizing Common Abdominal Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/27-3-recognizing-common-abdominal-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antacids",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-1-antacids",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-13",
+  "factcheck": {
+    "checked": "2026-11-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 41,
+      "contradicted": 0,
+      "total": 51
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "A hiatal hernia is a condition in which the upper part of your stomach bulges through an opening in your diaphragm.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Your risk of getting a hiatal hernia goes up as you age; they are common in people over age 50.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "GERD may cause symptoms such as : Heartburn Problems swallowing A dry cough Bad breath Nausea and/or vomiting Breathing problems The wearing away of your teeth",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "The tests may be a chest x-ray, an x-ray with a barium swallow, or an upper endoscopy.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "A hiatal hernia is a condition in which the upper part of your stomach bulges through an opening in your diaphragm.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Your risk of getting a hiatal hernia goes up as you age; they are common in people over age 50.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "GERD may cause symptoms such as : Heartburn Problems swallowing A dry cough Bad breath Nausea and/or vomiting Breathing problems The wearing away of your teeth Often, the cause of a hiatal hernia is unknown.",
+        "source": 0
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "GERD may cause symptoms such as : Heartburn Problems swallowing A dry cough Bad breath Nausea and/or vomiting Breathing problems The wearing away of your teeth Often, the cause of a hiatal hernia is unknown.",
+        "source": 0
+      },
+      "sections.signs_symptoms.5": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Calcium carbonate is a fast-acting oral antacid that efficiently neutralizes gastric acids, offering relief from heartburn and associated symptoms.",
+        "source": 3
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.complications.5": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "They include eating small meals, avoiding certain foods, not smoking or drinking alcohol, and losing weight.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}

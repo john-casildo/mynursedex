@@ -1,0 +1,466 @@
+{
+  "id": "gastric-perforation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Perforación gástrica",
+    "aliases": [
+      "perforación gástrica",
+      "perforación estomacal",
+      "perforación de estómago",
+      "perforación abdominal",
+      "perforación gastrointestinal"
+    ],
+    "summary": "Ruptura completa de la pared del estómago que permite la fuga de contenido gástrico al peritoneo, provocando peritonitis aguda.",
+    "key_points": [
+      "Es una emergencia quirúrgica que requiere intervención inmediata.",
+      "Los signos clásicos incluyen dolor abdominal súbito, rigidez y distensión.",
+      "La peritonitis se confirma con leucocitosis y elevación de la PCR.",
+      "El manejo incluye resucitación con cristaloides, antibióticos y cirugía de cierre.",
+      "Los inhibidores de bomba de protones reducen la secreción ácida postoperatoria."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aumento de presión intragástrica o úlcera perfora la mucosa y muscular.",
+        "El contenido ácido y bacteriano entra al peritoneo, desencadenando inflamación.",
+        "Se libera mediadores inflamatorios → aumento de permeabilidad capilar y edema.",
+        "Si no se controla, progresa a shock séptico y falla multiorgánica."
+      ],
+      "risk_factors": [
+        "Úlcera péptica no tratada o resistente a terapia.",
+        "Uso crónico de AINEs o corticoides.",
+        "Infección por Helicobacter pylori sin erradicación.",
+        "Trauma abdominal o ingestión de sustancias corrosivas."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal intenso y súbito, a menudo en epigástrio.",
+        "Rigidez muscular (signo de defensa) y distensión abdominal.",
+        "Náuseas, vómitos con contenido bilioso o con sangre.",
+        "Taquicardia, hipotensión y fiebre en etapas avanzadas."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen erecta: aire libre bajo diafragma.",
+        "TC abdominal con contraste: muestra fuga de contraste gástrico.",
+        "Laboratorio: leucocitosis >12,000 mm³, PCR ↑, lactato >2 mmol/L.",
+        "pH arterial: posible acidosis metabólica por peritonitis."
+      ],
+      "treatment": [
+        "Reposición de volumen con cristaloides 0.9% NaCl o Ringer lactato.",
+        "Antibióticos de amplio espectro (p. ej., ciprofloxacino + metronidazol).",
+        "Inhibidor de bomba de protones IV (omeprazol) para reducir secreción ácida.",
+        "Cirugía de cierre (sutura simple o resección) lo antes posible."
+      ],
+      "complications": [
+        "Peritonitis difusa y sepsis.",
+        "Absceso intraabdominal.",
+        "Falla renal aguda por hipotensión prolongada.",
+        "Fístula gástrica persistente."
+      ],
+      "nursing_care": [
+        "Monitorizar signos vitales cada 15 min: TA, FC, FR, temperatura.",
+        "Evaluar dolor con escala numérica y administrar analgésicos según orden.",
+        "Mantener NPO y verificar posición de sonda nasogástrica si está colocada.",
+        "Registrar salida de líquidos, balance hídrico y diuresis cada hora.",
+        "Observar abdomen por distensión, sensibilidad y cambios en el drenaje."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de ayuno preoperatorio y la razón del drenaje.",
+        "Instruir sobre signos de infección o fuga (dolor creciente, fiebre).",
+        "Enseñar la importancia de la adherencia a antibióticos y PPIs.",
+        "Promover evitar AINEs y alcohol después del alta."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Dolor abdominal intenso",
+          "Expresión facial de malestar",
+          "Taquicardia"
+        ],
+        "outcomes": [
+          "Alivio del dolor: escala de dolor ≤3/10 en 30 min",
+          "Respuesta fisiológica estable: TA y FC dentro de rangos normales"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor usando escala numérica cada 1 h",
+            "rationale": "Permite medir efectividad del manejo analgésico"
+          },
+          {
+            "action": "Administrar analgésico según prescripción y observar efectos",
+            "rationale": "Controla la intensidad del dolor"
+          },
+          {
+            "action": "Posicionar al paciente en decúbito supino con almohada bajo rodillas",
+            "rationale": "Reduce la tensión abdominal"
+          },
+          {
+            "action": "Aplicar técnicas de relajación guiada",
+            "rationale": "Disminuye la percepción del dolor"
+          },
+          {
+            "action": "Revaluar signos vitales después de analgesia",
+            "rationale": "Detecta posibles efectos adversos"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "Peritonitis por fuga gástrica",
+          "Cirugía abdominal",
+          "Uso de catéteres intravenosos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección: temperatura <38 °C y leucocitosis normal en 48 h",
+          "Cultivos negativos y sitio quirúrgico sin exudado"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener técnica aséptica al manipular drenajes y vías IV",
+            "rationale": "Previene introducción de microorganismos"
+          },
+          {
+            "action": "Administrar antibiótico profiláctico según orden",
+            "rationale": "Reduce carga bacteriana"
+          },
+          {
+            "action": "Monitorear temperatura cada 4 h y reporte de fiebre",
+            "rationale": "Detección temprana de infección"
+          },
+          {
+            "action": "Inspeccionar sitio quirúrgico y drenaje por enrojecimiento o secreción",
+            "rationale": "Identifica signos locales de infección"
+          },
+          {
+            "action": "Educar al paciente sobre higiene de manos y cuidados del drenaje",
+            "rationale": "Fomenta autocuidado y prevención"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastric perforation",
+    "aliases": [
+      "gastric perforation",
+      "stomach perforation",
+      "perforation of stomach",
+      "abdominal perforation",
+      "gastrointestinal perforation"
+    ],
+    "summary": "Complete rupture of the stomach wall allowing gastric contents to leak into the peritoneum, causing acute peritonitis.",
+    "key_points": [
+      "It is a surgical emergency requiring immediate intervention.",
+      "Classic signs include sudden abdominal pain, rigidity, and distension.",
+      "Peritonitis is confirmed with leukocytosis and elevated CRP.",
+      "Management includes resuscitation with crystalloids, antibiotics, and surgical closure.",
+      "Proton pump inhibitors reduce postoperative acid secretion."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased intragastric pressure or ulcer perforates mucosa and muscle.",
+        "Acidic and bacterial contents enter the peritoneum, triggering inflammation.",
+        "Inflammatory mediators are released → increased capillary permeability and edema.",
+        "If uncontrolled, it progresses to septic shock and multiorgan failure."
+      ],
+      "risk_factors": [
+        "Untreated or refractory peptic ulcer.",
+        "Chronic use of NSAIDs or corticosteroids.",
+        "Uneradicated Helicobacter pylori infection.",
+        "Abdominal trauma or ingestion of corrosive substances."
+      ],
+      "signs_symptoms": [
+        "Severe sudden abdominal pain, often epigastric.",
+        "Muscular rigidity (defense sign) and abdominal distension.",
+        "Nausea, vomiting with bilious or bloody content.",
+        "Tachycardia, hypotension, and fever in advanced stages."
+      ],
+      "diagnostics": [
+        "Standing abdominal X‑ray: free air under diaphragm.",
+        "Contrast abdominal CT: shows gastric contrast leak.",
+        "Laboratory: leukocytosis >12,000 mm³, CRP ↑, lactate >2 mmol/L.",
+        "Arterial pH: possible metabolic acidosis from peritonitis."
+      ],
+      "treatment": [
+        "Volume replacement with 0.9% NaCl or Ringer lactate crystalloids.",
+        "Broad‑spectrum antibiotics (e.g., ciprofloxacin + metronidazole).",
+        "IV proton pump inhibitor (omeprazole) to reduce acid secretion.",
+        "Surgical closure (simple suture or resection) as soon as possible."
+      ],
+      "complications": [
+        "Diffuse peritonitis and sepsis.",
+        "Intraabdominal abscess.",
+        "Acute renal failure from prolonged hypotension.",
+        "Persistent gastric fistula."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15 min: BP, HR, RR, temperature.",
+        "Assess pain with numeric scale and administer analgesics per order.",
+        "Keep NPO and verify nasogastric tube position if placed.",
+        "Record fluid output, fluid balance, and urine output hourly.",
+        "Observe abdomen for distension, tenderness, and drainage changes."
+      ],
+      "patient_teaching": [
+        "Explain the need for preoperative fasting and drainage purpose.",
+        "Instruct on signs of infection or leak (increasing pain, fever).",
+        "Teach importance of adherence to antibiotics and PPIs.",
+        "Encourage avoidance of NSAIDs and alcohol after discharge."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Severe abdominal pain",
+          "Facial expression of discomfort",
+          "Tachycardia"
+        ],
+        "outcomes": [
+          "Pain relief: pain score ≤3/10 within 30 min",
+          "Stable physiological response: BP and HR within normal ranges"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain using numeric scale every 1 h",
+            "rationale": "Allows measurement of analgesic effectiveness"
+          },
+          {
+            "action": "Administer analgesic per prescription and observe effects",
+            "rationale": "Controls pain intensity"
+          },
+          {
+            "action": "Position patient supine with pillow under knees",
+            "rationale": "Reduces abdominal tension"
+          },
+          {
+            "action": "Apply guided relaxation techniques",
+            "rationale": "Decreases pain perception"
+          },
+          {
+            "action": "Reevaluate vital signs after analgesia",
+            "rationale": "Detects potential adverse effects"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "Peritonitis from gastric leak",
+          "Abdominal surgery",
+          "Use of intravenous catheters"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection: temperature <38 °C and normal leukocyte count within 48 h",
+          "Negative cultures and surgical site without exudate"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain aseptic technique when handling drains and IV lines",
+            "rationale": "Prevents introduction of microorganisms"
+          },
+          {
+            "action": "Administer prophylactic antibiotic per order",
+            "rationale": "Reduces bacterial load"
+          },
+          {
+            "action": "Monitor temperature every 4 h and report fever",
+            "rationale": "Early detection of infection"
+          },
+          {
+            "action": "Inspect surgical site and drain for redness or discharge",
+            "rationale": "Identifies local infection signs"
+          },
+          {
+            "action": "Educate patient on hand hygiene and drain care",
+            "rationale": "Promotes self‑care and prevention"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "peptic-ulcer-disease",
+    "peritonitis",
+    "sepsis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Gastrointestinal Bleeding",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/gastrointestinalbleeding.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Histamine Blockers and Proton-Pump Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-2-histamine-blockers-and-proton-pump-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Ear",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/18-2-disorders-of-the-ear",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-13",
+  "factcheck": {
+    "checked": "2026-11-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 5,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Short-term use in combination with clarithromycin may be used to treat duodenal ulcers associated with H. pylori infections.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Proton pump inhibitors (PPIs) are antisecretory drugs that block both basal and stimulated gastric acid production.",
+        "source": 1
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Monitor for worsening symptoms, increased pain, swelling, or fever.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Nurses educate patients and caregivers on the importance of completing the full course of antibiotics if prescribed.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "“While I am taking this medication I will avoid alcohol, spicy foods, and ibuprofen.”",
+        "source": 1
+      }
+    }
+  }
+}

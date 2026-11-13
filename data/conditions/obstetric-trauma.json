@@ -1,0 +1,476 @@
+{
+  "id": "obstetric-trauma",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Trauma obstétrico",
+    "aliases": [
+      "trauma obstetrico",
+      "lesion parto",
+      "lesion durante el parto",
+      "trauma perinatal",
+      "obstetric trauma"
+    ],
+    "summary": "Lesión física del aparato reproductor o de estructuras adyacentes que ocurre durante el trabajo de parto, el parto o el puerperio inmediato.",
+    "key_points": [
+      "Puede ser causado por distocia de hombros, ruptura uterina o manejo inadecuado del cordón.",
+      "El sangrado posparto es la complicación más frecuente y amenaza la vida materna.",
+      "La evaluación rápida del estado hemodinámico y fetal es esencial.",
+      "El control del dolor y la estabilización hemodinámica son prioridades de enfermería."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Compresión o laceración de tejidos durante el paso del bebé por el canal.",
+        "Ruptura de vasos sanguíneos uterinos o placentarios produce hemorragia.",
+        "Daño al nervio pudendo o plexo sacro genera dolor neuropático."
+      ],
+      "risk_factors": [
+        "Distocia de hombros o presentación podálica.",
+        "Ruptura uterina previa o cicatriz de cesárea.",
+        "Uso de fórceps o ventosa.",
+        "Parto precipitado o prolongado."
+      ],
+      "signs_symptoms": [
+        "Dolor intenso en abdomen o perineo.",
+        "Sangrado vaginal abundante (>500 mL en parto vaginal).",
+        "Taquicardia materna y presión arterial baja.",
+        "Cambios en la frecuencia cardíaca fetal (bradicardia o taquicardia)."
+      ],
+      "diagnostics": [
+        "Hemograma completo: hemoglobina <10 g/dL indica pérdida sanguínea.",
+        "Coagulación: tiempo de protrombina y fibrinógeno para descartar DIC.",
+        "Ecografía obstétrica: evalúa hemorragia retroplacentaria o ruptura uterina.",
+        "Monitoreo fetal continuo: patrones de desaceleración indican compromiso."
+      ],
+      "treatment": [
+        "Reposición de volumen con cristaloides (solución salina 0.9%).",
+        "Transfusión de concentrado de glóbulos rojos si Hb <7 g/dL.",
+        "Oxígeno suplementario 2‑4 L/min por cánula nasal.",
+        "Uterotónicos (oxitocina) para controlar hemorragia uterina.",
+        "Cirugía de emergencia (histerectomía) si la ruptura es irreparable."
+      ],
+      "complications": [
+        "Shock hipovolémico.",
+        "Coagulopatía (DIC).",
+        "Infección puerperal.",
+        "Lesión neurológica del plexo pudendo."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 5‑15 min y registrar pérdida sanguínea estimada.",
+        "Mantener vía aérea permeable y administrar oxígeno según necesidad.",
+        "Monitorear diuresis; objetivo ≥0.5 mL/kg/h.",
+        "Aplicar compresión uterina externa y preparar medicación uterotónica.",
+        "Colaborar con el equipo quirúrgico para traslado rápido si se requiere intervención."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de reportar cualquier sangrado o dolor intenso.",
+        "Enseñar técnicas de respiración y relajación para reducir la tensión muscular.",
+        "Informar sobre signos de shock (palidez, sudoración, mareos) y cuándo buscar ayuda.",
+        "Reforzar la necesidad de asistencia médica inmediata ante ruptura de membranas o sangrado abundante."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "hemorragia posparto",
+          "ruptura uterina",
+          "distocia de hombros",
+          "desprendimiento placentario",
+          "manejo inadecuado del cordón"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Integridad tisular: sin nuevas lesiones durante la hospitalización",
+          "Seguridad del paciente: ausencia de eventos adversos relacionados con el trauma"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales y pérdida sanguínea cada 15 minutos.",
+            "rationale": "Detectar rápidamente deterioro hemodinámico y prevenir shock."
+          },
+          {
+            "action": "Mantener vía aérea permeable y administrar oxígeno suplementario.",
+            "rationale": "Garantiza oxigenación adecuada para madre y feto."
+          },
+          {
+            "action": "Aplicar compresión uterina y preparar uterotónicos según indicación médica.",
+            "rationale": "Controla la hemorragia y reduce el riesgo de mayor lesión uterina."
+          },
+          {
+            "action": "Colaborar en la preparación y traslado al quirófano si se sospecha ruptura uterina.",
+            "rationale": "Facilita intervención quirúrgica oportuna y disminuye daño tisular."
+          },
+          {
+            "action": "Proveer analgesia y técnicas de confort (posición lateral izquierda, masaje perineal).",
+            "rationale": "Reduce el dolor y la respuesta de estrés, favoreciendo la estabilidad hemodinámica."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hemorragia posparto",
+          "ruptura uterina",
+          "lesiones vasculares",
+          "administración de fluidos inadecuada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: peso corporal estable (+/- 0.5 kg) durante 24 h",
+          "Perfusión tisular: presión arterial ≥90/60 mmHg y frecuencia cardíaca 80‑100 lpm"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar infusión de solución salina 0.9% a velocidad adecuada al estado hemodinámico.",
+            "rationale": "Reemplaza el volumen perdido y previene hipovolemia."
+          },
+          {
+            "action": "Monitorear diuresis y registrar salida de orina cada hora.",
+            "rationale": "Indicador temprano de perfusión renal y balance de líquidos."
+          },
+          {
+            "action": "Obtener hemograma y pruebas de coagulación cada 4‑6 horas.",
+            "rationale": "Evalúa la pérdida sanguínea y la capacidad de coagulación."
+          },
+          {
+            "action": "Administrar transfusión de sangre según criterios de hemoglobina y signos clínicos.",
+            "rationale": "Restituye la masa roja y mejora la oxigenación tisular."
+          },
+          {
+            "action": "Educar a la paciente sobre la importancia de informar cualquier sangrado adicional.",
+            "rationale": "Facilita detección precoz de desequilibrio de líquidos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Obstetric trauma",
+    "aliases": [
+      "obstetric trauma",
+      "obstetric injury",
+      "birth injury",
+      "perinatal trauma"
+    ],
+    "summary": "Physical injury to the reproductive system or adjacent structures that occurs during labor, delivery, or the immediate postpartum period.",
+    "key_points": [
+      "Can be caused by shoulder dystocia, uterine rupture, or improper cord management.",
+      "Postpartum hemorrhage is the most common complication and threatens maternal life.",
+      "Rapid assessment of hemodynamic and fetal status is essential.",
+      "Pain control and hemodynamic stabilization are nursing priorities."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Compression or laceration of tissues during the baby's passage through the birth canal.",
+        "Rupture of uterine or placental vessels causes hemorrhage.",
+        "Damage to the pudendal nerve or sacral plexus results in neuropathic pain."
+      ],
+      "risk_factors": [
+        "Shoulder dystocia or podalic presentation.",
+        "Previous uterine rupture or cesarean scar.",
+        "Use of forceps or vacuum.",
+        "Precipitous or prolonged labor."
+      ],
+      "signs_symptoms": [
+        "Severe abdominal or perineal pain.",
+        "Excessive vaginal bleeding (>500 mL in vaginal delivery).",
+        "Maternal tachycardia and low blood pressure.",
+        "Changes in fetal heart rate (bradycardia or tachycardia)."
+      ],
+      "diagnostics": [
+        "Complete blood count: hemoglobin <10 g/dL indicates blood loss.",
+        "Coagulation: prothrombin time and fibrinogen to rule out DIC.",
+        "Obstetric ultrasound: evaluates retroplacental hemorrhage or uterine rupture.",
+        "Continuous fetal monitoring: deceleration patterns indicate compromise."
+      ],
+      "treatment": [
+        "Volume replacement with crystalloids (0.9% saline solution).",
+        "Red blood cell concentrate transfusion if Hb <7 g/dL.",
+        "Supplemental oxygen 2‑4 L/min via nasal cannula.",
+        "Uterotonics (oxytocin) to control uterine bleeding.",
+        "Emergency surgery (hysterectomy) if rupture is irreparable."
+      ],
+      "complications": [
+        "Hypovolemic shock.",
+        "Coagulopathy (DIC).",
+        "Postpartum infection.",
+        "Neurologic injury to the pudendal plexus."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 5‑15 min and record estimated blood loss.",
+        "Maintain a patent airway and administer oxygen as needed.",
+        "Monitor urine output; goal ≥0.5 mL/kg/h.",
+        "Apply external uterine compression and prepare uterotonic medication.",
+        "Collaborate with the surgical team for rapid transfer if intervention is required."
+      ],
+      "patient_teaching": [
+        "Explain the importance of reporting any bleeding or severe pain.",
+        "Teach breathing and relaxation techniques to reduce muscle tension.",
+        "Inform about signs of shock (pallor, sweating, dizziness) and when to seek help.",
+        "Emphasize the need for immediate medical assistance if membranes rupture or bleeding is heavy."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "postpartum hemorrhage",
+          "uterine rupture",
+          "shoulder dystocia",
+          "placental abruption",
+          "improper cord management"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Tissue integrity: no new injuries during hospitalization",
+          "Patient safety: absence of adverse events related to trauma"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs and blood loss every 15 minutes.",
+            "rationale": "Detect rapid hemodynamic deterioration and prevent shock."
+          },
+          {
+            "action": "Maintain a patent airway and administer supplemental oxygen.",
+            "rationale": "Ensures adequate oxygenation for mother and fetus."
+          },
+          {
+            "action": "Apply uterine compression and prepare uterotonics as ordered.",
+            "rationale": "Controls bleeding and reduces risk of further uterine injury."
+          },
+          {
+            "action": "Assist in preparation and transfer to the operating room if uterine rupture is suspected.",
+            "rationale": "Facilitates timely surgical intervention and reduces tissue damage."
+          },
+          {
+            "action": "Provide analgesia and comfort techniques (left lateral position, perineal massage).",
+            "rationale": "Reduces pain and stress response, promoting hemodynamic stability."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "postpartum hemorrhage",
+          "uterine rupture",
+          "vascular injuries",
+          "inadequate fluid administration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: stable body weight (+/- 0.5 kg) over 24 h",
+          "Tissue perfusion: blood pressure ≥90/60 mmHg and heart rate 80‑100 bpm"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate 0.9% saline infusion at a rate appropriate to hemodynamic status.",
+            "rationale": "Replaces lost volume and prevents hypovolemia."
+          },
+          {
+            "action": "Monitor urine output and record hourly urine output.",
+            "rationale": "Early indicator of renal perfusion and fluid balance."
+          },
+          {
+            "action": "Obtain CBC and coagulation tests every 4‑6 hours.",
+            "rationale": "Evaluates blood loss and clotting capacity."
+          },
+          {
+            "action": "Administer blood transfusion per hemoglobin criteria and clinical signs.",
+            "rationale": "Restores red cell mass and improves tissue oxygenation."
+          },
+          {
+            "action": "Educate the patient on the importance of reporting any additional bleeding.",
+            "rationale": "Facilitates early detection of fluid imbalance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "uterine-rupture",
+    "shoulder-dystocia",
+    "postpartum-hemorrhage",
+    "fetal-distress",
+    "disseminated-intravascular-coagulation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Childbirth Problems",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/childbirthproblems.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Obstetrical Emergencies",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/19-7-obstetrical-emergencies",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Nursing Care During the First Stage of Labor",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/18-1-nursing-care-during-the-first-stage-of-labor",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-13",
+  "factcheck": {
+    "checked": "2026-11-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 30,
+      "contradicted": 1,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The pregnant person can hemorrhage quickly, and the fetus can be deprived of oxygen.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Shoulder dystocia , when the baby's head comes out, but the shoulder gets stuck",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "It is seen more commonly in persons with a previous cesarean birth .",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Risk factors for uterine rupture are a history of a cesarean or other uterine surgery, uterine trauma, polyhydramnios , and prolonged labor.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Other signs could be late decelerations or prolonged decelerations and severe abdominal pain in the pregnant person.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "The condition associated with the coagulation cascade in which the body releases all of its clotting and anti-clotting factors, leading to massive hemorrhage and organ failure is disseminated intravascular coagulation (DIC) (Fox et al., 2019).",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "contradicted",
+        "quote": "Vital signs Every 1 hour Every 1 hour",
+        "source": 2
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Breathing techniques distract from pain, help in the relaxation of muscles in the pelvis to allow descent of the fetus, and maintain blood oxygen levels for the laboring person and fetus (Heim & Makuch, 2023).",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

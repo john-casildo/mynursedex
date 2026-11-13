@@ -1,0 +1,353 @@
+{
+  "id": "viral-gastroenteritis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Gastroenteritis viral (GV)",
+    "aliases": [
+      "gastroenteritis",
+      "viral",
+      "diarrea",
+      "vómitos",
+      "norovirus",
+      "rotavirus"
+    ],
+    "summary": "Inflamación aguda del estómago y los intestinos causada por virus como norovirus o rotavirus, que produce vómitos y diarrea.",
+    "key_points": [
+      "Es la causa más frecuente de gastroenteritis aguda.",
+      "Se transmite principalmente por vía fecal‑oral y por contacto cercano.",
+      "El principal riesgo es la deshidratación, especialmente en niños y ancianos.",
+      "El tratamiento se basa en la rehidratación oral o intravenosa; los antibióticos no son indicados.",
+      "Prevención mediante higiene de manos y manipulación segura de alimentos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El virus ingresa por vía oral y se adhiere a los enterocitos del intestino delgado.",
+        "Daña las microvellosidades, disminuyendo la absorción y aumentando la secreción de agua y electrolitos.",
+        "El daño epitelial estimula los reflejos de vómito y provoca diarrea acuosa.",
+        "La respuesta inmune local genera fiebre y malestar abdominal."
+      ],
+      "risk_factors": [
+        "Consumo de alimentos o agua contaminados.",
+        "Contacto cercano con personas infectadas.",
+        "Mala higiene de manos.",
+        "Viajes a áreas con brotes de norovirus o rotavirus.",
+        "Sistema inmune comprometido."
+      ],
+      "signs_symptoms": [
+        "Vómitos frecuentes.",
+        "Diarrea acuosa sin sangre.",
+        "Dolor o cólicos abdominales.",
+        "Fiebre leve (≤38.5 °C).",
+        "Signos de deshidratación (sed, piel seca)."
+      ],
+      "diagnostics": [
+        "Examen de heces: PCR para norovirus/rotavirus.",
+        "Cultivo de heces si se sospecha coinfección bacteriana.",
+        "Electrolitos séricos (Na, K, Cl) y glucosa.",
+        "Hemograma completo (puede mostrar leucocitosis leve).",
+        "Valoración de signos de deshidratación y balance hídrico."
+      ],
+      "treatment": [
+        "Reposición de líquidos con solución de rehidratación oral (SRO) según peso.",
+        "Vía intravenosa de cristaloides si la deshidratación es severa.",
+        "Antiemético (p. ej., ondansetrón) si el vómito impide la ingesta oral.",
+        "Probiotics pueden acortar la duración en niños.",
+        "Educación sobre higiene y prevención de transmisión."
+      ],
+      "complications": [
+        "Deshidratación grave con choque hipovolémico.",
+        "Desequilibrio electrolítico (hiponatremia, hipopotasemia).",
+        "Insuficiencia renal aguda.",
+        "Malnutrición por pérdida prolongada de líquidos y nutrientes."
+      ],
+      "nursing_care": [
+        "Evaluar signos de deshidratación cada 2‑4 h.",
+        "Monitorear ingesta y salida de líquidos; registrar peso diario.",
+        "Controlar signos vitales, especialmente frecuencia cardíaca y presión arterial.",
+        "Administrar SRO o fluidos IV según prescripción.",
+        "Mantener aislamiento de contacto y reforzar lavado de manos."
+      ],
+      "patient_teaching": [
+        "Lavado de manos con agua y jabón durante al menos 20 s después de usar el baño.",
+        "Evitar alimentos crudos o mal cocidos y agua no tratada.",
+        "Beber pequeñas cantidades de SRO frecuentemente.",
+        "Reconocer signos de deshidratación y buscar atención si empeoran.",
+        "Mantener la higiene de superficies y utensilios de cocina."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos frecuentes",
+          "Diarrea acuosa",
+          "Fiebre",
+          "Ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen de líquidos: ingesta ≥ 1500 mL/día en 24 h.",
+          "Peso corporal: sin pérdida >2 % en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada 2 h.",
+            "rationale": "Permite detectar déficit temprano y ajustar la reposición."
+          },
+          {
+            "action": "Ofrecer solución de rehidratación oral en pequeñas tomas frecuentes.",
+            "rationale": "Facilita la absorción y previene la deshidratación."
+          },
+          {
+            "action": "Enseñar al paciente la técnica correcta de lavado de manos.",
+            "rationale": "Reduce la transmisión y la recurrencia de la infección."
+          },
+          {
+            "action": "Colocar al paciente en posición semisentada para facilitar la tolerancia al oral.",
+            "rationale": "Disminuye el riesgo de aspiración y mejora el confort."
+          },
+          {
+            "action": "Monitorear signos vitales, especialmente frecuencia cardíaca y presión arterial.",
+            "rationale": "Detecta cambios hemodinámicos asociados al déficit de líquidos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Piel seca",
+          "Turgor disminuido",
+          "Taquicardia",
+          "Orina concentrada",
+          "Sed intensa"
+        ],
+        "outcomes": [
+          "Hidratación: signos de deshidratación resueltos en 24 h.",
+          "Electrolitos: Na 135‑145 mEq/L y K 3.5‑5.0 mEq/L dentro de rango normal."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar solución de rehidratación oral o IV según prescripción.",
+            "rationale": "Restablece el balance hídrico y corrige la hipovolemia."
+          },
+          {
+            "action": "Registrar peso cada 8 h para evaluar respuesta a la terapia.",
+            "rationale": "El aumento de peso indica retención de líquidos adecuada."
+          },
+          {
+            "action": "Controlar electrolitos séricos cada 12 h hasta normalización.",
+            "rationale": "Previene complicaciones de desequilibrio electrolítico."
+          },
+          {
+            "action": "Evaluar y documentar nivel de conciencia y nivel de actividad.",
+            "rationale": "Detecta deterioro neurológico por deshidratación."
+          },
+          {
+            "action": "Proveer alimentos blandos y bajos en fibra una vez tolerado el oral.",
+            "rationale": "Facilita la recuperación gastrointestinal sin sobrecargar el intestino."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Viral gastroenteritis (GV)",
+    "aliases": [
+      "gastroenteritis",
+      "viral",
+      "diarrhea",
+      "vomiting",
+      "norovirus",
+      "rotavirus"
+    ],
+    "summary": "Acute inflammation of the stomach and intestines caused by viruses such as norovirus or rotavirus, producing vomiting and diarrhea.",
+    "key_points": [
+      "It is the most common cause of acute gastroenteritis.",
+      "It is primarily transmitted via fecal‑oral route and close contact.",
+      "The main risk is dehydration, especially in children and the elderly.",
+      "Treatment is based on oral or intravenous rehydration; antibiotics are not indicated.",
+      "Prevention through hand hygiene and safe food handling."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The virus enters orally and adheres to enterocytes of the small intestine.",
+        "It damages microvilli, reducing absorption and increasing water and electrolyte secretion.",
+        "Epithelial damage stimulates vomiting reflexes and causes watery diarrhea.",
+        "Local immune response generates fever and abdominal discomfort."
+      ],
+      "risk_factors": [
+        "Consumption of contaminated food or water.",
+        "Close contact with infected persons.",
+        "Poor hand hygiene.",
+        "Travel to areas with norovirus or rotavirus outbreaks.",
+        "Compromised immune system."
+      ],
+      "signs_symptoms": [
+        "Frequent vomiting.",
+        "Watery diarrhea without blood.",
+        "Abdominal pain or cramps.",
+        "Mild fever (≤38.5 °C).",
+        "Signs of dehydration (thirst, dry skin)."
+      ],
+      "diagnostics": [
+        "Stool exam: PCR for norovirus/rotavirus.",
+        "Stool culture if bacterial coinfection suspected.",
+        "Serum electrolytes (Na, K, Cl) and glucose.",
+        "Complete blood count (may show mild leukocytosis).",
+        "Assessment of dehydration signs and fluid balance."
+      ],
+      "treatment": [
+        "Fluid replacement with oral rehydration solution (ORS) based on weight.",
+        "Intravenous crystalloids if dehydration is severe.",
+        "Antiemetic (e.g., ondansetron) if vomiting prevents oral intake.",
+        "Probiotics may shorten duration in children.",
+        "Education on hygiene and prevention of transmission."
+      ],
+      "complications": [
+        "Severe dehydration with hypovolemic shock.",
+        "Electrolyte imbalance (hyponatremia, hypokalemia).",
+        "Acute kidney injury.",
+        "Malnutrition from prolonged fluid and nutrient loss."
+      ],
+      "nursing_care": [
+        "Assess dehydration signs every 2‑4 h.",
+        "Monitor intake and output; record daily weight.",
+        "Check vital signs, especially heart rate and blood pressure.",
+        "Administer ORS or IV fluids per order.",
+        "Maintain contact isolation and reinforce hand washing."
+      ],
+      "patient_teaching": [
+        "Wash hands with soap and water for at least 20 s after using the bathroom.",
+        "Avoid raw or undercooked foods and untreated water.",
+        "Drink small amounts of ORS frequently.",
+        "Recognize dehydration signs and seek care if they worsen.",
+        "Maintain cleanliness of surfaces and kitchen utensils."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Frequent vomiting",
+          "Watery diarrhea",
+          "Fever",
+          "Inadequate fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid volume: intake ≥ 1500 mL/day in 24 h.",
+          "Body weight: no loss >2 % in 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output every 2 h.",
+            "rationale": "Allows early detection of deficit and adjustment of replacement."
+          },
+          {
+            "action": "Offer oral rehydration solution in small frequent doses.",
+            "rationale": "Facilitates absorption and prevents dehydration."
+          },
+          {
+            "action": "Teach the patient proper hand‑washing technique.",
+            "rationale": "Reduces transmission and recurrence of infection."
+          },
+          {
+            "action": "Position the patient semi‑upright to facilitate oral tolerance.",
+            "rationale": "Reduces aspiration risk and improves comfort."
+          },
+          {
+            "action": "Monitor vital signs, especially heart rate and blood pressure.",
+            "rationale": "Detects hemodynamic changes associated with fluid deficit."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Dry skin",
+          "Reduced turgor",
+          "Tachycardia",
+          "Concentrated urine",
+          "Intense thirst"
+        ],
+        "outcomes": [
+          "Hydration: dehydration signs resolved in 24 h.",
+          "Electrolytes: Na 135‑145 mEq/L and K 3.5‑5.0 mEq/L within normal range."
+        ],
+        "interventions": [
+          {
+            "action": "Administer oral or IV rehydration solution per order.",
+            "rationale": "Restores fluid balance and corrects hypovolemia."
+          },
+          {
+            "action": "Record weight every 8 h to assess response to therapy.",
+            "rationale": "Weight gain indicates adequate fluid retention."
+          },
+          {
+            "action": "Check serum electrolytes every 12 h until normal.",
+            "rationale": "Prevents complications of electrolyte imbalance."
+          },
+          {
+            "action": "Assess and document level of consciousness and activity level.",
+            "rationale": "Detects neurological deterioration from dehydration."
+          },
+          {
+            "action": "Provide bland, low‑fiber foods once oral intake is tolerated.",
+            "rationale": "Facilitates gastrointestinal recovery without overloading the gut."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dehydration",
+    "norovirus",
+    "rotavirus",
+    "fecal-oral-transmission",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Gastroenteritis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/gastroenteritis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Gastroenteritis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/gastroenteritis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Viral and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-2-viral-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to HIV, AIDS, and Antiretrovirals",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-3-introduction-to-hiv-aids-and-antiretrovirals",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-13"
+}

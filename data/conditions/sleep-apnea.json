@@ -1,0 +1,495 @@
+{
+  "id": "sleep-apnea",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Apnea del sueño (AS)",
+    "aliases": [
+      "apnea",
+      "apnea del sueño",
+      "apnea obstructiva",
+      "as"
+    ],
+    "summary": "Trastorno respiratorio caracterizado por interrupciones repetidas de la respiración durante el sueño, que provocan hipoxemia y sueño fragmentado.",
+    "key_points": [
+      "Obstrucción de la vía aérea superior es la causa principal de la apnea obstructiva.",
+      "El índice de apnea‑hipopnea (IAH) >5 eventos/hora confirma el diagnóstico.",
+      "CPAP es el tratamiento de primera línea para la mayoría de los adultos.",
+      "Complicaciones incluyen hipertensión, enfermedad cardiovascular y somnolencia diurna.",
+      "La pérdida de peso y la higiene del sueño mejoran significativamente los síntomas."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Colapso de la vía aérea superior durante la fase de sueño REM.",
+        "Interrupción del flujo de aire produce hipoxemia y aumento de CO₂.",
+        "Despertar breve (arousal) restaura la respiración pero fragmenta el sueño.",
+        "Repetidos ciclos generan estrés simpático y elevación de la presión arterial."
+      ],
+      "risk_factors": [
+        "Sobrepeso/obesidad (IMC >30 kg/m²).",
+        "Sexo masculino y edad adulta.",
+        "Historia familiar de apnea del sueño.",
+        "Vías aéreas estrechas: amígdalas/adenóides agrandadas en niños."
+      ],
+      "signs_symptoms": [
+        "Ronquido fuerte y persistente.",
+        "Pausas respiratorias observadas por el acompañante.",
+        "Somnolencia diurna, fatiga y dificultad de concentración.",
+        "Cefalea matutina y boca seca al despertar."
+      ],
+      "diagnostics": [
+        "Polisomnografía completa: IAH >5 eventos/hora confirma apnea.",
+        "Oximetría nocturna: desaturaciones <90 % repetidas.",
+        "Escala de Epworth de somnolencia diurna: puntuación >10 indica somnolencia excesiva."
+      ],
+      "treatment": [
+        "Cambios de estilo de vida: pérdida de peso, evitar alcohol y sedantes.",
+        "CPAP (presión positiva continua en las vías respiratorias).",
+        "Dispositivo de avance mandibular para casos leves‑moderados.",
+        "Cirugía de vía aérea (uvulopalatofaringoplastia) cuando otras medidas fallan."
+      ],
+      "complications": [
+        "Hipertensión arterial y enfermedad cardiovascular.",
+        "Arritmias y accidente cerebrovascular.",
+        "Diabetes tipo 2.",
+        "Accidentes de tránsito y laborales por somnolencia."
+      ],
+      "nursing_care": [
+        "Evaluar patrón respiratorio y saturación O₂ durante la noche.",
+        "Enseñar uso correcto y mantenimiento del CPAP.",
+        "Posicionar al paciente en decúbito lateral si no usa CPAP.",
+        "Registrar episodios de apnea y somnolencia diurna.",
+        "Monitorear presión arterial y glucemia según riesgo cardiovascular."
+      ],
+      "patient_teaching": [
+        "Importancia de la adherencia al CPAP (≥4 h/noche).",
+        "Higiene del sueño: horarios regulares, ambiente oscuro y sin dispositivos electrónicos.",
+        "Dieta balanceada y ejercicio para reducir peso.",
+        "Evitar alcohol y sedantes antes de acostarse."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Patrón respiratorio ineficaz",
+        "type": "actual",
+        "related_to": [
+          "obstrucción de vía aérea",
+          "sobrepeso",
+          "apnea obstructiva"
+        ],
+        "evidenced_by": [
+          "ronquido fuerte",
+          "pausas respiratorias observadas",
+          "somnolencia diurna",
+          "desaturaciones O₂ <90 % nocturnas"
+        ],
+        "outcomes": [
+          "Patrón respiratorio eficaz: mantener saturación O₂ ≥92 % durante el sueño.",
+          "Reducción de episodios de apnea a <5 eventos/hora en la polisomnografía de seguimiento."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear saturación de oxígeno nocturna con pulsioxímetro.",
+            "rationale": "Detecta hipoxemia y permite evaluar la efectividad del CPAP."
+          },
+          {
+            "action": "Enseñar al paciente la colocación y ajuste del CPAP.",
+            "rationale": "Mejora la adherencia y reduce los episodios de apnea."
+          },
+          {
+            "action": "Posicionar al paciente en decúbito lateral si no usa CPAP.",
+            "rationale": "Reduce la colapsabilidad de la vía aérea superior."
+          },
+          {
+            "action": "Registrar número de despertares y episodios de apnea cada turno.",
+            "rationale": "Proporciona datos objetivos para el equipo de salud."
+          },
+          {
+            "action": "Evaluar presión arterial y frecuencia cardíaca cada 8 h.",
+            "rationale": "Identifica complicaciones cardiovasculares asociadas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "fragmentación del sueño",
+          "hipoxemia nocturna"
+        ],
+        "evidenced_by": [
+          "somnolencia diurna",
+          "disminución de energía",
+          "dificultad para concentrarse"
+        ],
+        "outcomes": [
+          "Nivel de energía: reportar ≥7/10 en escala de energía al final del día.",
+          "Somnolencia diurna: reducir episodios de sueño involuntario a <1 por día."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y somnolencia usando la escala de Epworth.",
+            "rationale": "Establece línea base y permite medir progreso."
+          },
+          {
+            "action": "Planificar descansos cortos de 10‑15 min cada 2 h de actividad.",
+            "rationale": "Previene agotamiento y mejora la concentración."
+          },
+          {
+            "action": "Reforzar educación sobre higiene del sueño y uso del CPAP.",
+            "rationale": "Mejora la calidad del sueño y reduce la fatiga diurna."
+          },
+          {
+            "action": "Coordinar con nutricionista para plan de pérdida de peso.",
+            "rationale": "Reducción de peso disminuye la gravedad de la apnea."
+          },
+          {
+            "action": "Fomentar actividad física moderada (30 min/día).",
+            "rationale": "Aumenta energía y contribuye al control del peso."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Sleep apnea (SA)",
+    "aliases": [
+      "apnea",
+      "sleep apnea",
+      "obstructive sleep apnea",
+      "sa"
+    ],
+    "summary": "Respiratory disorder characterized by repeated interruptions of breathing during sleep, causing hypoxemia and fragmented sleep.",
+    "key_points": [
+      "Upper airway obstruction is the primary cause of obstructive sleep apnea.",
+      "An apnea-hypopnea index (AHI) >5 events/hour confirms the diagnosis.",
+      "CPAP is first-line treatment for most adults.",
+      "Complications include hypertension, cardiovascular disease, and daytime sleepiness.",
+      "Weight loss and sleep hygiene significantly improve symptoms."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Upper airway collapse during REM sleep.",
+        "Airflow interruption produces hypoxemia and increased CO₂.",
+        "Brief arousals restore breathing but fragment sleep.",
+        "Repeated cycles generate sympathetic stress and elevated blood pressure."
+      ],
+      "risk_factors": [
+        "Overweight/obesity (BMI >30 kg/m²).",
+        "Male sex and adulthood.",
+        "Family history of sleep apnea.",
+        "Narrow airways: enlarged tonsils/adenoids in children."
+      ],
+      "signs_symptoms": [
+        "Strong, persistent snoring.",
+        "Observed breathing pauses by a partner.",
+        "Daytime sleepiness, fatigue, and concentration difficulty.",
+        "Morning headache and dry mouth upon awakening."
+      ],
+      "diagnostics": [
+        "Full polysomnography: AHI >5 events/hour confirms apnea.",
+        "Nocturnal pulse oximetry: desaturations <90 % repeated.",
+        "Epworth Sleepiness Scale: score >10 indicates excessive sleepiness."
+      ],
+      "treatment": [
+        "Lifestyle changes: weight loss, avoid alcohol and sedatives.",
+        "CPAP (continuous positive airway pressure).",
+        "Mandibular advancement device for mild‑moderate cases.",
+        "Airway surgery (uvulopalatopharyngoplasty) when other measures fail."
+      ],
+      "complications": [
+        "Hypertension and cardiovascular disease.",
+        "Arrhythmias and stroke.",
+        "Type 2 diabetes.",
+        "Road and workplace accidents due to sleepiness."
+      ],
+      "nursing_care": [
+        "Assess respiratory pattern and O₂ saturation during the night.",
+        "Teach proper use and maintenance of CPAP.",
+        "Position patient on lateral decubitus if not using CPAP.",
+        "Document apnea episodes and daytime sleepiness.",
+        "Monitor blood pressure and glucose per cardiovascular risk."
+      ],
+      "patient_teaching": [
+        "Importance of CPAP adherence (≥4 h/night).",
+        "Sleep hygiene: regular schedule, dark environment, no electronic devices.",
+        "Balanced diet and exercise to reduce weight.",
+        "Avoid alcohol and sedatives before bedtime."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ineffective breathing pattern",
+        "type": "actual",
+        "related_to": [
+          "airway obstruction",
+          "overweight",
+          "obstructive sleep apnea"
+        ],
+        "evidenced_by": [
+          "strong snoring",
+          "observed breathing pauses",
+          "daytime sleepiness",
+          "O₂ desaturations <90 % at night"
+        ],
+        "outcomes": [
+          "Effective respiratory pattern: maintain O₂ saturation ≥92 % during sleep.",
+          "Reduction of apnea episodes to <5 events/hour on follow-up polysomnography."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor nocturnal oxygen saturation with pulse oximeter.",
+            "rationale": "Detects hypoxemia and allows evaluation of CPAP effectiveness."
+          },
+          {
+            "action": "Teach patient placement and adjustment of CPAP.",
+            "rationale": "Improves adherence and reduces apnea episodes."
+          },
+          {
+            "action": "Position patient on lateral decubitus if not using CPAP.",
+            "rationale": "Reduces upper airway collapsibility."
+          },
+          {
+            "action": "Record number of awakenings and apnea episodes each shift.",
+            "rationale": "Provides objective data for the health team."
+          },
+          {
+            "action": "Assess blood pressure and heart rate every 8 h.",
+            "rationale": "Identifies associated cardiovascular complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "sleep fragmentation",
+          "nighttime hypoxemia"
+        ],
+        "evidenced_by": [
+          "daytime sleepiness",
+          "decreased energy",
+          "difficulty concentrating"
+        ],
+        "outcomes": [
+          "Energy level: report ≥7/10 on energy scale at end of day.",
+          "Daytime sleepiness: reduce involuntary sleep episodes to <1 per day."
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and sleepiness using the Epworth Scale.",
+            "rationale": "Establishes baseline and allows measurement of progress."
+          },
+          {
+            "action": "Plan short 10‑15 min breaks every 2 h of activity.",
+            "rationale": "Prevents exhaustion and improves concentration."
+          },
+          {
+            "action": "Reinforce education on sleep hygiene and CPAP use.",
+            "rationale": "Improves sleep quality and reduces daytime fatigue."
+          },
+          {
+            "action": "Coordinate with nutritionist for weight loss plan.",
+            "rationale": "Weight reduction decreases apnea severity."
+          },
+          {
+            "action": "Encourage moderate physical activity (30 min/day).",
+            "rationale": "Increases energy and contributes to weight control."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "obstructive-sleep-apnea",
+    "hypertension",
+    "cardiovascular-disease",
+    "diabetes-mellitus",
+    "daytime-sleepiness"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Sleep Apnea",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/sleepapnea.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Apnea del sueño",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/sleepapnea.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Sleep and Rest",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/28-2-factors-affecting-sleep-and-rest",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Concepts of Sleep and Rest",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/28-1-concepts-of-sleep-and-rest",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-13",
+  "factcheck": {
+    "checked": "2026-11-13",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "It causes your airway to collapse or become blocked during sleep.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "You are more at risk for sleep apnea if you are overweight, male, or have a family history or small airways.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "You are more at risk for sleep apnea if you are overweight, male, or have a family history or small airways.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Children with enlarged tonsils or adenoids may also get it.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "People with sleep apnea often snore loudly.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Sleep apnea is a common disorder that causes your breathing to stop or get very shallow.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "CPAP (Continuous Positive Airway Pressure) (National Heart, Lung, and Blood Institute) Also in Spanish",
+        "source": 0
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "The risk for developing certain disorders, such as hypertension, coronary artery disease, diabetes mellitus, cancer, depression, and anxiety, is higher for those who experience chronic insomnia.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "People with sleep apnea are at higher risk for car crashes, work-related accidents, and other medical problems.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "A sleep study, or polysomnography , involves results of assorted physiologic monitors, including EEG, electrocardiogram (ECG), electrooculogram (EOG), electromyogram (EMG), and oxygen saturation (SaO 2 ).",
+        "source": 3
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Recommendations are to limit alcohol to one or two drinks around the evening meal, then to avoid alcohol for three or four hours prior to bedtime (Krans, 2019; Spadola et al. 2019).",
+        "source": 2
+      }
+    }
+  }
+}
