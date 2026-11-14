@@ -1,0 +1,554 @@
+{
+  "id": "congestive-heart-failure",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia cardíaca congestiva (ICC)",
+    "aliases": [
+      "insuficiencia cardiaca",
+      "ic",
+      "insuficiencia",
+      "congestiva",
+      "falla cardiaca"
+    ],
+    "summary": "La ICC es la incapacidad del corazón para bombear suficiente sangre oxigenada para satisfacer las demandas del organismo.",
+    "key_points": [
+      "Disminución del gasto cardíaco por disfunción ventricular izquierda o derecha.",
+      "Retención de líquidos produce edema periférico y pulmonar.",
+      "BNP >100 pg/mL y fracción de eyección <40% confirman el diagnóstico.",
+      "Tratamiento de primera línea: IECA, betabloqueador y diurético de asa.",
+      "Control estricto de sodio (<2 g/día) y monitoreo de peso diario son esenciales."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La disfunción ventricular reduce la fracción de eyección y el gasto cardíaco.",
+        "Aumento del volumen end-diastólico eleva la presión de llenado y provoca congestión.",
+        "Activación neurohormonal (RAAS, SNS) genera vasoconstricción y retención de sodio.",
+        "Retención de líquidos lleva a edema pulmonar y periférico."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Enfermedad coronaria y antecedentes de infarto.",
+        "Cardiomiopatía dilatada o hipertrófica.",
+        "Diabetes mellitus tipo 2.",
+        "Consumo excesivo de alcohol y tabaquismo."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo y ortopnea.",
+        "Edema bilateral de tobillos y sacro.",
+        "Fatiga y disminución de la tolerancia a la actividad.",
+        "Tos seca, a veces con esputo rosado.",
+        "Aumento de peso rápido (>2 kg en una semana)."
+      ],
+      "diagnostics": [
+        "ECG: hipertrofia ventricular izquierda o arritmias.",
+        "Ecocardiograma: fracción de eyección <40% y dilatación ventricular.",
+        "BNP o NT‑proBNP elevado (>100 pg/mL).",
+        "Radiografía de tórax: cardiomegalia y líneas Kerley B.",
+        "Laboratorio: creatinina, electrolitos, hemoglobina; monitorizar función renal."
+      ],
+      "treatment": [
+        "IECA (ej. enalapril) para bloquear RAAS.",
+        "Betabloqueador (ej. carvedilol) para reducir la frecuencia cardíaca.",
+        "Diurético de asa (furosemida) para eliminar exceso de líquido.",
+        "Antagonista de aldosterona (espironolactona) en fase crónica.",
+        "Restricción de sodio (<2 g/día) y control de ingesta hídrica.",
+        "Oxígeno suplementario si saturación <90%."
+      ],
+      "complications": [
+        "Edema pulmonar agudo y síndrome de dificultad respiratoria.",
+        "Insuficiencia renal por bajo flujo renal.",
+        "Arritmias ventriculares y fibrilación auricular.",
+        "Tromboembolismo venoso y embolia pulmonar.",
+        "Caquexia y pérdida de masa muscular."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales, presión arterial, frecuencia cardíaca y saturación O₂ cada 4 h.",
+        "Registrar peso diario y balance hídrico estricto.",
+        "Auscultar campos pulmonares para detectar crepitantes.",
+        "Evaluar edema (pitting) y medir circunferencia de tobillos.",
+        "Administrar diuréticos según orden y observar respuesta urinaria.",
+        "Priorizar educación sobre dieta baja en sodio y adherencia a medicación."
+      ],
+      "patient_teaching": [
+        "Tomar los medicamentos exactamente como se prescriben.",
+        "Limitar el consumo de sal a menos de 2 g al día y evitar alimentos procesados.",
+        "Controlar el peso diariamente; reportar aumento >2 kg en 24 h.",
+        "Realizar actividad física ligera (caminar 30 min) según tolerancia.",
+        "Reconocer signos de descompensación: disnea creciente, edema, tos con esputo rosado."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "disfunción ventricular izquierda",
+          "activación neurohormonal",
+          "retención de líquidos"
+        ],
+        "evidenced_by": [
+          "disnea de esfuerzo",
+          "fatiga",
+          "edema periférico",
+          "fracción de eyección <40%"
+        ],
+        "outcomes": [
+          "Gasto cardíaco: mantener CO ≥ 5 L/min en 48 h",
+          "Oxigenación: saturación O₂ ≥ 95% en reposo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales y saturación O₂ cada 4 h",
+            "rationale": "Detectar deterioro hemodinámico temprano."
+          },
+          {
+            "action": "Administrar diurético de asa según prescripción y registrar volumen urinario",
+            "rationale": "Reducir la sobrecarga de volumen y mejorar la perfusión."
+          },
+          {
+            "action": "Monitorear peso diario y balance hídrico",
+            "rationale": "Identificar retención de líquidos antes de que se manifieste clínicamente."
+          },
+          {
+            "action": "Educar al paciente sobre dieta baja en sodio y control de ingesta hídrica",
+            "rationale": "Disminuir la activación del RAAS y la carga de trabajo del corazón."
+          },
+          {
+            "action": "Colaborar con el médico para iniciar o ajustar IECA y betabloqueador",
+            "rationale": "Mejorar la contractilidad y reducir la postcarga."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hipertensión crónica",
+          "insuficiencia cardíaca congestiva",
+          "retención de sodio",
+          "uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos equilibradas en 24 h",
+          "Edema: ausencia de aumento de edema periférico durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h",
+            "rationale": "Detectar desviaciones del balance y prevenir sobrecarga o déficit."
+          },
+          {
+            "action": "Evaluar edema (pitting) y circunferencia de extremidades diariamente",
+            "rationale": "Monitorear la acumulación de líquido intersticial."
+          },
+          {
+            "action": "Ajustar restricción de sodio a <2 g/día y educar al paciente",
+            "rationale": "Reducir la retención de agua mediada por el sodio."
+          },
+          {
+            "action": "Revisar resultados de laboratorio (electrolitos, creatinina) cada 48 h",
+            "rationale": "Identificar desequilibrios que puedan requerir intervención."
+          },
+          {
+            "action": "Colaborar con el equipo para modificar la terapia diurética según respuesta clínica",
+            "rationale": "Optimizar la eliminación de exceso de líquido sin causar hipovolemia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Congestive heart failure (CHF)",
+    "aliases": [
+      "heart failure",
+      "chf",
+      "congestive",
+      "cardiac failure"
+    ],
+    "summary": "CHF is the inability of the heart to pump enough oxygenated blood to meet the body's demands.",
+    "key_points": [
+      "Reduced cardiac output due to left or right ventricular dysfunction.",
+      "Fluid retention causes peripheral and pulmonary edema.",
+      "BNP >100 pg/mL and ejection fraction <40% confirm the diagnosis.",
+      "First‑line treatment: ACE inhibitor, beta‑blocker, and loop diuretic.",
+      "Strict sodium control (<2 g/day) and daily weight monitoring are essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ventricular dysfunction lowers ejection fraction and cardiac output.",
+        "Increased end‑diastolic volume raises filling pressure and causes congestion.",
+        "Neurohormonal activation (RAAS, SNS) induces vasoconstriction and sodium retention.",
+        "Fluid retention leads to pulmonary and peripheral edema."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Coronary artery disease and history of myocardial infarction.",
+        "Dilated or hypertrophic cardiomyopathy.",
+        "Type 2 diabetes mellitus.",
+        "Excessive alcohol consumption and smoking."
+      ],
+      "signs_symptoms": [
+        "Exertional dyspnea and orthopnea.",
+        "Bilateral ankle and sacral edema.",
+        "Fatigue and decreased activity tolerance.",
+        "Dry cough, sometimes with pink sputum.",
+        "Rapid weight gain (>2 kg in one week)."
+      ],
+      "diagnostics": [
+        "ECG: left ventricular hypertrophy or arrhythmias.",
+        "Echocardiogram: ejection fraction <40% and ventricular dilation.",
+        "BNP or NT‑proBNP elevated (>100 pg/mL).",
+        "Chest X‑ray: cardiomegaly and Kerley B lines.",
+        "Laboratory: creatinine, electrolytes, hemoglobin; monitor renal function."
+      ],
+      "treatment": [
+        "ACE inhibitor (e.g., enalapril) to block RAAS.",
+        "Beta‑blocker (e.g., carvedilol) to reduce heart rate.",
+        "Loop diuretic (furosemide) to eliminate excess fluid.",
+        "Mineralocorticoid antagonist (spironolactone) in chronic phase.",
+        "Sodium restriction (<2 g/day) and fluid intake control.",
+        "Supplemental oxygen if saturation <90%."
+      ],
+      "complications": [
+        "Acute pulmonary edema and respiratory distress syndrome.",
+        "Renal failure from low renal perfusion.",
+        "Ventricular arrhythmias and atrial fibrillation.",
+        "Venous thromboembolism and pulmonary embolism.",
+        "Cachexia and muscle mass loss."
+      ],
+      "nursing_care": [
+        "Monitor vital signs, blood pressure, heart rate, and O₂ saturation every 4 h.",
+        "Record daily weight and strict fluid balance.",
+        "Auscultate lung fields for crackles.",
+        "Assess edema (pitting) and measure ankle circumference.",
+        "Administer diuretics as ordered and observe urine output.",
+        "Prioritize education on low‑sodium diet and medication adherence."
+      ],
+      "patient_teaching": [
+        "Take medications exactly as prescribed.",
+        "Limit salt intake to less than 2 g per day and avoid processed foods.",
+        "Check weight daily; report an increase >2 kg in 24 h.",
+        "Engage in light physical activity (walk 30 min) as tolerated.",
+        "Recognize signs of decompensation: increasing dyspnea, edema, cough with pink sputum."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "left ventricular dysfunction",
+          "neurohormonal activation",
+          "fluid retention"
+        ],
+        "evidenced_by": [
+          "exertional dyspnea",
+          "fatigue",
+          "peripheral edema",
+          "ejection fraction <40%"
+        ],
+        "outcomes": [
+          "Cardiac output: maintain CO ≥ 5 L/min within 48 h",
+          "Oxygenation: O₂ saturation ≥ 95% at rest"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs and O₂ saturation every 4 h",
+            "rationale": "Detect early hemodynamic deterioration."
+          },
+          {
+            "action": "Administer loop diuretic as prescribed and record urine volume",
+            "rationale": "Reduce volume overload and improve perfusion."
+          },
+          {
+            "action": "Monitor daily weight and fluid balance",
+            "rationale": "Identify fluid retention before clinical manifestation."
+          },
+          {
+            "action": "Educate patient on low‑sodium diet and fluid intake control",
+            "rationale": "Decrease RAAS activation and cardiac workload."
+          },
+          {
+            "action": "Collaborate with physician to initiate or adjust ACE inhibitor and beta‑blocker",
+            "rationale": "Improve contractility and reduce afterload."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "chronic hypertension",
+          "congestive heart failure",
+          "sodium retention",
+          "diuretic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output equal within 24 h",
+          "Edema: no increase in peripheral edema during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 8 h",
+            "rationale": "Detect deviations in balance and prevent overload or deficit."
+          },
+          {
+            "action": "Assess edema (pitting) and limb circumference daily",
+            "rationale": "Monitor interstitial fluid accumulation."
+          },
+          {
+            "action": "Adjust sodium restriction to <2 g/day and educate patient",
+            "rationale": "Reduce sodium‑mediated water retention."
+          },
+          {
+            "action": "Review laboratory results (electrolytes, creatinine) every 48 h",
+            "rationale": "Identify imbalances that may require intervention."
+          },
+          {
+            "action": "Collaborate with team to modify diuretic therapy based on clinical response",
+            "rationale": "Optimize excess fluid removal without causing hypovolemia."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heart-failure",
+    "fluid-overload",
+    "pulmonary-edema",
+    "reduced-ejection-fraction",
+    "cardiac-remodeling"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Heart Failure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-1-heart-failure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Heart Failure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-14",
+  "factcheck": {
+    "checked": "2026-11-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 20,
+      "not_found": 24,
+      "contradicted": 3,
+      "total": 47
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Heart failure means that your heart can't pump enough oxygen-rich blood to meet your body's needs.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Heart failure is a result of ventricular dysfunction; something has affected ventricular preload or contractility in such a way that the ventricle is no longer able to expel blood effectively (Malik et al., 2022).",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Diets high in sodium increase fluid retention, as water molecules follow sodium molecules into the vascular space and can leak into the interstitial tissue, creating edema.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Fluid buildup and reduced blood flow to your organs can lead to serious problems, including: Breathing problems from fluid in and around your lungs (also called congestive heart failure)",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "The most common causes of HFrEF are coronary artery disease, acute myocardial infarction, and prolonged hypertension."
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "There are multiple causes of HFrEF, including coronary artery disease and acute myocardial infarction (AMI).",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Both can cause heart failure exacerbations.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Patients may allude to difficulty sleeping due to struggles with breathing while lying flat, also called orthopnea .",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Clients with heart failure often experience shortness of breath and fatigue with exercise; however, they should be encouraged to exercise as much as they are able.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "contradicted",
+        "quote": "Other assessment findings may be a frothy pink sputum or a productive wet cough.",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "contradicted",
+        "quote": "Clients should notify their health care provider if they gain 2–3 pounds in one day or 5 pounds in one week or if they notice increased swelling in their extremities, difficulty breathing, and/or chest pain.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Normal levels of BNP should be less than 100 pg/mL, and may increase slightly due to age, but assessing levels along with the clinical presentations assists the nurse to evaluate the patient’s response to treatment.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "supported",
+        "quote": "Electrolyte panels assist with providing baseline serum potassium and serum and creatinine to consider if there is renal insufficiency.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Enalapril 2.5/5/10/20 mg per day",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Beta-blockers are utilized to reduce myocardial oxygen demand, vasodilate, and reduce heart rate.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Considered preload reducers, potent diuretics such as furosemide work on the loop of Henle and increase fluid excretion.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "contradicted",
+        "quote": "Putting the patient in high Fowlers will alleviate dyspnea, and ordered supplemental oxygen may be necessary to maintain oxygen saturations greater than 92 percent.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "The patient’s response to diuretic therapy is monitored by daily weights, adhering to strict intake and output.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "A lung assessment may reveal crackles in the pulmonary bases.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "The patient’s response to diuretic therapy is monitored by daily weights, adhering to strict intake and output.",
+        "source": 2
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "HF requires continued maintenance of medication adherence, modifiable risk factor management, and self-monitoring of disease.",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Take heart failure medications as prescribed by their health care provider.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "The classic presentation of HF includes lower extremity edema, weight gain, cough, sputum production, and alterations in hemodynamics.",
+        "source": 2
+      }
+    }
+  }
+}

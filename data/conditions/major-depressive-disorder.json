@@ -1,0 +1,538 @@
+{
+  "id": "major-depressive-disorder",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trastorno depresivo mayor (TDM)",
+    "aliases": [
+      "depresión",
+      "depresivo mayor",
+      "trastorno depresivo",
+      "tdm",
+      "depresión mayor"
+    ],
+    "summary": "Trastorno del estado de ánimo caracterizado por humor deprimido y pérdida de interés que persiste ≥2 semanas y afecta la funcionalidad.",
+    "key_points": [
+      "Diagnóstico según criterios DSM‑5: ≥5 síntomas durante 2 semanas.",
+      "Desequilibrio de serotonina, norepinefrina y dopamina; hiperactividad del eje HPA.",
+      "Factores de riesgo: genéticos, estrés crónico, enfermedades médicas y aislamiento.",
+      "Tratamiento multimodal: ISRS, terapia cognitivo‑conductual y apoyo psicosocial.",
+      "Monitoreo de ideación suicida es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución de serotonina, norepinefrina y dopamina en sinapsis cerebrales.",
+        "Hiperactividad del eje hipotálamo‑hipófiso‑suprarrenal aumenta cortisol.",
+        "Reducción de neuroplasticidad y volumen del hipocampo.",
+        "Interacción de genes (5‑HTTLPR) con eventos estresantes."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de depresión.",
+        "Eventos vitales estresantes (pérdida, divorcio, desempleo).",
+        "Enfermedades crónicas (diabetes, enfermedad cardiovascular).",
+        "Abuso de sustancias y consumo de alcohol.",
+        "Aislamiento social y falta de apoyo."
+      ],
+      "signs_symptoms": [
+        "Ánimo deprimido la mayor parte del día.",
+        "Anhedonia o pérdida de interés en actividades.",
+        "Cambios en apetito o peso (±5% en 2 semanas).",
+        "Insomnio o hipersomnia persistente.",
+        "Fatiga, sentimientos de culpa o inutilidad.",
+        "Ideas suicidas o pensamientos de muerte."
+      ],
+      "diagnostics": [
+        "Criterios DSM‑5 (≥5 síntomas ≥2 semanas).",
+        "PHQ‑9 ≥10 sugiere depresión moderada‑grave.",
+        "Exámenes de laboratorio para descartar causas médicas: TSH, glucosa, CBC.",
+        "Evaluación psiquiátrica completa."
+      ],
+      "treatment": [
+        "Inhibidores selectivos de la recaptación de serotonina (ISRS) como fluoxetina, sertralina.",
+        "Terapia cognitivo‑conductual (TCC) o terapia interpersonal.",
+        "Educación sobre adherencia y efectos secundarios.",
+        "Apoyo psicosocial y grupos de auto‑ayuda.",
+        "Seguimiento regular para ajustar medicación."
+      ],
+      "complications": [
+        "Ideación suicida y conductas autolesivas.",
+        "Abuso de alcohol o drogas como automedicación.",
+        "Deterioro funcional y laboral.",
+        "Empeoramiento de comorbilidades médicas.",
+        "Aislamiento social prolongado."
+      ],
+      "nursing_care": [
+        "Evaluar estado mental y escala de depresión (PHQ‑9).",
+        "Monitorear ideación suicida y plan de seguridad.",
+        "Proveer escucha activa y apoyo emocional.",
+        "Observar efectos adversos de ISRS (náuseas, insomnio).",
+        "Coordinar con psiquiatra y equipo de salud mental."
+      ],
+      "patient_teaching": [
+        "Importancia de tomar la medicación según prescripción.",
+        "Efectos secundarios comunes y cuándo reportarlos.",
+        "Beneficios de la terapia y participación activa.",
+        "Señales de alerta: aumento de tristeza, pensamientos suicidas.",
+        "Promover hábitos de sueño, ejercicio y alimentación equilibrada."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ansiedad",
+        "type": "actual",
+        "related_to": [
+          "situación estresante",
+          "incertidumbre laboral",
+          "falta de apoyo social"
+        ],
+        "evidenced_by": [
+          "inquietud",
+          "tensión muscular",
+          "pensamientos catastróficos",
+          "dificultad para concentrarse"
+        ],
+        "outcomes": [
+          "Reducción de la ansiedad: escala de ansiedad ≤ 5 en 2 semanas",
+          "Mejora del sueño: dormir ≥ 6 horas nocturnas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de ansiedad con escala de Hamilton o GAD‑7.",
+            "rationale": "Permite cuantificar la ansiedad y medir la respuesta al tratamiento."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y relajación muscular progresiva.",
+            "rationale": "Reduce la activación fisiológica asociada a la ansiedad."
+          },
+          {
+            "action": "Facilitar expresión verbal de preocupaciones en sesiones de apoyo.",
+            "rationale": "Disminuye la rumiación y promueve el afrontamiento activo."
+          },
+          {
+            "action": "Coordinar con el médico para ajustar ISRS si la ansiedad persiste.",
+            "rationale": "Optimiza el control farmacológico de los síntomas ansiosos."
+          },
+          {
+            "action": "Promover actividades estructuradas y ejercicio moderado diario.",
+            "rationale": "El ejercicio libera endorfinas que mejoran el estado de ánimo."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Afrontamiento ineficaz",
+        "type": "actual",
+        "related_to": [
+          "pérdida de empleo",
+          "diagnóstico reciente de depresión",
+          "escasa red de apoyo"
+        ],
+        "evidenced_by": [
+          "expresión de sentirse abrumado",
+          "incapacidad para tomar decisiones",
+          "evitación de actividades"
+        ],
+        "outcomes": [
+          "Desarrollar estrategias de afrontamiento: paciente identifica al menos 3 técnicas en 1 semana",
+          "Disminuir síntomas de depresión: PHQ‑9 disminuye al menos 5 puntos en 4 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar entrevista de valoración del estilo de afrontamiento actual.",
+            "rationale": "Identifica patrones de afrontamiento disfuncionales."
+          },
+          {
+            "action": "Enseñar método de solución de problemas paso a paso (definir, generar opciones, evaluar).",
+            "rationale": "Facilita la toma de decisiones y reduce la sensación de impotencia."
+          },
+          {
+            "action": "Fomentar participación en grupos de apoyo o terapia grupal.",
+            "rationale": "Proporciona modelos de afrontamiento y refuerza la red social."
+          },
+          {
+            "action": "Establecer metas diarias realistas y registrar logros.",
+            "rationale": "Refuerza la autoeficacia y motiva la continuidad de actividades."
+          },
+          {
+            "action": "Reforzar el uso de técnicas de reestructuración cognitiva durante la terapia.",
+            "rationale": "Modifica pensamientos negativos que obstaculizan el afrontamiento."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Major Depressive Disorder (MDD)",
+    "aliases": [
+      "depression",
+      "major depressive",
+      "depressive disorder",
+      "mdd",
+      "major depression"
+    ],
+    "summary": "A mood disorder characterized by depressed mood and loss of interest that persists ≥2 weeks and affects functioning.",
+    "key_points": [
+      "Diagnosis per DSM‑5 criteria: ≥5 symptoms for 2 weeks.",
+      "Serotonin, norepinephrine, and dopamine imbalance; HPA axis hyperactivity.",
+      "Risk factors: genetic, chronic stress, medical illnesses, isolation.",
+      "Multimodal treatment: SSRIs, cognitive‑behavioral therapy, psychosocial support.",
+      "Monitoring of suicidal ideation is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced serotonin, norepinephrine, and dopamine in cerebral synapses.",
+        "HPA axis hyperactivity increases cortisol.",
+        "Decreased neuroplasticity and hippocampal volume.",
+        "Gene (5‑HTTLPR) interaction with stressful events."
+      ],
+      "risk_factors": [
+        "Family history of depression.",
+        "Stressful life events (loss, divorce, unemployment).",
+        "Chronic illnesses (diabetes, cardiovascular disease).",
+        "Substance abuse and alcohol use.",
+        "Social isolation and lack of support."
+      ],
+      "signs_symptoms": [
+        "Depressed mood most of the day.",
+        "Anhedonia or loss of interest in activities.",
+        "Changes in appetite or weight (±5% in 2 weeks).",
+        "Persistent insomnia or hypersomnia.",
+        "Fatigue, feelings of guilt or worthlessness.",
+        "Suicidal thoughts or death ideation."
+      ],
+      "diagnostics": [
+        "DSM‑5 criteria (≥5 symptoms ≥2 weeks).",
+        "PHQ‑9 ≥10 suggests moderate‑to‑severe depression.",
+        "Lab tests to rule out medical causes: TSH, glucose, CBC.",
+        "Comprehensive psychiatric evaluation."
+      ],
+      "treatment": [
+        "Selective serotonin reuptake inhibitors (SSRIs) such as fluoxetine, sertraline.",
+        "Cognitive‑behavioral therapy (CBT) or interpersonal therapy.",
+        "Education on adherence and side effects.",
+        "Psychosocial support and self‑help groups.",
+        "Regular follow‑up to adjust medication."
+      ],
+      "complications": [
+        "Suicidal ideation and self‑harm behaviors.",
+        "Alcohol or drug abuse as self‑medication.",
+        "Functional and occupational decline.",
+        "Worsening of comorbid medical conditions.",
+        "Prolonged social isolation."
+      ],
+      "nursing_care": [
+        "Assess mental status and depression scale (PHQ‑9).",
+        "Monitor suicidal ideation and safety plan.",
+        "Provide active listening and emotional support.",
+        "Observe SSRI adverse effects (nausea, insomnia).",
+        "Coordinate with psychiatrist and mental health team."
+      ],
+      "patient_teaching": [
+        "Importance of taking medication as prescribed.",
+        "Common side effects and when to report them.",
+        "Benefits of therapy and active participation.",
+        "Warning signs: increased sadness, suicidal thoughts.",
+        "Promote sleep hygiene, exercise, and balanced nutrition."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Anxiety",
+        "type": "actual",
+        "related_to": [
+          "stressful situation",
+          "job uncertainty",
+          "lack of social support"
+        ],
+        "evidenced_by": [
+          "restlessness",
+          "muscle tension",
+          "catastrophic thoughts",
+          "difficulty concentrating"
+        ],
+        "outcomes": [
+          "Reduced anxiety: anxiety scale ≤5 in 2 weeks",
+          "Improved sleep: ≥6 hours nightly"
+        ],
+        "interventions": [
+          {
+            "action": "Assess anxiety level with Hamilton or GAD‑7 scale.",
+            "rationale": "Quantifies anxiety and measures treatment response."
+          },
+          {
+            "action": "Teach diaphragmatic breathing and progressive muscle relaxation.",
+            "rationale": "Reduces physiological activation associated with anxiety."
+          },
+          {
+            "action": "Facilitate verbal expression of concerns in support sessions.",
+            "rationale": "Decreases rumination and promotes active coping."
+          },
+          {
+            "action": "Coordinate with physician to adjust SSRI if anxiety persists.",
+            "rationale": "Optimizes pharmacologic control of anxious symptoms."
+          },
+          {
+            "action": "Encourage structured activities and daily moderate exercise.",
+            "rationale": "Exercise releases endorphins that improve mood."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Ineffective coping",
+        "type": "actual",
+        "related_to": [
+          "job loss",
+          "recent depression diagnosis",
+          "limited support network"
+        ],
+        "evidenced_by": [
+          "expressing feeling overwhelmed",
+          "inability to make decisions",
+          "avoiding activities"
+        ],
+        "outcomes": [
+          "Develop coping strategies: patient identifies at least 3 techniques in 1 week",
+          "Reduce depression symptoms: PHQ‑9 decreases by at least 5 points in 4 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Conduct coping style assessment interview.",
+            "rationale": "Identifies dysfunctional coping patterns."
+          },
+          {
+            "action": "Teach step‑by‑step problem‑solving method (define, generate options, evaluate).",
+            "rationale": "Facilitates decision making and reduces helplessness."
+          },
+          {
+            "action": "Encourage participation in support or group therapy.",
+            "rationale": "Provides coping models and strengthens social network."
+          },
+          {
+            "action": "Set realistic daily goals and record achievements.",
+            "rationale": "Reinforces self‑efficacy and motivates continued activity."
+          },
+          {
+            "action": "Reinforce use of cognitive restructuring techniques during therapy.",
+            "rationale": "Modifies negative thoughts that hinder coping."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "anxiety",
+    "suicidal-ideation",
+    "cognitive-behavioral-therapy",
+    "ssris",
+    "psychotherapy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Depression",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/depression.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Major Neurocognitive Disorder and Neurodegenerative Diseases",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/17-4-major-neurocognitive-disorder-and-neurodegenerative-diseases",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antidepressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-14",
+  "factcheck": {
+    "checked": "2026-11-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "A medical history will include asking about your symptoms and family history.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Other mental disorders or chronic medical conditions such as diabetes , cancer , or heart disease may occur with depression.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "At least one of the symptoms is either depressed mood most of the day nearly every day or loss of interest or pleasure.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "One of the symptoms must be a depressed mood or a loss of interest in most activities.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Other depressive symptoms include significant changes in weight or appetite, insomnia or hypersomnia , observable psychomotor agitation or retardation, fatigue, feelings of worthlessness or excessive and/or inappropriate guilt, diminished ability to think or concentrate, difficulty with decision making, and recurrent thoughts of death.",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Other depressive symptoms include significant changes in weight or appetite, insomnia or hypersomnia , observable psychomotor agitation or retardation, fatigue, feelings of worthlessness or excessive and/or inappropriate guilt, diminished ability to think or concentrate, difficulty with decision making, and recurrent thoughts of death.",
+        "source": 2
+      },
+      "sections.signs_symptoms.5": {
+        "status": "supported",
+        "quote": "Having thoughts of death or suicide",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Sertraline ( Zoloft ) Adults: 50 mg orally once daily morning or evening; may increase dose at 1-week intervals if necessary; maximum dose: 200 mg/day.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "This may be done one-on-one or in a group setting.",
+        "source": 0
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Increasing use of alcohol or dru",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "This may make the chronic condition or depression worse.",
+        "source": 0
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Patients with MND and their families may need consultation with a mental health professional to help them cope with the challenges of living with MND.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "The medications that may be ordered for Parkinson disease include the following, which should be administered as prescribed: Carbidopa-levodopa converts to dopamine inside the brain.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Be informed about the high probability of sexual dysfunction and told to report any problems so they can be appropriately addressed.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Some patients with MND may benefit from occupational therapy, which can teach coping behaviors, particularly how to keep patients with MND safe from threats such as losing their balance and falling.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "These can include: Getting regular exercise Having a consistent sleep schedule Controlling stress If you, or someone you love is depressed, see your provider or a mental health provider.",
+        "source": 0
+      }
+    }
+  }
+}

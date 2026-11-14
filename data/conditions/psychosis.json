@@ -1,0 +1,337 @@
+{
+  "id": "psychosis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Psicosis",
+    "aliases": [
+      "psicosis",
+      "psicótico",
+      "delirio",
+      "alucinaciones",
+      "trastorno psicótico",
+      "psicosis aguda",
+      "psicosis crónica"
+    ],
+    "summary": "Conjunto de trastornos mentales caracterizados por pérdida de contacto con la realidad, manifestada mediante alucinaciones y delirios.",
+    "key_points": [
+      "Alucinaciones y delirios son los síntomas cardinales.",
+      "Puede ser primaria (esquizofrenia) o secundaria a sustancias, lesiones cerebrales o trastornos médicos.",
+      "El tratamiento combina antipsicóticos y apoyo psicoterapéutico.",
+      "Se deben descartar causas orgánicas mediante estudios de laboratorio y neuroimagen."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disfunción dopaminérgica en la vía mesolímbica aumenta la actividad psicótica.",
+        "Alteraciones en serotonina y glutamato pueden modular los síntomas.",
+        "Factores genéticos predisponen a una mayor sensibilidad a neurotransmisores.",
+        "Estrés y consumo de sustancias pueden desencadenar o agravar la enfermedad."
+      ],
+      "risk_factors": [
+        "Historia familiar de esquizofrenia o trastorno bipolar.",
+        "Abuso de alcohol, cannabis, cocaína o anfetaminas.",
+        "Trauma psicológico severo o eventos estresantes.",
+        "Enfermedades neurológicas (tumor cerebral, accidente cerebrovascular)."
+      ],
+      "signs_symptoms": [
+        "Alucinaciones auditivas, visuales o táctiles.",
+        "Delirios de persecución, grandeza o referencia.",
+        "Pensamiento desorganizado y discurso incoherente.",
+        "Afecto plano o inapropiado y deterioro funcional."
+      ],
+      "diagnostics": [
+        "Entrevista psiquiátrica estructurada y escalas como PANSS.",
+        "Exámenes de sangre (glucosa, electrolitos, función hepática) para excluir causas metabólicas.",
+        "Toxicología de orina para detectar sustancias psicoactivas.",
+        "Neuroimagen (TC o RM) si se sospecha lesión estructural."
+      ],
+      "treatment": [
+        "Antipsicóticos típicos (haloperidol) y atípicos (risperidona, olanzapina, clozapina).",
+        "Terapia cognitivo‑conductual y entrenamiento en habilidades sociales.",
+        "Educación familiar y apoyo psicosocial.",
+        "Hospitalización cuando exista riesgo de autolesión o agresión."
+      ],
+      "complications": [
+        "Riesgo elevado de suicidio y autolesiones.",
+        "Síndrome metabólico inducido por antipsicóticos de segunda generación.",
+        "Deterioro cognitivo y funcional a largo plazo.",
+        "Abuso de sustancias como forma de automedicación."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia y orientación cada turno.",
+        "Monitorear signos vitales y efectos adversos de antipsicóticos (sedación, rigidez, taquicardia).",
+        "Garantizar un entorno seguro: retirar objetos peligrosos y supervisar al paciente.",
+        "Fomentar la comunicación, registrar cambios de comportamiento y respuesta al tratamiento.",
+        "Colaborar con el equipo interdisciplinario para plan de manejo farmacológico y psicoterapéutico."
+      ],
+      "patient_teaching": [
+        "Importancia de la adherencia al tratamiento y no interrumpir la medicación sin indicación.",
+        "Reconocer y reportar efectos secundarios como somnolencia, aumento de peso o temblores.",
+        "Evitar alcohol y drogas recreativas que pueden empeorar los síntomas.",
+        "Practicar técnicas de relajación y manejo del estrés.",
+        "Buscar ayuda inmediata ante ideas suicidas o comportamiento agresivo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ansiedad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "expresión de preocupación constante",
+          "tensión muscular",
+          "inquietud",
+          "pensamientos catastróficos"
+        ],
+        "outcomes": [
+          "Ansiedad: nivel ≤ 3 en escala de 0‑10",
+          "Manejo del estrés: uso de técnicas de relajación al menos 3 veces al día"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de ansiedad usando escala de 0‑10 al inicio y cada turno.",
+            "rationale": "Permite cuantificar la ansiedad y medir la efectividad de las intervenciones."
+          },
+          {
+            "action": "Enseñar respiración diafragmática y relajación muscular progresiva.",
+            "rationale": "Reduce la respuesta fisiológica al estrés y disminuye la ansiedad."
+          },
+          {
+            "action": "Proveer un ambiente tranquilo, con luz tenue y ruido mínimo.",
+            "rationale": "Minimiza estímulos que pueden exacerbar la ansiedad."
+          },
+          {
+            "action": "Facilitar la expresión verbal de temores mediante escucha activa.",
+            "rationale": "Ayuda al paciente a procesar emociones y a sentir apoyo."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar antipsicóticos si la ansiedad está relacionada a efectos secundarios.",
+            "rationale": "Algunos antipsicóticos pueden causar agitación; el ajuste mejora el control."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "comportamiento impulsivo",
+          "alucinaciones visuales",
+          "desorientación",
+          "confusión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad: sin caídas ni autolesiones durante la estancia hospitalaria",
+          "Integridad cutánea: piel intacta al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener al paciente bajo observación continua o en sala de observación segura.",
+            "rationale": "Previene conductas autolesivas o agresivas."
+          },
+          {
+            "action": "Eliminar objetos punzantes o peligrosos del entorno inmediato.",
+            "rationale": "Reduce la posibilidad de lesiones accidentales."
+          },
+          {
+            "action": "Reorientar al paciente frecuentemente, recordando hora, lugar y actividad.",
+            "rationale": "Disminuye la desorientación y la confusión que pueden llevar a caídas."
+          },
+          {
+            "action": "Evaluar y registrar cualquier intento de autolesión o comportamiento agresivo.",
+            "rationale": "Facilita la detección temprana y la intervención oportuna."
+          },
+          {
+            "action": "Educar al paciente y a la familia sobre la importancia de no consumir alcohol o drogas.",
+            "rationale": "El consumo puede aumentar impulsividad y riesgo de lesión."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Psychosis",
+    "aliases": [
+      "psychosis",
+      "psychotic",
+      "delirium",
+      "hallucinations",
+      "psychotic disorder",
+      "acute psychosis",
+      "chronic psychosis"
+    ],
+    "summary": "A group of mental disorders characterized by loss of contact with reality, manifested through hallucinations and delusions.",
+    "key_points": [
+      "Hallucinations and delusions are the cardinal symptoms.",
+      "It can be primary (schizophrenia) or secondary to substances, brain injury, or medical disorders.",
+      "Treatment combines antipsychotics and psychotherapeutic support.",
+      "Organic causes must be ruled out with laboratory studies and neuroimaging."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Dopaminergic dysfunction in the mesolimbic pathway increases psychotic activity.",
+        "Serotonin and glutamate alterations may modulate symptoms.",
+        "Genetic factors predispose to greater neurotransmitter sensitivity.",
+        "Stress and substance use can trigger or worsen the disease."
+      ],
+      "risk_factors": [
+        "Family history of schizophrenia or bipolar disorder.",
+        "Alcohol, cannabis, cocaine, or amphetamine abuse.",
+        "Severe psychological trauma or stressful events.",
+        "Neurological diseases (brain tumor, stroke)."
+      ],
+      "signs_symptoms": [
+        "Auditory, visual, or tactile hallucinations.",
+        "Delusions of persecution, grandeur, or reference.",
+        "Disorganized thinking and incoherent speech.",
+        "Flat or inappropriate affect and functional decline."
+      ],
+      "diagnostics": [
+        "Structured psychiatric interview and scales such as PANSS.",
+        "Blood tests (glucose, electrolytes, liver function) to exclude metabolic causes.",
+        "Urine toxicology to detect psychoactive substances.",
+        "Neuroimaging (CT or MRI) if structural lesion is suspected."
+      ],
+      "treatment": [
+        "Typical antipsychotics (haloperidol) and atypical (risperidone, olanzapine, clozapine).",
+        "Cognitive-behavioral therapy and social skills training.",
+        "Family education and psychosocial support.",
+        "Hospitalization when there is risk of self-harm or aggression."
+      ],
+      "complications": [
+        "High risk of suicide and self-harm.",
+        "Metabolic syndrome induced by second-generation antipsychotics.",
+        "Long-term cognitive and functional decline.",
+        "Substance abuse as a form of self-medication."
+      ],
+      "nursing_care": [
+        "Assess level of consciousness and orientation each shift.",
+        "Monitor vital signs and antipsychotic adverse effects (sedation, rigidity, tachycardia).",
+        "Ensure a safe environment: remove dangerous objects and supervise the patient.",
+        "Encourage communication, document behavioral changes and treatment response.",
+        "Collaborate with the interdisciplinary team for pharmacologic and psychotherapeutic management plans."
+      ],
+      "patient_teaching": [
+        "Importance of treatment adherence and not discontinuing medication without indication.",
+        "Recognize and report side effects such as drowsiness, weight gain, or tremors.",
+        "Avoid alcohol and recreational drugs that may worsen symptoms.",
+        "Practice relaxation and stress management techniques.",
+        "Seek immediate help for suicidal thoughts or aggressive behavior."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Anxiety",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "constant worry expression",
+          "muscle tension",
+          "restlessness",
+          "catastrophic thoughts"
+        ],
+        "outcomes": [
+          "Anxiety: level ≤ 3 on 0‑10 scale",
+          "Stress management: use relaxation techniques at least 3 times daily"
+        ],
+        "interventions": [
+          {
+            "action": "Assess anxiety level using a 0‑10 scale at admission and each shift.",
+            "rationale": "Allows quantification of anxiety and measurement of intervention effectiveness."
+          },
+          {
+            "action": "Teach diaphragmatic breathing and progressive muscle relaxation.",
+            "rationale": "Reduces physiological stress response and lowers anxiety."
+          },
+          {
+            "action": "Provide a quiet environment with dim lighting and minimal noise.",
+            "rationale": "Minimizes stimuli that may exacerbate anxiety."
+          },
+          {
+            "action": "Facilitate verbal expression of fears through active listening.",
+            "rationale": "Helps the patient process emotions and feel supported."
+          },
+          {
+            "action": "Collaborate with the physician to adjust antipsychotics if anxiety is related to side effects.",
+            "rationale": "Some antipsychotics can cause agitation; adjustment improves control."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "impulsive behavior",
+          "visual hallucinations",
+          "disorientation",
+          "confusion"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Safety: no falls or self-harm during hospitalization",
+          "Skin integrity: intact skin at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Keep the patient under continuous observation or in a safe observation room.",
+            "rationale": "Prevents self-harm or aggressive behaviors."
+          },
+          {
+            "action": "Remove sharp or dangerous objects from the immediate environment.",
+            "rationale": "Reduces the possibility of accidental injury."
+          },
+          {
+            "action": "Reorient the patient frequently, reminding time, place, and activity.",
+            "rationale": "Decreases disorientation and confusion that can lead to falls."
+          },
+          {
+            "action": "Assess and record any self-harm attempts or aggressive behavior.",
+            "rationale": "Facilitates early detection and timely intervention."
+          },
+          {
+            "action": "Educate the patient and family about the importance of avoiding alcohol or drugs.",
+            "rationale": "Consumption can increase impulsivity and injury risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "schizophrenia",
+    "bipolar-disorder",
+    "hallucinations",
+    "delusions",
+    "substance-induced-psychosis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Psychotic Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/psychoticdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Antipsychotics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-2-antipsychotics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anti-Parkinsonian Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-2-anti-parkinsonian-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-14"
+}

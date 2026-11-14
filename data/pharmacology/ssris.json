@@ -1,0 +1,412 @@
+{
+  "id": "ssris",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Inhibidores selectivos de la recaptación de serotonina (ISRS)",
+    "aliases": [
+      "isrs",
+      "ssri",
+      "inhibidor serotonina",
+      "antidepresivo",
+      "fluoxetina",
+      "sertralina",
+      "escitalopram",
+      "paroxetina",
+      "citalopram"
+    ],
+    "summary": "Los ISRS aumentan la disponibilidad de serotonina en la sinapsis y se usan como antidepresivos de primera línea.",
+    "key_points": [
+      "Indicados para depresión mayor, trastorno de ansiedad y trastornos del sueño.",
+      "Efectos adversos comunes: náuseas, diarrea, insomnio, disfunción sexual y aumento de peso.",
+      "Pueden provocar síndrome de secreción inapropiada de ADH → hiponatremia.",
+      "Precaución en pacientes con enfermedad cardíaca, historial de QTc prolongado o convulsiones.",
+      "Interacciones importantes con inhibidores de la MAO, tramadol y anticolinérgicos."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquean la recaptación de serotonina en la terminación presináptica.",
+        "Incrementan la concentración de serotonina en la hendidura sináptica.",
+        "Algunos ISRS (ej. fluoxetina) también aumentan dopamina en corteza frontal."
+      ],
+      "indications": [
+        "Depresión mayor (DM)",
+        "Trastorno de ansiedad generalizada y trastorno de pánico",
+        "Insomnio primario asociado a depresión",
+        "Dolor crónico neuropático como coadyuvante"
+      ],
+      "contraindications": [
+        "Niños menores de 12 años",
+        "Infarto agudo de miocardio reciente",
+        "Insuficiencia cardíaca descompensada",
+        "Arritmias cardíacas graves",
+        "Uso concomitante de inhibidores de la MAO (debe esperar 14 días)"
+      ],
+      "adverse_effects": [
+        "Náuseas y diarrea (común)",
+        "Insomnio o somnolencia (común)",
+        "Disfunción sexual (común)",
+        "Hiponatremia por SIADH (serio)",
+        "Prolongación del QTc, taquicardia, arritmias (serio)",
+        "Convulsiones en pacientes con epilepsia (serio)"
+      ],
+      "interactions": [
+        "Tramadol → aumento del riesgo de síndrome serotoninérgico.",
+        "Anticolinérgicos (ej. escopolamina) → empeoran efectos anticolinérgicos.",
+        "Inhibidores de la MAO → síndrome serotoninérgico grave.",
+        "Bloqueadores de canales de calcio, betabloqueadores y digoxina → pueden alterar el ritmo cardíaco.",
+        "CNS depresores (opioides, antihistamínicos) → potenciación de sedación."
+      ],
+      "nursing_care": [
+        "Evaluar historial de enfermedad cardíaca, arritmias y uso de diuréticos antes de iniciar.",
+        "Obtener Na⁺ sérico basal; repetir a los 1‑2 semanas si el paciente es mayor de 65 años.",
+        "Monitorear signos de síndrome serotoninérgico: agitación, temblor, hipertermia.",
+        "Retener la dosis si Na⁺ < 130 mEq/L o si aparecen arritmias graves; notificar al médico.",
+        "Registrar nivel de ansiedad/depresión usando escala estandarizada cada 48 h."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento a la misma hora cada día, con o sin alimentos.",
+        "Informar cualquier sangrado nasal, hematomas o cambios de humor súbitos.",
+        "Evitar el consumo de alcohol y otros depresores del SNC.",
+        "No suspender abruptamente; consultar antes de cualquier cambio de dosis.",
+        "Reportar náuseas persistentes, diarrea o signos de deshidratación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de ISRS",
+          "edad avanzada",
+          "uso concomitante de diuréticos",
+          "insuficiencia renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na⁺ sérico ≥ 135 mEq/L en 48 h",
+          "Paciente sin síntomas de hiponatremia al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener nivel basal de Na⁺ y repetir a los 7‑10 días.",
+            "rationale": "Detectar precozmente hiponatremia inducida por ISRS."
+          },
+          {
+            "action": "Evaluar ingesta y pérdida de líquidos cada turno.",
+            "rationale": "Mantener equilibrio hídrico y prevenir dilución del Na⁺."
+          },
+          {
+            "action": "Educar al paciente sobre signos de hiponatremia (cefalea, confusión, náuseas).",
+            "rationale": "Facilita la detección temprana y la intervención oportuna."
+          },
+          {
+            "action": "Notificar al médico si Na⁺ < 130 mEq/L o si aparecen síntomas neurológicos.",
+            "rationale": "Intervención médica necesaria para corregir el desequilibrio."
+          },
+          {
+            "action": "Revisar medicamentos concomitantes que puedan potenciar la pérdida de Na⁺.",
+            "rationale": "Reducir factores de riesgo adicionales."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Selective serotonin reuptake inhibitors (SSRIs)",
+    "aliases": [
+      "ssris",
+      "ssri",
+      "serotonin inhibitor",
+      "antidepressant",
+      "fluoxetine",
+      "sertraline",
+      "escitalopram",
+      "paroxetine",
+      "citalopram"
+    ],
+    "summary": "SSRIs increase serotonin availability in the synapse and are used as first‑line antidepressants.",
+    "key_points": [
+      "Indicated for major depression, anxiety disorders, and sleep disorders.",
+      "Common adverse effects: nausea, diarrhea, insomnia, sexual dysfunction, and weight gain.",
+      "Can cause syndrome of inappropriate antidiuretic hormone secretion → hyponatremia.",
+      "Caution in patients with heart disease, history of prolonged QTc, or seizures.",
+      "Important interactions with MAO inhibitors, tramadol, and anticholinergics."
+    ],
+    "sections": {
+      "mechanism": [
+        "Block serotonin reuptake at the presynaptic terminal.",
+        "Increase serotonin concentration in the synaptic cleft.",
+        "Some SSRIs (e.g., fluoxetine) also increase dopamine in the frontal cortex."
+      ],
+      "indications": [
+        "Major depressive disorder (MDD)",
+        "Generalized anxiety disorder and panic disorder",
+        "Primary insomnia associated with depression",
+        "Chronic neuropathic pain as an adjunct"
+      ],
+      "contraindications": [
+        "Children under 12 years",
+        "Recent acute myocardial infarction",
+        "Decompensated heart failure",
+        "Severe cardiac arrhythmias",
+        "Concurrent use of MAO inhibitors (must wait 14 days)"
+      ],
+      "adverse_effects": [
+        "Nausea and diarrhea (common)",
+        "Insomnia or somnolence (common)",
+        "Sexual dysfunction (common)",
+        "Hyponatremia due to SIADH (serious)",
+        "QTc prolongation, tachycardia, arrhythmias (serious)",
+        "Seizures in patients with epilepsy (serious)"
+      ],
+      "interactions": [
+        "Tramadol → increased risk of serotonin syndrome.",
+        "Anticholinergics (e.g., scopolamine) → worsen anticholinergic effects.",
+        "MAO inhibitors → severe serotonin syndrome.",
+        "Calcium channel blockers, beta‑blockers, and digoxin → may alter cardiac rhythm.",
+        "CNS depressants (opioids, antihistamines) → potentiation of sedation."
+      ],
+      "nursing_care": [
+        "Assess history of heart disease, arrhythmias, and diuretic use before initiation.",
+        "Obtain baseline serum Na⁺; repeat at 1‑2 weeks if patient >65 years.",
+        "Monitor for signs of serotonin syndrome: agitation, tremor, hyperthermia.",
+        "Hold dose if Na⁺ <130 mEq/L or if serious arrhythmias occur; notify provider.",
+        "Document anxiety/depression level using a standardized scale every 48 h."
+      ],
+      "patient_teaching": [
+        "Take the medication at the same time each day, with or without food.",
+        "Report any nasal bleeding, bruising, or sudden mood changes.",
+        "Avoid alcohol and other CNS depressants.",
+        "Do not discontinue abruptly; consult before any dose change.",
+        "Report persistent nausea, diarrhea, or signs of dehydration."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "use of SSRIs",
+          "advanced age",
+          "concurrent diuretic use",
+          "renal insufficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum Na⁺ ≥135 mEq/L within 48 h",
+          "Patient without hyponatremia symptoms at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain baseline Na⁺ level and repeat at 7‑10 days.",
+            "rationale": "Early detection of SSRI‑induced hyponatremia."
+          },
+          {
+            "action": "Assess fluid intake and output each shift.",
+            "rationale": "Maintain fluid balance and prevent Na⁺ dilution."
+          },
+          {
+            "action": "Educate patient on hyponatremia signs (headache, confusion, nausea).",
+            "rationale": "Facilitates early detection and timely intervention."
+          },
+          {
+            "action": "Notify provider if Na⁺ <130 mEq/L or neurological symptoms appear.",
+            "rationale": "Medical intervention required to correct imbalance."
+          },
+          {
+            "action": "Review concomitant medications that may increase Na⁺ loss.",
+            "rationale": "Reduce additional risk factors."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyponatremia",
+    "serotonin-syndrome",
+    "qt-prolongation",
+    "depression",
+    "anxiety"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antidepressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Bowel Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-2-factors-affecting-bowel-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-14",
+  "factcheck": {
+    "checked": "2026-11-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 26,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Drug Interactions Tramadol Anticholinergic agents Fluvoxamine Phenothiazines or haloperidol Monoamine oxidase inhibitors (MAOIs) Calcium channel blockers/beta blockers/digoxin CNS depressants (opioids, antihistamines)",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Blocks the reuptake of norepinephrine (NE) and serotonin at the presynaptic nerve endings",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "Concentration of serotonin in the synapse increases, resulting in enhanced activation",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Indications Major depressive disorder (MDD) Primary insomnia Anxiety Chronic pain syndromes",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Paroxetine: In addition to major depression, this drug is used for obsessive-compulsive disorder (OCD), panic disorder, social phobia, generalized anxiety disorder (GAD), posttraumatic stress disorder (PTSD), and premenstrual dysphoric disorder (PMDD).",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "Indications Major depressive disorder (MDD) Primary insomnia Anxiety Chronic pain syndromes",
+        "source": 0
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.4": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Antibiotics (e.g., amoxicillin [Amoxil], doxycycline [Acticlate]) Diarrhea, nausea, abdominal cramping Take with probiotics.",
+        "source": 1
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Sexual dysfunction is one main reason why clients may elect to stop taking SSRIs.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.5": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "supported",
+        "quote": "Tramadol also can increase the risk of serotonin syndrome when combined with SSRIs.",
+        "source": 0
+      },
+      "sections.interactions.1": {
+        "status": "supported",
+        "quote": "Concurrent use of TCAs with other anticholinergic and central nervous system (CNS) depressant drugs can worsen those effects.",
+        "source": 0
+      },
+      "sections.interactions.2": {
+        "status": "supported",
+        "quote": "Certain antipsychotics can increase amitriptyline concentrations, and use of monoamine oxidase inhibitors (MAOIs) should be separated by 2 weeks due to the risk for serotonin syndrome (described in the following section).",
+        "source": 0
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Serotonin syndrome is characterized by altered mental status, anxiety, hallucinations, hyperpyrexia , muscle rigidity, hyperreflexia, diaphoresis, and tremor.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Postmarketing reports include serious or clinically significant changes in mood (including depression and mania), psychosis, hallucinations, paranoia, delusions, homicidal ideation, aggression, hostility, agitation, anxiety, and panic as well as suicidal ideation, suicide attempt, and death by suicide (DailyMed, Bupropion , 2023).",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,356 @@
+{
+  "id": "vasopressor-therapy",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Norepinefrina",
+    "aliases": [
+      "norepinefrina",
+      "noradrenalina",
+      "vasopresor",
+      "presión arterial",
+      "shock",
+      "hipotensión"
+    ],
+    "summary": "La norepinefrina es un vasopresor de acción rápida que aumenta la presión arterial mediante estimulación α‑adrenérgica.",
+    "key_points": [
+      "Incrementa la presión arterial sistólica y la presión arterial media (PAM).",
+      "Se usa en shock séptico, cardiogénico y anafiláctico.",
+      "Se administra por vía intravenosa continua; requiere monitorización hemodinámica.",
+      "Efectos adversos incluyen taquicardia, arritmias y isquemia distal."
+    ],
+    "sections": {
+      "mechanism": [
+        "Estimula receptores α1‑adrenérgicos → vasoconstricción periférica.",
+        "Estimula receptores β1 en el corazón → aumento leve del gasto cardíaco.",
+        "Eleva la presión arterial media (PAM) y mejora la perfusión de órganos vitales."
+      ],
+      "indications": [
+        "Shock séptico o distributivo con hipotensión persistente.",
+        "Shock cardiogénico cuando se necesita soporte vasopresor.",
+        "Shock anafiláctico que no responde a adrenalina.",
+        "Hipotensión intraoperatoria grave."
+      ],
+      "contraindications": [
+        "Hipertensión severa no controlada.",
+        "Obstrucción mecánica de la arteria (ej. disección arterial).",
+        "Hipertiroidismo no tratado.",
+        "Precaución en pacientes con enfermedad arterial periférica."
+      ],
+      "adverse_effects": [
+        "Taquicardia y palpitaciones.",
+        "Arritmias ventriculares (grave).",
+        "Hipertensión excesiva → riesgo de hemorragia intracraneal (grave).",
+        "Isquemia distal de extremidades (grave).",
+        "Dolor de cabeza y ansiedad."
+      ],
+      "interactions": [
+        "Inhibidores de la MAO pueden potenciar la respuesta adrenérgica.",
+        "Antidepresivos tricíclicos aumentan riesgo de arritmias.",
+        "Betabloqueadores pueden disminuir la respuesta inotrópica.",
+        "Otros vasopresores pueden causar hipertensión severa si se combinan."
+      ],
+      "nursing_care": [
+        "Verificar MAP ≥65 mmHg y HR <130 lpm antes de iniciar.",
+        "Monitorear presión arterial invasiva cada 1‑5 min al iniciar.",
+        "Controlar frecuencia cardíaca, ritmo y signos de isquemia distal.",
+        "Registrar gasto urinario ≥0.5 mL/kg/h; notificar si disminuye.",
+        "Mantener vía IV segura; suspender infusión si MAP >110 mmHg o arritmia grave y notificar al médico."
+      ],
+      "patient_teaching": [
+        "Explicar que el medicamento eleva la presión arterial para mantener la perfusión.",
+        "Informar sobre posibles sensaciones de palpitaciones o dolor de cabeza.",
+        "Indicar que debe reportar dolor en extremidades, cambios de color o entumecimiento.",
+        "Reforzar la importancia de permanecer inmóvil mientras está conectado al monitor."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "hipotensión",
+          "shock séptico",
+          "insuficiencia cardíaca",
+          "uso de vasodilatadores"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca: MAP ≥65 mmHg mantenida durante 24 h",
+          "Frecuencia cardíaca: 60‑100 lpm estable durante 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Iniciar norepinefrina por vía IV según orden médica y ajustar la velocidad para lograr MAP ≥65 mmHg.",
+            "rationale": "Mantener la presión arterial adecuada asegura perfusión coronaria."
+          },
+          {
+            "action": "Monitorear presión arterial invasiva y frecuencia cardíaca cada 5 min.",
+            "rationale": "Detectar rápidamente desviaciones que indiquen insuficiencia del tratamiento o efectos adversos."
+          },
+          {
+            "action": "Evaluar gasto urinario y nivel de conciencia cada hora.",
+            "rationale": "Indicadores tempranos de perfusión renal y cerebral."
+          },
+          {
+            "action": "Observar el sitio de infusión por extravasación o irritación.",
+            "rationale": "Prevenir daño tisular local por vasoconstricción excesiva."
+          },
+          {
+            "action": "Notificar al médico si MAP >110 mmHg, HR >130 lpm o aparecen arritmias.",
+            "rationale": "Evitar hipertensión severa y complicaciones cardíacas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Norepinephrine",
+    "aliases": [
+      "norepinephrine",
+      "noradrenaline",
+      "vasopressor",
+      "blood pressure",
+      "shock",
+      "hypotension"
+    ],
+    "summary": "Norepinephrine is a rapid-acting vasopressor that increases blood pressure by stimulating alpha‑adrenergic receptors.",
+    "key_points": [
+      "Raises systolic blood pressure and mean arterial pressure (MAP).",
+      "Used in septic, cardiogenic, and anaphylactic shock.",
+      "Administered via continuous IV infusion; requires hemodynamic monitoring.",
+      "Adverse effects include tachycardia, arrhythmias, and distal ischemia."
+    ],
+    "sections": {
+      "mechanism": [
+        "Stimulates α1‑adrenergic receptors → peripheral vasoconstriction.",
+        "Stimulates β1 receptors in the heart → modest increase in cardiac output.",
+        "Elevates MAP and improves perfusion of vital organs."
+      ],
+      "indications": [
+        "Septic or distributive shock with persistent hypotension.",
+        "Cardiogenic shock when vasopressor support is needed.",
+        "Anaphylactic shock unresponsive to epinephrine.",
+        "Severe intraoperative hypotension."
+      ],
+      "contraindications": [
+        "Uncontrolled severe hypertension.",
+        "Mechanical arterial obstruction (e.g., arterial dissection).",
+        "Untreated hyperthyroidism.",
+        "Caution in patients with peripheral arterial disease."
+      ],
+      "adverse_effects": [
+        "Tachycardia and palpitations.",
+        "Ventricular arrhythmias (severe).",
+        "Excessive hypertension → risk of intracranial hemorrhage (severe).",
+        "Distal limb ischemia (severe).",
+        "Headache and anxiety."
+      ],
+      "interactions": [
+        "MAO inhibitors can potentiate adrenergic response.",
+        "Tricyclic antidepressants increase risk of arrhythmias.",
+        "Beta‑blockers can blunt inotropic response.",
+        "Other vasopressors may cause severe hypertension if combined."
+      ],
+      "nursing_care": [
+        "Verify MAP ≥65 mmHg and HR <130 bpm before initiation.",
+        "Monitor invasive blood pressure every 1‑5 min at start.",
+        "Check heart rate, rhythm, and signs of distal ischemia.",
+        "Record urine output ≥0.5 mL/kg/h; notify if it decreases.",
+        "Maintain secure IV access; discontinue infusion if MAP >110 mmHg or severe arrhythmia and notify provider."
+      ],
+      "patient_teaching": [
+        "Explain that the medication raises blood pressure to maintain perfusion.",
+        "Inform about possible sensations of palpitations or headache.",
+        "Advise to report pain in extremities, color changes, or numbness.",
+        "Emphasize the importance of remaining still while connected to the monitor."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "hypotension",
+          "septic shock",
+          "heart failure",
+          "use of vasodilators"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac tissue perfusion: MAP ≥65 mmHg maintained for 24 h",
+          "Heart rate: 60‑100 bpm stable for 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Initiate norepinephrine IV per provider order and titrate rate to achieve MAP ≥65 mmHg.",
+            "rationale": "Maintaining adequate blood pressure ensures coronary perfusion."
+          },
+          {
+            "action": "Monitor invasive blood pressure and heart rate every 5 min.",
+            "rationale": "Rapid detection of deviations indicating treatment failure or adverse effects."
+          },
+          {
+            "action": "Assess urine output and level of consciousness hourly.",
+            "rationale": "Early indicators of renal and cerebral perfusion."
+          },
+          {
+            "action": "Inspect infusion site for extravasation or irritation.",
+            "rationale": "Prevent local tissue damage from excessive vasoconstriction."
+          },
+          {
+            "action": "Notify provider if MAP >110 mmHg, HR >130 bpm, or arrhythmias develop.",
+            "rationale": "Avoid severe hypertension and cardiac complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypotension",
+    "septic-shock",
+    "cardiac-output",
+    "beta-agonists"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Feminizing Hormonal Therapy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/37-2-feminizing-hormonal-therapy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Pain Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/30-5-pain-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-14",
+  "factcheck": {
+    "checked": "2026-11-14",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 34
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "supported",
+        "quote": "May lengthen QT interval; risk for arrhythmias",
+        "source": 1
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
