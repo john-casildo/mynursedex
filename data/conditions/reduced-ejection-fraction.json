@@ -1,0 +1,509 @@
+{
+  "id": "reduced-ejection-fraction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Insuficiencia cardíaca con fracción de eyección reducida (ICFEr)",
+    "aliases": [
+      "insuficiencia cardiaca",
+      "icfe",
+      "fraccion reducida",
+      "icfr",
+      "falla cardiaca"
+    ],
+    "summary": "Disfunción sistólica del ventrículo izquierdo que reduce la fracción de eyección (<40%). Provoca bajo gasto cardíaco y congestión sistémica.",
+    "key_points": [
+      "Fracción de eyección <40% indica HFrEF",
+      "Aumento de la presión de llenado y activación neurohormonal",
+      "Edema periférico y pulmonar son signos clásicos",
+      "Tratamiento combina diuréticos, IECA/ARA II, betabloqueadores y antagonistas de aldosterona"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Daño miocárdico disminuye contractilidad del ventrículo izquierdo.",
+        "Disminuye el volumen sistólico y la fracción de eyección (<40%).",
+        "Compensa con aumento de frecuencia cardíaca y activación del sistema renina‑angiotensina‑aldosterona.",
+        "Retención de sodio y agua genera sobrecarga de volumen y congestión pulmonar y sistémica."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial crónica.",
+        "Enfermedad arterial coronaria o infarto previo.",
+        "Cardiomiopatía dilatada.",
+        "Diabetes mellitus y tabaquismo."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo que progresa a reposo.",
+        "Ortopnea y disnea paroxística nocturna.",
+        "Edema periférico, especialmente en tobillos.",
+        "Fatiga y disminución de la tolerancia al ejercicio."
+      ],
+      "diagnostics": [
+        "Ecocardiograma: fracción de eyección <40% y dilatación ventricular.",
+        "BNP o NT‑proBNP elevado (>100 pg/mL).",
+        "Radiografía de tórax: cardiomegalia y edema intersticial.",
+        "Electrocardiograma: signos de hipertrofia o isquemia."
+      ],
+      "treatment": [
+        "Inhibidores de la ECA (ej. enalapril) o ARA‑II (losartán).",
+        "Betabloqueadores cardioselectivos (metoprolol succinato, carvedilol).",
+        "Antagonistas de los receptores de aldosterona (espironolactona).",
+        "Diuréticos de asa (furosemida) para controlar la sobrecarga de volumen.",
+        "Terapia de resincronización cardíaca o desfibrilador en casos seleccionados."
+      ],
+      "complications": [
+        "Edema pulmonar agudo.",
+        "Insuficiencia renal por bajo flujo renal.",
+        "Arritmias ventriculares y fibrilación auricular.",
+        "Tromboembolismo sistémico."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4 h; prestar atención a PA, FC y saturación O₂.",
+        "Monitorear peso diario; registrar aumento >2 kg/48 h como alerta de retención.",
+        "Posicionar al paciente semi‑sentado (30‑45°) para mejorar la ventilación.",
+        "Administrar diuréticos según orden y observar salida de orina.",
+        "Educación sobre restricción de sodio (<2 g/día) y adherencia al tratamiento."
+      ],
+      "patient_teaching": [
+        "Reconocer signos de empeoramiento: disnea creciente, edema, aumento de peso.",
+        "Importancia de la dieta baja en sodio y control de líquidos.",
+        "Tomar los medicamentos exactamente como se indican, sin omitir dosis.",
+        "Registrar peso diario y reportar cambios al profesional de salud.",
+        "Mantener actividad física moderada según tolerancia y guía médica."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "Fracción de eyección reducida",
+          "Hipertensión crónica",
+          "Isquemia miocárdica"
+        ],
+        "evidenced_by": [
+          "Fatiga",
+          "Disnea de reposo",
+          "Edema periférico",
+          "Pulso rápido"
+        ],
+        "outcomes": [
+          "Gasto cardíaco: aumento a >4 L/min en 48 h",
+          "Perfusión tisular periférica: piel cálida y sin cianosis en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar FC, PA y saturación O₂ cada 4 h",
+            "rationale": "Detectar deterioro hemodinámico precozmente"
+          },
+          {
+            "action": "Registrar peso diario y comparar con la línea base",
+            "rationale": "Identificar retención de líquidos rápidamente"
+          },
+          {
+            "action": "Administrar diurético de asa según prescripción y monitorear diuresis",
+            "rationale": "Reducir sobrecarga de volumen y mejorar el gasto"
+          },
+          {
+            "action": "Educar al paciente sobre restricción de sodio y adherencia al tratamiento",
+            "rationale": "Disminuir la activación neurohormonal y mejorar la función cardíaca"
+          },
+          {
+            "action": "Colaborar con el médico para ajustar IECA y betabloqueador según respuesta",
+            "rationale": "Optimizar la terapia que aumenta el gasto cardíaco"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Uso de diuréticos de asa",
+          "Insuficiencia renal",
+          "Hipovolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: K⁺ 3.5‑5.0 mEq/L en 72 h",
+          "Na⁺ 135‑145 mEq/L en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos cada 24 h mientras esté en diuréticos",
+            "rationale": "Detectar alteraciones tempranas"
+          },
+          {
+            "action": "Evaluar signos de hipocalemia (debilidad muscular, arritmias)",
+            "rationale": "Prevenir complicaciones cardíacas"
+          },
+          {
+            "action": "Administrar suplemento de potasio oral o IV según indicación",
+            "rationale": "Mantener K⁺ dentro del rango terapéutico"
+          },
+          {
+            "action": "Instruir al paciente sobre alimentos ricos en potasio (plátano, papas)",
+            "rationale": "Apoyo dietético para estabilizar K⁺"
+          },
+          {
+            "action": "Monitorear ingesta y salida de líquidos para evitar hipovolemia",
+            "rationale": "Preservar la perfusión renal y el equilibrio de Na⁺"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Heart failure with reduced ejection fraction (HFrEF)",
+    "aliases": [
+      "heart failure",
+      "hfr",
+      "reduced ejection fraction",
+      "heart failure with reduced ef",
+      "heart failure with low ef"
+    ],
+    "summary": "Systolic dysfunction of the left ventricle that reduces ejection fraction (<40%). Causes low cardiac output and systemic congestion.",
+    "key_points": [
+      "Ejection fraction <40% indicates HFrEF",
+      "Increased filling pressure and neurohormonal activation",
+      "Peripheral and pulmonary edema are classic signs",
+      "Treatment combines diuretics, ACE inhibitors/ARBs, beta‑blockers, and aldosterone antagonists"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Myocardial damage decreases left ventricular contractility.",
+        "Decreases stroke volume and ejection fraction (<40%).",
+        "Compensates with increased heart rate and activation of the renin‑angiotensin‑aldosterone system.",
+        "Sodium and water retention causes volume overload and pulmonary and systemic congestion."
+      ],
+      "risk_factors": [
+        "Chronic arterial hypertension.",
+        "Coronary artery disease or prior myocardial infarction.",
+        "Dilated cardiomyopathy.",
+        "Diabetes mellitus and smoking."
+      ],
+      "signs_symptoms": [
+        "Exertional dyspnea progressing to rest.",
+        "Orthopnea and paroxysmal nocturnal dyspnea.",
+        "Peripheral edema, especially in ankles.",
+        "Fatigue and decreased exercise tolerance."
+      ],
+      "diagnostics": [
+        "Echocardiogram: ejection fraction <40% and ventricular dilation.",
+        "BNP or NT‑proBNP elevated (>100 pg/mL).",
+        "Chest X‑ray: cardiomegaly and interstitial edema.",
+        "Electrocardiogram: signs of hypertrophy or ischemia."
+      ],
+      "treatment": [
+        "ACE inhibitors (e.g., enalapril) or ARBs (losartan).",
+        "Cardioselective beta‑blockers (metoprolol succinate, carvedilol).",
+        "Aldosterone receptor antagonists (spironolactone).",
+        "Loop diuretics (furosemide) to control volume overload.",
+        "Cardiac resynchronization therapy or implantable defibrillator in selected cases."
+      ],
+      "complications": [
+        "Acute pulmonary edema.",
+        "Renal failure from low renal perfusion.",
+        "Ventricular arrhythmias and atrial fibrillation.",
+        "Systemic thromboembolism."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4 h; monitor BP, HR, and O₂ saturation.",
+        "Monitor daily weight; record >2 kg/48 h as a retention alert.",
+        "Position patient semi‑upright (30‑45°) to improve ventilation.",
+        "Administer diuretics as ordered and observe urine output.",
+        "Educate on sodium restriction (<2 g/day) and medication adherence."
+      ],
+      "patient_teaching": [
+        "Recognize worsening signs: increasing dyspnea, edema, weight gain.",
+        "Importance of low‑sodium diet and fluid control.",
+        "Take medications exactly as prescribed, do not miss doses.",
+        "Record daily weight and report changes to the health professional.",
+        "Maintain moderate physical activity as tolerated and per medical guidance."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "Reduced ejection fraction",
+          "Chronic hypertension",
+          "Myocardial ischemia"
+        ],
+        "evidenced_by": [
+          "Fatigue",
+          "Resting dyspnea",
+          "Peripheral edema",
+          "Rapid pulse"
+        ],
+        "outcomes": [
+          "Cardiac output: increase to >4 L/min in 48 h",
+          "Peripheral tissue perfusion: warm skin without cyanosis in 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess HR, BP, and O₂ saturation every 4 h",
+            "rationale": "Detect early hemodynamic deterioration"
+          },
+          {
+            "action": "Record daily weight and compare to baseline",
+            "rationale": "Identify fluid retention quickly"
+          },
+          {
+            "action": "Administer loop diuretic per prescription and monitor diuresis",
+            "rationale": "Reduce volume overload and improve output"
+          },
+          {
+            "action": "Educate patient on sodium restriction and medication adherence",
+            "rationale": "Decrease neurohormonal activation and improve cardiac function"
+          },
+          {
+            "action": "Collaborate with physician to adjust ACE inhibitor and beta‑blocker per response",
+            "rationale": "Optimize therapy that increases cardiac output"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Use of loop diuretics",
+          "Renal insufficiency",
+          "Hypovolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: K⁺ 3.5‑5.0 mEq/L in 72 h",
+          "Na⁺ 135‑145 mEq/L in 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes every 24 h while on diuretics",
+            "rationale": "Detect early alterations"
+          },
+          {
+            "action": "Assess signs of hypokalemia (muscle weakness, arrhythmias)",
+            "rationale": "Prevent cardiac complications"
+          },
+          {
+            "action": "Administer oral or IV potassium supplement as indicated",
+            "rationale": "Maintain K⁺ within therapeutic range"
+          },
+          {
+            "action": "Instruct patient on potassium‑rich foods (banana, potatoes)",
+            "rationale": "Dietary support to stabilize K⁺"
+          },
+          {
+            "action": "Monitor fluid intake and output to avoid hypovolemia",
+            "rationale": "Preserve renal perfusion and Na⁺ balance"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "systolic-dysfunction",
+    "pulmonary-edema",
+    "ace-inhibitors",
+    "beta-blockers"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Heart Failure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/19-1-heart-failure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Heart Failure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-3-heart-failure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-15",
+  "factcheck": {
+    "checked": "2026-11-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 21,
+      "contradicted": 2,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Conversely, patients with ejection fractions less than 40 percent have a higher risk for developing serious dysrhythmias.",
+        "source": 1
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Type of Heart Failure Criteria Heart failure with reduced ejection fraction (HFrEF) Left ventricular ejection fraction ≤40%",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The classic presentation of HF includes lower extremity edema, weight gain, cough, sputum production, and alterations in hemodynamics.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Pharmacological agents utilized in the treatment of HF include beta-blockers, diuretics, ACE inhibitor s/ARBs, and nitrates.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "A sodium-restricted diet (less than 2000 mg of sodium per day) may help maintain euvolemia (normal blood volume) and prevent clients from becoming overloaded with fluid (which presents as pitting edema in the extremities, abdominal edema, and/or pulmonary edema).",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "There are multiple causes of HFrEF, including coronary artery disease and acute myocardial infarction (AMI).",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Symptoms associated with heart failure include shortness of breath, edema, exercise intolerance, and fatigue.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "Normal levels of BNP should be less than 100 pg/mL, and may increase slightly due to age, but assessing levels along with the clinical presentations assists the nurse to evaluate the patient’s response to treatment.",
+        "source": 1
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "If the patient is experiencing an acute exacerbation of HF, chest X-rays assist with identifying pulmonary edema or cardiomegaly , which means ventricular enlargement to accommodate excess fluid ( Figure 12.20 ).",
+        "source": 1
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Class Drug Dosing ACE inhibitor Lisinopril 2.5/5/10/20/40 mg per day Benazepril 10/20/40 mg per day Enalapril 2.5/5/10/20 mg per day Captopril 6.25-12.5 mg PO every 8 hours Angiotensin-receptor blocker Losartan 25/50/100 mg per day Valsartan 40/80/160/320 mg per day Irbesartan 150/300 mg per day Olmesartan 10/20/40 mg per day Table 12.3 Common ACE",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "contradicted",
+        "quote": "Cardio-selective beta-blockers such as metoprolol work exclusively on the beta (1) sites in the heart, whereas carvedilol, a nonselective beta-blocker, works on both beta (1) and beta (2) sites.",
+        "source": 1
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Considered preload reducers, potent diuretics such as furosemide work on the loop of Henle and increase fluid excretion.",
+        "source": 1
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "If the patient is experiencing an acute exacerbation of HF, chest X-rays assist with identifying pulmonary edema or cardiomegaly , which means ventricular enlargement to accommodate excess fluid ( Figure 12.20 ).",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "contradicted",
+        "quote": "Notify their health care provider if their weight fluctuates 2 pounds in one day or 5 pounds in one week.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The patient’s response to diuretic therapy is monitored by daily weights, adhering to strict intake and output.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "The classic presentation of HF includes lower extremity edema, weight gain, cough, sputum production, and alterations in hemodynamics.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "A sodium-restricted diet (less than 2000 mg of sodium per day) may help maintain euvolemia (normal blood volume) and prevent clients from becoming overloaded with fluid (which presents as pitting edema in the extremities, abdominal edema, and/or pulmonary edema).",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Take heart failure medications as prescribed by their health care provider.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Monitor their weight daily or as directed by the health care provider and keep a record.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Clients with heart failure often experience shortness of breath and fatigue with exercise; however, they should be encouraged to exercise as much as they are able.",
+        "source": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,538 @@
+{
+  "id": "gastric-cancer",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Cáncer gástrico (CG)",
+    "aliases": [
+      "cancer gastrico",
+      "cáncer gástrico",
+      "cancer estomago",
+      "cáncer estomacal",
+      "cancer estomacal",
+      "cáncer de estómago"
+    ],
+    "summary": "Neoplasia maligna del estómago que suele presentarse en adultos mayores y se asocia a infección por H. pylori, dieta y tabaquismo.",
+    "key_points": [
+      "Mayor incidencia en mayores de 65 años y en hombres.",
+      "H. pylori y dieta alta en sal son factores modificables.",
+      "Síntomas iniciales inespecíficos: dispepsia, pérdida de peso.",
+      "Diagnóstico definitivo por endoscopia con biopsia.",
+      "Tratamiento multimodal: cirugía, quimio y radioterapia.",
+      "Complicaciones frecuentes: sangrado, obstrucción y metástasis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infección crónica por Helicobacter pylori → gastritis crónica.",
+        "Daño epitelial → metaplasia intestinal y displasia.",
+        "Acumulación de mutaciones genéticas (p53, CDH1) conduce a carcinoma.",
+        "Crecimiento tumoral invade mucosa, submucosa y capas más profundas."
+      ],
+      "risk_factors": [
+        "Infección previa por H. pylori.",
+        "Consumo frecuente de alimentos salados, ahumados o encurtidos.",
+        "Tabaquismo y consumo de alcohol.",
+        "Edad > 65 años y sexo masculino.",
+        "Historia familiar de cáncer gástrico."
+      ],
+      "signs_symptoms": [
+        "Dispepsia y dolor epigástrico persistente.",
+        "Náuseas, vómitos y pérdida de apetito.",
+        "Pérdida de peso no intencional (>5 %).",
+        "Hematoquecia o sangre oculta en heces.",
+        "Ictericia y disfagia en etapas avanzadas."
+      ],
+      "diagnostics": [
+        "Endoscopia digestiva alta con biopsia histológica (células malignas).",
+        "Tomografía axial computarizada para estadificación.",
+        "Marcadores tumorales: CEA y CA 19‑9 (elevados en algunos casos).",
+        "Hemograma: anemia microcítica por sangrado crónico.",
+        "Prueba de aliento o serología para H. pylori."
+      ],
+      "treatment": [
+        "Gastrectomía parcial o total según estadio.",
+        "Quimioterapia neoadyuvante o adyuvante (cisplatino, fluorouracilo).",
+        "Radioterapia en casos de resección incompleta o metástasis locales.",
+        "Terapia dirigida (trastuzumab si HER2+).",
+        "Cuidados paliativos para dolor y control de síntomas."
+      ],
+      "complications": [
+        "Hemorragia gastrointestinal aguda.",
+        "Obstrucción gástrica por masa tumoral.",
+        "Metástasis hepáticas, peritoneales o linfáticas.",
+        "Desnutrición y pérdida de masa muscular.",
+        "Anemia por sangrado crónico."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y signos de sangrado (hematoquecia, melena).",
+        "Evaluar dolor abdominal y administrar analgésicos según prescripción.",
+        "Controlar náuseas y vómitos; ofrecer antieméticos y pequeñas tomas frecuentes.",
+        "Registrar ingesta y salida; mantener balance hídrico ≥1500 mL/día.",
+        "Observar estado nutricional; colaborar con nutricionista para dietas altas en proteínas.",
+        "Preparar al paciente para procedimientos diagnósticos y quirúrgicos."
+      ],
+      "patient_teaching": [
+        "Seguir dieta baja en sal, evitar alimentos ahumados y encurtidos.",
+        "Eliminar el consumo de tabaco y reducir alcohol.",
+        "Tomar la medicación completa (quimio, antibióticos contra H. pylori).",
+        "Reconocer signos de alarma: sangrado, vómitos persistentes, pérdida de peso rápida.",
+        "Importancia de acudir a controles de seguimiento y pruebas de imagen."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos",
+          "Pérdida de apetito",
+          "Hemorragia gastrointestinal",
+          "Diarrea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta oral ≥1500 mL/día durante 48 h.",
+          "Peso: mantener peso estable (+/- 2 kg) en 1 semana."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida cada 4 h y registrar en hoja de control.",
+            "rationale": "Permite detectar desequilibrio hídrico temprano."
+          },
+          {
+            "action": "Ofrecer líquidos claros en pequeñas cantidades cada 30 min si hay náuseas.",
+            "rationale": "Facilita la tolerancia y previene deshidratación."
+          },
+          {
+            "action": "Monitorear signos de deshidratación (turgor, mucosas, frecuencia cardíaca).",
+            "rationale": "Identifica rápidamente la necesidad de reposición intravenosa."
+          },
+          {
+            "action": "Administrar antieméticos según orden médica antes de ofrecer líquidos.",
+            "rationale": "Reduce náuseas y mejora la ingesta oral."
+          },
+          {
+            "action": "Educar al paciente y familia sobre la importancia de mantener hidratación adecuada.",
+            "rationale": "Promueve la adherencia al plan de cuidados."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "Cáncer gástrico avanzado",
+          "Anemia",
+          "Desnutrición"
+        ],
+        "evidenced_by": [
+          "Cansancio constante",
+          "Disminución de la actividad diaria",
+          "Pérdida de peso"
+        ],
+        "outcomes": [
+          "Nivel de energía: paciente reporta aumento a ≥4/10 en escala de 0‑10 en 5 días.",
+          "Actividad: realiza actividades de la vida diaria con mínima ayuda en 1 semana."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y patrones de sueño cada turno.",
+            "rationale": "Provee datos para ajustar intervenciones y medir progreso."
+          },
+          {
+            "action": "Planificar actividades en bloques de 20‑30 min con descansos programados.",
+            "rationale": "Previene el agotamiento y conserva energía."
+          },
+          {
+            "action": "Promover una dieta rica en proteínas y calorías según indicación nutricional.",
+            "rationale": "Mejora el estado nutricional y reduce la fatiga."
+          },
+          {
+            "action": "Administrar suplementos de hierro si está indicado por laboratorio.",
+            "rationale": "Corrige anemia que contribuye a la fatiga."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse al vestirse, usar apoyos).",
+            "rationale": "Facilita la realización de actividades cotidianas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastric cancer (GC)",
+    "aliases": [
+      "gastric cancer",
+      "cancer gastrico",
+      "cancer estomago",
+      "cancer estomacal",
+      "cancer de estómago"
+    ],
+    "summary": "Malignant neoplasm of the stomach that usually presents in older adults and is associated with H. pylori infection, diet, and smoking.",
+    "key_points": [
+      "Higher incidence in men over 65.",
+      "H. pylori and high-salt diet are modifiable factors.",
+      "Early nonspecific symptoms: dyspepsia, weight loss.",
+      "Definitive diagnosis by endoscopy with biopsy.",
+      "Multimodal treatment: surgery, chemotherapy, and radiotherapy.",
+      "Common complications: bleeding, obstruction, and metastasis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic Helicobacter pylori infection → chronic gastritis.",
+        "Epithelial damage → intestinal metaplasia and dysplasia.",
+        "Accumulation of genetic mutations (p53, CDH1) leads to carcinoma.",
+        "Tumor growth invades mucosa, submucosa, and deeper layers."
+      ],
+      "risk_factors": [
+        "Previous H. pylori infection.",
+        "Frequent consumption of salty, smoked, or pickled foods.",
+        "Smoking and alcohol use.",
+        "Age > 65 and male sex.",
+        "Family history of gastric cancer."
+      ],
+      "signs_symptoms": [
+        "Persistent dyspepsia and epigastric pain.",
+        "Nausea, vomiting, and loss of appetite.",
+        "Unintentional weight loss >5 %.",
+        "Hematocele or occult blood in stool.",
+        "Jaundice and dysphagia in advanced stages."
+      ],
+      "diagnostics": [
+        "Upper endoscopy with histologic biopsy (malignant cells).",
+        "CT scan for staging.",
+        "Tumor markers: CEA and CA 19‑9 (elevated in some cases).",
+        "CBC: microcytic anemia from chronic bleeding.",
+        "Breath test or serology for H. pylori."
+      ],
+      "treatment": [
+        "Partial or total gastrectomy depending on stage.",
+        "Neoadjuvant or adjuvant chemotherapy (cisplatin, fluorouracil).",
+        "Radiotherapy for incomplete resection or local metastasis.",
+        "Targeted therapy (trastuzumab if HER2+).",
+        "Palliative care for pain and symptom control."
+      ],
+      "complications": [
+        "Acute gastrointestinal bleeding.",
+        "Gastric obstruction from tumor mass.",
+        "Hepatic, peritoneal, or lymphatic metastases.",
+        "Malnutrition and muscle wasting.",
+        "Anemia from chronic bleeding."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and signs of bleeding (hematochezia, melena).",
+        "Assess abdominal pain and administer analgesics per prescription.",
+        "Control nausea and vomiting; provide antiemetics and frequent small meals.",
+        "Record intake and output; maintain fluid balance ≥1500 mL/day.",
+        "Observe nutritional status; collaborate with dietitian for high-protein diets.",
+        "Prepare patient for diagnostic and surgical procedures."
+      ],
+      "patient_teaching": [
+        "Follow a low-salt diet, avoid smoked and pickled foods.",
+        "Eliminate tobacco use and reduce alcohol.",
+        "Take full medication regimen (chemotherapy, H. pylori antibiotics).",
+        "Recognize alarm signs: bleeding, persistent vomiting, rapid weight loss.",
+        "Importance of attending follow-up appointments and imaging tests."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Vomiting",
+          "Loss of appetite",
+          "Gastrointestinal bleeding",
+          "Diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: oral intake ≥1500 mL/day for 48 h.",
+          "Weight: maintain stable weight (+/- 2 kg) in 1 week."
+        ],
+        "interventions": [
+          {
+            "action": "Assess intake and output every 4 h and record on control sheet.",
+            "rationale": "Allows early detection of fluid imbalance."
+          },
+          {
+            "action": "Offer clear fluids in small amounts every 30 min if nausea is present.",
+            "rationale": "Facilitates tolerance and prevents dehydration."
+          },
+          {
+            "action": "Monitor signs of dehydration (turgor, mucous membranes, heart rate).",
+            "rationale": "Identifies need for IV replacement promptly."
+          },
+          {
+            "action": "Administer antiemetics per order before offering fluids.",
+            "rationale": "Reduces nausea and improves oral intake."
+          },
+          {
+            "action": "Educate patient and family on importance of adequate hydration.",
+            "rationale": "Promotes adherence to care plan."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "Advanced gastric cancer",
+          "Anemia",
+          "Malnutrition"
+        ],
+        "evidenced_by": [
+          "Constant tiredness",
+          "Reduced daily activity",
+          "Weight loss"
+        ],
+        "outcomes": [
+          "Energy level: patient reports increase to ≥4/10 on 0‑10 scale within 5 days.",
+          "Activity: performs ADLs with minimal assistance in 1 week."
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and sleep patterns each shift.",
+            "rationale": "Provides data to adjust interventions and measure progress."
+          },
+          {
+            "action": "Plan activities in 20‑30 min blocks with scheduled breaks.",
+            "rationale": "Prevents exhaustion and conserves energy."
+          },
+          {
+            "action": "Promote a protein- and calorie-rich diet per nutrition recommendation.",
+            "rationale": "Improves nutritional status and reduces fatigue."
+          },
+          {
+            "action": "Administer iron supplements if indicated by labs.",
+            "rationale": "Corrects anemia contributing to fatigue."
+          },
+          {
+            "action": "Teach energy conservation techniques (sit while dressing, use supports).",
+            "rationale": "Facilitates daily activities."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "helicobacter-pylori-infection",
+    "weight-loss",
+    "anemia",
+    "gastric-obstruction",
+    "metastasis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Stomach Cancer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/stomachcancer.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Cancer of the Breast",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/8-2-cancer-of-the-breast",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Leading Causes of Death and Health Screenings",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/3-2-leading-causes-of-death-and-health-screenings",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-15",
+  "factcheck": {
+    "checked": "2026-11-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 48
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Stomach cancer mostly affects older people - two-thirds of people who have it are over age 65."
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Your risk of getting it is also higher if you: Have had a Helicobacter pylori infection Have had stomach inflammation Are a man Eat lots of salted, smoked, or pickled foods Smoke cigarettes Have a family history of stomach cancer It is hard to diagnose stomach cancer in its early stages.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Indigestion and stomach discomfort can be symptoms of early cancer, but other problems can cause the same symptoms.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Doctors diagnose stomach cancer with a physical exam, blood and imaging tests, an endoscopy, and a biopsy.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Treatment options include surgery, chemotherapy, radiation or a combination.",
+        "source": 0
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Your risk of getting it is also higher if you: Have had a Helicobacter pylori infection Have had stomach inflammation Are a man Eat lots of salted, smoked, or pickled foods Smoke cigarettes Have a family history of stomach cancer It is hard to diagnose stomach cancer in its early stages.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Your risk of getting it is also higher if you: Have had a Helicobacter pylori infection Have had stomach inflammation Are a man Eat lots of salted, smoked, or pickled foods Smoke cigarettes Have a family history of stomach cancer It is hard to diagnose stomach cancer in its early stages.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Modifiable risk factors include smoking, having excess body weight, drinking alcohol, and eating an unhealthy diet.",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Stomach cancer mostly affects older people - two-thirds of people who have it are over age 65."
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Your risk of getting it is also higher if you: Have had a Helicobacter pylori infection Have had stomach inflammation Are a man Eat lots of salted, smoked, or pickled foods Smoke cigarettes Have a family history of stomach cancer It is hard to diagnose stomach cancer in its early stages.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Because these medications work on rapidly dividing cells, their side effects include hair loss, nausea/vomiting, fatigue, diarrhea, hot flashes, loss of appetite or weight loss, and mouth sores.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "In advanced cases, there may be blood in your stool, vomiting, unexplained weight loss, jaundice, or trouble swallowing.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "In addition to clinical nursing interventions involved in patient care, such as preparing for surgery and prepping for and assisting during diagnostic testing, the nurse must provide patient education and emotional support.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "In advanced cases, there may be blood in your stool, vomiting, unexplained weight loss, jaundice, or trouble swallowing.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

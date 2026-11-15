@@ -1,0 +1,196 @@
+{
+  "id": "serotonin-release-assay",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Serotonin release assay (SRA)",
+    "aliases": [
+      "serotonin release assay",
+      "sra",
+      "ensayo de liberación de serotonina",
+      "prueba de hit",
+      "assay"
+    ],
+    "summary": "Prueba funcional que detecta anticuerpos contra el complejo heparina‑PF4 mediante liberación de serotonina de plaquetas.",
+    "key_points": [
+      "Es el método de referencia para confirmar el síndrome de trombocitopenia inducida por heparina (HIT).",
+      "Resultado positivo indica activación plaquetaria >20 % y alto riesgo de trombosis.",
+      "Se realiza con sangre citratada y requiere procesamiento rápido para evitar activación espontánea.",
+      "Un resultado negativo no descarta completamente HIT; se interpreta con la prueba ELISA y la escala 4T."
+    ],
+    "sections": {
+      "normal_values": [
+        "Resultado negativo: <1 % de liberación de serotonina (ausencia de activación plaquetaria)."
+      ],
+      "high_values": [
+        "Resultado positivo: >20 % de liberación, sugiere HIT.",
+        "Causas: exposición a heparina (UFH o LMWH) y anticuerpos anti‑PF4.",
+        "Signos clínicos: caída del recuento plaquetario ≥50 % y trombosis venosa o arterial."
+      ],
+      "specimen": [
+        "Muestra de sangre completa en tubo de citrato 3.2 % (vacutainer azul).",
+        "Obtener antes de iniciar heparina o al menos 30 min después de la última dosis.",
+        "Mantener a 22‑24 °C y procesar dentro de 2 h; centrifugar suavemente.",
+        "No usar tubos EDTA ni heparina; evitar agitación vigorosa.",
+        "Errores comunes: retraso en el procesamiento y uso de anticoagulante inadecuado."
+      ],
+      "nursing_care": [
+        "Notificar inmediatamente resultados positivos al médico.",
+        "Suspender heparina y preparar anticoagulante alternativo (argatrobán, bivalirudina).",
+        "Monitorear recuento de plaquetas cada 24 h y tendencia.",
+        "Evaluar signos de sangrado (hemorragia, petequias) y de trombosis.",
+        "Educar al paciente sobre síntomas de sangrado y la necesidad de evitar injertos de sangre.",
+        "Revisar otros fármacos que puedan afectar la coagulación (antiplaquetarios, anticoagulantes)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "terapia con heparina",
+          "anticuerpos anti‑PF4 positivos",
+          "cirugía reciente",
+          "inmovilización prolongada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasis: mantener recuento de plaquetas >150,000 /µL",
+          "Hemostasis: ausencia de sangrado visible durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear recuento de plaquetas cada 24 h y registrar tendencias.",
+            "rationale": "Detectar rápidamente una caída que indique posible HIT."
+          },
+          {
+            "action": "Suspender heparina y notificar al médico para iniciar anticoagulación alternativa.",
+            "rationale": "Prevenir progresión de trombosis y empeoramiento de la trombocitopenia."
+          },
+          {
+            "action": "Evaluar signos de sangrado (hemorragia, petequias, hematomas) en cada visita.",
+            "rationale": "Identificar complicaciones hemorrágicas tempranas."
+          },
+          {
+            "action": "Educar al paciente sobre signos de sangrado y cuándo buscar ayuda.",
+            "rationale": "Facilitar la detección precoz fuera del entorno hospitalario."
+          },
+          {
+            "action": "Revisar y documentar todos los medicamentos que puedan afectar la coagulación.",
+            "rationale": "Evitar interacciones que aumenten el riesgo de sangrado."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Serotonin release assay (SRA)",
+    "aliases": [
+      "serotonin release assay",
+      "sra",
+      "hit test",
+      "assay"
+    ],
+    "summary": "Functional test that detects antibodies against the heparin‑PF4 complex by measuring serotonin release from platelets.",
+    "key_points": [
+      "It is the reference method to confirm heparin‑induced thrombocytopenia (HIT).",
+      "A positive result indicates platelet activation >20 % and a high risk of thrombosis.",
+      "It is performed with citrated blood and requires rapid processing to avoid spontaneous activation.",
+      "A negative result does not completely rule out HIT; it is interpreted with the ELISA test and the 4T score."
+    ],
+    "sections": {
+      "normal_values": [
+        "Negative result: <1 % serotonin release (absence of platelet activation)."
+      ],
+      "high_values": [
+        "Positive result: >20 % release, suggesting HIT.",
+        "Causes: exposure to heparin (UFH or LMWH) and anti‑PF4 antibodies.",
+        "Clinical signs: platelet count drop ≥50 % and venous or arterial thrombosis."
+      ],
+      "specimen": [
+        "Whole blood sample in 3.2 % citrate tube (blue top).",
+        "Obtain before starting heparin or at least 30 min after the last dose.",
+        "Keep at 22‑24 °C and process within 2 h; centrifuge gently.",
+        "Do not use EDTA or heparin tubes; avoid vigorous agitation.",
+        "Common errors: delayed processing and use of inappropriate anticoagulant."
+      ],
+      "nursing_care": [
+        "Notify the physician immediately of positive results.",
+        "Discontinue heparin and prepare an alternative anticoagulant (argatroban, bivalirudin).",
+        "Monitor platelet count every 24 h and track trends.",
+        "Assess for bleeding signs (hemorrhage, petechiae) and thrombosis.",
+        "Educate the patient about bleeding symptoms and the need to avoid blood transfusions.",
+        "Review other medications that may affect coagulation (antiplatelets, anticoagulants)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "heparin therapy",
+          "positive anti‑PF4 antibodies",
+          "recent surgery",
+          "prolonged immobilization"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasis: maintain platelet count >150,000 /µL",
+          "Hemostasis: no visible bleeding during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor platelet count every 24 h and record trends.",
+            "rationale": "Detect a rapid drop indicating possible HIT."
+          },
+          {
+            "action": "Discontinue heparin and notify the physician to initiate alternative anticoagulation.",
+            "rationale": "Prevent progression of thrombosis and worsening thrombocytopenia."
+          },
+          {
+            "action": "Assess for bleeding signs (hemorrhage, petechiae, bruising) at each visit.",
+            "rationale": "Identify early hemorrhagic complications."
+          },
+          {
+            "action": "Educate the patient about bleeding signs and when to seek help.",
+            "rationale": "Facilitate early detection outside the hospital setting."
+          },
+          {
+            "action": "Review and document all medications that may affect coagulation.",
+            "rationale": "Avoid interactions that increase bleeding risk."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heparin-induced-thrombocytopenia",
+    "platelet-activation",
+    "anticoagulation-therapy"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antidepressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-1-antidepressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anti-Parkinsonian Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/11-2-anti-parkinsonian-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-15"
+}

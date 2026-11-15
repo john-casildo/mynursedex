@@ -1,0 +1,455 @@
+{
+  "id": "malt-lymphoma",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Linfoma MALT",
+    "aliases": [
+      "linfoma malt",
+      "linfoma mucosa asociado",
+      "linfoma marginal",
+      "linfoma del tejido linfoide"
+    ],
+    "summary": "Linfoma de zona marginal extranodal (MALT) es un linfoma B de bajo grado asociado a estimulación crónica, frecuentemente por Helicobacter pylori.",
+    "key_points": [
+      "Se origina en tejido linfoide asociado a mucosas (estómago, glándulas salivales, tiroides).",
+      "Infección por H. pylori y enfermedades autoinmunes son factores de riesgo principales.",
+      "El diagnóstico se confirma con biopsia y marcadores inmunohistoquímicos (CD20+, CD5‑, CD10‑).",
+      "El tratamiento de primera línea suele ser erradicación de H. pylori; radioterapia o rituximab en casos avanzados."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infección crónica (p. ej., H. pylori) produce estimulación antigénica persistente.",
+        "Activación y proliferación de linfocitos B marginales en la mucosa.",
+        "Acumulación de clones B neoplásicos forma tejido linfoide marginal (MALT).",
+        "Translocación t(11;18)(q21;q21) puede impedir la apoptosis y favorecer el crecimiento tumoral."
+      ],
+      "risk_factors": [
+        "Infección por Helicobacter pylori.",
+        "Enfermedades autoinmunes (síndrome de Sjögren, tiroiditis de Hashimoto).",
+        "Inmunosupresión (transplante, VIH).",
+        "Edad > 50 años y exposición a agentes inflamatorios crónicos."
+      ],
+      "signs_symptoms": [
+        "Dolor o molestia epigástrica, dispepsia y pérdida de peso (cuando afecta estómago).",
+        "Masa indolora en glándulas salivales o tiroides.",
+        "Anemia por sangrado gastrointestinal oculto.",
+        "Síntomas locales según el órgano involucrado (obstrucción, disfonía)."
+      ],
+      "diagnostics": [
+        "Endoscopia con biopsia y estudio histológico.",
+        "Inmunohistoquímica: CD20+, CD5‑, CD10‑, BCL2+.",
+        "Prueba de aliento o serología para H. pylori.",
+        "TC o PET-CT para estadificación; LDH y hemograma de rutina."
+      ],
+      "treatment": [
+        "Erradicación de H. pylori (amoxicilina + claritromicina + inhibidor de bomba de protones).",
+        "Radioterapia local (30‑36 Gy) para enfermedad localizada.",
+        "Quimioterapia con rituximab ± bendamustina en enfermedad avanzada.",
+        "Cirugía reservada para complicaciones estructurales."
+      ],
+      "complications": [
+        "Transformación a linfoma de alto grado.",
+        "Úlcera gástrica, sangrado o perforación.",
+        "Obstrucción intestinal o biliar según localización.",
+        "Efectos adversos de quimioterapia (neutropenia, infección)."
+      ],
+      "nursing_care": [
+        "Evaluar dolor abdominal, tolerancia a la alimentación y signos de sangrado.",
+        "Monitorear temperatura, recuento de leucocitos y parámetros de función hepática/renal.",
+        "Administrar antibióticos para erradicación de H. pylori según prescripción.",
+        "Educar sobre signos de infección y sangrado gastrointestinal.",
+        "Apoyar nutrición adecuada; ofrecer dietas blandas si hay dispepsia."
+      ],
+      "patient_teaching": [
+        "Completar el esquema completo de antibióticos aunque mejore el síntoma.",
+        "Evitar alimentos irritantes (picantes, alcohol, cafeína) durante el tratamiento.",
+        "Reportar sangrado rectal, vómito con sangre o fiebre persistente.",
+        "Programar controles endoscópicos y de laboratorio según indicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "inmunosupresión",
+          "quimioterapia",
+          "radioterapia",
+          "lesión mucosa gástrica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Riesgo de infección reducido a < 5% durante el episodio de tratamiento",
+          "Temperatura corporal mantenida ≤ 37.5°C"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales cada 4 h, enfocándose en temperatura y frecuencia respiratoria.",
+            "rationale": "Detección temprana de fiebre permite intervención oportuna."
+          },
+          {
+            "action": "Mantener higiene de manos y uso de guantes al manipular dispositivos invasivos.",
+            "rationale": "Previene la transmisión de microorganismos al paciente inmunocomprometido."
+          },
+          {
+            "action": "Monitorear recuento de leucocitos y neutrófilos cada 48 h durante quimioterapia.",
+            "rationale": "Identifica neutropenia que aumenta el riesgo de infección."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de infección (fiebre, escalofríos, secreciones purulentas).",
+            "rationale": "Facilita la notificación temprana y el inicio de tratamiento."
+          },
+          {
+            "action": "Asegurar ambiente limpio, ventilado y libre de polvo en la habitación.",
+            "rationale": "Reduce exposición a patógenos ambientales."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "fatiga",
+          "dolor abdominal",
+          "anemia"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad aumentada a caminar 30 min sin disnea",
+          "Nivel de energía mejorado a 4/5 en escala de valoración"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y capacidad funcional usando escala de Borg antes y después de actividades.",
+            "rationale": "Proporciona línea base para medir progreso."
+          },
+          {
+            "action": "Planificar actividades de bajo impacto (caminar 5‑10 min) y aumentar gradualmente la duración.",
+            "rationale": "Mejora la resistencia sin provocar agotamiento."
+          },
+          {
+            "action": "Coordinar con nutricionista para asegurar ingesta calórica y de hierro adecuada.",
+            "rationale": "Corrige anemia y favorece la energía."
+          },
+          {
+            "action": "Administrar analgesia según prescripción antes de actividades que provoquen dolor.",
+            "rationale": "Control del dolor permite mayor participación en la actividad."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática para reducir disnea durante el ejercicio.",
+            "rationale": "Optimiza la oxigenación y disminuye la sensación de falta de aire."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "MALT lymphoma",
+    "aliases": [
+      "malt lymphoma",
+      "mucosa-associated lymphoid tissue lymphoma",
+      "marginal zone lymphoma",
+      "lymphoid tissue lymphoma"
+    ],
+    "summary": "Extranodal marginal zone lymphoma (MALT) is a low‑grade B‑cell lymphoma associated with chronic stimulation, frequently by Helicobacter pylori.",
+    "key_points": [
+      "It originates in mucosa‑associated lymphoid tissue (stomach, salivary glands, thyroid).",
+      "H. pylori infection and autoimmune diseases are the main risk factors.",
+      "Diagnosis is confirmed with biopsy and immunohistochemical markers (CD20+, CD5‑, CD10‑).",
+      "First‑line treatment is usually eradication of H. pylori; radiotherapy or rituximab in advanced cases."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic infection (e.g., H. pylori) causes persistent antigenic stimulation.",
+        "Activation and proliferation of marginal zone B cells in the mucosa.",
+        "Accumulation of neoplastic B clones forms marginal zone lymphoid tissue (MALT).",
+        "Translocation t(11;18)(q21;q21) can inhibit apoptosis and promote tumor growth."
+      ],
+      "risk_factors": [
+        "Helicobacter pylori infection.",
+        "Autoimmune diseases (Sjögren syndrome, Hashimoto thyroiditis).",
+        "Immunosuppression (transplant, HIV).",
+        "Age > 50 years and exposure to chronic inflammatory agents."
+      ],
+      "signs_symptoms": [
+        "Epigastric pain or discomfort, dyspepsia, and weight loss (when stomach is involved).",
+        "Painless mass in salivary glands or thyroid.",
+        "Anemia from occult gastrointestinal bleeding.",
+        "Local symptoms depending on the involved organ (obstruction, dysphonia)."
+      ],
+      "diagnostics": [
+        "Endoscopy with biopsy and histologic examination.",
+        "Immunohistochemistry: CD20+, CD5‑, CD10‑, BCL2+.",
+        "Breath test or serology for H. pylori.",
+        "CT or PET‑CT for staging; routine LDH and CBC."
+      ],
+      "treatment": [
+        "H. pylori eradication (amoxicillin + clarithromycin + proton‑pump inhibitor).",
+        "Local radiotherapy (30‑36 Gy) for localized disease.",
+        "Chemotherapy with rituximab ± bendamustine in advanced disease.",
+        "Surgery reserved for structural complications."
+      ],
+      "complications": [
+        "Transformation to high‑grade lymphoma.",
+        "Gastric ulcer, bleeding or perforation.",
+        "Intestinal or biliary obstruction depending on location.",
+        "Chemotherapy adverse effects (neutropenia, infection)."
+      ],
+      "nursing_care": [
+        "Assess abdominal pain, tolerance to eating, and signs of bleeding.",
+        "Monitor temperature, white blood cell count, and liver/renal function parameters.",
+        "Administer antibiotics for H. pylori eradication as prescribed.",
+        "Educate on signs of infection and gastrointestinal bleeding.",
+        "Support adequate nutrition; offer soft diets if dyspepsia is present."
+      ],
+      "patient_teaching": [
+        "Complete the full antibiotic regimen even if symptoms improve.",
+        "Avoid irritating foods (spicy, alcohol, caffeine) during treatment.",
+        "Report rectal bleeding, vomiting with blood, or persistent fever.",
+        "Schedule endoscopic and laboratory follow‑ups as indicated."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "immunosuppression",
+          "chemotherapy",
+          "radiotherapy",
+          "gastric mucosal injury"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection risk reduced to <5% during the treatment episode",
+          "Body temperature maintained ≤37.5 °C"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs every 4 h, focusing on temperature and respiratory rate.",
+            "rationale": "Early detection of fever allows timely intervention."
+          },
+          {
+            "action": "Maintain hand hygiene and use gloves when handling invasive devices.",
+            "rationale": "Prevents transmission of microorganisms to the immunocompromised patient."
+          },
+          {
+            "action": "Monitor white blood cell and neutrophil counts every 48 h during chemotherapy.",
+            "rationale": "Identifies neutropenia that increases infection risk."
+          },
+          {
+            "action": "Educate patient and family on infection signs (fever, chills, purulent secretions).",
+            "rationale": "Facilitates early notification and treatment initiation."
+          },
+          {
+            "action": "Ensure a clean, ventilated, dust‑free environment in the room.",
+            "rationale": "Reduces exposure to environmental pathogens."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "fatigue",
+          "abdominal pain",
+          "anemia"
+        ],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Activity tolerance increased to walking 30 min without dyspnea",
+          "Energy level improved to 4/5 on the assessment scale"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and functional capacity using the Borg scale before and after activities.",
+            "rationale": "Provides a baseline to measure progress."
+          },
+          {
+            "action": "Plan low‑impact activities (walk 5‑10 min) and gradually increase duration.",
+            "rationale": "Improves endurance without causing exhaustion."
+          },
+          {
+            "action": "Coordinate with a dietitian to ensure adequate caloric and iron intake.",
+            "rationale": "Corrects anemia and promotes energy."
+          },
+          {
+            "action": "Administer analgesia as prescribed before activities that cause pain.",
+            "rationale": "Pain control allows greater participation in activity."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques to reduce dyspnea during exercise.",
+            "rationale": "Optimizes oxygenation and decreases the sensation of shortness of breath."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "extranodal-marginal-zone-lymphoma",
+    "helicobacter-pylori-infection",
+    "autoimmune-disease",
+    "rituximab",
+    "gastric-ulcer"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Oncological Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/31-1-oncological-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Sexually Transmitted Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/7-1-sexually-transmitted-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-15",
+  "factcheck": {
+    "checked": "2026-11-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 37,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "During this time, the risk increases for side effects such as bleeding due to thrombocytopenia and infection related to neutropenia .",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

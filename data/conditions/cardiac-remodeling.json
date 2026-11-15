@@ -1,0 +1,467 @@
+{
+  "id": "cardiac-remodeling",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Remodelado cardíaco (RC)",
+    "aliases": [
+      "remodelado cardiaco",
+      "remodelado",
+      "cardiac remodeling",
+      "rc"
+    ],
+    "summary": "Alteración estructural y funcional del ventrículo tras lesión o sobrecarga, que lleva a dilatación y disfunción sistólica.",
+    "key_points": [
+      "Resultado de infarto, hipertensión o valvulopatía crónica.",
+      "Implica aumento de masa miocárdica y dilatación ventricular.",
+      "Conduce a insuficiencia cardíaca y arritmias.",
+      "ACE‑I, ARB y betabloqueadores ralentizan o revierten el proceso.",
+      "Ecocardiografía y resonancia magnética son pruebas de referencia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lesión miocárdica o sobrecarga aumenta la tensión mecánica y neurohormonal.",
+        "Activación del sistema renina‑angiotensina‑aldosterona y catecolaminas.",
+        "Estimula fibroblastos y síntesis de colágeno, provocando fibrosis.",
+        "Hipertrofia y dilatación del ventrículo izquierdo reducen la contractilidad."
+      ],
+      "risk_factors": [
+        "Infarto agudo de miocardio (IAM).",
+        "Hipertensión arterial crónica.",
+        "Valvulopatías (estenosis o insuficiencia).",
+        "Diabetes mellitus y tabaquismo."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo progresiva.",
+        "Edema periférico y ascitis.",
+        "Fatiga y disminución de la tolerancia al ejercicio.",
+        "Palpitaciones por arritmias ventriculares."
+      ],
+      "diagnostics": [
+        "Ecocardiograma: fracción de eyección <50% y aumento de diámetro diastólico.",
+        "Resonancia magnética cardíaca: cuantifica fibrosis y volúmenes.",
+        "BNP o NT‑proBNP elevados (>100 pg/mL).",
+        "Radiografía de tórax: cardiomegalia y congestión pulmonar."
+      ],
+      "treatment": [
+        "Inhibidores de la ECA (ej. enalapril) o ARB (losartán).",
+        "Betabloqueadores (metoprolol, carvedilol).",
+        "Antagonistas de aldosterona (espironolactona).",
+        "Modificación de estilo de vida: dieta baja en sodio, ejercicio supervisado.",
+        "Control estricto de presión arterial y glucemia."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca congestiva.",
+        "Arritmias ventriculares y fibrilación auricular.",
+        "Tromboembolismo sistémico.",
+        "Muerte súbita cardíaca."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y saturación O₂.",
+        "Registrar peso diario y edema para detectar retención de líquidos.",
+        "Evaluar signos de perfusión tisular: piel húmeda, tiempo de llenado capilar.",
+        "Administrar y observar efectos de ACE‑I, betabloqueadores y diuréticos.",
+        "Coordinar estudios de imagen y laboratorios según indicación médica."
+      ],
+      "patient_teaching": [
+        "Importancia de la adherencia a la medicación y no interrumpir sin autorización.",
+        "Dieta baja en sodio (<2 g/día) y control de líquidos según prescripción.",
+        "Reconocer signos de empeoramiento: aumento de disnea, edema o peso >2 kg en 3 días.",
+        "Mantener actividad física moderada y evitar el tabaquismo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "remodelado cardíaco",
+          "infarto de miocardio previo",
+          "hipertensión crónica"
+        ],
+        "evidenced_by": [
+          "disnea de esfuerzo",
+          "edema periférico",
+          "fracción de eyección <45%",
+          "fatiga"
+        ],
+        "outcomes": [
+          "Gasto cardíaco mejorado: CO ≥4 L/min en 48 h.",
+          "Disnea reducida a NYHA clase I‑II en 2 semanas."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y gasto cardíaco cada 4 h.",
+            "rationale": "Detectar cambios tempranos en la perfusión y ajustar terapia."
+          },
+          {
+            "action": "Evaluar peso y edema diariamente.",
+            "rationale": "Identificar retención de líquidos que empeora el gasto cardíaco."
+          },
+          {
+            "action": "Administrar ACE‑I y betabloqueador según orden médica.",
+            "rationale": "Reducen la poscarga y la frecuencia cardíaca, mejorando el gasto."
+          },
+          {
+            "action": "Educar al paciente sobre la toma correcta de medicamentos.",
+            "rationale": "La adherencia es esencial para revertir el remodelado."
+          },
+          {
+            "action": "Promover posición semisentado para facilitar la respiración.",
+            "rationale": "Reduce la demanda de oxígeno y mejora la ventilación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de función cardiovascular ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión",
+          "diabetes mellitus",
+          "tabaquismo",
+          "sedentarismo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener presión arterial <130/80 mmHg.",
+          "Evitar episodios de angina o disnea durante 3 meses."
+        ],
+        "interventions": [
+          {
+            "action": "Enseñar al paciente técnicas de autocontrol de presión arterial.",
+            "rationale": "Facilita la detección precoz de descompensación."
+          },
+          {
+            "action": "Fomentar actividad física aeróbica 30 min/día, 5 días/semana.",
+            "rationale": "Mejora la función cardíaca y reduce la remodelación."
+          },
+          {
+            "action": "Reforzar la dieta DASH baja en sodio y rica en potasio.",
+            "rationale": "Controla la presión arterial y el equilibrio electrolítico."
+          },
+          {
+            "action": "Programar revisiones de laboratorio (electrolitos, creatinina, BNP) cada 3 meses.",
+            "rationale": "Monitorea la respuesta al tratamiento y previene complicaciones."
+          },
+          {
+            "action": "Apoyar la cesación del tabaquismo mediante consejería y terapia de reemplazo.",
+            "rationale": "El tabaco acelera el daño vascular y el remodelado."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cardiac remodeling (CR)",
+    "aliases": [
+      "cardiac remodeling",
+      "remodeling",
+      "cr"
+    ],
+    "summary": "Structural and functional alteration of the ventricle after injury or overload, leading to dilation and systolic dysfunction.",
+    "key_points": [
+      "Result of myocardial infarction, hypertension, or chronic valvular disease.",
+      "Involves increased myocardial mass and ventricular dilation.",
+      "Leads to heart failure and arrhythmias.",
+      "ACE inhibitors, ARBs, and beta‑blockers slow or reverse the process.",
+      "Echocardiography and cardiac MRI are reference tests."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Myocardial injury or overload increases mechanical tension and neurohormonal activation.",
+        "Activation of the renin‑angiotensin‑aldosterone system and catecholamines.",
+        "Stimulates fibroblasts and collagen synthesis, causing fibrosis.",
+        "Left ventricular hypertrophy and dilation reduce contractility."
+      ],
+      "risk_factors": [
+        "Acute myocardial infarction (AMI).",
+        "Chronic arterial hypertension.",
+        "Valvular diseases (stenosis or insufficiency).",
+        "Diabetes mellitus and smoking."
+      ],
+      "signs_symptoms": [
+        "Progressive exertional dyspnea.",
+        "Peripheral edema and ascites.",
+        "Fatigue and decreased exercise tolerance.",
+        "Palpitations from ventricular arrhythmias."
+      ],
+      "diagnostics": [
+        "Echocardiogram: ejection fraction <50% and increased diastolic diameter.",
+        "Cardiac MRI: quantifies fibrosis and volumes.",
+        "Elevated BNP or NT‑proBNP (>100 pg/mL).",
+        "Chest X‑ray: cardiomegaly and pulmonary congestion."
+      ],
+      "treatment": [
+        "ACE inhibitors (e.g., enalapril) or ARBs (losartan).",
+        "Beta‑blockers (metoprolol, carvedilol).",
+        "Aldosterone antagonists (spironolactone).",
+        "Lifestyle modification: low‑sodium diet, supervised exercise.",
+        "Strict control of blood pressure and glucose."
+      ],
+      "complications": [
+        "Congestive heart failure.",
+        "Ventricular arrhythmias and atrial fibrillation.",
+        "Systemic thromboembolism.",
+        "Sudden cardiac death."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate, and oxygen saturation.",
+        "Record daily weight and edema to detect fluid retention.",
+        "Assess tissue perfusion signs: warm skin, capillary refill time.",
+        "Administer and observe effects of ACE inhibitors, beta‑blockers, and diuretics.",
+        "Coordinate imaging studies and labs as ordered by the physician."
+      ],
+      "patient_teaching": [
+        "Importance of medication adherence and not discontinuing without authorization.",
+        "Low‑sodium diet (<2 g/day) and fluid control per prescription.",
+        "Recognize worsening signs: increased dyspnea, edema, or weight >2 kg in 3 days.",
+        "Maintain moderate physical activity and avoid smoking."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "cardiac remodeling",
+          "previous myocardial infarction",
+          "chronic hypertension"
+        ],
+        "evidenced_by": [
+          "exertional dyspnea",
+          "peripheral edema",
+          "ejection fraction <45%",
+          "fatigue"
+        ],
+        "outcomes": [
+          "Improved cardiac output: CO ≥4 L/min within 48 h.",
+          "Dyspnea reduced to NYHA class I‑II within 2 weeks."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and cardiac output every 4 h.",
+            "rationale": "Detect early changes in perfusion and adjust therapy."
+          },
+          {
+            "action": "Assess weight and edema daily.",
+            "rationale": "Identify fluid retention that worsens cardiac output."
+          },
+          {
+            "action": "Administer ACE inhibitor and beta‑blocker as ordered.",
+            "rationale": "Reduce afterload and heart rate, improving output."
+          },
+          {
+            "action": "Educate the patient on proper medication administration.",
+            "rationale": "Adherence is essential to reverse remodeling."
+          },
+          {
+            "action": "Promote semi‑upright position to facilitate breathing.",
+            "rationale": "Reduces oxygen demand and improves ventilation."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for impaired cardiovascular function",
+        "type": "risk",
+        "related_to": [
+          "hypertension",
+          "diabetes mellitus",
+          "smoking",
+          "sedentary lifestyle"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain blood pressure <130/80 mmHg.",
+          "Avoid angina or dyspnea episodes for 3 months."
+        ],
+        "interventions": [
+          {
+            "action": "Teach the patient self‑monitoring of blood pressure.",
+            "rationale": "Facilitates early detection of decompensation."
+          },
+          {
+            "action": "Encourage aerobic exercise 30 min/day, 5 days/week.",
+            "rationale": "Improves cardiac function and reduces remodeling."
+          },
+          {
+            "action": "Reinforce DASH diet low in sodium and rich in potassium.",
+            "rationale": "Controls blood pressure and electrolyte balance."
+          },
+          {
+            "action": "Schedule laboratory reviews (electrolytes, creatinine, BNP) every 3 months.",
+            "rationale": "Monitors treatment response and prevents complications."
+          },
+          {
+            "action": "Support smoking cessation with counseling and replacement therapy.",
+            "rationale": "Smoking accelerates vascular damage and remodeling."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heart-failure",
+    "ventricular-hypertrophy",
+    "myocardial-infarction",
+    "hypertension"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Cardiac Emergencies and Shock",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-1-introduction-to-cardiac-emergencies-and-shock",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-15",
+  "factcheck": {
+    "checked": "2026-11-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Acute Myocardial Infarction and Unstable Angina Drugs Four classifications of drugs may be used in emergency situations for AMI and unstable angina: aspirin, oxygen, nitroglycerin, and, occasionally, morphine.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

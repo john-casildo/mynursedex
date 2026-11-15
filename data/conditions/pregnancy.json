@@ -1,0 +1,451 @@
+{
+  "id": "pregnancy",
+  "category": "conditions",
+  "areas": [
+    "obstetrics"
+  ],
+  "es": {
+    "term": "Diabetes gestacional (DG)",
+    "aliases": [
+      "diabetes gestacional",
+      "hiperglucemia embarazo",
+      "dg",
+      "glucosa alta embarazo"
+    ],
+    "summary": "Alteración del metabolismo de la glucosa que aparece por primera vez durante el embarazo y se resuelve después del parto.",
+    "key_points": [
+      "Se detecta con prueba de tolerancia a la glucosa entre 24‑28 semanas.",
+      "Resistencia a la insulina materna aumenta por hormonas placentarias.",
+      "Control dietético es primera línea; insulina si la glucosa no se controla.",
+      "Riesgo de macrosomía fetal, preeclampsia y parto prematuro."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El aumento de placentaria de estrógeno y progesterona produce resistencia a la insulina.",
+        "El páncreas no logra compensar la resistencia, elevando la glucosa plasmática.",
+        "La hiperglucemia materna atraviesa la placenta, estimulando la producción fetal de insulina."
+      ],
+      "risk_factors": [
+        "Obesidad (IMC >30 kg/m²) antes del embarazo.",
+        "Historia familiar de diabetes tipo 2.",
+        "Edad materna >35 años.",
+        "Síndrome de ovario poliquístico."
+      ],
+      "signs_symptoms": [
+        "Poliuria y polidipsia pueden aparecer, pero a menudo es asintomática.",
+        "Fatiga y visión borrosa en casos de hiperglucemia marcada.",
+        "Infecciones urinarias recurrentes."
+      ],
+      "diagnostics": [
+        "Prueba de tolerancia a la glucosa oral: glucosa ≥140 mg/dL a 1 h o ≥120 mg/dL a 2 h.",
+        "Glucosa en ayunas ≥92 mg/dL.",
+        "Hemoglobina A1c <6.5% en embarazo (valor de referencia)."
+      ],
+      "treatment": [
+        "Dieta controlada en carbohidratos (45‑60% de calorías totales).",
+        "Ejercicio moderado: 30 min caminata 5‑7 días/semana.",
+        "Insulina de acción corta o basal si la dieta no controla la glucosa.",
+        "Monitoreo capilar de glucosa 4‑7 veces/día."
+      ],
+      "complications": [
+        "Macrosomía fetal → parto por cesárea.",
+        "Hipoglucemia neonatal.",
+        "Preeclampsia y parto prematuro.",
+        "Mayor riesgo de diabetes tipo 2 materna a largo plazo."
+      ],
+      "nursing_care": [
+        "Evaluar glucosa capilar antes y 2 h después de comidas.",
+        "Registrar ingesta de alimentos, actividad física y patrones de micción.",
+        "Vigilar signos de hipoglucemia: sudoración, temblor, confusión.",
+        "Mantener hidratación adecuada (≥2.5 L/día).",
+        "Comunicar resultados anormales al médico de forma oportuna."
+      ],
+      "patient_teaching": [
+        "Enseñar conteo de carbohidratos y selección de alimentos de bajo índice glucémico.",
+        "Explicar la técnica correcta de punción capilar y registro de resultados.",
+        "Informar sobre signos de hipoglucemia y cuándo buscar ayuda.",
+        "Reforzar la importancia de asistir a todas las visitas prenatales."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de nivel de glucemia inestable",
+        "type": "risk",
+        "related_to": [
+          "resistencia a la insulina",
+          "obesidad",
+          "edad materna >35 años",
+          "hormonas placentarias"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control glucémico: glucosa en ayunas <95 mg/dL",
+          "Conocimiento del autocuidado: paciente describe plan dietético y monitoreo de glucosa"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear glucosa capilar antes de cada comida y 2 h después",
+            "rationale": "Detectar hiperglucemia temprana y ajustar tratamiento"
+          },
+          {
+            "action": "Educar sobre dieta balanceada y conteo de carbohidratos",
+            "rationale": "Reducir la carga glucémica y mejorar control"
+          },
+          {
+            "action": "Administrar insulina según prescripción y registrar dosis",
+            "rationale": "Mantener niveles glucémicos dentro del rango objetivo"
+          },
+          {
+            "action": "Evaluar signos y síntomas de hipoglucemia cada turno",
+            "rationale": "Prevenir eventos agudos que comprometan a madre y feto"
+          },
+          {
+            "action": "Coordinar visitas prenatales semanales con el obstetra",
+            "rationale": "Asegurar seguimiento y ajuste oportuno del plan terapéutico"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hiperglucemia",
+          "poliuria",
+          "náuseas",
+          "vomitos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación adecuada: ingesta de líquidos ≥2.5 L/día",
+          "Peso gestacional estable dentro de rangos esperados"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos en cada turno",
+            "rationale": "Detectar desequilibrio hídrico temprano"
+          },
+          {
+            "action": "Ofrecer agua y bebidas sin azúcar cada 1‑2 horas",
+            "rationale": "Mantener volumen intravascular y prevenir deshidratación"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas, taquicardia)",
+            "rationale": "Identificar complicación antes de que empeore"
+          },
+          {
+            "action": "Enseñar al paciente a reconocer poliuria y a aumentar la ingesta de líquidos",
+            "rationale": "Promover autocuidado y prevención de déficit de volumen"
+          },
+          {
+            "action": "Comunicar al médico cualquier pérdida de peso >2 kg o signos de deshidratación",
+            "rationale": "Permitir ajuste de insulina o terapia de reposición de líquidos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gestational diabetes (GD)",
+    "aliases": [
+      "gestational diabetes",
+      "pregnancy hyperglycemia",
+      "dg",
+      "high blood sugar pregnancy"
+    ],
+    "summary": "Alteration of glucose metabolism that first appears during pregnancy and resolves after delivery.",
+    "key_points": [
+      "Detected with glucose tolerance test between 24‑28 weeks.",
+      "Maternal insulin resistance increases due to placental hormones.",
+      "Dietary control is first line; insulin if glucose is not controlled.",
+      "Risk of fetal macrosomia, preeclampsia, and preterm birth."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased placental estrogen and progesterone produce insulin resistance.",
+        "The pancreas cannot compensate for the resistance, raising plasma glucose.",
+        "Maternal hyperglycemia crosses the placenta, stimulating fetal insulin production."
+      ],
+      "risk_factors": [
+        "Obesity (BMI >30 kg/m²) before pregnancy.",
+        "Family history of type 2 diabetes.",
+        "Maternal age >35 years.",
+        "Polycystic ovary syndrome."
+      ],
+      "signs_symptoms": [
+        "Polydipsia and polyuria may appear, but it is often asymptomatic.",
+        "Fatigue and blurred vision in cases of marked hyperglycemia.",
+        "Recurrent urinary tract infections."
+      ],
+      "diagnostics": [
+        "Oral glucose tolerance test: glucose ≥140 mg/dL at 1 h or ≥120 mg/dL at 2 h.",
+        "Fasting glucose ≥92 mg/dL.",
+        "Hemoglobin A1c <6.5% in pregnancy (reference value)."
+      ],
+      "treatment": [
+        "Controlled carbohydrate diet (45‑60% of total calories).",
+        "Moderate exercise: 30 min walking 5‑7 days/week.",
+        "Short‑acting or basal insulin if diet does not control glucose.",
+        "Capillary glucose monitoring 4‑7 times/day."
+      ],
+      "complications": [
+        "Fetal macrosomia → cesarean delivery.",
+        "Neonatal hypoglycemia.",
+        "Preeclampsia and preterm birth.",
+        "Increased long‑term risk of maternal type 2 diabetes."
+      ],
+      "nursing_care": [
+        "Assess capillary glucose before and 2 h after meals.",
+        "Record food intake, physical activity, and urination patterns.",
+        "Monitor for hypoglycemia signs: sweating, tremor, confusion.",
+        "Maintain adequate hydration (≥2.5 L/day).",
+        "Report abnormal results to the physician promptly."
+      ],
+      "patient_teaching": [
+        "Teach carbohydrate counting and selection of low‑glycemic index foods.",
+        "Explain correct capillary puncture technique and result recording.",
+        "Inform about hypoglycemia signs and when to seek help.",
+        "Emphasize the importance of attending all prenatal visits."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for unstable blood glucose level",
+        "type": "risk",
+        "related_to": [
+          "insulin resistance",
+          "obesity",
+          "maternal age >35 years",
+          "placental hormones"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Glucose control: fasting glucose <95 mg/dL",
+          "Self‑care knowledge: patient describes dietary plan and glucose monitoring"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor capillary glucose before each meal and 2 h after",
+            "rationale": "Detect early hyperglycemia and adjust treatment"
+          },
+          {
+            "action": "Educate on balanced diet and carbohydrate counting",
+            "rationale": "Reduce glycemic load and improve control"
+          },
+          {
+            "action": "Administer insulin as prescribed and record dose",
+            "rationale": "Maintain glucose levels within target range"
+          },
+          {
+            "action": "Assess for hypoglycemia signs and symptoms each shift",
+            "rationale": "Prevent acute events that compromise mother and fetus"
+          },
+          {
+            "action": "Coordinate weekly prenatal visits with the obstetrician",
+            "rationale": "Ensure timely follow‑up and therapeutic plan adjustment"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "hyperglycemia",
+          "polyuria",
+          "nausea",
+          "vomiting"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate hydration: fluid intake ≥2.5 L/day",
+          "Stable gestational weight within expected ranges"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output each shift",
+            "rationale": "Detect early fluid imbalance"
+          },
+          {
+            "action": "Offer water and sugar‑free drinks every 1‑2 hours",
+            "rationale": "Maintain intravascular volume and prevent dehydration"
+          },
+          {
+            "action": "Assess dehydration signs (skin turgor, dry mucous membranes, tachycardia)",
+            "rationale": "Identify complication before it worsens"
+          },
+          {
+            "action": "Teach patient to recognize polyuria and increase fluid intake",
+            "rationale": "Promote self‑care and prevention of volume deficit"
+          },
+          {
+            "action": "Report to physician any weight loss >2 kg or dehydration signs",
+            "rationale": "Allow insulin adjustment or fluid replacement therapy"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "gestational-hypertension",
+    "pre-eclampsia",
+    "fetal-macrosomia",
+    "insulin-resistance",
+    "hyperglycemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus en español: Embarazo",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pregnancy.html",
+      "lang": "es"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Physiologic Changes Due to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/10-1-physiologic-changes-due-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-15",
+  "factcheck": {
+    "checked": "2026-11-15",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 30,
+      "contradicted": 1,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Gestational diabetes occurs secondary to hormonal changes during pregnancy that lead to increas",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "contradicted",
+        "quote": "In the second half of the pregnancy, however, the human placenta lactogen hormone starts exerting an insulin resistance to meet the increased glucose needs of the fetus."
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "In the second half of the pregnancy, however, the human placenta lactogen hormone starts exerting an insulin resistance to meet the increased glucose needs of the fetus.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Terbutaline (Brethine) Indication: used to stop preterm labor (tocolysis) Mechanism of Action: causes uterine smooth muscle relaxation Adverse Effects: restlessness, tremors, hypokalemia, hyperglycemia, hypertension, tachycardia, dizziness, headache, nausea and vomiting, diaphoresis, insomnia, chest pain, arrhythmia, pulmonary edema, neonatal hypoglycemia, increased fetal heart rate Contraindications: prolonged tocolytic therapy for more than 72",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Patient Education: Discuss how to perform proper injection technique, identify signs of hypoglycemia, monitor blood glucose levels, follow a healthy diet and exercise routine, and take medication as prescribed.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
