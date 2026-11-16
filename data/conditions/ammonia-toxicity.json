@@ -1,0 +1,503 @@
+{
+  "id": "ammonia-toxicity",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Toxicidad por amoníaco",
+    "aliases": [
+      "toxicidad amoníaco",
+      "amoníaco",
+      "intoxicación amoníaco",
+      "hiperamonemia",
+      "enfermedad hepática"
+    ],
+    "summary": "Acumulación de amoníaco en sangre por insuficiencia hepática o renal que atraviesa la barrera hematoencefálica y produce encefalopatía.",
+    "key_points": [
+      "El hígado convierte amoníaco en urea; su falla genera hiperamonemia.",
+      "Niveles séricos >50 mg/dL indican toxicidad.",
+      "Manifestaciones neurológicas incluyen confusión, asterixis y coma.",
+      "Lactulosa y rifaximina reducen la producción de amoníaco.",
+      "Diálisis se reserva para niveles muy altos o deterioro neurológico.",
+      "Control estricto de electrolitos y balance hídrico es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El hígado transforma NH3 en urea mediante el ciclo de la urea.",
+        "Insuficiencia hepática o shunts portosistémicos impiden esta conversión.",
+        "El amoníaco se acumula en sangre y cruza la barrera hematoencefálica.",
+        "En el SNC altera neurotransmisores y provoca edema cerebral."
+      ],
+      "risk_factors": [
+        "Enfermedad hepática crónica (cirrosis, hepatitis).",
+        "Insuficiencia renal aguda o crónica.",
+        "Sangrado gastrointestinal con alto aporte proteico.",
+        "Dieta alta en proteínas o ayuno prolongado.",
+        "Uso de diuréticos que aumentan catabolismo proteico."
+      ],
+      "signs_symptoms": [
+        "Alteración del estado mental: confusión, somnolencia.",
+        "Asterixis (temblor de las manos).",
+        "Náuseas y vómitos.",
+        "Hiperventilación (respiración de Kussmaul).",
+        "Coma en casos graves."
+      ],
+      "diagnostics": [
+        "Amoníaco sérico >50 mg/dL (rango normal 15‑45 mg/dL).",
+        "Pruebas de función hepática elevadas (AST, ALT, bilirrubina).",
+        "Gasometría arterial: alcalosis respiratoria.",
+        "Imagen cerebral (TC/MRI) si se sospecha edema."
+      ],
+      "treatment": [
+        "Lactulosa oral/rectal para reducir producción de amoníaco.",
+        "Rifaximina para disminuir bacterias productoras de amoníaco.",
+        "Restricción de proteínas a 0.6‑0.8 g/kg/día según estado.",
+        "Diálisis (hemodiálisis o hemodiafiltración) si niveles >150 mg/dL o coma.",
+        "Corrección de electrolitos y soporte hemodinámico."
+      ],
+      "complications": [
+        "Encefalopatía hepática progresiva.",
+        "Edema cerebral y riesgo de herniación.",
+        "Coagulopatía.",
+        "Hipoglucemia.",
+        "Muerte."
+      ],
+      "nursing_care": [
+        "Monitorear nivel de conciencia (Escala de Glasgow) cada hora.",
+        "Evaluar asterixis y reflejos neurológicos.",
+        "Vigilar signos vitales, especialmente presión arterial y frecuencia respiratoria.",
+        "Administrar lactulosa según orden y observar diarrea.",
+        "Controlar ingesta de proteínas y registrar alimentos.",
+        "Preparar al paciente para posible diálisis."
+      ],
+      "patient_teaching": [
+        "Explicar la dieta baja en proteínas y su importancia.",
+        "Instruir sobre el uso correcto de lactulosa y signos de diarrea excesiva.",
+        "Señalar síntomas de empeoramiento (confusión, somnolencia) y cuándo buscar ayuda.",
+        "Evitar alcohol y medicamentos hepatotóxicos.",
+        "Promover adherencia a citas médicas y pruebas de laboratorio."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "acumulación de amoníaco",
+          "edema cerebral",
+          "hipertensión intracraneal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cerebral: GCS ≥ 14",
+          "Estado mental: paciente orientado a tiempo, lugar y persona",
+          "Riesgo de lesión: sin caídas relacionadas a alteración mental"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear nivel de conciencia usando la Escala de Glasgow cada hora",
+            "rationale": "Detectar deterioro neurológico temprano"
+          },
+          {
+            "action": "Evaluar signos de hipertensión intracraneal (pupilas, vómitos)",
+            "rationale": "Identificar aumento de presión que compromete perfusión"
+          },
+          {
+            "action": "Mantener la cabeza del paciente elevada 30°",
+            "rationale": "Facilitar drenaje venoso cerebral y mejorar flujo"
+          },
+          {
+            "action": "Administrar lactulosa según prescripción y registrar evacuaciones",
+            "rationale": "Reducir niveles de amoníaco y prevenir edema cerebral"
+          },
+          {
+            "action": "Preparar al paciente para diálisis si amoníaco >150 mg/dL",
+            "rationale": "Eliminar rápidamente amoníaco y restaurar perfusión"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "diarrea por lactulosa",
+          "diálisis",
+          "hiperamonemia",
+          "insuficiencia renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L",
+          "Hidratación: peso estable, ingesta y salida equilibradas"
+        ],
+        "interventions": [
+          {
+            "action": "Controlar electrolitos séricos cada 12 horas",
+            "rationale": "Detectar alteraciones tempranas"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos",
+            "rationale": "Mantener balance hídrico y prevenir deshidratación"
+          },
+          {
+            "action": "Observar signos de hipocalemia (debilidad muscular)",
+            "rationale": "Prevenir arritmias"
+          },
+          {
+            "action": "Ajustar la velocidad de diálisis según órdenes",
+            "rationale": "Evitar fluctuaciones bruscas de electrolitos"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y sodio según indicaciones",
+            "rationale": "Contribuir al control de electrolitos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Ammonia toxicity",
+    "aliases": [
+      "ammonia toxicity",
+      "ammonia",
+      "ammonia intoxication",
+      "hyperammonemia",
+      "liver disease"
+    ],
+    "summary": "Accumulation of ammonia in the blood due to liver or kidney failure that crosses the blood‑brain barrier and causes encephalopathy.",
+    "key_points": [
+      "The liver converts ammonia to urea; failure generates hyperammonemia.",
+      "Serum levels >50 mg/dL indicate toxicity.",
+      "Neurologic manifestations include confusion, asterixis, and coma.",
+      "Lactulose and rifaximin reduce ammonia production.",
+      "Dialysis is reserved for very high levels or neurologic deterioration.",
+      "Strict control of electrolytes and fluid balance is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The liver transforms NH3 into urea via the urea cycle.",
+        "Hepatic failure or portosystemic shunts prevent this conversion.",
+        "Ammonia accumulates in the blood and crosses the blood‑brain barrier.",
+        "In the CNS it alters neurotransmitters and causes cerebral edema."
+      ],
+      "risk_factors": [
+        "Chronic liver disease (cirrhosis, hepatitis).",
+        "Acute or chronic renal failure.",
+        "Gastrointestinal bleeding with high protein intake.",
+        "High‑protein diet or prolonged fasting.",
+        "Use of diuretics that increase protein catabolism."
+      ],
+      "signs_symptoms": [
+        "Altered mental status: confusion, drowsiness.",
+        "Asterixis (hand tremor).",
+        "Nausea and vomiting.",
+        "Hyperventilation (Kussmaul breathing).",
+        "Coma in severe cases."
+      ],
+      "diagnostics": [
+        "Serum ammonia >50 mg/dL (normal range 15‑45 mg/dL).",
+        "Elevated liver function tests (AST, ALT, bilirubin).",
+        "Arterial blood gas: respiratory alkalosis.",
+        "Brain imaging (CT/MRI) if cerebral edema is suspected."
+      ],
+      "treatment": [
+        "Oral/rectal lactulose to reduce ammonia production.",
+        "Rifaximin to decrease ammonia‑producing bacteria.",
+        "Protein restriction to 0.6‑0.8 g/kg/day based on status.",
+        "Dialysis (hemodialysis or hemodiafiltration) if levels >150 mg/dL or coma.",
+        "Correct electrolytes and provide hemodynamic support."
+      ],
+      "complications": [
+        "Progressive hepatic encephalopathy.",
+        "Cerebral edema and risk of herniation.",
+        "Coagulopathy.",
+        "Hypoglycemia.",
+        "Death."
+      ],
+      "nursing_care": [
+        "Monitor level of consciousness (Glasgow Coma Scale) hourly.",
+        "Assess asterixis and neurologic reflexes.",
+        "Monitor vital signs, especially blood pressure and respiratory rate.",
+        "Administer lactulose per order and observe for diarrhea.",
+        "Control protein intake and record foods.",
+        "Prepare patient for possible dialysis."
+      ],
+      "patient_teaching": [
+        "Explain low‑protein diet and its importance.",
+        "Instruct on proper lactulose use and signs of excessive diarrhea.",
+        "Highlight worsening symptoms (confusion, drowsiness) and when to seek help.",
+        "Avoid alcohol and hepatotoxic medications.",
+        "Encourage adherence to medical appointments and lab tests."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "ammonia accumulation",
+          "cerebral edema",
+          "intracranial hypertension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral tissue perfusion: GCS ≥ 14",
+          "Mental status: patient oriented to time, place, and person",
+          "Risk of injury: no falls related to altered mental status"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor level of consciousness using the Glasgow Coma Scale hourly",
+            "rationale": "Detect early neurologic deterioration"
+          },
+          {
+            "action": "Assess signs of intracranial hypertension (pupils, vomiting)",
+            "rationale": "Identify increased pressure that compromises perfusion"
+          },
+          {
+            "action": "Keep the patient’s head elevated 30°",
+            "rationale": "Facilitate cerebral venous drainage and improve flow"
+          },
+          {
+            "action": "Administer lactulose per prescription and record stools",
+            "rationale": "Reduce ammonia levels and prevent cerebral edema"
+          },
+          {
+            "action": "Prepare the patient for dialysis if ammonia >150 mg/dL",
+            "rationale": "Rapidly remove ammonia and restore perfusion"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "lactulose diarrhea",
+          "dialysis",
+          "hyperammonemia",
+          "renal failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na⁺ 135‑145 mEq/L, K⁺ 3.5‑5.0 mEq/L",
+          "Hydration: stable weight, balanced intake and output"
+        ],
+        "interventions": [
+          {
+            "action": "Check serum electrolytes every 12 hours",
+            "rationale": "Detect early alterations"
+          },
+          {
+            "action": "Record fluid intake and output",
+            "rationale": "Maintain fluid balance and prevent dehydration"
+          },
+          {
+            "action": "Observe signs of hypokalemia (muscle weakness)",
+            "rationale": "Prevent arrhythmias"
+          },
+          {
+            "action": "Adjust dialysis rate per orders",
+            "rationale": "Avoid abrupt electrolyte shifts"
+          },
+          {
+            "action": "Educate patient on potassium and sodium‑rich foods per instructions",
+            "rationale": "Contribute to electrolyte control"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hepatic-encephalopathy",
+    "hyperammonemia",
+    "liver-failure",
+    "cerebral-edema",
+    "renal-failure"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Chemotherapeutic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/8-2-chemotherapeutic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-16",
+  "factcheck": {
+    "checked": "2026-11-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 40,
+      "contradicted": 0,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "supported",
+        "quote": "Management of chemotherapy-induced nausea and vomiting includes efforts to maintain client comfort, adequate hydration, and electrolyte balance.",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "It should be noted that any client with liver disease or cirrhosis can have decreased metabolic activity, making them more susceptible to dose-related side effects if they are taking a medication metabolized through the liver.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Chemotherapy-associated nausea and vomiting is another common side effect and can vary from drug to drug and client to client.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Fludarabine causes severe central nervous system toxicity, including blindness, coma, seizures, and death.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "Aspartate transaminase (AST) and alanine transaminase (ALT) are two common liver enzymes to monitor because the elevation of these enzymes may indicate hepatic dysfunction or liver damage.",
+        "source": 1
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Understand the need for frequent follow-up and laboratory tests.",
+        "source": 0
+      }
+    }
+  }
+}

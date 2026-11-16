@@ -1,0 +1,511 @@
+{
+  "id": "viral-hepatitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hepatitis viral (HV)",
+    "aliases": [
+      "hepatitis",
+      "hepatitis viral",
+      "inflamación hepática",
+      "virus hepatitis",
+      "hepatitis a",
+      "hepatitis b",
+      "hepatitis c"
+    ],
+    "summary": "Inflamación del hígado causada por los virus de la hepatitis A, B, C, D o E; puede ser aguda o progresar a crónica.",
+    "key_points": [
+      "Los virus A y E se transmiten fecal‑oral; B, C y D por sangre y fluidos corporales.",
+      "Hepatitis B y C pueden volverse crónicas y conducir a cirrosis o carcinoma hepatocelular.",
+      "Elevación de ALT/AST >2 × normal y pruebas serológicas confirman el diagnóstico.",
+      "El tratamiento incluye antivirales específicos y medidas de soporte.",
+      "Prevención mediante vacunación (A, B) y prácticas de higiene."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El virus ingresa al hepatocito y libera su genoma.",
+        "Se replica usando la maquinaria celular, provocando daño hepático directo.",
+        "La respuesta inmune del huésped genera inflamación y necrosis hepática.",
+        "En infecciones crónicas, la lesión continua lleva a fibrosis y cirrosis."
+      ],
+      "risk_factors": [
+        "Consumo de agua o alimentos contaminados (HAV, HEV).",
+        "Uso de drogas intravenosas, transfusiones sin filtrar (HBV, HCV).",
+        "Relaciones sexuales sin protección con portador (HBV, HCV).",
+        "Exposición ocupacional a sangre o fluidos corporales."
+      ],
+      "signs_symptoms": [
+        "Ictericia (ictericia de piel y escleras).",
+        "Fatiga, anorexia y náuseas.",
+        "Dolor en hipocondrio derecho.",
+        "Fiebre y escalofríos en fase aguda."
+      ],
+      "diagnostics": [
+        "ALT y AST elevados >2 × normal; bilirrubina total ↑.",
+        "Serología: IgM anti‑HAV, HBsAg, anti‑HBc IgM, anti‑HCV.",
+        "PCR viral para carga (HBV, HCV) si se sospecha cronicidad.",
+        "Ecografía hepática para evaluar fibrosis o cirrosis."
+      ],
+      "treatment": [
+        "Antivirales: interferón alfa, ribavirina, entecavir, tenofovir según tipo viral.",
+        "Vacunación preventiva contra HAV y HBV.",
+        "Reposo, hidratación y dieta hipocalórica en fase aguda.",
+        "Evitar alcohol y hepatotóxicos (paracetamol >2 g/día)."
+      ],
+      "complications": [
+        "Cirrosis hepática y portal hipertensión.",
+        "Carcinoma hepatocelular.",
+        "Insuficiencia hepática fulminante.",
+        "Coagulopatía y hemorragia gastrointestinal."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y nivel de conciencia (encefalopatía).",
+        "Controlar pruebas de función hepática y coagulación (INR).",
+        "Mantener balance hídrico; observar diarrea o vómitos.",
+        "Administrar antivirales según prescripción y observar efectos adversos.",
+        "Educar sobre abstinencia de alcohol y evitar hepatotóxicos."
+      ],
+      "patient_teaching": [
+        "Importancia de completar esquema de vacunación (HAV, HBV).",
+        "Higiene de manos y alimentos seguros para prevenir reinfección.",
+        "Adherencia al tratamiento antiviral y citas de control.",
+        "Reconocer signos de alarma: ictericia creciente, sangrado, confusión.",
+        "Evitar consumo de alcohol y sustancias hepatotóxicas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Pérdida de líquidos por vómitos",
+          "Diarrea",
+          "Hemorragia gastrointestinal",
+          "Uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico mantenido: Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L",
+          "Sin signos de arritmia ni alteraciones neuromusculares"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Detectar déficit o exceso que pueda alterar electrolitos."
+          },
+          {
+            "action": "Monitorear niveles séricos de Na+, K+, Cl‑ y Ca2+ cada 24 h.",
+            "rationale": "Identificar desequilibrios tempranos y guiar la terapia."
+          },
+          {
+            "action": "Administrar soluciones intravenosas isotónicas según prescripción.",
+            "rationale": "Reemplazar pérdidas y mantener volumen intravascular."
+          },
+          {
+            "action": "Educar al paciente sobre signos de hiponatremia e hiperkalemia.",
+            "rationale": "Facilitar la detección precoz de complicaciones."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar terapia antiviral que pueda afectar electrolitos.",
+            "rationale": "Algunos antivirales pueden causar nefrotoxicidad o alteraciones electrolíticas."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Fatiga",
+          "Dolor abdominal",
+          "Anemia secundaria a enfermedad crónica"
+        ],
+        "evidenced_by": [
+          "Cansancio al realizar actividades de la vida diaria",
+          "Disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Capacidad para realizar ADL con mínima fatiga en 2 semanas",
+          "Nivel de energía percibido ≥ 6/10 en escala de Likert"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y tolerancia a la actividad usando escala de Borg.",
+            "rationale": "Establecer línea base y medir progreso."
+          },
+          {
+            "action": "Planificar actividades de bajo impacto y descansos programados.",
+            "rationale": "Prevenir agotamiento y promover gradual aumento de la actividad."
+          },
+          {
+            "action": "Fomentar una dieta balanceada rica en proteínas y calorías según peso.",
+            "rationale": "Mejorar reservas energéticas y recuperación hepática."
+          },
+          {
+            "action": "Coordinar con fisioterapeuta para ejercicios de respiración y movilidad.",
+            "rationale": "Mantener fuerza muscular y capacidad funcional."
+          },
+          {
+            "action": "Reforzar adherencia al tratamiento antiviral y evitar alcohol.",
+            "rationale": "Controlar la enfermedad subyacente y reducir fatiga asociada."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Viral hepatitis (HV)",
+    "aliases": [
+      "hepatitis",
+      "viral hepatitis",
+      "liver inflammation",
+      "hepatitis virus",
+      "hepatitis a",
+      "hepatitis b",
+      "hepatitis c"
+    ],
+    "summary": "Inflammation of the liver caused by hepatitis viruses A, B, C, D, or E; it can be acute or progress to chronic.",
+    "key_points": [
+      "Viruses A and E are transmitted fecal‑oral; B, C, and D by blood and body fluids.",
+      "Hepatitis B and C can become chronic and lead to cirrhosis or hepatocellular carcinoma.",
+      "Elevation of ALT/AST >2× normal and serologic tests confirm the diagnosis.",
+      "Treatment includes specific antivirals and supportive measures.",
+      "Prevention through vaccination (A, B) and hygiene practices."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The virus enters the hepatocyte and releases its genome.",
+        "It replicates using cellular machinery, causing direct liver damage.",
+        "The host immune response generates inflammation and hepatic necrosis.",
+        "In chronic infections, ongoing injury leads to fibrosis and cirrhosis."
+      ],
+      "risk_factors": [
+        "Consumption of contaminated water or food (HAV, HEV).",
+        "Intravenous drug use, unfiltered transfusions (HBV, HCV).",
+        "Unprotected sex with a carrier (HBV, HCV).",
+        "Occupational exposure to blood or body fluids."
+      ],
+      "signs_symptoms": [
+        "Jaundice (skin and scleral icterus).",
+        "Fatigue, anorexia, and nausea.",
+        "Right upper quadrant abdominal pain.",
+        "Fever and chills in the acute phase."
+      ],
+      "diagnostics": [
+        "ALT and AST >2× normal; total bilirubin ↑.",
+        "Serology: IgM anti‑HAV, HBsAg, anti‑HBc IgM, anti‑HCV.",
+        "Viral PCR for viral load (HBV, HCV) if chronicity suspected.",
+        "Abdominal ultrasound to assess fibrosis or cirrhosis."
+      ],
+      "treatment": [
+        "Antivirals: interferon alfa, ribavirin, entecavir, tenofovir depending on viral type.",
+        "Preventive vaccination against HAV and HBV.",
+        "Rest, hydration, and low‑calorie diet in the acute phase.",
+        "Avoid alcohol and hepatotoxins (acetaminophen >2 g/day)."
+      ],
+      "complications": [
+        "Hepatic cirrhosis and portal hypertension.",
+        "Hepatocellular carcinoma.",
+        "Fulminant hepatic failure.",
+        "Coagulopathy and gastrointestinal bleeding."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and level of consciousness (encephalopathy).",
+        "Check liver function tests and coagulation (INR).",
+        "Maintain fluid balance; watch for diarrhea or vomiting.",
+        "Administer antivirals as prescribed and monitor for adverse effects.",
+        "Educate on alcohol abstinence and avoidance of hepatotoxins."
+      ],
+      "patient_teaching": [
+        "Importance of completing the vaccination series (HAV, HBV).",
+        "Hand hygiene and safe food practices to prevent reinfection.",
+        "Adherence to antiviral therapy and follow‑up appointments.",
+        "Recognize warning signs: increasing jaundice, bleeding, confusion.",
+        "Avoid alcohol and hepatotoxic substances."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Fluid loss from vomiting",
+          "Diarrhea",
+          "Gastrointestinal bleeding",
+          "Use of diuretics"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance maintained: Na+ 135‑145 mEq/L, K+ 3.5‑5.0 mEq/L",
+          "No signs of arrhythmia or neuromuscular changes"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output every 8 h.",
+            "rationale": "Detect deficits or excesses that may alter electrolytes."
+          },
+          {
+            "action": "Monitor serum levels of Na+, K+, Cl‑ and Ca2+ every 24 h.",
+            "rationale": "Identify early imbalances and guide therapy."
+          },
+          {
+            "action": "Administer isotonic IV solutions as prescribed.",
+            "rationale": "Replace losses and maintain intravascular volume."
+          },
+          {
+            "action": "Educate the patient on signs of hyponatremia and hyperkalemia.",
+            "rationale": "Facilitate early detection of complications."
+          },
+          {
+            "action": "Collaborate with the physician to adjust antiviral therapy that may affect electrolytes.",
+            "rationale": "Some antivirals can cause nephrotoxicity or electrolyte disturbances."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Fatigue",
+          "Abdominal pain",
+          "Anemia secondary to chronic disease"
+        ],
+        "evidenced_by": [
+          "Tiredness during daily activities",
+          "Reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Ability to perform ADLs with minimal fatigue in 2 weeks",
+          "Perceived energy level ≥ 6/10 on Likert scale"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and activity tolerance using the Borg scale.",
+            "rationale": "Establish baseline and measure progress."
+          },
+          {
+            "action": "Plan low‑impact activities with scheduled rest periods.",
+            "rationale": "Prevent exhaustion and promote gradual activity increase."
+          },
+          {
+            "action": "Encourage a balanced diet rich in protein and calories based on weight.",
+            "rationale": "Improve energy reserves and liver recovery."
+          },
+          {
+            "action": "Coordinate with a physiotherapist for breathing and mobility exercises.",
+            "rationale": "Maintain muscle strength and functional capacity."
+          },
+          {
+            "action": "Reinforce adherence to antiviral treatment and avoidance of alcohol.",
+            "rationale": "Control underlying disease and reduce associated fatigue."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cirrhosis",
+    "hepatocellular-carcinoma",
+    "fulminant-hepatic-failure",
+    "viral-hepatitis-b",
+    "viral-hepatitis-c"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hepatitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hepatitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hepatitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hepatitis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Viral and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-2-viral-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to HIV, AIDS, and Antiretrovirals",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-3-introduction-to-hiv-aids-and-antiretrovirals",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-16",
+  "factcheck": {
+    "checked": "2026-11-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 25,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Chronic hepatitis can lead to complications such as cirrhosis (scarring of the liver), liver failure, and liver cancer .",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "For all types of hepatitis, supportive therapy including rest and fluids are indicated.",
+        "source": 2
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "The condition is a leading cause of liver cirrhosis , resulting in permanent scarring and fibrosis and in a significant number of deaths each year.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Hepatitis A and hepatitis E usually spread through contact with food or water that was contaminated with an infected person's stool.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Nearly all cases result from parenteral transmission , often associated with IV drug use or transfusions.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "This can happen in many ways, such as sharing drug needles or having unprotected sex.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Health-care agencies are required to offer the hepatitis B vaccine to all workers who have occupational exposure to blood or other infectious materials.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Jaundice , yellowing of your skin and eyes",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "If you do have symptoms, they may include: Fever Fatigue Loss of appetite Nausea and/or vomiting Abdominal pain Dark urine Clay-colored bowel movements Joint pain Jaundice , yellowing of your skin and eyes",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Hepatitis C Dark urine Jaundice Malaise Nausea Right upper-quadrant pain",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Might do imaging tests , such as an ultrasound , CT scan , or MRI May need to do a liver biopsy to get a clear diagnosis and check for liver damage",
+        "source": 0
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "contradicted",
+        "quote": "maintaining adequate nutritional status (e.g., offering high-calorie foods, administering enteral nutrition as needed)",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "For patients with hepatitis B and C infections, some actions the nurse might take include administering prescribed antiviral medications",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "For patients with hepatitis B and C infections, some actions the nurse might take include administering prescribed antiviral medications alternating rest and activity periods to improve fatigue educating patients and families about hepatitis, including transmission routes, symptom management, and the importance of maintaining medication regimen and follow-up schedule, as well as vaccination education encouraging fluids to prevent dehydration prov",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Late-stage findings include confusion, coma, ascites, and GI bleeding",
+        "source": 2
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

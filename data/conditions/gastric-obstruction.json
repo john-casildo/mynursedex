@@ -1,0 +1,499 @@
+{
+  "id": "gastric-obstruction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Obstrucción gástrica",
+    "aliases": [
+      "obstruccion gastrica",
+      "obstruccion intestinal",
+      "obstruccion del estomago",
+      "obstruccion",
+      "obstruccion gastrointestinal"
+    ],
+    "summary": "Bloqueo parcial o total del paso del contenido gástrico hacia el intestino delgado que produce distensión, vómitos y pérdida de líquidos.",
+    "key_points": [
+      "Distensión gástrica produce vómitos biliosos y dolor colico.",
+      "La deshidratación y el desequilibrio electrolítico son complicaciones frecuentes.",
+      "Radiografía y TAC son estudios de elección para confirmar la obstrucción.",
+      "Manejo inicial incluye NPO, sonda nasogástrica y reposición de líquidos.",
+      "La cirugía es necesaria cuando hay riesgo de perforación o isquemia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción mecánica impide el tránsito del quimo al intestino delgado.",
+        "Acumulación de contenido gástrico eleva la presión intragástrica.",
+        "Se produce distensión, estimulación de receptores de náuseas y vómitos.",
+        "La pérdida de secreciones gástricas lleva a deshidratación y desequilibrio electrolítico."
+      ],
+      "risk_factors": [
+        "Adherencias postoperatorias.",
+        "Hernias incarceradas.",
+        "Tumores gástricos o duodenales.",
+        "Volvulus o intususcepción.",
+        "Enfermedad inflamatoria intestinal (p. ej., Crohn)."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal colico que empeora después de comer.",
+        "Náuseas y vómitos frecuentes, a veces con contenido bilioso.",
+        "Distensión visible del abdomen.",
+        "Ausencia de gases o heces (obstrucción completa).",
+        "Taquicardia y presión arterial baja por deshidratación."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen: niveles de aire‑líquido y dilatación gástrica.",
+        "Tomografía axial computarizada (TAC) para localizar nivel y causa.",
+        "Estudios con contraste (serie gastrointestinal).",
+        "Laboratorio: leucocitosis, hiponatremia, hipocalemia, aumento de BUN/creatinina por deshidratación."
+      ],
+      "treatment": [
+        "Mantener NPO (nada por vía oral).",
+        "Colocación de sonda nasogástrica para descompresión.",
+        "Reposición de líquidos intravenosos (solución salina isotónica).",
+        "Corrección de electrolitos (K+, Na+).",
+        "Analgesia (paracetamol, opioides según necesidad).",
+        "Antieméticos (ondansetrón, metoclopramida).",
+        "Antibióticos profilácticos si hay riesgo de perforación.",
+        "Intervención quirúrgica cuando la causa no se resuelve conservadoramente."
+      ],
+      "complications": [
+        "Perforación gástrica → peritonitis.",
+        "Sepsis secundaria a translocación bacteriana.",
+        "Deshidratación grave y choque hipovolémico.",
+        "Desequilibrio electrolítico (hipocalemia, hiponatremia).",
+        "Isquemia intestinal y necrosis."
+      ],
+      "nursing_care": [
+        "Evaluar dolor, distensión y presencia de ruidos intestinales.",
+        "Monitorear signos vitales cada hora y observar hipotensión.",
+        "Registrar salida de la sonda nasogástrica y volumen de drenaje.",
+        "Controlar balance hídrico: ingesta, salida y pérdidas gastrointestinales.",
+        "Mantener posición semi‑Fowler para favorecer la descompresión.",
+        "Vigilar integridad cutánea y prevenir úlceras por inmovilidad."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de NPO y la duración esperada.",
+        "Enseñar cuidados de la sonda nasogástrica (no manipular, observar patencia).",
+        "Informar signos de alarma: fiebre, aumento del dolor, vómitos con sangre.",
+        "Reforzar la importancia de la hidratación oral post‑operatoria.",
+        "Indicar dieta progresiva una vez autorizado por el médico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "vómitos frecuentes",
+          "NPO prolongado",
+          "pérdida de secreciones gástricas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida equilibradas en ±500 mL/24 h",
+          "Hidratación: peso corporal estable (variación <1 kg en 48 h)"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y balance hídrico estricto.",
+            "rationale": "Detectar rápidamente déficit o exceso de líquidos."
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción y evaluar respuesta.",
+            "rationale": "Reemplazar pérdidas gástricas y prevenir deshidratación."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas, taquicardia).",
+            "rationale": "Identificar temprano la necesidad de ajuste de terapia."
+          },
+          {
+            "action": "Registrar y reportar cualquier cambio en la salida de la sonda nasogástrica.",
+            "rationale": "Controlar la cantidad de pérdida gástrica para ajustar reposición."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "dolor abdominal",
+          "distensión gástrica"
+        ],
+        "evidenced_by": [
+          "fatiga al intentar movilizarse",
+          "disminución de la tolerancia a actividades de la vida diaria"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: caminar 30 min sin aumento de dolor en 48 h",
+          "Nivel de energía: reportar disminución del cansancio en escala de 0‑10 a ≤3"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de descanso cada 20‑30 min y actividades suaves.",
+            "rationale": "Prevenir agotamiento y permitir recuperación del gasto energético."
+          },
+          {
+            "action": "Administrar analgesia antes de la movilización según indicación.",
+            "rationale": "Reducir el dolor que limita la actividad física."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática para disminuir dolor y mejorar oxigenación.",
+            "rationale": "Mejorar la ventilación y disminuir la percepción de dolor."
+          },
+          {
+            "action": "Evaluar nivel de dolor antes y después de la actividad usando escala numérica.",
+            "rationale": "Ajustar el plan de cuidados según la respuesta del paciente."
+          },
+          {
+            "action": "Fomentar la movilización temprana en posición semi‑Fowler con apoyo de enfermera.",
+            "rationale": "Mantener la función muscular y prevenir complicaciones de inmovilidad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastric obstruction",
+    "aliases": [
+      "gastric obstruction",
+      "intestinal obstruction",
+      "stomach obstruction",
+      "obstruction",
+      "gastrointestinal obstruction"
+    ],
+    "summary": "Partial or complete blockage of gastric contents moving into the small intestine, causing distension, vomiting, and fluid loss.",
+    "key_points": [
+      "Gastric distension produces bilious vomiting and colicky pain.",
+      "Dehydration and electrolyte imbalance are common complications.",
+      "X‑ray and CT are the preferred studies to confirm obstruction.",
+      "Initial management includes NPO, nasogastric tube, and fluid replacement.",
+      "Surgery is required when there is risk of perforation or ischemia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mechanical obstruction prevents chyme from entering the small intestine.",
+        "Accumulation of gastric contents raises intragastric pressure.",
+        "Distension stimulates nausea and vomiting receptors.",
+        "Loss of gastric secretions leads to dehydration and electrolyte imbalance."
+      ],
+      "risk_factors": [
+        "Post‑operative adhesions.",
+        "Incarcerated hernias.",
+        "Gastric or duodenal tumors.",
+        "Volvulus or intussusception.",
+        "Inflammatory bowel disease (e.g., Crohn)."
+      ],
+      "signs_symptoms": [
+        "Colicky abdominal pain worsening after eating.",
+        "Frequent nausea and vomiting, sometimes bilious.",
+        "Visible abdominal distension.",
+        "Absence of gas or stool (complete obstruction).",
+        "Tachycardia and low blood pressure from dehydration."
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: air‑fluid levels and gastric dilation.",
+        "CT scan to locate level and cause.",
+        "Contrast studies (GI series).",
+        "Labs: leukocytosis, hyponatremia, hypokalemia, increased BUN/creatinine from dehydration."
+      ],
+      "treatment": [
+        "Maintain NPO (nothing by mouth).",
+        "Insert nasogastric tube for decompression.",
+        "Replace intravenous fluids (normal saline).",
+        "Correct electrolytes (K+, Na+).",
+        "Analgesia (acetaminophen, opioids as needed).",
+        "Antiemetics (ondansetron, metoclopramide).",
+        "Prophylactic antibiotics if perforation risk exists.",
+        "Surgical intervention when cause is not resolved conservatively."
+      ],
+      "complications": [
+        "Gastric perforation → peritonitis.",
+        "Sepsis from bacterial translocation.",
+        "Severe dehydration and hypovolemic shock.",
+        "Electrolyte imbalance (hypokalemia, hyponatremia).",
+        "Intestinal ischemia and necrosis."
+      ],
+      "nursing_care": [
+        "Assess pain, distension, and presence of bowel sounds.",
+        "Monitor vital signs hourly and watch for hypotension.",
+        "Record nasogastric tube output and drainage volume.",
+        "Track fluid balance: intake, output, and GI losses.",
+        "Keep patient in semi‑Fowler position to aid decompression.",
+        "Monitor skin integrity and prevent pressure ulcers from immobility."
+      ],
+      "patient_teaching": [
+        "Explain the need for NPO and expected duration.",
+        "Teach nasogastric tube care (do not manipulate, observe patency).",
+        "Inform about warning signs: fever, increased pain, bloody vomiting.",
+        "Emphasize importance of oral hydration post‑operative.",
+        "Advise progressive diet once cleared by physician."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "frequent vomiting",
+          "prolonged NPO",
+          "loss of gastric secretions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL/24 h",
+          "Hydration: stable body weight (variation <1 kg in 48 h)"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and strict fluid balance.",
+            "rationale": "Detect rapid fluid deficit or excess."
+          },
+          {
+            "action": "Administer IV fluids per prescription and assess response.",
+            "rationale": "Replace gastric losses and prevent dehydration."
+          },
+          {
+            "action": "Evaluate signs of dehydration (skin turgor, dry mucous membranes, tachycardia).",
+            "rationale": "Identify early need for therapy adjustment."
+          },
+          {
+            "action": "Document and report any changes in nasogastric tube output.",
+            "rationale": "Control gastric loss volume to adjust replacement."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "abdominal pain",
+          "gastric distension"
+        ],
+        "evidenced_by": [
+          "fatigue when attempting mobilization",
+          "reduced tolerance to activities of daily living"
+        ],
+        "outcomes": [
+          "Activity tolerance: walk 30 min without increased pain in 48 h",
+          "Energy level: report decreased fatigue on 0‑10 scale to ≤3"
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods every 20‑30 min and gentle activities.",
+            "rationale": "Prevent exhaustion and allow energy recovery."
+          },
+          {
+            "action": "Administer analgesia before mobilization as ordered.",
+            "rationale": "Reduce pain that limits physical activity."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques to reduce pain and improve oxygenation.",
+            "rationale": "Improve ventilation and decrease pain perception."
+          },
+          {
+            "action": "Assess pain level before and after activity using numeric scale.",
+            "rationale": "Adjust care plan based on patient response."
+          },
+          {
+            "action": "Encourage early mobilization in semi‑Fowler position with nursing support.",
+            "rationale": "Maintain muscle function and prevent immobility complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "small-bowel-obstruction",
+    "electrolyte-imbalance",
+    "peritonitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Small Intestine Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/smallintestinedisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Histamine Blockers and Proton-Pump Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-2-histamine-blockers-and-proton-pump-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Pepsin Inhibitors and Prostaglandin Analogues",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-3-pepsin-inhibitors-and-prostaglandin-analogues",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-16",
+  "factcheck": {
+    "checked": "2026-11-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 47,
+      "contradicted": 0,
+      "total": 48
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Problems with the small intestine can include: Bleeding Celiac disease Crohn's disease Infections Intestinal cancer Intestinal obstruction Irritable bowel syndrome Ulcers, such as peptic ulcer Treatment of disorders of the small intestine depends on the cause.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.treatment.6": {
+        "status": "not_found"
+      },
+      "sections.treatment.7": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

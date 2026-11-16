@@ -1,0 +1,476 @@
+{
+  "id": "ventricular-hypertrophy",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipertrofia ventricular (HV)",
+    "aliases": [
+      "hipertrofia ventricular",
+      "ventricular",
+      "hipertrofia",
+      "cardiomiopatía",
+      "engrosamiento miocárdico"
+    ],
+    "summary": "Aumento del grosor de la pared del ventrículo, generalmente del izquierdo, que reduce la capacidad de llenado y la función sistólica.",
+    "key_points": [
+      "Se asocia a hipertensión arterial crónica y valvulopatías.",
+      "El ECG muestra voltajes aumentados y ondas Q patológicas.",
+      "Ecocardiograma es el estudio diagnóstico de referencia.",
+      "Puede progresar a insuficiencia cardíaca y arritmias ventriculares."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hipertensión crónica eleva la poscarga, provocando sobrecarga de presión del ventrículo izquierdo.",
+        "El miocardio responde con hipertrofia sarcomérica para mantener la presión sistólica.",
+        "El engrosamiento reduce la complacencia, dificultando el llenado diastólico.",
+        "La remodelación altera la conducción eléctrica, predisponiendo a arritmias."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial sistémica no controlada.",
+        "Estenosis aórtica o insuficiencia mitral.",
+        "Enfermedad genética (miocardiopatía hipertrófica).",
+        "Obesidad y sedentarismo prolongado."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo progresiva.",
+        "Fatiga y disminución de la tolerancia a la actividad.",
+        "Soplo sistólico ejection murmur en foco aórtico.",
+        "Edema periférico en etapas avanzadas."
+      ],
+      "diagnostics": [
+        "ECG: voltajes QRS aumentados, ondas R altas en V5‑V6.",
+        "Ecocardiograma: espesor septal o posterior >12 mm, fracción de eyección normal o levemente reducida.",
+        "Radiografía de tórax: cardiomegalia con forma de “cúpula”.",
+        "BNP: niveles elevados si hay insuficiencia cardíaca asociada."
+      ],
+      "treatment": [
+        "Control estricto de la presión arterial (IECA, ARA II, bloqueadores de calcio).",
+        "Beta‑bloqueadores para reducir la carga de trabajo del ventrículo.",
+        "Diuréticos de asa o tiazídicos si hay sobrecarga de volumen.",
+        "Cirugía de reemplazo valvular o septotomía en casos de valvulopatía.",
+        "Ablación o marcapasos si aparecen arritmias ventriculares graves."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca congestiva.",
+        "Arritmias ventriculares (taquicardia, fibrilación).",
+        "Muerte súbita cardíaca.",
+        "Tromboembolismo por estasis intracavitaria."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial, frecuencia cardíaca y saturación O₂ cada 4 h.",
+        "Evaluar signos de sobrecarga de volumen: edema, ingurgitación yugular.",
+        "Registrar ECG y cambios en el ritmo; notificar arritmias.",
+        "Administrar diuréticos y beta‑bloqueadores según prescripción.",
+        "Promover posición semisentado para facilitar la respiración."
+      ],
+      "patient_teaching": [
+        "Importancia de adherir al tratamiento antihipertensivo.",
+        "Reconocer disnea de reposo o palpitaciones y buscar ayuda inmediata.",
+        "Mantener dieta baja en sodio (<2 g/día) y controlar peso corporal.",
+        "Realizar actividad física moderada, evitando esfuerzos intensos sin autorización."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Disminución del gasto cardíaco",
+        "type": "actual",
+        "related_to": [
+          "Hipertrofia ventricular",
+          "Hipertensión arterial crónica"
+        ],
+        "evidenced_by": [
+          "Disnea de esfuerzo",
+          "Fatiga",
+          "Edema periférico",
+          "ECG con voltajes aumentados"
+        ],
+        "outcomes": [
+          "Gasto cardíaco: aumento a 4‑5 L/min dentro de 72 h",
+          "Tolerancia a la actividad: caminar 200 m sin disnea en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y saturación O₂ cada 4 h",
+            "rationale": "Detectar deterioro hemodinámico temprano"
+          },
+          {
+            "action": "Evaluar edema y peso diario",
+            "rationale": "Identificar retención de líquidos y ajustar diuréticos"
+          },
+          {
+            "action": "Administrar beta‑bloqueador según orden médica",
+            "rationale": "Reducir la demanda de oxígeno del miocardio"
+          },
+          {
+            "action": "Enseñar al paciente la técnica de autocontrol de presión arterial",
+            "rationale": "Promover el autocuidado y la detección precoz de descompensación"
+          },
+          {
+            "action": "Planificar actividades de bajo impacto y aumentar gradualmente la duración",
+            "rationale": "Mejorar la tolerancia a la actividad sin sobrecargar el corazón"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "Hipertrofia ventricular",
+          "Disminución del gasto cardíaco"
+        ],
+        "evidenced_by": [
+          "Disnea al subir escaleras",
+          "Fatiga al realizar tareas cotidianas"
+        ],
+        "outcomes": [
+          "Capacidad de ejercicio: caminar 300 m sin disnea en 7 días",
+          "Nivel de energía: reportar aumento de energía en escala de 0‑10 a ≥6 en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar escala de Borg cada visita",
+            "rationale": "Cuantificar la intolerancia y guiar el plan de ejercicio"
+          },
+          {
+            "action": "Implementar programa de ejercicios de bajo impacto (caminar 5‑10 min, 3 veces/día)",
+            "rationale": "Mejorar la capacidad aeróbica sin provocar sobrecarga"
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática durante la actividad",
+            "rationale": "Reducir la sensación de falta de aire"
+          },
+          {
+            "action": "Reforzar adherencia a la medicación antihipertensiva y diurética",
+            "rationale": "Optimizar la función cardíaca y disminuir la fatiga"
+          },
+          {
+            "action": "Programar seguimiento semanal para ajustar el plan de actividad",
+            "rationale": "Asegurar progreso seguro y detectar signos de descompensación"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Ventricular hypertrophy (VH)",
+    "aliases": [
+      "ventricular hypertrophy",
+      "ventricular",
+      "hypertrophy",
+      "cardiomyopathy",
+      "myocardial thickening"
+    ],
+    "summary": "An increase in the thickness of the ventricular wall, usually the left, that reduces filling capacity and systolic function.",
+    "key_points": [
+      "Associated with chronic arterial hypertension and valvular disease.",
+      "ECG shows increased voltages and pathological Q waves.",
+      "Echocardiography is the reference diagnostic study.",
+      "Can progress to heart failure and ventricular arrhythmias."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Chronic hypertension raises afterload, causing left ventricular pressure overload.",
+        "The myocardium responds with sarcomeric hypertrophy to maintain systolic pressure.",
+        "Thickening reduces compliance, impairing diastolic filling.",
+        "Remodeling alters electrical conduction, predisposing to arrhythmias."
+      ],
+      "risk_factors": [
+        "Uncontrolled systemic arterial hypertension.",
+        "Aortic stenosis or mitral regurgitation.",
+        "Genetic disease (hypertrophic cardiomyopathy).",
+        "Obesity and prolonged sedentary lifestyle."
+      ],
+      "signs_symptoms": [
+        "Progressive exertional dyspnea.",
+        "Fatigue and decreased tolerance to activity.",
+        "Systolic ejection murmur at the aortic focus.",
+        "Peripheral edema in advanced stages."
+      ],
+      "diagnostics": [
+        "ECG: increased QRS voltages, tall R waves in V5‑V6.",
+        "Echocardiography: septal or posterior wall thickness >12 mm, normal or mildly reduced ejection fraction.",
+        "Chest X‑ray: cardiomegaly with a “dome” shape.",
+        "BNP: elevated levels if associated heart failure."
+      ],
+      "treatment": [
+        "Strict blood pressure control (ACE inhibitors, ARBs, calcium channel blockers).",
+        "Beta‑blockers to reduce ventricular workload.",
+        "Loop or thiazide diuretics if volume overload present.",
+        "Valve replacement surgery or septotomy in valvular disease cases.",
+        "Ablation or pacemaker if severe ventricular arrhythmias develop."
+      ],
+      "complications": [
+        "Congestive heart failure.",
+        "Ventricular arrhythmias (tachycardia, fibrillation).",
+        "Sudden cardiac death.",
+        "Thromboembolism from intracavitary stasis."
+      ],
+      "nursing_care": [
+        "Monitor blood pressure, heart rate, and O₂ saturation every 4 h.",
+        "Assess signs of volume overload: edema, jugular venous distention.",
+        "Record ECG and rhythm changes; notify arrhythmias.",
+        "Administer diuretics and beta‑blockers as prescribed.",
+        "Encourage semi‑upright position to aid breathing."
+      ],
+      "patient_teaching": [
+        "Importance of adhering to antihypertensive therapy.",
+        "Recognize rest dyspnea or palpitations and seek immediate help.",
+        "Maintain a low‑sodium diet (<2 g/day) and monitor weight.",
+        "Engage in moderate physical activity, avoiding intense exertion without authorization."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Decreased cardiac output",
+        "type": "actual",
+        "related_to": [
+          "Ventricular hypertrophy",
+          "Chronic arterial hypertension"
+        ],
+        "evidenced_by": [
+          "Exertional dyspnea",
+          "Fatigue",
+          "Peripheral edema",
+          "ECG with increased voltages"
+        ],
+        "outcomes": [
+          "Cardiac output: increase to 4‑5 L/min within 72 h",
+          "Exercise tolerance: walk 200 m without dyspnea in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and O₂ saturation every 4 h",
+            "rationale": "Detect early hemodynamic deterioration"
+          },
+          {
+            "action": "Assess edema and daily weight",
+            "rationale": "Identify fluid retention and adjust diuretics"
+          },
+          {
+            "action": "Administer beta‑blocker per physician order",
+            "rationale": "Reduce myocardial oxygen demand"
+          },
+          {
+            "action": "Teach patient home blood pressure monitoring",
+            "rationale": "Promote self‑care and early detection of decompensation"
+          },
+          {
+            "action": "Plan low‑impact activities and gradually increase duration",
+            "rationale": "Improve exercise tolerance without overloading the heart"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "Ventricular hypertrophy",
+          "Reduced cardiac output"
+        ],
+        "evidenced_by": [
+          "Dyspnea climbing stairs",
+          "Fatigue during daily tasks"
+        ],
+        "outcomes": [
+          "Exercise capacity: walk 300 m without dyspnea in 7 days",
+          "Energy level: report increase on 0‑10 scale to ≥6 in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record Borg scale at each visit",
+            "rationale": "Quantify intolerance and guide exercise plan"
+          },
+          {
+            "action": "Implement low‑impact exercise program (walk 5‑10 min, 3 times/day)",
+            "rationale": "Improve aerobic capacity without causing overload"
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques during activity",
+            "rationale": "Reduce sensation of breathlessness"
+          },
+          {
+            "action": "Reinforce adherence to antihypertensive and diuretic medication",
+            "rationale": "Optimize cardiac function and reduce fatigue"
+          },
+          {
+            "action": "Schedule weekly follow‑up to adjust activity plan",
+            "rationale": "Ensure safe progress and detect decompensation signs"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "left-ventricular-hypertrophy",
+    "heart-failure",
+    "arrhythmia",
+    "hypertension",
+    "valvular-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartdiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Dysrhythmia",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/12-2-dysrhythmia",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-16",
+  "factcheck": {
+    "checked": "2026-11-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Diltiazem can cause asystole; atrial flutter; first-, second-, and third-degree atrioventricular block; bradycardia; chest pain; congestive heart failure; sinus pause; sinus node dysfunction; syncope; ventricular dysrhythmia; ventricular fibrillation; ventricular tachycardia; dizziness; allergic reaction; Stevens–Johnson syndrome; and angioedema.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "In cardiac emergencies, epinephrine is used in ventricular fibrillation, pulseless ventricular tachycardia, asystole, and pulseless electrical activity.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "This is an oversimplification, but each one of these problems can lead to hemodynamic instability and potentially death.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

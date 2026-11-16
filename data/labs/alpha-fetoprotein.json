@@ -1,0 +1,299 @@
+{
+  "id": "alpha-fetoprotein",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Alfa-fetoproteína (AFP)",
+    "aliases": [
+      "afp",
+      "alfa fetoproteina",
+      "alpha fetoprotein",
+      "prueba afp",
+      "nivel afp"
+    ],
+    "summary": "La alfa‑fetoproteína es una proteína fetal que se mide en suero materno para detectar anomalías del feto y enfermedades hepáticas maternas.",
+    "key_points": [
+      "Se mide entre la semana 15 y 20 de gestación.",
+      "Valores normales se expresan en MoM (0,5‑2,5) o ng/mL según el laboratorio.",
+      "AFP alto sugiere defectos del tubo neural, defectos de pared abdominal o enfermedad hepática materna.",
+      "AFP bajo se asocia a trisomía 21 (Down) y otras aneuploidías.",
+      "Resultados anormales requieren ecografía y, a veces, amniocentesis."
+    ],
+    "sections": {
+      "normal_values": [
+        "15‑20 sem: 0,5‑2,5 MoM (aprox. 10‑150 ng/mL, varía por laboratorio).",
+        "Después de 20 sem: valores disminuyen progresivamente.",
+        "Interpretar siempre con edad gestacional exacta."
+      ],
+      "high_values": [
+        "Alto (>2,5 MoM): defecto del tubo neural, omphalocele, gastrosquisis.",
+        "Causas maternas: hepatitis, cirrosis, hemocromatosis.",
+        "Puede indicar embarazo múltiple.",
+        "Generalmente asintomático; se detecta en pruebas de rutina."
+      ],
+      "low_values": [
+        "Bajo (<0,5 MoM): riesgo de trisomía 21, trisomía 18.",
+        "Asociado a anomalías cromosómicas fetales.",
+        "Sin síntomas maternos; se confirma con pruebas genéticas."
+      ],
+      "specimen": [
+        "Muestra: suero materno, 10 mL de sangre venosa.",
+        "Momento: 15‑20 semanas de gestación.",
+        "No requiere ayuno; evitar hemólisis del tubo.",
+        "Etiquetar con edad gestacional y hora de extracción."
+      ],
+      "nursing_care": [
+        "Verificar que la muestra esté correctamente etiquetada y sin hemólisis.",
+        "Informar al médico los resultados fuera de rango para planificar ecografía.",
+        "Educar a la gestante sobre la necesidad de pruebas diagnósticas adicionales.",
+        "Monitorear signos de enfermedad hepática materna (ictericia, dolor abdominal).",
+        "Registrar y comunicar cualquier procedimiento invasivo (amniocentesis)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "Procedimientos invasivos como amniocentesis",
+          "Exposición a patógenos durante pruebas",
+          "Estado inmunológico alterado"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección: temperatura < 37.5 °C durante 48 h posteriores al procedimiento",
+          "Leucocitos dentro de rango normal (4‑10 ×10^3 µL) en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Observar temperatura y signos de infección cada 4 h después de la prueba invasiva.",
+            "rationale": "Detección temprana permite intervención oportuna."
+          },
+          {
+            "action": "Enseñar a la paciente la técnica de higiene de manos y cuidados del sitio de punción.",
+            "rationale": "Reduce la probabilidad de contaminación bacteriana."
+          },
+          {
+            "action": "Mantener registro de resultados de laboratorio y comunicar cualquier alteración al médico.",
+            "rationale": "Facilita la toma de decisiones clínicas."
+          },
+          {
+            "action": "Proveer información sobre síntomas de infección (fiebre, dolor, enrojecimiento) y cuándo buscar ayuda.",
+            "rationale": "Empodera a la paciente para buscar atención temprana."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Alpha fetoprotein (AFP)",
+    "aliases": [
+      "afp",
+      "alpha fetoprotein",
+      "afp test",
+      "maternal afp level"
+    ],
+    "summary": "Alpha‑fetoprotein is a fetal protein measured in maternal serum to detect fetal anomalies and maternal liver disease.",
+    "key_points": [
+      "Measured between weeks 15 and 20 of gestation.",
+      "Normal values expressed in MoM (0.5‑2.5) or ng/mL depending on laboratory.",
+      "High AFP suggests neural tube defects, abdominal wall defects, or maternal liver disease.",
+      "Low AFP is associated with trisomy 21 (Down) and other aneuploidies.",
+      "Abnormal results require ultrasound and, sometimes, amniocentesis."
+    ],
+    "sections": {
+      "normal_values": [
+        "15‑20 weeks: 0.5‑2.5 MoM (≈10‑150 ng/mL, varies by lab).",
+        "After 20 weeks: values progressively decrease.",
+        "Always interpret with exact gestational age."
+      ],
+      "high_values": [
+        "High (>2.5 MoM): neural tube defect, omphalocele, gastroschisis.",
+        "Maternal causes: hepatitis, cirrhosis, hemochromatosis.",
+        "May indicate multiple pregnancy.",
+        "Usually asymptomatic; detected in routine screening."
+      ],
+      "low_values": [
+        "Low (<0.5 MoM): risk of trisomy 21, trisomy 18.",
+        "Associated with fetal chromosomal anomalies.",
+        "No maternal symptoms; confirmed with genetic testing."
+      ],
+      "specimen": [
+        "Sample: maternal serum, 10 mL venous blood.",
+        "Timing: 15‑20 weeks gestation.",
+        "No fasting required; avoid hemolysis of tube.",
+        "Label with gestational age and collection time."
+      ],
+      "nursing_care": [
+        "Verify that the sample is correctly labeled and free of hemolysis.",
+        "Notify the physician of out‑of‑range results to plan ultrasound.",
+        "Educate the pregnant patient about the need for additional diagnostic tests.",
+        "Monitor signs of maternal liver disease (jaundice, abdominal pain).",
+        "Document and communicate any invasive procedures (amniocentesis)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "Invasive procedures such as amniocentesis",
+          "Exposure to pathogens during testing",
+          "Altered immune status"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection: temperature < 37.5 °C for 48 h post‑procedure",
+          "White blood cells within normal range (4‑10 ×10^3 µL) at 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Observe temperature and signs of infection every 4 h after the invasive test.",
+            "rationale": "Early detection allows timely intervention."
+          },
+          {
+            "action": "Teach the patient hand‑washing technique and puncture site care.",
+            "rationale": "Reduces risk of bacterial contamination."
+          },
+          {
+            "action": "Maintain a record of laboratory results and report any changes to the physician.",
+            "rationale": "Facilitates clinical decision making."
+          },
+          {
+            "action": "Provide information on infection symptoms (fever, pain, redness) and when to seek help.",
+            "rationale": "Empowers the patient to seek early care."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "neural-tube-defect",
+    "down-syndrome",
+    "maternal-liver-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Liver Cancer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/livercancer.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Alpha Blockers and 5-Alpha-Reductase Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/36-8-alpha-blockers-and-5-alpha-reductase-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Prenatal Testing during the Second Trimester",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/13-2-prenatal-testing-during-the-second-trimester",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-16",
+  "factcheck": {
+    "checked": "2026-11-16",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 22,
+      "contradicted": 0,
+      "total": 25
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "This screening is done between 15 and 20 weeks’ gestation.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "If the AFP test comes back abnormal, additional diagnostic testing is recommended.",
+        "source": 2
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.normal_values.1": {
+        "status": "not_found"
+      },
+      "sections.normal_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.high_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.3": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Nurses have an important role in educating pregnant persons about the prenatal tests that are offered or recommended so that the pregnant person can decide whether to have testing done.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
