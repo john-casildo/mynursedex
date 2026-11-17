@@ -1,0 +1,499 @@
+{
+  "id": "esophagitis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Esofagitis eosinofílica (EoE)",
+    "aliases": [
+      "esofagitis",
+      "eosinofílica",
+      "eoe",
+      "disfagia",
+      "alergia",
+      "inflamación esofágica"
+    ],
+    "summary": "Enfermedad crónica del esófago caracterizada por infiltración de eosinófilos que produce inflamación, dolor y dificultad para tragar.",
+    "key_points": [
+      "Respuesta alérgica a alimentos o alérgenos ambientales.",
+      "Más frecuente en varones y pacientes con otras atopatías alérgicas.",
+      "Diagnóstico definitivo mediante endoscopia y biopsia (>15 eos/hpf).",
+      "Tratamiento incluye eliminación dietética y corticoides tópicos.",
+      "Complicaciones: estenosis esofágica y desnutrición."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Alérgeno (alimento o inhalante) activa linfocitos Th2.",
+        "Se libera interleucina‑5, atrayendo eosinófilos al esófago.",
+        "Eosinófilos liberan citocinas y proteínas tóxicas que dañan epitelio.",
+        "Inflamación crónica produce edema, fibrosis y estrechamiento luminal."
+      ],
+      "risk_factors": [
+        "Sexo masculino.",
+        "Historia de asma, rinitis alérgica, eccema o alergia alimentaria.",
+        "Antecedentes familiares de EoE.",
+        "Exposición a ácaros, polen, moho o caspa animal."
+      ],
+      "signs_symptoms": [
+        "Disfagia progresiva, especialmente con alimentos sólidos.",
+        "Impactación de alimentos (sensación de atascamiento).",
+        "Dolor retroesternal o sensación de ardor.",
+        "Pérdida de peso y disminución del apetito."
+      ],
+      "diagnostics": [
+        "Endoscopia con biopsia: ≥15 eosinófilos por campo de alto poder.",
+        "pH‑metría esofágica para descartar reflujo gastroesofágico.",
+        "Pruebas de alergia (IgE específica, prick test).",
+        "Radiografía de contraste: puede mostrar estrechamiento focal."
+      ],
+      "treatment": [
+        "Dieta de eliminación de alimentos desencadenantes (ej. leche, huevo, soja).",
+        "Corticoides tópicos ingeridos: fluticasona o budesonida en suspensión.",
+        "Inhibidores de la bomba de protones (omeprazol, pantoprazol) 4‑8 semanas.",
+        "Dilación esofágica endoscópica si existen estenosis severas."
+      ],
+      "complications": [
+        "Estenosis esofágica y necesidad de dilatación repetida.",
+        "Impactación aguda con riesgo de perforación.",
+        "Desnutrición y déficit de vitaminas liposolubles.",
+        "Reducción de la calidad de vida por miedo a comer."
+      ],
+      "nursing_care": [
+        "Evaluar capacidad de deglución antes de cada comida.",
+        "Monitorear peso, ingesta calórica y signos de deshidratación.",
+        "Controlar dolor y ofrecer analgésicos según prescripción.",
+        "Mantener hidratación adecuada (≥30 mL/kg/día).",
+        "Preparar al paciente para endoscopia y explicar el procedimiento."
+      ],
+      "patient_teaching": [
+        "Seguir dieta de eliminación y registrar alimentos que provocan síntomas.",
+        "Tomar corticoides tópicos según indicación, sin tragar inmediatamente.",
+        "Beber líquidos entre comidas y masticar bien los alimentos.",
+        "Reconocer signos de impactación (dolor intenso, incapacidad para tragar) y buscar atención inmediata.",
+        "Asistir a controles endoscópicos para evaluar respuesta al tratamiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "disfagia",
+          "estenosis esofágica",
+          "impactación de alimentos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener vía aérea libre: sin episodios de aspiración en 48 h",
+          "Mantener saturación de O₂ ≥ 95 % durante la alimentación"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la capacidad de deglución antes de cada ingesta.",
+            "rationale": "Identifica riesgo inmediato de aspiración y permite adaptar la consistencia de los alimentos."
+          },
+          {
+            "action": "Posicionar al paciente en posición semisentada (30‑45°) durante la alimentación.",
+            "rationale": "Facilita el paso del bolo y reduce el reflujo que favorece la aspiración."
+          },
+          {
+            "action": "Ofrecer alimentos en forma de puré o líquidos espesados según tolerancia.",
+            "rationale": "Disminuye la probabilidad de que los alimentos se queden atrapados."
+          },
+          {
+            "action": "Enseñar al paciente a detenerse y notificar al personal si siente atascamiento.",
+            "rationale": "Permite intervención temprana antes de que ocurra aspiración."
+          },
+          {
+            "action": "Mantener aspirador de secreciones y oxígeno de reserva al alcance del personal.",
+            "rationale": "Prepara la respuesta rápida ante una posible aspiración."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Desequilibrio nutricional: inferior a las necesidades corporales",
+        "type": "actual",
+        "related_to": [
+          "disfagia",
+          "dolor al tragar",
+          "impactación de alimentos"
+        ],
+        "evidenced_by": [
+          "pérdida de peso ≥5 % en 1 mes",
+          "ingesta calórica <1500 kcal/día",
+          "IMC <18,5 kg/m²"
+        ],
+        "outcomes": [
+          "Ganar peso: aumento de 0,5 kg por semana",
+          "Ingesta calórica ≥1500 kcal/día en 2 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta de alimentos y líquidos en cada turno.",
+            "rationale": "Permite cuantificar el consumo y detectar déficit temprano."
+          },
+          {
+            "action": "Colaborar con nutricionista para diseñar dieta de eliminación rica en calorías y proteínas.",
+            "rationale": "Asegura aporte nutricional adecuado pese a restricciones alimentarias."
+          },
+          {
+            "action": "Ofrecer suplementos nutricionales (batidos, fórmulas hipercalóricas) entre comidas.",
+            "rationale": "Incrementa la ingesta calórica sin aumentar volumen de alimentos."
+          },
+          {
+            "action": "Monitorear signos de deshidratación (turgencia cutánea, mucosas secas, diuresis).",
+            "rationale": "Previene complicaciones asociadas a déficit de líquidos."
+          },
+          {
+            "action": "Educar al paciente sobre técnicas de masticación lenta y consumo de pequeñas porciones.",
+            "rationale": "Facilita la deglución y mejora la absorción de nutrientes."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Eosinophilic esophagitis (EoE)",
+    "aliases": [
+      "esophageal inflammation",
+      "eosinophilic",
+      "eoe",
+      "dysphagia",
+      "allergy"
+    ],
+    "summary": "Chronic esophageal disease characterized by eosinophil infiltration causing inflammation, pain, and difficulty swallowing.",
+    "key_points": [
+      "Allergic response to foods or environmental allergens.",
+      "More common in males and patients with other atopic allergies.",
+      "Definitive diagnosis via endoscopy and biopsy (>15 eos/hpf).",
+      "Treatment includes dietary elimination and topical steroids.",
+      "Complications: esophageal strictures and malnutrition."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Allergen (food or inhalant) activates Th2 lymphocytes.",
+        "Interleukin‑5 is released, attracting eosinophils to the esophagus.",
+        "Eosinophils release cytokines and toxic proteins that damage epithelium.",
+        "Chronic inflammation produces edema, fibrosis, and luminal narrowing."
+      ],
+      "risk_factors": [
+        "Male sex.",
+        "History of asthma, allergic rhinitis, eczema, or food allergy.",
+        "Family history of EoE.",
+        "Exposure to dust mites, pollen, mold, or animal dander."
+      ],
+      "signs_symptoms": [
+        "Progressive dysphagia, especially with solid foods.",
+        "Food impaction (feeling of blockage).",
+        "Retrosternal pain or burning sensation.",
+        "Weight loss and decreased appetite."
+      ],
+      "diagnostics": [
+        "Endoscopy with biopsy: ≥15 eosinophils per high‑power field.",
+        "Esophageal pH monitoring to rule out gastroesophageal reflux.",
+        "Allergy testing (specific IgE, prick test).",
+        "Contrast radiography: may show focal narrowing."
+      ],
+      "treatment": [
+        "Elimination diet of trigger foods (e.g., milk, egg, soy).",
+        "Ingested topical steroids: fluticasone or budesonide suspension.",
+        "Proton pump inhibitors (omeprazole, pantoprazole) 4‑8 weeks.",
+        "Endoscopic esophageal dilation if severe strictures present."
+      ],
+      "complications": [
+        "Esophageal strictures and need for repeated dilation.",
+        "Acute impaction with risk of perforation.",
+        "Malnutrition and deficiency of fat‑soluble vitamins.",
+        "Reduced quality of life due to fear of eating."
+      ],
+      "nursing_care": [
+        "Assess swallowing ability before each meal.",
+        "Monitor weight, caloric intake, and signs of dehydration.",
+        "Control pain and provide analgesics as prescribed.",
+        "Maintain adequate hydration (≥30 mL/kg/day).",
+        "Prepare patient for endoscopy and explain the procedure."
+      ],
+      "patient_teaching": [
+        "Follow elimination diet and record foods that trigger symptoms.",
+        "Take topical steroids as directed, do not swallow immediately.",
+        "Drink liquids between meals and chew food thoroughly.",
+        "Recognize signs of impaction (severe pain, inability to swallow) and seek immediate care.",
+        "Attend endoscopic follow‑ups to assess treatment response."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "dysphagia",
+          "esophageal strictures",
+          "food impaction"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain airway clear: no aspiration episodes in 48 h",
+          "Maintain O₂ saturation ≥95 % during feeding"
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing ability before each intake.",
+            "rationale": "Identifies immediate aspiration risk and allows adaptation of food consistency."
+          },
+          {
+            "action": "Position patient in semi‑recumbent (30‑45°) during feeding.",
+            "rationale": "Facilitates bolus passage and reduces reflux that promotes aspiration."
+          },
+          {
+            "action": "Offer foods as puree or thickened liquids per tolerance.",
+            "rationale": "Reduces likelihood of food becoming trapped."
+          },
+          {
+            "action": "Teach patient to stop and notify staff if feeling blocked.",
+            "rationale": "Allows early intervention before aspiration occurs."
+          },
+          {
+            "action": "Keep suction and reserve oxygen within staff reach.",
+            "rationale": "Prepares rapid response to potential aspiration."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Imbalanced nutrition: less than body requirements",
+        "type": "actual",
+        "related_to": [
+          "dysphagia",
+          "pain when swallowing",
+          "food impaction"
+        ],
+        "evidenced_by": [
+          "weight loss ≥5 % in 1 month",
+          "caloric intake <1500 kcal/day",
+          "BMI <18.5 kg/m²"
+        ],
+        "outcomes": [
+          "Gain weight: increase 0.5 kg per week",
+          "Caloric intake ≥1500 kcal/day in 2 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Record food and liquid intake each shift.",
+            "rationale": "Quantifies consumption and detects early deficit."
+          },
+          {
+            "action": "Collaborate with dietitian to design calorie‑dense elimination diet.",
+            "rationale": "Ensures adequate nutrition despite food restrictions."
+          },
+          {
+            "action": "Offer nutritional supplements (shakes, hypercaloric formulas) between meals.",
+            "rationale": "Increases caloric intake without increasing food volume."
+          },
+          {
+            "action": "Monitor dehydration signs (skin turgor, dry mucous membranes, urine output).",
+            "rationale": "Prevents complications associated with fluid deficit."
+          },
+          {
+            "action": "Educate patient on slow chewing and small portion consumption techniques.",
+            "rationale": "Facilitates swallowing and improves nutrient absorption."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "eosinophilia",
+    "allergic-reaction",
+    "esophageal-stricture",
+    "food-impaction",
+    "gerd"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Eosinophilic Esophagitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/eosinophilicesophagitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Esofagitis eosinofílica",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/eosinophilicesophagitis.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Histamine Blockers and Proton-Pump Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-2-histamine-blockers-and-proton-pump-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-17",
+  "factcheck": {
+    "checked": "2026-11-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 15,
+      "not_found": 24,
+      "contradicted": 1,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Eosinophilic esophagitis (EoE) is a chronic disease of the esophagus.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "They think that it is an immune system/allergic reaction to foods or to substances in your environment, such as dust mites, animal dander, pollen, and molds.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "EoE can affect anyone, but it is more common in people who: Are male Have other allergic diseases, such as hay fever , eczema , asthma and food allergies Have family members with EoE What are the symptoms of eosinophilic esophagitis (EoE)?",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Dietary changes for EoE include: Elimination diet.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "EoE can affect anyone, but it is more common in people who: Are male Have other allergic diseases, such as hay fever , eczema , asthma and food allergies Have family members with EoE What are the symptoms of eosinophilic esophagitis (EoE)?",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "EoE can affect anyone, but it is more common in people who: Are male Have other allergic diseases, such as hay fever , eczema , asthma and food allergies Have family members with EoE What are the symptoms of eosinophilic esophagitis (EoE)?",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Have family members with EoE",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "They think that it is an immune system/allergic reaction to foods or to substances in your environment, such as dust mites, animal dander, pollen, and molds.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "In adults: : Trouble swallowing, especially with solid foods",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "In adults: : Trouble swallowing, especially with solid foods Food getting stuck in the esophagus Reflux that does not get better with medicines Heartburn Chest pain"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Sometimes doctors prescribe oral steroids (pills) to treat people who have serious swallowing problems or weight loss.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "For another type, you eliminate foods and drinks that commonly cause allergies, such as dairy products, egg, wheat, soy, peanuts, tree nuts and fish/shellfish.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Educate the client regarding duration of use for these medications being short term, typically 4–8 weeks.",
+        "source": 2
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "If your treatment is not working well enough and you have narrowing of the esophagus, you may need dilation.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "If you are on an elimination diet, you stop eating and drinking certain foods and beverages for several weeks.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "contradicted",
+        "quote": "These are usually topical steroids, which you swallow either from an inhaler or as a liquid.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

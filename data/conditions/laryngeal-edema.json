@@ -1,0 +1,467 @@
+{
+  "id": "laryngeal-edema",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Edema laríngeo",
+    "aliases": [
+      "edema laríngeo",
+      "angioedema laríngeo",
+      "hinchazón garganta",
+      "obstrucción de vía aérea",
+      "edema de la laringe"
+    ],
+    "summary": "Acumulación de líquido en los tejidos de la laringe que produce hinchazón y puede comprometer la vía aérea. Es una manifestación de angioedema o reacción alérgica grave.",
+    "key_points": [
+      "Es una emergencia potencial por riesgo de obstrucción de la vía aérea.",
+      "Frecuentemente asociado a reacciones alérgicas tipo I y a inhibidores de la C1‑esterasa.",
+      "El tratamiento inmediato incluye epinefrina intramuscular y soporte de la vía aérea.",
+      "El diagnóstico es clínico, pero la laringoscopia flexible confirma la localización del edema."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Liberación de histamina y mediadores (bradiquinina, complemento) aumenta la permeabilidad capilar.",
+        "Filtración de plasma hacia el intersticio de la laringe genera edema profundo.",
+        "La hinchazón reduce el calibre de la vía aérea supraglótica, dificultando el flujo de aire."
+      ],
+      "risk_factors": [
+        "Alergias alimentarias, picaduras de insectos o fármacos (ej. IECA).",
+        "Deficiencia hereditaria de C1‑esterasa.",
+        "Procedimientos invasivos de la vía aérea (intubación, cirugía).",
+        "Historia previa de angioedema."
+      ],
+      "signs_symptoms": [
+        "Dolor o sensación de presión en la garganta.",
+        "Estridor inspiratorio y disfonía.",
+        "Dificultad para tragar (disfagia).",
+        "Cianosis y caída de la saturación de O₂ (< 94%)."
+      ],
+      "diagnostics": [
+        "Evaluación clínica de la vía aérea y auscultación.",
+        "Laringoscopia flexible para visualizar edema de la mucosa laríngea.",
+        "Laboratorio: CBC, niveles de C4 y triptasa (para diferenciar causas alérgicas)."
+      ],
+      "treatment": [
+        "Epinefrina 0.3 mg IM de acción rápida.",
+        "Antihistamínicos H1 (diphenhydramina) y H2 (ranitidina).",
+        "Corticosteroides sistémicos (prednisona) para reducir inflamación.",
+        "Oxígeno suplementario y preparación de equipo de intubación o cricotiroidotomía."
+      ],
+      "complications": [
+        "Obstrucción total de la vía aérea y paro respiratorio.",
+        "Hipoxia cerebral y daño orgánico.",
+        "Aspiración de secreciones y neumonía.",
+        "Reacción anafiláctica sistémica."
+      ],
+      "nursing_care": [
+        "Evaluar continuamente la permeabilidad de la vía aérea y la saturación de O₂.",
+        "Mantener al paciente en posición semi-Fowler (30‑45°) para facilitar la respiración.",
+        "Administrar medicamentos según orden y monitorizar efectos adversos.",
+        "Tener a mano equipo de intubación y cricotiroidotomía; estar preparado para intervención de emergencia."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar desencadenantes conocidos (alimentos, medicamentos).",
+        "Uso correcto del autoinyector de epinefrina y cuándo administrarlo.",
+        "Buscar atención médica inmediata ante cualquier hinchazón de garganta o dificultad respiratoria.",
+        "Importancia de seguir el plan de medicación y asistir a controles de alergología."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deterioro del intercambio de gases",
+        "type": "actual",
+        "related_to": [
+          "Obstrucción de la vía aérea por edema laríngeo",
+          "Inflamación de tejidos supraglóticos"
+        ],
+        "evidenced_by": [
+          "Disnea",
+          "Estridor",
+          "Cianosis",
+          "Saturación de O₂ < 94%"
+        ],
+        "outcomes": [
+          "Intercambio gaseoso: nivel óptimo – Saturación de O₂ ≥ 95% en 30 minutos",
+          "Patrón respiratorio: estable – Frecuencia respiratoria 12‑20 rpm en 1 hora"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear saturación de O₂ y frecuencia respiratoria cada 5 minutos.",
+            "rationale": "Detectar rápidamente deterioro respiratorio y actuar a tiempo."
+          },
+          {
+            "action": "Administrar epinefrina IM según prescripción y observar respuesta.",
+            "rationale": "Reduce rápidamente la vasodilatación y la permeabilidad capilar."
+          },
+          {
+            "action": "Mantener al paciente en posición semi‑Fowler y proporcionar oxígeno por máscara facial.",
+            "rationale": "Facilita la expansión pulmonar y mejora la oxigenación."
+          },
+          {
+            "action": "Preparar y, si es necesario, realizar intubación endotraqueal o cricotiroidotomía.",
+            "rationale": "Garantiza una vía aérea segura ante posible obstrucción total."
+          },
+          {
+            "action": "Registrar cambios en el estado respiratorio y comunicar al médico cualquier empeoramiento.",
+            "rationale": "Permite ajustes oportunos del plan terapéutico."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de aspiración",
+        "type": "risk",
+        "related_to": [
+          "Edema laríngeo",
+          "Dificultad para tragar",
+          "Alteración de la deglución"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Prevención de aspiración: sin evidencia de aspiración durante la hospitalización",
+          "Integridad de vías respiratorias: mantenida – ausencia de signos de infección pulmonar"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la capacidad de deglución antes de ofrecer alimentos o líquidos.",
+            "rationale": "Reduce el riesgo de ingreso de contenido a la vía aérea."
+          },
+          {
+            "action": "Mantener al paciente en posición erguida (≥ 30°) durante y después de la alimentación.",
+            "rationale": "Facilita el paso del bolo y disminuye la probabilidad de aspiración."
+          },
+          {
+            "action": "Aplicar aspiración de secreciones si hay acumulación visible en la orofaringe.",
+            "rationale": "Previene la obstrucción y la entrada de secreciones en los pulmones."
+          },
+          {
+            "action": "Enseñar al paciente y familiares técnicas de autocuidado y uso de dispositivos de succión si corresponde.",
+            "rationale": "Promueve la seguridad en el autocuidado y reduce eventos de aspiración."
+          },
+          {
+            "action": "Monitorear signos de neumonía por aspiración: fiebre, tos, cambios en radiografía.",
+            "rationale": "Detectar precozmente complicaciones respiratorias."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Laryngeal edema",
+    "aliases": [
+      "laryngeal edema",
+      "laryngeal angioedema",
+      "throat swelling",
+      "airway obstruction",
+      "laryngeal swelling"
+    ],
+    "summary": "Accumulation of fluid in the tissues of the larynx that causes swelling and can compromise the airway. It is a manifestation of angioedema or severe allergic reaction.",
+    "key_points": [
+      "It is a potential emergency due to risk of airway obstruction.",
+      "Often associated with type I allergic reactions and C1‑esterase inhibitors.",
+      "Immediate treatment includes intramuscular epinephrine and airway support.",
+      "Diagnosis is clinical, but flexible laryngoscopy confirms the location of the edema."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Release of histamine and mediators (bradykinin, complement) increases capillary permeability.",
+        "Plasma filtration into the laryngeal interstitium generates deep edema.",
+        "Swelling reduces the caliber of the supraglottic airway, impeding airflow."
+      ],
+      "risk_factors": [
+        "Food allergies, insect bites or medications (e.g., ACE inhibitors).",
+        "Hereditary C1‑esterase deficiency.",
+        "Invasive airway procedures (intubation, surgery).",
+        "History of angioedema."
+      ],
+      "signs_symptoms": [
+        "Pain or pressure sensation in the throat.",
+        "Inspiratory stridor and dysphonia.",
+        "Difficulty swallowing (dysphagia).",
+        "Cyanosis and drop in O₂ saturation (< 94%)."
+      ],
+      "diagnostics": [
+        "Clinical airway assessment and auscultation.",
+        "Flexible laryngoscopy to visualize laryngeal mucosal edema.",
+        "Laboratory: CBC, C4 levels and tryptase (to differentiate allergic causes)."
+      ],
+      "treatment": [
+        "Epinephrine 0.3 mg IM rapid action.",
+        "H1 antihistamines (diphenhydramine) and H2 (ranitidine).",
+        "Systemic corticosteroids (prednisone) to reduce inflammation.",
+        "Supplemental oxygen and preparation of intubation or cricothyrotomy equipment."
+      ],
+      "complications": [
+        "Total airway obstruction and respiratory arrest.",
+        "Cerebral hypoxia and organ damage.",
+        "Aspiration of secretions and pneumonia.",
+        "Systemic anaphylactic reaction."
+      ],
+      "nursing_care": [
+        "Continuously assess airway patency and O₂ saturation.",
+        "Keep patient in semi‑Fowler position (30‑45°) to facilitate breathing.",
+        "Administer medications as ordered and monitor for adverse effects.",
+        "Have intubation and cricothyrotomy equipment ready; be prepared for emergency intervention."
+      ],
+      "patient_teaching": [
+        "Identify and avoid known triggers (foods, medications).",
+        "Proper use of epinephrine auto‑injector and when to administer it.",
+        "Seek immediate medical attention for any throat swelling or breathing difficulty.",
+        "Importance of following medication plan and attending allergy follow‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Impaired gas exchange",
+        "type": "actual",
+        "related_to": [
+          "Airway obstruction due to laryngeal edema",
+          "Inflammation of supraglottic tissues"
+        ],
+        "evidenced_by": [
+          "Dyspnea",
+          "Stridor",
+          "Cyanosis",
+          "O₂ saturation < 94%"
+        ],
+        "outcomes": [
+          "Gas exchange: optimal level – O₂ saturation ≥ 95% within 30 minutes",
+          "Respiratory pattern: stable – respiratory rate 12‑20 breaths per minute within 1 hour"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor O₂ saturation and respiratory rate every 5 minutes.",
+            "rationale": "Detect rapid respiratory deterioration and act promptly."
+          },
+          {
+            "action": "Administer intramuscular epinephrine per prescription and observe response.",
+            "rationale": "Rapidly reduces vasodilation and capillary permeability."
+          },
+          {
+            "action": "Maintain patient in semi‑Fowler position and provide oxygen via face mask.",
+            "rationale": "Facilitates lung expansion and improves oxygenation."
+          },
+          {
+            "action": "Prepare and, if necessary, perform endotracheal intubation or cricothyrotomy.",
+            "rationale": "Ensures a secure airway in case of total obstruction."
+          },
+          {
+            "action": "Document changes in respiratory status and communicate any worsening to the physician.",
+            "rationale": "Allows timely adjustments to the therapeutic plan."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for aspiration",
+        "type": "risk",
+        "related_to": [
+          "Laryngeal edema",
+          "Difficulty swallowing",
+          "Swallowing impairment"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Prevention of aspiration: no evidence of aspiration during hospitalization",
+          "Airway integrity: maintained – absence of signs of pulmonary infection"
+        ],
+        "interventions": [
+          {
+            "action": "Assess swallowing ability before offering food or liquids.",
+            "rationale": "Reduces risk of entry of contents into the airway."
+          },
+          {
+            "action": "Keep patient upright (≥ 30°) during and after meals.",
+            "rationale": "Facilitates bolus passage and decreases aspiration probability."
+          },
+          {
+            "action": "Apply suction of secretions if visible accumulation in the oropharynx.",
+            "rationale": "Prevents obstruction and entry of secretions into the lungs."
+          },
+          {
+            "action": "Teach patient and family self‑care techniques and use of suction devices if appropriate.",
+            "rationale": "Promotes safety in self‑care and reduces aspiration events."
+          },
+          {
+            "action": "Monitor for signs of aspiration pneumonia: fever, cough, changes on chest X‑ray.",
+            "rationale": "Detect early respiratory complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "angioedema",
+    "airway-obstruction",
+    "anaphylaxis",
+    "laryngospasm",
+    "hypoxia"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Urticaria and Angioneurotic Edema",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-4-urticaria-and-angioneurotic-edema",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Peripheral Vascular System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-2-peripheral-vascular-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-17",
+  "factcheck": {
+    "checked": "2026-11-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 24,
+      "contradicted": 0,
+      "total": 36
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Angioedema is characterized by non-pitting swelling of the dermis and subcutaneous layers.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Histamine contributes to an increase in vascular permeability, resulting in swelling of the deeper skin layers or mucosa (Memo & Tiwari, 2023).",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "This reaction is usually the result of exposure to triggers like food, medications, insect stings, physical stimuli, latex , blood transfusions, bacterial or viral infections, pet dander, plants, and pollen.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Low levels of C4 proteins may indicate hereditary angioedema or acquired C1-inhibitor deficiency (Frank, 2024).",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Nurses should also assess for potential triggers like exposure to medications, detergents, new foods, or recent infections, and ask if the patient has experienced prior lesions or has any complaints of pruritus, angioedema, dyspnea, or rhinorrhea (runny nose) (Benedetti, 2021).",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The patient should also be able to demonstrate how to properly administer their medications and be able to describe signs and symptoms like anaphylaxis, angioedema, difficulty swallowing, wheezing, difficulty breathing, peripheral tingling, and urticaria that is not resolving.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Systemic corticosteroids may be prescribed for more severe cases but are not designed for long-term use.",
+        "source": 0
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Airway management is the top priority with angioedema as airway obstruction can lead to hypoxia, brain damage, and death.",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Interventions may be aimed at improving symptoms, administering medications, patient education about avoidance therapy, and promoting home-based care.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Medical therapies include avoiding the use of NSAIDs, limiting the use of items that can further aggravate the reaction, and eliminating",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "The patient and family should be educated on proper use of an EpiPen or use of inhaled epinephrine and the need to call 911 for emergency treatment and monitoring following usage.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "id": "small-bowel-obstruction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Obstrucción del intestino delgado (OID)",
+    "aliases": [
+      "obstruccion intestinal",
+      "obstruccion del intestino delgado",
+      "oid",
+      "obstruccion",
+      "obstruccion del intestino"
+    ],
+    "summary": "Bloqueo parcial o total del tránsito del contenido por el intestino delgado que impide el paso de alimentos y secreciones. Es una urgencia médica cuando es completa.",
+    "key_points": [
+      "Vómitos biliares y distensión abdominal son signos tempranos",
+      "El desequilibrio electrolítico y la deshidratación son complicaciones frecuentes",
+      "El diagnóstico se confirma con radiografía o TAC abdominal",
+      "El manejo incluye hidratación, corrección de electrolitos y, si es completo, cirugía"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Obstrucción mecánica impide el paso del quimo",
+        "Aumento de presión proximal genera distensión y edema de la mucosa",
+        "Compresión de vasos mesentéricos reduce perfusión y favorece isquemia",
+        "Se produce pérdida de líquidos y electrolitos por vómitos y secreciones"
+      ],
+      "risk_factors": [
+        "Adherencias postoperatorias",
+        "Hernias inguinales o umbilicales",
+        "Tumores intraabdominales",
+        "Medicamentos que reducen motilidad (opioides, anticolinérgicos)"
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal cólico, de inicio súbito",
+        "Vómitos biliares o fecaloides",
+        "Distensión y timpanismo abdominal",
+        "Ruidos intestinales hiperactivos o ausentes"
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen: niveles hidroaéreos y dilatación del intestino delgado",
+        "Tomografía axial computarizada: confirma sitio y causa de la obstrucción",
+        "Electrolitos séricos: hipopotasemia, hipocloremia por pérdidas gástricas",
+        "Hemograma: leucocitosis si hay infección o perforación"
+      ],
+      "treatment": [
+        "Reposo intestinal (NPO) y descompresión con sonda nasogástrica",
+        "Reposición de líquidos intravenosos (solución cristaloide) y corrección de electrolitos",
+        "Analgesia y antieméticos según prescripción",
+        "Cirugía (resección o adhesiolisis) si la obstrucción es completa o no responde"
+      ],
+      "complications": [
+        "Deshidratación y desequilibrio electrolítico",
+        "Isquemia intestinal y necrosis",
+        "Peritonitis secundaria a perforación",
+        "Sepsis y shock hipovolémico"
+      ],
+      "nursing_care": [
+        "Evaluar dolor con escala numérica y localizar la zona afectada",
+        "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca cada 2 h",
+        "Registrar ingesta y salida de líquidos, incluyendo vómitos y drenajes",
+        "Mantener sonda nasogástrica en posición adecuada y registrar contenido",
+        "Observar abdomen: distensión, timpanismo y cambios en ruidos intestinales"
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de ayuno y la función de la sonda nasogástrica",
+        "Instruir sobre la importancia de reportar aumento de vómitos o dolor intenso",
+        "Enseñar técnicas de respiración profunda para prevenir atelectasias",
+        "Orientar sobre la hidratación oral progresiva una vez autorizado"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos persistentes",
+          "NPO prolongado",
+          "Pérdida de secreciones biliares",
+          "Estrés fisiológico"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen de líquidos intravascular: mantener >60 % de la hidratación basal",
+          "Peso corporal: variación <2 % en 24 h",
+          "Urinación: ≥0.5 mL/kg/h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca cada 2 h",
+            "rationale": "Detecta signos tempranos de hipovolemia"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos, incluyendo vómitos y drenajes",
+            "rationale": "Permite balance hídrico preciso"
+          },
+          {
+            "action": "Administrar fluidos intravenosos según prescripción y evaluar respuesta",
+            "rationale": "Reemplaza pérdidas y previene shock"
+          },
+          {
+            "action": "Evaluar mucosa oral y turgencia de la piel",
+            "rationale": "Indicadores de perfusión periférica"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de informar cualquier aumento de vómitos",
+            "rationale": "Facilita intervención temprana"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "Obstrucción del intestino delgado"
+        ],
+        "evidenced_by": [
+          "Dolor abdominal intenso y cólico",
+          "Distensión abdominal visible",
+          "Quejidos al movilizarse",
+          "Frecuencia respiratoria aumentada"
+        ],
+        "outcomes": [
+          "Escala de dolor (0‑10): ≤3 en 30 min después de la analgesia",
+          "Paciente reporta alivio del dolor y puede respirar sin dificultad"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor usando escala numérica 0‑10 y describir localización",
+            "rationale": "Establece línea base y guía la analgesia"
+          },
+          {
+            "action": "Administrar analgésicos según orden (p. ej., opioides, AINE) y observar efectos",
+            "rationale": "Controla la intensidad del dolor"
+          },
+          {
+            "action": "Aplicar medidas no farmacológicas: posición semisentado, compresas tibias",
+            "rationale": "Reduce la percepción del dolor"
+          },
+          {
+            "action": "Monitorear signos vitales y nivel de conciencia cada hora",
+            "rationale": "Detecta efectos adversos de analgesia"
+          },
+          {
+            "action": "Fomentar respiración profunda y movilización pasiva de extremidades",
+            "rationale": "Previene complicaciones respiratorias asociadas al dolor"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Small bowel obstruction (SBO)",
+    "aliases": [
+      "intestinal obstruction",
+      "small bowel obstruction",
+      "sbo",
+      "obstruction",
+      "small bowel"
+    ],
+    "summary": "Partial or complete blockage of the passage of contents through the small intestine that prevents the passage of food and secretions. It is a medical emergency when it is complete.",
+    "key_points": [
+      "Bilious vomiting and abdominal distension are early signs",
+      "Electrolyte imbalance and dehydration are common complications",
+      "Diagnosis is confirmed with abdominal X‑ray or CT scan",
+      "Management includes hydration, electrolyte correction and, if complete, surgery"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mechanical obstruction prevents chyme passage",
+        "Proximal pressure increase causes distension and mucosal edema",
+        "Compression of mesenteric vessels reduces perfusion and promotes ischemia",
+        "Loss of fluids and electrolytes occurs through vomiting and secretions"
+      ],
+      "risk_factors": [
+        "Post‑operative adhesions",
+        "Inguinal or umbilical hernias",
+        "Intraabdominal tumors",
+        "Medications that reduce motility (opioids, anticholinergics)"
+      ],
+      "signs_symptoms": [
+        "Sudden onset colicky abdominal pain",
+        "Bilious or fecaloid vomiting",
+        "Abdominal distension and tympany",
+        "Hyperactive or absent bowel sounds"
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: air‑fluid levels and small bowel dilation",
+        "CT scan: confirms site and cause of obstruction",
+        "Serum electrolytes: hypokalemia, hypochloremia from gastric losses",
+        "CBC: leukocytosis if infection or perforation present"
+      ],
+      "treatment": [
+        "NPO and decompression with nasogastric tube",
+        "IV fluid replacement (crystalloid) and electrolyte correction",
+        "Analgesia and antiemetics as prescribed",
+        "Surgery (resection or adhesiolysis) if obstruction is complete or unresponsive"
+      ],
+      "complications": [
+        "Dehydration and electrolyte imbalance",
+        "Intestinal ischemia and necrosis",
+        "Peritonitis secondary to perforation",
+        "Sepsis and hypovolemic shock"
+      ],
+      "nursing_care": [
+        "Assess pain with numeric scale and locate affected area",
+        "Monitor vital signs, especially blood pressure and heart rate every 2 h",
+        "Record intake and output, including vomiting and drainage",
+        "Maintain nasogastric tube in proper position and document content",
+        "Observe abdomen for distension, tympany and changes in bowel sounds"
+      ],
+      "patient_teaching": [
+        "Explain the need for fasting and the function of the nasogastric tube",
+        "Instruct on the importance of reporting increased vomiting or severe pain",
+        "Teach deep breathing techniques to prevent atelectasis",
+        "Guide on progressive oral hydration once authorized"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Persistent vomiting",
+          "Prolonged NPO",
+          "Loss of bilious secretions",
+          "Physiologic stress"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Intravascular fluid volume: maintain >60 % of baseline hydration",
+          "Body weight: change <2 % in 24 h",
+          "Urine output: ≥0.5 mL/kg/h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs, especially blood pressure and heart rate every 2 h",
+            "rationale": "Detects early signs of hypovolemia"
+          },
+          {
+            "action": "Record intake and output, including vomiting and drainage",
+            "rationale": "Allows precise fluid balance"
+          },
+          {
+            "action": "Administer IV fluids per prescription and assess response",
+            "rationale": "Replaces losses and prevents shock"
+          },
+          {
+            "action": "Assess oral mucosa and skin turgor",
+            "rationale": "Indicators of peripheral perfusion"
+          },
+          {
+            "action": "Educate patient on importance of reporting any increase in vomiting",
+            "rationale": "Facilitates early intervention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "Small bowel obstruction"
+        ],
+        "evidenced_by": [
+          "Intense colicky abdominal pain",
+          "Visible abdominal distension",
+          "Grimacing during movement",
+          "Increased respiratory rate"
+        ],
+        "outcomes": [
+          "Pain scale (0‑10): ≤3 within 30 min after analgesia",
+          "Patient reports pain relief and can breathe comfortably"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain using numeric 0‑10 scale and describe location",
+            "rationale": "Establishes baseline and guides analgesia"
+          },
+          {
+            "action": "Administer analgesics as ordered (e.g., opioids, NSAIDs) and observe effects",
+            "rationale": "Controls pain intensity"
+          },
+          {
+            "action": "Apply non‑pharmacologic measures: semi‑upright position, warm compresses",
+            "rationale": "Reduces pain perception"
+          },
+          {
+            "action": "Monitor vital signs and level of consciousness hourly",
+            "rationale": "Detects adverse effects of analgesia"
+          },
+          {
+            "action": "Encourage deep breathing and passive limb mobilization",
+            "rationale": "Prevents respiratory complications associated with pain"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "adhesions",
+    "electrolyte-imbalance",
+    "dehydration",
+    "peritonitis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Intestinal Obstruction",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/intestinalobstruction.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Bowel Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-2-factors-affecting-bowel-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Diagnostic Evaluation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-3-diagnostic-evaluation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-17",
+  "factcheck": {
+    "checked": "2026-11-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An intestinal obstruction occurs when food or stool cannot move through the intestines.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "A complete intestinal obstruction is a medical emergency.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Vomiting, a common symptom of various GI disorders (e.g., gastroenteritis, gastritis, GI obstruction) can disrupt electrolyte balance through loss of gastric fluid containing electrolytes.",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "These medications bind to opioid receptors in the GI tract, slowing bowel motility and reducing intestinal secretions.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Abnormal findings (e.g., air-fluid levels, dilated loops of bowel, free air under the diaphragm) may indicate pathology.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Chronic vomiting may lead to hypochloremic metabolic alkalosis, characterized by low chloride levels, and metabolic alkalosis, caused by loss of hydrochloric (HCl) acid in vomit.",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "It helps assess electrolyte balance, hydration status, and kidney function.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "For instance, if a patient reports symptoms suggestive of bowel obstruction (e.g., severe abdominal pain, distension, vomiting), the nurse promptly recognizes the need for urgent medical evaluation and intervention.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

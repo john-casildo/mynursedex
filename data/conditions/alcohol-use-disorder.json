@@ -1,0 +1,506 @@
+{
+  "id": "alcohol-use-disorder",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trastorno por consumo de alcohol (AUD)",
+    "aliases": [
+      "alcoholismo",
+      "aud",
+      "dependencia al alcohol",
+      "binge drinking",
+      "trastorno por consumo de alcohol"
+    ],
+    "summary": "El AUD es una enfermedad crónica caracterizada por consumo compulsivo de alcohol, pérdida de control y síntomas de abstinencia.",
+    "key_points": [
+      "Se diagnostica mediante criterios clínicos y herramientas como AUDIT.",
+      "BAC ≥0.08% indica consumo de riesgo y posible intoxicación.",
+      "El manejo incluye terapia conductual y fármacos como naltrexona.",
+      "Complicaciones graves incluyen hepatitis alcohólica y síndrome de abstinencia.",
+      "La hidratación y el equilibrio electrolítico son prioridades de enfermería."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El etanol actúa sobre GABA y NMDA, aumentando la inhibición neuronal.",
+        "Repetida exposición genera tolerancia y dependencia neuroquímica.",
+        "Se produce adaptación dopaminérgica que refuerza el consumo.",
+        "La abstinencia desencadena hiperexcitabilidad del SNC."
+      ],
+      "risk_factors": [
+        "Consumo excesivo (>4/5 bebidas en 2 h).",
+        "Antecedentes familiares de alcoholismo.",
+        "Trastornos psiquiátricos (ansiedad, depresión).",
+        "Inicio temprano del consumo y estrés crónico."
+      ],
+      "signs_symptoms": [
+        "Ansia intensa y pérdida de control al beber.",
+        "Irritabilidad, temblor y sudoración al intentar abstenerse.",
+        "Náuseas, vómitos y alteración del sueño.",
+        "BAC ≥0.08% (≈5 bebidas hombres, 4 mujeres en pocas horas)."
+      ],
+      "diagnostics": [
+        "Historia clínica y cuestionario AUDIT.",
+        "Medición de BAC en sangre o aliento.",
+        "Pruebas hepáticas (AST, ALT, GGT, CDT).",
+        "Evaluación de electrolitos y función renal."
+      ],
+      "treatment": [
+        "Terapia cognitivo‑conductual y grupos de apoyo.",
+        "Fármacos: naltrexona, acamprosato, disulfiram.",
+        "Manejo de abstinencia con benzodiacepinas y tiamina.",
+        "Suplementación nutricional y reposición de líquidos."
+      ],
+      "complications": [
+        "Hepatitis alcohólica y cirrosis.",
+        "Pancreatitis aguda o crónica.",
+        "Síndrome de abstinencia, delirium tremens.",
+        "Neuropatía periférica y trastornos cardiovasculares."
+      ],
+      "nursing_care": [
+        "Evaluar consumo, BAC y signos de abstinencia cada 4 h.",
+        "Monitorear ingesta y salida de líquidos; peso diario.",
+        "Observar signos de deshidratación y desequilibrio electrolítico.",
+        "Administrar medicación prescrita y suplementos de tiamina.",
+        "Garantizar entorno seguro para prevenir caídas."
+      ],
+      "patient_teaching": [
+        "Establecer metas de reducción gradual del consumo.",
+        "Identificar desencadenantes y estrategias de afrontamiento.",
+        "Importancia de hidratación (≥2 L/día) y nutrición adecuada.",
+        "No conducir bajo efectos del alcohol; buscar apoyo comunitario."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "consumo excesivo de alcohol",
+          "vómitos",
+          "diarrea",
+          "pérdida de apetito"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación: paciente mantendrá ingesta de líquidos ≥2 L/día",
+          "Balance hídrico: peso estable ±0.5 kg en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada turno",
+            "rationale": "Permite detectar déficit hídrico temprano"
+          },
+          {
+            "action": "Ofrecer agua, jugos sin azúcar y soluciones electrolíticas",
+            "rationale": "Facilita la reposición de volumen y electrolitos"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, frecuencia cardíaca)",
+            "rationale": "Identifica necesidad de intervención adicional"
+          },
+          {
+            "action": "Pesar al paciente diariamente a la misma hora",
+            "rationale": "Monitorea cambios en el balance hídrico"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación durante la abstinencia",
+            "rationale": "Promueve autocuidado y prevención de complicaciones"
+          },
+          {
+            "action": "Administrar tiamina según prescripción",
+            "rationale": "Previene síndrome de Wernicke en consumidores crónicos"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "consumo crónico de alcohol",
+          "vómitos",
+          "diarrea",
+          "malnutrición"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos: Na⁺ y K⁺ dentro de rangos normales (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L)",
+          "Síntomas: paciente sin manifestaciones de hiponatremia ni hipopotasemia"
+        ],
+        "interventions": [
+          {
+            "action": "Solicitar panel de electrolitos cada 24 h mientras esté en abstinencia",
+            "rationale": "Detecta alteraciones tempranas"
+          },
+          {
+            "action": "Observar signos neuromusculares (espasmos, debilidad, arritmias)",
+            "rationale": "Indicadores clínicos de desequilibrio iónico"
+          },
+          {
+            "action": "Ofrecer alimentos ricos en potasio (plátano, papas) y sodio según tolerancia",
+            "rationale": "Contribuye a la reposición natural de electrolitos"
+          },
+          {
+            "action": "Administrar suplementos de electrolitos según orden médica",
+            "rationale": "Corrige déficits específicos"
+          },
+          {
+            "action": "Educar al paciente sobre hidratación adecuada y dieta balanceada",
+            "rationale": "Previene recurrencia de desequilibrios"
+          },
+          {
+            "action": "Documentar resultados de laboratorio y respuesta a intervenciones",
+            "rationale": "Facilita seguimiento y ajuste del plan de cuidados"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Alcohol Use Disorder (AUD)",
+    "aliases": [
+      "alcoholism",
+      "aud",
+      "alcohol dependence",
+      "binge drinking",
+      "alcohol use disorder"
+    ],
+    "summary": "AUD is a chronic disease characterized by compulsive alcohol consumption, loss of control, and withdrawal symptoms.",
+    "key_points": [
+      "Diagnosis is made using clinical criteria and tools such as AUDIT.",
+      "BAC ≥0.08% indicates risky consumption and possible intoxication.",
+      "Management includes behavioral therapy and medications such as naltrexone.",
+      "Severe complications include alcoholic hepatitis and withdrawal syndrome.",
+      "Hydration and electrolyte balance are nursing priorities."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ethyl alcohol acts on GABA and NMDA, increasing neuronal inhibition.",
+        "Repeated exposure leads to tolerance and neurochemical dependence.",
+        "Dopaminergic adaptation reinforces consumption.",
+        "Withdrawal triggers CNS hyperexcitability."
+      ],
+      "risk_factors": [
+        "Excessive consumption (>4/5 drinks in 2 h).",
+        "Family history of alcoholism.",
+        "Psychiatric disorders (anxiety, depression).",
+        "Early onset of drinking and chronic stress."
+      ],
+      "signs_symptoms": [
+        "Intense anxiety and loss of control when drinking.",
+        "Irritability, tremor, and sweating when attempting abstinence.",
+        "Nausea, vomiting, and sleep disturbance.",
+        "BAC ≥0.08% (≈5 drinks for men, 4 for women in a few hours)."
+      ],
+      "diagnostics": [
+        "Medical history and AUDIT questionnaire.",
+        "BAC measurement in blood or breath.",
+        "Liver function tests (AST, ALT, GGT, CDT).",
+        "Electrolyte and renal function assessment."
+      ],
+      "treatment": [
+        "Cognitive‑behavioral therapy and support groups.",
+        "Medications: naltrexone, acamprosate, disulfiram.",
+        "Withdrawal management with benzodiazepines and thiamine.",
+        "Nutritional supplementation and fluid replacement."
+      ],
+      "complications": [
+        "Alcoholic hepatitis and cirrhosis.",
+        "Acute or chronic pancreatitis.",
+        "Withdrawal syndrome, delirium tremens.",
+        "Peripheral neuropathy and cardiovascular disorders."
+      ],
+      "nursing_care": [
+        "Assess consumption, BAC, and withdrawal signs every 4 h.",
+        "Monitor fluid intake and output; daily weight.",
+        "Observe for dehydration and electrolyte imbalance.",
+        "Administer prescribed medication and thiamine supplements.",
+        "Ensure a safe environment to prevent falls."
+      ],
+      "patient_teaching": [
+        "Set gradual reduction goals for consumption.",
+        "Identify triggers and coping strategies.",
+        "Importance of hydration (≥2 L/day) and adequate nutrition.",
+        "Do not drive under the influence; seek community support."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "excessive alcohol consumption",
+          "vomiting",
+          "diarrhea",
+          "loss of appetite"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration: patient will maintain fluid intake ≥2 L/day",
+          "Fluid balance: weight stable ±0.5 kg in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output each shift",
+            "rationale": "Allows early detection of fluid deficit"
+          },
+          {
+            "action": "Offer water, unsweetened juices, and electrolyte solutions",
+            "rationale": "Facilitates volume and electrolyte replacement"
+          },
+          {
+            "action": "Assess dehydration signs (turgor, mucous membranes, heart rate)",
+            "rationale": "Identifies need for additional intervention"
+          },
+          {
+            "action": "Weigh patient daily at the same time",
+            "rationale": "Monitors changes in fluid balance"
+          },
+          {
+            "action": "Educate patient on the importance of hydration during withdrawal",
+            "rationale": "Promotes self‑care and complication prevention"
+          },
+          {
+            "action": "Administer thiamine as prescribed",
+            "rationale": "Prevents Wernicke’s syndrome in chronic consumers"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "chronic alcohol consumption",
+          "vomiting",
+          "diarrhea",
+          "malnutrition"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes: Na⁺ and K⁺ within normal ranges (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L)",
+          "Symptoms: patient without signs of hyponatremia or hypokalemia"
+        ],
+        "interventions": [
+          {
+            "action": "Order electrolyte panel every 24 h while in withdrawal",
+            "rationale": "Detects early alterations"
+          },
+          {
+            "action": "Observe neuromuscular signs (spasms, weakness, arrhythmias)",
+            "rationale": "Clinical indicators of ionic imbalance"
+          },
+          {
+            "action": "Offer potassium‑rich foods (banana, potatoes) and sodium as tolerated",
+            "rationale": "Supports natural electrolyte replenishment"
+          },
+          {
+            "action": "Administer electrolyte supplements as ordered",
+            "rationale": "Corrects specific deficits"
+          },
+          {
+            "action": "Educate patient on adequate hydration and balanced diet",
+            "rationale": "Prevents recurrence of imbalances"
+          },
+          {
+            "action": "Document laboratory results and response to interventions",
+            "rationale": "Facilitates monitoring and plan adjustment"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "alcohol-dependence",
+    "withdrawal-syndrome",
+    "liver-disease",
+    "nutritional-deficiency"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Alcohol Use Disorder (AUD)",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/alcoholusedisorderaud.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Trastorno por consumo de alcohol",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/alcoholusedisorderaud.html",
+      "lang": "es"
+    },
+    {
+      "name": "Clinical Nursing Skills: Substance Use Disorder Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/20-2-substance-use-disorder-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Alcohol Use Disorder Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/15-3-alcohol-use-disorder-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-17",
+  "factcheck": {
+    "checked": "2026-11-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Death is attributed to cardiovascular complications, hyperthermia, aspiration, and severe fluid and electrolyte disorders.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Over time, the person can build a tolerance to the alcohol, or the physiological capacity to withstand the effects of a substance with repeated use or exposure.",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "AUD is a disease that causes: Craving - a strong need to drink Loss of control - not being able to stop drinking once you've started Negative emotional state - feeling anxious and irritable when you are not drinking",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Substance Withdrawal Symptoms Alcohol Restlessness, sweating, tachycardia, vomiting, irritability, seizures, headache, disorientation",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "They include trouble sleeping, shakiness, irritability, anxiety , depression , restlessness, nausea , and sweating .",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Serum electrolytes Potassium, magnesium, and phosphate abnormalities, particularly with severe dehydration Creatinine Kidney function",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "It may lead to liver diseases , such as alcohol-associated liver disease (ALD) and cirrhosis .",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Amylase and lipase Pancreatitis",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Mortality rates from withdrawal delirium have been historically as high as 20 percent, but with appropriate medical management, the mortality rate is between 1 and 4 percent."
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Adverse Effects Hepatitis/hepatotoxicity Drowsiness Headache Peripheral neuropathy Allergic dermatitis Metallic taste Heart failure",
+        "source": 3
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "As there can be electrolyte disturbances from various factors during withdrawal, such as dehydration, the nurse needs to monitor the patient carefully for signs of electrolyte abnormalities.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "By identifying the patient’s need for more effective coping skills in the nursing diagnosis, the nurse starts putting together an action plan with interventions that will support the patient in developing healthy coping skills, reducing their reliance on substances, and preventing relapse.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

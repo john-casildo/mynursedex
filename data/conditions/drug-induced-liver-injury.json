@@ -1,0 +1,459 @@
+{
+  "id": "drug-induced-liver-injury",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Lesión hepática inducida por fármacos (LHI)",
+    "aliases": [
+      "lesion hepatica",
+      "daño hepático",
+      "hepatotoxicidad",
+      "fármacos",
+      "injuria hepática"
+    ],
+    "summary": "Daño al parénquima hepático causado por la toxicidad directa o inmunomediada de medicamentos.",
+    "key_points": [
+      "La LHI se presenta con elevación aguda de ALT/AST > 3 veces el límite superior normal.",
+      "Los antibióticos, anticonvulsivantes, estatinas y paracetamol son causas frecuentes.",
+      "El diagnóstico se basa en historia de exposición, pruebas de función hepática y exclusión de otras causas.",
+      "El manejo principal es la interrupción del fármaco y soporte hepático."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El fármaco se metaboliza en el hepatocito generando metabolitos reactivos.",
+        "Los metabolitos pueden dañar membranas celulares y proteínas, provocando necrosis o apoptosis.",
+        "En algunos casos se desencadena una respuesta inmunitaria que agrava la lesión.",
+        "La lesión reduce la capacidad de síntesis de proteínas y detoxificación."
+      ],
+      "risk_factors": [
+        "Uso de dosis altas o prolongadas de paracetamol.",
+        "Polifarmacia, especialmente con antibióticos, anticonvulsivantes y estatinas.",
+        "Enfermedad hepática preexistente (cirrosis, hepatitis viral).",
+        "Consumo de alcohol concomitante."
+      ],
+      "signs_symptoms": [
+        "Ictericia (ictericia amarilla de piel y escleras).",
+        "Dolor en hipocondrio derecho.",
+        "Náuseas, vómitos y anorexia.",
+        "Fatiga y confusión (en casos graves)."
+      ],
+      "diagnostics": [
+        "ALT y AST elevados > 3‑5× límite superior normal (U/L).",
+        "Bilirrubina total > 2 mg/dL y bilirrubina directa aumentada.",
+        "INR > 1.5 indica compromiso de síntesis de factores de coagulación.",
+        "Ecografía hepática para descartar obstrucción biliar."
+      ],
+      "treatment": [
+        "Suspender inmediatamente el fármaco sospechoso.",
+        "N‑acetilcisteína para sobredosis de paracetamol.",
+        "Corticosteroides en LHI inmunomediada (ej. por antibióticos).",
+        "Soporte hemodinámico y manejo de complicaciones (ej. encefalopatía)."
+      ],
+      "complications": [
+        "Fallo hepático fulminante con coagulopatía.",
+        "Encefalopatía hepática y coma.",
+        "Ascitis y edema por hipertensión portal.",
+        "Insuficiencia renal por síndrome hepatorrenal."
+      ],
+      "nursing_care": [
+        "Monitorear LFTs (ALT, AST, bilirrubina) cada 24‑48 h.",
+        "Evaluar signos de sangrado: petequias, sangrado gingival.",
+        "Controlar estado mental y nivel de conciencia.",
+        "Registrar ingesta y eliminación; vigilar edema y ascitis."
+      ],
+      "patient_teaching": [
+        "Informar sobre la necesidad de evitar el fármaco y notificar cualquier nuevo medicamento.",
+        "Evitar alcohol y sustancias hepatotóxicas mientras se recupera.",
+        "Reconocer signos de ictericia, dolor abdominal y confusión; buscar atención inmediata.",
+        "Seguir dieta baja en grasas y mantener hidratación adecuada."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "uso de medicamentos hepatotóxicos",
+          "polifarmacia",
+          "enfermedad hepática preexistente",
+          "consumo de alcohol"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Función hepática: ALT y AST dentro de rango normal en 7‑10 días.",
+          "Conocimiento: paciente identifica al menos tres signos de lesión hepática."
+        ],
+        "interventions": [
+          {
+            "action": "Revisar la lista de medicamentos y notificar al médico sobre posibles hepatotóxicos.",
+            "rationale": "Previene la exposición continua a agentes causantes."
+          },
+          {
+            "action": "Monitorear LFTs y coagulación cada 24 h.",
+            "rationale": "Detecta deterioro temprano y guía intervenciones."
+          },
+          {
+            "action": "Evaluar signos de sangrado y registrar cualquier petequia o hemorragia.",
+            "rationale": "La lesión hepática afecta la síntesis de factores de coagulación."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de evitar alcohol y automedicación.",
+            "rationale": "Reduce factores de riesgo adicionales para el hígado."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "ascitis",
+          "edema periférico",
+          "hipoalbuminemia",
+          "insuficiencia hepática"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: I&O registrado y equilibrado en 48 h.",
+          "Edema: reducción visible del edema periférico en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y eliminación de líquidos cada 8 h.",
+            "rationale": "Permite detectar retención o déficit de líquidos."
+          },
+          {
+            "action": "Evaluar peso diario y comparar con peso basal.",
+            "rationale": "Cambio de peso indica acumulación o pérdida de líquidos."
+          },
+          {
+            "action": "Observar y medir circunferencia de abdomen para detectar ascitis.",
+            "rationale": "Ascitis es signo de retención de líquidos en insuficiencia hepática."
+          },
+          {
+            "action": "Administrar diuréticos según indicación médica y monitorizar respuesta.",
+            "rationale": "Facilita la eliminación de exceso de líquido y previene sobrecarga."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentado para facilitar la respiración y reducir presión abdominal.",
+            "rationale": "Mejora la ventilación y disminuye la sensación de plenitud."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Drug-induced liver injury (DILI)",
+    "aliases": [
+      "drug-induced liver injury",
+      "liver injury",
+      "hepatotoxicity",
+      "medications"
+    ],
+    "summary": "Damage to hepatic parenchyma caused by direct or immune-mediated toxicity of medications.",
+    "key_points": [
+      "DILI presents with an acute rise in ALT/AST > 3 times the upper limit of normal.",
+      "Antibiotics, anticonvulsants, statins, and acetaminophen are common causes.",
+      "Diagnosis is based on exposure history, liver function tests, and exclusion of other causes.",
+      "The main management is discontinuation of the drug and hepatic support."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The drug is metabolized in the hepatocyte producing reactive metabolites.",
+        "Metabolites can damage cell membranes and proteins, causing necrosis or apoptosis.",
+        "In some cases an immune response is triggered, worsening the injury.",
+        "The injury reduces protein synthesis and detoxification capacity."
+      ],
+      "risk_factors": [
+        "High or prolonged doses of acetaminophen.",
+        "Polypharmacy, especially with antibiotics, anticonvulsants, and statins.",
+        "Preexisting liver disease (cirrhosis, viral hepatitis).",
+        "Concurrent alcohol consumption."
+      ],
+      "signs_symptoms": [
+        "Jaundice (yellowing of skin and sclera).",
+        "Right upper quadrant abdominal pain.",
+        "Nausea, vomiting, and anorexia.",
+        "Fatigue and confusion (in severe cases)."
+      ],
+      "diagnostics": [
+        "ALT and AST > 3‑5× upper limit of normal (U/L).",
+        "Total bilirubin > 2 mg/dL and direct bilirubin increased.",
+        "INR > 1.5 indicates impaired coagulation factor synthesis.",
+        "Abdominal ultrasound to rule out biliary obstruction."
+      ],
+      "treatment": [
+        "Immediately discontinue the suspected drug.",
+        "N-acetylcysteine for acetaminophen overdose.",
+        "Corticosteroids for immune-mediated DILI (e.g., due to antibiotics).",
+        "Hemodynamic support and management of complications (e.g., encephalopathy)."
+      ],
+      "complications": [
+        "Fulminant hepatic failure with coagulopathy.",
+        "Hepatic encephalopathy and coma.",
+        "Ascites and edema due to portal hypertension.",
+        "Renal failure from hepatorenal syndrome."
+      ],
+      "nursing_care": [
+        "Monitor LFTs (ALT, AST, bilirubin) every 24‑48 h.",
+        "Assess for bleeding signs: petechiae, gingival bleeding.",
+        "Monitor mental status and level of consciousness.",
+        "Record intake and output; monitor for edema and ascites."
+      ],
+      "patient_teaching": [
+        "Inform about the need to avoid the drug and report any new medication.",
+        "Avoid alcohol and hepatotoxic substances while recovering.",
+        "Recognize signs of jaundice, abdominal pain, and confusion; seek immediate care.",
+        "Follow a low-fat diet and maintain adequate hydration."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "use of hepatotoxic medications",
+          "polypharmacy",
+          "preexisting liver disease",
+          "alcohol consumption"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Liver function: ALT and AST within normal range in 7‑10 days.",
+          "Knowledge: patient identifies at least three signs of liver injury."
+        ],
+        "interventions": [
+          {
+            "action": "Review the medication list and notify the physician of potential hepatotoxins.",
+            "rationale": "Prevents continued exposure to causative agents."
+          },
+          {
+            "action": "Monitor LFTs and coagulation every 24 h.",
+            "rationale": "Detects early deterioration and guides interventions."
+          },
+          {
+            "action": "Assess for bleeding signs and record any petechiae or hemorrhage.",
+            "rationale": "Liver injury affects coagulation factor synthesis."
+          },
+          {
+            "action": "Educate the patient on the importance of avoiding alcohol and self-medication.",
+            "rationale": "Reduces additional risk factors for the liver."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "ascites",
+          "peripheral edema",
+          "hypoalbuminemia",
+          "hepatic failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: I&O recorded and balanced in 48 h.",
+          "Edema: visible reduction of peripheral edema in 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Allows detection of fluid retention or deficit."
+          },
+          {
+            "action": "Assess daily weight and compare to baseline weight.",
+            "rationale": "Weight change indicates fluid accumulation or loss."
+          },
+          {
+            "action": "Observe and measure abdominal circumference to detect ascites.",
+            "rationale": "Ascites is a sign of fluid retention in hepatic failure."
+          },
+          {
+            "action": "Administer diuretics as ordered and monitor response.",
+            "rationale": "Facilitates removal of excess fluid and prevents overload."
+          },
+          {
+            "action": "Keep the patient in a semi‑upright position to aid breathing and reduce abdominal pressure.",
+            "rationale": "Improves ventilation and decreases fullness sensation."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hepatotoxicity",
+    "acute-liver-failure",
+    "drug-metabolism"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Drug Reactions",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/drugreactions.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Pressure Injury",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/28-3-pressure-injury",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-17",
+  "factcheck": {
+    "checked": "2026-11-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Jaundice occurs when skin and sclera (whites of the eyes) ( Figure 19.17 ) turn yellow as a result of too much bilirubin in the body.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Symptoms can include sudden severe pain in the right upper abdomen, nausea, and vomiting.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Occur approximately 40 days after exposure; include anorexia nausea vomiting abdominal pain jaundice",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Abdominal ultrasound can detect gallstones.",
+        "source": 1
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Without treatment, portal hypertension can cause complications such as variceal bleeding, ascites, hepatorenal syndrome , infection, and cardiomyopathy.",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Common complications seen with chronic liver disease are esophageal varices , hepatic encephalopathy, hepatorenal syndrome (kidney dysfunction in patients with advanced liver disease), and hepatocellular carcinoma.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "A physical assessment may reveal a change in mental status, jaundice, ascites, peripheral edema, gynecomastia (enlarged breast tissue in male patients), testicular hypertrophy (enlarge",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "These include administering medications documenting daily weights and abdominal girth measurement educating patients monitoring laboratory values, such as sodium levels monitoring vital signs and intake and output",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Alcohol should be avoided.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

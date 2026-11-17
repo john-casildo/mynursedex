@@ -1,0 +1,349 @@
+{
+  "id": "cerebrospinal-fluid",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Líquido cefalorraquídeo (LCR)",
+    "aliases": [
+      "csf",
+      "líquido cefalorraquídeo",
+      "punción lumbar",
+      "líquido espinal",
+      "lcr"
+    ],
+    "summary": "El LCR se analiza para diagnosticar infecciones del SNC, hemorragias y trastornos inflamatorios.",
+    "key_points": [
+      "Presión normal 70‑150 mm H₂O; valores altos indican hipertensión intracraneal.",
+      "Glucosa del LCR 45‑80 mg/dL o 50‑80 % de la glucosa sérica.",
+      "Proteína del LCR 15‑45 mg/dL; aumentos sugieren meningitis bacteriana.",
+      "Células: 0‑5 leucocitos/µL (principalmente linfocitos); >100 sugiere infección.",
+      "RBC >0 indica hemorragia subaracnoidea o punción traumática.",
+      "Muestreo debe hacerse antes de antibióticos cuando sea posible."
+    ],
+    "sections": {
+      "normal_values": [
+        "Apariencia: clara y sin turbidez.",
+        "Presión: 70‑150 mm H₂O.",
+        "Glucosa: 45‑80 mg/dL (≈½ de la glucosa sérica).",
+        "Proteína: 15‑45 mg/dL.",
+        "Leucocitos: 0‑5/µL (predominantemente linfocitos).",
+        "Eritrocitos: 0/µL."
+      ],
+      "high_values": [
+        "Presión ↑: hidrocefalia, meningitis, tumor intracraneal; cefalea, vómitos, papiledema.",
+        "Glucosa ↑: hiperglucemia, disminución del consumo cerebral; sin síntomas específicos.",
+        "Proteína ↑: meningitis bacteriana, TB, Guillain‑Barré; fiebre, rigidez de nuca.",
+        "Leucocitos ↑: meningitis bacteriana (>100 neutrófilos), viral (↑ linfocitos), fúngica.",
+        "Eritrocitos ↑: hemorragia subaracnoidea, punción traumática; dolor de cabeza súbito, pérdida de conciencia."
+      ],
+      "low_values": [
+        "Glucosa ↓: meningitis bacteriana, TB, hipoglucemia; confusión, irritabilidad.",
+        "Proteína ↓: rara, puede observarse en meningitis viral temprana.",
+        "Presión ↓: fuga de LCR, hipotensión intracraneal; cefalea ortostática.",
+        "Leucocitos ↓: valores normales; ausencia de infección."
+      ],
+      "specimen": [
+        "Punción lumbar con técnica aséptica; usar guantes estériles y antiséptico.",
+        "Recoger en tubos estériles: rojo para química, ámbar para cultivo.",
+        "No se requiere ayuno; evitar alimentos grasos antes de la prueba.",
+        "Obtener muestra antes de iniciar antibióticos cuando sea posible.",
+        "Transportar a laboratorio dentro de 30 min; mantener a temperatura ambiente.",
+        "Evitar contaminación por sangre; descartar muestra con gran cantidad de RBC."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales y estado neurológico cada 15‑30 min tras la punción.",
+        "Observar sitio de punción por sangrado o fuga de LCR.",
+        "Aplicar antibióticos empíricos según orden médica en sospecha de meningitis bacteriana.",
+        "Mantener hidratación adecuada para preservar presión de LCR.",
+        "Educar al paciente sobre signos de meningitis: fiebre, rigidez de nuca, confusión.",
+        "Documentar resultados del LCR y comunicar hallazgos críticos al médico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "punción lumbar invasiva",
+          "inmunosupresión",
+          "exposición a patógenos respiratorios",
+          "corte o traumatismo en sitio de punción"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de infección: ausencia de fiebre y signos de infección en 48 h",
+          "Integridad de la piel: sitio de punción sin enrojecimiento ni secreción en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar técnica aséptica estricta durante la punción lumbar y al manipular la muestra.",
+            "rationale": "Previene la introducción de microorganismos al espacio subaracnoideo."
+          },
+          {
+            "action": "Monitorear temperatura, frecuencia cardíaca y presión arterial cada 4 h.",
+            "rationale": "Detección temprana de fiebre o signos sistémicos de infección."
+          },
+          {
+            "action": "Evaluar el sitio de punción por signos de erythema, edema o drenaje.",
+            "rationale": "Identifica infección local antes de que se disemine."
+          },
+          {
+            "action": "Administrar antibióticos profilácticos o terapéuticos según prescripción.",
+            "rationale": "Reduce la carga bacteriana y previene la meningitis bacteriana."
+          },
+          {
+            "action": "Educar al paciente y familia sobre higiene de manos y signos de infección a reportar.",
+            "rationale": "Promueve la detección precoz y la prevención de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cerebrospinal fluid (CSF)",
+    "aliases": [
+      "csf",
+      "cerebrospinal fluid",
+      "lumbar puncture",
+      "spinal fluid",
+      "lcr"
+    ],
+    "summary": "CSF is analyzed to diagnose CNS infections, hemorrhages, and inflammatory disorders.",
+    "key_points": [
+      "Normal pressure 70‑150 mm H₂O; high values indicate intracranial hypertension.",
+      "CSF glucose 45‑80 mg/dL or 50‑80 % of serum glucose.",
+      "CSF protein 15‑45 mg/dL; elevations suggest bacterial meningitis.",
+      "Cells: 0‑5 leukocytes/µL (primarily lymphocytes); >100 suggests infection.",
+      "RBC >0 indicates subarachnoid hemorrhage or traumatic tap.",
+      "Sampling should be done before antibiotics when possible."
+    ],
+    "sections": {
+      "normal_values": [
+        "Appearance: clear and non-turbid.",
+        "Pressure: 70‑150 mm H₂O.",
+        "Glucose: 45‑80 mg/dL (≈½ of serum glucose).",
+        "Protein: 15‑45 mg/dL.",
+        "Leukocytes: 0‑5/µL (predominantly lymphocytes).",
+        "Erythrocytes: 0/µL."
+      ],
+      "high_values": [
+        "Pressure ↑: hydrocephalus, meningitis, intracranial tumor; headache, vomiting, papilledema.",
+        "Glucose ↑: hyperglycemia, decreased cerebral uptake; no specific symptoms.",
+        "Protein ↑: bacterial meningitis, TB, Guillain‑Barré; fever, neck stiffness.",
+        "Leukocytes ↑: bacterial meningitis (>100 neutrophils), viral (↑ lymphocytes), fungal.",
+        "Erythrocytes ↑: subarachnoid hemorrhage, traumatic tap; sudden headache, loss of consciousness."
+      ],
+      "low_values": [
+        "Glucose ↓: bacterial meningitis, TB, hypoglycemia; confusion, irritability.",
+        "Protein ↓: rare, may be seen in early viral meningitis.",
+        "Pressure ↓: CSF leak, intracranial hypotension; orthostatic headache.",
+        "Leukocytes ↓: normal values; absence of infection."
+      ],
+      "specimen": [
+        "Lumbar puncture with aseptic technique; use sterile gloves and antiseptic.",
+        "Collect in sterile tubes: red for chemistry, amber for culture.",
+        "Fasting not required; avoid fatty foods before the test.",
+        "Obtain sample before starting antibiotics when possible.",
+        "Transport to laboratory within 30 min; keep at room temperature.",
+        "Avoid blood contamination; discard sample with large RBC count."
+      ],
+      "nursing_care": [
+        "Monitor vital signs and neurological status every 15‑30 min after puncture.",
+        "Observe puncture site for bleeding or CSF leak.",
+        "Administer empiric antibiotics per order in suspected bacterial meningitis.",
+        "Maintain adequate hydration to preserve CSF pressure.",
+        "Educate patient on meningitis signs: fever, neck stiffness, confusion.",
+        "Document CSF results and communicate critical findings to the physician."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "invasive lumbar puncture",
+          "immunosuppression",
+          "exposure to respiratory pathogens",
+          "cut or trauma at puncture site"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: absence of fever and infection signs within 48 h",
+          "Skin integrity: puncture site without redness or drainage within 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Apply strict aseptic technique during lumbar puncture and when handling the specimen.",
+            "rationale": "Prevents introduction of microorganisms into the subarachnoid space."
+          },
+          {
+            "action": "Monitor temperature, heart rate, and blood pressure every 4 h.",
+            "rationale": "Early detection of fever or systemic infection signs."
+          },
+          {
+            "action": "Assess puncture site for erythema, edema, or drainage.",
+            "rationale": "Identifies local infection before it spreads."
+          },
+          {
+            "action": "Administer prophylactic or therapeutic antibiotics as prescribed.",
+            "rationale": "Reduces bacterial load and prevents bacterial meningitis."
+          },
+          {
+            "action": "Educate patient and family on hand hygiene and infection signs to report.",
+            "rationale": "Promotes early detection and prevention of complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "meningitis",
+    "hydrocephalus",
+    "subarachnoid-hemorrhage"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Meningitis",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/meningitis.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Fluid and Electrolyte Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-1-fluid-and-electrolyte-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-17",
+  "factcheck": {
+    "checked": "2026-11-17",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 34,
+      "contradicted": 0,
+      "total": 34
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.normal_values.1": {
+        "status": "not_found"
+      },
+      "sections.normal_values.2": {
+        "status": "not_found"
+      },
+      "sections.normal_values.3": {
+        "status": "not_found"
+      },
+      "sections.normal_values.4": {
+        "status": "not_found"
+      },
+      "sections.normal_values.5": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.1": {
+        "status": "not_found"
+      },
+      "sections.high_values.2": {
+        "status": "not_found"
+      },
+      "sections.high_values.3": {
+        "status": "not_found"
+      },
+      "sections.high_values.4": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.low_values.3": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "not_found"
+      },
+      "sections.specimen.4": {
+        "status": "not_found"
+      },
+      "sections.specimen.5": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      }
+    }
+  }
+}
