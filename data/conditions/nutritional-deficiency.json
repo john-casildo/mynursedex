@@ -1,0 +1,504 @@
+{
+  "id": "nutritional-deficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Desnutrición (deficiencia nutricional)",
+    "aliases": [
+      "desnutricion",
+      "deficiencia nutricional",
+      "malnutricion",
+      "bajo peso",
+      "pobre nutricion"
+    ],
+    "summary": "Estado en el que el cuerpo no recibe suficientes calorías, proteínas o micronutrientes para mantener la función normal. Puede deberse a ingesta insuficiente, pérdidas aumentadas o requerimientos elevados.",
+    "key_points": [
+      "IMC < 18.5 kg/m² indica riesgo de desnutrición.",
+      "Albúmina sérica < 3.5 g/dL sugiere déficit proteico.",
+      "Kwashiorkor se caracteriza por edema; marasmo por pérdida extrema de peso.",
+      "La desnutrición aumenta la susceptibilidad a infecciones y úlceras por presión."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ingesta insuficiente de energía y proteínas reduce reservas de glucógeno y aminoácidos.",
+        "Aumento de requerimientos (enfermedad, embarazo) agota reservas rápidamente.",
+        "Pérdida de nutrientes por diarrea, vómitos o malabsorción empeora el déficit.",
+        "Déficit de micronutrientes altera procesos metabólicos y la respuesta inmune."
+      ],
+      "risk_factors": [
+        "Pobreza y falta de acceso a alimentos nutritivos.",
+        "Enfermedades crónicas (cáncer, EPOC, insuficiencia cardíaca).",
+        "Trastornos de la deglución o absorción intestinal.",
+        "Edad avanzada o infancia con crecimiento rápido."
+      ],
+      "signs_symptoms": [
+        "Pérdida de peso no intencional >5 % en 1 mes.",
+        "IMC bajo, pérdida de masa muscular y grasa.",
+        "Edema periférico (kwashiorkor) o piel fina y arrugada (marasmo).",
+        "Fatiga, debilidad, cambios en cabello y uñas."
+      ],
+      "diagnostics": [
+        "Peso, talla y cálculo de IMC; % de pérdida de peso reciente.",
+        "Albúmina sérica <3.5 g/dL, prealbúmina <15 mg/dL.",
+        "Hemograma (anemia), niveles de vitaminas/minerales (vitamina D, hierro).",
+        "Estudios de absorción (test de D‑xylose) si se sospecha malabsorción."
+      ],
+      "treatment": [
+        "Dieta hipercalórica y alta en proteínas (≥30 kcal/kg/día, 1.2‑1.5 g proteína/kg/día).",
+        "Suplementos orales de multivitamínicos y minerales según prescripción.",
+        "Nutrición enteral o parenteral cuando la ingesta oral es insuficiente.",
+        "Tratar la causa subyacente (infección, enfermedad crónica, trastorno de deglución).",
+        "Educación al paciente y familia sobre alimentos ricos en calorías y proteínas."
+      ],
+      "complications": [
+        "Inmunosupresión y mayor riesgo de infecciones.",
+        "Retraso del crecimiento y desarrollo en niños.",
+        "Úlceras por presión y deterioro de la integridad cutánea.",
+        "Anemia, hipocalemia y otras alteraciones electrolíticas."
+      ],
+      "nursing_care": [
+        "Evaluar ingesta dietética diaria y comparar con requerimientos energéticos.",
+        "Monitorear peso, IMC y medidas antropométricas cada 48 h.",
+        "Observar signos de edema, cambios cutáneos y nivel de energía.",
+        "Colaborar con el dietista para plan de alimentación individualizado.",
+        "Promover posición semisentada y cambios de posición para prevenir úlceras."
+      ],
+      "patient_teaching": [
+        "Importancia de comer pequeñas comidas frecuentes y alimentos densos en energía.",
+        "Cómo leer etiquetas para identificar fuentes de proteína y calorías.",
+        "Mantener hidratación adecuada (≥2 L/día) y reconocer signos de deshidratación.",
+        "Señales de alerta: pérdida de peso rápida, edema, fatiga extrema."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Desequilibrio nutricional: inferior a las necesidades corporales",
+        "type": "actual",
+        "related_to": [
+          "ingesta insuficiente",
+          "aumento de requerimientos metabólicos",
+          "pérdida de absorción intestinal",
+          "enfermedad crónica"
+        ],
+        "evidenced_by": [
+          "pérdida de peso",
+          "IMC < 18.5 kg/m²",
+          "albúmina sérica baja",
+          "fatiga"
+        ],
+        "outcomes": [
+          "Estado nutricional: Incrementar ingesta calórica a ≥30 kcal/kg/día en 5 días",
+          "Peso corporal: Ganar 0.5 kg por semana durante 4 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta dietética diaria y compararla con los requerimientos energéticos",
+            "rationale": "Permite identificar déficit y planificar suplementación."
+          },
+          {
+            "action": "Monitorear peso y medidas antropométricas cada 48 h",
+            "rationale": "Detecta cambios tempranos en el estado nutricional."
+          },
+          {
+            "action": "Administrar suplementos nutricionales orales según prescripción",
+            "rationale": "Provee calorías y micronutrientes cuando la ingesta oral es insuficiente."
+          },
+          {
+            "action": "Educar al paciente y familia sobre alimentos ricos en proteínas y calorías",
+            "rationale": "Facilita la adherencia a un plan dietético adecuado."
+          },
+          {
+            "action": "Colaborar con el dietista para diseñar un plan de alimentación individualizado",
+            "rationale": "Asegura que el plan sea culturalmente aceptable y factible."
+          },
+          {
+            "action": "Observar y registrar signos de edema y cambios en la piel",
+            "rationale": "Detecta complicaciones tempranas de la desnutrición."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión por presión",
+        "type": "risk",
+        "related_to": [
+          "inmovilidad",
+          "pérdida de masa muscular",
+          "desnutrición",
+          "edema"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Integridad cutánea: Mantener piel intacta durante la hospitalización",
+          "Movilidad: Reposicionar al paciente cada 2 horas sin lesiones"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar riesgo de úlceras por presión usando la escala de Braden al ingreso",
+            "rationale": "Identifica pacientes que requieren intervenciones preventivas."
+          },
+          {
+            "action": "Repositionar al paciente cada 2 horas, alternando posiciones supina y lateral",
+            "rationale": "Reduce la presión prolongada sobre áreas vulnerables."
+          },
+          {
+            "action": "Mantener la piel limpia y seca; aplicar hidratante tópico después del baño",
+            "rationale": "Previene maceración y daño cutáneo."
+          },
+          {
+            "action": "Utilizar colchón antiescaras o almohadilla de espuma de alta densidad",
+            "rationale": "Distribuye la presión y disminuye el riesgo de ulceración."
+          },
+          {
+            "action": "Promover ingesta adecuada de proteínas y calorías para favorecer la reparación tisular",
+            "rationale": "Mejora la resistencia de la piel y la cicatrización."
+          },
+          {
+            "action": "Documentar cualquier cambio en la integridad cutánea y notificar al equipo de salud",
+            "rationale": "Facilita la intervención temprana ante lesiones incipientes."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Malnutrition (nutritional deficiency)",
+    "aliases": [
+      "malnutrition",
+      "nutritional deficiency",
+      "underweight",
+      "poor nutrition"
+    ],
+    "summary": "A state in which the body does not receive enough calories, protein, or micronutrients to maintain normal function. It may result from insufficient intake, increased losses, or heightened requirements.",
+    "key_points": [
+      "BMI < 18.5 kg/m² indicates risk of malnutrition.",
+      "Serum albumin < 3.5 g/dL suggests protein deficit.",
+      "Kwashiorkor is characterized by edema; marasmus by extreme weight loss.",
+      "Malnutrition increases susceptibility to infections and pressure ulcers."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Insufficient energy and protein intake reduces glycogen and amino acid stores.",
+        "Increased requirements (disease, pregnancy) deplete stores quickly.",
+        "Loss of nutrients through diarrhea, vomiting, or malabsorption worsens the deficit.",
+        "Micronutrient deficiency alters metabolic processes and immune response."
+      ],
+      "risk_factors": [
+        "Poverty and lack of access to nutritious foods.",
+        "Chronic diseases (cancer, COPD, heart failure).",
+        "Dysphagia or intestinal absorption disorders.",
+        "Advanced age or children with rapid growth."
+      ],
+      "signs_symptoms": [
+        "Unintentional weight loss >5 % in 1 month.",
+        "Low BMI, loss of muscle mass and fat.",
+        "Peripheral edema (kwashiorkor) or thin, wrinkled skin (marasmus).",
+        "Fatigue, weakness, changes in hair and nails."
+      ],
+      "diagnostics": [
+        "Weight, height, and BMI calculation; % recent weight loss.",
+        "Serum albumin <3.5 g/dL, prealbumin <15 mg/dL.",
+        "Complete blood count (anemia), vitamin/mineral levels (vitamin D, iron).",
+        "Absorption studies (D‑xylose test) if malabsorption suspected."
+      ],
+      "treatment": [
+        "Hypercaloric, high‑protein diet (≥30 kcal/kg/day, 1.2‑1.5 g protein/kg/day).",
+        "Oral multivitamin and mineral supplements as prescribed.",
+        "Enteral or parenteral nutrition when oral intake is insufficient.",
+        "Treat underlying cause (infection, chronic disease, dysphagia).",
+        "Educate patient and family on calorie‑dense, protein‑rich foods."
+      ],
+      "complications": [
+        "Immunosuppression and increased infection risk.",
+        "Growth and developmental delay in children.",
+        "Pressure ulcers and skin integrity deterioration.",
+        "Anemia, hypokalemia, and other electrolyte disturbances."
+      ],
+      "nursing_care": [
+        "Assess daily dietary intake and compare with energy requirements.",
+        "Monitor weight, BMI, and anthropometric measurements every 48 h.",
+        "Observe for edema, skin changes, and energy level.",
+        "Collaborate with dietitian for individualized nutrition plan.",
+        "Promote semi‑recumbent position and repositioning to prevent ulcers."
+      ],
+      "patient_teaching": [
+        "Importance of eating small, frequent, energy‑dense meals.",
+        "How to read labels to identify protein and calorie sources.",
+        "Maintain adequate hydration (≥2 L/day) and recognize dehydration signs.",
+        "Alert signs: rapid weight loss, edema, extreme fatigue."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Imbalanced nutrition: less than body requirements",
+        "type": "actual",
+        "related_to": [
+          "insufficient intake",
+          "increased metabolic requirements",
+          "intestinal absorption loss",
+          "chronic disease"
+        ],
+        "evidenced_by": [
+          "weight loss",
+          "BMI < 18.5 kg/m²",
+          "low serum albumin",
+          "fatigue"
+        ],
+        "outcomes": [
+          "Nutritional status: Increase caloric intake to ≥30 kcal/kg/day within 5 days",
+          "Body weight: Gain 0.5 kg per week for 4 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Assess daily dietary intake and compare with energy requirements",
+            "rationale": "Identifies deficits and plans supplementation."
+          },
+          {
+            "action": "Monitor weight and anthropometric measurements every 48 h",
+            "rationale": "Detects early changes in nutritional status."
+          },
+          {
+            "action": "Administer oral nutritional supplements as prescribed",
+            "rationale": "Provides calories and micronutrients when oral intake is insufficient."
+          },
+          {
+            "action": "Educate patient and family on protein‑rich, calorie‑dense foods",
+            "rationale": "Facilitates adherence to an appropriate diet plan."
+          },
+          {
+            "action": "Collaborate with dietitian to design individualized meal plan",
+            "rationale": "Ensures plan is culturally acceptable and feasible."
+          },
+          {
+            "action": "Observe and document edema and skin changes",
+            "rationale": "Detects early complications of malnutrition."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for pressure injury",
+        "type": "risk",
+        "related_to": [
+          "immobility",
+          "muscle mass loss",
+          "malnutrition",
+          "edema"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Skin integrity: Maintain intact skin during hospitalization",
+          "Mobility: Reposition patient every 2 hours without injury"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pressure ulcer risk using the Braden Scale upon admission",
+            "rationale": "Identifies patients requiring preventive interventions."
+          },
+          {
+            "action": "Reposition patient every 2 hours, alternating supine and lateral positions",
+            "rationale": "Reduces prolonged pressure on vulnerable areas."
+          },
+          {
+            "action": "Keep skin clean and dry; apply topical moisturizer after bathing",
+            "rationale": "Prevents maceration and skin damage."
+          },
+          {
+            "action": "Use pressure‑relieving mattress or high‑density foam pad",
+            "rationale": "Distributes pressure and lowers ulcer risk."
+          },
+          {
+            "action": "Promote adequate protein and calorie intake to support tissue repair",
+            "rationale": "Improves skin resilience and healing."
+          },
+          {
+            "action": "Document any changes in skin integrity and notify the health team",
+            "rationale": "Facilitates early intervention for emerging lesions."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "protein-energy-malnutrition",
+    "kwashiorkor",
+    "marasmus",
+    "micronutrient-deficiency",
+    "cachexia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Malnutrition",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/malnutrition.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Nutritional Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/17-4-nutritional-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Nutritional Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/21-4-nutritional-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-18",
+  "factcheck": {
+    "checked": "2026-11-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Malnutrition means that your body isn't getting enough calories or the right balance of nutrients to stay healthy.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "This includes people who: Don't have enough knowledge about nutrition Don't have access to a variety of food Are older adults or children Have a low income Have a chronic (long-term) illness",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Disorders that result in poor digestion include cognitive dysfunction, dysphagia , and mental illness that leads to poor dietary intake.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "You may have no symptoms, but if you do, they may include: Fatigue and weakness Dizziness Losing weight without trying Low body weight Slow growth or development in children Frequent infections or slow healing Dry skin or brittle hair and nails Swelling in the legs, feet, or belly How is malnutrition diagnosed?",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Treatment for malnutrition may include improving your diet, replacing missing nutrients, and treating the underlying cause.",
+        "source": 0
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Slow growth or development in children",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "You may have no symptoms, but if you do, they may include: Fatigue and weakness Dizziness Losing weight without trying Low body weight Slow growth or development in children Frequent infections or slow healing Dry skin or brittle hair and nails Swelling in the legs, feet, or belly",
+        "source": 0
+      }
+    }
+  }
+}

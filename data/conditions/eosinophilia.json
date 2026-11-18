@@ -1,0 +1,445 @@
+{
+  "id": "eosinophilia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Eosinofilia",
+    "aliases": [
+      "eosinofilia",
+      "eosinófilos altos",
+      "eosinofilos",
+      "eosinophilia",
+      "eosinofilia sangre"
+    ],
+    "summary": "Aumento del número de eosinófilos en sangre periférica (>500/µL o >5% del total leucocitario). Puede ser reactiva por alergias, infecciones parasitarias o enfermedades autoinmunes, o primaria por trastornos hematológicos.",
+    "key_points": [
+      "Normal <500 eosinófilos/µL o <5% del recuento total de leucocitos.",
+      "Causas comunes: alergias, asma, helmintos, enfermedades autoinmunes y neoplasias.",
+      "Eosinófilos pueden infiltrarse en órganos (pulmón, corazón, esófago) y producir daño.",
+      "El tratamiento depende de la causa; los glucocorticoides son de primera línea en formas graves.",
+      "Monitorear efectos adversos de corticoides (hiperglucemia, desequilibrio electrolítico)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los eosinófilos se originan en la médula ósea bajo estimulación de IL-5.",
+        "Se liberan al torrente sanguíneo y migran a tejidos en respuesta a quimioatractantes.",
+        "Liberan proteínas citotóxicas (MBP, EPO) que provocan inflamación y daño tisular."
+      ],
+      "risk_factors": [
+        "Alergias e hipersensibilidad (asma, rinitis alérgica).",
+        "Infecciones parasitarias (helmintos intestinales).",
+        "Enfermedades autoinmunes (vasculitis, síndrome de Churg‑Strauss).",
+        "Trastornos mieloproliferativos (leucemia eosinofílica)."
+      ],
+      "signs_symptoms": [
+        "Prurito, urticaria o erupción cutánea.",
+        "Síntomas respiratorios: sibilancias, tos.",
+        "Dolor abdominal o diarrea en infecciones parasitarias.",
+        "Síntomas de compromiso orgánico: disnea (pulmón), dolor torácico (corazón), disfagia (esófago)."
+      ],
+      "diagnostics": [
+        "Hemograma completo: eosinófilos >500/µL o >5% del total.",
+        "Pruebas de función hepática y renal para evaluar daño de órganos.",
+        "Serología o examen de heces para helmintos.",
+        "IgE sérica elevada en procesos alérgicos."
+      ],
+      "treatment": [
+        "Corticosteroides sistémicos (p. ej., prednisona) para reducir inflamación.",
+        "Antiparasitarios específicos (albendazol, mebendazol) cuando hay helmintos.",
+        "Antihistamínicos y estabilizadores de mastocitos para síntomas alérgicos.",
+        "Terapia dirigida (anti‑IL‑5, mepolizumab) en eosinofilia crónica grave."
+      ],
+      "complications": [
+        "Daño tisular por infiltración eosinofílica (cardiomiopatía, neumonía eosinofílica).",
+        "Hiperglucemia y desequilibrio electrolítico por corticoides.",
+        "Trombosis venosa profunda en síndrome de hipereosinofilia.",
+        "Insuficiencia renal por depósito de eosinófilos."
+      ],
+      "nursing_care": [
+        "Monitorear recuento de eosinófilos y signos de daño orgánico.",
+        "Controlar glucosa y electrolitos (Na+, K+) durante terapia con corticoides.",
+        "Evaluar signos de infección y respuesta a antiparasitarios.",
+        "Mantener hidratación adecuada y registrar ingesta y eliminación.",
+        "Colaborar en la administración de medicamentos y observar reacciones adversas."
+      ],
+      "patient_teaching": [
+        "Explicar la causa subyacente y la importancia de la adherencia al tratamiento.",
+        "Instruir sobre signos de alarma: dificultad respiratoria, dolor torácico, fiebre.",
+        "Enseñar la correcta toma de antiparasitarios y la necesidad de pruebas de seguimiento.",
+        "Informar sobre efectos secundarios de los corticoides y la necesidad de control glucémico.",
+        "Promover medidas de prevención de infecciones parasitarias (higiene, alimentos cocidos)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de corticosteroides",
+          "inflamación sistémica",
+          "pérdida gastrointestinal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: Na+ 135‑145 mEq/L y K+ 3.5‑5.0 mEq/L en 48 h.",
+          "Control glucémico: glucosa <140 mg/dL en ayunas en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos y glucosa cada 24 h.",
+            "rationale": "Detectar alteraciones tempranas provocadas por corticoides."
+          },
+          {
+            "action": "Administrar solución salina isotónica según indicación médica.",
+            "rationale": "Mantener volumen intravascular y prevenir hiponatremia."
+          },
+          {
+            "action": "Evaluar signos de deshidratación o sobrecarga hídrica (turgencia, edema).",
+            "rationale": "Identificar desequilibrio de volumen que afecta electrolitos."
+          },
+          {
+            "action": "Educar al paciente sobre dieta rica en potasio y bajo en sodio si es necesario.",
+            "rationale": "Ayudar a estabilizar los niveles electrolíticos de forma dietética."
+          },
+          {
+            "action": "Registrar y reportar cualquier cambio significativo al médico.",
+            "rationale": "Facilitar ajustes de terapia o intervención temprana."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "exposición a parásitos",
+          "alergias crónicas",
+          "enfermedades autoinmunes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin fiebre ni signos de infección durante la hospitalización.",
+          "Eosinófilos dentro de rango normal (<500/µL) en 7 días."
+        ],
+        "interventions": [
+          {
+            "action": "Realizar evaluación diaria de temperatura y signos de infección.",
+            "rationale": "Detectar tempranamente procesos infecciosos."
+          },
+          {
+            "action": "Mantener técnicas de asepsia al administrar medicamentos y al cambiar apósitos.",
+            "rationale": "Reducir la exposición a patógenos."
+          },
+          {
+            "action": "Obtener y revisar resultados de cultivos y pruebas parasitarias según orden.",
+            "rationale": "Confirmar o descartar etiología infecciosa."
+          },
+          {
+            "action": "Educar al paciente sobre higiene personal y alimentos seguros.",
+            "rationale": "Prevenir reinfección parasitaria."
+          },
+          {
+            "action": "Documentar cualquier exposición reciente a alérgenos o agentes infecciosos.",
+            "rationale": "Facilitar la identificación de factores desencadenantes."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Eosinophilia",
+    "aliases": [
+      "eosinophilia",
+      "high eosinophils",
+      "eosinophils",
+      "eosinophilia blood"
+    ],
+    "summary": "An increase in eosinophils in peripheral blood (>500/µL or >5% of total leukocytes). It can be reactive due to allergies, parasitic infections, or autoimmune diseases, or primary due to hematologic disorders.",
+    "key_points": [
+      "Normal <500 eosinophils/µL or <5% of total leukocyte count.",
+      "Common causes: allergies, asthma, helminths, autoimmune diseases, and neoplasms.",
+      "Eosinophils can infiltrate organs (lung, heart, esophagus) and cause damage.",
+      "Treatment depends on the cause; glucocorticoids are first line for severe forms.",
+      "Monitor steroid side effects (hyperglycemia, electrolyte imbalance)."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Eosinophils originate in the bone marrow under IL-5 stimulation.",
+        "They are released into the bloodstream and migrate to tissues in response to chemotactic signals.",
+        "They release cytotoxic proteins (MBP, EPO) that cause inflammation and tissue damage."
+      ],
+      "risk_factors": [
+        "Allergies and hypersensitivity (asthma, allergic rhinitis).",
+        "Parasitic infections (intestinal helminths).",
+        "Autoimmune diseases (vasculitis, Churg‑Strauss syndrome).",
+        "Myeloproliferative disorders (eosinophilic leukemia)."
+      ],
+      "signs_symptoms": [
+        "Pruritus, hives, or rash.",
+        "Respiratory symptoms: wheezing, cough.",
+        "Abdominal pain or diarrhea in parasitic infections.",
+        "Signs of organ involvement: dyspnea (lung), chest pain (heart), dysphagia (esophagus)."
+      ],
+      "diagnostics": [
+        "Complete blood count: eosinophils >500/µL or >5% of total.",
+        "Liver and kidney function tests to assess organ damage.",
+        "Serology or stool exam for helminths.",
+        "Elevated serum IgE in allergic processes."
+      ],
+      "treatment": [
+        "Systemic corticosteroids (e.g., prednisone) to reduce inflammation.",
+        "Specific antiparasitics (albendazole, mebendazole) when helminths are present.",
+        "Antihistamines and mast cell stabilizers for allergic symptoms.",
+        "Targeted therapy (anti‑IL‑5, mepolizumab) for severe chronic eosinophilia."
+      ],
+      "complications": [
+        "Tissue damage from eosinophilic infiltration (cardiomyopathy, eosinophilic pneumonia).",
+        "Hyperglycemia and electrolyte imbalance from steroids.",
+        "Deep venous thrombosis in hypereosinophilic syndrome.",
+        "Renal failure from eosinophil deposition."
+      ],
+      "nursing_care": [
+        "Monitor eosinophil counts and signs of organ damage.",
+        "Check glucose and electrolytes (Na+, K+) during steroid therapy.",
+        "Assess for infection signs and response to antiparasitics.",
+        "Maintain adequate hydration and record intake and output.",
+        "Assist with medication administration and monitor for adverse reactions."
+      ],
+      "patient_teaching": [
+        "Explain the underlying cause and importance of treatment adherence.",
+        "Teach warning signs: shortness of breath, chest pain, fever.",
+        "Show proper use of antiparasitics and need for follow-up tests.",
+        "Inform about steroid side effects and need for glucose monitoring.",
+        "Promote parasite infection prevention measures (hygiene, cooked foods)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "corticosteroid use",
+          "systemic inflammation",
+          "gastrointestinal loss"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: Na+ 135‑145 mEq/L and K+ 3.5‑5.0 mEq/L within 48 h.",
+          "Blood glucose <140 mg/dL fasting within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes and glucose every 24 h.",
+            "rationale": "Detect early changes caused by steroids."
+          },
+          {
+            "action": "Administer isotonic saline as ordered.",
+            "rationale": "Maintain intravascular volume and prevent hyponatremia."
+          },
+          {
+            "action": "Assess for signs of dehydration or fluid overload (turgor, edema).",
+            "rationale": "Identify volume imbalance affecting electrolytes."
+          },
+          {
+            "action": "Educate patient on potassium‑rich, low‑sodium diet if needed.",
+            "rationale": "Help stabilize electrolyte levels dietarily."
+          },
+          {
+            "action": "Document and report any significant changes to the physician.",
+            "rationale": "Facilitate therapy adjustments or early intervention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "parasite exposure",
+          "chronic allergies",
+          "autoimmune diseases"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No fever or signs of infection during hospitalization.",
+          "Eosinophils within normal range (<500/µL) within 7 days."
+        ],
+        "interventions": [
+          {
+            "action": "Perform daily temperature and infection sign assessment.",
+            "rationale": "Detect infections early."
+          },
+          {
+            "action": "Maintain aseptic technique when administering medications and changing dressings.",
+            "rationale": "Reduce pathogen exposure."
+          },
+          {
+            "action": "Obtain and review cultures and parasitic tests as ordered.",
+            "rationale": "Confirm or rule out infectious etiology."
+          },
+          {
+            "action": "Educate patient on personal hygiene and safe foods.",
+            "rationale": "Prevent reinfection."
+          },
+          {
+            "action": "Document any recent exposure to allergens or infectious agents.",
+            "rationale": "Facilitate identification of triggers."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypereosinophilic-syndrome",
+    "asthma",
+    "parasitic-infection"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Eosinophilic Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/eosinophilicdisorders.html",
+      "lang": "en"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-18",
+  "factcheck": {
+    "checked": "2026-11-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "In some conditions, the eosinophils can move outside the bloodstream and build up in organs and tissues.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Your body may produce more of them in response to: Allergic disorders Skin conditions Parasitic and fungal infections Autoimmune diseases Some cancers Bone marrow disorders"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "PDGFRA-associated chronic eosinophilic leukemia: MedlinePlus Genetics (National Library of Medicine)",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Steroids are often part of the treatment.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,420 @@
+{
+  "id": "food-impaction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Impactación de alimentos (obstrucción intestinal)",
+    "aliases": [
+      "impactación",
+      "obstrucción intestinal",
+      "impaccion alimentaria",
+      "obstrucción por alimentos"
+    ],
+    "summary": "Acumulación de alimentos no digeridos que bloquea el tránsito intestinal, provocando obstrucción parcial o completa.",
+    "key_points": [
+      "Obstrucción completa requiere intervención quirúrgica urgente.",
+      "Los ruidos intestinales pueden ser hiperactivos (obstrucción parcial) o ausentes (completa).",
+      "El manejo incluye descompresión, reposo intestinal y corrección de líquidos y electrolitos.",
+      "Complicaciones graves incluyen isquemia intestinal y perforación."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los alimentos no pasan por el lúmen por una barrera mecánica o funcional.",
+        "El peristaltismo aumenta intentando superar la obstrucción, generando distensión.",
+        "La presión intraluminal reduce el flujo sanguíneo mesentérico, provocando isquemia."
+      ],
+      "risk_factors": [
+        "Adherencias postoperatorias, hernias, tumores y uso de opioides.",
+        "Dieta alta en fibra sin adecuada hidratación.",
+        "Enfermedades motilidad intestinal (p.ej., enfermedad de Parkinson)."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal severo y cólico, a menudo intermitente.",
+        "Vómitos biliosos o fecaloides, especialmente si la obstrucción es alta.",
+        "Distensión abdominal visible, ruidos intestinales hiperactivos o ausentes."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen: niveles hidroaéreos y dilatación de asas.",
+        "TC abdominal: identifica sitio y causa de la obstrucción.",
+        "Laboratorios: leucocitosis, aumento de BUN/creatinina por deshidratación."
+      ],
+      "treatment": [
+        "Reposo intestinal (NPO) y nasogástrico para descompresión.",
+        "Reposición de líquidos IV y corrección de electrolitos (K+, Na+).",
+        "Laxantes osmóticos (p.ej., polietilenglicol) solo si la obstrucción es parcial y bajo supervisión.",
+        "Cirugía (resección o adhesiolisis) para obstrucción completa o complicaciones."
+      ],
+      "complications": [
+        "Isquemia y necrosis intestinal.",
+        "Perforación con peritonitis secundaria.",
+        "Desequilibrio electrolítico grave (hipopotasemia, hipernatremia)."
+      ],
+      "nursing_care": [
+        "Evaluar dolor con escala numérica y monitorizar cambios en la intensidad.",
+        "Controlar signos vitales cada hora; observar taquicardia y fiebre.",
+        "Mantener NPO y verificar posición del tubo nasogástrico; registrar volumen y contenido.",
+        "Registrar ingesta y salida de líquidos; vigilar signos de deshidratación."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de ayuno y la función del tubo nasogástrico.",
+        "Instruir sobre la importancia de la hidratación y dieta baja en fibra tras la recuperación.",
+        "Enseñar signos de alarma: aumento del dolor, vómitos persistentes, fiebre."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos",
+          "Pérdida de secreciones nasogástricas",
+          "Distensión abdominal",
+          "Fiebre"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h.",
+          "NOC: Hidratación: peso corporal estable (variación <1 kg en 48 h)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 2 h y registrar en la hoja de observación.",
+            "rationale": "Permite detectar rápidamente desequilibrios y ajustar la terapia de reposición."
+          },
+          {
+            "action": "Administrar fluidos IV según prescripción, vigilando velocidad y signos de sobrecarga.",
+            "rationale": "Compensa pérdidas por vómitos y mantiene perfusión tisular."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas, taquicardia).",
+            "rationale": "Identifica temprano la necesidad de intervención adicional."
+          },
+          {
+            "action": "Mantener el tubo nasogástrico en posición adecuada y registrar volumen de drenaje.",
+            "rationale": "Previene pérdida adicional de líquidos y controla la descompresión."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Vómitos persistentes",
+          "Uso de laxantes osmóticos",
+          "Pérdida de secreciones gástricas",
+          "Hipoperfusión intestinal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Equilibrio electrolítico: mantener K+ entre 3.5‑5.0 mEq/L y Na+ entre 135‑145 mEq/L.",
+          "NOC: Función renal: BUN/creatinina dentro de rangos normales para la edad."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos cada 12 h hasta estabilización.",
+            "rationale": "Detecta alteraciones tempranas y guía la reposición adecuada."
+          },
+          {
+            "action": "Administrar soluciones electrolíticas IV (p.ej., solución salina con KCl) según resultados de laboratorio.",
+            "rationale": "Corrige déficits y previene arritmias u otras complicaciones."
+          },
+          {
+            "action": "Evaluar ritmo cardíaco y ECG cada 4 h en pacientes con riesgo de hipopotasemia.",
+            "rationale": "La hipopotasemia puede producir arritmias peligrosas."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de no iniciar laxantes sin indicación médica.",
+            "rationale": "Evita empeoramiento del desequilibrio electrolítico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Food impaction (intestinal obstruction)",
+    "aliases": [
+      "impaction",
+      "intestinal obstruction",
+      "food impaction",
+      "obstruction by food"
+    ],
+    "summary": "Accumulation of undigested food that blocks intestinal transit, causing partial or complete obstruction.",
+    "key_points": [
+      "Complete obstruction requires urgent surgical intervention.",
+      "Intestinal sounds may be hyperactive (partial obstruction) or absent (complete).",
+      "Management includes decompression, bowel rest, and correction of fluids and electrolytes.",
+      "Severe complications include intestinal ischemia and perforation."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Food does not pass through the lumen due to a mechanical or functional barrier.",
+        "Peristalsis increases in an attempt to overcome the obstruction, causing distension.",
+        "Intraluminal pressure reduces mesenteric blood flow, leading to ischemia."
+      ],
+      "risk_factors": [
+        "Postoperative adhesions, hernias, tumors, and opioid use.",
+        "High-fiber diet without adequate hydration.",
+        "Intestinal motility disorders (e.g., Parkinson's disease)."
+      ],
+      "signs_symptoms": [
+        "Severe, colicky abdominal pain, often intermittent.",
+        "Bilious or fecaloid vomiting, especially if the obstruction is high.",
+        "Visible abdominal distension, hyperactive or absent bowel sounds."
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: air‑fluid levels and bowel dilation.",
+        "Abdominal CT: identifies site and cause of obstruction.",
+        "Laboratories: leukocytosis, increased BUN/creatinine from dehydration."
+      ],
+      "treatment": [
+        "Bowel rest (NPO) and nasogastric tube for decompression.",
+        "IV fluid replacement and electrolyte correction (K+, Na+).",
+        "Osmotic laxatives (e.g., polyethylene glycol) only if partial obstruction and under supervision.",
+        "Surgery (resection or adhesiolysis) for complete obstruction or complications."
+      ],
+      "complications": [
+        "Intestinal ischemia and necrosis.",
+        "Perforation with secondary peritonitis.",
+        "Severe electrolyte imbalance (hypokalemia, hypernatremia)."
+      ],
+      "nursing_care": [
+        "Assess pain with numeric rating scale and monitor changes in intensity.",
+        "Check vital signs hourly; watch for tachycardia and fever.",
+        "Maintain NPO and verify nasogastric tube position; record volume and content.",
+        "Record fluid intake and output; monitor for signs of dehydration."
+      ],
+      "patient_teaching": [
+        "Explain the need for fasting and the function of the nasogastric tube.",
+        "Instruct on the importance of hydration and a low‑fiber diet after recovery.",
+        "Teach warning signs: increased pain, persistent vomiting, fever."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Vomiting",
+          "Loss of nasogastric secretions",
+          "Abdominal distension",
+          "Fever"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Fluid balance: maintain intake and output within ±500 mL/24 h.",
+          "NOC: Hydration: stable body weight (variation <1 kg in 48 h)."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output every 2 h and record on the observation sheet.",
+            "rationale": "Allows rapid detection of imbalances and adjustment of replacement therapy."
+          },
+          {
+            "action": "Administer IV fluids per prescription, monitoring rate and signs of overload.",
+            "rationale": "Compensates for losses from vomiting and maintains tissue perfusion."
+          },
+          {
+            "action": "Assess for signs of dehydration (skin turgor, dry mucous membranes, tachycardia).",
+            "rationale": "Identifies early need for additional intervention."
+          },
+          {
+            "action": "Keep the nasogastric tube in proper position and record drainage volume.",
+            "rationale": "Prevents further fluid loss and controls decompression."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Persistent vomiting",
+          "Use of osmotic laxatives",
+          "Loss of gastric secretions",
+          "Intestinal hypoperfusion"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Electrolyte balance: maintain K+ between 3.5‑5.0 mEq/L and Na+ between 135‑145 mEq/L.",
+          "NOC: Renal function: BUN/creatinine within normal age‑appropriate ranges."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes every 12 h until stabilization.",
+            "rationale": "Detects early changes and guides appropriate replacement."
+          },
+          {
+            "action": "Administer IV electrolyte solutions (e.g., saline with KCl) per lab results.",
+            "rationale": "Corrects deficits and prevents arrhythmias or other complications."
+          },
+          {
+            "action": "Assess cardiac rhythm and ECG every 4 h in patients at risk for hypokalemia.",
+            "rationale": "Hypokalemia can cause dangerous arrhythmias."
+          },
+          {
+            "action": "Educate the patient on the importance of not starting laxatives without medical indication.",
+            "rationale": "Prevents worsening of electrolyte imbalance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "intestinal-obstruction",
+    "fecal-impaction",
+    "bowel-perforation",
+    "dehydration",
+    "electrolyte-imbalance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Intestinal Obstruction",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/intestinalobstruction.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Ear",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/18-2-disorders-of-the-ear",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Laxatives and Stool Softeners",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/30-3-laxatives-and-stool-softeners",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-18",
+  "factcheck": {
+    "checked": "2026-11-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 23,
+      "contradicted": 1,
+      "total": 31
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An intestinal obstruction occurs when food or stool cannot move through the intestines.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A complete intestinal obstruction is a medical emergency. It often requires surgery.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "An intestinal obstruction occurs when food or stool cannot move through the intestines.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "The most common are adhesions , hernias , cancers, and certain medicines.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Symptoms include: Severe abdominal pain or cramping Vomiting Bloating Loud bowel sounds Swelling of the abdomen Inability to pass gas Constipation A complete intestinal obstruction is a medical emergency.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "A complete intestinal obstruction is a medical emergency. It often requires surgery.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "contradicted",
+        "quote": "Educate the client on lifestyle and dietary factors, such as increasing hydration and eating a healthy diet high in fiber to prevent constipation.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Monitor for worsening symptoms, increased pain, swelling, or fever.",
+        "source": 1
+      }
+    }
+  }
+}

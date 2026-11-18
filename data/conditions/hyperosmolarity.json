@@ -1,0 +1,431 @@
+{
+  "id": "hyperosmolarity",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hiperosmolaridad",
+    "aliases": [
+      "hiperosmolaridad",
+      "estado hiperosmolar",
+      "hiperosmolar",
+      "hiperosmolaridad diabética",
+      "hiperosmolaridad no cetósica"
+    ],
+    "summary": "Aumento significativo de la osmolaridad plasmática, frecuentemente asociado a hiperglucemia severa y deshidratación.",
+    "key_points": [
+      "Osmolaridad > 320 mOsm/kg indica hiperosmolaridad.",
+      "Se presenta mayormente en diabetes tipo 2 con glucosa > 600 mg/dL.",
+      "Deshidratación y pérdida de electrolitos son hallazgos típicos.",
+      "El tratamiento urgente es reposición de líquidos y corrección de glucosa."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Hiperglucemia extrema genera ósmosis extracelular, atrayendo agua del interior celular.",
+        "La diuresis osmótica produce pérdida de agua y electrolitos.",
+        "Disminuye el volumen intravascular, provocando hipovolemia y aumento de la osmolaridad plasmática.",
+        "La hiperosmolaridad altera la función cerebral, pudiendo causar alteración del nivel de conciencia."
+      ],
+      "risk_factors": [
+        "Diabetes tipo 2 mal controlada.",
+        "Infecciones o estrés fisiológico que aumentan la glucosa.",
+        "Ingesta insuficiente de líquidos o vómitos.",
+        "Uso de diuréticos o insuficiencia renal."
+      ],
+      "signs_symptoms": [
+        "Poliuria y polidipsia intensas.",
+        "Mucosas secas, piel turgencia disminuida.",
+        "Hipotensión ortostática, taquicardia.",
+        "Alteración del estado mental (confusión, somnolencia)."
+      ],
+      "diagnostics": [
+        "Glucosa plasmática > 600 mg/dL.",
+        "Osmolaridad sérica > 320 mOsm/kg.",
+        "Na+ 130‑150 mEq/L, K+ 3.0‑5.5 mEq/L (pueden variar).",
+        "Hemoglobina glucosilada (HbA1c) > 9% indica control deficiente."
+      ],
+      "treatment": [
+        "Reposición rápida de líquidos con solución salina isotónica (0.9% NaCl).",
+        "Corrección gradual de glucosa con insulina IV (infusión continua).",
+        "Reposición de potasio cuando K+ < 3.5 mEq/L.",
+        "Monitoreo continuo de glucosa, electrolitos y signos vitales."
+      ],
+      "complications": [
+        "Shock hipovolémico.",
+        "Desequilibrio electrolítico grave (hipopotasemia, hiponatremia).",
+        "Insuficiencia renal aguda.",
+        "Convulsiones o coma por edema cerebral."
+      ],
+      "nursing_care": [
+        "Evaluar ingesta y salida de líquidos cada hora.",
+        "Monitorizar presión arterial, frecuencia cardíaca y nivel de conciencia.",
+        "Controlar glucosa capilar cada 30‑60 min según indicación.",
+        "Observar signos de sobrecarga o déficit de líquidos.",
+        "Administrar soluciones IV y medicamentos según prescripción."
+      ],
+      "patient_teaching": [
+        "Importancia de la hidratación adecuada y reconocimiento de sed excesiva.",
+        "Control estricto de la glucosa y adherencia al tratamiento farmacológico.",
+        "Reconocer signos de deshidratación y buscar atención médica temprana.",
+        "Mantener una dieta balanceada y evitar alimentos con alto índice glucémico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Mucosas secas",
+          "Turgencia cutánea disminuida",
+          "Taquicardia",
+          "Hipotensión ortostática",
+          "Osmolaridad > 320 mOsm/kg"
+        ],
+        "outcomes": [
+          "Balance de líquidos: ingesta y salida equilibradas en 24 h",
+          "Estado de hidratación: signos de hidratación adecuados en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada hora",
+            "rationale": "Permite detectar déficit o exceso rápidamente."
+          },
+          {
+            "action": "Administrar solución salina isotónica según prescripción",
+            "rationale": "Restablece el volumen intravascular y reduce la osmolaridad."
+          },
+          {
+            "action": "Evaluar signos vitales y nivel de conciencia cada 30 min",
+            "rationale": "Identifica deterioro hemodinámico precozmente."
+          },
+          {
+            "action": "Controlar glucosa capilar y ajustar insulina según orden",
+            "rationale": "Evita hiperglucemia persistente que perpetúa la diuresis osmótica."
+          },
+          {
+            "action": "Revisar electrolitos séricos cada 4 h",
+            "rationale": "Detecta desequilibrios que pueden requerir reposición."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Hiperglucemia > 600 mg/dL",
+          "Diuresis osmótica",
+          "Reposición rápida de líquidos sin potasio",
+          "Insuficiencia renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos dentro de rangos normales en 24 h",
+          "Sin manifestaciones clínicas de hipopotasemia o hiponatremia"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear Na+ y K+ séricos cada 4‑6 h",
+            "rationale": "Detecta alteraciones tempranas y guía la reposición."
+          },
+          {
+            "action": "Administrar potasio IV cuando K+ < 3.5 mEq/L",
+            "rationale": "Previene arritmias y debilidad muscular."
+          },
+          {
+            "action": "Ajustar velocidad de infusión de cristaloides según balance de electrolitos",
+            "rationale": "Evita dilución excesiva de sodio."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la ingesta de alimentos ricos en potasio",
+            "rationale": "Facilita la reposición oral cuando sea posible."
+          },
+          {
+            "action": "Documentar cambios en el ECG si se sospecha alteraciones de K+",
+            "rationale": "Identifica arritmias relacionadas con desequilibrio iónico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hyperosmolarity",
+    "aliases": [
+      "hyperosmolarity",
+      "hyperosmolar state",
+      "hyperosmolar",
+      "diabetic hyperosmolarity",
+      "non‑ketotic hyperosmolarity"
+    ],
+    "summary": "Significant increase in plasma osmolarity, frequently associated with severe hyperglycemia and dehydration.",
+    "key_points": [
+      "Osmolarity > 320 mOsm/kg indicates hyperosmolarity.",
+      "Most common in type 2 diabetes with glucose > 600 mg/dL.",
+      "Dehydration and electrolyte loss are typical findings.",
+      "Urgent treatment is fluid replacement and glucose correction."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Extreme hyperglycemia generates extracellular osmosis, drawing water out of cells.",
+        "Osmotic diuresis causes loss of water and electrolytes.",
+        "It decreases intravascular volume, causing hypovolemia and increased plasma osmolarity.",
+        "Hyperosmolarity alters brain function, potentially causing altered level of consciousness."
+      ],
+      "risk_factors": [
+        "Poorly controlled type 2 diabetes.",
+        "Infections or physiological stress that raise glucose.",
+        "Insufficient fluid intake or vomiting.",
+        "Use of diuretics or renal failure."
+      ],
+      "signs_symptoms": [
+        "Intense polyuria and polydipsia.",
+        "Dry mucous membranes, decreased skin turgor.",
+        "Orthostatic hypotension, tachycardia.",
+        "Altered mental status (confusion, drowsiness)."
+      ],
+      "diagnostics": [
+        "Plasma glucose > 600 mg/dL.",
+        "Serum osmolarity > 320 mOsm/kg.",
+        "Na+ 130‑150 mEq/L, K+ 3.0‑5.5 mEq/L (may vary).",
+        "HbA1c > 9% indicates poor control."
+      ],
+      "treatment": [
+        "Rapid fluid replacement with isotonic saline (0.9% NaCl).",
+        "Gradual glucose correction with IV insulin (continuous infusion).",
+        "Replace potassium when K+ < 3.5 mEq/L.",
+        "Continuous monitoring of glucose, electrolytes, and vital signs."
+      ],
+      "complications": [
+        "Hypovolemic shock.",
+        "Severe electrolyte imbalance (hypokalemia, hyponatremia).",
+        "Acute kidney injury.",
+        "Seizures or coma from cerebral edema."
+      ],
+      "nursing_care": [
+        "Assess fluid intake and output hourly.",
+        "Monitor blood pressure, heart rate, and level of consciousness.",
+        "Check capillary glucose every 30‑60 min as ordered.",
+        "Observe for signs of fluid overload or deficit.",
+        "Administer IV solutions and medications per prescription."
+      ],
+      "patient_teaching": [
+        "Importance of adequate hydration and recognizing excessive thirst.",
+        "Strict glucose control and adherence to pharmacologic treatment.",
+        "Recognize dehydration signs and seek early medical care.",
+        "Maintain a balanced diet and avoid high‑glycemic foods."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Dry mucous membranes",
+          "Decreased skin turgor",
+          "Tachycardia",
+          "Orthostatic hypotension",
+          "Osmolarity > 320 mOsm/kg"
+        ],
+        "outcomes": [
+          "Fluid balance: intake and output equal within 24 h",
+          "Hydration status: adequate hydration signs within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output hourly",
+            "rationale": "Allows rapid detection of deficit or excess."
+          },
+          {
+            "action": "Administer isotonic saline per prescription",
+            "rationale": "Restores intravascular volume and reduces osmolarity."
+          },
+          {
+            "action": "Assess vital signs and level of consciousness every 30 min",
+            "rationale": "Identifies early hemodynamic deterioration."
+          },
+          {
+            "action": "Check capillary glucose and adjust insulin per order",
+            "rationale": "Prevents persistent hyperglycemia that perpetuates osmotic diuresis."
+          },
+          {
+            "action": "Review serum electrolytes every 4 h",
+            "rationale": "Detects imbalances that may require replacement."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Hyperglycemia > 600 mg/dL",
+          "Osmotic diuresis",
+          "Rapid fluid replacement without potassium",
+          "Renal failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes within normal ranges in 24 h",
+          "No clinical signs of hypokalemia or hyponatremia"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum Na+ and K+ every 4‑6 h",
+            "rationale": "Detects early changes and guides replacement."
+          },
+          {
+            "action": "Administer IV potassium when K+ < 3.5 mEq/L",
+            "rationale": "Prevents arrhythmias and muscle weakness."
+          },
+          {
+            "action": "Adjust crystalloid infusion rate based on electrolyte balance",
+            "rationale": "Avoids excessive sodium dilution."
+          },
+          {
+            "action": "Educate patient on importance of potassium‑rich foods",
+            "rationale": "Facilitates oral replacement when possible."
+          },
+          {
+            "action": "Document ECG changes if potassium imbalance suspected",
+            "rationale": "Identifies arrhythmias related to ionic imbalance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperglycemic-hyperosmolar-state",
+    "dehydration",
+    "electrolyte-imbalance",
+    "diabetes-mellitus-type-2"
+  ],
+  "sources": [],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-18",
+  "factcheck": {
+    "checked": "2026-11-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 38,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "id": "drug-resistance",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Resistencia a los antibióticos",
+    "aliases": [
+      "resistencia antibiótica",
+      "resistencia a antibióticos",
+      "bacterias resistentes",
+      "antibiotic resistance",
+      "resistencia bacteriana",
+      "resistencia a fármacos"
+    ],
+    "summary": "La resistencia a los antibióticos es la capacidad de las bacterias para sobrevivir y multiplicarse pese a la exposición a fármacos antimicrobianos.",
+    "key_points": [
+      "Mecanismos: enzimas que inactivan, bombas de eflujo, alteración de sitios diana y reducción de permeabilidad.",
+      "Transferencia genética horizontal permite la diseminación rápida de genes de resistencia.",
+      "El uso inadecuado y la falta de adherencia al tratamiento son factores de riesgo principales.",
+      "El personal de enfermería debe promover la terapia adecuada y la vigilancia microbiológica.",
+      "La resistencia aumenta la morbilidad, la duración de la hospitalización y los costos de salud."
+    ],
+    "sections": {
+      "mechanism": [
+        "Producción de enzimas (p. ej., beta‑lactamasas) que degradan el antibiótico.",
+        "Modificación del sitio de unión del fármaco, disminuyendo su afinidad.",
+        "Bombas de eflujo que expulsan el antibiótico fuera de la célula bacteriana.",
+        "Disminución de la permeabilidad de la membrana externa (por cambios en porinas).",
+        "Formación de biofilm que protege a la bacteria del agente antimicrobiano.",
+        "Transferencia de genes de resistencia mediante plasmidios, transposones o bacteriófagos."
+      ],
+      "nursing_care": [
+        "Obtener cultivo y antibiograma antes de iniciar terapia empírica.",
+        "Monitorear signos de infección: fiebre, leucocitosis, dolor, secreción.",
+        "Evaluar respuesta clínica y laboratorial al antibiótico prescrito.",
+        "Retener la dosis si el paciente presenta reacción alérgica o toxicidad evidente.",
+        "Aplicar precauciones de aislamiento según el organismo resistente identificado.",
+        "Reportar al médico y al comité de control de infecciones cualquier aislamiento de microorganismo resistente."
+      ],
+      "patient_teaching": [
+        "Completar el ciclo completo del antibiótico aunque mejore el cuadro.",
+        "No compartir antibióticos ni usar restos de tratamientos anteriores.",
+        "Informar al profesional si se olvida una dosis o aparecen efectos adversos.",
+        "Practicar higiene de manos y medidas de prevención de infecciones.",
+        "Entender la importancia de la vacunación para reducir la necesidad de antibióticos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso inapropiado de antibióticos",
+          "no adherencia al tratamiento",
+          "exposición a entornos hospitalarios",
+          "presencia de microorganismos resistentes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de la infección: ausencia de signos de infección en 48‑72 h",
+          "Adherencia al tratamiento: 100 % de cumplimiento del régimen antibiótico prescrito"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y documentar cultivo y antibiograma antes de iniciar antibiótico",
+            "rationale": "Permite seleccionar terapia dirigida y evitar uso innecesario de antibióticos de amplio espectro"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de completar el ciclo del antibiótico",
+            "rationale": "Reduce la probabilidad de supervivencia de bacterias parcialmente expuestas"
+          },
+          {
+            "action": "Monitorear temperatura, recuento de leucocitos y signos locales de infección cada 4 h",
+            "rationale": "Detecta tempranamente fracaso terapéutico o complicaciones"
+          },
+          {
+            "action": "Aplicar aislamiento de contacto o precauciones según protocolo institucional",
+            "rationale": "Previene la transmisión de organismos resistentes a otros pacientes"
+          },
+          {
+            "action": "Revisar historial de alergias y reacciones previas a antibióticos antes de la administración",
+            "rationale": "Evita reacciones adversas que podrían interrumpir la terapia"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Antibiotic resistance",
+    "aliases": [
+      "antibiotic resistance",
+      "resistance to antibiotics",
+      "bacterial resistance",
+      "resistance to drugs"
+    ],
+    "summary": "Antibiotic resistance is the ability of bacteria to survive and multiply despite exposure to antimicrobial drugs.",
+    "key_points": [
+      "Mechanisms: enzymes that inactivate, efflux pumps, alteration of target sites, and reduced permeability.",
+      "Horizontal genetic transfer allows rapid dissemination of resistance genes.",
+      "Inappropriate use and lack of adherence to treatment are major risk factors.",
+      "Nursing staff must promote appropriate therapy and microbiologic surveillance.",
+      "Resistance increases morbidity, length of hospitalization, and health care costs."
+    ],
+    "sections": {
+      "mechanism": [
+        "Production of enzymes (e.g., beta‑lactamases) that degrade the antibiotic.",
+        "Modification of the drug binding site, decreasing its affinity.",
+        "Efflux pumps that expel the antibiotic from the bacterial cell.",
+        "Reduced permeability of the outer membrane (due to porin changes).",
+        "Biofilm formation that protects the bacteria from the antimicrobial agent.",
+        "Transfer of resistance genes via plasmids, transposons, or bacteriophages."
+      ],
+      "nursing_care": [
+        "Obtain culture and antibiogram before starting empirical therapy.",
+        "Monitor signs of infection: fever, leukocytosis, pain, discharge.",
+        "Assess clinical and laboratory response to the prescribed antibiotic.",
+        "Hold the dose if the patient shows allergic reaction or evident toxicity.",
+        "Apply isolation precautions according to the identified resistant organism.",
+        "Report to the physician and infection control committee any isolation of a resistant microorganism."
+      ],
+      "patient_teaching": [
+        "Complete the full antibiotic course even if symptoms improve.",
+        "Do not share antibiotics or use leftovers from previous treatments.",
+        "Inform the professional if a dose is missed or adverse effects appear.",
+        "Practice hand hygiene and infection prevention measures.",
+        "Understand the importance of vaccination to reduce the need for antibiotics."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "inappropriate antibiotic use",
+          "nonadherence to treatment",
+          "exposure to hospital environments",
+          "presence of resistant microorganisms"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: absence of infection signs within 48‑72 h",
+          "Treatment adherence: 100 % compliance with prescribed antibiotic regimen"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and document culture and antibiogram before starting antibiotic",
+            "rationale": "Allows selection of targeted therapy and avoids unnecessary use of broad‑spectrum antibiotics"
+          },
+          {
+            "action": "Educate the patient on the importance of completing the antibiotic course",
+            "rationale": "Reduces the likelihood of survival of partially exposed bacteria"
+          },
+          {
+            "action": "Monitor temperature, white blood cell count, and local infection signs every 4 h",
+            "rationale": "Detects early therapeutic failure or complications"
+          },
+          {
+            "action": "Apply contact isolation or precautions per institutional protocol",
+            "rationale": "Prevents transmission of resistant organisms to other patients"
+          },
+          {
+            "action": "Review allergy history and prior antibiotic reactions before administration",
+            "rationale": "Avoids adverse reactions that could interrupt therapy"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "antibiotic-stewardship",
+    "multidrug-resistant-organisms",
+    "horizontal-gene-transfer",
+    "nosocomial-infection"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Antibiotic Resistance",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-3-antibiotic-resistance",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-18",
+  "factcheck": {
+    "checked": "2026-11-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 13,
+      "contradicted": 0,
+      "total": 23
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Antibiotic drug resistance is the process by which bacteria become less responsive to antibiotics over time.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "These changes can include modification of antibiotic targets (e.g., bacterial DNA or proteins) or the ability to remove a drug from the bacterial cell more effectively.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "One of the most important roles of the nurse in preventing antibiotic resistance is educating patients about taking their antibiotics as prescribed (National Institute of Allergy and Infectious Diseases, 2020).",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Beta-lactamase is one such enzyme; it is produced in resistant bacteria to cleave the beta-lactam ring found in drugs like penicillin to render it ineffective.",
+        "source": 1
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "These changes can include modification of antibiotic targets (e.g., bacterial DNA or proteins) or the ability to remove a drug from the bacterial cell more effectively.",
+        "source": 1
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "Others use pumps within their cell wall to remove the antibiotics after they enter the cell.",
+        "source": 0
+      },
+      "sections.mechanism.3": {
+        "status": "supported",
+        "quote": "Some bacteria have outer membranes that antibiotics cannot penetrate."
+      },
+      "sections.mechanism.4": {
+        "status": "not_found"
+      },
+      "sections.mechanism.5": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Isolation protocols: Use isolation techniques for patients with resistant infections to prevent transmission to others.",
+        "source": 0
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "For this reason, nurses must emphasize the importance of finishing the entire course of antibiotics, even if the patient reports improved symptoms, and not sharing medications with others.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Enhance infection control practices, including hand hygiene and environmental cleaning, to prevent the spread of resistant bacteria.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

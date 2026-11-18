@@ -1,0 +1,481 @@
+{
+  "id": "adhesions",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Adherencias (intraabdominales)",
+    "aliases": [
+      "adherencias",
+      "cicatrices",
+      "obstrucción intestinal",
+      "dolor abdominal",
+      "infertilidad"
+    ],
+    "summary": "Formaciones de tejido cicatricial que unen órganos o paredes abdominales, pudiendo causar obstrucción intestinal o infertilidad.",
+    "key_points": [
+      "Se forman tras cirugía abdominal o inflamación pélvica.",
+      "Pueden ser asintomáticas o producir obstrucción parcial/completa.",
+      "No existen pruebas diagnósticas específicas; se detectan en cirugía o imágenes de obstrucción.",
+      "Manejo conservador incluye dieta baja en fibra y control de líquidos.",
+      "Complicaciones graves: isquemia intestinal, perforación y infertilidad femenina."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lesión peritoneal desencadena inflamación y liberación de fibroblastos.",
+        "Depósito de colágeno forma bandas fibrosas entre superficies serosas.",
+        "Las adherencias limitan el deslizamiento normal de intestinos y órganos.",
+        "Obstrucción ocurre cuando la luz intestinal se estrecha o se torce."
+      ],
+      "risk_factors": [
+        "Cirugía abdominal o pélvica previa.",
+        "Peritonitis, endometriosis o infección pélvica.",
+        "Radiación abdominal.",
+        "Procedimientos invasivos como laparoscopia prolongada."
+      ],
+      "signs_symptoms": [
+        "Dolor o cólico abdominal intermitente.",
+        "Vómitos y náuseas.",
+        "Distensión y ausencia de gases o heces.",
+        "Estreñimiento o diarrea intermitente.",
+        "Infertilidad en mujeres con adherencias pélvicas."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen: asas dilatadas y niveles aire‑líquido.",
+        "Tomografía axial computarizada: localiza sitio y grado de obstrucción.",
+        "Ecografía pélvica para evaluar adherencias en infertilidad.",
+        "Diagnóstico definitivo a menudo intraoperatorio."
+      ],
+      "treatment": [
+        "Manejo conservador: hidratación IV, dieta baja en fibra, analgesia.",
+        "Antieméticos (ondansetrón) y laxantes suaves si es necesario.",
+        "Cirugía de adhesiolisis cuando hay obstrucción completa o dolor crónico.",
+        "Uso de barreras antiadherentes (hialuronato) en cirugía preventiva."
+      ],
+      "complications": [
+        "Obstrucción intestinal completa → isquemia y perforación.",
+        "Deshidratación y desequilibrio electrolítico por vómitos.",
+        "Infertilidad por bloqueo de trompas de Falopio.",
+        "Dolor crónico y adherencias recurrentes."
+      ],
+      "nursing_care": [
+        "Evaluar abdomen: dolor, distensión, ruidos intestinales.",
+        "Monitorear signos vitales y balance hídrico cada 4 h.",
+        "Mantener NGT en posición adecuada si está indicada.",
+        "Administrar analgésicos y antieméticos según prescripción.",
+        "Preparar al paciente para posible cirugía y explicar el procedimiento."
+      ],
+      "patient_teaching": [
+        "Seguir dieta baja en fibra y aumentar líquidos claros.",
+        "Reconocer signos de obstrucción: dolor intenso, vómitos persistentes, ausencia de gases.",
+        "Importancia de acudir a control postoperatorio para detectar adherencias.",
+        "Opciones de fertilidad y derivación a ginecología si hay infertilidad."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Vómitos frecuentes",
+          "Pérdida de líquidos por obstrucción intestinal",
+          "Diarrea intermitente"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h",
+          "Peso corporal: mantener peso estable (±0.5 kg) durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 4 h",
+            "rationale": "Permite detectar déficit temprano y guiar la reposición de fluidos"
+          },
+          {
+            "action": "Administrar solución cristaloide IV según prescripción",
+            "rationale": "Reemplaza pérdidas y previene hipovolemia"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas)",
+            "rationale": "Identifica rápidamente la necesidad de intervención"
+          },
+          {
+            "action": "Ofrecer líquidos claros en pequeñas cantidades frecuentes",
+            "rationale": "Facilita la tolerancia y reduce el riesgo de vómitos"
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 4 h",
+            "rationale": "Detecta cambios hemodinámicos por pérdida de volumen"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "Vómitos repetidos",
+          "Uso de laxantes",
+          "Pérdida de líquidos por obstrucción"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Niveles séricos de Na⁺ y K⁺ dentro de rango normal (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L)",
+          "Ausencia de síntomas neurológicos de desequilibrio (confusión, debilidad muscular)"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar electrolitos séricos al ingreso y cada 24 h",
+            "rationale": "Permite identificar alteraciones y ajustar la terapia"
+          },
+          {
+            "action": "Administrar solución electrolítica IV según orden médica",
+            "rationale": "Corrige déficit de sodio y potasio de forma controlada"
+          },
+          {
+            "action": "Evaluar estado neurológico y fuerza muscular cada turno",
+            "rationale": "Detecta signos tempranos de hipocalemia o hipernatremia"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio (plátano, papaya) cuando sea apropiado",
+            "rationale": "Apoya la reposición natural de electrolitos"
+          },
+          {
+            "action": "Documentar cualquier episodio de vómitos o diarrea y su duración",
+            "rationale": "Facilita correlación con cambios en electrolitos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Adherences (intraabdominal)",
+    "aliases": [
+      "adhesions",
+      "scarring",
+      "intestinal obstruction",
+      "abdominal pain",
+      "infertility"
+    ],
+    "summary": "Scar tissue formations that unite organs or abdominal walls, potentially causing intestinal obstruction or infertility.",
+    "key_points": [
+      "Form after abdominal surgery or pelvic inflammation.",
+      "May be asymptomatic or cause partial/complete obstruction.",
+      "No specific diagnostic tests; detected during surgery or imaging of obstruction.",
+      "Conservative management includes low-fiber diet and fluid control.",
+      "Severe complications: intestinal ischemia, perforation, and female infertility."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Peritoneal injury triggers inflammation and fibroblast release.",
+        "Collagen deposition forms fibrous bands between serosal surfaces.",
+        "Adhesions restrict normal sliding of intestines and organs.",
+        "Obstruction occurs when the intestinal lumen narrows or twists."
+      ],
+      "risk_factors": [
+        "Previous abdominal or pelvic surgery.",
+        "Peritonitis, endometriosis, or pelvic infection.",
+        "Abdominal radiation.",
+        "Invasive procedures such as prolonged laparoscopy."
+      ],
+      "signs_symptoms": [
+        "Intermittent abdominal pain or colicky pain.",
+        "Vomiting and nausea.",
+        "Distension and absence of flatus or stool.",
+        "Intermittent constipation or diarrhea.",
+        "Infertility in women with pelvic adhesions."
+      ],
+      "diagnostics": [
+        "Abdominal X‑ray: dilated loops and air‑fluid levels.",
+        "CT scan: localizes site and degree of obstruction.",
+        "Pelvic ultrasound to evaluate adhesions in infertility.",
+        "Definitive diagnosis often intraoperative."
+      ],
+      "treatment": [
+        "Conservative management: IV hydration, low‑fiber diet, analgesia.",
+        "Antiemetics (ondansetron) and mild laxatives if needed.",
+        "Adhesiolysis surgery when complete obstruction or chronic pain present.",
+        "Use of anti‑adhesion barriers (hyaluronate) in preventive surgery."
+      ],
+      "complications": [
+        "Complete intestinal obstruction → ischemia and perforation.",
+        "Dehydration and electrolyte imbalance from vomiting.",
+        "Infertility from fallopian tube blockage.",
+        "Chronic pain and recurrent adhesions."
+      ],
+      "nursing_care": [
+        "Assess abdomen: pain, distension, bowel sounds.",
+        "Monitor vital signs and fluid balance every 4 h.",
+        "Maintain NG tube in proper position if indicated.",
+        "Administer analgesics and antiemetics per prescription.",
+        "Prepare patient for possible surgery and explain the procedure."
+      ],
+      "patient_teaching": [
+        "Follow low‑fiber diet and increase clear fluids.",
+        "Recognize signs of obstruction: severe pain, persistent vomiting, no flatus.",
+        "Importance of postoperative follow‑up to detect adhesions.",
+        "Fertility options and referral to gynecology if infertility present."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Frequent vomiting",
+          "Fluid loss from intestinal obstruction",
+          "Intermittent diarrhea"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL/24 h",
+          "Body weight: maintain stable weight (±0.5 kg) during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 4 h",
+            "rationale": "Allows early detection of deficit and guides fluid replacement"
+          },
+          {
+            "action": "Administer crystalloid IV solution per prescription",
+            "rationale": "Replaces losses and prevents hypovolemia"
+          },
+          {
+            "action": "Assess for dehydration signs (skin turgor, dry mucous membranes)",
+            "rationale": "Rapidly identifies need for intervention"
+          },
+          {
+            "action": "Offer clear fluids in small frequent amounts",
+            "rationale": "Facilitates tolerance and reduces vomiting risk"
+          },
+          {
+            "action": "Monitor blood pressure and heart rate every 4 h",
+            "rationale": "Detects hemodynamic changes from volume loss"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "Repeated vomiting",
+          "Use of laxatives",
+          "Fluid loss from obstruction"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum Na⁺ and K⁺ levels within normal range (Na 135‑145 mEq/L, K 3.5‑5.0 mEq/L)",
+          "Absence of neurological symptoms of imbalance (confusion, muscle weakness)"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum electrolytes at admission and every 24 h",
+            "rationale": "Identifies alterations and adjusts therapy"
+          },
+          {
+            "action": "Administer IV electrolyte solution per order",
+            "rationale": "Corrects sodium and potassium deficits in a controlled manner"
+          },
+          {
+            "action": "Assess neurological status and muscle strength each shift",
+            "rationale": "Detects early signs of hypokalemia or hypernatremia"
+          },
+          {
+            "action": "Educate patient on potassium‑rich foods (banana, papaya) when appropriate",
+            "rationale": "Supports natural electrolyte replenishment"
+          },
+          {
+            "action": "Document any vomiting or diarrhea episodes and duration",
+            "rationale": "Facilitates correlation with electrolyte changes"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "intestinal-obstruction",
+    "peritoneal-adhesions",
+    "infertility",
+    "postoperative-complications",
+    "abdominal-pain"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Adhesions",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/adhesions.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Adherencias",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/adhesions.html",
+      "lang": "es"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Causes of Infertility",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/4-3-causes-of-infertility",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-18",
+  "factcheck": {
+    "checked": "2026-11-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 29,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Adhesions are bands of scar-like tissue.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The risk factors for developing a hydrosalpinx are the same as for a tubal blockage, including infection, pelvic inflammatory disease (PID), and scar tissue or adhesions from prior abdominal surgery (Yao et al., 2023).",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "If they partly block your intestines, a diet low in fiber can allow food to move easily through the affected area.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "No tests are available to detect adhesions.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Normally, internal tissues and organs have slippery surfaces so they can shift easily as the body moves.",
+        "source": 0
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "These blockages can result from several factors, including: infection inflammation scar tissue from endometriosis or previous pelvic or abdominal surgery adhesions structural issues (Roberts, 2023)",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Adhesions can sometimes cause infertility in women by preventing fertilized eggs from reaching the uterus.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "If you have a complete intestinal obstruction, it is life-threatening. You should get immediate medical attention and may need surgery.",
+        "source": 0
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Like a blockage from scar tissue, it causes difficulty for the movement of both sperm and egg and results in infertility ( Figure 4.15 ).",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "If they partly block your intestines, a diet low in fiber can allow food to move easily through the affected area.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "But when they partly or completely block the intestines , they cause symptoms such as: Severe abdominal pain or cramping Vomiting Bloating An inability to pass gas Constipation",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

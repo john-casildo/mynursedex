@@ -1,0 +1,272 @@
+{
+  "id": "drug-metabolism",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Metabolismo de fármacos",
+    "aliases": [
+      "metabolismo",
+      "biotransformación",
+      "metabolismo de fármacos",
+      "metabolismo farmacológico"
+    ],
+    "summary": "Proceso por el cual el organismo transforma los fármacos en compuestos más fáciles de eliminar, principalmente en el hígado mediante enzimas del citocromo P450.",
+    "key_points": [
+      "El metabolismo ocurre en dos fases: reacción de biotransformación (fase I) y conjugación (fase II).",
+      "El efecto de primer paso (first‑pass) reduce la biodisponibilidad de los fármacos orales.",
+      "Factores que alteran el metabolismo: edad, función hepática, genética, interacciones con inhibidores o inductores enzimáticos.",
+      "Metabolitos pueden ser activos, inactivos o tóxicos.",
+      "La monitorización de niveles plasmáticos es esencial para fármacos con estrecho margen terapéutico."
+    ],
+    "sections": {
+      "mechanism": [
+        "Fase I: oxidación, reducción o hidrólisis mediante enzimas CYP450, generando metabolitos más polares.",
+        "Fase II: conjugación con glucurónido, sulfato, glutatión, aumentando la solubilidad en agua.",
+        "Primer paso hepático elimina gran parte del fármaco antes de llegar a la circulación sistémica.",
+        "Metabolitos pueden ser excretados por riñón o bilis."
+      ],
+      "nursing_care": [
+        "Evaluar función hepática (AST, ALT, bilirrubina) antes de iniciar fármacos de amplio metabolismo.",
+        "Obtener niveles séricos del fármaco cuando exista margen terapéutico estrecho.",
+        "Ajustar dosis si el paciente presenta insuficiencia hepática o está tomando inhibidores/inductores CYP.",
+        "Observar signos de toxicidad (náuseas, ictericia, alteración del estado mental).",
+        "Retener la dosis y notificar al médico si los niveles plasmáticos superan el rango terapéutico."
+      ],
+      "patient_teaching": [
+        "Informar que el consumo de alcohol o jugo de pomelo puede alterar el metabolismo de algunos fármacos.",
+        "Explicar la importancia de no suspender el medicamento sin consultar al profesional de salud.",
+        "Recomendar reportar cualquier cambio inesperado en la salud, como ictericia o fatiga.",
+        "Indicar que la adherencia al horario de dosis ayuda a mantener niveles plasmáticos estables."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "alteración de la función hepática",
+          "uso concomitante de inhibidores o inductores enzimáticos",
+          "dosis inadecuada",
+          "variabilidad genética del CYP450"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Riesgo de intoxicación disminuido: paciente sin signos de toxicidad al alta",
+          "Niveles plasmáticos del fármaco dentro del rango terapéutico en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar pruebas de función hepática (AST, ALT, bilirrubina) antes de iniciar el fármaco",
+            "rationale": "Detectar alteraciones que puedan disminuir la capacidad de metabolizar el medicamento"
+          },
+          {
+            "action": "Monitorear niveles séricos del fármaco según indicación del médico",
+            "rationale": "Asegurar que la concentración permanezca dentro del rango terapéutico"
+          },
+          {
+            "action": "Revisar la lista de medicamentos para identificar inhibidores o inductores del CYP450",
+            "rationale": "Prevenir interacciones que alteren la velocidad de metabolismo"
+          },
+          {
+            "action": "Educar al paciente sobre alimentos y bebidas que pueden afectar el metabolismo (ej. jugo de pomelo, alcohol)",
+            "rationale": "Reducir factores externos que modifiquen la biotransformación del fármaco"
+          },
+          {
+            "action": "Ajustar la dosis o intervalo de administración según resultados de pruebas y respuesta clínica",
+            "rationale": "Optimizar la terapia y minimizar el riesgo de toxicidad"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Drug Metabolism",
+    "aliases": [
+      "metabolism",
+      "biotransformation",
+      "drug metabolism",
+      "pharmacologic metabolism"
+    ],
+    "summary": "Process by which the body transforms drugs into compounds that are easier to eliminate, primarily in the liver via cytochrome P450 enzymes.",
+    "key_points": [
+      "Metabolism occurs in two phases: biotransformation reaction (Phase I) and conjugation (Phase II).",
+      "The first‑pass effect reduces the oral bioavailability of drugs.",
+      "Factors that alter metabolism: age, hepatic function, genetics, interactions with enzyme inhibitors or inducers.",
+      "Metabolites may be active, inactive, or toxic.",
+      "Monitoring plasma levels is essential for drugs with a narrow therapeutic index."
+    ],
+    "sections": {
+      "mechanism": [
+        "Phase I: oxidation, reduction, or hydrolysis by CYP450 enzymes, generating more polar metabolites.",
+        "Phase II: conjugation with glucuronic acid, sulfate, glutathione, increasing water solubility.",
+        "First‑pass hepatic metabolism removes a large portion of the drug before it reaches systemic circulation.",
+        "Metabolites can be excreted by kidney or bile."
+      ],
+      "nursing_care": [
+        "Assess hepatic function (AST, ALT, bilirubin) before initiating drugs with extensive metabolism.",
+        "Obtain serum drug levels when a narrow therapeutic index exists.",
+        "Adjust dose if the patient has hepatic insufficiency or is taking CYP inhibitors/inducers.",
+        "Observe for signs of toxicity (nausea, jaundice, altered mental status).",
+        "Withhold the dose and notify the physician if plasma levels exceed the therapeutic range."
+      ],
+      "patient_teaching": [
+        "Inform that alcohol or grapefruit juice can alter the metabolism of certain drugs.",
+        "Explain the importance of not discontinuing medication without consulting a health professional.",
+        "Recommend reporting any unexpected health changes, such as jaundice or fatigue.",
+        "Indicate that adherence to dosing schedule helps maintain stable plasma levels."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "altered hepatic function",
+          "concomitant use of CYP inhibitors or inducers",
+          "inadequate dosing",
+          "CYP450 genetic variability"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Risk for poisoning decreased: patient without signs of toxicity at discharge",
+          "Drug plasma levels within therapeutic range within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record hepatic function tests (AST, ALT, bilirubin) before starting the drug",
+            "rationale": "Detect alterations that may reduce the ability to metabolize the medication"
+          },
+          {
+            "action": "Monitor serum drug levels as ordered by the physician",
+            "rationale": "Ensure concentration remains within therapeutic range"
+          },
+          {
+            "action": "Review medication list to identify CYP450 inhibitors or inducers",
+            "rationale": "Prevent interactions that alter metabolism rate"
+          },
+          {
+            "action": "Educate patient about foods and beverages that may affect metabolism (e.g., grapefruit juice, alcohol)",
+            "rationale": "Reduce external factors that modify drug biotransformation"
+          },
+          {
+            "action": "Adjust dose or dosing interval based on test results and clinical response",
+            "rationale": "Optimize therapy and minimize toxicity risk"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "first-pass-metabolism",
+    "enzyme-induction",
+    "hepatic-clearance",
+    "cyp450",
+    "drug-interactions"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Weight Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/32-1-introduction-to-weight-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-18",
+  "factcheck": {
+    "checked": "2026-11-18",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 13,
+      "contradicted": 0,
+      "total": 19
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The first-pass effect can potentially decrease the bioavailability of a drug significantly.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Drug monitoring is sometimes required for drugs with a narrow therapeutic window to ensure that the client’s drug level stays within a safe range.",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "After absorption, oral drugs can also be metabolized in the liver before entering systemic circulation, a process called first-pass metabolism.",
+        "source": 0
+      },
+      "sections.mechanism.3": {
+        "status": "supported",
+        "quote": "Although the removal of a drug occurs primarily through the renal system, it may also occur through the lungs, skin, bile, or feces.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Drug monitoring is sometimes required for drugs with a narrow therapeutic window to ensure that the client’s drug level stays within a safe range.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Drug concentrations can also accumulate if drug-metabolizing organs are not functioning properly and the dose is not adjusted accordingly.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
