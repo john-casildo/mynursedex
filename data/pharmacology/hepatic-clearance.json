@@ -1,0 +1,340 @@
+{
+  "id": "hepatic-clearance",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Diazepam",
+    "aliases": [
+      "diazepam",
+      "benzodiacepina",
+      "ansiolítico",
+      "sedante",
+      "hipnótico"
+    ],
+    "summary": "Benzodiacepina de acción prolongada usada para ansiedad, insomnio y espasmos musculares; se elimina mayormente por metabolismo hepático.",
+    "key_points": [
+      "Metabolismo hepático por CYP2C19 y CYP3A4; vida media prolongada en insuficiencia hepática.",
+      "Puede acumularse con inhibidores enzimáticos (p. ej., cimetidina).",
+      "Efectos adversos: somnolencia, depresión respiratoria, hipotensión.",
+      "Contraindicado en cirrosis grave y en pacientes con insuficiencia hepática severa."
+    ],
+    "sections": {
+      "mechanism": [
+        "Potencia la acción del GABA al unirse al sitio modulador del receptor GABA‑A.",
+        "Aumenta la frecuencia de apertura del canal de cloro, hiperpolarizando la neurona."
+      ],
+      "indications": [
+        "Ansiedad y trastorno de ansiedad generalizada.",
+        "Insomnio cuando se requiere ayuda farmacológica.",
+        "Espasmos musculares y trastornos convulsivos."
+      ],
+      "contraindications": [
+        "Insuficiencia hepática grave o cirrosis descompensada.",
+        "Hipersensibilidad conocida a benzodiacepinas.",
+        "Uso concomitante con depresores respiratorios sin supervisión."
+      ],
+      "adverse_effects": [
+        "Somnolencia, mareos, ataxia (común).",
+        "Depresión respiratoria, hipotensión (grave).",
+        "Dependencia y síndrome de abstinencia (grave)."
+      ],
+      "interactions": [
+        "Inhibidores de CYP450 (cimetidina, eritromicina) aumentan niveles.",
+        "Inductores (rifampicina, carbamazepina) reducen eficacia.",
+        "Alcohol y opioides potencian depresión del SNC."
+      ],
+      "nursing_care": [
+        "Evaluar pruebas de función hepática (AST, ALT, bilirrubina) antes de iniciar.",
+        "Monitorear nivel de conciencia, escala de Glasgow y frecuencia respiratoria cada 2‑4 h.",
+        "Retener la dosis si RR < 12 rpm o si el paciente muestra somnolencia excesiva.",
+        "Notificar al médico si aparecen signos de depresión respiratoria o hipotensión."
+      ],
+      "patient_teaching": [
+        "Evitar alcohol y otros depresores del SNC mientras use diazepam.",
+        "No conducir ni operar maquinaria hasta saber cómo le afecta el medicamento.",
+        "Informar cualquier aumento de somnolencia, dificultad para respirar o visión borrosa."
+      ],
+      "antidote_overdose": [
+        "Flumazenil IV 0.2 mg, repetir cada 1‑2 min hasta 1 mg máximo, monitorizar respuesta.",
+        "Soporte respiratorio y vigilancia continua de signos vitales."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "insuficiencia hepática",
+          "uso de benzodiacepinas",
+          "interacción con inhibidores enzimáticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Paciente sin signos de sobredosis de diazepam al alta.",
+          "Pruebas de función hepática dentro de rangos normales durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar pruebas de función hepática antes de iniciar el tratamiento.",
+            "rationale": "Identifica alteraciones que aumentan el riesgo de acumulación del fármaco."
+          },
+          {
+            "action": "Monitorear nivel de conciencia y frecuencia respiratoria cada 2 h.",
+            "rationale": "Detecta precozmente depresión respiratoria o sedación excesiva."
+          },
+          {
+            "action": "Revisar lista de medicamentos para identificar inhibidores de CYP450.",
+            "rationale": "Previene interacciones que pueden elevar los niveles plasmáticos."
+          },
+          {
+            "action": "Educar al paciente sobre evitar alcohol y reportar somnolencia intensa.",
+            "rationale": "Reduce factores que potencian la toxicidad del fármaco."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si RR < 12 rpm o si el paciente está demasiado somnoliento.",
+            "rationale": "Previene progresión a depresión respiratoria grave."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Diazepam (Valium)",
+    "aliases": [
+      "diazepam",
+      "benzodiazepine",
+      "anxiolytic",
+      "sedative",
+      "hypnotic"
+    ],
+    "summary": "Long‑acting benzodiazepine used for anxiety, insomnia, and muscle spasms; primarily eliminated by hepatic metabolism.",
+    "key_points": [
+      "Hepatic metabolism via CYP2C19 and CYP3A4; prolonged half‑life in hepatic impairment.",
+      "May accumulate with enzyme inhibitors (e.g., cimetidine).",
+      "Adverse effects: drowsiness, respiratory depression, hypotension.",
+      "Contraindicated in severe cirrhosis and advanced hepatic failure."
+    ],
+    "sections": {
+      "mechanism": [
+        "Enhances GABA activity by binding to the modulatory site of the GABA‑A receptor.",
+        "Increases chloride channel opening frequency, hyperpolarizing the neuron."
+      ],
+      "indications": [
+        "Anxiety and generalized anxiety disorder.",
+        "Insomnia when pharmacologic assistance is needed.",
+        "Muscle spasms and seizure disorders."
+      ],
+      "contraindications": [
+        "Severe hepatic insufficiency or decompensated cirrhosis.",
+        "Known hypersensitivity to benzodiazepines.",
+        "Concurrent use with respiratory depressants without supervision."
+      ],
+      "adverse_effects": [
+        "Drowsiness, dizziness, ataxia (common).",
+        "Respiratory depression, hypotension (severe).",
+        "Dependence and severe withdrawal syndrome."
+      ],
+      "interactions": [
+        "CYP450 inhibitors (cimetidine, erythromycin) increase levels.",
+        "Inducers (rifampin, carbamazepine) reduce efficacy.",
+        "Alcohol and opioids potentiate CNS depression."
+      ],
+      "nursing_care": [
+        "Assess liver function tests (AST, ALT, bilirubin) before initiation.",
+        "Monitor level of consciousness, Glasgow scale, and respiratory rate every 2‑4 h.",
+        "Hold dose if RR < 12 rpm or if patient shows excessive drowsiness.",
+        "Notify physician if signs of respiratory depression or hypotension appear."
+      ],
+      "patient_teaching": [
+        "Avoid alcohol and other CNS depressants while taking diazepam.",
+        "Do not drive or operate machinery until you know how the medication affects you.",
+        "Report any increase in drowsiness, breathing difficulty, or blurred vision."
+      ],
+      "antidote_overdose": [
+        "Flumazenil IV 0.2 mg, repeat every 1‑2 min up to 1 mg total, monitor response.",
+        "Provide respiratory support and continuous vital sign monitoring."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "hepatic insufficiency",
+          "benzodiazepine use",
+          "interaction with enzyme inhibitors"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient without signs of diazepam overdose at discharge.",
+          "Liver function tests within normal limits during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record liver function tests before starting therapy.",
+            "rationale": "Identifies alterations that increase drug accumulation risk."
+          },
+          {
+            "action": "Monitor level of consciousness and respiratory rate every 2 h.",
+            "rationale": "Detects early respiratory depression or excessive sedation."
+          },
+          {
+            "action": "Review medication list to identify CYP450 inhibitors.",
+            "rationale": "Prevents interactions that may raise plasma levels."
+          },
+          {
+            "action": "Educate patient to avoid alcohol and report intense drowsiness.",
+            "rationale": "Reduces factors that potentiate drug toxicity."
+          },
+          {
+            "action": "Hold dose and notify physician if RR < 12 rpm or patient is overly drowsy.",
+            "rationale": "Prevents progression to severe respiratory depression."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "liver-failure",
+    "drug-metabolism",
+    "sedation",
+    "respiratory-depression"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Hepatic and Biliary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-6-hepatic-and-biliary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anxiolytics and Sedative-Hypnotics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/13-4-anxiolytics-and-sedative-hypnotics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-19",
+  "factcheck": {
+    "checked": "2026-11-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 19,
+      "contradicted": 0,
+      "total": 28
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Cimetidine is a hepatic enzyme inhibitor. If the dose of the sedative-hypnotic is not decreased, it will accumulate and become toxic.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Generalized anxiety disorder (GAD), panic disorder, obsessive-compulsive disorder (OCD), social anxiety disorder, and post-traumatic stress disorder (PTSD) are examples of anxiety disorders.",
+        "source": 1
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Insomnia is the inability to obtain an adequate amount of sleep needed to function efficiently during the day.",
+        "source": 1
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "In addition to anxiety, these medications can be used for alcohol withdrawal, agitation, and seizure disorders.",
+        "source": 1
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "Severe hepatic insufficiency is a contraindication.",
+        "source": 1
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "supported",
+        "quote": "Concurrently taking another CNS depressant or drinking alcohol with this medication can intensify CNS depression and cause excessive drowsiness along with respiratory depression.",
+        "source": 1
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Assess for signs/symptoms of dependence, overdose, and withdrawal, such as psychomotor agitation, insomnia, headache, tremor, palpitations, psychosis, and seizures.",
+        "source": 1
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "supported",
+        "quote": "Concurrently taking another CNS depressant or drinking alcohol with this medication can intensify CNS depression and cause excessive drowsiness along with respiratory depression."
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Concurrently taking another CNS depressant or drinking alcohol with this medication can intensify CNS depression and cause excessive drowsiness along with respiratory depression."
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.0": {
+        "status": "not_found"
+      },
+      "sections.antidote_overdose.1": {
+        "status": "not_found"
+      }
+    }
+  }
+}

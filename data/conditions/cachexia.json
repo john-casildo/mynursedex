@@ -1,0 +1,457 @@
+{
+  "id": "cachexia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Caquexia",
+    "aliases": [
+      "caquexia",
+      "pérdida de peso",
+      "desgaste muscular",
+      "cáncer",
+      "enfermedad crónica"
+    ],
+    "summary": "Síndrome de desgaste corporal caracterizado por pérdida de masa muscular y grasa en pacientes con enfermedades crónicas avanzadas.",
+    "key_points": [
+      "Pérdida involuntaria de >5% del peso corporal en 6 meses.",
+      "Inflamación crónica y alteración del metabolismo proteico son la base fisiopatológica.",
+      "Frecuente en cáncer avanzado, EPOC severa, insuficiencia cardíaca y VIH.",
+      "Aumenta el riesgo de infección, caídas y mortalidad."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Inflamación sistémica libera citocinas (TNF‑α, IL‑6) que aumentan el catabolismo proteico.",
+        "Disminución de la síntesis de proteínas y aumento de la degradación muscular.",
+        "Alteración del eje hipotálamo‑hipófiso‑suprarrenal reduce el apetito.",
+        "Hipermetabolismo y resistencia a la insulina favorecen la pérdida de grasa."
+      ],
+      "risk_factors": [
+        "Cáncer avanzado, especialmente de páncreas, pulmón y estómago.",
+        "EPOC grave con hipoxemia crónica.",
+        "Insuficiencia cardíaca congestiva y enfermedad renal crónica.",
+        "Desnutrición previa, anorexia y uso prolongado de corticoides."
+      ],
+      "signs_symptoms": [
+        "Pérdida de peso involuntaria >5% en 6‑12 meses.",
+        "Atrofia muscular visible, debilidad y fatiga.",
+        "Anorexia, sensación de saciedad precoz.",
+        "Edema periférico por hipoproteinemia."
+      ],
+      "diagnostics": [
+        "Peso y % de pérdida de peso registrado semanalmente.",
+        "Índice de masa corporal (IMC) <20 kg/m² o <22 en pacientes mayores.",
+        "Análisis de sangre: albúmina <3.5 g/dL, proteína total baja, PCR elevada.",
+        "Electrolitos y glucosa para descartar desequilibrios metabólicos."
+      ],
+      "treatment": [
+        "Optimizar ingesta calórica: dietas hipercalóricas y altas en proteína.",
+        "Suplementos orales de proteína y ácidos grasos esenciales.",
+        "Control de la enfermedad subyacente (quimioterapia, terapia broncodilatadora).",
+        "Farmacoterapia antiinflamatoria (p. ej., inhibidores de la IL‑6) según indicación."
+      ],
+      "complications": [
+        "Inmunosupresión y mayor riesgo de infecciones.",
+        "Debilidad respiratoria que puede precipitar insuficiencia respiratoria.",
+        "Caídas y fracturas por pérdida de masa muscular.",
+        "Mortalidad aumentada."
+      ],
+      "nursing_care": [
+        "Monitorear peso diario y registrar tendencia.",
+        "Evaluar ingesta calórica y composición de macronutrientes cada turno.",
+        "Controlar signos de deshidratación y edema.",
+        "Colaborar con nutricionista para plan de alimentación individualizado.",
+        "Vigilar laboratorios de albúmina, electrolitos y glucosa."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de comidas pequeñas y frecuentes con alto contenido calórico.",
+        "Enseñar técnicas para mejorar el apetito (ej. alimentos aromáticos, evitar olores fuertes).",
+        "Promover actividad física ligera para preservar masa muscular.",
+        "Instruir sobre signos de deshidratación y cuándo buscar ayuda médica."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatiga",
+          "debilidad muscular",
+          "pérdida de peso",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Nivel de energía: Aumento del nivel de energía a 3‑4 en escala de 0‑5",
+          "Capacidad de actividad: Realizar actividades de la vida diaria con mínima ayuda"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de fatiga usando escala de Borg cada turno",
+            "rationale": "Permite cuantificar la intolerancia y ajustar el plan de cuidados"
+          },
+          {
+            "action": "Planificar períodos de descanso programado entre actividades",
+            "rationale": "Reduce la sobrecarga muscular y mejora la tolerancia"
+          },
+          {
+            "action": "Fomentar ejercicios de resistencia ligera bajo supervisión",
+            "rationale": "Mantiene masa muscular y mejora la capacidad funcional"
+          },
+          {
+            "action": "Registrar ingesta calórica y ofrecer suplementos proteicos",
+            "rationale": "Apoya la energía necesaria para la actividad"
+          },
+          {
+            "action": "Colaborar con fisioterapeuta para diseñar programa de movilización gradual",
+            "rationale": "Optimiza la recuperación de la fuerza sin provocar agotamiento"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida de peso",
+          "anorexia",
+          "edema periférico",
+          "hipertermia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado de hidratación: Mantener hidratación adecuada con ingesta >30 mL/kg/día",
+          "Balance hídrico: Registro de entrada y salida con diferencia <+500 mL/24h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear peso diario y comparar con balance hídrico",
+            "rationale": "Detecta cambios tempranos en el estado de líquidos"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas)",
+            "rationale": "Permite intervención oportuna"
+          },
+          {
+            "action": "Ofrecer líquidos entre comidas y registrar ingesta total",
+            "rationale": "Asegura cumplimiento de requerimientos de hidratación"
+          },
+          {
+            "action": "Administrar soluciones orales de rehidratación según indicación médica",
+            "rationale": "Corrige déficit de electrolitos y volumen"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber al menos 2 L de agua al día",
+            "rationale": "Fomenta autocuidado y prevención de deshidratación"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cachexia",
+    "aliases": [
+      "cachexia",
+      "weight loss",
+      "muscle wasting",
+      "cancer",
+      "chronic disease"
+    ],
+    "summary": "Body wasting syndrome characterized by loss of muscle and fat mass in patients with advanced chronic illnesses.",
+    "key_points": [
+      "Unintentional loss of >5% of body weight in 6 months.",
+      "Chronic inflammation and altered protein metabolism are the pathophysiological basis.",
+      "Common in advanced cancer, severe COPD, heart failure, and HIV.",
+      "Increases risk of infection, falls, and mortality."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Systemic inflammation releases cytokines (TNF‑α, IL‑6) that increase protein catabolism.",
+        "Decreased protein synthesis and increased muscle degradation.",
+        "Alteration of the hypothalamic‑pituitary‑adrenal axis reduces appetite.",
+        "Hypermetabolism and insulin resistance favor fat loss."
+      ],
+      "risk_factors": [
+        "Advanced cancer, especially pancreas, lung, and stomach.",
+        "Severe COPD with chronic hypoxemia.",
+        "Congestive heart failure and chronic kidney disease.",
+        "Prior malnutrition, anorexia, and prolonged steroid use."
+      ],
+      "signs_symptoms": [
+        "Unintentional weight loss >5% in 6‑12 months.",
+        "Visible muscle atrophy, weakness, and fatigue.",
+        "Anorexia, early satiety.",
+        "Peripheral edema from hypoproteinemia."
+      ],
+      "diagnostics": [
+        "Weight and % weight loss recorded weekly.",
+        "Body mass index (BMI) <20 kg/m² or <22 in older adults.",
+        "Blood tests: albumin <3.5 g/dL, low total protein, elevated CRP.",
+        "Electrolytes and glucose to rule out metabolic imbalances."
+      ],
+      "treatment": [
+        "Optimize caloric intake: hypercaloric and high‑protein diets.",
+        "Oral protein supplements and essential fatty acids.",
+        "Control underlying disease (chemotherapy, bronchodilator therapy).",
+        "Anti‑inflammatory pharmacotherapy (e.g., IL‑6 inhibitors) as indicated."
+      ],
+      "complications": [
+        "Immunosuppression and higher infection risk.",
+        "Respiratory weakness that may precipitate respiratory failure.",
+        "Falls and fractures from muscle loss.",
+        "Increased mortality."
+      ],
+      "nursing_care": [
+        "Monitor daily weight and record trends.",
+        "Assess caloric intake and macronutrient composition each shift.",
+        "Check for dehydration and edema signs.",
+        "Collaborate with dietitian for individualized nutrition plan.",
+        "Monitor labs for albumin, electrolytes, and glucose."
+      ],
+      "patient_teaching": [
+        "Explain the importance of small, frequent high‑calorie meals.",
+        "Teach appetite‑enhancing techniques (e.g., aromatic foods, avoid strong odors).",
+        "Encourage light physical activity to preserve muscle mass.",
+        "Instruct on dehydration signs and when to seek medical help."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "fatigue",
+          "muscle weakness",
+          "weight loss",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Energy level: Increase energy level to 3‑4 on 0‑5 scale",
+          "Activity capacity: Perform activities of daily living with minimal assistance"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fatigue level using Borg scale each shift",
+            "rationale": "Allows quantification of intolerance and adjustment of care plan"
+          },
+          {
+            "action": "Plan scheduled rest periods between activities",
+            "rationale": "Reduces muscle overload and improves tolerance"
+          },
+          {
+            "action": "Encourage light resistance exercise under supervision",
+            "rationale": "Maintains muscle mass and improves functional capacity"
+          },
+          {
+            "action": "Record caloric intake and offer protein supplements",
+            "rationale": "Supports necessary energy for activity"
+          },
+          {
+            "action": "Collaborate with physiotherapist to design gradual mobilization program",
+            "rationale": "Optimizes strength recovery without causing exhaustion"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "weight loss",
+          "anorexia",
+          "peripheral edema",
+          "hyperthermia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration status: Maintain adequate hydration with intake >30 mL/kg/day",
+          "Fluid balance: Record intake and output with difference <+500 mL/24h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor daily weight and compare with fluid balance",
+            "rationale": "Detect early changes in fluid status"
+          },
+          {
+            "action": "Assess signs of dehydration (skin turgor, dry mucous membranes)",
+            "rationale": "Allows timely intervention"
+          },
+          {
+            "action": "Offer fluids between meals and record total intake",
+            "rationale": "Ensures compliance with hydration requirements"
+          },
+          {
+            "action": "Administer oral rehydration solutions as ordered",
+            "rationale": "Corrects electrolyte and volume deficits"
+          },
+          {
+            "action": "Educate patient on importance of drinking at least 2 L of water daily",
+            "rationale": "Promotes self‑care and dehydration prevention"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "muscle-wasting",
+    "malnutrition",
+    "cancer-cachexia",
+    "chronic-obstructive-pulmonary-disease",
+    "inflammation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cancer--Living with Cancer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cancerlivingwithcancer.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Lower Respiratory System: Chronic Obstructive Pulmonary Disease",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/11-5-disorders-of-the-lower-respiratory-system-chronic-obstructive-pulmonary-disease",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-19",
+  "factcheck": {
+    "checked": "2026-11-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 33,
+      "contradicted": 2,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Because of the increased effort required to breathe, patients with chronic COPD can develop muscle wasting and cachexia , a disorder that causes loss of muscle and adipose tissue ( Figure 11.20 ).",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "contradicted",
+        "quote": "In advanced cases, right-sided heart failure can occur, causing lower extremity edema (Agarwal et al., 2023).",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "contradicted",
+        "quote": "Sometimes a high-calorie, high-fat diet is a better option for a malnourished patient where every bite counts.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "It can cause chronic illness, hospitalization, and death.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Nutritionists to provide disease specific meal plans and supplements",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

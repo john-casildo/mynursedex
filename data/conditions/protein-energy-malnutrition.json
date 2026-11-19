@@ -1,0 +1,345 @@
+{
+  "id": "protein-energy-malnutrition",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Desnutrición protein-energética (DPE)",
+    "aliases": [
+      "desnutricion",
+      "protein-energia",
+      "malnutricion",
+      "desnutricion protein-energetica",
+      "pem"
+    ],
+    "summary": "Estado de déficit de proteínas y calorías que compromete el crecimiento, la función inmunológica y la integridad tisular.",
+    "key_points": [
+      "Negativo balance nitrogenado produce pérdida de masa muscular y edema.",
+      "Se clasifica en kwashiorkor (edema) y marasmo (desgaste extremo).",
+      "Los laboratorios típicos muestran albúmina <3.5 g/dL y prealbúmina <15 mg/dL.",
+      "El refeeding sin control puede desencadenar síndrome de realimentación.",
+      "El tratamiento combina alimentación terapéutica, reposición de electrolitos y micronutrientes."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ingesta insuficiente de proteínas y energía genera balance nitrogenado negativo.",
+        "Disminuye la síntesis de albúmina, provocando hipoalbuminemia y edema.",
+        "Se reduce la masa muscular y la reserva de glucógeno, afectando la función inmunológica.",
+        "Alteración de la respuesta inflamatoria aumenta el riesgo de infecciones."
+      ],
+      "risk_factors": [
+        "Pobreza y falta de acceso a alimentos nutritivos.",
+        "Enfermedades crónicas (tuberculosis, VIH, cáncer) que aumentan requerimientos.",
+        "Infancia con lactancia insuficiente o alimentación complementaria inadecuada.",
+        "Edad avanzada con disminución del apetito y absorción."
+      ],
+      "signs_symptoms": [
+        "Pérdida de peso >10 % del peso corporal en 1‑3 meses.",
+        "Edema periférico (kwashiorkor) o aspecto “desgastado” (marasmo).",
+        "Fatiga, irritabilidad y retraso del desarrollo en niños.",
+        "Piel descamativa, cabello quebradizo y úlceras por presión."
+      ],
+      "diagnostics": [
+        "IMC <18.5 kg/m² o circunferencia braquial <23 cm.",
+        "Albúmina sérica <3.5 g/dL; prealbúmina <15 mg/dL.",
+        "Hemoglobina <11 g/dL (anemia) y electrolitos alterados (K⁺, Mg²⁺).",
+        "Glucosa en ayunas 70‑100 mg/dL (puede estar baja)."
+      ],
+      "treatment": [
+        "Alimentación terapéutica rica en proteínas (≥2 g/kg/día) y calorías (≥150 % requerimientos).",
+        "Suplementos orales de alto valor biológico (p.ej., leche de fórmula para desnutrición).",
+        "Reposición gradual de electrolitos y vitaminas (A, D, zinc, hierro).",
+        "Vía enteral (sonda nasogástrica) si la ingesta oral es insuficiente.",
+        "Monitoreo estricto de signos de síndrome de realimentación."
+      ],
+      "complications": [
+        "Infecciones recurrentes por inmunosupresión.",
+        "Retraso del crecimiento y desarrollo cognitivo.",
+        "Insuficiencia orgánica (cardíaca, renal) por deshidratación y edema.",
+        "Síndrome de realimentación (hipofosfatemia, hipomagnesemia)."
+      ],
+      "nursing_care": [
+        "Evaluar ingesta diaria, peso y circunferencia braquial.",
+        "Controlar signos vitales y presencia de edema cada 4 h.",
+        "Observar y registrar cambios en la piel y úlceras por presión.",
+        "Monitorear laboratorio de albúmina, electrolitos y glucosa.",
+        "Administrar suplementos y alimentos terapéuticos según plan."
+      ],
+      "patient_teaching": [
+        "Importancia de una dieta balanceada con fuentes de proteína (huevos, leguminosas, carne magra).",
+        "Consumir comidas pequeñas y frecuentes para evitar sobrecarga gástrica.",
+        "Reconocer signos de infección o empeoramiento (fiebre, aumento de edema).",
+        "Seguir pautas de suplementación de vitaminas y minerales.",
+        "Mantener higiene oral y de la piel para prevenir úlceras."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Desequilibrio nutricional: inferior a las necesidades corporales",
+        "type": "actual",
+        "related_to": [
+          "ingesta insuficiente de calorías y proteínas",
+          "enfermedad crónica que aumenta requerimientos",
+          "pobreza y falta de acceso a alimentos"
+        ],
+        "evidenced_by": [
+          "pérdida de peso >10 % en 1 mes",
+          "edema periférico",
+          "albúmina sérica <3.5 g/dL",
+          "fatiga y debilidad"
+        ],
+        "outcomes": [
+          "Aumento de peso ≥0.5 kg/día en 7 días",
+          "Albúmina sérica ≥3.5 g/dL en 14 días",
+          "Intolerancia a la alimentación reducida"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta calórica y de proteínas cada 24 h.",
+            "rationale": "Permite identificar déficit y ajustar el plan nutricional."
+          },
+          {
+            "action": "Ofrecer alimentos de alto valor biológico en porciones pequeñas y frecuentes.",
+            "rationale": "Facilita la absorción y reduce el riesgo de sobrecarga gástrica."
+          },
+          {
+            "action": "Monitorear peso y circunferencia braquial diariamente.",
+            "rationale": "Detecta cambios tempranos en el estado nutricional."
+          },
+          {
+            "action": "Administrar suplementos de vitaminas y minerales según prescripción.",
+            "rationale": "Corrige deficiencias que comprometen la recuperación."
+          },
+          {
+            "action": "Evaluar y registrar signos de síndrome de realimentación (hipofosfatemia, edema).",
+            "rationale": "Previene complicaciones graves durante la reintroducción de nutrientes."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "desnutrición que compromete la inmunidad",
+          "edema y ruptura cutánea",
+          "hospitalización prolongada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección durante la hospitalización",
+          "Temperatura <37.5 °C en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener higiene de manos antes y después de cada contacto.",
+            "rationale": "Reduce la transmisión de microorganismos."
+          },
+          {
+            "action": "Inspeccionar piel y mucosas cada 8 h para detectar lesiones.",
+            "rationale": "Identifica fuentes potenciales de infección tempranamente."
+          },
+          {
+            "action": "Administrar profilaxis antibiótica o antifúngica según indicación médica.",
+            "rationale": "Previene infecciones oportunistas en pacientes vulnerables."
+          },
+          {
+            "action": "Fomentar una alimentación adecuada y suplementación de zinc y vitamina A.",
+            "rationale": "Mejora la respuesta inmunológica del paciente."
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de infección y cuándo buscar ayuda.",
+            "rationale": "Promueve la detección precoz y el manejo oportuno."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Protein‑energy malnutrition (PEM)",
+    "aliases": [
+      "malnutrition",
+      "protein-energy",
+      "protein-energetic",
+      "protein-energetic malnutrition",
+      "pem"
+    ],
+    "summary": "A state of protein and calorie deficit that impairs growth, immune function, and tissue integrity.",
+    "key_points": [
+      "Negative nitrogen balance leads to muscle loss and edema.",
+      "Classified as kwashiorkor (edema) and marasmus (extreme wasting).",
+      "Typical labs show albumin <3.5 g/dL and prealbumin <15 mg/dL.",
+      "Uncontrolled refeeding can trigger refeeding syndrome.",
+      "Treatment combines therapeutic feeding, electrolyte and micronutrient replacement."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Insufficient protein and energy intake creates a negative nitrogen balance.",
+        "Reduced albumin synthesis causes hypoalbuminemia and edema.",
+        "Muscle mass and glycogen stores decline, impairing immune function.",
+        "Altered inflammatory response increases infection risk."
+      ],
+      "risk_factors": [
+        "Poverty and lack of access to nutritious foods.",
+        "Chronic diseases (tuberculosis, HIV, cancer) that increase requirements.",
+        "Infancy with inadequate breastfeeding or complementary feeding.",
+        "Older age with decreased appetite and absorption."
+      ],
+      "signs_symptoms": [
+        "Weight loss >10 % of body weight in 1‑3 months.",
+        "Peripheral edema (kwashiorkor) or “wasted” appearance (marasmus).",
+        "Fatigue, irritability, and developmental delay in children.",
+        "Desquamating skin, brittle hair, and pressure ulcers."
+      ],
+      "diagnostics": [
+        "BMI <18.5 kg/m² or mid‑arm circumference <23 cm.",
+        "Serum albumin <3.5 g/dL; prealbumin <15 mg/dL.",
+        "Hemoglobin <11 g/dL (anemia) and altered electrolytes (K⁺, Mg²⁺).",
+        "Fasting glucose 70‑100 mg/dL (may be low)."
+      ],
+      "treatment": [
+        "Therapeutic feeding high in protein (≥2 g/kg/day) and calories (≥150 % requirements).",
+        "High‑biological‑value oral supplements (e.g., formula milk for malnutrition).",
+        "Gradual replacement of electrolytes and vitamins (A, D, zinc, iron).",
+        "Enteral route (nasogastric tube) if oral intake is insufficient.",
+        "Strict monitoring for refeeding syndrome signs."
+      ],
+      "complications": [
+        "Recurrent infections due to immunosuppression.",
+        "Growth and cognitive development delays.",
+        "Organ failure (cardiac, renal) from dehydration and edema.",
+        "Refeeding syndrome (hypophosphatemia, hypomagnesemia)."
+      ],
+      "nursing_care": [
+        "Assess daily intake, weight, and mid‑arm circumference.",
+        "Check vital signs and edema presence every 4 h.",
+        "Observe and document skin changes and pressure ulcers.",
+        "Monitor labs for albumin, electrolytes, and glucose.",
+        "Administer supplements and therapeutic foods per plan."
+      ],
+      "patient_teaching": [
+        "Importance of a balanced diet with protein sources (eggs, legumes, lean meat).",
+        "Eat small, frequent meals to avoid gastric overload.",
+        "Recognize infection or worsening signs (fever, increased edema).",
+        "Follow vitamin and mineral supplementation guidelines.",
+        "Maintain oral and skin hygiene to prevent ulcers."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Imbalanced nutrition: less than body requirements",
+        "type": "actual",
+        "related_to": [
+          "insufficient calorie and protein intake",
+          "chronic disease increasing requirements",
+          "poverty and lack of food access"
+        ],
+        "evidenced_by": [
+          "weight loss >10 % in 1 month",
+          "peripheral edema",
+          "serum albumin <3.5 g/dL",
+          "fatigue and weakness"
+        ],
+        "outcomes": [
+          "Weight gain ≥0.5 kg/day in 7 days",
+          "Serum albumin ≥3.5 g/dL in 14 days",
+          "Reduced intolerance to feeding"
+        ],
+        "interventions": [
+          {
+            "action": "Record caloric and protein intake every 24 h.",
+            "rationale": "Identifies deficits and allows adjustment of the nutrition plan."
+          },
+          {
+            "action": "Offer high‑biological‑value foods in small, frequent portions.",
+            "rationale": "Facilitates absorption and reduces gastric overload risk."
+          },
+          {
+            "action": "Monitor weight and mid‑arm circumference daily.",
+            "rationale": "Detects early changes in nutritional status."
+          },
+          {
+            "action": "Administer vitamin and mineral supplements as prescribed.",
+            "rationale": "Corrects deficiencies that compromise recovery."
+          },
+          {
+            "action": "Assess and document refeeding syndrome signs (hypophosphatemia, edema).",
+            "rationale": "Prevents serious complications during nutrient reintroduction."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "malnutrition compromising immunity",
+          "edema and skin breakdown",
+          "prolonged hospitalization"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection during hospitalization",
+          "Temperature <37.5 °C in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain hand hygiene before and after each contact.",
+            "rationale": "Reduces microorganism transmission."
+          },
+          {
+            "action": "Inspect skin and mucous membranes every 8 h for lesions.",
+            "rationale": "Identifies potential infection sources early."
+          },
+          {
+            "action": "Administer antibiotic or antifungal prophylaxis as ordered.",
+            "rationale": "Prevents opportunistic infections in vulnerable patients."
+          },
+          {
+            "action": "Encourage adequate nutrition and zinc and vitamin A supplementation.",
+            "rationale": "Improves immune response."
+          },
+          {
+            "action": "Educate patient and family on infection signs and when to seek help.",
+            "rationale": "Promotes early detection and timely management."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "kwashiorkor",
+    "marasmus",
+    "micronutrient-deficiency",
+    "edema",
+    "growth-retardation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Malnutrition",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/malnutrition.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Nutritional Concepts",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/17-1-nutritional-concepts",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Nutritional Concepts",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/21-1-nutritional-concepts",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-19"
+}

@@ -1,0 +1,456 @@
+{
+  "id": "multidrug-resistant-organisms",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Organismos multirresistentes (OMR)",
+    "aliases": [
+      "organismos multirresistentes",
+      "omr",
+      "bacterias resistentes",
+      "resistencia antibiótica",
+      "infección hospitalaria"
+    ],
+    "summary": "Los OMR son microorganismos que han adquirido resistencia a varios antibióticos, aumentando el riesgo de infecciones difíciles de tratar.",
+    "key_points": [
+      "Resistencia a múltiples clases de antibióticos.",
+      "Mayor morbilidad, mortalidad y costos hospitalarios.",
+      "Transmisión principalmente por contacto directo y superficies contaminadas.",
+      "Prevención basada en aislamiento, higiene de manos y uso prudente de antibióticos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Mutaciones genéticas o adquisición de genes de resistencia mediante plásmidos.",
+        "Selección natural favorece cepas resistentes cuando se usan antibióticos.",
+        "Los OMR pueden producir enzimas que inactivan antibióticos o alterar dianas farmacológicas."
+      ],
+      "risk_factors": [
+        "Uso prolongado o inadecuado de antibióticos de amplio espectro.",
+        "Estancias hospitalarias largas, especialmente en unidades de cuidados intensivos.",
+        "Inmunosupresión por enfermedad o terapia.",
+        "Procedimientos invasivos (catéteres, ventilación mecánica)."
+      ],
+      "signs_symptoms": [
+        "Fiebre persistente o recurrente.",
+        "Incremento de leucocitos en sangre.",
+        "Sepsis o shock séptico sin respuesta a antibióticos habituales.",
+        "Síntomas locales según el foco (tos, disuria, secreción purulenta)."
+      ],
+      "diagnostics": [
+        "Cultivo de muestra clínica con antibiograma.",
+        "Pruebas moleculares (PCR) para genes de resistencia (mecA, blaKPC).",
+        "Hemocultivo si se sospecha bacteriemia.",
+        "Resultado esperado: resistencia a ≥3 clases de antibióticos."
+      ],
+      "treatment": [
+        "Aislamiento de contacto según protocolos del CDC.",
+        "Uso de antibióticos de última línea (p. ej., colistina, tigeciclina) guiado por antibiograma.",
+        "Descontaminación ambiental con desinfectantes de amplio espectro.",
+        "Monitoreo de función renal y hepática durante terapia."
+      ],
+      "complications": [
+        "Sepsis grave y shock séptico.",
+        "Propagación a otros pacientes y personal de salud.",
+        "Aumento de la resistencia en la microbiota del paciente.",
+        "Mayor duración de hospitalización y mortalidad."
+      ],
+      "nursing_care": [
+        "Aplicar precauciones de contacto: guantes y bata impermeable.",
+        "Educación y supervisión del cumplimiento de la higiene de manos.",
+        "Monitorear signos vitales cada 4 h y observar cambios en el estado mental.",
+        "Registrar y reportar resultados de cultivos y respuesta al tratamiento.",
+        "Mantener aislamiento hasta que se obtenga cultivo negativo."
+      ],
+      "patient_teaching": [
+        "Importancia de la higiene de manos antes y después del contacto.",
+        "Uso correcto de la bata y guantes; no compartir objetos personales.",
+        "Explicar que el aislamiento es temporal y protege a otros pacientes.",
+        "Informar sobre los efectos secundarios de los antibióticos de última línea."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "exposición a OMR",
+          "uso de antibióticos de amplio espectro",
+          "inmunosupresión",
+          "estancia prolongada en hospital"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reducción de la incidencia de infección: No se presentan signos de infección durante la estancia hospitalaria.",
+          "NOC: Cumplimiento de precauciones: El paciente y el personal siguen 100 % las precauciones de contacto."
+        ],
+        "interventions": [
+          {
+            "action": "Colocar al paciente en aislamiento de contacto y asegurar señalización adecuada.",
+            "rationale": "Previene la transmisión de OMR a otros pacientes y al personal."
+          },
+          {
+            "action": "Enseñar y supervisar la técnica de higiene de manos con solución alcohólica antes y después del contacto.",
+            "rationale": "La higiene de manos es la medida más eficaz para reducir la transmisión."
+          },
+          {
+            "action": "Verificar y registrar el uso correcto de guantes y bata en cada interacción.",
+            "rationale": "Garantiza la barrera de protección contra microorganismos resistentes."
+          },
+          {
+            "action": "Revisar diariamente los resultados de cultivos y ajustar el plan de cuidados según el antibiograma.",
+            "rationale": "Permite el uso dirigido de antibióticos y evita exposición innecesaria."
+          },
+          {
+            "action": "Desinfectar superficies de alto contacto cada 4 h con desinfectante aprobado.",
+            "rationale": "Reduce la carga ambiental de OMR y el riesgo de transmisión indirecta."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "restricción de movilidad por aislamiento",
+          "uso de dispositivos médicos invasivos",
+          "confusión o desorientación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Seguridad del paciente: No se presentan caídas ni lesiones durante la hospitalización.",
+          "NOC: Integridad física: El paciente mantiene movilidad segura dentro del aislamiento."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar el nivel de conciencia y orientación al ingreso y cada turno.",
+            "rationale": "Identifica pacientes con mayor riesgo de caídas o autolesiones."
+          },
+          {
+            "action": "Colocar el lecho a una altura segura y asegurar barandillas laterales arriba.",
+            "rationale": "Previene caídas al intentar levantarse sin ayuda."
+          },
+          {
+            "action": "Proveer dispositivos de asistencia (caminador, andador) según necesidad y entrenar al paciente en su uso.",
+            "rationale": "Facilita la movilidad segura dentro del aislamiento."
+          },
+          {
+            "action": "Mantener el área de la habitación libre de obstáculos y cables sueltos.",
+            "rationale": "Reduce riesgos de tropiezos y caídas."
+          },
+          {
+            "action": "Comunicar al equipo de salud cualquier cambio en el estado mental o fuerza muscular.",
+            "rationale": "Permite intervenciones tempranas para prevenir lesiones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Multidrug-resistant organisms (MDROs)",
+    "aliases": [
+      "multidrug-resistant organisms",
+      "mdros",
+      "resistant bacteria",
+      "antibiotic resistance",
+      "hospital-acquired infection"
+    ],
+    "summary": "MDROs are microorganisms that have acquired resistance to multiple antibiotics, increasing the risk of difficult-to-treat infections.",
+    "key_points": [
+      "Resistance to multiple classes of antibiotics.",
+      "Higher morbidity, mortality, and hospital costs.",
+      "Transmission primarily by direct contact and contaminated surfaces.",
+      "Prevention based on isolation, hand hygiene, and prudent antibiotic use."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Genetic mutations or acquisition of resistance genes via plasmids.",
+        "Natural selection favors resistant strains when antibiotics are used.",
+        "MDROs can produce enzymes that inactivate antibiotics or alter pharmacologic targets."
+      ],
+      "risk_factors": [
+        "Prolonged or inappropriate use of broad-spectrum antibiotics.",
+        "Long hospital stays, especially in intensive care units.",
+        "Immunosuppression from disease or therapy.",
+        "Invasive procedures (catheters, mechanical ventilation)."
+      ],
+      "signs_symptoms": [
+        "Persistent or recurrent fever.",
+        "Elevated white blood cells in blood.",
+        "Sepsis or septic shock unresponsive to usual antibiotics.",
+        "Local symptoms depending on focus (cough, dysuria, purulent drainage)."
+      ],
+      "diagnostics": [
+        "Culture of clinical sample with antibiogram.",
+        "Molecular tests (PCR) for resistance genes (mecA, blaKPC).",
+        "Blood culture if bacteremia suspected.",
+        "Expected result: resistance to ≥3 antibiotic classes."
+      ],
+      "treatment": [
+        "Contact isolation per CDC protocols.",
+        "Use of last‑line antibiotics (e.g., colistin, tigecycline) guided by antibiogram.",
+        "Environmental decontamination with broad‑spectrum disinfectants.",
+        "Monitor renal and hepatic function during therapy."
+      ],
+      "complications": [
+        "Severe sepsis and septic shock.",
+        "Spread to other patients and healthcare staff.",
+        "Increased resistance in patient microbiota.",
+        "Longer hospital stays and higher mortality."
+      ],
+      "nursing_care": [
+        "Apply contact precautions: gloves and waterproof gown.",
+        "Educate and supervise hand hygiene compliance.",
+        "Monitor vital signs every 4 h and observe changes in mental status.",
+        "Document and report culture results and treatment response.",
+        "Maintain isolation until a negative culture is obtained."
+      ],
+      "patient_teaching": [
+        "Importance of hand hygiene before and after contact.",
+        "Proper use of gown and gloves; do not share personal items.",
+        "Explain that isolation is temporary and protects other patients.",
+        "Inform about side effects of last‑line antibiotics."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "exposure to MDROs",
+          "use of broad‑spectrum antibiotics",
+          "immunosuppression",
+          "prolonged hospital stay"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reduction in incidence of infection: No signs of infection during hospital stay.",
+          "NOC: Compliance with precautions: Patient and staff follow 100 % of contact precautions."
+        ],
+        "interventions": [
+          {
+            "action": "Place patient in contact isolation and ensure proper signage.",
+            "rationale": "Prevents transmission of MDROs to other patients and staff."
+          },
+          {
+            "action": "Teach and supervise hand hygiene technique with alcohol solution before and after contact.",
+            "rationale": "Hand hygiene is the most effective measure to reduce transmission."
+          },
+          {
+            "action": "Verify and record correct use of gloves and gown at each interaction.",
+            "rationale": "Ensures protective barrier against resistant microorganisms."
+          },
+          {
+            "action": "Review culture results daily and adjust care plan per antibiogram.",
+            "rationale": "Allows targeted antibiotic use and avoids unnecessary exposure."
+          },
+          {
+            "action": "Disinfect high‑contact surfaces every 4 h with approved disinfectant.",
+            "rationale": "Reduces environmental MDRO load and indirect transmission risk."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "mobility restriction due to isolation",
+          "use of invasive medical devices",
+          "confusion or disorientation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Patient safety: No falls or injuries during hospitalization.",
+          "NOC: Physical integrity: Patient maintains safe mobility within isolation."
+        ],
+        "interventions": [
+          {
+            "action": "Assess level of consciousness and orientation upon admission and each shift.",
+            "rationale": "Identifies patients at higher risk of falls or self‑harm."
+          },
+          {
+            "action": "Set bed height to a safe level and secure side rails up.",
+            "rationale": "Prevents falls when attempting to stand without assistance."
+          },
+          {
+            "action": "Provide assistive devices (walker, cane) as needed and train patient in use.",
+            "rationale": "Facilitates safe mobility within isolation."
+          },
+          {
+            "action": "Keep room area free of obstacles and loose cords.",
+            "rationale": "Reduces tripping and fall risks."
+          },
+          {
+            "action": "Communicate any changes in mental status or muscle strength to the healthcare team.",
+            "rationale": "Allows early interventions to prevent injuries."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "antibiotic-resistance",
+    "infection-control",
+    "sepsis"
+  ],
+  "sources": [
+    {
+      "name": "Fundamentals of Nursing: Infection Control and Patient Safety",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/10-4-infection-control-and-patient-safety",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Clinical Nursing Skills: Infection Control and Patient Safety",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/6-4-infection-control-and-patient-safety",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-19",
+  "factcheck": {
+    "checked": "2026-11-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "HAIs that are caused by antibiotic-resistant bacteria are of particular concern, because they are typically difficult to treat and pose a significantly higher risk for severe illness and complications.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "The use of contact precautions are indicated for patients who have known or suspected infections that can be transmitted through direct skin-to-skin contact or indirect contact with environmental surfaces or equipment.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "The first tier of precautions to protect healthcare staff and patients from infection are standard precaution s.",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "The PPE needed when treating patients in contact isolation includes gloves and an isolation gown whenever touching the patient, discarding them before exiting the room.",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Emphasis must be placed on following proper hand hygiene , and proper personal protective equipment (PPE) protocols can greatly reduce risk of exposure.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Emphasis must be placed on following proper hand hygiene , and proper personal protective equipment (PPE) protocols can greatly reduce risk of exposure.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "The PPE needed when treating patients in contact isolation includes gloves and an isolation gown whenever touching the patient, discarding them before exiting the room.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

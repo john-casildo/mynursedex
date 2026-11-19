@@ -1,0 +1,275 @@
+{
+  "id": "cyp450",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Citocromo P450 (CYP450)",
+    "aliases": [
+      "cyp450",
+      "cyp",
+      "enzima hepática",
+      "interacciones medicamentosas",
+      "metabolismo de fármacos"
+    ],
+    "summary": "Conjunto de enzimas hepáticas que metabolizan la mayoría de los fármacos. Varias sustancias pueden inhibir o inducir su actividad, alterando los niveles séricos de los medicamentos.",
+    "key_points": [
+      "CYP3A4 es la isoenzima más importante en la metabolización de fármacos",
+      "Inhibidores de CYP aumentan concentraciones y riesgo de toxicidad",
+      "Inductores de CYP reducen concentraciones y pueden disminuir eficacia",
+      "Las interacciones pueden afectar anticoagulantes, antiarrítmicos, benzodiacepinas, entre otros"
+    ],
+    "sections": {
+      "mechanism": [
+        "Oxida y elimina fármacos mediante reacciones de hidroxilación",
+        "Presente principalmente en el retículo endoplásmico del hepatocito",
+        "CYP3A4 metaboliza ≈50% de los fármacos clínicos"
+      ],
+      "interactions": [
+        "Inhibidores de CYP3A4: eritromicina, claritromicina, azoles (fluconazol, itraconazol)",
+        "Inductores de CYP3A4: rifampicina, carbamazepina, hierba de San Juan",
+        "Aumento del INR con warfarina cuando se combina con inhibidores de CYP",
+        "Disminución de niveles de digoxina con inductores de CYP"
+      ],
+      "nursing_care": [
+        "Revisar lista de medicamentos antes de administrar un nuevo fármaco",
+        "Obtener y registrar niveles séricos (p. ej., INR, niveles de digoxina)",
+        "Retener la dosis si el paciente presenta signos de toxicidad",
+        "Notificar al médico si se identifican interacciones potenciales"
+      ],
+      "patient_teaching": [
+        "Informar que algunos antibióticos y antifúngicos pueden alterar la acción de otros medicamentos",
+        "Evitar el consumo de pomelo o jugo de pomelo sin consultar al profesional",
+        "Reportar cualquier sangrado inusual o cambios en la presión arterial"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de inhibidores de CYP3A4",
+          "uso de inductores de CYP3A4",
+          "polifarmacia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Riesgo de sangrado: No presentar hemorragias durante la hospitalización",
+          "Riesgo de sangrado: INR dentro del rango terapéutico especificado"
+        ],
+        "interventions": [
+          {
+            "action": "Revisar la orden médica y la lista de medicamentos para identificar inhibidores o inductores de CYP",
+            "rationale": "Previene interacciones que puedan elevar o disminuir niveles de fármacos críticos"
+          },
+          {
+            "action": "Obtener y registrar niveles de INR y otros parámetros de coagulación según indicación",
+            "rationale": "Permite detectar desviaciones tempranas del rango terapéutico"
+          },
+          {
+            "action": "Educar al paciente sobre los signos de sangrado y la importancia de reportarlos inmediatamente",
+            "rationale": "Facilita la detección precoz de hemorragias"
+          },
+          {
+            "action": "Coordinar con el farmacéutico para ajustar dosis cuando se añaden o retiran inhibidores/inductores",
+            "rationale": "Asegura que la terapia mantenga su efectividad y seguridad"
+          },
+          {
+            "action": "Monitorear signos vitales y hemograma completo cada 24‑48 h según criterio clínico",
+            "rationale": "Detecta cambios en la hemostasia y posibles efectos adversos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cytochrome P450 (CYP450)",
+    "aliases": [
+      "cyp450",
+      "cyp",
+      "hepatic enzyme",
+      "drug interactions",
+      "drug metabolism"
+    ],
+    "summary": "A group of hepatic enzymes that metabolize most drugs. Various substances can inhibit or induce their activity, altering serum drug levels.",
+    "key_points": [
+      "CYP3A4 is the most important isoenzyme in drug metabolism",
+      "CYP inhibitors increase concentrations and risk of toxicity",
+      "CYP inducers reduce concentrations and may decrease efficacy",
+      "Interactions can affect anticoagulants, antiarrhythmics, benzodiazepines, among others"
+    ],
+    "sections": {
+      "mechanism": [
+        "Oxidizes and eliminates drugs via hydroxylation reactions",
+        "Primarily located in the endoplasmic reticulum of hepatocytes",
+        "CYP3A4 metabolizes ≈50% of clinical drugs"
+      ],
+      "interactions": [
+        "CYP3A4 inhibitors: erythromycin, clarithromycin, azoles (fluconazole, itraconazole)",
+        "CYP3A4 inducers: rifampin, carbamazepine, St. John’s wort",
+        "Increased INR with warfarin when combined with CYP inhibitors",
+        "Reduced digoxin levels with CYP inducers"
+      ],
+      "nursing_care": [
+        "Review medication list before administering a new drug",
+        "Obtain and record serum levels (e.g., INR, digoxin levels)",
+        "Hold the dose if the patient shows signs of toxicity",
+        "Notify the physician if potential interactions are identified"
+      ],
+      "patient_teaching": [
+        "Inform that some antibiotics and antifungals can alter the action of other medications",
+        "Avoid consuming grapefruit or grapefruit juice without consulting a professional",
+        "Report any unusual bleeding or changes in blood pressure"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "use of CYP3A4 inhibitors",
+          "use of CYP3A4 inducers",
+          "polypharmacy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Risk of bleeding: No hemorrhages during hospitalization",
+          "Risk of bleeding: INR within specified therapeutic range"
+        ],
+        "interventions": [
+          {
+            "action": "Review the medical order and medication list to identify CYP inhibitors or inducers",
+            "rationale": "Prevents interactions that may raise or lower critical drug levels"
+          },
+          {
+            "action": "Obtain and record INR and other coagulation parameters as indicated",
+            "rationale": "Allows early detection of deviations from the therapeutic range"
+          },
+          {
+            "action": "Educate the patient about bleeding signs and the importance of reporting them immediately",
+            "rationale": "Facilitates early detection of hemorrhage"
+          },
+          {
+            "action": "Coordinate with the pharmacist to adjust doses when inhibitors/inducers are added or removed",
+            "rationale": "Ensures therapy remains effective and safe"
+          },
+          {
+            "action": "Monitor vital signs and complete blood count every 24‑48 h as clinically indicated",
+            "rationale": "Detects changes in hemostasis and potential adverse effects"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "drug-metabolism",
+    "enzyme-inhibition",
+    "warfarin-interaction",
+    "cyp3a4-inhibitors",
+    "cyp3a4-inducers"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-19",
+  "factcheck": {
+    "checked": "2026-11-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 16,
+      "contradicted": 0,
+      "total": 20
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Affected medications will have higher levels in the body and increase the risk for drug toxicity.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "For clients taking macrolides, always review their medication list for medications metabolized by CYP3A4.",
+        "source": 0
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Some oral and intravenously administered azole antifungals are strong inhibitors of CYP3A4, which can affect many medications.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Recommended to consult a pharmacist for evaluation of drug interactions with warfarin",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

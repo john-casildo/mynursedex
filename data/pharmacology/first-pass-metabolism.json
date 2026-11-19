@@ -1,0 +1,259 @@
+{
+  "id": "first-pass-metabolism",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Metabolismo de primer paso",
+    "aliases": [
+      "metabolismo de primer paso",
+      "efecto de primer paso",
+      "first pass",
+      "biodisponibilidad oral",
+      "metabolismo hepático"
+    ],
+    "summary": "Proceso hepático que reduce la cantidad de fármaco activo que llega a la circulación sistémica tras la administración oral.",
+    "key_points": [
+      "Disminuye la biodisponibilidad del fármaco oral.",
+      "Varía según la capacidad enzimática hepática y la primera pasada por el hígado.",
+      "Rutas parenterales evitan este efecto y aumentan la biodisponibilidad.",
+      "Influye en la dosificación y la elección de la vía de administración."
+    ],
+    "sections": {
+      "mechanism": [
+        "Después de la absorción gastrointestinal, el fármaco pasa al hígado a través de la vena porta.",
+        "Enzimáticamente, el hígado transforma el fármaco en metabolitos activos o inactivos.",
+        "Solo la fracción no metabolizada entra a la circulación sistémica y produce efecto terapéutico."
+      ],
+      "nursing_care": [
+        "Evaluar la vía de administración prescrita y considerar alternativas si la biodisponibilidad es crítica.",
+        "Monitorear la respuesta clínica del paciente al fármaco oral; ajustar dosis si la eficacia es insuficiente.",
+        "Observar signos de toxicidad cuando se usan dosis aumentadas para compensar el primer paso.",
+        "Registrar cualquier cambio en la función hepática (AST, ALT) que pueda alterar el metabolismo."
+      ],
+      "patient_teaching": [
+        "Explicar que la vía oral puede requerir más tiempo para sentir el efecto del medicamento.",
+        "Indicar que no se deben suspender o cambiar la vía sin consultar al profesional de salud.",
+        "Recomendar tomar el medicamento con alimentos o en ayunas según la indicación para optimizar la absorción.",
+        "Informar que la ingesta de alcohol o ciertos alimentos puede modificar el metabolismo hepático."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "administración oral de fármacos con alto metabolismo de primer paso",
+          "uso de medicamentos con baja biodisponibilidad",
+          "posible necesidad de dosis mayores que aumentan la carga renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener ingesta de líquidos ≥ 2 L/día",
+          "Ausencia de signos de deshidratación (piel turgencia, mucosas secas)",
+          "Peso corporal estable dentro de ±0.5 kg en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar la vía de administración y, de ser necesario, solicitar cambio a vía parenteral.",
+            "rationale": "Evita el efecto de primer paso y asegura la entrega adecuada del fármaco."
+          },
+          {
+            "action": "Registrar la ingesta y eliminación de líquidos cada 8 h.",
+            "rationale": "Detecta rápidamente cualquier déficit de volumen."
+          },
+          {
+            "action": "Monitorear signos vitales, especialmente presión arterial y frecuencia cardíaca, cada 4 h.",
+            "rationale": "Cambios hemodinámicos pueden indicar deshidratación."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la hidratación adecuada mientras toma medicamentos orales.",
+            "rationale": "Mantener el volumen intravascular favorece la distribución del fármaco."
+          },
+          {
+            "action": "Revisar resultados de pruebas hepáticas (AST, ALT, bilirrubina) al iniciar terapia oral.",
+            "rationale": "Alteraciones hepáticas pueden intensificar el metabolismo de primer paso."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "First-pass metabolism",
+    "aliases": [
+      "first-pass metabolism",
+      "first-pass effect",
+      "first pass",
+      "oral bioavailability",
+      "hepatic metabolism"
+    ],
+    "summary": "A hepatic process that reduces the amount of active drug reaching systemic circulation after oral administration.",
+    "key_points": [
+      "Reduces oral drug bioavailability.",
+      "Varies with hepatic enzymatic capacity and first passage through the liver.",
+      "Parenteral routes avoid this effect and increase bioavailability.",
+      "Influences dosing and route selection."
+    ],
+    "sections": {
+      "mechanism": [
+        "After gastrointestinal absorption, the drug passes to the liver via the portal vein.",
+        "Enzymatically, the liver converts the drug into active or inactive metabolites.",
+        "Only the unmetabolized fraction enters systemic circulation and produces therapeutic effect."
+      ],
+      "nursing_care": [
+        "Assess the prescribed route of administration and consider alternatives if bioavailability is critical.",
+        "Monitor the patient’s clinical response to oral drug; adjust dose if efficacy is insufficient.",
+        "Observe for signs of toxicity when higher doses are used to compensate for first-pass.",
+        "Document any changes in liver function (AST, ALT) that may alter metabolism."
+      ],
+      "patient_teaching": [
+        "Explain that oral route may require more time to feel the drug’s effect.",
+        "Indicate that the route should not be stopped or changed without consulting a health professional.",
+        "Recommend taking the medication with food or on an empty stomach as directed to optimize absorption.",
+        "Inform that alcohol or certain foods can modify hepatic metabolism."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "oral administration of drugs with high first-pass metabolism",
+          "use of drugs with low bioavailability",
+          "possible need for higher doses that increase renal load"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain fluid intake ≥ 2 L/day",
+          "Absence of dehydration signs (skin turgor, dry mucous membranes)",
+          "Stable body weight within ±0.5 kg in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess the route of administration and, if necessary, request a switch to parenteral route.",
+            "rationale": "Avoids first-pass effect and ensures adequate drug delivery."
+          },
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Rapidly detects any volume deficit."
+          },
+          {
+            "action": "Monitor vital signs, especially blood pressure and heart rate, every 4 h.",
+            "rationale": "Hemodynamic changes may indicate dehydration."
+          },
+          {
+            "action": "Educate the patient on the importance of adequate hydration while taking oral medications.",
+            "rationale": "Maintaining intravascular volume facilitates drug distribution."
+          },
+          {
+            "action": "Review liver function test results (AST, ALT, bilirubin) at therapy initiation.",
+            "rationale": "Hepatic alterations can intensify first-pass metabolism."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "first-pass-effect",
+    "bioavailability",
+    "hepatic-metabolism",
+    "parenteral-administration",
+    "drug-dosing"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Drug Administration Routes, Preparation, and Administration",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-3-drug-administration-routes-preparation-and-administration",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-19",
+  "factcheck": {
+    "checked": "2026-11-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 10,
+      "contradicted": 0,
+      "total": 16
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "After absorption, oral drugs can also be metabolized in the liver before entering systemic circulation, a process called first-pass metabolism.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "This can decrease the bioavailability of a drug.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Drugs administered via these routes have improved bioavailability because they bypass the first-pass effect, making absorption and onset of action more rapid.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Once the drug is in the portal circulation, it travels to the liver.",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "As the drug circulates through the liver, it is transformed by the liver enzymes into various metabolites.",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Aspartate transaminase (AST) and alanine transaminase (ALT) are two common liver enzymes to monitor because the elevation of these enzymes may indicate hepatic dysfunction or liver damage.",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

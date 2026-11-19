@@ -1,0 +1,261 @@
+{
+  "id": "enzyme-induction",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Inducción enzimática",
+    "aliases": [
+      "inducción enzimática",
+      "inducción de enzimas",
+      "inductor",
+      "inductor enzimático",
+      "inductor cyp450"
+    ],
+    "summary": "Proceso por el cual ciertos fármacos aumentan la actividad de enzimas metabólicas, acelerando la eliminación de otros medicamentos.",
+    "key_points": [
+      "Los inductores aumentan la síntesis de enzimas del citocromo P450.",
+      "Pueden reducir la concentración plasmática y la eficacia de fármacos coadministrados.",
+      "Ejemplos comunes: rifampicina, carbamazepina, fenitoína, hierba de San Juan.",
+      "La inducción puede tardar días a semanas en manifestarse y revertirse.",
+      "Es una causa importante de interacciones farmacológicas y fracaso terapéutico."
+    ],
+    "sections": {
+      "mechanism": [
+        "El fármaco se une a receptores nucleares y aumenta la transcripción de genes de enzimas CYP450.",
+        "Mayor cantidad de enzimas acelera la biotransformación de sustratos.",
+        "Resultado: disminución de la vida media y concentración sérica del fármaco objetivo."
+      ],
+      "interactions": [
+        "Disminución de la eficacia de anticoagulantes orales (p. ej., warfarina).",
+        "Reducción del control glucémico con antidiabéticos orales (p. ej., sulfonilureas).",
+        "Disminución de niveles de anticonceptivos hormonales, aumentando riesgo de embarazo."
+      ],
+      "nursing_care": [
+        "Revisar la lista de medicamentos para identificar posibles inductores.",
+        "Monitorizar niveles plasmáticos o efectos clínicos del fármaco afectado.",
+        "Notificar al médico si se observa pérdida de efecto terapéutico.",
+        "Retener la administración si el paciente presenta signos de insuficiencia del fármaco coadministrado."
+      ],
+      "patient_teaching": [
+        "Informar al paciente sobre la importancia de reportar cualquier nuevo medicamento, suplemento o hierba.",
+        "Explicar que la eficacia de algunos tratamientos puede disminuir con inductores.",
+        "Recomendar adherencia a controles de laboratorio y citas médicas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de función cardiovascular ineficaz",
+        "type": "risk",
+        "related_to": [
+          "inducción enzimática de fármacos antihipertensivos",
+          "uso concomitante de inductores de CYP450"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Presión arterial < 140/90 mmHg en 48 horas",
+          "Ausencia de síntomas de hipertensión (cefalea, visión borrosa) en 72 horas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial cada 4 horas",
+            "rationale": "Detectar rápidamente aumentos que indiquen pérdida de efecto del antihipertensivo."
+          },
+          {
+            "action": "Evaluar signos y síntomas de hipertensión",
+            "rationale": "Identificar deterioro clínico antes de que se produzca daño orgánico."
+          },
+          {
+            "action": "Revisar lista de medicamentos para identificar inductores",
+            "rationale": "Permite ajustar la terapia y prevenir interacciones."
+          },
+          {
+            "action": "Educar al paciente sobre la necesidad de informar cambios en medicación o suplementos",
+            "rationale": "Facilita la detección temprana de factores que alteren la farmacoterapia."
+          },
+          {
+            "action": "Coordinar con farmacéutico para ajustar dosis o cambiar a fármacos no dependientes de CYP450",
+            "rationale": "Mantener la eficacia terapéutica pese a la inducción enzimática."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Enzyme induction",
+    "aliases": [
+      "enzyme induction",
+      "inducer",
+      "enzyme inducer",
+      "cyp450 inducer"
+    ],
+    "summary": "Process by which certain drugs increase the activity of metabolic enzymes, accelerating the elimination of other medications.",
+    "key_points": [
+      "Inducers increase synthesis of cytochrome P450 enzymes.",
+      "They can reduce plasma concentration and efficacy of coadministered drugs.",
+      "Common examples: rifampin, carbamazepine, phenytoin, St. John’s wort.",
+      "Induction may take days to weeks to manifest and reverse.",
+      "It is a major cause of drug interactions and therapeutic failure."
+    ],
+    "sections": {
+      "mechanism": [
+        "The drug binds to nuclear receptors and increases transcription of CYP450 enzyme genes.",
+        "Higher enzyme levels accelerate biotransformation of substrates.",
+        "Result: decreased half‑life and serum concentration of the target drug."
+      ],
+      "interactions": [
+        "Reduced efficacy of oral anticoagulants (e.g., warfarin).",
+        "Reduced glycemic control with oral antidiabetics (e.g., sulfonylureas).",
+        "Lower levels of hormonal contraceptives, increasing pregnancy risk."
+      ],
+      "nursing_care": [
+        "Review medication list to identify potential inducers.",
+        "Monitor plasma levels or clinical effects of the affected drug.",
+        "Notify the physician if loss of therapeutic effect is observed.",
+        "Hold administration if patient shows signs of coadministered drug insufficiency."
+      ],
+      "patient_teaching": [
+        "Inform patient about importance of reporting any new medication, supplement, or herb.",
+        "Explain that efficacy of some treatments may decrease with inducers.",
+        "Recommend adherence to laboratory monitoring and medical appointments."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for impaired cardiovascular function",
+        "type": "risk",
+        "related_to": [
+          "enzyme induction of antihypertensive drugs",
+          "concomitant use of CYP450 inducers"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Blood pressure < 140/90 mmHg within 48 hours",
+          "Absence of hypertension symptoms (headache, blurred vision) within 72 hours"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure every 4 hours",
+            "rationale": "Detect rapid increases indicating loss of antihypertensive effect."
+          },
+          {
+            "action": "Assess signs and symptoms of hypertension",
+            "rationale": "Identify clinical deterioration before organ damage occurs."
+          },
+          {
+            "action": "Review medication list to identify inducers",
+            "rationale": "Allows therapy adjustment and prevents interactions."
+          },
+          {
+            "action": "Educate patient on need to report medication or supplement changes",
+            "rationale": "Facilitates early detection of factors altering pharmacotherapy."
+          },
+          {
+            "action": "Coordinate with pharmacist to adjust doses or switch to non‑CYP450 drugs",
+            "rationale": "Maintain therapeutic efficacy despite enzyme induction."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cyp450-metabolism",
+    "drug-interactions",
+    "pharmacokinetics"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Angiotensin-Converting Enzyme (ACE) Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-2-angiotensin-converting-enzyme-ace-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Medical Interventions During Labor",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/19-2-medical-interventions-during-labor",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-19",
+  "factcheck": {
+    "checked": "2026-11-19",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 18,
+      "contradicted": 1,
+      "total": 19
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "contradicted",
+        "quote": "Mechanism of Action: binds to oxytocin receptors in the myometrium, increasing intracellular calcium and stimulating uterine contractions",
+        "source": 1
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}
