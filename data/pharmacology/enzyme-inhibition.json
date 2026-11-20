@@ -1,0 +1,382 @@
+{
+  "id": "enzyme-inhibition",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Inhibidores de la enzima convertidora de angiotensina (IECA)",
+    "aliases": [
+      "ieca",
+      "inhibidor ace",
+      "captopril",
+      "enalapril",
+      "ramipril"
+    ],
+    "summary": "Los IECA bloquean la conversión de angiotensina I a II, reduciendo la vasoconstricción y la secreción de aldosterona.",
+    "key_points": [
+      "Disminuyen la presión arterial al inhibir la formación de angiotensina II.",
+      "Pueden causar tos seca y angioedema por acumulación de bradiquinina.",
+      "Aumentan el riesgo de hiperpotasemia y deterioro de la función renal.",
+      "Se usan en hipertensión, insuficiencia cardíaca y nefropatía diabética."
+    ],
+    "sections": {
+      "mechanism": [
+        "Inhiben la enzima convertidora de angiotensina, impidiendo la formación de angiotensina II.",
+        "Reducen la vasoconstricción y la liberación de aldosterona.",
+        "Aumentan la vasodilatación mediada por óxido nítrico."
+      ],
+      "indications": [
+        "Hipertensión esencial.",
+        "Insuficiencia cardíaca congestiva.",
+        "Nefropatía diabética con proteinuria.",
+        "Prevención de eventos cardiovasculares en alto riesgo."
+      ],
+      "contraindications": [
+        "Historia de angioedema relacionado a IECA o ARB.",
+        "Embarazo (segundo y tercer trimestre).",
+        "Hiperkalemia >5.5 mEq/L.",
+        "Estenosis bilateral de arterias renales."
+      ],
+      "adverse_effects": [
+        "Tos seca persistente (común).",
+        "Hiperkalemia (común).",
+        "Mareos o hipotensión ortostática (común).",
+        "Angioedema (grave).",
+        "Insuficiencia renal aguda (grave)."
+      ],
+      "interactions": [
+        "Aumenta K+ con diuréticos ahorradores de potasio o suplementos de potasio.",
+        "Potenciación del efecto hipotensor con diuréticos y betabloqueadores.",
+        "NSAID pueden reducir el efecto antihipertensivo y empeorar la función renal.",
+        "Litio: riesgo de toxicidad por aumento de niveles séricos."
+      ],
+      "nursing_care": [
+        "Evaluar presión arterial y frecuencia cardíaca antes de administrar.",
+        "Obtener laboratorio de K+, creatinina y BUN antes y 1‑2 semanas después del inicio.",
+        "Retener la dosis si K+ >5.5 mEq/L o creatinina aumenta >30% del valor basal.",
+        "Monitorear signos de angioedema: edema facial, labios, lengua o dificultad respiratoria.",
+        "Registrar cualquier tos persistente y notificar al médico."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento a la misma hora cada día, con o sin alimentos.",
+        "Informar al profesional si presenta tos seca, hinchazón facial o dificultad para respirar.",
+        "Evitar suplementos de potasio y sales de sustitución sin autorización.",
+        "Controlar la presión arterial en casa y registrar valores.",
+        "No interrumpir el tratamiento sin consultar al médico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de IECA",
+          "insuficiencia renal",
+          "hiperkalemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: K+ <5.5 mEq/L",
+          "Función renal estable: creatinina ≤1.3 mg/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar valores de K+, creatinina y BUN antes de iniciar y durante el tratamiento.",
+            "rationale": "Detectar alteraciones tempranas que requieran ajuste de dosis."
+          },
+          {
+            "action": "Evaluar presión arterial y frecuencia cardíaca antes de cada dosis.",
+            "rationale": "Prevenir hipotensión ortostática y eventos adversos."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si K+ >5.5 mEq/L o creatinina aumenta >30% del valor basal.",
+            "rationale": "Evitar complicaciones graves como arritmias o insuficiencia renal."
+          },
+          {
+            "action": "Educar al paciente sobre signos de hiperkalemia (fatiga, debilidad muscular, arritmias) y angioedema.",
+            "rationale": "Facilitar la detección precoz y la intervención oportuna."
+          },
+          {
+            "action": "Revisar la lista de medicamentos para identificar interacciones que aumenten K+ o afecten la función renal.",
+            "rationale": "Minimizar riesgos de interacciones peligrosas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "ACE inhibitors (ACEI)",
+    "aliases": [
+      "acei",
+      "ace inhibitor",
+      "captopril",
+      "enalapril",
+      "ramipril"
+    ],
+    "summary": "ACE inhibitors block the conversion of angiotensin I to II, reducing vasoconstriction and aldosterone secretion.",
+    "key_points": [
+      "Lower blood pressure by inhibiting angiotensin II formation.",
+      "Can cause dry cough and angioedema due to bradykinin accumulation.",
+      "Increase risk of hyperkalemia and renal function decline.",
+      "Used in hypertension, heart failure, and diabetic nephropathy."
+    ],
+    "sections": {
+      "mechanism": [
+        "Inhibit the angiotensin-converting enzyme, preventing angiotensin II formation.",
+        "Reduce vasoconstriction and aldosterone release.",
+        "Increase nitric‑oxide mediated vasodilation."
+      ],
+      "indications": [
+        "Essential hypertension.",
+        "Congestive heart failure.",
+        "Diabetic nephropathy with proteinuria.",
+        "Prevention of cardiovascular events in high‑risk patients."
+      ],
+      "contraindications": [
+        "History of ACEI or ARB‑related angioedema.",
+        "Pregnancy (second and third trimester).",
+        "Hyperkalemia >5.5 mEq/L.",
+        "Bilateral renal artery stenosis."
+      ],
+      "adverse_effects": [
+        "Persistent dry cough (common).",
+        "Hyperkalemia (common).",
+        "Dizziness or orthostatic hypotension (common).",
+        "Angioedema (severe).",
+        "Acute renal failure (severe)."
+      ],
+      "interactions": [
+        "Increases K+ with potassium‑sparing diuretics or potassium supplements.",
+        "Potentiation of antihypertensive effect with diuretics and beta‑blockers.",
+        "NSAIDs may reduce antihypertensive effect and worsen renal function.",
+        "Lithium: risk of toxicity due to increased serum levels."
+      ],
+      "nursing_care": [
+        "Assess blood pressure and heart rate before administration.",
+        "Obtain K+, creatinine, and BUN labs before and 1‑2 weeks after initiation.",
+        "Hold dose if K+ >5.5 mEq/L or creatinine rises >30% from baseline.",
+        "Monitor for signs of angioedema: facial, lip, tongue swelling or breathing difficulty.",
+        "Document any persistent cough and notify the provider."
+      ],
+      "patient_teaching": [
+        "Take the medication at the same time each day, with or without food.",
+        "Inform the provider if you develop a dry cough, facial swelling, or breathing difficulty.",
+        "Avoid potassium supplements and salt substitutes without authorization.",
+        "Check blood pressure at home and record readings.",
+        "Do not discontinue therapy without consulting the provider."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "ACEI use",
+          "renal insufficiency",
+          "hyperkalemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: K+ <5.5 mEq/L",
+          "Stable renal function: creatinine ≤1.3 mg/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record K+, creatinine, and BUN values before starting and during treatment.",
+            "rationale": "Detect early changes that require dose adjustment."
+          },
+          {
+            "action": "Assess blood pressure and heart rate before each dose.",
+            "rationale": "Prevent orthostatic hypotension and adverse events."
+          },
+          {
+            "action": "Hold the dose and notify the provider if K+ >5.5 mEq/L or creatinine rises >30% from baseline.",
+            "rationale": "Avoid serious complications such as arrhythmias or renal failure."
+          },
+          {
+            "action": "Educate the patient on signs of hyperkalemia (fatigue, muscle weakness, arrhythmias) and angioedema.",
+            "rationale": "Facilitate early detection and timely intervention."
+          },
+          {
+            "action": "Review the medication list to identify interactions that increase K+ or affect renal function.",
+            "rationale": "Minimize risks of dangerous interactions."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypertension",
+    "heart-failure",
+    "renal-insufficiency",
+    "hyperkalemia",
+    "cough"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Angiotensin-Converting Enzyme (ACE) Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-2-angiotensin-converting-enzyme-ace-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-20",
+  "factcheck": {
+    "checked": "2026-11-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 22,
+      "contradicted": 0,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Angiotensin-converting enzyme (ACE) inhibitors are a classification of drugs that block the body’s production of angiotensin II.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Therapeutic Effects Lowers blood pressure Increases blood supply and oxygen to the heart",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Mechanism of Action Inhibits the enzyme that converts angiotensin I to angiotensin II and thereby suppresses the renin-angiotensin-aldosterone system",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Indications To control hypertension In the treatment of heart failure Treatment of acute myocardial infarction",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "supported",
+        "quote": "The use of ACE inhibitors during the second and third trimesters of pregnancy has been associated with fetal and neonatal injury, including hypotension, neonatal skull hypoplasia, anuria, reversible or irreversible renal failure, and death.",
+        "source": 0
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "supported",
+        "quote": "Clients may develop an ACE inhibitor–associated cough (a persistent, dry, itchy cough), hyperkalemia (elevated potassium level in the blood), or hypotension (Jun et al., 2021).",
+        "source": 0
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "Clients may develop an ACE inhibitor–associated cough (a persistent, dry, itchy cough), hyperkalemia (elevated potassium level in the blood), or hypotension (Jun et al., 2021).",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "supported",
+        "quote": "Adverse effects include angioedema, nonproductive cough, neutropenia (low neutrophils in the blood), agranulocytosis (low granulocytes in the blood), proteinuria (protein in the urine), and rash.",
+        "source": 0
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "supported",
+        "quote": "Taking ACE inhibitors with potassium-containing salt substitutes or consuming large amounts of high potassium foods increases the risk of hyperkalemia.",
+        "source": 0
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "supported",
+        "quote": "Medications that use the CYP enzyme system for metabolism will not undergo metabolism at the rate expected, leading to increased serum drug levels.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Be aware that a persistent cough may develop when taking ACE inhibitors.",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Report side effects such as low blood pressure, cough, heart palpitations, nausea, vomiting, fever, chills, sore throat, swelling of the eyes and lips, or difficulty breathing to their health care provider.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Avoid foods high in potassium and salt substitutes (because these are high in potassium) due to the aldosterone release.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

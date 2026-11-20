@@ -1,0 +1,333 @@
+{
+  "id": "cyp3a4-inhibitors",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Eritromicina (inhibidor de CYP3A4)",
+    "aliases": [
+      "eritromicina",
+      "macrolido",
+      "inhibidor cyp3a4",
+      "antibiotico",
+      "cyp3a4"
+    ],
+    "summary": "Antibiótico macrólido que inhibe fuertemente la enzima hepática CYP3A4, aumentando la concentración de fármacos metabolizados por ella.",
+    "key_points": [
+      "Inhibe la actividad de CYP3A4, potenciando efectos y toxicidad de fármacos como estatinas y anticoagulantes.",
+      "Se usa para infecciones respiratorias, de piel y de transmisión sexual.",
+      "Puede causar hepatotoxicidad y prolongación del QT.",
+      "Interacciones importantes con medicamentos que dependen de CYP3A4 para su eliminación."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une al sitio activo de CYP3A4 y bloquea su capacidad para metabolizar sustratos.",
+        "Reduce la oxidación de fármacos, prolongando su vida media plasmática."
+      ],
+      "indications": [
+        "Infecciones de vías respiratorias superiores e inferiores causadas por bacterias sensibles.",
+        "Uretritis no gonocócica y cervicitis por Chlamydia trachomatis.",
+        "Profilaxis de infecciones en pacientes con VIH que reciben ritonavir."
+      ],
+      "contraindications": [
+        "Hipersensibilidad conocida a eritromicina o a otros macrólidos.",
+        "Pacientes con arritmia prolongada del QT sin supervisión médica.",
+        "Insuficiencia hepática grave."
+      ],
+      "adverse_effects": [
+        "Náuseas, vómitos y diarrea (comunes).",
+        "Dolor abdominal y colitis pseudomembranosa (serio).",
+        "Hepatotoxicidad con elevación de transaminasas (serio).",
+        "Prolongación del intervalo QT, riesgo de torsades de pointes (serio)."
+      ],
+      "interactions": [
+        "Aumenta niveles de estatinas (simvastatina, lovastatina) → riesgo de rabdomiolisis.",
+        "Potencia anticoagulantes orales (warfarina) → mayor INR.",
+        "Incrementa concentración de benzodiacepinas metabolizadas por CYP3A4 (midazolam).",
+        "Reduce eficacia de anticonceptivos hormonales."
+      ],
+      "nursing_care": [
+        "Revisar lista de medicamentos antes de administrar eritromicina.",
+        "Obtener valores de LFT (AST, ALT) y ECG si el paciente tiene factores de riesgo QT.",
+        "Monitorear signos de toxicidad: ictericia, dolor abdominal, sangrado.",
+        "Retener la dosis si ALT >3× límite superior normal o si QT >450 ms.",
+        "Notificar al médico ante cualquier reacción alérgica o alteración hepática."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento con alimentos para minimizar irritación gástrica.",
+        "No suspender sin consultar; completar el ciclo prescrito.",
+        "Informar al médico sobre todos los medicamentos, incluidos suplementos.",
+        "Reportar síntomas de ictericia, dolor abdominal intenso o palpitaciones."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "uso concomitante de fármacos metabolizados por CYP3A4",
+          "administración de eritromicina"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener niveles terapéuticos de los fármacos concomitantes sin signos de toxicidad",
+          "Preservar función hepática normal (AST/ALT dentro de rango)"
+        ],
+        "interventions": [
+          {
+            "action": "Revisar y actualizar la lista de medicamentos del paciente antes de iniciar eritromicina",
+            "rationale": "Identificar posibles interacciones que puedan causar toxicidad."
+          },
+          {
+            "action": "Obtener y monitorear pruebas de función hepática (AST, ALT) al iniciar y durante el tratamiento",
+            "rationale": "Detectar hepatotoxicidad precozmente."
+          },
+          {
+            "action": "Evaluar signos de toxicidad (ictericia, dolor abdominal, sangrado, arritmia)",
+            "rationale": "Permite intervención temprana ante efectos adversos graves."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de reportar cualquier síntoma nuevo o empeoramiento",
+            "rationale": "Facilita la detección oportuna de reacciones adversas."
+          },
+          {
+            "action": "Comunicar al médico cualquier alteración de LFT o ECG para posible ajuste de dosis o cambio de terapia",
+            "rationale": "Previene progresión de daño hepático o arritmias."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Erythromycin (CYP3A4 inhibitor)",
+    "aliases": [
+      "erythromycin",
+      "macrolide",
+      "cyp3a4 inhibitor",
+      "antibiotic",
+      "cyp3a4"
+    ],
+    "summary": "Macrolide antibiotic that strongly inhibits the hepatic enzyme CYP3A4, increasing the concentration of drugs metabolized by it.",
+    "key_points": [
+      "Inhibits CYP3A4 activity, potentiating effects and toxicity of drugs such as statins and anticoagulants.",
+      "Used for respiratory, skin, and sexually transmitted infections.",
+      "Can cause hepatotoxicity and QT prolongation.",
+      "Important interactions with medications that depend on CYP3A4 for elimination."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds to the active site of CYP3A4 and blocks its ability to metabolize substrates.",
+        "Reduces drug oxidation, prolonging plasma half‑life."
+      ],
+      "indications": [
+        "Upper and lower respiratory tract infections caused by susceptible bacteria.",
+        "Non‑gonococcal urethritis and cervicitis due to Chlamydia trachomatis.",
+        "Prophylaxis of infections in HIV patients receiving ritonavir."
+      ],
+      "contraindications": [
+        "Known hypersensitivity to erythromycin or other macrolides.",
+        "Patients with prolonged QT arrhythmia without medical supervision.",
+        "Severe hepatic insufficiency."
+      ],
+      "adverse_effects": [
+        "Nausea, vomiting, and diarrhea (common).",
+        "Abdominal pain and pseudomembranous colitis (serious).",
+        "Hepatotoxicity with elevated transaminases (serious).",
+        "QT interval prolongation, risk of torsades de pointes (serious)."
+      ],
+      "interactions": [
+        "Increases levels of statins (simvastatin, lovastatin) → risk of rhabdomyolysis.",
+        "Potentiates oral anticoagulants (warfarin) → higher INR.",
+        "Increases concentration of benzodiazepines metabolized by CYP3A4 (midazolam).",
+        "Reduces efficacy of hormonal contraceptives."
+      ],
+      "nursing_care": [
+        "Review medication list before administering erythromycin.",
+        "Obtain LFT (AST, ALT) and ECG if patient has QT risk factors.",
+        "Monitor for signs of toxicity: jaundice, abdominal pain, bleeding.",
+        "Hold dose if ALT >3× upper limit of normal or QT >450 ms.",
+        "Notify physician of any allergic reaction or hepatic alteration."
+      ],
+      "patient_teaching": [
+        "Take medication with food to minimize gastric irritation.",
+        "Do not discontinue without consulting; complete prescribed course.",
+        "Inform physician of all medications, including supplements.",
+        "Report symptoms of jaundice, severe abdominal pain, or palpitations."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "concomitant use of CYP3A4‑metabolized drugs",
+          "administration of erythromycin"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain therapeutic levels of concomitant drugs without signs of toxicity",
+          "Preserve normal hepatic function (AST/ALT within range)"
+        ],
+        "interventions": [
+          {
+            "action": "Review and update patient medication list before starting erythromycin",
+            "rationale": "Identify potential interactions that could cause toxicity."
+          },
+          {
+            "action": "Obtain and monitor liver function tests (AST, ALT) at initiation and during treatment",
+            "rationale": "Detect early hepatotoxicity."
+          },
+          {
+            "action": "Assess signs of toxicity (jaundice, abdominal pain, bleeding, arrhythmia)",
+            "rationale": "Allows early intervention for serious adverse effects."
+          },
+          {
+            "action": "Educate patient on importance of reporting any new or worsening symptoms",
+            "rationale": "Facilitates timely detection of adverse reactions."
+          },
+          {
+            "action": "Communicate any LFT or ECG changes to physician for possible dose adjustment or therapy change",
+            "rationale": "Prevents progression of hepatic damage or arrhythmias."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "statins",
+    "drug-interactions",
+    "cyp450-metabolism",
+    "liver-enzymes",
+    "qt-prolongation"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Statins (HMG-CoA Reductase Inhibitors) and PCSK9 Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/21-2-statins-hmg-coa-reductase-inhibitors-and-pcsk9-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Angiotensin-Converting Enzyme (ACE) Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/18-2-angiotensin-converting-enzyme-ace-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-20",
+  "factcheck": {
+    "checked": "2026-11-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 2,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 30
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "supported",
+        "quote": "Simvastatin and lovastatin have a high likelihood of interacting with many other drugs.",
+        "source": 0
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Report any symptoms of liver failure (rare) to their provider: yellowish skin or eyes, nausea, vomiting, upper right abdominal pain, general feeling of unwellness.",
+        "source": 0
+      }
+    }
+  }
+}

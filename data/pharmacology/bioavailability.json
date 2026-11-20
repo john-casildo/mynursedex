@@ -1,0 +1,296 @@
+{
+  "id": "bioavailability",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Biodisponibilidad",
+    "aliases": [
+      "biodisponibilidad",
+      "bioavailability",
+      "absorción",
+      "efecto de primer paso",
+      "disponibilidad",
+      "farmacocinética",
+      "absorción oral",
+      "administración oral",
+      "primer paso",
+      "disponibilidad sistémica"
+    ],
+    "summary": "Fracción del fármaco activo que llega a la circulación sistémica sin alterarse. Depende de la vía, formulación y metabolismo de primer paso.",
+    "key_points": [
+      "Varía según la vía: IV = 100 %, oral ≈ 30‑80 % según fármaco.",
+      "El efecto de primer paso hepático reduce la biodisponibilidad oral.",
+      "Factores como pH gástrico, unión a alimentos y formulación influyen.",
+      "Baja biodisponibilidad puede requerir dosis mayores o vía parenteral.",
+      "Monitorear respuesta clínica y niveles plasmáticos cuando sea posible."
+    ],
+    "sections": {
+      "mechanism": [
+        "Definición: fracción del fármaco que alcanza la circulación sin cambios.",
+        "La absorción depende de solubilidad, tamaño molecular y flujo sanguíneo.",
+        "El metabolismo de primer paso en hígado elimina parte del fármaco oral.",
+        "Formulaciones (tabletas, suspensión) pueden modificar la absorción.",
+        "Interacciones con alimentos o antiácidos pueden disminuir la absorción."
+      ],
+      "nursing_care": [
+        "Verificar la vía de administración y la formulación prescrita.",
+        "Evaluar signos de efecto terapéutico esperado y ajustar dosis si es necesario.",
+        "Controlar parámetros de laboratorio relevantes (p. ej., niveles de fármaco, electrolitos).",
+        "Observar signos de intolerancia gastrointestinal que puedan afectar la absorción.",
+        "Retener la dosis y notificar al médico si el paciente vomita dentro de 30 min."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento según indicaciones (con o sin alimentos) según la ficha del fármaco.",
+        "Evitar antiácidos o suplementos de calcio dentro de 2 h si interfieren con la absorción.",
+        "Informar al profesional si no percibe mejoría después del tiempo esperado.",
+        "No interrumpir el tratamiento sin consultar al médico."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "administración oral de diuréticos con baja biodisponibilidad",
+          "insuficiencia cardíaca",
+          "edema"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener variación ≤±250 mL/24 h.",
+          "Estado de hidratación: sin signos de deshidratación ni edema progresivo."
+        ],
+        "interventions": [
+          {
+            "action": "Revisar la vía y forma farmacéutica del diurético antes de administrar.",
+            "rationale": "Asegura que la biodisponibilidad sea adecuada para lograr el efecto diurético esperado."
+          },
+          {
+            "action": "Monitorear peso diario y registro de ingesta y salida de líquidos.",
+            "rationale": "Detecta cambios tempranos en el balance de líquidos."
+          },
+          {
+            "action": "Evaluar signos de hipovolemia (presión arterial, frecuencia cardíaca, mucosas).",
+            "rationale": "Identifica rápidamente déficit de volumen que requiera intervención."
+          },
+          {
+            "action": "Obtener y comparar niveles séricos de electrolitos según orden médica.",
+            "rationale": "Previene complicaciones electrolíticas por diuresis insuficiente o excesiva."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la adherencia y la toma correcta del diurético.",
+            "rationale": "Mejora la absorción y efectividad del tratamiento."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Bioavailability",
+    "aliases": [
+      "biodisponibilidad",
+      "bioavailability",
+      "absorción",
+      "efecto de primer paso",
+      "disponibilidad",
+      "farmacocinética",
+      "absorción oral",
+      "administración oral",
+      "primer paso",
+      "disponibilidad sistémica"
+    ],
+    "summary": "Fraction of the active drug that reaches systemic circulation unchanged. Depends on route, formulation, and first‑pass metabolism.",
+    "key_points": [
+      "Varies by route: IV = 100 %, oral ≈ 30‑80 % depending on drug.",
+      "Hepatic first‑pass effect reduces oral bioavailability.",
+      "Factors such as gastric pH, food binding, and formulation influence it.",
+      "Low bioavailability may require higher doses or parenteral route.",
+      "Monitor clinical response and plasma levels when possible."
+    ],
+    "sections": {
+      "mechanism": [
+        "Definition: fraction of drug that reaches circulation unchanged.",
+        "Absorption depends on solubility, molecular size, and blood flow.",
+        "First‑pass metabolism in the liver removes part of oral drug.",
+        "Formulations (tablets, suspension) can modify absorption.",
+        "Food or antacid interactions may decrease absorption."
+      ],
+      "nursing_care": [
+        "Verify the route of administration and prescribed formulation.",
+        "Assess signs of expected therapeutic effect and adjust dose if needed.",
+        "Monitor relevant lab parameters (e.g., drug levels, electrolytes).",
+        "Observe for GI intolerance that may affect absorption.",
+        "Withhold dose and notify provider if patient vomits within 30 min."
+      ],
+      "patient_teaching": [
+        "Take medication as directed (with or without food) per drug label.",
+        "Avoid antacids or calcium supplements within 2 h if they interfere with absorption.",
+        "Inform provider if no improvement after expected time.",
+        "Do not discontinue therapy without consulting provider."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "oral administration of diuretics with low bioavailability",
+          "heart failure",
+          "edema"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain variation ≤±250 mL/24 h.",
+          "Hydration status: no signs of dehydration or progressive edema."
+        ],
+        "interventions": [
+          {
+            "action": "Review the route and pharmaceutical form of the diuretic before administration.",
+            "rationale": "Ensures adequate bioavailability to achieve expected diuretic effect."
+          },
+          {
+            "action": "Monitor daily weight and record intake and output.",
+            "rationale": "Detects early changes in fluid balance."
+          },
+          {
+            "action": "Assess signs of hypovolemia (blood pressure, heart rate, mucous membranes).",
+            "rationale": "Rapidly identifies volume deficit requiring intervention."
+          },
+          {
+            "action": "Obtain and compare serum electrolyte levels as ordered.",
+            "rationale": "Prevents electrolyte complications from inadequate or excessive diuresis."
+          },
+          {
+            "action": "Educate patient on importance of adherence and correct diuretic intake.",
+            "rationale": "Improves absorption and effectiveness of treatment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "first-pass-metabolism",
+    "oral-absorption",
+    "pharmacokinetics",
+    "drug-efficacy",
+    "dose-adjustment"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Loop Diuretics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/34-2-loop-diuretics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-20",
+  "factcheck": {
+    "checked": "2026-11-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 12,
+      "contradicted": 0,
+      "total": 21
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Price and Patel (2022) define bioavailability “for majority purposes” as “the fraction of the active form of a drug that reaches system circulation unaltered.”",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "After absorption, oral drugs can also be metabolized in the liver before entering systemic circulation, a process called first-pass metabolism.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Monitoring liver enzymes and drug-level concentrations will help ensure that drug concentrations remain therapeutic (Herman & Santos, 2023).",
+        "source": 0
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "Price and Patel (2022) define bioavailability “for majority purposes” as “the fraction of the active form of a drug that reaches system circulation unaltered.”",
+        "source": 0
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "Lipid solubility: Lipid-soluble drugs are absorbed more quickly than water-soluble ones.",
+        "source": 0
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "After absorption, oral drugs can also be metabolized in the liver before entering systemic circulation, a process called first-pass metabolism.",
+        "source": 0
+      },
+      "sections.mechanism.3": {
+        "status": "supported",
+        "quote": "Formulation of the drug: Liquid formulations of oral medications are absorbed more rapidly than capsules or tablets.",
+        "source": 0
+      },
+      "sections.mechanism.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Monitoring liver enzymes and drug-level concentrations will help ensure that drug concentrations remain therapeutic (Herman & Santos, 2023).",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "The client taking a loop diuretic should not: Self-adjust a dose without consulting their health care provider.",
+        "source": 1
+      }
+    }
+  }
+}

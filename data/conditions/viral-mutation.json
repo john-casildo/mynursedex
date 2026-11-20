@@ -1,0 +1,310 @@
+{
+  "id": "viral-mutation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Mutación viral",
+    "aliases": [
+      "mutación viral",
+      "cambio genético virus",
+      "variantes virales",
+      "evolución viral",
+      "mutación del virus"
+    ],
+    "summary": "Alteración del material genético del virus que genera nuevas cepas con diferentes características de transmisión y patogenicidad.",
+    "key_points": [
+      "Las mutaciones pueden ser puntuales, deleciones o inserciones.",
+      "Pueden aumentar la transmisibilidad, virulencia o evadir la respuesta inmune.",
+      "Las vacunas pueden perder eficacia frente a variantes emergentes.",
+      "La vigilancia genómica permite identificar y controlar brotes."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Errores en la replicación del ARN o ADN viral generan cambios en la secuencia genética.",
+        "Los cambios pueden alterar proteínas de superficie (p. ej., espiga) que median la unión celular.",
+        "Las variantes con ventaja selectiva se propagan y reemplazan a cepas menos adaptadas."
+      ],
+      "risk_factors": [
+        "Alta tasa de replicación viral (ej. VIH, SARS‑CoV‑2).",
+        "Inmunosupresión del huésped que permite replicación prolongada.",
+        "Uso inadecuado de antivirales que favorece resistencia.",
+        "Viajes internacionales y contacto con poblaciones infectadas."
+      ],
+      "signs_symptoms": [
+        "Los síntomas dependen de la enfermedad subyacente (fiebre, tos, exantema, etc.).",
+        "Variantes pueden presentar mayor gravedad o síntomas atípicos.",
+        "Fiebre persistente y deterioro rápido pueden indicar una cepa más virulenta."
+      ],
+      "diagnostics": [
+        "PCR de tiempo real para detección del virus.",
+        "Secuenciación genómica completa o parcial para identificar mutaciones.",
+        "Resultado esperado: identificación de cambios en genes clave (p. ej., S del SARS‑CoV‑2)."
+      ],
+      "treatment": [
+        "Antivirales específicos según la cepa (p. ej., oseltamivir, remdesivir).",
+        "Terapia de anticuerpos monoclonales cuando la variante es sensible.",
+        "Actualización de vacunas según la cepa dominante.",
+        "Soporte sintomático: hidratación, antitérmicos, oxigenoterapia si es necesario."
+      ],
+      "complications": [
+        "Brotes epidémicos con alta tasa de contagio.",
+        "Resistencia a antivirales y fracaso de vacunas.",
+        "Mayor mortalidad en poblaciones vulnerables.",
+        "Sobrecarga del sistema de salud."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 4 h, prestar especial atención a temperatura y saturación.",
+        "Aplicar aislamiento de contacto y/o respiratorio según protocolos institucionales.",
+        "Registrar resultados de pruebas de laboratorio y notificar cambios al médico.",
+        "Mantener hidratación oral o intravenosa según necesidad."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la vacunación y refuerzos según la variante circulante.",
+        "Enseñar medidas de higiene: lavado de manos, uso correcto de mascarilla.",
+        "Informar sobre signos de alarma que requieren atención inmediata (fiebre >38 °C >48 h, dificultad respiratoria).",
+        "Fomentar adherencia al tratamiento antiviral y a las citas de seguimiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "mutación viral que genera cepas más virulentas",
+          "exposición a pacientes infectados",
+          "sistema inmunológico comprometido"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener la integridad de piel y mucosas sin signos de infección",
+          "Temperatura corporal dentro de 36.5‑37.5 °C"
+        ],
+        "interventions": [
+          {
+            "action": "Implementar aislamiento estándar y de transmisión aérea según la vía de transmisión del virus",
+            "rationale": "Reduce la exposición a patógenos y previene la propagación."
+          },
+          {
+            "action": "Realizar higiene de manos antes y después de cada contacto con el paciente",
+            "rationale": "Elimina microorganismos y disminuye la transmisión cruzada."
+          },
+          {
+            "action": "Monitorear signos vitales y observar cualquier erupción o secreción",
+            "rationale": "Detecta tempranamente la aparición de infección."
+          },
+          {
+            "action": "Administrar profilaxis antiviral si está indicada por el médico",
+            "rationale": "Previene la infección en pacientes de alto riesgo."
+          },
+          {
+            "action": "Educar al paciente y familia sobre uso correcto de mascarilla y distanciamiento",
+            "rationale": "Fomenta conductas que disminuyen la exposición."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de la temperatura corporal",
+        "type": "risk",
+        "related_to": [
+          "respuesta inflamatoria a infección viral mutada",
+          "fiebre prolongada por cepa virulenta"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Temperatura estable dentro del rango normal durante la hospitalización",
+          "Ausencia de escalofríos o hipertermia sostenida"
+        ],
+        "interventions": [
+          {
+            "action": "Medir temperatura cada 4 h y registrar en la hoja de observación",
+            "rationale": "Permite detectar rápidamente cambios térmicos."
+          },
+          {
+            "action": "Aplicar medidas físicas de enfriamiento (paños fríos, ventilador) cuando la temperatura >38 °C",
+            "rationale": "Reduce la hipertermia y el consumo de oxígeno."
+          },
+          {
+            "action": "Ofrecer líquidos claros en abundancia para evitar deshidratación",
+            "rationale": "Mantiene la termorregulación y previene el déficit de volumen."
+          },
+          {
+            "action": "Evaluar la necesidad de antipiréticos (paracetamol) según prescripción",
+            "rationale": "Controla la fiebre y alivia el malestar."
+          },
+          {
+            "action": "Educar al paciente sobre signos de fiebre alta y cuándo buscar ayuda",
+            "rationale": "Promueve la autogestión y la detección precoz."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Viral mutation",
+    "aliases": [
+      "viral mutation",
+      "genetic change virus",
+      "viral variants",
+      "viral evolution",
+      "virus mutation"
+    ],
+    "summary": "Alteration of the virus's genetic material that generates new strains with different transmission and pathogenicity characteristics.",
+    "key_points": [
+      "Mutations can be point mutations, deletions or insertions.",
+      "They can increase transmissibility, virulence or evade the immune response.",
+      "Vaccines may lose effectiveness against emerging variants.",
+      "Genomic surveillance allows identification and control of outbreaks."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Errors in viral RNA or DNA replication generate changes in the genetic sequence.",
+        "Changes can alter surface proteins (e.g., spike) that mediate cell binding.",
+        "Variants with a selective advantage spread and replace less adapted strains."
+      ],
+      "risk_factors": [
+        "High viral replication rate (e.g., HIV, SARS‑CoV‑2).",
+        "Host immunosuppression allowing prolonged replication.",
+        "Inappropriate antiviral use that favors resistance.",
+        "International travel and contact with infected populations."
+      ],
+      "signs_symptoms": [
+        "Symptoms depend on the underlying disease (fever, cough, rash, etc.).",
+        "Variants may present greater severity or atypical symptoms.",
+        "Persistent fever and rapid deterioration may indicate a more virulent strain."
+      ],
+      "diagnostics": [
+        "Real‑time PCR for virus detection.",
+        "Full or partial genomic sequencing to identify mutations.",
+        "Expected result: identification of changes in key genes (e.g., S of SARS‑CoV‑2)."
+      ],
+      "treatment": [
+        "Specific antivirals per strain (e.g., oseltamivir, remdesivir).",
+        "Monoclonal antibody therapy when the variant is susceptible.",
+        "Update vaccines according to the dominant strain.",
+        "Supportive care: hydration, antipyretics, oxygen therapy if needed."
+      ],
+      "complications": [
+        "Epidemic outbreaks with high contagion rates.",
+        "Antiviral resistance and vaccine failure.",
+        "Higher mortality in vulnerable populations.",
+        "Health system overload."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 4 h, paying special attention to temperature and saturation.",
+        "Apply contact and/or airborne isolation per institutional protocols.",
+        "Record laboratory results and notify the physician of changes.",
+        "Maintain oral or IV hydration as needed."
+      ],
+      "patient_teaching": [
+        "Explain the importance of vaccination and boosters according to the circulating variant.",
+        "Teach hygiene measures: hand washing, correct mask use.",
+        "Inform about warning signs that require immediate attention (fever >38 °C >48 h, respiratory distress).",
+        "Encourage adherence to antiviral treatment and follow‑up appointments."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "viral mutation that generates more virulent strains",
+          "exposure to infected patients",
+          "compromised immune system"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain skin and mucous membrane integrity without signs of infection",
+          "Body temperature within 36.5‑37.5 °C"
+        ],
+        "interventions": [
+          {
+            "action": "Implement standard and airborne transmission isolation as per the virus transmission route",
+            "rationale": "Reduces exposure to pathogens and prevents spread."
+          },
+          {
+            "action": "Perform hand hygiene before and after each patient contact",
+            "rationale": "Eliminates microorganisms and reduces cross‑transmission."
+          },
+          {
+            "action": "Monitor vital signs and observe any rash or discharge",
+            "rationale": "Detects early onset of infection."
+          },
+          {
+            "action": "Administer antiviral prophylaxis if indicated by the physician",
+            "rationale": "Prevents infection in high‑risk patients."
+          },
+          {
+            "action": "Educate patient and family on correct mask use and distancing",
+            "rationale": "Promotes behaviors that reduce exposure."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced body temperature",
+        "type": "risk",
+        "related_to": [
+          "inflammatory response to mutated viral infection",
+          "prolonged fever from virulent strain"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Stable temperature within normal range during hospitalization",
+          "Absence of chills or sustained hyperthermia"
+        ],
+        "interventions": [
+          {
+            "action": "Measure temperature every 4 h and record on the observation sheet",
+            "rationale": "Allows rapid detection of thermal changes."
+          },
+          {
+            "action": "Apply physical cooling measures (cool towels, fan) when temperature >38 °C",
+            "rationale": "Reduces hyperthermia and oxygen consumption."
+          },
+          {
+            "action": "Offer clear fluids in abundance to prevent dehydration",
+            "rationale": "Maintains thermoregulation and prevents volume deficit."
+          },
+          {
+            "action": "Assess need for antipyretics (acetaminophen) per prescription",
+            "rationale": "Controls fever and relieves discomfort."
+          },
+          {
+            "action": "Educate patient on high fever signs and when to seek help",
+            "rationale": "Promotes self‑management and early detection."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "viral-evolution",
+    "antiviral-resistance",
+    "epidemiology",
+    "immune-escape"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Viral and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-2-viral-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to HIV, AIDS, and Antiretrovirals",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-3-introduction-to-hiv-aids-and-antiretrovirals",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-20"
+}

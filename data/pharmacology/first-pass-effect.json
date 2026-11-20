@@ -1,0 +1,270 @@
+{
+  "id": "first-pass-effect",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Efecto de primer paso",
+    "aliases": [
+      "primer paso",
+      "first pass",
+      "efecto de primer paso",
+      "metabolismo hepático",
+      "bioavailability"
+    ],
+    "summary": "Fenómeno en el que el fármaco administrado por vía oral es metabolizado en el hígado antes de alcanzar la circulación sistémica, reduciendo su biodisponibilidad.",
+    "key_points": [
+      "Reduce la fracción de fármaco activo que llega a la sangre.",
+      "Varía según la vía de administración y la función hepática.",
+      "Influye en la dosificación y la eficacia clínica.",
+      "Puede ser evitado con formulaciones sublinguales o parenterales."
+    ],
+    "sections": {
+      "mechanism": [
+        "El fármaco absorbido del tracto gastrointestinal pasa al hígado a través de la vena porta.",
+        "Enzimáticamente, el hígado transforma parte del fármaco en metabolitos inactivos.",
+        "Solo la fracción no metabolizada entra a la circulación sistémica (bioavailability).",
+        "Factores como edad, enfermedad hepática y consumo de alcohol modifican la magnitud del efecto."
+      ],
+      "nursing_care": [
+        "Evaluar función hepática (AST, ALT, bilirrubina) antes de iniciar fármacos con alto efecto de primer paso.",
+        "Monitorear niveles plasmáticos del fármaco cuando estén disponibles.",
+        "Ajustar la dosis si la prueba de función hepática está alterada.",
+        "Retener la medicación y notificar al médico si aparecen signos de toxicidad hepática.",
+        "Preferir vías alternativas (sublingual, transdérmica) si el paciente tiene insuficiencia hepática."
+      ],
+      "patient_teaching": [
+        "Explicar que la absorción oral puede ser menor por el efecto de primer paso.",
+        "Indicar la importancia de no omitir dosis y de seguir la vía de administración prescrita.",
+        "Advertir sobre el consumo de alcohol o alimentos grasos que pueden alterar la metabolización.",
+        "Informar que algunos medicamentos pueden requerir toma con alimentos para reducir el efecto de primer paso."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "administración oral de fármacos",
+          "función hepática alterada",
+          "interacciones con alcohol",
+          "uso de inhibidores enzimáticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Nivel terapéutico del fármaco dentro del rango esperado",
+          "Seguridad del paciente sin signos de toxicidad"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar pruebas de función hepática antes de iniciar la terapia.",
+            "rationale": "Detectar alteraciones que puedan aumentar la exposición al fármaco."
+          },
+          {
+            "action": "Monitorear niveles séricos del fármaco cuando estén indicados.",
+            "rationale": "Asegurar que la concentración permanezca dentro del rango terapéutico."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la vía de administración prescrita y evitar automedicación.",
+            "rationale": "Reducir la variabilidad en la absorción y metabolismo del fármaco."
+          },
+          {
+            "action": "Evaluar signos de toxicidad (náuseas, ictericia, alteración del estado mental) cada turno.",
+            "rationale": "Detectar precozmente una posible sobredosis o acumulación."
+          },
+          {
+            "action": "Comunicar al médico cualquier alteración en pruebas hepáticas o aparición de efectos adversos.",
+            "rationale": "Permitir ajuste de dosis o cambio de vía de administración."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "First-pass effect",
+    "aliases": [
+      "first pass",
+      "first-pass effect",
+      "metabolism hepatic",
+      "bioavailability"
+    ],
+    "summary": "Phenomenon in which an orally administered drug is metabolized in the liver before reaching systemic circulation, reducing its bioavailability.",
+    "key_points": [
+      "Reduces the fraction of active drug that reaches the bloodstream.",
+      "Varies according to route of administration and liver function.",
+      "Influences dosing and clinical efficacy.",
+      "Can be avoided with sublingual or parenteral formulations."
+    ],
+    "sections": {
+      "mechanism": [
+        "The drug absorbed from the gastrointestinal tract passes to the liver via the portal vein.",
+        "Enzymatically, the liver converts part of the drug into inactive metabolites.",
+        "Only the unmetabolized fraction enters systemic circulation (bioavailability).",
+        "Factors such as age, liver disease, and alcohol consumption modify the magnitude of the effect."
+      ],
+      "nursing_care": [
+        "Assess liver function (AST, ALT, bilirubin) before starting drugs with high first-pass effect.",
+        "Monitor plasma drug levels when available.",
+        "Adjust the dose if liver function tests are altered.",
+        "Hold medication and notify the physician if signs of hepatic toxicity appear.",
+        "Prefer alternative routes (sublingual, transdermal) if the patient has liver insufficiency."
+      ],
+      "patient_teaching": [
+        "Explain that oral absorption may be lower due to the first-pass effect.",
+        "Emphasize the importance of not skipping doses and following the prescribed route of administration.",
+        "Warn about alcohol or high-fat foods that can alter metabolism.",
+        "Inform that some medications may need to be taken with food to reduce the first-pass effect."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "oral drug administration",
+          "altered liver function",
+          "interactions with alcohol",
+          "use of enzyme inhibitors"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Therapeutic drug level within expected range",
+          "Patient safety without signs of toxicity"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record liver function tests before initiating therapy.",
+            "rationale": "Detect alterations that may increase drug exposure."
+          },
+          {
+            "action": "Monitor serum drug levels when indicated.",
+            "rationale": "Ensure concentration remains within therapeutic range."
+          },
+          {
+            "action": "Educate the patient on the importance of the prescribed route of administration and avoid self-medication.",
+            "rationale": "Reduce variability in absorption and drug metabolism."
+          },
+          {
+            "action": "Assess for signs of toxicity (nausea, jaundice, altered mental status) each shift.",
+            "rationale": "Detect early a possible overdose or accumulation."
+          },
+          {
+            "action": "Communicate to the physician any changes in liver tests or appearance of adverse effects.",
+            "rationale": "Allow dose adjustment or change of route of administration."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "first-pass-metabolism",
+    "bioavailability",
+    "hepatic-metabolism",
+    "pharmacokinetics"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: First Prenatal Visit",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/11-1-first-prenatal-visit",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-20",
+  "factcheck": {
+    "checked": "2026-11-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 10,
+      "contradicted": 0,
+      "total": 18
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "After absorption, oral drugs can also be metabolized in the liver before entering systemic circulation, a process called first-pass metabolism.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "This can decrease the bioavailability of a drug."
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "supported",
+        "quote": "The medication is absorbed by the intestinal mucosa, and it travels across the membranes into the portal vein.",
+        "source": 1
+      },
+      "sections.mechanism.1": {
+        "status": "supported",
+        "quote": "During the first pass through the liver via the portal circulation, the drug is metabolized into active and inactive metabolites.",
+        "source": 1
+      },
+      "sections.mechanism.2": {
+        "status": "supported",
+        "quote": "Price and Patel (2022) define bioavailability “for majority purposes” as “the fraction of the active form of a drug that reaches system circulation unaltered.”",
+        "source": 1
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Monitoring liver enzymes and drug-level concentrations will help ensure that drug concentrations remain therapeutic (Herman & Santos, 2023).",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Drug concentrations can also accumulate if drug-metabolizing organs are not functioning properly and the dose is not adjusted accordingly.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "After absorption, oral drugs can also be metabolized in the liver before entering systemic circulation, a process called first-pass metabolism.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

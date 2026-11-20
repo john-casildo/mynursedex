@@ -1,0 +1,258 @@
+{
+  "id": "cyp450-metabolism",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Metabolismo del CYP450",
+    "aliases": [
+      "cyp450",
+      "enzimas hepáticas",
+      "metabolismo",
+      "interacciones",
+      "primer paso"
+    ],
+    "summary": "El sistema del citocromo P450 (CYP450) es el principal responsable de la biotransformación de fármacos en fase I, modificando su estructura para facilitar la eliminación.",
+    "key_points": [
+      "Los enzimas CYP450 se encuentran principalmente en el hígado y en menor medida en intestino.",
+      "La actividad del CYP450 determina la biodisponibilidad y la duración del efecto de muchos fármacos.",
+      "Inhibidores del CYP450 aumentan niveles plasmáticos y riesgo de toxicidad; inductores los reducen y pueden provocar falla terapéutica.",
+      "Variaciones genéticas (fenotipos *1, *2, *3, etc.) explican diferencias interindividuales en la respuesta a los fármacos."
+    ],
+    "sections": {
+      "mechanism": [
+        "Oxidan o reducen fármacos mediante reacciones de fase I (hidroxilación, desmetilación).",
+        "Utilizan NADPH y oxígeno como cofactores para añadir grupos hidroxilo.",
+        "Transforman compuestos lipofílicos en más hidrofílicos, facilitando su excreción renal o biliar."
+      ],
+      "interactions": [
+        "Inhibidores (ej. eritromicina, ketoconazol) aumentan concentración de sustratos del CYP450.",
+        "Inductores (ej. rifampicina, carbamazepina) disminuyen concentración de sustratos del CYP450.",
+        "Competencia por la misma isoenzima puede producir interacciones clínicas significativas."
+      ],
+      "nursing_care": [
+        "Revisar la lista de medicamentos para identificar posibles inhibidores o inductores del CYP450.",
+        "Monitorear niveles séricos o efectos clínicos cuando se inicien o cambien fármacos metabolizados por CYP450.",
+        "Notificar al médico si aparecen signos de toxicidad o falta de respuesta terapéutica.",
+        "Documentar cualquier reacción adversa sospechada de interacción metabólica."
+      ],
+      "patient_teaching": [
+        "Informar que algunos alimentos (ej. pomelo) pueden inhibir el CYP450 y alterar la acción del medicamento.",
+        "Recomendar no iniciar nuevos fármacos sin consultar al profesional de salud.",
+        "Explicar la importancia de reportar efectos inesperados o cambios en la salud."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "Uso de múltiples fármacos",
+          "Enfermedad hepática",
+          "Variabilidad genética del CYP450"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Conocimiento de interacciones farmacológicas: 100% del paciente identifica al menos 2 interacciones potenciales.",
+          "Seguridad del paciente: No se presentan eventos adversos por interacciones durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Revisar la historia de medicamentos y suplementos del paciente.",
+            "rationale": "Detectar posibles inhibidores o inductores del CYP450 antes de iniciar terapia."
+          },
+          {
+            "action": "Obtener y registrar niveles séricos de fármacos críticos cuando se indique.",
+            "rationale": "Permite ajustar dosis y prevenir toxicidad o ineficacia."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos y suplementos que pueden afectar el CYP450.",
+            "rationale": "Reduce el riesgo de interacciones no deseadas en el entorno domiciliario."
+          },
+          {
+            "action": "Monitorear signos de toxicidad (náuseas, somnolencia, alteraciones hepáticas).",
+            "rationale": "Identificar precozmente reacciones adversas relacionadas con metabolismo alterado."
+          },
+          {
+            "action": "Comunicar al equipo de salud cualquier cambio en la terapia que implique enzimas CYP450.",
+            "rationale": "Facilita la coordinación y ajustes de dosis oportunos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "CYP450 Metabolism",
+    "aliases": [
+      "cyp450",
+      "liver enzymes",
+      "metabolism",
+      "interactions",
+      "first step"
+    ],
+    "summary": "The cytochrome P450 (CYP450) system is the primary enzyme system responsible for phase I drug biotransformation, modifying drug structures to facilitate elimination.",
+    "key_points": [
+      "CYP450 enzymes are mainly located in the liver and to a lesser extent in the intestine.",
+      "CYP450 activity determines the bioavailability and duration of effect of many drugs.",
+      "CYP450 inhibitors increase plasma levels and risk of toxicity; inducers reduce levels and can cause therapeutic failure.",
+      "Genetic variations (phenotypes *1, *2, *3, etc.) explain interindividual differences in drug response."
+    ],
+    "sections": {
+      "mechanism": [
+        "Oxidize or reduce drugs via phase I reactions (hydroxylation, demethylation).",
+        "Use NADPH and oxygen as cofactors to add hydroxyl groups.",
+        "Convert lipophilic compounds into more hydrophilic forms, facilitating renal or biliary excretion."
+      ],
+      "interactions": [
+        "Inhibitors (e.g., erythromycin, ketoconazole) increase concentrations of CYP450 substrates.",
+        "Inducers (e.g., rifampin, carbamazepine) decrease concentrations of CYP450 substrates.",
+        "Competition for the same isoenzyme can produce clinically significant interactions."
+      ],
+      "nursing_care": [
+        "Review the medication list to identify potential CYP450 inhibitors or inducers.",
+        "Monitor serum levels or clinical effects when initiating or changing CYP450-metabolized drugs.",
+        "Notify the physician if signs of toxicity or lack of therapeutic response appear.",
+        "Document any adverse reaction suspected to be a metabolic interaction."
+      ],
+      "patient_teaching": [
+        "Inform that certain foods (e.g., grapefruit) can inhibit CYP450 and alter drug action.",
+        "Recommend not starting new medications without consulting a health professional.",
+        "Explain the importance of reporting unexpected effects or changes in health."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "Use of multiple medications",
+          "Liver disease",
+          "Genetic variability of CYP450"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Knowledge of pharmacologic interactions: 100% of patients identify at least 2 potential interactions.",
+          "Patient safety: No adverse events from interactions occur during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Review the patient’s medication and supplement history.",
+            "rationale": "Detect potential CYP450 inhibitors or inducers before starting therapy."
+          },
+          {
+            "action": "Obtain and record serum levels of critical drugs when indicated.",
+            "rationale": "Allows dose adjustment and prevention of toxicity or inefficacy."
+          },
+          {
+            "action": "Educate the patient about foods and supplements that may affect CYP450.",
+            "rationale": "Reduces the risk of unwanted interactions in the home setting."
+          },
+          {
+            "action": "Monitor signs of toxicity (nausea, drowsiness, hepatic changes).",
+            "rationale": "Identify early adverse reactions related to altered metabolism."
+          },
+          {
+            "action": "Communicate any therapy changes involving CYP450 enzymes to the health team.",
+            "rationale": "Facilitates coordination and timely dose adjustments."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "drug-interactions",
+    "first-pass-metabolism",
+    "enzyme-induction",
+    "pharmacogenomics"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Pharmacokinetics and Pharmacodynamics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/2-2-pharmacokinetics-and-pharmacodynamics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Weight Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/32-1-introduction-to-weight-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-20",
+  "factcheck": {
+    "checked": "2026-11-20",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 18,
+      "contradicted": 0,
+      "total": 18
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}
