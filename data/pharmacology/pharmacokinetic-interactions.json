@@ -1,0 +1,379 @@
+{
+  "id": "pharmacokinetic-interactions",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Ácido acetilsalicílico (AAS)",
+    "aliases": [
+      "aspirina",
+      "acido acetilsalicilico",
+      "asa",
+      "salicilato",
+      "acetilsalicilico",
+      "dolor",
+      "antiinflamatorio"
+    ],
+    "summary": "El ácido acetilsalicílico es un AINE que inhibe irreversible la agregación plaquetaria y alivia dolor leve a moderado.",
+    "key_points": [
+      "Inhibe la ciclooxigenasa-1 de forma irreversible en plaquetas.",
+      "Se usa para dolor leve, fiebre y prevención de eventos trombóticos.",
+      "Interacciones importantes con anticoagulantes, corticoides y alcohol.",
+      "Principal efecto adverso es el riesgo de sangrado gastrointestinal.",
+      "No se recomienda en pacientes con úlcera péptica activa.",
+      "Se absorbe rápidamente por vía oral; la vida media es de 15‑20 min."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea irreversiblemente la COX‑1 en plaquetas, impidiendo la síntesis de tromboxano A2.",
+        "Reduce la producción de prostaglandinas, disminuyendo inflamación y dolor.",
+        "Inhibe la agregación plaquetaria durante la vida de la plaqueta (7‑10 días)."
+      ],
+      "indications": [
+        "Dolor leve a moderado (cefalea, dolor dental, mialgia).",
+        "Fiebre.",
+        "Prevención secundaria de infarto agudo de miocardio y accidente cerebrovascular isquémico.",
+        "Profilaxis de trombosis en pacientes de alto riesgo."
+      ],
+      "contraindications": [
+        "Hipersensibilidad al AINE o al AAS.",
+        "Úlcera péptica activa o sangrado gastrointestinal.",
+        "Enfermedad hepática o renal grave.",
+        "Uso concomitante de anticoagulantes con alto riesgo de sangrado."
+      ],
+      "adverse_effects": [
+        "Dispepsia, náuseas, dolor epigástrico (común).",
+        "Hemorragia gastrointestinal (grave).",
+        "Trombocitopenia por reacción inmunológica (grave).",
+        "Reacciones alérgicas: urticaria, broncoespasmo (grave)."
+      ],
+      "interactions": [
+        "Aumenta el efecto de anticoagulantes (warfarina, heparina) → mayor riesgo de sangrado.",
+        "Potencia el efecto de corticoides y otros AINEs → irritación gástrica.",
+        "Alcohol potencia la irritación gástrica y el riesgo de sangrado.",
+        "Puede reducir la eficacia de antihipertensivos (IECA, diuréticos) por retención de sodio."
+      ],
+      "nursing_care": [
+        "Evaluar antecedentes de úlcera, sangrado y uso de anticoagulantes antes de administrar.",
+        "Monitorizar hemoglobina, hematocrito y signos de sangrado (hematomas, melena).",
+        "Retener la dosis si el paciente presenta epistaxis o sangrado gastrointestinal activo y notificar al médico.",
+        "Administrar con alimentos o antiácidos si hay irritación gástrica leve.",
+        "Documentar hora de administración y respuesta al alivio del dolor."
+      ],
+      "patient_teaching": [
+        "Tomar la aspirina con alimentos o un vaso de leche para minimizar irritación gástrica.",
+        "Evitar el consumo de alcohol mientras esté en tratamiento.",
+        "Reportar cualquier sangrado inusual, hematomas o heces negras.",
+        "No combinar con otros AINEs sin indicación médica.",
+        "Informar al médico antes de iniciar suplementos de vitamina K o hierbas que afecten la coagulación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso concomitante de anticoagulantes",
+          "úlcera péptica activa",
+          "edad avanzada",
+          "dosis alta de AAS"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin episodios de sangrado gastrointestinal durante la hospitalización",
+          "Hemoglobina estable dentro de rango normal (≥12 g/dL) en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar historial de sangrado y uso de anticoagulantes antes de administrar AAS.",
+            "rationale": "Identifica factores de riesgo que aumentan la probabilidad de hemorragia."
+          },
+          {
+            "action": "Monitorear hemograma completo cada 24 h y signos de sangrado activo.",
+            "rationale": "Detecta precozmente hemorragias y permite intervención oportuna."
+          },
+          {
+            "action": "Administrar AAS con alimentos o antiácidos si hay irritación gástrica.",
+            "rationale": "Reduce la irritación de la mucosa y el riesgo de sangrado."
+          },
+          {
+            "action": "Educar al paciente sobre signos de sangrado y cuándo notificar al personal de salud.",
+            "rationale": "Facilita la detección temprana de complicaciones."
+          },
+          {
+            "action": "Coordinar con el médico la posible sustitución por otro antiagregante si el riesgo es alto.",
+            "rationale": "Previene eventos hemorrágicos graves."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acetylsalicylic Acid (ASA)",
+    "aliases": [
+      "aspirin",
+      "acetylsalicylic acid",
+      "asa",
+      "salicylate",
+      "acetylsalicylate",
+      "pain",
+      "anti-inflammatory"
+    ],
+    "summary": "Acetylsalicylic acid is a NSAID that irreversibly inhibits platelet aggregation and relieves mild to moderate pain.",
+    "key_points": [
+      "Irreversibly inhibits COX‑1 in platelets.",
+      "Used for mild pain, fever, and prevention of thrombotic events.",
+      "Important interactions with anticoagulants, corticosteroids, and alcohol.",
+      "Primary adverse effect is gastrointestinal bleeding risk.",
+      "Not recommended in patients with active peptic ulcer.",
+      "Rapidly absorbed orally; half‑life 15‑20 min."
+    ],
+    "sections": {
+      "mechanism": [
+        "Blocks COX‑1 irreversibly in platelets, preventing thromboxane A2 synthesis.",
+        "Reduces prostaglandin production, decreasing inflammation and pain.",
+        "Inhibits platelet aggregation for the life of the platelet (7‑10 days)."
+      ],
+      "indications": [
+        "Mild to moderate pain (headache, dental pain, myalgia).",
+        "Fever.",
+        "Secondary prevention of acute myocardial infarction and ischemic stroke.",
+        "Prophylaxis of thrombosis in high‑risk patients."
+      ],
+      "contraindications": [
+        "Hypersensitivity to NSAIDs or ASA.",
+        "Active peptic ulcer or gastrointestinal bleeding.",
+        "Severe hepatic or renal disease.",
+        "Concurrent use of anticoagulants with high bleeding risk."
+      ],
+      "adverse_effects": [
+        "Dyspepsia, nausea, epigastric pain (common).",
+        "Gastrointestinal hemorrhage (serious).",
+        "Immune‑mediated thrombocytopenia (serious).",
+        "Allergic reactions: urticaria, bronchospasm (serious)."
+      ],
+      "interactions": [
+        "Increases effect of anticoagulants (warfarin, heparin) → higher bleeding risk.",
+        "Potentiates effect of corticosteroids and other NSAIDs → gastric irritation.",
+        "Alcohol enhances gastric irritation and bleeding risk.",
+        "May reduce efficacy of antihypertensives (ACE inhibitors, diuretics) due to sodium retention."
+      ],
+      "nursing_care": [
+        "Assess history of ulcer, bleeding, and anticoagulant use before administration.",
+        "Monitor hemoglobin, hematocrit, and signs of bleeding (bruising, melena).",
+        "Hold dose if patient has epistaxis or active gastrointestinal bleeding and notify provider.",
+        "Administer with food or antacids if mild gastric irritation present.",
+        "Document time of administration and pain relief response."
+      ],
+      "patient_teaching": [
+        "Take aspirin with food or a glass of milk to minimize gastric irritation.",
+        "Avoid alcohol while on treatment.",
+        "Report any unusual bleeding, bruising, or black stools.",
+        "Do not combine with other NSAIDs without medical indication.",
+        "Inform provider before starting vitamin K supplements or herbs that affect coagulation."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "concurrent anticoagulant use",
+          "active peptic ulcer",
+          "advanced age",
+          "high ASA dose"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No episodes of gastrointestinal bleeding during hospitalization",
+          "Hemoglobin remains within normal range (≥12 g/dL) within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Assess bleeding history and anticoagulant use before administering ASA.",
+            "rationale": "Identifies risk factors that increase hemorrhage probability."
+          },
+          {
+            "action": "Monitor complete blood count every 24 h and signs of active bleeding.",
+            "rationale": "Detects early hemorrhage and allows timely intervention."
+          },
+          {
+            "action": "Administer ASA with food or antacids if gastric irritation present.",
+            "rationale": "Reduces mucosal irritation and bleeding risk."
+          },
+          {
+            "action": "Educate patient on bleeding signs and when to notify health staff.",
+            "rationale": "Facilitates early detection of complications."
+          },
+          {
+            "action": "Coordinate with provider for possible substitution with another antiplatelet if risk is high.",
+            "rationale": "Prevents serious hemorrhagic events."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "bleeding",
+    "platelet-inhibition",
+    "nsaids",
+    "gastric-ulcer",
+    "anticoagulant-therapy"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Cardiac Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/22-2-cardiac-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Epilepsy and Anticonvulsant Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-21",
+  "factcheck": {
+    "checked": "2026-11-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 30,
+      "contradicted": 0,
+      "total": 36
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Aspirin irreversibly binds to receptors on platelets, which prevents them from sticking to other platelets.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Aspirin can cause gastritis and bleeding in the stomach, other parts of the gastrointestinal tract, brain, and spinal cord.",
+        "source": 0
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Indications Mild pain Platelet inhibition in suspected AMI or unstable angina",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "Contraindications to aspirin are allergy to nonsteroidal anti-inflammatory drugs (NSAIDs), asthma, hemophilia, and other blood clotting disorders.",
+        "source": 0
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "The risk of serious bleeding in the stomach, gastrointestinal tract, brain, and spinal cord is increased with aspirin and other NSAIDs .",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "supported",
+        "quote": "Food Interactions Alcohol Tobacco Adverse Effects Gastrointestinal upset/gastritis Gastrointestinal bleeding",
+        "source": 0
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,499 @@
+{
+  "id": "postoperative-complications",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Complicaciones postoperatorias",
+    "aliases": [
+      "complicaciones",
+      "postoperatorias",
+      "postoperatorio",
+      "cirugía",
+      "recuperación"
+    ],
+    "summary": "Eventos inesperados que ocurren después de una intervención quirúrgica y pueden afectar la recuperación del paciente.",
+    "key_points": [
+      "Las complicaciones pueden ser locales (herida) o sistémicas (hemorragia, infección).",
+      "La vigilancia temprana de signos vitales es esencial.",
+      "Factores de riesgo incluyen comorbilidades y tipo de cirugía.",
+      "Prevención mediante asepsia, manejo del dolor y movilización temprana.",
+      "Intervenciones de enfermería deben ser individualizadas y documentadas."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El trauma quirúrgico desencadena respuesta inflamatoria y liberación de mediadores vasoactivos.",
+        "Alteraciones hemodinámicas pueden producir hipoperfusión y edema tisular.",
+        "La exposición a microorganismos y la pérdida de barrera cutánea favorecen infección."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus, inmunosupresión y tabaquismo.",
+        "Cirugías largas, gran pérdida sanguínea o uso de dispositivos invasivos.",
+        "Mala nutrición y obesidad.",
+        "Edad avanzada y comorbilidades cardiovasculares."
+      ],
+      "signs_symptoms": [
+        "Fiebre >38 °C, escalofríos y sudoración.",
+        "Dolor creciente en el sitio quirúrgico, enrojecimiento o secreción purulenta.",
+        "Hipotensión, taquicardia y signos de shock hemorrágico.",
+        "Náuseas, vómitos y distensión abdominal."
+      ],
+      "diagnostics": [
+        "Hemograma completo: leucocitosis >12 000 mm³ sugiere infección.",
+        "Cultivo de exudado de herida para identificar patógenos.",
+        "Ecografía o TAC para detectar colecciones o hemorragia interna.",
+        "Monitoreo de presión arterial, frecuencia cardíaca y saturación de O₂."
+      ],
+      "treatment": [
+        "Antibióticos de amplio espectro según cultivo y guías locales.",
+        "Reposición de volumen con cristaloides o coloides según pérdida sanguínea.",
+        "Control del dolor con analgésicos opioides o no opioides.",
+        "Drenaje quirúrgico o evacuación de hematomas cuando sea necesario."
+      ],
+      "complications": [
+        "Infección del sitio quirúrgico.",
+        "Hemorragia postoperatoria.",
+        "Trombosis venosa profunda y embolia pulmonar.",
+        "Dehiscencia de la herida.",
+        "Síndrome de respuesta inflamatoria sistémica."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 15‑30 min en PACU y cada 4 h después.",
+        "Inspeccionar la herida: color, edema, drenaje y dolor a la palpación.",
+        "Mantener el catéter de drenaje en posición adecuada y registrar salida.",
+        "Administrar analgésicos según prescripción y evaluar alivio del dolor.",
+        "Promover movilización temprana y ejercicios de respiración profunda."
+      ],
+      "patient_teaching": [
+        "Enseñar técnica de higiene de la herida y signos de infección a reportar.",
+        "Explicar la importancia de la movilización y ejercicios de piernas para prevenir TVP.",
+        "Indicar cuándo y cómo tomar los antibióticos prescritos.",
+        "Orientar sobre la dieta rica en proteínas y la hidratación adecuada.",
+        "Programar la cita de control y la retirada de suturas o grapas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "incisión quirúrgica",
+          "diabetes mellitus",
+          "tabaquismo",
+          "uso prolongado de catéteres"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de infección: ausencia de fiebre >38 °C en 48 h.",
+          "Cicatrización adecuada: herida sin enrojecimiento ni exudado purulento en 7 días."
+        ],
+        "interventions": [
+          {
+            "action": "Mantener técnica aséptica al manipular la herida y los dispositivos invasivos.",
+            "rationale": "Reduce la exposición a microorganismos patógenos."
+          },
+          {
+            "action": "Evaluar la herida cada 4 h y registrar signos de infección.",
+            "rationale": "Permite detección temprana y tratamiento oportuno."
+          },
+          {
+            "action": "Administrar antibióticos según orden médica y observar reacciones adversas.",
+            "rationale": "Controla la proliferación bacteriana y previene complicaciones sistémicas."
+          },
+          {
+            "action": "Educar al paciente sobre higiene de la herida y signos de alerta.",
+            "rationale": "Fomenta autocuidado y reporte precoz de problemas."
+          },
+          {
+            "action": "Controlar glucemia en pacientes diabéticos y mantenerla dentro de rango objetivo.",
+            "rationale": "La hiperglucemia favorece el crecimiento bacteriano."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida sanguínea intraoperatoria",
+          "náuseas y vómitos postoperatorios",
+          "diuresis aumentada por diuréticos",
+          "restricción de ingesta oral"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida equilibradas ±500 mL/24 h.",
+          "Presión arterial estable: MAP >65 mmHg durante 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 2 h.",
+            "rationale": "Facilita la detección de déficit o exceso de volumen."
+          },
+          {
+            "action": "Monitorear presión arterial, frecuencia cardíaca y perfusión periférica.",
+            "rationale": "Indicadores tempranos de hipovolemia o sobrecarga."
+          },
+          {
+            "action": "Administrar soluciones cristaloides según orden médica y observar respuesta hemodinámica.",
+            "rationale": "Restituye el volumen intravascular perdido."
+          },
+          {
+            "action": "Evaluar signos de deshidratación: mucosas secas, turgencia cutánea disminuida.",
+            "rationale": "Permite intervención rápida antes de deterioro clínico."
+          },
+          {
+            "action": "Fomentar ingesta de líquidos claros tan pronto como sea tolerado.",
+            "rationale": "Ayuda a mantener el equilibrio hídrico y prevenir complicaciones renales."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Postoperative complications",
+    "aliases": [
+      "complications",
+      "postoperative",
+      "postop",
+      "surgery",
+      "recovery"
+    ],
+    "summary": "Unexpected events that occur after a surgical intervention and can affect patient recovery.",
+    "key_points": [
+      "Complications can be local (wound) or systemic (hemorrhage, infection).",
+      "Early monitoring of vital signs is essential.",
+      "Risk factors include comorbidities and type of surgery.",
+      "Prevention through asepsis, pain management and early mobilization.",
+      "Nursing interventions should be individualized and documented."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Surgical trauma triggers an inflammatory response and release of vasoactive mediators.",
+        "Hemodynamic alterations can cause hypoperfusion and tissue edema.",
+        "Exposure to microorganisms and loss of skin barrier favor infection."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus, immunosuppression and smoking.",
+        "Long surgeries, significant blood loss or use of invasive devices.",
+        "Malnutrition and obesity.",
+        "Advanced age and cardiovascular comorbidities."
+      ],
+      "signs_symptoms": [
+        "Fever >38 °C, chills and sweating.",
+        "Increasing pain at the surgical site, redness or purulent drainage.",
+        "Hypotension, tachycardia and signs of hemorrhagic shock.",
+        "Nausea, vomiting and abdominal distension."
+      ],
+      "diagnostics": [
+        "Complete blood count: leukocytosis >12 000 mm³ suggests infection.",
+        "Wound exudate culture to identify pathogens.",
+        "Ultrasound or CT to detect collections or internal hemorrhage.",
+        "Monitoring of blood pressure, heart rate and O₂ saturation."
+      ],
+      "treatment": [
+        "Broad‑spectrum antibiotics per culture and local guidelines.",
+        "Volume replacement with crystalloids or colloids based on blood loss.",
+        "Pain control with opioid or non‑opioid analgesics.",
+        "Surgical drainage or evacuation of hematomas when necessary."
+      ],
+      "complications": [
+        "Surgical site infection.",
+        "Postoperative hemorrhage.",
+        "Deep vein thrombosis and pulmonary embolism.",
+        "Wound dehiscence.",
+        "Systemic inflammatory response syndrome."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 15‑30 min in PACU and every 4 h thereafter.",
+        "Inspect the wound: color, edema, drainage and pain on palpation.",
+        "Maintain the drainage catheter in proper position and record output.",
+        "Administer analgesics as prescribed and evaluate pain relief.",
+        "Promote early mobilization and deep breathing exercises."
+      ],
+      "patient_teaching": [
+        "Teach wound hygiene technique and signs of infection to report.",
+        "Explain the importance of mobilization and leg exercises to prevent DVT.",
+        "Indicate when and how to take prescribed antibiotics.",
+        "Advise on a protein‑rich diet and adequate hydration.",
+        "Schedule follow‑up appointment and removal of sutures or staples."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "surgical incision",
+          "diabetes mellitus",
+          "smoking",
+          "prolonged catheter use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: no fever >38 °C within 48 h.",
+          "Adequate healing: wound without redness or purulent exudate within 7 days."
+        ],
+        "interventions": [
+          {
+            "action": "Maintain aseptic technique when handling the wound and invasive devices.",
+            "rationale": "Reduces exposure to pathogenic microorganisms."
+          },
+          {
+            "action": "Assess the wound every 4 h and record signs of infection.",
+            "rationale": "Allows early detection and timely treatment."
+          },
+          {
+            "action": "Administer antibiotics as ordered and monitor for adverse reactions.",
+            "rationale": "Controls bacterial proliferation and prevents systemic complications."
+          },
+          {
+            "action": "Educate the patient on wound hygiene and warning signs.",
+            "rationale": "Encourages self‑care and early reporting of problems."
+          },
+          {
+            "action": "Control blood glucose in diabetic patients and keep it within target range.",
+            "rationale": "Hyperglycemia promotes bacterial growth."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "intraoperative blood loss",
+          "postoperative nausea and vomiting",
+          "increased diuresis from diuretics",
+          "restricted oral intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output within ±500 mL/24 h.",
+          "Stable blood pressure: MAP >65 mmHg for 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 2 h.",
+            "rationale": "Facilitates detection of deficit or excess volume."
+          },
+          {
+            "action": "Monitor blood pressure, heart rate and peripheral perfusion.",
+            "rationale": "Early indicators of hypovolemia or overload."
+          },
+          {
+            "action": "Administer crystalloid solutions as ordered and observe hemodynamic response.",
+            "rationale": "Restores lost intravascular volume."
+          },
+          {
+            "action": "Assess signs of dehydration: dry mucous membranes, decreased skin turgor.",
+            "rationale": "Allows rapid intervention before clinical deterioration."
+          },
+          {
+            "action": "Encourage clear fluid intake as soon as tolerated.",
+            "rationale": "Helps maintain fluid balance and prevent renal complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "surgical-site-infection",
+    "hemorrhage",
+    "deep-vein-thrombosis",
+    "pulmonary-embolism",
+    "wound-dehiscence"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: After Surgery",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/aftersurgery.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Postoperative Nursing Care Plan",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/27-4-postoperative-nursing-care-plan",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Postoperative Phase",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/31-4-postoperative-phase",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-21",
+  "factcheck": {
+    "checked": "2026-11-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 24,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Nurses monitor vital signs closely, assess surgical sites for signs of excessive bleeding, and educate patients to recognize abnormal blood loss or hemorrhage symptoms.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Regular assessments of risk factors associated with blood clot formation such as immobility, type of surgery performed, and any coexisting diseases inform an individualized prevention plan tailored specifically for each patient.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Nurses stay informed about the latest evidence-based guidelines for postoperative care, including infection control, pain management, and early mobilization strategies.",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "Fluid management should consider each patient’s individualized needs, surgical factors, and potential comorbidities to avoid both hypovolemia and fluid overload.",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Additionally, the inflammatory response triggered by surgery can cause the accumulation of fluid or mucus in the airways, obstructing proper lung inflation.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Patients need to know the signs of infection (e.g., redness, swelling, increasing pain, drainage, fever).",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "The PACU nurse must monitor the patient for signs of hypotension and shock, hemorrhage, hypertension, and arrhythmias.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Blood pressure, heart rate, and oxygen saturation can give clues to bleeding.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "SSIs or surgical site infections are a quality assurance risk that all members of the health-care team must diligently reduce.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Additionally, hemorrhage from a surgical site can cause hypotension, changes in hemodynamics, and shock.",
+        "source": 1
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Preventing blood clot formation, particularly DVT and its potentially life-threatening complication of a pulmonary embolism (PE), is an integral component of nursing care",
+        "source": 1
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Surgical site: The patient’s surgical site should show no signs of infection, dressings should be intact, and there should be no wound complications or issues with skin integrity (e.g., dehiscence, evisceration) noted.",
+        "source": 2
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Nurses carefully assess a patient’s level of pain using validated pain scales and administer analgesics as recommended by health-care providers.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Early mobilization, incentive spirometry, and deep breathing exercises are integral parts of nursing interventions to maintain lung expansion and avoid atelectasis.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Patient education on wound care, hygiene practices, and reporting any signs of infection helps individuals take an active part in their own recovery while aiding early detection.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Nurses play a pivotal role in providing effective thromboprophylaxis strategies such as early mobilization, use of sequential compression devices (SCDs) ( Figure 27.4 ), compression stockings , and anticoagulant medications as par",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

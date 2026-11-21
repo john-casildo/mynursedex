@@ -1,0 +1,263 @@
+{
+  "id": "drug-dosing",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Cálculo de dosis de medicamentos",
+    "aliases": [
+      "dosis",
+      "cálculo dosis",
+      "dosificación",
+      "medicamento",
+      "dosing"
+    ],
+    "summary": "El cálculo preciso de la dosis asegura que el paciente reciba la cantidad adecuada del fármaco, evitando subdosificación o sobredosis.",
+    "key_points": [
+      "Convertir siempre a unidades métricas (kg, mg, mL).",
+      "Usar la fórmula Dosis = (Orden × Peso) ÷ Concentración.",
+      "Verificar la frecuencia y dividir la dosis total diaria según lo indicado.",
+      "Revisar la orden, la etiqueta del medicamento y la identificación del paciente antes de administrar.",
+      "Documentar la dosis calculada y la verificación doble por otro profesional.",
+      "Conocer los rangos terapéuticos y ajustar según niveles séricos cuando sea necesario."
+    ],
+    "sections": {
+      "nursing_care": [
+        "Obtener peso del paciente y convertir a kg (1 kg = 2.2 lb).",
+        "Leer la orden y la concentración del fármaco (mg/ mL).",
+        "Aplicar la fórmula y redondear según la presentación disponible.",
+        "Realizar doble verificación con otro enfermero o farmacéutico.",
+        "Retener la medicación si la dosis calculada supera el rango terapéutico y notificar al médico.",
+        "Registrar la dosis administrada, cálculo y verificación en la hoja de enfermería."
+      ],
+      "patient_teaching": [
+        "Explicar al paciente la importancia de la dosis exacta y los posibles efectos de una sobredosis.",
+        "Instruir al paciente a reportar cualquier efecto inesperado después de la administración.",
+        "Reforzar la necesidad de informar cambios de peso que puedan afectar la dosificación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de intoxicación",
+        "type": "risk",
+        "related_to": [
+          "errores de cálculo de dosis",
+          "uso de unidades incorrectas",
+          "falta de verificación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Seguridad del paciente: sin eventos de sobredosis durante la hospitalización.",
+          "Exactitud de la administración: 100% de dosis calculadas correctamente."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar el peso actual del paciente en kg.",
+            "rationale": "El peso es esencial para calcular dosis basadas en mg/kg."
+          },
+          {
+            "action": "Convertir todas las unidades a métricas antes de calcular.",
+            "rationale": "Previene errores de conversión que pueden alterar la dosis."
+          },
+          {
+            "action": "Aplicar la fórmula de cálculo de dosis y redondear según la presentación disponible.",
+            "rationale": "Asegura que la dosis sea administrable y segura."
+          },
+          {
+            "action": "Realizar doble verificación del cálculo con otro profesional de salud.",
+            "rationale": "Reduce la probabilidad de errores de cálculo."
+          },
+          {
+            "action": "Comparar la dosis calculada con los rangos terapéuticos recomendados.",
+            "rationale": "Identifica posibles sobredosis o subdosificaciones."
+          },
+          {
+            "action": "Documentar detalladamente el proceso de cálculo y la verificación.",
+            "rationale": "Proporciona trazabilidad y evidencia de la práctica segura."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Medication dose calculation",
+    "aliases": [
+      "dose",
+      "dose calculation",
+      "dosage",
+      "medication",
+      "dosing"
+    ],
+    "summary": "Accurate dose calculation ensures the patient receives the appropriate amount of medication, preventing underdosing or overdose.",
+    "key_points": [
+      "Always convert to metric units (kg, mg, mL).",
+      "Use the formula Dose = (Order × Weight) ÷ Concentration.",
+      "Verify frequency and divide the total daily dose as indicated.",
+      "Check the order, medication label, and patient identification before administration.",
+      "Document the calculated dose and double-check by another professional.",
+      "Know therapeutic ranges and adjust based on serum levels when necessary."
+    ],
+    "sections": {
+      "nursing_care": [
+        "Obtain the patient’s weight and convert to kg (1 kg = 2.2 lb).",
+        "Read the order and medication concentration (mg/mL).",
+        "Apply the formula and round according to the available presentation.",
+        "Perform double verification with another nurse or pharmacist.",
+        "Hold the medication if the calculated dose exceeds the therapeutic range and notify the physician.",
+        "Record the administered dose, calculation, and verification on the nursing chart."
+      ],
+      "patient_teaching": [
+        "Explain to the patient the importance of the exact dose and potential effects of an overdose.",
+        "Instruct the patient to report any unexpected effects after administration.",
+        "Emphasize the need to inform about weight changes that may affect dosing."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for poisoning",
+        "type": "risk",
+        "related_to": [
+          "dose calculation errors",
+          "use of incorrect units",
+          "lack of verification"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Patient safety: no overdose events during hospitalization.",
+          "Accuracy of administration: 100% of doses calculated correctly."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record the patient’s current weight in kg.",
+            "rationale": "Weight is essential for calculating mg/kg doses."
+          },
+          {
+            "action": "Convert all units to metric before calculating.",
+            "rationale": "Prevents conversion errors that can alter the dose."
+          },
+          {
+            "action": "Apply the dose calculation formula and round according to the available presentation.",
+            "rationale": "Ensures the dose is administrable and safe."
+          },
+          {
+            "action": "Perform double verification of the calculation with another health professional.",
+            "rationale": "Reduces the likelihood of calculation errors."
+          },
+          {
+            "action": "Compare the calculated dose with recommended therapeutic ranges.",
+            "rationale": "Identifies potential overdoses or underdoses."
+          },
+          {
+            "action": "Document the calculation and verification process in detail.",
+            "rationale": "Provides traceability and evidence of safe practice."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "dose-calculation",
+    "medication-safety",
+    "pharmacokinetics"
+  ],
+  "sources": [
+    {
+      "name": "Clinical Nursing Skills: Dosing",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/11-2-dosing",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Epilepsy and Anticonvulsant Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-21",
+  "factcheck": {
+    "checked": "2026-11-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 8,
+      "contradicted": 2,
+      "total": 16
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Medication calculations are an important skill for the nurse to perform correctly to ensure the patient receives the right dose.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "contradicted",
+        "quote": "This calculation may involve converting a metric system measurement into a household measurement or a household measurement into an apothecary measurement.",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "contradicted",
+        "quote": "The formula method , sometimes referred to as the “desired over have method,” divides the desired amount by the amount on hand, then multiplies it by the quantity on hand to determine the dose.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Step 3: Divide the dose by the frequency 1,200 mg/day / 2 (BID) = 600 mg/dose",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "supported",
+        "quote": "Careful review of serum blood levels—trough levels and peak levels—is crucial to make appropriate dosing adjustments.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "The desired amount ( D ) is the dose prescribed, the amount on hand ( H ) is the available dose or concentration, and the quantity ( Q ) is the form and amount in which the drug is supplied.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "When it is possible to administer a fraction of a dose, medications are typically rounded to the nearest tenth for adults and to the nearest hundredth for children, unless otherwise indicated by the agency’s policy.",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "If ever in doubt, ask a colleague to double-check the calculation to ensure the dose is accurate.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      }
+    }
+  }
+}

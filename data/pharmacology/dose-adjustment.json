@@ -1,0 +1,364 @@
+{
+  "id": "dose-adjustment",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Furosemida",
+    "aliases": [
+      "furosemida",
+      "diurético de asa",
+      "lasix",
+      "furo",
+      "diurético"
+    ],
+    "summary": "Diurético de asa que aumenta la excreción de sodio y agua; la dosis se ajusta según la función renal y los electrolitos.",
+    "key_points": [
+      "Inhibe la reabsorción de Na⁺/K⁺/2Cl⁻ en el asa de Henle.",
+      "Dosis inicial 20‑40 mg VO/IV; ajustar según respuesta y depuración renal.",
+      "Monitorear presión arterial, peso diario, diuresis y electrolitos (K⁺, Na⁺, Mg²⁺).",
+      "Efectos adversos comunes: hipokalemia, hipotensión ortostática, deshidratación.",
+      "Efectos graves: ototoxicidad, insuficiencia renal aguda.",
+      "Interacciones importantes con AINEs, litio y antihipertensivos."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea el cotransportador Na⁺/K⁺/2Cl⁻ en la rama ascendente del asa de Henle.",
+        "Reduce la reabsorción de agua y electrolitos, aumentando la diuresis.",
+        "Produce pérdida de potasio y magnesio por aumento del flujo tubular."
+      ],
+      "indications": [
+        "Edema asociado a insuficiencia cardíaca congestiva.",
+        "Edema por enfermedad renal crónica o síndrome nefrótico.",
+        "Hipertensión que no responde a otros antihipertensivos."
+      ],
+      "contraindications": [
+        "Anuria o insuficiencia renal aguda sin diuresis.",
+        "Hipersensibilidad conocida a la furosemida o sulfonamidas.",
+        "Hipotensión severa (PA < 90/60 mmHg) sin reposición volémica."
+      ],
+      "adverse_effects": [
+        "Hipokalemia (común).",
+        "Hiponatremia, hipomagnesemia (comunes).",
+        "Hipotensión ortostática (común).",
+        "Deshidratación y aumento de BUN/creatinina (común).",
+        "Ototoxicidad (grave) – riesgo con dosis altas o uso prolongado.",
+        "Reacciones alérgicas cutáneas (grave)."
+      ],
+      "interactions": [
+        "AINEs reducen la respuesta diurética.",
+        "Litio: aumento de toxicidad por retención de litio.",
+        "Antihipertensivos: potencial de hipotensión marcada.",
+        "Ciclosporina: incremento del riesgo de nefrotoxicidad."
+      ],
+      "nursing_care": [
+        "Evaluar PA, frecuencia cardíaca y diuresis antes de administrar.",
+        "Obtener electrolitos (K⁺, Na⁺, Mg²⁺) y creatinina antes y 24‑48 h después.",
+        "Retener la dosis si K⁺ < 3.5 mEq/L, Na⁺ < 130 mEq/L o PA < 90/60 mmHg.",
+        "Registrar peso diario y volumen de orina; notificar aumento > 1 kg/día.",
+        "Administrar con suficiente líquido oral o IV para prevenir deshidratación.",
+        "Informar al médico si aparecen signos de ototoxicidad (zumbido, pérdida auditiva)."
+      ],
+      "patient_teaching": [
+        "Tomar la dosis a la misma hora cada día; no omitir dosis.",
+        "Consumir alimentos ricos en potasio (plátano, papas, jugo de naranja).",
+        "Levantar los pies al sentarse para prevenir hipotensión ortostática.",
+        "Reportar mareos, visión borrosa, zumbido en los oídos o cambios en la audición.",
+        "Mantener registro de peso y volumen de orina y presentarlo en cada visita."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "uso de diurético de asa",
+          "pérdida de líquidos",
+          "insuficiencia renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Equilibrio electrolítico: K⁺ 3.5‑5.0 mEq/L mantenido durante la hospitalización",
+          "Presión arterial dentro del rango objetivo (90‑120/60‑80 mmHg) al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear niveles séricos de K⁺, Na⁺ y Mg²⁺ cada 24 h",
+            "rationale": "Detectar desequilibrios tempranos y permitir corrección oportuna"
+          },
+          {
+            "action": "Registrar peso y volumen de orina cada 8 h",
+            "rationale": "Evaluar respuesta diurética y riesgo de deshidratación"
+          },
+          {
+            "action": "Administrar suplemento de potasio oral o IV según orden médica si K⁺ < 3.5 mEq/L",
+            "rationale": "Prevenir complicaciones de hipokalemia como arritmias"
+          },
+          {
+            "action": "Enseñar al paciente a reconocer signos de hipotensión y ototoxicidad",
+            "rationale": "Facilitar la detección precoz y la búsqueda de ayuda"
+          },
+          {
+            "action": "Ajustar la dosis de furosemida según respuesta clínica y resultados de laboratorio",
+            "rationale": "Optimizar el control del edema sin comprometer la función renal"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Furosemide",
+    "aliases": [
+      "furosemide",
+      "loop diuretic",
+      "lasix",
+      "furo",
+      "diuretic"
+    ],
+    "summary": "Loop diuretic that increases sodium and water excretion; dose is adjusted based on renal function and electrolytes.",
+    "key_points": [
+      "Inhibits Na⁺/K⁺/2Cl⁻ reabsorption in the ascending limb of the Henle loop.",
+      "Initial dose 20‑40 mg PO/IV; adjust based on response and renal clearance.",
+      "Monitor blood pressure, daily weight, urine output, and electrolytes (K⁺, Na⁺, Mg²⁺).",
+      "Common adverse effects: hypokalemia, orthostatic hypotension, dehydration.",
+      "Severe effects: ototoxicity, acute renal failure.",
+      "Important interactions with NSAIDs, lithium, and antihypertensives."
+    ],
+    "sections": {
+      "mechanism": [
+        "Blocks the Na⁺/K⁺/2Cl⁻ cotransporter in the ascending limb of the Henle loop.",
+        "Reduces water and electrolyte reabsorption, increasing diuresis.",
+        "Causes potassium and magnesium loss due to increased tubular flow."
+      ],
+      "indications": [
+        "Edema associated with congestive heart failure.",
+        "Edema from chronic kidney disease or nephrotic syndrome.",
+        "Hypertension unresponsive to other antihypertensives."
+      ],
+      "contraindications": [
+        "Anuria or acute renal failure without diuresis.",
+        "Known hypersensitivity to furosemide or sulfonamides.",
+        "Severe hypotension (BP < 90/60 mmHg) without volume replacement."
+      ],
+      "adverse_effects": [
+        "Hypokalemia (common).",
+        "Hyponatremia, hypomagnesemia (common).",
+        "Orthostatic hypotension (common).",
+        "Dehydration and increased BUN/creatinine (common).",
+        "Ototoxicity (severe) – risk with high doses or prolonged use.",
+        "Severe cutaneous allergic reactions."
+      ],
+      "interactions": [
+        "NSAIDs reduce diuretic response.",
+        "Lithium: increased toxicity due to lithium retention.",
+        "Antihypertensives: potential for marked hypotension.",
+        "Cyclosporine: increased risk of nephrotoxicity."
+      ],
+      "nursing_care": [
+        "Assess BP, heart rate, and urine output before administration.",
+        "Obtain electrolytes (K⁺, Na⁺, Mg²⁺) and creatinine before and 24‑48 h after dose.",
+        "Hold dose if K⁺ < 3.5 mEq/L, Na⁺ < 130 mEq/L, or BP < 90/60 mmHg.",
+        "Record daily weight and urine volume; notify if increase > 1 kg/day.",
+        "Administer with adequate oral or IV fluid to prevent dehydration.",
+        "Notify physician if signs of ototoxicity (tinnitus, hearing loss) appear."
+      ],
+      "patient_teaching": [
+        "Take the dose at the same time each day; do not skip doses.",
+        "Consume potassium-rich foods (bananas, potatoes, orange juice).",
+        "Elevate feet when sitting to prevent orthostatic hypotension.",
+        "Report dizziness, blurred vision, tinnitus, or hearing changes.",
+        "Keep a weight and urine output log and bring it to each visit."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "use of loop diuretic",
+          "fluid loss",
+          "renal insufficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte balance: K⁺ 3.5‑5.0 mEq/L maintained during hospitalization",
+          "Blood pressure within target range (90‑120/60‑80 mmHg) at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum K⁺, Na⁺, and Mg²⁺ levels every 24 h",
+            "rationale": "Detect early imbalances and allow timely correction"
+          },
+          {
+            "action": "Record weight and urine output every 8 h",
+            "rationale": "Assess diuretic response and dehydration risk"
+          },
+          {
+            "action": "Administer oral or IV potassium supplement per order if K⁺ < 3.5 mEq/L",
+            "rationale": "Prevent hypokalemia complications such as arrhythmias"
+          },
+          {
+            "action": "Teach patient to recognize signs of hypotension and ototoxicity",
+            "rationale": "Facilitate early detection and help-seeking"
+          },
+          {
+            "action": "Adjust furosemide dose based on clinical response and lab results",
+            "rationale": "Optimize edema control without compromising renal function"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypokalemia",
+    "fluid-overload",
+    "heart-failure"
+  ],
+  "sources": [
+    {
+      "name": "Fundamentals of Nursing: Concepts of Grief and Loss",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/36-1-concepts-of-grief-and-loss",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Ostomy Care",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/19-7-ostomy-care",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-21",
+  "factcheck": {
+    "checked": "2026-11-21",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 37,
+      "contradicted": 0,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.5": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

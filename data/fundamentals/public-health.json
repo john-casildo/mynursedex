@@ -1,0 +1,215 @@
+{
+  "id": "public-health",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Salud pública",
+    "aliases": [
+      "salud publica",
+      "salud publica fundamentos",
+      "epidemiologia",
+      "estadisticas de salud",
+      "salud poblacional"
+    ],
+    "summary": "Conjunto de acciones y políticas dirigidas a proteger y mejorar la salud de la población mediante la vigilancia, prevención y promoción. Incluye la recolección y análisis de estadísticas de salud para orientar intervenciones.",
+    "key_points": [
+      "Las estadísticas de salud describen la frecuencia y distribución de enfermedades en grupos poblacionales.",
+      "Los determinantes sociales (educación, ingreso, vivienda) influyen fuertemente en los resultados de salud.",
+      "La informática de salud permite almacenar, compartir y analizar grandes volúmenes de datos para la toma de decisiones.",
+      "La confidencialidad y el consentimiento son esenciales al manejar datos de pacientes.",
+      "Las políticas públicas basadas en evidencia reducen disparidades y mejoran la equidad en salud."
+    ],
+    "sections": {
+      "purpose": [
+        "Identificar patrones de morbilidad y mortalidad en la comunidad.",
+        "Guiar la planificación y evaluación de programas de prevención.",
+        "Apoyar la formulación de políticas de salud basadas en evidencia."
+      ],
+      "procedure": [
+        "Definir la población objetivo y los indicadores de salud a medir.",
+        "Recopilar datos mediante encuestas, registros hospitalarios y bases nacionales.",
+        "Analizar los datos usando software estadístico o sistemas de información de salud.",
+        "Interpretar los resultados y compararlos con normas o tendencias históricas.",
+        "Comunicar hallazgos a autoridades, profesionales y comunidad."
+      ],
+      "safety": [
+        "Garantizar la confidencialidad de la información personal (ley de protección de datos).",
+        "Obtener consentimiento informado cuando se recolectan datos directos.",
+        "Evitar sesgos en la recolección y análisis de datos."
+      ],
+      "nursing_care": [
+        "Evaluar conocimientos y actitudes de la comunidad sobre prevención de enfermedades.",
+        "Educar sobre medidas de higiene, vacunación y estilos de vida saludables.",
+        "Reportar brotes sospechosos o tendencias inusuales al equipo de salud pública."
+      ],
+      "documentation": [
+        "Registrar la fuente, fecha y método de recolección de cada dato.",
+        "Anotar los procedimientos de análisis y los resultados obtenidos.",
+        "Mantener copias de los informes y distribuirlos a los responsables pertinentes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "exposición a agentes patógenos",
+          "condiciones de hacinamiento",
+          "baja inmunización",
+          "prácticas de higiene deficientes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de la infección: ausencia de brotes en la comunidad durante 12 meses",
+          "Conocimiento de medidas preventivas: ≥90% de la población demuestra comprensión de prácticas de higiene"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar campañas de educación sobre lavado de manos y uso de mascarilla",
+            "rationale": "Reduce la transmisión de patógenos al mejorar prácticas de higiene personal."
+          },
+          {
+            "action": "Promover la vacunación comunitaria mediante jornadas móviles",
+            "rationale": "Aumenta la inmunidad colectiva y disminuye la incidencia de enfermedades prevenibles."
+          },
+          {
+            "action": "Monitorear reportes de enfermedades transmisibles en tiempo real mediante el sistema de información de salud",
+            "rationale": "Permite detección temprana y respuesta rápida ante posibles brotes."
+          },
+          {
+            "action": "Implementar protocolos de aislamiento para casos sospechosos en centros de salud",
+            "rationale": "Previene la propagación a otros pacientes y al personal sanitario."
+          },
+          {
+            "action": "Evaluar y reforzar la disponibilidad de suministros de desinfección en lugares públicos",
+            "rationale": "Facilita la aplicación de medidas de control ambiental."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Public Health",
+    "aliases": [
+      "public health",
+      "public health fundamentals",
+      "epidemiology",
+      "health statistics",
+      "population health"
+    ],
+    "summary": "Set of actions and policies aimed at protecting and improving the health of the population through surveillance, prevention, and promotion. It includes the collection and analysis of health statistics to guide interventions.",
+    "key_points": [
+      "Health statistics describe the frequency and distribution of diseases in population groups.",
+      "Social determinants (education, income, housing) strongly influence health outcomes.",
+      "Health informatics allows storing, sharing, and analyzing large volumes of data for decision making.",
+      "Confidentiality and consent are essential when handling patient data.",
+      "Evidence-based public policies reduce disparities and improve health equity."
+    ],
+    "sections": {
+      "purpose": [
+        "Identify patterns of morbidity and mortality in the community.",
+        "Guide planning and evaluation of prevention programs.",
+        "Support the formulation of evidence-based health policies."
+      ],
+      "procedure": [
+        "Define the target population and health indicators to measure.",
+        "Collect data through surveys, hospital records, and national databases.",
+        "Analyze the data using statistical software or health information systems.",
+        "Interpret the results and compare them with standards or historical trends.",
+        "Communicate findings to authorities, professionals, and the community."
+      ],
+      "safety": [
+        "Ensure confidentiality of personal information (data protection law).",
+        "Obtain informed consent when collecting direct data.",
+        "Avoid bias in data collection and analysis."
+      ],
+      "nursing_care": [
+        "Assess community knowledge and attitudes about disease prevention.",
+        "Educate on hygiene measures, vaccination, and healthy lifestyles.",
+        "Report suspected outbreaks or unusual trends to the public health team."
+      ],
+      "documentation": [
+        "Record the source, date, and method of data collection for each datum.",
+        "Note the analysis procedures and obtained results.",
+        "Maintain copies of reports and distribute them to relevant stakeholders."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "exposure to pathogens",
+          "crowding conditions",
+          "low immunization",
+          "poor hygiene practices"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: absence of outbreaks in the community for 12 months",
+          "Knowledge of preventive measures: ≥90% of the population demonstrates understanding of hygiene practices"
+        ],
+        "interventions": [
+          {
+            "action": "Conduct handwashing and mask-wearing education campaigns",
+            "rationale": "Reduces pathogen transmission by improving personal hygiene practices."
+          },
+          {
+            "action": "Promote community vaccination through mobile clinics",
+            "rationale": "Increases herd immunity and decreases incidence of preventable diseases."
+          },
+          {
+            "action": "Monitor real-time reports of transmissible diseases via the health information system",
+            "rationale": "Enables early detection and rapid response to potential outbreaks."
+          },
+          {
+            "action": "Implement isolation protocols for suspected cases in health centers",
+            "rationale": "Prevents spread to other patients and healthcare staff."
+          },
+          {
+            "action": "Assess and reinforce the availability of disinfection supplies in public places",
+            "rationale": "Facilitates the application of environmental control measures."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "epidemiology",
+    "health-statistics",
+    "social-determinants-of-health",
+    "health-informatics",
+    "population-health"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Health Statistics",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/healthstatistics.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Health Informatics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/37-2-health-informatics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Factors Influencing the Health of Persons Assigned Female at Birth",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/3-1-factors-influencing-the-health-of-persons-assigned-female-at-birth",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-21"
+}
