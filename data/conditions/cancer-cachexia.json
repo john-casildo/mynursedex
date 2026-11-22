@@ -1,0 +1,502 @@
+{
+  "id": "cancer-cachexia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Caquexia cancerosa",
+    "aliases": [
+      "caquexia",
+      "caquexia cancerosa",
+      "pérdida de peso cancerosa",
+      "desnutrición en cáncer",
+      "síndrome de caquexia"
+    ],
+    "summary": "La caquexia cancerosa es un síndrome metabólico caracterizado por pérdida involuntaria de peso corporal, masa muscular y grasa, asociado a inflamación sistémica y a la progresión del tumor.",
+    "key_points": [
+      "Pérdida de peso >5% en 6 meses sin causa aparente.",
+      "Inflamación crónica y aumento del gasto energético basal.",
+      "Reducción de ingesta por anorexia, náuseas o dolor.",
+      "Mala respuesta a tratamientos oncológicos y mayor morbilidad.",
+      "Intervención multidisciplinaria es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El tumor libera citocinas proinflamatorias (IL‑6, TNF‑α) que aumentan el catabolismo proteico.",
+        "Se incrementa el gasto energético de reposo por resistencia a la insulina.",
+        "Disminuye la síntesis de proteínas musculares y aumenta la degradación de tejido adiposo.",
+        "Alteración del apetito por factores tumorales y efectos secundarios de la quimioterapia."
+      ],
+      "risk_factors": [
+        "Cánceres de páncreas, pulmón, estómago y cabeza de páncreas.",
+        "Estadio avanzado de la enfermedad y metástasis.",
+        "Inflamación crónica y desnutrición previa.",
+        "Efectos secundarios de quimioterapia o radioterapia (náuseas, mucositis)."
+      ],
+      "signs_symptoms": [
+        "Pérdida de peso involuntaria >5% en 6 meses.",
+        "Masa muscular disminuida (sarcopenia) y debilidad.",
+        "Anorexia, sensación de saciedad precoz.",
+        "Fatiga, edema periférico y pérdida de apetito."
+      ],
+      "diagnostics": [
+        "IMC <20 kg/m² o pérdida de >5% peso corporal en 6 meses.",
+        "Albúmina sérica <3.5 g/dL y proteína C‑reactiva elevada.",
+        "Evaluación de ingesta calórica (<25 kcal/kg/día).",
+        "Pruebas de composición corporal (bioimpedancia o DEXA)."
+      ],
+      "treatment": [
+        "Intervención nutricional: dietas hipercalóricas y altas en proteína (1.2‑1.5 g/kg/día).",
+        "Suplementos orales o enterales según tolerancia.",
+        "Fármacos anabólicos: megestrol acetato, corticosteroides, olanzapina para estimular el apetito.",
+        "Ejercicio de resistencia leve a moderado para preservar masa muscular.",
+        "Control de síntomas: antieméticos, analgésicos y manejo de la depresión."
+      ],
+      "complications": [
+        "Inmunosupresión y mayor riesgo de infecciones.",
+        "Intolerancia a tratamientos oncológicos (quimioterapia, radioterapia).",
+        "Deterioro funcional y pérdida de autonomía.",
+        "Deshidratación y desequilibrio electrolítico."
+      ],
+      "nursing_care": [
+        "Valoración diaria de peso, ingesta calórica y signos de deshidratación.",
+        "Monitoreo de laboratorio: albúmina, electrolitos, glucosa y PCR.",
+        "Promover comidas pequeñas, frecuentes y enriquecidas.",
+        "Posicionar al paciente en posición semisentada para facilitar la deglución.",
+        "Colaborar con nutricionista y fisioterapeuta para plan de ejercicio."
+      ],
+      "patient_teaching": [
+        "Importancia de consumir alimentos ricos en proteínas y calorías en cada comida.",
+        "Técnicas para manejar la anorexia: alimentos aromáticos, texturas suaves y suplementos líquidos.",
+        "Cómo reconocer signos de deshidratación y cuándo solicitar ayuda.",
+        "Mantener actividad física ligera para preservar masa muscular.",
+        "Uso adecuado de medicamentos para estimular el apetito y controlar náuseas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Desequilibrio nutricional: inferior a las necesidades corporales",
+        "type": "actual",
+        "related_to": [
+          "inflamación tumoral",
+          "anorexia",
+          "efectos secundarios de quimioterapia",
+          "alto gasto energético basal"
+        ],
+        "evidenced_by": [
+          "pérdida de peso >5% en 6 meses",
+          "masa muscular reducida",
+          "ingesta calórica <25 kcal/kg/día",
+          "albúmina <3.5 g/dL"
+        ],
+        "outcomes": [
+          "Estado nutricional: aumento de peso corporal ≥5% en 4 semanas",
+          "Ingesta calórica: consumo ≥30 kcal/kg/día en 2 semanas",
+          "Masa muscular: preservación o aumento de la masa muscular medida por circunferencia del brazo"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar peso y circunferencia del brazo diariamente",
+            "rationale": "Permite detectar cambios tempranos en el estado nutricional"
+          },
+          {
+            "action": "Registrar ingesta de alimentos y líquidos en una hoja de seguimiento",
+            "rationale": "Facilita la identificación de déficits calóricos y de líquidos"
+          },
+          {
+            "action": "Ofrecer suplementos hipercalóricos y ricos en proteína cada 2‑3 h",
+            "rationale": "Aumenta la densidad energética y protege la masa muscular"
+          },
+          {
+            "action": "Coordinar con nutricionista para plan dietético individualizado",
+            "rationale": "Garantiza que el plan cumpla con requerimientos específicos del paciente"
+          },
+          {
+            "action": "Administrar megestrol acetato según prescripción y monitorear efectos adversos",
+            "rationale": "Estimula el apetito y ayuda a revertir la pérdida de peso"
+          },
+          {
+            "action": "Educar al paciente y familia sobre técnicas de alimentación (pequeñas porciones, alimentos aromáticos)",
+            "rationale": "Mejora la aceptación de alimentos y la ingesta total"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "anorexia",
+          "náuseas",
+          "diarrea",
+          "fiebre",
+          "uso de diuréticos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación: ingesta de líquidos ≥30 mL/kg/día mantenida durante 48 h",
+          "Balance hídrico: peso estable ±0.5 kg en 3 días"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada turno",
+            "rationale": "Detecta desequilibrios de volumen antes de que ocurran complicaciones"
+          },
+          {
+            "action": "Ofrecer líquidos claros y bebidas con electrolitos cada 2 h",
+            "rationale": "Facilita la reposición de volumen y electrolitos perdidos"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas, hipotensión ortostática)",
+            "rationale": "Permite intervención temprana para prevenir shock hipovolémico"
+          },
+          {
+            "action": "Administrar antieméticos según prescripción para mejorar la tolerancia oral",
+            "rationale": "Reduce náuseas y favorece la ingesta de líquidos"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber pequeños sorbos frecuentemente",
+            "rationale": "Mejora la adherencia a la hidratación sin provocar sensación de plenitud"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cancer cachexia",
+    "aliases": [
+      "cachexia",
+      "cancer cachexia",
+      "cancer weight loss",
+      "cancer malnutrition",
+      "cachexia syndrome"
+    ],
+    "summary": "Cancer cachexia is a metabolic syndrome characterized by involuntary loss of body weight, muscle mass, and fat, associated with systemic inflammation and tumor progression.",
+    "key_points": [
+      "Weight loss >5% in 6 months without obvious cause.",
+      "Chronic inflammation and increased basal energy expenditure.",
+      "Reduced intake due to anorexia, nausea, or pain.",
+      "Poor response to oncologic treatments and higher morbidity.",
+      "Multidisciplinary intervention is essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The tumor releases pro-inflammatory cytokines (IL‑6, TNF‑α) that increase protein catabolism.",
+        "Resting energy expenditure rises due to insulin resistance.",
+        "Muscle protein synthesis decreases and adipose tissue breakdown increases.",
+        "Appetite is altered by tumor factors and chemotherapy side effects."
+      ],
+      "risk_factors": [
+        "Pancreatic, lung, stomach, and pancreatic head cancers.",
+        "Advanced disease stage and metastasis.",
+        "Chronic inflammation and prior malnutrition.",
+        "Chemotherapy or radiotherapy side effects (nausea, mucositis)."
+      ],
+      "signs_symptoms": [
+        "Unintentional weight loss >5% in 6 months.",
+        "Reduced muscle mass (sarcopenia) and weakness.",
+        "Anorexia, early satiety.",
+        "Fatigue, peripheral edema, loss of appetite."
+      ],
+      "diagnostics": [
+        "BMI <20 kg/m² or >5% weight loss in 6 months.",
+        "Serum albumin <3.5 g/dL and elevated C‑reactive protein.",
+        "Caloric intake <25 kcal/kg/day assessment.",
+        "Body composition tests (bioimpedance or DEXA)."
+      ],
+      "treatment": [
+        "Nutritional intervention: hypercaloric diets high in protein (1.2‑1.5 g/kg/day).",
+        "Oral or enteral supplements as tolerated.",
+        "Anabolic agents: megestrol acetate, corticosteroids, olanzapine to stimulate appetite.",
+        "Light to moderate resistance exercise to preserve muscle mass.",
+        "Symptom control: antiemetics, analgesics, and depression management."
+      ],
+      "complications": [
+        "Immunosuppression and increased infection risk.",
+        "Reduced tolerance to oncologic treatments (chemotherapy, radiotherapy).",
+        "Functional decline and loss of autonomy.",
+        "Dehydration and electrolyte imbalance."
+      ],
+      "nursing_care": [
+        "Daily assessment of weight, caloric intake, and dehydration signs.",
+        "Laboratory monitoring: albumin, electrolytes, glucose, and CRP.",
+        "Encourage small, frequent, enriched meals.",
+        "Position patient semi‑upright to facilitate swallowing.",
+        "Collaborate with dietitian and physiotherapist for exercise plan."
+      ],
+      "patient_teaching": [
+        "Importance of consuming protein‑rich, calorie‑dense foods at each meal.",
+        "Techniques to manage anorexia: aromatic foods, soft textures, liquid supplements.",
+        "How to recognize dehydration signs and when to seek help.",
+        "Maintain light physical activity to preserve muscle mass.",
+        "Proper use of appetite stimulants and anti‑nausea medications."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Imbalanced nutrition: less than body requirements",
+        "type": "actual",
+        "related_to": [
+          "tumor inflammation",
+          "anorexia",
+          "chemotherapy side effects",
+          "high basal energy expenditure"
+        ],
+        "evidenced_by": [
+          "Weight loss >5% in 6 months",
+          "Reduced muscle mass",
+          "Caloric intake <25 kcal/kg/day",
+          "Albumin <3.5 g/dL"
+        ],
+        "outcomes": [
+          "Nutritional status: weight gain ≥5% in 4 weeks",
+          "Caloric intake: consumption ≥30 kcal/kg/day in 2 weeks",
+          "Muscle mass: preservation or increase measured by arm circumference"
+        ],
+        "interventions": [
+          {
+            "action": "Assess weight and arm circumference daily",
+            "rationale": "Detects early changes in nutritional status"
+          },
+          {
+            "action": "Record food and fluid intake on a tracking sheet",
+            "rationale": "Facilitates identification of caloric and fluid deficits"
+          },
+          {
+            "action": "Offer hypercaloric, protein‑rich supplements every 2‑3 h",
+            "rationale": "Increases energy density and protects muscle mass"
+          },
+          {
+            "action": "Coordinate with dietitian for individualized diet plan",
+            "rationale": "Ensures plan meets specific patient requirements"
+          },
+          {
+            "action": "Administer megestrol acetate per prescription and monitor adverse effects",
+            "rationale": "Stimulates appetite and helps reverse weight loss"
+          },
+          {
+            "action": "Educate patient and family on feeding techniques (small portions, aromatic foods)",
+            "rationale": "Improves food acceptance and total intake"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "anorexia",
+          "nausea",
+          "diarrhea",
+          "fever",
+          "diuretic use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration: fluid intake ≥30 mL/kg/day maintained for 48 h",
+          "Fluid balance: weight stable ±0.5 kg over 3 days"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output each shift",
+            "rationale": "Detects volume imbalances before complications arise"
+          },
+          {
+            "action": "Offer clear fluids and electrolyte drinks every 2 h",
+            "rationale": "Facilitates volume and electrolyte replacement"
+          },
+          {
+            "action": "Assess dehydration signs (skin turgor, dry mucous membranes, orthostatic hypotension)",
+            "rationale": "Allows early intervention to prevent hypovolemic shock"
+          },
+          {
+            "action": "Administer antiemetics per prescription to improve oral tolerance",
+            "rationale": "Reduces nausea and promotes fluid intake"
+          },
+          {
+            "action": "Educate patient on importance of frequent small sips",
+            "rationale": "Improves adherence to hydration without causing fullness"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cachexia",
+    "malnutrition",
+    "weight-loss",
+    "muscle-wasting",
+    "cancer"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cancer --Living with Cancer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cancerlivingwithcancer.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Cancer of the Breast",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/8-2-cancer-of-the-breast",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Leading Causes of Death and Health Screenings",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/3-2-leading-causes-of-death-and-health-screenings",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-22",
+  "factcheck": {
+    "checked": "2026-11-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 37,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Because these medications work on rapidly dividing cells, their side effects include hair loss, nausea/vomiting, fatigue, diarrhea, hot flashes, loss of appetite or weight loss, and mouth sores.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Black people have a significantly higher mortality rate and are more likely to be diagnosed at a younger age, at a more advanced stage, and with aggressive types of breast cancer (Stringer-Reasor et al., 2021).",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Because these medications work on rapidly dividing cells, their side effects include hair loss, nausea/vomiting, fatigue, diarrhea, hot flashes, loss of appetite or weight loss, and mouth sores.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "This is particularly true in the cells of the immune and hematologic systems, leading to increased risk of infection, bleeding, and anemia.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

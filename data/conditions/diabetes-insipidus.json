@@ -1,0 +1,515 @@
+{
+  "id": "diabetes-insipidus",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diabetes insípida (DI)",
+    "aliases": [
+      "diabetes insípida",
+      "diabetes insipida",
+      "di",
+      "poliuria",
+      "polidipsia"
+    ],
+    "summary": "Trastorno caracterizado por la incapacidad de los riñones para concentrar la orina, produciendo poliuria y polidipsia intensas. Puede ser central (deficiencia de ADH) o nefrogénico (resistencia renal al ADH).",
+    "key_points": [
+      "Pérdida de agua >3 L/día con orina diluida",
+      "Polidipsia intensa para compensar la diuresis",
+      "ADH deficiente o riñón resistente al ADH",
+      "Diagnóstico con prueba de privación de agua y desmopresina",
+      "Tratamiento con desmopresina (central) o tiazidas y dieta baja en sodio (nefrogénico)"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución o ausencia de hormona antidiurética (ADH) o resistencia renal al ADH",
+        "Sin ADH, los túbulos colectores no reabsorben agua",
+        "Orina producida es hipotónica (<300 mOsm/kg) y de gran volumen",
+        "En DI central, lesión hipofisaria o hipotálamo; en nefrogénica, mutaciones o fármacos"
+      ],
+      "risk_factors": [
+        "Traumatismo craneal o cirugía neurológica",
+        "Tumores hipofisarios o del hipotálamo",
+        "Uso crónico de litio o anfetaminas",
+        "Enfermedades renales hereditarias (ej. mutación V2)",
+        "Historia familiar de DI nefrogénica"
+      ],
+      "signs_symptoms": [
+        "Poliuria >3 L/día, a veces >10 L en niños",
+        "Polidipsia excesiva, a menudo nocturna",
+        "Deshidratación e incremento de la sed",
+        "Orina de baja densidad (especificidad <1.005)",
+        "Hipernatremia si la ingesta de agua es insuficiente"
+      ],
+      "diagnostics": [
+        "Prueba de privación de agua: orina permanece diluida",
+        "Osmolalidad sérica >295 mOsm/kg, orina <300 mOsm/kg",
+        "Prueba con desmopresina: aumento >50 % de osmolaridad indica DI central",
+        "Niveles de sodio sérico 145‑155 mEq/L (puede estar elevado)",
+        "Ecografía cerebral si se sospecha lesión estructural"
+      ],
+      "treatment": [
+        "Desmopresina (DDAVP) intranasal, oral o subcutánea para DI central",
+        "Tiazidas (hidroclorotiazida) y/o indometacina para DI nefrogénica",
+        "Dieta baja en sodio y aumento de ingesta hídrica",
+        "Tratar causa subyacente (ej. retirar litio)",
+        "Monitoreo regular de Na⁺ y peso"
+      ],
+      "complications": [
+        "Deshidratación severa e hipovolemia",
+        "Hipernatremia y riesgo de convulsiones",
+        "Desequilibrio electrolítico (p. ej. hipocalemia)",
+        "Infecciones del tracto urinario por alta frecuencia de micción",
+        "Daño renal crónico por hiperosmolaridad prolongada"
+      ],
+      "nursing_care": [
+        "Registrar ingesta y eliminación cada 2 h; comparar con peso diario",
+        "Controlar signos vitales, especialmente presión arterial y frecuencia cardíaca",
+        "Monitorear Na⁺ sérico y osmolaridad de orina",
+        "Administrar desmopresina según prescripción y observar respuesta",
+        "Mantener ambiente con acceso fácil a agua y recordatorios de hidratación"
+      ],
+      "patient_teaching": [
+        "Beber agua regularmente, no esperar a sentir sed extrema",
+        "Reconocer signos de deshidratación (mareos, boca seca)",
+        "Uso correcto de desmopresina y no omitir dosis",
+        "Limitar consumo de sal y alimentos procesados",
+        "Reportar cambios bruscos en la cantidad de orina o síntomas neurológicos"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "poliuria",
+          "polidipsia intensa",
+          "pérdida de agua",
+          "uso de diuréticos",
+          "deshidratación potencial"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta ≥2 L/día",
+          "Peso corporal: variación <0.5 kg en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar I/O cada 2 h y comparar con peso diario",
+            "rationale": "Detecta déficit de líquidos temprano y guía intervenciones"
+          },
+          {
+            "action": "Evaluar signos de deshidratación (piel turgor, mucosas)",
+            "rationale": "Permite identificar pérdida de volumen antes de que sea crítica"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber agua regularmente",
+            "rationale": "Previene la deshidratación al mantener ingesta adecuada"
+          },
+          {
+            "action": "Mantener acceso fácil a agua y recordatorios visuales",
+            "rationale": "Facilita la hidratación espontánea"
+          },
+          {
+            "action": "Notificar al médico si la diuresis supera 4 L/día",
+            "rationale": "Indica posible empeoramiento que requiere ajuste terapéutico"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "poliuria severa",
+          "hipernatremia",
+          "pérdida de peso"
+        ],
+        "evidenced_by": [
+          "poliuria >3 L/día",
+          "sed intensa",
+          "disminución de peso >2 kg en 48 h",
+          "presión arterial baja",
+          "orina de baja densidad"
+        ],
+        "outcomes": [
+          "Volumen intravascular: restaurar a valores normales en 24 h",
+          "Electrolitos séricos: Na⁺ 135‑145 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar desmopresina según orden y observar respuesta urinaria",
+            "rationale": "Corrige la deficiencia de ADH y reduce la pérdida de agua"
+          },
+          {
+            "action": "Proveer solución salina hipertónica si hay hipernatremia grave",
+            "rationale": "Restablece el equilibrio osmótico rápidamente"
+          },
+          {
+            "action": "Monitorear Na⁺ sérico cada 4‑6 h hasta estabilizar",
+            "rationale": "Previene complicaciones de hipernatremia o hiponatremia"
+          },
+          {
+            "action": "Reforzar ingesta hídrica con líquidos orales o vía enteral según tolerancia",
+            "rationale": "Recupera el volumen circulante y previene deshidratación"
+          },
+          {
+            "action": "Evaluar y registrar peso cada 8 h para medir respuesta al tratamiento",
+            "rationale": "Indicador objetivo de rehidratación"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Diabetes insipidus (DI)",
+    "aliases": [
+      "diabetes insipidus",
+      "di",
+      "poliuria",
+      "polydipsia"
+    ],
+    "summary": "Disorder characterized by the kidneys’ inability to concentrate urine, producing intense polyuria and polydipsia. It can be central (ADH deficiency) or nephrogenic (renal resistance to ADH).",
+    "key_points": [
+      "Water loss >3 L/day with dilute urine",
+      "Intense polydipsia to compensate for diuresis",
+      "Deficient ADH or kidney resistant to ADH",
+      "Diagnosis with water deprivation test and desmopressin",
+      "Treatment with desmopressin (central) or thiazides and low‑sodium diet (nephrogenic)"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Reduced or absent antidiuretic hormone (ADH) or renal resistance to ADH",
+        "Without ADH, collecting ducts do not reabsorb water",
+        "Urine produced is hypotonic (<300 mOsm/kg) and large volume",
+        "In central DI, pituitary or hypothalamic injury; in nephrogenic, mutations or drugs"
+      ],
+      "risk_factors": [
+        "Head trauma or neurosurgery",
+        "Pituitary or hypothalamic tumors",
+        "Chronic use of lithium or amphetamines",
+        "Hereditary kidney diseases (e.g., V2 mutation)",
+        "Family history of nephrogenic DI"
+      ],
+      "signs_symptoms": [
+        "Polyuria >3 L/day, sometimes >10 L in children",
+        "Excessive polydipsia, often nocturnal",
+        "Dehydration and increased thirst",
+        "Low urine density (specific gravity <1.005)",
+        "Hypernatremia if water intake is insufficient"
+      ],
+      "diagnostics": [
+        "Water deprivation test: urine remains dilute",
+        "Serum osmolality >295 mOsm/kg, urine <300 mOsm/kg",
+        "Desmopressin test: >50 % increase in osmolality indicates central DI",
+        "Serum sodium 145‑155 mEq/L (may be elevated)",
+        "Brain ultrasound if structural lesion suspected"
+      ],
+      "treatment": [
+        "Desmopressin (DDAVP) intranasal, oral or subcutaneous for central DI",
+        "Thiazides (hydrochlorothiazide) and/or indomethacin for nephrogenic DI",
+        "Low‑sodium diet and increased fluid intake",
+        "Treat underlying cause (e.g., discontinue lithium)",
+        "Regular monitoring of Na⁺ and weight"
+      ],
+      "complications": [
+        "Severe dehydration and hypovolemia",
+        "Hypernatremia and risk of seizures",
+        "Electrolyte imbalance (e.g., hypokalemia)",
+        "Urinary tract infections due to frequent urination",
+        "Chronic kidney damage from prolonged hyperosmolality"
+      ],
+      "nursing_care": [
+        "Record intake and output every 2 h; compare with daily weight",
+        "Monitor vital signs, especially blood pressure and heart rate",
+        "Track serum Na⁺ and urine osmolality",
+        "Administer desmopressin per prescription and observe response",
+        "Maintain an environment with easy access to water and hydration reminders"
+      ],
+      "patient_teaching": [
+        "Drink water regularly, do not wait for extreme thirst",
+        "Recognize signs of dehydration (dizziness, dry mouth)",
+        "Use desmopressin correctly and do not miss doses",
+        "Limit salt and processed foods",
+        "Report sudden changes in urine volume or neurological symptoms"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "polyuria",
+          "intense polydipsia",
+          "water loss",
+          "diuretic use",
+          "potential dehydration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake ≥2 L/day",
+          "Body weight: change <0.5 kg in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record I/O every 2 h and compare with daily weight",
+            "rationale": "Detects fluid deficit early and guides interventions"
+          },
+          {
+            "action": "Assess for dehydration signs (skin turgor, mucous membranes)",
+            "rationale": "Allows identification of volume loss before it becomes critical"
+          },
+          {
+            "action": "Educate patient on importance of regular water intake",
+            "rationale": "Prevents dehydration by maintaining adequate intake"
+          },
+          {
+            "action": "Ensure easy access to water and visual reminders",
+            "rationale": "Facilitates spontaneous hydration"
+          },
+          {
+            "action": "Notify physician if diuresis exceeds 4 L/day",
+            "rationale": "Indicates possible worsening requiring therapeutic adjustment"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "severe polyuria",
+          "hypernatremia",
+          "weight loss"
+        ],
+        "evidenced_by": [
+          "polyuria >3 L/day",
+          "intense thirst",
+          "weight loss >2 kg in 48 h",
+          "low blood pressure",
+          "low urine density"
+        ],
+        "outcomes": [
+          "Intravascular volume: restore to normal values within 24 h",
+          "Serum electrolytes: Na⁺ 135‑145 mEq/L"
+        ],
+        "interventions": [
+          {
+            "action": "Administer desmopressin per order and observe urine response",
+            "rationale": "Corrects ADH deficiency and reduces water loss"
+          },
+          {
+            "action": "Provide hypertonic saline if severe hypernatremia",
+            "rationale": "Rapidly restores osmotic balance"
+          },
+          {
+            "action": "Monitor serum Na⁺ every 4‑6 h until stable",
+            "rationale": "Prevents complications of hypernatremia or hyponatremia"
+          },
+          {
+            "action": "Encourage oral or enteral fluids as tolerated",
+            "rationale": "Restores circulating volume and prevents dehydration"
+          },
+          {
+            "action": "Assess and record weight every 8 h to gauge treatment response",
+            "rationale": "Objective indicator of rehydration"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "central-diabetes-insipidus",
+    "nephrogenic-diabetes-insipidus",
+    "hypernatremia",
+    "adh-deficiency"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diabetes Insipidus",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diabetesinsipidus.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Diabetes insípida",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/diabetesinsipidus.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Diabetes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-1-introduction-to-diabetes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Oral Antidiabetic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-3-oral-antidiabetic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-22",
+  "factcheck": {
+    "checked": "2026-11-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 2,
+      "not_found": 44,
+      "contradicted": 0,
+      "total": 46
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Symptoms are usually unnoticeable; however, the client may exhibit signs of increased thirst and increased urination.",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Report symptoms of hyperglycemia such as increased thirst, increased urine output, hot/dry skin, sweet, fruity breath odor, and ketones in urine.",
+        "source": 3
+      }
+    }
+  }
+}

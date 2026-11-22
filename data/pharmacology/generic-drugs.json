@@ -1,0 +1,356 @@
+{
+  "id": "generic-drugs",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Ibuprofeno",
+    "aliases": [
+      "ibuprofeno",
+      "analgesico",
+      "antiinflamatorio",
+      "dolor",
+      "fiebre"
+    ],
+    "summary": "El ibuprofeno es un antiinflamatorio no esteroideo (AINE) usado para aliviar dolor leve‑moderado, fiebre e inflamación.",
+    "key_points": [
+      "Inhibe COX‑1 y COX‑2, disminuyendo prostaglandinas.",
+      "Se administra oralmente, con alimentos para reducir irritación gástrica.",
+      "Contraindicado en úlcera péptica activa y insuficiencia renal grave.",
+      "Puede aumentar el riesgo de sangrado, especialmente con anticoagulantes.",
+      "Monitorear función renal y signos de hemorragia durante el tratamiento."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bloquea irreversiblemente la enzima ciclooxigenasa (COX‑1 y COX‑2).",
+        "Reduce la síntesis de prostaglandinas mediadoras del dolor y la inflamación.",
+        "Disminuye la sensibilidad de los nociceptores periféricos."
+      ],
+      "indications": [
+        "Dolor leve a moderado (cabeza, dental, muscular, articular).",
+        "Fiebre de origen no infeccioso.",
+        "Inflamación aguda (artritis, tendinitis)."
+      ],
+      "contraindications": [
+        "Úlcera péptica activa o historial de sangrado gastrointestinal.",
+        "Insuficiencia renal grave (creatinina >2.5 mg/dL).",
+        "Hipersensibilidad al ibuprofeno o a otros AINES.",
+        "Embarazo en tercer trimestre."
+      ],
+      "adverse_effects": [
+        "Dolor abdominal, dispepsia, náuseas (común).",
+        "Edema periférico, aumento de presión arterial (común).",
+        "Sangrado gastrointestinal (grave).",
+        "Insuficiencia renal aguda (grave).",
+        "Reacción alérgica tipo anafilaxia (grave)."
+      ],
+      "interactions": [
+        "Aumenta el efecto anticoagulante de warfarina y heparina.",
+        "Potencia el riesgo de úlcera con corticoides o otros AINES.",
+        "Reduce la eficacia de antihipertensivos (IECA, diuréticos).",
+        "Aumenta niveles de litio, pudiendo causar toxicidad."
+      ],
+      "nursing_care": [
+        "Evaluar historial de úlcera, sangrado y función renal antes de administrar.",
+        "Monitorear signos vitales y observar signos de sangrado (hematemesis, melena, hematuria).",
+        "Controlar creatinina y electrolitos cada 48 h si el tratamiento es prolongado.",
+        "Retener la dosis si el paciente presenta dolor abdominal intenso o sangrado activo y notificar al médico.",
+        "Administrar con alimentos o antiácidos para proteger la mucosa gástrica."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento con alimentos o leche para minimizar irritación gástrica.",
+        "No exceder la dosis recomendada ni combinar con otros AINES sin autorización.",
+        "Evitar alcohol y tabaco mientras se usa ibuprofeno.",
+        "Informar al profesional de salud si aparecen sangre en heces, vómito o dolor abdominal severo.",
+        "Reportar cualquier signo de alergia (urticaria, dificultad respiratoria)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de AINES",
+          "úlcera péptica previa",
+          "coagulopatía",
+          "uso concomitante de anticoagulantes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasia: ausencia de sangrado observable en 48 h",
+          "Integridad de la piel: sin lesiones de sangrado durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar historial de sangrado, úlceras y uso de anticoagulantes antes de administrar ibuprofeno",
+            "rationale": "Identifica factores de riesgo que aumentan la probabilidad de hemorragia."
+          },
+          {
+            "action": "Monitorear signos vitales y signos de sangrado gastrointestinal cada 4 h",
+            "rationale": "Permite detección temprana de hemorragia y respuesta oportuna."
+          },
+          {
+            "action": "Observar heces y orina en busca de sangre (melena, hematuria)",
+            "rationale": "Detecta sangrado oculto que puede no ser evidente clínicamente."
+          },
+          {
+            "action": "Administrar ibuprofeno con alimentos o antiácidos",
+            "rationale": "Reduce irritación de la mucosa gástrica y disminuye riesgo de úlcera."
+          },
+          {
+            "action": "Educar al paciente sobre evitar alcohol y otros AINES mientras esté en tratamiento",
+            "rationale": "Previene la potenciación del efecto hemorrágico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Ibuprofen",
+    "aliases": [
+      "ibuprofen",
+      "analgesic",
+      "anti-inflammatory",
+      "pain",
+      "fever"
+    ],
+    "summary": "Ibuprofen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve mild‑to‑moderate pain, fever, and inflammation.",
+    "key_points": [
+      "Inhibits COX‑1 and COX‑2, reducing prostaglandins.",
+      "Administered orally, with food to reduce gastric irritation.",
+      "Contraindicated in active peptic ulcer and severe renal insufficiency.",
+      "May increase bleeding risk, especially with anticoagulants.",
+      "Monitor renal function and signs of hemorrhage during treatment."
+    ],
+    "sections": {
+      "mechanism": [
+        "Irreversibly blocks the cyclooxygenase enzyme (COX‑1 and COX‑2).",
+        "Reduces synthesis of prostaglandins that mediate pain and inflammation.",
+        "Decreases sensitivity of peripheral nociceptors."
+      ],
+      "indications": [
+        "Mild to moderate pain (headache, dental, muscular, joint).",
+        "Non‑infectious fever.",
+        "Acute inflammation (arthritis, tendinitis)."
+      ],
+      "contraindications": [
+        "Active peptic ulcer or history of gastrointestinal bleeding.",
+        "Severe renal insufficiency (creatinine >2.5 mg/dL).",
+        "Hypersensitivity to ibuprofen or other NSAIDs.",
+        "Pregnancy in the third trimester."
+      ],
+      "adverse_effects": [
+        "Abdominal pain, dyspepsia, nausea (common).",
+        "Peripheral edema, increased blood pressure (common).",
+        "Gastrointestinal bleeding (serious).",
+        "Acute renal failure (serious).",
+        "Anaphylactic type allergic reaction (serious)."
+      ],
+      "interactions": [
+        "Increases anticoagulant effect of warfarin and heparin.",
+        "Potentiates ulcer risk with corticosteroids or other NSAIDs.",
+        "Reduces efficacy of antihypertensives (ACE inhibitors, diuretics).",
+        "Raises lithium levels, potentially causing toxicity."
+      ],
+      "nursing_care": [
+        "Assess ulcer history, bleeding, and renal function before administration.",
+        "Monitor vital signs and watch for bleeding signs (hematemesis, melena, hematuria).",
+        "Check creatinine and electrolytes every 48 h if treatment is prolonged.",
+        "Hold dose if patient has severe abdominal pain or active bleeding and notify provider.",
+        "Administer with food or antacids to protect gastric mucosa."
+      ],
+      "patient_teaching": [
+        "Take the medication with food or milk to minimize gastric irritation.",
+        "Do not exceed the recommended dose or combine with other NSAIDs without authorization.",
+        "Avoid alcohol and tobacco while taking ibuprofen.",
+        "Inform the health professional if blood appears in stool, vomit, or severe abdominal pain occurs.",
+        "Report any signs of allergy (hives, breathing difficulty)."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "NSAID use",
+          "previous peptic ulcer",
+          "coagulopathy",
+          "concomitant anticoagulant use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hemostasis: no observable bleeding within 48 h",
+          "Skin integrity: no bleeding lesions during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Assess bleeding history, ulcers, and anticoagulant use before administering ibuprofen",
+            "rationale": "Identifies risk factors that increase likelihood of hemorrhage."
+          },
+          {
+            "action": "Monitor vital signs and gastrointestinal bleeding signs every 4 h",
+            "rationale": "Allows early detection of hemorrhage and timely response."
+          },
+          {
+            "action": "Observe stool and urine for blood (melena, hematuria)",
+            "rationale": "Detects occult bleeding that may not be clinically evident."
+          },
+          {
+            "action": "Administer ibuprofen with food or antacids",
+            "rationale": "Reduces gastric mucosal irritation and lowers ulcer risk."
+          },
+          {
+            "action": "Educate patient to avoid alcohol and other NSAIDs during treatment",
+            "rationale": "Prevents potentiation of hemorrhagic effect."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "gastrointestinal-bleeding",
+    "renal-insufficiency",
+    "nsaid-therapy"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Drug Sources, Forms, and Names",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/1-2-drug-sources-forms-and-names",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Inflammatory Response and Anti-inflammatory Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/6-4-introduction-to-the-inflammatory-response-and-anti-inflammatory-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-22",
+  "factcheck": {
+    "checked": "2026-11-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 35
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

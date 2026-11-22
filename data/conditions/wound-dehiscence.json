@@ -1,0 +1,501 @@
+{
+  "id": "wound-dehiscence",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Deshiscencia de herida",
+    "aliases": [
+      "dehiscencia",
+      "herida",
+      "deshiscencia",
+      "ruptura",
+      "cicatrizacion",
+      "cicatriz"
+    ],
+    "summary": "Separación parcial o total de los bordes de una herida quirúrgica que impide la cicatrización adecuada.",
+    "key_points": [
+      "Ocurre cuando la integridad de la sutura se rompe.",
+      "Factores como infección, tensión y mala nutrición aumentan el riesgo.",
+      "Se manifiesta con dolor, sangrado y exposición de tejido subyacente.",
+      "Requiere intervención rápida para prevenir infección y pérdida de líquidos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La sutura no mantiene la aproximación de los bordes.",
+        "El tejido de granulación no se forma adecuadamente.",
+        "La presión mecánica o la infección degradan la matriz extracelular.",
+        "Los bordes se separan, exponiendo tejido subcutáneo o muscular."
+      ],
+      "risk_factors": [
+        "Tensión excesiva en la zona operada.",
+        "Infección de la herida.",
+        "Mala nutrición (proteínas < 7 g/dL).",
+        "Uso de corticosteroides o inmunosupresores.",
+        "Diabetes mellitus mal controlada."
+      ],
+      "signs_symptoms": [
+        "Dolor agudo en el sitio quirúrgico.",
+        "Señal visible de separación de los bordes.",
+        "Sangrado o exudado seroso/purulento.",
+        "Sensación de calor o enrojecimiento alrededor."
+      ],
+      "diagnostics": [
+        "Inspección visual de la herida.",
+        "Cultivo de exudado si hay sospecha de infección.",
+        "Valoración de signos vitales: taquicardia, fiebre > 38 °C.",
+        "Hemoglobina y hematocrito si hay pérdida sanguínea significativa."
+      ],
+      "treatment": [
+        "Reposición de volumen con solución salina 0.9 % IV si hay pérdida.",
+        "Antibiótico de amplio espectro (p. ej., cefazolina) si hay infección.",
+        "Re‑sutura o cierre secundario bajo condiciones estériles.",
+        "Aplicación de apósitos absorbentes y estériles.",
+        "Control del dolor con analgésicos (paracetamol, opioides leves)."
+      ],
+      "complications": [
+        "Infección profunda y sepsis.",
+        "Formación de absceso.",
+        "Desbalance electrolítico por pérdida de exudado.",
+        "Retraso en la cicatrización y formación de herida crónica."
+      ],
+      "nursing_care": [
+        "Evaluar diariamente la integridad de la herida y signos de infección.",
+        "Monitorear signos vitales y nivel de dolor cada 4 h.",
+        "Mantener el apósito estéril y cambiar según protocolo.",
+        "Registrar pérdida de exudado (mL) y características.",
+        "Posicionar al paciente para reducir tensión en la zona operada."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de no mover o tensionar la zona operada.",
+        "Enseñar cómo observar signos de infección y reportarlos.",
+        "Instruir sobre el cuidado del apósito y la higiene de manos.",
+        "Reforzar la nutrición adecuada (proteínas, vitaminas C y Z).",
+        "Programar la visita de control y seguir el plan de antibióticos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida de exudado",
+          "sangrado de la herida",
+          "dolor que limita ingesta oral"
+        ],
+        "evidenced_by": [
+          "disminución de la presión arterial",
+          "taquicardia",
+          "orina escasa",
+          "piel húmeda y fría"
+        ],
+        "outcomes": [
+          "Volumen de líquidos: mantener equilibrio hídrico (ingesta ≥ 2 L/día, salida < 1500 mL/día).",
+          "Perfusión tisular: signos de perfusión adecuados (piel rosada, capilaridad < 2 s)."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar y registrar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Permite detectar desequilibrio hídrico temprano."
+          },
+          {
+            "action": "Administrar solución salina 0.9 % IV según prescripción y monitorizar signos vitales.",
+            "rationale": "Reemplaza el volumen perdido y previene hipotensión."
+          },
+          {
+            "action": "Observar y documentar la cantidad y tipo de exudado de la herida.",
+            "rationale": "Ayuda a estimar la pérdida de líquidos y a ajustar la reposición."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de ingerir líquidos y alimentos ricos en proteínas.",
+            "rationale": "Facilita la recuperación y mantiene el equilibrio de líquidos."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar la terapia de reposición de líquidos según resultados de laboratorio.",
+            "rationale": "Asegura una reposición adecuada y evita sobrecarga."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "tensión de sutura",
+          "exudado prolongado",
+          "diabetes",
+          "uso de corticosteroides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Integridad de la piel: ausencia de signos de infección durante la estancia hospitalaria.",
+          "Control de la infección: temperatura < 38 °C y leucocitos < 12 000 mm³."
+        ],
+        "interventions": [
+          {
+            "action": "Realizar asepsia estricta al cambiar apósitos y al manipular la herida.",
+            "rationale": "Reduce la carga microbiana y previene la colonización."
+          },
+          {
+            "action": "Aplicar apósitos estériles con absorción adecuada según la cantidad de exudado.",
+            "rationale": "Mantiene un ambiente húmedo óptimo y controla la contaminación."
+          },
+          {
+            "action": "Monitorear temperatura, frecuencia cardíaca y aspecto de la herida cada 4 h.",
+            "rationale": "Detecta tempranamente signos de infección."
+          },
+          {
+            "action": "Educar al paciente sobre higiene de manos y signos de infección a reportar.",
+            "rationale": "Fomenta la participación del paciente en la prevención."
+          },
+          {
+            "action": "Coordinar la toma de cultivos si hay exudado purulento o aumento de dolor.",
+            "rationale": "Permite iniciar antibiótico dirigido rápidamente."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Wound dehiscence",
+    "aliases": [
+      "dehiscence",
+      "wound",
+      "rupture",
+      "healing",
+      "scar"
+    ],
+    "summary": "Partial or complete separation of the edges of a surgical wound that prevents proper healing.",
+    "key_points": [
+      "Occurs when the integrity of the suture is broken.",
+      "Factors such as infection, tension, and poor nutrition increase the risk.",
+      "Manifests with pain, bleeding, and exposure of underlying tissue.",
+      "Requires prompt intervention to prevent infection and fluid loss."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The suture fails to maintain approximation of the edges.",
+        "Granulation tissue does not form properly.",
+        "Mechanical pressure or infection degrades the extracellular matrix.",
+        "The edges separate, exposing subcutaneous or muscular tissue."
+      ],
+      "risk_factors": [
+        "Excessive tension in the operated area.",
+        "Wound infection.",
+        "Poor nutrition (protein < 7 g/dL).",
+        "Use of corticosteroids or immunosuppressants.",
+        "Uncontrolled diabetes mellitus."
+      ],
+      "signs_symptoms": [
+        "Sharp pain at the surgical site.",
+        "Visible sign of edge separation.",
+        "Bleeding or serous/purulent exudate.",
+        "Feeling of heat or redness around the area."
+      ],
+      "diagnostics": [
+        "Visual inspection of the wound.",
+        "Exudate culture if infection is suspected.",
+        "Vital sign assessment: tachycardia, fever > 38 °C.",
+        "Hemoglobin and hematocrit if significant blood loss."
+      ],
+      "treatment": [
+        "Fluid replacement with 0.9 % saline IV if there is loss.",
+        "Broad‑spectrum antibiotic (e.g., cefazolin) if infection is present.",
+        "Re‑suturing or secondary closure under sterile conditions.",
+        "Application of absorbent and sterile dressings.",
+        "Pain control with analgesics (acetaminophen, mild opioids)."
+      ],
+      "complications": [
+        "Deep infection and sepsis.",
+        "Abscess formation.",
+        "Electrolyte imbalance from exudate loss.",
+        "Delayed healing and chronic wound formation."
+      ],
+      "nursing_care": [
+        "Assess wound integrity and signs of infection daily.",
+        "Monitor vital signs and pain level every 4 h.",
+        "Maintain sterile dressing and change per protocol.",
+        "Record exudate loss (mL) and characteristics.",
+        "Position the patient to reduce tension on the operated area."
+      ],
+      "patient_teaching": [
+        "Explain the importance of not moving or tensioning the operated area.",
+        "Teach how to observe signs of infection and report them.",
+        "Instruct on dressing care and hand hygiene.",
+        "Reinforce adequate nutrition (protein, vitamins C and Z).",
+        "Schedule follow‑up visits and adhere to the antibiotic plan."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "exudate loss",
+          "wound bleeding",
+          "pain limiting oral intake"
+        ],
+        "evidenced_by": [
+          "decreased blood pressure",
+          "tachycardia",
+          "low urine output",
+          "dry and cold skin"
+        ],
+        "outcomes": [
+          "Fluid volume: maintain fluid balance (intake ≥ 2 L/day, output < 1500 mL/day).",
+          "Tissue perfusion: adequate perfusion signs (pink skin, capillary refill < 2 s)."
+        ],
+        "interventions": [
+          {
+            "action": "Assess and record fluid intake and output every 8 h.",
+            "rationale": "Allows early detection of fluid imbalance."
+          },
+          {
+            "action": "Administer 0.9 % saline IV per prescription and monitor vital signs.",
+            "rationale": "Replaces lost volume and prevents hypotension."
+          },
+          {
+            "action": "Observe and document the amount and type of wound exudate.",
+            "rationale": "Helps estimate fluid loss and adjust replacement."
+          },
+          {
+            "action": "Educate the patient on the importance of drinking fluids and protein‑rich foods.",
+            "rationale": "Facilitates recovery and maintains fluid balance."
+          },
+          {
+            "action": "Collaborate with the physician to adjust fluid replacement therapy based on lab results.",
+            "rationale": "Ensures adequate replacement and avoids overload."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "suture tension",
+          "prolonged exudate",
+          "diabetes",
+          "corticosteroid use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Skin integrity: absence of infection signs during hospitalization.",
+          "Infection control: temperature < 38 °C and leukocytes < 12 000 mm³."
+        ],
+        "interventions": [
+          {
+            "action": "Perform strict asepsis when changing dressings and handling the wound.",
+            "rationale": "Reduces microbial load and prevents colonization."
+          },
+          {
+            "action": "Apply sterile dressings with adequate absorption based on exudate amount.",
+            "rationale": "Maintains an optimal moist environment and controls contamination."
+          },
+          {
+            "action": "Monitor temperature, heart rate, and wound appearance every 4 h.",
+            "rationale": "Detects early signs of infection."
+          },
+          {
+            "action": "Educate the patient on hand hygiene and infection signs to report.",
+            "rationale": "Encourages patient participation in prevention."
+          },
+          {
+            "action": "Coordinate culture collection if purulent exudate or increased pain occurs.",
+            "rationale": "Allows rapid initiation of targeted antibiotics."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "wound-infection",
+    "fluid-imbalance",
+    "surgical-site-infection",
+    "tissue-perfusion",
+    "pain-management"
+  ],
+  "sources": [
+    {
+      "name": "Clinical Nursing Skills: Wound Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/8-3-wound-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Wound Healing",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/24-4-wound-healing",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-22",
+  "factcheck": {
+    "checked": "2026-11-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 28,
+      "contradicted": 2,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Patients are often concerned about the wound-healing process and complications that may arise, such as wound dehiscence (partial or complete opening of a wound) and infection.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Localized Factors A localized wound healing factor (e.g., desiccation , maceration , trauma, pressure, excessive bleeding and edema, or infection) directly affects the wound and may delay the process of healing.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "supported",
+        "quote": "Uncontrolled blood sugar levels can damage the nerves and cause numbing sensations known as diabetic neuropathy .",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Exudate Increased exudate; cloudy, yellow, green, pus; smelly; leaking around wound closures",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Periwound area Redness, inflammation, streaks leading out from wound",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Dressings should also be absorbent, provide a barrier from bacteria, limit pain at the wound site, provide thermal insulation, and permit pain-free removal.",
+        "source": 0
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "If indicated, prescribed analgesics may be administered thirty to forty-five minutes before the dressing change to limit discomfort associated with dressing changes.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "However, with wound complications, infection can lead to the development of a fistula from an abscess.",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Vacuum-assisted closure (VAC) may also be necessary to promote healing of difficult wounds or in patients with risk factors for delayed healing (such as older adult patients with chronic health conditions) (Agarwal et al., 2019).",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "contradicted",
+        "quote": "If possible, any dressings should be checked frequently during the first forty-eight hours after the injury and at least every eight hours thereafter.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Placing the patient in the low Fowler’s position and slightly bending their knees will lower intra-abdominal pressure on the wound .",
+        "source": 0
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Other education should include proper hand hygiene before and after care as well as the signs and symptoms of infection.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "contradicted",
+        "quote": "Things such as protein, vitamin C, and fluids are important to intake in adequate amounts.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

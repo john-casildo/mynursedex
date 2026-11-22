@@ -1,0 +1,423 @@
+{
+  "id": "hypereosinophilic-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome hipereosinofílico (SHE)",
+    "aliases": [
+      "hipereosinofilia",
+      "sindrome hipereosinofilico",
+      "she",
+      "eosinofilia alta",
+      "sindrome eosinofilico"
+    ],
+    "summary": "Enfermedad rara caracterizada por eosinofilia persistente >1500 eosinófilos/µL y daño tisular en uno o más órganos.",
+    "key_points": [
+      "Eosinofilia >1500/µL durante >6 meses sin causa secundaria conocida.",
+      "Daño orgánico frecuente en corazón, pulmones, piel y tracto gastrointestinal.",
+      "Corticoides sistémicos son la base del tratamiento; fármacos dirigidos (p. ej., imatinib) en casos específicos.",
+      "Complicaciones graves incluyen miocarditis, trombosis y falla multiorgánica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Producción descontrolada de eosinófilos por clonación de progenitores mieloides.",
+        "Eosinófilos liberan citocinas, proteínas catiónicas y peróxido de hidrógeno, provocando inflamación.",
+        "Infiltración tisular produce daño estructural y fibrosis en órganos afectados."
+      ],
+      "risk_factors": [
+        "Trastornos mieloproliferativos subyacentes.",
+        "Mutaciones en PDGFRA, PDGFRB o FGFR1.",
+        "Exposición crónica a alérgenos o parásitos (excluidos si se identifican)."
+      ],
+      "signs_symptoms": [
+        "Fiebre, fatiga y pérdida de peso.",
+        "Dermatitis pruriginosa, urticaria o lesiones cutáneas.",
+        "Disnea, tos y sibilancias por infiltrado pulmonar.",
+        "Dolor torácico, arritmias o insuficiencia cardíaca por miocarditis."
+      ],
+      "diagnostics": [
+        "Hemograma: eosinofilos >1500/µL en al menos 2 pruebas separadas por 1 mes.",
+        "Estudios de imagen (eco‑cardiograma, resonancia) para detectar infiltración cardíaca.",
+        "Biopsia de órgano afectado muestra infiltrado eosinofílico.",
+        "Panel genético para mutaciones de PDGFRA/B y FGFR1."
+      ],
+      "treatment": [
+        "Corticoides sistémicos (prednisona) como primera línea.",
+        "Inhibidores de tirosina quinasa (imatinib) si hay mutación PDGFRA/B.",
+        "Agentes biológicos anti‑IL‑5 (mepolizumab) en casos refractarios.",
+        "Manejo de complicaciones: anticoagulación si hay trombosis, diuréticos para insuficiencia cardíaca."
+      ],
+      "complications": [
+        "Miocarditis eosinofílica → insuficiencia cardíaca.",
+        "Trombosis y embolia por daño endotelial.",
+        "Fibrosis pulmonar crónica.",
+        "Daño renal por infiltrado eosinofílico."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 4 h; prestar atención a presión arterial y frecuencia cardíaca.",
+        "Evaluar edema, peso diario y capacidad respiratoria.",
+        "Observar signos de sangrado o trombosis (dolor súbito, hinchazón).",
+        "Administrar corticoides según orden, observar efectos adversos (hiperglucemia, infección).",
+        "Mantener registro de recuento de eosinófilos y resultados de pruebas de imagen."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de la adherencia al tratamiento con corticoides y posibles efectos secundarios.",
+        "Instruir sobre signos de alarma: dolor torácico, dificultad respiratoria, hinchazón de piernas.",
+        "Fomentar control regular de laboratorio (eosinófilos, glucosa, electrolitos).",
+        "Promover una dieta balanceada y actividad física moderada según tolerancia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de función cardiovascular ineficaz",
+        "type": "risk",
+        "related_to": [
+          "infiltración eosinofílica del miocardio",
+          "miocarditis",
+          "trombosis intracardíaca"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca: mantener presión arterial sistólica ≥ 100 mmHg durante la hospitalización",
+          "Actividad física: tolerar caminata de 50 m sin disnea en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 4 h",
+            "rationale": "Detectar precozmente deterioro hemodinámico"
+          },
+          {
+            "action": "Evaluar signos de insuficiencia cardíaca (edema, ortopnea, peso)",
+            "rationale": "Identificar acumulación de líquido y necesidad de intervención"
+          },
+          {
+            "action": "Administrar corticoides y, si está indicado, imatinib según prescripción",
+            "rationale": "Reducir inflamación eosinofílica y prevenir daño miocárdico"
+          },
+          {
+            "action": "Colaborar con el médico para iniciar anticoagulación si hay evidencia de trombosis",
+            "rationale": "Prevenir embolización y complicaciones trombóticas"
+          },
+          {
+            "action": "Educar al paciente sobre signos de alerta cardíaca (dolor torácico, palpitaciones)",
+            "rationale": "Facilitar búsqueda temprana de atención médica"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "terapia prolongada con corticoides",
+          "pérdida renal de potasio",
+          "diuresis por insuficiencia cardíaca"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: mantener Na⁺ 135‑145 mEq/L y K⁺ 3.5‑5.0 mEq/L durante la estancia",
+          "Glucemia: mantener glucosa < 180 mg/dL en ayuno"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel de electrolitos y glucosa cada 24 h",
+            "rationale": "Detectar alteraciones tempranas por corticoides o diuréticos"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos, incluyendo diuréticos administrados",
+            "rationale": "Evaluar balance hídrico y riesgo de hipopotasemia"
+          },
+          {
+            "action": "Administrar suplementos de potasio oral o IV según orden médica",
+            "rationale": "Prevenir hipopotasemia que puede precipitar arritmias"
+          },
+          {
+            "action": "Enseñar al paciente a reconocer síntomas de desequilibrio (calambres, debilidad, palpitaciones)",
+            "rationale": "Promover autocuidado y reporte oportuno"
+          },
+          {
+            "action": "Revisar y ajustar dosis de corticoides para minimizar efectos metabólicos",
+            "rationale": "Reducir riesgo de hiperglucemia y pérdida de calcio"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hyper-eosinophilic syndrome (HES)",
+    "aliases": [
+      "hyper-eosinophilia",
+      "hyper-eosinophilic syndrome",
+      "hes",
+      "high eosinophils",
+      "eosinophilic syndrome"
+    ],
+    "summary": "Rare disease characterized by persistent eosinophilia >1500 eosinophils/µL and tissue damage in one or more organs.",
+    "key_points": [
+      "Eosinophilia >1500/µL for >6 months without known secondary cause.",
+      "Common organ damage in heart, lungs, skin and gastrointestinal tract.",
+      "Systemic corticosteroids are the foundation of treatment; targeted drugs (e.g., imatinib) in specific cases.",
+      "Severe complications include myocarditis, thrombosis and multi‑organ failure."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Uncontrolled production of eosinophils from clonal myeloid progenitors.",
+        "Eosinophils release cytokines, cationic proteins and hydrogen peroxide, causing inflammation.",
+        "Tissue infiltration leads to structural damage and fibrosis in affected organs."
+      ],
+      "risk_factors": [
+        "Underlying myeloproliferative disorders.",
+        "Mutations in PDGFRA, PDGFRB or FGFR1.",
+        "Chronic exposure to allergens or parasites (excluded if identified)."
+      ],
+      "signs_symptoms": [
+        "Fever, fatigue and weight loss.",
+        "Pruritic dermatitis, hives or skin lesions.",
+        "Dyspnea, cough and wheezing from pulmonary infiltrate.",
+        "Chest pain, arrhythmias or heart failure from myocarditis."
+      ],
+      "diagnostics": [
+        "CBC: eosinophils >1500/µL on at least 2 separate tests 1 month apart.",
+        "Imaging studies (echocardiogram, MRI) to detect cardiac infiltration.",
+        "Biopsy of affected organ shows eosinophilic infiltrate.",
+        "Genetic panel for PDGFRA/B and FGFR1 mutations."
+      ],
+      "treatment": [
+        "Systemic corticosteroids (prednisone) as first line.",
+        "Tyrosine kinase inhibitors (imatinib) if PDGFRA/B mutation present.",
+        "Anti‑IL‑5 biologics (mepolizumab) in refractory cases.",
+        "Management of complications: anticoagulation if thrombosis, diuretics for heart failure."
+      ],
+      "complications": [
+        "Eosinophilic myocarditis → heart failure.",
+        "Thrombosis and embolism from endothelial damage.",
+        "Chronic pulmonary fibrosis.",
+        "Kidney damage from eosinophilic infiltrate."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 4 h; pay attention to blood pressure and heart rate.",
+        "Assess edema, daily weight and respiratory capacity.",
+        "Observe for signs of bleeding or thrombosis (sudden pain, swelling).",
+        "Administer corticosteroids as ordered, monitor for adverse effects (hyperglycemia, infection).",
+        "Maintain record of eosinophil count and imaging results."
+      ],
+      "patient_teaching": [
+        "Explain importance of adherence to corticosteroid therapy and possible side effects.",
+        "Teach warning signs: chest pain, shortness of breath, leg swelling.",
+        "Encourage regular lab monitoring (eosinophils, glucose, electrolytes).",
+        "Promote balanced diet and moderate physical activity as tolerated."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for impaired cardiovascular function",
+        "type": "risk",
+        "related_to": [
+          "eosinophilic infiltration of myocardium",
+          "myocarditis",
+          "intracardiac thrombosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cardiac tissue perfusion: maintain systolic blood pressure ≥ 100 mmHg during hospitalization",
+          "Physical activity: tolerate 50 m walk without dyspnea in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 4 h",
+            "rationale": "Detect early hemodynamic deterioration"
+          },
+          {
+            "action": "Assess signs of heart failure (edema, orthopnea, weight)",
+            "rationale": "Identify fluid accumulation and need for intervention"
+          },
+          {
+            "action": "Administer corticosteroids and, if indicated, imatinib per prescription",
+            "rationale": "Reduce eosinophilic inflammation and prevent myocardial damage"
+          },
+          {
+            "action": "Collaborate with physician to initiate anticoagulation if thrombosis evidence",
+            "rationale": "Prevent embolization and thrombotic complications"
+          },
+          {
+            "action": "Educate patient on cardiac warning signs (chest pain, palpitations)",
+            "rationale": "Facilitate early medical attention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "prolonged corticosteroid therapy",
+          "renal potassium loss",
+          "diuresis from heart failure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: maintain Na⁺ 135‑145 mEq/L and K⁺ 3.5‑5.0 mEq/L during stay",
+          "Glucose: maintain < 180 mg/dL fasting"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain electrolyte and glucose panel every 24 h",
+            "rationale": "Detect early changes from corticosteroids or diuretics"
+          },
+          {
+            "action": "Record intake and output, including administered diuretics",
+            "rationale": "Assess fluid balance and risk of hypokalemia"
+          },
+          {
+            "action": "Administer oral or IV potassium supplements as ordered",
+            "rationale": "Prevent hypokalemia that can precipitate arrhythmias"
+          },
+          {
+            "action": "Teach patient to recognize imbalance symptoms (cramps, weakness, palpitations)",
+            "rationale": "Promote self‑care and timely reporting"
+          },
+          {
+            "action": "Review and adjust corticosteroid dose to minimize metabolic effects",
+            "rationale": "Reduce risk of hyperglycemia and calcium loss"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "eosinophilia",
+    "cardiac-involvement",
+    "corticosteroid-therapy",
+    "myocarditis",
+    "organ-damage"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Eosinophilic Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/eosinophilicdisorders.html",
+      "lang": "en"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-22",
+  "factcheck": {
+    "checked": "2026-11-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 36,
+      "contradicted": 0,
+      "total": 36
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

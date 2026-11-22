@@ -1,0 +1,388 @@
+{
+  "id": "bowel-perforation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Perforación intestinal (PI)",
+    "aliases": [
+      "perforación intestinal",
+      "perforación del intestino",
+      "perforación gastrointestinal",
+      "perforación de colon",
+      "perforación de intestino"
+    ],
+    "summary": "Ruptura completa de la pared intestinal que permite el paso de contenido luminal al peritoneo, provocando peritonitis.",
+    "key_points": [
+      "Es una emergencia quirúrgica que requiere diagnóstico rápido.",
+      "El dolor abdominal súbito y la rigidez son signos clásicos.",
+      "La peritonitis secundaria puede conducir a sepsis y shock.",
+      "El manejo incluye antibióticos de amplio espectro y cirugía de reparación."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Desgarro de la mucosa, submucosa y muscular del intestino.",
+        "El contenido intestinal (bacterias, enzimas) entra al espacio peritoneal.",
+        "Se desencadena una respuesta inflamatoria aguda → peritonitis.",
+        "Si no se controla, progresa a sepsis y falla multiorgánica."
+      ],
+      "risk_factors": [
+        "Úlcera péptica perforada.",
+        "Diverticulitis complicada.",
+        "Enfermedad inflamatoria intestinal severa.",
+        "Trauma abdominal o procedimientos endoscópicos."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal intenso, de inicio súbito.",
+        "Rigidez y defensa muscular (signo de peritoneo irritado).",
+        "Distensión abdominal y ausencia de ruidos intestinales.",
+        "Fiebre, taquicardia y posible hipotensión."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen en posición erecta: aire libre bajo diafragma.",
+        "Tomografía axial computarizada (TAC) con contraste: perforación visible y líquido libre.",
+        "Leucocitosis >12,000 mm³ y PCR elevada.",
+        "Cultivo de líquido peritoneal si se realiza laparotomía."
+      ],
+      "treatment": [
+        "Reposición de volumen intravenoso (solución cristaloide isotónica).",
+        "Antibióticos de amplio espectro (p. ej., ceftriaxona + metronidazol).",
+        "Cirugía de emergencia: resección y cierre de la perforación.",
+        "Control del dolor con analgésicos opioides y no opioides."
+      ],
+      "complications": [
+        "Peritonitis generalizada.",
+        "Sepsis y shock séptico.",
+        "Absceso intraabdominal.",
+        "Falla renal aguda por hipoperfusión."
+      ],
+      "nursing_care": [
+        "Evaluar dolor cada 2 h usando escala numérica.",
+        "Monitorear signos vitales, especialmente temperatura y presión arterial.",
+        "Mantener al paciente en decúbito supino con rodillas flexionadas para reducir la tensión abdominal.",
+        "Registrar salida de líquidos y balance hídrico.",
+        "Vigilar el sitio quirúrgico y el drenaje por signos de infección."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de reposo absoluto y evitar esfuerzos abdominales.",
+        "Instruir sobre la importancia de completar el ciclo de antibióticos.",
+        "Enseñar signos de alarma: aumento del dolor, fiebre, cambios en la herida.",
+        "Promover la movilización temprana según indicación médica para prevenir trombosis."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "perforación intestinal",
+          "inflamación peritoneal"
+        ],
+        "evidenced_by": [
+          "dolor abdominal intenso",
+          "rigidez muscular",
+          "expresión facial de malestar"
+        ],
+        "outcomes": [
+          "Alivio del dolor: puntuación ≤3 en escala numérica de 0‑10 en 4 h.",
+          "Movilidad: paciente ambula con asistencia mínima en 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar analgesia según prescripción (opioide y/o AINE).",
+            "rationale": "Reduce la intensidad del dolor y facilita la evaluación clínica."
+          },
+          {
+            "action": "Evaluar nivel de dolor cada 2 h y registrar en la hoja de enfermería.",
+            "rationale": "Permite ajustar el tratamiento y detectar deterioro precoz."
+          },
+          {
+            "action": "Posicionar al paciente en decúbito supino con rodillas flexionadas.",
+            "rationale": "Disminuye la tensión de la pared abdominal y alivia el dolor."
+          },
+          {
+            "action": "Crear un ambiente tranquilo (luces tenues, ruido reducido).",
+            "rationale": "El confort ambiental disminuye la percepción del dolor."
+          },
+          {
+            "action": "Educar al paciente sobre el uso del método de comunicación del dolor (escala numérica).",
+            "rationale": "Facilita la expresión precisa del dolor y la respuesta del equipo."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "perforación intestinal",
+          "contaminación peritoneal",
+          "cirugía abdominal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Sin signos de infección: temperatura ≤37.5 °C durante 48 h.",
+          "Cultivos negativos y ausencia de exudado purulento en el drenaje."
+        ],
+        "interventions": [
+          {
+            "action": "Mantener técnica aséptica estricta al manipular el sitio quirúrgico y drenajes.",
+            "rationale": "Previene la introducción de microorganismos patógenos."
+          },
+          {
+            "action": "Monitorear temperatura cada 4 h y reportar fiebre >38 °C.",
+            "rationale": "Detección temprana de infección sistémica."
+          },
+          {
+            "action": "Administrar antibióticos profilácticos según orden médica.",
+            "rationale": "Reduce la carga bacteriana y previene peritonitis secundaria."
+          },
+          {
+            "action": "Observar y registrar el aspecto del drenaje (color, cantidad, olor).",
+            "rationale": "Cambios pueden indicar infección o fuga anastomótica."
+          },
+          {
+            "action": "Educar al paciente y familia sobre higiene de la herida y signos de infección.",
+            "rationale": "Promueve la participación activa y la detección precoz de complicaciones."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intestinal perforation (IP)",
+    "aliases": [
+      "intestinal perforation",
+      "perforation of the intestine",
+      "gastrointestinal perforation",
+      "colon perforation"
+    ],
+    "summary": "Complete rupture of the intestinal wall allowing luminal contents to pass into the peritoneum, causing peritonitis.",
+    "key_points": [
+      "It is a surgical emergency requiring rapid diagnosis.",
+      "Sudden abdominal pain and rigidity are classic signs.",
+      "Secondary peritonitis can lead to sepsis and shock.",
+      "Management includes broad‑spectrum antibiotics and surgical repair."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Tear of the mucosa, submucosa, and muscular layers of the intestine.",
+        "Intestinal contents (bacteria, enzymes) enter the peritoneal space.",
+        "An acute inflammatory response is triggered → peritonitis.",
+        "If uncontrolled, it progresses to sepsis and multiorgan failure."
+      ],
+      "risk_factors": [
+        "Perforated peptic ulcer.",
+        "Complicated diverticulitis.",
+        "Severe inflammatory bowel disease.",
+        "Abdominal trauma or endoscopic procedures."
+      ],
+      "signs_symptoms": [
+        "Sudden, intense abdominal pain.",
+        "Rigidity and muscular defense (sign of peritoneal irritation).",
+        "Abdominal distension and absent bowel sounds.",
+        "Fever, tachycardia, and possible hypotension."
+      ],
+      "diagnostics": [
+        "Standing abdominal X‑ray: free air under the diaphragm.",
+        "Contrast‑enhanced CT scan: visible perforation and free fluid.",
+        "Leukocytosis >12,000 mm³ and elevated CRP.",
+        "Peritoneal fluid culture if laparotomy is performed."
+      ],
+      "treatment": [
+        "Intravenous fluid resuscitation (isotonic crystalloid solution).",
+        "Broad‑spectrum antibiotics (e.g., ceftriaxone + metronidazole).",
+        "Emergency surgery: resection and closure of the perforation.",
+        "Pain control with opioid and non‑opioid analgesics."
+      ],
+      "complications": [
+        "Generalized peritonitis.",
+        "Sepsis and septic shock.",
+        "Intraabdominal abscess.",
+        "Acute renal failure from hypoperfusion."
+      ],
+      "nursing_care": [
+        "Assess pain every 2 h using a numeric scale.",
+        "Monitor vital signs, especially temperature and blood pressure.",
+        "Keep the patient supine with knees flexed to reduce abdominal tension.",
+        "Record fluid output and maintain fluid balance.",
+        "Monitor the surgical site and drainage for signs of infection."
+      ],
+      "patient_teaching": [
+        "Explain the need for absolute rest and avoid abdominal strain.",
+        "Instruct on the importance of completing the antibiotic course.",
+        "Teach warning signs: increased pain, fever, wound changes.",
+        "Encourage early mobilization as ordered to prevent thrombosis."
+      ]
+    },
+    "care_plans": []
+  },
+  "related": [
+    "peritonitis",
+    "sepsis",
+    "abdominal-pain",
+    "bowel-obstruction",
+    "surgical-site-infection"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Gastrointestinal Bleeding",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/gastrointestinalbleeding.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Factors Affecting Bowel Elimination",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-2-factors-affecting-bowel-elimination",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Diagnostic Evaluation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-3-diagnostic-evaluation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-22",
+  "factcheck": {
+    "checked": "2026-11-22",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Abnormal findings (e.g., air-fluid levels, dilated loops of bowel, free air under the diaphragm) may indicate pathology.",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Opioid analgesics (e.g., morphine, codeine, oxycodone, hydrocodone) are commonly prescribed for pain management.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "During the procedure, nurses continuously monitor the patient’s vital signs (e.g., heart rate, blood pressure, respiratory rate, oxygen saturation), observe their response to sedation, and watch for any signs of adverse reactions or complications.",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
