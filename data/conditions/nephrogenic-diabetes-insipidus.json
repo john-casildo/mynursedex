@@ -1,0 +1,452 @@
+{
+  "id": "nephrogenic-diabetes-insipidus",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diabetes insípida nefrogénica (DIN)",
+    "aliases": [
+      "di nefrogénica",
+      "diabetes insípida nefrogénica",
+      "poliuria",
+      "poliadipsia",
+      "insuficiencia adh",
+      "pérdida de agua"
+    ],
+    "summary": "La DIN es una forma de diabetes insípida en la que los riñones no responden a la hormona antidiurética (ADH), produciendo orina muy diluida y mucha sed.",
+    "key_points": [
+      "Resistencia renal al ADH por defecto del receptor V2 o de los canales de agua.",
+      "Poliuria >3 L/d y poli‑adipsia son los signos cardinales.",
+      "Prueba de restricción hídrica y respuesta a ADH diferencian DIN de DI central.",
+      "Tratamiento de primera línea: diuréticos tiazídicos, dieta baja en sodio y suficiente ingesta de líquidos.",
+      "Complicaciones principales: deshidratación, hipernatremia y deterioro renal."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "ADH se une al receptor V2 en los túbulos colectores.",
+        "En la DIN el receptor o los canales de aquaporina-2 están alterados.",
+        "No se inserta agua en el lumen, generando orina hipotónica.",
+        "El cuerpo pierde agua rápidamente, activando la sed."
+      ],
+      "risk_factors": [
+        "Mutaciones congénitas del gen AVPR2 (receptor V2).",
+        "Uso crónico de litio o demeclociclina.",
+        "Hipercalcemia o hipopotasemia prolongada.",
+        "Enfermedades renales que dañan los túbulos colectores."
+      ],
+      "signs_symptoms": [
+        "Poliuria constante (>3 L/d), a menudo nocturna.",
+        "Poli‑adipsia intensa, sed constante.",
+        "Deshidratación: piel seca, mucosas secas, hipotensión ortostática.",
+        "Hipernatremia (Na⁺ >145 mEq/L) si la ingesta no compensa."
+      ],
+      "diagnostics": [
+        "Osmolalidad urinaria <300 mOsm/kg con osmolalidad sérica >295 mOsm/kg.",
+        "Prueba de restricción hídrica: la orina sigue siendo diluida.",
+        "Administración de ADH sintética (desmopresina) sin aumento de concentración urinaria confirma DIN.",
+        "Análisis de electrolitos: Na⁺ elevado, K⁺ bajo en algunos casos."
+      ],
+      "treatment": [
+        "Diurético tiazídico (hidroclorotiazida) para reducir volumen extracelular y disminuir poliuria.",
+        "Indometacina (AINE) para potenciar la acción del ADH renal.",
+        "Dieta baja en sodio y adecuada ingesta de agua según sed.",
+        "Evitar litio y otros fármacos que empeoren la resistencia al ADH."
+      ],
+      "complications": [
+        "Deshidratación severa y choque hipovolémico.",
+        "Hipernatremia con riesgo de convulsiones.",
+        "Insuficiencia renal crónica por pérdida de volumen.",
+        "Alteraciones del equilibrio ácido‑base."
+      ],
+      "nursing_care": [
+        "Registrar ingesta y salida de líquidos cada 8 h; comparar con peso diario.",
+        "Monitorear signos vitales, presión arterial y frecuencia cardíaca para detectar hipovolemia.",
+        "Controlar electrolitos séricos, especialmente Na⁺ y K⁺.",
+        "Evaluar piel y mucosas en busca de deshidratación.",
+        "Colaborar con el médico en la administración de tiazidas y AINEs."
+      ],
+      "patient_teaching": [
+        "Beber agua cuando sienta sed; no esperar a la sed extrema.",
+        "Reconocer signos de deshidratación (mareos, boca seca, orina muy clara).",
+        "Limitar alimentos altos en sodio y evitar el litio.",
+        "Reportar aumento súbito de la frecuencia urinaria o síntomas neurológicos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "poliuria excesiva",
+          "resistencia renal al ADH",
+          "ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [
+          "orina diluida >3 L/d",
+          "sed intensa",
+          "peso corporal disminuido",
+          "presión arterial baja"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos equilibradas (I/O < 100 mL de diferencia en 24 h).",
+          "Estado de hidratación: piel y mucosas húmedas, sin signos de deshidratación en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar I/O cada 8 h y comparar con peso diario.",
+            "rationale": "Permite detectar rápidamente déficit de volumen y ajustar la terapia."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas, presión arterial).",
+            "rationale": "Identifica complicaciones tempranas de hipovolemia."
+          },
+          {
+            "action": "Administrar diurético tiazídico según prescripción y monitorizar electrolitos.",
+            "rationale": "Reduce la poliuria y ayuda a conservar agua corporal."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber agua según la sed y registrar la ingesta.",
+            "rationale": "Fomenta autocuidado y previene episodios de deshidratación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "poliuria prolongada",
+          "hipernatremia potencial",
+          "uso de diuréticos tiazídicos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: Na⁺ entre 135‑145 mEq/L en 72 h.",
+          "K⁺ sérico: mantener >3.5 mEq/L durante la terapia."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y revisar panel de electrolitos cada 24 h.",
+            "rationale": "Detecta alteraciones tempranas y permite intervención oportuna."
+          },
+          {
+            "action": "Alertar al médico ante Na⁺ >145 mEq/L o K⁺ <3.5 mEq/L.",
+            "rationale": "Previene complicaciones graves como convulsiones o arritmias."
+          },
+          {
+            "action": "Administrar suplementos de potasio si está indicado.",
+            "rationale": "Corrige hipocalemia asociada a tiazidas y poliuria."
+          },
+          {
+            "action": "Reforzar educación sobre dieta baja en sodio y consumo adecuado de líquidos.",
+            "rationale": "Ayuda a mantener el equilibrio de sodio y prevenir hipernatremia."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Nephrogenic diabetes insipidus (NDI)",
+    "aliases": [
+      "nephrogenic diabetes insipidus",
+      "diabetes insipidus nephrogenic",
+      "polyuria",
+      "polydipsia",
+      "adh insufficiency",
+      "water loss"
+    ],
+    "summary": "NDI is a form of diabetes insipidus in which the kidneys do not respond to antidiuretic hormone (ADH), producing very dilute urine and excessive thirst.",
+    "key_points": [
+      "Renal resistance to ADH due to V2 receptor defect or aquaporin-2 channel dysfunction.",
+      "Polyuria >3 L/d and polydipsia are cardinal signs.",
+      "Water restriction test and response to ADH differentiate NDI from central DI.",
+      "First‑line treatment: thiazide diuretics, low‑sodium diet, adequate fluid intake.",
+      "Major complications: dehydration, hypernatremia, renal deterioration."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "ADH binds to V2 receptors in collecting ducts.",
+        "In NDI the receptor or aquaporin‑2 channels are altered.",
+        "Water is not inserted into the lumen, producing hypotonic urine.",
+        "The body loses water rapidly, triggering thirst."
+      ],
+      "risk_factors": [
+        "Congenital AVPR2 gene mutations (V2 receptor).",
+        "Chronic use of lithium or demeclocycline.",
+        "Prolonged hypercalcemia or hypokalemia.",
+        "Renal diseases damaging collecting ducts."
+      ],
+      "signs_symptoms": [
+        "Constant polyuria (>3 L/d), often nocturnal.",
+        "Intense polydipsia, constant thirst.",
+        "Dehydration: dry skin, dry mucous membranes, orthostatic hypotension.",
+        "Hypernatremia (Na⁺ >145 mEq/L) if intake does not compensate."
+      ],
+      "diagnostics": [
+        "Urine osmolality <300 mOsm/kg with serum osmolality >295 mOsm/kg.",
+        "Water restriction test: urine remains dilute.",
+        "Synthetic ADH (desmopressin) administration without urine concentration confirms NDI.",
+        "Electrolyte analysis: elevated Na⁺, low K⁺ in some cases."
+      ],
+      "treatment": [
+        "Thiazide diuretic (hydrochlorothiazide) to reduce extracellular volume and decrease polyuria.",
+        "Indomethacin (NSAID) to potentiate renal ADH action.",
+        "Low‑sodium diet and adequate water intake per thirst.",
+        "Avoid lithium and other drugs that worsen ADH resistance."
+      ],
+      "complications": [
+        "Severe dehydration and hypovolemic shock.",
+        "Hypernatremia with risk of seizures.",
+        "Chronic renal failure from volume loss.",
+        "Acid‑base balance disturbances."
+      ],
+      "nursing_care": [
+        "Record fluid intake and output every 8 h; compare with daily weight.",
+        "Monitor vital signs, blood pressure, heart rate for hypovolemia.",
+        "Check serum electrolytes, especially Na⁺ and K⁺.",
+        "Assess skin and mucous membranes for dehydration.",
+        "Collaborate with physician on thiazide and NSAID administration."
+      ],
+      "patient_teaching": [
+        "Drink water when thirsty; do not wait for extreme thirst.",
+        "Recognize dehydration signs (dizziness, dry mouth, very clear urine).",
+        "Limit high‑sodium foods and avoid lithium.",
+        "Report sudden increase in urine frequency or neurological symptoms."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "excessive polyuria",
+          "renal resistance to ADH",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [
+          "dilute urine >3 L/d",
+          "intense thirst",
+          "decreased body weight",
+          "low blood pressure"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output equilibrium (I/O <100 mL difference in 24 h).",
+          "Hydration status: moist skin and mucous membranes, no dehydration signs within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Record I/O every 8 h and compare with daily weight.",
+            "rationale": "Allows rapid detection of volume deficit and therapy adjustment."
+          },
+          {
+            "action": "Assess dehydration signs (turgor, mucous membranes, blood pressure).",
+            "rationale": "Identifies early complications of hypovolemia."
+          },
+          {
+            "action": "Administer thiazide diuretic per prescription and monitor electrolytes.",
+            "rationale": "Reduces polyuria and helps conserve body water."
+          },
+          {
+            "action": "Educate patient on importance of drinking water per thirst and recording intake.",
+            "rationale": "Promotes self‑care and prevents dehydration episodes."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "prolonged polyuria",
+          "potential hypernatremia",
+          "use of thiazide diuretics"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: Na⁺ 135‑145 mEq/L within 72 h.",
+          "Serum K⁺: maintain >3.5 mEq/L during therapy."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and review electrolyte panel every 24 h.",
+            "rationale": "Detects early changes and allows timely intervention."
+          },
+          {
+            "action": "Alert physician if Na⁺ >145 mEq/L or K⁺ <3.5 mEq/L.",
+            "rationale": "Prevents serious complications such as seizures or arrhythmias."
+          },
+          {
+            "action": "Administer potassium supplements if indicated.",
+            "rationale": "Corrects hypokalemia associated with thiazides and polyuria."
+          },
+          {
+            "action": "Reinforce education on low‑sodium diet and adequate fluid consumption.",
+            "rationale": "Helps maintain sodium balance and prevent hypernatremia."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "central-diabetes-insipidus",
+    "hypernatremia",
+    "renal-tubular-disorders"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diabetes Insipidus",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diabetesinsipidus.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Diabetes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-1-introduction-to-diabetes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Oral Antidiabetic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-3-oral-antidiabetic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23",
+  "factcheck": {
+    "checked": "2026-11-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

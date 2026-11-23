@@ -1,0 +1,471 @@
+{
+  "id": "adh-deficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diabetes insípida (DI)",
+    "aliases": [
+      "diabetes insipida",
+      "deficiencia adh",
+      "poliuria",
+      "polidipsia",
+      "insuficiencia antidiurética"
+    ],
+    "summary": "Trastorno caracterizado por deficiencia o resistencia a la hormona antidiurética, produce poliuria y polidipsia.",
+    "key_points": [
+      "Pérdida de agua libre > 3 L/día",
+      "Orina hiposmolal (<300 mOsm/kg) y diluida",
+      "Polidipsia intensa para compensar la deshidratación",
+      "Desmopresina es el fármaco de elección"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La ADH (vasopresina) actúa en los túbulos colectores aumentando la reabsorción de agua.",
+        "En DI central, la hipófisis no produce ADH suficiente.",
+        "En DI nefrogénico, los riñones no responden a la ADH.",
+        "Sin reabsorción adecuada, el filtrado glomerular se excreta como orina muy diluida."
+      ],
+      "risk_factors": [
+        "Lesión o tumor de la hipófisis o tallo hipofisario.",
+        "Cirugía cerebral o radioterapia craneal.",
+        "Enfermedades renales hereditarias (ej. nefrogénica).",
+        "Uso crónico de litio o demeclociclina."
+      ],
+      "signs_symptoms": [
+        "Poliuria constante (>3 L/día).",
+        "Polidipsia excesiva, a menudo nocturna.",
+        "Deshidratación: piel seca, turgencia disminuida.",
+        "Hipernatremia leve si la ingesta de agua es insuficiente."
+      ],
+      "diagnostics": [
+        "Prueba de restricción hídrica: orina <300 mOsm/kg y aumento de osmolaridad plasmática.",
+        "Medición de osmolaridad sérica >295 mOsm/kg.",
+        "Respuesta a desmopresina: aumento >50% de osmolaridad urinaria indica DI central.",
+        "Exámenes de imagen (RMN) de hipófisis si se sospecha causa central."
+      ],
+      "treatment": [
+        "Desmopresina (DDAVP) vía oral, nasal o subcutánea.",
+        "Hidratación oral libre según sed.",
+        "Dieta baja en sodio para reducir la diuresis.",
+        "Control de litio o demeclociclina si son la causa."
+      ],
+      "complications": [
+        "Deshidratación severa y choque hipovolémico.",
+        "Hipernatremia y desequilibrio electrolítico.",
+        "Daño renal crónico por hipoperfusión.",
+        "Alteraciones del sueño por nocturia frecuente."
+      ],
+      "nursing_care": [
+        "Monitorear ingesta y salida de líquidos cada 8 h; registrar peso diario.",
+        "Controlar presión arterial, frecuencia cardíaca y signos de deshidratación.",
+        "Observar osmolaridad urinaria y sérica si el laboratorio está disponible.",
+        "Administrar desmopresina a la hora prescrita; verificar vía y dosis.",
+        "Mantener ambiente con acceso fácil a agua potable."
+      ],
+      "patient_teaching": [
+        "Beber agua según la sed, no forzar la ingesta excesiva.",
+        "Tomar desmopresina siempre a la misma hora y no omitir dosis.",
+        "Evitar alimentos muy salados que aumenten la diuresis.",
+        "Reportar signos de deshidratación: mareos, boca seca, disminución de la micción.",
+        "Llevar registro de volumen urinario y peso para compartir con el profesional."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "poliuria",
+          "pérdida de agua libre",
+          "deficiencia ADH",
+          "deshidratación"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener ingesta de líquidos ≥ 2.5 L/día según necesidad",
+          "Peso corporal estable (variación <0.5 kg en 24 h)",
+          "Presión arterial dentro de rangos normales para la edad"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Permite detectar déficit de volumen temprano."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgencia cutánea, mucosas secas).",
+            "rationale": "Identifica cambios en el estado de hidratación."
+          },
+          {
+            "action": "Ofrecer agua o solución electrolítica según la sed del paciente.",
+            "rationale": "Compensa la pérdida de agua y previene hipernatremia."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber según la sed y registrar la ingesta.",
+            "rationale": "Fomenta autocuidado y detección precoz de déficit."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "poliuria",
+          "polidipsia",
+          "peso ↓",
+          "presión arterial baja"
+        ],
+        "outcomes": [
+          "Volumen de líquidos intravascular dentro del 70‑105 % del peso corporal ideal",
+          "Osmolaridad sérica ≤ 295 mOsm/kg",
+          "Mejora de la turgencia cutánea y mucosas en 24‑48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar desmopresina según prescripción y observar respuesta urinaria.",
+            "rationale": "Reduce la pérdida de agua y corrige el déficit."
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 4 h.",
+            "rationale": "Detecta hipotensión secundaria a hipovolemia."
+          },
+          {
+            "action": "Controlar peso diario y comparar con peso basal.",
+            "rationale": "Indicador objetivo de balance hídrico."
+          },
+          {
+            "action": "Evaluar osmolaridad urinaria y sérica si el laboratorio lo permite.",
+            "rationale": "Confirma efectividad del tratamiento y estado de hidratación."
+          },
+          {
+            "action": "Proveer educación sobre dieta baja en sodio y evitar diuréticos no prescritos.",
+            "rationale": "Disminuye la pérdida de agua adicional."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Diabetes insipidus (DI)",
+    "aliases": [
+      "diabetes insipidus",
+      "adh deficiency",
+      "polyuria",
+      "polydipsia",
+      "antidiuretic insufficiency"
+    ],
+    "summary": "Disorder characterized by deficiency or resistance to antidiuretic hormone, producing polyuria and polydipsia.",
+    "key_points": [
+      "Free water loss > 3 L/day",
+      "Hypo-osmolar urine (<300 mOsm/kg) and diluted",
+      "Intense polydipsia to compensate dehydration",
+      "Desmopressin is the drug of choice"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "ADH (vasopressin) acts on collecting ducts to increase water reabsorption.",
+        "In central DI, the pituitary does not produce enough ADH.",
+        "In nephrogenic DI, the kidneys do not respond to ADH.",
+        "Without adequate reabsorption, the glomerular filtrate is excreted as very dilute urine."
+      ],
+      "risk_factors": [
+        "Pituitary or pituitary stalk injury or tumor.",
+        "Brain surgery or cranial radiotherapy.",
+        "Hereditary kidney diseases (e.g., nephrogenic).",
+        "Chronic use of lithium or demeclocycline."
+      ],
+      "signs_symptoms": [
+        "Constant polyuria (>3 L/day).",
+        "Excessive polydipsia, often nocturnal.",
+        "Dehydration: dry skin, decreased turgor.",
+        "Mild hypernatremia if water intake is insufficient."
+      ],
+      "diagnostics": [
+        "Water restriction test: urine <300 mOsm/kg and increased plasma osmolarity.",
+        "Serum osmolarity >295 mOsm/kg.",
+        "Desmopressin response: >50% increase in urine osmolarity indicates central DI.",
+        "Imaging (MRI) of pituitary if central cause suspected."
+      ],
+      "treatment": [
+        "Desmopressin (DDAVP) oral, nasal, or subcutaneous.",
+        "Free oral hydration as needed.",
+        "Low-sodium diet to reduce diuresis.",
+        "Control of lithium or demeclocycline if they are the cause."
+      ],
+      "complications": [
+        "Severe dehydration and hypovolemic shock.",
+        "Hypernatremia and electrolyte imbalance.",
+        "Chronic kidney damage from hypoperfusion.",
+        "Sleep disturbances from frequent nocturia."
+      ],
+      "nursing_care": [
+        "Monitor intake and output every 8 h; record daily weight.",
+        "Check blood pressure, heart rate, and signs of dehydration.",
+        "Observe urine and serum osmolarity if lab available.",
+        "Administer desmopressin at prescribed time; verify route and dose.",
+        "Maintain environment with easy access to potable water."
+      ],
+      "patient_teaching": [
+        "Drink water as needed, do not force excessive intake.",
+        "Take desmopressin at the same time each day and do not miss doses.",
+        "Avoid very salty foods that increase diuresis.",
+        "Report signs of dehydration: dizziness, dry mouth, decreased urination.",
+        "Keep a record of urine volume and weight to share with the provider."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "polyuria",
+          "free water loss",
+          "ADH deficiency",
+          "dehydration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain fluid intake ≥ 2.5 L/day as needed",
+          "Stable body weight (variation <0.5 kg in 24 h)",
+          "Blood pressure within normal age ranges"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Allows early detection of fluid volume deficit."
+          },
+          {
+            "action": "Assess signs of dehydration (skin turgor, dry mucous membranes).",
+            "rationale": "Identifies changes in hydration status."
+          },
+          {
+            "action": "Offer water or electrolyte solution as needed by thirst.",
+            "rationale": "Compensates for water loss and prevents hypernatremia."
+          },
+          {
+            "action": "Educate patient on importance of drinking by thirst and recording intake.",
+            "rationale": "Promotes self-care and early detection of deficit."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "polyuria",
+          "polydipsia",
+          "↓ weight",
+          "low blood pressure"
+        ],
+        "outcomes": [
+          "Intravascular fluid volume within 70‑105% of ideal body weight",
+          "Serum osmolarity ≤ 295 mOsm/kg",
+          "Improvement of skin turgor and mucous membranes in 24‑48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administer desmopressin as prescribed and observe urine response.",
+            "rationale": "Reduces water loss and corrects deficit."
+          },
+          {
+            "action": "Monitor blood pressure and heart rate every 4 h.",
+            "rationale": "Detects hypotension secondary to hypovolemia."
+          },
+          {
+            "action": "Track daily weight and compare to baseline.",
+            "rationale": "Objective indicator of fluid balance."
+          },
+          {
+            "action": "Assess urine and serum osmolarity if lab permits.",
+            "rationale": "Confirms treatment effectiveness and hydration status."
+          },
+          {
+            "action": "Provide education on low-sodium diet and avoidance of non-prescribed diuretics.",
+            "rationale": "Reduces additional water loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "water-balance",
+    "hypernatremia",
+    "pituitary-disorders",
+    "renal-concentrating-ability"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diabetes Insipidus",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diabetesinsipidus.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Antidiuretic Hormones",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/26-3-antidiuretic-hormones",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Growth Hormones and Suppressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/26-2-growth-hormones-and-suppressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23",
+  "factcheck": {
+    "checked": "2026-11-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 7,
+      "not_found": 32,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "In conditions where there is a deficiency or dysfunction of ADH, such as diabetes insipidus , excessive urine output can occur, leading to dehydration, electrolyte imbalances, and manifestations of polydipsia and hypotonic polyuria (Christ-Crain & Gaisl, 2021).",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "In conditions where there is a deficiency or dysfunction of ADH, such as diabetes insipidus , excessive urine output can occur, leading to dehydration, electrolyte imbalances, and manifestations of polydipsia and hypotonic polyuria (Christ-Crain & Gaisl, 2021).",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "ADH reduces the amount of urine produced by the kidneys by causing the renal tubules to increase water reabsorption, which reduces the amount of urine produced and helps to maintain the body’s fluid balance.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Typical dose: 2–4 mcg orally in 1–2 daily doses.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "This cycle can keep you from sleeping or even make you wet the bed.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Typical dose: 2–4 mcg orally in 1–2 daily doses.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Adjust dose based on response to treatment, estimated by two parameters: adequate duration of sleep and adequate, not excessive, water turnover.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

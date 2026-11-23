@@ -1,0 +1,347 @@
+{
+  "id": "surgical-site-infection",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infección del sitio quirúrgico (ISQ)",
+    "aliases": [
+      "infección quirúrgica",
+      "isq",
+      "infección del sitio",
+      "herida quirúrgica",
+      "infección postoperatoria",
+      "cicatriz infectada",
+      "infección de herida"
+    ],
+    "summary": "Infección que ocurre en la incisión o tejido profundo dentro de los 30 días posteriores a una cirugía. Puede ser superficial o profunda y compromete la cicatrización.",
+    "key_points": [
+      "Mayor riesgo con diabetes, obesidad, tabaquismo y cirugía prolongada.",
+      "Signos clásicos: rubor, calor, edema, dolor y secreción purulenta.",
+      "Cultivo de exudado guía la terapia antibiótica.",
+      "Prevención: técnica aséptica, profilaxis antibiótica y control glucémico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Contaminación de la herida por bacterias durante o después de la cirugía.",
+        "Formación de biopelícula que protege a los microorganismos del sistema inmune.",
+        "Respuesta inflamatoria local → aumento de leucocitos y edema.",
+        "Si no se controla, se extiende a tejidos profundos y al torrente sanguíneo."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus con glucemia >180 mg/dL perioperatoria.",
+        "Obesidad (IMC > 30 kg/m²).",
+        "Tabaquismo y uso crónico de esteroides.",
+        "Cirugías largas (>2 h) o con implantes.",
+        "Mala higiene de la piel y técnica aséptica deficiente."
+      ],
+      "signs_symptoms": [
+        "Enrojecimiento y calor alrededor de la incisión.",
+        "Dolor que aumenta con el movimiento.",
+        "Edema y secreción purulenta o serosa.",
+        "Fiebre >38 °C y leucocitosis >10 000 mm³."
+      ],
+      "diagnostics": [
+        "Evaluación visual de la herida y palpación.",
+        "Cultivo de exudado; crecimiento de Staphylococcus aureus o gram‑negativos.",
+        "Hemograma: leucocitosis y neutrofilia.",
+        "Imágenes (ecografía o TAC) si se sospecha absceso profundo."
+      ],
+      "treatment": [
+        "Antibiótico de amplio espectro (p. ej., cefazolina, vancomicina, piperacilina‑tazobactam).",
+        "Drenaje percutáneo o quirúrgico del absceso.",
+        "Desbridamiento de tejido necrótico.",
+        "Cuidado de la herida con apósitos estériles y cambio regular."
+      ],
+      "complications": [
+        "Sepsis y shock séptico.",
+        "Dehiscencia de la herida.",
+        "Formación de absceso profundo.",
+        "Osteomielitis si la infección involucra hueso.",
+        "Infección de prótesis o implantes."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4 h; registrar temperatura y frecuencia cardíaca.",
+        "Inspeccionar la herida diariamente: color, edema, exudado.",
+        "Mantener técnica aséptica al cambiar apósitos.",
+        "Administrar antibióticos según prescripción y observar reacciones.",
+        "Controlar dolor con analgésicos y posicionar al paciente para evitar tensión en la incisión."
+      ],
+      "patient_teaching": [
+        "Lavado de manos antes y después de tocar la herida.",
+        "Mantener el vendaje seco y cambiarlo según indicaciones.",
+        "Reportar fiebre, aumento del dolor o secreción anormal.",
+        "Evitar actividades que tensionen la zona operada durante 2‑4 semanas.",
+        "Seguir dieta equilibrada y controlar glucemia si es diabético."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "incisión quirúrgica",
+          "diabetes mellitus",
+          "obesidad",
+          "tabaquismo",
+          "tiempo prolongado de cirugía"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de infección: ausencia de fiebre y signos locales de infección en 48 h",
+          "Control de infección: glucemia perioperatoria <180 mg/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar técnica aséptica al manipular la herida y al cambiar apósitos.",
+            "rationale": "Reduce la exposición a microorganismos patógenos."
+          },
+          {
+            "action": "Monitorear temperatura y signos vitales cada 4 h.",
+            "rationale": "Detecta tempranamente la aparición de infección."
+          },
+          {
+            "action": "Educar al paciente sobre higiene de manos y cuidado del vendaje.",
+            "rationale": "Promueve la autocuidado y disminuye la carga microbiana."
+          },
+          {
+            "action": "Mantener glucemia dentro de rango objetivo en pacientes diabéticos.",
+            "rationale": "La hiperglucemia favorece el crecimiento bacteriano."
+          },
+          {
+            "action": "Revisar y reforzar cumplimiento de profilaxis antibiótica preoperatoria.",
+            "rationale": "Previene la colonización bacteriana durante la cirugía."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deterioro de la integridad cutánea",
+        "type": "actual",
+        "related_to": [
+          "infección del sitio quirúrgico"
+        ],
+        "evidenced_by": [
+          "enrojecimiento",
+          "calor",
+          "edema",
+          "secreción purulenta",
+          "dolor al tacto"
+        ],
+        "outcomes": [
+          "Integridad cutánea: cicatrización completa sin secreción en 14 días",
+          "Integridad cutánea: reducción del dolor a <3/10 en escala de dolor en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar curaciones estériles según orden médica, usando apósitos que absorban exudado.",
+            "rationale": "Facilita la cicatrización y controla la contaminación."
+          },
+          {
+            "action": "Aplicar compresas tibias y analgesia según necesidad.",
+            "rationale": "Alivia el dolor y mejora la perfusión local."
+          },
+          {
+            "action": "Evaluar y registrar características del exudado (cantidad, color, olor).",
+            "rationale": "Permite identificar cambios que indiquen progresión o mejoría."
+          },
+          {
+            "action": "Coordinar con el equipo de cirugía para posible desbridamiento o drenaje.",
+            "rationale": "Elimina tejido necrosado y reduce carga bacteriana."
+          },
+          {
+            "action": "Fomentar ingesta adecuada de proteínas (≥1.2 g/kg/día) y líquidos.",
+            "rationale": "Nutrientes esenciales para la reparación tisular."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Surgical site infection (SSI)",
+    "aliases": [
+      "surgical infection",
+      "ssi",
+      "site infection",
+      "surgical wound",
+      "postoperative infection",
+      "infected scar",
+      "wound infection"
+    ],
+    "summary": "Infection that occurs in the incision or deep tissue within 30 days after surgery. It can be superficial or deep and impairs healing.",
+    "key_points": [
+      "Higher risk with diabetes, obesity, smoking, and prolonged surgery.",
+      "Classic signs: redness, heat, swelling, pain, and purulent drainage.",
+      "Wound exudate culture guides antibiotic therapy.",
+      "Prevention: aseptic technique, antibiotic prophylaxis, and glucose control."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Contamination of the wound by bacteria during or after surgery.",
+        "Formation of biofilm that protects microorganisms from the immune system.",
+        "Local inflammatory response → increased leukocytes and edema.",
+        "If uncontrolled, it spreads to deep tissues and the bloodstream."
+      ],
+      "risk_factors": [
+        "Diabetes mellitus with perioperative glucose >180 mg/dL.",
+        "Obesity (BMI > 30 kg/m²).",
+        "Smoking and chronic steroid use.",
+        "Long surgeries (>2 h) or with implants.",
+        "Poor skin hygiene and inadequate aseptic technique."
+      ],
+      "signs_symptoms": [
+        "Redness and heat around the incision.",
+        "Pain that worsens with movement.",
+        "Swelling and purulent or serous drainage.",
+        "Fever >38 °C and leukocytosis >10 000 mm³."
+      ],
+      "diagnostics": [
+        "Visual inspection of the wound and palpation.",
+        "Exudate culture; growth of Staphylococcus aureus or gram-negative organisms.",
+        "CBC: leukocytosis and neutrophilia.",
+        "Imaging (ultrasound or CT) if deep abscess is suspected."
+      ],
+      "treatment": [
+        "Broad-spectrum antibiotic (e.g., cefazolin, vancomycin, piperacillin‑tazobactam).",
+        "Percutaneous or surgical drainage of abscess.",
+        "Debridement of necrotic tissue.",
+        "Wound care with sterile dressings and regular changes."
+      ],
+      "complications": [
+        "Sepsis and septic shock.",
+        "Wound dehiscence.",
+        "Deep abscess formation.",
+        "Osteomyelitis if bone is involved.",
+        "Infection of prosthesis or implants."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4 h; record temperature and heart rate.",
+        "Inspect the wound daily: color, edema, exudate.",
+        "Maintain aseptic technique when changing dressings.",
+        "Administer antibiotics per prescription and monitor for reactions.",
+        "Control pain with analgesics and position patient to avoid tension on incision."
+      ],
+      "patient_teaching": [
+        "Wash hands before and after touching the wound.",
+        "Keep dressing dry and change as instructed.",
+        "Report fever, increased pain, or abnormal drainage.",
+        "Avoid activities that strain the operated area for 2‑4 weeks.",
+        "Follow a balanced diet and monitor glucose if diabetic."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "surgical incision",
+          "diabetes mellitus",
+          "obesity",
+          "smoking",
+          "prolonged surgery"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection control: absence of fever and local signs of infection within 48 h",
+          "Infection control: perioperative glucose <180 mg/dL"
+        ],
+        "interventions": [
+          {
+            "action": "Apply aseptic technique when handling the wound and changing dressings.",
+            "rationale": "Reduces exposure to pathogenic microorganisms."
+          },
+          {
+            "action": "Monitor temperature and vital signs every 4 h.",
+            "rationale": "Detects early onset of infection."
+          },
+          {
+            "action": "Educate the patient on hand hygiene and dressing care.",
+            "rationale": "Promotes self-care and reduces microbial load."
+          },
+          {
+            "action": "Maintain glucose within target range in diabetic patients.",
+            "rationale": "Hyperglycemia favors bacterial growth."
+          },
+          {
+            "action": "Review and reinforce compliance with preoperative antibiotic prophylaxis.",
+            "rationale": "Prevents bacterial colonization during surgery."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Impaired skin integrity",
+        "type": "actual",
+        "related_to": [
+          "surgical site infection"
+        ],
+        "evidenced_by": [
+          "redness",
+          "heat",
+          "swelling",
+          "purulent drainage",
+          "pain on touch"
+        ],
+        "outcomes": [
+          "Skin integrity: complete healing without drainage in 14 days",
+          "Skin integrity: pain reduction to <3/10 on pain scale within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Perform sterile dressings as ordered, using exudate-absorbing dressings.",
+            "rationale": "Facilitates healing and controls contamination."
+          },
+          {
+            "action": "Apply warm compresses and analgesia as needed.",
+            "rationale": "Relieves pain and improves local perfusion."
+          },
+          {
+            "action": "Assess and document exudate characteristics (amount, color, odor).",
+            "rationale": "Allows identification of changes indicating progression or improvement."
+          },
+          {
+            "action": "Coordinate with the surgical team for possible debridement or drainage.",
+            "rationale": "Removes necrotic tissue and reduces bacterial load."
+          },
+          {
+            "action": "Encourage adequate protein intake (≥1.2 g/kg/day) and fluids.",
+            "rationale": "Essential nutrients for tissue repair."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "surgical-wound-dehiscence",
+    "sepsis",
+    "antibiotic-prophylaxis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: After Surgery",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/aftersurgery.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Overview of the Surgical Experience",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/26-1-overview-of-the-surgical-experience",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Intraoperative Considerations",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/26-2-intraoperative-considerations",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23"
+}

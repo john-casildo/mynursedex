@@ -1,0 +1,205 @@
+{
+  "id": "genetic-testing",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Pruebas genéticas",
+    "aliases": [
+      "prueba genetica",
+      "test genetico",
+      "genetica",
+      "adn",
+      "secuenciacion"
+    ],
+    "summary": "Las pruebas genéticas analizan el ADN para detectar variantes que pueden causar enfermedades o influir en el riesgo de padecerlas.",
+    "key_points": [
+      "Tipos de pruebas: secuenciación del genoma completo, exoma y paneles de genes específicos.",
+      "Muestras habituales: sangre (EDTA), saliva o tejido biopsiado.",
+      "Indicaciones: diagnóstico de trastornos hereditarios, evaluación de riesgo familiar y decisiones terapéuticas.",
+      "Consideraciones éticas: consentimiento informado, confidencialidad y posible impacto psicológico.",
+      "Interpretación: variantes patogénicas, de significado incierto y benignas.",
+      "Derivar siempre a consejería genética para explicar resultados y opciones."
+    ],
+    "sections": {
+      "specimen": [
+        "Obtener sangre venosa en tubo con anticoagulante EDTA; evitar hemólisis.",
+        "Muestra de saliva usando kit estéril si se prefiere método no invasivo.",
+        "Ayuno no requerido, pero registrar medicamentos que puedan interferir.",
+        "Etiquetar claramente con nombre, fecha de nacimiento y tipo de prueba solicitada.",
+        "Transportar a temperatura ambiente; evitar exposición a calor extremo."
+      ],
+      "nursing_care": [
+        "Verificar orden médica y consentimiento informado antes de la recolección.",
+        "Educar al paciente sobre el procedimiento, tiempo de resultados y posibles implicaciones.",
+        "Mantener la confidencialidad del material y los resultados en todo momento.",
+        "Documentar correctamente la muestra, hora de extracción y cualquier complicación.",
+        "Notificar al médico de resultados críticos o variantes de alto riesgo.",
+        "Coordinar referencia a consejería genética para apoyo psicológico y explicación detallada."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Ansiedad",
+        "type": "actual",
+        "related_to": [
+          "resultado de prueba genética",
+          "incertidumbre sobre enfermedad hereditaria",
+          "antecedentes familiares de trastornos genéticos"
+        ],
+        "evidenced_by": [
+          "expresa preocupación constante",
+          "tensión muscular",
+          "dificultad para conciliar el sueño"
+        ],
+        "outcomes": [
+          "Ansiedad disminuida: paciente reporta nivel de ansiedad ≤3/10 en escala de 0-10",
+          "Manejo efectivo del estrés: paciente utiliza al menos dos técnicas de relajación diariamente"
+        ],
+        "interventions": [
+          {
+            "action": "Proveer información clara y comprensible sobre la prueba y sus posibles resultados.",
+            "rationale": "Reduce la incertidumbre y ayuda al paciente a anticipar escenarios."
+          },
+          {
+            "action": "Facilitar acceso a consejería genética dentro de 48 horas.",
+            "rationale": "Apoyo especializado disminuye la carga emocional y mejora la toma de decisiones."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática y relajación muscular progresiva.",
+            "rationale": "Métodos de relajación disminuyen la respuesta fisiológica al estrés."
+          },
+          {
+            "action": "Evaluar signos vitales y nivel de ansiedad cada 4 horas mientras se esperan resultados.",
+            "rationale": "Monitoreo permite detectar deterioro y actuar oportunamente."
+          },
+          {
+            "action": "Documentar todas las conversaciones, preguntas y respuestas del paciente.",
+            "rationale": "Registro preciso garantiza continuidad del cuidado y protege la confidencialidad."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Genetic testing",
+    "aliases": [
+      "genetic test",
+      "genetic testing",
+      "genetics",
+      "dna",
+      "sequencing"
+    ],
+    "summary": "Genetic testing analyzes DNA to detect variants that may cause diseases or influence the risk of developing them.",
+    "key_points": [
+      "Types of tests: whole genome sequencing, exome, and specific gene panels.",
+      "Common specimens: blood (EDTA), saliva, or biopsy tissue.",
+      "Indications: diagnosis of hereditary disorders, assessment of family risk, and therapeutic decision-making.",
+      "Ethical considerations: informed consent, confidentiality, and potential psychological impact.",
+      "Interpretation: pathogenic, uncertain significance, and benign variants.",
+      "Always refer to genetic counseling to explain results and options."
+    ],
+    "sections": {
+      "specimen": [
+        "Collect venous blood in an EDTA anticoagulant tube; avoid hemolysis.",
+        "Saliva sample using a sterile kit if a non‑invasive method is preferred.",
+        "Fasting not required, but record medications that may interfere.",
+        "Label clearly with name, date of birth, and requested test type.",
+        "Transport at room temperature; avoid exposure to extreme heat."
+      ],
+      "nursing_care": [
+        "Verify the medical order and informed consent before collection.",
+        "Educate the patient about the procedure, turnaround time, and possible implications.",
+        "Maintain confidentiality of the material and results at all times.",
+        "Document the specimen, time of collection, and any complications accurately.",
+        "Notify the physician of critical results or high‑risk variants.",
+        "Coordinate referral to genetic counseling for psychological support and detailed explanation."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Anxiety",
+        "type": "actual",
+        "related_to": [
+          "genetic test result",
+          "uncertainty about hereditary disease",
+          "family history of genetic disorders"
+        ],
+        "evidenced_by": [
+          "expresses constant worry",
+          "muscle tension",
+          "difficulty falling asleep"
+        ],
+        "outcomes": [
+          "Reduced anxiety: patient reports anxiety level ≤3/10 on a 0‑10 scale",
+          "Effective stress management: patient uses at least two relaxation techniques daily"
+        ],
+        "interventions": [
+          {
+            "action": "Provide clear and understandable information about the test and its possible results.",
+            "rationale": "Reduces uncertainty and helps the patient anticipate scenarios."
+          },
+          {
+            "action": "Facilitate access to genetic counseling within 48 hours.",
+            "rationale": "Specialized support decreases emotional burden and improves decision making."
+          },
+          {
+            "action": "Teach diaphragmatic breathing and progressive muscle relaxation techniques.",
+            "rationale": "Relaxation methods reduce the physiological response to stress."
+          },
+          {
+            "action": "Assess vital signs and anxiety level every 4 hours while awaiting results.",
+            "rationale": "Monitoring allows early detection of deterioration and timely action."
+          },
+          {
+            "action": "Document all conversations, questions, and patient responses.",
+            "rationale": "Accurate records ensure continuity of care and protect confidentiality."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "genetic-counseling",
+    "hereditary-disease",
+    "dna-sequencing",
+    "genomic-medicine",
+    "variant-interpretation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Genetic Testing",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/genetictesting.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Pruebas genéticas",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/genetictesting.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Testing and Detection",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/30-3-testing-and-detection",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Genetics",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/4-2-genetics",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23"
+}

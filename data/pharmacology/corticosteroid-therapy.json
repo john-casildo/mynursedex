@@ -1,0 +1,351 @@
+{
+  "id": "corticosteroid-therapy",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Corticosteroides (terapia)",
+    "aliases": [
+      "corticosteroides",
+      "corticoides",
+      "esteroides",
+      "terapia esteroide",
+      "cortisol"
+    ],
+    "summary": "Los corticosteroides son hormonas sintéticas que reducen la inflamación y suprimen la respuesta inmune.",
+    "key_points": [
+      "Efectos antiinflamatorios y inmunosupresores potentes.",
+      "Pueden causar retención de sodio y pérdida de potasio.",
+      "Aumentan la glucemia y el riesgo de infección.",
+      "Se deben taperar al suspender uso prolongado."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se unen a receptores intracelulares de glucocorticoides.",
+        "Modulan la transcripción génica, inhibiendo citocinas proinflamatorias.",
+        "Disminuyen la permeabilidad capilar y la migración de leucocitos."
+      ],
+      "indications": [
+        "Enfermedades inflamatorias crónicas (artritis reumatoide, asma).",
+        "Prevención de rechazo en trasplantes.",
+        "Insuficiencia adrenal y crisis adrenal.",
+        "Tratamiento de reacciones alérgicas graves."
+      ],
+      "contraindications": [
+        "Infección sistémica no controlada.",
+        "Úlcera péptica activa.",
+        "Hipertensión no tratada.",
+        "Hiperglucemia descontrolada."
+      ],
+      "adverse_effects": [
+        "Hiperglucemia, aumento de glucosa > 140 mg/dL (común).",
+        "Retención de sodio → edema, hipertensión (común).",
+        "Hipopotasemia, calambres musculares (común).",
+        "Inmunosupresión → infecciones oportunistas (serio).",
+        "Supresión del eje HPA → insuficiencia adrenal al retirar (serio)."
+      ],
+      "interactions": [
+        "Aumenta el efecto de anticoagulantes orales (warfarina).",
+        "Potencia hiperglucemia con antidiabéticos orales.",
+        "Reduce la eficacia de vacunas vivas.",
+        "Potencia la toxicidad de AINEs (úlcera gástrica)."
+      ],
+      "nursing_care": [
+        "Evaluar signos de infección antes y durante la terapia.",
+        "Monitorear presión arterial, peso y edema diariamente.",
+        "Controlar glucosa capilar antes de cada dosis y ajustar insulina si es necesario.",
+        "Observar electrolitos (Na+, K+) cada 48‑72 h en uso prolongado.",
+        "Retener la dosis si la presión arterial > 160/100 mmHg o glucosa > 200 mg/dL."
+      ],
+      "patient_teaching": [
+        "Tomar la dosis a la misma hora cada día, preferiblemente con alimentos.",
+        "Reportar fiebre, dolor dental o lesiones cutáneas de inmediato.",
+        "Mantener una dieta baja en sodio y rica en potasio.",
+        "No interrumpir el tratamiento abruptamente; seguir el esquema de tapering."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso prolongado de corticosteroides",
+          "inmunosupresión",
+          "hiperglucemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infección ausente: sin fiebre ni signos locales durante la hospitalización.",
+          "Glucemia controlada: glucosa capilar < 140 mg/dL en ayunas."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar temperatura y signos de infección cada 4 h.",
+            "rationale": "Detectar precozmente infecciones en pacientes inmunosuprimidos."
+          },
+          {
+            "action": "Monitorear glucosa capilar antes de cada dosis de corticosteroide.",
+            "rationale": "Los corticosteroides aumentan la glucemia, lo que favorece infecciones."
+          },
+          {
+            "action": "Registrar peso y edema diariamente.",
+            "rationale": "La retención de líquidos puede predisponer a infecciones cutáneas."
+          },
+          {
+            "action": "Educar al paciente sobre higiene bucal y cuidado de la piel.",
+            "rationale": "Reducir fuentes potenciales de infección."
+          },
+          {
+            "action": "Notificar al médico si la temperatura supera 38°C o hay signos de infección.",
+            "rationale": "Intervención temprana evita complicaciones graves."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Corticosteroids (therapy)",
+    "aliases": [
+      "corticosteroids",
+      "corticoids",
+      "steroids",
+      "steroid therapy",
+      "cortisol"
+    ],
+    "summary": "Corticosteroids are synthetic hormones that reduce inflammation and suppress the immune response.",
+    "key_points": [
+      "Potent anti-inflammatory and immunosuppressive effects.",
+      "Can cause sodium retention and potassium loss.",
+      "Increase blood glucose and infection risk.",
+      "Should be tapered when discontinuing prolonged use."
+    ],
+    "sections": {
+      "mechanism": [
+        "Bind to intracellular glucocorticoid receptors.",
+        "Modulate gene transcription, inhibiting pro-inflammatory cytokines.",
+        "Decrease capillary permeability and leukocyte migration."
+      ],
+      "indications": [
+        "Chronic inflammatory diseases (rheumatoid arthritis, asthma).",
+        "Rejection prophylaxis in transplants.",
+        "Adrenal insufficiency and adrenal crisis.",
+        "Treatment of severe allergic reactions."
+      ],
+      "contraindications": [
+        "Uncontrolled systemic infection.",
+        "Active peptic ulcer.",
+        "Uncontrolled hypertension.",
+        "Uncontrolled hyperglycemia."
+      ],
+      "adverse_effects": [
+        "Hyperglycemia, glucose > 140 mg/dL (common).",
+        "Sodium retention → edema, hypertension (common).",
+        "Hypokalemia, muscle cramps (common).",
+        "Immunosuppression → opportunistic infections (serious).",
+        "HPA axis suppression → adrenal insufficiency upon withdrawal (serious)."
+      ],
+      "interactions": [
+        "Increases effect of oral anticoagulants (warfarin).",
+        "Potentiates hyperglycemia with oral antidiabetics.",
+        "Reduces efficacy of live vaccines.",
+        "Potentiates NSAID toxicity (gastric ulcer)."
+      ],
+      "nursing_care": [
+        "Assess infection signs before and during therapy.",
+        "Monitor blood pressure, weight, and edema daily.",
+        "Check capillary glucose before each dose and adjust insulin if needed.",
+        "Observe electrolytes (Na+, K+) every 48‑72 h with prolonged use.",
+        "Hold dose if blood pressure > 160/100 mmHg or glucose > 200 mg/dL."
+      ],
+      "patient_teaching": [
+        "Take dose at the same time each day, preferably with food.",
+        "Report fever, dental pain, or skin lesions immediately.",
+        "Maintain a low-sodium, potassium-rich diet.",
+        "Do not abruptly stop treatment; follow tapering schedule."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "prolonged corticosteroid use",
+          "immunosuppression",
+          "hyperglycemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection absent: no fever or local signs during hospitalization.",
+          "Controlled glucose: capillary glucose < 140 mg/dL fasting."
+        ],
+        "interventions": [
+          {
+            "action": "Assess temperature and infection signs every 4 h.",
+            "rationale": "Early detection of infections in immunosuppressed patients."
+          },
+          {
+            "action": "Monitor capillary glucose before each corticosteroid dose.",
+            "rationale": "Corticosteroids raise glucose, increasing infection risk."
+          },
+          {
+            "action": "Record weight and edema daily.",
+            "rationale": "Fluid retention can predispose to skin infections."
+          },
+          {
+            "action": "Educate patient on oral hygiene and skin care.",
+            "rationale": "Reduce potential infection sources."
+          },
+          {
+            "action": "Notify physician if temperature exceeds 38°C or infection signs appear.",
+            "rationale": "Early intervention prevents serious complications."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperglycemia",
+    "fluid-retention",
+    "immune-suppression"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Feminizing Hormonal Therapy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/37-2-feminizing-hormonal-therapy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Pain Management",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/30-5-pain-management",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23",
+  "factcheck": {
+    "checked": "2026-11-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 33,
+      "contradicted": 1,
+      "total": 34
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "not_found"
+      },
+      "sections.indications.1": {
+        "status": "not_found"
+      },
+      "sections.indications.2": {
+        "status": "not_found"
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "not_found"
+      },
+      "sections.contraindications.1": {
+        "status": "not_found"
+      },
+      "sections.contraindications.2": {
+        "status": "not_found"
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.2": {
+        "status": "contradicted",
+        "quote": "The primary adverse effect is hyperkalemia, which could be life-threatening and must be monitored closely.",
+        "source": 0
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.4": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "not_found"
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

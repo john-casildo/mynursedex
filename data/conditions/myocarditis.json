@@ -1,0 +1,446 @@
+{
+  "id": "myocarditis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Miocarditis",
+    "aliases": [
+      "miocarditis",
+      "inflamación del miocardio",
+      "inflamación cardíaca",
+      "miocard",
+      "carditis"
+    ],
+    "summary": "Inflamación del músculo cardíaco que puede reducir la contractilidad y provocar insuficiencia cardíaca aguda.",
+    "key_points": [
+      "Causa inflamación miocárdica por virus, bacterias o autoinmunidad.",
+      "Presenta dolor torácico, disnea y fatiga.",
+      "Diagnóstico con ECG, enzimas cardíacas y ecocardiograma.",
+      "Tratamiento: manejo hemodinámico, antiinflamatorios y soporte de la función cardíaca.",
+      "Complicaciones: insuficiencia cardíaca, arritmias y shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infección o respuesta autoinmune daña miocitos.",
+        "Liberación de citoquinas provoca edema y necrosis miocárdica.",
+        "Disminuye la contractilidad y la fracción de eyección."
+      ],
+      "risk_factors": [
+        "Infecciones virales (coxsackie, parvovirus B19).",
+        "Enfermedades autoinmunes (lupus, sarcoidosis).",
+        "Exposición a toxinas o drogas (alcohol, quimioterapia).",
+        "Historia familiar de miocardiopatías."
+      ],
+      "signs_symptoms": [
+        "Dolor torácico tipo pleurítico o retroesternal.",
+        "Disnea de esfuerzo o en reposo.",
+        "Fatiga, palpitaciones y síncope.",
+        "Fiebre y malestar general."
+      ],
+      "diagnostics": [
+        "ECG: ST elevación, ondas T invertidas o bloqueos de rama.",
+        "Enzimas cardíacas: troponina I/T ↑, CK‑MB ↑.",
+        "Ecocardiograma: disfunción sistólica, edema miocárdico.",
+        "RMN cardíaca: realce de gadolinio en miocardio inflamado."
+      ],
+      "treatment": [
+        "Reposo absoluto y control de la carga de trabajo.",
+        "Antiinflamatorios: prednisona oral o IV.",
+        "Inmunoglobulina IV (IVIG) en casos virales graves.",
+        "Diuréticos de asa (furosemida) para edema pulmonar.",
+        "Inhibidores de ECA (captopril) o betabloqueantes (metoprolol) para insuficiencia."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca congestiva.",
+        "Arritmias ventriculares o fibrilación auricular.",
+        "Shock cardiogénico.",
+        "Muerte súbita."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 2‑4 h; presión arterial, frecuencia cardíaca y saturación O₂.",
+        "Evaluar dolor torácico con escala numérica y registrar cambios.",
+        "Observar ritmo cardíaco continuo (telemetría).",
+        "Controlar balance hídrico y peso diario.",
+        "Administrar medicamentos según prescripción y observar efectos adversos."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de reposo y evitar actividades extenuantes.",
+        "Enseñar signos de alarma: aumento de disnea, dolor torácico, palpitaciones.",
+        "Instruir sobre la toma correcta de medicamentos y efectos secundarios.",
+        "Promover adherencia a controles médicos y pruebas de seguimiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "disfunción sistólica",
+          "edema miocárdico",
+          "arritmias",
+          "hipotensión"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cardíaca mantenida: presión arterial sistólica ≥ 100 mmHg en 24 h.",
+          "Ausencia de signos de hipoperfusión (pálido, sudoración) en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 2 h.",
+            "rationale": "Detectar precozmente hipotensión o taquicardia que indiquen perfusión insuficiente."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y perfusión periférica (capilar, temperatura).",
+            "rationale": "Cambios en la perfusión pueden preceder a deterioro hemodinámico."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentado o decúbito lateral izquierdo.",
+            "rationale": "Facilita el retorno venoso y reduce la carga del ventrículo izquierdo."
+          },
+          {
+            "action": "Administrar oxígeno suplementario para mantener SpO₂ ≥ 94 %.",
+            "rationale": "Mejora la oxigenación tisular y reduce la demanda cardíaca."
+          },
+          {
+            "action": "Registrar y reportar cualquier cambio en el ECG o aparición de arritmias.",
+            "rationale": "Las arritmias pueden comprometer la perfusión coronaria."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "disnea de esfuerzo",
+          "fatiga",
+          "disfunción ventricular"
+        ],
+        "evidenced_by": [
+          "cansancio al caminar 10 m",
+          "aumento de frecuencia cardíaca > 120 lpm con actividad mínima"
+        ],
+        "outcomes": [
+          "Capacidad para realizar actividades de la vida diaria sin disnea significativa en 5 días.",
+          "Frecuencia cardíaca < 100 lpm al final de actividades leves en 7 días."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar distancia recorrida y síntomas.",
+            "rationale": "Establece línea base para planificar progresión de ejercicio."
+          },
+          {
+            "action": "Planificar descansos programados cada 5‑10 min durante actividades.",
+            "rationale": "Previene la sobrecarga cardíaca y reduce la fatiga."
+          },
+          {
+            "action": "Enseñar técnicas de pacing (actividad‑descanso‑actividad).",
+            "rationale": "Permite al paciente conservar energía y mejorar tolerancia."
+          },
+          {
+            "action": "Monitorear signos vitales antes y después de la actividad.",
+            "rationale": "Detecta respuesta fisiológica y evita exacerbación."
+          },
+          {
+            "action": "Coordinar con fisioterapia para iniciar programa de rehabilitación cardíaca.",
+            "rationale": "Mejora la capacidad funcional de forma segura."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Myocarditis",
+    "aliases": [
+      "myocarditis",
+      "inflammation of the myocardium",
+      "cardiac inflammation",
+      "myocard",
+      "carditis"
+    ],
+    "summary": "Inflammation of the heart muscle that can reduce contractility and cause acute heart failure.",
+    "key_points": [
+      "Causes myocardial inflammation from viruses, bacteria or autoimmunity.",
+      "Presents with chest pain, dyspnea and fatigue.",
+      "Diagnosis with ECG, cardiac enzymes and echocardiogram.",
+      "Treatment: hemodynamic management, anti‑inflammatories and cardiac support.",
+      "Complications: heart failure, arrhythmias and shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infection or autoimmune response damages myocytes.",
+        "Release of cytokines causes edema and myocardial necrosis.",
+        "Reduces contractility and ejection fraction."
+      ],
+      "risk_factors": [
+        "Viral infections (coxsackie, parvovirus B19).",
+        "Autoimmune diseases (lupus, sarcoidosis).",
+        "Exposure to toxins or drugs (alcohol, chemotherapy).",
+        "Family history of cardiomyopathies."
+      ],
+      "signs_symptoms": [
+        "Pleuritic or retrosternal chest pain.",
+        "Exertional or resting dyspnea.",
+        "Fatigue, palpitations and syncope.",
+        "Fever and general malaise."
+      ],
+      "diagnostics": [
+        "ECG: ST elevation, inverted T waves or bundle‑branch blocks.",
+        "Cardiac enzymes: troponin I/T ↑, CK‑MB ↑.",
+        "Echocardiogram: systolic dysfunction, myocardial edema.",
+        "Cardiac MRI: gadolinium enhancement in inflamed myocardium."
+      ],
+      "treatment": [
+        "Absolute rest and workload control.",
+        "Anti‑inflammatories: oral or IV prednisone.",
+        "IVIG in severe viral cases.",
+        "Loop diuretics (furosemide) for pulmonary edema.",
+        "ACE inhibitors (captopril) or beta‑blockers (metoprolol) for heart failure."
+      ],
+      "complications": [
+        "Congestive heart failure.",
+        "Ventricular arrhythmias or atrial fibrillation.",
+        "Cardiogenic shock.",
+        "Sudden death."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 2‑4 h; blood pressure, heart rate and O₂ saturation.",
+        "Assess chest pain with numeric scale and record changes.",
+        "Observe continuous cardiac rhythm (telemetry).",
+        "Control fluid balance and daily weight.",
+        "Administer medications per order and monitor for adverse effects."
+      ],
+      "patient_teaching": [
+        "Explain the need for rest and avoid strenuous activities.",
+        "Teach warning signs: increased dyspnea, chest pain, palpitations.",
+        "Instruct on correct medication use and side effects.",
+        "Encourage adherence to follow‑up appointments and tests."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "systolic dysfunction",
+          "myocardial edema",
+          "arrhythmias",
+          "hypotension"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintained cardiac tissue perfusion: systolic blood pressure ≥ 100 mmHg within 24 h.",
+          "Absence of hypoperfusion signs (pale, sweating) within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure and heart rate every 2 h.",
+            "rationale": "Early detection of hypotension or tachycardia indicating inadequate perfusion."
+          },
+          {
+            "action": "Assess level of consciousness and peripheral perfusion (capillary refill, temperature).",
+            "rationale": "Changes in perfusion may precede hemodynamic deterioration."
+          },
+          {
+            "action": "Keep the patient in a semi‑upright or left lateral decubitus position.",
+            "rationale": "Facilitates venous return and reduces left ventricular load."
+          },
+          {
+            "action": "Administer supplemental oxygen to maintain SpO₂ ≥ 94 %.",
+            "rationale": "Improves tissue oxygenation and reduces cardiac demand."
+          },
+          {
+            "action": "Record and report any ECG changes or arrhythmia onset.",
+            "rationale": "Arrhythmias can compromise coronary perfusion."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "exertional dyspnea",
+          "fatigue",
+          "ventricular dysfunction"
+        ],
+        "evidenced_by": [
+          "fatigue walking 10 m",
+          "heart rate > 120 bpm with minimal activity"
+        ],
+        "outcomes": [
+          "Ability to perform activities of daily living without significant dyspnea within 5 days.",
+          "Heart rate < 100 bpm after light activities within 7 days."
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record distance walked and symptoms.",
+            "rationale": "Establishes baseline for exercise progression."
+          },
+          {
+            "action": "Plan scheduled rest breaks every 5‑10 min during activities.",
+            "rationale": "Prevents cardiac overload and reduces fatigue."
+          },
+          {
+            "action": "Teach pacing techniques (activity‑rest‑activity).",
+            "rationale": "Allows the patient to conserve energy and improve tolerance."
+          },
+          {
+            "action": "Monitor vital signs before and after activity.",
+            "rationale": "Detects physiological response and prevents exacerbation."
+          },
+          {
+            "action": "Coordinate with physical therapy to initiate cardiac rehabilitation program.",
+            "rationale": "Improves functional capacity safely."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "cardiomyopathy",
+    "heart-failure",
+    "arrhythmia",
+    "viral-infection",
+    "autoimmune-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Cardiomyopathy",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/cardiomyopathy.html",
+      "lang": "en"
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23",
+  "factcheck": {
+    "checked": "2026-11-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

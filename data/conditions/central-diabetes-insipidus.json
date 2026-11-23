@@ -1,0 +1,486 @@
+{
+  "id": "central-diabetes-insipidus",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diabetes insípida central (DIc)",
+    "aliases": [
+      "diabetes insípida",
+      "diabetes insípida central",
+      "dic",
+      "insuficiencia adh",
+      "poliuria",
+      "sed excesiva"
+    ],
+    "summary": "Trastorno poco frecuente en el que la glándula pituitaria no produce suficiente hormona antidiurética (ADH), provocando poliuria y polidipsia.",
+    "key_points": [
+      "Deficiencia de ADH por lesión o cirugía hipofisaria.",
+      "Orina muy diluida (<300 mOsm/kg) y volumen >3 L/día.",
+      "Riesgo de deshidratación, hipernatremia y desequilibrio electrolítico.",
+      "Diagnóstico mediante prueba de restricción hídrica y respuesta a desmopresina.",
+      "Tratamiento de primera línea: desmopresina (DDAVP) por vía nasal, oral o subcutánea."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La hipófisis posterior no secreta suficiente ADH.",
+        "Sin ADH, los túbulos colectores no reabsorben agua.",
+        "Se produce gran volumen de orina hipotónica.",
+        "El cuerpo pierde agua, aumentando la osmolaridad plasmática."
+      ],
+      "risk_factors": [
+        "Cirugía o traumatismo craneal.",
+        "Tumores hipofisarios o del hipotálamo.",
+        "Enfermedades infiltrativas (sarcoidosis, histiocitosis).",
+        "Radioterapia cerebral."
+      ],
+      "signs_symptoms": [
+        "Poliuria (>3 L/día) de orina clara.",
+        "Polidipsia intensa, a menudo nocturna.",
+        "Deshidratación: piel seca, mucosas secas, hipotensión ortostática.",
+        "Hipernatremia si la ingesta de líquidos es insuficiente."
+      ],
+      "diagnostics": [
+        "Análisis de orina: osmolaridad <300 mOsm/kg, densidad <1.005.",
+        "Prueba de restricción hídrica: osmolaridad plasmática >295 mOsm/kg.",
+        "Prueba de desmopresina: aumento >50% de la osmolaridad urinaria confirma DI central.",
+        "Niveles séricos de Na+ (135‑145 mEq/L) y osmolaridad plasmática."
+      ],
+      "treatment": [
+        "Desmopresina (DDAVP) vía nasal, oral o subcutánea.",
+        "Ajuste de ingesta hídrica según necesidad.",
+        "Control de electrolitos y osmolaridad plasmática.",
+        "En casos de causa reversible, tratar la lesión subyacente."
+      ],
+      "complications": [
+        "Deshidratación severa y shock hipovolémico.",
+        "Hipernatremia con riesgo neurológico.",
+        "Desequilibrio de potasio y calcio.",
+        "Alteraciones del sueño por nocturia frecuente."
+      ],
+      "nursing_care": [
+        "Monitorear ingesta y salida de líquidos cada 4 h; registrar volumen y características.",
+        "Controlar peso diario y signos de deshidratación.",
+        "Vigilar Na+ y osmolaridad plasmática; notificar valores fuera de rango.",
+        "Administrar desmopresina según prescripción; observar respuesta urinaria.",
+        "Mantener ambiente tranquilo para favorecer sueño sin interrupciones nocturnas."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de tomar la medicación exactamente como se indica.",
+        "Enseñar a registrar la cantidad de líquidos ingeridos y la frecuencia de micción.",
+        "Advertir sobre signos de deshidratación e hipernatremia (sed extrema, confusión).",
+        "Recomendar evitar bebidas con cafeína o alcohol que aumenten la diuresis.",
+        "Indicar cuándo buscar atención médica: vómitos, diarrea, o disminución de la orina."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "lesión hipofisaria",
+          "cirugía cerebral",
+          "tumor del hipotálamo",
+          "radioterapia intracraneal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos equilibradas (±500 mL) en 48 h.",
+          "Estado de hidratación: piel y mucosas húmedas, sin signos de hipotensión ortostática."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 4 h y comparar con orden médica.",
+            "rationale": "Permite detectar rápidamente déficit o exceso de volumen."
+          },
+          {
+            "action": "Evaluar peso diario y signos de deshidratación (turgor, mucosas, presión arterial).",
+            "rationale": "El peso y los signos clínicos reflejan cambios en el volumen intravascular."
+          },
+          {
+            "action": "Administrar desmopresina según prescripción y observar respuesta urinaria.",
+            "rationale": "Restablece la reabsorción de agua y reduce la pérdida de volumen."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber líquidos según la sed y las indicaciones.",
+            "rationale": "Facilita el autocontrol del equilibrio hídrico."
+          },
+          {
+            "action": "Notificar al médico si la diuresis supera 4 L/día o si hay aumento de Na+ >145 mEq/L.",
+            "rationale": "Previene complicaciones de hipernatremia y deshidratación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida de ADH",
+          "poliuria persistente",
+          "ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [
+          "poliuria >3 L/día",
+          "sed intensa",
+          "peso ↓",
+          "presión arterial ortostática",
+          "Na+ >145 mEq/L"
+        ],
+        "outcomes": [
+          "Hidratación: restaurar peso basal y mantener presión arterial dentro de rangos normales en 72 h.",
+          "Electrolitos: Na+ entre 135‑145 mEq/L en 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Ofrecer líquidos isotónicos cada 30 min según tolerancia.",
+            "rationale": "Reemplaza el déficit de agua y corrige la hipernatremia."
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 4 h.",
+            "rationale": "Detecta signos tempranos de hipovolemia."
+          },
+          {
+            "action": "Administrar desmopresina y evaluar aumento de osmolaridad urinaria.",
+            "rationale": "Reduce la pérdida de agua y ayuda a restablecer el volumen intravascular."
+          },
+          {
+            "action": "Registrar peso cada 12 h para valorar la respuesta al tratamiento.",
+            "rationale": "El peso es un indicador objetivo del estado de hidratación."
+          },
+          {
+            "action": "Enseñar al paciente a reconocer signos de deshidratación y a reportarlos inmediatamente.",
+            "rationale": "Promueve la detección precoz y la intervención oportuna."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Central diabetes insipidus (CDI)",
+    "aliases": [
+      "diabetes insipidus",
+      "central diabetes insipidus",
+      "cdi",
+      "adh deficiency",
+      "polydipsia",
+      "excessive thirst"
+    ],
+    "summary": "A rare disorder in which the pituitary gland does not produce enough antidiuretic hormone (ADH), causing polyuria and polydipsia.",
+    "key_points": [
+      "ADH deficiency due to pituitary injury or surgery.",
+      "Very dilute urine (<300 mOsm/kg) and volume >3 L/day.",
+      "Risk of dehydration, hypernatremia, and electrolyte imbalance.",
+      "Diagnosis via water restriction test and response to desmopressin.",
+      "First‑line treatment: desmopressin (DDAVP) nasal, oral, or subcutaneous."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Posterior pituitary fails to secrete sufficient ADH.",
+        "Without ADH, collecting ducts do not reabsorb water.",
+        "Large volumes of hypotonic urine are produced.",
+        "The body loses water, increasing plasma osmolarity."
+      ],
+      "risk_factors": [
+        "Cranial surgery or trauma.",
+        "Pituitary or hypothalamic tumors.",
+        "Infiltrative diseases (sarcoidosis, histiocytosis).",
+        "Cranial radiotherapy."
+      ],
+      "signs_symptoms": [
+        "Polyuria (>3 L/day) of clear urine.",
+        "Intense polydipsia, often nocturnal.",
+        "Dehydration: dry skin, dry mucous membranes, orthostatic hypotension.",
+        "Hypernatremia if fluid intake is insufficient."
+      ],
+      "diagnostics": [
+        "Urine analysis: osmolarity <300 mOsm/kg, specific gravity <1.005.",
+        "Water restriction test: plasma osmolarity >295 mOsm/kg.",
+        "Desmopressin test: >50% increase in urine osmolarity confirms central DI.",
+        "Serum Na+ (135‑145 mEq/L) and plasma osmolarity."
+      ],
+      "treatment": [
+        "Desmopressin (DDAVP) nasal, oral, or subcutaneous.",
+        "Adjust fluid intake as needed.",
+        "Monitor electrolytes and plasma osmolarity.",
+        "Treat underlying reversible cause when present."
+      ],
+      "complications": [
+        "Severe dehydration and hypovolemic shock.",
+        "Hypernatremia with neurological risk.",
+        "Potassium and calcium imbalance.",
+        "Sleep disturbances from frequent nocturia."
+      ],
+      "nursing_care": [
+        "Monitor fluid intake and output every 4 h; record volume and characteristics.",
+        "Check daily weight and signs of dehydration.",
+        "Track Na+ and plasma osmolarity; report out‑of‑range values.",
+        "Administer desmopressin per order; observe urinary response.",
+        "Maintain a quiet environment to promote uninterrupted sleep."
+      ],
+      "patient_teaching": [
+        "Explain the need to take medication exactly as prescribed.",
+        "Teach recording of fluid intake and voiding frequency.",
+        "Warn about signs of dehydration and hypernatremia (extreme thirst, confusion).",
+        "Recommend avoiding caffeine or alcohol drinks that increase diuresis.",
+        "Indicate when to seek medical care: vomiting, diarrhea, or decreased urine output."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "pituitary injury",
+          "cerebral surgery",
+          "hypothalamic tumor",
+          "intracranial radiotherapy"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL over 48 h.",
+          "Hydration status: moist skin and mucous membranes, no orthostatic hypotension."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 4 h and compare with medical order.",
+            "rationale": "Allows rapid detection of volume deficit or excess."
+          },
+          {
+            "action": "Assess daily weight and signs of dehydration (turgor, mucous membranes, blood pressure).",
+            "rationale": "Weight and clinical signs reflect intravascular volume changes."
+          },
+          {
+            "action": "Administer desmopressin per prescription and observe urinary response.",
+            "rationale": "Restores water reabsorption and reduces volume loss."
+          },
+          {
+            "action": "Educate patient on the importance of drinking fluids as needed and per instructions.",
+            "rationale": "Facilitates self‑regulation of fluid balance."
+          },
+          {
+            "action": "Notify physician if diuresis exceeds 4 L/day or Na+ rises >145 mEq/L.",
+            "rationale": "Prevents hypernatremia and dehydration complications."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "ADH loss",
+          "persistent polyuria",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [
+          "polyuria >3 L/day",
+          "intense thirst",
+          "weight loss",
+          "orthostatic hypotension",
+          "Na+ >145 mEq/L"
+        ],
+        "outcomes": [
+          "Hydration: restore baseline weight and maintain normal blood pressure within 72 h.",
+          "Electrolytes: Na+ 135‑145 mEq/L within 48 h."
+        ],
+        "interventions": [
+          {
+            "action": "Offer isotonic fluids every 30 min as tolerated.",
+            "rationale": "Replaces water deficit and corrects hypernatremia."
+          },
+          {
+            "action": "Monitor blood pressure and heart rate every 4 h.",
+            "rationale": "Detects early signs of hypovolemia."
+          },
+          {
+            "action": "Administer desmopressin and assess increase in urine osmolarity.",
+            "rationale": "Reduces water loss and helps restore intravascular volume."
+          },
+          {
+            "action": "Record weight every 12 h to evaluate treatment response.",
+            "rationale": "Weight is an objective indicator of hydration status."
+          },
+          {
+            "action": "Teach patient to recognize dehydration signs and report them immediately.",
+            "rationale": "Promotes early detection and timely intervention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "antidiuretic-hormone",
+    "hypernatremia",
+    "polyuria",
+    "desmopressin"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diabetes Insipidus",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diabetesinsipidus.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Diabetes insípida",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/diabetesinsipidus.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Diabetes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-1-introduction-to-diabetes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Oral Antidiabetic Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-3-oral-antidiabetic-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23",
+  "factcheck": {
+    "checked": "2026-11-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Treatment depends on the cause of the problem.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

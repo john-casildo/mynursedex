@@ -1,0 +1,463 @@
+{
+  "id": "organ-damage",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Lupus eritematoso sistémico (LES)",
+    "aliases": [
+      "lupus",
+      "les",
+      "lupus eritematoso",
+      "enfermedad autoinmune",
+      "autoanticuerpos"
+    ],
+    "summary": "Enfermedad autoinmune crónica que produce inflamación y daño multisistémico, afectando piel, articulaciones, riñones, corazón, pulmones y cerebro.",
+    "key_points": [
+      "ANA y anti‑dsDNA positivos son marcadores diagnósticos.",
+      "Daño renal (nefritis) es la complicación más grave.",
+      "El tratamiento combina antiinflamatorios, antipalúdicos y corticoides.",
+      "Protección solar y evitar desencadenantes reducen brotes."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Autoanticuerpos contra componentes nucleares forman complejos inmunes.",
+        "Los complejos se depositan en vasos, activan complemento y causan inflamación.",
+        "Daño tisular crónico afecta piel, articulaciones, riñón, corazón y CNS."
+      ],
+      "risk_factors": [
+        "Genética: alelos HLA‑DR2/DR3.",
+        "Exposición a luz ultravioleta.",
+        "Infecciones virales (ej. EBV).",
+        "Uso de ciertos fármacos (lupus inducido)."
+      ],
+      "signs_symptoms": [
+        "Erupción malar fotosensible.",
+        "Artritis migratoria sin erosión.",
+        "Fatiga y fiebre baja.",
+        "Proteinuria y edema (nefritis)."
+      ],
+      "diagnostics": [
+        "ANA positivo (sensibilidad >95%).",
+        "Anti‑dsDNA y anti‑Sm específicos.",
+        "Baja C3/C4 complementaria.",
+        "Creatinina y proteinuria para evaluar riñón."
+      ],
+      "treatment": [
+        "AINEs para dolor articular.",
+        "Hidroxicloroquina (antipalúdico).",
+        "Corticoides sistémicos o tópicos según gravedad.",
+        "Inmunosupresores: azatioprina, micofenolato, ciclofosfamida."
+      ],
+      "complications": [
+        "Nefritis lúpica → insuficiencia renal.",
+        "Lupus neuropsiquiátrico (convulsiones, psicosis).",
+        "Serositis: pleuritis, pericarditis.",
+        "Trombosis y síndrome antifosfolípido."
+      ],
+      "nursing_care": [
+        "Evaluar dolor articular, erupción y nivel de energía cada turno.",
+        "Monitorear presión arterial, frecuencia cardíaca y signos de edema.",
+        "Controlar laboratorio: CBC, creatinina, proteinuria, complemento.",
+        "Administrar medicamentos según orden y observar efectos adversos."
+      ],
+      "patient_teaching": [
+        "Uso diario de protector solar SPF 30+ y ropa protectora.",
+        "Tomar hidroxicloroquina sin interrupción y reportar visión borrosa.",
+        "Reconocer signos de infección o brote y buscar atención inmediata.",
+        "Mantener dieta balanceada y ejercicio moderado según tolerancia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "dolor articular",
+          "fatiga",
+          "inflamación sistémica"
+        ],
+        "evidenced_by": [
+          "cansancio al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "Aumenta la tolerancia a la actividad para realizar ADL sin fatiga excesiva en 2 semanas",
+          "Mantiene nivel de energía ≥7/10 en escala de 0‑10"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de fatiga y capacidad funcional usando escala de Borg cada turno",
+            "rationale": "Permite identificar cambios y planificar actividades adecuadas"
+          },
+          {
+            "action": "Programar descansos programados y actividades de bajo impacto",
+            "rationale": "Reduce la sobrecarga muscular y mejora la tolerancia"
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse al vestirse, dividir tareas)",
+            "rationale": "Facilita la realización de ADL sin exacerbar síntomas"
+          },
+          {
+            "action": "Coordinar con fisioterapia para plan de ejercicio progresivo",
+            "rationale": "Mejora la fuerza y la resistencia de forma segura"
+          },
+          {
+            "action": "Monitorear signos vitales antes y después de la actividad",
+            "rationale": "Detecta intolerancia cardiovascular o respiratoria"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "uso de corticoides",
+          "inmunosupresores",
+          "alteración de la respuesta inmune"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No presenta signos de infección durante la hospitalización",
+          "Mantiene temperatura <38 °C y leucocitosis normal"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar higiene de manos antes y después de cada contacto",
+            "rationale": "Previene transmisión de patógenos"
+          },
+          {
+            "action": "Evaluar temperatura, sitio de inserción de catéter y secreciones cada turno",
+            "rationale": "Detecta infección temprana"
+          },
+          {
+            "action": "Mantener aislamiento estándar y usar guantes cuando sea necesario",
+            "rationale": "Reduce exposición a microorganismos"
+          },
+          {
+            "action": "Educar al paciente sobre signos de infección y cuándo buscar ayuda",
+            "rationale": "Promueve detección precoz y tratamiento oportuno"
+          },
+          {
+            "action": "Revisar y registrar cumplimiento de vacunación (influenza, neumococo)",
+            "rationale": "Disminuye riesgo de infecciones evitables"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Systemic lupus erythematosus (SLE)",
+    "aliases": [
+      "lupus",
+      "sle",
+      "systemic lupus",
+      "autoimmune disease",
+      "autoantibodies"
+    ],
+    "summary": "Chronic autoimmune disease that causes inflammation and multisystem damage, affecting skin, joints, kidneys, heart, lungs, and brain.",
+    "key_points": [
+      "Positive ANA and anti‑dsDNA are diagnostic markers.",
+      "Renal damage (nephritis) is the most serious complication.",
+      "Treatment combines anti‑inflammatories, antimalarials, and corticosteroids.",
+      "Sun protection and avoiding triggers reduce flares."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Autoantibodies against nuclear components form immune complexes.",
+        "The complexes deposit in vessels, activate complement, and cause inflammation.",
+        "Chronic tissue damage affects skin, joints, kidney, heart, and CNS."
+      ],
+      "risk_factors": [
+        "Genetics: HLA‑DR2/DR3 alleles.",
+        "Exposure to ultraviolet light.",
+        "Viral infections (e.g., EBV).",
+        "Use of certain drugs (drug‑induced lupus)."
+      ],
+      "signs_symptoms": [
+        "Photosensitive malar rash.",
+        "Migratory arthritis without erosion.",
+        "Fatigue and low‑grade fever.",
+        "Proteinuria and edema (nephritis)."
+      ],
+      "diagnostics": [
+        "Positive ANA (sensitivity >95%).",
+        "Specific anti‑dsDNA and anti‑Sm antibodies.",
+        "Low C3/C4 complement levels.",
+        "Creatinine and proteinuria to assess kidney function."
+      ],
+      "treatment": [
+        "NSAIDs for joint pain.",
+        "Hydroxychloroquine (antimalarial).",
+        "Systemic or topical corticosteroids as needed.",
+        "Immunosuppressants: azathioprine, mycophenolate, cyclophosphamide."
+      ],
+      "complications": [
+        "Lupus nephritis → renal failure.",
+        "Neuropsychiatric lupus (seizures, psychosis).",
+        "Serositis: pleuritis, pericarditis.",
+        "Thrombosis and antiphospholipid syndrome."
+      ],
+      "nursing_care": [
+        "Assess joint pain, rash, and energy level each shift.",
+        "Monitor blood pressure, heart rate, and signs of edema.",
+        "Track labs: CBC, creatinine, proteinuria, complement.",
+        "Administer medications per order and observe for adverse effects."
+      ],
+      "patient_teaching": [
+        "Use daily sunscreen SPF 30+ and protective clothing.",
+        "Take hydroxychloroquine consistently and report blurred vision.",
+        "Recognize signs of infection or flare and seek immediate care.",
+        "Maintain a balanced diet and moderate exercise as tolerated."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "joint pain",
+          "fatigue",
+          "systemic inflammation"
+        ],
+        "evidenced_by": [
+          "tiredness during activities of daily living",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "Increase activity tolerance to perform ADLs without excessive fatigue in 2 weeks",
+          "Maintain energy level ≥7/10 on a 0‑10 scale"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fatigue level and functional capacity using the Borg scale each shift",
+            "rationale": "Allows identification of changes and planning of appropriate activities"
+          },
+          {
+            "action": "Schedule planned rest periods and low‑impact activities",
+            "rationale": "Reduces muscular overload and improves tolerance"
+          },
+          {
+            "action": "Teach energy conservation techniques (sit while dressing, break tasks into smaller steps)",
+            "rationale": "Facilitates ADL performance without exacerbating symptoms"
+          },
+          {
+            "action": "Coordinate with physical therapy for a progressive exercise plan",
+            "rationale": "Improves strength and endurance safely"
+          },
+          {
+            "action": "Monitor vital signs before and after activity",
+            "rationale": "Detects cardiovascular or respiratory intolerance"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "corticosteroid use",
+          "immunosuppressants",
+          "altered immune response"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection during hospitalization",
+          "Maintain temperature <38 °C and normal leukocyte count"
+        ],
+        "interventions": [
+          {
+            "action": "Perform hand hygiene before and after each contact",
+            "rationale": "Prevents pathogen transmission"
+          },
+          {
+            "action": "Assess temperature, catheter insertion site, and secretions each shift",
+            "rationale": "Detects early infection"
+          },
+          {
+            "action": "Maintain standard isolation and use gloves when necessary",
+            "rationale": "Reduces exposure to microorganisms"
+          },
+          {
+            "action": "Educate patient on signs of infection and when to seek help",
+            "rationale": "Promotes early detection and timely treatment"
+          },
+          {
+            "action": "Review and document vaccination status (influenza, pneumococcal)",
+            "rationale": "Decreases risk of preventable infections"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "systemic-lupus-erythematosus",
+    "nephritis",
+    "autoimmune-disease"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Lupus",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/lupus.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Organizational Frameworks and Structure",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/3-2-organizational-frameworks-and-structure",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Health Risks for Young and Middle-Aged Adults",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/40-3-health-risks-for-young-and-middle-aged-adults",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-23",
+  "factcheck": {
+    "checked": "2026-11-23",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 28,
+      "contradicted": 0,
+      "total": 36
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "This attack causes inflammation. It can also damage many parts of the body, including the joints, skin, kidneys, heart, lungs, and brain.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "It can also damage many parts of the body, including the joints, skin, kidneys, heart, lungs, and brain.",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Drug-induced lupus is caused by a reaction to some medicines.",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "It causes a rash or sores, usually after your skin is exposed to sunlight .",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Fever Fatigue or feeling tired often",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Heart problems , including inflammation in the heart (myocarditis), heart valves , or lining of the heart muscle ( pericarditis ).",
+        "source": 0
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "May order blood tests, such as ANA (antinuclear antibody) , antibodies, complete blood count , and complement tests May order other tests, such as urine tests",
+        "source": 0
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "It helps to learn more about lupus - being able to spot the warning signs of a flare can help you prevent the flare or make the symptoms less severe.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}
