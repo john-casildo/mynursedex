@@ -1,0 +1,502 @@
+{
+  "id": "gastrointestinal-ulcer",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Úlcera péptica (UP)",
+    "aliases": [
+      "ulcera peptica",
+      "ulcera gastrica",
+      "ulcera duodenal",
+      "pud",
+      "ulcera estomacal"
+    ],
+    "summary": "Lesión erosiva de la mucosa gástrica o duodenal causada principalmente por H. pylori o AINE. Produce dolor epigástrico y riesgo de sangrado.",
+    "key_points": [
+      "Dolor típico entre comidas o nocturno",
+      "H. pylori y AINE son causas principales",
+      "Diagnóstico con pruebas de H. pylori y endoscopia",
+      "Tratamiento combina inhibidores de bomba de protones y antibióticos"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infección por H. pylori altera la mucosa y aumenta la producción de ácido",
+        "AINE inhiben prostaglandinas, reduciendo la secreción de mucus protector",
+        "El exceso de ácido erosiona la barrera mucosa, formando la úlcera",
+        "Si la úlcera se profundiza, puede comprometer vasos sanguíneos y perforar"
+      ],
+      "risk_factors": [
+        "Infección crónica por Helicobacter pylori",
+        "Uso prolongado de AINE (aspirina, ibuprofeno)",
+        "Tabaquismo y consumo de alcohol",
+        "Estrés crónico y antecedentes familiares de úlcera"
+      ],
+      "signs_symptoms": [
+        "Dolor ardiente epigástrico, empeora en ayunas",
+        "Alivio temporal con alimentos o antiácidos",
+        "Náuseas, vómitos con sangre (hematemesis)",
+        "Melena o anemia por sangrado oculto"
+      ],
+      "diagnostics": [
+        "Prueba de aliento con urea: resultado positivo indica H. pylori",
+        "Test de antígeno en heces o serología para H. pylori",
+        "Endoscopia digestiva alta: visualiza úlcera y permite biopsia",
+        "Hemograma: Hb <12 g/dL sugiere sangrado; Hct <36 %"
+      ],
+      "treatment": [
+        "Inhibidor de bomba de protones (omeprazol, esomeprazol) para reducir ácido",
+        "Antagonista H2 (ranitidina, famotidina) si PPI no disponible",
+        "Terapia triple: PPI + amoxicilina + claritromicina (o metronidazol)",
+        "Sucralfato o misoprostol para proteger la mucosa",
+        "Endoscopia terapéutica si hay sangrado activo"
+      ],
+      "complications": [
+        "Hemorragia gastrointestinal aguda o crónica"
+      ],
+      "nursing_care": [
+        "Evaluar dolor usando escala 0‑10 y registrar patrón",
+        "Monitorear signos vitales y signos de sangrado (hematemesis, melena)",
+        "Controlar Hb y Hct cada 24‑48 h si hay sangrado",
+        "Administrar PPI y antibióticos según prescripción, observar efectos adversos",
+        "Mantener ayuno pre‑endoscopia y posición semisentada post‑procedimiento"
+      ],
+      "patient_teaching": [
+        "Evitar AINE, alcohol y tabaco durante y después del tratamiento",
+        "Tomar antibióticos completos aunque mejore el dolor",
+        "Tomar PPI antes de las comidas y no omitir dosis",
+        "Reportar vómitos con sangre o heces negras inmediatamente",
+        "Seguir dieta blanda y evitar alimentos picantes"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "Úlcera péptica",
+          "Irritación de mucosa gástrica"
+        ],
+        "evidenced_by": [
+          "Dolor epigástrico de intensidad 6‑8",
+          "Alivio parcial con antiácidos",
+          "Náuseas asociadas"
+        ],
+        "outcomes": [
+          "Control del dolor: dolor ≤3 en escala 0‑10",
+          "Paciente reporta alivio del dolor después de medicación"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar dolor cada 2 h usando escala numérica",
+            "rationale": "Permite medir efectividad del tratamiento y ajustar intervenciones"
+          },
+          {
+            "action": "Administrar inhibidor de bomba de protones según orden",
+            "rationale": "Reduce la secreción ácida y favorece la cicatrización"
+          },
+          {
+            "action": "Ofrecer antiácido de acción rápida si el dolor es intenso",
+            "rationale": "Alivia el dolor al neutralizar ácido temporalmente"
+          },
+          {
+            "action": "Posicionar al paciente semisentado para disminuir reflujo",
+            "rationale": "Reduce irritación de la mucosa y mejora comodidad"
+          },
+          {
+            "action": "Educar al paciente sobre evitar alimentos irritantes",
+            "rationale": "Previene estímulo adicional del dolor"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "Hemorragia gastrointestinal",
+          "Uso prolongado de AINE",
+          "Infección por H. pylori con ulceración profunda"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hidratación adecuada: ingesta oral ≥1500 mL/día",
+          "Peso corporal estable, sin pérdida >2 % en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear signos vitales y presión arterial cada 4 h",
+            "rationale": "Detecta signos tempranos de hipovolemia"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos (I/O)",
+            "rationale": "Evalúa balance hídrico y detecta pérdidas ocultas"
+          },
+          {
+            "action": "Observar sangre en vómitos o heces y notificar al médico",
+            "rationale": "Identifica hemorragia que puede causar déficit de volumen"
+          },
+          {
+            "action": "Administrar solución intravenosa según indicación si hay sangrado",
+            "rationale": "Restituye volumen intravascular y previene shock"
+          },
+          {
+            "action": "Educar al paciente sobre signos de deshidratación y sangrado",
+            "rationale": "Promueve detección temprana y búsqueda de ayuda"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Peptic ulcer (UP)",
+    "aliases": [
+      "peptic ulcer",
+      "gastric ulcer",
+      "duodenal ulcer",
+      "pud",
+      "stomach ulcer"
+    ],
+    "summary": "Erosive lesion of the gastric or duodenal mucosa primarily caused by H. pylori or NSAIDs. Produces epigastric pain and risk of bleeding.",
+    "key_points": [
+      "Typical pain between meals or at night",
+      "H. pylori and NSAIDs are main causes",
+      "Diagnosis with H. pylori tests and endoscopy",
+      "Treatment combines proton pump inhibitors and antibiotics"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "H. pylori infection alters mucosa and increases acid production",
+        "NSAIDs inhibit prostaglandins, reducing protective mucus secretion",
+        "Excess acid erodes mucosal barrier, forming ulcer",
+        "If ulcer deepens, it can compromise blood vessels and perforate"
+      ],
+      "risk_factors": [
+        "Chronic Helicobacter pylori infection",
+        "Long‑term NSAID use (aspirin, ibuprofen)",
+        "Smoking and alcohol consumption",
+        "Chronic stress and family history of ulcer"
+      ],
+      "signs_symptoms": [
+        "Burning epigastric pain, worse on an empty stomach",
+        "Temporary relief with food or antacids",
+        "Nausea, vomiting with blood (hematemesis)",
+        "Melena or anemia from occult bleeding"
+      ],
+      "diagnostics": [
+        "Urea breath test: positive result indicates H. pylori",
+        "Stool antigen test or serology for H. pylori",
+        "Upper endoscopy: visualizes ulcer and allows biopsy",
+        "CBC: Hb <12 g/dL suggests bleeding; Hct <36 %"
+      ],
+      "treatment": [
+        "Proton pump inhibitor (omeprazole, esomeprazole) to reduce acid",
+        "H2 antagonist (ranitidine, famotidine) if PPI unavailable",
+        "Triple therapy: PPI + amoxicillin + clarithromycin (or metronidazole)",
+        "Sucralfate or misoprostol to protect mucosa",
+        "Therapeutic endoscopy if active bleeding"
+      ],
+      "complications": [
+        "Acute or chronic gastrointestinal hemorrhage"
+      ],
+      "nursing_care": [
+        "Assess pain using 0‑10 scale and record pattern",
+        "Monitor vital signs and signs of bleeding (hematemesis, melena)",
+        "Check Hb and Hct every 24‑48 h if bleeding",
+        "Administer PPI and antibiotics per order, observe adverse effects",
+        "Maintain pre‑endoscopy fasting and semirecumbent position post‑procedure"
+      ],
+      "patient_teaching": [
+        "Avoid NSAIDs, alcohol, and tobacco during and after treatment",
+        "Take full course of antibiotics even if pain improves",
+        "Take PPI before meals and do not miss doses",
+        "Report vomiting with blood or black stools immediately",
+        "Follow a bland diet and avoid spicy foods"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "Peptic ulcer",
+          "Gastric mucosal irritation"
+        ],
+        "evidenced_by": [
+          "Epigastric pain intensity 6‑8",
+          "Partial relief with antacids",
+          "Associated nausea"
+        ],
+        "outcomes": [
+          "Pain control: pain ≤3 on 0‑10 scale",
+          "Patient reports pain relief after medication"
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain every 2 h using numeric scale",
+            "rationale": "Measures treatment effectiveness and guides adjustments"
+          },
+          {
+            "action": "Administer proton pump inhibitor as ordered",
+            "rationale": "Reduces acid secretion and promotes healing"
+          },
+          {
+            "action": "Offer rapid‑acting antacid if pain is intense",
+            "rationale": "Alleviates pain by temporarily neutralizing acid"
+          },
+          {
+            "action": "Position patient semirecumbent to reduce reflux",
+            "rationale": "Decreases mucosal irritation and improves comfort"
+          },
+          {
+            "action": "Educate patient about avoiding irritating foods",
+            "rationale": "Prevents additional pain stimulus"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "Gastrointestinal hemorrhage",
+          "Long‑term NSAID use",
+          "H. pylori infection with deep ulceration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Adequate hydration: oral intake ≥1500 mL/day",
+          "Stable body weight, no loss >2 % in 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor vital signs and blood pressure every 4 h",
+            "rationale": "Detects early signs of hypovolemia"
+          },
+          {
+            "action": "Record intake and output (I/O)",
+            "rationale": "Assesses fluid balance and detects hidden losses"
+          },
+          {
+            "action": "Observe blood in vomitus or stool and notify physician",
+            "rationale": "Identifies bleeding that may cause volume deficit"
+          },
+          {
+            "action": "Administer IV fluid as indicated if bleeding",
+            "rationale": "Restores intravascular volume and prevents shock"
+          },
+          {
+            "action": "Educate patient on signs of dehydration and bleeding",
+            "rationale": "Promotes early detection and seeking help"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "helicobacter-pylori-infection",
+    "nsaid-use",
+    "gastric-bleeding",
+    "peptic-ulcer-perforation",
+    "anemia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Peptic Ulcer",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pepticulcer.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Úlcera péptica",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pepticulcer.html",
+      "lang": "es"
+    },
+    {
+      "name": "Fundamentals of Nursing: Gastrointestinal Tract Structures and Functions",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/27-1-gastrointestinal-tract-structures-and-functions",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Gastrointestinal Concerns",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/35-5-gastrointestinal-concerns",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-24",
+  "factcheck": {
+    "checked": "2026-11-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 21,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "The most common cause is infection with a bacterium called Helicobacter pylori . Another cause is the long-term use of nonsteroidal anti-inflammatory medicines (NSAIDs) such as aspirin and ibuprofen.",
+        "source": 0
+      },
+      "summary.2": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The pain: Starts between meals or during the night",
+        "source": 0
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common cause is infection with a bacterium called Helicobacter pylori . Another cause is the long-term use of nonsteroidal anti-inflammatory medicines (NSAIDs) such as aspirin and ibuprofen.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "pylori infection, your doctor will test your blood, breath, or stool. Your doctor also may look inside your stomach and duodenum by doing an endoscopy or x-ray.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Treatment may include medicines to reduce stomach acids or antibiotics to kill H. pylori.",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Peptic ulcers happen when the acids that help you digest food damage the walls of the stomach or duodenum.",
+        "source": 0
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Another cause is the long-term use of nonsteroidal anti-inflammatory medicines (NSAIDs) such as aspirin and ibuprofen.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Not smoking and avoiding alcohol can help.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "A burning stomach pain is the most common symptom.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Briefly stops if you eat or take antacids",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Common assessment findings for patients with acute GI bleeding are: abdominal pain or cramping anemia cool, clammy skin decreased LOC decreased urine output hematemesis (bloody vomitus) hypoactive bowel sounds hypotension melena (bloody stools) and/or dark tarry stools tachycardia",
+        "source": 3
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Most patients experiencing bleeding from stress ulcers will also be recommended to take a PPI such as omeprazole (e.g., Prilosec) or pantoprazole (Protonix) to decrease gastric acid secretion and allow for complete healing of the ulcer.",
+        "source": 3
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "If an acute GI bleed is suspected, the patient will likely be scheduled for an emergent endoscopy.",
+        "source": 3
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Common assessment findings for patients with acute GI bleeding are: abdominal pain or cramping anemia cool, clammy skin decreased LOC decreased urine output hematemesis (bloody vomitus) hypoactive bowel sounds hypotension melena (bloody stools) and/or dark tarry stools tachycardia",
+        "source": 3
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "It is important for the nurse to closely monitor the patient’s hemodynamic status and vital signs and intervene as needed.",
+        "source": 3
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Most patients experiencing bleeding from stress ulcers will also be recommended to take a PPI such as omeprazole (e.g., Prilosec) or pantoprazole (Protonix) to decrease gastric acid secretion and allow for complete healing of the ulcer.",
+        "source": 3
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Another cause is the long-term use of nonsteroidal anti-inflammatory medicines (NSAIDs) such as aspirin and ibuprofen.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Patients are prescribed a2-week course of antibiotics to eradicate the bacteria completely and prevent the development of additional ulcers in the future.",
+        "source": 3
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

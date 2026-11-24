@@ -1,0 +1,462 @@
+{
+  "id": "pituitary-disorders",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trastorno de la glándula pituitaria",
+    "aliases": [
+      "pituitaria",
+      "trastorno pituitario",
+      "tumor pituitario",
+      "hipopituitarismo",
+      "hiperpituitarismo"
+    ],
+    "summary": "Alteración de la producción hormonal de la glándula pituitaria, generalmente por un adenoma, que causa exceso o deficiencia de hormonas.",
+    "key_points": [
+      "La pituitaria controla otras glándulas endocrinas mediante hormonas tropinas.",
+      "Los tumores pituitarios pueden ser funcionales (hormonales) o no funcionales.",
+      "Síntomas dependen de la hormona afectada: hipersecreción o deficiencia.",
+      "Diagnóstico se basa en pruebas hormonales y resonancia magnética cerebral.",
+      "El tratamiento incluye cirugía, radioterapia y terapia hormonal de reemplazo o supresión."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Un adenoma pituitario altera la secreción normal de hormonas.",
+        "Los tumores funcionales liberan hormonas en exceso (p. ej., ACTH, prolactina).",
+        "Los tumores no funcionales comprimen tejido pituitario, reduciendo la producción hormonal.",
+        "La compresión del tallo hipofisario puede afectar la liberación de hormonas hipotalámicas."
+      ],
+      "risk_factors": [
+        "Edad adulta (30‑60 años) y sexo femenino para prolactinomas.",
+        "Historia familiar de síndromes genéticos (MEN 1, Carney).",
+        "Exposición a radiación craneal previa.",
+        "Obesidad y síndrome metabólico pueden predisponer a hiperplasia hipofisaria."
+      ],
+      "signs_symptoms": [
+        "Cambios en peso, presión arterial o glucemia según la hormona afectada.",
+        "Amenorrea, galactorrea o disfunción sexual en prolactinomas.",
+        "Cefalea y alteraciones visuales por compresión del quiasma óptico.",
+        "Fatiga, debilidad y pérdida de vello corporal en hipopituitarismo."
+      ],
+      "diagnostics": [
+        "Perfil hormonal sérico: cortisol, ACTH, TSH, LH/FSH, prolactina, GH, IGF‑1.",
+        "Resonancia magnética (RM) de cabeza con contraste para localizar el adenoma.",
+        "Prueba de supresión o estimulación hormonal (p. ej., dexametasona, TRH).",
+        "Evaluación de la visión (campo visual) para detectar hemianopsia."
+      ],
+      "treatment": [
+        "Cirugía transesfenoidal para resección del adenoma.",
+        "Radioterapia (conforme a disponibilidad) para tumores residuales.",
+        "Agentes farmacológicos: agonistas dopaminérgicos (cabergolina) para prolactinomas; antagonistas de cortisol (ketoconazol) para Cushing.",
+        "Reposición hormonal: levotiroxina, corticoides, hormonas sexuales según déficit."
+      ],
+      "complications": [
+        "Hipopituitarismo permanente con déficit multihormonal.",
+        "Síndrome de insuficiencia suprarrenal aguda tras resección tumoral.",
+        "Daño visual irreversible por compresión prolongada.",
+        "Hiponatremia o hipernatremia según alteración de ADH."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales, presión arterial y glucosa cada 4‑6 h.",
+        "Evaluar nivel de conciencia y campos visuales diariamente.",
+        "Controlar electrolitos (Na⁺, K⁺) y glucosa según terapia hormonal.",
+        "Administrar hormonas de reemplazo según prescripción y observar efectos adversos.",
+        "Preparar al paciente para cirugía: ayuno, higiene oral y educación preoperatoria."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de terapia hormonal de por vida y la importancia de la adherencia.",
+        "Enseñar signos de crisis adrenal (náuseas, vómitos, hipotensión) y cuándo buscar ayuda.",
+        "Instruir sobre la toma de medicamentos (p. ej., cabergolina) y efectos secundarios comunes.",
+        "Promover seguimiento regular de laboratorio y estudios de imagen.",
+        "Fomentar reporte inmediato de cambios visuales o cefalea intensa."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "hipopituitarismo",
+          "deficiencia de cortisol",
+          "anemia secundaria"
+        ],
+        "evidenced_by": [
+          "cansancio constante",
+          "disminución de la actividad diaria",
+          "dificultad para concentrarse"
+        ],
+        "outcomes": [
+          "NOC: Nivel de energía: paciente reporta aumento de energía a 7/10 en escala de 0‑10 en 48 h.",
+          "NOC: Actividad de la vida diaria: paciente completa actividades básicas sin ayuda en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y patrones de sueño cada turno.",
+            "rationale": "Permite identificar cambios y ajustar intervenciones de descanso."
+          },
+          {
+            "action": "Planificar actividades de bajo esfuerzo y programar períodos de descanso.",
+            "rationale": "Reduce la demanda metabólica y previene agotamiento."
+          },
+          {
+            "action": "Administrar terapia de reemplazo hormonal según orden médica.",
+            "rationale": "Corrige deficiencias hormonales que contribuyen a la fatiga."
+          },
+          {
+            "action": "Educar al paciente sobre nutrición adecuada y hidratación.",
+            "rationale": "Mejora la energía disponible y previene hipoglucemia."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiper o hipopituitarismo que afecta ADH",
+          "uso de diuréticos post‑cirugía",
+          "corticoides intravenosos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Equilibrio electrolítico: Na⁺ y K⁺ dentro de rangos normales (135‑145 mEq/L y 3.5‑5.0 mEq/L) en 24 h.",
+          "NOC: Estado de hidratación: paciente mantiene ingesta y salida de líquidos equilibrada."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos y balance hídrico cada 8 h.",
+            "rationale": "Detecta alteraciones tempranas y permite intervención oportuna."
+          },
+          {
+            "action": "Administrar soluciones intravenosas según prescripción (ej. solución salina isotónica).",
+            "rationale": "Corrige déficits o excesos de sodio y agua."
+          },
+          {
+            "action": "Evaluar signos de deshidratación o sobrecarga (turgor, edema, presión arterial).",
+            "rationale": "Guía ajustes en la terapia de fluidos."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la ingesta adecuada de líquidos y alimentos ricos en electrolitos.",
+            "rationale": "Promueve autocuidado y prevención de desequilibrios."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Pituitary gland disorder",
+    "aliases": [
+      "pituitary",
+      "pituitary disorder",
+      "pituitary tumor",
+      "hypopituitarism",
+      "hyperpituitarism"
+    ],
+    "summary": "Alteration of hormone production by the pituitary gland, usually due to an adenoma, causing excess or deficiency of hormones.",
+    "key_points": [
+      "The pituitary controls other endocrine glands via tropic hormones.",
+      "Pituitary tumors can be functional (hormonal) or non-functional.",
+      "Symptoms depend on the affected hormone: hypersecretion or deficiency.",
+      "Diagnosis is based on hormone tests and brain MRI.",
+      "Treatment includes surgery, radiotherapy, and replacement or suppression hormone therapy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "A pituitary adenoma disrupts normal hormone secretion.",
+        "Functional tumors release hormones in excess (e.g., ACTH, prolactin).",
+        "Non-functional tumors compress pituitary tissue, reducing hormone production.",
+        "Compression of the pituitary stalk can affect hypothalamic hormone release."
+      ],
+      "risk_factors": [
+        "Adult age (30‑60 years) and female sex for prolactinomas.",
+        "Family history of genetic syndromes (MEN 1, Carney).",
+        "Previous cranial radiation exposure.",
+        "Obesity and metabolic syndrome may predispose to pituitary hyperplasia."
+      ],
+      "signs_symptoms": [
+        "Changes in weight, blood pressure or glucose according to the affected hormone.",
+        "Amenorrhea, galactorrhea or sexual dysfunction in prolactinomas.",
+        "Headache and visual disturbances from optic chiasm compression.",
+        "Fatigue, weakness and loss of body hair in hypopituitarism."
+      ],
+      "diagnostics": [
+        "Serum hormone profile: cortisol, ACTH, TSH, LH/FSH, prolactin, GH, IGF‑1.",
+        "Contrast-enhanced brain MRI to locate the adenoma.",
+        "Hormone suppression or stimulation tests (e.g., dexamethasone, TRH).",
+        "Vision assessment (visual fields) to detect hemianopsia."
+      ],
+      "treatment": [
+        "Transsphenoidal surgery for adenoma resection.",
+        "Radiotherapy (as available) for residual tumors.",
+        "Pharmacologic agents: dopamine agonists (cabergoline) for prolactinomas; cortisol antagonists (ketoconazole) for Cushing.",
+        "Hormone replacement: levothyroxine, corticosteroids, sex hormones as needed for deficits."
+      ],
+      "complications": [
+        "Permanent hypopituitarism with multihormonal deficit.",
+        "Acute adrenal insufficiency syndrome after tumor resection.",
+        "Irreversible visual damage from prolonged compression.",
+        "Hyponatremia or hypernatremia depending on ADH alteration."
+      ],
+      "nursing_care": [
+        "Monitor vital signs, blood pressure and glucose every 4‑6 h.",
+        "Assess level of consciousness and visual fields daily.",
+        "Check electrolytes (Na⁺, K⁺) and glucose per hormone therapy.",
+        "Administer replacement hormones per prescription and monitor adverse effects.",
+        "Prepare the patient for surgery: fasting, oral hygiene and preoperative education."
+      ],
+      "patient_teaching": [
+        "Explain the need for lifelong hormone therapy and adherence importance.",
+        "Teach signs of adrenal crisis (nausea, vomiting, hypotension) and when to seek help.",
+        "Instruct on medication use (e.g., cabergoline) and common side effects.",
+        "Encourage regular lab and imaging follow-up.",
+        "Promote immediate reporting of visual changes or severe headache."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "hypopituitarism",
+          "cortisol deficiency",
+          "secondary anemia"
+        ],
+        "evidenced_by": [
+          "constant tiredness",
+          "reduced daily activity",
+          "difficulty concentrating"
+        ],
+        "outcomes": [
+          "NOC: Energy level: patient reports increased energy to 7/10 on 0‑10 scale within 48 h.",
+          "NOC: Activities of daily living: patient completes basic activities without assistance within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and sleep patterns each shift.",
+            "rationale": "Identifies changes and allows adjustment of rest interventions."
+          },
+          {
+            "action": "Plan low-effort activities and schedule rest periods.",
+            "rationale": "Reduces metabolic demand and prevents exhaustion."
+          },
+          {
+            "action": "Administer replacement hormone therapy as ordered.",
+            "rationale": "Corrects hormonal deficiencies contributing to fatigue."
+          },
+          {
+            "action": "Educate the patient on adequate nutrition and hydration.",
+            "rationale": "Improves available energy and prevents hypoglycemia."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyper or hypopituitarism affecting ADH",
+          "post‑surgical diuretic use",
+          "intravenous corticosteroids"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Electrolyte balance: Na⁺ and K⁺ within normal ranges (135‑145 mEq/L and 3.5‑5.0 mEq/L) within 24 h.",
+          "NOC: Hydration status: patient maintains balanced fluid intake and output."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes and fluid balance every 8 h.",
+            "rationale": "Detects early changes and allows timely intervention."
+          },
+          {
+            "action": "Administer IV solutions per prescription (e.g., normal saline).",
+            "rationale": "Corrects sodium and water deficits or excesses."
+          },
+          {
+            "action": "Assess signs of dehydration or overload (turgor, edema, blood pressure).",
+            "rationale": "Guides fluid therapy adjustments."
+          },
+          {
+            "action": "Educate the patient on the importance of adequate fluid and electrolyte-rich food intake.",
+            "rationale": "Promotes self‑care and prevention of imbalances."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypopituitarism",
+    "pituitary-adenoma",
+    "cushing-disease",
+    "diabetes-insipidus"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Pituitary Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/pituitarydisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Enfermedades de la glándula pituitaria",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/pituitarydisorders.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Pituitary Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-4-pituitary-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Eye",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/18-1-disorders-of-the-eye",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-24",
+  "factcheck": {
+    "checked": "2026-11-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 1,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "The excess ADH prevents the production of urine in the kidneys, impairs water secretion, and leads to excess water in the body (hypervolemia) and hyponatremia (Yasir & Mechanic, 2023).",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "id": "water-balance",
+  "category": "fundamentals",
+  "areas": [],
+  "es": {
+    "term": "Balance de líquidos",
+    "aliases": [
+      "balance de agua",
+      "hidratación",
+      "volumen de líquidos",
+      "fluido corporal",
+      "balance hídrico",
+      "equilibrio hídrico"
+    ],
+    "summary": "El balance de líquidos es la relación entre la ingesta y la pérdida de agua y electrolitos, esencial para la homeostasis.",
+    "key_points": [
+      "El cuerpo mantiene el equilibrio hídrico mediante la sed, la hormona antidiurética y el sistema renina‑angiotensina.",
+      "Los principales compartimentos son intracelular (≈ 2/3) y extracelular (≈ 1/3).",
+      "Pérdidas incluyen orina, heces, sudor, respiración y pérdidas insensibles.",
+      "Desbalances pueden producir deshidratación o sobrecarga de volumen, afectando presión arterial y perfusión.",
+      "Los electrolitos clave (Na⁺, K⁺, Cl⁻, Ca²⁺, Mg²⁺, HCO₃⁻) regulan la distribución del agua."
+    ],
+    "sections": {
+      "purpose": [
+        "Mantener la presión arterial y perfusión tisular.",
+        "Regular la temperatura corporal y el pH.",
+        "Facilitar el transporte de nutrientes y desechos."
+      ],
+      "procedure": [
+        "Evaluar ingesta de líquidos (bebidas, alimentos, IV).",
+        "Medir pérdidas: orina (mL), drenajes, vómitos, diarrea, sudoración.",
+        "Registrar balance de entrada‑salida cada 8‑12 h.",
+        "Obtener laboratorio: Na⁺, K⁺, Cl⁻ (mEq/L), BUN, creatinina, glucosa (mg/dL).",
+        "Comparar con requerimientos estimados (≈ 30‑35 mL/kg/día)."
+      ],
+      "safety": [
+        "Verificar la correcta identificación del paciente antes de iniciar IV.",
+        "Controlar signos de sobrecarga: edema, disnea, presión venosa yugular elevada.",
+        "Observar signos de deshidratación: piel seca, turgencia disminuida, taquicardia.",
+        "Ajustar velocidad de infusión según órdenes y respuesta clínica."
+      ],
+      "nursing_care": [
+        "Valoración previa: peso, presión arterial, frecuencia cardíaca, estado mental.",
+        "Educación al paciente sobre la importancia de la hidratación y signos de alerta.",
+        "Monitorear cambios en peso diario (±0.5 kg indica alteración).",
+        "Reportar alteraciones de Na⁺ < 135 mEq/L o > 145 mEq/L, K⁺ < 3.5 mEq/L o > 5.0 mEq/L."
+      ],
+      "documentation": [
+        "Registrar hora, tipo y volumen de cada ingesta y pérdida.",
+        "Anotar resultados de laboratorio con unidades (mEq/L, mg/dL).",
+        "Describir intervención de educación y respuesta del paciente.",
+        "Incluir evaluación de signos vitales y peso corporal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "ingesta insuficiente de líquidos",
+          "pérdidas excesivas por vómitos o diarrea",
+          "uso de diuréticos",
+          "fiebre",
+          "insuficiencia renal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Mantener balance hídrico dentro de ±10 % de las necesidades estimadas en 24 h.",
+          "Peso corporal estable (variación ≤0.5 kg en 24 h).",
+          "Presión arterial y frecuencia cardíaca dentro de rangos normales para la edad."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingreso y egreso de líquidos cada 8 h y comparar con requerimientos.",
+            "rationale": "Permite detectar rápidamente desviaciones del balance y tomar medidas correctivas."
+          },
+          {
+            "action": "Evaluar signos de deshidratación o sobrecarga (turgencia, edema, VS).",
+            "rationale": "Los hallazgos clínicos son indicadores tempranos de desequilibrio."
+          },
+          {
+            "action": "Educar al paciente sobre la cantidad adecuada de agua (≈30 mL/kg/día) y fuentes de hidratación.",
+            "rationale": "El conocimiento del paciente favorece la autorregulación de la ingesta."
+          },
+          {
+            "action": "Ajustar la velocidad de infusión IV según órdenes y respuesta hemodinámica.",
+            "rationale": "Previene tanto la hipovolemia como la sobrecarga de volumen."
+          },
+          {
+            "action": "Revisar y notificar resultados de electrolitos (Na⁺, K⁺, Cl⁻) al médico.",
+            "rationale": "Los desequilibrios electrolíticos pueden agravar el desbalance hídrico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Fluid balance",
+    "aliases": [
+      "water balance",
+      "hydration",
+      "fluid volume",
+      "body fluid",
+      "hydro balance",
+      "fluid equilibrium"
+    ],
+    "summary": "Fluid balance is the relationship between intake and loss of water and electrolytes, essential for homeostasis.",
+    "key_points": [
+      "The body maintains hydro balance through thirst, antidiuretic hormone, and the renin‑angiotensin system.",
+      "The main compartments are intracellular (≈ 2/3) and extracellular (≈ 1/3).",
+      "Losses include urine, feces, sweat, respiration, and insensible losses.",
+      "Imbalances can cause dehydration or volume overload, affecting blood pressure and perfusion.",
+      "Key electrolytes (Na⁺, K⁺, Cl⁻, Ca²⁺, Mg²⁺, HCO₃⁻) regulate water distribution."
+    ],
+    "sections": {
+      "purpose": [
+        "Maintain blood pressure and tissue perfusion.",
+        "Regulate body temperature and pH.",
+        "Facilitate transport of nutrients and waste."
+      ],
+      "procedure": [
+        "Assess fluid intake (drinks, food, IV).",
+        "Measure losses: urine (mL), drains, vomiting, diarrhea, sweating.",
+        "Record input‑output balance every 8‑12 h.",
+        "Obtain labs: Na⁺, K⁺, Cl⁻ (mEq/L), BUN, creatinine, glucose (mg/dL).",
+        "Compare with estimated requirements (≈ 30‑35 mL/kg/day)."
+      ],
+      "safety": [
+        "Verify correct patient identification before starting IV.",
+        "Monitor signs of overload: edema, dyspnea, elevated jugular venous pressure.",
+        "Observe signs of dehydration: dry skin, decreased turgor, tachycardia.",
+        "Adjust infusion rate per orders and clinical response."
+      ],
+      "nursing_care": [
+        "Pre-assessment: weight, blood pressure, heart rate, mental status.",
+        "Educate patient on importance of hydration and warning signs.",
+        "Monitor daily weight changes (±0.5 kg indicates alteration).",
+        "Report Na⁺ < 135 mEq/L or > 145 mEq/L, K⁺ < 3.5 mEq/L or > 5.0 mEq/L."
+      ],
+      "documentation": [
+        "Record time, type, and volume of each intake and loss.",
+        "Note lab results with units (mEq/L, mg/dL).",
+        "Describe education intervention and patient response.",
+        "Include vital sign and body weight assessment."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "insufficient fluid intake",
+          "excessive losses from vomiting or diarrhea",
+          "diuretic use",
+          "fever",
+          "renal insufficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Maintain hydro balance within ±10 % of estimated needs in 24 h.",
+          "Stable body weight (variation ≤0.5 kg in 24 h).",
+          "Blood pressure and heart rate within normal age ranges."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h and compare with requirements.",
+            "rationale": "Allows rapid detection of balance deviations and corrective action."
+          },
+          {
+            "action": "Assess for dehydration or overload signs (turgor, edema, VS).",
+            "rationale": "Clinical findings are early indicators of imbalance."
+          },
+          {
+            "action": "Educate patient on adequate water amount (≈30 mL/kg/day) and hydration sources.",
+            "rationale": "Patient knowledge promotes self‑regulation of intake."
+          },
+          {
+            "action": "Adjust IV infusion rate per orders and hemodynamic response.",
+            "rationale": "Prevents both hypovolemia and volume overload."
+          },
+          {
+            "action": "Review and notify electrolyte results (Na⁺, K⁺, Cl⁻) to the physician.",
+            "rationale": "Electrolyte disturbances can worsen fluid imbalance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "electrolyte-imbalance",
+    "dehydration",
+    "fluid-overload",
+    "acid-base-balance"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Fluid and Electrolyte Balance",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/fluidandelectrolytebalance.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Fluid and Electrolytes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/19-1-fluid-and-electrolytes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Fluid and Electrolyte Balances",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/20-1-fluid-and-electrolyte-balances",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-24"
+}

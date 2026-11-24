@@ -1,0 +1,477 @@
+{
+  "id": "platelet-dysfunction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Disfunción plaquetaria",
+    "aliases": [
+      "disfuncion plaquetaria",
+      "plaquetas",
+      "sangrado",
+      "antiplatelet",
+      "p2y12"
+    ],
+    "summary": "Alteración de la capacidad de las plaquetas para agregarse y formar coágulos, aumentando el riesgo de sangrado.",
+    "key_points": [
+      "Puede deberse a trastornos cuantitativos (trombocitopenia) o cualitativos (función plaquetaria).",
+      "Los fármacos antiplquetarios inhiben la activación o agregación plaquetaria.",
+      "El recuento plaquetario <150 000/µL o pruebas de agregación anormales indican disfunción.",
+      "El manejo incluye retirar agentes inhibidores y, si es necesario, transfusión de plaquetas."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Las plaquetas se activan por colágeno y ADP, formando agregados mediante GPIIb/IIIa.",
+        "En la disfunción, se bloquean receptores (P2Y12, GPIIb/IIIa) o se reduce la producción de plaquetas.",
+        "La falta de agregación impide la formación del tapón plaquetario y la coagulación secundaria."
+      ],
+      "risk_factors": [
+        "Uso de inhibidores P2Y12 (clopidogrel, ticagrelor), aspirina, eptifibatide, cangrelor.",
+        "Enfermedades hepáticas, síndrome de Bernard‑Soulier, Glanzmann.",
+        "Quimioterapia, radiación, infecciones virales (p. ej. VIH, hepatitis C).",
+        "Deficiencias nutricionales de vitamina B12 o ácido fólico."
+      ],
+      "signs_symptoms": [
+        "Hemorragias mucosas (encías, nariz, menorragia).",
+        "Petequias o equimosis espontáneas.",
+        "Hematuria o melena.",
+        "Sangrado prolongado tras procedimientos menores."
+      ],
+      "diagnostics": [
+        "Recuento plaquetario <150 000/µL (x10^3/µL).",
+        "Pruebas de agregación plaquetaria (ADP, colágeno, ristocetina).",
+        "Tiempo de sangrado prolongado (>10 min).",
+        "Hemoglobina y hematocrito para evaluar pérdida sanguínea."
+      ],
+      "treatment": [
+        "Suspender o ajustar dosis de antiplateletas según riesgo quirúrgico.",
+        "Transfusión de concentrado de plaquetas si <20 000/µL o sangrado activo.",
+        "Uso de agentes hemostáticos locales (gelatina, fibrina).",
+        "Corrección de deficiencias nutricionales (B12, ácido fólico)."
+      ],
+      "complications": [
+        "Hemorragia mayor (gastrointestinal, intracraneal).",
+        "Shock hipovolémico por pérdida sanguínea.",
+        "Retraso en cicatrización de heridas.",
+        "Mayor morbilidad en cirugías y procedimientos invasivos."
+      ],
+      "nursing_care": [
+        "Evaluar signos de sangrado cada 4 h y registrar recuento plaquetario.",
+        "Monitorear hemoglobina/hematocrito y signos vitales (PA, FC).",
+        "Mantener acceso venoso de calibre adecuado para transfusión.",
+        "Aplicar presión directa a sitios de sangrado y usar apósitos hemostáticos.",
+        "Coordinar con laboratorio la obtención de pruebas de agregación."
+      ],
+      "patient_teaching": [
+        "Informar sobre signos de sangrado y cuándo buscar ayuda.",
+        "Enseñar a evitar traumatismos bucales y usar cepillo de cerdas suaves.",
+        "Explicar la importancia de reportar todos los medicamentos, incluidos AINES.",
+        "Recomendar dieta rica en vitamina B12 y ácido fólico.",
+        "Indicar la necesidad de controles de laboratorio periódicos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "uso de antiplateletas",
+          "recuento plaquetario bajo",
+          "enfermedad hepática",
+          "procedimientos invasivos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del sangrado: sin evidencia de hemorragia activa en 48 h.",
+          "Hemoglobina estable: variación <1 g/dL en 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar sitio de inserción de catéter y mucosas cada 4 h.",
+            "rationale": "Detectar sangrado temprano permite intervención oportuna."
+          },
+          {
+            "action": "Mantener lista actualizada de medicamentos que inhiben plaquetas.",
+            "rationale": "Facilita decisiones de suspensión antes de procedimientos."
+          },
+          {
+            "action": "Aplicar presión directa y apósitos hemostáticos cuando haya sangrado.",
+            "rationale": "Detiene la pérdida sanguínea localmente."
+          },
+          {
+            "action": "Coordinar transfusión de plaquetas si recuento <20 000/µL o sangrado activo.",
+            "rationale": "Aumenta la capacidad hemostática del paciente."
+          },
+          {
+            "action": "Educar al paciente sobre signos de sangrado y cuándo buscar ayuda.",
+            "rationale": "Promueve autocuidado y detección precoz."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida sanguínea",
+          "transfusión de plaquetas",
+          "náuseas/vómitos",
+          "diuresis aumentada por fármacos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida equilibradas ±500 mL/24 h.",
+          "Presión arterial mantenida dentro de rangos normales para la edad."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Permite detectar déficit o exceso de volumen rápidamente."
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada 4 h.",
+            "rationale": "Cambios pueden indicar hipovolemia o sobrecarga."
+          },
+          {
+            "action": "Administrar fluidos IV según prescripción y evaluar respuesta clínica.",
+            "rationale": "Corrige déficit de volumen y mantiene perfusión tisular."
+          },
+          {
+            "action": "Observar signos de edema o deshidratación en piel y mucosas.",
+            "rationale": "Identifica complicaciones de manejo de líquidos."
+          },
+          {
+            "action": "Enseñar al paciente la importancia de reportar mareos o sed intensa.",
+            "rationale": "Facilita la detección temprana de alteraciones de volumen."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Platelet dysfunction",
+    "aliases": [
+      "platelet dysfunction",
+      "platelets",
+      "bleeding",
+      "antiplatelet",
+      "p2y12"
+    ],
+    "summary": "Alteration of the ability of platelets to aggregate and form clots, increasing the risk of bleeding.",
+    "key_points": [
+      "May be due to quantitative disorders (thrombocytopenia) or qualitative disorders (platelet function).",
+      "Antiplatelet drugs inhibit platelet activation or aggregation.",
+      "A platelet count <150 000/µL or abnormal aggregation tests indicate dysfunction.",
+      "Management includes discontinuing inhibitors and, if necessary, platelet transfusion."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Platelets are activated by collagen and ADP, forming aggregates via GPIIb/IIIa.",
+        "In dysfunction, receptors (P2Y12, GPIIb/IIIa) are blocked or platelet production is reduced.",
+        "Lack of aggregation prevents formation of the platelet plug and secondary coagulation."
+      ],
+      "risk_factors": [
+        "Use of P2Y12 inhibitors (clopidogrel, ticagrelor), aspirin, eptifibatide, cangrelor.",
+        "Liver disease, Bernard‑Soulier syndrome, Glanzmann.",
+        "Chemotherapy, radiation, viral infections (e.g., HIV, hepatitis C).",
+        "Nutritional deficiencies of vitamin B12 or folic acid."
+      ],
+      "signs_symptoms": [
+        "Mucosal hemorrhages (gingival, nasal, menorrhagia).",
+        "Spontaneous petechiae or ecchymoses.",
+        "Hematuria or melena.",
+        "Prolonged bleeding after minor procedures."
+      ],
+      "diagnostics": [
+        "Platelet count <150 000/µL (x10^3/µL).",
+        "Platelet aggregation tests (ADP, collagen, ristocetin).",
+        "Prolonged bleeding time (>10 min).",
+        "Hemoglobin and hematocrit to assess blood loss."
+      ],
+      "treatment": [
+        "Discontinue or adjust antiplatelet dose based on surgical risk.",
+        "Platelet concentrate transfusion if <20 000/µL or active bleeding.",
+        "Use local hemostatic agents (gelatin, fibrin).",
+        "Correct nutritional deficiencies (B12, folic acid)."
+      ],
+      "complications": [
+        "Major hemorrhage (gastrointestinal, intracranial).",
+        "Hypovolemic shock from blood loss.",
+        "Delayed wound healing.",
+        "Increased morbidity in surgeries and invasive procedures."
+      ],
+      "nursing_care": [
+        "Assess bleeding signs every 4 h and record platelet count.",
+        "Monitor hemoglobin/hematocrit and vital signs (BP, HR).",
+        "Maintain appropriately sized venous access for transfusion.",
+        "Apply direct pressure to bleeding sites and use hemostatic dressings.",
+        "Coordinate with laboratory for aggregation studies."
+      ],
+      "patient_teaching": [
+        "Inform about bleeding signs and when to seek help.",
+        "Teach to avoid oral trauma and use soft-bristled toothbrushes.",
+        "Explain the importance of reporting all medications, including NSAIDs.",
+        "Recommend a diet rich in vitamin B12 and folic acid.",
+        "Advise on the need for periodic laboratory monitoring."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "use of antiplatelets",
+          "low platelet count",
+          "liver disease",
+          "invasive procedures"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Bleeding control: no evidence of active hemorrhage within 48 h.",
+          "Stable hemoglobin: variation <1 g/dL within 72 h."
+        ],
+        "interventions": [
+          {
+            "action": "Assess catheter insertion site and mucous membranes every 4 h.",
+            "rationale": "Early detection of bleeding allows timely intervention."
+          },
+          {
+            "action": "Maintain an updated list of platelet-inhibiting medications.",
+            "rationale": "Facilitates decisions to discontinue before procedures."
+          },
+          {
+            "action": "Apply direct pressure and hemostatic dressings when bleeding occurs.",
+            "rationale": "Stops local blood loss."
+          },
+          {
+            "action": "Coordinate platelet transfusion if count <20 000/µL or active bleeding.",
+            "rationale": "Increases patient hemostatic capacity."
+          },
+          {
+            "action": "Educate the patient about bleeding signs and when to seek help.",
+            "rationale": "Promotes self-care and early detection."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "blood loss",
+          "platelet transfusion",
+          "nausea/vomiting",
+          "increased diuresis from medications"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output within ±500 mL/24 h.",
+          "Blood pressure maintained within normal age ranges."
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Allows rapid detection of volume deficit or excess."
+          },
+          {
+            "action": "Monitor blood pressure and heart rate every 4 h.",
+            "rationale": "Changes may indicate hypovolemia or overload."
+          },
+          {
+            "action": "Administer IV fluids per prescription and assess clinical response.",
+            "rationale": "Corrects volume deficit and maintains tissue perfusion."
+          },
+          {
+            "action": "Observe for edema or dehydration signs in skin and mucous membranes.",
+            "rationale": "Identifies complications of fluid management."
+          },
+          {
+            "action": "Teach the patient the importance of reporting dizziness or intense thirst.",
+            "rationale": "Facilitates early detection of volume changes."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "thrombocytopenia",
+    "antiplatelet-therapy",
+    "bleeding-risk",
+    "hemostasis",
+    "platelet-aggregation"
+  ],
+  "sources": [
+    {
+      "name": "Pharmacology for Nurses: Antiplatelets",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-3-antiplatelets",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thrombocytopenia",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-4-thrombocytopenia",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-24",
+  "factcheck": {
+    "checked": "2026-11-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 25,
+      "contradicted": 1,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Individuals with thrombocytopenia may have increased risk for bleeding as their platelet count decreases, resulting in difficulty creating blood clots and controlling hemostasis.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Mechanism of Action Inhibits platelet activation through binding to the P2Y12 class of ADP receptors on platelets",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Taking action includes the nursing interventions of administering prescribed medications, coordinating blood transfusions and products as ordered, providing patient education on bleeding and injury prevention, and c",
+        "source": 1
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "contradicted",
+        "quote": "There are currently four P2Y12 inhibitors available in the United States: clopidogrel, prasugrel, ticagrelor, and cangrelor.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Moreover, alcoholic thrombocytopenia is compounded by nutritional deficiencies in folate , thiamine, and vitamin B 12 (Silczuk & Habrat, 2020).",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Some symptoms of bleeding are blood in the stool; dark, tarry-appearing stools; blood in the urine; epistaxis; gingival bleeding; very severe headache; coffee-ground emesis; and hemoptysis.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "These cues include bruising, purpura , petechiae , excessive bleeding from minor cuts or injuries, bleeding from gums, hematomas, hematuria, heavy menstrual bleeding, frequent or spontaneous nosebleeds, and blood blisters in the mouth or on the body.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Other symptoms include nose bleeds, bleeding gums, or prolonged bleeding times after minor invasive procedures (Silczuk & Habrat, 2020).",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Monitor the client for bleeding via decreases in hemoglobin and/or hematocrit and monitoring for other signs/symptoms; monitor platelets to identify bleeding risk.",
+        "source": 0
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "This can manifest in many different ways, including excessive bleeding in response to trauma or during surgery, gastrointestinal bleeding, or spontaneous intracranial hemorrhage.",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Monitor the client for bleeding via decreases in hemoglobin and/or hematocrit and monitoring for other signs/symptoms; monitor platelets to identify bleeding risk.",
+        "source": 0
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Actions to reduce further bleeding include avoiding sharp objects and using an electric razor or a soft toothbrush to avoid tissue integrity issues.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Nurses should monitor laboratory tests and vital signs, administer medication, take safety precautions, and educate the patient about their condition.",
+        "source": 1
+      }
+    }
+  }
+}

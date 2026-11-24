@@ -1,0 +1,499 @@
+{
+  "id": "congenital-heart-defect",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Defecto cardíaco congénito (DCC)",
+    "aliases": [
+      "defecto cardiaco",
+      "cardiaco congénito",
+      "dcc",
+      "defecto nacimiento",
+      "congenito"
+    ],
+    "summary": "Anomalías estructurales del corazón presentes al nacer que alteran el flujo sanguíneo y la función cardíaca.",
+    "key_points": [
+      "Los DCC son la anomalía congénita más frecuente.",
+      "Pueden ser septales, valvulares o de grandes vasos.",
+      "El grado de compromiso varía desde asintomático hasta crítico.",
+      "El diagnóstico precoz permite intervenciones quirúrgicas que mejoran la supervivencia.",
+      "El manejo incluye control hemodinámico, medicación y reparación quirúrgica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Durante la organogénesis, la morfogénesis cardíaca se interrumpe, produciendo comunicaciones anómalas o válvulas defectuosas.",
+        "Los defectos septales generan shunts izquierda‑derecha o derecha‑izquierda, alterando la oxigenación.",
+        "Los defectos valvulares provocan regurgitación o estenosis, aumentando la carga de trabajo del ventrículo.",
+        "La sobrecarga de volumen o presión lleva a hipertrofia ventricular y posible insuficiencia cardíaca."
+      ],
+      "risk_factors": [
+        "Historia familiar de cardiopatías congénitas.",
+        "Exposición materna a teratógenos (rubéola, alcohol, ciertos fármacos).",
+        "Diabetes materna mal controlada.",
+        "Consumo de tabaco o drogas ilícitas durante el embarazo."
+      ],
+      "signs_symptoms": [
+        "Cianosis central o periférica, especialmente con shunt derecha‑izquierda.",
+        "Soplo cardíaco audible en la auscultación.",
+        "Taquipnea, dificultad para alimentarse y fatiga durante la lactancia.",
+        "Signos de insuficiencia cardíaca: hepatomegalia, edema periférico."
+      ],
+      "diagnostics": [
+        "Ecocardiografía transtorácica: confirma tipo y gravedad del defecto.",
+        "Oxigenación arterial (SaO2) < 95% en shunt derecha‑izquierda.",
+        "Radiografía de tórax: cardiomegalia o aumento del flujo pulmonar.",
+        "Cateterismo cardíaco: medición de presiones y cálculo del Qp/Qs."
+      ],
+      "treatment": [
+        "Prostaglandina E1 (alprostadil) para mantener conducto arterioso abierto en DCC críticos.",
+        "Diuréticos de asa (furosemida) para controlar sobrecarga de volumen.",
+        "Inhibidores de la ECA (enalapril) o betabloqueadores (metoprolol) en insuficiencia cardíaca.",
+        "Reparación quirúrgica o cateterismo de cierre (dispositivo de Amplatzer)."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca congestiva.",
+        "Endocarditis infecciosa.",
+        "Hipertensión pulmonar irreversible.",
+        "Crecimiento y desarrollo retrasado."
+      ],
+      "nursing_care": [
+        "Monitorizar signos vitales, especialmente frecuencia cardíaca y saturación de O2.",
+        "Evaluar patrón respiratorio y presencia de tiraje o crepitantes.",
+        "Controlar balance hídrico: ingesta y salida, observar edema.",
+        "Administrar medicamentos según prescripción y observar efectos adversos.",
+        "Preparar al bebé y a la familia para procedimientos quirúrgicos o cateterismo."
+      ],
+      "patient_teaching": [
+        "Explicar la naturaleza del defecto y la necesidad de seguimiento cardiológico.",
+        "Enseñar signos de alarma: cianosis, dificultad respiratoria, aumento de peso súbito.",
+        "Instruir sobre la importancia de la adherencia a medicación y citas de ecocardiografía.",
+        "Promover lactancia materna y técnicas de alimentación que reduzcan el esfuerzo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "shunt izquierda‑derecha",
+          "hipertrofia ventricular",
+          "fatiga durante la alimentación"
+        ],
+        "evidenced_by": [
+          "taquipnea al alimentarse",
+          "cansancio rápido",
+          "soplo audible"
+        ],
+        "outcomes": [
+          "Tolerancia a la actividad: el recién nacido alimentará 10 min sin signos de fatiga en 72 h.",
+          "Patrón respiratorio: mantener frecuencia respiratoria < 60 rpm en reposo."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar frecuencia respiratoria y esfuerzo antes y después de la alimentación.",
+            "rationale": "Detecta deterioro temprano de la tolerancia y permite ajustes de cuidados."
+          },
+          {
+            "action": "Fraccionar la alimentación en tomas más pequeñas y frecuentes.",
+            "rationale": "Reduce la carga de trabajo del corazón y mejora la ingesta calórica."
+          },
+          {
+            "action": "Posicionar al bebé semi‑sentado (30‑45°) durante la alimentación.",
+            "rationale": "Facilita la expansión pulmonar y disminuye el retorno venoso excesivo."
+          },
+          {
+            "action": "Administrar diurético (furosemida) según indicación médica para controlar sobrecarga de volumen.",
+            "rationale": "Disminuye la congestión pulmonar y mejora la capacidad de ejercicio."
+          },
+          {
+            "action": "Educar a los padres sobre signos de intolerancia (cianosis, sudoración, letargo).",
+            "rationale": "Promueve detección temprana y búsqueda de atención médica."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "pérdida de líquidos por diuréticos",
+          "soplo con regurgitación",
+          "insuficiencia cardíaca",
+          "alimentación inadecuada"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta ≥ 80 mL/kg/día y salida ≤ 2 mL/kg/h en 48 h.",
+          "Hematocrito: mantener valores dentro del rango normal para la edad (45‑55%)."
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y pérdida de líquidos cada 2 h.",
+            "rationale": "Permite identificar rápidamente desequilibrios de volumen."
+          },
+          {
+            "action": "Ofrecer alimentación frecuente y suplementar con solución glucosada 5 % si es necesario.",
+            "rationale": "Asegura aporte calórico y volumen adecuado."
+          },
+          {
+            "action": "Monitorear peso diario del recién nacido.",
+            "rationale": "Detecta pérdida de peso que indica déficit de líquidos."
+          },
+          {
+            "action": "Observar signos de deshidratación: fontanelas hundidas, piel seca, taquicardia.",
+            "rationale": "Facilita intervención temprana para prevenir complicaciones."
+          },
+          {
+            "action": "Colaborar con el médico para ajustar dosis de diuréticos según balance hídrico.",
+            "rationale": "Previene exceso de eliminación de líquidos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Congenital heart defect (CHD)",
+    "aliases": [
+      "congenital heart defect",
+      "heart defect",
+      "chd",
+      "birth defect",
+      "congenital"
+    ],
+    "summary": "Structural heart anomalies present at birth that alter blood flow and cardiac function.",
+    "key_points": [
+      "CHDs are the most common congenital anomaly.",
+      "They can be septal, valvular, or great vessel defects.",
+      "Severity ranges from asymptomatic to critical.",
+      "Early diagnosis allows surgical interventions that improve survival.",
+      "Management includes hemodynamic control, medication, and surgical repair."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "During organogenesis, cardiac morphogenesis is disrupted, producing abnormal communications or defective valves.",
+        "Septal defects create left‑to‑right or right‑to‑left shunts, altering oxygenation.",
+        "Valvular defects cause regurgitation or stenosis, increasing ventricular workload.",
+        "Volume or pressure overload leads to ventricular hypertrophy and possible heart failure."
+      ],
+      "risk_factors": [
+        "Family history of congenital heart disease.",
+        "Maternal exposure to teratogens (rubella, alcohol, certain drugs).",
+        "Poorly controlled maternal diabetes.",
+        "Smoking or illicit drug use during pregnancy."
+      ],
+      "signs_symptoms": [
+        "Central or peripheral cyanosis, especially with right‑to‑left shunt.",
+        "Heart murmur audible on auscultation.",
+        "Tachypnea, feeding difficulty, and fatigue during nursing.",
+        "Signs of heart failure: hepatomegaly, peripheral edema."
+      ],
+      "diagnostics": [
+        "Transthoracic echocardiography: confirms type and severity of defect.",
+        "Arterial oxygen saturation (SaO2) < 95% in right‑to‑left shunt.",
+        "Chest X‑ray: cardiomegaly or increased pulmonary flow.",
+        "Cardiac catheterization: pressure measurements and Qp/Qs calculation."
+      ],
+      "treatment": [
+        "Prostaglandin E1 (alprostadil) to keep ductus arteriosus open in critical CHDs.",
+        "Loop diuretics (furosemide) to control volume overload.",
+        "ACE inhibitors (enalapril) or beta‑blockers (metoprolol) for heart failure.",
+        "Surgical repair or catheter closure (Amplatzer device)."
+      ],
+      "complications": [
+        "Congestive heart failure.",
+        "Infective endocarditis.",
+        "Irreversible pulmonary hypertension.",
+        "Delayed growth and development."
+      ],
+      "nursing_care": [
+        "Monitor vital signs, especially heart rate and O2 saturation.",
+        "Assess respiratory pattern and presence of retractions or crackles.",
+        "Track fluid balance: intake and output, observe edema.",
+        "Administer medications per prescription and monitor adverse effects.",
+        "Prepare the infant and family for surgical or catheter procedures."
+      ],
+      "patient_teaching": [
+        "Explain the nature of the defect and the need for cardiology follow‑up.",
+        "Teach warning signs: cyanosis, respiratory distress, sudden weight gain.",
+        "Instruct on importance of medication adherence and echocardiography appointments.",
+        "Promote breastfeeding and feeding techniques that reduce effort."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "left‑to‑right shunt",
+          "ventricular hypertrophy",
+          "feeding fatigue"
+        ],
+        "evidenced_by": [
+          "tachypnea during feeding",
+          "rapid fatigue",
+          "audible murmur"
+        ],
+        "outcomes": [
+          "Activity tolerance: the newborn will feed for 10 min without fatigue signs in 72 h.",
+          "Respiratory pattern: maintain respiratory rate < 60 rpm at rest."
+        ],
+        "interventions": [
+          {
+            "action": "Assess respiratory rate and effort before and after feeding.",
+            "rationale": "Detects early deterioration of tolerance and allows care adjustments."
+          },
+          {
+            "action": "Divide feeding into smaller, more frequent feeds.",
+            "rationale": "Reduces cardiac workload and improves caloric intake."
+          },
+          {
+            "action": "Position the infant semi‑upright (30‑45°) during feeding.",
+            "rationale": "Facilitates lung expansion and reduces excessive venous return."
+          },
+          {
+            "action": "Administer diuretic (furosemide) as ordered to control volume overload.",
+            "rationale": "Reduces pulmonary congestion and improves exercise capacity."
+          },
+          {
+            "action": "Educate parents on intolerance signs (cyanosis, sweating, lethargy).",
+            "rationale": "Promotes early detection and medical attention."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "diuretic fluid loss",
+          "regurgitant murmur",
+          "heart failure",
+          "inadequate feeding"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake ≥ 80 mL/kg/day and output ≤ 2 mL/kg/h in 48 h.",
+          "Hematocrit: maintain within normal age range (45‑55%)."
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 2 h.",
+            "rationale": "Allows rapid identification of volume imbalances."
+          },
+          {
+            "action": "Offer frequent feeds and supplement with 5 % dextrose solution if needed.",
+            "rationale": "Ensures adequate caloric and volume intake."
+          },
+          {
+            "action": "Monitor daily weight of the newborn.",
+            "rationale": "Detects weight loss indicating fluid deficit."
+          },
+          {
+            "action": "Observe dehydration signs: sunken fontanelles, dry skin, tachycardia.",
+            "rationale": "Facilitates early intervention to prevent complications."
+          },
+          {
+            "action": "Collaborate with the physician to adjust diuretic dosing based on fluid balance.",
+            "rationale": "Prevents excessive fluid removal."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "septal-defect",
+    "valvular-disease",
+    "pulmonary-hypertension",
+    "heart-failure"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Congenital Heart Defects",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/congenitalheartdefects.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Defectos cardíacos congénitos",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/congenitalheartdefects.html",
+      "lang": "es"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Congenital, Genetic, and Acquired Complications",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/25-2-congenital-genetic-and-acquired-complications",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-24",
+  "factcheck": {
+    "checked": "2026-11-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 26,
+      "contradicted": 2,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The structure and function of the heart and blood vessels are affected to varying degrees.",
+        "source": 2
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The most common types are: Septal defects (\"hole in the heart\") - openings in the wall between the left and right sides of the heart Heart valve defects - problems with the valves that control the flow of blood through the heart Defects in the large blood vessels that carry blood in and out of the heart",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Congenital cardiac defects can be divided into cyanotic lesions, those defects that shunt right to left (patients who have oxygen saturations less than 90 percent), and acyanotic lesions, defects that shunt left to right (expected oxygen saturations, 90 percent and above).",
+        "source": 2
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "contradicted",
+        "quote": "In most cases, congenital heart defects don't run in families.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Maternal exposure to alcohol, smoking, phenytoin, and retinoic acid also increases the risk to",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Carefully controlling your blood glucose , also called blood sugar, before and during pregnancy can lower your baby's risk of congenital",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Congenital cardiac defects can be divided into cyanotic lesions, those defects that shunt right to left (patients who have oxygen saturations less than 90 percent), and acyanotic lesions, defects that shunt left to right (expected oxygen saturations, 90 percent and above).",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Heart murmur - an unusual sound between heartbeats.",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Fatigue - your baby may be unusually sleepy and may become very tired during feedings.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "contradicted",
+        "quote": "Congenital cardiac defects can be divided into cyanotic lesions, those defects that shunt right to left (patients who have oxygen saturations less than 90 percent), and acyanotic lesions, defects that shunt left to right (expected oxygen saturations, 90 percent and above).",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "People with congenital heart defects may develop other health conditions, including: Endocarditis - an infection of lining of the heart and valves Arrhythmia - a problem with the rate or rhythm of your h",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "Children with congenital heart defects are more likely to: Be smaller than other children Have problems or delays in mental, and emotional growth, and behavior, such as: Speech and language problems Attention deficit hyperactivity disorder (ADHD)",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "All children and adults who have congenital heart defects need regular follow-up care from a cardiologist (a doctor who specializes in heart diseases) throughout their life, even if their defect was repaired.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

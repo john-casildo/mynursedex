@@ -1,0 +1,459 @@
+{
+  "id": "neonatal-hypoxia",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipoxia neonatal",
+    "aliases": [
+      "hipoxia neonatal",
+      "hipoxia perinatal",
+      "asfixia neonatal",
+      "falta de oxígeno",
+      "neonatal hypoxia",
+      "hipoxia del recién nacido"
+    ],
+    "summary": "La hipoxia neonatal es la disminución de la oxigenación tisular del recién nacido durante o después del parto, que compromete la perfusión cerebral y sistémica.",
+    "key_points": [
+      "Ocurre por insuficiente intercambio gaseoso al nacer.",
+      "Se manifiesta con cianosis, taquipnea y bajo SpO2 (<90%).",
+      "El ABG muestra PaO2 < 60 mmHg y acidosis (pH <7.30).",
+      "El tratamiento inmediato incluye oxígeno, CPAP y, si es necesario, ventilación mecánica.",
+      "La hipotermia terapéutica reduce el daño neurológico en casos de asfixia severa."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Al nacer, el cierre del foramen oval y la disminución del flujo placentario reducen la oxigenación.",
+        "La falta de oxígeno provoca vasoconstricción cerebral y acumulación de lactato.",
+        "La hipoxia prolongada lleva a lesión isquémica‑hipóxica del cerebro (EHI)."
+      ],
+      "risk_factors": [
+        "Prematuridad (<37 sem.)",
+        "Trabajo de parto prolongado o distocia",
+        "Ruptura prematura de membranas >18 h",
+        "Placenta previa o insuficiencia placentaria"
+      ],
+      "signs_symptoms": [
+        "Cianosis central o periférica",
+        "Taquipnea (>60 rpm) o apnea",
+        "Llanto débil, letargo",
+        "SpO2 <90% en los primeros minutos"
+      ],
+      "diagnostics": [
+        "Gasometría arterial: PaO2 <60 mmHg, pH <7.30, lactato >4 mmol/L",
+        "Oximetría de pulso continua",
+        "Ecocardiografía para evaluar presión pulmonar",
+        "Amplitud de la onda S en ECG neonatal (signo de hipoxia)"
+      ],
+      "treatment": [
+        "Oxígeno suplementario vía cánula nasal o máscara (FiO2 ajustado a SpO2 90‑95%)",
+        "CPAP o ventilación mecánica si persiste hipoxemia",
+        "Hipotermia terapéutica (33.5‑34.5 °C) en asfixia moderada‑severa",
+        "Fluidos intravenosos isotónicos para mantener perfusión"
+      ],
+      "complications": [
+        "Encefalopatía hipóxico‑isquémica (EHI)",
+        "Convulsiones neonatales",
+        "Hipertensión pulmonar persistente del recién nacido",
+        "Insuficiencia multiorgánica"
+      ],
+      "nursing_care": [
+        "Monitorear SpO2, frecuencia cardíaca y signos de distress respiratorio cada 5‑15 min.",
+        "Mantener termorregulación: temperatura ambiente 24‑26 °C, usar mantas térmicas.",
+        "Realizar aspiración de vías aéreas si hay secreciones o meconio.",
+        "Documentar ABG y ajustar FiO2 según protocolos.",
+        "Preparar equipo de reanimación y terapia de hipotermia."
+      ],
+      "patient_teaching": [
+        "Explicar a los padres la importancia del monitoreo continuo de oxígeno.",
+        "Enseñar signos de alarma: cianosis, respiración rápida o pausas respiratorias.",
+        "Instruir sobre el seguimiento neurológico y pruebas de audición.",
+        "Reforzar la necesidad de acudir a controles de crecimiento y desarrollo."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deterioro del intercambio de gases",
+        "type": "actual",
+        "related_to": [
+          "hipoxia perinatal",
+          "asfixia neonatal",
+          "prematuridad"
+        ],
+        "evidenced_by": [
+          "cianosis",
+          "SpO2 <90%",
+          "PaO2 <60 mmHg",
+          "acidosis"
+        ],
+        "outcomes": [
+          "NOC: Mejora del intercambio gaseoso – SpO2 ≥ 95% en 2 h",
+          "NOC: Normalización de ABG – pH 7.35‑7.45 en 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administrar oxígeno suplementario y ajustar FiO2 según SpO2",
+            "rationale": "Mantiene saturación adecuada y previene hipoxemia prolongada"
+          },
+          {
+            "action": "Colocar al recién nacido en posición semisentada o prono alternada",
+            "rationale": "Facilita la expansión pulmonar y mejora la ventilación"
+          },
+          {
+            "action": "Realizar aspiración de vías aéreas si hay secreciones o meconio",
+            "rationale": "Desobstruye las vías y optimiza el intercambio gaseoso"
+          },
+          {
+            "action": "Monitorear ABG cada 2 h y registrar cambios",
+            "rationale": "Permite evaluar la respuesta al tratamiento y ajustar la terapia"
+          },
+          {
+            "action": "Iniciar hipotermia terapéutica si se confirma asfixia moderada‑severa",
+            "rationale": "Reduce la lesión neuronal al disminuir el metabolismo cerebral"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipoxia perinatal",
+          "asfixia neonatal",
+          "presión arterial baja"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Perfusión cerebral adecuada – Lactato <2 mmol/L en 24 h",
+          "NOC: Ausencia de signos neurológicos anormales – Evaluación neurológica normal a los 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Mantener presión arterial media > 45 mmHg mediante fluidos IV",
+            "rationale": "Garantiza flujo sanguíneo cerebral suficiente"
+          },
+          {
+            "action": "Controlar temperatura corporal (33.5‑34.5 °C) si se usa hipotermia terapéutica",
+            "rationale": "Previene la vasoconstricción cerebral excesiva"
+          },
+          {
+            "action": "Evaluar nivel de conciencia y respuesta a estímulos cada hora",
+            "rationale": "Detecta precozmente deterioro neurológico"
+          },
+          {
+            "action": "Evitar manipulación brusca y mantener ambiente tranquilo",
+            "rationale": "Reduce el consumo de oxígeno cerebral"
+          },
+          {
+            "action": "Coordinar con neonatología para posible neuroimagen (ecografía cerebral) si hay signos de EHI",
+            "rationale": "Facilita diagnóstico temprano de daño cerebral"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Neonatal hypoxia",
+    "aliases": [
+      "neonatal hypoxia",
+      "perinatal hypoxia",
+      "neonatal asphyxia",
+      "oxygen deficiency",
+      "hypoxia of the newborn"
+    ],
+    "summary": "Neonatal hypoxia is the reduction of tissue oxygenation in the newborn during or after delivery, compromising cerebral and systemic perfusion.",
+    "key_points": [
+      "Occurs due to insufficient gas exchange at birth.",
+      "Manifests with cyanosis, tachypnea and low SpO2 (<90%).",
+      "ABG shows PaO2 < 60 mmHg and acidosis (pH <7.30).",
+      "Immediate treatment includes oxygen, CPAP and, if necessary, mechanical ventilation.",
+      "Therapeutic hypothermia reduces neurological damage in severe asphyxia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "At birth, closure of the foramen ovale and decreased placental flow reduce oxygenation.",
+        "Lack of oxygen causes cerebral vasoconstriction and lactate accumulation.",
+        "Prolonged hypoxia leads to hypoxic‑ischemic brain injury (HIE)."
+      ],
+      "risk_factors": [
+        "Prematurity (<37 weeks)",
+        "Prolonged labor or dystocia",
+        "Premature rupture of membranes >18 h",
+        "Placenta previa or placental insufficiency"
+      ],
+      "signs_symptoms": [
+        "Central or peripheral cyanosis",
+        "Tachypnea (>60 rpm) or apnea",
+        "Weak cry, lethargy",
+        "SpO2 <90% in the first minutes"
+      ],
+      "diagnostics": [
+        "Arterial blood gas: PaO2 <60 mmHg, pH <7.30, lactate >4 mmol/L",
+        "Continuous pulse oximetry",
+        "Echocardiography to assess pulmonary pressure",
+        "Amplitude of the S wave in neonatal ECG (hypoxia sign)"
+      ],
+      "treatment": [
+        "Supplemental oxygen via nasal cannula or mask (FiO2 adjusted to SpO2 90‑95%)",
+        "CPAP or mechanical ventilation if hypoxemia persists",
+        "Therapeutic hypothermia (33.5‑34.5 °C) in moderate‑severe asphyxia",
+        "Isotonic IV fluids to maintain perfusion"
+      ],
+      "complications": [
+        "Hypoxic‑ischemic encephalopathy (HIE)",
+        "Neonatal seizures",
+        "Persistent pulmonary hypertension of the newborn",
+        "Multi‑organ failure"
+      ],
+      "nursing_care": [
+        "Monitor SpO2, heart rate and respiratory distress signs every 5‑15 min.",
+        "Maintain thermoregulation: ambient temperature 24‑26 °C, use thermal blankets.",
+        "Perform airway suction if secretions or meconium present.",
+        "Document ABG and adjust FiO2 per protocols.",
+        "Prepare resuscitation and hypothermia equipment."
+      ],
+      "patient_teaching": [
+        "Explain to parents the importance of continuous oxygen monitoring.",
+        "Teach warning signs: cyanosis, rapid breathing or breathing pauses.",
+        "Instruct on neurological follow‑up and hearing tests.",
+        "Emphasize the need for growth and development check‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Impaired gas exchange",
+        "type": "actual",
+        "related_to": [
+          "perinatal hypoxia",
+          "neonatal asphyxia",
+          "prematurity"
+        ],
+        "evidenced_by": [
+          "cyanosis",
+          "SpO2 <90%",
+          "PaO2 <60 mmHg",
+          "acidosis"
+        ],
+        "outcomes": [
+          "NOC: Improved gas exchange – SpO2 ≥ 95% within 2 h",
+          "NOC: Normalized ABG – pH 7.35‑7.45 within 12 h"
+        ],
+        "interventions": [
+          {
+            "action": "Administer supplemental oxygen and adjust FiO2 based on SpO2",
+            "rationale": "Maintains adequate saturation and prevents prolonged hypoxemia"
+          },
+          {
+            "action": "Place the newborn in semi‑upright or alternating prone position",
+            "rationale": "Facilitates lung expansion and improves ventilation"
+          },
+          {
+            "action": "Perform airway suction if secretions or meconium present",
+            "rationale": "Clears airway and optimizes gas exchange"
+          },
+          {
+            "action": "Monitor ABG every 2 h and record changes",
+            "rationale": "Allows assessment of treatment response and therapy adjustment"
+          },
+          {
+            "action": "Initiate therapeutic hypothermia if moderate‑severe asphyxia is confirmed",
+            "rationale": "Reduces neuronal injury by decreasing cerebral metabolism"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "perinatal hypoxia",
+          "neonatal asphyxia",
+          "low blood pressure"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Adequate cerebral perfusion – Lactate <2 mmol/L within 24 h",
+          "NOC: Absence of abnormal neurological signs – Normal neurological assessment at 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Maintain MAP > 45 mmHg with IV fluids",
+            "rationale": "Ensures sufficient cerebral blood flow"
+          },
+          {
+            "action": "Control body temperature (33.5‑34.5 °C) if therapeutic hypothermia is used",
+            "rationale": "Prevents excessive cerebral vasoconstriction"
+          },
+          {
+            "action": "Assess level of consciousness and response to stimuli hourly",
+            "rationale": "Detects early neurological deterioration"
+          },
+          {
+            "action": "Avoid abrupt handling and keep a calm environment",
+            "rationale": "Reduces cerebral oxygen consumption"
+          },
+          {
+            "action": "Coordinate with neonatology for possible neuroimaging (cranial ultrasound) if HIE signs present",
+            "rationale": "Facilitates early diagnosis of brain injury"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoxic-ischemic-encephalopathy",
+    "respiratory-distress-syndrome",
+    "apnea-of-the-newborn",
+    "metabolic-acidosis"
+  ],
+  "sources": [
+    {
+      "name": "Maternal-Newborn Nursing: Newborn Loss",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/26-3-newborn-loss",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Physiological Adaptation and Transition",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/22-2-physiological-adaptation-and-transition",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-24",
+  "factcheck": {
+    "checked": "2026-11-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 37,
+      "contradicted": 1,
+      "total": 38
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "contradicted",
+        "quote": "At birth, the foramen ovale and the ductus arteriosus are both forced closed because of increased systemic vascular resistance due to loss of the placental blood flow.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

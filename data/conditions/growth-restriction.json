@@ -1,0 +1,509 @@
+{
+  "id": "growth-restriction",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Restricción del crecimiento intrauterino (RCI)",
+    "aliases": [
+      "restriccion crecimiento intrauterino",
+      "rci",
+      "fetal growth restriction",
+      "bajo peso al nacer",
+      "crecimiento fetal limitado",
+      "restriccion fetal"
+    ],
+    "summary": "La RCI es la condición en la que el feto no alcanza su potencial de crecimiento, generalmente por insuficiencia placentaria. Se diagnostica cuando el peso estimado está por debajo del percentil 10 para la edad gestacional.",
+    "key_points": [
+      "Peso fetal <10.º percentil o <2 desviaciones estándar.",
+      "Insuficiencia placentaria es la causa más frecuente.",
+      "Factores maternos como hipertensión, tabaquismo y malnutrición aumentan el riesgo.",
+      "Complicaciones neonatales incluyen prematuridad, hipoglucemia y retraso del desarrollo.",
+      "El manejo incluye vigilancia materno‑fetal intensiva y posible parto prematuro."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Placenta insuficiente reduce oxígeno y nutrientes al feto.",
+        "El feto adapta el flujo sanguíneo, priorizando órganos vitales.",
+        "Disminución de la síntesis de IGF‑1 y hormona del crecimiento fetal.",
+        "Crecimiento lineal y ponderal se ralentiza, resultando en bajo peso."
+      ],
+      "risk_factors": [
+        "Hipertensión materna crónica o preeclampsia.",
+        "Tabaquismo y consumo de alcohol o drogas.",
+        "Desnutrición materna o bajo índice de masa corporal.",
+        "Infecciones maternas (TORCH, VIH).",
+        "Embarazo múltiple y edad materna <18 o >35 años."
+      ],
+      "signs_symptoms": [
+        "Altura uterina menor al esperado para la edad gestacional.",
+        "Movimientos fetales percibidos disminuidos.",
+        "Ecografía: peso estimado <10.º percentil, flujo Doppler anómalo.",
+        "Oligohidramnios en ultrasonido."
+      ],
+      "diagnostics": [
+        "Ecografía obstétrica con biometría fetal.",
+        "Doppler de arteria umbilical y vena cava.",
+        "Curvas de crecimiento materno‑fetal.",
+        "Laboratorio materno: hemoglobina, glucosa, pruebas de infección."
+      ],
+      "treatment": [
+        "Control estricto de la presión arterial materna.",
+        "Suplementación nutricional y vitaminas (ácido fólico, hierro).",
+        "Corticoides antenatos para maduración pulmonar si se anticipa parto prematuro.",
+        "Reposo relativo y vigilancia de la actividad fetal.",
+        "Planificación de parto temprano si hay deterioro fetal."
+      ],
+      "complications": [
+        "Parto prematuro y bajo peso al nacer.",
+        "Hipoglucemia neonatal y dificultad para mantener la temperatura.",
+        "Síndrome de dificultad respiratoria.",
+        "Retraso neurocognitivo y motor a largo plazo.",
+        "Muerte fetal o perinatal."
+      ],
+      "nursing_care": [
+        "Monitorear presión arterial y peso materno diariamente.",
+        "Evaluar movimientos fetales y registrar altura uterina.",
+        "Preparar al recién nacido para cuidados de NICU (termómetro, balanza, glucosa).",
+        "Mantener ambiente cálido (incubadora o cuna con calefacción).",
+        "Coordinar pruebas de laboratorio y ecografías según indicación."
+      ],
+      "patient_teaching": [
+        "Importancia de asistir a todas las consultas prenatales.",
+        "Adoptar una dieta balanceada rica en proteínas y calorías.",
+        "Evitar tabaco, alcohol y drogas ilícitas.",
+        "Reconocer signos de trabajo de parto prematuro (contracciones, pérdida de líquido).",
+        "Instruir sobre la lactancia temprana y la monitorización de la glucosa neonatal."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "bajo peso al nacer",
+          "hipoglucemia",
+          "pérdida de calor corporal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico mantenido: ingesta y salida de líquidos equilibradas en 48 h",
+          "Peso estable dentro de ±5 % del peso esperado en 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 4 h",
+            "rationale": "Permite detectar rápidamente desequilibrios de volumen"
+          },
+          {
+            "action": "Pesar al recién nacido diariamente a la misma hora",
+            "rationale": "El peso es indicador sensible de déficit o exceso de líquidos"
+          },
+          {
+            "action": "Evaluar turgencia de la piel y mucosas cada turno",
+            "rationale": "Identifica signos tempranos de deshidratación"
+          },
+          {
+            "action": "Mantener ambiente térmico adecuado (incubadora a 36‑37 °C)",
+            "rationale": "Reduce pérdidas de calor y, por ende, de líquidos"
+          },
+          {
+            "action": "Fomentar la lactancia materna precoz y frecuente",
+            "rationale": "La leche materna aporta fluidos y nutrientes esenciales"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "prematuridad",
+          "procedimientos invasivos (catéteres)",
+          "inmunidad inmadura"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Temperatura axilar <37.5 °C durante 48 h",
+          "Cultivos de sangre y orina negativos al día 5 de vida"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar técnica aséptica al manipular al neonato",
+            "rationale": "Previene la introducción de microorganismos patógenos"
+          },
+          {
+            "action": "Monitorizar temperatura cada 4 h",
+            "rationale": "Detecta fiebre temprana, signo de infección"
+          },
+          {
+            "action": "Observar enrojecimiento, edema o secreción en sitios de catéteres",
+            "rationale": "Identifica signos locales de infección"
+          },
+          {
+            "action": "Lavado de manos antes y después de cada contacto con el bebé",
+            "rationale": "Reduce la transmisión de gérmenes"
+          },
+          {
+            "action": "Educar a los padres sobre higiene de manos y cuidado del cordón umbilical",
+            "rationale": "Fomenta prácticas que disminuyen el riesgo de infección en casa"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intrauterine growth restriction (IUGR)",
+    "aliases": [
+      "intrauterine growth restriction",
+      "iugr",
+      "fetal growth restriction",
+      "low birth weight",
+      "restricted fetal growth",
+      "fetal restriction"
+    ],
+    "summary": "IUGR is the condition in which the fetus does not reach its growth potential, usually due to placental insufficiency. It is diagnosed when the estimated weight is below the 10th percentile for gestational age.",
+    "key_points": [
+      "Fetal weight <10th percentile or <2 standard deviations.",
+      "Placental insufficiency is the most common cause.",
+      "Maternal factors such as hypertension, smoking, and malnutrition increase risk.",
+      "Neonatal complications include prematurity, hypoglycemia, and developmental delay.",
+      "Management includes intensive maternal‑fetal monitoring and possible preterm delivery."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Placental insufficiency reduces oxygen and nutrients to the fetus.",
+        "The fetus adapts blood flow, prioritizing vital organs.",
+        "Decreased synthesis of IGF‑1 and fetal growth hormone.",
+        "Linear and weight growth slows, resulting in low birth weight."
+      ],
+      "risk_factors": [
+        "Chronic maternal hypertension or preeclampsia.",
+        "Smoking and consumption of alcohol or drugs.",
+        "Maternal malnutrition or low body mass index.",
+        "Maternal infections (TORCH, HIV).",
+        "Multiple gestation and maternal age <18 or >35 years."
+      ],
+      "signs_symptoms": [
+        "Uterine height less than expected for gestational age.",
+        "Decreased fetal movements felt.",
+        "Ultrasound: estimated weight <10th percentile, abnormal Doppler flow.",
+        "Oligohydramnios on ultrasound."
+      ],
+      "diagnostics": [
+        "Obstetric ultrasound with fetal biometry.",
+        "Umbilical artery and vena cava Doppler.",
+        "Maternal‑fetal growth curves.",
+        "Maternal labs: hemoglobin, glucose, infection tests."
+      ],
+      "treatment": [
+        "Strict control of maternal blood pressure.",
+        "Nutritional supplementation and vitamins (folic acid, iron).",
+        "Antepartum corticosteroids for lung maturation if preterm delivery anticipated.",
+        "Relative rest and fetal activity monitoring.",
+        "Early delivery planning if fetal deterioration."
+      ],
+      "complications": [
+        "Preterm birth and low birth weight.",
+        "Neonatal hypoglycemia and difficulty maintaining temperature.",
+        "Respiratory distress syndrome.",
+        "Long‑term neurocognitive and motor delay.",
+        "Fetal or perinatal death."
+      ],
+      "nursing_care": [
+        "Monitor maternal blood pressure and weight daily.",
+        "Assess fetal movements and record uterine height.",
+        "Prepare the newborn for NICU care (thermometer, scale, glucose).",
+        "Maintain a warm environment (incubator or heated crib).",
+        "Coordinate laboratory tests and ultrasounds as ordered."
+      ],
+      "patient_teaching": [
+        "Importance of attending all prenatal visits.",
+        "Adopt a balanced diet rich in protein and calories.",
+        "Avoid tobacco, alcohol, and illicit drugs.",
+        "Recognize signs of preterm labor (contractions, fluid loss).",
+        "Educate on early breastfeeding and neonatal glucose monitoring."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "low birth weight",
+          "hypoglycemia",
+          "body heat loss"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydrostatic balance maintained: intake and output balanced within 48 h",
+          "Weight stable within ±5 % of expected weight in 72 h"
+        ],
+        "interventions": [
+          {
+            "action": "Record intake and output every 4 h",
+            "rationale": "Allows rapid detection of volume imbalances"
+          },
+          {
+            "action": "Weigh the newborn daily at the same time",
+            "rationale": "Weight is a sensitive indicator of fluid deficit or excess"
+          },
+          {
+            "action": "Assess skin and mucous turgor each shift",
+            "rationale": "Identifies early signs of dehydration"
+          },
+          {
+            "action": "Maintain adequate thermal environment (incubator at 36‑37 °C)",
+            "rationale": "Reduces heat loss and, therefore, fluid loss"
+          },
+          {
+            "action": "Encourage early and frequent breastfeeding",
+            "rationale": "Breast milk provides essential fluids and nutrients"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "prematurity",
+          "invasive procedures (catheters)",
+          "immature immunity"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Axillary temperature <37.5 °C for 48 h",
+          "Blood and urine cultures negative by day 5 of life"
+        ],
+        "interventions": [
+          {
+            "action": "Apply aseptic technique when handling the neonate",
+            "rationale": "Prevents introduction of pathogenic microorganisms"
+          },
+          {
+            "action": "Monitor temperature every 4 h",
+            "rationale": "Detects early fever, a sign of infection"
+          },
+          {
+            "action": "Observe for redness, edema, or discharge at catheter sites",
+            "rationale": "Identifies local infection signs"
+          },
+          {
+            "action": "Wash hands before and after each contact with the baby",
+            "rationale": "Reduces transmission of germs"
+          },
+          {
+            "action": "Educate parents on hand hygiene and umbilical cord care",
+            "rationale": "Promotes practices that reduce infection risk at home"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "intrauterine-growth-restriction",
+    "preterm-birth",
+    "neonatal-hypoglycemia",
+    "respiratory-distress-syndrome",
+    "placental-insufficiency"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Birth Weight",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/birthweight.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Growth Hormones and Suppressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/26-2-growth-hormones-and-suppressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Preconception Conditions Affecting Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-1-preconception-conditions-affecting-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-24",
+  "factcheck": {
+    "checked": "2026-11-24",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 13,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 44
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Preexisting medical conditions (e.g., hypertension and diabetes), nutritional excess or deficits, mental health disorders, high-risk obstetric history Lifestyle Alcohol and/or substance use, lack of physical activity, unhealthy eating habits, lack of social support, high-risk behavio",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Problems with the placenta, the organ that brings oxygen and nutrients to the baby",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Hypertension that is present prior to pregnancy or before 20 weeks’ gestation or that persists 20 weeks following delivery is called chronic hypertension .",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Smoking tobacco in pregnancy has been associated with fetal growth restriction, miscarriage, prematurity, placental abruption , stillbirth, tissue damage to the fetal lungs and brain, and neurodevelopmental disorders (Chen et al., 2023; Cohen et al., 2017; Nida, 2021).",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "The CDC currently recommends HIV screening for all patients who are pregnant (CDC, 2022c), but additional screening may be indicated for high-risk populations.",
+        "source": 2
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Nurses should provide education on the intake of nutrients such as folic acid, iron, vitamin B12, calcium, vitamin D, iodine, and choline during pregnancy.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Pregnant farm workers are at increased risk of preterm birth and having low-birth-weight infants.",
+        "source": 2
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "Diabetes, especially when glycemic control is not present prior to conception and throughout the pregnancy, is associated with an increased risk of maternal and fetal adverse outcomes, such as miscarriage, congenital anomalies, stillbirth, preeclampsia , fetal macrosomia, and neonatal hypoglycemia (American Diabetes Association [ADA], 2020).",
+        "source": 2
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Affected Person Effects Pregnant person Preeclampsia Gestational hypertension Polyhydramnios Cesarean birth Hypoglycemia Diabetic ketoacidosis Postpartum hemorrhage Diabetic retinopathy Diabetic kidney disease Cardiac disease Neuropathy Early pregnancy loss Preterm delivery Fetus Neonatal hypoglycemia Large for gestational age/Macrosomia Fetal growth restriction Shoulder dystocia Respiratory distress syndrome Congenital malformations: Neural tube",
+        "source": 2
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "There is also a higher risk of longer-term problems, including: Delayed motor and social development Learning disabilities Certain health conditions as an adult, such as heart disease , high blood pressure , diabetes , and obesity",
+        "source": 0
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Surveillance of fetal well-being is conducted via ordered ultrasound (US) with Doppler , nonstress test (NST) , and biophysical profile (BPP) .",
+        "source": 2
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Patients should also be advised to follow a healthy diet, engage in regular physical activity, and attend all prenatal appointments.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "The nurse should teach the patient ways to reduce risks of HIV perinatal transmission, such as limiting alcohol, tobacco, and illicit drug use and avoiding unprotected intercourse.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
