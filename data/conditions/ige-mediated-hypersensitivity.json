@@ -1,0 +1,512 @@
+{
+  "id": "ige-mediated-hypersensitivity",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipersensibilidad mediada por IgE",
+    "aliases": [
+      "hipersensibilidad",
+      "ige",
+      "alergia",
+      "reacción alérgica",
+      "sensibilidad"
+    ],
+    "summary": "Respuesta inmunológica exagerada en la que la IgE reconoce un alérgeno y desencadena liberación de mediadores inflamatorios.",
+    "key_points": [
+      "IgE se une a receptores FcεRI en mastocitos y basófilos.",
+      "Desgranulación libera histamina, leucotrienos y prostaglandinas.",
+      "Los síntomas pueden variar de urticaria leve a anafilaxia grave.",
+      "Diagnóstico incluye IgE total >100 IU/mL y eosinofilia.",
+      "El tratamiento de primera línea son antihistamínicos y corticoides.",
+      "Epinefrina es esencial en casos de anafilaxia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Sensibilización: exposición al alérgeno genera IgE específica.",
+        "IgE se fija a mastocitos y basófilos en tejidos periféricos.",
+        "Reexposición al alérgeno produce cruce‑enlace de IgE y desgranulación.",
+        "Se liberan histamina, leucotrienos, prostaglandinas y citocinas.",
+        "Resultado: vasodilatación, aumento de permeabilidad y broncoconstricción."
+      ],
+      "risk_factors": [
+        "Historia familiar de atopia.",
+        "Exposición temprana a alérgenos (pólenes, alimentos, ácaros).",
+        "Infecciones respiratorias frecuentes en la infancia.",
+        "Presencia de otras enfermedades alérgicas (asma, rinitis)."
+      ],
+      "signs_symptoms": [
+        "Urticaria, prurito y eritema cutáneo.",
+        "Congestión nasal, estornudos y lagrimeo.",
+        "Broncoespasmo: sibilancias y disnea.",
+        "Síntomas sistémicos: hipotensión, taquicardia en anafilaxia."
+      ],
+      "diagnostics": [
+        "IgE total >100 IU/mL (rango normal 0‑100 IU/mL).",
+        "Eosinofilia >500 células/µL en hemograma.",
+        "Prueba cutánea de prick positiva al alérgeno sospechoso.",
+        "Tryptasa sérica elevada en anafilaxia aguda."
+      ],
+      "treatment": [
+        "Antihistamínicos de segunda generación (cetirizina, loratadina).",
+        "Corticoides sistémicos (prednisona) para reacciones moderadas‑severas.",
+        "Epinefrina 0.01 mg/kg IM en anafilaxia (auto‑inyector 0.3 mg para adultos).",
+        "Cromoglicato de sodio inhalado o tópico para prevención.",
+        "Broncodilatadores β2‑agonistas (salbutamol) si hay broncoespasmo."
+      ],
+      "complications": [
+        "Anafilaxia con shock circulatorio.",
+        "Exacerbación de asma y crisis respiratoria.",
+        "Edema angioedémico de vías aéreas superiores.",
+        "Urticaria crónica y dermatitis atópica."
+      ],
+      "nursing_care": [
+        "Evaluar vía aérea, frecuencia respiratoria y saturación de O₂.",
+        "Monitorear presión arterial y pulso cada 5‑15 min tras exposición.",
+        "Administrar antihistamínicos y corticoides según orden médica.",
+        "Preparar y administrar epinefrina en caso de anafilaxia; observar respuesta.",
+        "Registrar signos de mejoría o deterioro y notificar al médico."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar alérgenos desencadenantes.",
+        "Uso correcto del autoinyector de epinefrina y cuándo aplicarlo.",
+        "Reconocer signos tempranos de anafilaxia y buscar ayuda inmediata.",
+        "Importancia de llevar una pulsera de alerta alérgica.",
+        "Seguir pauta de antihistamínicos y corticoides y no interrumpir sin indicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de reacción alérgica",
+        "type": "risk",
+        "related_to": [
+          "exposición a alérgeno",
+          "sensibilización previa",
+          "presencia de IgE específica"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Respuesta alérgica controlada: ausencia de urticaria en 24 h.",
+          "NOC: Saturación de O₂ ≥ 95% en reposo."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos de compromiso de la vía aérea cada 5 minutos.",
+            "rationale": "La anafilaxia puede progresar rápidamente a obstrucción."
+          },
+          {
+            "action": "Mantener disponible epinefrina 0.3 mg autoinyector y entrenar al paciente.",
+            "rationale": "Intervención temprana reduce mortalidad por anafilaxia."
+          },
+          {
+            "action": "Registrar exposición alérgica y síntomas en la hoja de enfermería.",
+            "rationale": "Facilita la identificación de desencadenantes y la planificación del cuidado."
+          },
+          {
+            "action": "Administrar antihistamínico según prescripción y observar respuesta.",
+            "rationale": "Bloquea los efectos de la histamina y alivia síntomas cutáneos."
+          },
+          {
+            "action": "Educar al paciente sobre evitación de alérgenos y uso del autoinyector.",
+            "rationale": "Previene futuras reacciones y empodera al paciente."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "liberación de mediadores inflamatorios (histamina, leucotrienos)"
+        ],
+        "evidenced_by": [
+          "prurito intenso",
+          "dolor cutáneo",
+          "sensación de ardor"
+        ],
+        "outcomes": [
+          "NOC: Alivio del dolor: puntuación ≤ 3 en escala de 0‑10.",
+          "NOC: Confort mejorado: paciente reporta disminución del prurito."
+        ],
+        "interventions": [
+          {
+            "action": "Valorar intensidad del dolor/prurito con escala numérica cada hora.",
+            "rationale": "Permite ajustar el manejo analgésico de forma oportuna."
+          },
+          {
+            "action": "Administrar antihistamínico oral o tópico según orden.",
+            "rationale": "Reduce la liberación de histamina y alivia el dolor cutáneo."
+          },
+          {
+            "action": "Aplicar compresas frías en áreas afectadas.",
+            "rationale": "Disminuye la vasodilatación y el prurito."
+          },
+          {
+            "action": "Ofrecer distracción y técnicas de relajación al paciente.",
+            "rationale": "Reduce la percepción del dolor mediante control cognitivo."
+          },
+          {
+            "action": "Documentar respuesta al tratamiento y notificar al médico si persiste dolor > 5.",
+            "rationale": "Facilita la reevaluación y ajuste terapéutico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "IgE-mediated hypersensitivity",
+    "aliases": [
+      "hypersensitivity",
+      "ige",
+      "allergy",
+      "allergic reaction",
+      "sensitivity"
+    ],
+    "summary": "Exaggerated immune response in which IgE recognizes an allergen and triggers release of inflammatory mediators.",
+    "key_points": [
+      "IgE binds FcεRI receptors on mast cells and basophils.",
+      "Degranulation releases histamine, leukotrienes, and prostaglandins.",
+      "Symptoms can range from mild urticaria to severe anaphylaxis.",
+      "Diagnosis includes total IgE >100 IU/mL and eosinophilia.",
+      "First‑line treatment is antihistamines and corticosteroids.",
+      "Epinephrine is essential in anaphylaxis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Sensitization: exposure to allergen generates specific IgE.",
+        "IgE attaches to mast cells and basophils in peripheral tissues.",
+        "Re‑exposure to allergen cross‑links IgE and triggers degranulation.",
+        "Histamine, leukotrienes, prostaglandins, and cytokines are released.",
+        "Result: vasodilation, increased permeability, and bronchoconstriction."
+      ],
+      "risk_factors": [
+        "Family history of atopy.",
+        "Early exposure to allergens (pollen, foods, dust mites).",
+        "Frequent respiratory infections in childhood.",
+        "Presence of other allergic diseases (asthma, rhinitis)."
+      ],
+      "signs_symptoms": [
+        "Urticaria, pruritus, and cutaneous erythema.",
+        "Nasal congestion, sneezing, and tearing.",
+        "Bronchospasm: wheezing and dyspnea.",
+        "Systemic symptoms: hypotension, tachycardia in anaphylaxis."
+      ],
+      "diagnostics": [
+        "Total IgE >100 IU/mL (normal range 0‑100 IU/mL).",
+        "Eosinophilia >500 cells/µL on CBC.",
+        "Positive skin prick test to suspected allergen.",
+        "Elevated serum tryptase in acute anaphylaxis."
+      ],
+      "treatment": [
+        "Second‑generation antihistamines (cetirizine, loratadine).",
+        "Systemic corticosteroids (prednisone) for moderate‑to‑severe reactions.",
+        "Epinephrine 0.01 mg/kg IM in anaphylaxis (auto‑injector 0.3 mg for adults).",
+        "Inhaled or topical sodium cromoglycate for prevention.",
+        "β2‑agonist bronchodilators (albuterol) if bronchospasm present."
+      ],
+      "complications": [
+        "Anaphylaxis with circulatory shock.",
+        "Asthma exacerbation and respiratory crisis.",
+        "Angioedema of upper airway.",
+        "Chronic urticaria and atopic dermatitis."
+      ],
+      "nursing_care": [
+        "Assess airway, respiratory rate, and O₂ saturation.",
+        "Monitor blood pressure and pulse every 5‑15 min after exposure.",
+        "Administer antihistamines and corticosteroids as ordered.",
+        "Prepare and administer epinephrine in anaphylaxis; observe response.",
+        "Document improvement or deterioration and notify physician."
+      ],
+      "patient_teaching": [
+        "Identify and avoid triggering allergens.",
+        "Proper use of epinephrine auto‑injector and when to apply it.",
+        "Recognize early signs of anaphylaxis and seek immediate help.",
+        "Importance of wearing an allergy alert bracelet.",
+        "Follow antihistamine and corticosteroid regimen and do not discontinue without indication."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for allergy reaction",
+        "type": "risk",
+        "related_to": [
+          "exposure to allergen",
+          "prior sensitization",
+          "presence of specific IgE"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Controlled allergic response: absence of urticaria within 24 h.",
+          "NOC: O₂ saturation ≥ 95% at rest."
+        ],
+        "interventions": [
+          {
+            "action": "Assess airway compromise signs every 5 minutes.",
+            "rationale": "Anaphylaxis can rapidly progress to obstruction."
+          },
+          {
+            "action": "Keep 0.3 mg epinephrine auto‑injector available and train patient.",
+            "rationale": "Early intervention reduces anaphylaxis mortality."
+          },
+          {
+            "action": "Record allergic exposure and symptoms on nursing sheet.",
+            "rationale": "Facilitates identification of triggers and care planning."
+          },
+          {
+            "action": "Administer antihistamine per prescription and observe response.",
+            "rationale": "Blocks histamine effects and relieves cutaneous symptoms."
+          },
+          {
+            "action": "Educate patient on allergen avoidance and auto‑injector use.",
+            "rationale": "Prevents future reactions and empowers patient."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "release of inflammatory mediators (histamine, leukotrienes)"
+        ],
+        "evidenced_by": [
+          "intense pruritus",
+          "cutaneous pain",
+          "burning sensation"
+        ],
+        "outcomes": [
+          "NOC: Pain relief: score ≤ 3 on 0‑10 scale.",
+          "NOC: Improved comfort: patient reports decreased pruritus."
+        ],
+        "interventions": [
+          {
+            "action": "Assess pain/pruritus intensity with numeric scale hourly.",
+            "rationale": "Allows timely adjustment of analgesic management."
+          },
+          {
+            "action": "Administer oral or topical antihistamine as ordered.",
+            "rationale": "Reduces histamine release and alleviates cutaneous pain."
+          },
+          {
+            "action": "Apply cold compresses to affected areas.",
+            "rationale": "Decreases vasodilation and pruritus."
+          },
+          {
+            "action": "Offer distraction and relaxation techniques to patient.",
+            "rationale": "Reduces pain perception through cognitive control."
+          },
+          {
+            "action": "Document treatment response and notify physician if pain persists >5.",
+            "rationale": "Facilitates reevaluation and therapeutic adjustment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "allergic-rhinitis",
+    "asthma",
+    "anaphylaxis",
+    "type-i-hypersensitivity",
+    "histamine-release"
+  ],
+  "sources": [
+    {
+      "name": "Medical-Surgical Nursing: Allergic Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-1-allergic-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Epilepsy and Anticonvulsant Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-25",
+  "factcheck": {
+    "checked": "2026-11-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 25,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "An allergy is an inappropriate or exaggerated response of the body’s immune system to a foreign substance that is usually harmless, known as an allergen.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 0
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "These physiologic events that result from immediate hypersensitivity may range from mild to life-threatening symptoms.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "key_points.5": {
+        "status": "supported",
+        "quote": "It is effective in reversing anaphylaxis that may present in allergic reactions.",
+        "source": 0
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Sensitization The produced IgE antibodies attach to receptors on the surface of mast cells and basophils, which are types of immune cells found in tissues throughout the body.",
+        "source": 0
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "The produced IgE antibodies attach to receptors on the surface of mast cells and basophils, which are types of immune cells found in tissues throughout the body.",
+        "source": 0
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 0
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.4": {
+        "status": "supported",
+        "quote": "This chemical mediator causes bronchoconstriction, increased vascular permeability, and vasodilation.",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "IgE-mediated diseases have a genetic component.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "The genetic tendency to develop allergic diseases such as allergic rhinitis , asthma, and atopic dermatitis is called atopy .",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Effects of histamine include erythema, pruritus, localized edema (wheals), contraction of bronchial smooth muscle (resulting in bronchospasms and wheezing), and enhanced secretion of mucosal and gastric cells (diarrhea), as the role of histamine is to create vasodilation, which promotes oxygen and white blood cells to the area of attack.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Effects of histamine include erythema, pruritus, localized edema (wheals), contraction of bronchial smooth muscle (resulting in bronchospasms and wheezing), and enhanced secretion of mucosal and gastric cells (diarrhea), as the role of histamine is to create vasodilation, which promotes oxygen and white blood cells to the area of attack.",
+        "source": 0
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "supported",
+        "quote": "Precautions are necessary when performing skin tests. For example, avoid testing during times of bronchospasm, have emergency equipment available in the event of anaphylaxis, and perform scratch or prick tests before other methods in order to limit the risk of a systemic reaction.",
+        "source": 0
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "This type of reaction can be seen in allergic rhinitis, allergic dermatitis, bronchial asthma, food allergy, anaphylactic shock, and conjunctivitis (Vaillant et al., 2023).",
+        "source": 0
+      },
+      "sections.complications.1": {
+        "status": "supported",
+        "quote": "IgE molecules bind together to an allergen and trigger mast cells of the tissues or white blood cells in the bloodstream, called basophils, to release chemical mediators like histamine, kinins, serotonin, slow-reacting anaphylaxis substances, and the neutrophil factor that produces allergic skin reactions, hay fever, and asthma.",
+        "source": 0
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine as ordered, and activating a rapid response in the event of anaphylaxis.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine as ordered, and activating a rapid response in the event of anaphylaxis.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "Some patients may be recommended to wear a medical alert bracelet to notify others of their allergies in the event of an emergency such as an extreme allergic reaction to peanuts, bee stings, or other allergens.",
+        "source": 0
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

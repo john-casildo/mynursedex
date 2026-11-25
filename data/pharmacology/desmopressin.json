@@ -1,0 +1,429 @@
+{
+  "id": "desmopressin",
+  "category": "pharmacology",
+  "areas": [],
+  "es": {
+    "term": "Desmopresina",
+    "aliases": [
+      "desmopresina",
+      "ddavp",
+      "antidiurético",
+      "diabetes insípida",
+      "hiponatremia",
+      "desmopressin acetate",
+      "noctiva",
+      "nocdurna",
+      "desmoda",
+      "stimate"
+    ],
+    "summary": "Análogo sintético de la hormona antidiurética que aumenta la reabsorción de agua en los túbulos renales y eleva los niveles de factor VIII y vWF.",
+    "key_points": [
+      "Se usa en diabetes insípida central y en trastornos hemorrágicos leves.",
+      "Puede producir hiponatremia grave; vigilar Na+ y balance hídrico.",
+      "Contraindicado en insuficiencia renal moderada‑severa y en pacientes con hiponatremia.",
+      "Interacciones importantes con diuréticos tiazídicos y AINEs que aumentan el riesgo de hiponatremia."
+    ],
+    "sections": {
+      "mechanism": [
+        "Se une a receptores V2 en los conductos colectores renales.",
+        "Estimula la inserción de acuaporinas 2, aumentando la reabsorción de agua.",
+        "Reduce el volumen urinario y la osmolaridad de la orina.",
+        "Induce liberación de factor VIII y vWF, mejorando la coagulación."
+      ],
+      "indications": [
+        "Diabetes insípida central.",
+        "Poliuria y polidipsia transitoria tras traumatismo o cirugía pituitaria.",
+        "Enuresis nocturna.",
+        "Hemofilia A leve y enfermedad de von Willebrand tipo 1."
+      ],
+      "contraindications": [
+        "Hiponatremia o historial de hiponatremia.",
+        "Insuficiencia renal moderada‑severa (ClCr <50 mL/min).",
+        "Hipersenibilidad conocida a la desmopresina o excipientes.",
+        "Uso concomitante de antagonistas de la vasopresina (ej. tolvaptán)."
+      ],
+      "adverse_effects": [
+        "Cefalea, náuseas, congestión nasal.",
+        "Aumento de peso y edema periférico.",
+        "Hiponatremia (serious).",
+        "Convulsiones, coma (serious) por Na+ <120 mEq/L."
+      ],
+      "interactions": [
+        "Diuréticos tiazídicos → mayor retención hídrica y riesgo de hiponatremia.",
+        "AINEs (ibuprofeno, naproxeno) → potencian la retención de agua.",
+        "Litio → aumento de toxicidad por hiponatremia.",
+        "Antagonistas de V2 (tolvaptán) → reducen la eficacia de la desmopresina."
+      ],
+      "nursing_care": [
+        "Evaluar Na+, osmolaridad plasmática y creatinina antes de iniciar.",
+        "Registrar ingesta y salida de líquidos cada 8 h.",
+        "Monitorear peso diario y signos de sobrecarga hídrica.",
+        "Observar síntomas de hiponatremia: confusión, náuseas, cefalea.",
+        "Retener la dosis y notificar si Na+ <130 mEq/L o si hay edema significativo."
+      ],
+      "patient_teaching": [
+        "Tomar la dosis a la misma hora cada día, preferiblemente con poca agua.",
+        "Limitar la ingesta de líquidos a lo prescrito (ej. 1‑1.5 L/día).",
+        "Reportar dolor de cabeza intenso, náuseas, visión borrosa o confusión.",
+        "Evitar alcohol y AINEs sin consultar al profesional de salud.",
+        "Mantener un registro de ingesta y salida de orina."
+      ],
+      "antidote_overdose": [
+        "No hay antídoto específico; suspender el fármaco.",
+        "Tratar la hiponatremia con solución salina hipertónica bajo supervisión médica."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiponatremia",
+          "retención de agua",
+          "uso de desmopresina",
+          "insuficiencia renal leve"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na+ dentro de rango normal (135‑145 mEq/L) en 48 h.",
+          "Peso estable (variación ≤0.5 kg) en 3 días."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar Na+ sérico antes de cada dosis.",
+            "rationale": "Detectar precozmente hiponatremia y ajustar la terapia."
+          },
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Mantener el balance hídrico y prevenir sobrecarga."
+          },
+          {
+            "action": "Evaluar peso diario y signos de edema.",
+            "rationale": "Identificar retención de líquidos antes de que se agrave."
+          },
+          {
+            "action": "Retener la dosis y notificar al médico si Na+ <130 mEq/L o si hay edema significativo.",
+            "rationale": "Prevenir complicaciones graves por hiponatremia."
+          },
+          {
+            "action": "Educar al paciente sobre limitación de líquidos y signos de hiponatremia.",
+            "rationale": "Promover autocuidado y detección temprana de efectos adversos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Desmopressin (DDAVP)",
+    "aliases": [
+      "desmopressin",
+      "ddavp",
+      "antidiuretic",
+      "central diabetes insipidus",
+      "hyponatremia",
+      "desmopressin acetate",
+      "noctiva",
+      "nocdurna",
+      "desmoda",
+      "stimate"
+    ],
+    "summary": "Synthetic analogue of antidiuretic hormone that increases water reabsorption in renal tubules and raises factor VIII and vWF levels.",
+    "key_points": [
+      "Used in central diabetes insipidus and mild bleeding disorders.",
+      "Can cause severe hyponatremia; monitor Na+ and fluid balance.",
+      "Contraindicated in moderate‑to‑severe renal insufficiency and in patients with hyponatremia.",
+      "Important interactions with thiazide diuretics and NSAIDs that increase hyponatremia risk."
+    ],
+    "sections": {
+      "mechanism": [
+        "Binds V2 receptors in renal collecting ducts.",
+        "Stimulates insertion of aquaporin‑2, increasing water reabsorption.",
+        "Reduces urine volume and urine osmolality.",
+        "Induces release of factor VIII and vWF, improving coagulation."
+      ],
+      "indications": [
+        "Central diabetes insipidus.",
+        "Transient polyuria and polydipsia after trauma or pituitary surgery.",
+        "Nocturnal enuresis.",
+        "Mild hemophilia A and von Willebrand disease type 1."
+      ],
+      "contraindications": [
+        "Hyponatremia or history of hyponatremia.",
+        "Moderate‑to‑severe renal insufficiency (ClCr <50 mL/min).",
+        "Known hypersensitivity to desmopressin or excipients.",
+        "Concurrent use of vasopressin antagonists (e.g., tolvaptan)."
+      ],
+      "adverse_effects": [
+        "Headache, nausea, nasal congestion.",
+        "Weight gain and peripheral edema.",
+        "Hyponatremia (serious).",
+        "Seizures, coma (serious) with Na+ <120 mEq/L."
+      ],
+      "interactions": [
+        "Thiazide diuretics → increased water retention and hyponatremia risk.",
+        "NSAIDs (ibuprofen, naproxen) → potentiate water retention.",
+        "Lithium → increased toxicity from hyponatremia.",
+        "V2 antagonists (tolvaptan) → reduce desmopressin efficacy."
+      ],
+      "nursing_care": [
+        "Assess Na+, plasma osmolality, and creatinine before initiation.",
+        "Record fluid intake and output every 8 h.",
+        "Monitor daily weight and signs of fluid overload.",
+        "Observe for hyponatremia symptoms: confusion, nausea, headache.",
+        "Hold dose and notify provider if Na+ <130 mEq/L or significant edema."
+      ],
+      "patient_teaching": [
+        "Take dose at the same time each day, preferably with minimal water.",
+        "Limit fluid intake to prescribed amount (e.g., 1‑1.5 L/day).",
+        "Report severe headache, nausea, blurred vision, or confusion.",
+        "Avoid alcohol and NSAIDs without consulting a health professional.",
+        "Keep a record of fluid intake and urine output."
+      ],
+      "antidote_overdose": [
+        "No specific antidote; discontinue drug.",
+        "Treat hyponatremia with hypertonic saline under medical supervision."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyponatremia",
+          "water retention",
+          "desmopressin use",
+          "mild renal insufficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na+ within normal range (135‑145 mEq/L) within 48 h.",
+          "Stable weight (variation ≤0.5 kg) within 3 days."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record serum Na+ before each dose.",
+            "rationale": "Detect early hyponatremia and adjust therapy."
+          },
+          {
+            "action": "Monitor fluid intake and output every 8 h.",
+            "rationale": "Maintain fluid balance and prevent overload."
+          },
+          {
+            "action": "Assess daily weight and edema signs.",
+            "rationale": "Identify fluid retention before it worsens."
+          },
+          {
+            "action": "Hold dose and notify provider if Na+ <130 mEq/L or significant edema.",
+            "rationale": "Prevent serious complications from hyponatremia."
+          },
+          {
+            "action": "Educate patient on fluid restriction and hyponatremia signs.",
+            "rationale": "Promote self‑care and early detection of adverse effects."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "diabetes-insipidus",
+    "hyponatremia",
+    "bleeding-disorders",
+    "fluid-overload"
+  ],
+  "sources": [
+    {
+      "name": "DailyMed: DESMOPRESSIN ACETATE label",
+      "publisher": "U.S. FDA / National Library of Medicine",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/lookup.cfm?setid=0d447b48-3f4b-430e-9e68-d8b9401c002e",
+      "lang": "en"
+    },
+    {
+      "name": "RxNorm: desmopressin",
+      "publisher": "National Library of Medicine",
+      "url": "https://mor.nlm.nih.gov/RxNav/search?searchBy=RXCUI&searchTerm=3251",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Antidiuretic Hormones",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/26-3-antidiuretic-hormones",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Growth Hormones and Suppressants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/26-2-growth-hormones-and-suppressants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-25",
+  "factcheck": {
+    "checked": "2026-11-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 16,
+      "not_found": 19,
+      "contradicted": 2,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Desmopressin is commonly used to treat diabetes insipidus, nocturnal enuresis (bed wetting), and bleeding disorders such as hemophilia A.",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Desmopressin acetate may precipitate hyponatremia, which may be life-threatening if severe.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Desmopressin acetate tablets are contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50mL/min).",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.mechanism.0": {
+        "status": "not_found"
+      },
+      "sections.mechanism.1": {
+        "status": "not_found"
+      },
+      "sections.mechanism.2": {
+        "status": "contradicted",
+        "quote": "0.1 mg PO q8h -3689.3 (149.6) 514.8 (21.9)",
+        "source": 0
+      },
+      "sections.mechanism.3": {
+        "status": "not_found"
+      },
+      "sections.indications.0": {
+        "status": "supported",
+        "quote": "Central Diabetes Insipidus Dose response studies in patients with diabetes insipidus have demonstrated that oral doses of 0.025 mg to 0.4 mg produced clinically significant antidiuretic effects.",
+        "source": 0
+      },
+      "sections.indications.1": {
+        "status": "supported",
+        "quote": "Laboratory tests for monitoring the patient with central diabetes insipidus or post-surgical or head trauma-related polyuria and polydipsia include urine volume and osmolality.",
+        "source": 0
+      },
+      "sections.indications.2": {
+        "status": "supported",
+        "quote": "Desmopressin acetate tablets are indicated for the management of primary nocturnal enuresis.",
+        "source": 0
+      },
+      "sections.indications.3": {
+        "status": "not_found"
+      },
+      "sections.contraindications.0": {
+        "status": "supported",
+        "quote": "Desmopressin acetate is contraindicated in patients with hyponatremia or a history of hyponatremia.",
+        "source": 0
+      },
+      "sections.contraindications.1": {
+        "status": "supported",
+        "quote": "Desmopressin acetate tablets are contraindicated in patients with moderate to severe renal impairment (defined as a creatinine clearance below 50mL/min).",
+        "source": 0
+      },
+      "sections.contraindications.2": {
+        "status": "supported",
+        "quote": "Desmopressin acetate tablets are contraindicated in individuals with known hypersensitivity to desmopressin acetate or to any of the components of desmopressin acetate tablets.",
+        "source": 0
+      },
+      "sections.contraindications.3": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.0": {
+        "status": "not_found"
+      },
+      "sections.adverse_effects.1": {
+        "status": "supported",
+        "quote": "Other The following adverse events have been reported; however their relationship to desmopressin acetate has not been established: abnormal thinking, diarrhea, and edema-weight gain.",
+        "source": 0
+      },
+      "sections.adverse_effects.2": {
+        "status": "supported",
+        "quote": "Desmopressin acetate may precipitate hyponatremia, which may be life-threatening if severe.",
+        "source": 2
+      },
+      "sections.adverse_effects.3": {
+        "status": "not_found"
+      },
+      "sections.interactions.0": {
+        "status": "not_found"
+      },
+      "sections.interactions.1": {
+        "status": "supported",
+        "quote": "The concomitant administration of drugs that may increase the risk of water intoxication with hyponatremia, (e.g. tricyclic antidepressants, selective serotonin re-uptake inhibitors, chlorpromazine, opiate analgesics, NSAIDs, lamotrigine and carbamazepine) should be performed with caution.",
+        "source": 0
+      },
+      "sections.interactions.2": {
+        "status": "not_found"
+      },
+      "sections.interactions.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "All patients receiving desmopressin acetate tablets therapy should be observed for the following signs of symptoms associated with hyponatremia: headache, nausea/vomiting, decreased serum sodium, weight gain, restlessness, fatigue, lethargy, disorientation, depressed reflexes, loss of appetite, irritability, muscle weakness, muscle spasms or cramps and abnormal mental status such as hallucinati",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "contradicted",
+        "quote": "Fluid restriction should be observed, and fluid intake should be limited to a minimum from 1 hour before desmopressin administration, until the next morning, or at least 8 hours after administration.",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "All patients receiving desmopressin acetate tablets therapy should be observed for the following signs of symptoms associated with hyponatremia: headache, nausea/vomiting, decreased serum sodium, weight gain, restlessness, fatigue, lethargy, disorientation, depressed reflexes, loss of appetite, irritability, muscle weakness, muscle spasms or cramps and abnormal mental status such as hallucinati",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Monitor client fluid intake and urine output closely.",
+        "source": 2
+      },
+      "sections.antidote_overdose.0": {
+        "status": "supported",
+        "quote": "There is no known specific antidote for desmopressin acetate.",
+        "source": 0
+      },
+      "sections.antidote_overdose.1": {
+        "status": "not_found"
+      }
+    }
+  }
+}

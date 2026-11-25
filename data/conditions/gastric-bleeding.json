@@ -1,0 +1,506 @@
+{
+  "id": "gastric-bleeding",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hemorragia gástrica",
+    "aliases": [
+      "hemorragia",
+      "gástrica",
+      "sangrado",
+      "estómago",
+      "ulcera"
+    ],
+    "summary": "Pérdida de sangre del tracto gastrointestinal superior, frecuentemente por úlcera péptica o erosión mucosa. Puede producir anemia aguda y shock si no se controla.",
+    "key_points": [
+      "Hemorragia aguda se manifiesta con hematemesis o melena.",
+      "Hipotensión, taquicardia y disminución de la diuresis indican déficit de volumen.",
+      "Laboratorio: Hb <10 g/dL, Hct <30 %, INR >1.5 si está anticoagulado.",
+      "Tratamiento inicial: reposición de líquidos, inhibidores de bomba de protones y control endoscópico.",
+      "Complicaciones: shock, perforación y peritonitis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lesión de la mucosa gástrica rompe vasos sanguíneos.",
+        "Prostaglandinas disminuidas o uso de AINEs reducen protección mucosa.",
+        "El sangrado entra al lumen y puede ser expulsado (hematemesis) o digerido (melena)."
+      ],
+      "risk_factors": [
+        "Úlcera péptica activa o recurrente.",
+        "Uso crónico de AINEs o anticoagulantes.",
+        "Alcoholismo y tabaquismo.",
+        "Infección por Helicobacter pylori."
+      ],
+      "signs_symptoms": [
+        "Vómito con sangre fresca o con coágulos.",
+        "Melena (heces negras y alquitranadas).",
+        "Dolor epigástrico y sensación de plenitud.",
+        "Hipotensión ortostática y taquicardia."
+      ],
+      "diagnostics": [
+        "Hemograma: Hb y Hct bajos.",
+        "Coagulación: INR, aPTT elevados si está anticoagulado.",
+        "Endoscopia digestiva alta: localiza fuente y permite hemostasia.",
+        "Pruebas de sangre: BUN/creatinina ↑ si hay sangrado gastrointestinal."
+      ],
+      "treatment": [
+        "Reposición de volumen con cristaloides (NaCl 0.9% o Ringer lactato).",
+        "Inhibidor de bomba de protones IV (omeprazol).",
+        "Transfusión de concentrado de glóbulos rojos si Hb <7 g/dL o síntomas de hipoxia.",
+        "Endoscopia terapéutica: coagulación, clips o escleroterapia.",
+        "Suspender AINEs y ajustar anticoagulantes según INR."
+      ],
+      "complications": [
+        "Shock hipovolémico.",
+        "Anemia severa.",
+        "Perforación gástrica y peritonitis.",
+        "Reblandecimiento y re‑sangrado."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 15 min hasta estabilización.",
+        "Evaluar Hb/Hct cada 4‑6 h y registrar diuresis (≥0.5 mL/kg/h).",
+        "Mantener al paciente en posición semisentado para prevenir aspiración.",
+        "Administrar fluidos IV según orden y observar signos de sobrecarga.",
+        "Preparar al paciente para endoscopia: ayuno y consentimientos."
+      ],
+      "patient_teaching": [
+        "Evitar AINEs, alcohol y tabaco.",
+        "Tomar omeprazol según indicación y no interrumpir sin autorización.",
+        "Reportar cualquier vómito con sangre o cambios en color de heces.",
+        "Seguir dieta blanda y evitar comidas irritantes durante la curación.",
+        "Acudir a controles endoscópicos y de laboratorio programados."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida sanguínea gastrointestinal",
+          "hemorragia gástrica activa",
+          "náuseas y vómitos"
+        ],
+        "evidenced_by": [
+          "hipotensión ortostática",
+          "taquicardia",
+          "piel pálida",
+          "disminución de la diuresis"
+        ],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h",
+          "Perfusión tisular: presión arterial sistólica ≥100 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar signos vitales cada 15 min y registrar cambios",
+            "rationale": "Detectar rápidamente deterioro hemodinámico"
+          },
+          {
+            "action": "Administrar fluidos IV según orden y monitorizar respuesta",
+            "rationale": "Restaurar el volumen intravascular y prevenir shock"
+          },
+          {
+            "action": "Controlar la diuresis mediante catéter o medición de salida",
+            "rationale": "Evaluar efectividad de la reposición de líquidos"
+          },
+          {
+            "action": "Observar y registrar nivel de Hb y Hct cada 4 h",
+            "rationale": "Monitorear la pérdida sanguínea y necesidad de transfusión"
+          },
+          {
+            "action": "Posicionar al paciente semisentado",
+            "rationale": "Reducir riesgo de aspiración y mejorar la ventilación"
+          },
+          {
+            "action": "Educar al paciente sobre signos de hipovolemia y cuándo notificar",
+            "rationale": "Promover detección temprana de recaídas"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "pérdida de sangre",
+          "vomitos frecuentes",
+          "uso de diuréticos o anticoagulantes"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Niveles de electrolitos (Na+, K+, Cl-) dentro de rangos normales",
+          "Sin arritmias relacionadas a desequilibrios electrolíticos"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener panel metabólico básico al ingreso y cada 12 h",
+            "rationale": "Detectar alteraciones tempranas de electrolitos"
+          },
+          {
+            "action": "Administrar soluciones electrolíticas según prescripción",
+            "rationale": "Corregir déficits y prevenir complicaciones"
+          },
+          {
+            "action": "Monitorear ritmo cardíaco y reportar arritmias",
+            "rationale": "Los desequilibrios pueden desencadenar eventos cardíacos"
+          },
+          {
+            "action": "Evaluar estado de hidratación y edema periférico",
+            "rationale": "Guía la necesidad de reposición o restricción de líquidos"
+          },
+          {
+            "action": "Enseñar al paciente la importancia de evitar alimentos ricos en sal o potasio según indicación",
+            "rationale": "Mantener equilibrio electrolítico fuera del hospital"
+          },
+          {
+            "action": "Revisar y ajustar dosis de anticoagulantes según INR/aPTT",
+            "rationale": "Minimizar riesgo de sangrado y alteraciones electrolíticas"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Gastric hemorrhage",
+    "aliases": [
+      "hemorrhage",
+      "gastric",
+      "bleeding",
+      "stomach",
+      "ulcer"
+    ],
+    "summary": "Loss of blood from the upper gastrointestinal tract, often due to peptic ulcer or mucosal erosion. It can cause acute anemia and shock if not controlled.",
+    "key_points": [
+      "Acute hemorrhage presents with hematemesis or melena.",
+      "Hypotension, tachycardia, and decreased urine output indicate volume deficit.",
+      "Lab: Hb <10 g/dL, Hct <30 %, INR >1.5 if anticoagulated.",
+      "Initial treatment: fluid resuscitation, proton pump inhibitors, and endoscopic control.",
+      "Complications: shock, perforation, and peritonitis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Gastric mucosal injury ruptures blood vessels.",
+        "Reduced prostaglandins or NSAID use decrease mucosal protection.",
+        "Bleeding enters the lumen and may be expelled (hematemesis) or digested (melena)."
+      ],
+      "risk_factors": [
+        "Active or recurrent peptic ulcer.",
+        "Chronic NSAID or anticoagulant use.",
+        "Alcoholism and smoking.",
+        "Helicobacter pylori infection."
+      ],
+      "signs_symptoms": [
+        "Vomiting fresh blood or clots.",
+        "Melena (black, tarry stools).",
+        "Epigastric pain and fullness sensation.",
+        "Orthostatic hypotension and tachycardia."
+      ],
+      "diagnostics": [
+        "CBC: low Hb and Hct.",
+        "Coagulation: elevated INR, aPTT if anticoagulated.",
+        "Upper endoscopy: localizes source and allows hemostasis.",
+        "Blood tests: BUN/creatinine ↑ if GI bleeding."
+      ],
+      "treatment": [
+        "Volume replacement with crystalloids (0.9% NaCl or Ringer lactate).",
+        "IV proton pump inhibitor (omeprazole).",
+        "Red blood cell concentrate transfusion if Hb <7 g/dL or hypoxia symptoms.",
+        "Therapeutic endoscopy: coagulation, clips, or sclerotherapy.",
+        "Discontinue NSAIDs and adjust anticoagulants per INR."
+      ],
+      "complications": [
+        "Hypovolemic shock.",
+        "Severe anemia.",
+        "Gastric perforation and peritonitis.",
+        "Rebleeding and re‑softening."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 15 min until stabilization.",
+        "Assess Hb/Hct every 4‑6 h and record urine output (≥0.5 mL/kg/h).",
+        "Keep patient in semi‑upright position to prevent aspiration.",
+        "Administer IV fluids per order and watch for overload signs.",
+        "Prepare patient for endoscopy: fasting and consent."
+      ],
+      "patient_teaching": [
+        "Avoid NSAIDs, alcohol, and tobacco.",
+        "Take omeprazole as prescribed and do not stop without permission.",
+        "Report any vomiting with blood or stool color changes.",
+        "Follow a bland diet and avoid irritating foods during healing.",
+        "Attend scheduled endoscopic and laboratory follow‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "gastrointestinal blood loss",
+          "active gastric hemorrhage",
+          "nausea and vomiting"
+        ],
+        "evidenced_by": [
+          "orthostatic hypotension",
+          "tachycardia",
+          "pale skin",
+          "reduced urine output"
+        ],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL/24 h",
+          "Tissue perfusion: systolic blood pressure ≥100 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Assess vital signs every 15 min and record changes",
+            "rationale": "Detect rapid hemodynamic deterioration"
+          },
+          {
+            "action": "Administer IV fluids per order and monitor response",
+            "rationale": "Restore intravascular volume and prevent shock"
+          },
+          {
+            "action": "Control urine output via catheter or measurement",
+            "rationale": "Evaluate effectiveness of fluid replacement"
+          },
+          {
+            "action": "Observe and record Hb and Hct every 4 h",
+            "rationale": "Monitor blood loss and transfusion need"
+          },
+          {
+            "action": "Position patient semi‑upright",
+            "rationale": "Reduce aspiration risk and improve ventilation"
+          },
+          {
+            "action": "Educate patient on signs of hypovolemia and when to notify",
+            "rationale": "Promote early detection of relapse"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "blood loss",
+          "frequent vomiting",
+          "use of diuretics or anticoagulants"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolyte levels (Na+, K+, Cl-) within normal ranges",
+          "No arrhythmias related to electrolyte disturbances"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain basic metabolic panel on admission and every 12 h",
+            "rationale": "Detect early electrolyte changes"
+          },
+          {
+            "action": "Administer electrolyte solutions per prescription",
+            "rationale": "Correct deficits and prevent complications"
+          },
+          {
+            "action": "Monitor cardiac rhythm and report arrhythmias",
+            "rationale": "Electrolyte imbalances can trigger cardiac events"
+          },
+          {
+            "action": "Assess hydration status and peripheral edema",
+            "rationale": "Guide fluid replacement or restriction needs"
+          },
+          {
+            "action": "Teach patient the importance of avoiding high‑salt or high‑potassium foods as directed",
+            "rationale": "Maintain electrolyte balance outside the hospital"
+          },
+          {
+            "action": "Review and adjust anticoagulant doses per INR/aPTT",
+            "rationale": "Minimize bleeding risk and electrolyte disturbances"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "peptic-ulcer-disease",
+    "hypovolemic-shock",
+    "endoscopic-hemostasis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Period Pain",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/periodpain.html",
+      "lang": "en"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Conditions Limited to Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-2-conditions-limited-to-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Anticoagulants",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/20-2-anticoagulants",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-25",
+  "factcheck": {
+    "checked": "2026-11-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 8,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 41
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "According to ACOG , risk factors associated with fetal demise include non-Hispanic Black race, advanced maternal age , multiple gestation, male sex of fetus, maternal obesity, nulliparous pregnancy, smoking and alcohol use, history of prior fetal demise, pregnancy through reproductive technology, and comorbid conditions (ACOG, 2020b).",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Some symptoms of bleeding are blood in the stool; dark, tarry-appearing stools; blood in the urine; epistaxis (nosebleed); gingival bleeding; very severe headache; coffee-ground emesis; and hemoptysis.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Patients often experience signs and symptoms of preeclampsia, such as epigastric pain, headache, and vision changes, but the patient may not necessarily develop hypertension or proteinuria (Alese et al., 2021).",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Pale skin, tachycardia, and hypotension may indicate significant blood loss.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "supported",
+        "quote": "Therapeutic Effects Anticoagulates the blood; increases INR to “thin” the bl",
+        "source": 2
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "It may also help to get enough rest and avoid using alcohol and tobacco.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Some symptoms of bleeding are blood in the stool; dark, tarry-appearing stools; blood in the urine; epistaxis (nosebleed); gingival bleeding; very severe headache; coffee-ground emesis; and hemoptysis.",
+        "source": 2
+      },
+      "sections.patient_teaching.3": {
+        "status": "supported",
+        "quote": "The nurse can educate patients to eat small frequent meals, avoid spicy foods, drink fluids, and rest.",
+        "source": 1
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,463 @@
+{
+  "id": "peptic-ulcer-perforation",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Perforación de úlcera péptica (PUP)",
+    "aliases": [
+      "ulcera perforada",
+      "perforación ulcerosa",
+      "ulcera péptica",
+      "perforación gastrointestinal",
+      "ulcera estomacal"
+    ],
+    "summary": "Ruptura completa de la pared gástrica o duodenal por una úlcera, con escape de contenido gastrointestinal al peritoneo.",
+    "key_points": [
+      "Es una emergencia quirúrgica que produce peritonitis aguda.",
+      "El dolor abdominal súbito y la rigidez son signos clásicos.",
+      "Se confirma con radiografía abdominal que muestra aire libre bajo el diafragma.",
+      "El manejo incluye cirugía, antibióticos y control del dolor.",
+      "Complicaciones: sepsis, shock hipovolémico y falla multiorgánica."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La úlcera erosiona la mucosa y la capa muscular de la pared gástrica/duodenal.",
+        "Cuando la lesión atraviesa todas las capas, el contenido gástrico entra al peritoneo.",
+        "El ácido y las enzimas irritan la cavidad peritoneal, desencadenando inflamación y peritonitis."
+      ],
+      "risk_factors": [
+        "Infección por Helicobacter pylori.",
+        "Uso crónico de AINEs o corticoides.",
+        "Tabaquismo y consumo excesivo de alcohol.",
+        "Estrés severo o enfermedad crítica (ulcera de estrés)."
+      ],
+      "signs_symptoms": [
+        "Dolor abdominal súbito, intenso y constante, a menudo en epigástrio.",
+        "Rigidez y defensa muscular (signo de peritonitis).",
+        "Taquicardia, hipotensión y fiebre en etapas avanzadas.",
+        "Náuseas, vómitos y posible distensión abdominal."
+      ],
+      "diagnostics": [
+        "Radiografía de abdomen en posición erecta: aire libre bajo diafragma (signo de Rigler).",
+        "TC abdominal con contraste: confirma sitio de perforación y extensión del aire.",
+        "Hemograma: leucocitosis >12,000 mm³, posible anemia.",
+        "Electrolitos: hipocalemia o hipernatremia según pérdida de líquidos."
+      ],
+      "treatment": [
+        "Cirugía de emergencia: sutura simple, resección o gastrectomía según extensión.",
+        "Antibióticos de amplio espectro (p. ej., cefalosporina + metronidazol).",
+        "Inhibidores de bomba de protones IV (pantoprazol) para reducir secreción ácida.",
+        "Reposo intestinal, succión nasogástrica y reposición de líquidos IV."
+      ],
+      "complications": [
+        "Sepsis y shock séptico.",
+        "Falla renal aguda por hipovolemia.",
+        "Absceso intraabdominal o fístula.",
+        "Hemorragia digestiva secundaria a erosión vascular."
+      ],
+      "nursing_care": [
+        "Evaluar dolor cada hora usando escala numérica 0‑10; reportar >4 al médico.",
+        "Monitorizar signos vitales: TA, FC, FR, temperatura; observar hipotensión y taquicardia.",
+        "Mantener NPO, aspirar contenido gástrico y registrar volumen y aspecto.",
+        "Controlar salida de líquidos y balance hídrico; registrar diuresis cada 2 h.",
+        "Administrar antibióticos y PPI según prescripción; observar reacciones adversas."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de cirugía y los riesgos de la perforación.",
+        "Instruir sobre la importancia de evitar AINEs y alcohol después del alta.",
+        "Enseñar signos de alarma: dolor abdominal intenso, fiebre, vómitos persistentes.",
+        "Promover adherencia al tratamiento con antibióticos y PPI.",
+        "Fomentar hábitos de vida saludables: dieta balanceada, dejar de fumar."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Dolor agudo",
+        "type": "actual",
+        "related_to": [
+          "perforación de úlcera péptica",
+          "inflamación peritoneal"
+        ],
+        "evidenced_by": [
+          "dolor abdominal súbito",
+          "rigidez muscular",
+          "taquicardia"
+        ],
+        "outcomes": [
+          "Control del dolor: paciente reporta dolor ≤3/10 en 24 h.",
+          "Movilidad: paciente tolera cambios de posición sin aumento del dolor."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar analgesia opioide según prescripción y evaluar respuesta cada 30 min.",
+            "rationale": "Reduce la intensidad del dolor y mejora la comodidad del paciente."
+          },
+          {
+            "action": "Colocar al paciente en posición semisentado con almohada bajo rodillas.",
+            "rationale": "Disminuye la presión intraabdominal y alivia el dolor."
+          },
+          {
+            "action": "Registrar escala de dolor antes y después de cada intervención.",
+            "rationale": "Permite valorar la efectividad del tratamiento analgésico."
+          },
+          {
+            "action": "Enseñar técnicas de respiración profunda y relajación.",
+            "rationale": "Ayuda a disminuir la percepción del dolor y mejora la oxigenación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "perforación ulcerosa",
+          "cirugía abdominal",
+          "uso de catéteres"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Integridad tisular: ausencia de signos de infección en 72 h.",
+          "Temperatura: paciente mantiene <37.5 °C durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar técnica aséptica al manipular drenajes y catéteres.",
+            "rationale": "Previene la introducción de microorganismos patógenos."
+          },
+          {
+            "action": "Monitorear temperatura cada 4 h y reportar fiebre >38 °C.",
+            "rationale": "Detección temprana de infección para iniciar tratamiento oportuno."
+          },
+          {
+            "action": "Evaluar sitio quirúrgico: observar enrojecimiento, edema o exudado.",
+            "rationale": "Identifica signos locales de infección."
+          },
+          {
+            "action": "Administrar antibióticos profilácticos según orden médica y registrar hora de administración.",
+            "rationale": "Mantiene niveles terapéuticos y reduce riesgo de infección postoperatoria."
+          },
+          {
+            "action": "Promover movilización temprana dentro de la tolerancia del paciente.",
+            "rationale": "Mejora la perfusión tisular y favorece la respuesta inmunológica."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Peptic ulcer perforation",
+    "aliases": [
+      "perforated ulcer",
+      "ulcer perforation",
+      "peptic ulcer",
+      "gastrointestinal perforation",
+      "stomach ulcer"
+    ],
+    "summary": "Complete rupture of the gastric or duodenal wall by an ulcer, with escape of gastrointestinal contents into the peritoneum.",
+    "key_points": [
+      "It is a surgical emergency that causes acute peritonitis.",
+      "Sudden abdominal pain and rigidity are classic signs.",
+      "Confirmed by abdominal radiograph showing free air under the diaphragm.",
+      "Management includes surgery, antibiotics, and pain control.",
+      "Complications: sepsis, hypovolemic shock, and multiorgan failure."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The ulcer erodes the mucosa and muscular layer of the gastric/duodenal wall.",
+        "When the lesion penetrates all layers, gastric contents enter the peritoneum.",
+        "Acid and enzymes irritate the peritoneal cavity, triggering inflammation and peritonitis."
+      ],
+      "risk_factors": [
+        "Helicobacter pylori infection.",
+        "Chronic use of NSAIDs or corticosteroids.",
+        "Smoking and excessive alcohol consumption.",
+        "Severe stress or critical illness (stress ulcer)."
+      ],
+      "signs_symptoms": [
+        "Sudden, intense, constant abdominal pain, often epigastric.",
+        "Rigidity and muscular defense (peritonitis sign).",
+        "Tachycardia, hypotension, and fever in advanced stages.",
+        "Nausea, vomiting, and possible abdominal distension."
+      ],
+      "diagnostics": [
+        "Erect abdominal X‑ray: free air under diaphragm (Rigler sign).",
+        "Contrast abdominal CT: confirms perforation site and air extent.",
+        "CBC: leukocytosis >12,000 mm³, possible anemia.",
+        "Electrolytes: hypokalemia or hypernatremia depending on fluid loss."
+      ],
+      "treatment": [
+        "Emergency surgery: simple suture, resection, or gastrectomy depending on extent.",
+        "Broad‑spectrum antibiotics (e.g., cefalosporin + metronidazole).",
+        "IV proton‑pump inhibitors (pantoprazole) to reduce acid secretion.",
+        "NPO, nasogastric suction, and IV fluid resuscitation."
+      ],
+      "complications": [
+        "Sepsis and septic shock.",
+        "Acute renal failure from hypovolemia.",
+        "Intraabdominal abscess or fistula.",
+        "Secondary gastrointestinal hemorrhage from vascular erosion."
+      ],
+      "nursing_care": [
+        "Assess pain hourly using a 0‑10 numeric scale; report >4 to the physician.",
+        "Monitor vital signs: BP, HR, RR, temperature; watch for hypotension and tachycardia.",
+        "Maintain NPO, suction gastric contents, and record volume and appearance.",
+        "Control fluid output and fluid balance; record urine output every 2 h.",
+        "Administer antibiotics and PPI per order; monitor for adverse reactions."
+      ],
+      "patient_teaching": [
+        "Explain the need for surgery and risks of perforation.",
+        "Instruct on avoiding NSAIDs and alcohol after discharge.",
+        "Teach warning signs: intense abdominal pain, fever, persistent vomiting.",
+        "Encourage adherence to antibiotics and PPI therapy.",
+        "Promote healthy lifestyle habits: balanced diet, smoking cessation."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Acute pain",
+        "type": "actual",
+        "related_to": [
+          "peptic ulcer perforation",
+          "peritoneal inflammation"
+        ],
+        "evidenced_by": [
+          "sudden abdominal pain",
+          "muscular rigidity",
+          "tachycardia"
+        ],
+        "outcomes": [
+          "Pain control: patient reports pain ≤3/10 within 24 h.",
+          "Mobility: patient tolerates positional changes without increased pain."
+        ],
+        "interventions": [
+          {
+            "action": "Administer opioid analgesia per prescription and evaluate response every 30 min.",
+            "rationale": "Reduces pain intensity and improves patient comfort."
+          },
+          {
+            "action": "Place patient in semi‑upright position with pillow under knees.",
+            "rationale": "Decreases intraabdominal pressure and alleviates pain."
+          },
+          {
+            "action": "Record pain scale before and after each intervention.",
+            "rationale": "Allows assessment of analgesic effectiveness."
+          },
+          {
+            "action": "Teach deep breathing and relaxation techniques.",
+            "rationale": "Helps reduce pain perception and improves oxygenation."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "ulcer perforation",
+          "abdominal surgery",
+          "catheter use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Tissue integrity: no signs of infection within 72 h.",
+          "Temperature: patient maintains <37.5 °C during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Apply aseptic technique when handling drains and catheters.",
+            "rationale": "Prevents introduction of pathogenic microorganisms."
+          },
+          {
+            "action": "Monitor temperature every 4 h and report fever >38 °C.",
+            "rationale": "Early detection of infection to initiate timely treatment."
+          },
+          {
+            "action": "Assess surgical site: look for redness, edema, or drainage.",
+            "rationale": "Identifies local infection signs."
+          },
+          {
+            "action": "Administer prophylactic antibiotics per order and record administration time.",
+            "rationale": "Maintains therapeutic levels and reduces postoperative infection risk."
+          },
+          {
+            "action": "Promote early mobilization within patient tolerance.",
+            "rationale": "Improves tissue perfusion and supports immune response."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "peptic-ulcer-disease",
+    "peritonitis",
+    "gastric-perforation",
+    "hemorrhagic-shock"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Gastrointestinal Bleeding",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/gastrointestinalbleeding.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Ear",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/18-2-disorders-of-the-ear",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Histamine Blockers and Proton-Pump Inhibitors",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/31-2-histamine-blockers-and-proton-pump-inhibitors",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-25",
+  "factcheck": {
+    "checked": "2026-11-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 35,
+      "contradicted": 0,
+      "total": 39
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Short-term use in combination with clarithromycin may be used to treat duodenal ulcers associated with H. pylori infections.",
+        "source": 2
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Prophylactic use of cimetidine includes prevention of stress ulcers or management of hypersecretory conditions such as Zollinger-Ellison syndrome.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "This includes monitoring the patient's reported symptoms and observing for any signs of infection, assessing the patient’s response to prescribed medications, and documenting any adverse reactions.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Encourage smoking cessation for patients and their family members.",
+        "source": 1
+      }
+    }
+  }
+}

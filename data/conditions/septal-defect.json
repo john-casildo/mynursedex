@@ -1,0 +1,484 @@
+{
+  "id": "septal-defect",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Defecto septal (DS)",
+    "aliases": [
+      "defecto septal",
+      "agujero en el corazón",
+      "defecto del tabique",
+      "septal",
+      "defecto septal congénito"
+    ],
+    "summary": "Anomalía congénita en la que existe una abertura en el tabique que separa los lados izquierdo y derecho del corazón, permitiendo paso de sangre entre cavidades. El flujo depende del tamaño del orificio y de la presión sistémica y pulmonar.",
+    "key_points": [
+      "Es el defecto congénito cardíaco más frecuente, especialmente el VSD.",
+      "El murmullo es más intenso cuanto menor es el orificio.",
+      "Puede producir sobrecarga de volumen del ventrículo izquierdo y pulmón.",
+      "El manejo varía: observación, medicación o cierre quirúrgico según tamaño y síntomas."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Falla del tabique interauricular o interventricular durante la organogénesis fetal.",
+        "El gradiente de presión determina dirección del flujo (izquierda‑derecha o derecha‑izquierda).",
+        "El paso de sangre izquierda‑derecha genera aumento del retorno pulmonar y sobrecarga de volumen del ventrículo izquierdo.",
+        "Con el tiempo puede producir hipertensión pulmonar y shunt inverso (síndrome de Eisenmenger)."
+      ],
+      "risk_factors": [
+        "Historia familiar de defectos cardíacos congénitos.",
+        "Infecciones maternas durante el embarazo (rubéola, influenza).",
+        "Tecnologías de reproducción asistida.",
+        "Exposición a teratógenos (alcohol, ciertos fármacos)."
+      ],
+      "signs_symptoms": [
+        "Disnea o dificultad respiratoria al esfuerzo o en reposo (según tamaño del orificio).",
+        "Soplo sistólico en foco pulmonar, más fuerte si el orificio es pequeño.",
+        "Cianosis en casos de shunt derecho‑izquierda o hipertensión pulmonar.",
+        "Crecimiento ponderal insuficiente en lactantes."
+      ],
+      "diagnostics": [
+        "Ecocardiografía: visualiza el orificio, mide su diámetro y gradiente de presión.",
+        "Radiografía de tórax: cardiomegalia y aumento de vasculatura pulmonar en casos de sobrecarga.",
+        "Oximetría de pulso: saturación <95% si hay shunt derecha‑izquierda.",
+        "Electrocardiograma: hipertrofia ventricular izquierda o derecha según el tipo."
+      ],
+      "treatment": [
+        "Observación y control del crecimiento en defectos pequeños (<3 mm).",
+        "Diuréticos (furosemida) y vasodilatadores (enalapril) para manejo de insuficiencia cardíaca.",
+        "Cierre percutáneo con dispositivo de oclusión para defectos moderados‑grandes.",
+        "Cirugía de parche de tejido o membrana para defectos grandes o sintomáticos."
+      ],
+      "complications": [
+        "Hipertensión pulmonar irreversible (síndrome de Eisenmenger).",
+        "Insuficiencia cardíaca congestiva.",
+        "Endocarditis infecciosa."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales, especialmente frecuencia respiratoria y saturación de O₂.",
+        "Evaluar presencia y cambios del soplo, edema y peso diario.",
+        "Registrar ingesta y salida de líquidos; vigilar signos de sobrecarga de volumen.",
+        "Mantener posición semi‑Fowler para facilitar la respiración."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia de asistir a controles ecocardiográficos regulares.",
+        "Enseñar signos de alarma: aumento de disnea, cianosis, edema periférico.",
+        "Promover una dieta baja en sodio y cumplimiento de medicación (diuréticos, IECA).",
+        "Instruir sobre la necesidad de profilaxis antibiótica antes de procedimientos dentales o invasivos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "defecto septal",
+          "sobrecarga de volumen pulmonar",
+          "hipoxemia"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disnea de esfuerzo",
+          "taquicardia durante el ejercicio"
+        ],
+        "outcomes": [
+          "Actividad tolerada: realizar ADL sin disnea en 2 semanas",
+          "Frecuencia cardíaca en reposo <100 lpm en 1 mes"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de disnea usando escala de Borg antes y después de la actividad",
+            "rationale": "Permite cuantificar la intolerancia y medir la respuesta al tratamiento"
+          },
+          {
+            "action": "Planificar actividades graduales y descansos frecuentes",
+            "rationale": "Facilita la adaptación del corazón al aumento de demanda"
+          },
+          {
+            "action": "Monitorear signos vitales y saturación de O₂ durante la actividad",
+            "rationale": "Detecta deterioro temprano de la perfusión"
+          },
+          {
+            "action": "Administrar diuréticos según indicación médica y registrar ingesta/salida",
+            "rationale": "Reduce la sobrecarga de volumen y mejora la capacidad funcional"
+          },
+          {
+            "action": "Educar al paciente y familia sobre signos de alarma y cuándo suspender la actividad",
+            "rationale": "Promueve autocuidado y prevención de complicaciones"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "defecto septal",
+          "hipoxemia crónica",
+          "cianosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Saturación de O₂ ≥95 % en reposo en 48 h",
+          "Nivel de conciencia alerta y orientado durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar saturación de pulso y frecuencia respiratoria cada 4 h",
+            "rationale": "Identifica rápidamente disminución de oxigenación cerebral"
+          },
+          {
+            "action": "Mantener posición semi‑Fowler y evitar compresión del cuello",
+            "rationale": "Optimiza la ventilación y el flujo sanguíneo cerebral"
+          },
+          {
+            "action": "Administrar oxígeno suplementario según prescripción y registrar respuesta",
+            "rationale": "Mejora la perfusión cerebral en casos de hipoxemia"
+          },
+          {
+            "action": "Evaluar nivel de conciencia usando escala de Glasgow cada turno",
+            "rationale": "Detecta cambios neurológicos tempranos"
+          },
+          {
+            "action": "Educar a la familia sobre la importancia de evitar exposición a humo y contaminantes",
+            "rationale": "Previene factores que empeoran la hipoxemia"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Septal defect (DS)",
+    "aliases": [
+      "septal defect",
+      "hole in the heart",
+      "wall defect",
+      "septal",
+      "congenital septal defect"
+    ],
+    "summary": "Congenital anomaly in which there is an opening in the wall that separates the left and right sides of the heart, allowing blood to pass between chambers. The flow depends on the size of the opening and on systemic and pulmonary pressure.",
+    "key_points": [
+      "It is the most common congenital heart defect, especially VSD.",
+      "The murmur is louder the smaller the opening.",
+      "It can cause left ventricular and pulmonary volume overload.",
+      "Management varies: observation, medication, or surgical closure depending on size and symptoms."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Failure of the interatrial or interventricular wall during fetal organogenesis.",
+        "The pressure gradient determines the direction of flow (left‑to‑right or right‑to‑left).",
+        "Left‑to‑right shunting increases pulmonary return and left ventricular volume overload.",
+        "Over time it can cause pulmonary hypertension and reverse shunt (Eisenmenger syndrome)."
+      ],
+      "risk_factors": [
+        "Family history of congenital heart defects.",
+        "Maternal infections during pregnancy (rubella, influenza).",
+        "Assisted reproductive technologies.",
+        "Exposure to teratogens (alcohol, certain drugs)."
+      ],
+      "signs_symptoms": [
+        "Shortness of breath or respiratory difficulty with exertion or at rest (depending on opening size).",
+        "Systolic murmur at pulmonary focus, louder if the opening is small.",
+        "Cyanosis in cases of right‑to‑left shunt or pulmonary hypertension.",
+        "Insufficient weight gain in infants."
+      ],
+      "diagnostics": [
+        "Echocardiography: visualizes the opening, measures its diameter and pressure gradient.",
+        "Chest X‑ray: cardiomegaly and increased pulmonary vasculature in overload cases.",
+        "Pulse oximetry: saturation <95% if right‑to‑left shunt.",
+        "Electrocardiogram: left or right ventricular hypertrophy depending on type."
+      ],
+      "treatment": [
+        "Observation and growth monitoring for small defects (<3 mm).",
+        "Diuretics (furosemide) and vasodilators (enalapril) for heart failure management.",
+        "Percutaneous closure with an occlusion device for moderate‑to‑large defects.",
+        "Surgical patch or membrane repair for large or symptomatic defects."
+      ],
+      "complications": [
+        "Irreversible pulmonary hypertension (Eisenmenger syndrome).",
+        "Congestive heart failure.",
+        "Infective endocarditis."
+      ],
+      "nursing_care": [
+        "Monitor vital signs, especially respiratory rate and O₂ saturation.",
+        "Assess presence and changes of murmur, edema, and daily weight.",
+        "Record intake and output; watch for signs of volume overload.",
+        "Maintain semi‑Fowler position to facilitate breathing."
+      ],
+      "patient_teaching": [
+        "Explain the importance of attending regular echocardiographic follow‑ups.",
+        "Teach warning signs: increased dyspnea, cyanosis, peripheral edema.",
+        "Encourage a low‑sodium diet and adherence to medications (diuretics, ACE inhibitors).",
+        "Instruct on the need for antibiotic prophylaxis before dental or invasive procedures."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "septal defect",
+          "pulmonary volume overload",
+          "hypoxemia"
+        ],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "exertional dyspnea",
+          "tachycardia during exercise"
+        ],
+        "outcomes": [
+          "Tolerated activity: perform ADL without dyspnea in 2 weeks",
+          "Resting heart rate <100 bpm in 1 month"
+        ],
+        "interventions": [
+          {
+            "action": "Assess dyspnea level using Borg scale before and after activity",
+            "rationale": "Quantifies intolerance and measures treatment response"
+          },
+          {
+            "action": "Plan gradual activities with frequent rest periods",
+            "rationale": "Facilitates cardiac adaptation to increased demand"
+          },
+          {
+            "action": "Monitor vital signs and O₂ saturation during activity",
+            "rationale": "Detects early perfusion deterioration"
+          },
+          {
+            "action": "Administer diuretics as ordered and record intake/output",
+            "rationale": "Reduces volume overload and improves functional capacity"
+          },
+          {
+            "action": "Educate patient and family on warning signs and when to stop activity",
+            "rationale": "Promotes self‑care and complication prevention"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "septal defect",
+          "chronic hypoxemia",
+          "cyanosis"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "O₂ saturation ≥95 % at rest within 48 h",
+          "Alert and oriented level of consciousness during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor pulse oximetry and respiratory rate every 4 h",
+            "rationale": "Rapidly identifies decreased cerebral oxygenation"
+          },
+          {
+            "action": "Maintain semi‑Fowler position and avoid neck compression",
+            "rationale": "Optimizes ventilation and cerebral blood flow"
+          },
+          {
+            "action": "Administer supplemental oxygen as prescribed and record response",
+            "rationale": "Improves cerebral perfusion in hypoxemia"
+          },
+          {
+            "action": "Assess level of consciousness using Glasgow scale each shift",
+            "rationale": "Detects early neurological changes"
+          },
+          {
+            "action": "Educate family on avoiding smoke and pollutants",
+            "rationale": "Prevents factors that worsen hypoxemia"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "ventricular-septal-defect",
+    "congenital-heart-disease",
+    "eisenmenger-syndrome"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Congenital Heart Defects",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/congenitalheartdefects.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Defectos cardíacos congénitos",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/congenitalheartdefects.html",
+      "lang": "es"
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Congenital, Genetic, and Acquired Complications",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/25-2-congenital-genetic-and-acquired-complications",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Prenatal Testing during the Second Trimester",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/13-2-prenatal-testing-during-the-second-trimester",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-25",
+  "factcheck": {
+    "checked": "2026-11-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 24,
+      "contradicted": 2,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Septal defects (\"hole in the heart\") - openings in the wall between the left and right sides of the heart",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "The most common congenital cardiac defect is the ventricular septal defect (VSD) .",
+        "source": 2
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Note that the murmur (the sound that is heard where turbulent blood flow occurs through the defect) will be louder, the smaller the opening.",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "contradicted",
+        "quote": "In most cases, congenital heart defects don't run in families.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Congenital infections including maternal influenza and congenital rubella are also risk factors (Oster et al., 2011).",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Assisted reproductive technology has also been linked to an increased risk of CHD, specifically septal defects (Altman, 2022).",
+        "source": 2
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Maternal exposure to alcohol, smoking, phenytoin, and retinoic acid also increases the risk to the fetus.",
+        "source": 2
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Note that the murmur (the sound that is heard where turbulent blood flow occurs through the defect) will be louder, the smaller the opening.",
+        "source": 2
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Congenital cardiac defects can be divided into cyanotic lesions, those defects that shunt right to left (patients who have oxygen saturations less than 90 percent), and acyanotic lesions, defects that shunt left to right (expected oxygen saturations, 90 percent and above).",
+        "source": 2
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Growth deficit (lower than average height, weight, or both)",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "contradicted",
+        "quote": "Congenital cardiac defects can be divided into cyanotic lesions, those defects that shunt right to left (patients who have oxygen saturations less than 90 percent), and acyanotic lesions, defects that shunt left to right (expected oxygen saturations, 90 percent and above).",
+        "source": 2
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "People with congenital heart defects may develop other health conditions, including: Endocarditis - an infection of lining of the heart and valves Arrhythmia - a problem with the rate or rhythm of your h",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "All children and adults who have congenital heart defects need regular follow-up care from a cardiologist (a doctor who specializes in heart diseases) throughout their life, even if their defect was repaired.",
+        "source": 0
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      }
+    }
+  }
+}

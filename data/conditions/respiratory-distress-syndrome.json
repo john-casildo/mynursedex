@@ -1,0 +1,508 @@
+{
+  "id": "respiratory-distress-syndrome",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Síndrome de dificultad respiratoria aguda (SDRA)",
+    "aliases": [
+      "sdra",
+      "síndrome dificultad respiratoria",
+      "insuficiencia respiratoria",
+      "falla respiratoria",
+      "ards"
+    ],
+    "summary": "El SDRA es una insuficiencia respiratoria aguda caracterizada por edema pulmonar no cardiogénico que impide el intercambio gaseoso adecuado.",
+    "key_points": [
+      "Daño alveolar y aumento de la permeabilidad capilar → edema intersticial y alveolar.",
+      "PaO2/FiO2 < 300 mmHg con infiltrados bilaterales en radiografía.",
+      "Ventilación con presión positiva y bajo volumen tidal es el tratamiento de elección.",
+      "Manejo de la causa subyacente y prevención de complicaciones como neumotórax y sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lesión del endotelio capilar y epitelio alveolar por inflamación.",
+        "Aumento de la permeabilidad → exudado proteinico en alvéolos.",
+        "Pérdida de surfactante → colapso alveolar y atelectasias.",
+        "Hipoxemia refractaria y retención de CO2."
+      ],
+      "risk_factors": [
+        "Neumonía grave, sepsis o aspiración.",
+        "Trauma torácico o pancreatitis severa.",
+        "Inhalación de humo o gases tóxicos.",
+        "Uso prolongado de ventilación mecánica previa."
+      ],
+      "signs_symptoms": [
+        "Disnea súbita, taquipnea >30 rpm.",
+        "Cianosis y saturación O2 <90% con oxígeno suplementario.",
+        "Uso de músculos accesorios y aleteo nasal.",
+        "Estertores crepitantes bilaterales."
+      ],
+      "diagnostics": [
+        "Gasometría arterial: PaO2 <60 mmHg, PaCO2 ↑, pH ↓.",
+        "Radiografía de tórax: infiltrados bilaterales difusos, sin cardiomegalia.",
+        "PaO2/FiO2 ratio <300 mmHg (leve), <200 (moderado), <100 (severo).",
+        "Ecocardiografía para descartar causa cardiogénica."
+      ],
+      "treatment": [
+        "Oxígeno suplementario, objetivo SpO2 92‑96%.",
+        "Ventilación mecánica con bajo volumen tidal (6 mL/kg peso ideal) y PEEP adecuado.",
+        "Posición prona en casos moderados‑severos.",
+        "Control de la causa subyacente (antibióticos, drenaje, etc.).",
+        "Diuréticos de asa si hay sobrecarga de líquidos.",
+        "Sedación y analgesia para sincronía ventilatoria."
+      ],
+      "complications": [
+        "Fallo multiorgánico (renal, hepático, cardiovascular).",
+        "Neumotórax por barotrauma.",
+        "Fibrosis pulmonar crónica.",
+        "Infección nosocomial y neumonía asociada a ventilador."
+      ],
+      "nursing_care": [
+        "Monitorear SpO2, frecuencia respiratoria y esfuerzo respiratorio cada hora.",
+        "Obtener gasometría arterial según orden y comparar con objetivos.",
+        "Verificar y registrar parámetros del ventilador (PEEP, Vt, FiO2).",
+        "Realizar higiene bronquial: aspiración de secreciones con técnica estéril.",
+        "Mantener posición semisentado o prona según indicación.",
+        "Vigilar signos de hipotensión y edema periférico."
+      ],
+      "patient_teaching": [
+        "Explicar la necesidad de la ventilación mecánica y su duración estimada.",
+        "Enseñar técnicas de tos asistida y uso del incentivador respiratorio.",
+        "Informar sobre la importancia de la posición prona y los cambios de posición.",
+        "Educar sobre signos de infección y cuándo notificar al personal.",
+        "Reforzar la adherencia a la terapia de fluidos y dieta baja en sodio."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deterioro del intercambio de gases",
+        "type": "actual",
+        "related_to": [
+          "hipoxemia",
+          "hipercapnia",
+          "daño alveolar"
+        ],
+        "evidenced_by": [
+          "PaO2 <60 mmHg",
+          "SpO2 <90%",
+          "taquipnea",
+          "uso de músculos accesorios"
+        ],
+        "outcomes": [
+          "Intercambio gaseoso: PaO2 ≥80 mmHg en 24 h",
+          "Oxigenación: SpO2 ≥92% en reposo",
+          "Ventilación: PaCO2 35‑45 mmHg en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar gases arteriales cada 4 h y registrar valores.",
+            "rationale": "Permite evaluar la respuesta a la ventilación y ajustar parámetros."
+          },
+          {
+            "action": "Ajustar FiO2 y PEEP según prescripción y respuesta del paciente.",
+            "rationale": "Optimiza la oxigenación y reduce el riesgo de toxicidad por oxígeno."
+          },
+          {
+            "action": "Mantener posición semisentado o prona según indicación clínica.",
+            "rationale": "Mejora la ventilación‑perfusión y reduce atelectasias."
+          },
+          {
+            "action": "Realizar aspiración de secreciones con técnica estéril cada 2‑4 h.",
+            "rationale": "Previene obstrucción de vías aéreas y neumonía asociada a ventilador."
+          },
+          {
+            "action": "Evaluar y registrar sonidos respiratorios y expansión torácica cada turno.",
+            "rationale": "Detecta cambios tempranos en la mecánica pulmonar."
+          },
+          {
+            "action": "Educar al paciente y familia sobre el propósito de la ventilación mecánica.",
+            "rationale": "Reduce ansiedad y fomenta la cooperación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "edema pulmonar",
+          "uso de diuréticos",
+          "administración de fluidos IV"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: ingesta y salida equilibradas ±500 mL/24 h",
+          "Peso corporal: variación ≤1 kg en 48 h",
+          "Edema: ausencia de aumento de edema periférico"
+        ],
+        "interventions": [
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 8 h.",
+            "rationale": "Facilita el cálculo del balance hídrico."
+          },
+          {
+            "action": "Pesar al paciente diariamente a la misma hora y registrar peso.",
+            "rationale": "Detecta acumulación o pérdida de líquidos rápidamente."
+          },
+          {
+            "action": "Evaluar presencia de edema periférico y sacro‑iliaco cada turno.",
+            "rationale": "Identifica signos tempranos de sobrecarga de líquidos."
+          },
+          {
+            "action": "Monitorear presión arterial y, si está indicado, presión venosa central.",
+            "rationale": "Refleja el estado de volumen intravascular."
+          },
+          {
+            "action": "Ajustar terapia de fluidos IV según órdenes y balance registrado.",
+            "rationale": "Previene tanto la hipovolemia como la hipervolemia."
+          },
+          {
+            "action": "Educar al paciente sobre restricción de sodio y la importancia del registro de líquidos.",
+            "rationale": "Promueve la autogestión y reduce el riesgo de desequilibrio hídrico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Acute Respiratory Distress Syndrome (ARDS)",
+    "aliases": [
+      "sdra",
+      "acute respiratory distress syndrome",
+      "respiratory failure",
+      "ards"
+    ],
+    "summary": "ARDS is an acute respiratory failure characterized by noncardiogenic pulmonary edema that impairs adequate gas exchange.",
+    "key_points": [
+      "Alveolar damage and increased capillary permeability → interstitial and alveolar edema.",
+      "PaO2/FiO2 < 300 mmHg with bilateral infiltrates on chest X‑ray.",
+      "Positive‑pressure ventilation with low tidal volume is the treatment of choice.",
+      "Manage the underlying cause and prevent complications such as pneumothorax and sepsis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Capillary endothelial and alveolar epithelial injury from inflammation.",
+        "Increased permeability → proteinaceous exudate in alveoli.",
+        "Surfactant loss → alveolar collapse and atelectasis.",
+        "Refractory hypoxemia and CO2 retention."
+      ],
+      "risk_factors": [
+        "Severe pneumonia, sepsis, or aspiration.",
+        "Thoracic trauma or severe pancreatitis.",
+        "Smoke or toxic gas inhalation.",
+        "Prolonged prior mechanical ventilation."
+      ],
+      "signs_symptoms": [
+        "Sudden dyspnea, tachypnea >30 breaths/min.",
+        "Cyanosis and O2 saturation <90% despite supplemental oxygen.",
+        "Use of accessory muscles and nasal flaring.",
+        "Bilateral crackles."
+      ],
+      "diagnostics": [
+        "Arterial blood gas: PaO2 <60 mmHg, PaCO2 ↑, pH ↓.",
+        "Chest X‑ray: diffuse bilateral infiltrates, no cardiomegaly.",
+        "PaO2/FiO2 ratio <300 mmHg (mild), <200 (moderate), <100 (severe).",
+        "Echocardiography to rule out cardiogenic cause."
+      ],
+      "treatment": [
+        "Supplemental oxygen, target SpO2 92‑96%.",
+        "Mechanical ventilation with low tidal volume (6 mL/kg ideal body weight) and appropriate PEEP.",
+        "Prone positioning in moderate‑severe cases.",
+        "Control of underlying cause (antibiotics, drainage, etc.).",
+        "Loop diuretics if fluid overload is present.",
+        "Sedation and analgesia for ventilator synchrony."
+      ],
+      "complications": [
+        "Multi‑organ failure (renal, hepatic, cardiovascular).",
+        "Pneumothorax from barotrauma.",
+        "Chronic pulmonary fibrosis.",
+        "Hospital‑acquired infection and ventilator‑associated pneumonia."
+      ],
+      "nursing_care": [
+        "Monitor SpO2, respiratory rate, and work of breathing hourly.",
+        "Obtain arterial blood gas as ordered and compare to goals.",
+        "Verify and document ventilator settings (PEEP, Vt, FiO2).",
+        "Perform bronchial hygiene: sterile suction of secretions.",
+        "Maintain semi‑upright or prone position as indicated.",
+        "Watch for signs of hypotension and peripheral edema."
+      ],
+      "patient_teaching": [
+        "Explain the need for mechanical ventilation and its estimated duration.",
+        "Teach assisted coughing techniques and use of incentive spirometry.",
+        "Inform about the importance of prone positioning and positional changes.",
+        "Educate on signs of infection and when to notify staff.",
+        "Reinforce adherence to fluid therapy and low‑sodium diet."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Impaired gas exchange",
+        "type": "actual",
+        "related_to": [
+          "hypoxemia",
+          "hypercapnia",
+          "alveolar damage"
+        ],
+        "evidenced_by": [
+          "PaO2 <60 mmHg",
+          "SpO2 <90%",
+          "tachypnea",
+          "use of accessory muscles"
+        ],
+        "outcomes": [
+          "Gas exchange: PaO2 ≥80 mmHg within 24 h",
+          "Oxygenation: SpO2 ≥92% at rest",
+          "Ventilation: PaCO2 35‑45 mmHg within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor arterial gases every 4 h and record values.",
+            "rationale": "Allows assessment of ventilatory response and adjustment of settings."
+          },
+          {
+            "action": "Adjust FiO2 and PEEP per prescription and patient response.",
+            "rationale": "Optimizes oxygenation and reduces risk of oxygen toxicity."
+          },
+          {
+            "action": "Maintain semi‑upright or prone position as clinically indicated.",
+            "rationale": "Improves ventilation‑perfusion and reduces atelectasis."
+          },
+          {
+            "action": "Perform sterile suction of secretions every 2‑4 h.",
+            "rationale": "Prevents airway obstruction and ventilator‑associated pneumonia."
+          },
+          {
+            "action": "Assess and document breath sounds and chest expansion each shift.",
+            "rationale": "Detects early changes in pulmonary mechanics."
+          },
+          {
+            "action": "Educate patient and family about the purpose of mechanical ventilation.",
+            "rationale": "Reduces anxiety and promotes cooperation."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "pulmonary edema",
+          "diuretic use",
+          "IV fluid administration"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: intake and output within ±500 mL/24 h",
+          "Body weight: change ≤1 kg in 48 h",
+          "Edema: no increase in peripheral edema"
+        ],
+        "interventions": [
+          {
+            "action": "Record fluid intake and output every 8 h.",
+            "rationale": "Facilitates calculation of fluid balance."
+          },
+          {
+            "action": "Weigh patient daily at the same time and record weight.",
+            "rationale": "Detects rapid fluid accumulation or loss."
+          },
+          {
+            "action": "Assess for peripheral and sacro‑iliac edema each shift.",
+            "rationale": "Identifies early signs of fluid overload."
+          },
+          {
+            "action": "Monitor blood pressure and, if indicated, central venous pressure.",
+            "rationale": "Reflects intravascular volume status."
+          },
+          {
+            "action": "Adjust IV fluid therapy per orders and recorded balance.",
+            "rationale": "Prevents both hypovolemia and hypervolemia."
+          },
+          {
+            "action": "Educate patient on sodium restriction and importance of fluid record keeping.",
+            "rationale": "Promotes self‑management and reduces risk of fluid imbalance."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "acute-respiratory-distress-syndrome",
+    "hypoxemia",
+    "mechanical-ventilation",
+    "sepsis",
+    "pulmonary-edema"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Respiratory Failure",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/respiratoryfailure.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/18-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Respiratory System",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/19-1-respiratory-system",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-25",
+  "factcheck": {
+    "checked": "2026-11-25",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 3,
+      "not_found": 39,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "Deep breaths often inspire coughing, and coughing causes deep breaths, which fosters continued production and release of surfactant and prevention of atelectasis (alveolar collapse).",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Inhalation injuries , such as from inhaling smoke (from fires) or harmful fumes",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.5": {
+        "status": "supported",
+        "quote": "Examples of poor perfusion include deterioration of vital sign s, which may include tachycardia (heart rate over 100 beats per minute), hypotension (low blood pressure, e.g., under 90 systolic), abnormal body temperature, tachypnea (respiratory rate over 20 breaths per minute), mental status or level of consciousness changes that may range from slight confusion to lethargy to unconsciousness, peripheral edema, potentially adventitious breath soun",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

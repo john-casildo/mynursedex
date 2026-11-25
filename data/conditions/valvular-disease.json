@@ -1,0 +1,337 @@
+{
+  "id": "valvular-disease",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Enfermedad valvular cardíaca (EVC)",
+    "aliases": [
+      "valvular",
+      "valvula",
+      "enfermedad valvular",
+      "valvulopatia",
+      "valvular disease",
+      "valvular heart disease"
+    ],
+    "summary": "Alteración estructural o funcional de una o más válvulas cardíacas que impide el flujo sanguíneo normal.",
+    "key_points": [
+      "Puede presentarse como estenosis (obstrucción) o regurgitación (reflujo).",
+      "Los soplos cardíacos son hallazgos auscultatorios clave.",
+      "La insuficiencia cardíaca es la complicación más frecuente.",
+      "El diagnóstico definitivo se realiza con ecocardiografía Doppler."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Engrosamiento, calcificación o retraction de los folletos valvulares reduce la apertura (estenosis).",
+        "Degeneración o prolapso impide el cierre completo, provocando reflujo (regurgitación).",
+        "El flujo anómalo genera sobrecarga de presión o volumen en cavidades cardíacas.",
+        "La sobrecarga lleva a hipertrofia y eventual disfunción sistólica o diastólica."
+      ],
+      "risk_factors": [
+        "Fiebre reumática o endocarditis previa.",
+        "Degeneración calcificada relacionada con edad avanzada.",
+        "Enfermedad congénita (por ejemplo, válvula bicúspide).",
+        "Hipertensión arterial crónica."
+      ],
+      "signs_symptoms": [
+        "Disnea de esfuerzo y fatiga.",
+        "Soplo cardíaco sistólico o diastólico según tipo de lesión.",
+        "Palpitaciones o síncope (especialmente en estenosis aórtica).",
+        "Edema periférico en casos de insuficiencia cardíaca."
+      ],
+      "diagnostics": [
+        "Ecocardiografía Doppler: área valvular, gradiente de presión y grado de regurgitación.",
+        "ECG: hipertrofia ventricular o arritmias.",
+        "Radiografía de tórax: cardiomegalia o congestión pulmonar.",
+        "BNP elevado cuando hay insuficiencia cardíaca asociada."
+      ],
+      "treatment": [
+        "Control de presión arterial y volumen con diuréticos y AIE (ej. enalapril).",
+        "Anticoagulación (warfarina) si hay fibrilación auricular o prótesis mecánica.",
+        "Reparación valvular percutánea (valvuloplastia) o cirugía de reemplazo (prótesis biológica o mecánica).",
+        "Manejo de la insuficiencia cardíaca: betabloqueadores, inhibidores de SGLT2 según indicación."
+      ],
+      "complications": [
+        "Insuficiencia cardíaca congestiva.",
+        "Arritmias, especialmente fibrilación auricular.",
+        "Endocarditis infecciosa.",
+        "Hipertensión pulmonar secundaria a estenosis mitral o tricúspide."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales, especialmente presión arterial y frecuencia cardíaca.",
+        "Monitorear signos de sobrecarga de volumen: edema, peso diario, auscultación de crepitantes.",
+        "Observar cambios en el nivel de actividad y tolerancia al ejercicio.",
+        "Mantener posición semisentado para reducir la demanda de trabajo cardíaco.",
+        "Registrar y reportar nuevos soplos o cambios en los existentes."
+      ],
+      "patient_teaching": [
+        "Informar sobre la importancia de la adherencia a medicación antihipertensiva y anticoagulante.",
+        "Enseñar a reconocer síntomas de descompensación: disnea súbita, edema creciente, palpitaciones.",
+        "Promover actividad física gradual y evitar esfuerzos intensos sin autorización médica.",
+        "Explicar la necesidad de controles ecocardiográficos periódicos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "disnea de esfuerzo",
+          "hipertrofia ventricular",
+          "sobrecarga de volumen"
+        ],
+        "evidenced_by": [
+          "fatiga al subir escaleras",
+          "disminución de la tolerancia al ejercicio"
+        ],
+        "outcomes": [
+          "NOC: Tolerancia a la actividad: paciente aumentará la distancia caminada sin disnea a 100 m en 2 semanas",
+          "NOC: Fatiga: paciente reportará nivel de fatiga ≤ 3/10 en escala de 0-10 en 1 semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar distancia caminada y síntomas asociados.",
+            "rationale": "Permite establecer línea base y detectar deterioro temprano."
+          },
+          {
+            "action": "Planificar actividades de bajo impacto y aumentar gradualmente la duración.",
+            "rationale": "Mejora la capacidad aeróbica sin sobrecargar el corazón."
+          },
+          {
+            "action": "Monitorear signos vitales antes, durante y después de la actividad.",
+            "rationale": "Detecta intolerancia temprana y previene eventos adversos."
+          },
+          {
+            "action": "Educar al paciente sobre el uso de descansos programados y técnicas de respiración.",
+            "rationale": "Facilita la conservación de energía y reduce la disnea."
+          },
+          {
+            "action": "Coordinar con el médico para ajustar diuréticos o AIE según necesidad.",
+            "rationale": "Optimiza el control hemodinámico y mejora la tolerancia al ejercicio."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de disminución de la perfusión tisular cardíaca",
+        "type": "risk",
+        "related_to": [
+          "estenosis valvular",
+          "regurgitación severa",
+          "hipertensión",
+          "hipovolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Perfusión tisular: paciente mantendrá presión arterial ≥ 90/60 mmHg y frecuencia cardíaca < 100 lpm.",
+          "NOC: Dolor torácico: paciente no reportará dolor torácico durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorizar presión arterial, frecuencia cardíaca y saturación de O₂ cada 4 horas.",
+            "rationale": "Detecta signos tempranos de perfusión inadecuada."
+          },
+          {
+            "action": "Evaluar dolor torácico y describir características según protocolo.",
+            "rationale": "El dolor puede indicar isquemia por perfusión disminuida."
+          },
+          {
+            "action": "Mantener hidratación adecuada según órdenes médicas y balance de líquidos.",
+            "rationale": "Previene hipovolemia que empeora la perfusión coronaria."
+          },
+          {
+            "action": "Posicionar al paciente en decúbito supino con la cabeza ligeramente elevada (30°).",
+            "rationale": "Facilita el retorno venoso y reduce la carga de trabajo del corazón."
+          },
+          {
+            "action": "Informar al equipo de cualquier cambio súbito en signos vitales o aparición de soplo nuevo.",
+            "rationale": "Permite intervención temprana y ajuste terapéutico."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Cardiac valvular disease (CVD)",
+    "aliases": [
+      "valvular",
+      "valvula",
+      "enfermedad valvular",
+      "valvulopatia",
+      "valvular disease",
+      "valvular heart disease"
+    ],
+    "summary": "Structural or functional alteration of one or more heart valves that impedes normal blood flow.",
+    "key_points": [
+      "Can present as stenosis (obstruction) or regurgitation (backflow).",
+      "Heart murmurs are key auscultatory findings.",
+      "Heart failure is the most common complication.",
+      "Definitive diagnosis is made with Doppler echocardiography."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Thickening, calcification or retraction of valve leaflets reduces opening (stenosis).",
+        "Degeneration or prolapse prevents complete closure, causing backflow (regurgitation).",
+        "Abnormal flow leads to pressure or volume overload in cardiac chambers.",
+        "Overload causes hypertrophy and eventual systolic or diastolic dysfunction."
+      ],
+      "risk_factors": [
+        "Rheumatic fever or prior endocarditis.",
+        "Age‑related calcific degeneration.",
+        "Congenital disease (e.g., bicuspid valve).",
+        "Chronic hypertension."
+      ],
+      "signs_symptoms": [
+        "Exertional dyspnea and fatigue.",
+        "Systolic or diastolic heart murmur depending on lesion type.",
+        "Palpitations or syncope (especially with aortic stenosis).",
+        "Peripheral edema in heart failure cases."
+      ],
+      "diagnostics": [
+        "Doppler echocardiography: valve area, pressure gradient, and regurgitation severity.",
+        "ECG: ventricular hypertrophy or arrhythmias.",
+        "Chest X‑ray: cardiomegaly or pulmonary congestion.",
+        "Elevated BNP when heart failure is present."
+      ],
+      "treatment": [
+        "Control blood pressure and volume with diuretics and ACE inhibitors (e.g., enalapril).",
+        "Anticoagulation (warfarin) if atrial fibrillation or mechanical prosthesis.",
+        "Percutaneous valve repair (valvuloplasty) or surgical replacement (biologic or mechanical prosthesis).",
+        "Heart failure management: beta‑blockers, SGLT2 inhibitors as indicated."
+      ],
+      "complications": [
+        "Congestive heart failure.",
+        "Arrhythmias, especially atrial fibrillation.",
+        "Infective endocarditis.",
+        "Pulmonary hypertension secondary to mitral or tricuspid stenosis."
+      ],
+      "nursing_care": [
+        "Assess vital signs, especially blood pressure and heart rate.",
+        "Monitor signs of volume overload: edema, daily weight, lung crackles.",
+        "Observe changes in activity level and exercise tolerance.",
+        "Maintain semi‑upright position to reduce cardiac workload.",
+        "Document and report new murmurs or changes in existing murmurs."
+      ],
+      "patient_teaching": [
+        "Inform about the importance of adherence to antihypertensive and anticoagulant medication.",
+        "Teach recognition of decompensation symptoms: sudden dyspnea, increasing edema, palpitations.",
+        "Encourage gradual physical activity and avoid intense exertion without medical clearance.",
+        "Explain the need for periodic echocardiographic monitoring."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "exertional dyspnea",
+          "ventricular hypertrophy",
+          "volume overload"
+        ],
+        "evidenced_by": [
+          "fatigue climbing stairs",
+          "reduced exercise tolerance"
+        ],
+        "outcomes": [
+          "NOC: Activity Tolerance: patient will walk 100 m without dyspnea in 2 weeks",
+          "NOC: Fatigue: patient will report fatigue level ≤ 3/10 on 0‑10 scale in 1 week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record walking distance and associated symptoms.",
+            "rationale": "Establishes baseline and detects early decline."
+          },
+          {
+            "action": "Plan low‑impact activities and gradually increase duration.",
+            "rationale": "Improves aerobic capacity without overloading the heart."
+          },
+          {
+            "action": "Monitor vital signs before, during, and after activity.",
+            "rationale": "Detects early intolerance and prevents adverse events."
+          },
+          {
+            "action": "Educate patient on scheduled rest breaks and breathing techniques.",
+            "rationale": "Facilitates energy conservation and reduces dyspnea."
+          },
+          {
+            "action": "Coordinate with physician to adjust diuretics or ACE inhibitors as needed.",
+            "rationale": "Optimizes hemodynamic control and improves exercise tolerance."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for decreased cardiac tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "valvular stenosis",
+          "severe regurgitation",
+          "hypertension",
+          "hypovolemia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Tissue Perfusion: patient will maintain blood pressure ≥ 90/60 mmHg and heart rate < 100 bpm.",
+          "NOC: Chest Pain: patient will not report chest pain during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor blood pressure, heart rate, and oxygen saturation every 4 hours.",
+            "rationale": "Detects early signs of inadequate perfusion."
+          },
+          {
+            "action": "Assess chest pain and describe characteristics per protocol.",
+            "rationale": "Pain may indicate ischemia from reduced perfusion."
+          },
+          {
+            "action": "Maintain adequate hydration per orders and fluid balance.",
+            "rationale": "Prevents hypovolemia that worsens coronary perfusion."
+          },
+          {
+            "action": "Position patient supine with head slightly elevated (30°).",
+            "rationale": "Facilitates venous return and reduces cardiac workload."
+          },
+          {
+            "action": "Notify team of any sudden vital sign changes or new murmur.",
+            "rationale": "Allows early intervention and therapeutic adjustment."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "heart-failure",
+    "valve-stenosis",
+    "valve-regurgitation",
+    "endocarditis",
+    "rheumatic-fever"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Heart Valve Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/heartvalvediseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Nursing Assessment",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/24-3-nursing-assessment",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Preconception Conditions Affecting Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-1-preconception-conditions-affecting-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-25"
+}
