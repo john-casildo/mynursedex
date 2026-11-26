@@ -1,0 +1,492 @@
+{
+  "id": "autoimmune-thyroiditis",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Tiroiditis de Hashimoto (HT)",
+    "aliases": [
+      "hashimoto",
+      "tiroiditis",
+      "hipotiroidismo",
+      "autoimmune",
+      "tiroides"
+    ],
+    "summary": "Enfermedad autoinmune que destruye la glándula tiroides, provocando hipotiroidismo crónico. Es la causa más frecuente de hipotiroidismo en adultos.",
+    "key_points": [
+      "Anticuerpos anti‑TPO y anti‑Tg median la respuesta autoinmune.",
+      "TSH elevada y T4 libre disminuida son hallazgos de laboratorio típicos.",
+      "Se trata con levotiroxina oral de por vida y control periódico de TSH.",
+      "Complicaciones incluyen mixedema, aumento de colesterol y problemas reproductivos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Infiltración linfocítica de la tiroides por respuesta autoinmune.",
+        "Formación de anticuerpos anti‑TPO y anti‑Tg que dañan los folículos tiroideos.",
+        "Destrucción progresiva de células foliculares → disminución de T3/T4.",
+        "Fibrosis y posible bocio por intento de compensación."
+      ],
+      "risk_factors": [
+        "Sexo femenino y edad >45 años.",
+        "Antecedentes familiares de enfermedades autoinmunes.",
+        "Presencia de otras patologías autoinmunes (celiaquía, artritis reumatoide).",
+        "Exceso o deficiencia de yodo en la dieta."
+      ],
+      "signs_symptoms": [
+        "Fatiga, intolerancia al frío y aumento de peso.",
+        "Piel seca, cabello quebradizo y uñas frágiles.",
+        "Estreñimiento, bradicardia y edema facial leve.",
+        "Elevado colesterol LDL y posible bocio indoloro."
+      ],
+      "diagnostics": [
+        "TSH > 4.5 µIU/mL y T4 libre < 0.8 ng/dL.",
+        "Anticuerpos anti‑TPO positivos (>35 IU/mL).",
+        "Ecografía tiroidea con patrón heterogéneo.",
+        "Pruebas de función tiroidea cada 6‑8 semanas al iniciar terapia."
+      ],
+      "treatment": [
+        "Levotiroxina (L‑tiroxina) oral, dosis individualizada.",
+        "Administrar en ayunas, 30‑60 min antes del desayuno.",
+        "Evitar suplementos de hierro o calcio dentro de 4 h de la dosis.",
+        "Reevaluar TSH y ajustar dosis según resultados de laboratorio."
+      ],
+      "complications": [
+        "Mixedema y crisis mixta (hipotiroidismo severo).",
+        "Hipercolesterolemia y enfermedad cardiovascular.",
+        "Infertilidad o abortos espontáneos.",
+        "Depresión y deterioro cognitivo."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de energía, peso, temperatura corporal y frecuencia cardíaca.",
+        "Monitorear resultados de TSH y T4 libre según orden médica.",
+        "Administrar levotiroxina según horario y registrar cumplimiento.",
+        "Observar signos de hipotiroidismo o hipertiroidismo (temblor, palpitaciones).",
+        "Registrar ingesta de alimentos que puedan interferir con la absorción."
+      ],
+      "patient_teaching": [
+        "Tomar levotiroxina con el estómago vacío, sin alimentos ni suplementos cercanos.",
+        "Reconocer síntomas de bajo o exceso de hormona tiroidea y reportarlos.",
+        "Importancia de controles de laboratorio cada 6‑8 semanas al iniciar o cambiar dosis.",
+        "Mantener una dieta balanceada, limitar soja y fibra excesiva que pueden reducir absorción.",
+        "Informar sobre la necesidad de terapia de por vida y no suspender sin indicación."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "hipotiroidismo",
+          "disminución del metabolismo basal",
+          "fatiga crónica"
+        ],
+        "evidenced_by": [
+          "fatiga al realizar actividades de la vida diaria",
+          "disminución de la tolerancia al ejercicio",
+          "reporte de cansancio temprano"
+        ],
+        "outcomes": [
+          "Nivel de actividad: aumento de la tolerancia a la actividad; paciente completa actividades diarias sin fatiga en 2 semanas.",
+          "Frecuencia cardíaca en reposo dentro de rango normal (60‑100 lpm) en 1 semana."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y capacidad para realizar actividades de la vida diaria cada turno.",
+            "rationale": "Permite identificar cambios y planificar descansos adecuados."
+          },
+          {
+            "action": "Programar períodos de descanso y actividades de bajo esfuerzo, incrementando gradualmente la intensidad.",
+            "rationale": "Facilita la mejora de la tolerancia sin sobrecargar al paciente."
+          },
+          {
+            "action": "Administrar levotiroxina según prescripción y registrar cumplimiento.",
+            "rationale": "Restablecer niveles hormonales mejora el metabolismo y la energía."
+          },
+          {
+            "action": "Monitorear signos vitales, especialmente frecuencia cardíaca y temperatura, antes y después de la actividad.",
+            "rationale": "Detecta respuestas fisiológicas anormales al esfuerzo."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la adherencia al tratamiento y el horario de la medicación.",
+            "rationale": "El cumplimiento optimiza la normalización de TSH y reduce la fatiga."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hipotiroidismo",
+          "retención de agua",
+          "posible hiponatremia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Niveles séricos de sodio dentro del rango normal (135‑145 mEq/L) en 1 semana.",
+          "Ausencia de edema periférico o confusión mental durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos (Na+, K+, Cl-) cada 48 h o según indicación.",
+            "rationale": "Detecta alteraciones tempranas y permite intervención oportuna."
+          },
+          {
+            "action": "Evaluar presencia de edema, peso diario y signos de sobrecarga hídrica.",
+            "rationale": "El edema puede indicar retención de agua y desequilibrio electrolítico."
+          },
+          {
+            "action": "Promover ingesta adecuada de líquidos y alimentos con contenido equilibrado de sodio.",
+            "rationale": "Mantiene la homeostasis de líquidos y electrolitos."
+          },
+          {
+            "action": "Informar al paciente sobre síntomas de hiponatremia (náuseas, confusión, cefalea).",
+            "rationale": "Facilita la detección precoz y la búsqueda de ayuda médica."
+          },
+          {
+            "action": "Coordinar con el médico ajustes de levotiroxina que puedan afectar el balance hídrico.",
+            "rationale": "Algunas dosis pueden influir en la retención de agua y electrolitos."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hashimoto's Thyroiditis (HT)",
+    "aliases": [
+      "hashimoto",
+      "thyroiditis",
+      "hypothyroidism",
+      "autoimmune",
+      "thyroid"
+    ],
+    "summary": "An autoimmune disease that destroys the thyroid gland, causing chronic hypothyroidism. It is the most common cause of hypothyroidism in adults.",
+    "key_points": [
+      "Anti‑TPO and anti‑Tg antibodies mediate the autoimmune response.",
+      "Elevated TSH and low free T4 are typical laboratory findings.",
+      "Treatment is lifelong oral levothyroxine with periodic TSH monitoring.",
+      "Complications include myxedema, hypercholesterolemia, and reproductive problems."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lymphocytic infiltration of the thyroid due to autoimmune response.",
+        "Formation of anti‑TPO and anti‑Tg antibodies that damage thyroid follicles.",
+        "Progressive destruction of follicular cells → decreased T3/T4.",
+        "Fibrosis and possible goiter from compensatory attempts."
+      ],
+      "risk_factors": [
+        "Female sex and age >45 years.",
+        "Family history of autoimmune diseases.",
+        "Presence of other autoimmune conditions (celiac disease, rheumatoid arthritis).",
+        "Excess or deficiency of iodine in the diet."
+      ],
+      "signs_symptoms": [
+        "Fatigue, cold intolerance, weight gain.",
+        "Dry skin, brittle hair, fragile nails.",
+        "Constipation, bradycardia, mild facial edema.",
+        "Elevated LDL cholesterol and possible painless goiter."
+      ],
+      "diagnostics": [
+        "TSH > 4.5 µIU/mL and free T4 < 0.8 ng/dL.",
+        "Positive anti‑TPO antibodies (>35 IU/mL).",
+        "Ultrasound showing heterogeneous pattern.",
+        "Thyroid function tests every 6‑8 weeks when starting therapy."
+      ],
+      "treatment": [
+        "Oral levothyroxine (L‑thyroxine) individualized dose.",
+        "Take on an empty stomach, 30‑60 min before breakfast.",
+        "Avoid iron or calcium supplements within 4 h of dose.",
+        "Reevaluate TSH and adjust dose based on lab results."
+      ],
+      "complications": [
+        "Myxedema and mixed‑depression crisis (severe hypothyroidism).",
+        "Hypercholesterolemia and cardiovascular disease.",
+        "Infertility or spontaneous abortions.",
+        "Depression and cognitive decline."
+      ],
+      "nursing_care": [
+        "Assess energy level, weight, body temperature, and heart rate.",
+        "Monitor TSH and free T4 results as ordered.",
+        "Administer levothyroxine on schedule and document compliance.",
+        "Observe signs of hypo‑ or hyperthyroidism (tremor, palpitations).",
+        "Document intake of foods that may interfere with absorption."
+      ],
+      "patient_teaching": [
+        "Take levothyroxine on an empty stomach, without food or supplements nearby.",
+        "Recognize symptoms of low or excess thyroid hormone and report them.",
+        "Importance of lab checks every 6‑8 weeks when starting or changing dose.",
+        "Maintain a balanced diet, limit soy and excessive fiber that can reduce absorption.",
+        "Inform about lifelong therapy and not to discontinue without indication."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "hypothyroidism",
+          "decreased basal metabolic rate",
+          "chronic fatigue"
+        ],
+        "evidenced_by": [
+          "fatigue during daily activities",
+          "reduced exercise tolerance",
+          "early exhaustion"
+        ],
+        "outcomes": [
+          "Activity level: increased tolerance; patient completes daily activities without fatigue in 2 weeks.",
+          "Resting heart rate within normal range (60‑100 bpm) in 1 week."
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and ability to perform daily activities each shift.",
+            "rationale": "Identifies changes and plans appropriate rest."
+          },
+          {
+            "action": "Schedule rest periods and low‑effort activities, gradually increasing intensity.",
+            "rationale": "Improves tolerance without overloading the patient."
+          },
+          {
+            "action": "Administer levothyroxine as prescribed and document compliance.",
+            "rationale": "Restoring hormone levels improves metabolism and energy."
+          },
+          {
+            "action": "Monitor vital signs, especially heart rate and temperature, before and after activity.",
+            "rationale": "Detects abnormal physiological responses to exertion."
+          },
+          {
+            "action": "Educate the patient on the importance of medication adherence and timing.",
+            "rationale": "Compliance optimizes TSH normalization and reduces fatigue."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hypothyroidism",
+          "water retention",
+          "possible hyponatremia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum sodium within normal range (135‑145 mEq/L) in 1 week.",
+          "No peripheral edema or mental confusion during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes (Na+, K+, Cl-) every 48 h or as indicated.",
+            "rationale": "Detects early changes and allows timely intervention."
+          },
+          {
+            "action": "Assess for edema, daily weight, and signs of fluid overload.",
+            "rationale": "Edema may indicate water retention and electrolyte imbalance."
+          },
+          {
+            "action": "Promote adequate fluid and balanced sodium intake.",
+            "rationale": "Maintains fluid and electrolyte homeostasis."
+          },
+          {
+            "action": "Inform the patient about hyponatremia symptoms (nausea, confusion, headache).",
+            "rationale": "Facilitates early detection and medical help."
+          },
+          {
+            "action": "Coordinate with the physician for levothyroxine adjustments that may affect fluid balance.",
+            "rationale": "Some doses can influence water retention and electrolytes."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypothyroidism",
+    "autoimmune-thyroid-disease",
+    "goiter",
+    "myxedema",
+    "thyroid-hormone-replacement"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hypothyroidism",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hypothyroidism.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Chronic Disease and Chronic Illness",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/42-3-chronic-disease-and-chronic-illness",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Preconception Conditions Affecting Pregnancy",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/12-1-preconception-conditions-affecting-pregnancy",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-26",
+  "factcheck": {
+    "checked": "2026-11-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 10,
+      "not_found": 28,
+      "contradicted": 2,
+      "total": 40
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Autoimmune Disorder Organ System Affected Celiac disease Gastrointestinal Inflammatory bowel disease Gastrointestinal Pernicious anemia Blood cells Rheumatoid arthritis Musculoskeletal (joints) Systemic lupus erythematous Systemic, multiple organ systems Thyroiditis Thyroid Type 1 diabetes Pancreas, me",
+        "source": 1
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "This is the most common cause.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Hypothyroidism The diagnosis for hypothyroidism is made when thyroid-stimulating hormone (TSH) levels are high (> 5 mIU/L) and thyroxine (free T4) levels are low (< 0.7 ng/dL).",
+        "source": 2
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "contradicted",
+        "quote": "You are at higher risk for hypothyroidism if you: Are a woman Are older than age 60 Have had a thyroid problem before, such as a goiter Have had surgery to correct a thyroid problem Have received radiation treatment to the thyroid, neck, or chest Have a family history of thyroid disease Were pregnant or had a baby in the past 6 months Have Turner syndrome , a genetic disorder that affects females Have pernicious anemia , in which the body cannot"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Autoimmune Disorder Organ System Affected Celiac disease Gastrointestinal Inflammatory bowel disease Gastrointestinal Pernicious anemia Blood cells Rheumatoid arthritis Musculoskeletal (joints) Systemic lupus erythematous Systemic, multiple organ systems Thyroiditis Thyroid Type 1 diabetes Pancreas, me",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "In rare cases, a pituitary disease or too much or too little iodine in your diet",
+        "source": 0
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Clinical signs and symptoms include fatigue, weight gain, constipation, muscle cramps, cold intolerance, edema, hair loss, and dry skin.",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "contradicted",
+        "quote": "Hypothyroidism The diagnosis for hypothyroidism is made when thyroid-stimulating hormone (TSH) levels are high (> 5 mIU/L) and thyroxine (free T4) levels are low (< 0.7 ng/dL).",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "About 6 to 8 weeks after you start taking the medicine, you will get a blood test to check your thyroid hormone level.",
+        "source": 0
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "About 6 to 8 weeks after you start taking the medicine, you will get a blood test to check your thyroid hormone level.",
+        "source": 0
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Clinical signs and symptoms include fatigue, weight gain, constipation, muscle cramps, cold intolerance, edema, hair loss, and dry skin.",
+        "source": 2
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "About 6 to 8 weeks after you start taking the medicine, you will get a blood test to check your thyroid hormone level.",
+        "source": 0
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

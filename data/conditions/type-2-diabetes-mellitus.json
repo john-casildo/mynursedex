@@ -1,0 +1,512 @@
+{
+  "id": "type-2-diabetes-mellitus",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Diabetes mellitus tipo 2 (DM2)",
+    "aliases": [
+      "diabetes",
+      "tipo 2",
+      "dm2",
+      "hiperglucemia",
+      "resistencia a la insulina"
+    ],
+    "summary": "Enfermedad crónica caracterizada por hiperglucemia persistente debido a resistencia a la insulina y secreción insuficiente de insulina.",
+    "key_points": [
+      "Resistencia a la insulina es el inicio fisiopatológico principal.",
+      "Obesidad y sedentarismo son los factores de riesgo modificables más importantes.",
+      "Control glucémico se evalúa con glucosa plasmática en ayunas y HbA1c.",
+      "Complicaciones microvasculares incluyen retinopatía, nefropatía y neuropatía.",
+      "El manejo combina cambios en estilo de vida y fármacos hipoglucemiantes orales o insulina."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Las células periféricas presentan disminución de receptores de insulina.",
+        "Se requiere mayor cantidad de insulina para lograr la captación de glucosa.",
+        "El páncreas inicialmente aumenta la secreción de insulina, luego la falla progresiva.",
+        "Hiperglucemia crónica provoca glucotoxicidad y disfunción beta."
+      ],
+      "risk_factors": [
+        "Obesidad (IMC ≥30 kg/m²).",
+        "Inactividad física regular.",
+        "Historia familiar de diabetes tipo 2.",
+        "Edad >45 años y origen étnico (p. ej., latinoamericano)."
+      ],
+      "signs_symptoms": [
+        "Poliuria y polidipsia.",
+        "Pérdida de peso inexplicada.",
+        "Fatiga y visión borrosa.",
+        "Infecciones recurrentes (piel, vías urinarias)."
+      ],
+      "diagnostics": [
+        "Glucosa plasmática en ayunas ≥126 mg/dL.",
+        "HbA1c ≥6.5% (valor de referencia 4-5.6%).",
+        "Prueba de tolerancia a la glucosa oral: 2 h ≥200 mg/dL.",
+        "Perfil lipídico alterado (triglicéridos ↑, HDL ↓)."
+      ],
+      "treatment": [
+        "Modificación de estilo de vida: dieta balanceada y ejercicio ≥150 min/semana.",
+        "Metformina (biguanida) como primera línea.",
+        "Sulfonilureas, inhibidores de DPP‑4 o agonistas de GLP‑1 según respuesta.",
+        "Insulina basal o intensiva si el control oral es insuficiente.",
+        "Control de factores de riesgo cardiovascular (estatinas, antihipertensivos)."
+      ],
+      "complications": [
+        "Retinopatía diabética (ceguera).",
+        "Nefropatía diabética (insuficiencia renal).",
+        "Neuropatía periférica y úlceras del pie.",
+        "Enfermedad cardiovascular (infarto, accidente cerebrovascular).",
+        "Infecciones cutáneas y del tracto urinario."
+      ],
+      "nursing_care": [
+        "Evaluar glucemia capilar antes de cada comida y al acostarse.",
+        "Monitorear signos de hipoglucemia: sudoración, temblor, confusión.",
+        "Registrar ingesta y salida de líquidos; observar poliuria.",
+        "Revisar pies diariamente en busca de lesiones o pérdida de sensibilidad.",
+        "Priorizar educación sobre autocontrol glucémico y prevención de complicaciones."
+      ],
+      "patient_teaching": [
+        "Planificar comidas con bajo índice glucémico y controlar porciones.",
+        "Realizar actividad física aeróbica al menos 30 minutos, 5 días/semana.",
+        "Aprender a usar el glucómetro y registrar resultados.",
+        "Reconocer signos de hipoglucemia y saber cómo tratarlos (15 g de glucosa).",
+        "Cuidar la higiene y protección de los pies; usar calzado adecuado."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "hiperglucemia",
+          "poliuria",
+          "pérdida de peso",
+          "ingesta insuficiente de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado de hidratación: peso estable ±2% en 48 h",
+          "Salida urinaria ≥30 mL/h mantenida"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 8 h",
+            "rationale": "Permite detectar desequilibrio hídrico temprano."
+          },
+          {
+            "action": "Evaluar signos de deshidratación (turgor, mucosas secas, taquicardia)",
+            "rationale": "Identifica déficit de volumen antes de que se agrave."
+          },
+          {
+            "action": "Promover consumo de agua 2‑3 L/día según tolerancia",
+            "rationale": "Compensa la pérdida de líquidos por poliuria."
+          },
+          {
+            "action": "Administrar solución salina según prescripción si hay hipovolemia",
+            "rationale": "Restituye el volumen intravascular y previene shock hipovolémico."
+          },
+          {
+            "action": "Educar al paciente sobre la relación entre glucosa alta y poliuria",
+            "rationale": "Fomenta la adherencia a medidas de control glucémico y de hidratación."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "hiperglucemia crónica",
+          "respuesta inmune disminuida",
+          "úlceras del pie",
+          "cicatrización lenta"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No se presentan signos de infección durante la hospitalización",
+          "Piel y pies intactos sin lesiones en 7 días"
+        ],
+        "interventions": [
+          {
+            "action": "Inspeccionar piel y pies diariamente",
+            "rationale": "Detecta lesiones o signos de infección precozmente."
+          },
+          {
+            "action": "Enseñar higiene adecuada de manos y cuidados de pies",
+            "rationale": "Reduce la exposición a microorganismos y previene úlceras."
+          },
+          {
+            "action": "Controlar glucemia para mantener HbA1c ≤7%",
+            "rationale": "Mejora la función inmunológica y la cicatrización."
+          },
+          {
+            "action": "Administrar antibiótico según prescripción si hay infección",
+            "rationale": "Trata la infección y previene complicaciones sistémicas."
+          },
+          {
+            "action": "Fomentar vacunación anual contra influenza y neumococo",
+            "rationale": "Disminuye el riesgo de infecciones respiratorias graves."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Type 2 diabetes mellitus (DM2)",
+    "aliases": [
+      "diabetes",
+      "type 2",
+      "dm2",
+      "hyperglycemia",
+      "insulin resistance"
+    ],
+    "summary": "Chronic disease characterized by persistent hyperglycemia due to insulin resistance and insufficient insulin secretion.",
+    "key_points": [
+      "Insulin resistance is the primary pathophysiologic trigger.",
+      "Obesity and sedentary lifestyle are the most important modifiable risk factors.",
+      "Glycemic control is evaluated with fasting plasma glucose and HbA1c.",
+      "Microvascular complications include retinopathy, nephropathy, and neuropathy.",
+      "Management combines lifestyle changes and oral hypoglycemics or insulin."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Peripheral cells show decreased insulin receptors.",
+        "More insulin is required to achieve glucose uptake.",
+        "The pancreas initially increases insulin secretion, then progressive failure.",
+        "Chronic hyperglycemia causes glucotoxicity and beta‑cell dysfunction."
+      ],
+      "risk_factors": [
+        "Obesity (BMI ≥30 kg/m²).",
+        "Regular physical inactivity.",
+        "Family history of type 2 diabetes.",
+        "Age >45 years and ethnic origin (e.g., Latino)."
+      ],
+      "signs_symptoms": [
+        "Polyuria and polydipsia.",
+        "Unexplained weight loss.",
+        "Fatigue and blurred vision.",
+        "Recurrent infections (skin, urinary tract)."
+      ],
+      "diagnostics": [
+        "Fasting plasma glucose ≥126 mg/dL.",
+        "HbA1c ≥6.5% (reference 4‑5.6%).",
+        "Oral glucose tolerance test: 2 h ≥200 mg/dL.",
+        "Altered lipid profile (↑ triglycerides, ↓ HDL)."
+      ],
+      "treatment": [
+        "Lifestyle modification: balanced diet and exercise ≥150 min/week.",
+        "Metformin (biguanide) as first line.",
+        "Sulfonylureas, DPP‑4 inhibitors, or GLP‑1 agonists as needed.",
+        "Basal or intensive insulin if oral control is insufficient.",
+        "Control cardiovascular risk factors (statins, antihypertensives)."
+      ],
+      "complications": [
+        "Diabetic retinopathy (blindness).",
+        "Diabetic nephropathy (renal failure).",
+        "Peripheral neuropathy and foot ulcers.",
+        "Cardiovascular disease (MI, stroke).",
+        "Skin and urinary tract infections."
+      ],
+      "nursing_care": [
+        "Assess capillary glucose before each meal and at bedtime.",
+        "Monitor hypoglycemia signs: sweating, tremor, confusion.",
+        "Record fluid intake and output; watch for polyuria.",
+        "Inspect feet daily for lesions or loss of sensation.",
+        "Prioritize education on self‑monitoring and complication prevention."
+      ],
+      "patient_teaching": [
+        "Plan low‑glycemic‑index meals and control portions.",
+        "Engage in aerobic activity at least 30 minutes, 5 days/week.",
+        "Learn to use the glucometer and record results.",
+        "Recognize hypoglycemia signs and know how to treat them (15 g of glucose).",
+        "Maintain foot hygiene and protection; wear appropriate footwear."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "hyperglycemia",
+          "polyuria",
+          "weight loss",
+          "insufficient fluid intake"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Hydration status: weight stable ±2% in 48 h",
+          "Urine output ≥30 mL/h maintained"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output every 8 h",
+            "rationale": "Allows early detection of fluid imbalance."
+          },
+          {
+            "action": "Assess dehydration signs (turgor, dry mucous membranes, tachycardia)",
+            "rationale": "Identifies volume deficit before it worsens."
+          },
+          {
+            "action": "Encourage water consumption 2‑3 L/day as tolerated",
+            "rationale": "Compensates for fluid loss due to polyuria."
+          },
+          {
+            "action": "Administer saline solution per prescription if hypovolemia present",
+            "rationale": "Restores intravascular volume and prevents hypovolemic shock."
+          },
+          {
+            "action": "Educate patient on the link between high glucose and polyuria",
+            "rationale": "Promotes adherence to glycemic control and hydration measures."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "chronic hyperglycemia",
+          "impaired immune response",
+          "foot ulcers",
+          "slow wound healing"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No signs of infection during hospitalization",
+          "Skin and feet intact without lesions in 7 days"
+        ],
+        "interventions": [
+          {
+            "action": "Inspect skin and feet daily",
+            "rationale": "Detects lesions or early infection signs."
+          },
+          {
+            "action": "Teach proper hand hygiene and foot care",
+            "rationale": "Reduces exposure to microorganisms and prevents ulcers."
+          },
+          {
+            "action": "Control glucose to maintain HbA1c ≤7%",
+            "rationale": "Improves immune function and wound healing."
+          },
+          {
+            "action": "Administer antibiotics per prescription if infection present",
+            "rationale": "Treats infection and prevents systemic complications."
+          },
+          {
+            "action": "Encourage annual influenza and pneumococcal vaccination",
+            "rationale": "Reduces risk of severe respiratory infections."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperglycemia",
+    "insulin-resistance",
+    "microvascular-complications",
+    "macrovascular-disease",
+    "diabetic-foot"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Diabetes Type 2",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/diabetestype2.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Diabetes tipo 2",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/diabetestype2.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to Diabetes",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-1-introduction-to-diabetes",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Diabetes Mellitus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-2-diabetes-mellitus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-26",
+  "factcheck": {
+    "checked": "2026-11-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 27,
+      "contradicted": 1,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "A HbA1c between 5.7% and 6.4% represents prediabetes, and a level of 6.5% or higher indicates diabetes (American Diabetes Association, n.d.-a).",
+        "source": 2
+      },
+      "key_points.3": {
+        "status": "contradicted",
+        "quote": "Microvascular complications include diabetic retinopathy, blindness, and neuropathy.",
+        "source": 3
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "However, those managing their DM with oral medications alone or through lifestyle changes may only need to check their blood glucose levels once a day or a few times a week.",
+        "source": 3
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Because of the imbalance of insulin and glucagon, patients with DM have a risk for hyperglycemia (high blood glucose levels), which can further impair beta cell function and insulin secretion (Dapra & Bhandari, 2023).",
+        "source": 3
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Type 2 diabetes may be caused by a combination of factors: Being overweight or having obesity Not being physically active Genetics and family history Type 2 diabetes usually starts with insulin resistance."
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Typical clinical manifestations of diabetes include polyuria (increased urination), polydipsia (increased thirst), weight loss without trying, blurry vision or vision changes, paresthesia (tingling in the feet and hands), dry skin, and fatigue (see Figure 28.3 ).",
+        "source": 2
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Unexplained weight loss",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Common symptoms associated with DM are polyuria , increased thirst, unplanned weight loss, increased hunger, blurry vision, tingling or numbness in hands or feet, decrease in energy, dry skin, increased infections, and slow wound healing (CDC, 2023).",
+        "source": 3
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Common symptoms associated with DM are polyuria , increased thirst, unplanned weight loss, increased hunger, blurry vision, tingling or numbness in hands or feet, decrease in energy, dry skin, increased infections, and slow wound healing (CDC, 2023).",
+        "source": 3
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "A fasting blood glucose level of 99 mg/dL or lower is normal, 100–125 mg/dL indicates prediabetes, and 126 mg/dL or higher indicates diabetes (American Diabetes Association, n.d.-a).",
+        "source": 2
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "According to the American Diabetes Association , metformin is the preferred initial pharmacologic agent for the treatment of T2DM (ADA, 2024b).",
+        "source": 3
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "Microvascular complications include diabetic retinopathy, blindness, and neuropathy.",
+        "source": 3
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "They include cerebrovascular disease, cardiovascular disease, diabetic neuropathy, diabetic retinopathy, cataracts, glaucoma, periodontal disease, peripheral vascular disease, foot damage, stroke, increased risk of infection, and poor wound healing.",
+        "source": 2
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "It is crucial to reinforce to the patient the importance of keeping a detailed log of blood glucose results and to consistently check levels before meals and at bedtime.",
+        "source": 3
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Signs and symptoms of hypoglycemia include feeling shaky, sweating/chills, clammy skin, dizziness/feeling faint, agitation, confusion, blurred or impaired vision, slurred speech, and tachycardia/bradycardia (American Diabetes Association, n.d.-c).",
+        "source": 2
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

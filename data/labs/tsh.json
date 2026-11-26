@@ -1,0 +1,217 @@
+{
+  "id": "tsh",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Hormona estimulante de la tiroides (TSH)",
+    "aliases": [
+      "tsh",
+      "hormona estimulante de la tiroides",
+      "prueba tiroidea",
+      "tiroidea"
+    ],
+    "summary": "La TSH es la prueba de primera línea para evaluar la función tiroidea; valores alterados indican hipotiroidismo o hipertiroidismo.",
+    "key_points": [
+      "TSH estimula la liberación de T3 y T4 por la tiroides.",
+      "Valor normal adulto: 0.4‑4.0 µIU/mL (rango puede variar por laboratorio).",
+      "TSH alta → hipotiroidismo (deficiencia de T3/T4).",
+      "TSH baja → hipertiroidismo (exceso de T3/T4)."
+    ],
+    "sections": {
+      "normal_values": [
+        "0.4 – 4.0 µIU/mL (adultos).",
+        "Rangos pueden variar ligeramente entre laboratorios costarricenses."
+      ],
+      "high_values": [
+        "Hipotiroidismo primario: tiroides no produce T3/T4 suficientes.",
+        "Causas: tiroiditis de Hashimoto, yodo insuficiente, ablación tiroidea.",
+        "Signos: fatiga, aumento de peso, piel seca, intolerancia al frío."
+      ],
+      "low_values": [
+        "Hipertiroidismo: exceso de T3/T4 suprime la TSH.",
+        "Causas: enfermedad de Graves, nódulos tiroideos hiperactivos, tiroiditis subaguda.",
+        "Signos: pérdida de peso, taquicardia, temblor, intolerancia al calor."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa, tubo sin anticoagulante (suero).",
+        "Preferiblemente en ayunas y por la mañana para reducir variabilidad circadiana.",
+        "Evitar suplementos de biotina 24 h antes de la extracción.",
+        "Etiquetar como \"TSH\" y registrar hora de recolección."
+      ],
+      "nursing_care": [
+        "Notificar al médico si TSH está fuera de rango.",
+        "Revisar medicación: levotiroxina (hipotiroidismo) o antitiroideos (hipertiroidismo).",
+        "Observar y registrar signos y síntomas de alteraciones tiroideas.",
+        "Educar al paciente sobre la importancia de la adherencia al tratamiento y la toma de medicación en ayunas.",
+        "Programar recolección de muestra de control según indicación médica."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de la temperatura corporal",
+        "type": "risk",
+        "related_to": [
+          "alteraciones en la secreción de hormonas tiroideas",
+          "hipotiroidismo o hipertiroidismo",
+          "uso de levotiroxina o antitiroideos",
+          "exposición a temperaturas extremas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Temperatura corporal dentro del rango normal (36.5‑37.5 °C) en 48 h",
+          "Estado metabólico estable, sin episodios de hipertermia o hipotermia"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear temperatura corporal cada 4 h y registrar en la hoja de cuidados.",
+            "rationale": "La función tiroidea influye directamente en la termogénesis."
+          },
+          {
+            "action": "Evaluar signos y síntomas de alteraciones tiroideas (fatiga, temblor, sudoración).",
+            "rationale": "Detectar precozmente desequilibrios que puedan afectar la temperatura."
+          },
+          {
+            "action": "Verificar la dosis y horario de levotiroxina o antitiroideos, asegurando la toma en ayunas.",
+            "rationale": "La absorción adecuada del fármaco es esencial para mantener la homeostasis térmica."
+          },
+          {
+            "action": "Educar al paciente sobre evitar ropa excesivamente abrigada o exposición prolongada al frío/calor.",
+            "rationale": "Minimiza factores externos que puedan agravar la alteración de la temperatura."
+          },
+          {
+            "action": "Coordinar con el médico la repetición de la prueba de TSH según protocolo (ej. cada 6‑8 semanas).",
+            "rationale": "Controlar la respuesta al tratamiento y ajustar la terapia si es necesario."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Thyroid Stimulating Hormone (TSH)",
+    "aliases": [
+      "tsh",
+      "thyroid stimulating hormone",
+      "thyroid test",
+      "thyroid"
+    ],
+    "summary": "TSH is the first-line test to evaluate thyroid function; abnormal values indicate hypothyroidism or hyperthyroidism.",
+    "key_points": [
+      "TSH stimulates the release of T3 and T4 from the thyroid.",
+      "Normal adult value: 0.4‑4.0 µIU/mL (range may vary by laboratory).",
+      "High TSH → hypothyroidism (deficiency of T3/T4).",
+      "Low TSH → hyperthyroidism (excess of T3/T4)."
+    ],
+    "sections": {
+      "normal_values": [
+        "0.4 – 4.0 µIU/mL (adults).",
+        "Ranges may vary slightly between laboratories in Costa Rica."
+      ],
+      "high_values": [
+        "Primary hypothyroidism: thyroid does not produce enough T3/T4.",
+        "Causes: Hashimoto thyroiditis, iodine deficiency, thyroid ablation.",
+        "Signs: fatigue, weight gain, dry skin, cold intolerance."
+      ],
+      "low_values": [
+        "Hyperthyroidism: excess T3/T4 suppresses TSH.",
+        "Causes: Graves disease, hyperactive thyroid nodules, subacute thyroiditis.",
+        "Signs: weight loss, tachycardia, tremor, heat intolerance."
+      ],
+      "specimen": [
+        "Venous blood sample, tube without anticoagulant (serum).",
+        "Preferably fasting and in the morning to reduce circadian variability.",
+        "Avoid biotin supplements 24 h before collection.",
+        "Label as \"TSH\" and record collection time."
+      ],
+      "nursing_care": [
+        "Notify the physician if TSH is out of range.",
+        "Review medications: levothyroxine (hypothyroidism) or antithyroid drugs (hyperthyroidism).",
+        "Observe and record signs and symptoms of thyroid dysfunction.",
+        "Educate the patient on the importance of medication adherence and taking medication on an empty stomach.",
+        "Schedule follow-up sample collection as directed by the physician."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced body temperature",
+        "type": "risk",
+        "related_to": [
+          "alterations in thyroid hormone secretion",
+          "hypothyroidism or hyperthyroidism",
+          "use of levothyroxine or antithyroid drugs",
+          "exposure to extreme temperatures"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Body temperature within normal range (36.5‑37.5 °C) within 48 h",
+          "Stable metabolic state, no episodes of hyperthermia or hypothermia"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor body temperature every 4 h and record on the care sheet.",
+            "rationale": "Thyroid function directly influences thermogenesis."
+          },
+          {
+            "action": "Assess signs and symptoms of thyroid dysfunction (fatigue, tremor, sweating).",
+            "rationale": "Early detection of imbalances that may affect temperature."
+          },
+          {
+            "action": "Verify dosage and timing of levothyroxine or antithyroid drugs, ensuring administration on an empty stomach.",
+            "rationale": "Adequate drug absorption is essential to maintain thermal homeostasis."
+          },
+          {
+            "action": "Educate the patient on avoiding overly warm clothing or prolonged exposure to cold/hot environments.",
+            "rationale": "Minimizes external factors that could worsen temperature regulation."
+          },
+          {
+            "action": "Coordinate with the physician to repeat the TSH test per protocol (e.g., every 6‑8 weeks).",
+            "rationale": "Monitor treatment response and adjust therapy if necessary."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypothyroidism",
+    "hyperthyroidism",
+    "thyroid-function-test",
+    "levothyroxine",
+    "antithyroid-drugs"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hyperthyroidism",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hyperthyroidism.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Pruebas y exámenes para la tiroides",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/thyroidtests.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thyroid and Parathyroid Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Introduction to the Thyroid and Parathyroid",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/27-1-introduction-to-the-thyroid-and-parathyroid",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-26"
+}

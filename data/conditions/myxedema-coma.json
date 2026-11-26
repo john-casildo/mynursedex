@@ -1,0 +1,520 @@
+{
+  "id": "myxedema-coma",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Myxedema coma",
+    "aliases": [
+      "myxedema",
+      "coma mixto",
+      "coma por hipotiroidismo",
+      "hipotiroidismo severo",
+      "coma mixto hipotiroidismo"
+    ],
+    "summary": "Estado crítico de hipotiroidismo grave que produce hipotermia, bradicardia, depresión respiratoria y alteración del nivel de conciencia.",
+    "key_points": [
+      "Se presenta con hipotermia <35 °C, bradicardia y depresión respiratoria",
+      "Desencadenantes comunes: infecciones, exposición al frío y uso de sedantes",
+      "Laboratorio muestra TSH muy alta y T4 libre muy baja, a menudo hiponatremia",
+      "Requiere terapia hormonal IV y soporte vital en unidad de cuidados intensivos",
+      "Mortalidad alta si no se trata rápidamente"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Disminución marcada de hormonas tiroideas (T3/T4)",
+        "Reducción del metabolismo basal y producción de calor",
+        "Acumulación de mucina en piel y tejidos, provocando edema",
+        "Alteración de la función cardíaca y respiratoria por bajo gasto cardíaco"
+      ],
+      "risk_factors": [
+        "Infección sistémica o sepsis",
+        "Exposición prolongada al frío",
+        "Uso de sedantes, opioides o anestésicos",
+        "Hipotiroidismo no tratado o mal controlado",
+        "Cirugía mayor o trauma"
+      ],
+      "signs_symptoms": [
+        "Temperatura <35 °C",
+        "Bradicardia (<60 lpm)",
+        "Hipoventilación o apnea parcial",
+        "Alteración del nivel de conciencia (confusión → coma)",
+        "Piel seca, pálida y edema facial (myxedema)"
+      ],
+      "diagnostics": [
+        "TSH >10 µIU/mL (muy alta)",
+        "T4 libre <0.4 ng/dL (muy baja)",
+        "Glucosa plasmática 70‑100 mg/dL (puede ser baja)",
+        "Na⁺ 130‑135 mEq/L (hiponatremia)",
+        "Radiografía de tórax y ABG para evaluar insuficiencia respiratoria"
+      ],
+      "treatment": [
+        "Levotiroxina IV (tiroxina) tan pronto como sea posible",
+        "Liotironina IV si hay insuficiencia cardíaca grave",
+        "Hidrocortisona IV para prevenir insuficiencia adrenal",
+        "Calor externo (mantas térmicas) y control estricto de temperatura",
+        "Ventilación mecánica si hay depresión respiratoria"
+      ],
+      "complications": [
+        "Hipotermia prolongada",
+        "Shock cardiogénico o distributivo",
+        "Insuficiencia respiratoria aguda",
+        "Arritmias por desequilibrio electrolítico",
+        "Muerte si no se revierte el coma"
+      ],
+      "nursing_care": [
+        "Monitorear temperatura cada 15 min y aplicar calor externo",
+        "Evaluar signos vitales y ritmo cardíaco continuamente",
+        "Mantener vía aérea permeable; iniciar soporte ventilatorio si es necesario",
+        "Registrar ingesta y salida de líquidos (I/O) cada turno",
+        "Observar cambios en nivel de conciencia y respuesta a estímulos"
+      ],
+      "patient_teaching": [
+        "Importancia de tomar levotiroxina diariamente y sin omitir dosis",
+        "Reconocer signos de hipotermia y buscar atención inmediata",
+        "Mantener una dieta balanceada con suficiente yodo y sodio",
+        "Evitar exposición prolongada al frío y reportar infecciones rápidamente",
+        "Seguir citas de control endocrinológico para ajustar la terapia"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Hipotermia",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Temperatura <35 °C",
+          "Escalofríos",
+          "Piel fría y pálida",
+          "Bradicardia",
+          "Alteración del nivel de conciencia"
+        ],
+        "outcomes": [
+          "Temperatura corporal: mantener ≥36 °C en 24 h",
+          "Nivel de conciencia: alcanzar alerta espontánea en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar mantas térmicas y fuente de calor externo",
+            "rationale": "Aumenta la temperatura corporal y previene hipotermia prolongada"
+          },
+          {
+            "action": "Monitorear temperatura cada 15 min",
+            "rationale": "Detecta cambios tempranos y permite ajustes de terapia"
+          },
+          {
+            "action": "Administrar levotiroxina IV según prescripción",
+            "rationale": "Reemplaza la hormona tiroidea y ayuda a normalizar el metabolismo"
+          },
+          {
+            "action": "Evaluar signos vitales y ritmo cardíaco continuamente",
+            "rationale": "La bradicardia puede acompañar la hipotermia y requiere intervención"
+          },
+          {
+            "action": "Mantener vía aérea permeable y oxigenación adecuada",
+            "rationale": "Previene depresión respiratoria asociada al coma"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hiponatremia",
+          "hipocalemia",
+          "deshidratación",
+          "pérdida de líquidos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Na⁺ sérico: mantener 135‑145 mEq/L",
+          "K⁺ sérico: mantener 3.5‑5.0 mEq/L",
+          "Estado de hidratación: equilibrio hídrico en 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Controlar electrolitos séricos cada 6 h",
+            "rationale": "Detecta alteraciones tempranas y guía la reposición"
+          },
+          {
+            "action": "Administrar solución salina isotónica IV según prescripción",
+            "rationale": "Corrige hiponatremia y volumen intravascular"
+          },
+          {
+            "action": "Evaluar ingesta y pérdida de líquidos (I/O) cada turno",
+            "rationale": "Identifica déficit o exceso que afecta electrolitos"
+          },
+          {
+            "action": "Monitorear ECG por cambios de QRS o ondas T",
+            "rationale": "Hipocalemia puede producir arritmias"
+          },
+          {
+            "action": "Educar al paciente y familia sobre adherencia al tratamiento hormonal",
+            "rationale": "Previene recaídas y desequilibrios electrolíticos"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Myxedema coma",
+    "aliases": [
+      "myxedema",
+      "mixed coma",
+      "coma due to hypothyroidism",
+      "severe hypothyroidism",
+      "mixed hypothyroidism coma"
+    ],
+    "summary": "Critical state of severe hypothyroidism that produces hypothermia, bradycardia, respiratory depression and altered level of consciousness.",
+    "key_points": [
+      "Presents with hypothermia <35 °C, bradycardia and respiratory depression",
+      "Common triggers: infections, cold exposure and use of sedatives",
+      "Laboratory shows very high TSH and very low free T4, often hyponatremia",
+      "Requires IV hormone therapy and life support in intensive care unit",
+      "High mortality if not treated promptly"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Marked decrease in thyroid hormones (T3/T4)",
+        "Reduction of basal metabolic rate and heat production",
+        "Accumulation of mucin in skin and tissues, causing edema",
+        "Alteration of cardiac and respiratory function due to low cardiac output"
+      ],
+      "risk_factors": [
+        "Systemic infection or sepsis",
+        "Prolonged cold exposure",
+        "Use of sedatives, opioids or anesthetics",
+        "Untreated or poorly controlled hypothyroidism",
+        "Major surgery or trauma"
+      ],
+      "signs_symptoms": [
+        "Temperature <35 °C",
+        "Bradycardia (<60 bpm)",
+        "Hypoventilation or partial apnea",
+        "Altered level of consciousness (confusion → coma)",
+        "Dry, pale skin and facial edema (myxedema)"
+      ],
+      "diagnostics": [
+        "TSH >10 µIU/mL (very high)",
+        "Free T4 <0.4 ng/dL (very low)",
+        "Plasma glucose 70‑100 mg/dL (may be low)",
+        "Na⁺ 130‑135 mEq/L (hyponatremia)",
+        "Chest X‑ray and ABG to assess respiratory failure"
+      ],
+      "treatment": [
+        "IV levothyroxine (thyroxine) as soon as possible",
+        "IV liothyronine if severe cardiac failure",
+        "IV hydrocortisone to prevent adrenal insufficiency",
+        "External heat (thermal blankets) and strict temperature control",
+        "Mechanical ventilation if respiratory depression"
+      ],
+      "complications": [
+        "Prolonged hypothermia",
+        "Cardiogenic or distributive shock",
+        "Acute respiratory failure",
+        "Arrhythmias from electrolyte imbalance",
+        "Death if coma is not reversed"
+      ],
+      "nursing_care": [
+        "Monitor temperature every 15 min and apply external heat",
+        "Assess vital signs and cardiac rhythm continuously",
+        "Maintain airway patency; initiate ventilatory support if needed",
+        "Record intake and output (I/O) each shift",
+        "Observe changes in level of consciousness and response to stimuli"
+      ],
+      "patient_teaching": [
+        "Importance of taking levothyroxine daily and not missing doses",
+        "Recognize signs of hypothermia and seek immediate care",
+        "Maintain a balanced diet with adequate iodine and sodium",
+        "Avoid prolonged cold exposure and report infections promptly",
+        "Attend endocrine follow‑up appointments to adjust therapy"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Hypothermia",
+        "type": "actual",
+        "related_to": [],
+        "evidenced_by": [
+          "Temperature <35 °C",
+          "Shivering",
+          "Cold, pale skin",
+          "Bradycardia",
+          "Altered level of consciousness"
+        ],
+        "outcomes": [
+          "Body temperature: maintain ≥36 °C within 24 h",
+          "Level of consciousness: achieve spontaneous alertness within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Apply thermal blankets and external heat source",
+            "rationale": "Increases body temperature and prevents prolonged hypothermia"
+          },
+          {
+            "action": "Monitor temperature every 15 min",
+            "rationale": "Detects early changes and allows therapy adjustments"
+          },
+          {
+            "action": "Administer IV levothyroxine per prescription",
+            "rationale": "Replaces thyroid hormone and helps normalize metabolism"
+          },
+          {
+            "action": "Assess vital signs and cardiac rhythm continuously",
+            "rationale": "Bradycardia may accompany hypothermia and requires intervention"
+          },
+          {
+            "action": "Maintain airway patency and adequate oxygenation",
+            "rationale": "Prevents respiratory depression associated with coma"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyponatremia",
+          "hypokalemia",
+          "dehydration",
+          "fluid loss"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum Na⁺: maintain 135‑145 mEq/L",
+          "Serum K⁺: maintain 3.5‑5.0 mEq/L",
+          "Hydration status: fluid balance within 48 h"
+        ],
+        "interventions": [
+          {
+            "action": "Check serum electrolytes every 6 h",
+            "rationale": "Detects early changes and guides replacement"
+          },
+          {
+            "action": "Administer isotonic saline IV per prescription",
+            "rationale": "Corrects hyponatremia and intravascular volume"
+          },
+          {
+            "action": "Assess intake and output (I/O) each shift",
+            "rationale": "Identifies deficit or excess affecting electrolytes"
+          },
+          {
+            "action": "Monitor ECG for QRS or T‑wave changes",
+            "rationale": "Hypokalemia can cause arrhythmias"
+          },
+          {
+            "action": "Educate patient and family on adherence to hormone therapy",
+            "rationale": "Prevents relapses and electrolyte imbalances"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypothyroidism",
+    "myxedema",
+    "thyroid-storm",
+    "hypothermia",
+    "bradycardia"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hypothyroidism",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hypothyroidism.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Head and Neck",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/22-1-head-and-neck",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thyroid and Parathyroid Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-26",
+  "factcheck": {
+    "checked": "2026-11-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "It requires immediate medical attention and intensive care.",
+        "source": 1
+      },
+      "key_points.4": {
+        "status": "supported",
+        "quote": "If not promptly treated, death from heart failure, cardiac arrhythmias, or multiple organ failure can occur.",
+        "source": 2
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "It is characterized by the accumulation of a substance called mucin in the skin and other tissues.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "In rare cases, untreated hypothyroidism can cause myxedema coma.",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Symptoms include: confusion/delirium fever nausea/vomiting/diarrhea agitation anxiety tachycardia shakiness jaundice loss of consciousness Thyroid storm is a medical emergency and requires immediate care.",
+        "source": 2
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "The puffiness around the eyes, (a) thick and dry skin, brittle hair, and (b) overall swelling are hallmark indicators of this condition.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "supported",
+        "quote": "If not promptly treated, death from heart failure, cardiac arrhythmias, or multiple organ failure can occur.",
+        "source": 2
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Providing airway management by preparing for possible interventions like tracheostomy, oxygen administration, and suctioning if the patient develops s",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "supported",
+        "quote": "Some head injuries can have delayed symptoms, so monitoring for changes in behavior, consciousness, or symptoms is crucial.",
+        "source": 1
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Myxedema coma is characterized by extreme lethargy, confusion, hypothermia, low blood pressure, and other life-threatening complications.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "In many cases, the enlargement of the thyroid gland can be reversed with adequate intake of iodine through iodized salt or other dietary sources rich in iodine.",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "supported",
+        "quote": "Your health care provider will adjust your dose if needed.",
+        "source": 0
+      }
+    }
+  }
+}

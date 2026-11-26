@@ -1,0 +1,532 @@
+{
+  "id": "type-i-hypersensitivity",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipersensibilidad tipo I (reacción alérgica inmediata)",
+    "aliases": [
+      "hipersensibilidad",
+      "tipo i",
+      "alergia inmediata",
+      "reacción alérgica"
+    ],
+    "summary": "Respuesta inmunitaria exagerada mediada por IgE que ocurre minutos después de la exposición al alérgeno.",
+    "key_points": [
+      "Mediada por anticuerpos IgE y mastocitos.",
+      "Libera histamina, leucotrienos y prostaglandinas.",
+      "Puede progresar a anafilaxia grave.",
+      "Tratamiento de primera línea: epinefrina intramuscular.",
+      "Monitoreo de vía aérea y signos vitales es esencial."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Sensibilización: exposición al alérgeno genera IgE específica.",
+        "IgE se une a receptores FcεRI en mastocitos y basófilos.",
+        "Reexposición produce unión alérgeno‑IgE y activación celular.",
+        "Degranulación libera histamina, leucotrienos y prostaglandinas.",
+        "Resultado: vasodilatación, aumento de permeabilidad y broncoconstricción."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de atopia.",
+        "Exposición frecuente a alérgenos (pólenes, alimentos, picaduras).",
+        "Enfermedades respiratorias crónicas (asma, rinitis alérgica).",
+        "Uso de ciertos fármacos que aumentan la sensibilidad (AINEs)."
+      ],
+      "signs_symptoms": [
+        "Prurito, urticaria y angioedema cutáneo.",
+        "Sibilancias, disnea y tos.",
+        "Hipotensión y taquicardia en anafilaxia.",
+        "Sensación de opresión en la garganta.",
+        "Náuseas o vómitos ocasionales."
+      ],
+      "diagnostics": [
+        "Historia clínica y exposición alérgeno reciente.",
+        "Elevación de IgE total (>100 UI/mL) y específica al alérgeno.",
+        "Eosinofilia leve (≥500 eos/µL).",
+        "Pruebas cutáneas de prick o pruebas de parche.",
+        "Oxígeno arterial: PaO2 < 80 mmHg en casos graves."
+      ],
+      "treatment": [
+        "Epinefrina 0.01 mg/kg IM (máx 0.5 mg por dosis).",
+        "Antihistamínicos H1 (difenhidramina 25‑50 mg IV/IM).",
+        "Corticoides sistémicos (prednisona 1 mg/kg PO).",
+        "Broncodilatadores β2‑agonistas (salbutamol inhalado).",
+        "Oxígeno suplementario y soporte de vía aérea si es necesario."
+      ],
+      "complications": [
+        "Anafilaxia con shock distributivo.",
+        "Edema de glotis y obstrucción de la vía aérea.",
+        "Broncoespasmo severo y insuficiencia respiratoria.",
+        "Hipotensión prolongada y daño orgánico.",
+        "Reacción biphasic a las 4‑12 h posteriores."
+      ],
+      "nursing_care": [
+        "Evaluar y monitorizar vía aérea, frecuencia respiratoria y saturación de O₂.",
+        "Administrar epinefrina según protocolo y observar respuesta hemodinámica.",
+        "Mantener posición semisentado o decúbito supino con piernas elevadas si hay hipotensión.",
+        "Registrar signos de deterioro (pérdida de conciencia, caída de presión arterial).",
+        "Preparar equipo de reanimación y medicamentos de rescate."
+      ],
+      "patient_teaching": [
+        "Identificar y evitar alérgenos desencadenantes.",
+        "Uso correcto del autoinyector de epinefrina y cuándo administrarlo.",
+        "Reconocer signos tempranos de anafilaxia y buscar ayuda inmediata.",
+        "Importancia de llevar siempre la prescripción y la tarjeta de alergia.",
+        "Programar seguimiento con alergólogo para pruebas de desensibilización."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "aumento de la permeabilidad capilar",
+          "vasodilatación sistémica",
+          "pérdida de plasma a los tejidos",
+          "edema cutáneo"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: mantener ingesta y salida de líquidos dentro de ±500 mL/24 h",
+          "Peso corporal estable: variación <0.5 kg en 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y salida de líquidos cada 4 h",
+            "rationale": "Detectar rápidamente pérdidas o acumulaciones de volumen."
+          },
+          {
+            "action": "Evaluar signos de edema y turgencia cutánea",
+            "rationale": "Identificar aumento de la permeabilidad capilar."
+          },
+          {
+            "action": "Administrar fluidos IV según orden médica si hay hipotensión",
+            "rationale": "Restaurar la perfusión tisular y prevenir shock."
+          },
+          {
+            "action": "Registrar peso diario y comparar con peso basal",
+            "rationale": "Controlar cambios de volumen corporal."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de informar sudoración excesiva o diarrea",
+            "rationale": "Facilitar la detección precoz de pérdidas de líquidos."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deterioro del intercambio de gases",
+        "type": "actual",
+        "related_to": [
+          "broncoespasmo",
+          "edema de mucosa respiratoria",
+          "obstrucción de vías aéreas superiores"
+        ],
+        "evidenced_by": [
+          "disnea",
+          "sibilancias",
+          "SatO2 < 92 %"
+        ],
+        "outcomes": [
+          "SatO2 ≥ 95 % en reposo",
+          "Frecuencia respiratoria 12‑20 rpm"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar oxígeno suplementario por máscara facial a 4‑6 L/min",
+            "rationale": "Mejorar la oxigenación tisular."
+          },
+          {
+            "action": "Administrar broncodilatador β2‑agonista inhalado según indicación",
+            "rationale": "Aliviar el broncoespasmo y facilitar la ventilación."
+          },
+          {
+            "action": "Monitorizar frecuencia respiratoria y SatO2 cada 15 min durante la fase aguda",
+            "rationale": "Detectar deterioro respiratorio precozmente."
+          },
+          {
+            "action": "Posicionar al paciente semisentado o en decúbito lateral izquierdo",
+            "rationale": "Optimizar la expansión pulmonar y reducir riesgo de aspiración."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y capacidad de proteger la vía aérea",
+            "rationale": "Identificar necesidad de intubación o soporte avanzado."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Type I hypersensitivity (immediate allergic reaction)",
+    "aliases": [
+      "hypersensitivity",
+      "type i",
+      "immediate allergy",
+      "allergic reaction"
+    ],
+    "summary": "Exaggerated immune response mediated by IgE that occurs minutes after exposure to the allergen.",
+    "key_points": [
+      "Mediated by IgE antibodies and mast cells.",
+      "Releases histamine, leukotrienes, and prostaglandins.",
+      "Can progress to severe anaphylaxis.",
+      "First‑line treatment: intramuscular epinephrine.",
+      "Airway monitoring and vital signs are essential."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Sensitization: exposure to allergen generates specific IgE.",
+        "IgE binds FcεRI receptors on mast cells and basophils.",
+        "Re‑exposure leads to allergen‑IgE binding and cell activation.",
+        "Degranulation releases histamine, leukotrienes, and prostaglandins.",
+        "Result: vasodilation, increased permeability, and bronchoconstriction."
+      ],
+      "risk_factors": [
+        "Family history of atopy.",
+        "Frequent exposure to allergens (pollens, foods, insect stings).",
+        "Chronic respiratory diseases (asthma, allergic rhinitis).",
+        "Use of certain drugs that increase sensitivity (NSAIDs)."
+      ],
+      "signs_symptoms": [
+        "Pruritus, urticaria, and cutaneous angioedema.",
+        "Wheezing, dyspnea, and cough.",
+        "Hypotension and tachycardia in anaphylaxis.",
+        "Feeling of throat tightness.",
+        "Occasional nausea or vomiting."
+      ],
+      "diagnostics": [
+        "Medical history and recent allergen exposure.",
+        "Elevated total IgE (>100 IU/mL) and allergen‑specific IgE.",
+        "Mild eosinophilia (≥500 eos/µL).",
+        "Skin prick or patch testing.",
+        "Arterial oxygen: PaO₂ < 80 mmHg in severe cases."
+      ],
+      "treatment": [
+        "Epinephrine 0.01 mg/kg IM (max 0.5 mg per dose).",
+        "H1 antihistamines (diphenhydramine 25‑50 mg IV/IM).",
+        "Systemic corticosteroids (prednisone 1 mg/kg PO).",
+        "β₂‑agonist bronchodilators (inhaled albuterol).",
+        "Supplemental oxygen and airway support if needed."
+      ],
+      "complications": [
+        "Anaphylaxis with distributive shock.",
+        "Glottic edema and airway obstruction.",
+        "Severe bronchospasm and respiratory failure.",
+        "Prolonged hypotension and organ damage.",
+        "Biphasic reaction 4‑12 h later."
+      ],
+      "nursing_care": [
+        "Assess and monitor airway, respiratory rate, and O₂ saturation.",
+        "Administer epinephrine per protocol and observe hemodynamic response.",
+        "Maintain semi‑upright or supine position with legs elevated if hypotension.",
+        "Document signs of deterioration (loss of consciousness, drop in blood pressure).",
+        "Prepare resuscitation equipment and rescue medications."
+      ],
+      "patient_teaching": [
+        "Identify and avoid trigger allergens.",
+        "Proper use of epinephrine auto‑injector and when to administer it.",
+        "Recognize early signs of anaphylaxis and seek immediate help.",
+        "Importance of carrying prescription and allergy card at all times.",
+        "Schedule follow‑up with allergist for desensitization testing."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "increased capillary permeability",
+          "systemic vasodilation",
+          "plasma loss to tissues",
+          "cutaneous edema"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: maintain intake and output within ±500 mL/24 h",
+          "Stable body weight: change <0.5 kg in 24 h"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor intake and output every 4 h",
+            "rationale": "Detect rapid losses or fluid accumulation."
+          },
+          {
+            "action": "Assess for edema and skin turgor",
+            "rationale": "Identify increased capillary permeability."
+          },
+          {
+            "action": "Administer IV fluids per order if hypotension present",
+            "rationale": "Restore tissue perfusion and prevent shock."
+          },
+          {
+            "action": "Record daily weight and compare to baseline",
+            "rationale": "Track changes in body volume."
+          },
+          {
+            "action": "Educate patient on reporting excessive sweating or diarrhea",
+            "rationale": "Facilitate early detection of fluid loss."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Impaired gas exchange",
+        "type": "actual",
+        "related_to": [
+          "bronchospasm",
+          "respiratory mucosal edema",
+          "upper airway obstruction"
+        ],
+        "evidenced_by": [
+          "dyspnea",
+          "wheezing",
+          "SatO₂ < 92 %"
+        ],
+        "outcomes": [
+          "SatO₂ ≥ 95 % at rest",
+          "Respiratory rate 12‑20 rpm"
+        ],
+        "interventions": [
+          {
+            "action": "Provide supplemental oxygen via facial mask at 4‑6 L/min",
+            "rationale": "Improve tissue oxygenation."
+          },
+          {
+            "action": "Administer inhaled β₂‑agonist bronchodilator as indicated",
+            "rationale": "Relieve bronchospasm and facilitate ventilation."
+          },
+          {
+            "action": "Monitor respiratory rate and SatO₂ every 15 min during acute phase",
+            "rationale": "Detect early respiratory deterioration."
+          },
+          {
+            "action": "Position patient semi‑upright or on left lateral decubitus",
+            "rationale": "Optimize lung expansion and reduce aspiration risk."
+          },
+          {
+            "action": "Assess level of consciousness and airway protection ability",
+            "rationale": "Identify need for intubation or advanced support."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "anaphylaxis",
+    "ige-mediated-allergy",
+    "histamine-release",
+    "bronchospasm",
+    "urticaria"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Immune System and Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/immunesystemanddisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Allergic Response",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/24-1-allergic-response",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Epilepsy and Anticonvulsant Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-1-epilepsy-and-anticonvulsant-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-26",
+  "factcheck": {
+    "checked": "2026-11-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 18,
+      "not_found": 27,
+      "contradicted": 0,
+      "total": 45
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Types I, II, and III occur within 24 hours of exposure, whereas type IV reactions occur 1 to 3 days after allergen exposure.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "A mast cell of the skin and mucous membranes perform a key role in IgE-mediated immediate hypersensitivity.",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "This can lead to a drop in blood pressure (anaphylaxis); difficulty breathing; swelling of the face, tongue, or throat; and can be life-threatening.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "The produced IgE antibodies attach to receptors on the surface of mast cells and basophils, which are types of immune cells found in tissues throughout the body.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "The cross-linking of allergen with IgE antibodies on mast cells or basophils triggers the release of chemical mediators, including histamines, leukotrienes, and prostaglandins.",
+        "source": 1
+      },
+      "sections.pathophysiology.4": {
+        "status": "supported",
+        "quote": "This chemical mediator causes bronchoconstriction, increased vascular permeability, and vasodilation.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Common allergic responses are to seasonal allergens like various trees, ragweed, or pollens; medications; perennial allergens like dust or molds; latex ; animal dander; foods; household chemicals; fragrances; and insect stings or bites, as shown in Figure 24.2 .",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "The genetic tendency to develop allergic diseases such as allergic rhinitis , asthma, and atopic dermatitis is called atopy .",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Effects of histamine include erythema, pruritus, localized edema (wheals), contraction of bronchial smooth muscle (resulting in bronchospasms and wheezing), and enhanced secretion of mucosal and gastric cells (diarrhea), as the role of histamine is to create vasodilation, which promotes oxygen and white blood cells to the area o",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Increased mucus production can occur in the respiratory tract, leading to nasal congestion or wheezing.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "Common adverse effects of barbiturates include dyspnea, confusion, bradycardia, dizziness, drowsiness, nausea, and vomiting.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "supported",
+        "quote": "Figure 24.3 This patient is undergoing a skin test for allergies: (a) patches with a variety of allergens are applied to her back; (b) when the patches are removed, red marks indicate reactions to specific allergens.",
+        "source": 1
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine as ordered, and activating a rapid response in the event of anaphylaxis.",
+        "source": 1
+      },
+      "sections.complications.0": {
+        "status": "supported",
+        "quote": "This can lead to a drop in blood pressure (anaphylaxis); difficulty breathing; swelling of the face, tongue, or throat; and can be life-threatening.",
+        "source": 1
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.complications.4": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "supported",
+        "quote": "For example, if the patient experienced difficulty breathing, and the nursing intervention was to apply supplemental oxygen as ordered, the nurse should reassess the patient’s respiratory status for improvement.",
+        "source": 1
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Immediate interventions include discontinuing or removing the medication, managing the airway, administering oxygen as ordered, administering medications like epinephrine or diphenhydramine",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

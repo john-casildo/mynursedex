@@ -1,0 +1,433 @@
+{
+  "id": "bleeding-disorders",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Trastorno de la coagulación (TC)",
+    "aliases": [
+      "trastorno coagulación",
+      "coagulacion",
+      "sangrado excesivo",
+      "hemofilia",
+      "deficiencia plaquetas"
+    ],
+    "summary": "Los trastornos de la coagulación son alteraciones en plaquetas o factores de coagulación que impiden la formación adecuada del coágulo, provocando sangrado prolongado.",
+    "key_points": [
+      "Pueden ser hereditarios (p. ej., hemofilia) o adquiridos (p. ej., enfermedad hepática, anticoagulantes).",
+      "El diagnóstico se basa en pruebas de laboratorio: recuento plaquetario, PT, aPTT, INR y estudios de factores específicos.",
+      "El tratamiento depende de la causa: reposición de plaquetas, concentrados de factores, vitamina K o antifibrinolíticos.",
+      "Complicaciones graves incluyen hemorragia intracraneal, hemartrosis y shock hipovolémico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Lesión vascular → exposición de colágeno y tejido subendotelial.",
+        "Activación plaquetaria → agregación y formación del tapón plaquetario.",
+        "Activación de la cascada de factores de coagulación → generación de fibrina.",
+        "En TC, falta o disfunción de plaquetas o factores impide la formación estable del coágulo."
+      ],
+      "risk_factors": [
+        "Deficiencia hereditaria de factores (hemofilia A/B).",
+        "Trombocitopenia por enfermedad hepática, quimioterapia o infecciones.",
+        "Uso crónico de anticoagulantes orales o heparina.",
+        "Deficiencia de vitamina K por mala nutrición o antibióticos de amplio espectro."
+      ],
+      "signs_symptoms": [
+        "Hemorragia prolongada tras cortes o procedimientos menores.",
+        "Equimosis extensas o hematomas espontáneos.",
+        "Hemorragia mucocutánea (encías, nariz).",
+        "Sangrado articular (hemartrosis) en hemofilia."
+      ],
+      "diagnostics": [
+        "Recuento plaquetario: <150,000/µL indica trombocitopenia.",
+        "Tiempo de protrombina (PT) e INR: prolongado sugiere deficiencia de factores dependientes de vitamina K.",
+        "Tiempo de tromboplastina parcial activado (aPTT): prolongado en hemofilia y deficiencias de factores XII, XI, IX, VIII.",
+        "Ensayos específicos de factores de coagulación (VIII, IX) para confirmar hemofilia."
+      ],
+      "treatment": [
+        "Transfusión de plaquetas cuando el recuento <50,000/µL con sangrado activo.",
+        "Concentrados de factor VIII o IX para hemofilia según nivel del factor.",
+        "Vitamina K oral o intravenosa en deficiencia por enfermedad hepática o antibióticos.",
+        "Antifibrinolíticos (tranexámico) para sangrado mucocutáneo.",
+        "Suspender o ajustar anticoagulantes bajo prescripción médica."
+      ],
+      "complications": [
+        "Hemorragia intracraneal o gastrointestinal.",
+        "Hemartrosis recurrente → daño articular permanente.",
+        "Anemia por pérdida crónica de sangre.",
+        "Shock hipovolémico en sangrado masivo."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada hora; observar hipotensión y taquicardia.",
+        "Monitorear sitio de sangrado, cantidad y tipo de secreción.",
+        "Controlar recuento plaquetario, PT/INR y aPTT según orden médica.",
+        "Mantener acceso venoso periférico amplio para transfusiones.",
+        "Aplicar presión directa o vendajes compresivos según sea necesario."
+      ],
+      "patient_teaching": [
+        "Evitar traumatismos y actividades de alto riesgo.",
+        "Informar al médico sobre cualquier sangrado inusual o moretones.",
+        "Cumplir con la terapia de reemplazo de factores o vitamina K.",
+        "Reconocer signos de sangrado interno (dolor abdominal, vómito con sangre).",
+        "Mantener una dieta rica en vitamina K (vegetales de hoja verde) si es indicado."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de sangrado",
+        "type": "risk",
+        "related_to": [
+          "deficiencia de factores de coagulación",
+          "trombocitopenia",
+          "uso de anticoagulantes",
+          "enfermedad hepática",
+          "deficiencia de vitamina K"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control del sangrado: No se observará sangrado activo en 24 h.",
+          "Hemoglobina estable: Mantener Hb ≥12 g/dL durante la hospitalización."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar sitio de sangrado y registrar cantidad cada 2 h.",
+            "rationale": "Detectar rápidamente cualquier aumento del sangrado para intervenir a tiempo."
+          },
+          {
+            "action": "Monitorear presión arterial y frecuencia cardíaca cada hora.",
+            "rationale": "Identificar signos tempranos de hipovolemia o shock."
+          },
+          {
+            "action": "Mantener acceso venoso de calibre adecuado para posibles transfusiones.",
+            "rationale": "Facilitar la administración rápida de sangre, plaquetas o factores de coagulación."
+          },
+          {
+            "action": "Educar al paciente sobre evitar AINES y otras sustancias que alteren la coagulación.",
+            "rationale": "Prevenir la exacerbación del trastorno de coagulación."
+          },
+          {
+            "action": "Coordinar con laboratorio para pruebas de PT, INR y aPTT cada 12 h.",
+            "rationale": "Evaluar la eficacia del tratamiento y ajustar según resultados."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Déficit de volumen de líquidos",
+        "type": "actual",
+        "related_to": [
+          "pérdida sanguínea aguda",
+          "hemorragia gastrointestinal",
+          "hemartrosis"
+        ],
+        "evidenced_by": [
+          "presión arterial <90/60 mmHg",
+          "taquicardia >100 lpm",
+          "piel pálida y húmeda",
+          "diuresis <0.5 mL/kg/h"
+        ],
+        "outcomes": [
+          "Presión arterial: Mantener >90/60 mmHg.",
+          "Diuresis: ≥0.5 mL/kg/h durante 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Administrar solución cristaloide isotónica según orden médica.",
+            "rationale": "Restaurar el volumen intravascular y prevenir shock."
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos cada 4 h.",
+            "rationale": "Evaluar balance hídrico y ajustar la terapia de fluidos."
+          },
+          {
+            "action": "Evaluar nivel de conciencia y perfusión periférica cada 2 h.",
+            "rationale": "Detectar deterioro circulatorio temprano."
+          },
+          {
+            "action": "Colocar al paciente en posición semisentado si hay sangrado activo.",
+            "rationale": "Reducir riesgo de aspiración y mejorar la ventilación."
+          },
+          {
+            "action": "Informar al paciente sobre la importancia de reportar cualquier sangrado nuevo.",
+            "rationale": "Facilitar la detección precoz de pérdida adicional de volumen."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Coagulation disorder (CD)",
+    "aliases": [
+      "coagulation disorder",
+      "coagulation",
+      "excessive bleeding",
+      "hemophilia",
+      "platelet deficiency"
+    ],
+    "summary": "Coagulation disorders are alterations in platelets or coagulation factors that prevent proper clot formation, leading to prolonged bleeding.",
+    "key_points": [
+      "They can be hereditary (e.g., hemophilia) or acquired (e.g., liver disease, anticoagulants).",
+      "Diagnosis is based on laboratory tests: platelet count, PT, aPTT, INR, and specific factor studies.",
+      "Treatment depends on the cause: platelet replacement, factor concentrates, vitamin K, or antifibrinolytics.",
+      "Severe complications include intracranial hemorrhage, hemarthrosis, and hypovolemic shock."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Vascular injury → collagen and subendothelial tissue exposure.",
+        "Platelet activation → aggregation and platelet plug formation.",
+        "Activation of the coagulation factor cascade → fibrin generation.",
+        "In CD, lack or dysfunction of platelets or factors prevents stable clot formation."
+      ],
+      "risk_factors": [
+        "Hereditary factor deficiency (hemophilia A/B).",
+        "Thrombocytopenia due to liver disease, chemotherapy, or infections.",
+        "Chronic use of oral anticoagulants or heparin.",
+        "Vitamin K deficiency from poor nutrition or broad-spectrum antibiotics."
+      ],
+      "signs_symptoms": [
+        "Prolonged bleeding after cuts or minor procedures.",
+        "Extensive bruising or spontaneous hematomas.",
+        "Mucocutaneous bleeding (gingiva, nose).",
+        "Joint bleeding (hemarthrosis) in hemophilia.]",
+        "diagnostics",
+        ":",
+        "treatment",
+        ":",
+        "complications",
+        ":",
+        "nursing_care",
+        ":",
+        "patient_teaching",
+        ":"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for bleeding",
+        "type": "risk",
+        "related_to": [
+          "coagulation factor deficiency",
+          "thrombocytopenia",
+          "use of anticoagulants",
+          "liver disease",
+          "vitamin K deficiency"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Bleeding control: No active bleeding within 24 h.",
+          "Hemoglobin stable: Maintain Hb ≥12 g/dL during hospitalization."
+        ],
+        "interventions": [
+          {
+            "action": "Assess bleeding site and record amount every 2 h.",
+            "rationale": "Detect any increase in bleeding promptly to intervene."
+          },
+          {
+            "action": "Monitor blood pressure and heart rate hourly.",
+            "rationale": "Identify early signs of hypovolemia or shock."
+          },
+          {
+            "action": "Maintain appropriately sized IV access for possible transfusions.",
+            "rationale": "Facilitate rapid administration of blood, platelets, or coagulation factors."
+          },
+          {
+            "action": "Educate patient about avoiding NSAIDs and other substances that alter coagulation.",
+            "rationale": "Prevent exacerbation of the coagulation disorder."
+          },
+          {
+            "action": "Coordinate with laboratory for PT, INR, and aPTT tests every 12 h.",
+            "rationale": "Assess treatment efficacy and adjust as needed."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Deficient fluid volume",
+        "type": "actual",
+        "related_to": [
+          "acute blood loss",
+          "gastrointestinal hemorrhage",
+          "hemarthrosis"
+        ],
+        "evidenced_by": [
+          "blood pressure <90/60 mmHg",
+          "heart rate >100 bpm",
+          "pale, moist skin",
+          "urine output <0.5 mL/kg/h"
+        ],
+        "outcomes": [
+          "Blood pressure: Maintain >90/60 mmHg.",
+          "Urine output: ≥0.5 mL/kg/h for 24 h."
+        ],
+        "interventions": [
+          {
+            "action": "Administer isotonic crystalloid solution as ordered.",
+            "rationale": "Restore intravascular volume and prevent shock."
+          },
+          {
+            "action": "Record intake and output every 4 h.",
+            "rationale": "Assess fluid balance and adjust fluid therapy."
+          },
+          {
+            "action": "Assess level of consciousness and peripheral perfusion every 2 h.",
+            "rationale": "Detect early circulatory deterioration."
+          },
+          {
+            "action": "Place patient in semi‑upright position if active bleeding.",
+            "rationale": "Reduce aspiration risk and improve ventilation."
+          },
+          {
+            "action": "Inform patient about the importance of reporting any new bleeding.",
+            "rationale": "Facilitate early detection of additional volume loss."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hemophilia",
+    "thrombocytopenia",
+    "vitamin-k-deficiency",
+    "liver-disease",
+    "anticoagulant-therapy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Bleeding Disorders",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/bleedingdisorders.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Problemas de coagulación",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/bleedingdisorders.html",
+      "lang": "es"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Disorders of the Eye",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/18-1-disorders-of-the-eye",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Chronic Disease and Chronic Illness",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/42-3-chronic-disease-and-chronic-illness",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-26",
+  "factcheck": {
+    "checked": "2026-11-26",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 6,
+      "not_found": 21,
+      "contradicted": 0,
+      "total": 27
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "For blood to clot, your body needs cells called platelets and proteins known as clotting factors.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "If you have a bleeding disorder, you either do not have enough platelets or clotting factors or they don't work the way they should.",
+        "source": 0
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.5": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.6": {
+        "status": "supported",
+        "quote": "Treatments depend on the cause.",
+        "source": 0
+      },
+      "sections.signs_symptoms.7": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.8": {
+        "status": "supported",
+        "quote": "Nurses should also be aware of complications that result from some treatment options.",
+        "source": 2
+      },
+      "sections.signs_symptoms.9": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.10": {
+        "status": "supported",
+        "quote": "Apply nursing concepts and plan associated nursing care for patients with ocular diseases and disorders",
+        "source": 2
+      },
+      "sections.signs_symptoms.11": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.12": {
+        "status": "supported",
+        "quote": "Educate patient Teach patient to avoid rubbing the eye.",
+        "source": 2
+      },
+      "sections.signs_symptoms.13": {
+        "status": "not_found"
+      }
+    }
+  }
+}
