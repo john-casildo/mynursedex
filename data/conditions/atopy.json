@@ -1,0 +1,458 @@
+{
+  "id": "atopy",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Atopía",
+    "aliases": [
+      "atopia",
+      "atopía",
+      "dermatitis atópica",
+      "alergia",
+      "eczema"
+    ],
+    "summary": "Predisposición genética a desarrollar reacciones alérgicas como dermatitis atópica, rinitis alérgica y asma. Se caracteriza por hipersensibilidad IgE y piel seca con prurito.",
+    "key_points": [
+      "Hipersensibilidad mediada por IgE con niveles elevados de IgE sérico.",
+      "Piel seca y pruriginosa que favorece el rascado y la ruptura de la barrera cutánea.",
+      "Asociación con antecedentes familiares de enfermedades alérgicas.",
+      "Diagnóstico clínico; pruebas de alergia y conteo de eosinófilos pueden apoyar.",
+      "Manejo incluye hidratación cutánea, antihistamínicos y corticosteroides tópicos."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Genética predisponente (mutaciones en filagrina) → disfunción de la barrera cutánea.",
+        "Exposición a alérgenos → producción de IgE y activación de mastocitos.",
+        "Liberación de histamina y citocinas → inflamación y prurito.",
+        "Rascado crónico → mayor daño cutáneo y riesgo de infección."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de asma, rinitis alérgica o dermatitis atópica.",
+        "Piel seca o irritada.",
+        "Exposición a alérgenos ambientales (ácaros, polen, mascotas).",
+        "Clima frío o seco."
+      ],
+      "signs_symptoms": [
+        "Eritema, edema y descamación en áreas flexurales.",
+        "Prurito intenso, peor por la noche.",
+        "Lesiones excoriadas por rascado.",
+        "Posible aumento de IgE y eosinófilos en sangre."
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico de la piel.",
+        "Pruebas de IgE total (valor > 100 IU/mL sugiere atopia).",
+        "Recuento de eosinófilos (> 500 eos/µL puede apoyar).",
+        "Pruebas cutáneas de alergia o RAST para identificar alérgenos específicos."
+      ],
+      "treatment": [
+        "Emolientes hidratantes (cremas con ceramidas) varias veces al día.",
+        "Antihistamínicos de segunda generación (cetirizina, loratadina).",
+        "Corticosteroides tópicos de baja a moderada potencia (hidrocortisona 1%).",
+        "Evitar irritantes y alérgenos identificados.",
+        "Educación sobre técnicas de control del prurito."
+      ],
+      "complications": [
+        "Infección bacteriana secundaria de la piel.",
+        "Dermatitis crónica y lichenificación.",
+        "Trastorno del sueño por prurito nocturno.",
+        "Impacto psicológico y disminución de la calidad de vida."
+      ],
+      "nursing_care": [
+        "Evaluar tipo, extensión y características de las lesiones cutáneas.",
+        "Monitorear nivel de prurito usando escala de 0‑10.",
+        "Aplicar emolientes después del baño y antes de dormir.",
+        "Mantener uñas cortas y limpias para prevenir daño por rascado.",
+        "Observar signos de infección: calor, rubor, supuración."
+      ],
+      "patient_teaching": [
+        "Usar emolientes al menos 2‑3 veces al día, especialmente después del baño.",
+        "Evitar baños muy calientes y jabones agresivos.",
+        "Aplicar antihistamínicos según indicación y no conducir si causa somnolencia.",
+        "Identificar y evitar alérgenos desencadenantes.",
+        "No rascar; usar compresas frías o técnicas de distracción para aliviar el prurito."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Deterioro de la integridad cutánea",
+        "type": "actual",
+        "related_to": [
+          "prurito intenso",
+          "rascado frecuente",
+          "piel seca",
+          "exposición a alérgenos"
+        ],
+        "evidenced_by": [
+          "lesiones eczematosas",
+          "eritema",
+          "descamación",
+          "excoriaciones"
+        ],
+        "outcomes": [
+          "Integridad de la piel: sin nuevas lesiones en 48 h",
+          "Confort: prurito ≤ 2 en escala de 0‑10",
+          "Hidratación cutánea: piel suave y sin fisuras"
+        ],
+        "interventions": [
+          {
+            "action": "Aplicar emoliente hidratante en toda la superficie cutánea después del baño.",
+            "rationale": "Mantiene la barrera cutánea y reduce la sequedad que favorece el rascado."
+          },
+          {
+            "action": "Administrar antihistamínico oral según prescripción y registrar respuesta.",
+            "rationale": "Disminuye la liberación de histamina y alivia el prurito."
+          },
+          {
+            "action": "Colocar compresas frías sobre áreas pruriginosas cada 2‑3 h.",
+            "rationale": "Proporciona alivio temporal del picor sin dañar la piel."
+          },
+          {
+            "action": "Mantener uñas del paciente cortas y limpias; ofrecer guantes de algodón si es necesario.",
+            "rationale": "Previene lesiones por rascado y reduce riesgo de infección."
+          },
+          {
+            "action": "Observar signos de infección (rubor, calor, supuración) y notificar al médico.",
+            "rationale": "La ruptura de la barrera cutánea aumenta el riesgo de infección secundaria."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "ruptura de la barrera cutánea",
+          "rascado frecuente",
+          "lesiones eczematosas"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado de infección: ausencia de fiebre y signos locales de infección",
+          "Temperatura corporal: ≤ 37.5 °C durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Realizar inspección diaria de la piel para detectar enrojecimiento, calor o exudado.",
+            "rationale": "Detección temprana permite intervención oportuna."
+          },
+          {
+            "action": "Enseñar al paciente la técnica de lavado suave con agua tibia y jabón neutro.",
+            "rationale": "Reduce la carga bacteriana sin irritar la piel."
+          },
+          {
+            "action": "Aplicar crema antibiótica tópica si hay signos de infección superficial, según indicación.",
+            "rationale": "Controla la colonización bacteriana y previene propagación."
+          },
+          {
+            "action": "Promover una nutrición adecuada con proteínas y vitaminas A y C.",
+            "rationale": "Mejora la respuesta inmunológica y la reparación cutánea."
+          },
+          {
+            "action": "Registrar temperatura cada 8 h y reportar cualquier aumento > 38 °C.",
+            "rationale": "La fiebre es un indicador temprano de infección sistémica."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Atopy",
+    "aliases": [
+      "atopy",
+      "atopía",
+      "atopic dermatitis",
+      "allergy",
+      "eczema"
+    ],
+    "summary": "Genetic predisposition to develop allergic reactions such as atopic dermatitis, allergic rhinitis, and asthma. Characterized by IgE hypersensitivity and dry itchy skin.",
+    "key_points": [
+      "IgE-mediated hypersensitivity with elevated serum IgE levels.",
+      "Dry, itchy skin that promotes scratching and barrier disruption.",
+      "Association with family history of allergic diseases.",
+      "Clinical diagnosis; allergy testing and eosinophil count may support.",
+      "Management includes skin hydration, antihistamines, and topical corticosteroids."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Genetic predisposition (filaggrin mutations) → skin barrier dysfunction.",
+        "Exposure to allergens → IgE production and mast cell activation.",
+        "Histamine and cytokine release → inflammation and pruritus.",
+        "Chronic scratching → further skin damage and infection risk."
+      ],
+      "risk_factors": [
+        "Family history of asthma, allergic rhinitis, or atopic dermatitis.",
+        "Dry or irritated skin.",
+        "Exposure to environmental allergens (dust mites, pollen, pets).",
+        "Cold or dry climate."
+      ],
+      "signs_symptoms": [
+        "Erythema, edema, and scaling in flexural areas.",
+        "Intense pruritus, worse at night.",
+        "Excoriated lesions from scratching.",
+        "Possible increase in IgE and eosinophils in blood."
+      ],
+      "diagnostics": [
+        "Medical history and physical skin exam.",
+        "Total IgE testing (value > 100 IU/mL suggests atopy).",
+        "Eosinophil count (> 500 eos/µL may support).",
+        "Skin allergy tests or RAST to identify specific allergens."
+      ],
+      "treatment": [
+        "Hydrating emollients (ceramide creams) several times daily.",
+        "Second‑generation antihistamines (cetirizine, loratadine).",
+        "Low to moderate potency topical corticosteroids (hydrocortisone 1%).",
+        "Avoid identified irritants and allergens.",
+        "Education on pruritus control techniques."
+      ],
+      "complications": [
+        "Secondary bacterial skin infection.",
+        "Chronic dermatitis and lichenification.",
+        "Sleep disturbance from nocturnal pruritus.",
+        "Psychological impact and reduced quality of life."
+      ],
+      "nursing_care": [
+        "Assess type, extent, and characteristics of skin lesions.",
+        "Monitor pruritus level using a 0‑10 scale.",
+        "Apply emollients after bathing and before bedtime.",
+        "Keep nails short and clean to prevent scratching damage.",
+        "Observe for infection signs: warmth, redness, drainage."
+      ],
+      "patient_teaching": [
+        "Use emollients at least 2‑3 times daily, especially after bathing.",
+        "Avoid very hot baths and harsh soaps.",
+        "Take antihistamines as prescribed and avoid driving if drowsy.",
+        "Identify and avoid trigger allergens.",
+        "Do not scratch; use cool compresses or distraction techniques to relieve itch."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Impaired skin integrity",
+        "type": "actual",
+        "related_to": [
+          "intense pruritus",
+          "frequent scratching",
+          "dry skin",
+          "allergen exposure"
+        ],
+        "evidenced_by": [
+          "eczema lesions",
+          "erythema",
+          "scaling",
+          "excoriations"
+        ],
+        "outcomes": [
+          "Skin integrity: no new lesions in 48 h",
+          "Comfort: pruritus ≤ 2 on 0‑10 scale",
+          "Skin hydration: skin smooth and intact"
+        ],
+        "interventions": [
+          {
+            "action": "Apply hydrating emollient to all skin surfaces after bathing.",
+            "rationale": "Maintains skin barrier and reduces dryness that promotes scratching."
+          },
+          {
+            "action": "Administer oral antihistamine per prescription and document response.",
+            "rationale": "Reduces histamine release and alleviates pruritus."
+          },
+          {
+            "action": "Place cool compresses on itchy areas every 2‑3 h.",
+            "rationale": "Provides temporary itch relief without damaging skin."
+          },
+          {
+            "action": "Keep patient nails short and clean; provide cotton gloves if needed.",
+            "rationale": "Prevents scratching injuries and reduces infection risk."
+          },
+          {
+            "action": "Observe for infection signs (redness, warmth, drainage) and notify physician.",
+            "rationale": "Barrier disruption increases risk of secondary infection."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "barrier disruption",
+          "frequent scratching",
+          "eczema lesions"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Infection status: no fever or local infection signs",
+          "Body temperature: ≤ 37.5 °C during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Perform daily skin inspection for redness, warmth, or drainage.",
+            "rationale": "Early detection allows timely intervention."
+          },
+          {
+            "action": "Teach patient gentle washing technique with lukewarm water and neutral soap.",
+            "rationale": "Reduces bacterial load without irritating skin."
+          },
+          {
+            "action": "Apply topical antibiotic cream if superficial infection signs present, per order.",
+            "rationale": "Controls bacterial colonization and prevents spread."
+          },
+          {
+            "action": "Promote adequate nutrition with protein and vitamins A and C.",
+            "rationale": "Improves immune response and skin repair."
+          },
+          {
+            "action": "Record temperature every 8 h and report any rise > 38 °C.",
+            "rationale": "Fever is an early indicator of systemic infection."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "eczema",
+    "allergic-rhinitis",
+    "asthma",
+    "ige-mediated-hypersensitivity",
+    "skin-barrier-dysfunction"
+  ],
+  "sources": [],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-27",
+  "factcheck": {
+    "checked": "2026-11-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 0,
+      "not_found": 42,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

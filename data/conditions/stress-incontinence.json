@@ -1,0 +1,495 @@
+{
+  "id": "stress-incontinence",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Incontinencia urinaria de esfuerzo (IUE)",
+    "aliases": [
+      "incontinencia",
+      "esfuerzo",
+      "pérdida de orina",
+      "cough",
+      "sneezing"
+    ],
+    "summary": "Pérdida involuntaria de orina al aumentar la presión intraabdominal, como al toser, reír o levantar peso. Se debe a debilidad del suelo pélvico y/o posición anormal de la vejiga.",
+    "key_points": [
+      "Debilidad del suelo pélvico es la causa principal",
+      "Se desencadena por aumentos bruscos de presión intraabdominal",
+      "Diagnóstico clínico con historial y diario miccional",
+      "Primer línea de tratamiento: ejercicios de Kegel y cambios de estilo de vida"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Aumento de presión intraabdominal supera la resistencia del esfínter uretral externo",
+        "El suelo pélvico debilitado no cierra adecuadamente la uretra",
+        "Resultado: fuga de orina durante actividades que generan presión"
+      ],
+      "risk_factors": [
+        "Embarazo y parto vaginal",
+        "Menopausia con disminución de estrógenos",
+        "Obesidad (IMC >30)",
+        "Tos crónica o rinitis alérgica",
+        "Cirugías pélvicas previas"
+      ],
+      "signs_symptoms": [
+        "Fugas de orina al toser, estornudar, reír o levantar objetos",
+        "Sensación de goteo inmediato tras el esfuerzo",
+        "No hay urgencia ni sensación de vejiga llena",
+        "Puede haber irritación perineal por humedad"
+      ],
+      "diagnostics": [
+        "Historia clínica y examen físico del suelo pélvico",
+        "Diario miccional de 3‑5 días",
+        "Ecografía de post‑void residual <100 mL (normal)",
+        "Uroflujometría si se sospecha obstrucción"
+      ],
+      "treatment": [
+        "Ejercicios de Kegel (reeducación del suelo pélvico)",
+        "Control de peso y reducción de consumo de cafeína/alcohol",
+        "Estrogeno tópico (estrógeno vaginal) si menopausia",
+        "Duloxetina (IRSN) en casos refractarios",
+        "Pessario uretral o dispositivo de soporte",
+        "Cirugía de sling uretral cuando los tratamientos conservadores fallan"
+      ],
+      "complications": [
+        "Irritación y dermatitis por uso prolongado de absorbentes",
+        "Infección del tracto urinario por estasis parcial",
+        "Aislamiento social y disminución de la calidad de vida",
+        "Depresión o ansiedad secundarias"
+      ],
+      "nursing_care": [
+        "Evaluar patrón de micción y frecuencia de pérdidas",
+        "Inspeccionar piel perineal y registrar irritación",
+        "Registrar ingesta y salida de líquidos (ml)",
+        "Enseñar y supervisar ejercicios de Kegel",
+        "Proveer dispositivos absorbentes adecuados y cambiar cada 2‑4 h"
+      ],
+      "patient_teaching": [
+        "Practicar Kegel 3 series de 10 repeticiones, 3 veces al día",
+        "Mantener peso saludable y evitar levantar >10 kg sin apoyo",
+        "Limitar cafeína, alcohol y alimentos irritantes",
+        "Usar ropa interior absorbente y cambiarla frecuentemente",
+        "Programar micción cada 2‑3 h para evitar sobrecarga"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de desequilibrio de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "debilidad del suelo pélvico",
+          "obesidad",
+          "tos crónica",
+          "embarazo",
+          "menopausia"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Volumen de líquidos: mantener balance hídrico dentro de límites normales durante 24 h",
+          "Control de la incontinencia: reducir episodios de pérdida de orina a <1 por día"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar ingesta y salida de líquidos cada turno",
+            "rationale": "Permite detectar déficit o exceso de volumen relacionado con pérdidas urinarias"
+          },
+          {
+            "action": "Registrar frecuencia y cantidad de pérdidas en diario miccional",
+            "rationale": "Facilita la identificación de patrones y efectividad de intervenciones"
+          },
+          {
+            "action": "Enseñar ejercicios de Kegel y supervisar su correcta ejecución",
+            "rationale": "Fortalece el suelo pélvico y reduce la fuga de orina"
+          },
+          {
+            "action": "Aplicar crema protectora cutánea en zona perineal según necesidad",
+            "rationale": "Previene irritación y pérdida de integridad cutánea"
+          },
+          {
+            "action": "Educar sobre control de peso y reducción de cafeína",
+            "rationale": "Disminuye presión intraabdominal y mejora control urinario"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "pérdida de orina durante actividad física",
+          "miedo a realizar ejercicio"
+        ],
+        "evidenced_by": [
+          "limitación para levantar objetos",
+          "evita actividades sociales por temor a fuga"
+        ],
+        "outcomes": [
+          "Capacidad para realizar actividades de la vida diaria sin pérdida de orina en 80 % de intentos",
+          "Participación en ejercicio leve (caminar 30 min) al menos 3 veces/semana"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y describir situaciones que provocan fuga",
+            "rationale": "Identifica desencadenantes y permite planificar adaptaciones"
+          },
+          {
+            "action": "Implementar programa progresivo de ejercicios de Kegel y fortalecimiento lumbar",
+            "rationale": "Mejora soporte uretral y tolerancia al esfuerzo"
+          },
+          {
+            "action": "Planificar horarios de micción antes de actividades programadas",
+            "rationale": "Reduce la cantidad de orina residual y riesgo de fuga"
+          },
+          {
+            "action": "Proveer dispositivos de soporte (pessario) si es necesario",
+            "rationale": "Ofrece soporte mecánico durante actividades que aumentan presión"
+          },
+          {
+            "action": "Fomentar participación gradual en actividades sociales y registrar progreso",
+            "rationale": "Promueve adaptación y disminuye miedo al ejercicio"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Urinary Stress Incontinence (USI)",
+    "aliases": [
+      "stress incontinence",
+      "urinary incontinence",
+      "leakage",
+      "cough",
+      "sneezing"
+    ],
+    "summary": "Unintentional loss of urine when intraabdominal pressure increases, such as during coughing, laughing, or lifting weight. It is caused by pelvic floor weakness and/or abnormal bladder positioning.",
+    "key_points": [
+      "Pelvic floor weakness is the primary cause",
+      "Triggered by sudden increases in intraabdominal pressure",
+      "Clinical diagnosis with history and voiding diary",
+      "First-line treatment: Kegel exercises and lifestyle changes"
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Increased intraabdominal pressure exceeds the resistance of the external urethral sphincter",
+        "A weakened pelvic floor fails to close the urethra properly",
+        "Result: urine leakage during activities that generate pressure"
+      ],
+      "risk_factors": [
+        "Pregnancy and vaginal delivery",
+        "Menopause with decreased estrogen",
+        "Obesity (BMI >30)",
+        "Chronic cough or allergic rhinitis",
+        "Previous pelvic surgeries"
+      ],
+      "signs_symptoms": [
+        "Urine leakage when coughing, sneezing, laughing, or lifting objects",
+        "Immediate dripping sensation after exertion",
+        "No urgency or feeling of a full bladder",
+        "Possible perineal irritation from moisture"
+      ],
+      "diagnostics": [
+        "Medical history and pelvic floor physical exam",
+        "3‑5 day voiding diary",
+        "Post‑void residual ultrasound <100 mL (normal)",
+        "Uroflowmetry if obstruction suspected"
+      ],
+      "treatment": [
+        "Kegel exercises (pelvic floor re‑education)",
+        "Weight control and reduction of caffeine/alcohol intake",
+        "Topical estrogen (vaginal estrogen) if menopausal",
+        "Duloxetine (SNRI) in refractory cases",
+        "Urethral pessary or support device",
+        "Urethral sling surgery when conservative treatments fail"
+      ],
+      "complications": [
+        "Irritation and dermatitis from prolonged use of absorbents",
+        "Urinary tract infection from partial stasis",
+        "Social isolation and reduced quality of life",
+        "Secondary depression or anxiety"
+      ],
+      "nursing_care": [
+        "Assess voiding pattern and frequency of losses",
+        "Inspect perineal skin and document irritation",
+        "Record fluid intake and output (mL)",
+        "Teach and supervise Kegel exercises",
+        "Provide appropriate absorbent devices and change every 2‑4 h"
+      ],
+      "patient_teaching": [
+        "Practice Kegel 3 sets of 10 repetitions, 3 times daily",
+        "Maintain healthy weight and avoid lifting >10 kg without support",
+        "Limit caffeine, alcohol, and irritant foods",
+        "Use absorbent underwear and change frequently",
+        "Schedule voiding every 2‑3 h to avoid overload"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for imbalanced fluid volume",
+        "type": "risk",
+        "related_to": [
+          "pelvic floor weakness",
+          "obesity",
+          "chronic cough",
+          "pregnancy",
+          "menopause"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid volume: maintain fluid balance within normal limits for 24 h",
+          "Incontinence control: reduce episodes of urine loss to <1 per day"
+        ],
+        "interventions": [
+          {
+            "action": "Assess fluid intake and output each shift",
+            "rationale": "Detects deficits or excess related to urinary losses"
+          },
+          {
+            "action": "Document frequency and amount of losses in voiding diary",
+            "rationale": "Facilitates pattern identification and intervention effectiveness"
+          },
+          {
+            "action": "Teach Kegel exercises and supervise correct performance",
+            "rationale": "Strengthens pelvic floor and reduces urine leakage"
+          },
+          {
+            "action": "Apply protective skin cream to perineal area as needed",
+            "rationale": "Prevents irritation and maintains skin integrity"
+          },
+          {
+            "action": "Educate on weight control and caffeine reduction",
+            "rationale": "Reduces intraabdominal pressure and improves urinary control"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "urine loss during physical activity",
+          "fear of exercising"
+        ],
+        "evidenced_by": [
+          "difficulty lifting objects",
+          "avoids social activities due to fear of leakage"
+        ],
+        "outcomes": [
+          "Ability to perform activities of daily living without urine loss in 80 % of attempts",
+          "Participation in light exercise (walking 30 min) at least 3 times per week"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and describe situations that provoke leakage",
+            "rationale": "Identifies triggers and allows planning of adaptations"
+          },
+          {
+            "action": "Implement progressive Kegel and lumbar strengthening program",
+            "rationale": "Improves urethral support and tolerance to exertion"
+          },
+          {
+            "action": "Plan voiding schedules before planned activities",
+            "rationale": "Reduces residual urine and leakage risk"
+          },
+          {
+            "action": "Provide support devices (pessary) if necessary",
+            "rationale": "Offers mechanical support during activities that increase pressure"
+          },
+          {
+            "action": "Encourage gradual participation in social activities and track progress",
+            "rationale": "Promotes adaptation and reduces fear of exercise"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "urinary-incontinence",
+    "pelvic-floor-dysfunction",
+    "overactive-bladder"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Urinary Incontinence",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/urinaryincontinence.html",
+      "lang": "en"
+    },
+    {
+      "name": "Fundamentals of Nursing: Stress and Adaptation",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/34-1-stress-and-adaptation",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Fundamentals of Nursing: Effects of Stress on Health and Wellness",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/fundamentals-nursing/pages/34-2-effects-of-stress-on-health-and-wellness",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-27",
+  "factcheck": {
+    "checked": "2026-11-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 9,
+      "not_found": 33,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "Stress incontinence happens when stress or pressure on your bladder causes you to leak urine.",
+        "source": 0
+      },
+      "summary.1": {
+        "status": "supported",
+        "quote": "Causes include weak pelvic floor muscles and the bladder being out of its normal position.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Your health care provider may use many tools to make a diagnosis: A medical history, which includes asking about your symptoms.",
+        "source": 0
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "In adults, you are at higher risk of developing UI if you: Are female, especially after going through pregnancy, childbirth, and/or menopause Are older.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Stress incontinence happens when stress or pressure on your bladder causes you to leak urine.",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "A physical exam, which can include a rectal exam. Women may also get a pelvic exam.",
+        "source": 0
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "The strengthening exercises are called Kegel exercises.",
+        "source": 0
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "The devices pushes up against your urethra to help decrease leaks.",
+        "source": 0
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "The strengthening exercises are called Kegel exercises.",
+        "source": 0
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

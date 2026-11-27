@@ -1,0 +1,502 @@
+{
+  "id": "goiter",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Bocio (goiter)",
+    "aliases": [
+      "bocio",
+      "goiter",
+      "tiroides",
+      "inflamación tiroides",
+      "bocio simple"
+    ],
+    "summary": "El bocio es una ampliación no cancerosa de la glándula tiroides, frecuentemente por deficiencia de yodo o estimulación de TSH. Puede ser estético o causar síntomas de compresión.",
+    "key_points": [
+      "Es más frecuente en áreas con bajo consumo de yodo.",
+      "TSH elevada estimula el crecimiento tiroideo.",
+      "Puede ser simple (benigno) o asociado a hipertiroidismo/hipotiroidismo.",
+      "Complicaciones: dificultad respiratoria, disfagia y posible transformación a nódulo sospechoso.",
+      "El tratamiento depende de la causa: suplementación de yodo, levotiroxina o cirugía."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Deficiencia de yodo reduce la síntesis de T3/T4.",
+        "Disminución de hormonas eleva TSH.",
+        "TSH estimula hipertrofia y captación de yodo, aumentando el tamaño glandular.",
+        "Acumulación de coloide también contribuye al agrandamiento."
+      ],
+      "risk_factors": [
+        "Dieta pobre en yodo (zonas endémicas).",
+        "Historia familiar de enfermedad tiroidea.",
+        "Exposición a goitrógenos (soja, crucíferas).",
+        "Enfermedades autoinmunes (tiroiditis de Hashimoto, Graves)."
+      ],
+      "signs_symptoms": [
+        "Aumento visible del cuello, nódulo anterior.",
+        "Sensación de opresión o dificultad para tragar.",
+        "Tos seca o ronquera por compresión de la laringe.",
+        "En bocio hiperfuncionante: pérdida de peso, temblor, taquicardia."
+      ],
+      "diagnostics": [
+        "Palpación y examen físico del cuello.",
+        "TSH, T3 y T4 en sangre; TSH alta sugiere bocio simple.",
+        "Ecografía tiroidea: evalúa tamaño y presencia de nódulos.",
+        "Gammagrafía de tiroides si se sospecha hiperfunción.",
+        "Biopsia por aspiración con aguja fina si nódulo sospechoso."
+      ],
+      "treatment": [
+        "Suplementación con yodo (ioduro de potasio) en deficiencia.",
+        "Levotiroxina si bocio asociado a hipotiroidismo.",
+        "Antitiroideos (metimazol) si bocio hiperfuncionante.",
+        "Radioyodo o tiroidectomía en bocio grande o sintomático.",
+        "Control de factores goitrógenos dietéticos."
+      ],
+      "complications": [
+        "Obstrucción de vías aéreas → disnea.",
+        "Disfagia y sensación de cuerpo extraño.",
+        "Hipertiroidismo o hipotiroidismo secundario.",
+        "Transformación a nódulo maligno (cáncer de tiroides)."
+      ],
+      "nursing_care": [
+        "Evaluar tamaño, consistencia y movilidad del bocio.",
+        "Monitorear signos de compromiso respiratorio (frecuencia respiratoria, saturación).",
+        "Registrar valores de TSH, T3, T4 y comparar con rangos normales.",
+        "Mantener la cabeza del paciente ligeramente elevada para facilitar la respiración.",
+        "Preparar al paciente para pruebas diagnósticas (ecografía, biopsia)."
+      ],
+      "patient_teaching": [
+        "Importancia de una dieta con suficiente yodo (sal yodada, pescados).",
+        "Reconocer síntomas de compresión (disnea, dificultad para tragar).",
+        "Tomar medicación según prescripción y no suspender sin indicación.",
+        "Evitar alimentos goitrógenos en exceso.",
+        "Programar controles endocrinológicos periódicos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "hipertiroidismo",
+          "bocio grande con compresión torácica"
+        ],
+        "evidenced_by": [
+          "fatiga",
+          "disnea al realizar actividades leves",
+          "palpitaciones"
+        ],
+        "outcomes": [
+          "Nivel de actividad: tolerará actividades de la vida diaria sin disnea excesiva en 1 semana",
+          "Fatiga: reportará disminución de la sensación de cansancio en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar frecuencia respiratoria y nivel de esfuerzo al realizar actividades cotidianas.",
+            "rationale": "Detectar early signs of intolerance and guide activity modification."
+          },
+          {
+            "action": "Planificar períodos de descanso cada 20‑30 minutos durante actividades prolongadas.",
+            "rationale": "Permite al paciente conservar energía y prevenir agotamiento."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática.",
+            "rationale": "Mejora la oxigenación y reduce la sensación de falta de aire."
+          },
+          {
+            "action": "Coordinar con el médico ajuste de antitiroideos o levotiroxina según resultados de laboratorio.",
+            "rationale": "Controlar el estado tiroideo reduce los síntomas de intolerancia."
+          },
+          {
+            "action": "Registrar nivel de cansancio usando escala de 0‑10 antes y después de la actividad.",
+            "rationale": "Facilita la evaluación del progreso y la efectividad de intervenciones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de lesión",
+        "type": "risk",
+        "related_to": [
+          "aumento del tamaño del bocio",
+          "compresión de vías aéreas",
+          "posible caída por mareos"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No presentará lesiones relacionadas con compromiso respiratorio en 48 horas",
+          "Mantendrá integridad cutánea del cuello sin irritación ni úlceras"
+        ],
+        "interventions": [
+          {
+            "action": "Observar signos de dificultad respiratoria (cianosis, uso de musculatura accesoria).",
+            "rationale": "Identificar rápidamente la necesidad de intervención para prevenir asfixia."
+          },
+          {
+            "action": "Mantener el área del cuello libre de ropa ajustada y objetos que puedan presionar la glándula.",
+            "rationale": "Evita aumento de la compresión y posible lesión cutánea."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de evitar movimientos bruscos del cuello.",
+            "rationale": "Reduce el riesgo de traumatismo en una zona ya inflamada."
+          },
+          {
+            "action": "Colocar al paciente en posición semi‑sentada con respaldo apoyado.",
+            "rationale": "Facilita la expansión torácica y disminuye la presión sobre la vía aérea."
+          },
+          {
+            "action": "Documentar cualquier cambio en el tamaño del bocio y notificar al médico.",
+            "rationale": "Permite una intervención oportuna si el bocio progresa."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Goiter (goiter)",
+    "aliases": [
+      "goiter",
+      "thyroid",
+      "thyroid inflammation",
+      "simple goiter"
+    ],
+    "summary": "Goiter is a non‑cancerous enlargement of the thyroid gland, often due to iodine deficiency or TSH stimulation. It may be purely cosmetic or cause compression symptoms.",
+    "key_points": [
+      "More common in areas with low iodine intake.",
+      "Elevated TSH stimulates thyroid growth.",
+      "Can be simple (benign) or associated with hyperthyroidism/hypothyroidism.",
+      "Complications: respiratory difficulty, dysphagia, and possible transformation to a suspicious nodule.",
+      "Treatment depends on cause: iodine supplementation, levothyroxine, or surgery."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Iodine deficiency reduces T3/T4 synthesis.",
+        "Lower hormone levels raise TSH.",
+        "TSH stimulates hypertrophy and iodine uptake, increasing gland size.",
+        "Colloid accumulation also contributes to enlargement."
+      ],
+      "risk_factors": [
+        "Low iodine diet (endemic zones).",
+        "Family history of thyroid disease.",
+        "Exposure to goitrogens (soy, cruciferous vegetables).",
+        "Autoimmune diseases (Hashimoto thyroiditis, Graves)."
+      ],
+      "signs_symptoms": [
+        "Visible neck enlargement, anterior nodule.",
+        "Feeling of pressure or difficulty swallowing.",
+        "Dry cough or hoarseness from laryngeal compression.",
+        "In hyperfunctioning goiter: weight loss, tremor, tachycardia."
+      ],
+      "diagnostics": [
+        "Palpation and neck physical exam.",
+        "TSH, T3, and T4 blood tests; high TSH suggests simple goiter.",
+        "Thyroid ultrasound: evaluates size and nodules presence.",
+        "Thyroid scintigraphy if hyperfunction suspected.",
+        "Fine‑needle aspiration biopsy if nodule suspicious."
+      ],
+      "treatment": [
+        "Iodine supplementation (potassium iodide) in deficiency.",
+        "Levothyroxine if goiter associated with hypothyroidism.",
+        "Antithyroid drugs (methimazole) if hyperfunctioning goiter.",
+        "Radioiodine or thyroidectomy for large or symptomatic goiter.",
+        "Control dietary goitrogens."
+      ],
+      "complications": [
+        "Airway obstruction → dyspnea.",
+        "Dysphagia and sensation of foreign body.",
+        "Secondary hyperthyroidism or hypothyroidism.",
+        "Transformation to malignant nodule (thyroid cancer)."
+      ],
+      "nursing_care": [
+        "Assess size, consistency, and mobility of the goiter.",
+        "Monitor signs of respiratory compromise (respiratory rate, saturation).",
+        "Record TSH, T3, T4 values and compare with normal ranges.",
+        "Keep the patient’s head slightly elevated to aid breathing.",
+        "Prepare the patient for diagnostic tests (ultrasound, biopsy)."
+      ],
+      "patient_teaching": [
+        "Importance of a diet with adequate iodine (iodized salt, fish).",
+        "Recognize compression symptoms (dyspnea, difficulty swallowing).",
+        "Take medication as prescribed and do not discontinue without indication.",
+        "Avoid excessive goitrogenic foods.",
+        "Schedule periodic endocrine follow‑ups."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "hyperthyroidism",
+          "large goiter with thoracic compression"
+        ],
+        "evidenced_by": [
+          "fatigue",
+          "dyspnea with light activity",
+          "palpitations"
+        ],
+        "outcomes": [
+          "Activity level: will tolerate daily activities without excessive dyspnea in 1 week",
+          "Fatigue: will report decreased sense of tiredness in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess respiratory rate and effort level during routine activities.",
+            "rationale": "Detect early signs of intolerance and guide activity modification."
+          },
+          {
+            "action": "Plan rest periods every 20‑30 minutes during prolonged activities.",
+            "rationale": "Allows the patient to conserve energy and prevent exhaustion."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques.",
+            "rationale": "Improves oxygenation and reduces sensation of breathlessness."
+          },
+          {
+            "action": "Coordinate with physician for adjustment of antithyroid drugs or levothyroxine based on lab results.",
+            "rationale": "Controlling thyroid status reduces intolerance symptoms."
+          },
+          {
+            "action": "Record fatigue level using a 0‑10 scale before and after activity.",
+            "rationale": "Facilitates assessment of progress and intervention effectiveness."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for injury",
+        "type": "risk",
+        "related_to": [
+          "increase in goiter size",
+          "airway compression",
+          "possible fall from dizziness"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "No respiratory‑related injuries within 48 hours",
+          "Maintain neck skin integrity without irritation or ulcers"
+        ],
+        "interventions": [
+          {
+            "action": "Observe signs of respiratory difficulty (cyanosis, accessory muscle use).",
+            "rationale": "Identify need for intervention to prevent asphyxiation."
+          },
+          {
+            "action": "Keep the neck area free of tight clothing and objects that may press the gland.",
+            "rationale": "Prevents increased compression and potential skin injury."
+          },
+          {
+            "action": "Educate the patient on the importance of avoiding sudden neck movements.",
+            "rationale": "Reduces risk of trauma to an inflamed area."
+          },
+          {
+            "action": "Position the patient semi‑recumbent with back support.",
+            "rationale": "Facilitates thoracic expansion and reduces airway pressure."
+          },
+          {
+            "action": "Document any changes in goiter size and notify the physician.",
+            "rationale": "Allows timely intervention if the goiter progresses."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "thyroid-hormone-imbalance",
+    "iodine-deficiency",
+    "hyperthyroidism",
+    "hypothyroidism",
+    "thyroid-nodule"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Thyroid Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/thyroiddiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Clinical Nursing Skills: Head and Neck",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/clinical-nursing-skills/pages/22-1-head-and-neck",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thyroid and Parathyroid Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-27",
+  "factcheck": {
+    "checked": "2026-11-27",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 32,
+      "contradicted": 0,
+      "total": 43
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "If a person’s diet lacks sufficient iodine, the thyroid gland may not be able to produce enough thyroid hormones, leading to an increase in thyroid-stimulating hormone production.",
+        "source": 1
+      },
+      "summary.1": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "While simple goiters are generally benign and not associated with cancer, they can cause discomfort or aesthetic concerns due to the visible swelling in the neck.",
+        "source": 1
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "Dietary iodine is required for the synthesis of T3 and T4.",
+        "source": 2
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "When T3 and T4 cannot be produced, the loop becomes broken and TSH is secreted in increasing amounts."
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "The accumulation of colloid increases the overall size of the thyroid gland, causing a condition called a goiter ( Figure 21.8 ).",
+        "source": 2
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Risk factors for thyroid cancer include radiation exposure, low iodine diet, obesity, family history, and certain hereditary conditions.",
+        "source": 2
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "It occurs when the thyroid gland becomes larger than normal, leading to a noticeable lump or protrusion in the front of the neck.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Hyperthyroidism The overproduction of thyroid hormones, hyperthyroidism can lead to an increased metabolic rate and its effects: weight loss, excess heat production, sweating, and an increased heart rate.",
+        "source": 2
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "supported",
+        "quote": "A fine needle aspiration biopsy of the thyroid may also be done to rule out cancer.",
+        "source": 2
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Laboratory values, such as TSH, T3 , and T4 will be monitored to see if there is improvement in response to treatment.",
+        "source": 2
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "In many cases, the enlargement of the thyroid gland can be reversed with adequate intake of iodine through iodized salt or other dietary sources rich in iodine.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
