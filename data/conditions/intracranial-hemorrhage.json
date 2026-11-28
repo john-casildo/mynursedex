@@ -1,0 +1,459 @@
+{
+  "id": "intracranial-hemorrhage",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hemorragia intracraneal (HI)",
+    "aliases": [
+      "hemorragia intracraneal",
+      "hemorragia cerebral",
+      "sangrado intracraneal",
+      "ictus hemorrágico"
+    ],
+    "summary": "Ruptura de un vaso cerebral que produce sangrado dentro del parénquima o en los espacios meníngeos, aumentando la presión intracraneal y dañando tejido neuronal.",
+    "key_points": [
+      "Aumento súbito de presión intracraneal causa deterioro neurológico rápido.",
+      "Hipertensión arterial crónica es el factor de riesgo más frecuente.",
+      "El manejo incluye control de la presión arterial, reducción de la presión intracraneal y posible cirugía.",
+      "Monitoreo neurológico frecuente es esencial para detectar herniación.",
+      "Reversión de anticoagulantes mejora el pronóstico."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Ruptura de arteria o arteriola cerebral → extravasación de sangre.",
+        "Acumulación de sangre eleva la presión intracraneal (PIC).",
+        "La PIC alta reduce el flujo sanguíneo cerebral (ischemia).",
+        "Edema perilesional y daño secundario por excitotoxicidad."
+      ],
+      "risk_factors": [
+        "Hipertensión arterial no controlada.",
+        "Uso de anticoagulantes o antiagregantes.",
+        "Aneurisma cerebral o malformación arteriovenosa.",
+        "Trauma craneal severo.",
+        "Enfermedades hepáticas con coagulopatía."
+      ],
+      "signs_symptoms": [
+        "Cefalea súbita, intensa y de inicio máximo.",
+        "Vómitos sin náuseas o con sangre (hematemesis).",
+        "Alteración del nivel de conciencia (GCS ↓).",
+        "Pupilas desiguales o dilatadas.",
+        "Déficits neurológicos focales (paresia, afasia)."
+      ],
+      "diagnostics": [
+        "Tomografía computarizada (TC) de cráneo: hemorragia hiperdensa.",
+        "Resonancia magnética (RM) si la TC es inconclusa.",
+        "Angiografía cerebral para localizar aneurisma.",
+        "Laboratorio: hemograma, INR/PT, glucosa, electrolitos.",
+        "Presión intracraneal (PIC) mediante monitor invasivo si está indicada."
+      ],
+      "treatment": [
+        "Control estricto de la presión arterial (labetalol, nicardipina).",
+        "Reducción de la PIC con manitol o solución salina hipertónica.",
+        "Reversión de anticoagulantes: vitamina K, protamina, factor VIIa recombinante.",
+        "Anticonvulsivantes (levetiracetam) para prevenir crisis.",
+        "Cirugía de evacuación (craneotomía) o embolización endovascular según localización."
+      ],
+      "complications": [
+        "Hernia cerebral (subfalcina, transtentorial).",
+        "Hidrocefalia obstructiva.",
+        "Vasoespasmo cerebral.",
+        "Convulsiones post‑hemorrágicas.",
+        "Déficits neurológicos permanentes."
+      ],
+      "nursing_care": [
+        "Evaluar nivel de conciencia cada 15‑30 min (Escala de Glasgow).",
+        "Monitorear presión arterial, frecuencia cardiaca y PIC si está indicada.",
+        "Mantener posición semisentada (30‑45°) para favorecer drenaje venoso.",
+        "Controlar drenajes quirúrgicos y registrar volumen y características.",
+        "Administrar osmóticos y antihipertensivos según orden médica.",
+        "Prevenir úlceras por presión con cambios de posición cada 2 h."
+      ],
+      "patient_teaching": [
+        "Importancia de controlar la presión arterial en casa.",
+        "Adherencia a la medicación antihipertensiva y anticoagulante (si se reanuda).",
+        "Reconocer signos de alarma: cefalea intensa, vómitos, visión borrosa, debilidad súbita.",
+        "Evitar actividades que aumenten la presión intracraneal (esfuerzos, tos fuerte).",
+        "Seguir indicaciones de seguimiento neuroimagen y consultas."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de perfusión tisular cerebral ineficaz",
+        "type": "risk",
+        "related_to": [
+          "hipertensión no controlada",
+          "uso de anticoagulantes",
+          "aneurisma cerebral",
+          "trauma craneal"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Perfusión tisular cerebral: mantener GCS ≥ 13 durante la hospitalización",
+          "Presión intracraneal: mantener PIC ≤ 20 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear nivel de conciencia y escala de Glasgow cada 15 minutos",
+            "rationale": "Detectar deterioro neurológico temprano permite intervención rápida."
+          },
+          {
+            "action": "Controlar presión arterial y ajustar antihipertensivos según orden",
+            "rationale": "Mantener MAP adecuada previene expansión del hematoma."
+          },
+          {
+            "action": "Administrar manitol o solución salina hipertónica según prescripción",
+            "rationale": "Reduce la presión intracraneal y mejora el flujo cerebral."
+          },
+          {
+            "action": "Mantener al paciente en posición semisentada (30‑45°)",
+            "rationale": "Facilita el drenaje venoso y disminuye la PIC."
+          },
+          {
+            "action": "Evaluar y registrar signos de herniación (pupilas, respiración)",
+            "rationale": "Identificar herniación permite activar el protocolo de emergencia."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "aumento de presión intracraneal",
+          "fatiga neurológica"
+        ],
+        "evidenced_by": [
+          "disminución del nivel de conciencia con esfuerzo",
+          "fatiga al realizar actividades de la vida diaria"
+        ],
+        "outcomes": [
+          "Actividad tolerada: paciente realiza ADL básicas sin aumento de fatiga en 48 h",
+          "Nivel de energía: reporta sensación de energía ≥ 6/10 al final del día"
+        ],
+        "interventions": [
+          {
+            "action": "Planificar períodos de descanso cada 30‑45 minutos durante actividades",
+            "rationale": "Previene el agotamiento y la sobrecarga neurológica."
+          },
+          {
+            "action": "Enseñar técnicas de conservación de energía (sentarse para vestirse, usar ayudas)",
+            "rationale": "Reduce el gasto energético y mejora la participación."
+          },
+          {
+            "action": "Evaluar tolerancia a la actividad mediante escala de Borg antes y después",
+            "rationale": "Permite ajustar el nivel de actividad según capacidad real."
+          },
+          {
+            "action": "Coordinar con fisioterapia para iniciar movilización temprana y segura",
+            "rationale": "Mantiene la fuerza muscular y previene complicaciones de inmovilización."
+          },
+          {
+            "action": "Monitorear signos vitales antes y después de la actividad",
+            "rationale": "Detecta respuestas fisiológicas adversas al esfuerzo."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Intracranial hemorrhage (ICH)",
+    "aliases": [
+      "intracranial hemorrhage",
+      "cerebral hemorrhage",
+      "brain bleed",
+      "hemorrhagic stroke"
+    ],
+    "summary": "Rupture of a cerebral vessel that produces bleeding within the parenchyma or meningeal spaces, increasing intracranial pressure and damaging neuronal tissue.",
+    "key_points": [
+      "Sudden increase in intracranial pressure causes rapid neurological deterioration.",
+      "Chronic hypertension is the most common risk factor.",
+      "Management includes blood pressure control, intracranial pressure reduction, and possible surgery.",
+      "Frequent neurological monitoring is essential to detect herniation.",
+      "Reversal of anticoagulants improves prognosis."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Rupture of a cerebral artery or arteriola → blood extravasation.",
+        "Accumulation of blood raises intracranial pressure (ICP).",
+        "High ICP reduces cerebral blood flow (ischemia).",
+        "Perilesional edema and secondary damage from excitotoxicity."
+      ],
+      "risk_factors": [
+        "Uncontrolled arterial hypertension.",
+        "Use of anticoagulants or antiplatelets.",
+        "Cerebral aneurysm or arteriovenous malformation.",
+        "Severe head trauma.",
+        "Liver disease with coagulopathy."
+      ],
+      "signs_symptoms": [
+        "Sudden, severe, worst‑on‑set headache.",
+        "Vomiting without nausea or with blood (hematemesis).",
+        "Altered level of consciousness (GCS ↓).",
+        "Unequal or dilated pupils.",
+        "Focal neurological deficits (paresis, aphasia)."
+      ],
+      "diagnostics": [
+        "Head CT: hyperdense hemorrhage.",
+        "MRI if CT is inconclusive.",
+        "Cerebral angiography to locate aneurysm.",
+        "Laboratory: CBC, INR/PT, glucose, electrolytes.",
+        "ICP monitoring via invasive monitor if indicated.]",
+        "treatment",
+        ":",
+        "complications",
+        ":",
+        "nursing_care",
+        ":",
+        "patient_teaching",
+        ":"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for ineffective cerebral tissue perfusion",
+        "type": "risk",
+        "related_to": [
+          "uncontrolled hypertension",
+          "use of anticoagulants",
+          "cerebral aneurysm",
+          "head trauma"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Cerebral tissue perfusion: maintain GCS ≥ 13 during hospitalization",
+          "Intracranial pressure: maintain ICP ≤ 20 mmHg"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor level of consciousness and Glasgow Scale every 15 minutes",
+            "rationale": "Early detection of neurological decline allows rapid intervention."
+          },
+          {
+            "action": "Control blood pressure and adjust antihypertensives as ordered",
+            "rationale": "Maintaining adequate MAP prevents hematoma expansion."
+          },
+          {
+            "action": "Administer mannitol or hypertonic saline as prescribed",
+            "rationale": "Reduces ICP and improves cerebral blood flow."
+          },
+          {
+            "action": "Keep patient in semi‑recumbent position (30‑45°)",
+            "rationale": "Facilitates venous drainage and decreases ICP."
+          },
+          {
+            "action": "Assess and record signs of herniation (pupils, respiration)",
+            "rationale": "Identifying herniation allows activation of emergency protocol."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "increase in intracranial pressure",
+          "neurological fatigue"
+        ],
+        "evidenced_by": [
+          "decrease in level of consciousness with exertion",
+          "fatigue during activities of daily living"
+        ],
+        "outcomes": [
+          "Activity tolerated: patient performs basic ADLs without increased fatigue within 48 h",
+          "Energy level: reports energy ≥ 6/10 at end of day"
+        ],
+        "interventions": [
+          {
+            "action": "Plan rest periods every 30‑45 minutes during activities",
+            "rationale": "Prevents exhaustion and neurological overload."
+          },
+          {
+            "action": "Teach energy conservation techniques (sit to dress, use aids)",
+            "rationale": "Reduces energy expenditure and improves participation."
+          },
+          {
+            "action": "Assess activity tolerance using Borg scale before and after",
+            "rationale": "Allows adjustment of activity level based on actual capacity."
+          },
+          {
+            "action": "Coordinate with physical therapy to initiate early and safe mobilization",
+            "rationale": "Maintains muscle strength and prevents immobilization complications."
+          },
+          {
+            "action": "Monitor vital signs before and after activity",
+            "rationale": "Detects adverse physiological responses to exertion."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "subarachnoid-hemorrhage",
+    "cerebral-edema",
+    "brain-herniation"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hemorrhagic Stroke",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hemorrhagicstroke.html",
+      "lang": "en"
+    },
+    {
+      "name": "Pharmacology for Nurses: Intracranial Emergencies and Intracranial Emergency Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/12-3-intracranial-emergencies-and-intracranial-emergency-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Maternal-Newborn Nursing: Postpartum Hemorrhage",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/maternal-newborn-nursing/pages/21-2-postpartum-hemorrhage",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-28",
+  "factcheck": {
+    "checked": "2026-11-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 12,
+      "not_found": 21,
+      "contradicted": 0,
+      "total": 33
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "It occurs when a blood vessel in the brain bursts, causing bleeding (hemorrhage) in or around the brain.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Any increase in the volume of components within the skull or an addition of a pathological element, such as a brain tumor, will result in increased pressure within the skull since the skull’s volume is considered constant.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "High blood pressure (hypertension). Over time, it can weaken blood vessel walls and increase the risk of them breaking open.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "A bulge or \"ballooning\" in a weakened artery wall that can burst.",
+        "source": 0
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "Head trauma. Brain injury can cause bleeding.",
+        "source": 0
+      },
+      "sections.risk_factors.4": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Sudden severe headache with no known cause",
+        "source": 0
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Altered mental status, including drowsiness, confusion, or coma",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Symptoms of brain herniation can include changes in breathing pattern, dilation of one or both pupils, loss of consciousness, coma, and death.",
+        "source": 1
+      },
+      "sections.signs_symptoms.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.5": {
+        "status": "supported",
+        "quote": "Treatment may involve medicines or, in some cases, surgery to stop the bleeding or relieve pressure on the brain.",
+        "source": 0
+      },
+      "sections.diagnostics.6": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.7": {
+        "status": "supported",
+        "quote": "Monitor laboratory tests to detect for possible complications of these drugs such as metabolic acidosis and electrolyte imbalances as hypo/hypernatremia and hypo/hyperkalemia.",
+        "source": 1
+      },
+      "sections.diagnostics.8": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.9": {
+        "status": "supported",
+        "quote": "Along with administering drugs to decrease elevated intracranial pressure, the nurse must keep the head of the client’s bed at a 30-degree angle, or as directed by the health care provider, and keep the client’s neck in a neutral position to help stabilize and lower intracranial pressure (Faraj et al., 2022).",
+        "source": 1
+      },
+      "sections.diagnostics.10": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.11": {
+        "status": "supported",
+        "quote": "Provide client teaching regarding the drug and when to call the health care provider.",
+        "source": 1
+      },
+      "sections.diagnostics.12": {
+        "status": "not_found"
+      }
+    }
+  }
+}

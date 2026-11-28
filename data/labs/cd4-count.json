@@ -1,0 +1,295 @@
+{
+  "id": "cd4-count",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Recuento de CD4",
+    "aliases": [
+      "cd4",
+      "recuento cd4",
+      "conteo cd4",
+      "inmunidad hiv",
+      "células t"
+    ],
+    "summary": "El recuento de CD4 mide la cantidad de linfocitos T helper en sangre y se usa para evaluar la inmunidad en pacientes con VIH.",
+    "key_points": [
+      "CD4 ≥500 células/µL = infección aguda o controlada.",
+      "CD4 200‑499 células/µL = infección crónica, riesgo moderado de infecciones oportunistas.",
+      "CD4 <200 células/µL = alto riesgo de infecciones oportunistas y diagnóstico de SIDA.",
+      "Se controla cada 3‑6 meses para valorar respuesta al tratamiento antirretroviral.",
+      "El recuento se obtiene en sangre venosa con tubo EDTA; el ayuno no es necesario."
+    ],
+    "sections": {
+      "normal_values": [
+        "500‑1500 células/µL (rango adulto típico; varía según laboratorio)."
+      ],
+      "high_values": [
+        "Recuento >1500 células/µL: puede reflejar activación inmunológica, pero rara vez es patológico."
+      ],
+      "low_values": [
+        "CD4 <200 células/µL: riesgo de infecciones oportunistas (candidiasis, PCP, TB).",
+        "Causas: VIH avanzado, falta de adherencia al ART, coinfecciones.",
+        "Signos: pérdida de peso, fiebre persistente, linfadenopatía, diarrea crónica."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa en tubo con anticoagulante EDTA.",
+        "No requiere ayuno; recoger en cualquier momento del día.",
+        "Envío al laboratorio dentro de 24 h; evitar hemólisis.",
+        "Repetir cada 3‑6 meses según protocolo de VIH."
+      ],
+      "nursing_care": [
+        "Monitorear tendencias del recuento CD4 y notificar valores críticos (<200).",
+        "Coordinar con el médico la adecuación del tratamiento antirretroviral.",
+        "Educar al paciente sobre adherencia al ART y signos de infección.",
+        "Aplicar medidas de prevención de infecciones (lavado de manos, aislamiento cuando sea necesario).",
+        "Promover nutrición adecuada y control de comorbilidades."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "bajo recuento de CD4 (<200 células/µL)",
+          "exposición continua al VIH",
+          "interrupción o mala adherencia al ART"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Estado inmunológico: mantener CD4 >200 células/µL",
+          "Prevención de infecciones: ausencia de infecciones oportunistas durante la hospitalización"
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar el recuento de CD4 cada 3‑6 meses.",
+            "rationale": "Permite evaluar la respuesta al tratamiento y el riesgo de infecciones."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la adherencia al ART.",
+            "rationale": "La adherencia mejora el recuento de CD4 y reduce el riesgo de infecciones."
+          },
+          {
+            "action": "Implementar medidas de control de infecciones (lavado de manos, uso de guantes).",
+            "rationale": "Reduce la exposición a patógenos en pacientes inmunodeprimidos."
+          },
+          {
+            "action": "Evaluar diariamente signos y síntomas de infección (fiebre, tos, diarrea).",
+            "rationale": "La detección temprana permite intervención oportuna."
+          },
+          {
+            "action": "Coordinar vacunaciones apropiadas (influenza, neumococo) según guía de VIH.",
+            "rationale": "Vacunas reducen la incidencia de infecciones prevenibles."
+          },
+          {
+            "action": "Fomentar una dieta balanceada y control de comorbilidades (diabetes, hipertensión).",
+            "rationale": "Una buena nutrición apoya la función inmunológica."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "CD4 Count",
+    "aliases": [
+      "cd4",
+      "cd4 count",
+      "t cell count",
+      "hiv immunity",
+      "t cells"
+    ],
+    "summary": "The CD4 count measures the number of helper T lymphocytes in the blood and is used to assess immunity in HIV patients.",
+    "key_points": [
+      "CD4 ≥500 cells/µL = acute or controlled infection.",
+      "CD4 200‑499 cells/µL = chronic infection, moderate risk of opportunistic infections.",
+      "CD4 <200 cells/µL = high risk of opportunistic infections and diagnosis of AIDS.",
+      "Checked every 3‑6 months to evaluate antiretroviral therapy response.",
+      "Obtained from venous blood with EDTA tube; fasting not required."
+    ],
+    "sections": {
+      "normal_values": [
+        "500‑1500 cells/µL (typical adult range; varies by laboratory)."
+      ],
+      "high_values": [
+        "Count >1500 cells/µL: may reflect immune activation, but rarely pathological."
+      ],
+      "low_values": [
+        "CD4 <200 cells/µL: risk of opportunistic infections (candidiasis, PCP, TB).",
+        "Causes: advanced HIV, poor ART adherence, coinfections.",
+        "Signs: weight loss, persistent fever, lymphadenopathy, chronic diarrhea."
+      ],
+      "specimen": [
+        "Venous blood sample in EDTA anticoagulant tube.",
+        "No fasting required; can be drawn at any time of day.",
+        "Send to laboratory within 24 h; avoid hemolysis.",
+        "Repeat every 3‑6 months per HIV protocol."
+      ],
+      "nursing_care": [
+        "Monitor CD4 count trends and report critical values (<200).",
+        "Coordinate with physician on antiretroviral therapy adequacy.",
+        "Educate patient on ART adherence and infection signs.",
+        "Implement infection prevention measures (hand hygiene, isolation when necessary).",
+        "Promote adequate nutrition and control of comorbidities."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "low CD4 count (<200 cells/µL)",
+          "continuous HIV exposure",
+          "ART interruption or poor adherence"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Immunologic status: maintain CD4 >200 cells/µL",
+          "Infection prevention: absence of opportunistic infections during hospitalization"
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record CD4 count every 3‑6 months.",
+            "rationale": "Allows assessment of treatment response and infection risk."
+          },
+          {
+            "action": "Educate patient on importance of ART adherence.",
+            "rationale": "Adherence improves CD4 count and reduces infection risk."
+          },
+          {
+            "action": "Implement infection control measures (hand washing, glove use).",
+            "rationale": "Reduces exposure to pathogens in immunocompromised patients."
+          },
+          {
+            "action": "Daily assess for infection signs and symptoms (fever, cough, diarrhea).",
+            "rationale": "Early detection allows timely intervention."
+          },
+          {
+            "action": "Coordinate appropriate vaccinations (influenza, pneumococcal) per HIV guidelines.",
+            "rationale": "Vaccines reduce incidence of preventable infections."
+          },
+          {
+            "action": "Encourage balanced diet and control of comorbidities (diabetes, hypertension).",
+            "rationale": "Good nutrition supports immune function."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hiv-infection",
+    "aids",
+    "opportunistic-infections"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: HIV",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hiv.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Immunodeficiency",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/29-3-immunodeficiency",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thrombocytopenia",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/16-4-thrombocytopenia",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-28",
+  "factcheck": {
+    "checked": "2026-11-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 4,
+      "not_found": 15,
+      "contradicted": 1,
+      "total": 20
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "supported",
+        "quote": "Stage Name CD4 Count 1 Acute HIV ≥500 cells/µL 2 Chronic HIV 200 to 499 cells/µL 3 AIDS <200 cells/µL",
+        "source": 1
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.normal_values.0": {
+        "status": "not_found"
+      },
+      "sections.high_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.0": {
+        "status": "not_found"
+      },
+      "sections.low_values.1": {
+        "status": "not_found"
+      },
+      "sections.low_values.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.0": {
+        "status": "not_found"
+      },
+      "sections.specimen.1": {
+        "status": "not_found"
+      },
+      "sections.specimen.2": {
+        "status": "not_found"
+      },
+      "sections.specimen.3": {
+        "status": "contradicted",
+        "quote": "The person-at-risk should undergo frequent testing every three months to ensure they have not become infected.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "supported",
+        "quote": "Infectious disease specialists would lead the medical management, focusing on antiretroviral therapy (ART) initiation or adjustment based on viral load and CD4 count monitoring.",
+        "source": 1
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "Infectious disease nurses provide ongoing education on HIV transmission prevention, medication adherence strategies, and symptom management.",
+        "source": 1
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Infection prevention measures like avoiding public places and masking when in public; frequent, proper hand hygiene; and social distancing are also important for immunocompromised patients.",
+        "source": 1
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

@@ -1,0 +1,426 @@
+{
+  "id": "iodine-deficiency",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Deficiencia de yodo (DI)",
+    "aliases": [
+      "deficiencia de yodo",
+      "iodio",
+      "deficiencia iodica",
+      "bocio",
+      "hipotiroidismo por yodo",
+      "iodación insuficiente"
+    ],
+    "summary": "La deficiencia de yodo impide la síntesis adecuada de T3 y T4, provocando hipotiroidismo y, frecuentemente, bocio.",
+    "key_points": [
+      "El yodo es esencial para la producción de hormonas tiroideas (T3, T4).",
+      "La principal fuente dietética es la sal yodada; su ausencia se asocia a regiones sin acceso a mariscos.",
+      "Los laboratorios muestran TSH elevada y T4 libre disminuida.",
+      "El bocio es la manifestación física más común.",
+      "El tratamiento incluye suplementación con yodo y, si es necesario, levotiroxina."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los folículos tiroideos capturan yodo del plasma y lo incorporan a la tirosina.",
+        "Sin yodo suficiente, la síntesis de T3 (3 átomos) y T4 (4 átomos) disminuye.",
+        "La baja concentración de hormonas tiroideas reduce la retroalimentación negativa sobre la hipófisis.",
+        "La hipófisis aumenta la secreción de TSH, estimulando hipertrofia del tiroides (bocio)."
+      ],
+      "risk_factors": [
+        "Dieta pobre en sal yodada o alimentos marinos.",
+        "Vivir en áreas montañosas o interiores sin programas de iodización.",
+        "Uso de sales no yodadas en la cocina.",
+        "Embarazo y lactancia sin suplementación adecuada."
+      ],
+      "signs_symptoms": [
+        "Bocio visible o palpable.",
+        "Fatiga, debilidad y somnolencia.",
+        "Aumento de peso, intolerancia al frío.",
+        "Retraso del desarrollo mental en niños."
+      ],
+      "diagnostics": [
+        "TSH: >4.0 µIU/mL (elevada).",
+        "T4 libre: <0.8 ng/dL (baja).",
+        "Urinario yodado: <100 µg/L indica deficiencia.",
+        "Ecografía tiroidea para evaluar tamaño y nódulos."
+      ],
+      "treatment": [
+        "Suplementación oral de yodo (p. ej., yoduro de potasio) según guías nacionales.",
+        "Levotiroxina (L‑T4) si hay hipotiroidismo clínico.",
+        "Educación sobre uso de sal yodada en la cocina.",
+        "Monitoreo periódico de TSH y T4 libre."
+      ],
+      "complications": [
+        "Hipotiroidismo crónico.",
+        "Bocio de gran tamaño con riesgo de compresión de vías aéreas.",
+        "Retraso cognitivo y mental en niños.",
+        "Cretinismo en neonatos con deficiencia severa."
+      ],
+      "nursing_care": [
+        "Evaluar tamaño y consistencia del tiroides en inspección y palpación.",
+        "Monitorear signos de hipotiroidismo: temperatura, nivel de energía, peso.",
+        "Registrar resultados de TSH y T4; notificar valores fuera de rango.",
+        "Administrar suplementos de yodo y levotiroxina según prescripción.",
+        "Promover consumo de sal yodada y alimentos ricos en yodo."
+      ],
+      "patient_teaching": [
+        "Explicar la importancia del yodo para la función tiroidea.",
+        "Instruir sobre el uso diario de sal yodada y evitar sales no yodadas.",
+        "Enseñar a leer etiquetas de alimentos para identificar yodo añadido.",
+        "Informar sobre la necesidad de seguimiento de laboratorio cada 6‑12 meses."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatiga",
+        "type": "actual",
+        "related_to": [
+          "hipotiroidismo por deficiencia de yodo",
+          "bocio"
+        ],
+        "evidenced_by": [
+          "cansancio constante",
+          "debilidad muscular",
+          "disminución de la actividad diaria"
+        ],
+        "outcomes": [
+          "Nivel de energía: paciente reporta aumento del 50% en energía al final de la semana",
+          "Actividad: paciente realiza actividades de la vida diaria sin necesidad de reposo excesivo en 5 días"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y signos de debilidad cada turno",
+            "rationale": "Permite detectar cambios y ajustar el plan de cuidados"
+          },
+          {
+            "action": "Fomentar actividades ligeras y descansos programados",
+            "rationale": "Previene el agotamiento y mejora la tolerancia a la actividad"
+          },
+          {
+            "action": "Administrar levotiroxina y suplementos de yodo según orden médica",
+            "rationale": "Corrige la causa hormonal de la fatiga"
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de la ingesta adecuada de yodo",
+            "rationale": "Facilita la adherencia al tratamiento y previene recaídas"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "deficiencia de yodo",
+          "hipotiroidismo",
+          "uso de suplementos de yodo sin control"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos: valores de Na+, K+, Cl- dentro de rangos normales en 48 horas",
+          "TSH y T4: tendencia a normalizarse en 4 semanas"
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear electrolitos séricos y función tiroidea cada 48‑72 h",
+            "rationale": "Detecta alteraciones tempranas y permite intervención oportuna"
+          },
+          {
+            "action": "Registrar ingesta y salida de líquidos y alimentos ricos en yodo",
+            "rationale": "Ayuda a equilibrar la carga de yodo y prevenir desequilibrios"
+          },
+          {
+            "action": "Informar al paciente sobre signos de hiponatremia e hiperkalemia",
+            "rationale": "Facilita la detección precoz de complicaciones electrolíticas"
+          },
+          {
+            "action": "Coordinar con el médico ajustes de suplementación de yodo según resultados de laboratorio",
+            "rationale": "Evita exceso o insuficiencia de yodo que altere el equilibrio electrolítico"
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Iodine deficiency (DI)",
+    "aliases": [
+      "iodine deficiency",
+      "goiter",
+      "hypothyroidism due to iodine",
+      "insufficient iodination"
+    ],
+    "summary": "Iodine deficiency impairs adequate synthesis of T3 and T4, causing hypothyroidism and, frequently, goiter.",
+    "key_points": [
+      "Iodine is essential for the production of thyroid hormones (T3, T4).",
+      "The main dietary source is iodized salt; its absence is associated with regions lacking access to seafood.",
+      "Laboratory tests show elevated TSH and decreased free T4.",
+      "Goiter is the most common physical manifestation.",
+      "Treatment includes iodine supplementation and, if necessary, levothyroxine."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Thyroid follicles capture iodine from plasma and incorporate it into tyrosine.",
+        "Without sufficient iodine, synthesis of T3 (3 atoms) and T4 (4 atoms) decreases.",
+        "Low thyroid hormone concentrations reduce negative feedback on the pituitary.",
+        "The pituitary increases TSH secretion, stimulating thyroid hypertrophy (goiter)."
+      ],
+      "risk_factors": [
+        "Poor diet in iodized salt or marine foods.",
+        "Living in mountainous or inland areas without iodization programs.",
+        "Use of non-iodized salts in cooking.",
+        "Pregnancy and lactation without adequate supplementation."
+      ],
+      "signs_symptoms": [
+        "Visible or palpable goiter.",
+        "Fatigue, weakness, and drowsiness.",
+        "Weight gain, cold intolerance.",
+        "Delayed mental development in children."
+      ],
+      "diagnostics": [
+        "TSH: >4.0 µIU/mL (elevated).",
+        "Free T4: <0.8 ng/dL (low).",
+        "Urinary iodine: <100 µg/L indicates deficiency.",
+        "Thyroid ultrasound to assess size and nodules."
+      ],
+      "treatment": [
+        "Oral iodine supplementation (e.g., potassium iodide) per national guidelines.",
+        "Levothyroxine (L‑T4) if clinical hypothyroidism is present.",
+        "Education on using iodized salt in cooking.",
+        "Periodic monitoring of TSH and free T4.]",
+        "complications",
+        ":",
+        "nursing_care",
+        ":",
+        "patient_teaching",
+        ":"
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Fatigue",
+        "type": "actual",
+        "related_to": [
+          "hypothyroidism due to iodine deficiency",
+          "goiter"
+        ],
+        "evidenced_by": [
+          "constant tiredness",
+          "muscle weakness",
+          "reduced daily activity"
+        ],
+        "outcomes": [
+          "Energy level: patient reports 50% increase in energy by week end",
+          "Activity: patient performs activities of daily living without excessive rest in 5 days"
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and signs of weakness each shift",
+            "rationale": "Allows detection of changes and adjustment of care plan"
+          },
+          {
+            "action": "Encourage light activities and scheduled rest",
+            "rationale": "Prevents exhaustion and improves tolerance to activity"
+          },
+          {
+            "action": "Administer levothyroxine and iodine supplements per medical order",
+            "rationale": "Corrects the hormonal cause of fatigue"
+          },
+          {
+            "action": "Educate patient on importance of adequate iodine intake",
+            "rationale": "Facilitates adherence to treatment and prevents relapse"
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "iodine deficiency",
+          "hypothyroidism",
+          "uncontrolled iodine supplementation"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolytes: Na+, K+, Cl- within normal ranges within 48 hours",
+          "TSH and T4: trend toward normalization in 4 weeks"
+        ],
+        "interventions": [
+          {
+            "action": "Monitor serum electrolytes and thyroid function every 48‑72 h",
+            "rationale": "Detects early changes and allows timely intervention"
+          },
+          {
+            "action": "Record intake and output of fluids and iodine-rich foods",
+            "rationale": "Helps balance iodine load and prevent imbalances"
+          },
+          {
+            "action": "Inform patient about signs of hyponatremia and hyperkalemia",
+            "rationale": "Facilitates early detection of electrolyte complications"
+          },
+          {
+            "action": "Coordinate with physician to adjust iodine supplementation based on lab results",
+            "rationale": "Avoids excess or deficiency of iodine that disrupts electrolyte balance"
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "goiter",
+    "hypothyroidism",
+    "iodized-salt",
+    "thyroid-hormone",
+    "cognitive-development"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Thyroid Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/thyroiddiseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thyroid and Parathyroid Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-28",
+  "factcheck": {
+    "checked": "2026-11-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 21,
+      "contradicted": 0,
+      "total": 32
+    },
+    "claims": {
+      "summary.0": {
+        "status": "not_found"
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Thus, the primary source of dietary iodine in many countries is iodized salt.",
+        "source": 1
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Dietary iodine is required for the synthesis of T3 and T4.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Marine fish and shrimp tend to have high levels because they concentrate iodine from seawater, but many people in landlocked regions lack access to seafood.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Figure 21.8 A visible goiter on a person’s neck is caused by an accumulation of colloid.",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "A patient with hyperparathyroidism may present with muscle weakness, fatigue, depression, chronic thirst, frequent urination, loss of appetite, abdominal pain, trouble concentrating, and mild confusion.",
+        "source": 1
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Hypothyroidism Inflammation of the thyroid gland, known as hypothyroidism , is the more common cause of low blood levels of thyroid hormones and is characterized by a low metabolic rate, weight gain, cold extremities, constipation, reduced libido, menstrual irregularities, and reduced mental activity.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Moreover, iodine deficiency is the primary cause of preventable intellectual disabilities worldwide.",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "not_found"
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Laboratory values, such as TSH, T3 , and T4 will be monitored to see if there is improvement in response to treatment.",
+        "source": 1
+      },
+      "sections.treatment.4": {
+        "status": "supported",
+        "quote": "Complications of Graves’ disease include heart arrhythmias, heart failure, miscarriage, preterm birth, preeclampsia, maternal heart failure, osteoporosis, and thyroid storm.",
+        "source": 1
+      },
+      "sections.treatment.5": {
+        "status": "not_found"
+      },
+      "sections.treatment.6": {
+        "status": "supported",
+        "quote": "Apply nursing concepts and plan associated nursing care for patients with thyroid and parathyroid disorders",
+        "source": 1
+      },
+      "sections.treatment.7": {
+        "status": "not_found"
+      },
+      "sections.treatment.8": {
+        "status": "supported",
+        "quote": "Teach about the therapies and treatments being done and why it’s important for the patient to stick to prescribed regimens.",
+        "source": 1
+      },
+      "sections.treatment.9": {
+        "status": "not_found"
+      }
+    }
+  }
+}

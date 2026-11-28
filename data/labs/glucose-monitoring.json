@@ -1,0 +1,230 @@
+{
+  "id": "glucose-monitoring",
+  "category": "labs",
+  "areas": [],
+  "es": {
+    "term": "Monitoreo de glucosa",
+    "aliases": [
+      "glucemia",
+      "monitoreo de glucosa",
+      "glucose",
+      "glucosa",
+      "control glucosa",
+      "nivel de glucosa"
+    ],
+    "summary": "El monitoreo de glucosa permite detectar hipoglucemia e hiperglucemia y guiar el manejo del paciente diabético.",
+    "key_points": [
+      "Objetivo: mantener glucemia en rango objetivo (ayuno 80‑130 mg/dL, 2 h posprandial <180 mg/dL).",
+      "Hipoglucemia <70 mg/dL requiere intervención inmediata para evitar daño neurológico.",
+      "Hiperglucemia prolongada aumenta riesgo de complicaciones crónicas (retinopatía, nefropatía).",
+      "Factores que alteran glucemia: alimentos, ejercicio, estrés, infecciones, cambios de medicación.",
+      "Muestra adecuada: tubo con fluoruro, ayuno 8 h para glucemia basal."
+    ],
+    "sections": {
+      "normal_values": [
+        "Ayuno: 80‑130 mg/dL (rango puede variar según laboratorio).",
+        "2 h después de comer: <180 mg/dL.",
+        "Glucemia aleatoria: <200 mg/dL en adultos sin diabetes."
+      ],
+      "high_values": [
+        "Hiperglucemia: >130 mg/dL en ayuno o >180 mg/dL posprandial.",
+        "Causas: diabetes mellitus, estrés, infección, corticoides, falta de adherencia al tratamiento.",
+        "Signos: poliuria, polidipsia, visión borrosa, fatiga, náuseas."
+      ],
+      "low_values": [
+        "Hipoglucemia: <70 mg/dL (crítica <54 mg/dL).",
+        "Causas: exceso de insulina, omisión de comidas, ejercicio intenso, alcohol.",
+        "Signos: sudoración, temblor, confusión, irritabilidad, convulsiones."
+      ],
+      "specimen": [
+        "Muestra de sangre venosa en tubo con fluoruro de sodio (evita glucólisis).",
+        "Ayuno mínimo 8 h para glucemia basal; muestra aleatoria sin ayuno.",
+        "Obtener muestra antes de la medicación antihiperglucémica para resultados precisos.",
+        "Errores comunes: hemólisis, retraso en el procesamiento, uso de tubo sin conservador."
+      ],
+      "nursing_care": [
+        "Registrar glucemia según orden (ayuno, posprandial, pre‑y post‑insulina).",
+        "Evaluar signos y síntomas de hipoglucemia e hiperglucemia en cada medida.",
+        "Educar al paciente sobre técnica de punción capilar, horarios y factores que alteran la glucosa.",
+        "Verificar hora y tipo de insulina antes de la toma; ajustar según protocolos médicos.",
+        "Promover alimentación balanceada y actividad física regular; registrar ingesta de carbohidratos."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de nivel de glucemia inestable",
+        "type": "risk",
+        "related_to": [
+          "diabetes mellitus",
+          "cambios en la medicación",
+          "infección",
+          "estrés",
+          "omisión de comidas",
+          "ejercicio intenso"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Control de glucemia: glucemia dentro del rango objetivo en >90 % de mediciones.",
+          "Conocimiento del autocontrol: el paciente describe correctamente los signos de hipoglucemia e hiperglucemia."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener glucemia capilar según orden y registrar inmediatamente.",
+            "rationale": "Permite detectar desviaciones y actuar rápidamente para prevenir complicaciones."
+          },
+          {
+            "action": "Evaluar signos y síntomas de hipoglucemia e hiperglucemia en cada toma.",
+            "rationale": "Los síntomas pueden preceder a valores críticos y requieren intervención temprana."
+          },
+          {
+            "action": "Administrar glucosa oral (15 g) si glucemia <70 mg/dL y el paciente está consciente.",
+            "rationale": "Corrige rápidamente la hipoglucemia y previene daño neurológico."
+          },
+          {
+            "action": "Notificar al médico si glucemia >250 mg/dL persistente o <50 mg/dL.",
+            "rationale": "Valores extremos requieren ajuste de terapia o intervención médica."
+          },
+          {
+            "action": "Educar al paciente sobre el patrón de alimentación, horarios de medicación y reconocimiento de síntomas.",
+            "rationale": "El autocontrol mejora la adherencia y reduce la variabilidad glucémica."
+          },
+          {
+            "action": "Revisar y documentar la técnica de punción capilar para asegurar muestra adecuada.",
+            "rationale": "Muestras incorrectas pueden dar resultados falsos y conducir a decisiones erróneas."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Glucose Monitoring",
+    "aliases": [
+      "glucose",
+      "glucose monitoring",
+      "blood sugar",
+      "glucose level",
+      "glucose control"
+    ],
+    "summary": "Glucose monitoring allows detection of hypoglycemia and hyperglycemia and guides management of diabetic patients.",
+    "key_points": [
+      "Objective: maintain glucose within target range (fasting 80‑130 mg/dL, 2 h postprandial <180 mg/dL).",
+      "Hypoglycemia <70 mg/dL requires immediate intervention to prevent neurological damage.",
+      "Prolonged hyperglycemia increases risk of chronic complications (retinopathy, nephropathy).",
+      "Factors that alter glucose: food, exercise, stress, infections, medication changes.",
+      "Proper sample: fluoride tube, 8 h fasting for basal glucose."
+    ],
+    "sections": {
+      "normal_values": [
+        "Fasting: 80‑130 mg/dL (range may vary by laboratory).",
+        "2 h after eating: <180 mg/dL.",
+        "Random glucose: <200 mg/dL in non‑diabetic adults."
+      ],
+      "high_values": [
+        "Hyperglycemia: >130 mg/dL fasting or >180 mg/dL postprandial.",
+        "Causes: diabetes mellitus, stress, infection, corticosteroids, poor adherence to treatment.",
+        "Signs: polyuria, polydipsia, blurred vision, fatigue, nausea."
+      ],
+      "low_values": [
+        "Hypoglycemia: <70 mg/dL (critical <54 mg/dL).",
+        "Causes: excess insulin, missed meals, intense exercise, alcohol.",
+        "Signs: sweating, tremor, confusion, irritability, seizures."
+      ],
+      "specimen": [
+        "Venous blood sample in sodium fluoride tube (prevents glycolysis).",
+        "Minimum 8 h fasting for basal glucose; random sample without fasting.",
+        "Obtain sample before antihyperglycemic medication for accurate results.",
+        "Common errors: hemolysis, delayed processing, use of tube without preservative."
+      ],
+      "nursing_care": [
+        "Record glucose per order (fasting, postprandial, pre‑ and post‑insulin).",
+        "Assess signs and symptoms of hypoglycemia and hyperglycemia at each measurement.",
+        "Educate patient on finger‑stick technique, timing, and factors that alter glucose.",
+        "Verify insulin type and timing before measurement; adjust per medical protocol.",
+        "Promote balanced diet and regular physical activity; record carbohydrate intake."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for unstable blood glucose level",
+        "type": "risk",
+        "related_to": [
+          "diabetes mellitus",
+          "medication changes",
+          "infection",
+          "stress",
+          "missed meals",
+          "intense exercise"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Glucose control: glucose within target range in >90 % of measurements.",
+          "Self‑monitoring knowledge: patient accurately describes signs of hypoglycemia and hyperglycemia."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain capillary glucose per order and record immediately.",
+            "rationale": "Allows detection of deviations and rapid action to prevent complications."
+          },
+          {
+            "action": "Assess signs and symptoms of hypoglycemia and hyperglycemia at each measurement.",
+            "rationale": "Symptoms may precede critical values and require early intervention."
+          },
+          {
+            "action": "Administer oral glucose (15 g) if glucose <70 mg/dL and patient is conscious.",
+            "rationale": "Rapidly corrects hypoglycemia and prevents neurological damage."
+          },
+          {
+            "action": "Notify physician if glucose >250 mg/dL persistently or <50 mg/dL.",
+            "rationale": "Extreme values require therapy adjustment or medical intervention."
+          },
+          {
+            "action": "Educate patient on meal patterns, medication timing, and symptom recognition.",
+            "rationale": "Self‑monitoring improves adherence and reduces glucose variability."
+          },
+          {
+            "action": "Review and document finger‑stick technique to ensure adequate sample.",
+            "rationale": "Incorrect samples can give false results and lead to erroneous decisions."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hypoglycemia",
+    "hyperglycemia",
+    "diabetes-mellitus",
+    "insulin-therapy",
+    "glucose-tolerance-test"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Blood Glucose",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/bloodglucose.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Diabetes Mellitus",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-2-diabetes-mellitus",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Insulin and Non-Insulin Injectable Diabetes Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/28-2-insulin-and-non-insulin-injectable-diabetes-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-28"
+}

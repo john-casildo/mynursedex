@@ -1,0 +1,501 @@
+{
+  "id": "opportunistic-infections",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Infecciones oportunistas (IO)",
+    "aliases": [
+      "infecciones oportunistas",
+      "io",
+      "hiv",
+      "infecciones",
+      "oportunistas"
+    ],
+    "summary": "Son infecciones que aparecen cuando el VIH reduce la inmunidad, aprovechando la vulnerabilidad del huésped.",
+    "key_points": [
+      "Se presentan cuando el recuento de CD4 <200 cél/µL.",
+      "Incluyen bacterias (TB, MAC), virus (CMV, hepatitis C), hongos (PCP, criptococo) y parásitos.",
+      "El tratamiento combina terapia antirretroviral (TAR) y profilaxis específica.",
+      "Diagnóstico requiere cultivos, PCR y estudios de imagen según el agente.",
+      "Prevención: TAR eficaz, profilaxis (TMP‑SMX, azitromicina, fluconazol) y medidas de higiene."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "El VIH destruye linfocitos CD4, disminuyendo la respuesta inmune celular.",
+        "La inmunosupresión permite la proliferación de microorganismos normalmente controlados.",
+        "Los patógenos aprovechan tejidos vulnerables y pueden diseminarse rápidamente."
+      ],
+      "risk_factors": [
+        "CD4 <200 cél/µL o <100 cél/µL según el agente.",
+        "TAR incompleta o interrupción del tratamiento.",
+        "Uso prolongado de corticoides o inmunosupresores.",
+        "Exposición a fuentes de infección (agua no tratada, contacto con animales)."
+      ],
+      "signs_symptoms": [
+        "Fiebre persistente sin foco claro.",
+        "Tos seca, disnea o dolor torácico (PCP, TB).",
+        "Dolor de cabeza, visión borrosa (CMV).",
+        "Erupción cutánea o úlceras orales (candidiasis).",
+        "Diarrea crónica o pérdida de peso."
+      ],
+      "diagnostics": [
+        "Recuento de CD4: <200 cél/µL indica alto riesgo.",
+        "Cultivo de esputo, sangre o líquido cefalorraquídeo según sospecha.",
+        "PCR para virus (CMV, hepatitis C).",
+        "Radiografía de tórax o TAC para PCP y TB.",
+        "Pruebas serológicas para criptococo y histoplasma."
+      ],
+      "treatment": [
+        "Terapia antirretroviral (TAR) continua y adherente.",
+        "Profilaxis primaria: TMP‑SMX para PCP, azitromicina para MAC, fluconazol para candidiasis.",
+        "Antibióticos específicos según cultivo (p. ej., isoniazida + rifampicina para TB).",
+        "Antivirales (ganciclovir para CMV).",
+        "Antifúngicos (anfotericina B o fluconazol para criptococosis)."
+      ],
+      "complications": [
+        "Diseminación sistémica del patógeno (meningitis, sepsis).",
+        "Insuficiencia respiratoria por PCP o TB.",
+        "Daño neurológico permanente (CMV, criptococo).",
+        "Muerte si no se controla la inmunosupresión."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales cada 4 h; vigilar temperatura y saturación de O₂.",
+        "Monitorear resultados de laboratorio (CD4, cultivos, PCR).",
+        "Administrar profilaxis y tratamiento según prescripción, observar reacciones adversas.",
+        "Aplicar aislamiento de contacto o respiratorio según agente.",
+        "Registrar ingesta y pérdida de líquidos; mantener hidratación adecuada."
+      ],
+      "patient_teaching": [
+        "Importancia de la adherencia al TAR y a la profilaxis.",
+        "Lavado de manos frecuente y evitar alimentos crudos o no pasteurizados.",
+        "Reconocer signos de infección y buscar atención inmediata.",
+        "Vacunarse contra influenza y neumococo según indicaciones.",
+        "No compartir agujas ni objetos cortantes."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Riesgo de infección",
+        "type": "risk",
+        "related_to": [
+          "inmunosupresión por VIH",
+          "CD4 <200 cél/µL",
+          "uso de corticoides"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Riesgo de infección reducido a 0 eventos durante la hospitalización",
+          "NOC: Conocimiento de medidas preventivas alcanzado 100 % al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar temperatura y signos de infección cada 4 h",
+            "rationale": "Detección temprana permite intervención rápida."
+          },
+          {
+            "action": "Aplicar aislamiento de contacto o respiratorio según el agente sospechado",
+            "rationale": "Previene la transmisión a otros pacientes y al personal."
+          },
+          {
+            "action": "Administrar profilaxis (TMP‑SMX, azitromicina, fluconazol) según orden médica",
+            "rationale": "Reduce la incidencia de infecciones oportunistas."
+          },
+          {
+            "action": "Educar al paciente sobre higiene de manos y evitar alimentos contaminados",
+            "rationale": "Promueve autocuidado y disminuye exposición a patógenos."
+          },
+          {
+            "action": "Revisar adherencia al TAR y registrar cualquier omisión",
+            "rationale": "Mantener la inmunidad y prevenir brotes de OI."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "disnea por PCP",
+          "fatiga por infección sistémica"
+        ],
+        "evidenced_by": [
+          "disnea al caminar",
+          "fatiga al realizar actividades de la vida diaria",
+          "cansancio constante"
+        ],
+        "outcomes": [
+          "NOC: Tolerancia a la actividad aumentada a 3/5 en 5 días",
+          "NOC: Nivel de energía mejorado a 4/5 al alta"
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de actividad y registrar escalas de fatiga cada turno",
+            "rationale": "Permite ajustar el plan de cuidados según la capacidad del paciente."
+          },
+          {
+            "action": "Planificar períodos de reposo y actividades de bajo esfuerzo",
+            "rationale": "Previene el agotamiento y favorece la recuperación."
+          },
+          {
+            "action": "Administrar oxígeno suplementario si saturación <92 %",
+            "rationale": "Mejora la oxigenación y reduce la disnea."
+          },
+          {
+            "action": "Fomentar la ingesta calórica adecuada y hidratación",
+            "rationale": "Apoya la energía y la respuesta inmunológica."
+          },
+          {
+            "action": "Enseñar técnicas de respiración diafragmática",
+            "rationale": "Facilita la ventilación y disminuye la sensación de falta de aire."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Opportunistic infections (OI)",
+    "aliases": [
+      "opportunistic infections",
+      "oi",
+      "hiv",
+      "infections",
+      "opportunistic"
+    ],
+    "summary": "These are infections that occur when HIV reduces immunity, taking advantage of the host's vulnerability.",
+    "key_points": [
+      "They occur when CD4 count <200 cells/µL.",
+      "Include bacteria (TB, MAC), viruses (CMV, hepatitis C), fungi (PCP, cryptococcus) and parasites.",
+      "Treatment combines antiretroviral therapy (ART) and specific prophylaxis.",
+      "Diagnosis requires cultures, PCR and imaging studies according to the agent.",
+      "Prevention: effective ART, prophylaxis (TMP‑SMX, azithromycin, fluconazole) and hygiene measures."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "HIV destroys CD4 lymphocytes, decreasing cellular immune response.",
+        "Immunosuppression allows proliferation of microorganisms normally controlled.",
+        "Pathogens exploit vulnerable tissues and can spread rapidly."
+      ],
+      "risk_factors": [
+        "CD4 <200 cells/µL or <100 cells/µL depending on agent.",
+        "Incomplete or interrupted ART.",
+        "Prolonged use of corticosteroids or immunosuppressants.",
+        "Exposure to infection sources (untreated water, contact with animals)."
+      ],
+      "signs_symptoms": [
+        "Persistent fever without clear focus.",
+        "Dry cough, dyspnea or chest pain (PCP, TB).",
+        "Headache, blurred vision (CMV).",
+        "Skin rash or oral ulcers (candidiasis).",
+        "Chronic diarrhea or weight loss."
+      ],
+      "diagnostics": [
+        "CD4 count: <200 cells/µL indicates high risk.",
+        "Culture of sputum, blood or cerebrospinal fluid as suspected.",
+        "PCR for viruses (CMV, hepatitis C).",
+        "Chest X‑ray or CT for PCP and TB.",
+        "Serologic tests for cryptococcus and histoplasma."
+      ],
+      "treatment": [
+        "Continuous and adherent antiretroviral therapy (ART).",
+        "Primary prophylaxis: TMP‑SMX for PCP, azithromycin for MAC, fluconazole for candidiasis.",
+        "Specific antibiotics based on culture (e.g., isoniazid + rifampin for TB).",
+        "Antivirals (ganciclovir for CMV).",
+        "Antifungals (amphotericin B or fluconazole for cryptococcosis)."
+      ],
+      "complications": [
+        "Systemic dissemination of the pathogen (meningitis, sepsis).",
+        "Respiratory failure from PCP or TB.",
+        "Permanent neurological damage (CMV, cryptococcus).",
+        "Death if immunosuppression is not controlled."
+      ],
+      "nursing_care": [
+        "Assess vital signs every 4 h; monitor temperature and O₂ saturation.",
+        "Monitor laboratory results (CD4, cultures, PCR).",
+        "Administer prophylaxis and treatment per prescription, observe for adverse reactions.",
+        "Apply contact or respiratory isolation as appropriate for the agent.",
+        "Record intake and output; maintain adequate hydration."
+      ],
+      "patient_teaching": [
+        "Importance of adherence to ART and prophylaxis.",
+        "Frequent handwashing and avoid raw or unpasteurized foods.",
+        "Recognize infection signs and seek immediate care.",
+        "Vaccinate against influenza and pneumococcus as indicated.",
+        "Do not share needles or cutting objects."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Risk for infection",
+        "type": "risk",
+        "related_to": [
+          "HIV immunosuppression",
+          "CD4 <200 cells/µL",
+          "corticosteroid use"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "NOC: Reduced risk of infection to 0 events during hospitalization",
+          "NOC: Knowledge of preventive measures achieved 100 % at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Assess temperature and infection signs every 4 h",
+            "rationale": "Early detection allows rapid intervention."
+          },
+          {
+            "action": "Apply contact or respiratory isolation as suspected agent",
+            "rationale": "Prevents transmission to other patients and staff."
+          },
+          {
+            "action": "Administer prophylaxis (TMP‑SMX, azithromycin, fluconazole) per medical order",
+            "rationale": "Reduces incidence of opportunistic infections."
+          },
+          {
+            "action": "Educate patient on hand hygiene and avoiding contaminated foods",
+            "rationale": "Promotes self‑care and reduces pathogen exposure."
+          },
+          {
+            "action": "Review ART adherence and record any omissions",
+            "rationale": "Maintains immunity and prevents infection outbreaks."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "dyspnea from PCP",
+          "fatigue from systemic infection"
+        ],
+        "evidenced_by": [
+          "dyspnea when walking",
+          "fatigue during activities of daily living",
+          "constant tiredness"
+        ],
+        "outcomes": [
+          "NOC: Activity tolerance increased to 3/5 in 5 days",
+          "NOC: Energy level improved to 4/5 at discharge"
+        ],
+        "interventions": [
+          {
+            "action": "Assess activity level and record fatigue scales each shift",
+            "rationale": "Allows adjustment of care plan based on patient capacity."
+          },
+          {
+            "action": "Plan rest periods and low‑effort activities",
+            "rationale": "Prevents exhaustion and promotes recovery."
+          },
+          {
+            "action": "Administer supplemental oxygen if saturation <92 %",
+            "rationale": "Improves oxygenation and reduces dyspnea."
+          },
+          {
+            "action": "Encourage adequate caloric intake and hydration",
+            "rationale": "Supports energy and immune response."
+          },
+          {
+            "action": "Teach diaphragmatic breathing techniques",
+            "rationale": "Facilitates ventilation and reduces shortness of breath."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hiv-aids",
+    "cd4-count",
+    "antiretroviral-therapy",
+    "opportunistic-infection",
+    "prophylaxis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: HIV and Infections",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hivandinfections.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Viral and Fungal Infections",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/22-2-viral-and-fungal-infections",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Antibiotic, Antiviral/Anti–COVID-19, and Antifungal Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/7-2-antibiotic-antiviral-anti-covid-19-and-antifungal-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-28",
+  "factcheck": {
+    "checked": "2026-11-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 11,
+      "not_found": 31,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "OIs are serious infections that take advantage of your weak immune system.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "supported",
+        "quote": "HIV is dangerous mainly because it infects and destroys a specific type of WBC known as CD4.",
+        "source": 1
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "When patients enter the later stages of HIV, they typically start developing frequent opportunistic infections.",
+        "source": 1
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.0": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.1": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "Additionally, the nurse should assess the patient for any significant symptoms or medical history that may indicate the cause of the fungal infection, such as a history of HIV or of corticosteroid use, both of which suppress the immune system, more easily allowing infection to occur.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "supported",
+        "quote": "The hepatitis A virus is generally transmitted through the fecal-oral route, close personal contact, or exposure to contaminated water or food.",
+        "source": 1
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "The symptoms of AIDS include: diarrhea fever night sweats rashes severe weight loss (typically >10% of total body weight) swollen lymph nodes",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "supported",
+        "quote": "Once the CD4 cell count falls below 200 cells/mm 3 , the patient is diagnosed with AIDS, the most advanced stage of HIV.",
+        "source": 1
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.4": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "To decrease viral load, antiretroviral (ART) medications are used to block or slow viral replication.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "To decrease viral load, antiretroviral (ART) medications are used to block or slow viral replication.",
+        "source": 1
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "Other steps you can take to help prevent OIs include: Avoiding exposure to contaminated food and water : Don't undercooked eggs, unpasteurized dairy products or fruit juices, or raw seed sprouts Don't drink water directly from a lake or river Talking to your provider about medicines and vaccines that prevent certain OIs Preventing exposure to other sexually transmitted infections (STIs) by using condoms every time you have sex Washing your hands",
+        "source": 0
+      },
+      "sections.patient_teaching.2": {
+        "status": "supported",
+        "quote": "Additionally, if they suspect they have an infection of any kind, it is important for them to seek care immediately; because their immune system is not functioning optimally, a “small” infection can quickly become life-threatening (Mayo Clinic, 2024).",
+        "source": 1
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}

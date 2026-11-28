@@ -1,0 +1,487 @@
+{
+  "id": "thyroid-hormone-imbalance",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Desequilibrio de la hormona tiroidea",
+    "aliases": [
+      "hipertiroidismo",
+      "hipotiroidismo",
+      "tiroides",
+      "desbalance tiroideo",
+      "trastorno tiroideo"
+    ],
+    "summary": "Alteración en la producción de hormonas tiroideas que afecta el metabolismo basal, la temperatura y la función cardiovascular.",
+    "key_points": [
+      "Hipertiroidismo: TSH bajo, T4/T3 elevados; síntomas de hiperactividad y pérdida de peso.",
+      "Hipotiroidismo: TSH alto, T4 bajo; síntomas de fatiga, aumento de peso y intolerancia al frío.",
+      "Levotiroxina es el fármaco de elección para hipotiroidismo; metimazol o propiltiouracilo para hipertiroidismo.",
+      "Monitoreo regular de TSH es esencial para ajustar la terapia."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "La tiroides produce T4 y T3 que regulan el metabolismo.",
+        "Hipertiroidismo: estimulación excesiva (ej. enfermedad de Graves) aumenta T4/T3.",
+        "Hipotiroidismo: destrucción o insuficiencia (ej. tiroiditis) reduce T4/T3.",
+        "Alteraciones hormonales modifican consumo de oxígeno y producción de calor."
+      ],
+      "risk_factors": [
+        "Antecedentes familiares de enfermedad tiroidea.",
+        "Exposición a yodo en exceso o deficiencia.",
+        "Enfermedades autoinmunes (p. ej., enfermedad de Graves, tiroiditis de Hashimoto).",
+        "Radiación cervical o tratamientos con litio."
+      ],
+      "signs_symptoms": [
+        "Hipertiroidismo: pérdida de peso, temblor, taquicardia, intolerancia al calor.",
+        "Hipotiroidismo: aumento de peso, fatiga, piel seca, intolerancia al frío.",
+        "Cambios en el ritmo cardíaco y presión arterial.",
+        "Alteraciones menstruales y fertilidad."
+      ],
+      "diagnostics": [
+        "TSH (µIU/mL): bajo en hipertiroidismo, alto en hipotiroidismo.",
+        "T4 libre (ng/dL) y T3 (ng/dL): elevados en hipertiroidismo, disminuidos en hipotiroidismo.",
+        "Anticuerpos anti-TPO y anti-TSHR para diagnóstico autoinmune.",
+        "Ecografía tiroidea si se sospecha nódulo."
+      ],
+      "treatment": [
+        "Levotiroxina para reemplazo en hipotiroidismo.",
+        "Metimazol o propiltiouracilo para inhibir síntesis en hipertiroidismo.",
+        "Betabloqueantes (p. ej., propranolol) para controlar síntomas adrenérgicos.",
+        "Yodo radiactivo o tiroidectomía en casos graves de hipertiroidismo."
+      ],
+      "complications": [
+        "Hipertiroidismo: fibrilación auricular, osteoporosis, crisis tirotóxica.",
+        "Hipotiroidismo: mixedema, hipercolesterolemia, insuficiencia cardíaca.",
+        "Nódulos tiroideos pueden ser malignos."
+      ],
+      "nursing_care": [
+        "Evaluar signos vitales, peso y temperatura corporal cada turno.",
+        "Monitorear niveles de TSH y T4 según orden médica.",
+        "Administrar levotiroxina en ayunas, 30‑60 min antes del desayuno.",
+        "Observar reacciones adversas a antitiroideos (erupción, agranulocitosis).",
+        "Mantener registro de ingesta de yodo y medicamentos concomitantes."
+      ],
+      "patient_teaching": [
+        "Tomar levotiroxina con agua, sin alimentos ni suplementos de calcio/ hierro durante 1 h.",
+        "Reportar palpitaciones, temblores, pérdida o aumento de peso inesperado.",
+        "Seguir dieta con consumo adecuado de yodo; evitar suplementos sin indicación.",
+        "Acudir a controles de laboratorio de TSH cada 6‑8 semanas al iniciar terapia."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "hipertiroidismo",
+          "hipotiroidismo"
+        ],
+        "evidenced_by": [
+          "fatiga",
+          "disnea al esfuerzo",
+          "palpitaciones"
+        ],
+        "outcomes": [
+          "Actividad tolerada: paciente reporta disminución de fatiga al realizar actividades de la vida diaria en 2 semanas.",
+          "Frecuencia cardíaca: mantiene <100 lat/min en reposo en 1 semana."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar nivel de energía y capacidad para actividades antes y después de la medicación.",
+            "rationale": "Permite medir la respuesta al tratamiento y ajustar intervenciones."
+          },
+          {
+            "action": "Programar períodos de descanso programado cada 2 h durante actividades prolongadas.",
+            "rationale": "Previene el agotamiento y mejora la tolerancia al esfuerzo."
+          },
+          {
+            "action": "Enseñar al paciente técnicas de conservación de energía (sentarse mientras se lava ropa, dividir tareas).",
+            "rationale": "Reduce la demanda metabólica y alivia la intolerancia."
+          },
+          {
+            "action": "Monitorear signos vitales, especialmente frecuencia cardíaca y presión arterial, antes de la actividad.",
+            "rationale": "Detecta respuestas fisiológicas que puedan limitar la actividad."
+          },
+          {
+            "action": "Coordinar con el médico para ajustar dosis de betabloqueantes o levotiroxina según necesidad.",
+            "rationale": "Optimiza el control hormonal y mejora la capacidad funcional."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de desequilibrio electrolítico",
+        "type": "risk",
+        "related_to": [
+          "hipertiroidismo",
+          "uso de propiltiouracilo",
+          "diarrea",
+          "pérdida de sudoración excesiva"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Electrolitos séricos: Na+, K+, Ca2+ dentro de rangos normales en 48 h.",
+          "Paciente muestra ausencia de síntomas de hipocalemia o hipernatremia."
+        ],
+        "interventions": [
+          {
+            "action": "Obtener y registrar resultados de electrolitos (Na+, K+, Ca2+) al iniciar terapia antitiroidea.",
+            "rationale": "Identifica alteraciones tempranas y permite intervención oportuna."
+          },
+          {
+            "action": "Evaluar ingesta y pérdidas de líquidos (sudoración, diarrea) cada turno.",
+            "rationale": "Ayuda a prevenir desequilibrios por déficit o exceso de fluidos."
+          },
+          {
+            "action": "Administrar suplementos de potasio o sodio según prescripción y monitorizar niveles.",
+            "rationale": "Corrige desequilibrios y previene complicaciones cardíacas."
+          },
+          {
+            "action": "Educar al paciente sobre alimentos ricos en potasio y la importancia de hidratación adecuada.",
+            "rationale": "Promueve autocuidado y mantenimiento del equilibrio electrolítico."
+          },
+          {
+            "action": "Notificar al médico cualquier cambio significativo en los valores de electrolitos.",
+            "rationale": "Facilita ajustes de medicación o intervención adicional."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Thyroid hormone imbalance",
+    "aliases": [
+      "hyperthyroidism",
+      "hypothyroidism",
+      "thyroid",
+      "thyroid imbalance",
+      "thyroid disorder"
+    ],
+    "summary": "Alteration in the production of thyroid hormones that affects basal metabolism, temperature, and cardiovascular function.",
+    "key_points": [
+      "Hyperthyroidism: low TSH, elevated T4/T3; symptoms of hyperactivity and weight loss.",
+      "Hypothyroidism: high TSH, low T4; symptoms of fatigue, weight gain, and cold intolerance.",
+      "Levothyroxine is the drug of choice for hypothyroidism; methimazole or propylthiouracil for hyperthyroidism.",
+      "Regular TSH monitoring is essential to adjust therapy."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "The thyroid produces T4 and T3 that regulate metabolism.",
+        "Hyperthyroidism: excessive stimulation (e.g., Graves disease) increases T4/T3.",
+        "Hypothyroidism: destruction or insufficiency (e.g., thyroiditis) reduces T4/T3.",
+        "Hormonal changes modify oxygen consumption and heat production."
+      ],
+      "risk_factors": [
+        "Family history of thyroid disease.",
+        "Excess or deficiency of iodine exposure.",
+        "Autoimmune diseases (e.g., Graves disease, Hashimoto thyroiditis).",
+        "Cervical radiation or lithium therapy."
+      ],
+      "signs_symptoms": [
+        "Hyperthyroidism: weight loss, tremor, tachycardia, heat intolerance.",
+        "Hypothyroidism: weight gain, fatigue, dry skin, cold intolerance.",
+        "Changes in heart rhythm and blood pressure.",
+        "Menstrual and fertility alterations."
+      ],
+      "diagnostics": [
+        "TSH (µIU/mL): low in hyperthyroidism, high in hypothyroidism.",
+        "Free T4 (ng/dL) and T3 (ng/dL): elevated in hyperthyroidism, decreased in hypothyroidism.",
+        "Anti‑TPO and anti‑TSHR antibodies for autoimmune diagnosis.",
+        "Thyroid ultrasound if a nodule is suspected."
+      ],
+      "treatment": [
+        "Levothyroxine for replacement in hypothyroidism.",
+        "Methimazole or propylthiouracil to inhibit synthesis in hyperthyroidism.",
+        "Beta‑blockers (e.g., propranolol) to control adrenergic symptoms.",
+        "Radioactive iodine or thyroidectomy in severe hyperthyroidism."
+      ],
+      "complications": [
+        "Hyperthyroidism: atrial fibrillation, osteoporosis, thyroid storm.",
+        "Hypothyroidism: myxedema, hypercholesterolemia, heart failure.",
+        "Thyroid nodules may be malignant."
+      ],
+      "nursing_care": [
+        "Assess vital signs, weight, and body temperature each shift.",
+        "Monitor TSH and T4 levels as ordered.",
+        "Administer levothyroxine on an empty stomach, 30‑60 min before breakfast.",
+        "Observe for adverse reactions to antithyroid drugs (rash, agranulocytosis).",
+        "Maintain a record of iodine intake and concurrent medications."
+      ],
+      "patient_teaching": [
+        "Take levothyroxine with water, no food or calcium/iron supplements for 1 h.",
+        "Report palpitations, tremors, unexpected weight loss or gain.",
+        "Follow a diet with adequate iodine; avoid unprescribed supplements.",
+        "Attend laboratory follow‑ups for TSH every 6‑8 weeks when starting therapy."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "hyperthyroidism",
+          "hypothyroidism"
+        ],
+        "evidenced_by": [
+          "fatigue",
+          "dyspnea on exertion",
+          "palpitations"
+        ],
+        "outcomes": [
+          "Activity tolerated: patient reports decreased fatigue during daily activities within 2 weeks.",
+          "Heart rate: remains <100 bpm at rest within 1 week."
+        ],
+        "interventions": [
+          {
+            "action": "Assess energy level and ability for activities before and after medication.",
+            "rationale": "Allows measurement of treatment response and adjustment of interventions."
+          },
+          {
+            "action": "Schedule scheduled rest periods every 2 h during prolonged activities.",
+            "rationale": "Prevents exhaustion and improves exercise tolerance."
+          },
+          {
+            "action": "Teach the patient energy conservation techniques (sitting while doing laundry, dividing tasks).",
+            "rationale": "Reduces metabolic demand and alleviates intolerance."
+          },
+          {
+            "action": "Monitor vital signs, especially heart rate and blood pressure, before activity.",
+            "rationale": "Detects physiological responses that may limit activity."
+          },
+          {
+            "action": "Coordinate with the physician to adjust beta‑blocker or levothyroxine doses as needed.",
+            "rationale": "Optimizes hormonal control and improves functional capacity."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for electrolyte imbalance",
+        "type": "risk",
+        "related_to": [
+          "hyperthyroidism",
+          "use of propylthiouracil",
+          "diarrhea",
+          "excessive sweating"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Serum electrolytes: Na+, K+, Ca2+ within normal ranges within 48 h.",
+          "Patient shows absence of hypokalemia or hypernatremia symptoms."
+        ],
+        "interventions": [
+          {
+            "action": "Obtain and record electrolyte results (Na+, K+, Ca2+) at initiation of antithyroid therapy.",
+            "rationale": "Identifies early alterations and allows timely intervention."
+          },
+          {
+            "action": "Assess fluid intake and losses (sweating, diarrhea) each shift.",
+            "rationale": "Helps prevent imbalances from fluid deficit or excess."
+          },
+          {
+            "action": "Administer potassium or sodium supplements as prescribed and monitor levels.",
+            "rationale": "Corrects imbalances and prevents cardiac complications."
+          },
+          {
+            "action": "Educate the patient about potassium‑rich foods and the importance of adequate hydration.",
+            "rationale": "Promotes self‑care and maintenance of electrolyte balance."
+          },
+          {
+            "action": "Notify the physician of any significant changes in electrolyte values.",
+            "rationale": "Facilitates medication adjustments or additional intervention."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "hyperthyroidism",
+    "hypothyroidism",
+    "thyroidectomy",
+    "radioactive-iodine-therapy"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Uterine Diseases",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/uterinediseases.html",
+      "lang": "en"
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thyroid and Parathyroid Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Pharmacology for Nurses: Thyroid and Antithyroid Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/27-2-thyroid-and-antithyroid-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-28",
+  "factcheck": {
+    "checked": "2026-11-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 14,
+      "not_found": 21,
+      "contradicted": 2,
+      "total": 37
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "The thyroid controls metabolism, heart rate, and body temperature.",
+        "source": 1
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "not_found"
+      },
+      "key_points.2": {
+        "status": "not_found"
+      },
+      "key_points.3": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "This imbalance affects the body’s energy utilization, oxygen consumption, and heat production.",
+        "source": 1
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Risk factors for thyroid cancer include radiation exposure, low iodine diet, obesity, family history, and certain hereditary conditions.",
+        "source": 1
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Dietary iodine deficiency can result in the impaired ability to synthesize T3 and T4, leading to a variety of severe disorders.",
+        "source": 1
+      },
+      "sections.risk_factors.2": {
+        "status": "supported",
+        "quote": "In Graves’ disease, the hyperthyroid state results from an autoimmune reaction in which antibodies overstimulate the follicle cells of the thyroid gland.",
+        "source": 1
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "supported",
+        "quote": "Hyperthyroidism Hypothyroidism Nervousness/irritability Fatigue/muscle weakness Mood swings Heat intolerance Insomnia Tremors Tachycardia/irregular heart rhythm Weight loss Diarrhea Goiter Depression Fatigue Dry skin Dry, thinning hair Cold intolerance Puffy face Joint/muscle pain Bradycardia Decreased sweating Constipation Heavy/irregular menstrual periods and fertility problems Table 21.9 Signs and Symptoms of Hyperthyroidism and Hypothyroidism",
+        "source": 1
+      },
+      "sections.signs_symptoms.1": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Vital signs are evaluated with a focus on heart rhythm, blood pressure, and lung sounds.",
+        "source": 1
+      },
+      "sections.signs_symptoms.3": {
+        "status": "supported",
+        "quote": "Hyperthyroidism Hypothyroidism Nervousness/irritability Fatigue/muscle weakness Mood swings Heat intolerance Insomnia Tremors Tachycardia/irregular heart rhythm Weight loss Diarrhea Goiter Depression Fatigue Dry skin Dry, thinning hair Cold intolerance Puffy face Joint/muscle pain Bradycardia Decreased sweating Constipation Heavy/irregular menstrual periods and fertility problems Table 21.9 Signs and Symptoms of Hyperthyroidism and Hypothyroidism",
+        "source": 1
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Hypothyroidism is primarily treated with thyroid hormone replacement therapy, such as levothyroxine.",
+        "source": 1
+      },
+      "sections.treatment.1": {
+        "status": "supported",
+        "quote": "Methimazole inhibits the synthesis of thyroid hormones and is indicated to treat hyperthyroidism.",
+        "source": 2
+      },
+      "sections.treatment.2": {
+        "status": "not_found"
+      },
+      "sections.treatment.3": {
+        "status": "supported",
+        "quote": "Propylthiouracil is indicated for Graves’ disease with hyperthyroidism, multinodular goiter , and to ameliorate symptoms of hyperthyroidism before thyroidectomy or radioactive iodine therapy in clients who did not tolerate methimazole.",
+        "source": 2
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "supported",
+        "quote": "Imaging tests—such as ultrasound, radioiodine scan, chest X-ray, computed tomography (CT) scan, magnetic resonance imaging (MRI) scan, and positron emission tomography (PET) scan—can help to find suspicious areas that may be malignant, to see if a malignancy has spread, and to determine if a treatment is working.",
+        "source": 1
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "Common adverse effects include: Rash or skin reactions—pruritis and hives Gastrointestinal symptoms—nausea and vomiting Liver toxicity—jaundice, dark urine, abdominal pain, fatigue Bone marrow suppression—decreased white blood cell, red blood cell, and platelet production leading to unexplained fever, sore thro",
+        "source": 2
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "contradicted",
+        "quote": "Take within 4 hours of taking calcium and/or iron supplements, including calcium antacids, because they may impact the drug’s absorption.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "supported",
+        "quote": "The patient should be able to state the importance of therapy compliance, maintain a positive body image, and state what symptoms should be reported to the provider, such as changes in weight, energy levels, and mood, with specific attention to symptoms like rapid heartbeat or tremors in hyperthyroidism, and fatigue or weight gain in hypothyroidism.",
+        "source": 1
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "contradicted",
+        "quote": "Standard dosing starts at 1.6 mcg/kg/day orally; increase by 12.5–25 mcg orally every 4–6 weeks if needed.",
+        "source": 2
+      }
+    }
+  }
+}

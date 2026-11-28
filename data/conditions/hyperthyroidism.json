@@ -1,0 +1,522 @@
+{
+  "id": "hyperthyroidism",
+  "category": "conditions",
+  "areas": [],
+  "es": {
+    "term": "Hipertiroidismo (HT)",
+    "aliases": [
+      "hipertiroidismo",
+      "tiroides hiperactiva",
+      "hiperactividad tiroidea",
+      "tiroides",
+      "hipertiroidismo graves"
+    ],
+    "summary": "El hipertiroidismo es la producción excesiva de hormonas tiroideas, lo que acelera el metabolismo y afecta múltiples sistemas orgánicos.",
+    "key_points": [
+      "TSH suprimida y T4 libre elevada son hallazgos de laboratorio típicos.",
+      "Graves es la causa autoinmune más frecuente.",
+      "Los síntomas incluyen taquicardia, temblor, pérdida de peso y intolerancia al calor.",
+      "Complicaciones graves: fibrilación auricular y crisis tiroidea.",
+      "Tratamiento de primera línea: antitiroideos (metimazol, propiltiouracilo) y betabloqueantes."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Los autoanticuerpos (IgG) estimulan el receptor de TSH, aumentando la síntesis de T3/T4.",
+        "El exceso de hormonas eleva la tasa metabólica basal.",
+        "Se incrementa la sensibilidad a catecolaminas, provocando taquicardia y temblor.",
+        "El aumento del gasto energético genera pérdida de peso y sudoración profusa."
+      ],
+      "risk_factors": [
+        "Enfermedad de Graves (autoinmune).",
+        "Nódulos tiroideos hiperactivos.",
+        "Tiroiditis subaguda o postparto.",
+        "Exceso de yodo (p.ej., suplementos, contrastes)."
+      ],
+      "signs_symptoms": [
+        "Taquicardia >100 lpm, ritmo irregular.",
+        "Temblor fino de manos.",
+        "Intolerancia al calor y sudoración abundante.",
+        "Pérdida de peso pese a apetito normal o aumentado.",
+        "Ansiedad, irritabilidad y temblores."
+      ],
+      "diagnostics": [
+        "TSH <0.4 µIU/mL (suprimida).",
+        "T4 libre >1.8 ng/dL o T3 total >200 ng/dL.",
+        "Gammagrafía tiroidea: captación aumentada en Graves.",
+        "Ecografía: nódulos hipervascularizados."
+      ],
+      "treatment": [
+        "Metimazol (antitiroideo) para inhibir síntesis de hormonas.",
+        "Propiltiouracilo (PTU) en embarazo o antes de cirugía.",
+        "Betabloqueador (p. ej., propranolol) para controlar taquicardia y temblor.",
+        "Yodo radiactivo (I‑131) para ablación tiroidea definitiva.",
+        "Tiroidectomía total o parcial en casos refractarios."
+      ],
+      "complications": [
+        "Fibrilación auricular y otras arritmias.",
+        "Osteoporosis por aumento del remodelado óseo.",
+        "Crisis tiroidea (tormenta) con fiebre alta y alteración mental.",
+        "Pérdida de masa muscular y debilidad."
+      ],
+      "nursing_care": [
+        "Monitorear signos vitales cada 4 h; prestar especial atención a frecuencia cardíaca y temperatura.",
+        "Evaluar peso diario y pérdida de peso no intencional.",
+        "Observar temblor, nivel de actividad y fatiga.",
+        "Controlar laboratorio de TSH y T4 según indicación médica.",
+        "Administrar antitiroideos y betabloqueantes según prescripción, observar efectos adversos."
+      ],
+      "patient_teaching": [
+        "Tomar el medicamento exactamente como se indica, sin omitir dosis.",
+        "Evitar alimentos ricos en yodo antes de terapia con yodo radiactivo.",
+        "Reportar palpitaciones, temblores intensos o fiebre súbita.",
+        "Mantener hidratación adecuada para compensar sudoración.",
+        "Programar controles de laboratorio cada 4‑6 semanas al iniciar tratamiento."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Intolerancia a la actividad",
+        "type": "actual",
+        "related_to": [
+          "taquicardia",
+          "temblor",
+          "hipermetabolismo",
+          "fatiga"
+        ],
+        "evidenced_by": [
+          "taquicardia >100 lpm",
+          "temblor fino",
+          "fatiga al realizar actividades de la vida diaria"
+        ],
+        "outcomes": [
+          "Intolerancia a la actividad: el paciente reportará tolerar actividades de la vida diaria sin fatiga en 48 h.",
+          "Nivel de energía: aumentará a 4‑5 en escala de 0‑10 dentro de 5 días."
+        ],
+        "interventions": [
+          {
+            "action": "Evaluar frecuencia cardíaca y ritmo antes de cada actividad.",
+            "rationale": "Detectar taquicardia que pueda limitar la tolerancia al ejercicio."
+          },
+          {
+            "action": "Planificar actividades en intervalos cortos con descansos frecuentes.",
+            "rationale": "Permite al paciente conservar energía y evitar sobrecarga."
+          },
+          {
+            "action": "Administrar betabloqueante según orden y observar respuesta.",
+            "rationale": "Reduce la frecuencia cardíaca y el temblor, mejorando la capacidad de actividad."
+          },
+          {
+            "action": "Enseñar técnicas de relajación y respiración profunda.",
+            "rationale": "Disminuye la ansiedad y la percepción de fatiga."
+          },
+          {
+            "action": "Registrar nivel de fatiga en escala de 0‑10 cada turno.",
+            "rationale": "Facilita la evaluación del progreso y la efectividad de las intervenciones."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Riesgo de déficit de volumen de líquidos",
+        "type": "risk",
+        "related_to": [
+          "sudoración profusa",
+          "taquicardia",
+          "intolerancia al calor"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Balance hídrico: el paciente mantendrá ingesta de líquidos ≥2 L/día.",
+          "Hidratación: la turgencia cutánea permanecerá normal y la diuresis >30 mL/h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitorear ingesta y eliminación de líquidos cada 8 h.",
+            "rationale": "Detectar déficit temprano y ajustar reposición."
+          },
+          {
+            "action": "Ofrecer agua o soluciones electrolíticas cada 2 h o según tolerancia.",
+            "rationale": "Compensar la pérdida por sudoración y prevenir deshidratación."
+          },
+          {
+            "action": "Evaluar turgencia de la piel y mucosas en cada visita.",
+            "rationale": "Indicadores clínicos de estado de hidratación."
+          },
+          {
+            "action": "Registrar temperatura corporal y sudoración para correlacionar con pérdidas de líquido.",
+            "rationale": "Ayuda a anticipar necesidades de reposición hídrica."
+          },
+          {
+            "action": "Educar al paciente sobre la importancia de beber líquidos regularmente y reconocer signos de deshidratación.",
+            "rationale": "Promueve autocuidado y prevención del déficit de volumen."
+          }
+        ]
+      }
+    ]
+  },
+  "en": {
+    "term": "Hyperthyroidism (HT)",
+    "aliases": [
+      "hyperthyroidism",
+      "hyperactive thyroid",
+      "thyroid hyperactivity",
+      "thyroid",
+      "graves hyperthyroidism"
+    ],
+    "summary": "Hyperthyroidism is the excessive production of thyroid hormones, accelerating metabolism and affecting multiple organ systems.",
+    "key_points": [
+      "Suppressed TSH and elevated free T4 are typical lab findings.",
+      "Graves disease is the most common autoimmune cause.",
+      "Symptoms include tachycardia, tremor, weight loss, and heat intolerance.",
+      "Severe complications: atrial fibrillation and thyroid storm.",
+      "First-line treatment: antithyroid drugs (methimazole, propylthiouracil) and beta‑blockers."
+    ],
+    "sections": {
+      "pathophysiology": [
+        "Autoantibodies (IgG) stimulate the TSH receptor, increasing T3/T4 synthesis.",
+        "Excess hormones raise basal metabolic rate.",
+        "Sensitivity to catecholamines increases, causing tachycardia and tremor.",
+        "Increased energy expenditure leads to weight loss and profuse sweating."
+      ],
+      "risk_factors": [
+        "Graves disease (autoimmune).",
+        "Hyperactive thyroid nodules.",
+        "Subacute or postpartum thyroiditis.",
+        "Excess iodine (e.g., supplements, contrast media)."
+      ],
+      "signs_symptoms": [
+        "Tachycardia >100 bpm, irregular rhythm.",
+        "Fine hand tremor.",
+        "Heat intolerance and profuse sweating.",
+        "Weight loss despite normal or increased appetite.",
+        "Anxiety, irritability, and tremors."
+      ],
+      "diagnostics": [
+        "TSH <0.4 µIU/mL (suppressed).",
+        "Free T4 >1.8 ng/dL or total T3 >200 ng/dL.",
+        "Thyroid scintigraphy: increased uptake in Graves.",
+        "Ultrasound: hypervascular nodules."
+      ],
+      "treatment": [
+        "Methimazole (antithyroid) to inhibit hormone synthesis.",
+        "Propylthiouracil (PTU) during pregnancy or before surgery.",
+        "Beta‑blocker (e.g., propranolol) to control tachycardia and tremor.",
+        "Radioactive iodine (I‑131) for definitive thyroid ablation.",
+        "Total or subtotal thyroidectomy in refractory cases."
+      ],
+      "complications": [
+        "Atrial fibrillation and other arrhythmias.",
+        "Osteoporosis due to increased bone remodeling.",
+        "Thyroid storm with high fever and altered mental status.",
+        "Muscle mass loss and weakness."
+      ],
+      "nursing_care": [
+        "Monitor vital signs every 4 h; pay special attention to heart rate and temperature.",
+        "Weigh daily and assess for unintended weight loss.",
+        "Observe tremor, activity level, and fatigue.",
+        "Check TSH and T4 labs as ordered.",
+        "Administer antithyroid drugs and beta‑blockers per prescription, monitoring for adverse effects."
+      ],
+      "patient_teaching": [
+        "Take medication exactly as prescribed, do not miss doses.",
+        "Avoid iodine‑rich foods before radioactive iodine therapy.",
+        "Report palpitations, intense tremors, or sudden fever.",
+        "Maintain adequate hydration to compensate for sweating.",
+        "Schedule lab checks every 4‑6 weeks when starting treatment."
+      ]
+    },
+    "care_plans": [
+      {
+        "diagnosis": "Activity intolerance",
+        "type": "actual",
+        "related_to": [
+          "tachycardia",
+          "tremor",
+          "hypermetabolism",
+          "fatigue"
+        ],
+        "evidenced_by": [
+          "tachycardia >100 bpm",
+          "fine tremor",
+          "fatigue during activities of daily living"
+        ],
+        "outcomes": [
+          "Activity intolerance: the patient will report tolerating daily activities without fatigue within 48 h.",
+          "Energy level: will increase to 4‑5 on a 0‑10 scale within 5 days."
+        ],
+        "interventions": [
+          {
+            "action": "Assess heart rate and rhythm before each activity.",
+            "rationale": "Detect tachycardia that may limit exercise tolerance."
+          },
+          {
+            "action": "Plan activities in short intervals with frequent rest breaks.",
+            "rationale": "Allows the patient to conserve energy and avoid overload."
+          },
+          {
+            "action": "Administer beta‑blocker as ordered and observe response.",
+            "rationale": "Reduces heart rate and tremor, improving activity capacity."
+          },
+          {
+            "action": "Teach relaxation and deep breathing techniques.",
+            "rationale": "Decreases anxiety and perceived fatigue."
+          },
+          {
+            "action": "Record fatigue level on a 0‑10 scale each shift.",
+            "rationale": "Facilitates assessment of progress and intervention effectiveness."
+          }
+        ]
+      },
+      {
+        "diagnosis": "Risk for deficient fluid volume",
+        "type": "risk",
+        "related_to": [
+          "profuse sweating",
+          "tachycardia",
+          "heat intolerance"
+        ],
+        "evidenced_by": [],
+        "outcomes": [
+          "Fluid balance: the patient will maintain fluid intake ≥2 L/day.",
+          "Hydration: skin turgor will remain normal and urine output >30 mL/h."
+        ],
+        "interventions": [
+          {
+            "action": "Monitor fluid intake and output every 8 h.",
+            "rationale": "Detect early deficit and adjust replacement."
+          },
+          {
+            "action": "Offer water or electrolyte solutions every 2 h or as tolerated.",
+            "rationale": "Compensate for sweat loss and prevent dehydration."
+          },
+          {
+            "action": "Assess skin and mucous membrane turgor at each visit.",
+            "rationale": "Clinical indicators of hydration status."
+          },
+          {
+            "action": "Record body temperature and sweating to correlate with fluid loss.",
+            "rationale": "Helps anticipate hydration needs."
+          },
+          {
+            "action": "Educate the patient on the importance of regular fluid intake and recognizing dehydration signs.",
+            "rationale": "Promotes self‑care and prevention of volume deficit."
+          }
+        ]
+      }
+    ]
+  },
+  "related": [
+    "graves-disease",
+    "thyroid-storm",
+    "atrial-fibrillation",
+    "osteoporosis"
+  ],
+  "sources": [
+    {
+      "name": "MedlinePlus: Hyperthyroidism",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/hyperthyroidism.html",
+      "lang": "en"
+    },
+    {
+      "name": "MedlinePlus en español: Hipertiroidismo",
+      "publisher": "National Library of Medicine",
+      "url": "https://medlineplus.gov/spanish/hyperthyroidism.html",
+      "lang": "es"
+    },
+    {
+      "name": "Pharmacology for Nurses: Thyroid and Antithyroid Drugs",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/pharmacology/pages/27-2-thyroid-and-antithyroid-drugs",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    },
+    {
+      "name": "Medical-Surgical Nursing: Thyroid and Parathyroid Disorders",
+      "publisher": "OpenStax",
+      "url": "https://openstax.org/books/medical-surgical-nursing/pages/21-3-thyroid-and-parathyroid-disorders",
+      "lang": "en",
+      "license": {
+        "name": "CC BY-NC-SA 4.0",
+        "url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+      }
+    }
+  ],
+  "ai_drafted": true,
+  "verified": false,
+  "updated": "2026-11-28",
+  "factcheck": {
+    "checked": "2026-11-28",
+    "model": "qwen/qwen3.8-27b",
+    "counts": {
+      "supported": 17,
+      "not_found": 25,
+      "contradicted": 0,
+      "total": 42
+    },
+    "claims": {
+      "summary.0": {
+        "status": "supported",
+        "quote": "These hormones affect nearly every organ in your body and control many of your body's most important functions.",
+        "source": 0
+      },
+      "key_points.0": {
+        "status": "not_found"
+      },
+      "key_points.1": {
+        "status": "supported",
+        "quote": "Graves’ disease is the most common cause of hyperthyroidism.",
+        "source": 3
+      },
+      "key_points.2": {
+        "status": "supported",
+        "quote": "Hyperthyroidism Hypothyroidism Nervousness/irritability Fatigue/muscle weakness Mood swings Heat intolerance Insomnia Tremors Tachycardia/irregular heart rhythm Weight loss Diarrhea Goiter Depression Fatigue Dry skin Dry, thinning hair Cold intolerance Puffy face Joint/muscle pain Bradycardia Decreased sweating Constipation Heavy/irregular menstrual periods and fertility problems Table 21.9 Signs and Symptoms of Hyperthyroidism and Hypothyroidism",
+        "source": 3
+      },
+      "key_points.3": {
+        "status": "supported",
+        "quote": "Complications of Graves’ disease include heart arrhythmias, heart failure, miscarriage, preterm birth, preeclampsia, maternal heart failure, osteoporosis, and thyroid storm.",
+        "source": 3
+      },
+      "key_points.4": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.0": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.1": {
+        "status": "supported",
+        "quote": "Hyperthyroidism The overproduction of thyroid hormones, hyperthyroidism can lead to an increased metabolic rate and its effects: weight loss, excess heat production, sweating, and an increased heart rate.",
+        "source": 3
+      },
+      "sections.pathophysiology.2": {
+        "status": "not_found"
+      },
+      "sections.pathophysiology.3": {
+        "status": "supported",
+        "quote": "Hyperthyroidism The overproduction of thyroid hormones, hyperthyroidism can lead to an increased metabolic rate and its effects: weight loss, excess heat production, sweating, and an increased heart rate.",
+        "source": 3
+      },
+      "sections.risk_factors.0": {
+        "status": "supported",
+        "quote": "Graves' disease, an autoimmune disorder in which your immune system attacks your thyroid and causes it to make too much hormone.",
+        "source": 0
+      },
+      "sections.risk_factors.1": {
+        "status": "supported",
+        "quote": "Thyroid nodules, which are growths on your thyroid.",
+        "source": 0
+      },
+      "sections.risk_factors.2": {
+        "status": "not_found"
+      },
+      "sections.risk_factors.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.0": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.1": {
+        "status": "supported",
+        "quote": "Tremor , usually in your hands",
+        "source": 0
+      },
+      "sections.signs_symptoms.2": {
+        "status": "supported",
+        "quote": "Hyperthyroidism The overproduction of thyroid hormones, hyperthyroidism can lead to an increased metabolic rate and its effects: weight loss, excess heat production, sweating, and an increased heart rate.",
+        "source": 3
+      },
+      "sections.signs_symptoms.3": {
+        "status": "not_found"
+      },
+      "sections.signs_symptoms.4": {
+        "status": "supported",
+        "quote": "The symptoms of hyperthyroidism can vary from person to person and may include: Nervousness or irritability Fatigue Muscle weakness Trouble tolerating heat Trouble sleeping Tremor , usually in your hands Rapid and irregular heartbeat Frequent bowel movements or diarrhea Weight loss Mood swings Goiter, an enlarged thyroid that may cause your neck to look swollen.",
+        "source": 0
+      },
+      "sections.diagnostics.0": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.1": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.2": {
+        "status": "not_found"
+      },
+      "sections.diagnostics.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.0": {
+        "status": "supported",
+        "quote": "Methimazole inhibits the synthesis of thyroid hormones and is indicated to treat hyperthyroidism.",
+        "source": 2
+      },
+      "sections.treatment.1": {
+        "status": "not_found"
+      },
+      "sections.treatment.2": {
+        "status": "supported",
+        "quote": "Beta blockers may be prescribed for symptomatic treatment of palpitations, tachycardia, and tremor.",
+        "source": 3
+      },
+      "sections.treatment.3": {
+        "status": "not_found"
+      },
+      "sections.treatment.4": {
+        "status": "not_found"
+      },
+      "sections.complications.0": {
+        "status": "not_found"
+      },
+      "sections.complications.1": {
+        "status": "not_found"
+      },
+      "sections.complications.2": {
+        "status": "not_found"
+      },
+      "sections.complications.3": {
+        "status": "supported",
+        "quote": "The symptoms of hyperthyroidism can vary from person to person and may include: Nervousness or irritability Fatigue Muscle weakness Trouble tolerating heat Trouble sleeping Tremor , usually in your hands Rapid and irregular heartbeat Frequent bowel movements or diarrhea Weight loss Mood swings Goiter, an enlarged thyroid that may cause your neck to look swollen.",
+        "source": 0
+      },
+      "sections.nursing_care.0": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.1": {
+        "status": "not_found"
+      },
+      "sections.nursing_care.2": {
+        "status": "supported",
+        "quote": "The patient should be able to state the importance of therapy compliance, maintain a positive body image, and state what symptoms should be reported to the provider, such as changes in weight, energy levels, and mood, with specific attention to symptoms like rapid heartbeat or tremors in hyperthyroidism, and fatigue or weight gain in hypothyroidism.",
+        "source": 3
+      },
+      "sections.nursing_care.3": {
+        "status": "supported",
+        "quote": "TSH, T3, T4, thyroglobulin, PTH, and calcitonin levels can help determine thyroid and parathyroid function.",
+        "source": 3
+      },
+      "sections.nursing_care.4": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.0": {
+        "status": "supported",
+        "quote": "Take the drug exactly as prescribed by the health care provider.",
+        "source": 2
+      },
+      "sections.patient_teaching.1": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.2": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.3": {
+        "status": "not_found"
+      },
+      "sections.patient_teaching.4": {
+        "status": "not_found"
+      }
+    }
+  }
+}
